@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;node-red-contrib-iremocon.js:4[19:29];Sink: this.host;node-red-contrib-iremocon.js:6[21:29]::FLOW_DESCR_END","/node-red-contrib-iremocon.js","4","19","4","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-iremocon.js:7[35:37];Sink: msg;node-red-contrib-iremocon.js:19[26:28]::FLOW_DESCR_END","/node-red-contrib-iremocon.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-iremocon.js:32[35:37];Sink: msg;node-red-contrib-iremocon.js:44[26:28]::FLOW_DESCR_END","/node-red-contrib-iremocon.js","32","35","32","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-iremocon.js:57[35:37];Sink: msg;node-red-contrib-iremocon.js:69[26:28]::FLOW_DESCR_END","/node-red-contrib-iremocon.js","57","35","57","37"

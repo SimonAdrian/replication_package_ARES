@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zoho-iot.js:238[39:41];Sink: JSON.st ... ayload);zoho-iot.js:241[53:79]::FLOW_DESCR_END","/zoho-iot.js","238","39","238","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;zoho-iot.js:283[39:43];Sink: 'Connec ... + error;zoho-iot.js:285[28:55]::FLOW_DESCR_END","/zoho-iot.js","283","39","283","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;zoho-iot.js:351[51:57];Sink: JSON.stringify(ack);zoho-iot.js:379[33:51]::FLOW_DESCR_END","/zoho-iot.js","351","51","351","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;zoho-iot.js:394[39:43];Sink: 'Connec ... + error;zoho-iot.js:396[28:55]::FLOW_DESCR_END","/zoho-iot.js","394","39","394","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zoho-iot.js:447[39:41];Sink: JSON.stringify(ack);zoho-iot.js:460[48:66]::FLOW_DESCR_END","/zoho-iot.js","447","39","447","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;zoho-iot.js:510[39:43];Sink: 'Connec ... + error;zoho-iot.js:512[28:55]::FLOW_DESCR_END","/zoho-iot.js","510","39","510","43"

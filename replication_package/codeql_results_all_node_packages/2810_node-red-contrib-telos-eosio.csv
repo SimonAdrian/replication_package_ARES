@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;eosio-push.js:84[46:48];Sink: msg;eosio-push.js:116[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;eosio-push.js:84[46:48];Sink: msg;eosio-push.js:123[54:56]::FLOW_DESCR_END","/eosio-push/eosio-push.js","84","46","84","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lower-case.js:7[35:37];Sink: msg;lower-case.js:9[23:25]::FLOW_DESCR_END","/lower-case/lower-case.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;telos-create.js:59[43:45];Sink: msg;telos-create.js:63[31:33]::FLOW_DESCR_END","/telos-create/telos-create.js","59","43","59","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;telos-msig.js:59[43:45];Sink: msg;telos-msig.js:107[31:33]::FLOW_DESCR_END","/telos-msig/telos-msig.js","59","43","59","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');telos-push.js:101[42:107];Sink: ""Action ... yload."";telos-push.js:193[45:98]::FLOW_DESCR_END","/telos-push/telos-push.js","101","42","101","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;telos-push.js:164[43:45];Sink: msg;telos-push.js:203[31:33]::FLOW_DESCR_END","/telos-push/telos-push.js","164","43","164","45"

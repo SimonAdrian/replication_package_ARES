@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;ppmp.js:117[75:81];Sink: createM ... ayload);ppmp.js:82[15:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;ppmp.js:117[75:81];Sink: content ... -spec""];ppmp.js:193[15:59]::FLOW_DESCR_END","/ppmp.js","117","75","117","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;ppmp.js:215[15:20];Sink: node.brokerurl;ppmp.js:397[33:46]::FLOW_DESCR_END","/ppmp.js","215","15","215","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ppmp.js:318[41:49];Sink: node.brokerurl;ppmp.js:397[33:46]::FLOW_DESCR_END","/ppmp.js","318","41","318","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;ppmp.js:616[69:75];Sink: content ... -spec""];ppmp.js:193[15:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;ppmp.js:616[69:75];Sink: createM ... ayload);ppmp.js:628[17:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;ppmp.js:616[69:75];Sink: ""DEBUG: ... .length;ppmp.js:632[20:77]::FLOW_DESCR_END","/ppmp.js","616","69","616","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ppmp.js:729[29:31];Sink: content ... -spec""];ppmp.js:193[15:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ppmp.js:729[29:31];Sink: msg;ppmp.js:746[16:18]::FLOW_DESCR_END","/ppmp.js","729","29","729","31"

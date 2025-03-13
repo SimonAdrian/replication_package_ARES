@@ -1,0 +1,5 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;1-netpie-microgear.js:43[38:40];Sink: msg;1-netpie-microgear.js:44[25:27]::FLOW_DESCR_END","/1-netpie-microgear.js","43","38","43","40"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;1-netpie-microgear.js:54[35:37];Sink: topic;1-netpie-microgear.js:70[27:31]::FLOW_DESCR_END
+FP (duplicate), FLOW_DESCR_START::Source: msg;1-netpie-microgear.js:54[35:37];Sink: msg.payload;1-netpie-microgear.js:70[34:44]::FLOW_DESCR_END","/1-netpie-microgear.js","54","35","54","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;2-netpie-restchat.js:19[32:34];Sink: 'https: ... '+alias;2-netpie-restchat.js:23[13:69]::FLOW_DESCR_END","/2-netpie-restchat.js","19","32","19","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;3-netpie-restpublish.js:19[32:34];Sink: 'https: ... d+topic;3-netpie-restpublish.js:23[13:61]::FLOW_DESCR_END","/3-netpie-restpublish.js","19","32","19","34"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;2jcie-bu.js:89[34:37];Sink: data;2jcie-bu.js:91[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;2jcie-bu.js:89[34:37];Sink: reslen;2jcie-bu.js:91[27:32]::FLOW_DESCR_END","/nodes/usb/src/2jcie-bu.js","89","34","89","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;2jcie-bu.js:198[35:37];Sink: `serial ... ${err}`;2jcie-bu.js:201[24:50]::FLOW_DESCR_END","/nodes/usb/src/2jcie-bu.js","198","35","198","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;serialtest.js:31[26:29];Sink: data;serialtest.js:32[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;serialtest.js:31[26:29];Sink: 'Data l ... .length;serialtest.js:38[17:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;serialtest.js:31[26:29];Sink: data;serialtest.js:41[34:37]::FLOW_DESCR_END","/test/serialtest.js","31","26","31","29"

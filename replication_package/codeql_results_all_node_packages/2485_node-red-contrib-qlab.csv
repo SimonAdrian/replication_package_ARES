@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;qlab.js:61[37:41];Sink: error.message;qlab.js:62[24:36]::FLOW_DESCR_END","/qlab.js","61","37","61","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qlab.js:197[35:37];Sink: ""[10] P ... packet);qlab.js:243[31:78]::FLOW_DESCR_END","/qlab.js","197","35","197","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;qlab.js:255[38:42];Sink: error.message;qlab.js:256[20:32]::FLOW_DESCR_END","/qlab.js","255","38","255","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qlab.js:298[35:37];Sink: ""[20] P ... packet);qlab.js:345[31:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qlab.js:298[35:37];Sink: msg;qlab.js:363[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qlab.js:298[35:37];Sink: msg;qlab.js:375[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qlab.js:298[35:37];Sink: msg;qlab.js:386[31:33]::FLOW_DESCR_END","/qlab.js","298","35","298","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;qlab.js:379[38:42];Sink: error.message;qlab.js:380[20:32]::FLOW_DESCR_END","/qlab.js","379","38","379","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;qlab.js:485[38:42];Sink: error;qlab.js:491[49:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;qlab.js:485[38:42];Sink: ""Error: ... message;qlab.js:492[22:46]::FLOW_DESCR_END","/qlab.js","485","38","485","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;qlab.js:531[57:60];Sink: ""[90] R ... .reply);qlab.js:535[52:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qlab.js:531[57:60];Sink: ""[100]  ... .reply);qlab.js:539[52:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qlab.js:531[57:60];Sink: ""[230]  ... .reply);qlab.js:636[52:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qlab.js:531[57:60];Sink: ""[240]  ... .reply);qlab.js:640[52:103]::FLOW_DESCR_END","/qlab.js","531","57","531","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;qlab.js:632[57:60];Sink: ""[90] R ... .reply);qlab.js:535[52:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qlab.js:632[57:60];Sink: ""[100]  ... .reply);qlab.js:539[52:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qlab.js:632[57:60];Sink: ""[230]  ... .reply);qlab.js:636[52:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qlab.js:632[57:60];Sink: ""[240]  ... .reply);qlab.js:640[52:103]::FLOW_DESCR_END","/qlab.js","632","57","632","60"

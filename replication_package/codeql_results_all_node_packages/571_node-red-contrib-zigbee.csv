@@ -1,0 +1,48 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: ieeeAddr;command.js:56[80:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: cid;command.js:56[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: cmd;command.js:56[99:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: zclData;command.js:56[104:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: ieeeAddr;command.js:60[54:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: cid;command.js:60[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: attributesWrite;command.js:60[73:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:40[31:33];Sink: 'unknow ... cmdType;command.js:66[36:63]::FLOW_DESCR_END","/nodes/command.js","40","31","40","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;command.js:92[39:44];Sink: nodeStatus;command.js:80[33:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;command.js:92[39:44];Sink: status;command.js:94[29:34]::FLOW_DESCR_END","/nodes/command.js","92","39","92","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;controller.js:17[31:33];Sink: err.message;controller.js:23[40:50]::FLOW_DESCR_END","/nodes/controller.js","17","31","17","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;controller.js:73[39:44];Sink: status;controller.js:75[29:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;controller.js:73[39:44];Sink: nodeStatus;controller.js:82[33:42]::FLOW_DESCR_END","/nodes/controller.js","73","39","73","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;converter.js:59[31:33];Sink: 'topic  ... g.topic;converter.js:100[31:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:59[31:33];Sink: 'topic= ... ayload);converter.js:111[28:163]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:59[31:33];Sink: `No con ... elID}'`;converter.js:147[36:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:59[31:33];Sink: `Conver ... elID}'`;converter.js:349[28:110]::FLOW_DESCR_END","/nodes/converter.js","59","31","59","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;converter.js:176[36:39];Sink: `Receiv ... elID}'`;converter.js:195[31:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;converter.js:176[36:39];Sink: `No con ... ata)}'`;converter.js:212[29:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;converter.js:176[36:39];Sink: device.modelID;converter.js:304[29:42]::FLOW_DESCR_END","/nodes/converter.js","176","36","176","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;converter.js:195[94:112];Sink: `Receiv ... elID}'`;converter.js:195[31:115]::FLOW_DESCR_END","/nodes/converter.js","195","94","195","112"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;converter.js:212[60:78];Sink: `No con ... ata)}'`;converter.js:212[29:93]::FLOW_DESCR_END","/nodes/converter.js","212","60","212","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;converter.js:274[39:44];Sink: status;converter.js:275[29:34]::FLOW_DESCR_END","/nodes/converter.js","274","39","274","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;event.js:15[39:44];Sink: status;event.js:16[29:34]::FLOW_DESCR_END","/nodes/event.js","15","39","15","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;hue-device.js:21[39:44];Sink: status;hue-device.js:22[29:34]::FLOW_DESCR_END","/nodes/hue-device.js","21","39","21","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-device.js:153[31:33];Sink: err.message;hue-device.js:157[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-device.js:153[31:33];Sink: `putLig ... load)}`;hue-device.js:493[32:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-device.js:153[31:33];Sink: `putGro ... load)}`;hue-device.js:516[32:94]::FLOW_DESCR_END","/nodes/hue-device.js","153","31","153","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;hue-light.js:21[39:44];Sink: status;hue-light.js:22[29:34]::FLOW_DESCR_END","/nodes/hue-light.js","21","39","21","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-light.js:151[31:33];Sink: err.message;hue-light.js:155[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-light.js:151[31:33];Sink: 'topic  ... ettopic;hue-light.js:168[36:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-light.js:151[31:33];Sink: `putLig ... load)}`;hue-light.js:538[32:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-light.js:151[31:33];Sink: `putGro ... load)}`;hue-light.js:561[32:94]::FLOW_DESCR_END","/nodes/hue-light.js","151","31","151","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;offline.js:13[39:44];Sink: status;offline.js:14[29:34]::FLOW_DESCR_END","/nodes/offline.js","13","39","13","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;offline.js:21[33:38];Sink: `${devi ... fline}`;offline.js:30[28:98]::FLOW_DESCR_END","/nodes/offline.js","21","33","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: shepher ... ons */);shepherd.js:311[31:128];Sink: result || {};shepherd.js:320[38:49]::FLOW_DESCR_END","/nodes/shepherd.js","311","31","311","128"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.ieeeAddr;shepherd.js:481[48:67];Sink: `device ... || ''}`;shepherd.js:481[30:100]::FLOW_DESCR_END","/nodes/shepherd.js","481","48","481","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.de ... ta.name;shepherd.js:481[72:92];Sink: `device ... || ''}`;shepherd.js:481[30:100]::FLOW_DESCR_END","/nodes/shepherd.js","481","72","481","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.meta;shepherd.js:481[72:87];Sink: `device ... || ''}`;shepherd.js:481[30:100]::FLOW_DESCR_END","/nodes/shepherd.js","481","72","481","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.ieeeAddr;shepherd.js:503[46:65];Sink: `device ... eAddr}`;shepherd.js:503[30:67]::FLOW_DESCR_END","/nodes/shepherd.js","503","46","503","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.ieeeAddr;shepherd.js:507[64:83];Sink: `device ... delID}`;shepherd.js:507[34:140]::FLOW_DESCR_END","/nodes/shepherd.js","507","64","507","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.de ... rerName;shepherd.js:507[88:115];Sink: `device ... delID}`;shepherd.js:507[34:140]::FLOW_DESCR_END","/nodes/shepherd.js","507","88","507","115"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;shepherd.js:507[120:138];Sink: `device ... delID}`;shepherd.js:507[34:140]::FLOW_DESCR_END","/nodes/shepherd.js","507","120","507","138"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.ieeeAddr;shepherd.js:514[68:87];Sink: `device ... eAddr}`;shepherd.js:514[34:89]::FLOW_DESCR_END","/nodes/shepherd.js","514","68","514","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.meta.majorrel;shepherd.js:669[40:57];Sink: `Coordi ... ision}`;shepherd.js:672[30:74]::FLOW_DESCR_END","/nodes/shepherd.js","669","40","669","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.meta.minorrel;shepherd.js:669[62:79];Sink: `Coordi ... ision}`;shepherd.js:672[30:74]::FLOW_DESCR_END","/nodes/shepherd.js","669","62","669","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.meta.maintrel;shepherd.js:669[84:101];Sink: `Coordi ... ision}`;shepherd.js:672[30:74]::FLOW_DESCR_END","/nodes/shepherd.js","669","84","669","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: revision;shepherd.js:670[28:35];Sink: `Coordi ... ision}`;shepherd.js:672[30:74]::FLOW_DESCR_END","/nodes/shepherd.js","670","28","670","35"

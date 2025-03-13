@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;shorten.js:9[19:23];Sink: value.error;shorten.js:64[17:27]::FLOW_DESCR_END","/shorten.js","9","19","9","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shorten.js:39[30:32];Sink: msg;shorten.js:69[17:19]::FLOW_DESCR_END","/shorten.js","39","30","39","32"

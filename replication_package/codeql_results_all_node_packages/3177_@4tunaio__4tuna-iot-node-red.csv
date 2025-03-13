@@ -1,0 +1,108 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-conn.js:35[22:49];Sink: `#fortu ... iceId}`;4tuna-conn.js:96[24:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-conn.js:35[22:49];Sink: topic;4tuna-conn.js:123[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-conn.js:35[22:49];Sink: `#fortu ... iceId}`;4tuna-conn.js:199[26:61]::FLOW_DESCR_END","/node_main/4tuna-conn.js","35","22","35","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: `#fortu ... iceId}`;4tuna-event.js:487[38:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: 'payload' + payload;4tuna-event.js:503[21:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: topicConn;4tuna-event.js:519[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: payload;4tuna-event.js:519[42:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: [payloa ... onType];4tuna-event.js:782[32:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: [payloa ... d.stop];4tuna-event.js:797[32:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: '****pa ... ayload);4tuna-event.js:1200[21:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;4tuna-event.js:1247[18:45];Sink: payload;4tuna-event.js:1201[36:42]::FLOW_DESCR_END","/node_main/4tuna-event.js","1247","18","1247","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mtopic;4tuna-event.js:1313[43:48];Sink: mtopic  ... payload;4tuna-event.js:1314[21:48]::FLOW_DESCR_END","/node_main/4tuna-event.js","1313","43","1313","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;4tuna-event.js:1313[51:57];Sink: mtopic  ... payload;4tuna-event.js:1314[21:48]::FLOW_DESCR_END","/node_main/4tuna-event.js","1313","51","1313","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;4tuna-event.js:1318[41:45];Sink: error.m ...  error';4tuna-event.js:1321[40:70]::FLOW_DESCR_END","/node_main/4tuna-event.js","1318","41","1318","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: dataShadow;4tuna-event.js:165[82:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: 'cost: ' + node.cost;4tuna-event.js:355[23:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: 'action ... Publish;4tuna-event.js:361[23:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '  actu ... tate.id;4tuna-event.js:392[23:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '    st ... Publish;4tuna-event.js:393[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '    Pe ... ntPeaks;4tuna-event.js:422[23:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '     s ... stateId;4tuna-event.js:423[23:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '       ... tate.id;4tuna-event.js:424[23:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '       ... Publish;4tuna-event.js:425[23:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: '       ... pleTime;4tuna-event.js:426[23:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... e') + 1;4tuna-event.js:949[61:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... e') + 1;4tuna-event.js:1059[59:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... e') + 1;4tuna-event.js:1097[61:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... hInit');4tuna-event.js:1222[63:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... t') + 1;4tuna-event.js:1329[58:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... t') + 1;4tuna-event.js:1333[53:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... t') + 1;4tuna-event.js:1352[62:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... t') + 1;4tuna-event.js:1360[58:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... t') + 1;4tuna-event.js:1398[54:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.actualState;4tuna-event.js:1539[85:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.sampleTime;4tuna-event.js:1572[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.actualState;4tuna-event.js:1675[85:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.countPeaks;4tuna-event.js:1676[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.startTimeout;4tuna-event.js:1679[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.st ... Timeout;4tuna-event.js:1680[91:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.stateInCheck;4tuna-event.js:1681[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.in ... malTime;4tuna-event.js:1682[91:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.startNormalTime;4tuna-event.js:1683[89:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: node.normalPeriod;4tuna-event.js:1684[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1336[72:79];Sink: gVariab ... t') + 1;4tuna-event.js:1707[60:109]::FLOW_DESCR_END","/node_main/4tuna-event.js","1336","72","1336","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: dataShadow;4tuna-event.js:165[82:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: 'cost: ' + node.cost;4tuna-event.js:355[23:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: 'action ... Publish;4tuna-event.js:361[23:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '  actu ... tate.id;4tuna-event.js:392[23:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '    st ... Publish;4tuna-event.js:393[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '    Pe ... ntPeaks;4tuna-event.js:422[23:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '     s ... stateId;4tuna-event.js:423[23:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '       ... tate.id;4tuna-event.js:424[23:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '       ... Publish;4tuna-event.js:425[23:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: '       ... pleTime;4tuna-event.js:426[23:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... e') + 1;4tuna-event.js:949[61:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... e') + 1;4tuna-event.js:1059[59:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... e') + 1;4tuna-event.js:1097[61:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... hInit');4tuna-event.js:1222[63:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... t') + 1;4tuna-event.js:1329[58:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... t') + 1;4tuna-event.js:1333[53:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... t') + 1;4tuna-event.js:1352[62:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... t') + 1;4tuna-event.js:1360[58:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... t') + 1;4tuna-event.js:1398[54:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.actualState;4tuna-event.js:1539[85:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.sampleTime;4tuna-event.js:1572[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.actualState;4tuna-event.js:1675[85:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.countPeaks;4tuna-event.js:1676[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.startTimeout;4tuna-event.js:1679[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.st ... Timeout;4tuna-event.js:1680[91:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.stateInCheck;4tuna-event.js:1681[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.in ... malTime;4tuna-event.js:1682[91:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.startNormalTime;4tuna-event.js:1683[89:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: node.normalPeriod;4tuna-event.js:1684[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObj;4tuna-event.js:1367[76:83];Sink: gVariab ... t') + 1;4tuna-event.js:1707[60:109]::FLOW_DESCR_END","/node_main/4tuna-event.js","1367","76","1367","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: 'cost: ' + node.cost;4tuna-event.js:355[23:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: 'action ... Publish;4tuna-event.js:361[23:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '  actu ... tate.id;4tuna-event.js:392[23:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '    st ... Publish;4tuna-event.js:393[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '    Pe ... ntPeaks;4tuna-event.js:422[23:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '     s ... stateId;4tuna-event.js:423[23:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '       ... tate.id;4tuna-event.js:424[23:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '       ... Publish;4tuna-event.js:425[23:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '       ... pleTime;4tuna-event.js:426[23:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: [payloa ... onType];4tuna-event.js:782[32:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: [payloa ... d.stop];4tuna-event.js:797[32:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... e') + 1;4tuna-event.js:949[61:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... e') + 1;4tuna-event.js:1059[59:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... e') + 1;4tuna-event.js:1097[61:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: '****pa ... ayload);4tuna-event.js:1200[21:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: payload;4tuna-event.js:1201[36:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... hInit');4tuna-event.js:1222[63:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... t') + 1;4tuna-event.js:1329[58:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... t') + 1;4tuna-event.js:1333[53:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... t') + 1;4tuna-event.js:1352[62:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... t') + 1;4tuna-event.js:1360[58:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... t') + 1;4tuna-event.js:1398[54:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: consumptionLastValue;4tuna-event.js:1504[94:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.actualState;4tuna-event.js:1539[85:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.sampleTime;4tuna-event.js:1572[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.actualState;4tuna-event.js:1675[85:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.countPeaks;4tuna-event.js:1676[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.startTimeout;4tuna-event.js:1679[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.st ... Timeout;4tuna-event.js:1680[91:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.stateInCheck;4tuna-event.js:1681[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.in ... malTime;4tuna-event.js:1682[91:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.startNormalTime;4tuna-event.js:1683[89:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: node.normalPeriod;4tuna-event.js:1684[86:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4tuna-event.js:1402[32:34];Sink: gVariab ... t') + 1;4tuna-event.js:1707[60:109]::FLOW_DESCR_END","/node_main/4tuna-event.js","1402","32","1402","34"

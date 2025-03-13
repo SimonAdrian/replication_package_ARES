@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AI.js:8[35:37];Sink: msg;AI.js:23[31:33]::FLOW_DESCR_END","/AI.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AI.js:35[35:37];Sink: msg;AI.js:49[31:33]::FLOW_DESCR_END","/AI.js","35","35","35","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AO.js:14[35:37];Sink: msg;AO.js:43[27:29]::FLOW_DESCR_END","/AO.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AO.js:62[35:37];Sink: msg;AO.js:91[27:29]::FLOW_DESCR_END","/AO.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DigOut.js:105[35:37];Sink: String(msg.payload);DigOut.js:69[45:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigOut.js:105[35:37];Sink: msg;DigOut.js:84[31:33]::FLOW_DESCR_END","/DigOut.js","105","35","105","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DigOut.js:119[35:37];Sink: String(msg.payload);DigOut.js:69[45:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigOut.js:119[35:37];Sink: msg;DigOut.js:84[31:33]::FLOW_DESCR_END","/DigOut.js","119","35","119","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DigOut.js:133[35:37];Sink: String(msg.payload);DigOut.js:69[45:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigOut.js:133[35:37];Sink: msg;DigOut.js:84[31:33]::FLOW_DESCR_END","/DigOut.js","133","35","133","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DigOut.js:147[35:37];Sink: String(msg.payload);DigOut.js:69[45:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigOut.js:147[35:37];Sink: msg;DigOut.js:84[31:33]::FLOW_DESCR_END","/DigOut.js","147","35","147","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PT.js:8[35:37];Sink: msg;PT.js:32[31:33]::FLOW_DESCR_END","/PT.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PT.js:43[35:37];Sink: msg;PT.js:67[31:33]::FLOW_DESCR_END","/PT.js","43","35","43","37"

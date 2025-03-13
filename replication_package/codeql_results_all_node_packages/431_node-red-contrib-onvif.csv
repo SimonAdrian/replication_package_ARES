@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snapshot.js:16[36:38];Sink: 'Fetchi ... fig.url;snapshot.js:47[22:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snapshot.js:16[36:38];Sink: msg;snapshot.js:65[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snapshot.js:16[36:38];Sink: msg;snapshot.js:78[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snapshot.js:16[36:38];Sink: msg;snapshot.js:83[23:25]::FLOW_DESCR_END","/onvif/snapshot.js","16","36","16","38"

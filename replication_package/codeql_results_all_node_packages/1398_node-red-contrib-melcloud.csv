@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.email;melcloud-connect.js:43[22:43];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","43","22","43","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;melcloud-connect.js:44[25:49];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","44","25","44","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.email;melcloud-connect.js:53[46:55];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","53","46","53","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;melcloud-connect.js:53[57:69];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","53","57","53","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;melcloud-connect.js:183[39:41];Sink: ""set te ... = "" + t;melcloud-connect.js:112[45:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect.js:183[39:41];Sink: ""set power = "" + p;melcloud-connect.js:120[45:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect.js:183[39:41];Sink: ""set mode = "" + m;melcloud-connect.js:127[45:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect.js:183[39:41];Sink: ""set va ...  "" + vh;melcloud-connect.js:145[45:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect.js:183[39:41];Sink: ""set va ...  "" + vv;melcloud-connect.js:151[45:70]::FLOW_DESCR_END","/melcloud-connect.js","183","39","183","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.email;melcloud-connect.js:249[22:43];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","249","22","249","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;melcloud-connect.js:250[25:49];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","250","25","250","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.email;melcloud-connect.js:260[46:55];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","260","46","260","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;melcloud-connect.js:260[57:69];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","260","57","260","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.email;melcloud-connect.js:333[22:43];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","333","22","333","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;melcloud-connect.js:334[25:49];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","334","25","334","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.email;melcloud-connect.js:341[46:55];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","341","46","341","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;melcloud-connect.js:341[57:69];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud-connect.js","341","57","341","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;melcloud.js:47[28:40];Sink: JSON.st ... stData);melcloud.js:106[27:50]::FLOW_DESCR_END","/melcloud.js","47","28","47","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;melcloud.js:101[42:44];Sink: msg.error;melcloud-connect.js:171[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;melcloud.js:101[42:44];Sink: msg.error;melcloud-connect.js:291[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;melcloud.js:101[42:44];Sink: msg.error;melcloud-connect.js:361[32:40]::FLOW_DESCR_END","/melcloud.js","101","42","101","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;melcloud.js:174[38:40];Sink: msg.error;melcloud-connect.js:356[44:52]::FLOW_DESCR_END","/melcloud.js","174","38","174","40"

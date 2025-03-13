@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:146[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:149[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: cacheKey;config.js:311[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: cacheKey;config.js:319[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:319[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: cacheKey;config.js:334[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:334[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: cacheKey;config.js:337[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:337[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: cacheKey;config.js:341[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:341[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: cacheKey;config.js:345[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;config.js:95[38:40];Sink: res;config.js:345[43:45]::FLOW_DESCR_END","/src/config.js","95","38","95","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:439[39:41];Sink: msg;index.js:495[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:439[39:41];Sink: msg;index.js:511[29:31]::FLOW_DESCR_END","/src/index.js","439","39","439","41"

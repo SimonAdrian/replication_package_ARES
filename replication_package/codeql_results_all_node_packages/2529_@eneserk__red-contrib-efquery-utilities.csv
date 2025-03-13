@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;efquery-converter-alexa.js:11[36:38];Sink: msg;efquery-converter-alexa.js:44[23:25]::FLOW_DESCR_END","/nodes/efquery-converter-alexa.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;efquery-converter-tasmota.js:14[36:38];Sink: msg.payload;efquery-converter-tasmota.js:44[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;efquery-converter-tasmota.js:14[36:38];Sink: msg;efquery-converter-tasmota.js:70[23:25]::FLOW_DESCR_END","/nodes/efquery-converter-tasmota.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;efquery-converter-zigbee2mqtt.js:15[36:38];Sink: msg.payload;efquery-converter-zigbee2mqtt.js:41[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;efquery-converter-zigbee2mqtt.js:15[36:38];Sink: msg;efquery-converter-zigbee2mqtt.js:60[23:25]::FLOW_DESCR_END","/nodes/efquery-converter-zigbee2mqtt.js","15","36","15","38"

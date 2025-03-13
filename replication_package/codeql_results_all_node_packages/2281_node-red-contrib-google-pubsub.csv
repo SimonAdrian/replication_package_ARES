@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pubsub.js:14[31:33];Sink: msg.payload;pubsub.js:19[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pubsub.js:14[31:33];Sink: msg.params;pubsub.js:19[43:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pubsub.js:14[31:33];Sink: msg;pubsub.js:25[29:31]::FLOW_DESCR_END","/pubsub.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pubsub.js:74[62:64];Sink: err;pubsub.js:75[18:20]::FLOW_DESCR_END","/pubsub.js","74","62","74","64"

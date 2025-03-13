@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;facebook-handover.js:19[27:30];Sink: [undefined, data];facebook-handover.js:82[27:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-handover.js:19[27:30];Sink: [data, undefined];facebook-handover.js:86[52:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-handover.js:19[27:30];Sink: [undefined, data];facebook-handover.js:92[23:39]::FLOW_DESCR_END","/facebook-handover.js","19","27","19","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;facebook-handover.js:43[19:21];Sink: err;facebook-handover.js:45[28:30]::FLOW_DESCR_END","/facebook-handover.js","43","19","43","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;facebook-handover.js:78[21:23];Sink: err;facebook-handover.js:81[28:30]::FLOW_DESCR_END","/facebook-handover.js","78","21","78","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;facebook-handover.js:78[36:39];Sink: body.error;facebook-handover.js:87[33:42]::FLOW_DESCR_END","/facebook-handover.js","78","36","78","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;facebook-log-events.js:14[27:30];Sink: data;facebook-log-events.js:41[15:18]::FLOW_DESCR_END","/facebook-log-events.js","14","27","14","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;facebook-log-events.js:58[19:21];Sink: err;facebook-log-events.js:37[36:38]::FLOW_DESCR_END","/facebook-log-events.js","58","19","58","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;facebook-log-events.js:58[34:37];Sink: body;facebook-log-events.js:38[18:21]::FLOW_DESCR_END","/facebook-log-events.js","58","34","58","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... eToken);facebook-profile.js:26[26:67];Sink: url;facebook-profile.js:86[13:15]::FLOW_DESCR_END","/facebook-profile.js","26","26","26","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;facebook-profile.js:29[27:30];Sink: data;facebook-profile.js:47[85:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-profile.js:29[27:30];Sink: data;facebook-profile.js:50[45:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-profile.js:29[27:30];Sink: data;facebook-profile.js:57[74:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-profile.js:29[27:30];Sink: data;facebook-profile.js:60[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-profile.js:29[27:30];Sink: data;facebook-profile.js:67[19:22]::FLOW_DESCR_END","/facebook-profile.js","29","27","29","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;facebook-takeover.js:18[27:30];Sink: [undefined, data];facebook-takeover.js:46[27:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-takeover.js:18[27:30];Sink: [data, undefined];facebook-takeover.js:50[52:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook-takeover.js:18[27:30];Sink: [undefined, data];facebook-takeover.js:57[23:39]::FLOW_DESCR_END","/facebook-takeover.js","18","27","18","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;facebook-takeover.js:42[18:20];Sink: err;facebook-takeover.js:44[28:30]::FLOW_DESCR_END","/facebook-takeover.js","42","18","42","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;facebook-takeover.js:42[33:36];Sink: body.error;facebook-takeover.js:51[33:42]::FLOW_DESCR_END","/facebook-takeover.js","42","33","42","36"

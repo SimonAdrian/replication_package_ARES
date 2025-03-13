@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbus-crc16.js:78[35:37];Sink: msg;modbus-crc16.js:79[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbus-crc16.js:78[35:37];Sink: buffer;modbus-crc16.js:87[19:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbus-crc16.js:78[35:37];Sink: buffer;modbus-crc16.js:89[29:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbus-crc16.js:78[35:37];Sink: buf;modbus-crc16.js:91[19:21]::FLOW_DESCR_END","/nodes/modbus-crc16.js","78","35","78","37"

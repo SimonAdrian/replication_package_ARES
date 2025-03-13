@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:74[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:76[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:81[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:83[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:96[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:98[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:28[35:37];Sink: msg;ioplus.js:105[32:34]::FLOW_DESCR_END","/ioplus.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioplus.js:125[35:37];Sink: msg;ioplus.js:169[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:125[35:37];Sink: msg;ioplus.js:173[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:125[35:37];Sink: msg;ioplus.js:178[32:34]::FLOW_DESCR_END","/ioplus.js","125","35","125","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioplus.js:199[35:37];Sink: msg;ioplus.js:255[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:199[35:37];Sink: msg;ioplus.js:258[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:199[35:37];Sink: msg;ioplus.js:263[32:34]::FLOW_DESCR_END","/ioplus.js","199","35","199","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:342[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:351[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:367[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:376[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:392[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:411[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:415[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:289[35:37];Sink: msg;ioplus.js:420[32:34]::FLOW_DESCR_END","/ioplus.js","289","35","289","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioplus.js:443[35:37];Sink: msg;ioplus.js:488[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:443[35:37];Sink: msg;ioplus.js:503[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:443[35:37];Sink: msg;ioplus.js:508[32:34]::FLOW_DESCR_END","/ioplus.js","443","35","443","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioplus.js:529[35:37];Sink: msg;ioplus.js:585[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:529[35:37];Sink: msg;ioplus.js:588[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioplus.js:529[35:37];Sink: msg;ioplus.js:593[32:34]::FLOW_DESCR_END","/ioplus.js","529","35","529","37"

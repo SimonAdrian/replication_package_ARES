@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.no ... s.email;databaseNode.js:309[41:67];Sink: `The us ... error.`;databaseNode.js:309[28:166]::FLOW_DESCR_END","/build/lib/databaseNode.js","309","41","309","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;firebaseNode.js:582[172:176];Sink: msg;firebaseNode.js:370[25:27]::FLOW_DESCR_END","/build/lib/firebaseNode.js","582","172","582","176"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase-get.js:29[27:29];Sink: msgToSend;firebaseNode.js:410[28:36]::FLOW_DESCR_END","/build/nodes/firebase-get.js","29","27","29","29"

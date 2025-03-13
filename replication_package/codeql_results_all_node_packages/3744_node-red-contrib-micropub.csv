@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);indieauth.js:59[27:59];Sink: credentials;indieauth.js:76[51:61]::FLOW_DESCR_END","/indieauth.js","59","27","59","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;micropub-create.js:11[36:38];Sink: msg;micropub-create.js:33[27:29]::FLOW_DESCR_END","/micropub-create.js","11","36","11","38"

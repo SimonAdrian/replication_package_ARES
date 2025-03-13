@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;PythonShellNode.js:102[24:27];Sink: err;pythonshell.js:38[20:22]::FLOW_DESCR_END","/src/PythonShellNode.js","102","24","102","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;PythonShellNode.js:112[18:21];Sink: err;pythonshell.js:38[20:22]::FLOW_DESCR_END","/src/PythonShellNode.js","112","18","112","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pythonshell.js:34[30:32];Sink: msg + '\n';PythonShellNode.js:72[25:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pythonshell.js:34[30:32];Sink: msg + '\n';PythonShellNode.js:129[20:29]::FLOW_DESCR_END","/src/pythonshell.js","34","30","34","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;PythonShellNode_Spec.js:29[24:24];Sink: d.toString();PythonShellNode_Spec.js:29[39:50]::FLOW_DESCR_END","/test/PythonShellNode_Spec.js","29","24","29","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;PythonShellNode_Spec.js:30[24:24];Sink: d.toString();PythonShellNode_Spec.js:30[39:50]::FLOW_DESCR_END","/test/PythonShellNode_Spec.js","30","24","30","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;PythonShellNode_Spec.js:38[35:35];Sink: d.toString();PythonShellNode_Spec.js:38[50:61]::FLOW_DESCR_END","/test/PythonShellNode_Spec.js","38","35","38","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;PythonShellNode_Spec.js:39[35:35];Sink: d.toString();PythonShellNode_Spec.js:39[50:61]::FLOW_DESCR_END","/test/PythonShellNode_Spec.js","39","35","39","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;PythonShellNode_Spec.js:247[26:26];Sink: d;PythonShellNode_Spec.js:249[19:19]::FLOW_DESCR_END","/test/PythonShellNode_Spec.js","247","26","247","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;PythonShellNode_Spec.js:253[26:26];Sink: d;PythonShellNode_Spec.js:254[27:27]::FLOW_DESCR_END","/test/PythonShellNode_Spec.js","253","26","253","26"

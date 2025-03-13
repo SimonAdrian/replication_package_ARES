@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    RED.nodes.registerType("create-readable-stream", {
+        category: "storage",
+        color: "#f86550",
+        defaults: {
+            name: {
+                value: "",
+            },
+            filename: {
+                value: "",
+            },
+        },
+        icon: "file.png",
+        inputs: 1,
+        outputs: 1,
+        label(){
+            return this.name || this.filename || "create-readable-stream"
+        },
+    })
+</script>
+<script type="text/html" data-template-name="create-readable-stream">
+    <div class="form-row">
+        <label for="node-input-name">Name</label>
+        <input type="text" id="node-input-name" placeholder="name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-filename">Filename</label>
+        <input type="text" id="node-input-filename" placeholder="filename">
+    </div>
+</script>
+<script type="text/html" data-help-name="create-readable-stream">
+    <p>This node creates a readable stream from file in msg.filename to msg.payload</p>
+</script>

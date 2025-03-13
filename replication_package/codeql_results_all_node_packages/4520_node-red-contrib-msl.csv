@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msl4-in.js:9[33:35];Sink: msg;msl4-in.js:18[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msl4-in.js:9[33:35];Sink: msg;msl4-in.js:22[27:29]::FLOW_DESCR_END","/msl4-channel/msl4-in.js","9","33","9","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msl4-out.js:9[33:35];Sink: msg;msl4-out.js:18[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msl4-out.js:9[33:35];Sink: msg;msl4-out.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msl4-out.js:9[33:35];Sink: `http:/ ... ad[i]}`;msl4-out.js:31[61:166]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msl4-out.js:9[33:35];Sink: msg;msl4-out.js:40[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msl4-out.js:9[33:35];Sink: msg;msl4-out.js:50[27:29]::FLOW_DESCR_END","/msl4-channel/msl4-out.js","9","33","9","35"

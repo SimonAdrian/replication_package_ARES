@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;plugin.js:157[39:42];Sink: data;plugin.js:158[27:30]::FLOW_DESCR_END","/dist/js/plugin.js","157","39","157","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;plugin.js:160[40:42];Sink: err;plugin.js:161[27:29]::FLOW_DESCR_END","/dist/js/plugin.js","160","40","160","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;plugin.js:166[40:42];Sink: err;plugin.js:167[27:29]::FLOW_DESCR_END","/dist/js/plugin.js","166","40","166","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;plugin.js:157[39:42];Sink: data;plugin.js:158[27:30]::FLOW_DESCR_END","/dist/lib/plugin.js","157","39","157","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;plugin.js:160[40:42];Sink: err;plugin.js:161[27:29]::FLOW_DESCR_END","/dist/lib/plugin.js","160","40","160","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;plugin.js:166[40:42];Sink: err;plugin.js:167[27:29]::FLOW_DESCR_END","/dist/lib/plugin.js","166","40","166","42"

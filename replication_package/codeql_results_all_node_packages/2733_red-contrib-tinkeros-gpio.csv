@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;asus-gpio.js:48[58:61];Sink: ""out: ""+d[i]+"" :"";asus-gpio.js:58[65:81]::FLOW_DESCR_END","/asus-gpio.js","48","58","48","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;asus-gpio.js:63[58:61];Sink: ""err: ""+data+"" :"";asus-gpio.js:64[61:77]::FLOW_DESCR_END","/asus-gpio.js","63","58","63","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;asus-gpio.js:84[52:54];Sink: ""Error  ... r.errno;asus-gpio.js:87[42:73]::FLOW_DESCR_END","/asus-gpio.js","84","52","84","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;asus-gpio.js:169[58:61];Sink: ""out: ""+data+"" :"";asus-gpio.js:170[61:77]::FLOW_DESCR_END","/asus-gpio.js","169","58","169","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;asus-gpio.js:173[58:61];Sink: ""err: ""+data+"" :"";asus-gpio.js:174[61:77]::FLOW_DESCR_END","/asus-gpio.js","173","58","173","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;asus-gpio.js:188[52:54];Sink: ""Error  ... r.errno;asus-gpio.js:191[42:73]::FLOW_DESCR_END","/asus-gpio.js","188","52","188","54"

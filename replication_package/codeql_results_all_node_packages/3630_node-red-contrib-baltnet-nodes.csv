@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getBalance.js:9[36:38];Sink: msg;getBalance.js:13[31:33]::FLOW_DESCR_END","/getBalance.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendSms.js:10[36:38];Sink: msg;sendSms.js:20[31:33]::FLOW_DESCR_END","/sendSms.js","10","36","10","38"

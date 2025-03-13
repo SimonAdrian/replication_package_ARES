@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;describe-image.js:6[33:35];Sink: msg;describe-image.js:27[39:41]::FLOW_DESCR_END","/describe-image/describe-image.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;detect-objects.js:6[33:35];Sink: msg;detect-objects.js:24[39:41]::FLOW_DESCR_END","/detect-objects/detect-objects.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-area-of-interest.js:6[33:35];Sink: msg;get-area-of-interest.js:24[39:41]::FLOW_DESCR_END","/get-area-of-interest/get-area-of-interest.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-read-result.js:6[33:35];Sink: msg;get-read-result.js:20[39:41]::FLOW_DESCR_END","/get-read-result/get-read-result.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;image-analysis.js:6[33:35];Sink: msg;image-analysis.js:25[39:41]::FLOW_DESCR_END","/image-analysis/image-analysis.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;image-ocr.js:6[33:35];Sink: msg;image-ocr.js:25[39:41]::FLOW_DESCR_END","/image-ocr/image-ocr.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read.js:6[33:35];Sink: msg;read.js:28[39:41]::FLOW_DESCR_END","/read/read.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thumbnail.js:6[33:35];Sink: msg;thumbnail.js:33[39:41]::FLOW_DESCR_END","/thumbnail/thumbnail.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;describe-image.js:27[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;detect-objects.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;get-area-of-interest.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;get-read-result.js:20[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;image-analysis.js:25[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;image-ocr.js:25[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;read.js:28[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;image-analysis-base.js:96[29:61];Sink: e.message;thumbnail.js:33[28:36]::FLOW_DESCR_END","/utilities/image-analysis-base.js","96","29","96","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;describe-image.js:27[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;detect-objects.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;get-area-of-interest.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;get-read-result.js:20[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;image-analysis.js:25[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;image-ocr.js:25[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;read.js:28[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;image-analysis-base.js:96[29:52];Sink: e.message;thumbnail.js:33[28:36]::FLOW_DESCR_END","/utilities/image-analysis-base.js","96","29","96","52"

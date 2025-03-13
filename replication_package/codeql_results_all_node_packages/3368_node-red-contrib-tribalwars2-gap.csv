@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fn_plan.js:7[27:29];Sink: msg;fn_plan.js:38[23:25]::FLOW_DESCR_END","/fn_plan.js","7","27","7","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;in_attackModifier.js:5[27:29];Sink: msg;in_attackModifier.js:12[23:25]::FLOW_DESCR_END","/in_attackModifier.js","5","27","5","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;in_commandType.js:5[27:29];Sink: msg;in_commandType.js:8[23:25]::FLOW_DESCR_END","/in_commandType.js","5","27","5","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;in_landingTime.js:11[23:25];Sink: msg;in_landingTime.js:20[17:19]::FLOW_DESCR_END","/in_landingTime.js","11","23","11","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;in_supportModifier.js:5[27:29];Sink: msg;in_supportModifier.js:10[23:25]::FLOW_DESCR_END","/in_supportModifier.js","5","27","5","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;in_unit.js:5[27:29];Sink: msg;in_unit.js:8[23:25]::FLOW_DESCR_END","/in_unit.js","5","27","5","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;in_village.js:4[23:25];Sink: msg;in_village.js:11[17:19]::FLOW_DESCR_END","/in_village.js","4","23","4","25"

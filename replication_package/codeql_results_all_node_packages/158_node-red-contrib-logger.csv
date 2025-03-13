@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loggerNode.js:20[30:32];Sink: [null,msg];loggerNode.js:33[16:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loggerNode.js:20[30:32];Sink: msg;loggerNode.js:35[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loggerNode.js:20[30:32];Sink: msg;loggerNode.js:42[14:16]::FLOW_DESCR_END","/loggerNode.js","20","30","20","32"

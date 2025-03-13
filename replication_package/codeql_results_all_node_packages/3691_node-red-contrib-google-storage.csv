@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;storage.js:18[31:33];Sink: filename;storage.js:26[22:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storage.js:18[31:33];Sink: msg.payload;storage.js:26[32:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storage.js:18[31:33];Sink: msg.params;storage.js:26[45:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storage.js:18[31:33];Sink: msg;storage.js:38[29:31]::FLOW_DESCR_END","/storage.js","18","31","18","33"

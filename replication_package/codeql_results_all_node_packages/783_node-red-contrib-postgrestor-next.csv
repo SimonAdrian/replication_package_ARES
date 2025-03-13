@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;postgrestor.js:57[53:62];Sink: value;postgrestor.js:9[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.password;postgrestor.js:57[53:62];Sink: value;postgrestor.js:12[42:46]::FLOW_DESCR_END","/postgrestor.js","57","53","57","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;postgrestor.js:58[45:50];Sink: value;postgrestor.js:9[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;postgrestor.js:58[45:50];Sink: value;postgrestor.js:12[42:46]::FLOW_DESCR_END","/postgrestor.js","58","45","58","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;postgrestor.js:59[45:50];Sink: value;postgrestor.js:9[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;postgrestor.js:59[45:50];Sink: value;postgrestor.js:12[42:46]::FLOW_DESCR_END","/postgrestor.js","59","45","59","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;postgrestor.js:78[23:25];Sink: msg;postgrestor.js:96[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postgrestor.js:78[23:25];Sink: msg;postgrestor.js:112[21:23]::FLOW_DESCR_END","/postgrestor.js","78","23","78","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: { channel, payload };postgrestor.js:130[40:59];Sink: ""notifi ... channel;postgrestor.js:131[18:62]::FLOW_DESCR_END","/postgrestor.js","130","40","130","59"

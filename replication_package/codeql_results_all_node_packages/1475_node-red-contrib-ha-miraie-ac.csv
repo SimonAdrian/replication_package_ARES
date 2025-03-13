@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.da ... ssToken;miraie.js:45[20:40];Sink: home.accessToken;broker-bridge.js:44[38:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: resp.da ... ssToken;miraie.js:45[20:40];Sink: password;miraie-broker.js:129[62:69]::FLOW_DESCR_END","/api/miraie.js","45","20","45","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data[0];miraie.js:73[16:31];Sink: `${cons ... ceIds}`;miraie.js:107[20:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];miraie.js:73[16:31];Sink: dailyUrl;miraie.js:167[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];miraie.js:73[16:31];Sink: monthlyUrl;miraie.js:168[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];miraie.js:73[16:31];Sink: url;miraie.js:221[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];miraie.js:73[16:31];Sink: home.homeId;broker-bridge.js:44[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];miraie.js:73[16:31];Sink: username;miraie-broker.js:129[52:59]::FLOW_DESCR_END","/api/miraie.js","73","16","73","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.homeId;miraie.js:74[18:28];Sink: home.homeId;broker-bridge.js:44[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.homeId;miraie.js:74[18:28];Sink: username;miraie-broker.js:129[52:59]::FLOW_DESCR_END","/api/miraie.js","74","18","74","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.spaces;miraie.js:77[3:13];Sink: `${cons ... ceIds}`;miraie.js:107[20:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.spaces;miraie.js:77[3:13];Sink: dailyUrl;miraie.js:167[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.spaces;miraie.js:77[3:13];Sink: monthlyUrl;miraie.js:168[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.spaces;miraie.js:77[3:13];Sink: url;miraie.js:221[52:54]::FLOW_DESCR_END","/api/miraie.js","77","3","77","13"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d.deviceId;miraie.js:81[13:22];Sink: `${cons ... ceIds}`;miraie.js:107[20:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d.deviceId;miraie.js:81[13:22];Sink: dailyUrl;miraie.js:167[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d.deviceId;miraie.js:81[13:22];Sink: monthlyUrl;miraie.js:168[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d.deviceId;miraie.js:81[13:22];Sink: url;miraie.js:221[52:54]::FLOW_DESCR_END","/api/miraie.js","81","13","81","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: brokerDetails.host;miraie-broker.js:127[16:33];Sink: host;miraie-broker.js:129[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: brokerDetails.host;miraie-broker.js:127[16:33];Sink: connectUrl;mqtt-client.js:14[31:40]::FLOW_DESCR_END","/broker/miraie-broker.js","127","16","127","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: brokerDetails.port;miraie-broker.js:128[16:33];Sink: port;miraie-broker.js:129[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: brokerDetails.port;miraie-broker.js:128[16:33];Sink: connectUrl;mqtt-client.js:14[31:40]::FLOW_DESCR_END","/broker/miraie-broker.js","128","16","128","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;ha-miraie-ac.js:43[31:63];Sink: setting ... sername;ha-broker.js:115[5:29]::FLOW_DESCR_END","/ha-miraie-ac.js","43","31","43","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;ha-miraie-ac.js:44[31:63];Sink: setting ... assword;ha-broker.js:116[5:29]::FLOW_DESCR_END","/ha-miraie-ac.js","44","31","44","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .mobile;ha-miraie-ac.js:109[44:66];Sink: data;miraie.js:34[53:56]::FLOW_DESCR_END","/ha-miraie-ac.js","109","44","109","66"

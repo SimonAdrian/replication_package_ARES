@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;git.js:10[50:52];Sink: res;git.js:12[20:22]::FLOW_DESCR_END","/git/git.js","10","50","10","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;git.js:24[49:51];Sink: res;git.js:26[20:22]::FLOW_DESCR_END","/git/git.js","24","49","24","51"

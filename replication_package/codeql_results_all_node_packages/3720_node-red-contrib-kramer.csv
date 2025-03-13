@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kramer.js:21[35:37];Sink: sendOutString;kramer.js:89[18:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kramer.js:21[35:37];Sink: buffer;kramer.js:91[17:22]::FLOW_DESCR_END","/kramer.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;network.js:10[21:31];Sink: network.port;network.js:21[32:43]::FLOW_DESCR_END","/network.js","10","21","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;tcp.js:29[36:42];Sink: message;tcp.js:30[43:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;tcp.js:29[36:42];Sink: """" + message;tcp.js:30[64:75]::FLOW_DESCR_END","/tcp.js","29","36","29","42"

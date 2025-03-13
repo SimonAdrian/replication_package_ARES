@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: auth;bci-emotiv.js:168[49:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: sessionID;bci-emotiv.js:174[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: headsetID;bci-emotiv.js:185[56:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: item;bci-emotiv.js:203[66:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: msg.res ... _INDEX];bci-emotiv.js:210[58:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: msg.res ... _INDEX];bci-emotiv.js:211[58:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: JSON.st ...      });bci-lib.js:49[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: JSON.st ...      });bci-lib.js:214[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: JSON.st ...      });bci-lib.js:236[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: JSON.st ...      });bci-lib.js:254[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bci-emotiv.js:57[43:46];Sink: JSON.st ...      });bci-lib.js:284[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-emotiv.js","57","43","57","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bci-facial-expression.js:174[31:33];Sink: JSON.st ...      });bci-lib.js:13[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-facial-expression.js:174[31:33];Sink: JSON.st ...      });bci-lib.js:49[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-facial-expression.js:174[31:33];Sink: JSON.st ...      });bci-lib.js:424[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-facial-expression.js","174","31","174","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bci-frequency-band.js:78[31:33];Sink: JSON.st ...      });bci-lib.js:49[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-frequency-band.js","78","31","78","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bci-mental-command.js:103[31:33];Sink: JSON.st ...      });bci-lib.js:49[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-mental-command.js:103[31:33];Sink: JSON.st ...      });bci-lib.js:424[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-mental-command.js:103[31:33];Sink: JSON.st ...      });bci-lib.js:459[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-mental-command.js:103[31:33];Sink: JSON.st ...      });bci-lib.js:522[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-mental-command.js","103","31","103","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bci-motion.js:172[31:33];Sink: JSON.st ...      });bci-lib.js:49[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-motion.js","172","31","172","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bci-performance-metric.js:90[31:33];Sink: JSON.st ...      });bci-lib.js:49[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-performance-metric.js","90","31","90","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bci-profile-name.js:47[43:46];Sink: msg.result;bci-profile-name.js:73[54:63]::FLOW_DESCR_END","/emotiv-bci/bci-profile-name.js","47","43","47","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bci-profile-name.js:137[32:34];Sink: JSON.st ...      });bci-lib.js:138[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-profile-name.js:137[32:34];Sink: JSON.st ...      });bci-lib.js:200[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-profile-name.js:137[32:34];Sink: JSON.st ...      });bci-lib.js:214[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-profile-name.js:137[32:34];Sink: JSON.st ...      });bci-lib.js:236[7:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bci-profile-name.js:137[32:34];Sink: JSON.st ...      });bci-lib.js:581[7:8]::FLOW_DESCR_END","/emotiv-bci/bci-profile-name.js","137","32","137","34"

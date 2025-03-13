@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;trendlog.js:91[36:36];Sink: d;trendlog.js:92[44:44]::FLOW_DESCR_END","/trendlog/trendlog.js","91","36","91","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;trendlog.js:109[36:36];Sink: d;trendlog.js:110[44:44]::FLOW_DESCR_END","/trendlog/trendlog.js","109","36","109","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trendlog.js:139[35:37];Sink: JSON.st ... endlog);trendlog.js:122[23:48]::FLOW_DESCR_END","/trendlog/trendlog.js","139","35","139","37"

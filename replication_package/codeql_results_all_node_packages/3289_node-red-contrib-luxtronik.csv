@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;luxtronik.js:61[80:90];Sink: 'node-r ... ig.port;luxtronik.js:61[12:90]::FLOW_DESCR_END","/luxtronik.js","61","80","61","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;luxtronik.js:70[34:37];Sink: 'node-r ... tring();luxtronik.js:72[29:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;luxtronik.js:70[34:37];Sink: data.toString();luxtronik.js:73[19:33]::FLOW_DESCR_END","/luxtronik.js","70","34","70","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;luxtronik.js:108[32:35];Sink: data;luxtronik.js:112[15:18]::FLOW_DESCR_END","/luxtronik.js","108","32","108","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;luxtronik.js:369[83:93];Sink: 'node-r ... ig.port;luxtronik.js:369[15:93]::FLOW_DESCR_END","/luxtronik.js","369","83","369","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;luxtronik.js:371[36:38];Sink: msg;luxtronik.js:373[27:29]::FLOW_DESCR_END","/luxtronik.js","371","36","371","38"

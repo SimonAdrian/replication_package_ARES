@@ -1,0 +1,3 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entry;app.js:39[33:37];Sink: xmlpath;app.js:45[43:49]::FLOW_DESCR_END","/app.js","39","33","39","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: appEnv.port;app.js:170[37:47];Sink: ""server ...  "" ..."";app.js:170[14:56]::FLOW_DESCR_END","/app.js","170","37","170","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;app.js:207[27:27];Sink: 'error: ... message;app.js:208[18:38]::FLOW_DESCR_END","/app.js","207","27","207","27"

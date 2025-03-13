@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dialogflowv2.js:18[32:34];Sink: [msg, null];dialogflowv2.js:106[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dialogflowv2.js:18[32:34];Sink: msg;dialogflowv2.js:110[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dialogflowv2.js:18[32:34];Sink: options.color(obj);lcd.js:109[19:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dialogflowv2.js:18[32:34];Sink: prettyj ... y(obj));lcd.js:112[19:54]::FLOW_DESCR_END","/dialogflowv2.js","18","32","18","34"

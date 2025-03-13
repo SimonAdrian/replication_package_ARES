@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;01-eufy-security.js:109[42:43];Sink: `Captch ... tcha})`;01-eufy-security.js:111[24:97]::FLOW_DESCR_END","/eufy-security/01-eufy-security.js","109","42","109","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: captcha;01-eufy-security.js:109[46:52];Sink: `Captch ... tcha})`;01-eufy-security.js:111[24:97]::FLOW_DESCR_END","/eufy-security/01-eufy-security.js","109","46","109","52"

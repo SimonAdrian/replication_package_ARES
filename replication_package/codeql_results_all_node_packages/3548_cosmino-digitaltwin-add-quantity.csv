@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-add-quantity.js:10[38:40];Sink: url;cosmino-digitaltwin-add-quantity.js:102[17:19]::FLOW_DESCR_END","/cosmino-digitaltwin-add-quantity.js","10","38","10","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;cosmino-digitaltwin-add-quantity.js:79[58:69];Sink: url;cosmino-digitaltwin-add-quantity.js:85[22:24]::FLOW_DESCR_END","/cosmino-digitaltwin-add-quantity.js","79","58","79","69"

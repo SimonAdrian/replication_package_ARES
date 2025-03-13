@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-blink.js:14[27:30];Sink: data;node-blink.js:43[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-blink.js:14[27:30];Sink: data;node-blink.js:63[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-blink.js:14[27:30];Sink: data;node-blink.js:159[26:29]::FLOW_DESCR_END","/node-blink.js","14","27","14","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.uri ... ).pop();node-blink.js:141[40:63];Sink: destination;node-blink.js:152[54:64]::FLOW_DESCR_END","/node-blink.js","141","40","141","63"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-red-contrib-snowboy.js:47[33:37];Sink: 'Error  ... + error;node-red-contrib-snowboy.js:48[15:43]::FLOW_DESCR_END","/node-red-contrib-snowboy.js","47","33","47","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: index;node-red-contrib-snowboy.js:51[35:39];Sink: 'Hotwor ... hotword;node-red-contrib-snowboy.js:52[13:58]::FLOW_DESCR_END","/node-red-contrib-snowboy.js","51","35","51","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hotword;node-red-contrib-snowboy.js:51[42:48];Sink: 'Hotwor ... hotword;node-red-contrib-snowboy.js:52[13:58]::FLOW_DESCR_END","/node-red-contrib-snowboy.js","51","42","51","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-snowboy.js:72[29:31];Sink: outputs;node-red-contrib-snowboy.js:67[15:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-snowboy.js:72[29:31];Sink: node.msg;node-red-contrib-snowboy.js:69[15:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-snowboy.js:72[29:31];Sink: msg.payload;node-red-contrib-snowboy.js:91[20:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-snowboy.js:72[29:31];Sink: msg;node-red-contrib-snowboy.js:93[75:77]::FLOW_DESCR_END","/node-red-contrib-snowboy.js","72","29","72","31"

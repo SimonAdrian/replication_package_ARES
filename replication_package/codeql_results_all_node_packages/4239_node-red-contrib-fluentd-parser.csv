@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fluentd-parser.js:24[27:29];Sink: msg;fluentd-parser.js:40[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluentd-parser.js:24[27:29];Sink: msg;fluentd-parser.js:44[23:25]::FLOW_DESCR_END","/lib/fluentd-parser.js","24","27","24","29"

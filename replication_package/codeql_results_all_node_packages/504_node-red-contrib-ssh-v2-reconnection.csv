@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ssh-client-v2.js:27[29:31];Sink: err;ssh-client-v2.js:30[50:52]::FLOW_DESCR_END","/src/ssh-client-v2.js","27","29","27","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ssh-client-v2.js:33[29:31];Sink: err;ssh-client-v2.js:34[44:46]::FLOW_DESCR_END","/src/ssh-client-v2.js","33","29","33","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;ssh-client-v2.js:99[50:53];Sink: 'Stream ...  signal;ssh-client-v2.js:100[35:92]::FLOW_DESCR_END","/src/ssh-client-v2.js","99","50","99","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;ssh-client-v2.js:99[56:61];Sink: 'Stream ...  signal;ssh-client-v2.js:100[35:92]::FLOW_DESCR_END","/src/ssh-client-v2.js","99","56","99","61"

@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flex_out.js:205[44:46];Sink: [topic, ... (data)];flex_out.js:326[94:122]::FLOW_DESCR_END","/influxdb/flex_out.js","205","44","205","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;value_out.js:206[44:46];Sink: [topic, ... alTime];value_out.js:295[105:177]::FLOW_DESCR_END","/influxdb/value_out.js","206","44","206","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:22[36:38];Sink: msg;delete.js:36[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:22[36:38];Sink: msg;delete.js:41[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:22[36:38];Sink: msg;delete.js:49[27:29]::FLOW_DESCR_END","/s3/delete.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:24[36:38];Sink: msg;get.js:28[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:24[36:38];Sink: msg;get.js:35[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:24[36:38];Sink: msg;get.js:47[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:24[36:38];Sink: msg;get.js:59[27:29]::FLOW_DESCR_END","/s3/get.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list_buckets.js:20[36:38];Sink: msg;list_buckets.js:25[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list_buckets.js:20[36:38];Sink: msg;list_buckets.js:37[27:29]::FLOW_DESCR_END","/s3/list_buckets.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list_objects.js:21[36:38];Sink: msg;list_objects.js:33[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list_objects.js:21[36:38];Sink: msg;list_objects.js:45[27:29]::FLOW_DESCR_END","/s3/list_objects.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:51[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:56[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:75[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:84[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:90[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:115[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put.js:39[44:46];Sink: msg;put.js:121[43:45]::FLOW_DESCR_END","/s3/put.js","39","44","39","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;watch.js:35[40:42];Sink: msg;watch.js:39[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;watch.js:35[40:42];Sink: msg;watch.js:60[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;watch.js:35[40:42];Sink: msg;watch.js:69[39:41]::FLOW_DESCR_END","/s3/watch.js","35","40","35","42"

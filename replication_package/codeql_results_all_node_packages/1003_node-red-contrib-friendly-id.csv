@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;friendlyid.js:19[35:37];Sink: msg;friendlyid.js:22[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;friendlyid.js:19[35:37];Sink: msg;friendlyid.js:27[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;friendlyid.js:19[35:37];Sink: msg;friendlyid.js:35[26:28]::FLOW_DESCR_END","/node/friendlyid.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;friendlyid.js:22[59:61];Sink: err;friendlyid.js:27[36:38]::FLOW_DESCR_END","/node/friendlyid.js","22","59","22","61"

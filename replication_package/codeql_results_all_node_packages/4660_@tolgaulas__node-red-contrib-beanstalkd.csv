@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beans.js:39[35:37];Sink: `Using tube ${tube}`;beans.js:50[28:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:39[35:37];Sink: msg.job.payload;beans.js:51[28:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:39[35:37];Sink: msg;beans.js:62[26:28]::FLOW_DESCR_END","/src/beans.js","39","35","39","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beans.js:178[35:37];Sink: [msg,null];beans.js:198[22:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:178[35:37];Sink: [null, msg];beans.js:210[22:32]::FLOW_DESCR_END","/src/beans.js","178","35","178","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beans.js:235[22:24];Sink: msg.job.id;beans.js:236[49:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:235[22:24];Sink: msg.job.id;beans.js:245[47:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:235[22:24];Sink: [msg,null];beans.js:251[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:235[22:24];Sink: [null,msg];beans.js:261[26:35]::FLOW_DESCR_END","/src/beans.js","235","22","235","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beans.js:291[22:24];Sink: msg.job.id;beans.js:292[50:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:291[22:24];Sink: `I've \n ... ob.id}`;beans.js:306[32:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:291[22:24];Sink: [msg,null];beans.js:313[26:35]::FLOW_DESCR_END","/src/beans.js","291","22","291","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beans.js:351[22:24];Sink: msg.job.id;beans.js:352[48:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:351[22:24];Sink: `I've b ... ob.id}`;beans.js:362[30:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:351[22:24];Sink: [msg,null];beans.js:368[26:35]::FLOW_DESCR_END","/src/beans.js","351","22","351","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beans.js:407[22:24];Sink: `Starti ... ob.id}`;beans.js:408[28:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:407[22:24];Sink: `I've k ... ob.id}`;beans.js:417[32:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beans.js:407[22:24];Sink: [msg,null];beans.js:423[26:35]::FLOW_DESCR_END","/src/beans.js","407","22","407","24"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lgtv-app.js:24[30:32];Sink: msg;lgtv-app.js:28[35:37]::FLOW_DESCR_END","/nodes/lgtv-app.js","24","30","24","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;lgtv-channel.js:22[97:99];Sink: res;lgtv-channel.js:25[47:49]::FLOW_DESCR_END","/nodes/lgtv-channel.js","22","97","22","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lgtv-channel.js:46[30:32];Sink: msg;lgtv-channel.js:49[35:37]::FLOW_DESCR_END","/nodes/lgtv-channel.js","46","30","46","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lgtv-config.js:53[26:26];Sink: JSON.st ...      });lgtv-config.js:194[30:10]::FLOW_DESCR_END","/nodes/lgtv-config.js","53","26","53","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lgtv-config.js:185[30:30];Sink: JSON.st ...      });lgtv-config.js:194[30:10]::FLOW_DESCR_END","/nodes/lgtv-config.js","185","30","185","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lgtv-mute.js:32[30:32];Sink: msg;lgtv-mute.js:36[35:37]::FLOW_DESCR_END","/nodes/lgtv-mute.js","32","30","32","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lgtv-volume.js:33[30:32];Sink: msg;lgtv-volume.js:43[35:37]::FLOW_DESCR_END","/nodes/lgtv-volume.js","33","30","33","32"

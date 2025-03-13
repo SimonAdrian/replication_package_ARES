@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ips-lcd.js:336[41:43];Sink: `Font $ ...  font.`;ips-lcd.js:372[35:91]::FLOW_DESCR_END","/ips-lcd.js","336","41","336","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ips-lcd.js:401[41:43];Sink: `Image  ... yload}`;ips-lcd.js:416[36:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ips-lcd.js:401[41:43];Sink: `Image  ... mPath}`;ips-lcd.js:424[36:65]::FLOW_DESCR_END","/ips-lcd.js","401","41","401","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ips-lcd.js:441[41:43];Sink: `Gif no ... yload}`;ips-lcd.js:456[36:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ips-lcd.js:441[41:43];Sink: `Gif no ... mPath}`;ips-lcd.js:464[36:63]::FLOW_DESCR_END","/ips-lcd.js","441","41","441","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ips-lcd.js:497[41:43];Sink: `Font $ ...  font.`;ips-lcd.js:525[35:91]::FLOW_DESCR_END","/ips-lcd.js","497","41","497","43"

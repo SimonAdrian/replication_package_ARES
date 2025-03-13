@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: gray.read();gray.js:71[25:35];Sink: ""Gray S ... + value;gray.js:73[25:60]::FLOW_DESCR_END","/dfrobot-color/gray/gray.js","71","25","71","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: irf.read();smartGray.js:72[25:34];Sink: ""Smart  ... + value;smartGray.js:74[25:67]::FLOW_DESCR_END","/dfrobot-color/smartGray/smartGray.js","72","25","72","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;buzzer.js:55[34:36];Sink: ""msg:"" + msg.payload;buzzer.js:57[25:44]::FLOW_DESCR_END","/dfrobot-common/buzzer/buzzer.js","55","34","55","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servo.js:52[35:37];Sink: ""Set An ... + angle;servo.js:59[25:47]::FLOW_DESCR_END","/dfrobot-common/servo/servo.js","52","35","52","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: slidePosition.read();slidePosition.js:71[28:47];Sink: ""Slide  ... osition;slidePosition.js:73[25:61]::FLOW_DESCR_END","/dfrobot-common/slidePosition/slidePosition.js","71","28","71","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: irf.read();irFallPrevent.js:72[25:34];Sink: ""Ir Fal ... + value;irFallPrevent.js:74[25:59]::FLOW_DESCR_END","/dfrobot-ir/irFallPrevent/irFallPrevent.js","72","25","72","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: irf.read();irSwitch.js:72[25:34];Sink: ""Ir Swi ... + value;irSwitch.js:74[25:53]::FLOW_DESCR_END","/dfrobot-ir/irSwitch/irSwitch.js","72","25","72","34"

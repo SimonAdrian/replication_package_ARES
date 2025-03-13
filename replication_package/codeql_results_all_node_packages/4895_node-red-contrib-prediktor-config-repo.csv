@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compare-hive-config.js:11[31:33];Sink: msg;compare-hive-config.js:48[19:21]::FLOW_DESCR_END","/src/nodes/compare-hive-config.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compare-namespaces.js:11[31:33];Sink: msg;compare-namespaces.js:54[19:21]::FLOW_DESCR_END","/src/nodes/compare-namespaces.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compare-variable-mappings.js:10[31:33];Sink: msg;compare-variable-mappings.js:51[19:21]::FLOW_DESCR_END","/src/nodes/compare-variable-mappings.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:8[31:33];Sink: msg;create.js:66[19:21]::FLOW_DESCR_END","/src/nodes/create.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:9[35:37];Sink: msg;delete.js:28[27:29]::FLOW_DESCR_END","/src/nodes/delete.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;download-content.js:8[31:33];Sink: msg;download-content.js:38[19:21]::FLOW_DESCR_END","/src/nodes/download-content.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-nodes.js:9[35:37];Sink: msg;get-nodes.js:36[27:29]::FLOW_DESCR_END","/src/nodes/get-nodes.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:8[35:37];Sink: msg;get.js:33[27:29]::FLOW_DESCR_END","/src/nodes/get.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ping.js:9[35:37];Sink: msg;ping.js:21[27:29]::FLOW_DESCR_END","/src/nodes/ping.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unzip-large-folder.js:14[36:38];Sink: msg;unzip-large-folder.js:70[34:36]::FLOW_DESCR_END","/src/nodes/unzip-large-folder.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:8[31:33];Sink: msg;update.js:65[21:23]::FLOW_DESCR_END","/src/nodes/update.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;upload-content.js:12[35:37];Sink: msg;upload-content.js:25[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload-content.js:12[35:37];Sink: msg;upload-content.js:31[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload-content.js:12[35:37];Sink: msg;upload-content.js:37[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload-content.js:12[35:37];Sink: msg;upload-content.js:59[31:33]::FLOW_DESCR_END","/src/nodes/upload-content.js","12","35","12","37"

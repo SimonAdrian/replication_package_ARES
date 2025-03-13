@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;compactcom-40-rest-read.js:32[32:36];Sink: error;compactcom-40-rest-read.js:40[25:29]::FLOW_DESCR_END","/compactcom-40-rest-read/compactcom-40-rest-read.js","32","32","32","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;compactcom-40-rest-read.js:32[39:46];Sink: ""HTTP s ... tusCode;compactcom-40-rest-read.js:66[27:68]::FLOW_DESCR_END","/compactcom-40-rest-read/compactcom-40-rest-read.js","32","39","32","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compactcom-40-rest-read.js:330[35:37];Sink: msg;compactcom-40-rest-read.js:344[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compactcom-40-rest-read.js:330[35:37];Sink: adiList ... Index ];compactcom-40-rest-read.js:376[42:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compactcom-40-rest-read.js:330[35:37];Sink: adiOrde ... Index ];compactcom-40-rest-read.js:385[89:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compactcom-40-rest-read.js:330[35:37];Sink: ipAddr;compactcom-40-rest-read.js:424[42:47]::FLOW_DESCR_END","/compactcom-40-rest-read/compactcom-40-rest-read.js","330","35","330","37"

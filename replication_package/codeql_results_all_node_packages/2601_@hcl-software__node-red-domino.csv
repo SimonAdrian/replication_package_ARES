@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;domino-user-session.js:29[23:25];Sink: payload.params[k];keepred.js:228[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;domino-user-session.js:29[23:25];Sink: msg.unid;keepred.js:234[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;domino-user-session.js:29[23:25];Sink: msg.uuid;keepred.js:238[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;domino-user-session.js:29[23:25];Sink: returnMsg;keepred.js:300[12:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;domino-user-session.js:29[23:25];Sink: returnMsg;keepred.js:307[10:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;domino-user-session.js:29[23:25];Sink: { ...re ...  data };keepred.js:342[12:57]::FLOW_DESCR_END","/domino/domino-user-session.js","29","23","29","25"

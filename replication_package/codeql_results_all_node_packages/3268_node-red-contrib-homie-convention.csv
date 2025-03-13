@@ -1,0 +1,43 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut;homie-device.js:330[49:54];Sink: ""startu ... dDevice;homie-device.js:312[31:91]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","330","49","330","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut.deviceId;homie-device.js:332[28:42];Sink: ""startu ... dDevice;homie-device.js:312[31:91]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","332","28","332","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut;homie-device.js:336[51:56];Sink: ""startu ... ailed!"";homie-device.js:243[33:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgOut;homie-device.js:336[51:56];Sink: ""startu ... dDevice;homie-device.js:312[31:91]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","336","51","336","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut.deviceId;homie-device.js:341[30:44];Sink: ""startu ... dDevice;homie-device.js:312[31:91]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","341","30","341","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homie-device.js:474[31:33];Sink: ""Messag ... payload;homie-device.js:621[29:87]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","474","31","474","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut;homie-device.js:693[41:46];Sink: [msgOut,null];homie-device.js:722[86:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgOut;homie-device.js:693[41:46];Sink: [null,msgOut];homie-device.js:723[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgOut;homie-device.js:693[41:46];Sink: log;homie-device.js:724[35:37]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","693","41","693","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut.deviceId;homie-device.js:697[44:58];Sink: log;homie-device.js:724[35:37]::FLOW_DESCR_END","/nodes/homie-device/homie-device.js","697","44","697","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.op ... sername;homie-device-config.js:144[73:93];Sink: ""MQTT c ... sername;homie-device-config.js:144[26:93]::FLOW_DESCR_END","/nodes/homie-device-config/homie-device-config.js","144","73","144","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.op ... sername;homie-device-config.js:158[106:126];Sink: ""MQTT c ... nymous"";homie-device-config.js:158[28:141]::FLOW_DESCR_END","/nodes/homie-device-config/homie-device-config.js","158","106","158","126"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Homie: ... eviceId;homie-device-config.js:242[30:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: deviceI ... tring();homie-device-config.js:300[33:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Extens ... tring();homie-device-config.js:302[33:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: deviceI ... tring();homie-device-config.js:333[33:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: deviceI ... tring();homie-device-config.js:352[35:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Valida ... ame+"")"";homie-device-config.js:419[31:146]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Valida ... ccess!"";homie-device-config.js:500[30:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Valida ... ror+"")"";homie-device-config.js:514[35:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Valida ... ror+"")"";homie-device-config.js:522[35:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Homie  ... eString;homie-device-config.js:853[34:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;homie-device-config.js:808[37:41];Sink: ""Homie  ... eString;homie-device-config.js:922[35:157]::FLOW_DESCR_END","/nodes/homie-device-config/homie-device-config.js","808","37","808","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;homie-device-config.js:808[44:50];Sink: deviceI ... tring();homie-device-config.js:300[33:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;homie-device-config.js:808[44:50];Sink: ""Extens ... tring();homie-device-config.js:302[33:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;homie-device-config.js:808[44:50];Sink: deviceI ... tring();homie-device-config.js:333[33:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;homie-device-config.js:808[44:50];Sink: deviceI ... tring();homie-device-config.js:352[35:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;homie-device-config.js:808[44:50];Sink: ""Homie  ... eString;homie-device-config.js:853[34:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;homie-device-config.js:808[44:50];Sink: ""Homie  ... eString;homie-device-config.js:922[35:157]::FLOW_DESCR_END","/nodes/homie-device-config/homie-device-config.js","808","44","808","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;homie-node.js:71[39:43];Sink: status.text;homie-node.js:45[30:40]::FLOW_DESCR_END","/nodes/homie-node/homie-node.js","71","39","71","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homie-node.js:230[31:33];Sink: ""send:  ... etained;homie-node.js:124[28:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:230[31:33];Sink: topic;homie-node.js:125[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:230[31:33];Sink: property;homie-node.js:125[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:230[31:33];Sink: ""new no ... g()+"")"";homie-node.js:193[30:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:230[31:33];Sink: [msg];homie-node.js:241[14:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:230[31:33];Sink: msg;homie-node.js:263[22:24]::FLOW_DESCR_END","/nodes/homie-node/homie-node.js","230","31","230","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homie-node.js:275[49:51];Sink: msg;homie-node.js:309[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:275[49:51];Sink: msg;homie-node.js:324[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homie-node.js:275[49:51];Sink: nodeId+ ... g()+"")"";homie-node.js:338[42:177]::FLOW_DESCR_END","/nodes/homie-node/homie-node.js","275","49","275","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;homie-state.js:61[39:43];Sink: status.text;homie-state.js:45[30:40]::FLOW_DESCR_END","/nodes/homie-state/homie-state.js","61","39","61","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut;homie-state.js:162[46:51];Sink: [msgOut];homie-state.js:182[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgOut;homie-state.js:162[46:51];Sink: log;homie-state.js:183[35:37]::FLOW_DESCR_END","/nodes/homie-state/homie-state.js","162","46","162","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgOut.deviceId;homie-state.js:177[26:40];Sink: log;homie-state.js:183[35:37]::FLOW_DESCR_END","/nodes/homie-state/homie-state.js","177","26","177","40"

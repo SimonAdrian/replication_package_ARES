@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;MediapipeFunction.js:26[19:22];Sink: ""Parse  ... payload;MediapipeFunction.js:60[29:58]::FLOW_DESCR_END","/MediapipeFunction.js","26","19","26","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;requestClose.js:10[36:38];Sink: msg;requestClose.js:31[27:29]::FLOW_DESCR_END","/requestClose.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;requestHolistic.js:10[36:38];Sink: msg;requestHolistic.js:34[27:29]::FLOW_DESCR_END","/requestHolistic.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;requestOpen.js:20[42:44];Sink: JSON.st ... stData);requestOpen.js:37[56:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;requestOpen.js:20[42:44];Sink: msg;requestOpen.js:46[27:29]::FLOW_DESCR_END","/requestOpen.js","20","42","20","44"

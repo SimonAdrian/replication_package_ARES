@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mydb.js:113[40:42];Sink: msg;mydb.js:155[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mydb.js:113[40:42];Sink: msg;mydb.js:160[67:69]::FLOW_DESCR_END","/nodes/mydb.js","113","40","113","42"

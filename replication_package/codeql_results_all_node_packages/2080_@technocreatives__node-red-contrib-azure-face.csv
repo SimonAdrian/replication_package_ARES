@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;facedetect.js:9[35:37];Sink: msg;facedetect.js:35[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facedetect.js:9[35:37];Sink: msg;facedetect.js:59[120:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facedetect.js:9[35:37];Sink: msg;facedetect.js:70[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facedetect.js:9[35:37];Sink: msg;facedetect.js:79[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facedetect.js:9[35:37];Sink: msg;facedetect.js:90[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facedetect.js:9[35:37];Sink: msg;facedetect.js:94[43:45]::FLOW_DESCR_END","/lib/facedetect.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;facedetect.js:66[45:49];Sink: error.message;facedetect.js:70[36:48]::FLOW_DESCR_END","/lib/facedetect.js","66","45","66","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;facedetect.js:66[52:59];Sink: ""respon ... y(body);facedetect.js:77[32:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;facedetect.js:66[52:59];Sink: JSON.st ... e + ']';facedetect.js:79[36:93]::FLOW_DESCR_END","/lib/facedetect.js","66","52","66","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;facedetect.js:66[62:65];Sink: ""respon ... y(body);facedetect.js:77[32:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;facedetect.js:66[62:65];Sink: JSON.st ... e + ']';facedetect.js:79[36:93]::FLOW_DESCR_END","/lib/facedetect.js","66","62","66","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;faceid.js:11[35:37];Sink: msg;faceid.js:37[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;faceid.js:11[35:37];Sink: ""option ... ptions);faceid.js:56[24:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;faceid.js:11[35:37];Sink: msg;faceid.js:62[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;faceid.js:11[35:37];Sink: msg;faceid.js:71[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;faceid.js:11[35:37];Sink: msg;faceid.js:81[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;faceid.js:11[35:37];Sink: msg;faceid.js:85[43:45]::FLOW_DESCR_END","/lib/faceid.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.credentials.key;faceid.js:33[23:42];Sink: ""option ... ptions);faceid.js:56[24:59]::FLOW_DESCR_END","/lib/faceid.js","33","23","33","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;faceid.js:58[45:49];Sink: error.message;faceid.js:62[36:48]::FLOW_DESCR_END","/lib/faceid.js","58","45","58","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;faceid.js:58[52:59];Sink: ""respon ... y(body);faceid.js:68[32:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;faceid.js:58[52:59];Sink: JSON.st ... e + ']';faceid.js:71[36:93]::FLOW_DESCR_END","/lib/faceid.js","58","52","58","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;faceid.js:58[62:65];Sink: ""option ... ptions);faceid.js:56[24:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;faceid.js:58[62:65];Sink: ""respon ... y(body);faceid.js:68[32:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;faceid.js:58[62:65];Sink: JSON.st ... e + ']';faceid.js:71[36:93]::FLOW_DESCR_END","/lib/faceid.js","58","62","58","65"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mqtt.js:57[50:58];Sink: '[mqtt] ... is.host;mqtt.js:57[17:58]::FLOW_DESCR_END","/lib/mqtt.js","57","50","57","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mqtt.js:67[41:41];Sink: e;mqtt.js:73[54:54]::FLOW_DESCR_END","/lib/mqtt.js","67","41","67","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mqtt.js:79[41:41];Sink: e;mqtt.js:84[50:50]::FLOW_DESCR_END","/lib/mqtt.js","79","41","79","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt.js:122[42:47];Sink: packet.granted[0];mqtt.js:125[48:64]::FLOW_DESCR_END","/lib/mqtt.js","122","42","122","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt.js:128[44:49];Sink: packet.granted[0];mqtt.js:131[50:66]::FLOW_DESCR_END","/lib/mqtt.js","128","44","128","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt.js:134[43:48];Sink: p.topic;mqtt.js:138[43:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt.js:134[43:48];Sink: p.payload;mqtt.js:138[51:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt.js:134[43:48];Sink: p.qos;mqtt.js:138[61:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt.js:134[43:48];Sink: p.retain;mqtt.js:138[67:74]::FLOW_DESCR_END","/lib/mqtt.js","134","43","134","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.br ... ig.port;mqtt-dynamic.js:56[77:98];Sink: '[mqtt] ... :'+port;mqttConnectionPool.js:119[38:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;mqtt-dynamic.js:56[77:98];Sink: '[mqtt] ... :'+port;mqttConnectionPool.js:136[34:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;mqtt-dynamic.js:56[77:98];Sink: '[mqtt] ... :'+port;mqttConnectionPool.js:144[34:99]::FLOW_DESCR_END","/mqtt-dynamic.js","56","77","56","98"

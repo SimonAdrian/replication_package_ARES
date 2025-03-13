@@ -1,0 +1,66 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;engine-websocket.js:76[37:37];Sink: `(${thi ...  : ''}`;engine-websocket.js:81[31:142]::FLOW_DESCR_END","/dist/engine-websocket.js","76","37","76","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service ... oop].id;node-red-ui-funcs.js:130[11:36];Sink: `Discov ... ssage}`;node-red-ui-funcs.js:148[24:77]::FLOW_DESCR_END","/dist/node-red-ui-funcs.js","130","11","130","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service ... vcLoop];node-red-ui-funcs.js:130[11:33];Sink: `Discov ... ssage}`;node-red-ui-funcs.js:148[24:77]::FLOW_DESCR_END","/dist/node-red-ui-funcs.js","130","11","130","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-clear-resource.js:45[34:36];Sink: [\n      ...       ];mobius-clear-resource.js:78[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-clear-resource.js:45[34:36];Sink: [\n      ...       ];mobius-clear-resource.js:96[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-clear-resource.js:45[34:36];Sink: [\n      ...       ];mobius-clear-resource.js:111[27:17]::FLOW_DESCR_END","/dist/nodes/mobius-clear-resource.js","45","34","45","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ...  Login`;engine-api-client.js:71[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... ne API`;engine-api-client.js:83[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ...  token`;engine-api-client.js:111[25:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... nected`;engine-websocket.js:34[25:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... Closed`;engine-websocket.js:49[25:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ...  : ''}`;engine-websocket.js:73[29:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ...  : ''}`;engine-websocket.js:81[31:142]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... essage`;engine-websocket.js:91[29:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... yload}`;engine-websocket.js:112[25:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... uccess`;engine-websocket.js:115[25:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... ing...`;engine-websocket.js:130[25:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... ilable`;engine-websocket.js:134[25:129]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mobius-connection.js:64[17:22];Sink: `(${thi ... Client`;engine-websocket.js:147[21:92]::FLOW_DESCR_END","/dist/nodes/mobius-connection.js","64","17","64","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ...  Login`;engine-api-client.js:71[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... ne API`;engine-api-client.js:83[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ...  token`;engine-api-client.js:111[25:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... nected`;engine-websocket.js:34[25:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... Closed`;engine-websocket.js:49[25:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ...  : ''}`;engine-websocket.js:73[29:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ...  : ''}`;engine-websocket.js:81[31:142]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... essage`;engine-websocket.js:91[29:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... yload}`;engine-websocket.js:112[25:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... uccess`;engine-websocket.js:115[25:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... ing...`;engine-websocket.js:130[25:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... ilable`;engine-websocket.js:134[25:129]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mobius-connection.js:70[7:15];Sink: `(${thi ... Client`;engine-websocket.js:147[21:92]::FLOW_DESCR_END","/dist/nodes/mobius-connection.js","70","7","70","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;mobius-connection.js:107[32:37];Sink: `Connec ... .host}`;mobius-connection.js:107[16:39]::FLOW_DESCR_END","/dist/nodes/mobius-connection.js","107","32","107","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;mobius-connection.js:158[37:42];Sink: `Discon ... .host}`;mobius-connection.js:158[16:44]::FLOW_DESCR_END","/dist/nodes/mobius-connection.js","158","37","158","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-discover-object-list.js:53[34:36];Sink: {\n      ...       };mobius-discover-object-list.js:66[29:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-discover-object-list.js:53[34:36];Sink: {\n      ...       };mobius-discover-object-list.js:72[29:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-discover-object-list.js:53[34:36];Sink: {\n      ...       };mobius-discover-object-list.js:85[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-discover-object-list.js:53[34:36];Sink: {\n      ...       };mobius-discover-object-list.js:91[27:17]::FLOW_DESCR_END","/dist/nodes/mobius-discover-object-list.js","53","34","53","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-discover.js:43[34:36];Sink: {\n      ...       };mobius-discover.js:79[25:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-discover.js:43[34:36];Sink: {\n      ...       };mobius-discover.js:90[25:15]::FLOW_DESCR_END","/dist/nodes/mobius-discover.js","43","34","43","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-filter-by-rid-value.js:51[34:36];Sink: [\n      ...       ];mobius-filter-by-rid-value.js:97[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-filter-by-rid-value.js:51[34:36];Sink: [\n      ...       ];mobius-filter-by-rid-value.js:119[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-filter-by-rid-value.js:51[34:36];Sink: { ...ms ... iList };mobius-filter-by-rid-value.js:128[27:66]::FLOW_DESCR_END","/dist/nodes/mobius-filter-by-rid-value.js","51","34","51","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-get-multi-object.js:46[40:42];Sink: { ...ms ... alues };mobius-get-multi-object.js:76[23:67]::FLOW_DESCR_END","/dist/nodes/mobius-get-multi-object.js","46","40","46","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-get-multi-resource.js:47[40:42];Sink: { ...ms ... alues };mobius-get-multi-resource.js:78[25:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-get-multi-resource.js:47[40:42];Sink: { ...ms ... yload };mobius-get-multi-resource.js:84[25:70]::FLOW_DESCR_END","/dist/nodes/mobius-get-multi-resource.js","47","40","47","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-get-object.js:48[34:36];Sink: [\n      ...       ];mobius-get-object.js:75[25:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-get-object.js:48[34:36];Sink: [\n      ...       ];mobius-get-object.js:93[25:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-get-object.js:48[34:36];Sink: { ...ms ... urces };mobius-get-object.js:103[25:69]::FLOW_DESCR_END","/dist/nodes/mobius-get-object.js","48","34","48","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-get-resource.js:45[34:36];Sink: [\n      ...       ];mobius-get-resource.js:72[25:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-get-resource.js:45[34:36];Sink: [\n      ...       ];mobius-get-resource.js:86[25:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-get-resource.js:45[34:36];Sink: [\n      ...       ];mobius-get-resource.js:101[25:15]::FLOW_DESCR_END","/dist/nodes/mobius-get-resource.js","45","34","45","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-send-dcmd.js:46[34:36];Sink: [\n      ...       ];mobius-send-dcmd.js:65[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-send-dcmd.js:46[34:36];Sink: [\n      ...       ];mobius-send-dcmd.js:79[27:17]::FLOW_DESCR_END","/dist/nodes/mobius-send-dcmd.js","46","34","46","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-set-multi-resource.js:45[34:36];Sink: [\n      ...       ];mobius-set-multi-resource.js:80[29:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-multi-resource.js:45[34:36];Sink: [\n      ...       ];mobius-set-multi-resource.js:96[29:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-multi-resource.js:45[34:36];Sink: [{ ...m ... data }];mobius-set-multi-resource.js:105[29:76]::FLOW_DESCR_END","/dist/nodes/mobius-set-multi-resource.js","45","34","45","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mobius-set-resource.js:46[34:36];Sink: [\n      ...       ];mobius-set-resource.js:86[31:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-resource.js:46[34:36];Sink: [\n      ...       ];mobius-set-resource.js:104[31:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-resource.js:46[34:36];Sink: [\n      ...       ];mobius-set-resource.js:122[31:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-resource.js:46[34:36];Sink: [\n      ...       ];mobius-set-resource.js:154[29:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-resource.js:46[34:36];Sink: [\n      ...       ];mobius-set-resource.js:171[31:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mobius-set-resource.js:46[34:36];Sink: [\n      ...       ];mobius-set-resource.js:189[31:21]::FLOW_DESCR_END","/dist/nodes/mobius-set-resource.js","46","34","46","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service;mobius-discover-object-list.js:198[18:24];Sink: `${hid}/${sid}`;mobius-discover-object-list.js:210[38:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;mobius-discover-object-list.js:198[18:24];Sink: `Failed ... fline.`;mobius-discover-object-list.js:215[13:32]::FLOW_DESCR_END","/dist/nodes/mobius-discover-object-list.js","198","18","198","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: pid;mobius-discover-object-list.js:204[24:26];Sink: pids;mobius-discover-object-list.js:210[55:58]::FLOW_DESCR_END","/dist/nodes/mobius-discover-object-list.js","204","24","204","26"

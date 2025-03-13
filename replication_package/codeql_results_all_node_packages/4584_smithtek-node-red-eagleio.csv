@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek-eagleio-time.js:6[31:33];Sink: msg;smithtek-eagleio-time.js:21[12:14]::FLOW_DESCR_END","/smithtek-eagleio-time.js","6","31","6","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: eagleIO ... sername;smithtek-eagleio.js:12[40:61];Sink: topic;smithtek-eagleio.js:28[28:32]::FLOW_DESCR_END","/smithtek-eagleio.js","12","40","12","61"

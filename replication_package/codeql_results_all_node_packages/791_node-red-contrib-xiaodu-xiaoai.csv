@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;index.js:34[29:53];Sink: msg.topic;index.js:227[37:45]::FLOW_DESCR_END","/index.js","34","29","34","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:114[46:52];Sink: msg.payload;index.js:227[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:114[46:52];Sink: '\u51fa\u9519\u7684\u547d\u4ee4' ... ayload);xiaoai.js:121[28:58]::FLOW_DESCR_END","/index.js","114","46","114","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;index.js:122[77:89];Sink: msg.topic;index.js:227[37:45]::FLOW_DESCR_END","/index.js","122","77","122","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;index.js:177[44:51];Sink: msg.payload;index.js:227[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;index.js:177[44:51];Sink: '\u51fa\u9519\u7684\u547d\u4ee4' ... ayload);xiaoai.js:121[28:58]::FLOW_DESCR_END","/index.js","177","44","177","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:284[34:40];Sink: 'setPro ... d.data);index.js:293[34:75]::FLOW_DESCR_END","/index.js","284","34","284","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:398[40:46];Sink: 'setPro ... d.data);index.js:406[52:93]::FLOW_DESCR_END","/index.js","398","40","398","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;index.js:427[31:31];Sink: e;index.js:428[51:51]::FLOW_DESCR_END","/index.js","427","31","427","31"

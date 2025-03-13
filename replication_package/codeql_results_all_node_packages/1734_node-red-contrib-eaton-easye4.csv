@@ -1,0 +1,37 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;easyE4.js:140[21:24];Sink: msg.url;easyE4.js:132[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;easyE4.js:140[21:24];Sink: JsonData;easyE4.js:155[31:38]::FLOW_DESCR_END","/src/easyE4.js","140","21","140","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;easyE4.js:250[21:21];Sink: e;easyE4.js:251[16:16]::FLOW_DESCR_END","/src/easyE4.js","250","21","250","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:773[59:73];Sink: ""setInt ... eviceId;easyE4.js:773[43:73]::FLOW_DESCR_END","/src/easyE4.js","773","59","773","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:776[38:52];Sink: ""setInt ... eviceId;easyE4.js:776[22:52]::FLOW_DESCR_END","/src/easyE4.js","776","38","776","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:781[56:70];Sink: ""connec ... eviceId;easyE4.js:781[41:70]::FLOW_DESCR_END","/src/easyE4.js","781","56","781","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:791[38:52];Sink: ""setInt ... eviceId;easyE4.js:791[22:52]::FLOW_DESCR_END","/src/easyE4.js","791","38","791","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:792[30:44];Sink: delId;easyE4.js:793[22:26]::FLOW_DESCR_END","/src/easyE4.js","792","30","792","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:794[36:50];Sink: ""combin ... eviceId;easyE4.js:794[22:50]::FLOW_DESCR_END","/src/easyE4.js","794","36","794","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:798[56:70];Sink: ""connec ... eviceId;easyE4.js:798[41:70]::FLOW_DESCR_END","/src/easyE4.js","798","56","798","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:805[56:70];Sink: ""connec ... eviceId;easyE4.js:805[41:70]::FLOW_DESCR_END","/src/easyE4.js","805","56","805","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:821[56:70];Sink: ""connec ... eviceId;easyE4.js:821[41:70]::FLOW_DESCR_END","/src/easyE4.js","821","56","821","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:841[57:71];Sink: ""connec ... eviceId;easyE4.js:841[42:71]::FLOW_DESCR_END","/src/easyE4.js","841","57","841","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:898[30:44];Sink: key;easyE4.js:899[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:898[30:44];Sink: key;easyE4.js:910[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:898[30:44];Sink: key;easyE4.js:914[25:27]::FLOW_DESCR_END","/src/easyE4.js","898","30","898","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:926[20:34];Sink: deviceId;easyE4.js:84[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:926[20:34];Sink: key;easyE4.js:155[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:926[20:34];Sink: key;easyE4.js:166[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:926[20:34];Sink: deviceId;easyE4.js:927[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:926[20:34];Sink: key;easyE4.js:929[35:37]::FLOW_DESCR_END","/src/easyE4.js","926","20","926","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:961[27:41];Sink: key;easyE4.js:962[37:39]::FLOW_DESCR_END","/src/easyE4.js","961","27","961","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyE4.js:991[30:32];Sink: msg.url;easyE4.js:132[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyE4.js:991[30:32];Sink: msg;easyE4.js:1119[17:19]::FLOW_DESCR_END","/src/easyE4.js","991","30","991","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:994[20:34];Sink: deviceId;easyE4.js:84[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:994[20:34];Sink: key;easyE4.js:155[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:994[20:34];Sink: key;easyE4.js:166[26:28]::FLOW_DESCR_END","/src/easyE4.js","994","20","994","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceName;easyE4.js:1025[59:72];Sink: msg.url;easyE4.js:132[27:33]::FLOW_DESCR_END","/src/easyE4.js","1025","59","1025","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyE4.js:1160[30:32];Sink: deviceId;easyE4.js:1209[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyE4.js:1160[30:32];Sink: comInfo;easyE4.js:1209[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyE4.js:1160[30:32];Sink: ""connec ... eviceId;easyE4.js:1210[23:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyE4.js:1160[30:32];Sink: comInfo;easyE4.js:1211[15:21]::FLOW_DESCR_END","/src/easyE4.js","1160","30","1160","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;easyE4.js:1170[17:28];Sink: deviceId;easyE4.js:1209[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;easyE4.js:1170[17:28];Sink: ""connec ... eviceId;easyE4.js:1210[23:45]::FLOW_DESCR_END","/src/easyE4.js","1170","17","1170","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;easyE4.js:1173[22:36];Sink: deviceId;easyE4.js:1209[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;easyE4.js:1173[22:36];Sink: ""connec ... eviceId;easyE4.js:1210[23:45]::FLOW_DESCR_END","/src/easyE4.js","1173","22","1173","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyE4.js:1258[30:32];Sink: msg;easyE4.js:1322[16:18]::FLOW_DESCR_END","/src/easyE4.js","1258","30","1258","32"

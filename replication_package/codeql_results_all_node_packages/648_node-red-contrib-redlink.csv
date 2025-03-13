@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;redlinkStore.js:652[51:58];Sink: redlinkMsgMetadata;redlinkStore.js:655[33:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;redlinkStore.js:652[51:58];Sink: response.body;redlinkStore.js:656[46:58]::FLOW_DESCR_END","/redlinkStore.js","652","51","652","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;redlinkStore.js:744[51:58];Sink: response.statusCode;redlinkStore.js:746[36:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;redlinkStore.js:744[51:58];Sink: response.body;redlinkStore.js:746[62:74]::FLOW_DESCR_END","/redlinkStore.js","744","51","744","58"

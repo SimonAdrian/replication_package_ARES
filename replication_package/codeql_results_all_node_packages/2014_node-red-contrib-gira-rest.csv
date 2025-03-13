@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gira-get.js:57[36:38];Sink: msg;gira-get.js:130[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gira-get.js:57[36:38];Sink: message;gira-get.js:131[26:32]::FLOW_DESCR_END","/nodes/gira-get.js","57","36","57","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.body.token;gira-host.js:333[34:48];Sink: fname + ... e.token;gira-host.js:164[24:52]::FLOW_DESCR_END","/nodes/gira-host.js","333","34","333","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.body.token;gira-host.js:334[51:65];Sink: fname + ... y.token;gira-host.js:334[32:65]::FLOW_DESCR_END","/nodes/gira-host.js","334","51","334","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gira-set.js:57[36:38];Sink: msg;gira-set.js:144[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gira-set.js:57[36:38];Sink: message;gira-set.js:145[26:32]::FLOW_DESCR_END","/nodes/gira-set.js","57","36","57","38"

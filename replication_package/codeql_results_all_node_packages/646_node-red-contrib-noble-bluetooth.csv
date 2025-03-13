@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;bluetooth.js:17[42:46];Sink: ""BLE st ... + state;bluetooth.js:18[20:40]::FLOW_DESCR_END","/bluetooth.js","17","42","17","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bluetooth.js:139[35:37];Sink: msg;bluetooth.js:214[31:33]::FLOW_DESCR_END","/bluetooth.js","139","35","139","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;bluetooth.js:151[41:45];Sink: ""Error  ... + error;bluetooth.js:153[31:58]::FLOW_DESCR_END","/bluetooth.js","151","41","151","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bluetooth.js:252[35:37];Sink: ""Servic ... ticUuid;bluetooth.js:278[28:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth.js:252[35:37];Sink: ""Invali ... + topic;bluetooth.js:336[28:52]::FLOW_DESCR_END","/bluetooth.js","252","35","252","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;bluetooth.js:305[51:55];Sink: ""Error  ... + error;bluetooth.js:307[35:81]::FLOW_DESCR_END","/bluetooth.js","305","51","305","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bluetooth.js:351[35:37];Sink: ""Servic ... ticUuid;bluetooth.js:377[28:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth.js:351[35:37];Sink: data;bluetooth.js:405[34:37]::FLOW_DESCR_END","/bluetooth.js","351","35","351","37"

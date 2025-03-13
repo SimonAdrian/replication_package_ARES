@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;yad-switch-node.js:12[31:31];Sink: m;yad-switch-node.js:13[34:34]::FLOW_DESCR_END","/coreWidgets/yad-switch/yad-switch-node.js","12","31","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;yad-text-widget-node.js:14[31:31];Sink: m;yad-text-widget-node.js:15[34:34]::FLOW_DESCR_END","/coreWidgets/yad-text-widget/yad-text-widget-node.js","14","31","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;yad-toggle-icon-button-node.js:14[31:31];Sink: m;yad-toggle-icon-button-node.js:15[34:34]::FLOW_DESCR_END","/coreWidgets/yad-toggle-icon-button/yad-toggle-icon-button-node.js","14","31","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;yad-node.js:13[31:31];Sink: m;yad-node.js:17[36:36]::FLOW_DESCR_END","/nodes/yad-node.js","13","31","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;yad.js:126[35:39];Sink: error;yad.js:127[40:44]::FLOW_DESCR_END","/nodes/yad.js","126","35","126","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lib.js:57[39:41];Sink: 'No ele ... stered';lib.js:74[23:75]::FLOW_DESCR_END","/src/lib.js","57","39","57","41"

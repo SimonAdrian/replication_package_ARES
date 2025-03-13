@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: msg;apex.js:26[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: msg;apex.js:32[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: node.path;apex.js:43[29:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: node.path;apex.js:48[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: msg.payload;apex.js:48[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: node.path;apex.js:53[29:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apex.js:17[34:36];Sink: msg.payload;apex.js:53[40:50]::FLOW_DESCR_END","/src/nodes/apex.js","17","34","17","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;apex.js:24[39:44];Sink: msg.payload;apex.js:48[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;apex.js:24[39:44];Sink: msg.payload;apex.js:53[40:50]::FLOW_DESCR_END","/src/nodes/apex.js","24","39","24","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatter.js:17[34:36];Sink: msg;chatter.js:26[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:17[34:36];Sink: msg;chatter.js:32[28:30]::FLOW_DESCR_END","/src/nodes/chatter.js","17","34","17","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode.id);config.js:30[23:55];Sink: credentials;config.js:52[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode.id);config.js:30[23:55];Sink: credentials;config.js:76[45:55]::FLOW_DESCR_END","/src/nodes/config.js","30","23","30","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als(id);config.js:148[23:50];Sink: credentials;config.js:150[34:44]::FLOW_DESCR_END","/src/nodes/config.js","148","23","148","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;operation.js:17[34:36];Sink: msg;operation.js:28[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;operation.js:17[34:36];Sink: msg;operation.js:34[28:30]::FLOW_DESCR_END","/src/nodes/operation.js","17","34","17","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;operation.js:53[40:42];Sink: err.message;operation.js:28[24:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;operation.js:53[40:42];Sink: err.message;operation.js:29[32:42]::FLOW_DESCR_END","/src/nodes/operation.js","53","40","53","42"

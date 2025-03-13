@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.ops.pop();helper.js:1[991:1001];Sink: n;helper.js:1[784:784]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.ops.pop();helper.js:1[991:1001];Sink: n;helper.js:1[810:810]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.ops.pop();helper.js:1[991:1001];Sink: o[1];helper.js:1[812:815]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.ops.pop();helper.js:1[991:1001];Sink: o;helper.js:1[6707:6707]::FLOW_DESCR_END","/dist/helper.js","1","991","1","1001"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: o.ops.pop();ical-config.js:1[991:1001];Sink: r;ical-config.js:1[784:784]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: o.ops.pop();ical-config.js:1[991:1001];Sink: r;ical-config.js:1[810:810]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: o.ops.pop();ical-config.js:1[991:1001];Sink: i[1];ical-config.js:1[812:815]::FLOW_DESCR_END","/dist/ical-config.js","1","991","1","1001"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n;ical-upcoming.js:1[714:714];Sink: a;ical-upcoming.js:1[1915:1915]::FLOW_DESCR_END","/dist/ical-upcoming.js","1","714","1","714"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: i.ops.pop();worker.js:1[991:1001];Sink: r;worker.js:1[784:784]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: i.ops.pop();worker.js:1[991:1001];Sink: r;worker.js:1[810:810]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: i.ops.pop();worker.js:1[991:1001];Sink: a[1];worker.js:1[812:815]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: i.ops.pop();worker.js:1[991:1001];Sink: n;worker.js:1[1851:1851]::FLOW_DESCR_END","/dist/worker.js","1","991","1","1001"

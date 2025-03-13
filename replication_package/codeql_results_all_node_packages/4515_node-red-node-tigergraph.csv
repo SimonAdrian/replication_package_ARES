@@ -1,0 +1,49 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;99-tigergraph.js:9[21:26];Sink: `https: ... ECRET}`;tgdroid.js:12[28:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;99-tigergraph.js:9[21:26];Sink: `http:/ ... ECRET}`;tgdroid.js:25[27:87]::FLOW_DESCR_END","/99-tigergraph.js","9","21","9","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.secret;99-tigergraph.js:11[23:30];Sink: `https: ... ECRET}`;tgdroid.js:12[28:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.secret;99-tigergraph.js:11[23:30];Sink: `http:/ ... ECRET}`;tgdroid.js:25[27:87]::FLOW_DESCR_END","/99-tigergraph.js","11","23","11","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;99-tigergraph.js:34[37:45];Sink: `https: ... ECRET}`;tgdroid.js:12[28:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;99-tigergraph.js:34[37:45];Sink: `http:/ ... ECRET}`;tgdroid.js:25[27:87]::FLOW_DESCR_END","/99-tigergraph.js","34","37","34","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-tigergraph.js:114[39:41];Sink: msg;99-tigergraph.js:133[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:114[39:41];Sink: msg;99-tigergraph.js:137[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:114[39:41];Sink: msg;99-tigergraph.js:149[57:59]::FLOW_DESCR_END","/99-tigergraph.js","114","39","114","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-tigergraph.js:198[39:41];Sink: msg;99-tigergraph.js:212[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:198[39:41];Sink: msg;99-tigergraph.js:216[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:198[39:41];Sink: msg;99-tigergraph.js:228[57:59]::FLOW_DESCR_END","/99-tigergraph.js","198","39","198","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-tigergraph.js:278[39:41];Sink: msg;99-tigergraph.js:299[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:278[39:41];Sink: msg;99-tigergraph.js:302[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:278[39:41];Sink: msg;99-tigergraph.js:313[57:59]::FLOW_DESCR_END","/99-tigergraph.js","278","39","278","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-tigergraph.js:365[39:41];Sink: msg;99-tigergraph.js:386[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:365[39:41];Sink: msg;99-tigergraph.js:389[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-tigergraph.js:365[39:41];Sink: msg;99-tigergraph.js:400[57:59]::FLOW_DESCR_END","/99-tigergraph.js","365","39","365","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:14[28:32];Sink: data;tgdroid.js:18[27:30]::FLOW_DESCR_END","/tgdroid.js","14","28","14","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:27[28:32];Sink: data;tgdroid.js:31[27:30]::FLOW_DESCR_END","/tgdroid.js","27","28","27","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:71[30:34];Sink: err.code;99-tigergraph.js:48[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:71[30:34];Sink: err;99-tigergraph.js:49[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:71[30:34];Sink: data;tgdroid.js:75[29:32]::FLOW_DESCR_END","/tgdroid.js","71","30","71","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:84[30:34];Sink: err.code;99-tigergraph.js:48[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:84[30:34];Sink: err;99-tigergraph.js:49[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:84[30:34];Sink: data;tgdroid.js:88[29:32]::FLOW_DESCR_END","/tgdroid.js","84","30","84","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:152[30:34];Sink: data;tgdroid.js:156[29:32]::FLOW_DESCR_END","/tgdroid.js","152","30","152","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:269[24:28];Sink: ans;tgdroid.js:254[61:63]::FLOW_DESCR_END","/tgdroid.js","269","24","269","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:276[23:27];Sink: error;tgdroid.js:277[23:27]::FLOW_DESCR_END","/tgdroid.js","276","23","276","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:297[22:26];Sink: ans;tgdroid.js:284[50:52]::FLOW_DESCR_END","/tgdroid.js","297","22","297","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:304[21:25];Sink: error;tgdroid.js:305[21:25]::FLOW_DESCR_END","/tgdroid.js","304","21","304","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:323[22:26];Sink: ans;tgdroid.js:310[45:47]::FLOW_DESCR_END","/tgdroid.js","323","22","323","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:330[21:25];Sink: error;tgdroid.js:331[21:25]::FLOW_DESCR_END","/tgdroid.js","330","21","330","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:358[22:26];Sink: ans;tgdroid.js:345[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:358[22:26];Sink: JSON.pa ... ssage""];tgdroid.js:363[25:51]::FLOW_DESCR_END","/tgdroid.js","358","22","358","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tgdroid.js:368[24:26];Sink: err;tgdroid.js:369[21:23]::FLOW_DESCR_END","/tgdroid.js","368","24","368","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:372[21:25];Sink: error;tgdroid.js:373[21:25]::FLOW_DESCR_END","/tgdroid.js","372","21","372","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:402[22:26];Sink: ans;tgdroid.js:389[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:402[22:26];Sink: JSON.pa ... ssage""];tgdroid.js:407[25:51]::FLOW_DESCR_END","/tgdroid.js","402","22","402","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tgdroid.js:412[24:26];Sink: err;tgdroid.js:413[21:23]::FLOW_DESCR_END","/tgdroid.js","412","24","412","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:416[21:25];Sink: error;tgdroid.js:417[21:25]::FLOW_DESCR_END","/tgdroid.js","416","21","416","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:441[22:26];Sink: ans;tgdroid.js:428[55:57]::FLOW_DESCR_END","/tgdroid.js","441","22","441","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tgdroid.js:447[24:26];Sink: err;tgdroid.js:448[21:23]::FLOW_DESCR_END","/tgdroid.js","447","24","447","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:451[21:25];Sink: error;tgdroid.js:452[21:25]::FLOW_DESCR_END","/tgdroid.js","451","21","451","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:470[22:26];Sink: ans;tgdroid.js:457[69:71]::FLOW_DESCR_END","/tgdroid.js","470","22","470","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tgdroid.js:476[24:26];Sink: err;tgdroid.js:477[21:23]::FLOW_DESCR_END","/tgdroid.js","476","24","476","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tgdroid.js:480[21:25];Sink: error;tgdroid.js:481[21:25]::FLOW_DESCR_END","/tgdroid.js","480","21","480","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;tgdroid.js:599[28:32];Sink: data;tgdroid.js:603[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;tgdroid.js:599[28:32];Sink: data;tgdroid.js:605[29:32]::FLOW_DESCR_END","/tgdroid.js","599","28","599","32"

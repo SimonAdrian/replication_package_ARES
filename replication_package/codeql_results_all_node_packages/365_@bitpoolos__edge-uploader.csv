@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitpool_uploader.js:95[36:38];Sink: obj;bitpool_uploader.js:647[43:45]::FLOW_DESCR_END","/bitpool_uploader.js","95","36","95","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.PoolKey;bitpool_uploader.js:421[55:69];Sink: `${node ... }/tags`;bitpool_uploader.js:438[45:83]::FLOW_DESCR_END","/bitpool_uploader.js","421","55","421","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.StationID;bitpool_uploader.js:467[71:87];Sink: `${node ... treams`;bitpool_uploader.js:502[50:122]::FLOW_DESCR_END","/bitpool_uploader.js","467","71","467","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.StreamKey;bitpool_uploader.js:505[61:77];Sink: `${node ... }/tags`;bitpool_uploader.js:525[45:87]::FLOW_DESCR_END","/bitpool_uploader.js","505","61","505","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meta_tagging.js:15[36:38];Sink: msg;meta_tagging.js:35[23:25]::FLOW_DESCR_END","/meta_tagging.js","15","36","15","38"

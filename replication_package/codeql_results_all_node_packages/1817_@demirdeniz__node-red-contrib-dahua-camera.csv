@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:28[32:43];Sink: self.BA ... Remote';dahua-cam-api.js:172[33:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:28[32:43];Sink: self.BA ... Remote';dahua-cam-api.js:173[13:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:28[32:43];Sink: self.BA ... Remote';dahua-cam-api.js:182[33:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:28[32:43];Sink: self.BA ... Remote';dahua-cam-api.js:183[13:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:28[32:43];Sink: self.BA ... nnel=1';dahua-cam-api.js:192[33:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:28[32:43];Sink: self.BA ... nnel=1';dahua-cam-api.js:193[13:86]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","28","32","28","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:28[53:64];Sink: self.BA ... Remote';dahua-cam-api.js:172[33:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:28[53:64];Sink: self.BA ... Remote';dahua-cam-api.js:173[13:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:28[53:64];Sink: self.BA ... Remote';dahua-cam-api.js:182[33:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:28[53:64];Sink: self.BA ... Remote';dahua-cam-api.js:183[13:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:28[53:64];Sink: self.BA ... nnel=1';dahua-cam-api.js:192[33:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:28[53:64];Sink: self.BA ... nnel=1';dahua-cam-api.js:193[13:86]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","28","53","28","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dahua-cam-api.js:41[31:33];Sink: ""Error: "" + err;dahua-cam-api.js:42[21:35]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","41","31","41","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dahua-cam-api.js:88[33:35];Sink: ""Connec ... "" + err;dahua-cam-api.js:165[33:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;dahua-cam-api.js:88[33:35];Sink: err;dahua-cam-api.js:166[24:26]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","88","33","88","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dahua-cam-api.js:98[32:35];Sink: 'Data:  ... tring();dahua-cam-api.js:118[33:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dahua-cam-api.js:98[32:35];Sink: code;dahua-cam-api.js:147[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dahua-cam-api.js:98[32:35];Sink: action;dahua-cam-api.js:147[42:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dahua-cam-api.js:98[32:35];Sink: index;dahua-cam-api.js:147[50:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dahua-cam-api.js:98[32:35];Sink: metadata;dahua-cam-api.js:147[57:64]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","98","32","98","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dahua-cam-api.js:111[33:35];Sink: ""Connec ... "" + err;dahua-cam-api.js:165[33:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;dahua-cam-api.js:111[33:35];Sink: err;dahua-cam-api.js:166[24:26]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","111","33","111","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;dahua-cam-api.js:154[51:62];Sink: 'Connec ... ns.port;dahua-cam-api.js:154[33:83]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","154","51","154","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;dahua-cam-api.js:154[72:83];Sink: 'Connec ... ns.port;dahua-cam-api.js:154[33:83]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","154","72","154","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;dahua-cam-api.js:193[115:118];Sink: ""GetDoo ...  + body;dahua-cam-api.js:198[41:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;dahua-cam-api.js:193[115:118];Sink: body;dahua-cam-api.js:199[58:61]::FLOW_DESCR_END","/nodes/dahua-cam-api.js","193","115","193","118"

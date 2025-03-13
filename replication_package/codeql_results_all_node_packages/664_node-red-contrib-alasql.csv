@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-alafile.js:22[21:23];Sink: msg;node-red-contrib-alafile.js:50[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-alafile.js:22[21:23];Sink: msg;node-red-contrib-alafile.js:53[23:25]::FLOW_DESCR_END","/node-red-contrib-alafile.js","22","21","22","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-alafile.js:77[21:23];Sink: msg;node-red-contrib-alafile.js:112[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-alafile.js:77[21:23];Sink: msg;node-red-contrib-alafile.js:115[24:26]::FLOW_DESCR_END","/node-red-contrib-alafile.js","77","21","77","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-alasql.js:8[29:31];Sink: msg;node-red-contrib-alasql.js:16[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-alasql.js:8[29:31];Sink: msg;node-red-contrib-alasql.js:19[22:24]::FLOW_DESCR_END","/node-red-contrib-alasql.js","8","29","8","31"

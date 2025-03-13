@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:43[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:47[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:73[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:80[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:85[36:38]::FLOW_DESCR_END","/delicious.js","41","39","41","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;delicious.js:71[47:49];Sink: err;delicious.js:73[36:38]::FLOW_DESCR_END","/delicious.js","71","47","71","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;delicious.js:71[55:58];Sink: body;delicious.js:80[40:43]::FLOW_DESCR_END","/delicious.js","71","55","71","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;delicious.js:84[40:42];Sink: err;delicious.js:85[32:34]::FLOW_DESCR_END","/delicious.js","84","40","84","42"

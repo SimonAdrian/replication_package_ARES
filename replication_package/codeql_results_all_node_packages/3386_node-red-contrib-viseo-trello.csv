@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-trello-card.js:18[27:30];Sink: data;node-trello-card.js:92[26:29]::FLOW_DESCR_END","/node-trello-card.js","18","27","18","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-trello-in.js:59[19:21];Sink: err;node-trello-in.js:60[35:37]::FLOW_DESCR_END","/node-trello-in.js","59","19","59","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node-trello-in.js:59[34:37];Sink: body;node-trello-in.js:61[16:19]::FLOW_DESCR_END","/node-trello-in.js","59","34","59","37"

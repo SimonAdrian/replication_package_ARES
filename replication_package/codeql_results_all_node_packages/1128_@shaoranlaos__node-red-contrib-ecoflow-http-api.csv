@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ecoflow-api-node.js:17[41:43];Sink: quotaTypes;ecoflow-api-node.js:32[32:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecoflow-api-node.js:17[41:43];Sink: quotaTypes;ecoflow-api-node.js:40[32:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecoflow-api-node.js:17[41:43];Sink: msg;ecoflow-api-node.js:54[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecoflow-api-node.js:17[41:43];Sink: obj;ecoflow-api-node.js:65[59:61]::FLOW_DESCR_END","/ecoflow-api-node.js","17","41","17","43"

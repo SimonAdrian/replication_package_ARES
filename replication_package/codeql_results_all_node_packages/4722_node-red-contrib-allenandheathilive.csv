@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ilive-sceneRecall.js:40[84:94];Sink: ""Create ... ig.port;ilive-sceneRecall.js:40[21:94]::FLOW_DESCR_END","/archive/ilive-sceneRecall.js","40","84","40","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ilive-sceneRecall.js:43[20:30];Sink: port;ilive-sceneRecall.js:81[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;ilive-sceneRecall.js:43[20:30];Sink: port;ilive-sceneRecall.js:87[36:39]::FLOW_DESCR_END","/archive/ilive-sceneRecall.js","43","20","43","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ilive-network.js:42[81:91];Sink: ""Create ... ig.port;ilive-network.js:42[18:91]::FLOW_DESCR_END","/ilive-network.js","42","81","42","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ilive-network.js:45[21:31];Sink: node.port;ilive-network.js:137[26:34]::FLOW_DESCR_END","/ilive-network.js","45","21","45","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ilive-network.js:166[34:34];Sink: ""An Err ... d "" + e;ilive-network.js:185[32:54]::FLOW_DESCR_END","/ilive-network.js","166","34","166","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ilive-network_OLD.js:47[84:94];Sink: ""Create ... ig.port;ilive-network_OLD.js:47[21:94]::FLOW_DESCR_END","/ilive-network_OLD.js","47","84","47","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ilive-network_OLD.js:50[20:30];Sink: port;ilive-network_OLD.js:88[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;ilive-network_OLD.js:50[20:30];Sink: port;ilive-network_OLD.js:94[41:44]::FLOW_DESCR_END","/ilive-network_OLD.js","50","20","50","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ilive-network_OLD.js:103[42:46];Sink: ""iLive  ... + error;ilive-network_OLD.js:104[25:47]::FLOW_DESCR_END","/ilive-network_OLD.js","103","42","103","46"

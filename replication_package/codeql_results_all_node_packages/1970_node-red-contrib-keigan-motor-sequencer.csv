@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;km-motor-sequencer.js:7[29:31];Sink: err;km-motor-sequencer.js:8[19:21]::FLOW_DESCR_END","/km-motor-sequencer.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;km-motor-sequencer.js:165[35:37];Sink: node.msg;km-motor-sequencer.js:118[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;km-motor-sequencer.js:165[35:37];Sink: node.msg;km-motor-sequencer.js:120[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;km-motor-sequencer.js:165[35:37];Sink: node.msg;km-motor-sequencer.js:129[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;km-motor-sequencer.js:165[35:37];Sink: node.msg;km-motor-sequencer.js:137[23:30]::FLOW_DESCR_END","/km-motor-sequencer.js","165","35","165","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;km-motor-usb-selector.js:7[28:30];Sink: err;km-motor-usb-selector.js:8[19:21]::FLOW_DESCR_END","/km-motor-usb-selector.js","7","28","7","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;km-motor-usb-selector.js:303[36:38];Sink: node.msg;km-motor-usb-selector.js:204[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;km-motor-usb-selector.js:303[36:38];Sink: node.msg;km-motor-usb-selector.js:206[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;km-motor-usb-selector.js:303[36:38];Sink: node.msg;km-motor-usb-selector.js:215[23:30]::FLOW_DESCR_END","/km-motor-usb-selector.js","303","36","303","38"

@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;j5-platform.js:103[48:50];Sink: err.message;j5-platform.js:104[44:54]::FLOW_DESCR_END","/nodes/j5-platform.js","103","48","103","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;j5-platform.js:122[52:54];Sink: err;j5-platform.js:123[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;j5-platform.js:122[52:54];Sink: err;j5-platform.js:124[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;j5-platform.js:122[52:54];Sink: err;j5-platform.js:125[63:65]::FLOW_DESCR_END","/nodes/j5-platform.js","122","52","122","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;j5-platform.js:144[53:55];Sink: 'tcp er ... message;j5-platform.js:145[44:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;j5-platform.js:144[53:55];Sink: err;j5-platform.js:146[59:61]::FLOW_DESCR_END","/nodes/j5-platform.js","144","53","144","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;j5-platform.js:160[49:51];Sink: err.message;j5-platform.js:161[44:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;j5-platform.js:160[49:51];Sink: err;j5-platform.js:162[59:61]::FLOW_DESCR_END","/nodes/j5-platform.js","160","49","160","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;j5-platform.js:193[33:35];Sink: 'io ' + err.message;j5-platform.js:194[28:46]::FLOW_DESCR_END","/nodes/j5-platform.js","193","33","193","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;j5-platform.js:214[36:38];Sink: 'board  ... message;j5-platform.js:215[28:49]::FLOW_DESCR_END","/nodes/j5-platform.js","214","36","214","38"

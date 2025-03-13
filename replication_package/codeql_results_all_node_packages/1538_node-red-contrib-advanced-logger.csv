@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;advanced-logger.js:44[36:38];Sink: JSON.stringify(msg);advanced-logger.js:51[44:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-logger.js:44[36:38];Sink: JSON.st ... plete]);advanced-logger.js:59[44:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-logger.js:44[36:38];Sink: JSON.st ... .error);advanced-logger.js:69[41:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-logger.js:44[36:38];Sink: JSON.st ... g.warn);advanced-logger.js:78[40:63]::FLOW_DESCR_END","/advanced-logger.js","44","36","44","38"

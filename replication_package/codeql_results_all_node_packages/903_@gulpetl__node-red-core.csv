@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gulp_dest.js:14[36:38];Sink: `gulp.d ... treams`;gulp_dest.js:39[29:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gulp_dest.js:14[36:38];Sink: {...msg ... e:file};gulp_dest.js:49[34:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gulp_dest.js:14[36:38];Sink: {...msg ... gid:""""};gulp_dest.js:54[34:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gulp_dest.js:14[36:38];Sink: msg;gulp_dest.js:62[18:20]::FLOW_DESCR_END","/gulp_dest.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gulp_src.js:15[36:38];Sink: msg;gulp_src.js:54[18:20]::FLOW_DESCR_END","/gulp_src.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message-pipe.js:8[36:38];Sink: msg;message-pipe.js:50[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-pipe.js:8[36:38];Sink: msg;message-pipe.js:96[22:24]::FLOW_DESCR_END","/message-pipe.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message-restream.js:9[36:38];Sink: JSON.st ...  + ""\n"";message-restream.js:56[36:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-restream.js:9[36:38];Sink: ""msgCou ... sgCount;message-restream.js:59[37:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-restream.js:9[36:38];Sink: msg;message-restream.js:77[18:20]::FLOW_DESCR_END","/message-restream.js","9","36","9","38"

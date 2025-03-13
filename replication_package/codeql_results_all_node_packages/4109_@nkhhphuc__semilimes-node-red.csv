@@ -1,0 +1,65 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-buttonlist.js:22[36:38];Sink: msg;sme-buttonlist.js:47[18:20]::FLOW_DESCR_END","/src/form-items/sme-buttonlist.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-contactpicker.js:17[36:38];Sink: msg;sme-contactpicker.js:37[18:20]::FLOW_DESCR_END","/src/form-items/sme-contactpicker.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-conversationpicker.js:17[36:38];Sink: msg;sme-conversationpicker.js:37[18:20]::FLOW_DESCR_END","/src/form-items/sme-conversationpicker.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-datepicker.js:17[36:38];Sink: msg;sme-datepicker.js:37[18:20]::FLOW_DESCR_END","/src/form-items/sme-datepicker.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-filepicker.js:17[36:38];Sink: msg;sme-filepicker.js:37[18:20]::FLOW_DESCR_END","/src/form-items/sme-filepicker.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-label.js:13[36:38];Sink: msg;sme-label.js:27[18:20]::FLOW_DESCR_END","/src/form-items/sme-label.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-locationpicker.js:18[36:38];Sink: msg;sme-locationpicker.js:43[18:20]::FLOW_DESCR_END","/src/form-items/sme-locationpicker.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-multichoice.js:22[36:38];Sink: msg;sme-multichoice.js:47[18:20]::FLOW_DESCR_END","/src/form-items/sme-multichoice.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-nfcreader.js:17[36:38];Sink: msg;sme-nfcreader.js:41[18:20]::FLOW_DESCR_END","/src/form-items/sme-nfcreader.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-photopicker.js:17[36:38];Sink: msg;sme-photopicker.js:37[18:20]::FLOW_DESCR_END","/src/form-items/sme-photopicker.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-qrscanner.js:17[36:38];Sink: msg;sme-qrscanner.js:41[18:20]::FLOW_DESCR_END","/src/form-items/sme-qrscanner.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-singlechoice.js:22[36:38];Sink: msg;sme-singlechoice.js:47[18:20]::FLOW_DESCR_END","/src/form-items/sme-singlechoice.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-slider.js:21[36:38];Sink: msg;sme-slider.js:46[18:20]::FLOW_DESCR_END","/src/form-items/sme-slider.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-textbox.js:17[36:38];Sink: msg;sme-textbox.js:36[18:20]::FLOW_DESCR_END","/src/form-items/sme-textbox.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-timepicker.js:17[36:38];Sink: msg;sme-timepicker.js:37[18:20]::FLOW_DESCR_END","/src/form-items/sme-timepicker.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-toggle.js:17[36:38];Sink: msg;sme-toggle.js:39[18:20]::FLOW_DESCR_END","/src/form-items/sme-toggle.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-bucketcreator.js:45[36:38];Sink: msg;sme-bucketcreator.js:100[18:20]::FLOW_DESCR_END","/src/sme-bucketcreator.js","45","36","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-bucketselector.js:23[36:38];Sink: msg;sme-bucketselector.js:89[18:20]::FLOW_DESCR_END","/src/sme-bucketselector.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-bucketupdater.js:35[36:38];Sink: msg;sme-bucketupdater.js:92[18:20]::FLOW_DESCR_END","/src/sme-bucketupdater.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-calendarmessage.js:16[36:38];Sink: msg;sme-calendarmessage.js:60[18:20]::FLOW_DESCR_END","/src/sme-calendarmessage.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ationID;sme-connector.js:28[29:58];Sink: `Connec ... }""... `;sme-core.js:207[25:60]::FLOW_DESCR_END","/src/sme-connector.js","28","29","28","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .server;sme-connector.js:30[43:65];Sink: `Connec ... }""... `;sme-core.js:207[25:60]::FLOW_DESCR_END","/src/sme-connector.js","30","43","30","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-core.js:248[44:46];Sink: msg;sme-core.js:256[48:50]::FLOW_DESCR_END","/src/sme-core.js","248","44","248","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-core.js:259[42:44];Sink: 'ws error!' + err;sme-core.js:260[29:45]::FLOW_DESCR_END","/src/sme-core.js","259","42","259","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sme-core.js:318[37:37];Sink: jsonData;sme-core.js:327[79:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sme-core.js:318[37:37];Sink: d;sme-core.js:337[60:60]::FLOW_DESCR_END","/src/sme-core.js","318","37","318","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sme-core.js:342[34:34];Sink: e;sme-core.js:343[58:58]::FLOW_DESCR_END","/src/sme-core.js","342","34","342","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-filemessage.js:16[36:38];Sink: files;sme-filemessage.js:26[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-filemessage.js:16[36:38];Sink: msg;sme-filemessage.js:52[18:20]::FLOW_DESCR_END","/src/sme-filemessage.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-formmessage.js:16[36:38];Sink: msg;sme-formmessage.js:42[18:20]::FLOW_DESCR_END","/src/sme-formmessage.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-formsetter.js:19[36:38];Sink: msg;sme-formsetter.js:54[18:20]::FLOW_DESCR_END","/src/sme-formsetter.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-formsubmission.js:19[36:38];Sink: values;sme-formsubmission.js:46[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-formsubmission.js:19[36:38];Sink: values;sme-formsubmission.js:49[69:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-formsubmission.js:19[36:38];Sink: msg;sme-formsubmission.js:53[26:28]::FLOW_DESCR_END","/src/sme-formsubmission.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-htmlmessage.js:16[36:38];Sink: msg;sme-htmlmessage.js:33[18:20]::FLOW_DESCR_END","/src/sme-htmlmessage.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-messagedeleter.js:18[36:38];Sink: msg;sme-messagedeleter.js:95[18:20]::FLOW_DESCR_END","/src/sme-messagedeleter.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-messageoption.js:15[36:38];Sink: msg;sme-messageoption.js:39[18:20]::FLOW_DESCR_END","/src/sme-messageoption.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: smeSendingBox.length;sme-sender.js:25[55:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: smeMsg;sme-sender.js:28[50:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: msg;sme-sender.js:31[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: smeSendingBox.length;sme-sender.js:36[54:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: smeMsg;sme-sender.js:40[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: msg;sme-sender.js:47[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sender.js:16[36:38];Sink: msg;sme-sender.js:53[42:44]::FLOW_DESCR_END","/src/sme-sender.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-sshtunnel.js:51[42:44];Sink: `TCP error: ${err}`;sme-sshtunnel.js:52[29:47]::FLOW_DESCR_END","/src/sme-sshtunnel.js","51","42","51","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;sme-sshtunnel.js:102[28:36];Sink: clientAddr;sme-sshtunnel.js:65[52:61]::FLOW_DESCR_END","/src/sme-sshtunnel.js","102","28","102","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;sme-sshtunnel.js:103[28:36];Sink: clientPort;sme-sshtunnel.js:65[40:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;sme-sshtunnel.js:103[28:36];Sink: ""Local  ... entPort;sme-sshtunnel.js:114[18:44]::FLOW_DESCR_END","/src/sme-sshtunnel.js","103","28","103","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-sshtunnel.js:147[32:34];Sink: log;sme-sshtunnel.js:91[22:24]::FLOW_DESCR_END","/src/sme-sshtunnel.js","147","32","147","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;sme-sshtunnel.js:227[21:31];Sink: clientAddr;sme-sshtunnel.js:65[52:61]::FLOW_DESCR_END","/src/sme-sshtunnel.js","227","21","227","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-sshtunnel.js:294[36:38];Sink: ""Comman ... Command;sme-sshtunnel.js:297[22:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-sshtunnel.js:294[36:38];Sink: `Invali ... mmand}`;sme-sshtunnel.js:332[34:73]::FLOW_DESCR_END","/src/sme-sshtunnel.js","294","36","294","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-textmessage.js:16[36:38];Sink: msg;sme-textmessage.js:36[18:20]::FLOW_DESCR_END","/src/sme-textmessage.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-tunnel.js:20[45:47];Sink: `TCP :: ... ${err}`;sme-tunnel.js:21[33:55]::FLOW_DESCR_END","/src/sme-tunnel.js","20","45","20","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-tunnel.js:36[35:37];Sink: `SSH Co ... ${err}`;sme-tunnel.js:37[26:59]::FLOW_DESCR_END","/src/sme-tunnel.js","36","35","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.si ... .siteId;sme-tunnel.js:55[24:59];Sink: `https: ... nnect/`;sme-tunnel.js:82[20:71]::FLOW_DESCR_END","/src/sme-tunnel.js","55","24","55","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.si ... ls.host;sme-tunnel.js:56[22:55];Sink: localAddr;sme-tunnel.js:30[55:63]::FLOW_DESCR_END","/src/sme-tunnel.js","56","22","56","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.si ... ls.port;sme-tunnel.js:57[27:60];Sink: localPort;sme-tunnel.js:30[44:52]::FLOW_DESCR_END","/src/sme-tunnel.js","57","27","57","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.si ... .siteId;sme-tunnel.js:94[28:63];Sink: `Trying ... iteId}`;sme-tunnel.js:95[22:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.si ... .siteId;sme-tunnel.js:94[28:63];Sink: `https: ... _port/`;sme-tunnel.js:96[24:80]::FLOW_DESCR_END","/src/sme-tunnel.js","94","28","94","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.si ... .siteId;sme-tunnel.js:111[28:63];Sink: `https: ... nnect/`;sme-tunnel.js:114[24:78]::FLOW_DESCR_END","/src/sme-tunnel.js","111","28","111","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-tunnel.js:132[35:37];Sink: msg;sme-tunnel.js:85[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sme-tunnel.js:132[35:37];Sink: `Uknown ... mmand}`;sme-tunnel.js:143[34:61]::FLOW_DESCR_END","/src/sme-tunnel.js","132","35","132","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-uploader.js:22[36:38];Sink: msg;sme-uploader.js:61[34:36]::FLOW_DESCR_END","/src/sme-uploader.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-webviewmessage.js:19[36:38];Sink: msg;sme-webviewmessage.js:50[18:20]::FLOW_DESCR_END","/src/sme-webviewmessage.js","19","36","19","38"

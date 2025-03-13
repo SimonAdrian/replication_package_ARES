@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;open-stream.js:489[63:71];Sink: node.brokerurl;open-stream.js:589[48:61]::FLOW_DESCR_END","/open-stream.js","489","63","489","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;open-stream.js:1140[40:42];Sink: obj;open-stream.js:197[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;open-stream.js:1140[40:42];Sink: msg;open-stream.js:1253[26:28]::FLOW_DESCR_END","/open-stream.js","1140","40","1140","42"

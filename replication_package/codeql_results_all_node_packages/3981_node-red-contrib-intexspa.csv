@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;IntexService.js:101[61:75];Sink: url;IntexService.js:102[50:52]::FLOW_DESCR_END","/dist/modules/IntexService.js","101","61","101","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;IntexService.js:172[56:70];Sink: startUrl;IntexService.js:174[56:63]::FLOW_DESCR_END","/dist/modules/IntexService.js","172","56","172","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;IntexService.js:178[72:86];Sink: checkUrl;IntexService.js:183[63:70]::FLOW_DESCR_END","/dist/modules/IntexService.js","178","72","178","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: startRe ... ssionId;IntexService.js:178[91:116];Sink: checkUrl;IntexService.js:183[63:70]::FLOW_DESCR_END","/dist/modules/IntexService.js","178","91","178","116"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;IntexService.js:206[63:77];Sink: url;IntexService.js:207[50:52]::FLOW_DESCR_END","/dist/modules/IntexService.js","206","63","206","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;IntexService.js:218[63:77];Sink: url;IntexService.js:219[50:52]::FLOW_DESCR_END","/dist/modules/IntexService.js","218","63","218","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;intexspa-action.js:10[33:35];Sink: msg;intexspa-action.js:101[22:24]::FLOW_DESCR_END","/dist/nodes/intexspa-action/intexspa-action.js","10","33","10","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;intexspa-status.js:10[33:35];Sink: msg;intexspa-status.js:27[22:24]::FLOW_DESCR_END","/dist/nodes/intexspa-status/intexspa-status.js","10","33","10","35"

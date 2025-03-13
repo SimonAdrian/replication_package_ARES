@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;musiccast-device.html:62[66:70];Sink: ""getDat ... y(opts);musiccast-ui.js:82[40:94]::FLOW_DESCR_END","/musiccast-device.html","62","66","62","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;musiccast-input.html:83[66:70];Sink: ""getDat ... y(opts);musiccast-ui.js:82[40:94]::FLOW_DESCR_END","/musiccast-input.html","83","66","83","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;musiccast-link.html:103[66:70];Sink: ""getDat ... y(opts);musiccast-ui.js:82[40:94]::FLOW_DESCR_END","/musiccast-link.html","103","66","103","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;musiccast-list.html:65[66:70];Sink: ""getDat ... y(opts);musiccast-ui.js:82[40:94]::FLOW_DESCR_END","/musiccast-list.html","65","66","65","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;musiccast-zone.html:78[66:70];Sink: ""getDat ... y(opts);musiccast-ui.js:82[40:94]::FLOW_DESCR_END","/musiccast-zone.html","78","66","78","70"

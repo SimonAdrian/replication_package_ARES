@@ -1,0 +1,3 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtl-amr.js:52[57:60];Sink: 'rtlamr ...  + data;rtl-amr.js:53[30:54]::FLOW_DESCR_END","/rtl-amr/rtl-amr.js","52","57","52","60"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;rtl-amr.js:61[51:51];Sink: 'error: ' + e;rtl-amr.js:70[38:50]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: e;rtl-amr.js:61[51:51];Sink: 'rtlamr error: ' + e;rtl-amr.js:71[40:59]::FLOW_DESCR_END","/rtl-amr/rtl-amr.js","61","51","61","51"

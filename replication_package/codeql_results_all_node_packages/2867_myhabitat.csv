@@ -1,0 +1,42 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _webSocket;myhabitat.adapter.comGateway.js:98[54:63];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _webSocket;myhabitat.adapter.comGateway.js:98[54:63];Sink: _log;myhabitat.base.js:62[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _webSocket;myhabitat.adapter.comGateway.js:98[54:63];Sink: _log;myhabitat.base.js:67[29:32]::FLOW_DESCR_END","/src/adapters/myhabitat.adapter.comGateway.js","98","54","98","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.co ... on.port;myhabitat.adapter.comGateway.js:101[67:89];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.co ... on.port;myhabitat.adapter.comGateway.js:101[67:89];Sink: _log;myhabitat.base.js:62[28:31]::FLOW_DESCR_END","/src/adapters/myhabitat.adapter.comGateway.js","101","67","101","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _data;myhabitat.adapter.comGateway.js:167[39:43];Sink: _dataOut;myhabitat.adapter.js:81[26:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _data;myhabitat.adapter.comGateway.js:167[39:43];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _data;myhabitat.adapter.comGateway.js:167[39:43];Sink: _log;myhabitat.base.js:52[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _data;myhabitat.adapter.comGateway.js:167[39:43];Sink: _log;myhabitat.base.js:67[29:32]::FLOW_DESCR_END","/src/adapters/myhabitat.adapter.comGateway.js","167","39","167","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _err;myhabitat.adapter.webserver.js:43[40:43];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _err;myhabitat.adapter.webserver.js:43[40:43];Sink: _log;myhabitat.base.js:52[29:32]::FLOW_DESCR_END","/src/adapters/myhabitat.adapter.webserver.js","43","40","43","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _configuration.port;myhabitat.adapter.webserver.js:47[57:75];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _configuration.port;myhabitat.adapter.webserver.js:47[57:75];Sink: _log;myhabitat.base.js:62[28:31]::FLOW_DESCR_END","/src/adapters/myhabitat.adapter.webserver.js","47","57","47","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _log;myhabitat.base.js:52[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _log;myhabitat.base.js:72[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _messag ... .entity;myhabitat.js:438[39:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _messag ... r.state;myhabitat.js:438[64:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _messag ... .entity;myhabitat.js:446[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _message.entity;myhabitat.js:446[63:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _message.entityState;myhabitat.js:446[80:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _message.originator;myhabitat.js:446[102:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _message.scene;myhabitat.js:453[38:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _message.originator;myhabitat.js:453[54:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _messag ... .entity;myhabitat.js:465[41:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: _message.data;myhabitat.js:465[66:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: 'No ada ... found!';myhabitat.node.app.js:125[20:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _message;myhabitat.js:333[71:78];Sink: 'No nod ... found!';myhabitat.node.app.js:135[20:71]::FLOW_DESCR_END","/src/myhabitat.js","333","71","333","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _adapterEntityId;myhabitat.node.app.js:47[60:75];Sink: 'No ada ... found!';myhabitat.node.app.js:125[20:86]::FLOW_DESCR_END","/src/nodes/app/myhabitat.node.app.js","47","60","47","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _entity;myhabitat.node.app.js:51[73:79];Sink: 'No nod ... found!';myhabitat.node.app.js:135[20:71]::FLOW_DESCR_END","/src/nodes/app/myhabitat.node.app.js","51","73","51","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _path;myhabitat.node.app.js:55[57:61];Sink: _path;myhabitat.node.app.js:143[39:43]::FLOW_DESCR_END","/src/nodes/app/myhabitat.node.app.js","55","57","55","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _value;myhabitat.node.app.js:55[64:69];Sink: _value;myhabitat.node.app.js:143[46:51]::FLOW_DESCR_END","/src/nodes/app/myhabitat.node.app.js","55","64","55","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _previousValue;myhabitat.node.app.js:55[72:85];Sink: _previousValue;myhabitat.node.app.js:143[54:67]::FLOW_DESCR_END","/src/nodes/app/myhabitat.node.app.js","55","72","55","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _inputMessage;myhabitat.process.adapter.js:14[35:47];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _inputMessage;myhabitat.process.adapter.js:14[35:47];Sink: _log;myhabitat.base.js:72[29:32]::FLOW_DESCR_END","/src/processes/myhabitat.process.adapter.js","14","35","14","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _outputMessage;myhabitat.process.adapter.js:18[35:48];Sink: _outputMessage;myhabitat.process.adapter.js:19[19:32]::FLOW_DESCR_END","/src/processes/myhabitat.process.adapter.js","18","35","18","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _err;myhabitat.process.adapter.js:30[45:48];Sink: _log;myhabitat.base.js:36[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _err;myhabitat.process.adapter.js:30[45:48];Sink: _log;myhabitat.base.js:47[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _err;myhabitat.process.adapter.js:30[45:48];Sink: _err.stack;myhabitat.process.adapter.js:36[21:30]::FLOW_DESCR_END","/src/processes/myhabitat.process.adapter.js","30","45","30","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _entityId;admin.html:33[55:63];Sink: '###STA ... ntityId;admin.html:34[21:52]::FLOW_DESCR_END","/src/web/admin.html","33","55","33","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _entityId;index.html:25[50:58];Sink: '###STA ... ntityId;index.html:26[15:46]::FLOW_DESCR_END","/src/web/build/default/index.html","25","50","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _entityId;index.html:33[55:63];Sink: '###STA ... ntityId;index.html:34[21:52]::FLOW_DESCR_END","/src/web/index.html","33","55","33","63"

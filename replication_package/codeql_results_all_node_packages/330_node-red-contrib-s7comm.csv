@@ -1,0 +1,32 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;s7comm.js:256[13:18];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;s7comm.js:256[13:18];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","256","13","256","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:596[63:80];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:596[63:80];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","596","63","596","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:660[73:90];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:660[73:90];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","660","73","660","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.port;s7comm.js:660[111:128];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.port;s7comm.js:660[111:128];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","660","111","660","128"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:667[80:97];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:667[80:97];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","667","80","667","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:765[68:85];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:765[68:85];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","765","68","765","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:768[70:87];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:768[70:87];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","768","70","768","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:784[85:102];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:784[85:102];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","784","85","784","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:803[68:85];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:803[68:85];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","803","68","803","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:806[70:87];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:806[70:87];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","806","70","806","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1016[78:95];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1016[78:95];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","1016","78","1016","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1019[88:105];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1019[88:105];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","1019","88","1019","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myNode. ... am.host;s7comm.js:1034[76:106];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myNode. ... am.host;s7comm.js:1034[76:106];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","1034","76","1034","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1039[88:105];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1039[88:105];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","1039","88","1039","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myNode. ... am.host;s7comm.js:1137[76:106];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myNode. ... am.host;s7comm.js:1137[76:106];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","1137","76","1137","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1143[88:105];Sink: '' + ti ... ed.bold;s7comm.js:194[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.RFCParam.host;s7comm.js:1143[88:105];Sink: '' + ti ... en.bold;s7comm.js:196[19:74]::FLOW_DESCR_END","/s7comm.js","1143","88","1143","105"

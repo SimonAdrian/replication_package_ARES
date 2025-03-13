@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multiSensor.js:295[35:37];Sink: [ia?msg ... g , id];multiSensor.js:255[27:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multiSensor.js:295[35:37];Sink: [msg,id];multiSensor.js:258[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multiSensor.js:295[35:37];Sink: customStatus;multiSensor.js:288[33:44]::FLOW_DESCR_END","/multiSensor.js","295","35","295","37"

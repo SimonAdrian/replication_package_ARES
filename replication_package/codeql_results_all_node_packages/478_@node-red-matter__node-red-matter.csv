@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matter-device-control-node.js:12[27:29];Sink: payload;matter-device-control-node.js:14[52:58]::FLOW_DESCR_END","/lib/src/nodes/matter-device-control-node.js","12","27","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matter-device-control-node.ts:29[23:25];Sink: payload;matter-device-control-node.ts:31[46:52]::FLOW_DESCR_END","/src/nodes/matter-device-control-node.ts","29","23","29","25"

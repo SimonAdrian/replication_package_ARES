@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;package-packer.js:12[32:34];Sink: [msg, null];package-packer.js:15[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;package-packer.js:12[32:34];Sink: [null, msg];package-packer.js:70[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;package-packer.js:12[32:34];Sink: [msg, null];package-packer.js:75[26:36]::FLOW_DESCR_END","/package-packer.js","12","32","12","34"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;lib.js:87[62:70];Sink: url;ninox.js:149[30:32]::FLOW_DESCR_END","/ninox/lib.js","87","62","87","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;lib.js:89[26:34];Sink: url;ninox.js:149[30:32]::FLOW_DESCR_END","/ninox/lib.js","89","26","89","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ninox.js:49[23:25];Sink: err;ninox.js:50[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ninox.js:49[23:25];Sink: resp.st ... ) : """");ninox.js:55[40:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ninox.js:49[23:25];Sink: err;ninox.js:68[52:54]::FLOW_DESCR_END","/ninox/ninox.js","49","23","49","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp;ninox.js:49[28:31];Sink: resp.statusMessage;ninox.js:50[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: resp;ninox.js:49[28:31];Sink: resp.st ... ) : """");ninox.js:55[40:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: resp;ninox.js:49[28:31];Sink: resp.headers;ninox.js:58[42:53]::FLOW_DESCR_END","/ninox/ninox.js","49","28","49","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ninox.js:49[34:37];Sink: body;ninox.js:68[57:60]::FLOW_DESCR_END","/ninox/ninox.js","49","34","49","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ninox.js:81[32:34];Sink: msg;ninox.js:76[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ninox.js:81[32:34];Sink: url;ninox.js:149[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ninox.js:81[32:34];Sink: msg;ninox.js:213[23:25]::FLOW_DESCR_END","/ninox/ninox.js","81","32","81","34"

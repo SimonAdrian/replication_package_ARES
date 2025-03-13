@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sharepoint.js:14[34:36];Sink: encodeU ... iceUri);sharepoint.js:48[21:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sharepoint.js:14[34:36];Sink: [msg, null];sharepoint.js:51[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sharepoint.js:14[34:36];Sink: [null, msg];sharepoint.js:55[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sharepoint.js:14[34:36];Sink: encodeU ... iceUri);sharepoint.js:71[35:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sharepoint.js:14[34:36];Sink: [msg, null];sharepoint.js:81[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sharepoint.js:14[34:36];Sink: [null, msg];sharepoint.js:86[29:39]::FLOW_DESCR_END","/sharepoint.js","14","34","14","36"

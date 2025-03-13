@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: ""connec ... address;bluetooth-serial.js:12[29:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: msg;bluetooth-serial.js:14[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: address;bluetooth-serial.js:16[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: 'connec ... address;bluetooth-serial.js:17[37:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: msg;bluetooth-serial.js:29[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: msg;bluetooth-serial.js:41[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[35:37];Sink: buffer;bluetooth-serial.js:42[32:37]::FLOW_DESCR_END","/bluetooth-serial.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: buffer;bluetooth-serial.js:20[54:59];Sink: buffer;bluetooth-serial.js:21[41:46]::FLOW_DESCR_END","/bluetooth-serial.js","20","54","20","59"

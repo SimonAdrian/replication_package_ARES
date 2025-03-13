@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coda-io-connection.js:9[35:37];Sink: msg;coda-io-connection.js:30[23:25]::FLOW_DESCR_END","/coda-io-connection.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coda-io-get-data.js:11[35:37];Sink: msg;coda-io-get-data.js:62[23:25]::FLOW_DESCR_END","/coda-io-get-data.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coda-io-multiple-pages.js:7[35:37];Sink: [msg, null];coda-io-multiple-pages.js:37[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coda-io-multiple-pages.js:7[35:37];Sink: [null, msg];coda-io-multiple-pages.js:46[27:37]::FLOW_DESCR_END","/coda-io-multiple-pages.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coda-io-upsert.js:8[35:37];Sink: msg;coda-io-upsert.js:91[23:25]::FLOW_DESCR_END","/coda-io-upsert.js","8","35","8","37"

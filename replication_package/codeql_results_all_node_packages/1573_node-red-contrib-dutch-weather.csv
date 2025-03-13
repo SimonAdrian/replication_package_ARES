@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dutch-weather.js:48[53:55];Sink: msg;dutch-weather.js:49[15:17]::FLOW_DESCR_END","/dutch-weather.js","48","53","48","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;local-test.js:31[35:40];Sink: reason;local-test.js:33[25:30]::FLOW_DESCR_END","/local-test.js","31","35","31","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: p;local-test.js:31[43:43];Sink: p;local-test.js:32[49:49]::FLOW_DESCR_END","/local-test.js","31","43","31","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prediction;local-test.js:58[36:45];Sink: '  - '  ... iction);local-test.js:60[14:48]::FLOW_DESCR_END","/local-test.js","58","36","58","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: meteoplaza;local-test.js:63[36:45];Sink: '  - '  ... oplaza);local-test.js:65[14:48]::FLOW_DESCR_END","/local-test.js","63","36","63","45"

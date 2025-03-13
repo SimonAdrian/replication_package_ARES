@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timegate.js:22[32:34];Sink: [msg, null];timegate.js:60[20:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timegate.js:22[32:34];Sink: [null, msg];timegate.js:62[20:30]::FLOW_DESCR_END","/timegate/timegate.js","22","32","22","34"

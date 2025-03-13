@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bacnet-ai.js:24[36:38];Sink: value;bacnet-ai.js:32[42:46]::FLOW_DESCR_END","/bacnet-ai.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bacnet-bi.js:23[36:38];Sink: value;bacnet-bi.js:31[42:46]::FLOW_DESCR_END","/bacnet-bi.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bacnet-pulse-converter.js:24[36:38];Sink: value;bacnet-pulse-converter.js:32[42:46]::FLOW_DESCR_END","/bacnet-pulse-converter.js","24","36","24","38"

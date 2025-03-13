@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;velux-api.js:17[33:35];Sink: msg;velux-api.js:18[30:32]::FLOW_DESCR_END","/velux-api.js","17","33","17","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;velux-connection.js:41[36:38];Sink: util.fo ... ', err);velux-connection.js:42[20:47]::FLOW_DESCR_END","/velux-connection.js","41","36","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;velux-connection.js:129[29:32];Sink: data;velux-connection.js:130[23:26]::FLOW_DESCR_END","/velux-connection.js","129","29","129","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;velux-connection.js:177[33:34];Sink: id;velux-connection.js:178[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: id;velux-connection.js:177[33:34];Sink: id;velux-connection.js:249[28:29]::FLOW_DESCR_END","/velux-connection.js","177","33","177","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;velux-connection.js:186[33:36];Sink: data;velux-connection.js:187[27:30]::FLOW_DESCR_END","/velux-connection.js","186","33","186","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;velux-connection.js:368[41:44];Sink: id;velux-connection.js:338[35:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:368[41:44];Sink: data;velux-connection.js:369[35:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:368[41:44];Sink: data;velux-connection.js:372[19:22]::FLOW_DESCR_END","/velux-connection.js","368","41","368","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;velux-connection.js:376[37:40];Sink: id;velux-connection.js:338[35:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:376[37:40];Sink: data;velux-connection.js:377[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:376[37:40];Sink: data;velux-connection.js:380[19:22]::FLOW_DESCR_END","/velux-connection.js","376","37","376","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;velux-connection.js:384[43:46];Sink: id;velux-connection.js:338[35:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:384[43:46];Sink: id;velux-connection.js:343[29:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:384[43:46];Sink: data;velux-connection.js:385[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;velux-connection.js:384[43:46];Sink: data;velux-connection.js:389[19:22]::FLOW_DESCR_END","/velux-connection.js","384","43","384","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;velux-nodes.js:62[33:35];Sink: msg;velux-nodes.js:63[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-nodes.js:62[33:35];Sink: name;velux-nodes.js:86[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-nodes.js:62[33:35];Sink: name;velux-nodes.js:114[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-nodes.js:62[33:35];Sink: name;velux-nodes.js:119[37:40]::FLOW_DESCR_END","/velux-nodes.js","62","33","62","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;velux-scenes.js:63[33:35];Sink: msg;velux-scenes.js:64[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-scenes.js:63[33:35];Sink: text;velux-scenes.js:83[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-scenes.js:63[33:35];Sink: text;velux-scenes.js:88[41:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-scenes.js:63[33:35];Sink: text;velux-scenes.js:93[47:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;velux-scenes.js:63[33:35];Sink: text;velux-scenes.js:98[45:48]::FLOW_DESCR_END","/velux-scenes.js","63","33","63","35"

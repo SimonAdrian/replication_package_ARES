@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;upload.js:13[37:39];Sink: path.jo ... seName);upload.js:40[37:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:13[37:39];Sink: obj;upload.js:40[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:13[37:39];Sink: remoteTargetPath;upload.js:60[39:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:13[37:39];Sink: msg;upload.js:73[12:14]::FLOW_DESCR_END","/upload.js","13","37","13","39"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;shure-ad4-receiver-config.js:26[56:66];Sink: ""Connec ... nds..."";shure-ad4-receiver-config.js:26[24:116]::FLOW_DESCR_END","/shure-ad4-receiver-config.js","26","56","26","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;shure-ad4-receiver-config.js:31[56:66];Sink: ""Connec ... ig.host;shure-ad4-receiver-config.js:31[22:66]::FLOW_DESCR_END","/shure-ad4-receiver-config.js","31","56","31","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shure-ad4-request.js:34[35:37];Sink: msg;shure-ad4-request.js:31[32:34]::FLOW_DESCR_END","/shure-ad4-request.js","34","35","34","37"

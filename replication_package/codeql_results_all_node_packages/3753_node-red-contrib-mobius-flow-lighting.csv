@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pd.js:44[23:25];Sink: msg;pd.js:50[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pd.js:44[23:25];Sink: msg;pd.js:51[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pd.js:44[23:25];Sink: msg;pd.js:53[23:25]::FLOW_DESCR_END","/mobius-flow-lighting/pd.js","44","23","44","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switch-off.js:46[23:25];Sink: msg;switch-off.js:52[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-off.js:46[23:25];Sink: msg;switch-off.js:54[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-off.js:46[23:25];Sink: msg;switch-off.js:65[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-off.js:46[23:25];Sink: msg;switch-off.js:69[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-off.js:46[23:25];Sink: msg;switch-off.js:81[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-off.js:46[23:25];Sink: msg;switch-off.js:87[25:27]::FLOW_DESCR_END","/mobius-flow-lighting/switch-off.js","46","23","46","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switch-on.js:46[23:25];Sink: msg;switch-on.js:52[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-on.js:46[23:25];Sink: msg;switch-on.js:54[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-on.js:46[23:25];Sink: msg;switch-on.js:65[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-on.js:46[23:25];Sink: msg;switch-on.js:69[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-on.js:46[23:25];Sink: msg;switch-on.js:81[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-on.js:46[23:25];Sink: msg;switch-on.js:87[25:27]::FLOW_DESCR_END","/mobius-flow-lighting/switch-on.js","46","23","46","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switch-toggle.js:46[23:25];Sink: msg;switch-toggle.js:52[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-toggle.js:46[23:25];Sink: msg;switch-toggle.js:54[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-toggle.js:46[23:25];Sink: msg;switch-toggle.js:65[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-toggle.js:46[23:25];Sink: msg;switch-toggle.js:69[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-toggle.js:46[23:25];Sink: msg;switch-toggle.js:81[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch-toggle.js:46[23:25];Sink: msg;switch-toggle.js:87[25:27]::FLOW_DESCR_END","/mobius-flow-lighting/switch-toggle.js","46","23","46","25"

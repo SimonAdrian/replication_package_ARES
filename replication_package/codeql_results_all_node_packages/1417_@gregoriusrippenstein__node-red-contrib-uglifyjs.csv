@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;minifycss.js:15[31:33];Sink: msg;minifycss.js:40[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;minifycss.js:15[31:33];Sink: msg;minifycss.js:48[18:20]::FLOW_DESCR_END","/nodes/minifycss.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uglifyjs.js:14[32:34];Sink: msg;uglifyjs.js:43[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uglifyjs.js:14[32:34];Sink: msg;uglifyjs.js:51[18:20]::FLOW_DESCR_END","/nodes/uglifyjs.js","14","32","14","34"

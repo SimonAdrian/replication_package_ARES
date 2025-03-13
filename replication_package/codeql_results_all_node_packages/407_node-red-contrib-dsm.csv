@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sm;dsm.js:28[25:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sta;dsm.js:45[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: globalOutput;dsm.js:65[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sm.currentState;dsm.js:65[36:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: flowOutput;dsm.js:68[20:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sm.currentState;dsm.js:68[32:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sm;dsm.js:72[29:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sta;dsm.js:76[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: msg;dsm.js:82[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: msg;dsm.js:260[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: msg;dsm.js:264[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sta;dsm.js:266[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: msg;dsm.js:283[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: msg;dsm.js:287[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: sta;dsm.js:289[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: msg;dsm.js:305[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsm.js:47[31:33];Sink: stmnt;dsm.js:368[20:24]::FLOW_DESCR_END","/dsm.js","47","31","47","33"

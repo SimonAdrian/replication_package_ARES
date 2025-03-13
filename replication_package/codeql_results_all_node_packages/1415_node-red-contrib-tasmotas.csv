@@ -1,0 +1,43 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mqtt_broker.js:66[66:76];Sink: brokerurl;mqtt_broker.js:96[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:66[66:76];Sink: 'Connec ... okerurl;mqtt_broker.js:101[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:66[66:76];Sink: 'Discon ... okerurl;mqtt_broker.js:141[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:66[66:76];Sink: 'Connec ... okerurl;mqtt_broker.js:149[22:64]::FLOW_DESCR_END","/nodes/mqtt_broker.js","66","66","66","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mqtt_broker.js:68[59:69];Sink: brokerurl;mqtt_broker.js:96[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:68[59:69];Sink: 'Connec ... okerurl;mqtt_broker.js:101[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:68[59:69];Sink: 'Discon ... okerurl;mqtt_broker.js:141[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:68[59:69];Sink: 'Connec ... okerurl;mqtt_broker.js:149[22:64]::FLOW_DESCR_END","/nodes/mqtt_broker.js","68","59","68","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mqtt_broker.js:71[50:60];Sink: brokerurl;mqtt_broker.js:96[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:71[50:60];Sink: 'Connec ... okerurl;mqtt_broker.js:101[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:71[50:60];Sink: 'Discon ... okerurl;mqtt_broker.js:141[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:71[50:60];Sink: 'Connec ... okerurl;mqtt_broker.js:149[22:64]::FLOW_DESCR_END","/nodes/mqtt_broker.js","71","50","71","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqtt_broker.js:154[34:36];Sink: err;mqtt_broker.js:155[22:24]::FLOW_DESCR_END","/nodes/mqtt_broker.js","154","34","154","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tasmota_base - Kopie.js:53[23:25];Sink: payload;tasmota_base - Kopie.js:151[50:56]::FLOW_DESCR_END","/nodes/tasmota_base - Kopie.js","53","23","53","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tasmota_base.js:53[23:25];Sink: payload;tasmota_base.js:151[50:56]::FLOW_DESCR_END","/nodes/tasmota_base.js","53","23","53","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tasmota_config.js:11[25:27];Sink: msg;tasmota_config.js:47[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tasmota_config.js:11[25:27];Sink: 'Unknow ... .action;tasmota_config.js:71[21:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tasmota_config.js:11[25:27];Sink: msg;tasmota_config.js:74[14:16]::FLOW_DESCR_END","/nodes/tasmota_config.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;tasmota_device - Kopie (2).js:447[70:74];Sink: `_onMqt ... oups)}`;tasmota_device - Kopie (2).js:497[19:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;tasmota_device - Kopie (2).js:447[70:74];Sink: command;tasmota_device - Kopie (2).js:502[63:69]::FLOW_DESCR_END","/nodes/tasmota_device - Kopie (2).js","447","70","447","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;tasmota_device - Kopie (3).js:444[70:74];Sink: `_onMqt ... oups)}`;tasmota_device - Kopie (3).js:494[19:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;tasmota_device - Kopie (3).js:444[70:74];Sink: command;tasmota_device - Kopie (3).js:499[63:69]::FLOW_DESCR_END","/nodes/tasmota_device - Kopie (3).js","444","70","444","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;tasmota_device - Kopie.js:438[70:74];Sink: `_onMqt ... oups)}`;tasmota_device - Kopie.js:488[19:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;tasmota_device - Kopie.js:438[70:74];Sink: command;tasmota_device - Kopie.js:493[63:69]::FLOW_DESCR_END","/nodes/tasmota_device - Kopie.js","438","70","438","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;tasmota_device.js:438[70:74];Sink: `_onMqt ... oups)}`;tasmota_device.js:488[19:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;tasmota_device.js:438[70:74];Sink: command;tasmota_device.js:493[63:69]::FLOW_DESCR_END","/nodes/tasmota_device.js","438","70","438","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');tasmota_manager.js:48[20:60];Sink: `Error  ... ${err}`;tasmota_manager.js:16[19:52]::FLOW_DESCR_END","/nodes/tasmota_manager.js","48","20","48","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tasmota_manager.js:67[39:41];Sink: err.stack || err;tasmota_manager.js:206[20:35]::FLOW_DESCR_END","/nodes/tasmota_manager.js","67","39","67","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp;tasmota_manager.js:67[44:47];Sink: err.stack || err;tasmota_manager.js:206[20:35]::FLOW_DESCR_END","/nodes/tasmota_manager.js","67","44","67","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[table];tasmota_manager.js:105[27:42];Sink: `Device ... s.grp}`;tasmota_manager.js:195[20:74]::FLOW_DESCR_END","/nodes/tasmota_manager.js","105","27","105","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tasmota_manager.js:234[42:45];Sink: data;tasmota_manager.js:234[60:63]::FLOW_DESCR_END","/nodes/tasmota_manager.js","234","42","234","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tasmota_manager.js:235[42:45];Sink: data;tasmota_manager.js:235[61:64]::FLOW_DESCR_END","/nodes/tasmota_manager.js","235","42","235","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.de ... ardware;tasmota_manager.js:247[19:47];Sink: `Downlo ... nPath}`;tasmota_manager.js:257[18:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.de ... ardware;tasmota_manager.js:247[19:47];Sink: iconPath;tasmota_manager.js:264[32:39]::FLOW_DESCR_END","/nodes/tasmota_manager.js","247","19","247","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');tasmota_manager.js:301[67:107];Sink: `Error  ... ${err}`;tasmota_manager.js:16[19:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');tasmota_manager.js:301[67:107];Sink: JSON.st ... ull, 2);tasmota_manager.js:317[66:102]::FLOW_DESCR_END","/nodes/tasmota_manager.js","301","67","301","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');tasmota_manager.js:309[34:66];Sink: `Error  ... ${err}`;tasmota_manager.js:16[19:52]::FLOW_DESCR_END","/nodes/tasmota_manager.js","309","34","309","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');tasmota_manager.js:352[32:64];Sink: `Error  ... ${err}`;tasmota_manager.js:16[19:52]::FLOW_DESCR_END","/nodes/tasmota_manager.js","352","32","352","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tasmota_manager.js:532[42:44];Sink: err.stack || err;tasmota_manager.js:206[20:35]::FLOW_DESCR_END","/nodes/tasmota_manager.js","532","42","532","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp;tasmota_manager.js:532[47:50];Sink: err.stack || err;tasmota_manager.js:206[20:35]::FLOW_DESCR_END","/nodes/tasmota_manager.js","532","47","532","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tasmota_manager.js:532[53:56];Sink: data;tasmota_manager.js:224[47:50]::FLOW_DESCR_END","/nodes/tasmota_manager.js","532","53","532","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hw;tasmota_manager.js:280[18:19];Sink: `Downlo ... nPath}`;tasmota_manager.js:257[18:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: hw;tasmota_manager.js:280[18:19];Sink: iconPath;tasmota_manager.js:264[32:39]::FLOW_DESCR_END","/nodes/tasmota_manager.js","280","18","280","19"

@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pmon.js:73[42:44];Sink: ""Error  ... "" + err;pmon.js:74[32:53]::FLOW_DESCR_END","/red/pmon.js","73","42","73","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pmon.js:171[38:40];Sink: err;pmon.js:173[24:26]::FLOW_DESCR_END","/red/pmon.js","171","38","171","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: [null, msg];pmon.js:246[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: [null, msg];pmon.js:263[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: msg.payload;pmon.js:305[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: [msg, null];pmon.js:313[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: [msg, null];pmon.js:318[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: msg.payload;pmon.js:346[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: [msg, null];pmon.js:354[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:229[27:29];Sink: [msg, null];pmon.js:359[39:49]::FLOW_DESCR_END","/red/pmon.js","229","27","229","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pmon.js:464[38:40];Sink: err;pmon.js:466[24:26]::FLOW_DESCR_END","/red/pmon.js","464","38","464","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pmon.js:560[27:29];Sink: [null, msg];pmon.js:575[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pmon.js:560[27:29];Sink: [null, msg];pmon.js:591[31:41]::FLOW_DESCR_END","/red/pmon.js","560","27","560","29"

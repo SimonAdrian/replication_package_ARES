@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:10[37:39];Sink: msg;index.js:16[25:27]::FLOW_DESCR_END","/index.js","10","37","10","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:45[37:41];Sink: error;index.js:51[21:25]::FLOW_DESCR_END","/index.js","45","37","45","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:77[34:36];Sink: key;index.js:316[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:77[34:36];Sink: id;index.js:467[17:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:77[34:36];Sink: current;index.js:467[21:27]::FLOW_DESCR_END","/index.js","77","34","77","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amazon-echo-device.js:10[37:39];Sink: msg;amazon-echo-device.js:16[25:27]::FLOW_DESCR_END","/nodes/amazon-echo-device.js","10","37","10","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;amazon-echo-hub.js:28[37:41];Sink: error;amazon-echo-hub.js:34[21:25]::FLOW_DESCR_END","/nodes/amazon-echo-hub.js","28","37","28","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amazon-echo-hub.js:60[34:36];Sink: current;amazon-echo-hub.js:433[21:27]::FLOW_DESCR_END","/nodes/amazon-echo-hub.js","60","34","60","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: flow[1].port;10-input-spec.js:10[36:47];Sink: apiURL;10-input-spec.js:448[17:22]::FLOW_DESCR_END","/test/nodes/hub/10-input-spec.js","10","36","10","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:18[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:39[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:64[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:85[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:106[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:152[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:206[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:262[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:322[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:385[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flow[1].port;11-philips-hue-spec.js:10[36:47];Sink: apiURL;11-philips-hue-spec.js:445[17:22]::FLOW_DESCR_END","/test/nodes/hub/11-philips-hue-spec.js","10","36","10","47"

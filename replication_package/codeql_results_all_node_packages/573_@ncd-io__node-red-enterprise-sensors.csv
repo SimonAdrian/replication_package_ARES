@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;DigiParser.js:15[28:30];Sink: err;DigiParser.js:16[16:18]::FLOW_DESCR_END","/lib/DigiParser.js","15","28","15","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: frame;WirelessGateway.js:31[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: 'sensor ... ame.mac;WirelessGateway.js:212[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: 'sensor ... ame.mac;WirelessGateway.js:218[26:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: type+'- ... or_type;WirelessGateway.js:225[25:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: type+'-'+frame.mac;WirelessGateway.js:226[25:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: frame.t ... rCase();WirelessGateway.js:236[23:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;WirelessGateway.js:27[21:25];Sink: frame.t ... device';WirelessGateway.js:240[23:53]::FLOW_DESCR_END","/lib/WirelessGateway.js","27","21","27","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;WirelessGateway.js:39[32:36];Sink: ""parse_ ... ""+frame;WirelessGateway.js:107[15:49]::FLOW_DESCR_END","/lib/WirelessGateway.js","39","32","39","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data[3];WirelessGateway.js:158[25:37];Sink: type+'- ... or_type;WirelessGateway.js:225[25:49]::FLOW_DESCR_END","/lib/WirelessGateway.js","158","25","158","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data[4];WirelessGateway.js:160[47:59];Sink: type+'- ... or_type;WirelessGateway.js:225[25:49]::FLOW_DESCR_END","/lib/WirelessGateway.js","160","47","160","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data[4];WirelessGateway.js:163[47:59];Sink: type+'- ... or_type;WirelessGateway.js:225[25:49]::FLOW_DESCR_END","/lib/WirelessGateway.js","163","47","163","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;test.js:45[28:28];Sink: d;test.js:46[14:14]::FLOW_DESCR_END","/test.js","45","28","45","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wireless.js:37[33:35];Sink: err;wireless.js:38[50:52]::FLOW_DESCR_END","/wireless.js","37","33","37","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wireless.js:45[33:35];Sink: err;wireless.js:46[37:39]::FLOW_DESCR_END","/wireless.js","45","33","45","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: manifest_data;wireless.js:86[45:57];Sink: manifest_data;wireless.js:92[44:56]::FLOW_DESCR_END","/wireless.js","86","45","86","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wireless.js:393[29:31];Sink: msg.payload;wireless.js:490[42:52]::FLOW_DESCR_END","/wireless.js","393","29","393","31"

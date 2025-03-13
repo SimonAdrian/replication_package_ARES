@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');flow-manager.js:269[35:64];Sink: str;flow-manager.js:1058[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');flow-manager.js:269[35:64];Sink: str;flow-manager.js:1060[147:149]::FLOW_DESCR_END","/flow-manager.js","269","35","269","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... gerCfg);flow-manager.js:448[36:74];Sink: flowMan ... .filter;flow-manager.js:1003[18:43]::FLOW_DESCR_END","/flow-manager.js","448","36","448","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... gerCfg);flow-manager.js:999[24:62];Sink: await f ... gerCfg);flow-manager.js:999[18:62]::FLOW_DESCR_END","/flow-manager.js","999","24","999","62"

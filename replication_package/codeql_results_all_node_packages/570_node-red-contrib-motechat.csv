@@ -1,0 +1,33 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;call.js:13[27:29];Sink: msg.payload;call.js:30[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call.js:13[27:29];Sink: [newMsg, null];call.js:37[26:39]::FLOW_DESCR_END","/call/call.js","13","27","13","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flow-event.js:20[33:35];Sink: msg;flow-event.js:23[18:20]::FLOW_DESCR_END","/flow-event/flow-event.js","20","33","20","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;config.js:24[25:29];Sink: mote;config.js:53[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value;config.js:24[25:29];Sink: dSIM;config.js:62[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value;config.js:24[25:29];Sink: config;config.js:77[22:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value;config.js:24[25:29];Sink: settings;mcClient.js:68[15:22]::FLOW_DESCR_END","/lib/db/config.js","24","25","24","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;config.js:28[26:30];Sink: mote;config.js:53[20:23]::FLOW_DESCR_END","/lib/db/config.js","28","26","28","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;config.js:32[26:30];Sink: dSIM;config.js:62[20:23]::FLOW_DESCR_END","/lib/db/config.js","32","26","32","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;config.js:36[28:32];Sink: config;config.js:77[22:27]::FLOW_DESCR_END","/lib/db/config.js","36","28","36","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object.js:13[23:25];Sink: payload;object.js:36[46:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;object.js:13[23:25];Sink: [newMsg, null];object.js:43[16:29]::FLOW_DESCR_END","/objstore/object.js","13","23","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;payload.js:11[27:29];Sink: msg;payload.js:22[18:20]::FLOW_DESCR_END","/payload/payload.js","11","27","11","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send.js:14[27:29];Sink: msg.payload;send.js:25[60:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:14[27:29];Sink: [newMsg, null];send.js:34[30:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:14[27:29];Sink: msg.payload;send.js:41[56:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:14[27:29];Sink: [newMsg, null];send.js:50[30:43]::FLOW_DESCR_END","/send/send.js","14","27","14","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set.js:10[27:29];Sink: msg;set.js:18[69:71]::FLOW_DESCR_END","/set/set.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xobject.js:95[23:25];Sink: payload;xobject.js:13[53:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xobject.js:95[23:25];Sink: [newMsg, null];xobject.js:58[12:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xobject.js:95[23:25];Sink: [newMsg, null];xobject.js:121[20:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xobject.js:95[23:25];Sink: payload;xobject.js:133[54:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xobject.js:95[23:25];Sink: [newMsg, null];xobject.js:140[16:29]::FLOW_DESCR_END","/xobject/xobject.js","95","23","95","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bucket-storage.js:13[23:25];Sink: msg.payload;bucket-storage.js:31[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-storage.js:13[23:25];Sink: [newMsg, null];bucket-storage.js:38[16:29]::FLOW_DESCR_END","/xstorage/bucket/bucket-storage.js","13","23","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cached-storage.js:13[23:25];Sink: msg.payload;cached-storage.js:31[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cached-storage.js:13[23:25];Sink: [newMsg, null];cached-storage.js:38[16:29]::FLOW_DESCR_END","/xstorage/cached/cached-storage.js","13","23","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;config-storage.js:13[23:25];Sink: msg.payload;config-storage.js:31[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;config-storage.js:13[23:25];Sink: [newMsg, null];config-storage.js:38[16:29]::FLOW_DESCR_END","/xstorage/config/config-storage.js","13","23","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;secret-storage.js:13[23:25];Sink: msg.payload;secret-storage.js:31[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secret-storage.js:13[23:25];Sink: [newMsg, null];secret-storage.js:38[16:29]::FLOW_DESCR_END","/xstorage/secret/secret-storage.js","13","23","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xstorage.js:12[23:25];Sink: msg.payload;xstorage.js:33[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xstorage.js:12[23:25];Sink: [newMsg, null];xstorage.js:40[16:29]::FLOW_DESCR_END","/xstorage/xstorage/xstorage.js","12","23","12","25"

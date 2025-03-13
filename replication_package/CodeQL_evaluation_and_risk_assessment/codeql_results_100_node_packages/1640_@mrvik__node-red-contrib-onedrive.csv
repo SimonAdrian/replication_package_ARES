@@ -1,0 +1,5 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onedrive-download-file.js:8[26:28];Sink: config. ... ilename;onedrive-download-file.js:14[52:82]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;onedrive-download-file.js:8[26:28];Sink: msg;onedrive-download-file.js:17[27:29]::FLOW_DESCR_END","/download-file/onedrive-download-file.js","8","26","8","28"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;readable-stream.js:5[26:28];Sink: msg;readable-stream.js:8[23:25]::FLOW_DESCR_END","/readable-stream/readable-stream.js","5","26","5","28"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onedrive-upload-file.js:7[26:28];Sink: msg;onedrive-upload-file.js:16[27:29]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;onedrive-upload-file.js:7[26:28];Sink: msg;onedrive-upload-file.js:22[27:29]::FLOW_DESCR_END","/upload-file/onedrive-upload-file.js","7","26","7","28"

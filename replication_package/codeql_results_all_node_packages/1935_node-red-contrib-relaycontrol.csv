@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;control-relay-board.js:13[41:51];Sink: '\x3a'  ... assword;control-relay-board.js:13[20:81]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","13","41","13","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.board.password;control-relay-board.js:13[63:81];Sink: '\x3a'  ... assword;control-relay-board.js:13[20:81]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","13","63","13","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;control-relay-board.js:17[25:27];Sink: `Error: ... ssage}`;control-relay-board.js:18[18:40]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","17","25","17","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.board.host;control-relay-board.js:23[38:52];Sink: url;control-relay-board.js:36[16:18]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","23","38","23","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.board.host;control-relay-board.js:50[36:50];Sink: url;control-relay-board.js:56[15:17]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","50","36","50","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;control-relay-board.js:55[17:27];Sink: url;control-relay-board.js:56[15:17]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","55","17","55","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control-relay-board.js:72[32:34];Sink: url;control-relay-board.js:36[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-relay-board.js:72[32:34];Sink: url;control-relay-board.js:56[15:17]::FLOW_DESCR_END","/src/nodes/control-relay-board.js","72","32","72","34"

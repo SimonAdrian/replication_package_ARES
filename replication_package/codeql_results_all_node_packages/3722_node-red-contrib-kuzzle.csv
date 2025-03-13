@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kuzzle.js:96[26:28];Sink: [resultMsg,null];kuzzle.js:119[31:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:96[26:28];Sink: [null,resultMsg];kuzzle.js:125[31:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:96[26:28];Sink: [null,n ... ultMsg];kuzzle.js:138[31:51]::FLOW_DESCR_END","/nodes/kuzzle.js","96","26","96","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: msg;kuzzle.js:205[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: Object. ... ments});kuzzle.js:208[35:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: msg;kuzzle.js:226[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: Object. ... esult});kuzzle.js:227[35:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: Object. ... esult});kuzzle.js:234[35:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: msg;kuzzle.js:239[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kuzzle.js:198[26:28];Sink: Object. ... esult});kuzzle.js:240[35:72]::FLOW_DESCR_END","/nodes/kuzzle.js","198","26","198","28"

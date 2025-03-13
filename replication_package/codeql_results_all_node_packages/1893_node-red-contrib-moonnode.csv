@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.result;MoonNode.js:38[44:58];Sink: `http:/ ... Token}`;MoonNode.js:52[54:126]::FLOW_DESCR_END","/MoonNode.js","38","44","38","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MoonNode.js:166[35:37];Sink: msg;MoonNode.js:152[39:41]::FLOW_DESCR_END","/MoonNode.js","166","35","166","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MoonNode.js:590[35:37];Sink: [null, msg, null];MoonNode.js:623[27:43]::FLOW_DESCR_END","/MoonNode.js","590","35","590","37"

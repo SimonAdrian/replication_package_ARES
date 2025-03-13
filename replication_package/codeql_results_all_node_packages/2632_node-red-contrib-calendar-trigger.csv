@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar-trigger.js:5[35:37];Sink: ""receiv ... ates[i];calendar-trigger.js:11[14:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar-trigger.js:5[35:37];Sink: msg;calendar-trigger.js:17[16:18]::FLOW_DESCR_END","/calendar-trigger.js","5","35","5","37"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wcp-api.js:11[30:32];Sink: JSON.st ... params);utils.js:52[27:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wcp-api.js:11[30:32];Sink: {\n\t\t\t\t\t ... \n\t\t\t\t\t};wcp-api.js:54[16:6]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wcp-api.js:11[30:32];Sink: {\n\t\t\t\t\t ... \n\t\t\t\t\t};wcp-api.js:60[16:6]::FLOW_DESCR_END","/wcp-api.js","11","30","11","32"

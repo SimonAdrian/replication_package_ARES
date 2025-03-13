@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;request-queue.js:64[23:27];Sink: error;request-queue.js:67[26:30]::FLOW_DESCR_END","/lib/request-queue.js","64","23","64","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;request-queue.js:64[40:43];Sink: body;request-queue.js:79[30:33]::FLOW_DESCR_END","/lib/request-queue.js","64","40","64","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;twinkly-get.js:25[35:37];Sink: msg;twinkly-get.js:44[31:33]::FLOW_DESCR_END","/twinkly-get.js","25","35","25","37"

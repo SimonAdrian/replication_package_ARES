@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbus-tcp-ip.js:9[13:15];Sink: err;modbus-tcp-ip.js:71[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;modbus-tcp-ip.js:9[13:15];Sink: err.message;modbus-tcp-ip.js:71[59:69]::FLOW_DESCR_END","/modbus-tcp-ip.js","9","13","9","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;modbus-tcp-ip.js:35[21:31];Sink: `Re-Con ... .port}`;modbus-tcp-ip.js:63[38:79]::FLOW_DESCR_END","/modbus-tcp-ip.js","35","21","35","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbus-tcp-ip.js:38[42:44];Sink: ip;modbus-tcp-ip.js:6[34:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbus-tcp-ip.js:38[42:44];Sink: msg;modbus-tcp-ip.js:101[38:40]::FLOW_DESCR_END","/modbus-tcp-ip.js","38","42","38","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;modbus-tcp-ip.js:60[73:80];Sink: port;modbus-tcp-ip.js:6[28:31]::FLOW_DESCR_END","/modbus-tcp-ip.js","60","73","60","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;modbus-tcp-ip.js:63[69:77];Sink: `Re-Con ... .port}`;modbus-tcp-ip.js:63[38:79]::FLOW_DESCR_END","/modbus-tcp-ip.js","63","69","63","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;udp.js:34[35:37];Sink: msg;udp.js:35[25:27]::FLOW_DESCR_END","/module/modbus-stream/lib/driver/udp.js","34","35","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;stream.js:25[48:51];Sink: util.fo ... "", "") );stream.js:19[26:179]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;stream.js:25[48:51];Sink: util.fo ... "", "") );stream.js:21[26:208]::FLOW_DESCR_END","/module/modbus-stream/lib/stream.js","25","48","25","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;stream.js:28[48:51];Sink: util.fo ... "", "") );stream.js:19[26:179]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;stream.js:28[48:51];Sink: util.fo ... "", "") );stream.js:21[26:208]::FLOW_DESCR_END","/module/modbus-stream/lib/stream.js","28","48","28","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;stream.js:35[39:43];Sink: error;stream.js:36[24:28]::FLOW_DESCR_END","/module/modbus-stream/lib/stream.js","35","39","35","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fcode;stream.js:43[41:45];Sink: fcode;stream.js:44[15:19]::FLOW_DESCR_END","/module/modbus-stream/lib/stream.js","43","41","43","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req;stream.js:43[48:50];Sink: req;stream.js:44[22:24]::FLOW_DESCR_END","/module/modbus-stream/lib/stream.js","43","48","43","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reply;stream.js:43[53:57];Sink: reply;stream.js:44[27:31]::FLOW_DESCR_END","/module/modbus-stream/lib/stream.js","43","53","43","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;transport.js:180[35:38];Sink: data;transport.js:181[35:38]::FLOW_DESCR_END","/module/modbus-stream/lib/transport/transport.js","180","35","180","38"

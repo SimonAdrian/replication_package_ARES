@@ -1,0 +1,60 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;addParticipant.js:8[49:53];Sink: state;addParticipant.js:8[70:74]::FLOW_DESCR_END","/circuit/addParticipant.js","8","49","8","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addParticipant.js:10[26:28];Sink: msg;addParticipant.js:20[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;addParticipant.js:10[26:28];Sink: msg;addParticipant.js:25[35:37]::FLOW_DESCR_END","/circuit/addParticipant.js","10","26","10","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;addTextItem.js:8[49:53];Sink: state;addTextItem.js:8[70:74]::FLOW_DESCR_END","/circuit/addTextItem.js","8","49","8","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addTextItem.js:10[26:28];Sink: msg;addTextItem.js:19[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;addTextItem.js:10[26:28];Sink: msg;addTextItem.js:24[35:37]::FLOW_DESCR_END","/circuit/addTextItem.js","10","26","10","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;createConferenceBridge.js:7[49:53];Sink: state;createConferenceBridge.js:7[70:74]::FLOW_DESCR_END","/circuit/createConferenceBridge.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createConferenceBridge.js:9[26:28];Sink: msg;createConferenceBridge.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createConferenceBridge.js:9[26:28];Sink: msg;createConferenceBridge.js:21[35:37]::FLOW_DESCR_END","/circuit/createConferenceBridge.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;createDirectConversation.js:7[49:53];Sink: state;createDirectConversation.js:7[70:74]::FLOW_DESCR_END","/circuit/createDirectConversation.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createDirectConversation.js:9[26:28];Sink: msg;createDirectConversation.js:20[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createDirectConversation.js:9[26:28];Sink: msg;createDirectConversation.js:25[35:37]::FLOW_DESCR_END","/circuit/createDirectConversation.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;createGroupConversation.js:7[49:53];Sink: state;createGroupConversation.js:7[70:74]::FLOW_DESCR_END","/circuit/createGroupConversation.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createGroupConversation.js:8[26:28];Sink: msg;createGroupConversation.js:15[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createGroupConversation.js:8[26:28];Sink: msg;createGroupConversation.js:20[35:37]::FLOW_DESCR_END","/circuit/createGroupConversation.js","8","26","8","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;events.js:10[49:53];Sink: state;events.js:10[70:74]::FLOW_DESCR_END","/circuit/events.js","10","49","10","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getConversationById.js:7[49:53];Sink: state;getConversationById.js:7[70:74]::FLOW_DESCR_END","/circuit/getConversationById.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getConversationById.js:9[26:28];Sink: msg;getConversationById.js:14[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getConversationById.js:9[26:28];Sink: msg;getConversationById.js:19[35:37]::FLOW_DESCR_END","/circuit/getConversationById.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getConversationItems.js:8[49:53];Sink: state;getConversationItems.js:8[70:74]::FLOW_DESCR_END","/circuit/getConversationItems.js","8","49","8","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getConversationItems.js:10[26:28];Sink: msg;getConversationItems.js:19[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getConversationItems.js:10[26:28];Sink: msg;getConversationItems.js:24[35:37]::FLOW_DESCR_END","/circuit/getConversationItems.js","10","26","10","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getConversationParticipants.js:8[49:53];Sink: state;getConversationParticipants.js:8[70:74]::FLOW_DESCR_END","/circuit/getConversationParticipants.js","8","49","8","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getConversationParticipants.js:10[26:28];Sink: msg;getConversationParticipants.js:19[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getConversationParticipants.js:10[26:28];Sink: msg;getConversationParticipants.js:24[35:37]::FLOW_DESCR_END","/circuit/getConversationParticipants.js","10","26","10","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getConversations.js:7[49:53];Sink: state;getConversations.js:7[70:74]::FLOW_DESCR_END","/circuit/getConversations.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getConversations.js:9[26:28];Sink: msg;getConversations.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getConversations.js:9[26:28];Sink: msg;getConversations.js:21[35:37]::FLOW_DESCR_END","/circuit/getConversations.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getConversationsByIds.js:7[49:53];Sink: state;getConversationsByIds.js:7[70:74]::FLOW_DESCR_END","/circuit/getConversationsByIds.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getConversationsByIds.js:9[26:28];Sink: msg;getConversationsByIds.js:25[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getConversationsByIds.js:9[26:28];Sink: msg;getConversationsByIds.js:30[35:37]::FLOW_DESCR_END","/circuit/getConversationsByIds.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getDirectConversationWithUser.js:7[49:53];Sink: state;getDirectConversationWithUser.js:7[70:74]::FLOW_DESCR_END","/circuit/getDirectConversationWithUser.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getDirectConversationWithUser.js:9[26:28];Sink: msg;getDirectConversationWithUser.js:15[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDirectConversationWithUser.js:9[26:28];Sink: msg;getDirectConversationWithUser.js:20[35:37]::FLOW_DESCR_END","/circuit/getDirectConversationWithUser.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getItemById.js:7[49:53];Sink: state;getItemById.js:7[70:74]::FLOW_DESCR_END","/circuit/getItemById.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getItemById.js:9[26:28];Sink: msg;getItemById.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getItemById.js:9[26:28];Sink: msg;getItemById.js:21[35:37]::FLOW_DESCR_END","/circuit/getItemById.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getItemsById.js:7[49:53];Sink: state;getItemsById.js:7[70:74]::FLOW_DESCR_END","/circuit/getItemsById.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getItemsById.js:9[26:28];Sink: msg;getItemsById.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getItemsById.js:9[26:28];Sink: msg;getItemsById.js:21[35:37]::FLOW_DESCR_END","/circuit/getItemsById.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getUserByEmail.js:7[49:53];Sink: state;getUserByEmail.js:7[70:74]::FLOW_DESCR_END","/circuit/getUserByEmail.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getUserByEmail.js:9[26:28];Sink: msg;getUserByEmail.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getUserByEmail.js:9[26:28];Sink: msg;getUserByEmail.js:21[35:37]::FLOW_DESCR_END","/circuit/getUserByEmail.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getUserById.js:7[49:53];Sink: state;getUserById.js:7[70:74]::FLOW_DESCR_END","/circuit/getUserById.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getUserById.js:9[26:28];Sink: msg;getUserById.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getUserById.js:9[26:28];Sink: msg;getUserById.js:21[35:37]::FLOW_DESCR_END","/circuit/getUserById.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getUsersByEmail.js:7[49:53];Sink: state;getUsersByEmail.js:7[70:74]::FLOW_DESCR_END","/circuit/getUsersByEmail.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getUsersByEmail.js:9[26:28];Sink: msg;getUsersByEmail.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getUsersByEmail.js:9[26:28];Sink: msg;getUsersByEmail.js:21[35:37]::FLOW_DESCR_END","/circuit/getUsersByEmail.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;getUsersById.js:7[49:53];Sink: state;getUsersById.js:7[70:74]::FLOW_DESCR_END","/circuit/getUsersById.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getUsersById.js:9[26:28];Sink: msg;getUsersById.js:16[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getUsersById.js:9[26:28];Sink: msg;getUsersById.js:21[35:37]::FLOW_DESCR_END","/circuit/getUsersById.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;setPresence.js:7[49:53];Sink: state;setPresence.js:7[70:74]::FLOW_DESCR_END","/circuit/setPresence.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;startUserSearch.js:8[49:53];Sink: state;startUserSearch.js:8[70:74]::FLOW_DESCR_END","/circuit/startUserSearch.js","8","49","8","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;updateConversation.js:7[49:53];Sink: state;updateConversation.js:7[70:74]::FLOW_DESCR_END","/circuit/updateConversation.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateConversation.js:9[26:28];Sink: msg;updateConversation.js:15[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateConversation.js:9[26:28];Sink: msg;updateConversation.js:20[35:37]::FLOW_DESCR_END","/circuit/updateConversation.js","9","26","9","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;updateTextItem.js:7[49:53];Sink: state;updateTextItem.js:7[70:74]::FLOW_DESCR_END","/circuit/updateTextItem.js","7","49","7","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateTextItem.js:9[26:28];Sink: msg;updateTextItem.js:15[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateTextItem.js:9[26:28];Sink: msg;updateTextItem.js:20[35:37]::FLOW_DESCR_END","/circuit/updateTextItem.js","9","26","9","28"

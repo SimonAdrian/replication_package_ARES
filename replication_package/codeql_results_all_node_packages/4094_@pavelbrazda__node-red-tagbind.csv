@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.jmeno;tagbind.js:25[26:47];Sink: JSON.st ... sword});tagbind.js:42[33:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.jmeno;tagbind.js:25[26:47];Sink: JSON.st ... nputs});tagbind.js:93[25:95]::FLOW_DESCR_END","/tagbind/tagbind.js","25","26","25","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.heslo;tagbind.js:26[26:47];Sink: JSON.st ... sword});tagbind.js:42[33:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.heslo;tagbind.js:26[26:47];Sink: JSON.st ... nputs});tagbind.js:93[25:95]::FLOW_DESCR_END","/tagbind/tagbind.js","26","26","26","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tagbind-input.js:24[35:37];Sink: msg;tagbind-input.js:26[23:25]::FLOW_DESCR_END","/tagbind-input/tagbind-input.js","24","35","24","37"

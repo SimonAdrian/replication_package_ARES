@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amap-convert.js:9[36:38];Sink: msg;amap-convert.js:15[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amap-convert.js:9[36:38];Sink: msg;amap-convert.js:31[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amap-convert.js:9[36:38];Sink: msg;amap-convert.js:41[31:33]::FLOW_DESCR_END","/amap-convert/amap-convert.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.info;amap-convert.js:31[68:76];Sink: RED._(' ... ta.info;amap-convert.js:31[32:76]::FLOW_DESCR_END","/amap-convert/amap-convert.js","31","68","31","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amap-distance.js:9[36:38];Sink: msg;amap-distance.js:45[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amap-distance.js:9[36:38];Sink: msg;amap-distance.js:55[31:33]::FLOW_DESCR_END","/amap-distance/amap-distance.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.info;amap-distance.js:45[68:76];Sink: RED._(' ... ta.info;amap-distance.js:45[32:76]::FLOW_DESCR_END","/amap-distance/amap-distance.js","45","68","45","76"

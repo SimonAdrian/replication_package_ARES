@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;base_tasmota.js:78[23:25];Sink: payload;base_tasmota.js:136[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;base_tasmota.js:78[23:25];Sink: fullTopic;base_tasmota.js:224[29:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;base_tasmota.js:78[23:25];Sink: payload;base_tasmota.js:224[40:46]::FLOW_DESCR_END","/nodes/base_tasmota.js","78","23","78","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mqtt_broker.js:49[66:76];Sink: brokerurl;mqtt_broker.js:80[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:49[66:76];Sink: 'Connec ... okerurl;mqtt_broker.js:85[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:49[66:76];Sink: 'Discon ... okerurl;mqtt_broker.js:125[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:49[66:76];Sink: 'Connec ... okerurl;mqtt_broker.js:133[22:64]::FLOW_DESCR_END","/nodes/mqtt_broker.js","49","66","49","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mqtt_broker.js:51[59:69];Sink: brokerurl;mqtt_broker.js:80[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:51[59:69];Sink: 'Connec ... okerurl;mqtt_broker.js:85[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:51[59:69];Sink: 'Discon ... okerurl;mqtt_broker.js:125[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:51[59:69];Sink: 'Connec ... okerurl;mqtt_broker.js:133[22:64]::FLOW_DESCR_END","/nodes/mqtt_broker.js","51","59","51","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mqtt_broker.js:54[50:60];Sink: brokerurl;mqtt_broker.js:80[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:54[50:60];Sink: 'Connec ... okerurl;mqtt_broker.js:85[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:54[50:60];Sink: 'Discon ... okerurl;mqtt_broker.js:125[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mqtt_broker.js:54[50:60];Sink: 'Connec ... okerurl;mqtt_broker.js:133[22:64]::FLOW_DESCR_END","/nodes/mqtt_broker.js","54","50","54","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqtt_broker.js:138[34:36];Sink: err;mqtt_broker.js:139[22:24]::FLOW_DESCR_END","/nodes/mqtt_broker.js","138","34","138","36"

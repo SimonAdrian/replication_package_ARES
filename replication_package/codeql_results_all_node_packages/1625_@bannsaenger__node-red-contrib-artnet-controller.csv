@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;node-red-contrib-artnet-controller.js:119[33:43];Sink: `[ArtNe ... ck} ms`;node-red-contrib-artnet-controller.js:145[18:268]::FLOW_DESCR_END","/node-red-contrib-artnet-controller.js","119","33","119","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;node-red-contrib-artnet-controller.js:145[126:134];Sink: `[ArtNe ... ck} ms`;node-red-contrib-artnet-controller.js:145[18:268]::FLOW_DESCR_END","/node-red-contrib-artnet-controller.js","145","126","145","134"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-artnet-controller.js:778[36:38];Sink: `get pa ... load)}`;node-red-contrib-artnet-controller.js:779[24:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet-controller.js:778[36:38];Sink: `[input ... d.net}`;node-red-contrib-artnet-controller.js:797[31:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet-controller.js:778[36:38];Sink: `[input ... ubnet}`;node-red-contrib-artnet-controller.js:807[31:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet-controller.js:778[36:38];Sink: `[input ... verse}`;node-red-contrib-artnet-controller.js:817[31:88]::FLOW_DESCR_END","/node-red-contrib-artnet-controller.js","778","36","778","38"

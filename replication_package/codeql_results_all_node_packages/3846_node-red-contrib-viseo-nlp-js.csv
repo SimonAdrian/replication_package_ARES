@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [data, undefined];node-nlp-js.js:66[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:70[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [data, undefined];node-nlp-js.js:80[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:84[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [data, undefined];node-nlp-js.js:94[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:98[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:104[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:115[38:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [data, undefined];node-nlp-js.js:132[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:136[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [undefined, data];node-nlp-js.js:197[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nlp-js.js:30[27:30];Sink: [data, undefined];node-nlp-js.js:215[26:42]::FLOW_DESCR_END","/node-nlp-js.js","30","27","30","30"

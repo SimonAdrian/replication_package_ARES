@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-battery.js:71[30:32];Sink: msg;arnidosmarthome-battery.js:36[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-battery.js:71[30:32];Sink: msg;arnidosmarthome-battery.js:73[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-battery.js","71","30","71","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-color-temperature.js:116[30:32];Sink: msg;arnidosmarthome-color-temperature.js:56[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-color-temperature.js:116[30:32];Sink: msg;arnidosmarthome-color-temperature.js:118[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-color-temperature.js","116","30","116","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-color.js:252[30:32];Sink: msg;arnidosmarthome-color.js:254[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-color.js","252","30","252","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-decimal.js:107[26:28];Sink: msg;arnidosmarthome-decimal.js:109[25:27]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-decimal.js","107","26","107","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-dimmer.js:101[26:28];Sink: msg;arnidosmarthome-dimmer.js:103[25:27]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-dimmer.js","101","26","101","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-humidity.js:71[30:32];Sink: msg;arnidosmarthome-humidity.js:36[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-humidity.js:71[30:32];Sink: msg;arnidosmarthome-humidity.js:73[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-humidity.js","71","30","71","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-illuminance.js:68[30:32];Sink: msg;arnidosmarthome-illuminance.js:34[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-illuminance.js:68[30:32];Sink: msg;arnidosmarthome-illuminance.js:70[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-illuminance.js","68","30","68","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-lock.js:63[30:32];Sink: msg;arnidosmarthome-lock.js:32[23:25]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-lock.js","63","30","63","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-motion.js:64[30:32];Sink: msg;arnidosmarthome-motion.js:32[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-motion.js:64[30:32];Sink: msg;arnidosmarthome-motion.js:66[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-motion.js","64","30","64","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-notification.js:16[30:32];Sink: msg;arnidosmarthome-notification.js:18[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-notification.js","16","30","16","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-onoff.js:89[26:28];Sink: msg;arnidosmarthome-onoff.js:91[27:29]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-onoff.js","89","26","89","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-openclose.js:64[30:32];Sink: msg;arnidosmarthome-openclose.js:32[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-openclose.js:64[30:32];Sink: msg;arnidosmarthome-openclose.js:66[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-openclose.js","64","30","64","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-presence.js:64[30:32];Sink: msg;arnidosmarthome-presence.js:32[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-presence.js:64[30:32];Sink: msg;arnidosmarthome-presence.js:66[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-presence.js","64","30","64","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-string.js:82[30:32];Sink: msg;arnidosmarthome-string.js:84[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-string.js","82","30","82","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-temperature.js:71[30:32];Sink: msg;arnidosmarthome-temperature.js:36[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-temperature.js:71[30:32];Sink: msg;arnidosmarthome-temperature.js:73[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-temperature.js","71","30","71","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arnidosmarthome-thermostat.js:237[30:32];Sink: msg;arnidosmarthome-thermostat.js:114[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;arnidosmarthome-thermostat.js:237[30:32];Sink: msg;arnidosmarthome-thermostat.js:239[29:31]::FLOW_DESCR_END","/arnidosmarthome/arnidosmarthome-thermostat.js","237","30","237","32"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;airCo2ntrol.js:131[41:43];Sink: err;airCo2ntrol.js:131[68:70]::FLOW_DESCR_END","/airCo2ntrol.js","131","41","131","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;co2Monitor.js:27[19:21];Sink: ""Error  ... "" + err;co2Monitor.js:29[16:52]::FLOW_DESCR_END","/co2Monitor.js","27","19","27","21"

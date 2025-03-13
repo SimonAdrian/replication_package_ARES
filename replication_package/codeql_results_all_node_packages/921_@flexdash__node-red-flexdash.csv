@@ -1,0 +1,67 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;index.666eb821.js:237[50194:50194];Sink: s;index.666eb821.js:237[50231:50231]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;index.666eb821.js:237[50194:50194];Sink: s.data;index.666eb821.js:237[50233:50238]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","50194","237","50194"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;index.666eb821.js:237[50492:50492];Sink: s;index.666eb821.js:237[50526:50526]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","50492","237","50492"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;index.666eb821.js:237[50761:50761];Sink: JSON.stringify(l);index.666eb821.js:237[50128:50144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;index.666eb821.js:237[50761:50761];Sink: s;index.666eb821.js:237[50794:50794]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","50761","237","50761"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: o;index.666eb821.js:237[50876:50876];Sink: `SIO rx ... : ${o}`;index.666eb821.js:237[50918:50962]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","50876","237","50876"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;index.666eb821.js:237[51106:51106];Sink: s;index.666eb821.js:237[51190:51190]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;index.666eb821.js:237[51106:51106];Sink: s;index.666eb821.js:237[51288:51288]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","51106","237","51106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: o;index.666eb821.js:237[51108:51108];Sink: o;index.666eb821.js:237[51290:51290]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","51108","237","51108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e.split(""/"").pop();index.666eb821.js:237[52643:52660];Sink: e;index.666eb821.js:1[4152:4152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e.split(""/"").pop();index.666eb821.js:237[52643:52660];Sink: e;index.666eb821.js:1[12969:12969]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e.split(""/"").pop();index.666eb821.js:237[52643:52660];Sink: e;index.666eb821.js:1[13062:13062]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e.split(""/"").pop();index.666eb821.js:237[52643:52660];Sink: e;index.666eb821.js:1[15889:15889]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","237","52643","237","52660"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e.split(""/"").pop();index.666eb821.js:240[681:698];Sink: l.download;index.666eb821.js:240[738:747]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","240","681","240","698"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[e];index.666eb821.js:313[2100:2111];Sink: l;index.666eb821.js:313[2137:2137]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","313","2100","313","2111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: R.data[ ... e.didx];index.666eb821.js:391[8219:8242];Sink: `clicke ... =${ue}`;index.666eb821.js:391[8277:8321]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","391","8219","391","8242"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: R.data[je.sidx];index.666eb821.js:391[8219:8233];Sink: `clicke ... =${ue}`;index.666eb821.js:391[8277:8321]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","391","8219","391","8233"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data.length;index.666eb821.js:418[3109:3124];Sink: `uPlot  ...  opts:`;index.666eb821.js:418[3094:3155]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","418","3109","418","3124"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[0].length;index.666eb821.js:418[3129:3147];Sink: `uPlot  ...  opts:`;index.666eb821.js:418[3094:3155]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","418","3129","418","3147"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[0];index.666eb821.js:418[3129:3140];Sink: `uPlot  ...  opts:`;index.666eb821.js:418[3094:3155]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","418","3129","418","3140"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: location.host;index.666eb821.js:440[19211:19223];Sink: me;index.666eb821.js:448[2867:2868]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","440","19211","440","19223"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flexdash-ctrl.js:23[24:26];Sink: `node "" ... {kind}`;flexdash-ctrl.js:59[24:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-ctrl.js:23[24:26];Sink: `no Fle ...  found`;flexdash-ctrl.js:83[23:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-ctrl.js:23[24:26];Sink: `cannot ... {kind}`;flexdash-ctrl.js:97[26:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-ctrl.js:23[24:26];Sink: `updati ... date)}`;flexdash-ctrl.js:109[22:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-ctrl.js:23[24:26];Sink: `msg._f ... ction}`;flexdash-ctrl.js:115[28:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-ctrl.js:23[24:26];Sink: `unknow ... tion}""`;flexdash-ctrl.js:122[24:55]::FLOW_DESCR_END","/flexdash-ctrl.js","23","24","23","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flexdash-custom.js:81[22:24];Sink: msg.title;flexdash-custom.js:94[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-custom.js:81[22:24];Sink: msg[k];flexdash-custom.js:98[36:41]::FLOW_DESCR_END","/flexdash-custom.js","81","22","81","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `FlexDa ... omain}`;flexdash-dashboard.js:127[13:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `Missin ... onnID}`;flexdash-dashboard.js:130[23:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `Missin ... serID}`;flexdash-dashboard.js:135[23:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `FlexDa ... eason}`;flexdash-dashboard.js:182[22:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: socket.id;flexdash-dashboard.js:187[47:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: connID;flexdash-dashboard.js:187[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `Sendin ... et.id}`;flexdash-dashboard.js:370[20:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `Sendin ... "", "")}`;flexdash-dashboard.js:373[20:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: connID;flexdash-dashboard.js:424[70:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: `Event  ... load)}`;flexdash-dashboard.js:446[21:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;flexdash-dashboard.js:121[34:39];Sink: connID;flexdash-dashboard.js:450[48:53]::FLOW_DESCR_END","/flexdash-dashboard.js","121","34","121","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;flexdash-dashboard.js:153[29:33];Sink: `Rx mes ... opic)}`;flexdash-dashboard.js:155[25:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;flexdash-dashboard.js:153[29:33];Sink: array_topic;flexdash-dashboard.js:424[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;flexdash-dashboard.js:153[29:33];Sink: `No inp ... topic}`;flexdash-dashboard.js:428[25:55]::FLOW_DESCR_END","/flexdash-dashboard.js","153","29","153","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;flexdash-dashboard.js:153[36:42];Sink: payload;flexdash-dashboard.js:424[61:67]::FLOW_DESCR_END","/flexdash-dashboard.js","153","36","153","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: target;flexdash-dashboard.js:176[31:36];Sink: `Event  ... load)}`;flexdash-dashboard.js:446[21:74]::FLOW_DESCR_END","/flexdash-dashboard.js","176","31","176","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;flexdash-dashboard.js:176[39:45];Sink: `No nod ... ad.id}`;flexdash-dashboard.js:442[23:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;flexdash-dashboard.js:176[39:45];Sink: `Event  ... load)}`;flexdash-dashboard.js:446[21:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;flexdash-dashboard.js:176[39:45];Sink: payload;flexdash-dashboard.js:450[39:45]::FLOW_DESCR_END","/flexdash-dashboard.js","176","39","176","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;flexdash-dashboard.js:181[35:40];Sink: `FlexDa ... eason}`;flexdash-dashboard.js:182[22:87]::FLOW_DESCR_END","/flexdash-dashboard.js","181","35","181","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;flexdash-dashboard.js:341[87:97];Sink: ""port   ... g.port);flexdash-dashboard.js:341[18:98]::FLOW_DESCR_END","/flexdash-dashboard.js","341","87","341","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;flexdash-dev-server.js:143[27:30];Sink: ""Vite e ...  + code;flexdash-dev-server.js:144[16:46]::FLOW_DESCR_END","/flexdash-dev-server.js","143","27","143","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;flexdash-dev-server.js:192[21:21];Sink: `${e} w ... ${url}`;flexdash-dev-server.js:193[16:43]::FLOW_DESCR_END","/flexdash-dev-server.js","192","21","192","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.prom ... ""utf8"");flexdash-dev-server.js:257[24:59];Sink: config;flexdash-dev-server.js:271[42:47]::FLOW_DESCR_END","/flexdash-dev-server.js","257","24","257","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flexdash-dev-server.js:427[24:26];Sink: JSON.stringify(msg);flexdash-dev-server.js:428[36:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-dev-server.js:427[24:26];Sink: `unknow ... start""`;flexdash-dev-server.js:442[23:92]::FLOW_DESCR_END","/flexdash-dev-server.js","427","24","427","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flexdash-out.js:11[23:25];Sink: msg.topic;flexdash-out.js:14[50:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-out.js:11[23:25];Sink: msg.payload;flexdash-out.js:14[61:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-out.js:11[23:25];Sink: msg.topic;flexdash-out.js:16[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexdash-out.js:11[23:25];Sink: msg.payload;flexdash-out.js:16[52:62]::FLOW_DESCR_END","/flexdash-out.js","11","23","11","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.prom ... 'utf8');gen-widget-nodes.js:183[26:72];Sink: props_html;gen-widget-nodes.js:187[45:54]::FLOW_DESCR_END","/gen-widget-nodes.js","183","26","183","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.prom ... 'utf8');gen-widget-nodes.js:209[31:74];Sink: node_html;gen-widget-nodes.js:212[51:59]::FLOW_DESCR_END","/gen-widget-nodes.js","209","31","209","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.prom ... 'utf8');gen-widget-nodes.js:219[31:74];Sink: node_js;gen-widget-nodes.js:222[49:55]::FLOW_DESCR_END","/gen-widget-nodes.js","219","31","219","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data:e;index.666eb821.js:1[37004:37009];Sink: e;index.666eb821.js:1[3850:3850]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","1","37004","1","37009"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: setupState:t;index.666eb821.js:1[37011:37022];Sink: e;index.666eb821.js:1[3850:3850]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","1","37011","1","37022"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ctx:l;index.666eb821.js:1[37038:37042];Sink: e;index.666eb821.js:1[3850:3850]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","1","37038","1","37042"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: appContext:i;index.666eb821.js:1[37044:37055];Sink: e;index.666eb821.js:1[3850:3850]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","1","37044","1","37055"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: propsOptions:s;index.666eb821.js:1[37057:37070];Sink: e;index.666eb821.js:1[3850:3850]::FLOW_DESCR_END","/flexdash/assets/index.666eb821.js","1","37057","1","37070"

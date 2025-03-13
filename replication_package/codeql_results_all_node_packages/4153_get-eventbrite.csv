@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;geteventbrite.js:40[26:30];Sink: error;geteventbrite.js:43[57:61]::FLOW_DESCR_END","/eventbrite/geteventbrite.js","40","26","40","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;geteventbrite.js:40[33:40];Sink: respons ... tusCode;geteventbrite.js:72[66:96]::FLOW_DESCR_END","/eventbrite/geteventbrite.js","40","33","40","40"

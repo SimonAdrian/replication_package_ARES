@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;alexa.js:31[22:31];Sink: topic;alexa.js:154[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.username;alexa.js:31[22:31];Sink: ""Proble ... evices"";alexa.js:328[33:79]::FLOW_DESCR_END","/alexa.js","31","22","31","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;alexa.js:70[20:32];Sink: ""Proble ... evices"";alexa.js:328[33:79]::FLOW_DESCR_END","/alexa.js","70","20","70","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;alexa.js:80[59:65];Sink: msg;alexa.js:86[56:58]::FLOW_DESCR_END","/alexa.js","80","59","80","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alexa.js:101[47:49];Sink: err;alexa.js:104[28:30]::FLOW_DESCR_END","/alexa.js","101","47","101","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;alexa.js:152[39:51];Sink: topic;alexa.js:154[37:41]::FLOW_DESCR_END","/alexa.js","152","39","152","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;alexa.js:321[35:38];Sink: devices ... ams.id];alexa.js:359[16:37]::FLOW_DESCR_END","/alexa.js","321","35","321","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conf.username;alexa.js:346[28:40];Sink: ""Proble ... evices"";alexa.js:328[33:79]::FLOW_DESCR_END","/alexa.js","346","28","346","40"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;serverchan.js:7[41:43];Sink: msg;serverchan.js:24[27:29]::FLOW_DESCR_END","/serverchan.js","7","41","7","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sendKey;serverchan.js:19[61:84];Sink: api_endpoint;serverchan.js:22[47:58]::FLOW_DESCR_END","/serverchan.js","19","61","19","84"

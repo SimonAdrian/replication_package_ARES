@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: ""Invali ... ame.dlc;canal.js:197[44:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: msg;canal.js:197[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: ""Invali ... .length;canal.js:231[48:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: msg.payload;canal.js:231[97:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: msg;canal.js:254[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: msg;canal.js:307[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;canal.js:145[35:37];Sink: frame;canal.js:312[27:31]::FLOW_DESCR_END","/src/canal.js","145","35","145","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;canal.js:189[40:56];Sink: ""Invali ... ame.dlc;canal.js:197[44:85]::FLOW_DESCR_END","/src/canal.js","189","40","189","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;canal.js:231[78:94];Sink: ""Invali ... .length;canal.js:231[48:94]::FLOW_DESCR_END","/src/canal.js","231","78","231","94"

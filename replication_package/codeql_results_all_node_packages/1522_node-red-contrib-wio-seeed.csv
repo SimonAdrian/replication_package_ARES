@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-digit.js:10[31:33];Sink: msg;wio-digit.js:30[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-digit.js:10[31:33];Sink: msg;wio-digit.js:37[16:18]::FLOW_DESCR_END","/wio-digit/wio-digit.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-display.js:10[31:33];Sink: msg;wio-display.js:28[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-display.js:10[31:33];Sink: msg;wio-display.js:35[16:18]::FLOW_DESCR_END","/wio-display/wio-display.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ection);wio-event.js:7[21:63];Sink: 'wss:// ... /event';wio-event.js:20[19:70]::FLOW_DESCR_END","/wio-event/wio-event.js","7","21","7","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-output.js:10[31:33];Sink: msg;wio-output.js:25[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-output.js:10[31:33];Sink: msg;wio-output.js:32[16:18]::FLOW_DESCR_END","/wio-output/wio-output.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-pwm.js:10[31:33];Sink: msg;wio-pwm.js:37[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-pwm.js:10[31:33];Sink: msg;wio-pwm.js:44[16:18]::FLOW_DESCR_END","/wio-pwm/wio-pwm.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-sensor.js:10[31:33];Sink: msg;wio-sensor.js:31[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-sensor.js:10[31:33];Sink: msg;wio-sensor.js:38[16:18]::FLOW_DESCR_END","/wio-sensor/wio-sensor.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-servo.js:10[31:33];Sink: msg;wio-servo.js:27[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-servo.js:10[31:33];Sink: msg;wio-servo.js:34[16:18]::FLOW_DESCR_END","/wio-servo/wio-servo.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-speaker.js:10[31:33];Sink: msg;wio-speaker.js:36[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-speaker.js:10[31:33];Sink: msg;wio-speaker.js:43[16:18]::FLOW_DESCR_END","/wio-speaker/wio-speaker.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wio-ws2812.js:10[31:33];Sink: msg;wio-ws2812.js:34[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wio-ws2812.js:10[31:33];Sink: msg;wio-ws2812.js:41[16:18]::FLOW_DESCR_END","/wio-ws2812/wio-ws2812.js","10","31","10","33"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;10-encoder.js:29[25:27];Sink: 'Cineco ... ' + err;10-encoder.js:29[43:75]::FLOW_DESCR_END","/nodes/10-encoder.js","29","25","29","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;12-decoder.js:29[25:27];Sink: 'Cineco ... ' + err;12-decoder.js:29[43:75]::FLOW_DESCR_END","/nodes/12-decoder.js","29","25","29","27"

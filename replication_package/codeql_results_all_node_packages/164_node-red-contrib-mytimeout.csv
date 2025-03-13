@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: inMsg;mytimeout.js:427[36:40];Sink: s;mytimeout.js:123[26:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inMsg;mytimeout.js:427[36:40];Sink: [msg, null];mytimeout.js:202[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inMsg;mytimeout.js:427[36:40];Sink: [msg, tremain];mytimeout.js:249[31:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inMsg;mytimeout.js:427[36:40];Sink: [msg, tremain];mytimeout.js:259[31:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inMsg;mytimeout.js:427[36:40];Sink: [msg, null];mytimeout.js:389[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inMsg;mytimeout.js:427[36:40];Sink: ""L477:  ... ) + "">"";mytimeout.js:477[27:92]::FLOW_DESCR_END","/mytimeout.js","427","36","427","40"

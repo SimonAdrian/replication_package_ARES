@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;directline-token.js:28[27:30];Sink: [null, data];directline-token.js:38[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;directline-token.js:28[27:30];Sink: [data, null];directline-token.js:54[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;directline-token.js:28[27:30];Sink: [null, data];directline-token.js:58[26:37]::FLOW_DESCR_END","/directline-token.js","28","27","28","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: l.ops.pop();botchat.js:1[9120:9130];Sink: o;botchat.js:1[8944:8944]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: l.ops.pop();botchat.js:1[9120:9130];Sink: n[1];botchat.js:1[8946:8949]::FLOW_DESCR_END","/lib/botchat.js","1","9120","1","9130"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;botchat.js:15[7887:7887];Sink: e;botchat.js:15[7921:7921]::FLOW_DESCR_END","/lib/botchat.js","15","7887","15","7887"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;botchat.js:15[10184:10184];Sink: ""receiv ... Id: ""+e;botchat.js:15[10193:10216]::FLOW_DESCR_END","/lib/botchat.js","15","10184","15","10184"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;botchat.js:15[10288:10288];Sink: e;botchat.js:15[10323:10323]::FLOW_DESCR_END","/lib/botchat.js","15","10288","15","10288"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;botchat.js:15[10538:10538];Sink: e;botchat.js:15[10581:10581]::FLOW_DESCR_END","/lib/botchat.js","15","10538","15","10538"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;botchat.js:15[10594:10594];Sink: e;botchat.js:15[10636:10636]::FLOW_DESCR_END","/lib/botchat.js","15","10594","15","10594"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;botchat.js:15[49307:49307];Sink: t;botchat.js:15[49335:49335]::FLOW_DESCR_END","/lib/botchat.js","15","49307","15","49307"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;botchat.js:15[52937:52937];Sink: r;botchat.js:15[53140:53140]::FLOW_DESCR_END","/lib/botchat.js","15","52937","15","52937"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;botchat.js:20[119081:119081];Sink: e.user;botchat.js:20[119278:119283]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;botchat.js:20[119081:119081];Sink: e.locale;botchat.js:20[119285:119292]::FLOW_DESCR_END","/lib/botchat.js","20","119081","20","119081"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.eventPool.pop();botchat.js:20[221173:221192];Sink: i;botchat.js:20[221211:221211]::FLOW_DESCR_END","/lib/botchat.js","20","221173","20","221192"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: B.pop();botchat.js:28[33767:33773];Sink: e.context;botchat.js:28[34839:34847]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: B.pop();botchat.js:28[33767:33773];Sink: e.context;botchat.js:28[34923:34931]::FLOW_DESCR_END","/lib/botchat.js","28","33767","28","33773"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;botchat.js:36[27666:27675];Sink: a;botchat.js:36[27863:27863]::FLOW_DESCR_END","/lib/botchat.js","36","27666","36","27675"

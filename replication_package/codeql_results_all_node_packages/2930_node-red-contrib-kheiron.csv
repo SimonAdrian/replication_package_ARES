@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;mqtt-kheiron.js:91[30:34];Sink: url;mqtt-kheiron.js:135[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;mqtt-kheiron.js:91[30:34];Sink: res.SubscribeTopic;mqtt-kheiron.js:146[48:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;mqtt-kheiron.js:91[30:34];Sink: node.pubTopic;mqtt-kheiron.js:313[23:35]::FLOW_DESCR_END","/kheiron/mqtt-kheiron.js","91","30","91","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqtt-kheiron.js:177[39:43];Sink: ""MQTT error: ""+error;mqtt-kheiron.js:178[20:39]::FLOW_DESCR_END","/kheiron/mqtt-kheiron.js","177","39","177","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqtt-kheiron.js:194[28:30];Sink: "" Error : ""+err;mqtt-kheiron.js:197[16:30]::FLOW_DESCR_END","/kheiron/mqtt-kheiron.js","194","28","194","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg;mqtt-kheiron.js:265[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg;mqtt-kheiron.js:272[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg;mqtt-kheiron.js:285[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg.payload;mqtt-kheiron.js:313[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg;mqtt-kheiron.js:323[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: ""Messag ... payload;mqtt-kheiron.js:327[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg;mqtt-kheiron.js:328[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-kheiron.js:237[34:36];Sink: msg;mqtt-kheiron.js:344[24:26]::FLOW_DESCR_END","/kheiron/mqtt-kheiron.js","237","34","237","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;mqtt-kheiron.js:356[51:57];Sink: ""Messag ... payload;mqtt-kheiron.js:363[15:43]::FLOW_DESCR_END","/kheiron/mqtt-kheiron.js","356","51","356","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;mqtt-kheiron.js:374[41:48];Sink: ""Messag ... payload;mqtt-kheiron.js:363[15:43]::FLOW_DESCR_END","/kheiron/mqtt-kheiron.js","374","41","374","48"

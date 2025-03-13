@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getBGLink.js:10[35:37];Sink: msg;getBGLink.js:21[23:25]::FLOW_DESCR_END","/nodes/getBGLink.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getBGScripture.js:11[35:37];Sink: url;utils.js:12[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getBGScripture.js:11[35:37];Sink: msg;getBGScripture.js:26[27:29]::FLOW_DESCR_END","/nodes/getBGScripture.js","11","35","11","37"

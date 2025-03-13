@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...  file));filemaker.js:167[34:76];Sink: flowFileObj;index.js:57[79:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...  file));filemaker.js:167[34:76];Sink: flowFileObj;index.js:72[38:48]::FLOW_DESCR_END","/lib/filemaker.js","167","34","167","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: `Failed ... der)}'`;index.js:96[21:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: `Failed ... der}'.`;index.js:128[21:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: path.jo ... rmat}`);filemaker.js:68[24:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: `Path t ... {path}`;filemaker.js:87[20:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: path.jo ... leName);filemaker.js:200[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: path.jo ... fgName);filemaker.js:217[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: `Flow f ... ile)}'`;setup.js:78[24:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:14[40:70];Sink: `Missin ... tPath}`;setup.js:106[18:124]::FLOW_DESCR_END","/lib/setup.js","14","40","14","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: `Failed ... der)}'`;index.js:96[21:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: `Failed ... der}'.`;index.js:128[21:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: path.jo ... rmat}`);filemaker.js:68[24:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: `Path t ... {path}`;filemaker.js:87[20:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: path.jo ... leName);filemaker.js:200[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: path.jo ... fgName);filemaker.js:217[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: `Flow f ... ile)}'`;setup.js:78[24:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ctPath);setup.js:31[40:70];Sink: `Missin ... tPath}`;setup.js:106[18:124]::FLOW_DESCR_END","/lib/setup.js","31","40","31","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... json'));setup.js:68[45:100];Sink: `Failed ... Name}'`;index.js:63[22:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... json'));setup.js:68[45:100];Sink: `Failed ... der}'.`;index.js:128[21:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... json'));setup.js:68[45:100];Sink: `Path t ... {path}`;filemaker.js:87[20:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... json'));setup.js:68[45:100];Sink: path.jo ... leName);filemaker.js:200[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... json'));setup.js:68[45:100];Sink: `Flow f ... ile)}'`;setup.js:78[24:128]::FLOW_DESCR_END","/lib/setup.js","68","45","68","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ename));setup.js:111[31:82];Sink: `Failed ... der)}'`;index.js:96[21:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ename));setup.js:111[31:82];Sink: `Failed ... der}'.`;index.js:128[21:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ename));setup.js:111[31:82];Sink: path.jo ... rmat}`);filemaker.js:68[24:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ename));setup.js:111[31:82];Sink: `Path t ... {path}`;filemaker.js:87[20:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ename));setup.js:111[31:82];Sink: `Unexpe ... ormat}`;filemaker.js:180[20:85]::FLOW_DESCR_END","/lib/setup.js","111","31","111","82"

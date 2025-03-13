@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;rcon-ws-server.js:12[17:22];Sink: ""connec ... de.port;rcon-ws-server.js:110[22:111]::FLOW_DESCR_END","/nodes/rcon-ws-server.js","12","17","12","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;rcon-ws-server.js:13[17:22];Sink: ""connec ... de.port;rcon-ws-server.js:110[22:111]::FLOW_DESCR_END","/nodes/rcon-ws-server.js","13","17","13","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rcon-ws-server.js:110[85:93];Sink: ""connec ... de.port;rcon-ws-server.js:110[22:111]::FLOW_DESCR_END","/nodes/rcon-ws-server.js","110","85","110","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rcon-ws-server.js:110[103:111];Sink: ""connec ... de.port;rcon-ws-server.js:110[22:111]::FLOW_DESCR_END","/nodes/rcon-ws-server.js","110","103","110","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;rcon-ws-server.js:165[45:45];Sink: ""error:"" + e;rcon-ws-server.js:166[22:33]::FLOW_DESCR_END","/nodes/rcon-ws-server.js","165","45","165","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;test-rcon.js:35[28:31];Sink: json.Message;test-rcon.js:41[51:62]::FLOW_DESCR_END","/test-rcon.js","35","28","35","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;test-rcon.js:48[26:26];Sink: e;test-rcon.js:49[34:34]::FLOW_DESCR_END","/test-rcon.js","48","26","48","26"

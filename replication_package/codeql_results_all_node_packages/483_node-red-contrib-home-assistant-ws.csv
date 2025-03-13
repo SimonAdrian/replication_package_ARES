@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;home-assistant-config.js:61[52:55];Sink: obj;home-assistant-config.js:75[49:51]::FLOW_DESCR_END","/home-assistant-config.js","61","52","61","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;home-assistant-state.js:76[35:37];Sink: msg;home-assistant-state.js:49[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;home-assistant-state.js:76[35:37];Sink: msg;home-assistant-state.js:54[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;home-assistant-state.js:76[35:37];Sink: msg;home-assistant-state.js:61[35:37]::FLOW_DESCR_END","/home-assistant-state.js","76","35","76","37"

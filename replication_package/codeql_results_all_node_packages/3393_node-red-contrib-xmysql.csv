@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xmysql.js:19[36:38];Sink: JSON.stringify(data);xmysql.js:27[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xmysql.js:19[36:38];Sink: options.body;xmysql.js:55[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xmysql.js:19[36:38];Sink: options.uri;xmysql.js:57[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xmysql.js:19[36:38];Sink: msg;xmysql.js:61[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xmysql.js:19[36:38];Sink: msg;xmysql.js:65[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xmysql.js:19[36:38];Sink: msg;xmysql.js:70[30:32]::FLOW_DESCR_END","/xmysql.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xmysql.js:58[44:46];Sink: err;xmysql.js:61[34:36]::FLOW_DESCR_END","/xmysql.js","58","44","58","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;xmysql.js:58[54:57];Sink: JSON.stringify(data);xmysql.js:27[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;xmysql.js:58[54:57];Sink: options.body;xmysql.js:55[30:41]::FLOW_DESCR_END","/xmysql.js","58","54","58","57"

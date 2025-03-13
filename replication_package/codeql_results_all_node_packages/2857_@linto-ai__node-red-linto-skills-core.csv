@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rasa.js:74[37:39];Sink: msg;rasa.js:88[21:23]::FLOW_DESCR_END","/nlu/rasa/rasa.js","74","37","74","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tock.js:87[38:40];Sink: msg;tock.js:102[21:23]::FLOW_DESCR_END","/nlu/tock/tock.js","87","38","87","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;prepare.js:80[32:34];Sink: msg;prepare.js:93[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;prepare.js:80[32:34];Sink: msg;prepare.js:100[49:51]::FLOW_DESCR_END","/settings/prepare/prepare.js","80","32","80","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bing.js:62[37:39];Sink: buffer;bing.js:30[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bing.js:62[37:39];Sink: msg;bing.js:70[21:23]::FLOW_DESCR_END","/stt/bing/bing.js","62","37","62","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linstt.js:69[37:39];Sink: msg;linstt.js:80[23:25]::FLOW_DESCR_END","/stt/linstt/linstt.js","69","37","69","39"

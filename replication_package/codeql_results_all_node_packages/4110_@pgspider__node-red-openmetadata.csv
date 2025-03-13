@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.password;openmetadata.js:383[69:88];Sink: value;openmetadata.js:169[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.config.password;openmetadata.js:383[69:88];Sink: value;openmetadata.js:171[38:42]::FLOW_DESCR_END","/openmetadata.js","383","69","383","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openmetadata.js:413[27:29];Sink: err;openmetadata.js:362[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openmetadata.js:413[27:29];Sink: msg;openmetadata.js:362[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openmetadata.js:413[27:29];Sink: msg;openmetadata.js:487[11:13]::FLOW_DESCR_END","/openmetadata.js","413","27","413","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.password;openmetadata.js:429[71:90];Sink: value;openmetadata.js:169[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.config.password;openmetadata.js:429[71:90];Sink: value;openmetadata.js:171[38:42]::FLOW_DESCR_END","/openmetadata.js","429","71","429","90"

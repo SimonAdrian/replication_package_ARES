@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sha256.js:23[35:37];Sink: msg;sha256.js:25[23:25]::FLOW_DESCR_END","/aes256/sha256.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ripemd160.js:23[35:37];Sink: msg;ripemd160.js:25[23:25]::FLOW_DESCR_END","/ripemd160/ripemd160.js","23","35","23","37"

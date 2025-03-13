@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myStromBulb.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:160[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromBulb.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:185[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromBulb.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:210[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromBulb.js:15[31:33];Sink: dataResolved;requests.js:50[17:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromBulb.js:15[31:33];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromBulb.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.host;myStromBulb.js:26[15:30];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromBulb.js","26","15","26","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.host;myStromButton.js:19[13:28];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromButton.js","19","13","19","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.host;myStromButtonPlus.js:20[13:28];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromButtonPlus.js","20","13","20","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myStromStrip.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:160[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromStrip.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:185[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromStrip.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:210[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromStrip.js:15[31:33];Sink: dataResolved;requests.js:50[17:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromStrip.js:15[31:33];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromStrip.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.host;myStromStrip.js:22[28:43];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromStrip.js","22","28","22","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myStromSwitch.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:160[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromSwitch.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:185[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromSwitch.js:15[31:33];Sink: ""Unsupp ... request;helpers.js:210[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromSwitch.js:15[31:33];Sink: dataResolved;requests.js:50[17:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myStromSwitch.js:15[31:33];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromSwitch.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.host;myStromSwitch.js:21[28:43];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/src/myStromSwitch.js","21","28","21","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;deviceListHelper.js:76[24:26];Sink: `server ... stack}`;deviceListHelper.js:77[19:47]::FLOW_DESCR_END","/utils/deviceListHelper.js","76","24","76","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");helpers.js:85[25:53];Sink: JSON.stringify(list);helpers.js:97[30:49]::FLOW_DESCR_END","/utils/helpers.js","85","25","85","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");helpers.js:114[36:64];Sink: JSON.stringify(list);helpers.js:129[30:49]::FLOW_DESCR_END","/utils/helpers.js","114","36","114","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: current[""url""];helpers.js:227[25:38];Sink: dataResolved;requests.js:50[17:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: current[""url""];helpers.js:227[25:38];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/utils/helpers.js","227","25","227","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: current[""url-data""];helpers.js:234[31:49];Sink: dataResolved;requests.js:50[17:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: current[""url-data""];helpers.js:234[31:49];Sink: ""\nDEVI ...    ""\n"";requests.js:57[9:14]::FLOW_DESCR_END","/utils/helpers.js","234","31","234","49"

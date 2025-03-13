@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ccxt-api.js:73[36:38];Sink: msg;ccxt-api.js:83[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ccxt-api.js:73[36:38];Sink: msg;ccxt-api.js:141[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ccxt-api.js:73[36:38];Sink: msg;ccxt-api.js:145[45:47]::FLOW_DESCR_END","/ccxt/ccxt-api.js","73","36","73","38"

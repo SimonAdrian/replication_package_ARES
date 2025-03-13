@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: serverNode.host;tag-change.js:7[21:35];Sink: this.host;tag-change.js:11[33:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: serverNode.host;tag-change.js:7[21:35];Sink: node.host;tag-change.js:26[33:41]::FLOW_DESCR_END","/event-subscription-nodes/tag-change/tag-change.js","7","21","7","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tag-write.js:21[36:38];Sink: msg;tag-write.js:32[23:25]::FLOW_DESCR_END","/tag-write/tag-write.js","21","36","21","38"

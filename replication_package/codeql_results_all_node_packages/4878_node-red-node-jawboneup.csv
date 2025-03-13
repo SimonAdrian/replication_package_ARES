@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:73[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:84[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:90[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:102[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:107[41:43]::FLOW_DESCR_END","/jawboneup.js","59","37","59","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;jawboneup.js:71[52:54];Sink: err.toString();jawboneup.js:73[34:47]::FLOW_DESCR_END","/jawboneup.js","71","52","71","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... nodeid);jawboneup.js:163[27:58];Sink: credentials;jawboneup.js:173[41:51]::FLOW_DESCR_END","/jawboneup.js","163","27","163","58"

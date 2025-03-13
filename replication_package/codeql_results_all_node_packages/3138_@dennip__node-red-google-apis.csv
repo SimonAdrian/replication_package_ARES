@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... nodeId);google-auth.js:80[27:58];Sink: credentials;google-auth.js:100[42:52]::FLOW_DESCR_END","/google-auth.js","80","27","80","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google.js:103[35:37];Sink: msg;google.js:130[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google.js:103[35:37];Sink: msg;google.js:140[27:29]::FLOW_DESCR_END","/google.js","103","35","103","37"

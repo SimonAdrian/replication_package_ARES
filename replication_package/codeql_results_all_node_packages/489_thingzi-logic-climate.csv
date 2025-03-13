@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;climate.js:89[35:37];Sink: msg.payload;climate.js:90[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:89[35:37];Sink: msg.mode;climate.js:91[61:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:89[35:37];Sink: msg.preset;climate.js:92[65:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:89[35:37];Sink: msg.setpoint;climate.js:93[69:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:89[35:37];Sink: msg.temp;climate.js:94[61:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:89[35:37];Sink: v;climate.js:293[36:36]::FLOW_DESCR_END","/climate.js","89","35","89","37"

@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;azure-https.js:42[19:28];Sink: userDir ... e.json"";azure-https.js:50[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;azure-https.js:42[19:28];Sink: node.deviceId;azure-https.js:67[35:47]::FLOW_DESCR_END","/azure-https.js","42","19","42","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;azure-https.js:45[29:35];Sink: userDir ... e.json"";azure-https.js:50[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;azure-https.js:45[29:35];Sink: node.deviceId;azure-https.js:67[35:47]::FLOW_DESCR_END","/azure-https.js","45","29","45","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message.deviceId;azure-https.js:46[20:35];Sink: userDir ... e.json"";azure-https.js:50[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message.deviceId;azure-https.js:46[20:35];Sink: node.deviceId;azure-https.js:67[35:47]::FLOW_DESCR_END","/azure-https.js","46","20","46","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;azure-https.js:46[40:52];Sink: userDir ... e.json"";azure-https.js:50[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;azure-https.js:46[40:52];Sink: node.deviceId;azure-https.js:67[35:47]::FLOW_DESCR_END","/azure-https.js","46","40","46","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;azure-https.js:50[35:47];Sink: userDir ... e.json"";azure-https.js:50[25:64]::FLOW_DESCR_END","/azure-https.js","50","35","50","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;azure-https.js:142[19:28];Sink: userDir ... e.json"";azure-https.js:150[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;azure-https.js:142[19:28];Sink: node.deviceId;azure-https.js:167[33:45]::FLOW_DESCR_END","/azure-https.js","142","19","142","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-https.js:145[29:31];Sink: userDir ... e.json"";azure-https.js:150[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-https.js:145[29:31];Sink: node.deviceId;azure-https.js:167[33:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-https.js:145[29:31];Sink: msg;azure-https.js:195[21:23]::FLOW_DESCR_END","/azure-https.js","145","29","145","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;azure-https.js:146[20:31];Sink: userDir ... e.json"";azure-https.js:150[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;azure-https.js:146[20:31];Sink: node.deviceId;azure-https.js:167[33:45]::FLOW_DESCR_END","/azure-https.js","146","20","146","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;azure-https.js:146[36:48];Sink: userDir ... e.json"";azure-https.js:150[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;azure-https.js:146[36:48];Sink: node.deviceId;azure-https.js:167[33:45]::FLOW_DESCR_END","/azure-https.js","146","36","146","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;azure-https.js:150[35:47];Sink: userDir ... e.json"";azure-https.js:150[25:64]::FLOW_DESCR_END","/azure-https.js","150","35","150","47"

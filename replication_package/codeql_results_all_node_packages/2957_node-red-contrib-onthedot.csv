@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-booking.js:101[36:38];Sink: data;onthedot-booking.js:19[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-booking.js:101[36:38];Sink: data;onthedot-booking.js:48[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-booking.js:101[36:38];Sink: url;onthedot-booking.js:75[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-booking.js:101[36:38];Sink: msg;onthedot-booking.js:121[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-booking.js:101[36:38];Sink: msg;onthedot-booking.js:130[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-booking.js:101[36:38];Sink: msg;onthedot-booking.js:139[31:33]::FLOW_DESCR_END","/onthedot-booking.js","101","36","101","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-bookings.js:41[36:38];Sink: url;onthedot-bookings.js:16[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-bookings.js:41[36:38];Sink: msg;onthedot-bookings.js:59[27:29]::FLOW_DESCR_END","/onthedot-bookings.js","41","36","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-delete-booking.js:41[36:38];Sink: msg;onthedot-delete-booking.js:59[27:29]::FLOW_DESCR_END","/onthedot-delete-booking.js","41","36","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-status-update.js:47[36:38];Sink: msg;onthedot-status-update.js:65[27:29]::FLOW_DESCR_END","/onthedot-status-update.js","47","36","47","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-store.js:47[36:38];Sink: url;onthedot-store.js:9[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-store.js:47[36:38];Sink: url;onthedot-store.js:20[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-store.js:47[36:38];Sink: msg;onthedot-store.js:65[27:29]::FLOW_DESCR_END","/onthedot-store.js","47","36","47","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-timeslot.js:61[36:38];Sink: msg;onthedot-timeslot.js:79[27:29]::FLOW_DESCR_END","/onthedot-timeslot.js","61","36","61","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onthedot-tracking.js:37[36:38];Sink: url;onthedot-tracking.js:17[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onthedot-tracking.js:37[36:38];Sink: msg;onthedot-tracking.js:56[27:29]::FLOW_DESCR_END","/onthedot-tracking.js","37","36","37","38"

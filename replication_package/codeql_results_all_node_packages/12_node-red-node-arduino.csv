@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;35-arduino.js:158[47:49];Sink: msg.payload;35-arduino.js:181[57:67]::FLOW_DESCR_END","/35-arduino.js","158","47","158","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;firmata-io.js:614[32:36];Sink: event;firmata-io.js:615[25:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;firmata-io.js:614[32:36];Sink: event;firmata-io.js:617[28:32]::FLOW_DESCR_END","/lib/firmata-io.js","614","32","614","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;firmata-io.js:620[33:37];Sink: error;firmata-io.js:624[28:32]::FLOW_DESCR_END","/lib/firmata-io.js","620","33","620","37"

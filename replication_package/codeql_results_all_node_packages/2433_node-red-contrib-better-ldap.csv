@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.options.host;index.js:24[26:44];Sink: url;index.js:25[37:39]::FLOW_DESCR_END","/transports/ldap/index.js","24","26","24","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.options.port;index.js:24[49:67];Sink: url;index.js:25[37:39]::FLOW_DESCR_END","/transports/ldap/index.js","24","49","24","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:56[42:44];Sink: msg;index.js:68[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:56[42:44];Sink: msg;index.js:73[27:29]::FLOW_DESCR_END","/transports/ldap/index.js","56","42","56","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:88[42:44];Sink: msg;index.js:98[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:88[42:44];Sink: msg;index.js:103[27:29]::FLOW_DESCR_END","/transports/ldap/index.js","88","42","88","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:117[42:44];Sink: msg;index.js:126[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:117[42:44];Sink: msg;index.js:131[27:29]::FLOW_DESCR_END","/transports/ldap/index.js","117","42","117","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:149[42:44];Sink: msg;index.js:161[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:149[42:44];Sink: msg;index.js:166[27:29]::FLOW_DESCR_END","/transports/ldap/index.js","149","42","149","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ldap.js:29[42:44];Sink: err;ldap.js:30[88:90]::FLOW_DESCR_END","/transports/ldap/ldap.js","29","42","29","44"

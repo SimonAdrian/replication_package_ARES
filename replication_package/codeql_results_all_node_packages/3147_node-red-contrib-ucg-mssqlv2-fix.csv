@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssqlv2.js:90[35:37];Sink: m;mssqlv2.js:81[31:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssqlv2.js:90[35:37];Sink: query;mssqlv2.js:142[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssqlv2.js:90[35:37];Sink: msg;mssqlv2.js:160[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssqlv2.js:90[35:37];Sink: msg;mssqlv2.js:167[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssqlv2.js:90[35:37];Sink: msg;mssqlv2.js:173[33:35]::FLOW_DESCR_END","/mssqlv2.js","90","35","90","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssqlv2.js:148[39:41];Sink: err;mssqlv2.js:166[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mssqlv2.js:148[39:41];Sink: err;mssqlv2.js:167[28:30]::FLOW_DESCR_END","/mssqlv2.js","148","39","148","41"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;lola-node.js:60[51:54];Sink: JSON.st ... apsule);lola-node.js:222[41:63]::FLOW_DESCR_END","/lola-node.js","60","51","60","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lola-node.js:129[35:37];Sink: JSON.st ... apsule);lola-node.js:222[41:63]::FLOW_DESCR_END","/lola-node.js","129","35","129","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lola-node.js:286[35:37];Sink: JSON.st ... ata_in);lola-node.js:294[37:59]::FLOW_DESCR_END","/lola-node.js","286","35","286","37"

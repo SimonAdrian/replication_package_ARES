@@ -1,0 +1,54 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:218[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:223[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:255[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:260[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:289[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:294[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:314[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:319[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-deploy.js:31[36:38];Sink: msg;EthersActionExecutor.js:324[36:38]::FLOW_DESCR_END","/nodes/ethers-deploy.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ethers-events.js:17[36:38];Sink: msg;EthersActionExecutor.js:75[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-events.js:17[36:38];Sink: msg;EthersActionExecutor.js:100[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-events.js:17[36:38];Sink: msg;EthersActionExecutor.js:159[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-events.js:17[36:38];Sink: msg;EthersActionExecutor.js:314[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-events.js:17[36:38];Sink: msg;EthersActionExecutor.js:319[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-events.js:17[36:38];Sink: msg;EthersActionExecutor.js:324[36:38]::FLOW_DESCR_END","/nodes/ethers-events.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ethers-read-account.js:17[42:44];Sink: msg;EthersActionExecutor.js:75[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-account.js:17[42:44];Sink: msg;EthersActionExecutor.js:100[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-account.js:17[42:44];Sink: msg;EthersActionExecutor.js:159[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-account.js:17[42:44];Sink: msg;EthersActionExecutor.js:314[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-account.js:17[42:44];Sink: msg;EthersActionExecutor.js:319[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-account.js:17[42:44];Sink: msg;EthersActionExecutor.js:324[36:38]::FLOW_DESCR_END","/nodes/ethers-read-account.js","17","42","17","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ethers-read-contract.js:17[36:38];Sink: msg;EthersActionExecutor.js:75[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-contract.js:17[36:38];Sink: msg;EthersActionExecutor.js:100[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-contract.js:17[36:38];Sink: msg;EthersActionExecutor.js:159[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-contract.js:17[36:38];Sink: msg;EthersActionExecutor.js:314[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-contract.js:17[36:38];Sink: msg;EthersActionExecutor.js:319[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-read-contract.js:17[36:38];Sink: msg;EthersActionExecutor.js:324[36:38]::FLOW_DESCR_END","/nodes/ethers-read-contract.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:218[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:223[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:255[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:260[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:289[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:294[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:314[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:319[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-transfer.js:29[36:38];Sink: msg;EthersActionExecutor.js:324[36:38]::FLOW_DESCR_END","/nodes/ethers-transfer.js","29","36","29","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:218[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:223[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:255[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:260[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:289[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:294[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:314[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:319[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ethers-write-contract.js:35[36:38];Sink: msg;EthersActionExecutor.js:324[36:38]::FLOW_DESCR_END","/nodes/ethers-write-contract.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;EthersActionExecutor.js:227[23:28];Sink: `Deploy ... ress}'`;EthersActionExecutor.js:229[27:172]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;EthersActionExecutor.js:227[23:28];Sink: result;EthersActionExecutor.js:318[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;EthersActionExecutor.js:227[23:28];Sink: result;EthersActionExecutor.js:323[69:74]::FLOW_DESCR_END","/nodes/lib/EthersActionExecutor.js","227","23","227","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;EthersActionExecutor.js:264[23:28];Sink: `execut ... Hash}'`;EthersActionExecutor.js:267[31:436]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;EthersActionExecutor.js:264[23:28];Sink: result;EthersActionExecutor.js:318[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;EthersActionExecutor.js:264[23:28];Sink: result;EthersActionExecutor.js:323[69:74]::FLOW_DESCR_END","/nodes/lib/EthersActionExecutor.js","264","23","264","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;EthersActionExecutor.js:298[23:28];Sink: log;EthersActionExecutor.js:302[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;EthersActionExecutor.js:298[23:28];Sink: result;EthersActionExecutor.js:318[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;EthersActionExecutor.js:298[23:28];Sink: result;EthersActionExecutor.js:323[69:74]::FLOW_DESCR_END","/nodes/lib/EthersActionExecutor.js","298","23","298","28"

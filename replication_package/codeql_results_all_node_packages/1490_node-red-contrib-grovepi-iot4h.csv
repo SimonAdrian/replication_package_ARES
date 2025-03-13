@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;arrayIndex.js:6[35:37];Sink: msg;arrayIndex.js:19[23:25]::FLOW_DESCR_END","/arrayIndex/arrayIndex.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter.js:26[35:37];Sink: msg;filter.js:8[19:21]::FLOW_DESCR_END","/filter/filter.js","26","35","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter.js:114[35:37];Sink: msg;filter.js:8[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:114[35:37];Sink: msg;filter.js:159[31:33]::FLOW_DESCR_END","/filter/filter.js","114","35","114","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter.js:179[35:37];Sink: msg;filter.js:8[19:21]::FLOW_DESCR_END","/filter/filter.js","179","35","179","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gate.js:7[36:38];Sink: msg;gate.js:13[27:29]::FLOW_DESCR_END","/gate/gate.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:239[35:37];Sink: msg;grovepi.js:300[23:25]::FLOW_DESCR_END","/grovepi/grovepi.js","239","35","239","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:480[36:38];Sink: value;GrovePiWrapper.js:93[52:56]::FLOW_DESCR_END","/grovepi/grovepi.js","480","36","480","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:500[36:38];Sink: value;GrovePiWrapper.js:84[48:52]::FLOW_DESCR_END","/grovepi/grovepi.js","500","36","500","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loadVariable.js:9[35:37];Sink: msg;loadVariable.js:34[35:37]::FLOW_DESCR_END","/loadVariable/loadVariable.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;movingAverage.js:23[35:37];Sink: msg;movingAverage.js:35[23:25]::FLOW_DESCR_END","/movingAverage/movingAverage.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;saveVariable.js:10[35:37];Sink: msg;saveVariable.js:76[27:29]::FLOW_DESCR_END","/saveVariable/saveVariable.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timestamp.js:21[35:37];Sink: msg;timestamp.js:78[23:25]::FLOW_DESCR_END","/timestamp/timestamp.js","21","35","21","37"

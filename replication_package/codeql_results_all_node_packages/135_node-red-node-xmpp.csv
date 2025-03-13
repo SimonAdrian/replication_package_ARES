@@ -1,0 +1,41 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;92-xmpp.js:39[29:48];Sink: ""Settin ... ord+""}"";92-xmpp.js:48[22:161]::FLOW_DESCR_END","/92-xmpp.js","39","29","39","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;92-xmpp.js:48[91:99];Sink: ""Settin ... ord+""}"";92-xmpp.js:48[22:161]::FLOW_DESCR_END","/92-xmpp.js","48","91","48","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;92-xmpp.js:48[116:128];Sink: ""Settin ... ord+""}"";92-xmpp.js:48[22:161]::FLOW_DESCR_END","/92-xmpp.js","48","116","48","128"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;92-xmpp.js:48[145:157];Sink: ""Settin ... ord+""}"";92-xmpp.js:48[22:161]::FLOW_DESCR_END","/92-xmpp.js","48","145","48","157"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stanza;92-xmpp.js:112[41:46];Sink: stanza;92-xmpp.js:118[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stanza;92-xmpp.js:112[41:46];Sink: stanza;92-xmpp.js:144[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stanza;92-xmpp.js:112[41:46];Sink: ""Was to ... y care"";92-xmpp.js:165[34:123]::FLOW_DESCR_END","/92-xmpp.js","112","41","112","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: that.username;92-xmpp.js:212[77:89];Sink: 'connec ... at.port;92-xmpp.js:212[61:123]::FLOW_DESCR_END","/92-xmpp.js","212","77","212","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: that.port;92-xmpp.js:212[115:123];Sink: 'connec ... at.port;92-xmpp.js:212[61:123]::FLOW_DESCR_END","/92-xmpp.js","212","115","212","123"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... sername;92-xmpp.js:350[51:76];Sink: ""alread ...  ""+name;92-xmpp.js:267[62:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.se ... sername;92-xmpp.js:350[51:76];Sink: ""JOINED ""+mu;92-xmpp.js:287[62:73]::FLOW_DESCR_END","/92-xmpp.js","350","51","350","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err;92-xmpp.js:307[106:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err.stanza.name;92-xmpp.js:308[35:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err;92-xmpp.js:308[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: ""Author ... ndition;92-xmpp.js:325[28:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err;92-xmpp.js:325[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err;92-xmpp.js:330[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err;92-xmpp.js:334[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: ""Unknow ... : ""+err;92-xmpp.js:339[28:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: err;92-xmpp.js:339[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:433[26:28];Sink: ""XMPP Error: ""+err;92-xmpp.js:434[62:79]::FLOW_DESCR_END","/92-xmpp.js","433","26","433","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stanza;92-xmpp.js:439[34:39];Sink: stanza;92-xmpp.js:440[62:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stanza;92-xmpp.js:439[34:39];Sink: stanza;92-xmpp.js:547[38:43]::FLOW_DESCR_END","/92-xmpp.js","439","34","439","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... sername;92-xmpp.js:567[64:89];Sink: ""alread ...  ""+name;92-xmpp.js:267[62:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.se ... sername;92-xmpp.js:567[64:89];Sink: ""JOINED ""+mu;92-xmpp.js:287[62:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.se ... sername;92-xmpp.js:567[64:89];Sink: ""Need t ... :""+name;92-xmpp.js:569[82:106]::FLOW_DESCR_END","/92-xmpp.js","567","64","567","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... sername;92-xmpp.js:644[51:76];Sink: ""alread ...  ""+name;92-xmpp.js:267[62:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.se ... sername;92-xmpp.js:644[51:76];Sink: ""JOINED ""+mu;92-xmpp.js:287[62:73]::FLOW_DESCR_END","/92-xmpp.js","644","51","644","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:307[106:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err.stanza.name;92-xmpp.js:308[35:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:308[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: ""Author ... ndition;92-xmpp.js:325[28:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:325[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:330[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:334[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: ""Unknow ... : ""+err;92-xmpp.js:339[28:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:339[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;92-xmpp.js:711[35:37];Sink: err;92-xmpp.js:712[62:64]::FLOW_DESCR_END","/92-xmpp.js","711","35","711","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;92-xmpp.js:765[35:37];Sink: ""alread ...  ""+name;92-xmpp.js:267[62:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;92-xmpp.js:765[35:37];Sink: ""JOINED ""+mu;92-xmpp.js:287[62:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;92-xmpp.js:765[35:37];Sink: ""Can't  ... resence;92-xmpp.js:773[34:84]::FLOW_DESCR_END","/92-xmpp.js","765","35","765","37"

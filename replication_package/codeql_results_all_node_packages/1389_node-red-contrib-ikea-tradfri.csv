@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;tradfri-blind-control.js:80[27:33];Sink: message;tradfri-blind-control.js:148[66:72]::FLOW_DESCR_END","/dist/tradfri-blind-control-node/tradfri-blind-control.js","80","27","80","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: accessory;tradfri-config.js:36[44:52];Sink: `Access ... .name}`;tradfri-config.js:37[30:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: accessory;tradfri-config.js:36[44:52];Sink: accessory.instanceId;tradfri-config.js:38[42:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: accessory;tradfri-config.js:36[44:52];Sink: accessory;tradfri-config.js:38[64:72]::FLOW_DESCR_END","/dist/tradfri-config-node/tradfri-config.js","36","44","36","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: instanceId;tradfri-config.js:40[44:53];Sink: `Access ... nceId}`;tradfri-config.js:41[30:63]::FLOW_DESCR_END","/dist/tradfri-config-node/tradfri-config.js","40","44","40","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: group;tradfri-config.js:46[43:47];Sink: `Group  ... .name}`;tradfri-config.js:47[30:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: group;tradfri-config.js:46[43:47];Sink: group.instanceId;tradfri-config.js:48[37:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: group;tradfri-config.js:46[43:47];Sink: group;tradfri-config.js:48[55:59]::FLOW_DESCR_END","/dist/tradfri-config-node/tradfri-config.js","46","43","46","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: instanceId;tradfri-config.js:50[43:52];Sink: `Group  ... nceId}`;tradfri-config.js:51[30:59]::FLOW_DESCR_END","/dist/tradfri-config-node/tradfri-config.js","50","43","50","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;tradfri-light-control.js:85[27:33];Sink: message;tradfri-light-control.js:152[66:72]::FLOW_DESCR_END","/dist/tradfri-light-control-node/tradfri-light-control.js","85","27","85","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;tradfri-switch-control.js:74[27:33];Sink: message;tradfri-switch-control.js:125[73:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;tradfri-switch-control.js:74[27:33];Sink: message;tradfri-switch-control.js:147[74:80]::FLOW_DESCR_END","/dist/tradfri-switch-control-node/tradfri-switch-control.js","74","27","74","33"

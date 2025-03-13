@@ -1,0 +1,10 @@
+FP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;apis.js:59[23:25];Sink: e;apis.js:33[19:19]::FLOW_DESCR_END","/apis.js","59","23","59","25"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;index.js:37[26:26];Sink: e;index.js:38[23:23]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: e;index.js:37[26:26];Sink: err;mssql-connection.js:69[15:17]::FLOW_DESCR_END","/client/index.js","37","26","37","26"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;mssql-connection.js:49[75:94];Sink: 'Discon ... ig.port;mssql-connection.js:49[13:94]::FLOW_DESCR_END","/mssql-connection.js","49","75","49","94"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;mssql-connection.js:54[73:92];Sink: 'Reconn ... ig.port;mssql-connection.js:54[13:92]::FLOW_DESCR_END","/mssql-connection.js","54","73","54","92"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql-connection.js:57[32:34];Sink: 'Failed ... ' + err;mssql-connection.js:59[14:56]::FLOW_DESCR_END","/mssql-connection.js","57","32","57","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;mssql-connection.js:64[76:95];Sink: 'Connec ... ig.port;mssql-connection.js:64[13:95]::FLOW_DESCR_END","/mssql-connection.js","64","76","64","95"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql-connection.js:68[28:30];Sink: err;mssql-connection.js:69[15:17]::FLOW_DESCR_END","/mssql-connection.js","68","28","68","30"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;mssql-connection.js:72[76:95];Sink: 'Connec ... ig.port;mssql-connection.js:72[12:95]::FLOW_DESCR_END","/mssql-connection.js","72","76","72","95"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql-execute.js:34[27:29];Sink: msg;mssql-execute.js:73[15:17]::FLOW_DESCR_END","/mssql-execute.js","34","27","34","29"

@@ -1,0 +1,58 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: msg;device.js:789[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: msgi;device.js:2769[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: err;device.js:2778[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: from_states;device.js:2964[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: ""key_na ... c[key1];device.js:3563[50:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: ""key_na ... c[key1];device.js:3569[50:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: ""key_na ... c[key1];device.js:3578[50:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: ""key_na ... c[key1];device.js:3585[42:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: ""key_na ... exists"";device.js:3588[38:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: value;device.js:3664[25:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: value;Formats.js:139[54:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgi;device.js:2168[17:20];Sink: key;Formats.js:139[61:63]::FLOW_DESCR_END","/devices/device.js","2168","17","2168","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: msg;device.js:789[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: ""key_na ... c[key1];device.js:3563[50:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: ""key_na ... c[key1];device.js:3569[50:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: ""key_na ... c[key1];device.js:3578[50:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: ""key_na ... c[key1];device.js:3585[42:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: ""key_na ... exists"";device.js:3588[38:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });device.js:3625[36:26];Sink: value;device.js:3664[25:29]::FLOW_DESCR_END","/devices/device.js","3625","36","3630","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-mgmt.js:85[17:19];Sink: msg;google-mgmt.js:56[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-mgmt.js:85[17:19];Sink: msg;google-mgmt.js:58[31:33]::FLOW_DESCR_END","/google-mgmt.js","85","17","85","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... blickey;google-smarthome.js:67[17:42];Sink: err;google-smarthome.js:80[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... blickey;google-smarthome.js:67[17:42];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... blickey;google-smarthome.js:67[17:42];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","67","17","67","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... vatekey;google-smarthome.js:68[17:43];Sink: err;google-smarthome.js:80[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... vatekey;google-smarthome.js:68[17:43];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... vatekey;google-smarthome.js:68[17:43];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","68","17","68","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;google-smarthome.js:99[53:57];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: state;google-smarthome.js:99[53:57];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","99","53","99","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: param1;google-smarthome.js:99[60:65];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: param1;google-smarthome.js:99[60:65];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","99","60","99","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-smarthome.js:110[66:68];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-smarthome.js:110[66:68];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","110","66","110","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-smarthome.js:119[66:68];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-smarthome.js:119[66:68];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","119","66","119","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-smarthome.js:128[53:55];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-smarthome.js:128[53:55];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","128","53","128","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: username;google-smarthome.js:128[58:65];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: username;google-smarthome.js:128[58:65];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","128","58","128","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;google-smarthome.js:128[68:75];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: password;google-smarthome.js:128[68:75];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END","/google-smarthome.js","128","68","128","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...      });Auth.js:62[28:18];Sink: 'Auth:l ... torage);Auth.js:84[37:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ...      });Auth.js:62[28:18];Sink: JSON.st ... torage);Auth.js:529[50:82]::FLOW_DESCR_END","/lib/Auth.js","62","28","67","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload['email'];HttpAuth.js:124[43:58];Sink: 'HttpAu ... lidUser;HttpAuth.js:126[49:131]::FLOW_DESCR_END","/lib/HttpAuth.js","124","43","124","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;SmartHome.js:241[48:52];Sink: 'Server ... + error;SmartHome.js:242[22:49]::FLOW_DESCR_END","/lib/SmartHome.js","241","48","241","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;SmartHome.js:246[54:57];Sink: info.port;SmartHome.js:252[51:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info;SmartHome.js:246[54:57];Sink: info.address;SmartHome.js:252[62:73]::FLOW_DESCR_END","/lib/SmartHome.js","246","54","246","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;SmartHome.js:264[26:37];Sink: 'Sevice ...  + port;SmartHome.js:266[22:82]::FLOW_DESCR_END","/lib/SmartHome.js","264","26","264","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;SmartHome.js:299[44:46];Sink: 'SmartH ... ' + err;SmartHome.js:300[22:62]::FLOW_DESCR_END","/lib/SmartHome.js","299","44","299","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: REDserv ... ().port;SmartHome.js:310[85:108];Sink: 'Starti ... eryPort;SmartHome.js:235[18:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: REDserv ... ().port;SmartHome.js:310[85:108];Sink: 'SmartH ... eryPort;SmartHome.js:298[18:80]::FLOW_DESCR_END","/lib/SmartHome.js","310","85","310","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: me.http ... ().port;SmartHome.js:388[34:61];Sink: 'SmartH ...  + port;SmartHome.js:390[30:89]::FLOW_DESCR_END","/lib/SmartHome.js","388","34","388","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;SmartHome.js:397[55:57];Sink: msg;google-smarthome.js:142[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;SmartHome.js:397[55:57];Sink: msg;google-smarthome.js:144[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;SmartHome.js:397[55:57];Sink: 'SmartH ... ' + err;SmartHome.js:398[30:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;SmartHome.js:397[55:57];Sink: err;SmartHome.js:401[60:62]::FLOW_DESCR_END","/lib/SmartHome.js","397","55","397","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: me.loca ... ().port;SmartHome.js:422[34:66];Sink: 'SmartH ...  + port;SmartHome.js:424[30:112]::FLOW_DESCR_END","/lib/SmartHome.js","422","34","422","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;SmartHome.js:427[60:62];Sink: 'SmartH ... ' + err;SmartHome.js:428[30:66]::FLOW_DESCR_END","/lib/SmartHome.js","427","60","427","62"

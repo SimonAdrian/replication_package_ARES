@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;TlsCertInfoNode.js:19[36:38];Sink: msg;TlsCertInfoNode.js:46[27:29]::FLOW_DESCR_END","/TlsCertInfoNode.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;TlsCertInfoNode.js:50[33:37];Sink: error;TlsCertInfoNode.js:51[54:58]::FLOW_DESCR_END","/TlsCertInfoNode.js","50","33","50","37"

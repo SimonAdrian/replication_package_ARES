@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.apiKey;redash.js:14[23:30];Sink: options.uri;redash.js:52[26:36]::FLOW_DESCR_END","/redash.js","14","23","14","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redash.js:17[36:38];Sink: JSON.stringify(data);redash.js:29[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redash.js:17[36:38];Sink: options.uri;redash.js:52[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redash.js:17[36:38];Sink: options.query;redash.js:59[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redash.js:17[36:38];Sink: msg;redash.js:75[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redash.js:17[36:38];Sink: msg;redash.js:80[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redash.js:17[36:38];Sink: msg;redash.js:86[30:32]::FLOW_DESCR_END","/redash.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .apiKey;redash.js:26[26:48];Sink: options.uri;redash.js:52[26:36]::FLOW_DESCR_END","/redash.js","26","26","26","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;redash.js:72[44:46];Sink: err;redash.js:75[34:36]::FLOW_DESCR_END","/redash.js","72","44","72","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;redash.js:72[54:57];Sink: JSON.stringify(data);redash.js:29[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;redash.js:72[54:57];Sink: options.uri;redash.js:52[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;redash.js:72[54:57];Sink: options.query;redash.js:59[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;redash.js:72[54:57];Sink: body;redash.js:79[34:37]::FLOW_DESCR_END","/redash.js","72","54","72","57"

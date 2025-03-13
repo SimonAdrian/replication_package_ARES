@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafka_avro_confluent.js:13[31:33];Sink: msg;kafka_avro_confluent.js:17[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafka_avro_confluent.js:13[31:33];Sink: msg;kafka_avro_confluent.js:20[39:41]::FLOW_DESCR_END","/kafka_avro_confluent.js","13","31","13","33"

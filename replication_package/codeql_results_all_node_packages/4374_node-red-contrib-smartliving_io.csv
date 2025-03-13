@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartliving_io.js:64[36:38];Sink: ""I saw  ... payload;smartliving_io.js:65[23:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartliving_io.js:64[36:38];Sink: ""I saw  ... assetid;smartliving_io.js:66[23:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartliving_io.js:64[36:38];Sink: ""I saw  ... g.value;smartliving_io.js:67[23:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartliving_io.js:64[36:38];Sink: msg;smartliving_io.js:70[27:29]::FLOW_DESCR_END","/smartliving_io.js","64","36","64","38"

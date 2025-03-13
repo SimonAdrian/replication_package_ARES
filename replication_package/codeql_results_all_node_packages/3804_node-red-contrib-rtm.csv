@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: callQueue.pop();RtmConnection.js:110[20:34];Sink: method;RtmConnection.js:132[19:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callQueue.pop();RtmConnection.js:110[20:34];Sink: args;RtmConnection.js:132[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callQueue.pop();RtmConnection.js:110[20:34];Sink: done;RtmConnection.js:132[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callQueue.pop();RtmConnection.js:110[20:34];Sink: method;RtmConnection.js:138[15:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callQueue.pop();RtmConnection.js:110[20:34];Sink: args;RtmConnection.js:138[23:26]::FLOW_DESCR_END","/nodes/lib/RtmConnection.js","110","20","110","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rtm_call.js:10[31:33];Sink: msg.payload;rtm_call.js:11[38:48]::FLOW_DESCR_END","/nodes/rtm_call.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rtm_search.js:13[31:33];Sink: msg;rtm_search.js:20[19:21]::FLOW_DESCR_END","/nodes/rtm_search.js","13","31","13","33"

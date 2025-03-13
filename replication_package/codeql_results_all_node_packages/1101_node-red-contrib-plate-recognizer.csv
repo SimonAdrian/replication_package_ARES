@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plate-recognizer.js:47[35:37];Sink: [msg, null];plate-recognizer.js:144[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plate-recognizer.js:47[35:37];Sink: [msg, null];plate-recognizer.js:160[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plate-recognizer.js:47[35:37];Sink: [msg, null];plate-recognizer.js:165[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plate-recognizer.js:47[35:37];Sink: [null, msg];plate-recognizer.js:169[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plate-recognizer.js:47[35:37];Sink: [null, msg];plate-recognizer.js:177[31:41]::FLOW_DESCR_END","/plate-recognizer.js","47","35","47","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plate-statistics.js:27[35:37];Sink: msg;plate-statistics.js:39[31:33]::FLOW_DESCR_END","/plate-statistics.js","27","35","27","37"

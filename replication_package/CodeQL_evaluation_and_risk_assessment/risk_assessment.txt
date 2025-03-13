@@ -1,0 +1,48 @@
+Groups and associated severities (see below):
+[severity - group description: number of flows]
+
+2 - send input message to other node: 323
+1 - log input message: 56
+1 - send input message to external hardware device: 2
+2 - display input message in dashboard: 175
+1 - write input message to file: 6
+1 - send input message to external server: 22
+1 - display input message in terminal: 28
+
+1 - log error message: 16
+2 - display error message in dashboard: 110
+1 - display error message in terminal: 18
+
+1 - display sensitive information in terminal: 37
+2 - display sensitive information in dashboard: 46
+1 - log sensitive information: 31
+1 - send sensitive information to external server: 31
+1 - write sensitive information to file: 3
+2 - send sensitive information to framework: 11
+
+?: 26
+
+--------
+Below are ungroupable ones. Assigned severity directly and then group them under "misc low/high severity"
+
+misc low severity: 10
+misc high severity: 14
+
+high - read and return filecontent: 4, 4
+low - send event ID to external API: 1
+high - connect to external API and log return value: 4
+high - use external message to create file with that name: 1
+high - read from file, write to file: 1
+low - set parameters in global context based in input message: 4
+low - log error code: 1
+low - log node ID: 1
+low - display node ID in terminal: 3
+
+
+
+
+--------------------
+Severities:
+1: high - (possibly) sensitive information exposed to possibly externally observable context 
+2: medium - (possibly) sensitive information exposed to not externally observable context
+3: low - insensitive information exposed to any context

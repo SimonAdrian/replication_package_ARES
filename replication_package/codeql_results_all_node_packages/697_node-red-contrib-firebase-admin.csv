@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.type;firebase-config.js:27[11:31];Sink: ""*** pa ... ject_id;firebase-config.js:26[9:37]::FLOW_DESCR_END","/firebase-config.js","27","11","27","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ject_id;firebase-config.js:29[11:37];Sink: ""*** pa ... ject_id;firebase-config.js:26[9:37]::FLOW_DESCR_END","/firebase-config.js","29","11","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;rtdb-on.js:12[17:19];Sink: 'fireba ... t '+res;rtdb-on.js:13[19:44]::FLOW_DESCR_END","/rtdb/rtdb-on.js","12","17","12","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;rtdb-query.js:16[17:19];Sink: 'fireba ... t '+res;rtdb-query.js:17[19:44]::FLOW_DESCR_END","/rtdb/rtdb-query.js","16","17","16","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.st ... nload();storage-read.js:40[15:41];Sink: '------ ... storage;storage-read.js:32[21:143]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.st ... nload();storage-read.js:40[15:41];Sink: 'readin ... le.name;storage-read.js:39[27:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.st ... nload();storage-read.js:40[15:41];Sink: 'storag ... le.name;storage-read.js:43[29:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.st ... nload();storage-read.js:40[15:41];Sink: 'storag ...  '+path;storage-read.js:50[29:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.st ... nload();storage-read.js:40[15:41];Sink: '* read ...  '+path;storage-read.js:57[23:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.st ... nload();storage-read.js:40[15:41];Sink: 'storag ...  '+path;storage-read.js:67[27:73]::FLOW_DESCR_END","/storage/storage-read.js","40","15","42","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s.bucke ... nload();storage-read.js:60[13:34];Sink: '------ ... storage;storage-read.js:32[21:143]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s.bucke ... nload();storage-read.js:60[13:34];Sink: 'readin ... le.name;storage-read.js:39[27:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s.bucke ... nload();storage-read.js:60[13:34];Sink: 'storag ... le.name;storage-read.js:43[29:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s.bucke ... nload();storage-read.js:60[13:34];Sink: 'storag ...  '+path;storage-read.js:50[29:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s.bucke ... nload();storage-read.js:60[13:34];Sink: '* read ...  '+path;storage-read.js:57[23:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s.bucke ... nload();storage-read.js:60[13:34];Sink: 'storag ...  '+path;storage-read.js:67[27:73]::FLOW_DESCR_END","/storage/storage-read.js","60","13","61","34"

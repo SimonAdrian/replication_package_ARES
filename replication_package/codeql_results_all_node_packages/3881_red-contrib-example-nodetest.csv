@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lower-case.js:5[35:37];Sink: msg;lower-case.js:7[23:25]::FLOW_DESCR_END","/modbus/lower-case.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-basics.js:1[3837:3837];Sink: s;modbus-basics.js:1[3035:3035]::FLOW_DESCR_END","/modbus/modbus-basics.js","1","3837","1","3837"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-client.js:1[2604:2604];Sink: ""Client ... verInfo;modbus-client.js:1[1344:1370]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;modbus-client.js:1[2604:2604];Sink: ""Modbus ... value+i;modbus-client.js:1[4183:4243]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;modbus-client.js:1[2604:2604];Sink: ""Modbus ... value+i;modbus-client.js:1[4380:4439]::FLOW_DESCR_END","/modbus/modbus-client.js","1","2604","1","2604"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;modbus-client.js:1[8779:8779];Sink: t.queueUnitId;modbus-client.js:1[9114:9126]::FLOW_DESCR_END","/modbus/modbus-client.js","1","8779","1","8779"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;modbus-client.js:1[9270:9270];Sink: t.queueUnitId;modbus-client.js:1[9608:9620]::FLOW_DESCR_END","/modbus/modbus-client.js","1","9270","1","9270"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-client.js:1[10329:10329];Sink: e;modbus-basics.js:1[4048:4048]::FLOW_DESCR_END","/modbus/modbus-client.js","1","10329","1","10329"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbus-function-test.js:9[31:33];Sink: [ msg,  ... oad } ];modbus-function-test.js:47[15:46]::FLOW_DESCR_END","/modbus/modbus-function-test.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-getter.js:1[1703:1703];Sink: e;modbus-basics.js:1[4048:4048]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;modbus-getter.js:1[1703:1703];Sink: [t,t];modbus-basics.js:1[4246:4250]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;modbus-getter.js:1[1703:1703];Sink: t;modbus-basics.js:1[4336:4336]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;modbus-getter.js:1[1703:1703];Sink: r.build ... es,t,s);modbus-getter.js:1[1844:1885]::FLOW_DESCR_END","/modbus/modbus-getter.js","1","1703","1","1703"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-read.js:10[415:415];Sink: e;modbus-read.js:10[499:499]::FLOW_DESCR_END","/modbus/modbus-read.js","10","415","10","415"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-response.js:1[303:303];Sink: e.payload;modbus-response.js:1[366:374]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;modbus-response.js:1[303:303];Sink: e.payload;modbus-response.js:1[433:441]::FLOW_DESCR_END","/modbus/modbus-response.js","1","303","1","303"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;modbus-server.js:1[2163:2163];Sink: e;modbus-server.js:1[2289:2289]::FLOW_DESCR_END","/modbus/modbus-server.js","1","2163","1","2163"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;mqttex.js:49[21:26];Sink: node.brokerurl;mqttex.js:198[44:57]::FLOW_DESCR_END","/modbus/mqttex.js","49","21","49","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mqttex.js:111[71:79];Sink: node.brokerurl;mqttex.js:198[44:57]::FLOW_DESCR_END","/modbus/mqttex.js","111","71","111","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqttex.js:257[51:55];Sink: error;mqttex.js:262[32:36]::FLOW_DESCR_END","/modbus/mqttex.js","257","51","257","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqttex.js:419[40:42];Sink: msg;mqttex.js:434[49:51]::FLOW_DESCR_END","/modbus/mqttex.js","419","40","419","42"

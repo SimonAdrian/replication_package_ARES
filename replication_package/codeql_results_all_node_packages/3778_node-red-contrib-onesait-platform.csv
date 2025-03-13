@@ -1,0 +1,130 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;onesait-platform-connection-config.js:39[14:19];Sink: ""MQTT:  ... is.port;onesait-platform-connection-config.js:43[16:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;onesait-platform-connection-config.js:39[14:19];Sink: this.port;onesait-platform-connection-config.js:46[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;onesait-platform-connection-config.js:39[14:19];Sink: node.port;onesait-platform-connection-config.js:67[33:41]::FLOW_DESCR_END","/onesait-platform-connection-config/onesait-platform-connection-config.js","39","14","39","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;onesait-platform-connection-config.js:43[59:67];Sink: ""MQTT:  ... is.port;onesait-platform-connection-config.js:43[16:67]::FLOW_DESCR_END","/onesait-platform-connection-config/onesait-platform-connection-config.js","43","59","43","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:63[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:72[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:99[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:127[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:136[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:145[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:302[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-delete.js:21[29:31];Sink: msg;onesait-platform-delete.js:330[19:21]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-delete.js:220[31:31];Sink: JSON.st ... ayload);onesait-platform-delete.js:64[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:220[31:31];Sink: JSON.st ... ayload);onesait-platform-delete.js:100[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:220[31:31];Sink: JSON.st ... ayload);onesait-platform-delete.js:128[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:220[31:31];Sink: resultDelete;onesait-platform-delete.js:324[19:30]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","220","31","220","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-delete.js:247[34:34];Sink: ""Using  ... sionKey;onesait-platform-delete.js:49[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:247[34:34];Sink: ""Using  ... sionKey;onesait-platform-delete.js:84[16:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:247[34:34];Sink: ""Using  ... sionKey;onesait-platform-delete.js:112[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:247[34:34];Sink: ""Using  ... sionKey;onesait-platform-delete.js:253[20:56]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","247","34","247","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-delete.js:289[36:36];Sink: JSON.st ... ayload);onesait-platform-delete.js:64[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:289[36:36];Sink: JSON.st ... ayload);onesait-platform-delete.js:100[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:289[36:36];Sink: JSON.st ... ayload);onesait-platform-delete.js:128[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:289[36:36];Sink: resultDelete;onesait-platform-delete.js:295[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-delete.js:289[36:36];Sink: resultDelete;onesait-platform-delete.js:300[26:37]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","289","36","289","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-delete.js:308[42:44];Sink: ""Error:""+err;onesait-platform-delete.js:309[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-delete.js:308[42:44];Sink: ""Error:""+err;onesait-platform-delete.js:310[23:34]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","308","42","308","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-delete.js:318[38:40];Sink: err;onesait-platform-delete.js:319[65:67]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","318","38","318","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-delete.js:336[37:39];Sink: ""Error:""+err;onesait-platform-delete.js:337[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-delete.js:336[37:39];Sink: ""Error:""+err;onesait-platform-delete.js:338[18:29]::FLOW_DESCR_END","/onesait-platform-delete/onesait-platform-delete.js","336","37","336","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:41[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:51[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:74[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:98[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:108[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:117[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:254[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: JSON.st ... ayload);onesait-platform-insert.js:255[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: insertBody;onesait-platform-insert.js:260[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: msg;onesait-platform-insert.js:286[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-insert.js:16[29:31];Sink: insertBody;onesait-platform-insert.js:291[22:31]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","16","29","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-insert.js:186[31:31];Sink: JSON.st ... ayload);onesait-platform-insert.js:42[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:186[31:31];Sink: JSON.st ... ayload);onesait-platform-insert.js:75[19:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:186[31:31];Sink: JSON.st ... ayload);onesait-platform-insert.js:99[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:186[31:31];Sink: JSON.st ... ayload);onesait-platform-insert.js:255[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:186[31:31];Sink: insertBody;onesait-platform-insert.js:260[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:186[31:31];Sink: insertBody;onesait-platform-insert.js:291[22:31]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","186","31","186","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-insert.js:213[34:34];Sink: ""Using  ... sionKey;onesait-platform-insert.js:32[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:213[34:34];Sink: ""Using  ... sionKey;onesait-platform-insert.js:61[16:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:213[34:34];Sink: ""Using  ... sionKey;onesait-platform-insert.js:89[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:213[34:34];Sink: ""Using  ... sionKey;onesait-platform-insert.js:219[20:56]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","213","34","213","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-insert.js:242[36:36];Sink: JSON.st ... ayload);onesait-platform-insert.js:42[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:242[36:36];Sink: JSON.st ... ayload);onesait-platform-insert.js:75[19:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:242[36:36];Sink: JSON.st ... ayload);onesait-platform-insert.js:99[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:242[36:36];Sink: JSON.st ... ayload);onesait-platform-insert.js:255[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:242[36:36];Sink: insertBody;onesait-platform-insert.js:260[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-insert.js:242[36:36];Sink: insertBody;onesait-platform-insert.js:291[22:31]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","242","36","242","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-insert.js:262[42:44];Sink: ""Error:""+err;onesait-platform-insert.js:263[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-insert.js:262[42:44];Sink: ""Error:""+err;onesait-platform-insert.js:264[23:34]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","262","42","262","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-insert.js:271[38:40];Sink: ""Error:""+err;onesait-platform-insert.js:273[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-insert.js:271[38:40];Sink: ""Error:""+err;onesait-platform-insert.js:274[21:32]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","271","38","271","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-insert.js:293[37:39];Sink: err;onesait-platform-insert.js:294[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-insert.js:293[37:39];Sink: ""Error:""+err;onesait-platform-insert.js:295[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-insert.js:293[37:39];Sink: ""Error:""+err;onesait-platform-insert.js:296[18:29]::FLOW_DESCR_END","/onesait-platform-insert/onesait-platform-insert.js","293","37","293","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onesait-platform-leave.js:15[29:31];Sink: msg;onesait-platform-leave.js:36[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-leave.js:15[29:31];Sink: msg;onesait-platform-leave.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-leave.js:15[29:31];Sink: msg;onesait-platform-leave.js:116[20:22]::FLOW_DESCR_END","/onesait-platform-leave/onesait-platform-leave.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-leave.js:124[37:39];Sink: ""Error:""+err;onesait-platform-leave.js:126[19:30]::FLOW_DESCR_END","/onesait-platform-leave/onesait-platform-leave.js","124","37","124","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:50[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:60[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:82[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:105[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:115[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:125[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:254[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-query.js:21[29:31];Sink: msg;onesait-platform-query.js:279[19:21]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-query.js:214[33:33];Sink: ""Using  ... sionKey;onesait-platform-query.js:42[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:214[33:33];Sink: ""Using  ... sionKey;onesait-platform-query.js:73[16:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:214[33:33];Sink: ""Using  ... sionKey;onesait-platform-query.js:97[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:214[33:33];Sink: ""Using  ... sionKey;onesait-platform-query.js:221[19:58]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","214","33","214","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-query.js:243[35:35];Sink: JSON.st ... ayload);onesait-platform-query.js:51[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:243[35:35];Sink: JSON.st ... ayload);onesait-platform-query.js:83[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:243[35:35];Sink: JSON.st ... ayload);onesait-platform-query.js:106[23:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:243[35:35];Sink: """"+result;onesait-platform-query.js:248[22:30]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","243","35","243","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-query.js:259[35:37];Sink: ""Error:""+err;onesait-platform-query.js:260[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-query.js:259[35:37];Sink: ""Error:""+err;onesait-platform-query.js:261[22:33]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","259","35","259","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-query.js:268[37:39];Sink: err;onesait-platform-query.js:269[63:65]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","268","37","268","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-query.js:272[32:32];Sink: JSON.st ... ayload);onesait-platform-query.js:51[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:272[32:32];Sink: JSON.st ... ayload);onesait-platform-query.js:83[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:272[32:32];Sink: JSON.st ... ayload);onesait-platform-query.js:106[23:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-query.js:272[32:32];Sink: """"+result;onesait-platform-query.js:276[18:26]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","272","32","272","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-query.js:284[31:33];Sink: ""Error:""+err;onesait-platform-query.js:285[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-query.js:284[31:33];Sink: ""Error:""+err;onesait-platform-query.js:286[18:29]::FLOW_DESCR_END","/onesait-platform-query/onesait-platform-query.js","284","31","284","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:52[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:59[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:68[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:88[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:95[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:117[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:123[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:132[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-subscribe.js:23[30:32];Sink: msg;onesait-platform-subscribe.js:141[20:22]::FLOW_DESCR_END","/onesait-platform-subscribe/onesait-platform-subscribe.js","23","30","23","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:75[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:84[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:113[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:141[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:150[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:159[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:327[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: JSON.st ... ayload);onesait-platform-update.js:328[23:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: updateBody;onesait-platform-update.js:333[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: msg;onesait-platform-update.js:357[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;onesait-platform-update.js:21[29:31];Sink: updateBody;onesait-platform-update.js:362[22:31]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-update.js:243[31:31];Sink: JSON.st ... ayload);onesait-platform-update.js:76[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:243[31:31];Sink: JSON.st ... ayload);onesait-platform-update.js:114[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:243[31:31];Sink: JSON.st ... ayload);onesait-platform-update.js:142[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:243[31:31];Sink: JSON.st ... ayload);onesait-platform-update.js:328[23:49]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","243","31","243","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-update.js:271[34:34];Sink: ""Using  ... sionKey;onesait-platform-update.js:61[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:271[34:34];Sink: ""Using  ... sionKey;onesait-platform-update.js:96[16:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:271[34:34];Sink: ""Using  ... sionKey;onesait-platform-update.js:126[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:271[34:34];Sink: ""Using  ... sionKey;onesait-platform-update.js:277[20:56]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","271","34","271","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;onesait-platform-update.js:314[36:36];Sink: JSON.st ... ayload);onesait-platform-update.js:76[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:314[36:36];Sink: JSON.st ... ayload);onesait-platform-update.js:114[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:314[36:36];Sink: JSON.st ... ayload);onesait-platform-update.js:142[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;onesait-platform-update.js:314[36:36];Sink: JSON.st ... ayload);onesait-platform-update.js:328[23:49]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","314","36","314","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-update.js:335[42:44];Sink: err;onesait-platform-update.js:336[66:68]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","335","42","335","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-update.js:342[38:40];Sink: err;onesait-platform-update.js:343[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-update.js:342[38:40];Sink: ""Error:""+err;onesait-platform-update.js:344[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;onesait-platform-update.js:342[38:40];Sink: ""Error:""+err;onesait-platform-update.js:345[21:32]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","342","38","342","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;onesait-platform-update.js:364[37:39];Sink: err;onesait-platform-update.js:365[61:63]::FLOW_DESCR_END","/onesait-platform-update/onesait-platform-update.js","364","37","364","39"

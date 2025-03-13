@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-set.js:13[30:32];Sink: msg;hue-set.js:25[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-set.js:13[30:32];Sink: msg;hue-set.js:33[23:25]::FLOW_DESCR_END","/hue-set.js","13","30","13","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-state.js:13[30:32];Sink: msg;hue-state.js:17[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-state.js:13[30:32];Sink: msg;hue-state.js:25[25:27]::FLOW_DESCR_END","/hue-state.js","13","30","13","32"

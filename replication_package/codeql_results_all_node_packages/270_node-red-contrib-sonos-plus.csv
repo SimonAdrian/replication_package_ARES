@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Discovery-base-hk.js:131[32:34];Sink: err;Discovery-base-hk.js:133[54:56]::FLOW_DESCR_END","/src/Discovery-base-hk.js","131","32","131","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.so ... ().port;Discovery-base-hk.js:140[43:68];Sink: `Start  ... .port}`;Discovery-base-hk.js:140[15:70]::FLOW_DESCR_END","/src/Discovery-base-hk.js","140","43","140","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Discovery-base-hk.js:142[34:36];Sink: `Receiv ... ${msg}`;Discovery-base-hk.js:143[15:43]::FLOW_DESCR_END","/src/Discovery-base-hk.js","142","34","142","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;Discovery-base-hk.js:142[39:43];Sink: rinfo.address;Discovery-base-hk.js:146[58:70]::FLOW_DESCR_END","/src/Discovery-base-hk.js","142","39","142","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.so ... ().port;Discovery-base-hk.js:151[32:57];Sink: 'random ... ().port;Discovery-base-hk.js:151[15:57]::FLOW_DESCR_END","/src/Discovery-base-hk.js","151","32","151","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: playerUrlObject.host;Extensions.js:197[60:79];Sink: playerU ... error));Extensions.js:197[60:66]::FLOW_DESCR_END","/src/Extensions.js","197","60","197","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Extensions.js:1009[15:19];Sink: JSON.st ... error));Extensions.js:1039[54:109]::FLOW_DESCR_END","/src/Extensions.js","1009","15","1009","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonos-manage-mysonos.js:122[27:29];Sink: msg;sonos-manage-mysonos.js:128[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-manage-mysonos.js:122[27:29];Sink: msg.nrcspCmd;sonos-manage-mysonos.js:131[31:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-manage-mysonos.js:122[27:29];Sink: command;sonos-manage-mysonos.js:214[70:76]::FLOW_DESCR_END","/src/sonos-manage-mysonos.js","122","27","122","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonos-universal.js:230[27:29];Sink: msg;sonos-universal.js:236[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-universal.js:230[27:29];Sink: msg.nrcspCmd;sonos-universal.js:239[31:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-universal.js:230[27:29];Sink: command;sonos-universal.js:323[7:13]::FLOW_DESCR_END","/src/sonos-universal.js","230","27","230","29"

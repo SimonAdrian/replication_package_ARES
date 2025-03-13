@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-azure-appinsight.js:82[27:30];Sink: data;node-azure-appinsight.js:66[15:18]::FLOW_DESCR_END","/node-azure-appinsight.js","82","27","82","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-log-file.js:15[27:30];Sink: data;node-log-file.js:54[15:18]::FLOW_DESCR_END","/node-log-file.js","15","27","15","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-log-sqlite.js:17[27:30];Sink: data;node-log-sqlite.js:65[19:22]::FLOW_DESCR_END","/node-log-sqlite.js","17","27","17","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-log-xiti.js:13[27:30];Sink: data;node-log-xiti.js:33[15:18]::FLOW_DESCR_END","/node-log-xiti.js","13","27","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-logstash.js:14[27:30];Sink: data;node-logstash.js:36[15:18]::FLOW_DESCR_END","/node-logstash.js","14","27","14","30"

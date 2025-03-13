@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-play-sound.js:26[29:31];Sink: ""Event  ... payload;node-red-contrib-play-sound.js:27[13:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-play-sound.js:26[29:31];Sink: msg;node-red-contrib-play-sound.js:41[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-play-sound.js:26[29:31];Sink: ""Play: "" + audioURI;node-red-contrib-play-sound.js:56[14:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-play-sound.js:26[29:31];Sink: audioURI;node-red-contrib-play-sound.js:58[36:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-play-sound.js:26[29:31];Sink: opts;node-red-contrib-play-sound.js:58[46:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-play-sound.js:26[29:31];Sink: msg;node-red-contrib-play-sound.js:74[16:18]::FLOW_DESCR_END","/node-red-contrib-play-sound.js","26","29","26","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-red-contrib-play-sound.js:61[34:38];Sink: ""Event  ... + error;node-red-contrib-play-sound.js:62[15:36]::FLOW_DESCR_END","/node-red-contrib-play-sound.js","61","34","61","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;node-red-contrib-play-sound.js:65[33:36];Sink: ""Event  ...  signal;node-red-contrib-play-sound.js:66[15:50]::FLOW_DESCR_END","/node-red-contrib-play-sound.js","65","33","65","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;node-red-contrib-play-sound.js:65[39:44];Sink: ""Event  ...  signal;node-red-contrib-play-sound.js:66[15:50]::FLOW_DESCR_END","/node-red-contrib-play-sound.js","65","39","65","44"

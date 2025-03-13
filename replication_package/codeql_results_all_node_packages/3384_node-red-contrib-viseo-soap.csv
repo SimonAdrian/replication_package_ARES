@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-soap-request.js:19[27:30];Sink: [data, undefined];node-soap-request.js:54[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-soap-request.js:19[27:30];Sink: [undefined, data];node-soap-request.js:67[32:48]::FLOW_DESCR_END","/node-soap-request.js","19","27","19","30"

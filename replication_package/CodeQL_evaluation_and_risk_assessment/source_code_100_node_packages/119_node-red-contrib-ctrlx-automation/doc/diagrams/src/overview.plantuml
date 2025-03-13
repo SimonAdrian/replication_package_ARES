@@ -1,0 +1,95 @@
+@startuml Overview
+skinparam componentStyle uml2
+
+package ctrlx {
+
+  class CtrlxCore
+  {
+    -String token
+    +CtrlxCore(hostname, username, password)
+    +logIn()
+    +logOut()
+    +datalayerRead(path)
+    +datalayerReadMetadata(path)
+    +datalayerWrite(path, data)
+    +datalayerCreate(path, data)
+    +datalayerDelete(path)
+    +datalayerBrowse(path)
+    +datalayerSubscribe(paths)
+  }
+
+  class CtrlxDatalayerSubscription
+  {
+    +CtrlxcoreSubscription(hostname, authorization, paths)
+    +open(callback)
+    +close()
+  }
+
+}
+
+package node-red-contrib-ctrlx-automation {
+
+  class CtrlxConfig << Node-RED config node >>
+  {
+    +String hostname
+    +String username
+    +String password
+    +bool debug
+    +String name
+  }
+
+  class CtrlxConfigSubscription << Node-RED config node >>
+  {
+    +CtrlxConfig device
+    +String name
+    +number publishIntervalMs
+  }
+
+  enum Method {
+    READ
+    WRITE
+    CREATE
+    DELETE
+    METADATA
+    BROWSE
+  }
+
+  class CtrlxDatalayerRequest << Node-RED node >>
+  {
+    +CtrlxConfig device
+    +Method method
+    +String path
+    +String name
+    +onInput()
+    +onClose()
+  }
+
+  class CtrlxDatalayerSubscribe << Node-RED node >>
+  {
+    +CtrlxConfigSubscription subscription
+    +String path
+    +String name
+    +onClose()
+  }
+}
+
+
+package "ctrlX CORE" <<Node>> {
+  class HttpsServer
+}
+
+
+CtrlxConfig "1" *-- "1" CtrlxCore : use >
+CtrlxDatalayerRequest "0..*" --> "1" CtrlxConfig : register, unregister, use >
+CtrlxConfig "1" --> "0..*" CtrlxDatalayerRequest  : notify status >
+CtrlxCore "0..*" --> "1" HttpsServer
+
+CtrlxDatalayerSubscription "0..*" --> "1" HttpsServer : event stream <
+CtrlxConfig "1" --> "0..*" CtrlxConfigSubscription  : notify status >
+CtrlxConfigSubscription "0..*" --> "1" CtrlxConfig : register, unregister, use >
+CtrlxCore --> CtrlxDatalayerSubscription : create >
+CtrlxDatalayerSubscribe "0..*" --> CtrlxConfigSubscription : register, unregister >
+CtrlxConfigSubscription "0..*" --> CtrlxDatalayerSubscribe : update >
+CtrlxConfigSubscription "1" *-- "1" CtrlxDatalayerSubscription : use >
+
+@enduml

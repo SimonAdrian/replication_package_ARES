@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();SolixAPI.js:35[30:40];Sink: y;SolixAPI.js:29[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();SolixAPI.js:35[30:40];Sink: y;SolixAPI.js:29[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();SolixAPI.js:35[30:40];Sink: op[1];SolixAPI.js:29[147:151]::FLOW_DESCR_END","/SolixAPI.js","35","30","35","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceP ... am_data;SolixE1600.js:142[16:43];Sink: JSON.st ... hedule);cli.js:42[47:70]::FLOW_DESCR_END","/SolixE1600.js","142","16","142","43"

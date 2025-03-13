@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iconvfile-in.js:31[36:38];Sink: msg;iconvfile-in.js:43[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-in.js:31[36:38];Sink: msg;iconvfile-in.js:111[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-in.js:31[36:38];Sink: msg;iconvfile-in.js:126[39:41]::FLOW_DESCR_END","/iconvfile-in.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iconvfile-in.js:110[44:46];Sink: err;iconvfile-in.js:111[36:38]::FLOW_DESCR_END","/iconvfile-in.js","110","44","110","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:42[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:55[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:66[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: filename;iconvfile-out.js:89[56:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:98[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:103[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: filename;iconvfile-out.js:135[61:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:149[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: data;iconvfile-out.js:155[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:156[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iconvfile-out.js:186[36:38];Sink: msg;iconvfile-out.js:162[39:41]::FLOW_DESCR_END","/iconvfile-out.js","186","36","186","38"

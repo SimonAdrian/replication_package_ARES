@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;api-request.js:64[29:31];Sink: msg;api-request.js:101[12:14]::FLOW_DESCR_END","/nodes/api-request/api-request.js","64","29","64","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;call-processor.js:9[29:31];Sink: payload;call.js:52[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call-processor.js:9[29:31];Sink: newMessage;call-processor.js:35[12:21]::FLOW_DESCR_END","/nodes/call-processor/call-processor.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cdr-processor.js:7[23:25];Sink: msg;cdr-processor.js:15[12:14]::FLOW_DESCR_END","/nodes/cdr-processor/cdr-processor.js","7","23","7","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-provider.js:31[23:25];Sink: addressBook;data-provider.js:35[39:49]::FLOW_DESCR_END","/nodes/data-provider/data-provider.js","31","23","31","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dtmf-handler.js:33[29:31];Sink: [null, null, msg];dtmf-handler.js:45[21:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dtmf-handler.js:33[29:31];Sink: [msg, null, null];dtmf-handler.js:51[14:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dtmf-handler.js:33[29:31];Sink: [null, msg, null];dtmf-handler.js:53[14:30]::FLOW_DESCR_END","/nodes/dtmf-handler/dtmf-handler.js","33","29","33","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message-processor.js:38[29:31];Sink: payload;message-processor.js:51[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-processor.js:38[29:31];Sink: payload;message-processor.js:85[19:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-processor.js:38[29:31];Sink: msg;message-processor.js:169[14:16]::FLOW_DESCR_END","/nodes/message-processor/message-processor.js","38","29","38","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;recording-processor.js:7[23:25];Sink: msg;recording-processor.js:19[12:14]::FLOW_DESCR_END","/nodes/recording-processor/recording-processor.js","7","23","7","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rtc-processor.js:9[29:31];Sink: payload;call.js:52[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rtc-processor.js:9[29:31];Sink: newMessage;rtc-processor.js:35[12:21]::FLOW_DESCR_END","/nodes/rtc-processor/rtc-processor.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-data.js:37[29:31];Sink: payload;set-data.js:53[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-data.js:37[29:31];Sink: payload;set-data.js:78[19:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-data.js:37[29:31];Sink: msg;set-data.js:108[14:16]::FLOW_DESCR_END","/nodes/set-data/set-data.js","37","29","37","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-xml.js:47[29:31];Sink: payload;set-xml.js:62[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-xml.js:47[29:31];Sink: payload;set-xml.js:104[19:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-xml.js:47[29:31];Sink: msg;set-xml.js:136[14:16]::FLOW_DESCR_END","/nodes/set-xml/set-xml.js","47","29","47","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transcription-processor.js:7[23:25];Sink: msg;transcription-processor.js:15[12:14]::FLOW_DESCR_END","/nodes/transcription-processor/transcription-processor.js","7","23","7","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xml-response.js:27[23:25];Sink: xmlOutput;xml-response.js:75[17:25]::FLOW_DESCR_END","/nodes/xml-response/xml-response.js","27","23","27","25"

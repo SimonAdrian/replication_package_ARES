@@ -1,0 +1,316 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ueFile);aws-iot.js:106[16:41];Sink: arrayToString(tmp);aws-iot.js:328[34:51]::FLOW_DESCR_END","/nodes/aws-iot/aws-iot.js","106","16","106","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-iot.js:444[29:31];Sink: msg;aws-iot.js:461[31:33]::FLOW_DESCR_END","/nodes/aws-iot/aws-iot.js","444","29","444","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;index.js:151[19:30];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:151[19:30];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:151[19:30];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:151[19:30];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","151","19","151","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;index.js:157[18:29];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:157[18:29];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:157[18:29];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:157[18:29];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","157","18","157","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;index.js:157[39:50];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;index.js:157[39:50];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;index.js:157[39:50];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.port;index.js:157[39:50];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","157","39","157","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;index.js:165[19:30];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","165","19","165","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;index.js:171[18:29];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","171","18","171","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;index.js:171[39:50];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","171","39","171","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');index.js:489[43:76];Sink: array;index.js:179[50:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');index.js:489[43:76];Sink: array[idx];index.js:180[37:46]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","489","43","489","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;index.js:513[36:47];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:513[36:47];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:513[36:47];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:513[36:47];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;index.js:513[36:47];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","513","36","513","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connack;index.js:753[34:40];Sink: connack;index.js:771[28:34]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","753","34","753","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: err;index.js:775[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;device-example.js:97[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;echo-example.js:62[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;jobs-agent.js:708[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;jobs-example.js:66[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;temperature-control.js:431[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;thing-example.js:222[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;thing-passthrough-example.js:226[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;index.js:311[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:773[32:34];Sink: error;index.js:335[26:30]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","773","32","773","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;index.js:811[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;device-example.js:97[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;echo-example.js:62[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;jobs-agent.js:708[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;jobs-example.js:66[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;temperature-control.js:431[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;thing-example.js:222[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;thing-passthrough-example.js:226[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;index.js:311[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:810[32:36];Sink: error;index.js:335[26:30]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","810","32","810","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;index.js:813[37:42];Sink: packet;index.js:814[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;index.js:813[37:42];Sink: packet;index.js:338[31:36]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","813","37","813","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;index.js:816[40:45];Sink: packet;index.js:817[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;index.js:816[40:45];Sink: packet;index.js:341[34:39]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","816","40","816","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: offline ... e.topic;index.js:732[31:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;index.js:820[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;index.js:843[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;device-example.js:101[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;jobs-agent.js:712[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;jobs-example.js:70[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;temperature-control.js:436[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: 'got \' ... ingName;thing-example.js:150[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;thing-example.js:226[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: 'got \' ... ingName;thing-passthrough-example.js:144[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: 'receiv ... tring();thing-passthrough-example.js:192[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;thing-passthrough-example.js:230[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: buildJo ... pdate');index.js:108[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;index.js:157[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: devFunc ...  topics;index.js:151[22:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: operation;index.js:281[56:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: operationStatus;index.js:319[38:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:819[34:38];Sink: topic;index.js:375[34:38]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","819","34","819","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: offline ... e.topic;index.js:732[31:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: offline ... message;index.js:733[19:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: message;index.js:820[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: topic;index.js:843[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: message;index.js:843[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload.toString();device-example.js:101[40:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: 'receiv ... Object);echo-example.js:67[22:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload.toString();jobs-agent.js:712[55:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload.toString();jobs-example.js:70[40:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload.toString();temperature-control.js:436[36:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: 'delta  ... Object);thing-example.js:173[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload.toString();thing-example.js:226[37:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: JSON.st ...      });thing-passthrough-example.js:170[13:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: 'receiv ... tring();thing-passthrough-example.js:192[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload.toString();thing-passthrough-example.js:230[37:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: buildJo ... pdate');index.js:108[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload;index.js:157[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: 'failed ... ' + err;index.js:178[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: 'failed ... ' + err;index.js:210[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: 'out-of ... + '\')';index.js:251[32:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: stateObject;index.js:263[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: stateObject;index.js:281[67:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: stateObject;index.js:319[68:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: payload;index.js:375[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:819[41:47];Sink: message;index.js:713[32:38]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","819","41","819","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;index.js:819[50:55];Sink: packet;index.js:820[44:49]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/index.js","819","50","819","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tls.js:28[29:31];Sink: err;tls.js:29[32:34]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/device/lib/tls.js","28","29","28","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:65[9:29];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:65[9:29];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:65[9:29];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:65[9:29];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:65[9:29];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/lifecycle/index.js","65","9","65","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWS.con ... ntityId;index.js:101[44:76];Sink: 'retrie ... ntityId;index.js:101[19:76]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/lifecycle/index.js","101","44","101","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:150[51:78];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:150[51:78];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:150[51:78];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:150[51:78];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/lifecycle/index.js","150","51","150","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:152[16:44];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:152[16:44];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:152[16:44];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/lifecycle/index.js","152","16","152","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:64[9:29];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:64[9:29];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:64[9:29];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:64[9:29];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:64[9:29];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-explorer/index.js","64","9","64","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWS.con ... ntityId;index.js:100[44:76];Sink: 'retrie ... ntityId;index.js:100[19:76]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-explorer/index.js","100","44","100","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:110[51:78];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:110[51:78];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:110[51:78];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:110[51:78];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-explorer/index.js","110","51","110","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:112[16:44];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:112[16:44];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:112[16:44];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-explorer/index.js","112","16","112","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWSConf ... on.host;entry.js:41[9:29];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;entry.js:41[9:29];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;entry.js:41[9:29];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;entry.js:41[9:29];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;entry.js:41[9:29];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-webpack/entry.js","41","9","41","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWS.con ... ntityId;entry.js:77[44:76];Sink: 'retrie ... ntityId;entry.js:77[19:76]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-webpack/entry.js","77","44","77","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... ssKeyId;entry.js:87[51:78];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;entry.js:87[51:78];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;entry.js:87[51:78];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;entry.js:87[51:78];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-webpack/entry.js","87","51","87","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... onToken;entry.js:89[16:44];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;entry.js:89[16:44];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;entry.js:89[16:44];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/mqtt-webpack/entry.js","89","16","89","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:56[9:29];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:56[9:29];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:56[9:29];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:56[9:29];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: AWSConf ... on.host;index.js:56[9:29];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/temperature-monitor/index.js","56","9","56","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: name;index.js:102[31:34];Sink: name;index.js:112[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: name;index.js:102[31:34];Sink: thingName;index.js:528[78:86]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/temperature-monitor/index.js","102","31","102","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: AWS.con ... ntityId;index.js:138[44:76];Sink: 'retrie ... ntityId;index.js:138[19:76]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/temperature-monitor/index.js","138","44","138","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:148[48:75];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:148[48:75];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:148[48:75];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... ssKeyId;index.js:148[48:75];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/temperature-monitor/index.js","148","48","148","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:150[16:44];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:150[16:44];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.Cr ... onToken;index.js:150[16:44];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/browser/temperature-monitor/index.js","150","16","150","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;device-example.js:96[29:33];Sink: error;device-example.js:97[31:35]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/device-example.js","96","29","96","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;device-example.js:100[31:35];Sink: topic;device-example.js:101[33:37]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/device-example.js","100","31","100","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;device-example.js:100[38:44];Sink: payload.toString();device-example.js:101[40:57]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/device-example.js","100","38","100","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;echo-example.js:61[29:33];Sink: error;echo-example.js:62[31:35]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/echo-example.js","61","29","61","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;echo-example.js:66[29:37];Sink: 'receiv ... Object);echo-example.js:67[22:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;echo-example.js:66[29:37];Sink: thingName;index.js:528[78:86]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/echo-example.js","66","29","66","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateObject;echo-example.js:66[40:50];Sink: 'receiv ... Object);echo-example.js:67[22:39]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/echo-example.js","66","40","66","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;echo-example.js:77[31:39];Sink: 'timeou ... ntToken;echo-example.js:78[23:78]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/echo-example.js","77","31","77","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: clientToken;echo-example.js:77[42:52];Sink: 'timeou ... ntToken;echo-example.js:78[23:78]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/echo-example.js","77","42","77","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;jobs-agent.js:192[32:35];Sink: data;jobs-agent.js:193[20:23]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-agent.js","192","32","192","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;jobs-agent.js:707[29:33];Sink: error;jobs-agent.js:708[48:52]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-agent.js","707","29","707","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;jobs-agent.js:711[31:35];Sink: topic;jobs-agent.js:712[48:52]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-agent.js","711","31","711","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;jobs-agent.js:711[38:44];Sink: payload.toString();jobs-agent.js:712[55:72]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-agent.js","711","38","711","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');jobs-agent.js:753[38:91];Sink: JSON.st ... ckages);jobs-agent.js:357[52:84]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-agent.js","753","38","753","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;jobs-example.js:65[29:33];Sink: error;jobs-example.js:66[31:35]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-example.js","65","29","65","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;jobs-example.js:69[31:35];Sink: topic;jobs-example.js:70[33:37]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-example.js","69","31","69","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;jobs-example.js:69[38:44];Sink: payload.toString();jobs-example.js:70[40:57]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/jobs-example.js","69","38","69","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: topics;index.js:595[42:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: offline ... e.topic;index.js:732[31:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: offline ... message;index.js:733[19:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: topic;index.js:843[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: message;index.js:843[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'startJ ... ingName;jobs-agent.js:745[22:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'startJ ... ingName;jobs-example.js:115[25:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: '\n' +  ... age)\n';cmdline.js:205[24:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: '\n' +  ... age)\n';cmdline.js:209[24:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: '\n' +  ... age)\n';cmdline.js:213[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: buildJo ...  'get');index.js:295[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: devFunc ...  topics;index.js:151[22:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: JSON.st ... Object);index.js:490[28:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'publis ...  + '\'';index.js:495[40:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: JSON.st ... Object);index.js:512[19:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');cmdline.js:149[31:70];Sink: 'publis ...  + '\'';index.js:516[31:51]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/lib/cmdline.js","149","31","149","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;cmdline.js:180[22:32];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cmdline.js:180[22:32];Sink: 'string ...  + '\n';index.js:110[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cmdline.js:180[22:32];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cmdline.js:180[22:32];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cmdline.js:180[22:32];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/lib/cmdline.js","180","22","180","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;cmdline.js:183[22:32];Sink: 'canoni ...  + '\n';index.js:93[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;cmdline.js:183[22:32];Sink: 'url: ' + url + '\n';index.js:136[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;cmdline.js:183[22:32];Sink: 'using  ... '\'...';index.js:627[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;cmdline.js:183[22:32];Sink: 'using  ... '\'...';index.js:634[25:98]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/lib/cmdline.js","183","22","183","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;download-file.js:56[34:37];Sink: data;download-file.js:57[24:27]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/lib/download-file.js","56","34","56","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;temperature-control.js:430[29:33];Sink: error;temperature-control.js:431[27:31]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/temperature-control/temperature-control.js","430","29","430","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;temperature-control.js:435[31:35];Sink: topic;temperature-control.js:436[29:33]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/temperature-control/temperature-control.js","435","31","435","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;temperature-control.js:435[38:44];Sink: payload.toString();temperature-control.js:436[36:53]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/temperature-control/temperature-control.js","435","38","435","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;temperature-control.js:440[30:38];Sink: thingName;temperature-control.js:450[49:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;temperature-control.js:440[30:38];Sink: thingName;index.js:528[78:86]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/temperature-control/temperature-control.js","440","30","440","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;thing-example.js:221[38:42];Sink: error;thing-example.js:222[28:32]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","221","38","221","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;thing-example.js:225[40:44];Sink: topic;thing-example.js:226[30:34]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","225","40","225","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;thing-example.js:225[47:53];Sink: payload.toString();thing-example.js:226[37:54]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","225","47","225","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;thing-example.js:229[39:47];Sink: 'got \' ... ingName;thing-example.js:150[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;thing-example.js:229[39:47];Sink: '(statu ... ingName;thing-example.js:152[22:70]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","229","39","229","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stat;thing-example.js:229[50:53];Sink: 'got \' ... ingName;thing-example.js:150[22:67]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","229","50","229","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;thing-example.js:233[38:46];Sink: 'unexpe ... ingName;thing-example.js:171[22:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;thing-example.js:233[38:46];Sink: 'delta  ... Object);thing-example.js:173[22:75]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","233","38","233","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateObject;thing-example.js:233[49:59];Sink: 'delta  ... Object);thing-example.js:173[22:75]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","233","49","233","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;thing-example.js:237[40:48];Sink: 'timeou ... ingName;thing-example.js:181[22:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;thing-example.js:237[40:48];Sink: '(timeo ... ingName;thing-example.js:183[22:71]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-example.js","237","40","237","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;thing-passthrough-example.js:225[38:42];Sink: error;thing-passthrough-example.js:226[28:32]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","225","38","225","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;thing-passthrough-example.js:229[40:44];Sink: topic;thing-passthrough-example.js:230[30:34]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","229","40","229","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;thing-passthrough-example.js:229[47:53];Sink: payload.toString();thing-passthrough-example.js:230[37:54]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","229","47","229","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;thing-passthrough-example.js:233[39:47];Sink: 'got \' ... ingName;thing-passthrough-example.js:144[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;thing-passthrough-example.js:233[39:47];Sink: '(statu ... ingName;thing-passthrough-example.js:146[22:70]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","233","39","233","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stat;thing-passthrough-example.js:233[50:53];Sink: 'got \' ... ingName;thing-passthrough-example.js:144[22:67]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","233","50","233","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;thing-passthrough-example.js:237[38:46];Sink: 'unexpe ... ingName;thing-passthrough-example.js:165[22:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;thing-passthrough-example.js:237[38:46];Sink: 'receiv ... pic...';thing-passthrough-example.js:167[22:48]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","237","38","237","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateObject;thing-passthrough-example.js:237[49:59];Sink: offline ... message;index.js:733[19:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObject;thing-passthrough-example.js:237[49:59];Sink: message;index.js:843[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObject;thing-passthrough-example.js:237[49:59];Sink: JSON.st ...      });thing-passthrough-example.js:170[13:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateObject;thing-passthrough-example.js:237[49:59];Sink: message;index.js:713[32:38]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","237","49","237","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;thing-passthrough-example.js:241[40:48];Sink: 'timeou ... ingName;thing-passthrough-example.js:181[22:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingName;thing-passthrough-example.js:241[40:48];Sink: '(timeo ... ingName;thing-passthrough-example.js:183[22:71]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","241","40","241","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;thing-passthrough-example.js:245[40:44];Sink: 'receiv ... tring();thing-passthrough-example.js:192[19:72]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","245","40","245","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;thing-passthrough-example.js:245[47:53];Sink: 'receiv ... tring();thing-passthrough-example.js:192[19:72]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/examples/thing-passthrough-example.js","245","47","245","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;index.js:152[36:40];Sink: offline ... e.topic;index.js:732[31:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:152[36:40];Sink: topic;index.js:843[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:152[36:40];Sink: topic;jobs-agent.js:712[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:152[36:40];Sink: topic;jobs-example.js:70[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:152[36:40];Sink: buildJo ... pdate');index.js:108[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:152[36:40];Sink: topic;index.js:157[31:35]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/jobs/index.js","152","36","152","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: offline ... e.topic;index.js:732[31:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: topic;index.js:843[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: payload.toString();jobs-agent.js:712[55:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: payload.toString();jobs-example.js:70[40:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: buildJo ... pdate');index.js:108[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: payload;index.js:157[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:152[43:49];Sink: 'failed ... ' + err;index.js:178[27:86]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/jobs/index.js","152","43","152","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;index.js:226[129:131];Sink: err;jobs-example.js:95[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;index.js:226[129:131];Sink: err;jobs-example.js:109[27:29]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/jobs/index.js","226","129","226","131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:310[32:36];Sink: error;jobs-agent.js:708[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:310[32:36];Sink: error;jobs-example.js:66[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:310[32:36];Sink: error;index.js:311[26:30]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/jobs/index.js","310","32","310","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:334[32:36];Sink: error;echo-example.js:62[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:334[32:36];Sink: error;temperature-control.js:431[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:334[32:36];Sink: error;thing-example.js:222[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:334[32:36];Sink: error;thing-passthrough-example.js:226[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:334[32:36];Sink: error;index.js:335[26:30]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/thing/index.js","334","32","334","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;index.js:337[37:42];Sink: packet;index.js:338[31:36]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/thing/index.js","337","37","337","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;index.js:340[40:45];Sink: packet;index.js:341[34:39]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/thing/index.js","340","40","340","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: topic;temperature-control.js:436[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: 'got \' ... ingName;thing-example.js:150[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: topic;thing-example.js:226[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: 'got \' ... ingName;thing-passthrough-example.js:144[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: 'receiv ... tring();thing-passthrough-example.js:192[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: topic;thing-passthrough-example.js:230[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: devFunc ...  topics;index.js:151[22:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: operation;index.js:281[56:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: operationStatus;index.js:319[38:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:343[34:38];Sink: topic;index.js:375[34:38]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/thing/index.js","343","34","343","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: offline ... message;index.js:733[19:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: message;index.js:843[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: 'receiv ... Object);echo-example.js:67[22:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: payload.toString();temperature-control.js:436[36:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: 'delta  ... Object);thing-example.js:173[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: payload.toString();thing-example.js:226[37:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: JSON.st ...      });thing-passthrough-example.js:170[13:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: 'receiv ... tring();thing-passthrough-example.js:192[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: payload.toString();thing-passthrough-example.js:230[37:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: 'failed ... ' + err;index.js:210[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: 'out-of ... + '\')';index.js:251[32:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: stateObject;index.js:263[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: stateObject;index.js:281[67:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: stateObject;index.js:319[68:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: payload;index.js:375[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:343[41:47];Sink: message;index.js:713[32:38]::FLOW_DESCR_END","/nodes/aws-iot-device-sdk/thing/index.js","343","41","343","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calculator.js:30[30:32];Sink: msg;calculator.js:36[15:17]::FLOW_DESCR_END","/nodes/calculator/calculator.js","30","30","30","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google_spreadsheet.js:157[30:32];Sink: msg.payload;google_spreadsheet.js:158[14:24]::FLOW_DESCR_END","/nodes/google/google_spreadsheet.js","157","30","157","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;lazurite.js:154[35:38];Sink: msg;lazurite.js:157[16:18]::FLOW_DESCR_END","/nodes/lazurite/lazurite.js","154","35","154","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: lib.rea ... binary);lazurite.js:167[15:35];Sink: msg;lazurite.js:170[15:17]::FLOW_DESCR_END","/nodes/lazurite/lazurite.js","167","15","167","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: message;lazurite.js:37[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: dst_panid;lazurite.js:216[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: dst_addr;lazurite.js:216[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: msg.pay ... tring();lazurite.js:216[49:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: dst_panid;lazurite.js:219[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: dst_addr;lazurite.js:219[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: dst_panid;lazurite.js:221[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: dst_addr;lazurite.js:221[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: msg.payload;lazurite.js:221[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: msg;lazurite.js:225[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:201[29:31];Sink: msg;lazurite.js:234[14:16]::FLOW_DESCR_END","/nodes/lazurite/lazurite.js","201","29","201","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lazurite.js:271[29:31];Sink: message;lazurite.js:37[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:271[29:31];Sink: msg;lazurite.js:299[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lazurite.js:271[29:31];Sink: msg;lazurite.js:316[14:16]::FLOW_DESCR_END","/nodes/lazurite/lazurite.js","271","29","271","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;node-factory2.js:80[21:25];Sink: ""[awsio ... ""+chunk;node-factory2.js:81[19:54]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","80","21","80","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;node-factory2.js:84[22:22];Sink: msg;aws-iot.js:348[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;node-factory2.js:84[22:22];Sink: msg;aws-iot.js:363[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;node-factory2.js:84[22:22];Sink: ""[awsio ... message;node-factory2.js:85[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;node-factory2.js:84[22:22];Sink: JSON.st ... stData);node-factory2.js:89[15:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;node-factory2.js:84[22:22];Sink: msg;node-factory2.js:476[56:58]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","84","22","84","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].id;node-factory2.js:278[22:31];Sink: JSON.st ... stData);node-factory2.js:574[15:38]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","278","22","278","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].id;node-factory2.js:293[22:31];Sink: JSON.st ... stData);node-factory2.js:574[15:38]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","293","22","293","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].id;node-factory2.js:311[22:31];Sink: JSON.st ... stData);node-factory2.js:574[15:38]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","311","22","311","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;node-factory2.js:389[22:26];Sink: JSON.st ... stData);node-factory2.js:89[15:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;node-factory2.js:389[22:26];Sink: JSON.st ... stData);node-factory2.js:574[15:38]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","389","22","389","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;node-factory2.js:396[21:21];Sink: err;node-factory2.js:408[18:20]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","396","21","396","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-factory2.js:427[30:32];Sink: JSON.st ... stData);node-factory2.js:89[15:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-factory2.js:427[30:32];Sink: msg;node-factory2.js:472[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-factory2.js:427[30:32];Sink: msg;node-factory2.js:476[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-factory2.js:427[30:32];Sink: [,,rxdata];node-factory2.js:488[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-factory2.js:427[30:32];Sink: JSON.st ... stData);node-factory2.js:574[15:38]::FLOW_DESCR_END","/nodes/node-factory2/node-factory2.js","427","30","427","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpi-control.js:23[30:32];Sink: msg;rpi-control.js:27[16:18]::FLOW_DESCR_END","/nodes/rpi-control/rpi-control.js","23","30","23","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpi-control.js:43[30:32];Sink: msg;rpi-control.js:47[16:18]::FLOW_DESCR_END","/nodes/rpi-control/rpi-control.js","43","30","43","32"

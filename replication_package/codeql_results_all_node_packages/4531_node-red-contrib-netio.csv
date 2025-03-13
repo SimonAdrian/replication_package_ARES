@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netio.js:17[35:37];Sink: msg.payload;netio.js:18[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;netio.js:17[35:37];Sink: JSON.st ... ayload);netio.js:43[23:49]::FLOW_DESCR_END","/netio.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;netio.js:34[32:32];Sink: JSON.parse(d);netio.js:35[33:45]::FLOW_DESCR_END","/netio.js","34","32","34","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;netio.js:39[29:33];Sink: error;netio.js:40[31:35]::FLOW_DESCR_END","/netio.js","39","29","39","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;netio.js:62[32:32];Sink: msg.payload;netio.js:77[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;netio.js:62[32:32];Sink: msg;netio.js:109[31:33]::FLOW_DESCR_END","/netio.js","62","32","62","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;netio.js:113[29:33];Sink: error;netio.js:114[37:41]::FLOW_DESCR_END","/netio.js","113","29","113","33"

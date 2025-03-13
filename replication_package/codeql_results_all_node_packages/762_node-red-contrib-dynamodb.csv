@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dynamodb-stream.js:57[49:52];Sink: payload;dynamodb-stream.js:48[32:38]::FLOW_DESCR_END","/dynamodb-stream.js","57","49","57","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dynamodb-stream.js:61[49:52];Sink: payload;dynamodb-stream.js:48[32:38]::FLOW_DESCR_END","/dynamodb-stream.js","61","49","61","52"

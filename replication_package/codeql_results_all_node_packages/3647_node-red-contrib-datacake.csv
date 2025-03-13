@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;datacake-mqtt.js:31[64:78];Sink: ""Error  ... s.topic;datacake-mqtt.js:36[37:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;datacake-mqtt.js:31[64:78];Sink: ""Succes ... s.topic;datacake-mqtt.js:40[37:79]::FLOW_DESCR_END","/dist/datacake-mqtt.js","31","64","31","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;datacake-mqtt.js:109[41:43];Sink: msg.pay ... tring();datacake-mqtt.js:111[53:74]::FLOW_DESCR_END","/dist/datacake-mqtt.js","109","41","109","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;datacake-mqtt.js:110[70:84];Sink: topic;datacake-mqtt.js:111[46:50]::FLOW_DESCR_END","/dist/datacake-mqtt.js","110","70","110","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;datacake-mqtt.ts:35[50:64];Sink: `Error  ... topic}`;datacake-mqtt.ts:41[25:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;datacake-mqtt.ts:35[50:64];Sink: `Succes ... topic}`;datacake-mqtt.ts:44[25:66]::FLOW_DESCR_END","/src/datacake-mqtt.ts","35","50","35","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;datacake-mqtt.ts:125[25:27];Sink: msg.pay ... tring();datacake-mqtt.ts:127[45:66]::FLOW_DESCR_END","/src/datacake-mqtt.ts","125","25","125","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;datacake-mqtt.ts:126[57:71];Sink: topic;datacake-mqtt.ts:127[38:42]::FLOW_DESCR_END","/src/datacake-mqtt.ts","126","57","126","71"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thermostat.js:16[35:37];Sink: [msg, msg];thermostat.js:52[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thermostat.js:16[35:37];Sink: msg;thermostat.js:57[27:29]::FLOW_DESCR_END","/thermostat/thermostat.js","16","35","16","37"

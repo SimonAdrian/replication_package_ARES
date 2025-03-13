@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;device.js:19[27:29];Sink: ""Alibab ... "" + err;device.js:48[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;device.js:19[27:29];Sink: err;device.js:50[26:28]::FLOW_DESCR_END","/nodes/device.js","19","27","19","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service.js:43[34:36];Sink: ""Send r ... (reply);service.js:52[20:57]::FLOW_DESCR_END","/nodes/service.js","43","34","43","36"

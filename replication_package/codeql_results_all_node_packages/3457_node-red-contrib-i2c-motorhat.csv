@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;motorhat.js:11[35:37];Sink: msg;motorhat.js:18[37:39]::FLOW_DESCR_END","/i2c-motorhat/motorhat.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;motorhat.js:57[35:37];Sink: msg;motorhat.js:59[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motorhat.js:57[35:37];Sink: msg;motorhat.js:60[34:36]::FLOW_DESCR_END","/i2c-motorhat/motorhat.js","57","35","57","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;motorhat.js:119[35:37];Sink: msg;motorhat.js:121[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motorhat.js:119[35:37];Sink: msg;motorhat.js:122[34:36]::FLOW_DESCR_END","/i2c-motorhat/motorhat.js","119","35","119","37"

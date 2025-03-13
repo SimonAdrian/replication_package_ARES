@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:36[33:35];Sink: _prepar ... te,msg);get.js:38[58:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:36[33:35];Sink: msg;get.js:38[105:107]::FLOW_DESCR_END","/nodes/get.js","36","33","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get.js:40[35:41];Sink: text;get.js:18[26:29]::FLOW_DESCR_END","/nodes/get.js","40","35","40","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;local-out.js:27[27:31];Sink: text;local-out.js:23[26:29]::FLOW_DESCR_END","/nodes/local-out.js","27","27","27","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;local-out.js:130[34:37];Sink: text;local-out.js:23[26:29]::FLOW_DESCR_END","/nodes/local-out.js","130","34","130","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: `status ... ce.id}`;yandex-login.js:209[23:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: `messag ... ce.id}`;yandex-login.js:310[27:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: device;yandex-login.js:311[120:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: device;yandex-login.js:312[112:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: device;yandex-login.js:313[111:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: device;yandex-login.js:329[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;yandex-login.js:212[32:37];Sink: res[1];yandex-login.js:329[59:64]::FLOW_DESCR_END","/nodes/yandex-login.js","212","32","212","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.port;yandex-login.js:230[83:93];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","230","83","230","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.port;yandex-login.js:248[95:105];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","248","95","248","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.port;yandex-login.js:252[87:97];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","252","87","252","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.port;yandex-login.js:283[67:77];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","283","67","283","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;yandex-login.js:287[48:51];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","287","48","287","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;yandex-login.js:304[55:58];Sink: device.lastState;yandex-login.js:310[51:66]::FLOW_DESCR_END","/nodes/yandex-login.js","304","55","304","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;yandex-login.js:341[50:53];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","341","50","341","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;yandex-login.js:341[56:61];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","341","56","341","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;yandex-login.js:372[50:53];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END","/nodes/yandex-login.js","372","50","372","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: phrase;yandex-login.js:798[37:42];Sink: text;yandex-login.js:33[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: phrase;yandex-login.js:798[37:42];Sink: JSON.stringify(data);yandex-login.js:632[52:71]::FLOW_DESCR_END","/nodes/yandex-login.js","798","37","798","42"

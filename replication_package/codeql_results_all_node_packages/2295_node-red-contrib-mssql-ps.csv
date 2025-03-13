@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql-ps.js:35[31:33];Sink: ""Error  ... "" + err;mssql-ps.js:37[32:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mssql-ps.js:35[31:33];Sink: err;mssql-ps.js:42[41:43]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","35","31","35","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql-ps.js:50[43:45];Sink: ""Connec ... "" + err;mssql-ps.js:51[28:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mssql-ps.js:50[43:45];Sink: err;mssql-ps.js:54[33:35]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","50","43","50","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql-ps.js:65[33:35];Sink: ""Error  ... "" + err;mssql-ps.js:66[24:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mssql-ps.js:65[33:35];Sink: err;mssql-ps.js:73[29:31]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","65","33","65","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg.params;mssql-ps.js:84[29:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:140[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:146[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:164[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:172[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:193[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:213[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:217[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql-ps.js:78[34:36];Sink: msg;mssql-ps.js:221[60:62]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","78","34","78","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: row;mssql-ps.js:188[43:45];Sink: rows;mssql-ps.js:161[49:52]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","188","43","188","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql-ps.js:192[45:47];Sink: ""Reques ... "" + err;mssql-ps.js:193[40:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mssql-ps.js:192[45:47];Sink: err;mssql-ps.js:197[45:47]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","192","45","192","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;mssql-ps.js:202[44:49];Sink: result;mssql-ps.js:205[45:50]::FLOW_DESCR_END","/mssql-ps/mssql-ps.js","202","44","202","49"

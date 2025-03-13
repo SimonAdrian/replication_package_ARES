@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;dali-addressing-class.js:33[49:55];Sink: message;dali-addressing-class.js:42[45:51]::FLOW_DESCR_END","/dist/dali-addressing-class.js","33","49","33","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dali-addressing.js:87[70:72];Sink: msg;dali-addressing.js:88[27:29]::FLOW_DESCR_END","/dist/nodes/dali-addressing.js","87","70","87","72"

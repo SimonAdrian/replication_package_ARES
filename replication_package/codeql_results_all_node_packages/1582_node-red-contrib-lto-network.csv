@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-active-leases.js:11[36:38];Sink: msg;get-active-leases.js:20[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-active-leases.js:11[36:38];Sink: msg;get-active-leases.js:31[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-active-leases.js:11[36:38];Sink: endpoint;get-active-leases.js:35[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-active-leases.js:11[36:38];Sink: msg;get-active-leases.js:46[35:37]::FLOW_DESCR_END","/nodes/get-active-leases/get-active-leases.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;get-active-leases.js:35[44:46];Sink: err;get-active-leases.js:37[61:63]::FLOW_DESCR_END","/nodes/get-active-leases/get-active-leases.js","35","44","35","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;get-active-leases.js:35[59:62];Sink: endpoint;get-active-leases.js:35[33:40]::FLOW_DESCR_END","/nodes/get-active-leases/get-active-leases.js","35","59","35","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-balance.js:11[36:38];Sink: msg;get-balance.js:20[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-balance.js:11[36:38];Sink: msg;get-balance.js:31[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-balance.js:11[36:38];Sink: endpoint;get-balance.js:35[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-balance.js:11[36:38];Sink: msg;get-balance.js:46[35:37]::FLOW_DESCR_END","/nodes/get-balance/get-balance.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;get-balance.js:35[44:46];Sink: err;get-balance.js:37[61:63]::FLOW_DESCR_END","/nodes/get-balance/get-balance.js","35","44","35","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;get-balance.js:35[59:62];Sink: endpoint;get-balance.js:35[33:40]::FLOW_DESCR_END","/nodes/get-balance/get-balance.js","35","59","35","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-transactions.js:11[36:38];Sink: msg;get-transactions.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-transactions.js:11[36:38];Sink: msg;get-transactions.js:35[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-transactions.js:11[36:38];Sink: endpoint;get-transactions.js:39[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-transactions.js:11[36:38];Sink: msg;get-transactions.js:50[35:37]::FLOW_DESCR_END","/nodes/get-transactions/get-transactions.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;get-transactions.js:39[44:46];Sink: err;get-transactions.js:41[61:63]::FLOW_DESCR_END","/nodes/get-transactions/get-transactions.js","39","44","39","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;get-transactions.js:39[59:62];Sink: endpoint;get-transactions.js:39[33:40]::FLOW_DESCR_END","/nodes/get-transactions/get-transactions.js","39","59","39","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-health.js:12[36:38];Sink: msg;node-health.js:95[31:33]::FLOW_DESCR_END","/nodes/node-health/node-health.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node-health.js:42[89:92];Sink: 'http:/ ... /'+addr;node-health.js:58[33:92]::FLOW_DESCR_END","/nodes/node-health/node-health.js","42","89","42","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node-health.js:58[111:114];Sink: 'http:/ ... /'+addr;node-health.js:58[33:92]::FLOW_DESCR_END","/nodes/node-health/node-health.js","58","111","58","114"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-info.js:11[36:38];Sink: msg;node-info.js:49[27:29]::FLOW_DESCR_END","/nodes/node-info/node-info.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;validate-address.js:11[32:34];Sink: msg;validate-address.js:20[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;validate-address.js:11[32:34];Sink: msg;validate-address.js:31[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;validate-address.js:11[32:34];Sink: endpoint;validate-address.js:35[29:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;validate-address.js:11[32:34];Sink: msg;validate-address.js:46[31:33]::FLOW_DESCR_END","/nodes/validate-address/validate-address.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;validate-address.js:35[40:42];Sink: err;validate-address.js:37[57:59]::FLOW_DESCR_END","/nodes/validate-address/validate-address.js","35","40","35","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;validate-address.js:35[55:58];Sink: endpoint;validate-address.js:35[29:36]::FLOW_DESCR_END","/nodes/validate-address/validate-address.js","35","55","35","58"

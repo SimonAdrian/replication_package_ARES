@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:219[21:42];Sink: RED._("" ... Token();slackpost.js:624[11:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:219[21:42];Sink: RED._("" ... Token();slackpost.js:643[11:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:219[21:42];Sink: RED._("" ... Token();slackpost.js:685[11:29]::FLOW_DESCR_END","/slackpost.js","219","21","219","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:930[33:35];Sink: msg;slackpost.js:943[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:930[33:35];Sink: msg;slackpost.js:949[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:930[33:35];Sink: msg;slackpost.js:954[21:23]::FLOW_DESCR_END","/slackpost.js","930","33","930","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:1093[33:35];Sink: ""invali ...  method;slackpost.js:1130[24:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1093[33:35];Sink: msg;slackpost.js:1201[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1093[33:35];Sink: msg;slackpost.js:1207[23:25]::FLOW_DESCR_END","/slackpost.js","1093","33","1093","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:1236[33:35];Sink: ""invali ...  method;slackpost.js:1275[24:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1236[33:35];Sink: msg;slackpost.js:1307[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1236[33:35];Sink: msg;slackpost.js:1313[23:25]::FLOW_DESCR_END","/slackpost.js","1236","33","1236","35"

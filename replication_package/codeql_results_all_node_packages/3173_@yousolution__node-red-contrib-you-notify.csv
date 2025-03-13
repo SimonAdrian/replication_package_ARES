@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:31[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:35[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:40[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:46[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:61[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:66[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notifyOut.js:12[41:43];Sink: msg;notifyOut.js:71[58:60]::FLOW_DESCR_END","/nodes/notifyOut.js","12","41","12","43"

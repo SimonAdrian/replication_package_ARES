@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;kodi.js:45[68:78];Sink: 'config ... ig.port;kodi.js:45[22:98]::FLOW_DESCR_END","/kodi.js","45","68","45","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;kodi.js:45[88:98];Sink: 'config ... ig.port;kodi.js:45[22:98]::FLOW_DESCR_END","/kodi.js","45","88","45","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;kodi.js:65[63:73];Sink: 'discon ... ig.port;kodi.js:65[22:93]::FLOW_DESCR_END","/kodi.js","65","63","65","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;kodi.js:65[83:93];Sink: 'discon ... ig.port;kodi.js:65[22:93]::FLOW_DESCR_END","/kodi.js","65","83","65","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kodi.js:88[36:38];Sink: payload;kodi.js:122[23:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kodi.js:88[36:38];Sink: data.cmd;kodi.js:178[40:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kodi.js:88[36:38];Sink: data.args;kodi.js:178[50:58]::FLOW_DESCR_END","/kodi.js","88","36","88","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;connectionFSM.js:31[71:79];Sink: 'Connec ... is.port;connectionFSM.js:31[51:97]::FLOW_DESCR_END","/lib/connectionFSM.js","31","71","31","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;connectionFSM.js:31[89:97];Sink: 'Connec ... is.port;connectionFSM.js:31[51:97]::FLOW_DESCR_END","/lib/connectionFSM.js","31","89","31","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cause;connectionFSM.js:42[62:66];Sink: 'Kodi c ... + cause;connectionFSM.js:43[59:105]::FLOW_DESCR_END","/lib/connectionFSM.js","42","62","42","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cause;connectionFSM.js:47[62:66];Sink: 'Kodi c ... + cause;connectionFSM.js:48[59:105]::FLOW_DESCR_END","/lib/connectionFSM.js","47","62","47","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cause;connectionFSM.js:52[60:64];Sink: 'Kodi c ... + cause;connectionFSM.js:53[59:103]::FLOW_DESCR_END","/lib/connectionFSM.js","52","60","52","64"

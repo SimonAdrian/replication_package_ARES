@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.cr ... shToken;account.js:49[24:52];Sink: refreshToken;account.js:90[81:92]::FLOW_DESCR_END","/lib/account.js","49","24","49","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;account.js:63[48:50];Sink: err;account.js:107[34:36]::FLOW_DESCR_END","/lib/account.js","63","48","63","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.cre ... shToken;account.js:118[28:55];Sink: refreshToken;account.js:90[81:92]::FLOW_DESCR_END","/lib/account.js","118","28","118","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-out.js:28[35:37];Sink: msg.top ... e.topic;event-out.js:30[13:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-out.js:28[35:37];Sink: JSON.st ... ayload);event-out.js:31[13:39]::FLOW_DESCR_END","/lib/event-out.js","28","35","28","37"

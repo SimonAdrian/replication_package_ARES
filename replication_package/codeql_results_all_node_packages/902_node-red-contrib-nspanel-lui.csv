@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nspanel-controller.js:117[36:38];Sink: `Updati ... Topic}`;nspanel-updater.js:162[31:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nspanel-controller.js:117[36:38];Sink: fwEventArgs;nspanel-updater.js:378[29:39]::FLOW_DESCR_END","/lib/nspanel-controller.js","117","36","117","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: panelCo ... tt.port;nspanel-mqtt-handler.js:95[99:119];Sink: this.mqttBrokerUrl;nspanel-mqtt-handler.js:97[49:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: panelCo ... tt.port;nspanel-mqtt-handler.js:95[99:119];Sink: `Reconn ... erUrl}`;nspanel-mqtt-handler.js:265[19:137]::FLOW_DESCR_END","/lib/nspanel-mqtt-handler.js","95","99","95","119"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;nspanel-mqtt-handler.js:102[50:56];Sink: statusValue;nspanel-message-parser.js:168[71:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;nspanel-mqtt-handler.js:102[50:56];Sink: `parseE ... Args)}`;nspanel-message-parser.js:343[19:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;nspanel-mqtt-handler.js:102[50:56];Sink: `Error  ... Stack:`;nspanel-mqtt-handler.js:178[27:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;nspanel-mqtt-handler.js:102[50:56];Sink: `Error  ... Stack:`;nspanel-mqtt-handler.js:219[27:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;nspanel-mqtt-handler.js:102[50:56];Sink: `Error  ... Stack:`;nspanel-mqtt-handler.js:236[27:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;nspanel-mqtt-handler.js:102[50:56];Sink: `Error  ... Stack:`;nspanel-mqtt-handler.js:253[27:102]::FLOW_DESCR_END","/lib/nspanel-mqtt-handler.js","102","50","102","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nspanel-mqtt-handler.js:104[41:43];Sink: `MQTT c ... ssage}`;nspanel-mqtt-handler.js:279[19:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nspanel-mqtt-handler.js:104[41:43];Sink: error;nspanel-mqtt-handler.js:280[33:37]::FLOW_DESCR_END","/lib/nspanel-mqtt-handler.js","104","41","104","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;page-node-base.js:67[27:29];Sink: msg;page-node-base.js:198[14:16]::FLOW_DESCR_END","/lib/page-node-base.js","67","27","67","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nspanel-controller.js:38[31:33];Sink: msg;nspanel-controller.js:64[18:20]::FLOW_DESCR_END","/nodes/nspanel-controller.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sensorData;nspanel-controller.js:86[42:51];Sink: eventArgs;nspanel-controller.js:130[23:31]::FLOW_DESCR_END","/nodes/nspanel-controller.js","86","42","86","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nspanel-controller.js:87[41:43];Sink: msg;nspanel-controller.js:100[23:25]::FLOW_DESCR_END","/nodes/nspanel-controller.js","87","41","87","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: pageNode;nspanel-controller.js:89[53:60];Sink: pageId;nspanel-page-handler-cache.js:56[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pageNode;nspanel-controller.js:89[53:60];Sink: pageNode;nspanel-page-handler-cache.js:56[40:47]::FLOW_DESCR_END","/nodes/nspanel-controller.js","89","53","89","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nspanel-hmi-control.js:20[31:33];Sink: msg.payload;nspanel-hmi-control.js:24[39:49]::FLOW_DESCR_END","/nodes/nspanel-hmi-control.js","20","31","20","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fDayData;nspanel-integration-weather-owm.js:80[24:31];Sink: id;nspanel-integration-weather-owm.js:203[46:47]::FLOW_DESCR_END","/lib/nspanel-integration-weather-owm.js","80","24","80","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fHourlyData;nspanel-integration-weather-owm.js:88[24:34];Sink: id;nspanel-integration-weather-owm.js:203[46:47]::FLOW_DESCR_END","/lib/nspanel-integration-weather-owm.js","88","24","88","34"

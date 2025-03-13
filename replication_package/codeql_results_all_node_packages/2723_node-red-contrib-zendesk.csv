@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zendesk.js:39[34:36];Sink: msg;zendesk.js:42[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zendesk.js:39[34:36];Sink: msg;zendesk.js:45[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zendesk.js:39[34:36];Sink: msg;zendesk.js:54[55:57]::FLOW_DESCR_END","/zendesk.js","39","34","39","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zendesk.js:75[34:36];Sink: msg;zendesk.js:78[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zendesk.js:75[34:36];Sink: msg;zendesk.js:81[23:25]::FLOW_DESCR_END","/zendesk.js","75","34","75","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zendesk.js:113[34:36];Sink: msg;zendesk.js:116[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zendesk.js:113[34:36];Sink: msg;zendesk.js:119[23:25]::FLOW_DESCR_END","/zendesk.js","113","34","113","36"

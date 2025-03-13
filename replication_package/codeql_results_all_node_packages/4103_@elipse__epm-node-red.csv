@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;epmHistoryReadAggregate.js:16[33:35];Sink: msg;epmHistoryReadAggregate.js:43[22:24]::FLOW_DESCR_END","/dist/nodes/epmHistoryReadAggregate.js","16","33","16","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;epmHistoryReadRaw.js:17[33:35];Sink: msg;epmHistoryReadRaw.js:43[22:24]::FLOW_DESCR_END","/dist/nodes/epmHistoryReadRaw.js","17","33","17","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;epmRead.js:13[33:35];Sink: msg;epmRead.js:27[22:24]::FLOW_DESCR_END","/dist/nodes/epmRead.js","13","33","13","35"

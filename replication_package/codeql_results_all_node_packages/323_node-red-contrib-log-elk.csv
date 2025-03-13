@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;log-elk-logger.js:48[36:40];Sink: error;log-elk-logger.js:49[58:62]::FLOW_DESCR_END","/log-elk-logger.js","48","36","48","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;log-elk-logger.js:73[38:42];Sink: error;log-elk-logger.js:74[60:64]::FLOW_DESCR_END","/log-elk-logger.js","73","38","73","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;log-elk-logger.js:127[34:38];Sink: error;log-elk-logger.js:128[51:55]::FLOW_DESCR_END","/log-elk-logger.js","127","34","127","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-elk.js:13[33:35];Sink: msg;log-elk.js:33[39:41]::FLOW_DESCR_END","/log-elk.js","13","33","13","35"

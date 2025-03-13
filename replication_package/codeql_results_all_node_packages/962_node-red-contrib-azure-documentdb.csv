@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azuredocumentdb.js:258[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:30[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:258[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:51[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:258[36:38];Sink: messageJSON.dbname;azuredocumentdb.js:284[35:52]::FLOW_DESCR_END","/azuredocumentdb.js","258","36","258","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: messageJSON.dbname;azuredocumentdb.js:273[26:43];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:30[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: messageJSON.dbname;azuredocumentdb.js:273[26:43];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:51[14:45]::FLOW_DESCR_END","/azuredocumentdb.js","273","26","273","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azuredocumentdb.js:340[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:30[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:340[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:51[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:340[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:84[14:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:340[36:38];Sink: `Queryi ... nName}`;azuredocumentdb.js:200[14:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:340[36:38];Sink: collectionName;azuredocumentdb.js:371[35:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:340[36:38];Sink: 'Collec ...  + '\'';azuredocumentdb.js:406[38:135]::FLOW_DESCR_END","/azuredocumentdb.js","340","36","340","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: messageJSON.dbname;azuredocumentdb.js:358[26:43];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:30[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: messageJSON.dbname;azuredocumentdb.js:358[26:43];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:51[14:45]::FLOW_DESCR_END","/azuredocumentdb.js","358","26","358","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:30[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:51[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:84[14:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Gettin ... .id}\n`;azuredocumentdb.js:146[14:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Deleti ... .id}\n`;azuredocumentdb.js:173[14:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Replac ... .id}\n`;azuredocumentdb.js:187[14:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: `Queryi ... nName}`;azuredocumentdb.js:200[14:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: ""Query  ... ystring;azuredocumentdb.js:203[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: collectionName;azuredocumentdb.js:371[35:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuredocumentdb.js:434[36:38];Sink: 'Collec ...  + '\'';azuredocumentdb.js:406[38:135]::FLOW_DESCR_END","/azuredocumentdb.js","434","36","434","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: messageJSON.dbname;azuredocumentdb.js:452[22:39];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:30[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: messageJSON.dbname;azuredocumentdb.js:452[22:39];Sink: `Gettin ... ame}\n`;azuredocumentdb.js:51[14:45]::FLOW_DESCR_END","/azuredocumentdb.js","452","22","452","39"

@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tfl-bus.js:27[40:44];Sink: error;tfl-bus.js:37[27:31]::FLOW_DESCR_END","/tfl-bus.js","27","40","27","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;tfl-bus.js:27[47:54];Sink: response;tfl-bus.js:40[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;tfl-bus.js:27[47:54];Sink: stops;tfl-bus.js:162[22:26]::FLOW_DESCR_END","/tfl-bus.js","27","47","27","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;tfl-bus.js:27[57:60];Sink: stops;tfl-bus.js:162[22:26]::FLOW_DESCR_END","/tfl-bus.js","27","57","27","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;tfl-bus.js:50[49:56];Sink: lines;tfl-bus.js:169[22:26]::FLOW_DESCR_END","/tfl-bus.js","50","49","50","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;tfl-bus.js:50[59:62];Sink: lines;tfl-bus.js:169[22:26]::FLOW_DESCR_END","/tfl-bus.js","50","59","50","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tfl-bus.js:81[42:46];Sink: err;tfl-bus.js:120[32:34]::FLOW_DESCR_END","/tfl-bus.js","81","42","81","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;tfl-bus.js:81[49:56];Sink: err;tfl-bus.js:120[32:34]::FLOW_DESCR_END","/tfl-bus.js","81","49","81","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tfl-bus.js:113[35:37];Sink: msg;tfl-bus.js:120[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-bus.js:113[35:37];Sink: msg;tfl-bus.js:145[27:29]::FLOW_DESCR_END","/tfl-bus.js","113","35","113","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:35[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:45[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:49[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:80[130:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:82[47:49]::FLOW_DESCR_END","/tfl-underground.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tfl-underground.js:43[45:47];Sink: err.toString();tfl-underground.js:45[36:49]::FLOW_DESCR_END","/tfl-underground.js","43","45","43","47"

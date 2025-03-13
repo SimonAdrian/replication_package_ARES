@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get.js:41[44:50];Sink: message;get.js:66[39:45]::FLOW_DESCR_END","/nodes/get.js","41","44","41","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;out.js:17[44:50];Sink: message;out.js:28[55:61]::FLOW_DESCR_END","/nodes/out.js","17","44","17","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;out.js:138[80:84];Sink: error;out.js:140[31:35]::FLOW_DESCR_END","/nodes/out.js","138","80","138","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;out.js:138[87:94];Sink: 'defaro ... Message;out.js:169[31:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;out.js:138[87:94];Sink: response.error;out.js:170[31:44]::FLOW_DESCR_END","/nodes/out.js","138","87","138","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;server.js:15[25:30];Sink: url;server.js:44[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;server.js:15[25:30];Sink: url;server.js:70[29:31]::FLOW_DESCR_END","/nodes/server.js","15","25","15","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;server.js:38[55:63];Sink: url;server.js:44[25:27]::FLOW_DESCR_END","/nodes/server.js","38","55","38","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:44[47:51];Sink: error;server.js:54[36:40]::FLOW_DESCR_END","/nodes/server.js","44","47","44","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;server.js:44[54:61];Sink: respons ... erError;server.js:50[40:64]::FLOW_DESCR_END","/nodes/server.js","44","54","44","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;server.js:44[64:67];Sink: url;server.js:44[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;server.js:44[64:67];Sink: events;server.js:164[41:46]::FLOW_DESCR_END","/nodes/server.js","44","64","44","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;server.js:68[55:63];Sink: url;server.js:70[29:31]::FLOW_DESCR_END","/nodes/server.js","68","55","68","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;server.js:70[66:69];Sink: device.id;server.js:88[58:66]::FLOW_DESCR_END","/nodes/server.js","70","66","70","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.devices[index];server.js:82[42:60];Sink: device.id;server.js:88[58:66]::FLOW_DESCR_END","/nodes/server.js","82","42","82","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;server.js:106[51:59];Sink: url;server.js:108[25:27]::FLOW_DESCR_END","/nodes/server.js","106","51","106","59"

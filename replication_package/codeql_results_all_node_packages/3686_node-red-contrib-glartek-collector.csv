@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttCli ... ns.host;index.js:57[112:133];Sink: ""collec ... t + "")"";index.js:57[34:170]::FLOW_DESCR_END","/dist/index.js","57","112","57","133"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttCli ... ns.port;index.js:57[143:164];Sink: ""collec ... t + "")"";index.js:57[34:170]::FLOW_DESCR_END","/dist/index.js","57","143","57","164"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttCli ... ns.host;index.js:79[119:140];Sink: ""collec ... t + "")"";index.js:79[38:177]::FLOW_DESCR_END","/dist/index.js","79","119","79","140"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttCli ... ns.port;index.js:79[150:171];Sink: ""collec ... t + "")"";index.js:79[38:177]::FLOW_DESCR_END","/dist/index.js","79","150","79","171"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttCli ... ns.host;index.js:88[121:142];Sink: ""collec ... t + "")"";index.js:88[38:179]::FLOW_DESCR_END","/dist/index.js","88","121","88","142"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttCli ... ns.port;index.js:88[152:173];Sink: ""collec ... t + "")"";index.js:88[38:179]::FLOW_DESCR_END","/dist/index.js","88","152","88","173"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:97[55:59];Sink: error;index.js:98[36:40]::FLOW_DESCR_END","/dist/index.js","97","55","97","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:104[48:50];Sink: JSON.st ... yload]);index.js:109[60:88]::FLOW_DESCR_END","/dist/index.js","104","48","104","50"

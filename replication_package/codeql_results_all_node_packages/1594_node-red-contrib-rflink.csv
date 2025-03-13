@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rflink.js:17[35:37];Sink: msg;rflink.js:37[31:33]::FLOW_DESCR_END","/rflink.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rflink.js:53[35:37];Sink: msg;rflink.js:106[27:29]::FLOW_DESCR_END","/rflink.js","53","35","53","37"

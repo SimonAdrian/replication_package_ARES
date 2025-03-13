@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rpi-explorerhat.js:94[44:47];Sink: ""Explor ... message;rpi-explorerhat.js:21[49:73]::FLOW_DESCR_END","/rpi-explorerhat.js","94","44","94","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rpi-explorerhat.js:106[44:47];Sink: ""Explor ... message;rpi-explorerhat.js:21[49:73]::FLOW_DESCR_END","/rpi-explorerhat.js","106","44","106","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;rpi-explorerhat.js:113[38:41];Sink: ""Explor ... message;rpi-explorerhat.js:21[49:73]::FLOW_DESCR_END","/rpi-explorerhat.js","113","38","113","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpi-explorerhat.js:211[35:37];Sink: msg+""\n"";rpi-explorerhat.js:172[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpi-explorerhat.js:211[35:37];Sink: msg.top ... tring();rpi-explorerhat.js:213[26:65]::FLOW_DESCR_END","/rpi-explorerhat.js","211","35","211","37"

@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hostOptions.host;88-ping.js:68[38:53];Sink: `ping - ... SIGINT`;88-ping.js:68[22:89]::FLOW_DESCR_END","/88-ping.js","68","38","68","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;88-ping.js:84[40:43];Sink: data +  ... nabled"";88-ping.js:91[32:116]::FLOW_DESCR_END","/88-ping.js","84","40","84","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;88-ping.js:107[34:36];Sink: err.code;88-ping.js:116[28:35]::FLOW_DESCR_END","/88-ping.js","107","34","107","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hostOptions.host;88-ping.js:156[47:62];Sink: `ping6  ... SIGINT`;88-ping.js:156[30:98]::FLOW_DESCR_END","/88-ping.js","156","47","156","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;88-ping.js:165[49:52];Sink: data +  ... nabled"";88-ping.js:168[40:124]::FLOW_DESCR_END","/88-ping.js","165","49","165","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;88-ping.js:184[43:45];Sink: err.code;88-ping.js:193[36:43]::FLOW_DESCR_END","/88-ping.js","184","43","184","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;88-ping.js:240[36:38];Sink: `ping - ... SIGINT`;88-ping.js:68[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;88-ping.js:240[36:38];Sink: `ping6  ... SIGINT`;88-ping.js:156[30:98]::FLOW_DESCR_END","/88-ping.js","240","36","240","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;88-ping.js:243[27:35];Sink: `ping - ... SIGINT`;88-ping.js:68[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;88-ping.js:243[27:35];Sink: `ping6  ... SIGINT`;88-ping.js:156[30:98]::FLOW_DESCR_END","/88-ping.js","243","27","243","35"

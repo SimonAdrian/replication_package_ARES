@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smxstate-node.js:480[30:32];Sink: msg.topic;smxstate-node.js:487[39:47]::FLOW_DESCR_END","/dist/smxstate-node.js","480","30","480","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.prom ... 'utf8');smcat-render-cache.js:147[48:86];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.prom ... 'utf8');smcat-render-cache.js:147[48:86];Sink: smcat_svg;smxstate-node.js:611[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.prom ... 'utf8');smcat-render-cache.js:147[48:86];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.prom ... 'utf8');smcat-render-cache.js:147[48:86];Sink: smcat_svg;smxstate-node.js:611[30:38]::FLOW_DESCR_END","/src/smcat-render-cache.js","147","48","147","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;smcat-render.js:39[34:37];Sink: data;smcat-render.js:43[33:36]::FLOW_DESCR_END","/src/smcat-render.js","39","34","39","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;smcat-render.js:46[34:37];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:46[34:37];Sink: `smcat  ... ${str}`;smcat-render.js:50[31:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:46[34:37];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END","/src/smcat-render.js","46","34","46","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;smcat-render.js:56[28:31];Sink: `smcat  ... code}.`;smcat-render.js:59[25:80]::FLOW_DESCR_END","/src/smcat-render.js","56","28","56","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;smcat-render.js:73[32:35];Sink: smcat_svg;smxstate-node.js:611[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:73[32:35];Sink: smcat_svg;smxstate-node.js:611[30:38]::FLOW_DESCR_END","/src/smcat-render.js","73","32","73","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;smcat-render.js:84[32:35];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:84[32:35];Sink: `dot stderr: ${str}`;smcat-render.js:87[27:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:84[32:35];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END","/src/smcat-render.js","84","32","84","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;smcat-render.js:93[30:33];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;smcat-render.js:93[30:33];Sink: `dot re ... code}.`;smcat-render.js:100[29:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;smcat-render.js:93[30:33];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END","/src/smcat-render.js","93","30","93","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;smcat-render.js:153[29:32];Sink: smcat_svg;smxstate-node.js:611[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:153[29:32];Sink: smcat_svg;smxstate-node.js:611[30:38]::FLOW_DESCR_END","/src/smcat-render.js","153","29","153","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;smcat-render.js:164[29:32];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:164[29:32];Sink: `smcat  ... ${str}`;smcat-render.js:168[31:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;smcat-render.js:164[29:32];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END","/src/smcat-render.js","164","29","164","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;smcat-render.js:178[27:30];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;smcat-render.js:178[27:30];Sink: `smcat  ... code}.`;smcat-render.js:185[29:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;smcat-render.js:178[27:30];Sink: `Render ... t.err}`;smxstate-node.js:603[22:122]::FLOW_DESCR_END","/src/smcat-render.js","178","27","178","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smxstate-node.js:480[30:32];Sink: msg.topic;smxstate-node.js:487[39:47]::FLOW_DESCR_END","/src/smxstate-node.js","480","30","480","32"

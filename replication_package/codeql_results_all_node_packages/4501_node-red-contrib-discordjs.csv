@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendEmbed.js:9[39:41];Sink: channel;sendEmbed.js:19[66:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendEmbed.js:9[39:41];Sink: `Couldn ... found.`;sendEmbed.js:32[36:94]::FLOW_DESCR_END","/discord/sendEmbed.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendMessage.js:9[39:41];Sink: channel;sendMessage.js:19[66:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendMessage.js:9[39:41];Sink: msg.payload;sendMessage.js:27[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendMessage.js:9[39:41];Sink: `Couldn ... found.`;sendMessage.js:34[36:94]::FLOW_DESCR_END","/discord/sendMessage.js","9","39","9","41"

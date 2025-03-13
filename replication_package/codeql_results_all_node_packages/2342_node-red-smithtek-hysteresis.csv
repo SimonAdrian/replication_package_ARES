@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg;smithtek_node_red_hysteresis.js:132[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg.payload;smithtek_node_red_hysteresis.js:133[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg.payload.high;smithtek_node_red_hysteresis.js:142[49:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg;smithtek_node_red_hysteresis.js:146[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg.payload;smithtek_node_red_hysteresis.js:147[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg.payload.low;smithtek_node_red_hysteresis.js:153[50:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg;smithtek_node_red_hysteresis.js:165[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_node_red_hysteresis.js:130[32:34];Sink: msg;smithtek_node_red_hysteresis.js:168[49:51]::FLOW_DESCR_END","/node/smithtek_node_red_hysteresis.js","130","32","130","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_node_red_threshold_formatter.js:8[32:34];Sink: msg;smithtek_node_red_threshold_formatter.js:21[17:19]::FLOW_DESCR_END","/node/smithtek_node_red_threshold_formatter.js","8","32","8","34"

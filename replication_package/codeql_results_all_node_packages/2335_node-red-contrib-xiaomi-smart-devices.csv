@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;gateway-config.js:63[17:27];Sink: this.port;gateway-config.js:80[49:57]::FLOW_DESCR_END","/config/gateway-config.js","63","17","63","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;gateway-config.js:109[64:75];Sink: `UDP so ... .port}`;gateway-config.js:109[18:77]::FLOW_DESCR_END","/config/gateway-config.js","109","64","109","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;device.js:30[38:42];Sink: [msg];device.js:168[18:22]::FLOW_DESCR_END","/devices/device.js","30","38","30","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;gateway.js:21[35:39];Sink: [msg];gateway.js:37[23:27]::FLOW_DESCR_END","/devices/gateway/gateway.js","21","35","21","39"

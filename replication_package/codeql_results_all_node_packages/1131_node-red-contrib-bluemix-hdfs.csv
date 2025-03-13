@@ -1,0 +1,71 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:85[27:29];Sink: ""filena ... ilename;47-ibmhdfs-cf.js:93[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:85[27:29];Sink: ""Payloa ... payload;47-ibmhdfs-cf.js:126[15:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:85[27:29];Sink: msg;47-ibmhdfs-cf.js:129[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:85[27:29];Sink: msg;47-ibmhdfs-cf.js:136[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:85[27:29];Sink: payload;47-ibmhdfs-cf.js:140[15:21]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","85","27","85","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:117[28:32];Sink: ""Payloa ... payload;47-ibmhdfs-cf.js:126[15:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:117[28:32];Sink: payload;47-ibmhdfs-cf.js:140[15:21]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","117","28","117","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:133[28:30];Sink: ""Payloa ... payload;47-ibmhdfs-cf.js:126[15:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:133[28:30];Sink: payload;47-ibmhdfs-cf.js:140[15:21]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","133","28","133","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""filena ... ilename;47-ibmhdfs-cf.js:172[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: filenam ... m HDFS"";47-ibmhdfs-cf.js:194[15:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: data;47-ibmhdfs-cf.js:254[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: data;47-ibmhdfs-cf.js:256[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""Status ... tusCode;47-ibmhdfs-cf.js:263[15:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""WebHDF ... "" + url;47-ibmhdfs-cf.js:267[16:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: data;47-ibmhdfs-cf.js:304[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:318[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: msg;47-ibmhdfs-cf.js:323[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:324[18:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: msg;47-ibmhdfs-cf.js:331[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: data;47-ibmhdfs-cf.js:336[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:344[15:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:349[15:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: data;47-ibmhdfs-cf.js:350[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:355[14:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: msg;47-ibmhdfs-cf.js:357[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;47-ibmhdfs-cf.js:162[27:29];Sink: data;47-ibmhdfs-cf.js:362[15:18]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","162","27","162","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bigcred ... .userid;47-ibmhdfs-cf.js:166[33:53];Sink: ""WebHDF ... "" + url;47-ibmhdfs-cf.js:267[16:37]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","166","33","166","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bigcred ... hdfsUrl;47-ibmhdfs-cf.js:168[13:37];Sink: ""WebHDF ... "" + url;47-ibmhdfs-cf.js:267[16:37]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","168","13","168","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;47-ibmhdfs-cf.js:235[24:43];Sink: ""newLoc ... ocation;47-ibmhdfs-cf.js:246[15:42]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","235","24","235","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;47-ibmhdfs-cf.js:249[31:31];Sink: d;47-ibmhdfs-cf.js:250[29:29]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","249","31","249","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: data;47-ibmhdfs-cf.js:254[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: data;47-ibmhdfs-cf.js:256[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: data;47-ibmhdfs-cf.js:304[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:318[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:324[18:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: data;47-ibmhdfs-cf.js:336[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:344[15:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:349[15:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: data;47-ibmhdfs-cf.js:350[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:355[14:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:261[28:32];Sink: data;47-ibmhdfs-cf.js:362[15:18]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","261","28","261","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res1.he ... ocation;47-ibmhdfs-cf.js:285[24:44];Sink: ""newLoc ... ocation;47-ibmhdfs-cf.js:246[15:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res1.he ... ocation;47-ibmhdfs-cf.js:285[24:44];Sink: ""newLoc ... ocation;47-ibmhdfs-cf.js:286[19:47]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","285","24","285","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;47-ibmhdfs-cf.js:299[38:38];Sink: d;47-ibmhdfs-cf.js:300[33:33]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","299","38","299","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: data;47-ibmhdfs-cf.js:254[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: data;47-ibmhdfs-cf.js:256[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: data;47-ibmhdfs-cf.js:304[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:318[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:324[18:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: data;47-ibmhdfs-cf.js:336[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:344[15:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:349[15:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: data;47-ibmhdfs-cf.js:350[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:355[14:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;47-ibmhdfs-cf.js:309[32:36];Sink: data;47-ibmhdfs-cf.js:362[15:18]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","309","32","309","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: data;47-ibmhdfs-cf.js:254[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: data;47-ibmhdfs-cf.js:256[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: ""Status ... tusCode;47-ibmhdfs-cf.js:263[15:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: data;47-ibmhdfs-cf.js:304[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:318[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:324[18:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: data;47-ibmhdfs-cf.js:336[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:344[15:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:349[15:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: data;47-ibmhdfs-cf.js:350[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: ""Payloa ...  + data;47-ibmhdfs-cf.js:355[14:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:328[32:34];Sink: data;47-ibmhdfs-cf.js:362[15:18]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","328","32","328","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;47-ibmhdfs-cf.js:354[28:30];Sink: ""Status ... tusCode;47-ibmhdfs-cf.js:263[15:47]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","354","28","354","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);47-ibmhdfs-cf.js:373[20:58];Sink: JSON.st ... !="""")});47-ibmhdfs-cf.js:375[12:111]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","373","20","373","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);47-ibmhdfs-cf.js:388[23:61];Sink: credentials;47-ibmhdfs-cf.js:399[44:54]::FLOW_DESCR_END","/application/47-ibmhdfs-cf.js","388","23","388","61"

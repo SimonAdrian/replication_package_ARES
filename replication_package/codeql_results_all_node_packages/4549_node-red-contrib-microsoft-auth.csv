@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;microsoftAuth.js:34[35:37];Sink: msg;microsoftAuth.js:36[23:25]::FLOW_DESCR_END","/source/microsoftAuth.js","34","35","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... deAuth);microsoftAuth.js:50[27:63];Sink: credentials;microsoftAuth.js:51[36:46]::FLOW_DESCR_END","/source/microsoftAuth.js","50","27","50","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... deAuth);microsoftAuth.js:123[27:63];Sink: credentials;microsoftAuth.js:155[51:61]::FLOW_DESCR_END","/source/microsoftAuth.js","123","27","123","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;microsoftAuth.js:169[35:37];Sink: msg;microsoftAuth.js:171[23:25]::FLOW_DESCR_END","/source/microsoftAuth.js","169","35","169","37"

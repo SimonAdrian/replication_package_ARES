@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: msg;rdk-checkexecute.js:59[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: msg;rdk-checkexecute.js:85[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: msg.input;rdk-checkexecute.js:86[44:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: [null, msg];rdk-checkexecute.js:116[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: msg;rdk-checkexecute.js:120[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: [null, msg];rdk-checkexecute.js:141[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-checkexecute.js:58[41:43];Sink: [msg, null];rdk-checkexecute.js:145[31:41]::FLOW_DESCR_END","/src/rdk-checkexecute/rdk-checkexecute.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk-openurl.js:9[35:37];Sink: msg.payload;rdk-openurl.js:16[50:60]::FLOW_DESCR_END","/src/rdk-openurl/rdk-openurl.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk-smartupdate.js:67[35:37];Sink: [msg, null];rdk-smartupdate.js:44[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rdk-smartupdate.js:67[35:37];Sink: [msg, null];rdk-smartupdate.js:85[27:37]::FLOW_DESCR_END","/src/rdk-smartupdate/rdk-smartupdate.js","67","35","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk-texttoaudio.js:11[35:37];Sink: node.vo ... payload;rdk-texttoaudio.js:13[49:74]::FLOW_DESCR_END","/src/rdk-texttoaudio/rdk-texttoaudio.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: params;rdk-videows.html:214[56:61];Sink: params;rdk-videows.html:219[21:26]::FLOW_DESCR_END","/src/rdk-videows/rdk-videows.html","214","56","214","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk-videows.js:9[35:37];Sink: [msg.pa ... , null];rdk-videows.js:11[27:86]::FLOW_DESCR_END","/src/rdk-videows/rdk-videows.js","9","35","9","37"

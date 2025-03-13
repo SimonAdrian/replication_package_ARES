@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-cloudant-cf.js:107[39:41];Sink: msg;77-cloudant-cf.js:166[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;77-cloudant-cf.js:107[39:41];Sink: msg;77-cloudant-cf.js:179[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;77-cloudant-cf.js:107[39:41];Sink: msg;77-cloudant-cf.js:187[45:47]::FLOW_DESCR_END","/77-cloudant-cf.js","107","39","107","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-cloudant-cf.js:290[39:41];Sink: id;77-cloudant-cf.js:306[28:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;77-cloudant-cf.js:290[39:41];Sink: ""Docume ...    ""'."";77-cloudant-cf.js:382[25:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;77-cloudant-cf.js:290[39:41];Sink: msg;77-cloudant-cf.js:394[23:25]::FLOW_DESCR_END","/77-cloudant-cf.js","290","39","290","41"

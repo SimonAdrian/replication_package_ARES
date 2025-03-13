@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;max7300.js:37[35:37];Sink: msg;max7300.js:48[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;max7300.js:37[35:37];Sink: msg;max7300.js:58[35:37]::FLOW_DESCR_END","/max7300/max7300.js","37","35","37","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;max7300.js:80[35:37];Sink: msg;max7300.js:91[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;max7300.js:80[35:37];Sink: msg;max7300.js:94[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;max7300.js:80[35:37];Sink: msg;max7300.js:102[35:37]::FLOW_DESCR_END","/max7300/max7300.js","80","35","80","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;max7300.js:124[35:37];Sink: msg;max7300.js:134[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;max7300.js:124[35:37];Sink: msg;max7300.js:138[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;max7300.js:124[35:37];Sink: msg;max7300.js:148[35:37]::FLOW_DESCR_END","/max7300/max7300.js","124","35","124","37"

@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;authentication.js:58[41:43];Sink: msg;authentication.js:113[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authentication.js:58[41:43];Sink: msg;authentication.js:115[41:43]::FLOW_DESCR_END","/authentication.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;authentication.js:129[38:40];Sink: `Uncaug ... ssage}`;authentication.js:131[31:66]::FLOW_DESCR_END","/authentication.js","129","38","129","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;authentication.js:136[39:44];Sink: `Unhand ... eason}`;authentication.js:138[31:85]::FLOW_DESCR_END","/authentication.js","136","39","136","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: promise;authentication.js:136[47:53];Sink: `Unhand ... eason}`;authentication.js:138[31:85]::FLOW_DESCR_END","/authentication.js","136","47","136","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;collection.js:58[41:43];Sink: msg;collection.js:107[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;collection.js:58[41:43];Sink: msg;collection.js:109[41:43]::FLOW_DESCR_END","/collection.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;collection.js:123[38:40];Sink: `Uncaug ... ssage}`;collection.js:125[31:66]::FLOW_DESCR_END","/collection.js","123","38","123","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;collection.js:130[39:44];Sink: `Unhand ... eason}`;collection.js:132[31:85]::FLOW_DESCR_END","/collection.js","130","39","130","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: promise;collection.js:130[47:53];Sink: `Unhand ... eason}`;collection.js:132[31:85]::FLOW_DESCR_END","/collection.js","130","47","130","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;database.js:53[41:43];Sink: msg;database.js:78[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;database.js:53[41:43];Sink: msg;database.js:80[41:43]::FLOW_DESCR_END","/database.js","53","41","53","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;database.js:94[38:40];Sink: `Uncaug ... ssage}`;database.js:96[31:66]::FLOW_DESCR_END","/database.js","94","38","94","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;database.js:101[39:44];Sink: `Unhand ... eason}`;database.js:103[31:85]::FLOW_DESCR_END","/database.js","101","39","101","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: promise;database.js:101[47:53];Sink: `Unhand ... eason}`;database.js:103[31:85]::FLOW_DESCR_END","/database.js","101","47","101","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;management.js:58[41:43];Sink: msg;management.js:89[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;management.js:58[41:43];Sink: msg;management.js:91[41:43]::FLOW_DESCR_END","/management.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;management.js:105[38:40];Sink: `Uncaug ... ssage}`;management.js:107[31:66]::FLOW_DESCR_END","/management.js","105","38","105","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;management.js:112[39:44];Sink: `Unhand ... eason}`;management.js:114[31:85]::FLOW_DESCR_END","/management.js","112","39","112","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: promise;management.js:112[47:53];Sink: `Unhand ... eason}`;management.js:114[31:85]::FLOW_DESCR_END","/management.js","112","47","112","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;partitions.js:58[41:43];Sink: msg;partitions.js:92[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;partitions.js:58[41:43];Sink: msg;partitions.js:94[41:43]::FLOW_DESCR_END","/partitions.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;partitions.js:108[38:40];Sink: `Uncaug ... ssage}`;partitions.js:110[31:66]::FLOW_DESCR_END","/partitions.js","108","38","108","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;partitions.js:115[39:44];Sink: `Unhand ... eason}`;partitions.js:117[31:85]::FLOW_DESCR_END","/partitions.js","115","39","115","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: promise;partitions.js:115[47:53];Sink: `Unhand ... eason}`;partitions.js:117[31:85]::FLOW_DESCR_END","/partitions.js","115","47","115","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vector.js:58[41:43];Sink: params;vector.js:74[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vector.js:58[41:43];Sink: msg;vector.js:93[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vector.js:58[41:43];Sink: msg;vector.js:95[41:43]::FLOW_DESCR_END","/vector.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vector.js:109[38:40];Sink: `Uncaug ... ssage}`;vector.js:111[31:66]::FLOW_DESCR_END","/vector.js","109","38","109","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;vector.js:116[39:44];Sink: `Unhand ... eason}`;vector.js:118[31:85]::FLOW_DESCR_END","/vector.js","116","39","116","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: promise;vector.js:116[47:53];Sink: `Unhand ... eason}`;vector.js:118[31:85]::FLOW_DESCR_END","/vector.js","116","47","116","53"

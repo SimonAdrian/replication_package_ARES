@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: child;bridge.js:95[43:47];Sink: `Regist ... de.id}`;bridge.js:96[25:65]::FLOW_DESCR_END","/bridge.js","95","43","95","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dimmablelight.js:14[35:37];Sink: msg;dimmablelight.js:60[27:29]::FLOW_DESCR_END","/dimmablelight.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onofflight.js:13[35:37];Sink: msg;onofflight.js:56[27:29]::FLOW_DESCR_END","/onofflight.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;onoffsocket.js:13[35:37];Sink: msg;onoffsocket.js:54[27:29]::FLOW_DESCR_END","/onoffsocket.js","13","35","13","37"

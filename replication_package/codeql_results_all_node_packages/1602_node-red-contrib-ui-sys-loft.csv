@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;backEndNode.js:27[72:76];Sink: 'getCon ... + topic;backEndNode.js:28[28:53]::FLOW_DESCR_END","/ui_device_edit_settings/backEndNode.js","27","72","27","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;backEndNode.js:27[79:85];Sink: 'getCon ... tring();backEndNode.js:29[28:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;backEndNode.js:27[79:85];Sink: JSON.pa ... ring());backEndNode.js:31[51:80]::FLOW_DESCR_END","/ui_device_edit_settings/backEndNode.js","27","79","27","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: val;backEndNode.js:36[47:49];Sink: 'dev.sa ... evTopic;backEndNode.js:42[24:57]::FLOW_DESCR_END","/ui_device_edit_settings/backEndNode.js","36","47","36","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location.host;frontEnd.js:76[68:87];Sink: window. ... ttings"";frontEnd.js:76[34:116]::FLOW_DESCR_END","/ui_device_edit_settings/frontEnd.js","76","68","76","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;frontEnd.js:81[53:59];Sink: payload;frontEnd.js:82[43:49]::FLOW_DESCR_END","/ui_device_edit_settings/frontEnd.js","81","53","81","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;frontEnd.js:85[58:64];Sink: payload;frontEnd.js:86[57:63]::FLOW_DESCR_END","/ui_device_edit_settings/frontEnd.js","85","58","85","64"

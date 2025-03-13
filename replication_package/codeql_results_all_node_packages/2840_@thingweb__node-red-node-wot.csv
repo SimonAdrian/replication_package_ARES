@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wot-server-td.ts:21[33:35];Sink: msg;wot-server-td.ts:30[22:24]::FLOW_DESCR_END","/dist/wot-server-td.ts","21","33","21","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wot-server-td.ts:21[33:35];Sink: msg;wot-server-td.ts:30[22:24]::FLOW_DESCR_END","/src/wot-server-td.ts","21","33","21","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;action-test.ts:155[48:50];Sink: msg;action-test.ts:158[18:20]::FLOW_DESCR_END","/test/action-test.ts","155","48","155","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;property-test.ts:197[60:62];Sink: msg;property-test.ts:199[18:20]::FLOW_DESCR_END","/test/property-test.ts","197","60","197","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;property-test.ts:235[48:50];Sink: msg;property-test.ts:238[18:20]::FLOW_DESCR_END","/test/property-test.ts","235","48","235","50"

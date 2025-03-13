@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decode.js:42[36:38];Sink: `\nProbl ...       `;decode.js:27[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decode.js:42[36:38];Sink: msg;decode.js:54[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decode.js:42[36:38];Sink: msg;decode.js:69[23:25]::FLOW_DESCR_END","/src/nodes/decode.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encode.js:8[36:38];Sink: `\nProbl ...       `;encode.js:24[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;encode.js:8[36:38];Sink: msg;encode.js:43[23:25]::FLOW_DESCR_END","/src/nodes/encode.js","8","36","8","38"

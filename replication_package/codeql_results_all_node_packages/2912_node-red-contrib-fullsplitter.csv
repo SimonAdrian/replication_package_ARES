@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fullsplitter.js:41[36:38];Sink: [null, msg];fullsplitter.js:56[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fullsplitter.js:41[36:38];Sink: customMsg;fullsplitter.js:72[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fullsplitter.js:41[36:38];Sink: [null, msg];fullsplitter.js:83[25:35]::FLOW_DESCR_END","/fullsplitter.js","41","36","41","38"

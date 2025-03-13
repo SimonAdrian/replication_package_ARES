@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coqui-stream.js:135[35:37];Sink: msg;coqui-stream.js:195[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coqui-stream.js:135[35:37];Sink: msg;coqui-stream.js:195[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coqui-stream.js:135[35:37];Sink: msg;coqui-stream.js:211[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coqui-stream.js:135[35:37];Sink: msg;coqui-stream.js:211[64:66]::FLOW_DESCR_END","/coqui-stream.js","135","35","135","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coqui-wav.js:123[35:37];Sink: msg;coqui-wav.js:192[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coqui-wav.js:123[35:37];Sink: msg;coqui-wav.js:192[60:62]::FLOW_DESCR_END","/coqui-wav.js","123","35","123","37"

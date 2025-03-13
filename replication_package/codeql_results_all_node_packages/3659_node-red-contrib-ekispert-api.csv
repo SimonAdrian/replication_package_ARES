@@ -1,0 +1,48 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:26[31:33];Sink: url;ekispert.js:71[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:26[31:33];Sink: url;ekispert.js:72[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:26[31:33];Sink: msg;ekispert.js:75[21:23]::FLOW_DESCR_END","/ekispert.js","26","31","26","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:72[30:34];Sink: error;ekispert.js:77[22:26]::FLOW_DESCR_END","/ekispert.js","72","30","72","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:98[31:33];Sink: url;ekispert.js:130[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:98[31:33];Sink: url;ekispert.js:131[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:98[31:33];Sink: msg;ekispert.js:134[21:23]::FLOW_DESCR_END","/ekispert.js","98","31","98","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:131[30:34];Sink: error;ekispert.js:136[22:26]::FLOW_DESCR_END","/ekispert.js","131","30","131","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:161[31:33];Sink: url;ekispert.js:201[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:161[31:33];Sink: url;ekispert.js:202[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:161[31:33];Sink: msg;ekispert.js:205[21:23]::FLOW_DESCR_END","/ekispert.js","161","31","161","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:202[30:34];Sink: error;ekispert.js:207[22:26]::FLOW_DESCR_END","/ekispert.js","202","30","202","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:223[31:33];Sink: url;ekispert.js:245[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:223[31:33];Sink: url;ekispert.js:246[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:223[31:33];Sink: msg;ekispert.js:249[21:23]::FLOW_DESCR_END","/ekispert.js","223","31","223","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:246[30:34];Sink: error;ekispert.js:251[22:26]::FLOW_DESCR_END","/ekispert.js","246","30","246","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:275[31:33];Sink: url;ekispert.js:311[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:275[31:33];Sink: url;ekispert.js:312[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:275[31:33];Sink: msg;ekispert.js:315[21:23]::FLOW_DESCR_END","/ekispert.js","275","31","275","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:312[30:34];Sink: error;ekispert.js:317[22:26]::FLOW_DESCR_END","/ekispert.js","312","30","312","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:345[31:33];Sink: url;ekispert.js:392[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:345[31:33];Sink: url;ekispert.js:393[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:345[31:33];Sink: msg;ekispert.js:396[21:23]::FLOW_DESCR_END","/ekispert.js","345","31","345","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:393[30:34];Sink: error;ekispert.js:398[22:26]::FLOW_DESCR_END","/ekispert.js","393","30","393","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:419[31:33];Sink: url;ekispert.js:452[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:419[31:33];Sink: url;ekispert.js:453[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:419[31:33];Sink: msg;ekispert.js:456[21:23]::FLOW_DESCR_END","/ekispert.js","419","31","419","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:453[30:34];Sink: error;ekispert.js:458[22:26]::FLOW_DESCR_END","/ekispert.js","453","30","453","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:472[31:33];Sink: url;ekispert.js:490[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:472[31:33];Sink: url;ekispert.js:491[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:472[31:33];Sink: msg;ekispert.js:494[21:23]::FLOW_DESCR_END","/ekispert.js","472","31","472","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:491[30:34];Sink: error;ekispert.js:496[22:26]::FLOW_DESCR_END","/ekispert.js","491","30","491","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:533[31:33];Sink: url;ekispert.js:598[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:533[31:33];Sink: url;ekispert.js:599[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:533[31:33];Sink: msg;ekispert.js:602[21:23]::FLOW_DESCR_END","/ekispert.js","533","31","533","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:599[30:34];Sink: error;ekispert.js:604[22:26]::FLOW_DESCR_END","/ekispert.js","599","30","599","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:627[31:33];Sink: url;ekispert.js:663[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:627[31:33];Sink: url;ekispert.js:664[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:627[31:33];Sink: msg;ekispert.js:667[21:23]::FLOW_DESCR_END","/ekispert.js","627","31","627","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:664[30:34];Sink: error;ekispert.js:669[22:26]::FLOW_DESCR_END","/ekispert.js","664","30","664","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:688[31:33];Sink: url;ekispert.js:717[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:688[31:33];Sink: url;ekispert.js:718[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:688[31:33];Sink: msg;ekispert.js:721[21:23]::FLOW_DESCR_END","/ekispert.js","688","31","688","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:718[30:34];Sink: error;ekispert.js:723[22:26]::FLOW_DESCR_END","/ekispert.js","718","30","718","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ekispert.js:765[31:33];Sink: url;ekispert.js:839[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:765[31:33];Sink: url;ekispert.js:840[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ekispert.js:765[31:33];Sink: msg;ekispert.js:843[21:23]::FLOW_DESCR_END","/ekispert.js","765","31","765","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ekispert.js:840[30:34];Sink: error;ekispert.js:845[22:26]::FLOW_DESCR_END","/ekispert.js","840","30","840","34"

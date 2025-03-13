@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-logger.js:34[35:37];Sink: this.#filePath;DataLogger.js:94[34:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;data-logger.js:34[35:37];Sink: msg;data-logger.js:40[14:16]::FLOW_DESCR_END","/src/data-logger.js","34","35","34","37"

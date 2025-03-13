@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;public-ip-address.js:12[35:37];Sink: msg;public-ip-address.js:25[31:33]::FLOW_DESCR_END","/public-ip-address/public-ip-address.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;public-ip-address.js:28[27:29];Sink: err.message;public-ip-address.js:30[28:38]::FLOW_DESCR_END","/public-ip-address/public-ip-address.js","28","27","28","29"

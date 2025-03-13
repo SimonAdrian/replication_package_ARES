@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.deviceId;HassSmartTmallBot.js:122[29:48];Sink: ""/HassS ...  ""/set"";HassSmartTmallBot.js:130[29:103]::FLOW_DESCR_END","/nodes/HassSmartTmallBot.js","122","29","122","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;HassSmartTmallBot.js:126[39:41];Sink: JSON.st ... ayload);HassSmartTmallBot.js:131[29:55]::FLOW_DESCR_END","/nodes/HassSmartTmallBot.js","126","39","126","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;HassSmartTmallBot.js:130[45:72];Sink: ""/HassS ...  ""/set"";HassSmartTmallBot.js:130[29:103]::FLOW_DESCR_END","/nodes/HassSmartTmallBot.js","130","45","130","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;HassSmartTmallBot.js:130[82:94];Sink: ""/HassS ...  ""/set"";HassSmartTmallBot.js:130[29:103]::FLOW_DESCR_END","/nodes/HassSmartTmallBot.js","130","82","130","94"

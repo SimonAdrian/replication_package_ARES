@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: hostPort;rt-nodes.js:106[59:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: host;rt-nodes.js:106[69:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: RED._("" ... tion_id;rt-nodes.js:176[32:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: msg;rt-nodes.js:176[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: hostPort;rt-nodes.js:190[67:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: host;rt-nodes.js:190[77:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:57[29:31];Sink: msg;rt-nodes.js:374[78:80]::FLOW_DESCR_END","/rt-nodes.js","57","29","57","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;rt-nodes.js:64[30:38];Sink: host;rt-nodes.js:106[69:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;rt-nodes.js:64[30:38];Sink: RED._("" ... tion_id;rt-nodes.js:176[32:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;rt-nodes.js:64[30:38];Sink: host;rt-nodes.js:190[77:80]::FLOW_DESCR_END","/rt-nodes.js","64","30","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.port;rt-nodes.js:66[20:35];Sink: msg;rt-nodes.js:374[78:80]::FLOW_DESCR_END","/rt-nodes.js","66","20","66","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rt-nodes.js:277[40:42];Sink: err;rt-nodes.js:278[26:28]::FLOW_DESCR_END","/rt-nodes.js","277","40","277","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rt-nodes.js:318[29:31];Sink: msg;rt-nodes.js:322[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rt-nodes.js:318[29:31];Sink: Buffer. ... ayload);rt-nodes.js:324[35:61]::FLOW_DESCR_END","/rt-nodes.js","318","29","318","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rt-nodes_spec.js:774[32:35];Sink: JSON.st ... onData);rt-nodes_spec.js:778[18:41]::FLOW_DESCR_END","/test/rt-nodes_spec.js","774","32","774","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;rt-nodes_spec.js:820[36:40];Sink: JSON.st ... (error);rt-nodes_spec.js:821[19:39]::FLOW_DESCR_END","/test/rt-nodes_spec.js","820","36","820","40"

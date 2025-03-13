@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gunjsclient.js:14[36:38];Sink: recordKey;gunjsclient.js:38[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gunjsclient.js:14[36:38];Sink: data[i];gunjsclient.js:39[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gunjsclient.js:14[36:38];Sink: msg;gunjsclient.js:44[23:25]::FLOW_DESCR_END","/gunjsclient.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i][key];gunjsclient.js:37[21:32];Sink: recordKey;gunjsclient.js:38[31:39]::FLOW_DESCR_END","/gunjsclient.js","37","21","37","32"

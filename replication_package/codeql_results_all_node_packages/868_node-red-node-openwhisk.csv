@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openwhisk.js:137[35:37];Sink: msg;openwhisk.js:142[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:137[35:37];Sink: msg;openwhisk.js:144[57:59]::FLOW_DESCR_END","/openwhisk/openwhisk.js","137","35","137","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openwhisk.js:200[35:37];Sink: msg;openwhisk.js:205[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:200[35:37];Sink: msg;openwhisk.js:207[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:200[35:37];Sink: msg;openwhisk.js:221[27:29]::FLOW_DESCR_END","/openwhisk/openwhisk.js","200","35","200","37"

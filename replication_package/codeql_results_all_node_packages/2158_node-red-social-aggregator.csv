@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;social-aggregator.js:6[35:37];Sink: msg;social-aggregator.js:16[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;social-aggregator.js:6[35:37];Sink: msg;social-aggregator.js:19[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;social-aggregator.js:6[35:37];Sink: msg;social-aggregator.js:24[21:23]::FLOW_DESCR_END","/social-aggregator.js","6","35","6","37"

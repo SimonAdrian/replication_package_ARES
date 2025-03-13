@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msdynamics-contact-lookup.js:132[38:40];Sink: [null,  ... , null];msdynamics-contact-lookup.js:176[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msdynamics-contact-lookup.js:132[38:40];Sink: [{ ...m ... , null];msdynamics-contact-lookup.js:179[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msdynamics-contact-lookup.js:132[38:40];Sink: [null,  ... , null];msdynamics-contact-lookup.js:182[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msdynamics-contact-lookup.js:132[38:40];Sink: [null,  ... .msg }];msdynamics-contact-lookup.js:188[19:42]::FLOW_DESCR_END","/nodes/contactLookup/msdynamics-contact-lookup.js","132","38","132","40"

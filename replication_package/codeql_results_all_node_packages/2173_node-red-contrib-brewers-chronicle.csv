@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;brewers-chronicle-get.js:12[42:44];Sink: msg;brewers-chronicle-get.js:33[18:20]::FLOW_DESCR_END","/brewers-chronicle-get.js","12","42","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;brewers-chronicle-post.js:20[42:44];Sink: msg;brewers-chronicle-post.js:64[18:20]::FLOW_DESCR_END","/brewers-chronicle-post.js","20","42","20","44"

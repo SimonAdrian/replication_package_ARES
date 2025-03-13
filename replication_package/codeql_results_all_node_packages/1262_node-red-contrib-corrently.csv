@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GSI.js:8[41:43];Sink: msg;GSI.js:15[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GSI.js:8[41:43];Sink: ""https: ... fig.plz;gsi.js:5[29:129]::FLOW_DESCR_END","/GSI.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GruenstromBonus.js:8[41:43];Sink: msg;GruenstromBonus.js:22[21:23]::FLOW_DESCR_END","/GruenstromBonus.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Strompreis.js:8[41:43];Sink: msg;Strompreis.js:28[21:23]::FLOW_DESCR_END","/Strompreis.js","8","41","8","43"

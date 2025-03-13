@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;car-bmw.js:87[33:35];Sink: msg;car-bmw.js:108[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;car-bmw.js:87[33:35];Sink: msg;car-bmw.js:123[31:33]::FLOW_DESCR_END","/car-bmw.js","87","33","87","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;car-bmw.js:161[33:35];Sink: msg;car-bmw.js:184[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;car-bmw.js:161[33:35];Sink: msg;car-bmw.js:197[31:33]::FLOW_DESCR_END","/car-bmw.js","161","33","161","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;car-bmw.js:238[33:35];Sink: msg;car-bmw.js:270[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;car-bmw.js:238[33:35];Sink: msg;car-bmw.js:283[31:33]::FLOW_DESCR_END","/car-bmw.js","238","33","238","35"

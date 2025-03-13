@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;play-soundfile.js:30[31:33];Sink: filePath;play-soundfile.js:46[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-soundfile.js:30[31:33];Sink: `Error  ... (err)}`;play-soundfile.js:52[29:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-soundfile.js:30[31:33];Sink: msg;play-soundfile.js:52[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-soundfile.js:30[31:33];Sink: msg;play-soundfile.js:53[24:26]::FLOW_DESCR_END","/play-soundfile.js","30","31","30","33"

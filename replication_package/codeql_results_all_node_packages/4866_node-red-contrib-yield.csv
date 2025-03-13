@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;yield.js:11[31:33];Sink: msg;yield.js:14[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;yield.js:11[31:33];Sink: message;yield.js:17[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;yield.js:11[31:33];Sink: msg;yield.js:20[19:21]::FLOW_DESCR_END","/yield.js","11","31","11","33"

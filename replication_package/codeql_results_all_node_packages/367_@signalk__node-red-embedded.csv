@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signalk-delay.js:7[22:24];Sink: msg.payload;signalk-delay.js:20[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signalk-delay.js:7[22:24];Sink: msg;signalk-delay.js:24[21:23]::FLOW_DESCR_END","/signalk-delay.js","7","22","7","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signalk-geofence-switch.js:11[23:25];Sink: [null, msg ];signalk-geofence-switch.js:70[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signalk-geofence-switch.js:11[23:25];Sink: [msg, null];signalk-geofence-switch.js:73[21:31]::FLOW_DESCR_END","/signalk-geofence-switch.js","11","23","11","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;signalk-geofence.js:32[58:62];Sink: 'subscr ... + error;signalk-geofence.js:33[18:47]::FLOW_DESCR_END","/signalk-geofence.js","32","58","32","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;signalk-notification.js:32[58:62];Sink: 'subscr ... + error;signalk-notification.js:33[18:47]::FLOW_DESCR_END","/signalk-notification.js","32","58","32","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signalk-send-nmea0183.js:22[22:24];Sink: msg.payload;signalk-send-nmea0183.js:24[38:48]::FLOW_DESCR_END","/signalk-send-nmea0183.js","22","22","22","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signalk-send-nmea2000.js:23[22:24];Sink: msg.payload;signalk-send-nmea2000.js:26[44:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signalk-send-nmea2000.js:23[22:24];Sink: msg.payload;signalk-send-nmea2000.js:28[40:50]::FLOW_DESCR_END","/signalk-send-nmea2000.js","23","22","23","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;signalk-subscribe.js:127[27:29];Sink: err;signalk-subscribe.js:128[61:63]::FLOW_DESCR_END","/signalk-subscribe.js","127","27","127","29"

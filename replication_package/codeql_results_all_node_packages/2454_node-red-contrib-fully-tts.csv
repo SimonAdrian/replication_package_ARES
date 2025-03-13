@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fully-tts.js:10[27:29];Sink: requeststring;fully-tts.js:38[22:34]::FLOW_DESCR_END","/fully-tts.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;fully-tts.js:28[24:34];Sink: requeststring;fully-tts.js:38[22:34]::FLOW_DESCR_END","/fully-tts.js","28","24","28","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;fully-tts.js:29[28:42];Sink: requeststring;fully-tts.js:38[22:34]::FLOW_DESCR_END","/fully-tts.js","29","28","29","42"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obix-niagara-history.js:10[38:40];Sink: msg;obix-niagara-history.js:35[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obix-niagara-history.js:10[38:40];Sink: msg;obix-niagara-history.js:41[54:56]::FLOW_DESCR_END","/History/obix-niagara-history.js","10","38","10","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obix-niagara-variable.js:19[38:40];Sink: msg;obix-niagara-variable.js:68[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obix-niagara-variable.js:19[38:40];Sink: msg;obix-niagara-variable.js:74[54:56]::FLOW_DESCR_END","/Variable/obix-niagara-variable.js","19","38","19","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obix-niagara-watcher.js:39[38:40];Sink: msg;obix-niagara-watcher.js:15[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obix-niagara-watcher.js:39[38:40];Sink: msg;obix-niagara-watcher.js:69[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obix-niagara-watcher.js:39[38:40];Sink: msg;obix-niagara-watcher.js:125[14:16]::FLOW_DESCR_END","/Watcher/obix-niagara-watcher.js","39","38","39","40"

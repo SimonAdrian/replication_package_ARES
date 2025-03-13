@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: this.url;event_recv.js:103[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: ""Reconn ... his.url;event_recv.js:239[37:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: this.url;event_recv.js:240[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: ""Sendin ... his.url;event_recv.js:253[37:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: ""URL: "" + this.url;event_recv.js:282[33:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: ""Connec ... his.url;event_recv.js:297[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.host;event_recv.js:63[30:43];Sink: this.url;event_recv.js:298[33:40]::FLOW_DESCR_END","/nodes/common/event_recv.js","63","30","63","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: this.url;event_recv.js:103[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: ""Reconn ... his.url;event_recv.js:239[37:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: this.url;event_recv.js:240[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: ""Sendin ... his.url;event_recv.js:253[37:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: ""URL: "" + this.url;event_recv.js:282[33:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: ""Connec ... his.url;event_recv.js:297[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.node.port;event_recv.js:63[53:66];Sink: this.url;event_recv.js:298[33:40]::FLOW_DESCR_END","/nodes/common/event_recv.js","63","53","63","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;event_recv.js:123[38:44];Sink: ""Result ... ult[0]);event_recv.js:159[45:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;event_recv.js:123[38:44];Sink: ""Unsupp ... .method;event_recv.js:179[44:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;event_recv.js:123[38:44];Sink: ""Unknow ... ge.type;event_recv.js:189[36:74]::FLOW_DESCR_END","/nodes/common/event_recv.js","123","38","123","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;event_recv.js:202[36:40];Sink: ""Connec ... tring();event_recv.js:204[33:71]::FLOW_DESCR_END","/nodes/common/event_recv.js","202","36","202","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reasonCode;event_recv.js:210[37:46];Sink: ""Connec ... n + "")"";event_recv.js:232[33:93]::FLOW_DESCR_END","/nodes/common/event_recv.js","210","37","210","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: description;event_recv.js:210[49:59];Sink: ""Connec ... n + "")"";event_recv.js:232[33:93]::FLOW_DESCR_END","/nodes/common/event_recv.js","210","49","210","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;event_recv.js:277[41:45];Sink: ""Connec ... tring();event_recv.js:281[33:72]::FLOW_DESCR_END","/nodes/common/event_recv.js","277","41","277","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload[j];utils.js:494[43:57];Sink: await g ... y(prop);utils.js:171[60:82]::FLOW_DESCR_END","/nodes/common/utils.js","494","43","494","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.currentValue;utils.js:498[70:89];Sink: await g ... y(prop);utils.js:171[60:82]::FLOW_DESCR_END","/nodes/common/utils.js","498","70","498","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload[j];utils.js:524[43:57];Sink: await g ... y(prop);utils.js:171[60:82]::FLOW_DESCR_END","/nodes/common/utils.js","524","43","524","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.currentValue;utils.js:528[70:89];Sink: await g ... y(prop);utils.js:171[60:82]::FLOW_DESCR_END","/nodes/common/utils.js","528","70","528","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload[j];utils.js:554[43:57];Sink: await g ... y(prop);utils.js:171[60:82]::FLOW_DESCR_END","/nodes/common/utils.js","554","43","554","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.currentValue;utils.js:558[70:89];Sink: await g ... y(prop);utils.js:171[60:82]::FLOW_DESCR_END","/nodes/common/utils.js","558","70","558","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control.js:66[45:47];Sink: msg ? msg : {};utils.js:186[43:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control.js:66[45:47];Sink: out;control.js:722[38:40]::FLOW_DESCR_END","/nodes/control.js","66","45","66","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;device.js:63[49:52];Sink: ""Error  ...  + code;device.js:108[27:64]::FLOW_DESCR_END","/nodes/device.js","63","49","63","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;device.js:144[41:49];Sink: uri + "" ... y(body);device.js:155[28:62]::FLOW_DESCR_END","/nodes/device.js","144","41","144","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;device.js:144[59:67];Sink: uri + "" ... y(body);device.js:155[28:62]::FLOW_DESCR_END","/nodes/device.js","144","59","144","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;device.js:174[35:43];Sink: JSON.st ... espMsg);device.js:183[36:58]::FLOW_DESCR_END","/nodes/device.js","174","35","174","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result[0];device.js:180[35:48];Sink: JSON.st ... espMsg);device.js:183[36:58]::FLOW_DESCR_END","/nodes/device.js","180","35","180","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;device.js:220[39:44];Sink: status;device.js:222[46:51]::FLOW_DESCR_END","/nodes/device.js","220","39","220","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;notify.js:114[47:52];Sink: status;notify.js:116[33:38]::FLOW_DESCR_END","/nodes/notify.js","114","47","114","52"

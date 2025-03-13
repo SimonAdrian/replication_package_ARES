@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.host;77-indigo.html:285[21:36];Sink: ""config ... config);77-indigo.html:291[29:64]::FLOW_DESCR_END","/77-indigo.html","285","21","285","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.port;77-indigo.html:286[21:36];Sink: ""config ... config);77-indigo.html:291[29:64]::FLOW_DESCR_END","/77-indigo.html","286","21","286","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.username;77-indigo.html:287[25:44];Sink: ""config ... config);77-indigo.html:291[29:64]::FLOW_DESCR_END","/77-indigo.html","287","25","287","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.password;77-indigo.html:288[25:44];Sink: ""config ... config);77-indigo.html:291[29:64]::FLOW_DESCR_END","/77-indigo.html","288","25","288","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-indigo.js:263[30:32];Sink: msg;77-indigo.js:283[16:18]::FLOW_DESCR_END","/77-indigo.js","263","30","263","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-indigo.js:315[30:32];Sink: 'gettin ...  + item;77-indigo.js:318[16:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;77-indigo.js:315[30:32];Sink: msg;77-indigo.js:325[16:18]::FLOW_DESCR_END","/77-indigo.js","315","30","315","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-indigo.js:348[30:32];Sink: msg;77-indigo.js:358[16:18]::FLOW_DESCR_END","/77-indigo.js","348","30","348","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-indigo.js:382[30:32];Sink: msg;77-indigo.js:392[16:18]::FLOW_DESCR_END","/77-indigo.js","382","30","382","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-indigo.js:415[30:32];Sink: msg;77-indigo.js:425[16:18]::FLOW_DESCR_END","/77-indigo.js","415","30","415","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;77-indigo.js:470[22:28];Sink: devices;77-indigo.js:127[12:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;77-indigo.js:470[22:28];Sink: variables;77-indigo.js:134[12:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;77-indigo.js:470[22:28];Sink: actions;77-indigo.js:141[12:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;77-indigo.js:470[22:28];Sink: payload;77-indigo.js:472[18:24]::FLOW_DESCR_END","/77-indigo.js","470","22","470","28"

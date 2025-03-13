@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;getSatList.js:16[24:27];Sink: JSON.st ... result);getSatList.js:37[37:58]::FLOW_DESCR_END","/getSatList.js","16","24","16","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: markers ... osition;satellites.js:52[25:51];Sink: m.x;satellites.js:54[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: markers ... osition;satellites.js:52[25:51];Sink: m.y;satellites.js:54[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: markers ... osition;satellites.js:52[25:51];Sink: m.z;satellites.js:54[45:47]::FLOW_DESCR_END","/satellites/satellites.js","52","25","52","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;satellites.js:73[36:38];Sink: msg;satellites.js:118[23:25]::FLOW_DESCR_END","/satellites.js","73","36","73","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;satellites.js:159[36:38];Sink: msg;satellites.js:184[31:33]::FLOW_DESCR_END","/satellites.js","159","36","159","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;satellites.js:220[36:38];Sink: msg;satellites.js:234[23:25]::FLOW_DESCR_END","/satellites.js","220","36","220","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;satellites.js:255[31:33];Sink: data;satellites.js:38[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;satellites.js:255[31:33];Sink: JSON.st ... ayload);satellites.js:256[34:60]::FLOW_DESCR_END","/satellites.js","255","31","255","33"

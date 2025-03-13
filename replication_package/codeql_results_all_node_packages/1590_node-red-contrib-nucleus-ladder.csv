@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();nucleus-ladder.js:23[30:40];Sink: y;nucleus-ladder.js:17[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nucleus-ladder.js:23[30:40];Sink: y;nucleus-ladder.js:17[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nucleus-ladder.js:23[30:40];Sink: op[1];nucleus-ladder.js:17[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nucleus-ladder.js:23[30:40];Sink: error_1;nucleus-ladder.js:691[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nucleus-ladder.js:23[30:40];Sink: error_5;nucleus-ladder.js:884[53:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nucleus-ladder.js:23[30:40];Sink: error_4;nucleus-ladder.js:893[37:43]::FLOW_DESCR_END","/nucleus-ladder/nucleus-ladder.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nucleus-ladder.js:63[36:38];Sink: msg;nucleus-ladder.js:118[23:25]::FLOW_DESCR_END","/nucleus-ladder/nucleus-ladder.js","63","36","63","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nucleus-ladder.js:145[36:38];Sink: msg;nucleus-ladder.js:199[23:25]::FLOW_DESCR_END","/nucleus-ladder/nucleus-ladder.js","145","36","145","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nucleus-ladder.js:225[36:38];Sink: msg;nucleus-ladder.js:284[23:25]::FLOW_DESCR_END","/nucleus-ladder/nucleus-ladder.js","225","36","225","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nucleus-ladder.js:311[36:38];Sink: msg;nucleus-ladder.js:367[23:25]::FLOW_DESCR_END","/nucleus-ladder/nucleus-ladder.js","311","36","311","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nucleus-ladder.js:436[52:54];Sink: msg;nucleus-ladder.js:674[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nucleus-ladder.js:436[52:54];Sink: msg;nucleus-ladder.js:682[51:53]::FLOW_DESCR_END","/nucleus-ladder/nucleus-ladder.js","436","52","436","54"

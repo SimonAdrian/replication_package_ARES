@@ -1,0 +1,32 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:15[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:15[29:31];Sink: msg;gc.js:18[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:15[29:31];Sink: e;gc.js:20[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:15[29:31];Sink: msg;gc.js:20[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:33[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:33[29:31];Sink: msg;gc.js:36[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:33[29:31];Sink: e;gc.js:38[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:33[29:31];Sink: msg;gc.js:38[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","33","29","33","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:59[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:59[29:31];Sink: msg;gc.js:62[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:59[29:31];Sink: e;gc.js:64[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:59[29:31];Sink: msg;gc.js:64[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","59","29","59","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:78[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:78[29:31];Sink: msg;gc.js:81[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:78[29:31];Sink: e;gc.js:83[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:78[29:31];Sink: msg;gc.js:83[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","78","29","78","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:94[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:94[29:31];Sink: msg;gc.js:97[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:94[29:31];Sink: e;gc.js:99[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:94[29:31];Sink: msg;gc.js:99[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","94","29","94","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:110[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:110[29:31];Sink: msg;gc.js:113[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:110[29:31];Sink: e;gc.js:115[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:110[29:31];Sink: msg;gc.js:115[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","110","29","110","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:127[29:31];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:127[29:31];Sink: msg;gc.js:130[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:127[29:31];Sink: e;gc.js:132[16:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:127[29:31];Sink: msg;gc.js:132[19:21]::FLOW_DESCR_END","/game_controllerizer/gc.js","127","29","127","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gc.js:142[35:37];Sink: obj;gc-ops.js:7[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:142[35:37];Sink: msg;gc.js:153[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:142[35:37];Sink: e;gc.js:155[28:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gc.js:142[35:37];Sink: msg;gc.js:155[31:33]::FLOW_DESCR_END","/game_controllerizer/gc.js","142","35","142","37"

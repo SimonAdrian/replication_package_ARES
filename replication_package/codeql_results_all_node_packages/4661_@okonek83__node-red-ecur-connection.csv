@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;inverters-config.js:8[36:38];Sink: msg;inverters-config.js:17[22:24]::FLOW_DESCR_END","/inverters-config.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;inverters-query.js:17[36:38];Sink: msg;inverters-query.js:28[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inverters-query.js:17[36:38];Sink: this.port;ECUR.js:37[43:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inverters-query.js:17[36:38];Sink: this.host;ECUR.js:37[54:62]::FLOW_DESCR_END","/inverters-query.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.port;inverters-query.js:19[65:80];Sink: this.port;ECUR.js:37[43:51]::FLOW_DESCR_END","/inverters-query.js","19","65","19","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ECUR.js:78[35:38];Sink: cmd;ECUR.js:60[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ECUR.js:78[35:38];Sink: cmd;ECUR.js:139[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ECUR.js:78[35:38];Sink: cmd;ECUR.js:168[20:22]::FLOW_DESCR_END","/lib/ECUR.js","78","35","78","38"

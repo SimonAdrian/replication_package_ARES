@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-bool-if.js:8[35:37];Sink: msg;sense-bool-if.js:16[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-bool-if.js:8[35:37];Sink: msg;sense-bool-if.js:20[39:41]::FLOW_DESCR_END","/sense-bool-if.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:16[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:20[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:24[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:28[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:32[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:36[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-num-if.js:8[35:37];Sink: msg;sense-num-if.js:40[39:41]::FLOW_DESCR_END","/sense-num-if.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-repeat.js:8[35:37];Sink: msg;sense-repeat.js:14[31:33]::FLOW_DESCR_END","/sense-repeat.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-str-if.js:8[35:37];Sink: msg;sense-str-if.js:16[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-str-if.js:8[35:37];Sink: msg;sense-str-if.js:20[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-str-if.js:8[35:37];Sink: msg;sense-str-if.js:24[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-str-if.js:8[35:37];Sink: msg;sense-str-if.js:28[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sense-str-if.js:8[35:37];Sink: msg;sense-str-if.js:32[39:41]::FLOW_DESCR_END","/sense-str-if.js","8","35","8","37"

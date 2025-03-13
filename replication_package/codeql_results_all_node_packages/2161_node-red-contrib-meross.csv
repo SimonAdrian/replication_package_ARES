@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myError;smartgarage-control.js:78[23:29];Sink: 'There  ... myError;smartgarage-control.js:80[20:51]::FLOW_DESCR_END","/meross/smartgarage-control.js","78","23","78","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myError;smartplug-control.js:68[24:30];Sink: 'There  ... myError;smartplug-control.js:70[20:51]::FLOW_DESCR_END","/meross/smartplug-control.js","68","24","68","30"

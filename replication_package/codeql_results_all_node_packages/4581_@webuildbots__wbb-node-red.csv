@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wbb-fetch-text.js:8[35:37];Sink: msg;wbb-fetch-text.js:22[27:29]::FLOW_DESCR_END","/wbb-fetch-text.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wbb-reply.js:7[35:37];Sink: msg;wbb-reply.js:13[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wbb-reply.js:7[35:37];Sink: msg;wbb-reply.js:20[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wbb-reply.js:7[35:37];Sink: msg;wbb-reply.js:33[23:25]::FLOW_DESCR_END","/wbb-reply.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wbb.js:15[45:47];Sink: msg;wbb.js:86[27:29]::FLOW_DESCR_END","/wbb.js","15","45","15","47"

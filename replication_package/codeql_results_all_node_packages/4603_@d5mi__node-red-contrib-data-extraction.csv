@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-extractor.js:53[32:34];Sink: msg;data-extractor.js:66[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;data-extractor.js:53[32:34];Sink: msg;data-extractor.js:70[38:40]::FLOW_DESCR_END","/data-extractor/data-extractor.js","53","32","53","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-filter.js:11[32:34];Sink: msg;data-filter.js:48[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;data-filter.js:11[32:34];Sink: msg;data-filter.js:51[38:40]::FLOW_DESCR_END","/data-filter/data-filter.js","11","32","11","34"

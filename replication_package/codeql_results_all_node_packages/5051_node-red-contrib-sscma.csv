@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;preview.html:259[55:58];Sink: data;preview.html:265[29:32]::FLOW_DESCR_END","/preview.html","259","55","259","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.rotate;index.html:129[40:50];Sink: rotate;index.html:130[37:42]::FLOW_DESCR_END","/public/index.html","129","40","129","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;sscma.js:53[21:31];Sink: node.brokerurl;sscma.js:130[48:61]::FLOW_DESCR_END","/sscma.js","53","21","53","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;sscma.js:64[38:46];Sink: node.brokerurl;sscma.js:130[48:61]::FLOW_DESCR_END","/sscma.js","64","38","64","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sscma.js:153[64:66];Sink: err;sscma.js:154[52:54]::FLOW_DESCR_END","/sscma.js","153","64","153","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sscma.js:195[55:57];Sink: err;sscma.js:196[37:39]::FLOW_DESCR_END","/sscma.js","195","55","195","57"

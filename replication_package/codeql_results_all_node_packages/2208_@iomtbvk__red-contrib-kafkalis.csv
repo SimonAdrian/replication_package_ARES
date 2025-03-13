@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafka-consumer.js:53[37:39];Sink: err;kafka-consumer.js:56[28:30]::FLOW_DESCR_END","/js/kafka-consumer.js","53","37","53","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafka-producer.js:22[37:39];Sink: err;kafka-producer.js:26[28:30]::FLOW_DESCR_END","/js/kafka-producer.js","22","37","22","39"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pdf-red.js:79[32:34];Sink: msg;pdf-red.js:85[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-red.js:79[32:34];Sink: pdfFilePath;pdfToCairo.js:31[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-red.js:79[32:34];Sink: tempFilePath;tesseractUtils.js:45[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-red.js:79[32:34];Sink: fileOpt ... eBuffer;tesseractUtils.js:45[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-red.js:79[32:34];Sink: path.re ... '.pdf');tesseractUtils.js:134[24:103]::FLOW_DESCR_END","/pdf-red.js","79","32","79","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ocation;utils.js:30[18:42];Sink: url;utils.js:17[31:33]::FLOW_DESCR_END","/utils/utils.js","30","18","30","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.fil ... ).pop();utils.js:86[16:45];Sink: pdfFilePath;pdfToCairo.js:31[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.fil ... ).pop();utils.js:86[16:45];Sink: tempFilePath;tesseractUtils.js:45[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.fil ... ).pop();utils.js:86[16:45];Sink: path.re ... '.pdf');tesseractUtils.js:134[24:103]::FLOW_DESCR_END","/utils/utils.js","86","16","86","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.res ... ).pop();utils.js:88[16:47];Sink: pdfFilePath;pdfToCairo.js:31[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.res ... ).pop();utils.js:88[16:47];Sink: tempFilePath;tesseractUtils.js:45[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.res ... ).pop();utils.js:88[16:47];Sink: path.re ... '.pdf');tesseractUtils.js:134[24:103]::FLOW_DESCR_END","/utils/utils.js","88","16","88","47"

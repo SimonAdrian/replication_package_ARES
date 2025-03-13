@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;fluttergenerator.js:55[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;fluttergenerator.js:59[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;fluttergenerator.js:60[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;generate.js:22[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;generate.js:32[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: `Genera ... ation}`;generate.js:34[14:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;generate.js:47[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fluttergenerator.js:43[36:38];Sink: msg;generate.js:50[19:21]::FLOW_DESCR_END","/fluttergenerator.js","43","36","43","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... \n    });settings.js:49[25:6];Sink: msg.payload;generate.js:21[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... \n    });settings.js:49[25:6];Sink: msg.payload;generate.js:31[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... \n    });settings.js:49[25:6];Sink: msg.payload;generate.js:46[20:30]::FLOW_DESCR_END","/src/settings.js","49","25","51","6"

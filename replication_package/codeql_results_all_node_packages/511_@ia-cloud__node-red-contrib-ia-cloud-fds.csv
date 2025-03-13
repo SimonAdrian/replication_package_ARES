@@ -1,0 +1,53 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: lObj;EnOcean-com.js:412[33:36];Sink: `lObj = ... lObj)}`;EnOcean-com.js:426[24:55]::FLOW_DESCR_END","/EnOcean/EnOcean-com.js","412","33","412","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: objectKey;EnOcean-obj.js:189[37:45];Sink: `elemen ... nt[0]}`;EnOcean-obj.js:108[28:55]::FLOW_DESCR_END","/EnOcean/EnOcean-obj.js","189","37","189","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;HMI-Schneider-AE.js:52[36:38];Sink: msg;HMI-Schneider-AE.js:54[17:19]::FLOW_DESCR_END","/HMI-Schneider/HMI-Schneider-AE.js","52","36","52","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;HMI-Schneider.js:52[36:38];Sink: msg;HMI-Schneider.js:54[17:19]::FLOW_DESCR_END","/HMI-Schneider/HMI-Schneider.js","52","36","52","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... (fname);PLC-mitsubishi-AE.js:57[23:44];Sink: jscript;PLC-mitsubishi-AE.js:62[42:48]::FLOW_DESCR_END","/PLC-Nodes/PLC-mitsubishi-AE.js","57","23","57","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... (fname);PLC-mitsubishi.js:57[23:44];Sink: jscript;PLC-mitsubishi.js:62[42:48]::FLOW_DESCR_END","/PLC-Nodes/PLC-mitsubishi.js","57","23","57","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... (fname);PLC-modbus-AE.js:57[23:44];Sink: jscript;PLC-modbus-AE.js:62[42:48]::FLOW_DESCR_END","/PLC-Nodes/PLC-modbus-AE.js","57","23","57","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... (fname);PLC-modbus.js:58[23:44];Sink: jscript;PLC-modbus.js:63[42:48]::FLOW_DESCR_END","/PLC-Nodes/PLC-modbus.js","58","23","58","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8"");PLC-sim.js:46[27:104];Sink: PLCSim;PLC-sim.js:57[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8"");PLC-sim.js:46[27:104];Sink: PLCSim;PLC-sim.js:141[42:47]::FLOW_DESCR_END","/PLC-Nodes/PLC-sim.js","46","27","46","104"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;alternative4got.js:33[38:40];Sink: filePath;choco-watcher.js:155[49:56]::FLOW_DESCR_END","/chocoW/alternative4got.js","33","38","33","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;chocoW.js:315[33:35];Sink: error.toString();chocoW.js:419[22:37]::FLOW_DESCR_END","/chocoW/chocoW.js","315","33","315","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... (fname);chocoW.js:461[18:39];Sink: image;chocoW.js:465[35:39]::FLOW_DESCR_END","/chocoW/chocoW.js","461","18","461","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-range.js:37[34:36];Sink: msg;data-range.js:48[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;data-range.js:37[34:36];Sink: msg;data-range.js:87[22:24]::FLOW_DESCR_END","/functions/data-range.js","37","34","37","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;de-noise.js:40[34:36];Sink: msg;de-noise.js:51[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;de-noise.js:40[34:36];Sink: msg;de-noise.js:126[22:24]::FLOW_DESCR_END","/functions/de-noise.js","40","34","40","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;de-noise2.js:43[34:36];Sink: msg;de-noise2.js:53[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;de-noise2.js:43[34:36];Sink: msg;de-noise2.js:147[22:24]::FLOW_DESCR_END","/functions/de-noise2.js","43","34","43","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;edge-delay.js:39[34:36];Sink: msg;edge-delay.js:49[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-delay.js:39[34:36];Sink: msg;edge-delay.js:138[22:24]::FLOW_DESCR_END","/functions/edge-delay.js","39","34","39","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;evaluation.js:42[34:36];Sink: msg;evaluation.js:53[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;evaluation.js:42[34:36];Sink: msg;evaluation.js:142[22:24]::FLOW_DESCR_END","/functions/evaluation.js","42","34","42","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;evaluationAE.js:42[34:36];Sink: msg;evaluationAE.js:53[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;evaluationAE.js:42[34:36];Sink: msg;evaluationAE.js:136[22:24]::FLOW_DESCR_END","/functions/evaluationAE.js","42","34","42","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rename-data.js:36[34:36];Sink: msg;rename-data.js:47[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rename-data.js:36[34:36];Sink: msg;rename-data.js:79[18:20]::FLOW_DESCR_END","/functions/rename-data.js","36","34","36","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rename-object.js:34[34:36];Sink: msg;rename-object.js:49[22:24]::FLOW_DESCR_END","/functions/rename-object.js","34","34","34","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smoothing.js:42[34:36];Sink: msg;smoothing.js:52[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smoothing.js:42[34:36];Sink: msg;smoothing.js:160[18:20]::FLOW_DESCR_END","/functions/smoothing.js","42","34","42","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ia-cloud-change.js:46[27:33];Sink: message;ia-cloud-change.js:95[37:43]::FLOW_DESCR_END","/ia-cloud-change/ia-cloud-change.js","46","27","46","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ia-cloud-V2-cnct.js:162[34:36];Sink: msg;ia-cloud-V2-cnct.js:202[35:37]::FLOW_DESCR_END","/ia-cloud-cnct/ia-cloud-V2-cnct.js","162","34","162","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ia-cloud-cnct.js:28[36:38];Sink: err;ia-cloud-cnct.js:34[36:38]::FLOW_DESCR_END","/ia-cloud-cnct/ia-cloud-cnct.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;ia-cloud-cnct.js:28[41:43];Sink: res.statusCode;ia-cloud-cnct.js:45[36:49]::FLOW_DESCR_END","/ia-cloud-cnct/ia-cloud-cnct.js","28","41","28","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ia-cloud-cnct.js:228[34:36];Sink: msg;ia-cloud-cnct.js:270[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ia-cloud-cnct.js:228[34:36];Sink: msg;ia-cloud-cnct.js:277[25:27]::FLOW_DESCR_END","/ia-cloud-cnct/ia-cloud-cnct.js","228","34","228","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ia-cloud-cnct2.js:163[34:36];Sink: msg;ia-cloud-cnct2.js:191[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ia-cloud-cnct2.js:163[34:36];Sink: objStrArray[0];ia-cloud-connection.js:295[41:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ia-cloud-cnct2.js:163[34:36];Sink: objStrArray[1];ia-cloud-connection.js:303[45:58]::FLOW_DESCR_END","/ia-cloud-cnct/ia-cloud-cnct2.js","163","34","163","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;ia-cloud-connection.js:117[43:47];Sink: objStrArray[0];ia-cloud-connection.js:295[41:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;ia-cloud-connection.js:117[43:47];Sink: objStrArray[1];ia-cloud-connection.js:303[45:58]::FLOW_DESCR_END","/ia-cloud-cnct/util/ia-cloud-connection.js","117","43","117","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;ia-cloud-connection.js:297[40:44];Sink: chunk;ia-cloud-connection.js:299[45:49]::FLOW_DESCR_END","/ia-cloud-cnct/util/ia-cloud-connection.js","297","40","297","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ia-cloud-nfcpy-id.js:57[26:28];Sink: err;ia-cloud-nfcpy-id.js:59[38:40]::FLOW_DESCR_END","/ia-cloud-nfcpy-id/ia-cloud-nfcpy-id.js","57","26","57","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;ibress-cloud.js:24[21:26];Sink: this.host;ibress-cloud.js:118[28:36]::FLOW_DESCR_END","/ibress-cnct/ibress-cloud.js","24","21","24","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;ibress-cloud.js:25[21:26];Sink: this.port;ibress-cloud.js:118[39:47]::FLOW_DESCR_END","/ibress-cnct/ibress-cloud.js","25","21","25","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ibress-cloud.js:150[35:37];Sink: kv;ibress-cloud.js:162[45:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ibress-cloud.js:150[35:37];Sink: msg;ibress-cloud.js:163[27:29]::FLOW_DESCR_END","/ibress-cnct/ibress-cloud.js","150","35","150","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-mc-protocol.js:137[33:35];Sink: msg;plc-mc-protocol.js:144[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc-mc-protocol.js:137[33:35];Sink: msg;plc-mc-protocol.js:150[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc-mc-protocol.js:137[33:35];Sink: msg;plc-mc-protocol.js:177[39:41]::FLOW_DESCR_END","/plc-mc-protocol/plc-mc-protocol.js","137","33","137","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signal-watcher-AE.js:87[27:29];Sink: msg;signal-watcher-AE.js:174[27:29]::FLOW_DESCR_END","/signal-watcher/signal-watcher-AE.js","87","27","87","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signal-watcher.js:87[27:29];Sink: msg;signal-watcher.js:171[27:29]::FLOW_DESCR_END","/signal-watcher/signal-watcher.js","87","27","87","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: objectKey;urd-obj.js:176[37:45];Sink: `elemen ... nt[0]}`;urd-obj.js:94[28:55]::FLOW_DESCR_END","/urd/urd-obj.js","176","37","176","45"

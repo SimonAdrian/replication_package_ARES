@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-epo-remote-command.js:54[34:36];Sink: msg;util.js:37[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-remote-command.js:54[34:36];Sink: msg;util.js:40[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-remote-command.js:54[34:36];Sink: msg;util.js:124[58:60]::FLOW_DESCR_END","/nodes/dxl-epo-remote-command.js","54","34","54","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-epo-system-apply-tag.js:56[34:36];Sink: msg;util.js:37[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-system-apply-tag.js:56[34:36];Sink: msg;util.js:40[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-system-apply-tag.js:56[34:36];Sink: msg;util.js:124[58:60]::FLOW_DESCR_END","/nodes/dxl-epo-system-apply-tag.js","56","34","56","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-epo-system-clear-tag.js:56[34:36];Sink: msg;util.js:37[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-system-clear-tag.js:56[34:36];Sink: msg;util.js:40[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-system-clear-tag.js:56[34:36];Sink: msg;util.js:124[58:60]::FLOW_DESCR_END","/nodes/dxl-epo-system-clear-tag.js","56","34","56","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-epo-system-find.js:58[34:36];Sink: msg;util.js:37[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-system-find.js:58[34:36];Sink: msg;util.js:40[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-system-find.js:58[34:36];Sink: msg;util.js:124[58:60]::FLOW_DESCR_END","/nodes/dxl-epo-system-find.js","58","34","58","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-epo-threat-event-create.js:55[34:36];Sink: msg;util.js:37[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-threat-event-create.js:55[34:36];Sink: msg;util.js:40[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-epo-threat-event-create.js:55[34:36];Sink: msg;util.js:124[58:60]::FLOW_DESCR_END","/nodes/dxl-epo-threat-event-create.js","55","34","55","36"

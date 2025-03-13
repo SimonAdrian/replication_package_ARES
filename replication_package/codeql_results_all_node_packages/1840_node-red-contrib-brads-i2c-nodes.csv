@@ -1,0 +1,29 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;bme280-node.js:359[137:149];Sink: `${reje ... iceId}`;bme280-node.js:359[18:151]::FLOW_DESCR_END","/sensors/bme280-node.js","359","137","359","149"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bme280-node.js:363[23:25];Sink: msg;bme280-node.js:166[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bme280-node.js:363[23:25];Sink: msg;bme280-node.js:392[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bme280-node.js:363[23:25];Sink: JSON.stringify(msg);bme280-node.js:400[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bme280-node.js:363[23:25];Sink: msg;bme280-node.js:402[17:19]::FLOW_DESCR_END","/sensors/bme280-node.js","363","23","363","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;bmp180-node.js:196[137:149];Sink: `${reje ... iceId}`;bmp180-node.js:196[18:151]::FLOW_DESCR_END","/sensors/bmp180-node.js","196","137","196","149"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bmp180-node.js:200[23:25];Sink: msg;bmp180-node.js:91[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bmp180-node.js:200[23:25];Sink: msg;bmp180-node.js:224[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bmp180-node.js:200[23:25];Sink: JSON.stringify(msg);bmp180-node.js:232[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bmp180-node.js:200[23:25];Sink: msg;bmp180-node.js:234[17:19]::FLOW_DESCR_END","/sensors/bmp180-node.js","200","23","200","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;bmp280-node.js:208[54:66];Sink: result;bmp280-node.js:209[20:25]::FLOW_DESCR_END","/sensors/bmp280-node.js","208","54","208","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;bmp280-node.js:270[137:149];Sink: `${reje ... iceId}`;bmp280-node.js:270[18:151]::FLOW_DESCR_END","/sensors/bmp280-node.js","270","137","270","149"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bmp280-node.js:274[23:25];Sink: msg;bmp280-node.js:312[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bmp280-node.js:274[23:25];Sink: JSON.stringify(msg);bmp280-node.js:320[16:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bmp280-node.js:274[23:25];Sink: msg;bmp280-node.js:321[17:19]::FLOW_DESCR_END","/sensors/bmp280-node.js","274","23","274","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;htu21d-node.js:141[85:97];Sink: `${reje ... iceId}`;htu21d-node.js:141[18:99]::FLOW_DESCR_END","/sensors/htu21d-node.js","141","85","141","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;htu21d-node.js:149[23:25];Sink: msg;htu21d-node.js:185[23:25]::FLOW_DESCR_END","/sensors/htu21d-node.js","149","23","149","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mcp9808-node.js:116[24:26];Sink: msg;mcp9808-node.js:92[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mcp9808-node.js:116[24:26];Sink: `deploy ... ${msg}`;mcp9808-node.js:117[13:49]::FLOW_DESCR_END","/sensors/mcp9808-node.js","116","24","116","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;mcp9808-node.js:147[102:114];Sink: msg;mcp9808-node.js:92[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;mcp9808-node.js:147[102:114];Sink: `wordBy ... iceId}`;mcp9808-node.js:147[17:116]::FLOW_DESCR_END","/sensors/mcp9808-node.js","147","102","147","114"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;mcp9808-node.js:174[82:94];Sink: `${reje ... iceId}`;mcp9808-node.js:174[18:96]::FLOW_DESCR_END","/sensors/mcp9808-node.js","174","82","174","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mcp9808-node.js:177[30:32];Sink: msg;mcp9808-node.js:92[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mcp9808-node.js:177[30:32];Sink: `sensor ... ${msg}`;mcp9808-node.js:178[13:42]::FLOW_DESCR_END","/sensors/mcp9808-node.js","177","30","177","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tsl2561-node.js:158[24:26];Sink: msg;tsl2561-node.js:128[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tsl2561-node.js:158[24:26];Sink: `deploy ... (msg)}`;tsl2561-node.js:159[13:65]::FLOW_DESCR_END","/sensors/tsl2561-node.js","158","24","158","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;tsl2561-node.js:215[41:53];Sink: msg;tsl2561-node.js:128[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;tsl2561-node.js:215[41:53];Sink: `node.d ... ision}`;tsl2561-node.js:215[21:91]::FLOW_DESCR_END","/sensors/tsl2561-node.js","215","41","215","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;tsl2561-node.js:244[85:97];Sink: `${reje ... iceId}`;tsl2561-node.js:244[18:99]::FLOW_DESCR_END","/sensors/tsl2561-node.js","244","85","244","97"

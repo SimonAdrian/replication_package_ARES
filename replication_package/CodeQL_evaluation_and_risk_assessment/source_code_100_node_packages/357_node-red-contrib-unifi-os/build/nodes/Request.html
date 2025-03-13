@@ -1,0 +1,117 @@
+<script type="text/javascript">
+    RED.nodes.registerType('unifi-request',
+        {
+            category: 'UniFi',
+            defaults:
+                {
+                    name: {
+                        value: '',
+                        required: false
+                    },
+                    accessControllerNodeId: {
+                        value: '',
+                        type: 'unifi-access-controller',
+                        required: true
+                    },
+                    endpoint: {
+                        value: '',
+                        required: false
+                    },
+                    method: {
+                        value: 'GET',
+                        required: true
+                    },
+                    data: {
+                        value: '{}',
+                        required: false
+                    },
+                    dataType: {
+                        value: 'json',
+                        required: false
+                    },
+                    responseType: {
+                        value: 'json',
+                        required: false
+                    },
+                },
+            inputs: 1,
+            outputs: 1,
+            icon: 'unifi.png',
+            color: '#159eda',
+            label: function () {
+                return this.name || "unifi-request";
+            },
+            labelStyle: function () {
+                return this.name ? 'node_label_italic' : ''
+            },
+            oneditprepare: function () {
+                $("#node-input-method")
+                    .change(function () {
+                        if (this.value === 'GET') {
+                            $("#request-data").fadeOut('fast')
+                        } else {
+                            $("#request-data").fadeIn('fast')
+                        }
+                    })
+                    .change()
+
+                $("#node-input-data").typedInput({
+                    type: "json",
+                    types: ["json", "str", "num", "bool"],
+                    typeField: "#node-input-dataType"
+                })
+            }
+        });
+</script>
+
+<script data-template-name="unifi-request" type="text/html">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-accessControllerNodeId"><i class="fa fa-globe"></i> Controller</label>
+        <select id="node-input-accessControllerNodeId">
+            <option value="">Choose...</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-endpoint"><i class="fa fa-level-up"></i> Endpoint</label>
+        <input type="text" id="node-input-endpoint" placeholder="Endpoint">
+    </div>
+    <div class="form-row">
+        <label for="node-input-method"><i class="fa fa-filter"></i> Method</label>
+        <select id="node-input-method">
+            <option value="GET" selected="selected">GET</option>
+            <option value="DELETE">DELETE</option>
+            <option value="HEAD">HEAD</option>
+            <option value="OPTIONS">OPTIONS</option>
+            <option value="POST">POST</option>
+            <option value="PUT">PUT</option>
+            <option value="PATCH">PATCH</option>
+            <option value="PURGE">PURGE</option>
+            <option value="LINK">LINK</option>
+            <option value="UNLINK">UNLINK</option>
+        </select>
+    </div>
+    <div class="form-row" id="request-data">
+        <label for="node-input-data"><i class="fa fa-truck"></i> Data</label>
+        <input type="text" id="node-input-data" placeholder="">
+        <input type="hidden" id="node-input-dataType">
+    </div>
+    <div class="form-row">
+        <label for="node-input-responseType"><i class="fa fa-filter"></i> Response Type</label>
+        <select id="node-input-responseType">
+            <option value="arraybuffer">arraybuffer</option>
+            <option value="blob">blob</option>
+            <option value="document">document</option>
+            <option value="json">json</option>
+            <option value="text">text</option>
+            <option value="stream">stream</option>
+        </select>
+    </div>
+</script>
+
+<script data-help-name="unifi-request" type="text/html">
+    <p>HTTP GET command sent to Unifi OS, outputs payload of data from Unifi endpoint.</p>
+</script>

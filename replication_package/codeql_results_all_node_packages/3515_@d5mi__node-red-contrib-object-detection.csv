@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object-detection-iot.js:16[32:34];Sink: msg;object-detection-iot.js:102[12:14]::FLOW_DESCR_END","/object-detection-iot/object-detection-iot.js","16","32","16","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;object-detection-iot.js:77[38:41];Sink: data;object-detection-iot.js:72[42:45]::FLOW_DESCR_END","/object-detection-iot/object-detection-iot.js","77","38","77","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object-detection-log.js:7[32:34];Sink: msg;object-detection-log.js:30[17:19]::FLOW_DESCR_END","/object-detection-log/object-detection-log.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object-person-determine.js:5[32:34];Sink: msg;object-person-determine.js:33[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;object-person-determine.js:5[32:34];Sink: msg;object-person-determine.js:52[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;object-person-determine.js:5[32:34];Sink: msg;object-person-determine.js:58[17:19]::FLOW_DESCR_END","/object-person-determine/object-person-determine.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object-detection.js:9[32:34];Sink: msg;object-detection.js:35[12:14]::FLOW_DESCR_END","/object_detection/object-detection.js","9","32","9","34"

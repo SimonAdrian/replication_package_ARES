@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weekday.js:13[29:31];Sink: [[msg],[]];weekday.js:27[15:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weekday.js:13[29:31];Sink: [[],[msg]];weekday.js:29[15:24]::FLOW_DESCR_END","/weekday.js","13","29","13","31"

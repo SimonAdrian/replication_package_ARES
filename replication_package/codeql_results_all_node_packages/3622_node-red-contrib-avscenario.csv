@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avprojector.js:49[36:38];Sink: 'AVProj ...  + ']!';avprojector.js:88[47:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avprojector.js:49[36:38];Sink: 'AVProj ...  + ']!';avprojector.js:94[47:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avprojector.js:49[36:38];Sink: 'Unsupp ...  + ']!';avprojector.js:99[43:87]::FLOW_DESCR_END","/avprojector.js","49","36","49","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avscenario.js:214[36:38];Sink: 'Unsupp ...  + ']!';avscenario.js:244[39:91]::FLOW_DESCR_END","/avscenario.js","214","36","214","38"

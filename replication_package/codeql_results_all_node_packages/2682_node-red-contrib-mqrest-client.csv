@@ -1,0 +1,33 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mft-agent.js:31[34:36];Sink: msg;mft-agent.js:46[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mft-agent.js:31[34:36];Sink: msg;mft-agent.js:50[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mft-agent.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mft-agent.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mft-monitor.js:31[34:36];Sink: msg;mft-monitor.js:46[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mft-monitor.js:31[34:36];Sink: msg;mft-monitor.js:50[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mft-monitor.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mft-monitor.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mft-transfer.js:31[34:36];Sink: msg;mft-transfer.js:45[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mft-transfer.js:31[34:36];Sink: msg;mft-transfer.js:49[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mft-transfer.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mft-transfer.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-channel.js:31[34:36];Sink: msg;mqrest-channel.js:45[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-channel.js:31[34:36];Sink: msg;mqrest-channel.js:50[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-channel.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-channel.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-installation.js:31[34:36];Sink: msg;mqrest-installation.js:45[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-installation.js:31[34:36];Sink: msg;mqrest-installation.js:49[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-installation.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-installation.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-login.js:31[32:34];Sink: msg;mqrest-login.js:47[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-login.js:31[32:34];Sink: msg;mqrest-login.js:51[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-login.js:31[32:34];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-login.js","31","32","31","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-messaging.js:31[32:34];Sink: msg;mqrest-messaging.js:52[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-messaging.js:31[32:34];Sink: msg;mqrest-messaging.js:57[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-messaging.js:31[32:34];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-messaging.js","31","32","31","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-qmgr.js:31[34:36];Sink: msg;mqrest-qmgr.js:47[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-qmgr.js:31[34:36];Sink: msg;mqrest-qmgr.js:51[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-qmgr.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-qmgr.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-queue.js:31[32:34];Sink: msg;mqrest-queue.js:42[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-queue.js:31[32:34];Sink: msg;mqrest-queue.js:46[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-queue.js:31[32:34];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-queue.js","31","32","31","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqrest-sub.js:31[34:36];Sink: msg;mqrest-sub.js:46[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-sub.js:31[34:36];Sink: msg;mqrest-sub.js:50[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqrest-sub.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END","/nodes/mqrest-sub.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qmgr-mqsc.js:31[34:36];Sink: msg;mqrest-utils.js:53[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmgr-mqsc.js:31[34:36];Sink: msg;qmgr-mqsc.js:49[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmgr-mqsc.js:31[34:36];Sink: msg;qmgr-mqsc.js:53[21:23]::FLOW_DESCR_END","/nodes/qmgr-mqsc.js","31","34","31","36"

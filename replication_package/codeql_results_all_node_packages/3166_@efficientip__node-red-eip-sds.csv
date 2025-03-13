@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sds-generic.js:12[36:38];Sink: [msg,null];sds-generic.js:24[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sds-generic.js:12[36:38];Sink: [msg,null];sds-generic.js:30[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sds-generic.js:12[36:38];Sink: [msg,null];sds-generic.js:36[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sds-generic.js:12[36:38];Sink: [null, msg];sds-generic.js:66[31:41]::FLOW_DESCR_END","/eipsds-nodes/sds-generic.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _auth.username;sds-generic.js:78[27:40];Sink: _auth.username || '';sds-generic.js:78[27:46]::FLOW_DESCR_END","/eipsds-nodes/sds-generic.js","78","27","78","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _auth.password;sds-generic.js:78[49:62];Sink: _auth.password || '';sds-generic.js:78[49:68]::FLOW_DESCR_END","/eipsds-nodes/sds-generic.js","78","49","78","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;sds-generic.js:81[27:29];Sink: response.statusCode;sds-generic.js:38[39:57]::FLOW_DESCR_END","/eipsds-nodes/sds-generic.js","81","27","81","29"

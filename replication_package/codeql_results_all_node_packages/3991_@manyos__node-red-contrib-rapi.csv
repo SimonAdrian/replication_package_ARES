@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rapi.js:41[41:43];Sink: uri;arquery.js:65[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:41[41:43];Sink: options.bypassCache;arquery.js:84[12:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:41[41:43];Sink: msg;rapi.js:47[27:29]::FLOW_DESCR_END","/rapi.js","41","41","41","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rapi.js:74[41:43];Sink: uri;arquery.js:146[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:74[41:43];Sink: msg;rapi.js:77[27:29]::FLOW_DESCR_END","/rapi.js","74","41","74","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rapi.js:101[41:43];Sink: uri;arquery.js:250[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:101[41:43];Sink: uri;arquery.js:259[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:101[41:43];Sink: msg;rapi.js:104[27:29]::FLOW_DESCR_END","/rapi.js","101","41","101","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rapi.js:136[41:43];Sink: uri;arquery.js:189[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:136[41:43];Sink: uri;arquery.js:210[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rapi.js:136[41:43];Sink: msg;rapi.js:161[27:29]::FLOW_DESCR_END","/rapi.js","136","41","136","43"

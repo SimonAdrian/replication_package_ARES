@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-route53.js:15[36:38];Sink: msg;aws-route53.js:21[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-route53.js:15[36:38];Sink: [null,  ... ented""];aws-route53.js:52[31:79]::FLOW_DESCR_END","/aws-route53.js","15","36","15","38"

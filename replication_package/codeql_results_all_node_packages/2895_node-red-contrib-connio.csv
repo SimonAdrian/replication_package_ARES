@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloud-write-property-node.js:47[13:15];Sink: makePay ... ayload);cloud-write-property-node.js:108[11:51]::FLOW_DESCR_END","/nodes/cloud-write-property/cloud-write-property-node.js","47","13","47","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;edge-device-node.js:125[11:23];Sink: clientId;mqtt-connection-manager.js:44[43:50]::FLOW_DESCR_END","/nodes/edge-device/edge-device-node.js","125","11","125","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;edge-device-in-node.js:21[19:33];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;edge-device-in-node.js:21[19:33];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-device-in/edge-device-in-node.js","21","19","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;edge-device-in-node.js:42[21:33];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.deviceId;edge-device-in-node.js:42[21:33];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-device-in/edge-device-in-node.js","42","21","42","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;edge-gateway-in-node.js:21[19:33];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;edge-gateway-in-node.js:21[19:33];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-gateway-in/edge-gateway-in-node.js","21","19","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;edge-gateway-in-node.js:47[21:33];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.deviceId;edge-gateway-in-node.js:47[21:33];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-gateway-in/edge-gateway-in-node.js","47","21","47","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: def.deviceId;edge-gateway-out-node.js:19[19:30];Sink: `${devi ... ateway`;edge-gateway-out-node.js:68[13:76]::FLOW_DESCR_END","/nodes/edge-gateway-out/edge-gateway-out-node.js","19","19","19","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceName;edge-gateway-out-node.js:34[21:37];Sink: `${devi ... ateway`;edge-gateway-out-node.js:68[13:76]::FLOW_DESCR_END","/nodes/edge-gateway-out/edge-gateway-out-node.js","34","21","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceName;edge-gateway-out-node.js:68[52:66];Sink: `${devi ... ateway`;edge-gateway-out-node.js:68[13:76]::FLOW_DESCR_END","/nodes/edge-gateway-out/edge-gateway-out-node.js","68","52","68","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;edge-gateway-out-node.js:155[11:23];Sink: clientId;mqtt-connection-manager.js:44[43:50]::FLOW_DESCR_END","/nodes/edge-gateway-out/edge-gateway-out-node.js","155","11","155","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: `addMes ... yload}`;edge-mqtt-node.js:68[18:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: `new co ... iceId}`;edge-mqtt-node.js:71[20:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: `new de ... iceId}`;edge-mqtt-node.js:79[20:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: topic;edge-mqtt-node.js:115[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: formattedPayload;edge-mqtt-node.js:115[45:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edge-mqtt-node.js:53[13:15];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-mqtt/edge-mqtt-node.js","53","13","53","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;edge-mqtt-node.js:71[40:51];Sink: `new co ... iceId}`;edge-mqtt-node.js:71[20:53]::FLOW_DESCR_END","/nodes/edge-mqtt/edge-mqtt-node.js","71","40","71","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;edge-mqtt-node.js:74[21:32];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;edge-mqtt-node.js:74[21:32];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-mqtt/edge-mqtt-node.js","74","21","74","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;edge-mqtt-node.js:79[38:49];Sink: `new de ... iceId}`;edge-mqtt-node.js:79[20:51]::FLOW_DESCR_END","/nodes/edge-mqtt/edge-mqtt-node.js","79","38","79","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;edge-mqtt-node.js:82[21:32];Sink: clientId;mqtt-connection-manager.js:22[7:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;edge-mqtt-node.js:82[21:32];Sink: clientId;mqtt-connection-manager.js:38[33:40]::FLOW_DESCR_END","/nodes/edge-mqtt/edge-mqtt-node.js","82","21","82","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;edge-gateway-out-node.js:65[36:43];Sink: `${devi ... ateway`;edge-gateway-out-node.js:68[13:76]::FLOW_DESCR_END","/nodes/edge-gateway-out/edge-gateway-out-node.js","65","36","65","43"

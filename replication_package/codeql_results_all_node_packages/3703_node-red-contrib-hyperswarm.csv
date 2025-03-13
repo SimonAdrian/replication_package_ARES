@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hyperswarm-in.js:38[24:26];Sink: msg.pay ... tring();hyperswarm-in.js:40[20:41]::FLOW_DESCR_END","/hyperswarm-in.js","38","24","38","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: arg;hyperswarm-out.js:40[23:25];Sink: arg;hyperswarm-out.js:42[29:31]::FLOW_DESCR_END","/hyperswarm-out.js","40","23","40","25"

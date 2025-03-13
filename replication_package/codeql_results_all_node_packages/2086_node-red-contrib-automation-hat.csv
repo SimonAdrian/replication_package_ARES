@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rpi-automationhat.js:110[44:47];Sink: ""Automa ... message;rpi-automationhat.js:26[49:75]::FLOW_DESCR_END","/nodes/rpi-automationhat.js","110","44","110","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;rpi-automationhat.js:134[38:41];Sink: ""Automa ... message;rpi-automationhat.js:26[49:75]::FLOW_DESCR_END","/nodes/rpi-automationhat.js","134","38","134","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpi-automationhat.js:240[35:37];Sink: msg+""\n"";rpi-automationhat.js:196[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpi-automationhat.js:240[35:37];Sink: msg.top ... tring();rpi-automationhat.js:242[26:65]::FLOW_DESCR_END","/nodes/rpi-automationhat.js","240","35","240","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpi-automationhat.js:268[35:37];Sink: msg+""\n"";rpi-automationhat.js:196[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpi-automationhat.js:268[35:37];Sink: ""Reader ... tring();rpi-automationhat.js:269[22:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpi-automationhat.js:268[35:37];Sink: msg;rpi-automationhat.js:269[58:60]::FLOW_DESCR_END","/nodes/rpi-automationhat.js","268","35","268","37"

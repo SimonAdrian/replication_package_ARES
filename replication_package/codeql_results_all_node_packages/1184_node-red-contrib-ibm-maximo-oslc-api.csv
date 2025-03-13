@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:15[29:31];Sink: message;connect.js:36[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:15[29:31];Sink: message;create.js:99[15:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:15[29:31];Sink: message;create.js:113[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/create.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:15[29:31];Sink: message;connect.js:36[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:15[29:31];Sink: message;delete.js:93[15:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:15[29:31];Sink: message;delete.js:107[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/delete.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve.js:16[29:31];Sink: message;connect.js:36[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve.js:16[29:31];Sink: message;retrieve.js:173[15:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve.js:16[29:31];Sink: message;retrieve.js:188[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/retrieve.js","16","29","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;connect.js:36[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;update.js:81[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;update.js:93[15:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;update.js:123[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/update.js","15","29","15","31"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp-out.js:41[45:47];Sink: Buffer.from(msg);Amqp.js:131[56:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:41[45:47];Sink: options;Amqp.js:131[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:41[45:47];Sink: payload;amqp-out.js:74[42:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:41[45:47];Sink: properties;amqp-out.js:74[51:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:41[45:47];Sink: JSON.st ... ayload);amqp-out.js:77[42:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:41[45:47];Sink: properties;amqp-out.js:77[67:76]::FLOW_DESCR_END","/build/src/nodes/amqp-out.js","41","45","41","47"

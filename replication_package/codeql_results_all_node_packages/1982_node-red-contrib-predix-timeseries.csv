@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-timeseries.js:62[38:45];Sink: respons ... Message;predix-timeseries.js:64[20:66]::FLOW_DESCR_END","/predix-timeseries.js","62","38","62","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-timeseries.js:115[37:44];Sink: respons ... Message;predix-timeseries.js:117[23:69]::FLOW_DESCR_END","/predix-timeseries.js","115","37","115","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;predix-timeseries.js:238[35:37];Sink: err;predix-timeseries.js:240[20:22]::FLOW_DESCR_END","/predix-timeseries.js","238","35","238","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;predix-timeseries.js:255[36:39];Sink: data;predix-timeseries.js:256[18:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;predix-timeseries.js:255[36:39];Sink: statusC ...  error"";predix-timeseries.js:264[22:55]::FLOW_DESCR_END","/predix-timeseries.js","255","36","255","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;predix-timeseries.js:269[31:33];Sink: payload;predix-timeseries.js:281[36:42]::FLOW_DESCR_END","/predix-timeseries.js","269","31","269","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;predix-timeseries.js:367[35:39];Sink: error;predix-timeseries.js:369[24:28]::FLOW_DESCR_END","/predix-timeseries.js","367","35","367","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-timeseries.js:367[42:49];Sink: respons ... se.body;predix-timeseries.js:372[26:63]::FLOW_DESCR_END","/predix-timeseries.js","367","42","367","49"

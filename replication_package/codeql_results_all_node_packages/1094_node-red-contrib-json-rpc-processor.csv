@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: msg;json-rpc-processor.js:27[119:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: [null, msg];json-rpc-processor.js:49[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: [msg, null];json-rpc-processor.js:60[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: [null, msg];json-rpc-processor.js:78[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: `json-r ... rors)}`;json-rpc-processor.js:79[22:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: msg;json-rpc-processor.js:79[130:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: [null, msg];json-rpc-processor.js:105[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: msg;json-rpc-processor.js:106[110:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: [msg, null];json-rpc-processor.js:110[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: `json-r ...  found`;json-rpc-processor.js:114[24:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: msg;json-rpc-processor.js:114[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-rpc-processor.js:17[32:34];Sink: [null, msg];json-rpc-processor.js:124[23:33]::FLOW_DESCR_END","/json-rpc-processor.js","17","32","17","34"

@@ -1,0 +1,73 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-1-wire.js:17[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-1-wire/iglass-1-wire.js","17","40","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-1-wire.js:40[48:50];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/control-nodes/iglass-1-wire/iglass-1-wire.js","40","48","40","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-ajax.js:54[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-ajax/iglass-ajax.js","54","40","54","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-ajax.js:147[52:54];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/control-nodes/iglass-ajax/iglass-ajax.js","147","52","147","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-ajax-add.js:8[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-ajax-add/iglass-ajax-add.js","8","40","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-ajax-delete.js:8[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-ajax-delete/iglass-ajax-delete.js","8","40","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-ajax-protection.js:9[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-ajax-protection/iglass-ajax-protection.js","9","40","9","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-analog-input.js:12[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-analog-input/iglass-analog-input.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-analog-output.js:13[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-analog-output/iglass-analog-output.js","13","40","13","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-digital-input.js:108[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-digital-input/iglass-digital-input.js","108","40","108","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-digital-input.js:136[48:50];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/control-nodes/iglass-digital-input/iglass-digital-input.js","136","48","136","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-digital-output.js:26[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-digital-output/iglass-digital-output.js","26","44","26","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-digital-output.js:61[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-digital-output/iglass-digital-output.js","61","48","61","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-dimmer-output.js:51[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-dimmer-output/iglass-dimmer-output.js","51","44","51","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-dmx.js:33[52:54];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-dmx/iglass-dmx.js","33","52","33","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-dmx.js:158[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-dmx/iglass-dmx.js","158","48","158","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-modbus-rs485.js:9[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-modbus-rs485/iglass-modbus-rs485.js","9","40","9","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-rs485-in.js:32[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-rs485-in/iglass-rs485-in.js","32","44","32","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-rs485-in.js:64[48:50];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/control-nodes/iglass-rs485-in/iglass-rs485-in.js","64","48","64","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-rs485-in.js:82[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-rs485-in/iglass-rs485-in.js","82","48","82","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-rs485-out.js:77[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-rs485-out/iglass-rs485-out.js","77","44","77","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-rs485-out.js:105[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-rs485-out/iglass-rs485-out.js","105","48","105","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-thermostat-rs485.js:14[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-thermostat-rs485/iglass-thermostat-rs485.js","14","40","14","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-zigbee.js:11[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-zigbee/iglass-zigbee.js","11","40","11","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iglass-zigbee.js:26[35:37];Sink: zigbeeMessage;iglass-zigbee.js:36[51:63]::FLOW_DESCR_END","/control-nodes/iglass-zigbee/iglass-zigbee.js","26","35","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-zigbee-add.js:8[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-zigbee-add/iglass-zigbee-add.js","8","40","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iglass-zigbee-delete.js:15[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/control-nodes/iglass-zigbee-delete/iglass-zigbee-delete.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;http-gateway.js:71[31:33];Sink: ""http.g ... "" + res;http-gateway.js:73[34:56]::FLOW_DESCR_END","/core/gateways/http-gateway.js","71","31","71","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;http-gateway.js:93[44:48];Sink: url;http-gateway.js:68[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;http-gateway.js:93[44:48];Sink: tmpMsg.url;http-gateway.js:80[37:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;http-gateway.js:93[44:48];Sink: url;http-gateway.js:89[25:27]::FLOW_DESCR_END","/core/gateways/http-gateway.js","93","44","93","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rs485-gateway.js:62[30:33];Sink: slaveId;rs485-gateway.js:73[46:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:62[30:33];Sink: result[3];rs485-gateway.js:87[71:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:62[30:33];Sink: dataType;rs485-gateway.js:116[76:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:62[30:33];Sink: message;rs485-gateway.js:116[86:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:62[30:33];Sink: deviceAddress;rs485-gateway.js:143[76:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:62[30:33];Sink: value;rs485-gateway.js:143[91:95]::FLOW_DESCR_END","/core/gateways/rs485-gateway.js","62","30","62","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;udp-share-support.js:19[34:36];Sink: err;udp-gateway.js:26[67:69]::FLOW_DESCR_END","/core/udp-share-support.js","19","34","19","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: dataType;udp-gateway.js:109[79:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: message;udp-gateway.js:109[89:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: deviceAddress;udp-gateway.js:138[83:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: value;udp-gateway.js:138[98:102]::FLOW_DESCR_END","/core/udp-share-support.js","24","36","24","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:82[42:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:98[44:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:109[48:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:138[52:65]::FLOW_DESCR_END","/core/udp-share-support.js","24","45","24","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;receive.js:90[89:107];Sink: `Receiv ... elID}'`;receive.js:90[26:110]::FLOW_DESCR_END","/lib/zigbee/extension/receive.js","90","89","90","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: yaml.read(file);settings.js:281[20:34];Sink: file;yaml.js:32[26:29]::FLOW_DESCR_END","/lib/zigbee/util/settings.js","281","20","281","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: setting ... al.port;zigbee-controller.js:47[30:55];Sink: data;event-bus.js:16[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: setting ... al.port;zigbee-controller.js:47[30:55];Sink: `Cannot ...  found`;zigbee-controller.js:49[27:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: setting ... al.port;zigbee-controller.js:47[30:55];Sink: new Err ... lable`);zigbee-controller.js:50[42:100]::FLOW_DESCR_END","/lib/zigbee/zigbee-controller.js","47","30","47","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.endpoint.ID;zigbee-controller.js:293[72:87];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END","/lib/zigbee/zigbee-controller.js","293","72","293","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;zigbee-controller.js:308[64:82];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END","/lib/zigbee/zigbee-controller.js","308","64","308","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: data;zigbee.js:62[91:94]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","62","45","62","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: data;zigbee.js:63[93:96]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","63","46","63","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: data;zigbee.js:64[87:90]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","64","43","64","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: data;zigbee.js:65[85:88]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","65","42","65","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: data;zigbee.js:66[77:80]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","66","38","66","41"

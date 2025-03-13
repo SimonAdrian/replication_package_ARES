@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;clickatell.js:18[41:45];Sink: error;clickatell.js:25[52:56]::FLOW_DESCR_END","/clickatell/clickatell.js","18","41","18","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;clickatell.js:18[58:61];Sink: body;clickatell.js:21[48:51]::FLOW_DESCR_END","/clickatell/clickatell.js","18","58","18","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;clickatell.js:36[48:55];Sink: response;clickatell.js:41[58:65]::FLOW_DESCR_END","/clickatell/clickatell.js","36","48","36","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;clickatell.js:36[58:61];Sink: body;clickatell.js:41[52:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;clickatell.js:36[58:61];Sink: body;clickatell.js:44[49:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;clickatell.js:36[58:61];Sink: body;clickatell.js:45[47:50]::FLOW_DESCR_END","/clickatell/clickatell.js","36","58","36","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;clickatell.js:56[97:106];Sink: bal_query;clickatell.js:35[32:40]::FLOW_DESCR_END","/clickatell/clickatell.js","56","97","56","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;clickatell.js:56[121:130];Sink: bal_query;clickatell.js:35[32:40]::FLOW_DESCR_END","/clickatell/clickatell.js","56","121","56","130"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clickatell.js:62[35:37];Sink: req_url;clickatell.js:17[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clickatell.js:62[35:37];Sink: req_url;clickatell.js:20[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clickatell.js:62[35:37];Sink: ""Messag ... MAXLEN);clickatell.js:72[26:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clickatell.js:62[35:37];Sink: ""Clicka ...  ""+text;clickatell.js:78[29:66]::FLOW_DESCR_END","/clickatell/clickatell.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;clickatell.js:76[70:79];Sink: req_url;clickatell.js:17[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.username;clickatell.js:76[70:79];Sink: req_url;clickatell.js:20[48:54]::FLOW_DESCR_END","/clickatell/clickatell.js","76","70","76","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;clickatell.js:76[94:103];Sink: req_url;clickatell.js:17[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.password;clickatell.js:76[94:103];Sink: req_url;clickatell.js:20[48:54]::FLOW_DESCR_END","/clickatell/clickatell.js","76","94","76","103"

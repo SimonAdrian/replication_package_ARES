@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;evohome-control.js:12[30:32];Sink: 'Settin ... : null);evohome-control.js:68[16:205]::FLOW_DESCR_END","/evohome/evohome-control.js","12","30","12","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;evohome-quickaction.js:9[30:32];Sink: 'Set sy ... kAction;evohome-quickaction.js:30[17:64]::FLOW_DESCR_END","/evohome/evohome-quickaction.js","9","30","9","32"

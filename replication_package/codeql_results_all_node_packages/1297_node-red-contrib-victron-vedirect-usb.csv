@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;vedirect-usb.js:12[28:31];Sink: data;vedirect-usb.js:19[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;vedirect-usb.js:12[28:31];Sink: data;vedirect-usb.js:22[31:34]::FLOW_DESCR_END","/src/nodes/vedirect-usb.js","12","28","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;vedirect-usb.js:30[29:33];Sink: error;vedirect-usb.js:32[17:21]::FLOW_DESCR_END","/src/nodes/vedirect-usb.js","30","29","30","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vedirect-usb.js:35[32:34];Sink: msg;vedirect-usb.js:38[17:19]::FLOW_DESCR_END","/src/nodes/vedirect-usb.js","35","32","35","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vedirect.js:17[39:41];Sink: err;vedirect.js:18[19:21]::FLOW_DESCR_END","/src/services/vedirect.js","17","39","17","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;vedirect.js:28[25:28];Sink: data;vedirect-usb.js:19[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;vedirect.js:28[25:28];Sink: data;vedirect-usb.js:22[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;vedirect.js:28[25:28];Sink: data;vedirect.js:29[25:28]::FLOW_DESCR_END","/src/services/vedirect.js","28","25","28","28"

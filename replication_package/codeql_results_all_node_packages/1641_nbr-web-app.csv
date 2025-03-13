@@ -1,0 +1,66 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-alert.js:17[35:37];Sink: msg;nbr-web-alert.js:43[16:18]::FLOW_DESCR_END","/nbr-web-alert.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-alert.js:39[39:42];Sink: new Err ... ayload);nbr-web-alert.js:48[20:41]::FLOW_DESCR_END","/nbr-web-alert.js","39","39","39","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-alert.js:53[28:30];Sink: err;nbr-web-alert.js:54[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-alert.js:53[28:30];Sink: new Error(err);nbr-web-alert.js:59[17:30]::FLOW_DESCR_END","/nbr-web-alert.js","53","28","53","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-create-session.js:20[35:37];Sink: msg;nbr-web-create-session.js:56[16:18]::FLOW_DESCR_END","/nbr-web-create-session.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-create-session.js:48[39:42];Sink: new Err ... ayload);nbr-web-create-session.js:61[17:38]::FLOW_DESCR_END","/nbr-web-create-session.js","48","39","48","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-create-session.js:66[28:30];Sink: err;nbr-web-create-session.js:67[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-create-session.js:66[28:30];Sink: new Error(err);nbr-web-create-session.js:72[17:30]::FLOW_DESCR_END","/nbr-web-create-session.js","66","28","66","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-execute-script.js:16[35:37];Sink: msg;nbr-web-execute-script.js:41[16:18]::FLOW_DESCR_END","/nbr-web-execute-script.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-execute-script.js:37[39:42];Sink: new Err ... ayload);nbr-web-execute-script.js:46[17:38]::FLOW_DESCR_END","/nbr-web-execute-script.js","37","39","37","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-execute-script.js:51[28:30];Sink: err;nbr-web-execute-script.js:52[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-execute-script.js:51[28:30];Sink: new Error(err);nbr-web-execute-script.js:57[17:30]::FLOW_DESCR_END","/nbr-web-execute-script.js","51","28","51","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-extract-data.js:16[35:37];Sink: msg;nbr-web-extract-data.js:44[16:18]::FLOW_DESCR_END","/nbr-web-extract-data.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-extract-data.js:37[39:42];Sink: new Err ... ayload);nbr-web-extract-data.js:49[17:38]::FLOW_DESCR_END","/nbr-web-extract-data.js","37","39","37","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-extract-data.js:54[28:30];Sink: err;nbr-web-extract-data.js:55[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-extract-data.js:54[28:30];Sink: new Error(err);nbr-web-extract-data.js:60[17:30]::FLOW_DESCR_END","/nbr-web-extract-data.js","54","28","54","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-get-element.js:19[35:37];Sink: JSON.stringify(t);nbr-web-get-element.js:44[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nbr-web-get-element.js:19[35:37];Sink: msg;nbr-web-get-element.js:51[16:18]::FLOW_DESCR_END","/nbr-web-get-element.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-get-element.js:47[39:42];Sink: JSON.stringify(t);nbr-web-get-element.js:44[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;nbr-web-get-element.js:47[39:42];Sink: new Err ... ayload);nbr-web-get-element.js:56[17:38]::FLOW_DESCR_END","/nbr-web-get-element.js","47","39","47","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-get-element.js:61[28:30];Sink: err;nbr-web-get-element.js:62[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-get-element.js:61[28:30];Sink: new Error(err);nbr-web-get-element.js:67[17:30]::FLOW_DESCR_END","/nbr-web-get-element.js","61","28","61","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-get-window.js:16[35:37];Sink: msg;nbr-web-get-window.js:48[16:18]::FLOW_DESCR_END","/nbr-web-get-window.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-get-window.js:40[39:42];Sink: new Err ... ayload);nbr-web-get-window.js:53[17:38]::FLOW_DESCR_END","/nbr-web-get-window.js","40","39","40","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-get-window.js:58[28:30];Sink: err;nbr-web-get-window.js:59[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-get-window.js:58[28:30];Sink: new Error(err);nbr-web-get-window.js:64[17:30]::FLOW_DESCR_END","/nbr-web-get-window.js","58","28","58","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-mouse.js:20[35:37];Sink: JSON.stringify(t);nbr-web-mouse.js:47[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nbr-web-mouse.js:20[35:37];Sink: msg;nbr-web-mouse.js:54[16:18]::FLOW_DESCR_END","/nbr-web-mouse.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-mouse.js:50[39:42];Sink: JSON.stringify(t);nbr-web-mouse.js:47[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;nbr-web-mouse.js:50[39:42];Sink: new Err ... ayload);nbr-web-mouse.js:59[20:41]::FLOW_DESCR_END","/nbr-web-mouse.js","50","39","50","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-mouse.js:64[28:30];Sink: err;nbr-web-mouse.js:65[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-mouse.js:64[28:30];Sink: new Error(err);nbr-web-mouse.js:70[17:30]::FLOW_DESCR_END","/nbr-web-mouse.js","64","28","64","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-navigate-to.js:16[35:37];Sink: msg;nbr-web-navigate-to.js:41[16:18]::FLOW_DESCR_END","/nbr-web-navigate-to.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-navigate-to.js:37[39:42];Sink: new Err ... ayload);nbr-web-navigate-to.js:46[20:41]::FLOW_DESCR_END","/nbr-web-navigate-to.js","37","39","37","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-navigate-to.js:51[28:30];Sink: err;nbr-web-navigate-to.js:52[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-navigate-to.js:51[28:30];Sink: new Error(err);nbr-web-navigate-to.js:57[17:30]::FLOW_DESCR_END","/nbr-web-navigate-to.js","51","28","51","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-scrap-data.js:20[35:37];Sink: msg;nbr-web-scrap-data.js:54[16:18]::FLOW_DESCR_END","/nbr-web-scrap-data.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-scrap-data.js:47[39:42];Sink: new Err ... ayload);nbr-web-scrap-data.js:59[17:38]::FLOW_DESCR_END","/nbr-web-scrap-data.js","47","39","47","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-scrap-data.js:64[28:30];Sink: new Error(err);nbr-web-scrap-data.js:69[17:30]::FLOW_DESCR_END","/nbr-web-scrap-data.js","64","28","64","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-screen-shot.js:16[35:37];Sink: msg;nbr-web-screen-shot.js:41[16:18]::FLOW_DESCR_END","/nbr-web-screen-shot.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-screen-shot.js:37[39:42];Sink: new Err ... ayload);nbr-web-screen-shot.js:46[20:41]::FLOW_DESCR_END","/nbr-web-screen-shot.js","37","39","37","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-screen-shot.js:51[28:30];Sink: err;nbr-web-screen-shot.js:52[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-screen-shot.js:51[28:30];Sink: new Error(err);nbr-web-screen-shot.js:57[17:30]::FLOW_DESCR_END","/nbr-web-screen-shot.js","51","28","51","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-send-keys.js:18[35:37];Sink: msg;nbr-web-send-keys.js:46[16:18]::FLOW_DESCR_END","/nbr-web-send-keys.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-send-keys.js:42[39:42];Sink: new Err ... ayload);nbr-web-send-keys.js:51[20:41]::FLOW_DESCR_END","/nbr-web-send-keys.js","42","39","42","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-send-keys.js:56[28:30];Sink: err;nbr-web-send-keys.js:57[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-send-keys.js:56[28:30];Sink: new Error(err);nbr-web-send-keys.js:62[17:30]::FLOW_DESCR_END","/nbr-web-send-keys.js","56","28","56","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-set-element.js:18[35:37];Sink: msg;nbr-web-set-element.js:45[16:18]::FLOW_DESCR_END","/nbr-web-set-element.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-set-element.js:41[39:42];Sink: new Err ... ayload);nbr-web-set-element.js:50[20:41]::FLOW_DESCR_END","/nbr-web-set-element.js","41","39","41","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-set-element.js:55[28:30];Sink: err;nbr-web-set-element.js:56[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-set-element.js:55[28:30];Sink: new Error(err);nbr-web-set-element.js:61[17:30]::FLOW_DESCR_END","/nbr-web-set-element.js","55","28","55","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-set-title.js:15[35:37];Sink: msg;nbr-web-set-title.js:38[16:18]::FLOW_DESCR_END","/nbr-web-set-title.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-set-title.js:34[39:42];Sink: new Err ... ayload);nbr-web-set-title.js:43[20:41]::FLOW_DESCR_END","/nbr-web-set-title.js","34","39","34","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-set-title.js:48[28:30];Sink: new Error(err);nbr-web-set-title.js:53[17:30]::FLOW_DESCR_END","/nbr-web-set-title.js","48","28","48","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-switch-frame.js:17[35:37];Sink: msg;nbr-web-switch-frame.js:43[16:18]::FLOW_DESCR_END","/nbr-web-switch-frame.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-switch-frame.js:39[39:42];Sink: new Err ... ayload);nbr-web-switch-frame.js:48[20:41]::FLOW_DESCR_END","/nbr-web-switch-frame.js","39","39","39","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-switch-frame.js:53[28:30];Sink: err;nbr-web-switch-frame.js:54[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-switch-frame.js:53[28:30];Sink: new Error(err);nbr-web-switch-frame.js:59[17:30]::FLOW_DESCR_END","/nbr-web-switch-frame.js","53","28","53","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-switch-window.js:17[35:37];Sink: msg;nbr-web-switch-window.js:43[16:18]::FLOW_DESCR_END","/nbr-web-switch-window.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-switch-window.js:39[39:42];Sink: new Err ... ayload);nbr-web-switch-window.js:48[20:41]::FLOW_DESCR_END","/nbr-web-switch-window.js","39","39","39","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-switch-window.js:53[28:30];Sink: err;nbr-web-switch-window.js:54[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-switch-window.js:53[28:30];Sink: new Error(err);nbr-web-switch-window.js:59[17:30]::FLOW_DESCR_END","/nbr-web-switch-window.js","53","28","53","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-web-window-action.js:16[35:37];Sink: msg;nbr-web-window-action.js:40[16:18]::FLOW_DESCR_END","/nbr-web-window-action.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-web-window-action.js:36[39:42];Sink: new Err ... ayload);nbr-web-window-action.js:45[20:41]::FLOW_DESCR_END","/nbr-web-window-action.js","36","39","36","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-web-window-action.js:50[28:30];Sink: err;nbr-web-window-action.js:51[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-web-window-action.js:50[28:30];Sink: new Error(err);nbr-web-window-action.js:56[17:30]::FLOW_DESCR_END","/nbr-web-window-action.js","50","28","50","30"

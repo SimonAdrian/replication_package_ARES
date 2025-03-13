@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: states;alice-device.js:267[25:30];Sink: cap.state.value;alice-device.js:278[25:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: states;alice-device.js:267[25:30];Sink: cap.state;alice-device.js:278[42:50]::FLOW_DESCR_END","/nodes/alice-device.js","267","25","267","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.email;alice.js:14[23:44];Sink: ""/noder ... device"";alice.js:19[27:70]::FLOW_DESCR_END","/nodes/alice.js","14","23","14","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;alice.js:72[35:39];Sink: ""Incomi ... tTime();alice.js:75[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;alice.js:72[35:39];Sink: arrTopic[3];alice.js:81[31:41]::FLOW_DESCR_END","/nodes/alice.js","72","35","72","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;alice.js:72[42:48];Sink: data.text;alice.js:78[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;alice.js:72[42:48];Sink: data;alice.js:81[44:47]::FLOW_DESCR_END","/nodes/alice.js","72","42","72","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alice.js:104[33:35];Sink: ""Yandex ... message;alice.js:105[24:64]::FLOW_DESCR_END","/nodes/alice.js","104","33","104","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.email;alice.ts:33[21:42];Sink: ""/noder ... device"";alice.ts:40[25:64]::FLOW_DESCR_END","/src/alice.ts","33","21","33","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;alice.ts:98[30:34];Sink: ""Incomi ... tTime();alice.ts:101[18:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;alice.ts:98[30:34];Sink: arrTopic[3];alice.ts:106[21:31]::FLOW_DESCR_END","/src/alice.ts","98","30","98","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;alice.ts:98[44:50];Sink: data.text;alice.ts:104[21:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;alice.ts:98[44:50];Sink: data;alice.ts:106[33:36]::FLOW_DESCR_END","/src/alice.ts","98","44","98","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alice.ts:129[28:30];Sink: ""Yandex ... message;alice.ts:130[18:57]::FLOW_DESCR_END","/src/alice.ts","129","28","129","30"

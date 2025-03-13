@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azuresql.js:43[35:37];Sink: 'Error: ... fy(err);azuresql.js:46[24:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;azuresql.js:43[35:37];Sink: 'Error: ... fy(err);azuresql.js:47[22:51]::FLOW_DESCR_END","/azuresql.js","43","35","43","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: columns;azuresql.js:69[36:42];Sink: result;azuresql.js:79[23:28]::FLOW_DESCR_END","/azuresql.js","69","36","69","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rowCount;azuresql.js:83[37:44];Sink: rowCoun ... turned';azuresql.js:84[22:48]::FLOW_DESCR_END","/azuresql.js","83","37","83","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: columns;azuresql.js:101[36:42];Sink: ""Insert ... ].value;azuresql.js:102[22:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: columns;azuresql.js:101[36:42];Sink: ""Insert ... ].value;azuresql.js:103[23:83]::FLOW_DESCR_END","/azuresql.js","101","36","101","42"

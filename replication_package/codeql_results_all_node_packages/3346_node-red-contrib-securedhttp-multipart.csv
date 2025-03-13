@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;securedHttpInMultipart.js:255[34:36];Sink: err;securedHttpInMultipart.js:258[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedHttpInMultipart.js:255[34:36];Sink: err;securedHttpInMultipart.js:258[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedHttpInMultipart.js:255[34:36];Sink: errorMessage;securedHttpInMultipart.js:271[49:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedHttpInMultipart.js:255[34:36];Sink: errorMessage;securedHttpInMultipart.js:272[48:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedHttpInMultipart.js:255[34:36];Sink: errorMessage;securedHttpInMultipart.js:272[62:73]::FLOW_DESCR_END","/securedHttpInMultipart.js","255","34","255","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: errorMessage;securedHttpInMultipart.js:271[49:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: errorMessage;securedHttpInMultipart.js:272[48:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: errorMessage;securedHttpInMultipart.js:272[62:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: ""user "" ... s flow"";securedHttpInMultipart.js:281[53:142]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: ""user "" ... s flow"";securedHttpInMultipart.js:288[65:162]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: errorMessage;securedHttpInMultipart.js:312[53:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: errorMessage;securedHttpInMultipart.js:313[52:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedHttpInMultipart.js:255[39:46];Sink: errorMessage;securedHttpInMultipart.js:313[66:77]::FLOW_DESCR_END","/securedHttpInMultipart.js","255","39","255","46"

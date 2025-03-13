@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: photo;ar-drone.js:32[38:42];Sink: this.current_photo;ar-drone.js:14[22:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: photo;ar-drone.js:32[38:42];Sink: photo;ar-drone.js:34[33:37]::FLOW_DESCR_END","/lib/ar-drone.js","32","38","32","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ar-drone.js:37[38:41];Sink: this.cu ... lemetry;ar-drone.js:10[23:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ar-drone.js:37[38:41];Sink: data.demo;ar-drone.js:39[34:42]::FLOW_DESCR_END","/lib/ar-drone.js","37","38","37","41"

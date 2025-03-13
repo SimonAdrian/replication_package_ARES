@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;syfterPush.js:19[42:44];Sink: `Field: ... object`;syfterPush.js:47[44:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;syfterPush.js:19[42:44];Sink: `Field: ... Number`;syfterPush.js:82[40:134]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;syfterPush.js:19[42:44];Sink: `Field: ... estamp`;syfterPush.js:91[40:144]::FLOW_DESCR_END","/syfterPush.js","19","42","19","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;syfterPush.js:26[19:22];Sink: `${host ... values`;syfterPush.js:114[42:76]::FLOW_DESCR_END","/syfterPush.js","26","19","26","22"

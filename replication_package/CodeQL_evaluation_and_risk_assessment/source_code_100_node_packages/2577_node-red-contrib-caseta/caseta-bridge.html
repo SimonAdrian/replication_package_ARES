@@ -1,0 +1,1093 @@
+<script type="text/javascript">
+
+    (function () {
+
+        const BASE = "config";
+        RED.nodes.registerType('caseta-bridge', {
+            category: 'config',
+            defaults: {
+                name: {
+                    value: "My Smart Hub",
+                    required: true
+                },
+                bridge_ip_address: {
+                    value: "",
+                    required: true
+                },
+                device_list: {
+                    value: {},
+                    required: false,
+                    validate: function (value) {
+                        if (Object.keys(value).length && (Object.keys(value).length > 74 || Object.keys(value).length < 1)) {
+                            return false;
+                        }
+                        return true;
+                    },
+                },
+                scene_list: {
+                    value: {},
+                    required: false,
+                    validate: function (value) {
+                        if (Object.keys(value).length && (Object.keys(value).length > 100 || Object.keys(value).length < 1)) {
+                            return false;
+                        }
+                        return true;
+                    },
+                },
+
+                int_report: {
+                    value: "{}",
+                    required: false
+                },
+                f_append_id: {value: false, required: false},
+                f_debug: {value: false, required: false},
+                f_dont_connect: {value: false, required: false}
+
+
+            },
+            label: function () {
+                return this.name ? this.name : "Smart Hub";
+            },
+            color: "#42aeed",
+            align: 'right',
+            paletteLabel: "Smart Hub",
+            icon: "lutron.png",
+            oneditprepare: function () {
+
+                let dup = {
+                    device: {},
+                    scene: {}
+                };
+
+                let importResults = {
+                    add: 0,
+                    up: 0,
+                    seen: 0,
+                    invalid: 0,
+                    dupe: 0
+                }
+
+                const suggestions = {
+                    pico_five_button_audio: [
+                        'audio',
+                        'volume',
+                        'stereo',
+                        'radio',
+                        'music',
+                        'hifi',
+                        'hi-fi',
+                        'media'
+                    ],
+                    pico_five_button_fan: [
+                        'fan',
+                        'air',
+                        'blow',
+                        'blower',
+                        'thermostat',
+                        'temperature'
+                    ]                    ,
+                    motion_sensor_occupancyvacancy: [
+                        'motion',
+                        'occupied',
+                        'vacant',
+                        'occupancy',
+                        'vacancy'
+                    ]
+                }
+
+                const elDeviceEditor = $("#node-input-devices-container");
+                const elSceneEditor = $("#node-input-scenes-container");
+
+                /**
+                 * Clean up an imported report entry
+                 * @param {object} device - An imported device from the integration report
+                 */
+                let prepImportDevice = function (device = {}) {
+                    try {
+                        if (device.ID && device.Name && device.Area && device.Area.Name && device.ID !== 0) {
+
+                            let newDevice = {
+                                sid: device.ID,
+                                name: device.Name,
+                                label: device.Name,
+                                type: device.type || "dimmer_four_button",
+                                area: device.Area.Name
+                            }
+
+                            if (typeof newDevice.sid === "number") {
+                                newDevice.sid = newDevice.sid.toString();
+                            }
+
+                            let str = newDevice.name + newDevice.area;
+                            newDevice.hash = str.replace(/\s/g, '');
+                            return newDevice;
+                        } else {
+
+                            console.warn("prepImportDevice: missing values.");
+                            ui.d(device);
+                            return false;
+                        }
+                    } catch (err) {
+                        console.warn(err);
+                        return false;
+                    }
+
+                }
+                /**
+                 * Process an imported scene
+                 * @param {object} scene - An imported scene from the integration report
+                 */
+                let prepImportScene = function (scene = {}) {
+                    try {
+                        if (scene.Number && scene.Name) {
+
+                            let newScene = {
+                                sid: scene.Number,
+                                name: scene.Name,
+                                label: scene.Name
+
+                            }
+                            if (typeof newScene.sid === "number") {
+                                newScene.sid = newScene.sid.toString();
+                            }
+
+                            let str = newScene.name;
+                            newScene.hash = str.replace(/\s/g, '');
+                            return newScene;
+                        } else {
+
+                            console.warn("prepImportScene: missing values.");
+                            ui.d(scene);
+                            return false;
+                        }
+                    } catch (err) {
+                        console.warn(err);
+                        return false;
+                    }
+                }
+                /**
+                 * Process an integration report
+                 * @param {string} reportData - The raw JSON of the integration report
+                 * @param {string} importType - Device or scene import
+                 */
+                let importDevices = function (reportData, importType) {
+                    let impDevices;
+                    importResults = {
+                        add: 0,
+                        up: 0,
+                        seen: 0,
+                        invalid: 0,
+                        dupe: 0
+                    }
+                    if (reportData && JSON.parse(reportData)) {
+                        let data = JSON.parse(reportData);
+                        if (undefined !== data.LIPIdList) {
+                            switch (importType) {
+                                case "scenes":
+                                    if (undefined !== data.LIPIdList.Devices && Array.isArray(data.LIPIdList.Devices)) {
+                                        impDevices = data.LIPIdList.Devices;
+                                        for (let i = 0; i < impDevices.length; i++) {
+
+                                            if (impDevices[i].ID === 1 && impDevices[i].Buttons && Array.isArray(impDevices[i].Buttons)) {
+
+                                                for (let s = 0; s < impDevices[i].Buttons.length; s++) {
+                                                    importResults.seen++;
+                                                    let newScene = prepImportScene(impDevices[i].Buttons[s]);
+                                                    if (newScene) {
+                                                        if (newScene.name !== ("Button " + newScene.sid)) {
+                                                            if (!dup.scene[newScene.hash]) {
+                                                                $("#node-input-scenes-container").editableList('addItem', {
+                                                                    scene: newScene,
+                                                                    hash: newScene.hash
+                                                                });
+                                                            } else {
+                                                                importResults.dupe++;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                    break;
+                                case "devices":
+                                    //import controllers
+                                    if (undefined !== data.LIPIdList.Devices && Array.isArray(data.LIPIdList.Devices)) {
+                                        impDevices = data.LIPIdList.Devices;
+                                        for (let i = 0; i < impDevices.length; i++) {
+                                            try {
+                                                if (impDevices[i].ID !== 1) {
+                                                    importResults.seen++;
+                                                    let newDevice = prepImportDevice(impDevices[i]);
+                                                    if (newDevice) {
+
+                                                        newDevice.type = "pico_five_button_light";
+                                                        try {
+                                                            for (let device_type in suggestions) {
+                                                                for (const term in suggestions[device_type]) {
+                                                                    if (newDevice.label.toLowerCase().indexOf(suggestions[device_type][term].toLowerCase()) > -1) {
+                                                                        newDevice.type = device_type;
+                                                                    }
+                                                                }
+                                                            }
+                                                        } catch (err) {
+                                                            console.warn(err);
+                                                        }
+
+
+                                                        if (!dup.device[newDevice.hash]) {
+                                                            ui.d("Added: " + JSON.stringify(newDevice))
+                                                            $("#node-input-devices-container").editableList('addItem', {
+                                                                device: newDevice,
+                                                                hash: newDevice.hash
+                                                            });
+                                                        } else {
+                                                            importResults.dupe++;
+                                                        }
+                                                    } else {
+                                                        importResults.invalid++;
+                                                    }
+                                                }
+                                            } catch (err) {
+                                                console.warn(err);
+                                            }
+
+
+                                        }
+                                    }
+                                    //import eps
+                                    if (undefined !== data.LIPIdList.Zones && Array.isArray(data.LIPIdList.Zones)) {
+                                        impDevices = data.LIPIdList.Zones;
+                                        for (let i = 0; i < impDevices.length; i++) {
+                                            importResults.seen++;
+                                            let newDevice = prepImportDevice(impDevices[i]);
+                                            if (newDevice) {
+                                                if (!dup.device[newDevice.hash]) {
+                                                    ui.d("Added: " + JSON.stringify(newDevice))
+                                                    $("#node-input-devices-container").editableList('addItem', {
+                                                        device: newDevice,
+                                                        hash: newDevice.hash
+                                                    });
+                                                } else {
+                                                    importResults.dupe++;
+                                                }
+                                            } else {
+                                                importResults.invalid++;
+                                            }
+
+                                        }
+
+                                    }
+                                    break;
+                            }
+                            RED.notify("Scanned " + importResults.seen + " " + importType + ". " + importResults.add + " added. " + importResults.dupe + " skipped. " + importResults.invalid + " invalid.", 'info');
+                            if ((importResults.add || importResults.dupe) && importType === "devices") {
+                                elDeviceEditor.editableList("height", 400);
+                            } else if ((importResults.add || importResults.dupe) && importType === "scenes") {
+                                elSceneEditor.editableList("height", 400);
+                            }
+
+                        } else {
+                            RED.notify("Unable to parse integration report data. Please check its formatting.", 'warning');
+                        }
+                    } else {
+                        RED.notify("Unable to parse integration report data. Please check its formatting.", 'warning');
+                    }
+
+
+                };
+
+
+                let bridge = this;
+                let ui = new CASUI(BASE, bridge);
+                const F = ui.Fields;
+
+                elDeviceEditor.css('min-width', '400px').editableList({
+                    header: $("<div>").append($.parseHTML(
+                        "<div style='" + ui.inpListStyle('device', 'sid') + " display: inline-grid'>ID</div>" +
+                        "<div  style='" + ui.inpListStyle('device', 'label') + " display: inline-grid'>Label</div>" +
+                        "<div style='" + ui.inpListStyle('device', 'type') + " display: inline-grid'>Type</div>" +
+                        "<div  style='" + ui.inpListStyle('device', 'area') + " display: inline-grid'>Area</div>" +
+                        "<div  style='" + ui.inpListStyle('device', 'help') + " display: inline-grid'></div>"
+                    )),
+                    height: 100,
+                    addButton: false,
+                    sortable: true,
+                    buttons: [
+                        {
+                            label: "Import",
+                            icon: "fa fa-upload",
+                            title: "Import",
+                            click: function (evt) {
+                                importDevices(F.int_report.typedInput("value"), "devices");
+
+                            }
+                        },
+                        {
+                            label: "Clear",
+                            icon: "fa fa-star",
+                            title: "Clear",
+                            click: function (evt) {
+                                dup.device = {};
+                                elDeviceEditor.editableList('empty');
+                                elDeviceEditor.editableList("height", 100);
+
+
+                            }
+                        }
+                    ],
+
+                    // sort: function (dataA, dataB) {
+                    //return parseInt(dataA.sid) - parseInt(dataB.sid);
+                    // },
+                    addItem: function (container, i, opt) {
+
+
+                        container.css({
+                            overflow: 'hidden',
+                            whiteSpace: 'nowrap'
+                        });
+                        let device = opt.device;
+                        let row = $('<div/>').appendTo(container);
+                        dup.device[device.hash] = true;
+                        let sidField = $('<input/>', {
+                            class: ui.inpListClass("device", "sid"),
+                            type: "text",
+                            style: ui.inpListStyle("device", "sid"),
+                            value: device.sid,
+                            title: 'sid',
+                            readonly: true
+                        }).appendTo(row);
+                        let labelField = $('<input/>', {
+                            class: ui.inpListClass("device", "label"),
+                            type: "text",
+                            title: "label",
+                            style: ui.inpListStyle("device", "label"),
+                            value: device.label
+                        }).appendTo(row);
+                        let typeField = $('<select/>', {
+                            class: ui.inpListClass("device", "type"),
+                            style: ui.inpListStyle("device", "type"),
+                        }).appendTo(row);
+                        let areaField = $('<input/>', {
+                            class: ui.inpListClass("device", "area"),
+                            type: "text",
+                            style: ui.inpListStyle("device", "area"),
+                            title: "area",
+                            value: device.area,
+                            readonly: true
+                        }).appendTo(row);
+                        let nameField = $('<span/>', {
+                            html: device.name,
+                            class: ui.inpListClass("device", "name"),
+                            style: "visibility: hidden;"
+                        }).appendTo(row);
+                        let hashField = $('<span/>', {
+                            html: device.hash,
+                            class: ui.inpListClass("device", "hash"),
+                            style: "visibility: hidden;"
+                        }).appendTo(row);
+
+                        for (const m in ui.Library) {
+                            if (ui.Library.hasOwnProperty(m) && m !== 'smartbridge') {
+                                typeField.append($("<option></option>").val(m).text(ui.Library[m].type_label));
+                            }
+                        }
+                        typeField.val(device.type);
+
+
+                        let finalspan = $('<span/>', {style: "float: right;margin-top: 6px;"}).appendTo(row);
+                        importResults.add++;
+
+                    }
+
+
+                });
+
+                elSceneEditor.css('min-width', '400px').editableList({
+                    header: $("<div>").append($.parseHTML("" +
+                        "<div style='" + ui.inpListStyle("scene", "sid") + " display: inline-grid'>ID</div>" +
+                        "<div  style='" + ui.inpListStyle("scene", "label") + " display: inline-grid'>Label</div>"
+                    )),
+                    addButton: false,
+                    height: 100,
+                    sortable: true,
+                    buttons: [
+                        {
+                            label: "Import",
+                            icon: "fa fa-upload",
+                            title: "Import",
+                            click: function (evt) {
+                                importDevices(F.int_report.typedInput("value"), "scenes");
+
+                            }
+                        },
+                        {
+                            label: "Clear",
+                            icon: "fa fa-star",
+                            title: "Clear",
+                            click: function (evt) {
+                                dup.scene = {};
+                                elSceneEditor.editableList('empty');
+                                elSceneEditor.editableList("height", 100);
+
+                            }
+                        }
+                    ],
+
+                    addItem: function (container, i, opt) {
+
+
+                        container.css({
+                            overflow: 'hidden',
+                            whiteSpace: 'nowrap'
+                        });
+                        let scene = opt.scene;
+                        let row = $('<div/>').appendTo(container);
+                        dup.scene[scene.hash] = true;
+                        let sidField = $('<input/>', {
+                            class: ui.inpListClass("scene", "sid"),
+                            type: "text",
+                            style: ui.inpListStyle("scene", "sid"),
+                            value: scene.sid,
+                            title: 'sid',
+                            readonly: true
+                        }).appendTo(row);
+                        let labelField = $('<input/>', {
+                            class: ui.inpListClass("scene", "label"),
+                            type: "text",
+                            title: "label",
+                            style: ui.inpListStyle("scene", "label"),
+                            value: scene.label
+                        }).appendTo(row);
+                        let nameField = $('<span/>', {
+                            html: scene.name,
+                            class: ui.inpListClass("scene", "name"),
+                            style: ui.inpListStyle("scene", "name"),
+                        }).appendTo(row);
+                        let hashField = $('<span/>', {
+                            html: scene.hash,
+                            class: ui.inpListClass("scene", "hash"),
+                            style: ui.inpListStyle("scene", "hash")
+                        }).appendTo(row);
+
+                        let finalspan = $('<span/>', {style: "float: right;margin-top: 6px;"}).appendTo(row);
+                        importResults.add++;
+
+                    }
+
+
+                });
+
+
+                ui.load(function (err, loaded) {
+                    if (loaded) {
+                        F.import_report.on("click", function () {
+                            importDevices(F.int_report.typedInput("value"));
+                        })
+                        ui.initAdvArea("node-input-section-config-advanced");
+                        F.int_report.typedInput({
+                            type: "json"
+
+                        });
+
+                        if (Object.keys(bridge.device_list) && Object.keys(bridge.device_list).length > 0) {
+                            let sortedKeys = Object.keys(bridge.device_list).sort((a, b) => (a > b) ? 1 : -1);
+
+                            for (const d in sortedKeys) {
+                                if (bridge.device_list.hasOwnProperty(sortedKeys[d]) && bridge.device_list[sortedKeys[d]].type !== "smartbridge") {
+                                    elDeviceEditor.editableList('addItem', {
+                                        device: bridge.device_list[sortedKeys[d]],
+                                        hash: bridge.device_list[sortedKeys[d]].hash
+                                    });
+
+                                }
+
+
+                            }
+                            elDeviceEditor.editableList("height", 400);
+                        }
+
+                        if (Object.keys(bridge.scene_list) && Object.keys(bridge.scene_list).length > 0) {
+                            let sortedKeys = Object.keys(bridge.scene_list).sort((a, b) => (a > b) ? 1 : -1);
+                            for (const d in sortedKeys) {
+                                if (bridge.scene_list.hasOwnProperty(sortedKeys[d])) {
+                                    elSceneEditor.editableList('addItem', {
+                                        scene: bridge.scene_list[sortedKeys[d]],
+                                        hash: bridge.scene_list[sortedKeys[d]].hash
+                                    });
+                                }
+                            }
+                            elSceneEditor.editableList("height", 400);
+
+                        }
+
+                        let addressField = F.bridge_ip_address;
+                        addressField.change(function () {
+                            let address = addressField.val();
+                            let re = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/gm;
+                            let re2 = /^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z]{2,63}|[0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9])$/gm
+                            if (!address.match(re) && !address.match(re2)) {
+                                addressField.addClass("input-error");
+                            } else {
+                                addressField.removeClass("input-error");
+                            }
+                        })
+                    } else {
+                        console.warn("UI initialisation failed.")
+                    }
+                });
+            },
+            oneditsave: function () {
+
+                let bridge = this;
+                let ui = new CASUI(BASE, bridge);
+                const elDeviceEditor = $("#node-input-devices-container");
+                let devices = elDeviceEditor.editableList('items');
+                let tempDevice_list = {};
+
+                devices.each(function (i) {
+                    let device = $(this);
+                    let upDevice = {
+                        sid: device.find("." + ui.inpListClass("device", "sid")).val(),
+                        name: device.find("." + ui.inpListClass("device", "name")).html(),
+                        label: device.find("." + ui.inpListClass("device", "label")).val(),
+                        hash: device.find("." + ui.inpListClass("device", "hash")).html(),
+                        area: device.find("." + ui.inpListClass("device", "area")).val(),
+                        type: device.find("." + ui.inpListClass("device", "type")).val()
+                    }
+
+                    try {
+                        if (upDevice.sid && upDevice.name && upDevice.label && upDevice.hash && upDevice.area && upDevice.type) {
+                            tempDevice_list[upDevice.hash] = upDevice;
+                        } else {
+                            console.warn("Could not save: " + JSON.stringify(upDevice));
+                            console.warn("saveDevice")
+                        }
+                    } catch (err) {
+                        console.warn(err);
+                        console.warn("saveDevice")
+                    }
+
+
+                });
+                if (tempDevice_list) {
+
+                    bridge.device_list = tempDevice_list;
+                    bridge.device_list.SmartBridge = {
+                        sid: "1",
+                        name: "SmartBridge",
+                        label: "Scene",
+                        hash: "SmartBridge",
+                        type: "smartbridge"
+                    };
+                }
+                const elSceneEditor = $("#node-input-scenes-container");
+                let scenes = elSceneEditor.editableList('items');
+
+                let tempScene_list = {};
+                scenes.each(function (i) {
+                    let scene = $(this);
+
+                    try {
+
+                        let upScene = {
+                            sid: scene.find("." + ui.inpListClass("scene", "sid")).val(),
+                            name: scene.find("." + ui.inpListClass("scene", "name")).html(),
+                            label: scene.find("." + ui.inpListClass("scene", "label")).val(),
+                            hash: scene.find("." + ui.inpListClass("scene", "hash")).html(),
+                        }
+                        if (upScene.sid && upScene.name && upScene.label && upScene.hash) {
+                            tempScene_list[upScene.hash] = upScene;
+                        } else {
+                            console.warn("Could not save: " + JSON.stringify(upScene));
+                            console.warn("saveScene")
+                        }
+                    } catch (err) {
+                        console.warn(err);
+                        console.warn("saveScene")
+                    }
+
+
+                });
+                if (tempScene_list) {
+                    bridge.scene_list = tempScene_list;
+                }
+
+            },
+            oneditcancel: function () {
+
+            }
+        });
+    })();
+</script>
+
+<script type="text/html" data-template-name="caseta-bridge">
+    <link rel="stylesheet" href="resources/node-red-contrib-caseta/style.css"/>
+
+    <div class="form-row">
+        <label for="node-config-input-name"><i class="fa fa-tag"></i> Name</label>
+        <div style="display: inline-block; position: relative; width: 70%; height: 20px;">
+            <div style="position: absolute; left: 0px; right: 40px;">
+                <input type="text" id="node-config-input-name" placeholder="My SmartBridge">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-bridge_ip_address"><i class="fa fa-globe"></i> IP address</label>
+        <div style="display: inline-block; position: relative; width: 70%; height: 20px;">
+            <div style="position: absolute; left: 0px; right: 40px;">
+                <input type="text" id="node-config-input-bridge_ip_address"
+                       placeholder="192.168.xx.xx or hostname.domain">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-row node-input-devices-container-row" id="device_list">
+        <label for="node-input-devices-container-div" style="vertical-align:top"><i class="fa fa-list-alt"></i> Devices</label>
+        <ol id="node-input-devices-container"></ol>
+
+    </div>
+    <div class="form-row node-input-scenes-container-row" id="scene_list">
+        <label for="node-input-scenes-container-div" style="vertical-align:top"><i class="fa fa-list-alt"></i>
+            Scenes</label>
+        <ol id="node-input-scenes-container"></ol>
+
+    </div>
+
+    <div class="form-row">
+        <label for="node-config-input-int_report"><i class="fa fa-list"></i> Report</label>
+        <div style="display: inline-block; position: relative; width: 50%; height: 20px;">
+            <div style="position: absolute; left: 0px; right: 40px;">
+                <input type="text" id="node-config-input-int_report" style="width:100%">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-row caseta-form-section">
+        <label for="section_appearance"><i class="fa fa-tags"></i> Appearance</label>
+        <div style="display: inline-block; position: relative; width: 7%; height: 20px;">
+            <div style="position: absolute; left: 0px; right: 40px;">
+                <span id="section_appearance"></span>
+            </div>
+        </div>
+        <div class="form-row caseta-form-row caseta-form-section-content">
+            <p>For easier identification in the palette editor, additional information can be added to the device
+                labels.</p>
+        </div>
+        <div class="form-row caseta-form-row caseta-form-section-content">
+            <input type="checkbox" id="node-config-input-f_append_id"
+                   style="display:inline-block; width:15px; vertical-align:baseline;" autocomplete="off">
+            <span> Append system ID.</span>
+        </div>
+
+    </div>
+
+
+    <div id="node-input-section-config-advanced" class="caseta-form-section-collapsible">
+        <label for="node-input-section-advanced-title"><i class="fa fa-plus-square"></i> Advanced</label>
+        <span id="node-input-section-advanced-title"></span>
+    </div>
+
+    <div class="caseta-form-section-collapsible-content">
+
+        <div class="form-row caseta-form-row">
+            <input type="checkbox" id="node-config-input-f_debug"
+                   style="display:inline-block; width:15px;vertical-align:baseline;" autocomplete="off">
+            <span> Send all network communication and hub activity to console.</span>
+        </div>
+        <div class="form-row caseta-form-row">
+            <input type="checkbox" id="node-config-input-f_dont_connect"
+                   style="display:inline-block; width:15px;vertical-align:baseline;" autocomplete="off">
+            <span> Don't connect to bridge when starting.</span>
+        </div>
+    </div>
+
+</script>
+
+
+<script type="text/html" data-help-name="caseta-bridge">
+    <link rel="stylesheet" href="resources/node-red-contrib-caseta/style.css"/>
+    <p>Configure the Smart Hub and attached devices and controls. </p>
+    <h4>Initial Setup</h4>
+    <p>The following steps should be used to configure Node-RED with your Caseta network information.</p>
+    <ol>
+        <li>Use the Caseta app on your phone to send yourself a copy of your integration report.</li>
+        <li>Drag any one of the node types onto the palette and open it.</li>
+        <li>Define a new Smart Hub by clicking the edit button.</li>
+        <li>Provide a name and the IP address (or hostname) of your Smart Hub.</li>
+        <li>Copy the contents of the integration report into the Report field and click the upload button.</li>
+        <li>Review the imported devices\remotes and make sure the type is correct.</li>
+        <li>Click [Update] and then [Deploy].</li>
+
+    </ol>
+    <h3>Basic Configuration</h3>
+    <p>
+        The following items are required.
+    </p>
+    <dl>
+        <dt>Name</dt>
+        <dd>The name of the Smart Hub as it will appear throughout Node-RED.</dd>
+        <dt>IP address</dt>
+        <dd>The IP address or hostname of the hub. Note: IPV6 is not supported.</dd>
+        <dt>Integration report</dt>
+        <dd>Contents of integration report.</dd>
+    </dl>
+    <h3>Devices</h3>
+    <p>
+        Once devices\remotes are imported from the integration report, they can be viewed and updated in the editor. Ensure that
+        each device is configured with the correct type.</p>
+    <dl>
+        <dt>ID</dt>
+        <dd>The Caseta system ID.</dd>
+        <dt>Label</dt>
+        <dd>Editable label for the device as it will appear throughout Node-RED.</dd>
+        <dt>Type</dt>
+        <dd>Editable device type.</dd>
+        <dt>Area</dt>
+        <dd>The location of the device.</dd>
+    </dl>
+
+    <h3>Advanced Configuration</h3>
+
+    <h4>Appearance</h4>
+    <p>Select options below to add additional information to device labels on the palette.</p>
+    <dl>
+        <dt>Prepend area to device name.</dt>
+        <dd>Use the area name to construct labels.</dd>
+        <dt>Append system ID to device name.</dt>
+        <dd>Appends the Caseta system ID to the device labels. Note that this only affect how devices are shown in
+            selectors and does not affect how devices are referenced in flows and messages.
+        </dd>
+
+    </dl>
+    <h4>System</h4>
+    <p>The following options are advanced settings that may be used for troubleshooting.</p>
+    <dl>
+        <dt>Send all hub communication data to console.</dt>
+        <dd>Sends raw data from sent to and received from the bridge/hub</dd>
+        <dt>Don't connect to Smart Hub</dt>
+        <dd>The connection to the hub can be disabled for testing.</dd>
+    </dl>
+    <h3>Other</h3>
+    <h4>Recovery</h4>
+    <p>If a Smart Hub breaks and needs to be replaced, this collection can help greatly. Currently, there is no known way
+        to copy a configuration from one bridge to another and everything must be reconfigured in the Lutron app.
+        Unfortunately, this collection cannot help with that part but there are steps to take to ensure all flows will
+        work with no major changes in Node-RED:</p>
+
+    <ol>
+        <li>Using the current integration report, ensure that all device and remote names are exactly the same when
+            reconfiguring the Caseta app. Do the same with all areas, rooms, and scenes. Note: all values are
+            case-sensitive!
+        </li>
+        <li>Obtain a new copy of the integration report.</li>
+        <li>Open the hub configuration in Node-RED and copy in the new integration report contents.</li>
+        <li>Re-import scenes and devices and save the config.</li>
+        <li>Deploy the changes.</li>
+    </ol>
+    <p>That is all that needs to be done and all flows should work as before.</p>
+    <h3>Product Mappings</h3>
+    <p>This section provides mappings of actions and events to their corresponding Lutron numeric identifiers.</p>
+    <!-- BEGIN DEVICES REF -->
+        <h4 id="caseta-help-device-pico_paddle_light">Pico - Lighting Paddle</h4>
+           <p>Model: PJ2-P2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_paddle_shades">Pico - Shades Paddle</h4>
+           <p>Model: PJ2-P2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Open</li>
+                   <li>4 - Close</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_two_button_light">Pico - 2 Button Lighting</h4>
+           <p>Model: PJ2-2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_paddle_two_button_light">Pico - 2 Button Paddle</h4>
+           <p>Model: PJ2-P2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_four_button_light">Pico - 4 Button Lighting</h4>
+           <p>Model: PJ2-4B-***-L31P</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_light">Pico - 5 Button Lighting</h4>
+           <p>Model: PJ2-3BRL-G***-L01R</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_fan">Pico - 5 Button Fan</h4>
+           <p>Model: PJ2-3BRL-G***-F01</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - High</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Faster</li>
+                   <li>6 - Slower</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_audio">Pico - 5 Button Audio</h4>
+           <p>Model: PJ2-3BRL-G***-A02</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Toggle play</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Next</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_shades">Pico - 5 Button Shades</h4>
+           <p>Model:  PJ2-3BRL-G***-S01</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Open</li>
+                   <li>3 - Favorite</li>
+                   <li>4 - Close</li>
+                   <li>5 - Raise</li>
+                   <li>6 - Lower</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_wood_shades">Pico - 5 Button Wood Shades</h4>
+           <p>Model: PJ2-3BRL-G***-S10</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Open</li>
+                   <li>3 - Favorite</li>
+                   <li>4 - Close</li>
+                   <li>5 - Tilt up</li>
+                   <li>6 - Tilt down</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-smartbridge">Smart Hub</h4>
+           <p>Notes: <em>The Smart Hub is the device that is used to initialize scenes.  A scene can be set only.  It cannot be &#x27;unset&#x27;.</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>3 - Set</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_diva">Dimmer - Diva</h4>
+           <p>Model: DVRF-6L-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_diva_elv">Dimmer - Diva ELV+</h4>
+           <p>Model: DVRF-5NE-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-switch_claro">Switch - Claro</h4>
+           <p>Model: DVRF-5NS-**</p>
+           <p>Notes: <em>This device can only be set to a level of 0 or 100 (off or on).</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-accessory_switch_claro_diva">Accessory Switch</h4>
+           <p>Model: DVRF-AS-**</p>
+           <p>Notes: <em>Use with Claro or Diva. This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+        <h4 id="caseta-help-device-dimmer_four_button">Dimmer - 4 Button</h4>
+           <p>Model: PD-6WCL-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_five_button">Dimmer - 5 Button</h4>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_five_button_elv">ELV Dimmer - 5 Button</h4>
+           <p>Model: PD-5NE-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_four_button_plugin">Dimmer - 4 Button Plugin</h4>
+           <p>Model: PD-3PCL-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-fan_five_button">Fan - 5 Button Controller</h4>
+           <p>Model: PD-FSQN-***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Faster</li>
+                   <li>6 - Slower</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-switch_two_button">Lighting - 2 Button Switch</h4>
+           <p>Model: PD-6ANS-***</p>
+           <p>Notes: <em>This device can only be set to a level of 0 or 100 (off or on).</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-fan_two_button">Fan - 2 Button Switch</h4>
+           <p>Model: PD-6ANS-***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-switch_outdoor_two_button">Power - Outdoor Switch</h4>
+           <p>Model: PD-15OUT-BL</p>
+           <p>Notes: <em>This device can only be set to a level of 0 or 100 (off or on).</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-motion_sensor_occupancyvacancy">Motion Sensor - Occupancy/Vacancy</h4>
+           <p>Model: PD-OSENS</p>
+           <p>Notes: <em>This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+        <h4 id="caseta-help-device-motion_sensor_vacancy">Motion Sensor - Vacancy Only</h4>
+           <p>Model: PD-VSENS</p>
+           <p>Notes: <em>This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+        <h4 id="caseta-help-device-wireless_repeater">Wireless Repeater</h4>
+           <p>Model: PD-REP</p>
+           <p>Notes: <em>This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+<!-- END DEVICES REF -->
+    <h4>Collection Information</h4>
+    <ul>
+        <li>Version: 3.2.0</li>
+    </ul>
+
+    <div style="height: 700px;"></div>
+    <span>This space intentionally left blank</span>
+
+</script>

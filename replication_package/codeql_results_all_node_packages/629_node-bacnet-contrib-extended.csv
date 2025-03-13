@@ -1,0 +1,59 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;change-of-value.js:168[48:51];Sink: '000 Re ...  + data;change-of-value.js:170[21:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;change-of-value.js:168[48:51];Sink: '111 Re ... ' + str;change-of-value.js:173[21:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;change-of-value.js:168[48:51];Sink: '333 Re ...  + str2;change-of-value.js:176[21:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;change-of-value.js:168[48:51];Sink: data;change-of-value.js:187[19:22]::FLOW_DESCR_END","/change-of-value.js","168","48","168","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload.values;change-of-value.js:175[20:38];Sink: '333 Re ...  + str2;change-of-value.js:176[21:47]::FLOW_DESCR_END","/change-of-value.js","175","20","175","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discover-devices.js:16[35:37];Sink: msg;discover-devices.js:96[23:25]::FLOW_DESCR_END","/discover-devices.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;discover-devices.js:111[37:42];Sink: device;discover-devices.js:113[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;discover-devices.js:111[37:42];Sink: ""found  ... address;discover-devices.js:114[48:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;discover-devices.js:111[37:42];Sink: ""device ...  device;discover-devices.js:121[33:55]::FLOW_DESCR_END","/discover-devices.js","111","37","111","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... eviceId;discover-devices.js:114[81:103];Sink: ""found  ... address;discover-devices.js:114[48:151]::FLOW_DESCR_END","/discover-devices.js","114","81","114","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-all-devices.js:26[33:35];Sink: msg;read-all-devices.js:726[21:23]::FLOW_DESCR_END","/read-all-devices.js","26","33","26","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;read-all-devices.js:143[36:41];Sink: device;read-all-devices.js:147[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;read-all-devices.js:143[36:41];Sink: 'Found  ... ddress);read-all-devices.js:156[23:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;read-all-devices.js:143[36:41];Sink: deviceId;read-all-devices.js:191[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;read-all-devices.js:143[36:41];Sink: deviceId;read-all-devices.js:198[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;read-all-devices.js:143[36:41];Sink: `Device ... ly ...`;read-all-devices.js:722[23:117]::FLOW_DESCR_END","/read-all-devices.js","143","36","143","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... eviceId;read-all-devices.js:152[28:50];Sink: 'Found  ... ddress);read-all-devices.js:156[23:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device. ... eviceId;read-all-devices.js:152[28:50];Sink: deviceId;read-all-devices.js:191[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device. ... eviceId;read-all-devices.js:152[28:50];Sink: deviceId;read-all-devices.js:198[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device. ... eviceId;read-all-devices.js:152[28:50];Sink: `Device ... ly ...`;read-all-devices.js:722[23:117]::FLOW_DESCR_END","/read-all-devices.js","152","28","152","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg.deviceId;read-object-properties.js:22[41:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg;read-object-properties.js:70[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg.deviceId;read-object-properties.js:85[42:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg.address;read-object-properties.js:87[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg.requestArray;read-object-properties.js:88[48:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg.req ... bjectId;read-object-properties.js:91[56:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg.req ... perties;read-object-properties.js:92[58:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg;read-object-properties.js:106[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg;read-object-properties.js:112[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-object-properties.js:16[35:37];Sink: msg;read-object-properties.js:122[23:25]::FLOW_DESCR_END","/read-object-properties.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-objects-list-within-device.js:16[35:37];Sink: msg.deviceId;read-objects-list-within-device.js:22[41:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-objects-list-within-device.js:16[35:37];Sink: msg;read-objects-list-within-device.js:63[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-objects-list-within-device.js:16[35:37];Sink: msg;read-objects-list-within-device.js:70[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-objects-list-within-device.js:16[35:37];Sink: msg.deviceId;read-objects-list-within-device.js:85[42:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-objects-list-within-device.js:16[35:37];Sink: msg;read-objects-list-within-device.js:105[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-objects-list-within-device.js:16[35:37];Sink: msg;read-objects-list-within-device.js:111[31:33]::FLOW_DESCR_END","/read-objects-list-within-device.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-single-device.js:27[33:35];Sink: msg;read-single-device.js:71[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-device.js:27[33:35];Sink: msg;read-single-device.js:78[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-device.js:27[33:35];Sink: deviceId;read-single-device.js:205[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-device.js:27[33:35];Sink: deviceId;read-single-device.js:212[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-device.js:27[33:35];Sink: `Device ... ly ...`;read-single-device.js:696[25:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-device.js:27[33:35];Sink: msg;read-single-device.js:710[23:25]::FLOW_DESCR_END","/read-single-device.js","27","33","27","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;read-single-device.js:173[26:37];Sink: deviceId;read-single-device.js:205[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;read-single-device.js:173[26:37];Sink: deviceId;read-single-device.js:212[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;read-single-device.js:173[26:37];Sink: `Device ... ly ...`;read-single-device.js:696[25:119]::FLOW_DESCR_END","/read-single-device.js","173","26","173","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-single-point.js:27[33:35];Sink: msg;read-single-point.js:106[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-point.js:27[33:35];Sink: msg;read-single-point.js:122[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-point.js:27[33:35];Sink: msg;read-single-point.js:138[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-point.js:27[33:35];Sink: msg;read-single-point.js:160[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-point.js:27[33:35];Sink: msg;read-single-point.js:176[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-single-point.js:27[33:35];Sink: msg;read-single-point.js:208[27:29]::FLOW_DESCR_END","/read-single-point.js","27","33","27","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg;write-object-property.js:36[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg.address;write-object-property.js:48[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg.objectId;write-object-property.js:49[47:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg.propertyId;write-object-property.js:50[47:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg.values;write-object-property.js:51[47:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg;write-object-property.js:57[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg;write-object-property.js:60[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-object-property.js:14[36:38];Sink: msg;write-object-property.js:65[27:29]::FLOW_DESCR_END","/write-object-property.js","14","36","14","38"

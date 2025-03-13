@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... api_key;boxcar-notification.js:32[22:45];Sink: body;boxcar-notification.js:66[21:24]::FLOW_DESCR_END","/boxcar-notification.js","32","22","32","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;boxcar-notification.js:34[25:27];Sink: msg;boxcar-notification.js:68[28:30]::FLOW_DESCR_END","/boxcar-notification.js","34","25","34","27"

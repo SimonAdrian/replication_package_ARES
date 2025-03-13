@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;techulus_push.js:18[35:37];Sink: msg;techulus_push.js:24[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;techulus_push.js:18[35:37];Sink: msg;techulus_push.js:32[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;techulus_push.js:18[35:37];Sink: msg;techulus_push.js:103[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;techulus_push.js:18[35:37];Sink: data;techulus_push.js:107[23:26]::FLOW_DESCR_END","/techulus_push.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;techulus_push.js:65[32:32];Sink: response.message;techulus_push.js:74[42:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;techulus_push.js:65[32:32];Sink: response.message;techulus_push.js:76[44:59]::FLOW_DESCR_END","/techulus_push.js","65","32","65","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;techulus_push.js:98[29:33];Sink: error;techulus_push.js:103[32:36]::FLOW_DESCR_END","/techulus_push.js","98","29","98","33"

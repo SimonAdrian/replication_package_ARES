@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;connection.js:123[42:45];Sink: error;connection.js:143[24:28]::FLOW_DESCR_END","/connection/connection.js","123","42","123","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;connection.js:161[43:47];Sink: new Err ... essage);connection.js:162[22:64]::FLOW_DESCR_END","/connection/connection.js","161","43","161","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decoder.js:7[32:34];Sink: msg;decoder.js:14[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decoder.js:7[32:34];Sink: err;decoder.js:134[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decoder.js:7[32:34];Sink: msg;decoder.js:134[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decoder.js:7[32:34];Sink: msg;decoder.js:140[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decoder.js:7[32:34];Sink: msg;decoder.js:142[19:21]::FLOW_DESCR_END","/decoder/decoder.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encoder.js:10[32:34];Sink: msg;encoder.js:198[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;encoder.js:10[32:34];Sink: msg;encoder.js:200[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;encoder.js:10[32:34];Sink: error;encoder.js:211[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;encoder.js:10[32:34];Sink: msg;encoder.js:211[29:31]::FLOW_DESCR_END","/encoder/encoder.js","10","32","10","34"

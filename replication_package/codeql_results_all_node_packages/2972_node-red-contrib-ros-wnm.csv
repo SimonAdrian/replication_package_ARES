@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ros-server-node.js:33[32:36];Sink: error;ros-server-node.js:36[41:45]::FLOW_DESCR_END","/ros-server-node.js","33","32","33","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ros-subscribe-node.js:20[36:39];Sink: 'got data: ' + data;ros-subscribe-node.js:22[22:40]::FLOW_DESCR_END","/ros-subscribe-node.js","20","36","20","39"

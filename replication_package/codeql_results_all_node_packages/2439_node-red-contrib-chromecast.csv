@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chromecast-play.js:39[36:38];Sink: host;chromecast-play.js:8[18:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chromecast-play.js:39[36:38];Sink: host;chromecast-play.js:9[75:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chromecast-play.js:39[36:38];Sink: url;chromecast-play.js:9[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chromecast-play.js:39[36:38];Sink: type;chromecast-play.js:9[86:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chromecast-play.js:39[36:38];Sink: msg;chromecast-play.js:55[23:25]::FLOW_DESCR_END","/chromecast-play.js","39","36","39","38"

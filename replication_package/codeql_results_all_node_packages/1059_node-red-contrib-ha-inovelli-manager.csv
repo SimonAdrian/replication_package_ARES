@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;inovelli-led-manager.js:44[23:25];Sink: err;inovelli-led-manager.js:108[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-led-manager.js:44[23:25];Sink: err;inovelli-led-manager.js:153[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-led-manager.js:44[23:25];Sink: err;inovelli-led-manager.js:167[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-led-manager.js:44[23:25];Sink: err;inovelli-led-manager.js:177[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-led-manager.js:44[23:25];Sink: err;inovelli-led-manager.js:207[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-led-manager.js:44[23:25];Sink: err;inovelli-led-manager.js:218[24:26]::FLOW_DESCR_END","/nodes/inovelli-led-manager.js","44","23","44","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:77[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:92[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:102[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:128[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:135[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:147[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: `Incorr ... ation}`;inovelli-notification-manager.js:185[24:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:193[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:230[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:237[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:244[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:253[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-notification-manager.js:30[23:25];Sink: err;inovelli-notification-manager.js:279[26:28]::FLOW_DESCR_END","/nodes/inovelli-notification-manager.js","30","23","30","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;inovelli-scene-manager.js:13[23:25];Sink: err;inovelli-scene-manager.js:40[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;inovelli-scene-manager.js:13[23:25];Sink: err;inovelli-scene-manager.js:51[24:26]::FLOW_DESCR_END","/nodes/inovelli-scene-manager.js","13","23","13","25"

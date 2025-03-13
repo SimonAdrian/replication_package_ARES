@@ -1,0 +1,103 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;sofia2-connection-config.js:36[14:19];Sink: ""MQTT:  ... is.port;sofia2-connection-config.js:40[16:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;sofia2-connection-config.js:36[14:19];Sink: this.port;sofia2-connection-config.js:43[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;sofia2-connection-config.js:36[14:19];Sink: node.port;sofia2-connection-config.js:64[29:37]::FLOW_DESCR_END","/sofia2-connection-config/sofia2-connection-config.js","36","14","36","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;sofia2-connection-config.js:40[59:67];Sink: ""MQTT:  ... is.port;sofia2-connection-config.js:40[16:67]::FLOW_DESCR_END","/sofia2-connection-config/sofia2-connection-config.js","40","59","40","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2-delete.js:20[29:31];Sink: msg;sofia2-delete.js:52[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-delete.js:20[29:31];Sink: msg;sofia2-delete.js:60[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-delete.js:20[29:31];Sink: msg;sofia2-delete.js:184[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-delete.js:20[29:31];Sink: msg;sofia2-delete.js:212[19:21]::FLOW_DESCR_END","/sofia2-delete/sofia2-delete.js","20","29","20","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-delete.js:141[34:34];Sink: ""Sessio ... sionKey;sofia2-delete.js:147[23:65]::FLOW_DESCR_END","/sofia2-delete/sofia2-delete.js","141","34","141","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-delete.js:190[42:44];Sink: ""Error:""+err;sofia2-delete.js:191[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-delete.js:190[42:44];Sink: ""Error:""+err;sofia2-delete.js:192[23:34]::FLOW_DESCR_END","/sofia2-delete/sofia2-delete.js","190","42","190","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-delete.js:201[38:40];Sink: err;sofia2-delete.js:202[65:67]::FLOW_DESCR_END","/sofia2-delete/sofia2-delete.js","201","38","201","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-delete.js:219[37:39];Sink: ""Error:""+err;sofia2-delete.js:220[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-delete.js:219[37:39];Sink: ""Error:""+err;sofia2-delete.js:221[21:32]::FLOW_DESCR_END","/sofia2-delete/sofia2-delete.js","219","37","219","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: ""Using  ... tologia;sofia2-insert.js:29[17:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: queryInsert;sofia2-insert.js:38[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: msg;sofia2-insert.js:50[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: msg;sofia2-insert.js:58[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: ""Query  ... yInsert;sofia2-insert.js:84[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: msg;sofia2-insert.js:176[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: queryInsert;sofia2-insert.js:180[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: msg;sofia2-insert.js:206[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-insert.js:17[29:31];Sink: queryInsert;sofia2-insert.js:211[22:32]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-insert.js:110[31:31];Sink: queryInsert;sofia2-insert.js:38[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:110[31:31];Sink: ""Query  ... yInsert;sofia2-insert.js:84[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:110[31:31];Sink: queryInsert;sofia2-insert.js:180[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:110[31:31];Sink: queryInsert;sofia2-insert.js:211[22:32]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","110","31","110","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: ""Sessio ... sionKey;sofia2-insert.js:34[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: ""Using  ... sionKey;sofia2-insert.js:36[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: queryInsert;sofia2-insert.js:38[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: ""Query  ... yInsert;sofia2-insert.js:84[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: ""Sessio ... sionKey;sofia2-insert.js:144[23:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: queryInsert;sofia2-insert.js:180[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:138[34:34];Sink: queryInsert;sofia2-insert.js:211[22:32]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","138","34","138","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-insert.js:164[36:36];Sink: queryInsert;sofia2-insert.js:38[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:164[36:36];Sink: ""Query  ... yInsert;sofia2-insert.js:84[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:164[36:36];Sink: queryInsert;sofia2-insert.js:180[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-insert.js:164[36:36];Sink: queryInsert;sofia2-insert.js:211[22:32]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","164","36","164","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-insert.js:182[42:44];Sink: ""Error:""+err;sofia2-insert.js:183[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-insert.js:182[42:44];Sink: ""Error:""+err;sofia2-insert.js:184[25:36]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","182","42","182","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-insert.js:191[38:40];Sink: err;sofia2-insert.js:192[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-insert.js:191[38:40];Sink: ""Error:""+err;sofia2-insert.js:193[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-insert.js:191[38:40];Sink: ""Error:""+err;sofia2-insert.js:194[21:32]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","191","38","191","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-insert.js:213[37:39];Sink: err;sofia2-insert.js:214[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-insert.js:213[37:39];Sink: ""Error:""+err;sofia2-insert.js:215[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-insert.js:213[37:39];Sink: ""Error:""+err;sofia2-insert.js:216[18:29]::FLOW_DESCR_END","/sofia2-insert/sofia2-insert.js","213","37","213","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2-leave.js:15[29:31];Sink: msg;sofia2-leave.js:30[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-leave.js:15[29:31];Sink: msg;sofia2-leave.js:38[18:20]::FLOW_DESCR_END","/sofia2-leave/sofia2-leave.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-leave.js:104[36:38];Sink: ""Error:""+err;sofia2-leave.js:105[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-leave.js:104[36:38];Sink: ""Error:""+err;sofia2-leave.js:106[18:29]::FLOW_DESCR_END","/sofia2-leave/sofia2-leave.js","104","36","104","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: ""Using  ... tologia;sofia2-query - copia.js:42[17:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: ""Using query:""+query;sofia2-query - copia.js:50[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: msg;sofia2-query - copia.js:60[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: msg;sofia2-query - copia.js:68[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: ""Query:""+query;sofia2-query - copia.js:73[18:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: ""Path URL:""+pathUrl;sofia2-query - copia.js:102[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: ""URL in ... pathUrl;sofia2-query - copia.js:151[21:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: msg;sofia2-query - copia.js:174[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query - copia.js:20[29:31];Sink: msg;sofia2-query - copia.js:199[19:21]::FLOW_DESCR_END","/sofia2-query/sofia2-query - copia.js","20","29","20","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-query - copia.js:138[32:32];Sink: ""Sessio ... sionKey;sofia2-query - copia.js:46[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query - copia.js:138[32:32];Sink: ""Using  ... sionKey;sofia2-query - copia.js:48[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query - copia.js:138[32:32];Sink: ""Using query:""+query;sofia2-query - copia.js:50[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query - copia.js:138[32:32];Sink: ""Path URL:""+pathUrl;sofia2-query - copia.js:102[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query - copia.js:138[32:32];Sink: ""Sessio ... sionKey;sofia2-query - copia.js:144[21:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query - copia.js:138[32:32];Sink: ""URL in ... pathUrl;sofia2-query - copia.js:151[21:56]::FLOW_DESCR_END","/sofia2-query/sofia2-query - copia.js","138","32","138","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-query - copia.js:179[34:36];Sink: ""Error:""+err;sofia2-query - copia.js:180[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-query - copia.js:179[34:36];Sink: ""Error:""+err;sofia2-query - copia.js:181[21:32]::FLOW_DESCR_END","/sofia2-query/sofia2-query - copia.js","179","34","179","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-query - copia.js:188[36:38];Sink: err;sofia2-query - copia.js:189[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-query - copia.js:188[36:38];Sink: err;sofia2-query - copia.js:190[62:64]::FLOW_DESCR_END","/sofia2-query/sofia2-query - copia.js","188","36","188","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-query - copia.js:193[32:32];Sink: ""Output:""+result;sofia2-query - copia.js:208[18:33]::FLOW_DESCR_END","/sofia2-query/sofia2-query - copia.js","193","32","193","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-query - copia.js:204[31:33];Sink: ""Error:""+err;sofia2-query - copia.js:205[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-query - copia.js:204[31:33];Sink: ""Error:""+err;sofia2-query - copia.js:206[18:29]::FLOW_DESCR_END","/sofia2-query/sofia2-query - copia.js","204","31","204","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: ""Using  ... tologia;sofia2-query.js:43[17:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: ""Using query:""+query;sofia2-query.js:51[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: msg;sofia2-query.js:61[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: msg;sofia2-query.js:69[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: ""Query:""+query;sofia2-query.js:74[18:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: ""Path URL:""+pathUrl;sofia2-query.js:106[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: ""URL in ... pathUrl;sofia2-query.js:161[21:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: msg;sofia2-query.js:185[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-query.js:21[29:31];Sink: msg;sofia2-query.js:210[19:21]::FLOW_DESCR_END","/sofia2-query/sofia2-query.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-query.js:148[32:32];Sink: ""Sessio ... sionKey;sofia2-query.js:47[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query.js:148[32:32];Sink: ""Using  ... sionKey;sofia2-query.js:49[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query.js:148[32:32];Sink: ""Using query:""+query;sofia2-query.js:51[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query.js:148[32:32];Sink: ""Path URL:""+pathUrl;sofia2-query.js:106[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query.js:148[32:32];Sink: ""Sessio ... sionKey;sofia2-query.js:154[21:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia2-query.js:148[32:32];Sink: ""URL in ... pathUrl;sofia2-query.js:161[21:56]::FLOW_DESCR_END","/sofia2-query/sofia2-query.js","148","32","148","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-query.js:190[34:36];Sink: ""Error:""+err;sofia2-query.js:191[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-query.js:190[34:36];Sink: ""Error:""+err;sofia2-query.js:192[21:32]::FLOW_DESCR_END","/sofia2-query/sofia2-query.js","190","34","190","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-query.js:199[36:38];Sink: err;sofia2-query.js:200[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-query.js:199[36:38];Sink: err;sofia2-query.js:201[62:64]::FLOW_DESCR_END","/sofia2-query/sofia2-query.js","199","36","199","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-query.js:204[32:32];Sink: ""Output:""+result;sofia2-query.js:219[18:33]::FLOW_DESCR_END","/sofia2-query/sofia2-query.js","204","32","204","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-query.js:215[31:33];Sink: ""Error:""+err;sofia2-query.js:216[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-query.js:215[31:33];Sink: ""Error:""+err;sofia2-query.js:217[18:29]::FLOW_DESCR_END","/sofia2-query/sofia2-query.js","215","31","215","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2-update.js:19[29:31];Sink: msg;sofia2-update.js:51[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-update.js:19[29:31];Sink: msg;sofia2-update.js:59[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-update.js:19[29:31];Sink: msg;sofia2-update.js:123[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2-update.js:19[29:31];Sink: msg;sofia2-update.js:187[24:26]::FLOW_DESCR_END","/sofia2-update/sofia2-update.js","19","29","19","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia2-update.js:147[34:34];Sink: ""Sessio ... sionKey;sofia2-update.js:153[23:65]::FLOW_DESCR_END","/sofia2-update/sofia2-update.js","147","34","147","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-update.js:193[42:44];Sink: err;sofia2-update.js:194[66:68]::FLOW_DESCR_END","/sofia2-update/sofia2-update.js","193","42","193","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-update.js:201[38:40];Sink: ""Error:""+err;sofia2-update.js:202[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia2-update.js:201[38:40];Sink: ""Error:""+err;sofia2-update.js:203[21:32]::FLOW_DESCR_END","/sofia2-update/sofia2-update.js","201","38","201","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia2-update.js:210[40:42];Sink: err;sofia2-update.js:211[64:66]::FLOW_DESCR_END","/sofia2-update/sofia2-update.js","210","40","210","42"

@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [msg];roon.js:62[39:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:69[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:76[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:82[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:90[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:96[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:102[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, null, msg];roon.js:110[43:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:114[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:122[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null,  ... l, msg];roon.js:126[47:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:130[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null,  ... l, msg];roon.js:139[35:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roon.js:56[43:45];Sink: [null, msg];roon.js:143[35:45]::FLOW_DESCR_END","/roon.js","56","43","56","45"

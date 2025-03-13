@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AlarmValue.js:19[35:37];Sink: [msg,msg,msg];AlarmValue.js:50[23:35]::FLOW_DESCR_END","/AlarmValue/AlarmValue.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BulkUpdater.js:9[35:37];Sink: msg;BulkUpdater.js:15[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BulkUpdater.js:9[35:37];Sink: msg;BulkUpdater.js:20[23:25]::FLOW_DESCR_END","/BulkUpdater/BulkUpdater.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CreateAlarmDefinition.js:29[35:37];Sink: [msg,msg,msg];CreateAlarmDefinition.js:72[23:35]::FLOW_DESCR_END","/CreateAlarmDefinition/CreateAlarmDefinition.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CreateDataPointDefinition.js:26[35:37];Sink: [msg,msg,msg];CreateDataPointDefinition.js:61[23:35]::FLOW_DESCR_END","/CreateDataPointDefinition/CreateDataPointDefinition.js","26","35","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CreateModule.js:16[35:37];Sink: [msg,msg,msg];CreateModule.js:50[23:35]::FLOW_DESCR_END","/CreateModule/CreateModule.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DataPointValue.js:15[35:37];Sink: [msg,msg,msg];DataPointValue.js:41[23:35]::FLOW_DESCR_END","/DataPointValue/DataPointValue.js","15","35","15","37"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flow-asserter.js:153[35:37];Sink: [msg, resultMsg];flow-asserter.js:163[27:42]::FLOW_DESCR_END","/flow-asserter.js","153","35","153","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flow-asserter.js:204[35:37];Sink: event;flow-asserter.js:207[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flow-asserter.js:204[35:37];Sink: msg;flow-asserter.js:207[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flow-asserter.js:204[35:37];Sink: msg;flow-asserter.js:209[27:29]::FLOW_DESCR_END","/flow-asserter.js","204","35","204","37"

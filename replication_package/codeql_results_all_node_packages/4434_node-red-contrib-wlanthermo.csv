@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;core-temp-alert.js:11[36:38];Sink: _channe ... tring();core-temp-alert.js:16[49:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core-temp-alert.js:11[36:38];Sink: _channe ... tring();core-temp-alert.js:51[30:55]::FLOW_DESCR_END","/core-temp-alert/core-temp-alert.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;core-temp-warn.js:11[36:38];Sink: _channe ... tring();core-temp-warn.js:16[48:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core-temp-warn.js:11[36:38];Sink: _channe ... tring();core-temp-warn.js:51[30:55]::FLOW_DESCR_END","/core-temp-warn/core-temp-warn.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;max-temp-alert.js:11[36:38];Sink: _channe ... tring();max-temp-alert.js:16[49:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;max-temp-alert.js:11[36:38];Sink: _channe ... tring();max-temp-alert.js:51[30:55]::FLOW_DESCR_END","/max-temp-alert/max-temp-alert.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;min-temp-alert.js:11[36:38];Sink: _channe ... tring();min-temp-alert.js:16[49:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;min-temp-alert.js:11[36:38];Sink: _channe ... tring();min-temp-alert.js:52[30:55]::FLOW_DESCR_END","/min-temp-alert/min-temp-alert.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wlanthermo.js:15[36:38];Sink: msg;wlanthermo.js:32[32:34]::FLOW_DESCR_END","/wlanthermo/wlanthermo.js","15","36","15","38"

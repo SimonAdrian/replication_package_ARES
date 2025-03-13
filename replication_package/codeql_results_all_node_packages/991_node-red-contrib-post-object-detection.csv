@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:43[40:42];Sink: newMsg;index.js:76[28:33]::FLOW_DESCR_END","/dist/bbox-image/index.js","43","40","43","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:67[40:42];Sink: origMsg;index.js:106[23:29]::FLOW_DESCR_END","/dist/post-object-detection/index.js","67","40","67","42"

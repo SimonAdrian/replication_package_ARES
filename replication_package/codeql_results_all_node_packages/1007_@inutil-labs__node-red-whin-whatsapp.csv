@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whin.js:31[38:40];Sink: msg;whin.js:58[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whin.js:31[38:40];Sink: msg;whin.js:66[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whin.js:31[38:40];Sink: postData;whin.js:68[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whin.js:31[38:40];Sink: msg;whin.js:75[30:32]::FLOW_DESCR_END","/whin.js","31","38","31","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;whin.js:56[35:35];Sink: postData;whin.js:68[28:35]::FLOW_DESCR_END","/whin.js","56","35","56","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;whin.js:174[33:33];Sink: datosstr;whin.js:118[29:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;whin.js:174[33:33];Sink: datosstr;whin.js:120[33:40]::FLOW_DESCR_END","/whin.js","174","33","174","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whin.js:188[40:42];Sink: msg;whin.js:199[31:33]::FLOW_DESCR_END","/whin.js","188","40","188","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whin.js:222[38:40];Sink: msg;whin.js:328[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whin.js:222[38:40];Sink: msg;whin.js:332[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whin.js:222[38:40];Sink: JSON.stringify(msg);whin.js:334[23:41]::FLOW_DESCR_END","/whin.js","222","38","222","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;whin.js:326[29:29];Sink: JSON.stringify(msg);whin.js:334[23:41]::FLOW_DESCR_END","/whin.js","326","29","326","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;whin.js:330[30:30];Sink: JSON.stringify(msg);whin.js:334[23:41]::FLOW_DESCR_END","/whin.js","330","30","330","30"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;PyNodeIn.js:83[24:27];Sink: err;openBCI-input.js:21[20:22]::FLOW_DESCR_END","/PyNodeIn.js","83","24","83","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;PyNodeIn.js:93[18:21];Sink: err;openBCI-input.js:21[20:22]::FLOW_DESCR_END","/PyNodeIn.js","93","18","93","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openBCI-input.js:17[30:32];Sink: result;openBCI-input.js:19[19:24]::FLOW_DESCR_END","/openBCI-input.js","17","30","17","32"

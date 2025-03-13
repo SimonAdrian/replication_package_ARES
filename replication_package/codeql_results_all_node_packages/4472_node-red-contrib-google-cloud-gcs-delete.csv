@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gcs-delete.js:85[24:26];Sink: `Badly  ... gsURL}`;gcs-delete.js:63[28:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gcs-delete.js:85[24:26];Sink: msg;gcs-delete.js:77[23:25]::FLOW_DESCR_END","/gcs-delete.js","85","24","85","26"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;http-send-multipart.js:26[29:31];Sink: msg;http-send-multipart.js:37[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart.js:26[29:31];Sink: msg;http-send-multipart.js:55[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart.js:26[29:31];Sink: msg;http-send-multipart.js:108[16:18]::FLOW_DESCR_END","/http-send-multipart.js","26","29","26","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.user;http-send-multipart.js:68[21:41];Sink: url;http-send-multipart.js:76[32:34]::FLOW_DESCR_END","/http-send-multipart.js","68","21","68","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;http-send-multipart.js:69[18:42];Sink: url;http-send-multipart.js:76[32:34]::FLOW_DESCR_END","/http-send-multipart.js","69","18","69","42"

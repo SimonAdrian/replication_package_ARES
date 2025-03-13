@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;semaphore-plus-fs-reset.js:32[21:23];Sink: msg;semaphore-plus-fs-reset.js:37[9:11]::FLOW_DESCR_END","/nodes/semaphore-plus-fs-reset.js","32","21","32","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;semaphore-plus-release.js:30[21:23];Sink: msg;semaphore-plus-release.js:41[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;semaphore-plus-release.js:30[21:23];Sink: msg;semaphore-plus-release.js:47[11:13]::FLOW_DESCR_END","/nodes/semaphore-plus-release.js","30","21","30","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;semaphore-plus-take.js:34[21:23];Sink: [msg, undefined];semaphore-plus-take.js:44[12:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;semaphore-plus-take.js:34[21:23];Sink: [undefined, msg];semaphore-plus-take.js:63[12:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;semaphore-plus-take.js:34[21:23];Sink: [undefined, msg];semaphore-plus-take.js:72[13:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;semaphore-plus-take.js:34[21:23];Sink: [undefined, msg];semaphore-plus-take.js:83[11:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;semaphore-plus-take.js:34[21:23];Sink: [undefined, msg];semaphore-plus-take.js:92[11:26]::FLOW_DESCR_END","/nodes/semaphore-plus-take.js","34","21","34","23"

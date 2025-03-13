@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongodb.js:53[14:16];Sink: err;mongodb.js:57[19:21]::FLOW_DESCR_END","/mongodb.js","53","14","53","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:111[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:121[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:131[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg.payload;mongodb.js:141[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:143[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:146[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:158[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:161[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:179[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:182[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:188[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:69[33:35];Sink: msg;mongodb.js:191[21:23]::FLOW_DESCR_END","/mongodb.js","69","33","69","35"

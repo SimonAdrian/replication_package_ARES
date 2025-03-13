@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-flex.js:13[35:37];Sink: 'mqtts: ... is.host;mqtt-flex.js:186[52:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-flex.js:13[35:37];Sink: 'mqtt:/ ... is.host;mqtt-flex.js:192[52:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-flex.js:13[35:37];Sink: this.cl ...  status;mqtt-flex.js:236[27:79]::FLOW_DESCR_END","/mqtt-flex.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-flex.js:39[35:37];Sink: msg.topic;mqtt-flex.js:42[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-flex.js:39[35:37];Sink: msg.payload;mqtt-flex.js:42[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-flex.js:39[35:37];Sink: msg;mqtt-flex.js:46[22:24]::FLOW_DESCR_END","/mqtt-flex.js","39","35","39","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;mqtt-flex.js:166[35:45];Sink: 'mqtts: ... is.host;mqtt-flex.js:186[52:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;mqtt-flex.js:166[35:45];Sink: 'mqtt:/ ... is.host;mqtt-flex.js:192[52:72]::FLOW_DESCR_END","/mqtt-flex.js","166","35","166","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mqtt-flex.js:186[65:73];Sink: 'mqtts: ... is.host;mqtt-flex.js:186[52:73]::FLOW_DESCR_END","/mqtt-flex.js","186","65","186","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mqtt-flex.js:192[64:72];Sink: 'mqtt:/ ... is.host;mqtt-flex.js:192[52:72]::FLOW_DESCR_END","/mqtt-flex.js","192","64","192","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqtt-flex.js:200[42:44];Sink: ""error  ... "" + err;mqtt-flex.js:202[31:64]::FLOW_DESCR_END","/mqtt-flex.js","200","42","200","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;mqtt-flex.js:224[44:48];Sink: ""Rec ms ... + topic;mqtt-flex.js:229[35:72]::FLOW_DESCR_END","/mqtt-flex.js","224","44","224","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqtt-flex.js:278[51:53];Sink: err;mqtt-flex.js:284[40:42]::FLOW_DESCR_END","/mqtt-flex.js","278","51","278","53"

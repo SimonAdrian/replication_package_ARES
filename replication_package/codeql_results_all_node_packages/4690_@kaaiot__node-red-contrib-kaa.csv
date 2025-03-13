@@ -1,0 +1,42 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;commandResultNode.js:6[35:37];Sink: JSON.stringify(msg);commandResultNode.js:7[22:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;commandResultNode.js:6[35:37];Sink: msg;commandResultNode.js:22[23:25]::FLOW_DESCR_END","/nodes/commandResultNode.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;commandSubscriptionNode.js:6[35:37];Sink: JSON.stringify(msg);commandSubscriptionNode.js:8[26:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;commandSubscriptionNode.js:6[35:37];Sink: msg;commandSubscriptionNode.js:10[27:29]::FLOW_DESCR_END","/nodes/commandSubscriptionNode.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;connectorNode.js:26[39:43];Sink: `Got me ... sage)}`;connectorNode.js:27[26:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;connectorNode.js:26[39:43];Sink: `Got CE ... oken}]`;connectorNode.js:57[36:86]::FLOW_DESCR_END","/nodes/connectorNode.js","26","39","26","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;connectorNode.js:26[46:52];Sink: `Got me ... sage)}`;connectorNode.js:27[26:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;connectorNode.js:26[46:52];Sink: message;connectorNode.js:30[41:47]::FLOW_DESCR_END","/nodes/connectorNode.js","26","46","26","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;connectorNode.js:69[41:45];Sink: `Connec ... error}`;connectorNode.js:70[24:49]::FLOW_DESCR_END","/nodes/connectorNode.js","69","41","69","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: newMsg;connectorNode.js:54[39:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: JSON.stringify(msg);connectorNode.js:95[22:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: ""Unsupp ... .action;connectorNode.js:122[28:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: `kp1/${ ... e/keys`;http-connector.js:17[38:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: data;http-connector.js:17[107:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: `kp1/${ ... }/json`;http-connector.js:28[40:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: data;http-connector.js:28[101:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: `Sendin ... {data}`;http-connector.js:32[23:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: data;http-connector.js:65[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: `kp1/${ ... omKey}`;mqtt-connector.js:69[40:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: data;mqtt-connector.js:69[122:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: `kp1/${ ... omKey}`;mqtt-connector.js:81[43:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: data;mqtt-connector.js:81[117:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: topic;mqtt-connector.js:87[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: data;mqtt-connector.js:87[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: topic;mqtt-connector.js:144[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connectorNode.js:86[35:37];Sink: JSON.st ...     }]);mqtt-connector.js:144[36:11]::FLOW_DESCR_END","/nodes/connectorNode.js","86","35","86","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqtt-connector.js:39[34:38];Sink: `Connec ... error}`;connectorNode.js:70[24:49]::FLOW_DESCR_END","/nodes/kaa/mqtt-connector.js","39","34","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;mqtt-connector.js:50[43:49];Sink: `Cannot ... error}`;mqtt-connector.js:123[35:86]::FLOW_DESCR_END","/nodes/kaa/mqtt-connector.js","50","43","50","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;metadataNode.js:5[35:37];Sink: msg;metadataNode.js:7[23:25]::FLOW_DESCR_END","/nodes/metadataNode.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n1IoId;teltonika.js:256[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n1IoValue;teltonika.js:256[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n2IoId;teltonika.js:267[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n2IoValue;teltonika.js:267[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n4IoId;teltonika.js:278[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n4IoValue;teltonika.js:278[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n8IoId;teltonika.js:291[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: n8IoValue;teltonika.js:291[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: nxIoId;teltonika.js:300[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: this.ge ... Length);teltonika.js:300[40:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;teltonikaNode.js:8[35:37];Sink: ""PING.  ... sg.port;teltonikaNode.js:12[26:59]::FLOW_DESCR_END","/nodes/teltonikaNode.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;teltonikaNode.js:12[52:59];Sink: ""PING.  ... sg.port;teltonikaNode.js:12[26:59]::FLOW_DESCR_END","/nodes/teltonikaNode.js","12","52","12","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timeseriesNode.js:5[35:37];Sink: msg;timeseriesNode.js:7[23:25]::FLOW_DESCR_END","/nodes/timeseriesNode.js","5","35","5","37"

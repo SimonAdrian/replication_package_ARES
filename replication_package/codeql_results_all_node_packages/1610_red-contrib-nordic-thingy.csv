@@ -1,0 +1,76 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:37[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:54[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:454[66:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:455[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:456[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:457[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:458[56:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:459[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:460[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:461[56:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:462[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:463[63:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:464[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:466[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:467[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:468[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:470[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:471[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:472[60:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.js:17[34:39];Sink: thingy;ThingyManager.js:473[60:65]::FLOW_DESCR_END","/dist/NodeThingy.js","17","34","17","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:454[41:44];Sink: data;ThingyManager.js:454[85:88]::FLOW_DESCR_END","/dist/ThingyManager.js","454","41","454","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:455[39:42];Sink: data;ThingyManager.js:455[87:90]::FLOW_DESCR_END","/dist/ThingyManager.js","455","39","455","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:456[36:39];Sink: data;ThingyManager.js:456[81:84]::FLOW_DESCR_END","/dist/ThingyManager.js","456","36","456","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:457[36:39];Sink: data;ThingyManager.js:457[81:84]::FLOW_DESCR_END","/dist/ThingyManager.js","457","36","457","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:458[31:34];Sink: data;ThingyManager.js:458[71:74]::FLOW_DESCR_END","/dist/ThingyManager.js","458","31","458","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:459[33:36];Sink: data;ThingyManager.js:459[75:78]::FLOW_DESCR_END","/dist/ThingyManager.js","459","33","459","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:460[34:37];Sink: data;ThingyManager.js:460[77:80]::FLOW_DESCR_END","/dist/ThingyManager.js","460","34","460","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:461[31:34];Sink: data;ThingyManager.js:461[71:74]::FLOW_DESCR_END","/dist/ThingyManager.js","461","31","461","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:462[39:42];Sink: data;ThingyManager.js:462[80:83]::FLOW_DESCR_END","/dist/ThingyManager.js","462","39","462","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:463[38:41];Sink: data;ThingyManager.js:463[85:88]::FLOW_DESCR_END","/dist/ThingyManager.js","463","38","463","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:464[39:42];Sink: data;ThingyManager.js:464[87:90]::FLOW_DESCR_END","/dist/ThingyManager.js","464","39","464","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:465[31:34];Sink: data.accelerometer;ThingyManager.js:466[55:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ThingyManager.js:465[31:34];Sink: data.compass;ThingyManager.js:467[49:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ThingyManager.js:465[31:34];Sink: data.gyroscope;ThingyManager.js:468[51:64]::FLOW_DESCR_END","/dist/ThingyManager.js","465","31","465","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:470[33:36];Sink: data;ThingyManager.js:470[75:78]::FLOW_DESCR_END","/dist/ThingyManager.js","470","33","470","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:471[36:39];Sink: data;ThingyManager.js:471[81:84]::FLOW_DESCR_END","/dist/ThingyManager.js","471","36","471","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:472[35:38];Sink: data;ThingyManager.js:472[79:82]::FLOW_DESCR_END","/dist/ThingyManager.js","472","35","472","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.js:473[35:38];Sink: data;ThingyManager.js:473[79:82]::FLOW_DESCR_END","/dist/ThingyManager.js","473","35","473","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:49[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:69[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:478[66:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:479[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:480[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:481[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:482[56:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:483[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:484[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:486[56:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:487[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:489[63:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:490[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:492[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:493[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:494[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:496[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:497[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:498[60:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingy;NodeThingy.ts:25[34:39];Sink: thingy;ThingyManager.ts:499[60:65]::FLOW_DESCR_END","/src/NodeThingy.ts","25","34","25","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:478[41:44];Sink: data;ThingyManager.ts:478[85:88]::FLOW_DESCR_END","/src/ThingyManager.ts","478","41","478","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:479[39:42];Sink: data;ThingyManager.ts:479[87:90]::FLOW_DESCR_END","/src/ThingyManager.ts","479","39","479","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:480[36:39];Sink: data;ThingyManager.ts:480[81:84]::FLOW_DESCR_END","/src/ThingyManager.ts","480","36","480","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:481[36:39];Sink: data;ThingyManager.ts:481[81:84]::FLOW_DESCR_END","/src/ThingyManager.ts","481","36","481","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:482[31:34];Sink: data;ThingyManager.ts:482[71:74]::FLOW_DESCR_END","/src/ThingyManager.ts","482","31","482","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:483[33:36];Sink: data;ThingyManager.ts:483[75:78]::FLOW_DESCR_END","/src/ThingyManager.ts","483","33","483","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:484[34:37];Sink: data;ThingyManager.ts:484[77:80]::FLOW_DESCR_END","/src/ThingyManager.ts","484","34","484","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:486[31:34];Sink: data;ThingyManager.ts:486[71:74]::FLOW_DESCR_END","/src/ThingyManager.ts","486","31","486","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:487[39:42];Sink: data;ThingyManager.ts:487[80:83]::FLOW_DESCR_END","/src/ThingyManager.ts","487","39","487","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:489[38:41];Sink: data;ThingyManager.ts:489[85:88]::FLOW_DESCR_END","/src/ThingyManager.ts","489","38","489","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:490[39:42];Sink: data;ThingyManager.ts:490[87:90]::FLOW_DESCR_END","/src/ThingyManager.ts","490","39","490","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:491[31:34];Sink: data.accelerometer;ThingyManager.ts:492[55:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ThingyManager.ts:491[31:34];Sink: data.compass;ThingyManager.ts:493[49:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ThingyManager.ts:491[31:34];Sink: data.gyroscope;ThingyManager.ts:494[51:64]::FLOW_DESCR_END","/src/ThingyManager.ts","491","31","491","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:496[33:36];Sink: data;ThingyManager.ts:496[75:78]::FLOW_DESCR_END","/src/ThingyManager.ts","496","33","496","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:497[36:39];Sink: data;ThingyManager.ts:497[81:84]::FLOW_DESCR_END","/src/ThingyManager.ts","497","36","497","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:498[35:38];Sink: data;ThingyManager.ts:498[79:82]::FLOW_DESCR_END","/src/ThingyManager.ts","498","35","498","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ThingyManager.ts:499[35:38];Sink: data;ThingyManager.ts:499[79:82]::FLOW_DESCR_END","/src/ThingyManager.ts","499","35","499","38"

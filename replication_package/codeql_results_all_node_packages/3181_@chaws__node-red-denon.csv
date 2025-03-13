@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();denon-connection.js:24[30:40];Sink: y;denon-connection.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();denon-connection.js:24[30:40];Sink: y;denon-connection.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();denon-connection.js:24[30:40];Sink: op[1];denon-connection.js:18[147:151]::FLOW_DESCR_END","/dist/denon-connection.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();denon-in.js:24[30:40];Sink: y;denon-in.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();denon-in.js:24[30:40];Sink: y;denon-in.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();denon-in.js:24[30:40];Sink: op[1];denon-in.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();denon-in.js:24[30:40];Sink: err_1;denon-in.js:74[75:79]::FLOW_DESCR_END","/dist/denon-in.js","24","30","24","40"

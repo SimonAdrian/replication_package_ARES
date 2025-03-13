@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ch ... .index];index_bundle.js:2[855534:855569];Sink: e;index_bundle.js:2[816847:816847]::FLOW_DESCR_END","/dashboard/dist/index_bundle.js","2","855534","2","855569"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ch ... atasets;index_bundle.js:2[855534:855557];Sink: e;index_bundle.js:2[816847:816847]::FLOW_DESCR_END","/dashboard/dist/index_bundle.js","2","855534","2","855557"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n[e];index_bundle.js:2[873545:873548];Sink: e;index_bundle.js:2[816847:816847]::FLOW_DESCR_END","/dashboard/dist/index_bundle.js","2","873545","2","873548"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data.datasets;index_bundle.js:2[933318:933335];Sink: e;index_bundle.js:2[909178:909178]::FLOW_DESCR_END","/dashboard/dist/index_bundle.js","2","933318","2","933335"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t[n];index_bundle.js:2[933416:933419];Sink: e;index_bundle.js:2[909178:909178]::FLOW_DESCR_END","/dashboard/dist/index_bundle.js","2","933416","2","933419"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data.datasets;index_bundle.js:2[934055:934072];Sink: e;index_bundle.js:2[816706:816706]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data.datasets;index_bundle.js:2[934055:934072];Sink: e;index_bundle.js:2[816847:816847]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data.datasets;index_bundle.js:2[934055:934072];Sink: e[i];index_bundle.js:2[817221:817224]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data.datasets;index_bundle.js:2[934055:934072];Sink: e[i];index_bundle.js:2[817259:817262]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data.datasets;index_bundle.js:2[934055:934072];Sink: e[o[i]];index_bundle.js:2[817334:817340]::FLOW_DESCR_END","/dashboard/dist/index_bundle.js","2","934055","2","934072"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soop_button.js:45[32:34];Sink: msg;soop_button.js:35[17:19]::FLOW_DESCR_END","/dashboard/nodes/soop_button.js","45","32","45","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soop_data_format.js:7[32:34];Sink: msg;soop_data_format.js:14[17:19]::FLOW_DESCR_END","/dashboard/nodes/soop_data_format.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soop_dropdown.js:17[32:34];Sink: msg.payload;soop_dropdown.js:18[32:42]::FLOW_DESCR_END","/dashboard/nodes/soop_dropdown.js","17","32","17","34"

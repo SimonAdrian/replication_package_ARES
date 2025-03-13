@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:133[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:146[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:261[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:310[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:323[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:360[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:418[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: msg;node.js:424[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: setData(msg, data);node.js:449[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:61[36:38];Sink: setData(msg, error);node.js:456[41:59]::FLOW_DESCR_END","/node.js","61","36","61","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... enValue;node.js:64[71:111];Sink: ""this.s ... enValue;node.js:64[25:111]::FLOW_DESCR_END","/node.js","64","71","64","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... eyValue;node.js:65[72:113];Sink: ""this.s ... eyValue;node.js:65[25:113]::FLOW_DESCR_END","/node.js","65","72","65","113"

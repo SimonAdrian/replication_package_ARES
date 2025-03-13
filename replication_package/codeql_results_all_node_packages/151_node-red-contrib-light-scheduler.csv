@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;light-scheduler-filter.js:78[31:33];Sink: [msg, null];light-scheduler-filter.js:81[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light-scheduler-filter.js:78[31:33];Sink: [null, msg];light-scheduler-filter.js:82[22:32]::FLOW_DESCR_END","/light-scheduler-filter.js","78","31","78","33"

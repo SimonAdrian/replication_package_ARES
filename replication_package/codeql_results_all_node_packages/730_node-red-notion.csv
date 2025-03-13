@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;append-block-children.js:8[41:43];Sink: msg;append-block-children.js:22[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;append-block-children.js:8[41:43];Sink: msg;append-block-children.js:26[27:29]::FLOW_DESCR_END","/append-block-children.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-database.js:8[41:43];Sink: msg;create-database.js:22[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-database.js:8[41:43];Sink: msg;create-database.js:26[27:29]::FLOW_DESCR_END","/create-database.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-page.js:8[41:43];Sink: msg;create-page.js:22[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-page.js:8[41:43];Sink: msg;create-page.js:26[27:29]::FLOW_DESCR_END","/create-page.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-block.js:8[41:43];Sink: msg;delete-block.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete-block.js:8[41:43];Sink: msg;delete-block.js:30[27:29]::FLOW_DESCR_END","/delete-block.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-block-children.js:8[41:43];Sink: msg;get-block-children.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-block-children.js:8[41:43];Sink: msg;get-block-children.js:30[27:29]::FLOW_DESCR_END","/get-block-children.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-database.js:8[41:43];Sink: msg;get-database.js:27[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-database.js:8[41:43];Sink: msg;get-database.js:32[27:29]::FLOW_DESCR_END","/get-database.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-page-property.js:8[41:43];Sink: msg;get-page-property.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-page-property.js:8[41:43];Sink: msg;get-page-property.js:30[27:29]::FLOW_DESCR_END","/get-page-property.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-page.js:8[41:43];Sink: msg;get-page.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-page.js:8[41:43];Sink: msg;get-page.js:30[27:29]::FLOW_DESCR_END","/get-page.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-users.js:8[41:43];Sink: msg;get-users.js:21[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-users.js:8[41:43];Sink: msg;get-users.js:25[27:29]::FLOW_DESCR_END","/get-users.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;query-database.js:8[41:43];Sink: msg;query-database.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query-database.js:8[41:43];Sink: msg;query-database.js:27[27:29]::FLOW_DESCR_END","/query-database.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-block.js:8[41:43];Sink: msg;update-block.js:22[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-block.js:8[41:43];Sink: msg;update-block.js:26[27:29]::FLOW_DESCR_END","/update-block.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-page.js:8[41:43];Sink: msg;update-page.js:22[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-page.js:8[41:43];Sink: msg;update-page.js:26[27:29]::FLOW_DESCR_END","/update-page.js","8","41","8","43"

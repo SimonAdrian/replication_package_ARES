@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;velbus.js:42[27:29];Sink: (err.me ... onTries;velbus.js:44[25:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;velbus.js:42[27:29];Sink: JSON.stringify(err);velbus.js:45[33:51]::FLOW_DESCR_END","/velbus/velbus.js","42","27","42","29"

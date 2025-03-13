@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_savebacklights.js:21[27:31];Sink: error;xkeys_savebacklights.js:22[30:34]::FLOW_DESCR_END","/xkeys_savebacklights.js","21","27","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_savebacklights.js:24[23:27];Sink: error;xkeys_savebacklights.js:25[35:39]::FLOW_DESCR_END","/xkeys_savebacklights.js","24","23","24","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xkeys_savebacklights.js:29[61:63];Sink: 'Subscr ... ' + err;xkeys_savebacklights.js:34[15:43]::FLOW_DESCR_END","/xkeys_savebacklights.js","29","61","29","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;xkeys_savebacklights.js:29[66:72];Sink: ""Subscr ... ranted);xkeys_savebacklights.js:31[15:66]::FLOW_DESCR_END","/xkeys_savebacklights.js","29","66","29","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;xkeys_savebacklights.js:41[32:38];Sink: `Hello  ... arted `;xkeys_savebacklights.js:48[18:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;xkeys_savebacklights.js:41[32:38];Sink: `comman ... ssage}`;xkeys_savebacklights.js:101[16:43]::FLOW_DESCR_END","/xkeys_savebacklights.js","41","32","41","38"

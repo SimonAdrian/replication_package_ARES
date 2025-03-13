@@ -1,0 +1,6 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;flow-debugger.js:15[40:44];Sink: event;flow-debugger.js:16[59:63]::FLOW_DESCR_END","/dist/flow-debugger.js","15","40","15","44"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;flow-debugger.js:18[41:45];Sink: event;flow-debugger.js:19[60:64]::FLOW_DESCR_END","/dist/flow-debugger.js","18","41","18","45"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;flow-debugger.js:21[47:51];Sink: event;flow-debugger.js:25[66:70]::FLOW_DESCR_END","/dist/flow-debugger.js","21","47","21","51"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;flow-debugger.js:27[51:55];Sink: event;flow-debugger.js:28[70:74]::FLOW_DESCR_END","/dist/flow-debugger.js","27","51","27","55"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.br ... ocation;debugger.js:136[39:85];Sink: `Flows  ... eason}`;debugger.js:149[22:49]::FLOW_DESCR_END","/dist/lib/debugger.js","136","39","136","85"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nextEvent.location;debugger.js:254[43:60];Sink: ""Step:  ... ocation;debugger.js:255[26:53]::FLOW_DESCR_END","/dist/lib/debugger.js","254","43","254","60"

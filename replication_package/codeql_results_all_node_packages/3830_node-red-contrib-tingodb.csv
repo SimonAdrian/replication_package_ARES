@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;find.js:8[36:38];Sink: msg;find.js:13[27:29]::FLOW_DESCR_END","/find.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insert.js:8[36:38];Sink: msg;insert.js:12[27:29]::FLOW_DESCR_END","/insert.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remove.js:8[36:38];Sink: msg;remove.js:12[27:29]::FLOW_DESCR_END","/remove.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:8[36:38];Sink: msg;update.js:12[27:29]::FLOW_DESCR_END","/update.js","8","36","8","38"

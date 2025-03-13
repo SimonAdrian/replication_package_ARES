@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: eventData;bodhi-connector.js:66[77:85];Sink: data;bodhi.connector.service.js:164[41:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;bodhi-connector.js:66[77:85];Sink: `Unhand ... ry })}`;bodhi.connector.service.js:177[35:139]::FLOW_DESCR_END","/build/src/nodes/bodhi-connector.js","66","77","66","85"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... owFile);createsubflows.js:5[25:52];Sink: ""./node ... "".json"";createsubflows.js:29[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... owFile);createsubflows.js:5[25:52];Sink: JSON.st ... ubflow);createsubflows.js:29[61:83]::FLOW_DESCR_END","/createsubflows.js","5","25","5","52"

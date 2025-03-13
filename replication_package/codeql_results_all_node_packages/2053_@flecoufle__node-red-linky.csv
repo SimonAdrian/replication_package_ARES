@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linky.js:41[36:38];Sink: msg;linky.js:97[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linky.js:41[36:38];Sink: msg;linky.js:111[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linky.js:41[36:38];Sink: msg;linky.js:119[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linky.js:41[36:38];Sink: msg;linky.js:129[49:51]::FLOW_DESCR_END","/linky/linky.js","41","36","41","38"

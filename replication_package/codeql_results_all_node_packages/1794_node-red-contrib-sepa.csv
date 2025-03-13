@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sepa-sct.js:19[35:37];Sink: err;sepa-sct.js:54[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sepa-sct.js:19[35:37];Sink: msg;sepa-sct.js:67[27:29]::FLOW_DESCR_END","/nodes/sepa-sct.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sepa-sdd.js:21[35:37];Sink: err;sepa-sdd.js:69[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sepa-sdd.js:21[35:37];Sink: msg;sepa-sdd.js:82[27:29]::FLOW_DESCR_END","/nodes/sepa-sdd.js","21","35","21","37"

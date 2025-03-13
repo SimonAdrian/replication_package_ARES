@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;endiio-connection.js:37[31:37];Sink: msg + ""\r\n"";endiio-connection.js:45[20:31]::FLOW_DESCR_END","/endiio-connection.js","37","31","37","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;endiio-connection.js:180[51:57];Sink: ""Messag ...  + ""\"""";endiio-connection.js:192[18:47]::FLOW_DESCR_END","/endiio-connection.js","180","51","180","57"

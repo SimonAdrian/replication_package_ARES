@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nupmes-authentication.js:25[32:34];Sink: {...msg ... ame } };nupmes-node-auth-helper.js:261[19:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nupmes-authentication.js:25[32:34];Sink: { ...message };nupmes-node-request-manager.js:375[23:36]::FLOW_DESCR_END","/nodes/authentication/nupmes-authentication.js","25","32","25","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nupmes-counter.js:18[32:34];Sink: ""invali ... payload;nupmes-counter.js:27[17:46]::FLOW_DESCR_END","/nodes/counter/nupmes-counter.js","18","32","18","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nupmes-get-io.js:19[36:38];Sink: { ...me ... oName };nupmes-node-io-helper.js:45[17:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nupmes-get-io.js:19[36:38];Sink: {  ...m ... state };nupmes-node-io-helper.js:50[17:55]::FLOW_DESCR_END","/nodes/get-io/nupmes-get-io.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nupmes-hub.js:19[36:38];Sink: { ...ms ... esult };nupmes-hub.js:31[33:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nupmes-hub.js:19[36:38];Sink: { ...ms ... esult };nupmes-hub.js:36[33:59]::FLOW_DESCR_END","/nodes/hub/nupmes-hub.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nupmes-set-io.js:18[27:29];Sink: { ...me ... oName };nupmes-node-io-helper.js:45[17:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nupmes-set-io.js:18[27:29];Sink: {  ...m ... state };nupmes-node-io-helper.js:50[17:55]::FLOW_DESCR_END","/nodes/set-io/nupmes-set-io.js","18","27","18","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nupmes-winauth-request.js:8[33:35];Sink: msg;nupmes-winauth-request.js:36[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nupmes-winauth-request.js:8[33:35];Sink: msg;nupmes-winauth-request.js:40[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nupmes-winauth-request.js:8[33:35];Sink: msg;nupmes-winauth-request.js:47[23:25]::FLOW_DESCR_END","/nodes/winauth-request/nupmes-winauth-request.js","8","33","8","35"

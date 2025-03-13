@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;simple-queue.js:13[41:41];Sink: e;simple-queue.js:15[29:29]::FLOW_DESCR_END","/simple-queue.js","13","41","13","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.waiting.pop();simple-queue.js:33[33:50];Sink: message;simple-queue.js:37[27:33]::FLOW_DESCR_END","/simple-queue.js","33","33","33","50"

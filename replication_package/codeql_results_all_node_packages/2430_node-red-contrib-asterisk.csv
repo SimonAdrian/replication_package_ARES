@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: agiHandler;module.js:40[35:44];Sink: agiHandler;module.js:41[33:42]::FLOW_DESCR_END","/module.js","40","35","40","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;module.js:94[31:33];Sink: msg;module.js:96[21:23]::FLOW_DESCR_END","/module.js","94","31","94","33"

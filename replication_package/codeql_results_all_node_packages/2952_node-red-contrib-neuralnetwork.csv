@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dataCollect.js:32[36:38];Sink: msg;dataCollect.js:46[31:33]::FLOW_DESCR_END","/dataCollect/dataCollect.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multiInData.js:9[35:37];Sink: msg;multiInData.js:22[27:29]::FLOW_DESCR_END","/multiInData/multiInData.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;neuralNetwork.js:17[35:37];Sink: runData;neuralNetwork.js:57[43:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neuralNetwork.js:17[35:37];Sink: msg;neuralNetwork.js:59[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neuralNetwork.js:17[35:37];Sink: msg;neuralNetwork.js:79[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neuralNetwork.js:17[35:37];Sink: data[i];neuralNetwork.js:87[38:44]::FLOW_DESCR_END","/neuralNetwork/neuralNetwork.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;outputJudge.js:11[35:37];Sink: msg;outputJudge.js:46[27:29]::FLOW_DESCR_END","/outputJudge/outputJudge.js","11","35","11","37"

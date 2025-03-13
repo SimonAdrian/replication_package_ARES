@@ -1,0 +1,34 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control-animation.js:19[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-animation.js:19[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-animation.js:19[35:37];Sink: `Overri ... sgid}]`;control-animation.js:25[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-animation.js:19[35:37];Sink: `Attemp ... botIp}`;control-animation.js:40[23:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-animation.js:19[35:37];Sink: `Unknow ... ction}`;control-animation.js:55[25:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-animation.js:19[35:37];Sink: `Failed ... error}`;control-animation.js:62[23:63]::FLOW_DESCR_END","/src/nodes/control-animation.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-available-animations.js:21[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-available-animations.js:21[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-available-animations.js:21[35:37];Sink: `Overri ... sgid}]`;get-available-animations.js:27[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-available-animations.js:21[35:37];Sink: `Gettin ... botIp}`;get-available-animations.js:41[23:76]::FLOW_DESCR_END","/src/nodes/get-available-animations.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-available-motor-registers.js:21[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-available-motor-registers.js:21[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-available-motor-registers.js:21[35:37];Sink: `Overri ... sgid}]`;get-available-motor-registers.js:27[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-available-motor-registers.js:21[35:37];Sink: `Gettin ... botIp}`;get-available-motor-registers.js:41[23:96]::FLOW_DESCR_END","/src/nodes/get-available-motor-registers.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-motor-register.js:23[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-motor-register.js:23[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-motor-register.js:23[35:37];Sink: `Overri ... sgid}]`;get-motor-register.js:34[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-motor-register.js:23[35:37];Sink: `Gettin ... botIp}`;get-motor-register.js:48[5:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-motor-register.js:23[35:37];Sink: `Failed ... error}`;get-motor-register.js:62[23:72]::FLOW_DESCR_END","/src/nodes/get-motor-register.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;move-motor.js:19[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;move-motor.js:19[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;move-motor.js:19[35:37];Sink: `Overri ... sgid}]`;move-motor.js:31[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;move-motor.js:19[35:37];Sink: `Attemp ... botIp}`;move-motor.js:56[23:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;move-motor.js:19[35:37];Sink: `Failed ... error}`;move-motor.js:71[23:69]::FLOW_DESCR_END","/src/nodes/move-motor.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;play-animation.js:19[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-animation.js:19[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-animation.js:19[35:37];Sink: `Overri ... sgid}]`;play-animation.js:27[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-animation.js:19[35:37];Sink: `Attemp ... botIp}`;play-animation.js:44[23:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;play-animation.js:19[35:37];Sink: `Failed ... error}`;play-animation.js:50[23:77]::FLOW_DESCR_END","/src/nodes/play-animation.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-motor-register.js:19[35:37];Sink: ip;butter-client-provider.js:28[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-motor-register.js:19[35:37];Sink: ip;butter-client-provider.js:31[33:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-motor-register.js:19[35:37];Sink: `Overri ... sgid}]`;set-motor-register.js:32[23:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-motor-register.js:19[35:37];Sink: `Settin ... value}`;set-motor-register.js:48[5:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-motor-register.js:19[35:37];Sink: `Failed ... error}`;set-motor-register.js:58[23:72]::FLOW_DESCR_END","/src/nodes/set-motor-register.js","19","35","19","37"

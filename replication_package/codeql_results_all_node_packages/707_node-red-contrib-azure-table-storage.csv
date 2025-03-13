@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azuretablestorage.js:182[36:38];Sink: 'Saving ... bleName;azuretablestorage.js:25[22:187]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuretablestorage.js:182[36:38];Sink: 'Readin ... .rowKey;azuretablestorage.js:61[22:129]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azuretablestorage.js:182[36:38];Sink: 'Receiv ... bleName;azuretablestorage.js:198[22:67]::FLOW_DESCR_END","/azuretablestorage.js","182","36","182","38"

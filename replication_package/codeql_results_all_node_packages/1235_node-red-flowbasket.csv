@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flowbasket.js:51[35:37];Sink: msg;flowbasket.js:107[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flowbasket.js:51[35:37];Sink: msg;flowbasket.js:124[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flowbasket.js:51[35:37];Sink: obj;flowbasket.js:285[51:53]::FLOW_DESCR_END","/flowbasket.js","51","35","51","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flowbasket.js:153[35:37];Sink: msg;flowbasket.js:197[55:57]::FLOW_DESCR_END","/flowbasket.js","153","35","153","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;flowbasket.js:237[40:42];Sink: err;flowbasket.js:113[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;flowbasket.js:237[40:42];Sink: err;flowbasket.js:187[57:59]::FLOW_DESCR_END","/flowbasket.js","237","40","237","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;flowbasket.js:237[45:52];Sink: ""Failed ... tusCode;flowbasket.js:114[48:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;flowbasket.js:237[45:52];Sink: ""Failed ... tusCode;flowbasket.js:188[56:120]::FLOW_DESCR_END","/flowbasket.js","237","45","237","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;flowbasket.js:256[39:41];Sink: err;flowbasket.js:54[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;flowbasket.js:256[39:41];Sink: err;flowbasket.js:168[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;flowbasket.js:256[39:41];Sink: err;flowbasket.js:176[49:51]::FLOW_DESCR_END","/flowbasket.js","256","39","256","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;flowbasket.js:256[44:51];Sink: ""Failed ... tusCode;flowbasket.js:55[32:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;flowbasket.js:256[44:51];Sink: ""Failed ... tusCode;flowbasket.js:169[40:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;flowbasket.js:256[44:51];Sink: ""Failed ... tusCode;flowbasket.js:177[48:118]::FLOW_DESCR_END","/flowbasket.js","256","44","256","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;flowbasket.js:279[40:42];Sink: err;flowbasket.js:95[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;flowbasket.js:279[40:42];Sink: err;flowbasket.js:161[33:35]::FLOW_DESCR_END","/flowbasket.js","279","40","279","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;flowbasket.js:279[45:52];Sink: ""Failed ... tusCode;flowbasket.js:96[40:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;flowbasket.js:279[45:52];Sink: ""Failed ... tusCode;flowbasket.js:162[32:112]::FLOW_DESCR_END","/flowbasket.js","279","45","279","52"

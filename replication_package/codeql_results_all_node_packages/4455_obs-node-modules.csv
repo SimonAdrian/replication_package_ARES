@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;obs-ipc-in.js:63[32:35];Sink: ""DATA : "" + data;obs-ipc-in.js:66[16:31]::FLOW_DESCR_END","/obs-ipc-in.js","63","32","63","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obs-ipc-out.js:13[29:31];Sink: buf;obs-ipc-out.js:32[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obs-ipc-out.js:13[29:31];Sink: buf;obs-ipc-out.js:52[25:27]::FLOW_DESCR_END","/obs-ipc-out.js","13","29","13","31"

@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;connection-state.js:11[36:38];Sink: [msg, null, null];connection-state.js:20[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connection-state.js:11[36:38];Sink: [null, msg, null];connection-state.js:25[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connection-state.js:11[36:38];Sink: [null, null, msg];connection-state.js:31[31:47]::FLOW_DESCR_END","/connection-state/connection-state.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;custom-parameter.js:13[36:38];Sink: [msg, null];custom-parameter.js:47[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;custom-parameter.js:13[36:38];Sink: [null, msg];custom-parameter.js:55[27:37]::FLOW_DESCR_END","/custom-parameter/custom-parameter.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;mqtt-cloud.js:417[38:42];Sink: String(flowId);mqtt-cloud.js:447[58:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;mqtt-cloud.js:417[38:42];Sink: String(flowName);mqtt-cloud.js:448[60:75]::FLOW_DESCR_END","/mqtt-cloud/mqtt-cloud.js","417","38","417","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;mqtt-cloud.js:770[63:71];Sink: node.brokerurl;mqtt-cloud.js:866[48:61]::FLOW_DESCR_END","/mqtt-cloud/mqtt-cloud.js","770","63","770","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt-cloud.js:1246[95:100];Sink: obj;mqtt-cloud.js:234[53:55]::FLOW_DESCR_END","/mqtt-cloud/mqtt-cloud.js","1246","95","1246","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-cloud.js:1262[44:46];Sink: obj;mqtt-cloud.js:234[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-cloud.js:1262[44:46];Sink: msg;mqtt-cloud.js:1351[30:32]::FLOW_DESCR_END","/mqtt-cloud/mqtt-cloud.js","1262","44","1262","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt-cloud.js:1338[105:110];Sink: obj;mqtt-cloud.js:234[53:55]::FLOW_DESCR_END","/mqtt-cloud/mqtt-cloud.js","1338","105","1338","110"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-cloud.js:1415[42:44];Sink: obj;mqtt-cloud.js:234[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-cloud.js:1415[42:44];Sink: msg;mqtt-cloud.js:373[41:43]::FLOW_DESCR_END","/mqtt-cloud/mqtt-cloud.js","1415","42","1415","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;relevant-error.js:10[36:38];Sink: [msg, null];relevant-error.js:53[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;relevant-error.js:10[36:38];Sink: [null, msg];relevant-error.js:61[27:37]::FLOW_DESCR_END","/relevant-error/relevant-error.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rule-set.js:89[36:38];Sink: [msg, null];rule-set.js:161[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rule-set.js:89[36:38];Sink: [null, msg];rule-set.js:169[27:37]::FLOW_DESCR_END","/rule-set/rule-set.js","89","36","89","38"

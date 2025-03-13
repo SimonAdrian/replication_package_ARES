@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;about.js:9[35:37];Sink: msg;about.js:14[27:29]::FLOW_DESCR_END","/about.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;accessRoleProfileList.js:9[35:37];Sink: msg;accessRoleProfileList.js:15[27:29]::FLOW_DESCR_END","/accessRoleProfileList.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addAccount.js:8[35:37];Sink: params;addAccount.js:10[45:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;addAccount.js:8[35:37];Sink: msg;addAccount.js:16[27:29]::FLOW_DESCR_END","/addAccount.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;authRecordList.js:9[35:37];Sink: msg;authRecordList.js:15[27:29]::FLOW_DESCR_END","/authRecordList.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devices.js:9[35:37];Sink: msg;devices.js:15[27:29]::FLOW_DESCR_END","/devices.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wlanAPIntrusionList.js:9[35:37];Sink: msg;wlanAPIntrusionList.js:15[27:29]::FLOW_DESCR_END","/wlanAPIntrusionList.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wlanClientlist.js:9[35:37];Sink: msg;wlanClientlist.js:15[27:29]::FLOW_DESCR_END","/wlanClientlist.js","9","35","9","37"

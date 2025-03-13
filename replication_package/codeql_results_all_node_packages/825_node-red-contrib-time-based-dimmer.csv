@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;one-button-dimmer.js:41[40:42];Sink: msg.payload;one-button-dimmer.js:47[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;one-button-dimmer.js:41[40:42];Sink: msg;one-button-dimmer.js:48[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;one-button-dimmer.js:41[40:42];Sink: ""missin ...  + ""\"""";one-button-dimmer.js:67[42:82]::FLOW_DESCR_END","/dist/one-button-dimmer.js","41","40","41","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;time-based-dimmer.js:35[40:42];Sink: msg.payload;time-based-dimmer.js:40[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-based-dimmer.js:35[40:42];Sink: msg;time-based-dimmer.js:41[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-based-dimmer.js:35[40:42];Sink: ""missin ...  + ""\"""";time-based-dimmer.js:66[42:82]::FLOW_DESCR_END","/dist/time-based-dimmer.js","35","40","35","42"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;TimeDBRead.js:17[41:43];Sink: msg;TimeDBRead.js:65[27:29]::FLOW_DESCR_END","/TimeDBRead.js","17","41","17","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.data. ... atabase;TimeDBRead.js:40[18:40];Sink: db;TimeDBRead.js:41[37:38]::FLOW_DESCR_END","/TimeDBRead.js","40","18","40","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.data.connect;TimeDBRead.js:40[18:31];Sink: db;TimeDBRead.js:41[37:38]::FLOW_DESCR_END","/TimeDBRead.js","40","18","40","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;TimeDBWrite.js:16[41:43];Sink: msg;TimeDBWrite.js:50[27:29]::FLOW_DESCR_END","/TimeDBWrite.js","16","41","16","43"

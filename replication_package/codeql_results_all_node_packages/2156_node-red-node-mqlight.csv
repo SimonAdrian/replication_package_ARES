@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqlight.js:80[53:55];Sink: err.toString();mqlight.js:82[40:53]::FLOW_DESCR_END","/mqlight.js","80","53","80","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqlight.js:85[54:56];Sink: ""Failed ... "" + err;mqlight.js:87[40:68]::FLOW_DESCR_END","/mqlight.js","85","54","85","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqlight.js:122[47:49];Sink: node.topic;mqlight.js:132[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqlight.js:122[47:49];Sink: msg.payload;mqlight.js:132[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqlight.js:122[47:49];Sink: msg;mqlight.js:134[48:50]::FLOW_DESCR_END","/mqlight.js","122","47","122","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqlight.js:139[49:51];Sink: err.toString();mqlight.js:141[36:49]::FLOW_DESCR_END","/mqlight.js","139","49","139","51"

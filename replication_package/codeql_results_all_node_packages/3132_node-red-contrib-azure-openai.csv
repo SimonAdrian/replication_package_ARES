@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-azure-openai.js:50[39:41];Sink: ""system ... empromt;node-red-contrib-azure-openai.js:61[29:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-azure-openai.js:50[39:41];Sink: msg;node-red-contrib-azure-openai.js:71[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-azure-openai.js:50[39:41];Sink: msg;node-red-contrib-azure-openai.js:83[39:41]::FLOW_DESCR_END","/src/node-red-contrib-azure-openai.js","50","39","50","41"

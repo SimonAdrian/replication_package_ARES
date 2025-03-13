@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;hub.js:27[44:48];Sink: state.data;hub.js:70[42:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: state;hub.js:27[44:48];Sink: state;server.js:18[84:88]::FLOW_DESCR_END","/lib/hub.js","27","44","27","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;observer.js:54[45:49];Sink: state;observer.js:94[65:69]::FLOW_DESCR_END","/nodes/observer.js","54","45","54","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: digest;server.js:17[41:46];Sink: digest;server.js:17[77:82]::FLOW_DESCR_END","/nodes/server.js","17","41","17","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;server.js:18[45:49];Sink: state;server.js:18[84:88]::FLOW_DESCR_END","/nodes/server.js","18","45","18","49"

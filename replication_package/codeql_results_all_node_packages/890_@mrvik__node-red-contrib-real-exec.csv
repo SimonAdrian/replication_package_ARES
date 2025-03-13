@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;real-exec.js:9[27:29];Sink: {\n      ...       };real-exec.js:25[36:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;real-exec.js:9[27:29];Sink: msg;real-exec.js:30[41:43]::FLOW_DESCR_END","/real-exec.js","9","27","9","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;real-spawn.js:8[27:29];Sink: {\n      ...       };real-spawn.js:23[18:13]::FLOW_DESCR_END","/real-spawn.js","8","27","8","29"

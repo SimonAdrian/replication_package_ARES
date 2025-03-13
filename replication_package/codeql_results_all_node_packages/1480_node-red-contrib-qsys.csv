@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qsys-ControlSet.js:82[27:29];Sink: msg;qsys-ControlSet.js:74[27:29]::FLOW_DESCR_END","/lib/qsys-ControlSet.js","82","27","82","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;qsys-core.js:8[20:25];Sink: host;qsys-core.js:24[41:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;qsys-core.js:8[20:25];Sink: host;qsys-core.js:108[73:76]::FLOW_DESCR_END","/lib/qsys-core.js","8","20","8","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;qsys-core.js:9[20:25];Sink: port;qsys-core.js:24[35:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;qsys-core.js:9[20:25];Sink: port;qsys-core.js:108[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;qsys-core.js:9[20:25];Sink: port;qsys-core.js:152[43:46]::FLOW_DESCR_END","/lib/qsys-core.js","9","20","9","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;qsys-core.js:89[33:36];Sink: 'rx: '  ... tring();qsys-core.js:91[26:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;qsys-core.js:89[33:36];Sink: changes[i];qsys-core.js:116[61:70]::FLOW_DESCR_END","/lib/qsys-core.js","89","33","89","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;qsys-core.js:146[34:36];Sink: err.toString();qsys-core.js:148[28:41]::FLOW_DESCR_END","/lib/qsys-core.js","146","34","146","36"

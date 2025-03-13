@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sheets-to-json-stream.js:59[42:44];Sink: {\n      ...       };sheets-to-json-stream.js:75[35:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sheets-to-json-stream.js:59[42:44];Sink: {\n      ...       };sheets-to-json-stream.js:86[27:17]::FLOW_DESCR_END","/src/sheets-to-json-stream/sheets-to-json-stream.js","59","42","59","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-client.js:34[29:31];Sink: err;tcp-client.js:35[44:46]::FLOW_DESCR_END","/tests/e2e/util/tcp-client.js","34","29","34","31"

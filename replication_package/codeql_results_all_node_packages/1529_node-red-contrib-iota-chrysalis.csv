@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-address.js:36[35:37];Sink: msg;iota-address.js:40[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-address.js:36[35:37];Sink: msg;iota-address.js:48[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-address.js:36[35:37];Sink: bech_ad;iota-address.js:66[67:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-address.js:36[35:37];Sink: bech_ad;iota-address.js:81[66:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-address.js:36[35:37];Sink: msg;iota-address.js:95[48:50]::FLOW_DESCR_END","/iota-address.js","36","35","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-info.js:28[35:37];Sink: msg;iota-info.js:32[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-info.js:28[35:37];Sink: msg;iota-info.js:39[25:27]::FLOW_DESCR_END","/iota-info.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: msg;iota-messages.js:33[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: msg;iota-messages.js:41[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: msg;iota-messages.js:73[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: msg.payload;iota-messages.js:78[75:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: msg.payload;iota-messages.js:89[75:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: messageData;iota-messages.js:100[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-messages.js:29[35:37];Sink: messageData;iota-messages.js:123[37:47]::FLOW_DESCR_END","/iota-messages.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-transfers.js:38[35:37];Sink: msg;iota-transfers.js:49[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transfers.js:38[35:37];Sink: msg;iota-transfers.js:57[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transfers.js:38[35:37];Sink: msg;iota-transfers.js:63[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transfers.js:38[35:37];Sink: bech_ad;iota-transfers.js:130[61:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transfers.js:38[35:37];Sink: msg;iota-transfers.js:191[56:58]::FLOW_DESCR_END","/iota-transfers.js","38","35","38","37"

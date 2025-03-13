@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;WledNotificationNode.js:38[36:46];Sink: host;notify.js:87[55:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;WledNotificationNode.js:38[36:46];Sink: host;notify.js:104[43:46]::FLOW_DESCR_END","/dist/WledNotificationNode.js","38","36","38","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;WledNotificationNode.js:53[27:29];Sink: msg;WledNotificationNode.js:60[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WledNotificationNode.js:53[27:29];Sink: msg;WledNotificationNode.js:63[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WledNotificationNode.js:53[27:29];Sink: host;notify.js:87[55:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WledNotificationNode.js:53[27:29];Sink: host;notify.js:104[43:46]::FLOW_DESCR_END","/dist/WledNotificationNode.js","53","27","53","29"

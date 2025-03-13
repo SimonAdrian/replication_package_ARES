@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sessionId;18-stomp.js:199[56:64];Sink: `Connec ... rsion}`;18-stomp.js:205[34:191]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sessionId;18-stomp.js:199[56:64];Sink: `Reconn ... tries}`;18-stomp.js:216[34:219]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sessionId;18-stomp.js:199[56:64];Sink: `Discon ... rsion}`;18-stomp.js:279[30:192]::FLOW_DESCR_END","/18-stomp.js","199","56","199","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.port;18-stomp.js:205[123:139];Sink: `Connec ... rsion}`;18-stomp.js:205[34:191]::FLOW_DESCR_END","/18-stomp.js","205","123","205","139"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sessionId;18-stomp.js:210[58:66];Sink: `Connec ... rsion}`;18-stomp.js:205[34:191]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sessionId;18-stomp.js:210[58:66];Sink: `Reconn ... tries}`;18-stomp.js:216[34:219]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sessionId;18-stomp.js:210[58:66];Sink: `Discon ... rsion}`;18-stomp.js:279[30:192]::FLOW_DESCR_END","/18-stomp.js","210","58","210","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: numOfRetries;18-stomp.js:210[69:80];Sink: `Reconn ... tries}`;18-stomp.js:216[34:219]::FLOW_DESCR_END","/18-stomp.js","210","69","210","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.port;18-stomp.js:216[125:141];Sink: `Reconn ... tries}`;18-stomp.js:216[34:219]::FLOW_DESCR_END","/18-stomp.js","216","125","216","141"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.port;18-stomp.js:225[97:113];Sink: `Reconn ... rsion}`;18-stomp.js:225[35:165]::FLOW_DESCR_END","/18-stomp.js","225","97","225","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;18-stomp.js:229[54:56];Sink: err;18-stomp.js:230[36:38]::FLOW_DESCR_END","/18-stomp.js","229","54","229","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.port;18-stomp.js:279[124:140];Sink: `Discon ... rsion}`;18-stomp.js:279[30:192]::FLOW_DESCR_END","/18-stomp.js","279","124","279","140"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;18-stomp.js:395[84:86];Sink: msg;18-stomp.js:396[35:37]::FLOW_DESCR_END","/18-stomp.js","395","84","395","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;18-stomp.js:433[39:41];Sink: topic;18-stomp.js:441[51:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;18-stomp.js:433[39:41];Sink: msg.payload;18-stomp.js:441[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;18-stomp.js:433[39:41];Sink: msg.headers || {};18-stomp.js:441[71:87]::FLOW_DESCR_END","/18-stomp.js","433","39","433","41"

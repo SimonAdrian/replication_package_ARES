@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;anac-get.js:8[35:37];Sink: apiUrl;anac-get.js:19[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;anac-get.js:8[35:37];Sink: msg;anac-get.js:22[31:33]::FLOW_DESCR_END","/anac-get.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flight-get.js:8[35:37];Sink: apiUrl;flight-get.js:19[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flight-get.js:8[35:37];Sink: msg;flight-get.js:22[31:33]::FLOW_DESCR_END","/flight-get.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flight-post.js:9[35:37];Sink: msg;flight-post.js:14[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flight-post.js:9[35:37];Sink: data;flight-post.js:20[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flight-post.js:9[35:37];Sink: msg;flight-post.js:23[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flight-post.js:9[35:37];Sink: msg;flight-post.js:26[72:74]::FLOW_DESCR_END","/flight-post.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;icao-get.js:8[35:37];Sink: apiUrl;icao-get.js:19[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;icao-get.js:8[35:37];Sink: msg;icao-get.js:22[31:33]::FLOW_DESCR_END","/icao-get.js","8","35","8","37"

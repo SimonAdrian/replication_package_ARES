@@ -1,0 +1,137 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;analog-inputs.html:20[64:68];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/analog-inputs.html","20","64","20","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;analog-inputs.html:165[48:78];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/analog-inputs.html","165","48","165","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;analog-inputs.html:193[33:63];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/analog-inputs.html","193","33","193","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.host;analog-inputs.js:65[53:67];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configNode.host;analog-inputs.js:65[53:67];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","65","53","65","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;analog-inputs.js:66[53:83];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;analog-inputs.js:66[53:83];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","66","53","66","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... assword;analog-inputs.js:67[51:81];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... assword;analog-inputs.js:67[51:81];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","67","51","67","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;analog-inputs.js:73[37:42];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;analog-inputs.js:73[37:42];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","73","37","73","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;analog-inputs.js:85[39:44];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;analog-inputs.js:85[39:44];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","85","39","85","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: valueStruct;analog-inputs.js:96[38:48];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: valueStruct;analog-inputs.js:96[38:48];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","96","38","96","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;analog-inputs.js:137[49:51];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;analog-inputs.js:137[49:51];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-inputs.js","137","49","137","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;analog-outputs.html:14[64:68];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/analog-outputs.html","14","64","14","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;analog-outputs.html:91[48:78];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/analog-outputs.html","91","48","91","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;analog-outputs.html:118[33:63];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/analog-outputs.html","118","33","118","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.host;analog-outputs.js:64[53:67];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configNode.host;analog-outputs.js:64[53:67];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-outputs.js","64","53","64","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;analog-outputs.js:65[53:83];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;analog-outputs.js:65[53:83];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-outputs.js","65","53","65","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... assword;analog-outputs.js:66[51:81];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... assword;analog-outputs.js:66[51:81];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-outputs.js","66","51","66","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;analog-outputs.js:72[37:42];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;analog-outputs.js:72[37:42];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-outputs.js","72","37","72","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;analog-outputs.js:84[39:44];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;analog-outputs.js:84[39:44];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-outputs.js","84","39","84","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;analog-outputs.js:95[49:51];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;analog-outputs.js:95[49:51];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/analog-outputs.js","95","49","95","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:94[55:63];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:94[55:63];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","94","55","94","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:204[46:54];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:204[46:54];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","204","46","204","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opts.port;ewio2ConnObj.js:226[42:50];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opts.port;ewio2ConnObj.js:226[42:50];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","226","42","226","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ewio2ConnObj.js:228[49:52];Sink: msg;ewio2ConnObj.js:182[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:228[49:52];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:228[49:52];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","228","49","228","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ewio2ConnObj.js:239[47:49];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ewio2ConnObj.js:239[47:49];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","239","47","239","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:246[41:49];Sink: url;ewio2ConnObj.js:248[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:246[41:49];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:246[41:49];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","246","41","246","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ewio2ConnObj.js:249[51:54];Sink: msg;ewio2ConnObj.js:182[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:249[51:54];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:249[51:54];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","249","51","249","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ewio2ConnObj.js:254[42:44];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ewio2ConnObj.js:254[42:44];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","254","42","254","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:287[48:56];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:287[48:56];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","287","48","287","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:296[71:79];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:296[71:79];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","296","71","296","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:314[66:74];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;ewio2ConnObj.js:314[66:74];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","314","66","314","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connObj.host;ewio2ConnObj.js:320[57:68];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connObj.host;ewio2ConnObj.js:320[57:68];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","320","57","320","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: ""show-s ... .ioType;ewio2ConnObj.js:619[36:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: ""publis ... is.user;ewio2ConnObj.js:638[31:143]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: ""show-s ... .ioType;ewio2ConnObj.js:642[36:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: ""show-s ... .ioType;ewio2ConnObj.js:645[36:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: ""send-v ... .ioType;ewio2ConnObj.js:650[40:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ewio2ConnObj.js:324[50:53];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","324","50","324","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connObj.host;ewio2ConnObj.js:326[65:76];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connObj.host;ewio2ConnObj.js:326[65:76];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","326","65","326","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ewio2ConnObj.js:532[42:46];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;ewio2ConnObj.js:532[42:46];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2ConnObj.js","532","42","532","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.host;ewio2Connection.js:46[16:30];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configNode.host;ewio2Connection.js:46[16:30];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2Connection.js","46","16","46","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;ewio2Connection.js:47[16:46];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;ewio2Connection.js:47[16:46];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2Connection.js","47","16","47","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... assword;ewio2Connection.js:48[14:44];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... assword;ewio2Connection.js:48[14:44];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2Connection.js","48","14","48","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frontendData.host;ewio2Connection.js:56[16:32];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frontendData.host;ewio2Connection.js:56[16:32];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2Connection.js","56","16","56","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frontendData.host;ewio2Connection.js:66[105:121];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frontendData.host;ewio2Connection.js:66[105:121];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2Connection.js","66","105","66","121"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connKey.host;ewio2Connection.js:350[86:97];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connKey.host;ewio2Connection.js:350[86:97];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/backend/ewio2Connection.js","350","86","350","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;digital-inputs.html:14[64:68];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/digital-inputs.html","14","64","14","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;digital-inputs.html:98[48:78];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/digital-inputs.html","98","48","98","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;digital-inputs.html:128[33:63];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/digital-inputs.html","128","33","128","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;digital-inputs.js:68[53:83];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;digital-inputs.js:68[53:83];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","68","53","68","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;digital-inputs.js:69[53:83];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;digital-inputs.js:69[53:83];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","69","53","69","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... assword;digital-inputs.js:70[51:81];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... assword;digital-inputs.js:70[51:81];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","70","51","70","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;digital-inputs.js:76[37:42];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;digital-inputs.js:76[37:42];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","76","37","76","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;digital-inputs.js:88[39:44];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;digital-inputs.js:88[39:44];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","88","39","88","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: valueStruct;digital-inputs.js:99[38:48];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: valueStruct;digital-inputs.js:99[38:48];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","99","38","99","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;digital-inputs.js:179[49:51];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;digital-inputs.js:179[49:51];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-inputs.js","179","49","179","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;digital-outputs.html:14[64:68];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/digital-outputs.html","14","64","14","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;digital-outputs.html:91[48:78];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/digital-outputs.html","91","48","91","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;digital-outputs.html:118[33:63];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/digital-outputs.html","118","33","118","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.host;digital-outputs.js:64[53:67];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configNode.host;digital-outputs.js:64[53:67];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-outputs.js","64","53","64","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;digital-outputs.js:65[53:83];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;digital-outputs.js:65[53:83];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-outputs.js","65","53","65","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... assword;digital-outputs.js:66[51:81];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... assword;digital-outputs.js:66[51:81];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-outputs.js","66","51","66","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;digital-outputs.js:72[37:42];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;digital-outputs.js:72[37:42];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-outputs.js","72","37","72","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;digital-outputs.js:84[39:44];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;digital-outputs.js:84[39:44];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-outputs.js","84","39","84","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;digital-outputs.js:95[49:51];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;digital-outputs.js:95[49:51];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/digital-outputs.js","95","49","95","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;ewio2-metering.html:21[69:73];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/ewio2-metering.html","21","69","21","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;ewio2-metering.html:64[72:76];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/ewio2-metering.html","64","72","64","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;ewio2-metering.html:168[48:78];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/ewio2-metering.html","168","48","168","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevEwi ... gNodeId;ewio2-metering.html:204[33:63];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/ewio2-metering.html","204","33","204","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.host;ewio2-metering.js:68[53:67];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configNode.host;ewio2-metering.js:68[53:67];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/ewio2-metering.js","68","53","68","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... sername;ewio2-metering.js:69[53:83];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... sername;ewio2-metering.js:69[53:83];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/ewio2-metering.js","69","53","69","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... assword;ewio2-metering.js:70[51:81];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configN ... assword;ewio2-metering.js:70[51:81];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/ewio2-metering.js","70","51","70","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;ewio2-metering.js:76[37:42];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;ewio2-metering.js:76[37:42];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/ewio2-metering.js","76","37","76","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;ewio2-metering.js:88[47:52];Sink: msg;general.js:29[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: status;ewio2-metering.js:88[47:52];Sink: msg;general.js:33[25:27]::FLOW_DESCR_END","/src/ewio2-metering.js","88","47","88","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... tf-8'});ewio2.js:126[25:94];Sink: ewioModel;ewio2.js:132[18:26]::FLOW_DESCR_END","/src/ewio2.js","126","25","126","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.bod ... gNodeId;ewio2.js:167[119:144];Sink: ""publis ... nNodeId;ewio2Connection.js:72[27:70]::FLOW_DESCR_END","/src/ewio2.js","167","119","167","144"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.bod ... gNodeId;ewio2.js:171[83:108];Sink: ""publis ... nNodeId;ewio2Connection.js:72[27:70]::FLOW_DESCR_END","/src/ewio2.js","171","83","171","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.bod ... gNodeId;ewio2.js:176[56:81];Sink: ""publis ... gNodeId;ewio2.js:176[31:81]::FLOW_DESCR_END","/src/ewio2.js","176","56","176","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.bod ... gNodeId;ewio2.js:251[119:144];Sink: ""publis ... nNodeId;ewio2Connection.js:72[27:70]::FLOW_DESCR_END","/src/ewio2.js","251","119","251","144"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.bod ... gNodeId;ewio2.js:255[83:108];Sink: ""publis ... nNodeId;ewio2Connection.js:72[27:70]::FLOW_DESCR_END","/src/ewio2.js","255","83","255","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.bod ... gNodeId;ewio2.js:260[56:81];Sink: ""publis ... gNodeId;ewio2.js:260[31:81]::FLOW_DESCR_END","/src/ewio2.js","260","56","260","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configN ... ta.host;backendConnection.js:33[86:109];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/frontend/backendConnection.js","33","86","33","109"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.host;inits.js:230[27:41];Sink: msg;inits.js:27[21:23]::FLOW_DESCR_END","/src/frontend/inits.js","230","27","230","41"

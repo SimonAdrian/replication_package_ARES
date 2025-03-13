@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""[""+cal ... d + ""'"";shading.js:186[31:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""E002:  ...  + ""')"";shading.js:238[16:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""E003:  ...  + ""')"";shading.js:243[16:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: fName + ... sHeight;shading.js:254[31:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""E007:  ...  + ""')"";shading.js:891[17:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""Receiv ... d + ""'"";shading.js:893[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""Receiv ...  "" ms)"";shading.js:916[17:160]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""Receiv ... sHeight;shading.js:918[39:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: ""W002:  ...  + ""'."";shading.js:920[16:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shading.js:639[29:31];Sink: msg;shading.js:968[21:23]::FLOW_DESCR_END","/nodes/shading.js","639","29","639","31"

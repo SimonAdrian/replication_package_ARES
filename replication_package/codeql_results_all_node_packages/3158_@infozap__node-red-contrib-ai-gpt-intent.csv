@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:42[32:34];Sink: err;index.js:59[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:42[32:34];Sink: msg;index.js:62[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:42[32:34];Sink: err;index.js:71[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:42[32:34];Sink: msg;index.js:74[18:20]::FLOW_DESCR_END","/call-intent/index.js","42","32","42","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: key;index.js:20[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: [null, msg];index.js:21[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: msg;index.js:49[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: key;index.js:52[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: key;index.js:55[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: [msg];index.js:65[14:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: [msg];index.js:69[14:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:25[32:34];Sink: [msg];index.js:83[12:16]::FLOW_DESCR_END","/context-handler/index.js","25","32","25","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:136[32:34];Sink: msg;index.js:191[16:18]::FLOW_DESCR_END","/openai-chat/index.js","136","32","136","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:22[32:34];Sink: msg;index.js:59[12:14]::FLOW_DESCR_END","/openai-response/index.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:8[32:34];Sink: msg;index.js:21[12:14]::FLOW_DESCR_END","/openai-system/index.js","8","32","8","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:12[32:34];Sink: msg;index.js:35[12:14]::FLOW_DESCR_END","/openai-tool/index.js","12","32","12","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:8[32:34];Sink: msg;index.js:19[12:14]::FLOW_DESCR_END","/openai-user/index.js","8","32","8","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:62[62:65];Sink: [\n      ...       ];index.js:64[17:7]::FLOW_DESCR_END","/register-intent/index.js","62","62","62","65"

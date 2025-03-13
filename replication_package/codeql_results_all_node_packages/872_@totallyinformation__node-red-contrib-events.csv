@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json');gulpfile.js:65[32:62];Sink: `Curren ... lease}`;gulpfile.js:67[13:72]::FLOW_DESCR_END","/gulpfile.js","65","32","65","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-in.js:68[21:23];Sink: msg;event-in.js:69[19:21]::FLOW_DESCR_END","/nodes/event-in.js","68","21","68","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-out.js:55[26:28];Sink: msg;event-out.js:80[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-out.js:55[26:28];Sink: eventName;event-out.js:91[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-out.js:55[26:28];Sink: { ...ms ...  _eo} };event-out.js:91[30:67]::FLOW_DESCR_END","/nodes/event-out.js","55","26","55","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-out.js:133[67:69];Sink: { ...ms ...  _eo} };event-out.js:139[23:60]::FLOW_DESCR_END","/nodes/event-out.js","133","67","133","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-return.js:55[26:28];Sink: msg;event-return.js:73[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-return.js:55[26:28];Sink: eventName;event-return.js:84[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-return.js:55[26:28];Sink: { ...ms ...  _er} };event-return.js:84[30:65]::FLOW_DESCR_END","/nodes/event-return.js","55","26","55","28"

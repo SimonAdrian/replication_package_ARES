@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;movehub-config.js:21[29:31];Sink: err;movehub-config.js:22[25:27]::FLOW_DESCR_END","/nodes/movehub-config.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;movehub-config.js:25[33:38];Sink: status;movehub-config.js:26[46:51]::FLOW_DESCR_END","/nodes/movehub-config.js","25","33","25","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;movehub-config.js:36[35:37];Sink: err;movehub-config.js:38[56:58]::FLOW_DESCR_END","/nodes/movehub-config.js","36","35","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;movehub-config.js:59[39:39];Sink: d;movehub-config.js:60[39:39]::FLOW_DESCR_END","/nodes/movehub-config.js","59","39","59","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: c;movehub-config.js:63[36:36];Sink: c;movehub-config.js:64[36:36]::FLOW_DESCR_END","/nodes/movehub-config.js","63","36","63","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;movehub-config.js:67[35:35];Sink: t;movehub-config.js:68[35:35]::FLOW_DESCR_END","/nodes/movehub-config.js","67","35","67","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;movehub-config.js:71[39:39];Sink: r;movehub-config.js:72[39:39]::FLOW_DESCR_END","/nodes/movehub-config.js","71","39","71","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hub;movehub-config.js:80[33:35];Sink: hub.address;movehub-config.js:81[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: hub;movehub-config.js:80[33:35];Sink: JSON.st ...      });movehub-config.js:152[30:10]::FLOW_DESCR_END","/nodes/movehub-config.js","80","33","80","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;movehub-led.js:8[26:28];Sink: msg;movehub-led.js:9[38:40]::FLOW_DESCR_END","/nodes/movehub-led.js","8","26","8","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;movehub-motor-multi.js:8[26:28];Sink: msg;movehub-motor-multi.js:9[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;movehub-motor-multi.js:8[26:28];Sink: `port $ ... ${dcb}`;movehub-motor-multi.js:17[25:88]::FLOW_DESCR_END","/nodes/movehub-motor-multi.js","8","26","8","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;movehub-motor-multi.js:11[26:33];Sink: `port $ ... ${dcb}`;movehub-motor-multi.js:17[25:88]::FLOW_DESCR_END","/nodes/movehub-motor-multi.js","11","26","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;movehub-motor-multi.js:11[38:43];Sink: `port $ ... ${dcb}`;movehub-motor-multi.js:17[25:88]::FLOW_DESCR_END","/nodes/movehub-motor-multi.js","11","38","11","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;movehub-motor.js:8[26:28];Sink: msg;movehub-motor.js:9[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;movehub-motor.js:8[26:28];Sink: `port $ ...  ${dc}`;movehub-motor.js:16[25:75]::FLOW_DESCR_END","/nodes/movehub-motor.js","8","26","8","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;movehub-motor.js:11[26:33];Sink: `port $ ...  ${dc}`;movehub-motor.js:16[25:75]::FLOW_DESCR_END","/nodes/movehub-motor.js","11","26","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;movehub-motor.js:11[38:43];Sink: `port $ ...  ${dc}`;movehub-motor.js:16[25:75]::FLOW_DESCR_END","/nodes/movehub-motor.js","11","38","11","43"

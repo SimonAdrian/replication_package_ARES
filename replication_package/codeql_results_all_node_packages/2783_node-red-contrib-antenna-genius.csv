@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;antenna-genius-activate-antenna.js:40[31:33];Sink: command;antenna-genius-activate-antenna.js:52[46:52]::FLOW_DESCR_END","/antenna-genius-activate-antenna.js","40","31","40","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;antenna-genius-server.js:12[25:30];Sink: this.host;antenna-genius-server.js:135[48:56]::FLOW_DESCR_END","/antenna-genius-server.js","12","25","12","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;antenna-genius-server.js:13[25:30];Sink: this.port;antenna-genius-server.js:135[37:45]::FLOW_DESCR_END","/antenna-genius-server.js","13","25","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;antenna-genius-server.js:118[38:40];Sink: err;antenna-genius-server.js:119[27:29]::FLOW_DESCR_END","/antenna-genius-server.js","118","38","118","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;GeniusTestServer.js:44[32:35];Sink: ret;GeniusTestServer.js:75[36:38]::FLOW_DESCR_END","/test/GeniusTestServer.js","44","32","44","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... ().port;GeniusTestServer.js:80[28:48];Sink: port;GeniusTestServer.spec.js:13[30:33]::FLOW_DESCR_END","/test/GeniusTestServer.js","80","28","80","48"

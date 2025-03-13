@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thred-schema-validator.js:27[35:37];Sink: url;thred-schema-validator.js:20[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thred-schema-validator.js:27[35:37];Sink: schema_id;thred-schema-validator.js:42[53:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thred-schema-validator.js:27[35:37];Sink: schema_id;thred-schema-validator.js:47[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thred-schema-validator.js:27[35:37];Sink: msg;thred-schema-validator.js:67[22:24]::FLOW_DESCR_END","/thred-schema-validator.js","27","35","27","37"

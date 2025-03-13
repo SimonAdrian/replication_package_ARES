@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;extract-keyframes.js:14[43:45];Sink: msg;extract-keyframes.js:16[31:33]::FLOW_DESCR_END","/extract-keyframes.js","14","43","14","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;extract-keyframes.js:24[39:41];Sink: msg;extract-keyframes.js:31[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;extract-keyframes.js:24[39:41];Sink: msg;extract-keyframes.js:51[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;extract-keyframes.js:24[39:41];Sink: msg;extract-keyframes.js:60[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;extract-keyframes.js:24[39:41];Sink: msg;extract-keyframes.js:65[35:37]::FLOW_DESCR_END","/extract-keyframes.js","24","39","24","41"

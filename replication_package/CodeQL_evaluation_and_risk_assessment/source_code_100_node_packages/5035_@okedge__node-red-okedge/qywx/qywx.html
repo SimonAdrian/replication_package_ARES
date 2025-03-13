@@ -1,0 +1,46 @@
+
+<script type="text/javascript">
+    RED.nodes.registerType('qywx-notice', { // 这个值 必须和 js 中 RED.nodes.registerType 的值一致
+        category: 'okedge', // 分类
+        color: '#a6bbcf', // 节点颜色
+        defaults: {
+            name: {value: ""}, // name 默认是空
+            token: {value: "",required :true}, // add1 默认值 0
+        },
+        inputs: 1, // 节点有多少输入 0 或者多个
+        outputs: 1, // 节点有多少输出 0 或者多个
+        icon: "qywx.svg", // 节点使用的图标
+        paletteLabel: "企业微信通知", // 节点显示的名称
+        label: function () { // 节点的工作区的标签
+            return this.name || "企业微信通知";
+        },
+        // 钩子函数,双节节点调出 template 时触发
+        oneditprepare: function () {
+            console.log("oneditprepare 被调用");
+        },
+        // 钩子函数,点击 template 中的完成按钮时触发
+        oneditsave: function () {
+            console.log("oneditsave 被调用");
+        },
+    });
+
+</script>
+
+<!--data-template-name 必须和 js 中 RED.nodes.registerType 的值一致 -->
+<!--template 是模板，可以理解成表单，节点需要的信息可以从这里输入-->
+<script type="text/html" data-template-name="qywx-notice">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> name</label>
+        <input type="text" id="node-input-name" placeholder="name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-token"><i class="fa fa-tag"></i>token</label>
+        <input type="text" id="node-input-token" placeholder="token">
+    </div>
+</script>
+
+<!--data-help-name 必须和 js 中 RED.nodes.registerType 的值一致 -->
+<!--help 是节点的帮助文档-->
+<script type="text/html" data-help-name="qywx-notice">
+    <p>以msg.payload为群消息的主体，支持纯文本，图文，markdown，等消息类型，具体请参考<a href="https://developer.work.weixin.qq.com/document/path/91770" target="_new">文档</a></p>
+</script>

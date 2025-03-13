@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... tnumber;siaendpoint-config.js:38[82:111];Sink: 'siaend ... x long';siaendpoint-config.js:38[31:167]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","38","82","38","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:404[72:90];Sink: 'siaend ... y(data);siaendpoint-config.js:408[39:138]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:404[72:90];Sink: 'siaend ... .trim();siaendpoint-config.js:409[39:143]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:404[72:90];Sink: 'siaend ... message;siaendpoint-config.js:443[47:179]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:404[72:90];Sink: 'siaend ... r.stack;siaendpoint-config.js:452[39:128]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","404","72","404","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: ""siaend ... "" + val;siaendpoint-config.js:384[39:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: 'siaend ... y(data);siaendpoint-config.js:408[39:138]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: 'siaend ... .trim();siaendpoint-config.js:409[39:143]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: ""siaend ...  + data;siaendpoint-config.js:583[31:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: ""siaend ... alc_crc;siaendpoint-config.js:606[35:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: ""siaend ... fy(sia);siaendpoint-config.js:625[35:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:405[38:41];Sink: ""siaend ... fy(sia);siaendpoint-config.js:669[27:80]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","405","38","405","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;siaendpoint-config.js:451[39:41];Sink: 'siaend ... r.stack;siaendpoint-config.js:452[39:128]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","451","39","451","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;siaendpoint-config.js:457[49:49];Sink: 'siaend ... : ' + e;siaendpoint-config.js:458[35:103]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","457","49","457","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;siaendpoint-config.js:488[49:49];Sink: 'siaend ... : ' + e;siaendpoint-config.js:489[35:103]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","488","49","488","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: ""siaend ... "" + val;siaendpoint-config.js:384[39:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: ""siaend ...  + data;siaendpoint-config.js:583[31:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: ""siaend ... alc_crc;siaendpoint-config.js:606[35:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: ""siaend ... fy(sia);siaendpoint-config.js:625[35:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: ""siaend ... fy(sia);siaendpoint-config.js:669[27:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: 'siaend ... y(data);siaendpoint-config.js:694[31:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:690[30:33];Sink: 'siaend ... .trim();siaendpoint-config.js:695[31:135]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","690","30","690","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:691[68:86];Sink: 'siaend ... y(data);siaendpoint-config.js:694[31:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:691[68:86];Sink: 'siaend ... .trim();siaendpoint-config.js:695[31:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sock.address().port;siaendpoint-config.js:691[68:86];Sink: 'siaend ... message;siaendpoint-config.js:727[39:171]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","691","68","691","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;siaendpoint-config.js:735[31:33];Sink: 'siaend ... r.stack;siaendpoint-config.js:736[31:108]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","735","31","735","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;siaendpoint-config.js:751[33:36];Sink: ""siaend ... "" + val;siaendpoint-config.js:384[39:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:751[33:36];Sink: ""siaend ...  + data;siaendpoint-config.js:583[31:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:751[33:36];Sink: ""siaend ... alc_crc;siaendpoint-config.js:606[35:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:751[33:36];Sink: ""siaend ... fy(sia);siaendpoint-config.js:625[35:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:751[33:36];Sink: ""siaend ... fy(sia);siaendpoint-config.js:669[27:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;siaendpoint-config.js:751[33:36];Sink: 'siaend ... y(data);siaendpoint-config.js:754[31:131]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","751","33","751","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote;siaendpoint-config.js:751[39:44];Sink: 'siaend ... y(data);siaendpoint-config.js:754[31:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;siaendpoint-config.js:751[39:44];Sink: remote.port;siaendpoint-config.js:778[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;siaendpoint-config.js:751[39:44];Sink: remote.address;siaendpoint-config.js:778[64:77]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","751","39","751","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;siaendpoint-config.js:788[31:33];Sink: 'siaend ... message;siaendpoint-config.js:789[31:76]::FLOW_DESCR_END","/nodes/siaendpoint-config.js","788","31","788","33"

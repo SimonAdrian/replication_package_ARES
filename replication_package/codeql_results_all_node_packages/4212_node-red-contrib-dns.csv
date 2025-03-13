@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dns.js:9[36:38];Sink: msg;dns.js:13[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dns.js:9[36:38];Sink: msg;dns.js:17[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dns.js:9[36:38];Sink: msg;dns.js:23[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dns.js:9[36:38];Sink: msg;dns.js:28[27:29]::FLOW_DESCR_END","/dns.js","9","36","9","38"

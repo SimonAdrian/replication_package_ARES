@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: msg;Connector.js:24[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: `+ call: ${url}`;Connector.js:64[15:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: msg.payload;node.js:32[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: msg;node.js:40[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: msg;node.js:45[31:33]::FLOW_DESCR_END","/node.js","23","36","23","38"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordClient.js:9[39:41];Sink: msg;discordClient.js:11[27:29]::FLOW_DESCR_END","/discord/discordClient.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordSendMessage.js:12[34:36];Sink: msg.payload;discordSendMessage.js:85[34:44]::FLOW_DESCR_END","/discord/discordSendMessage.js","12","34","12","36"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-mqtt-publish.ts:19[32:34];Sink: msg;iot-mqtt-publish.ts:22[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot-mqtt-publish.ts:19[32:34];Sink: topic;iot-mqtt-publish.ts:28[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot-mqtt-publish.ts:19[32:34];Sink: JSON.st ... ayload);iot-mqtt-publish.ts:28[38:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot-mqtt-publish.ts:19[32:34];Sink: msg;iot-mqtt-publish.ts:34[19:21]::FLOW_DESCR_END","/src/iot-mqtt-publish/iot-mqtt-publish.ts","19","32","19","34"

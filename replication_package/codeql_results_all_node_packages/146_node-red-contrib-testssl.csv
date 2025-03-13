@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;install-testssl.js:19[25:25];Sink: data;install-testssl.js:21[56:59]::FLOW_DESCR_END","/testssl/install-testssl.js","19","25","19","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;testssl.js:12[31:36];Sink: `[tests ... pPort}`;testssl.js:83[26:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;testssl.js:12[31:36];Sink: `[tests ... pPort}`;testssl.js:159[34:116]::FLOW_DESCR_END","/testssl/testssl.js","12","31","12","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: `[tests ... enssl}`;testssl.js:27[26:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: `[tests ... apath}`;testssl.js:33[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:59[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:68[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:76[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:82[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: `[tests ... pPort}`;testssl.js:83[26:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: `[tests ... f scan`;testssl.js:130[38:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:146[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: `[tests ... pPort}`;testssl.js:159[34:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:166[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: `[tests ... ssage}`;testssl.js:180[44:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;testssl.js:18[34:36];Sink: msg;testssl.js:195[39:41]::FLOW_DESCR_END","/testssl/testssl.js","18","34","18","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;testssl.js:19[49:56];Sink: `[tests ... pPort}`;testssl.js:83[26:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;testssl.js:19[49:56];Sink: `[tests ... pPort}`;testssl.js:159[34:116]::FLOW_DESCR_END","/testssl/testssl.js","19","49","19","56"

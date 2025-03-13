@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:68[48:50];Sink: msg;thingsdata-s3.js:73[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:68[48:50];Sink: msg;thingsdata-s3.js:94[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:68[48:50];Sink: msg;thingsdata-s3.js:103[55:57]::FLOW_DESCR_END","/thingsdata-s3.js","68","48","68","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:152[36:38];Sink: msg;thingsdata-s3.js:157[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:152[36:38];Sink: msg;thingsdata-s3.js:169[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","152","36","152","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:192[36:38];Sink: msg;thingsdata-s3.js:206[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:192[36:38];Sink: msg;thingsdata-s3.js:211[35:37]::FLOW_DESCR_END","/thingsdata-s3.js","192","36","192","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:247[36:38];Sink: msg;thingsdata-s3.js:251[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:247[36:38];Sink: msg;thingsdata-s3.js:258[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:247[36:38];Sink: msg;thingsdata-s3.js:270[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:247[36:38];Sink: msg;thingsdata-s3.js:282[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","247","36","247","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:334[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:339[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:358[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:367[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:373[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:398[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:322[44:46];Sink: msg;thingsdata-s3.js:404[43:45]::FLOW_DESCR_END","/thingsdata-s3.js","322","44","322","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:431[36:38];Sink: msg;thingsdata-s3.js:445[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:431[36:38];Sink: msg;thingsdata-s3.js:450[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:431[36:38];Sink: msg;thingsdata-s3.js:458[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","431","36","431","38"

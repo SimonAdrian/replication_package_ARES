@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;05-seeker.js:12[30:32];Sink: msg;05-seeker.js:13[12:14]::FLOW_DESCR_END","/nodes/05-seeker.js","12","30","12","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;10-sink.js:12[30:32];Sink: msg;10-sink.js:13[12:14]::FLOW_DESCR_END","/nodes/10-sink.js","12","30","12","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;45-get-flows.js:12[31:33];Sink: {\n      ...       };45-get-flows.js:29[16:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;45-get-flows.js:12[31:33];Sink: { ...msg, _err: err};45-get-flows.js:45[40:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;45-get-flows.js:12[31:33];Sink: {...msg, _err:err};45-get-flows.js:59[42:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;45-get-flows.js:12[31:33];Sink: { ...ms ... : err };45-get-flows.js:67[46:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;45-get-flows.js:12[31:33];Sink: {...msg, _err: err };45-get-flows.js:97[51:70]::FLOW_DESCR_END","/nodes/45-get-flows.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: (cfg.ho ... /flows"";50-send-flow.js:14[19:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: {\n      ...       };50-send-flow.js:23[16:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: { ...msg, _err: err};50-send-flow.js:35[40:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: { ...msg, _err: err};50-send-flow.js:52[42:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: {...msg, _err: err};50-send-flow.js:60[46:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: (cfg.ho ... /token"";50-send-flow.js:73[36:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-send-flow.js:12[31:33];Sink: { ...ms ... : err };50-send-flow.js:90[51:71]::FLOW_DESCR_END","/nodes/50-send-flow.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: msg.payload;51-install-package.js:14[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: msg;51-install-package.js:15[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: msg;51-install-package.js:40[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: (cfg.ho ... /nodes"";51-install-package.js:43[19:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: {\n      ...       };51-install-package.js:50[16:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: { ...ms ... : err };51-install-package.js:62[40:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: { ...msg, _err: err};51-install-package.js:79[42:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: { ...msg, _err: err};51-install-package.js:87[46:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: (cfg.ho ... /token"";51-install-package.js:100[36:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;51-install-package.js:12[31:33];Sink: { ...ms ... : err };51-install-package.js:117[50:70]::FLOW_DESCR_END","/nodes/51-install-package.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;60-client-code.html:3[63:66];Sink: ""Client ... "" + msg;60-client-code.html:62[21:73]::FLOW_DESCR_END","/nodes/60-client-code.html","3","63","3","66"

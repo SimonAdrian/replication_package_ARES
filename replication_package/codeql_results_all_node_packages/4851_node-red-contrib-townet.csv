@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;01-tw-idu.js:161[38:40];Sink: ""data:  ... ayload);01-tw-idu.js:289[33:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;01-tw-idu.js:161[38:40];Sink: dati;01-tw-idu.js:301[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;01-tw-idu.js:161[38:40];Sink: dati;01-tw-idu.js:326[35:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;01-tw-idu.js:161[38:40];Sink: msg;01-tw-idu.js:331[43:45]::FLOW_DESCR_END","/01-tw-idu.js","161","38","161","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.data.val;01-tw-idu.js:293[27:42];Sink: dati;01-tw-idu.js:301[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.data.val;01-tw-idu.js:293[27:42];Sink: dati;01-tw-idu.js:326[35:38]::FLOW_DESCR_END","/01-tw-idu.js","293","27","293","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;01-tw-idu.js:330[88:96];Sink: errmsg;01-tw-idu.js:331[36:41]::FLOW_DESCR_END","/01-tw-idu.js","330","88","330","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parser.read();01-tw-idu.js:446[26:38];Sink: e;01-tw-idu.js:499[33:33]::FLOW_DESCR_END","/01-tw-idu.js","446","26","446","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;01-tw-idu.js:660[58:58];Sink: d;01-tw-idu.js:661[46:46]::FLOW_DESCR_END","/01-tw-idu.js","660","58","660","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu NO ... sg2.id);02-tw-snmp.js:111[21:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu AD ... iduId]);02-tw-snmp.js:114[21:155]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu Re ... 78Volt);02-tw-snmp.js:115[21:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu NO ... sg2.id);02-tw-snmp.js:147[23:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu AD ... iduId]);02-tw-snmp.js:151[23:163]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu Re ... urrent);02-tw-snmp.js:152[23:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu NO ... 2.data);02-tw-snmp.js:209[21:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu AD ... iduId]);02-tw-snmp.js:213[21:147]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu Re ... ist528);02-tw-snmp.js:214[21:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu NO ... 2.data);02-tw-snmp.js:270[21:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu AD ... iduId]);02-tw-snmp.js:274[21:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: 'idu Re ... ist544);02-tw-snmp.js:275[21:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: msg2.data.ipoe;02-tw-snmp.js:321[26:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;02-tw-snmp.js:89[32:34];Sink: oldVal.ipoe+10;02-tw-snmp.js:322[26:39]::FLOW_DESCR_END","/02-tw-snmp.js","89","32","89","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg2.data.id;02-tw-snmp.js:207[17:28];Sink: 'idu AD ... iduId]);02-tw-snmp.js:213[21:147]::FLOW_DESCR_END","/02-tw-snmp.js","207","17","207","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg2.data.id;02-tw-snmp.js:268[17:28];Sink: 'idu AD ... iduId]);02-tw-snmp.js:274[21:148]::FLOW_DESCR_END","/02-tw-snmp.js","268","17","268","28"

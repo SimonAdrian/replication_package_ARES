@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:67[31:56];Sink: ""Contai ... eation"";azureblobstorage.js:108[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:67[31:56];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:121[27:96]::FLOW_DESCR_END","/azureblobstorage.js","67","31","67","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:68[26:46];Sink: ""Blob ' ... loaded"";azureblobstorage.js:120[26:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:68[26:46];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:121[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:68[26:46];Sink: ""destin ... ionFile;azureblobstorage.js:156[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:68[26:46];Sink: ""Blob ' ... fully!"";azureblobstorage.js:174[26:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:68[26:46];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:175[27:113]::FLOW_DESCR_END","/azureblobstorage.js","68","26","68","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... loaded"";azureblobstorage.js:120[26:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:121[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""destin ... ionFile;azureblobstorage.js:156[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... fully!"";azureblobstorage.js:174[26:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:175[27:113]::FLOW_DESCR_END","/azureblobstorage.js","71","36","71","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:77[35:60];Sink: ""Contai ... eation"";azureblobstorage.js:108[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:77[35:60];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:121[27:96]::FLOW_DESCR_END","/azureblobstorage.js","77","35","77","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ntainer;azureblobstorage.js:136[31:56];Sink: ""Contai ... eation"";azureblobstorage.js:108[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ntainer;azureblobstorage.js:136[31:56];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:121[27:96]::FLOW_DESCR_END","/azureblobstorage.js","136","31","136","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:137[26:46];Sink: ""Blob ' ... loaded"";azureblobstorage.js:120[26:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:137[26:46];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:121[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:137[26:46];Sink: ""destin ... ionFile;azureblobstorage.js:156[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:137[26:46];Sink: ""Blob ' ... fully!"";azureblobstorage.js:174[26:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:137[26:46];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:175[27:113]::FLOW_DESCR_END","/azureblobstorage.js","137","26","137","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:141[36:38];Sink: ""msg.pa ... payload;azureblobstorage.js:147[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:141[36:38];Sink: ""destin ... ionFile;azureblobstorage.js:156[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:141[36:38];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:175[27:113]::FLOW_DESCR_END","/azureblobstorage.js","141","36","141","38"

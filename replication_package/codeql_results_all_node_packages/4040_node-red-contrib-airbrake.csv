@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;airbrake.js:55[28:30];Sink: [msg,null];airbrake.js:31[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airbrake.js:55[28:30];Sink: [null,msg];airbrake.js:40[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airbrake.js:55[28:30];Sink: projectId;airbrake.js:63[35:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airbrake.js:55[28:30];Sink: projectKey;airbrake.js:63[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airbrake.js:55[28:30];Sink: msg.payload;airbrake.js:63[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airbrake.js:55[28:30];Sink: env;airbrake.js:63[71:73]::FLOW_DESCR_END","/airbrake/airbrake.js","55","28","55","30"

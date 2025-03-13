@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;complete-task.js:9[42:44];Sink: msg;complete-task.js:31[41:43]::FLOW_DESCR_END","/src/nodes/complete-task.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deploy.js:8[42:44];Sink: msg;deploy.js:26[27:29]::FLOW_DESCR_END","/src/nodes/deploy.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message.js:11[36:38];Sink: msg;message.js:17[41:43]::FLOW_DESCR_END","/src/nodes/message.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;process-instance.js:8[42:44];Sink: msg;process-instance.js:20[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;process-instance.js:8[42:44];Sink: msg;process-instance.js:23[41:43]::FLOW_DESCR_END","/src/nodes/process-instance.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;start-message.js:11[36:38];Sink: msg;start-message.js:18[41:43]::FLOW_DESCR_END","/src/nodes/start-message.js","11","36","11","38"

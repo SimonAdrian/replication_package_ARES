@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;baidu-iot-core-mqtt.js:231[21:26];Sink: node.brokerurl;baidu-iot-core-mqtt.js:429[48:61]::FLOW_DESCR_END","/baidu-iot-core-mqtt.js","231","21","231","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;baidu-iot-core-mqtt.js:350[57:65];Sink: node.brokerurl;baidu-iot-core-mqtt.js:429[48:61]::FLOW_DESCR_END","/baidu-iot-core-mqtt.js","350","57","350","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;baidu-iot-core-mqtt.js:663[38:40];Sink: msg;baidu-iot-core-mqtt.js:679[49:51]::FLOW_DESCR_END","/baidu-iot-core-mqtt.js","663","38","663","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;baidu-iot-core-mqtt.js:663[47:50];Sink: done;baidu-iot-core-mqtt.js:679[54:57]::FLOW_DESCR_END","/baidu-iot-core-mqtt.js","663","47","663","50"

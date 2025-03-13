@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acm-monitor.js:36[36:38];Sink: JSON.st ...      });acm-monitor.js:42[25:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm-monitor.js:36[36:38];Sink: msg;acm-monitor.js:57[23:25]::FLOW_DESCR_END","/acm-monitor.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;acm-sync.js:26[62:64];Sink: err;acm-sync.js:30[18:20]::FLOW_DESCR_END","/acm-sync.js","26","62","26","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;acm-sync.js:55[46:52];Sink: ""acm sy ... ipping"";acm-sync.js:58[17:121]::FLOW_DESCR_END","/acm-sync.js","55","46","55","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acm-sync.js:91[30:32];Sink: JSON.stringify(msg);acm-sync.js:97[51:69]::FLOW_DESCR_END","/acm-sync.js","91","30","91","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acm-tag.js:7[36:38];Sink: msg;acm-tag.js:10[23:25]::FLOW_DESCR_END","/acm-tag.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;acm.js:73[51:53];Sink: err;acm.js:81[33:35]::FLOW_DESCR_END","/acm.js","73","51","73","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;acm.js:115[46:50];Sink: result;acm.js:122[45:50]::FLOW_DESCR_END","/acm.js","115","46","115","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json"");acm.js:147[48:121];Sink: JSON.st ... ttings);acm.js:129[109:141]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... .json"");acm.js:147[48:121];Sink: node.authsettings;acm.js:149[29:45]::FLOW_DESCR_END","/acm.js","147","48","147","121"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;acm.js:174[48:52];Sink: result;acm.js:182[41:46]::FLOW_DESCR_END","/acm.js","174","48","174","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: payloads;FSM.js:23[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: ret;acm.js:391[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: JSON.st ... oadRaw);acm.js:472[57:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: newret;acm.js:671[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: ret;acm.js:674[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: ret;acm.js:684[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acm.js:215[36:38];Sink: msg;acm.js:687[31:33]::FLOW_DESCR_END","/acm.js","215","36","215","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;acm.js:566[46:48];Sink: err;acm.js:568[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;acm.js:566[46:48];Sink: err;acm.js:570[36:38]::FLOW_DESCR_END","/acm.js","566","46","566","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;acm.js:626[46:48];Sink: err;acm.js:628[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;acm.js:626[46:48];Sink: err;acm.js:630[36:38]::FLOW_DESCR_END","/acm.js","626","46","626","48"

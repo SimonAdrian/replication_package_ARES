@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbustcp.js:55[35:37];Sink: `Uncaug ... .name}`;modbustcp.js:56[17:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;modbustcp.js:55[35:37];Sink: `Stack: ... stack}`;modbustcp.js:57[17:37]::FLOW_DESCR_END","/modbustcp.js","55","35","55","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;modbustcp.js:63[17:27];Sink: ts + "": "" + msg;helpers.js:90[31:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;modbustcp.js:63[17:27];Sink: ts + "": "" + msg;helpers.js:91[27:41]::FLOW_DESCR_END","/modbustcp.js","63","17","63","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;modbustcp.js:64[17:27];Sink: ts + "": "" + msg;helpers.js:90[31:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;modbustcp.js:64[17:27];Sink: ts + "": "" + msg;helpers.js:91[27:41]::FLOW_DESCR_END","/modbustcp.js","64","17","64","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;modbustcp.js:85[57:65];Sink: ts + "": "" + msg;helpers.js:90[31:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;modbustcp.js:85[57:65];Sink: ts + "": "" + msg;helpers.js:91[27:41]::FLOW_DESCR_END","/modbustcp.js","85","57","85","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;modbustcp.js:85[70:78];Sink: ts + "": "" + msg;helpers.js:90[31:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;modbustcp.js:85[70:78];Sink: ts + "": "" + msg;helpers.js:91[27:41]::FLOW_DESCR_END","/modbustcp.js","85","70","85","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hadError;modbustcp.js:119[30:37];Sink: hadError;modbustcp.js:120[45:52]::FLOW_DESCR_END","/modbustcp.js","119","30","119","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbustcp.js:124[30:32];Sink: `socket ... ssage}`;modbustcp.js:125[20:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;modbustcp.js:124[30:32];Sink: `socket ... ssage}`;modbustcp.js:126[15:57]::FLOW_DESCR_END","/modbustcp.js","124","30","124","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbustcp.js:302[22:24];Sink: `Invali ... aType}`;modbustcp.js:525[17:50]::FLOW_DESCR_END","/modbustcp.js","302","22","302","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bigArray.pop();modbustcp.js:409[26:39];Sink: `Invali ... aType}`;modbustcp.js:525[17:50]::FLOW_DESCR_END","/modbustcp.js","409","26","409","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbustcp.js:627[22:24];Sink: msg.payload;modbustcp.js:659[36:46]::FLOW_DESCR_END","/modbustcp.js","627","22","627","24"

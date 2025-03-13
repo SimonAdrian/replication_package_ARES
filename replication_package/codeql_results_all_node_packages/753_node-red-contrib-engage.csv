@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;engage.js:245[38:40];Sink: msg;engage.js:313[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;engage.js:245[38:40];Sink: msg;engage.js:420[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;engage.js:245[38:40];Sink: [undefined,msg];engage.js:422[43:57]::FLOW_DESCR_END","/engage.js","245","38","245","40"

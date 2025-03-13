@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;highsierra.js:41[39:43];Sink: 'xpcEve ... ned, 2);highsierra.js:45[9:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;highsierra.js:41[39:43];Sink: 'kCBMsg ... CBMsgId;highsierra.js:47[13:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;highsierra.js:41[39:43];Sink: kCBMsgArgs;highsierra.js:47[36:45]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","41","39","41","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;highsierra.js:50[39:45];Sink: 'xpcErr ... message;highsierra.js:51[17:38]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","50","39","50","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;highsierra.js:130[41:44];Sink: error;highsierra.js:138[33:37]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","130","41","130","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;highsierra.js:288[41:44];Sink: mtu;highsierra.js:297[28:30]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","288","41","288","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;highsierra.js:301[41:44];Sink: offset;highsierra.js:317[53:58]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","301","41","301","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;highsierra.js:320[41:44];Sink: data;highsierra.js:345[56:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: args;highsierra.js:320[41:44];Sink: offset;highsierra.js:345[62:67]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","320","41","320","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;highsierra.js:385[41:44];Sink: rssi;highsierra.js:388[27:30]::FLOW_DESCR_END","/lib/bleno/mac/highsierra.js","385","41","385","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;yosemite.js:41[39:43];Sink: 'xpcEve ... ned, 2);yosemite.js:45[9:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;yosemite.js:41[39:43];Sink: 'kCBMsg ... CBMsgId;yosemite.js:47[13:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;yosemite.js:41[39:43];Sink: kCBMsgArgs;yosemite.js:47[36:45]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","41","39","41","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;yosemite.js:50[39:45];Sink: 'xpcErr ... message;yosemite.js:51[17:38]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","50","39","50","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;yosemite.js:145[41:44];Sink: error;yosemite.js:153[33:37]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","145","41","145","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;yosemite.js:303[41:44];Sink: mtu;yosemite.js:312[28:30]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","303","41","303","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;yosemite.js:316[41:44];Sink: offset;yosemite.js:332[53:58]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","316","41","316","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;yosemite.js:335[41:44];Sink: data;yosemite.js:360[56:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: args;yosemite.js:335[41:44];Sink: offset;yosemite.js:360[62:67]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","335","41","335","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;yosemite.js:400[41:44];Sink: rssi;yosemite.js:403[27:30]::FLOW_DESCR_END","/lib/bleno/mac/yosemite.js","400","41","400","44"

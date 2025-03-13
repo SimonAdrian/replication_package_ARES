@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;vars.js:67[40:44];Sink: error;vars.js:81[28:32]::FLOW_DESCR_END","/vars.js","67","40","67","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;vars.js:67[57:60];Sink: ""Result = ""+contents;vars.js:117[34:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;vars.js:67[57:60];Sink: ""Settin ... dress""];vars.js:129[40:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;vars.js:67[57:60];Sink: ""Settin ... Port""]);vars.js:134[40:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;vars.js:67[57:60];Sink: ""Settin ... "" + val;vars.js:140[40:70]::FLOW_DESCR_END","/vars.js","67","57","67","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vars.js:232[36:38];Sink: msg;vars.js:72[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vars.js:232[36:38];Sink: msg;vars.js:81[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vars.js:232[36:38];Sink: msg;vars.js:84[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vars.js:232[36:38];Sink: msg;vars.js:263[31:33]::FLOW_DESCR_END","/vars.js","232","36","232","38"

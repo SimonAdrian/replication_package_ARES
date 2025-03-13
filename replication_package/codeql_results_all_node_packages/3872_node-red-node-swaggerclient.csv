@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: msg;swaggerClient.js:18[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: 'url: ' + url;swaggerClient.js:22[25:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: msg;swaggerClient.js:35[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: msg;swaggerClient.js:48[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: msg;swaggerClient.js:54[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: msg;swaggerClient.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swaggerClient.js:11[36:38];Sink: msg;swaggerClient.js:64[33:35]::FLOW_DESCR_END","/swaggerClient/swaggerClient.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;swaggerClient.js:113[36:38];Sink: err;swaggerClient.js:115[38:40]::FLOW_DESCR_END","/swaggerClient/swaggerClient.js","113","36","113","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp;swaggerClient.js:113[41:44];Sink: resp.statusCode;swaggerClient.js:117[28:42]::FLOW_DESCR_END","/swaggerClient/swaggerClient.js","113","41","113","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;swaggerClient.js:113[47:50];Sink: data;swaggerClient.js:117[50:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;swaggerClient.js:113[47:50];Sink: data;swaggerClient.js:119[26:29]::FLOW_DESCR_END","/swaggerClient/swaggerClient.js","113","47","113","50"

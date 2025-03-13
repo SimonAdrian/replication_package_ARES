@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;felix-data.js:69[30:32];Sink: msg;felix-data.js:270[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;felix-data.js:69[30:32];Sink: msg;felix-data.js:276[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;felix-data.js:69[30:32];Sink: msg;felix-data.js:283[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;felix-data.js:69[30:32];Sink: msg;felix-data.js:286[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;felix-data.js:69[30:32];Sink: payload;felix-data.js:290[19:25]::FLOW_DESCR_END","/nodes/felix-data.js","69","30","69","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;felix-data.js:282[31:33];Sink: err;felix-data.js:283[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;felix-data.js:282[31:33];Sink: payload;felix-data.js:290[19:25]::FLOW_DESCR_END","/nodes/felix-data.js","282","31","282","33"

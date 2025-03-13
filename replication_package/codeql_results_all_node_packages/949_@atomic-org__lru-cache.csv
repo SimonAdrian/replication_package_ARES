@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lru-cache.js:11[24:26];Sink: msg.payload;lru-cache.js:17[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lru-cache.js:11[24:26];Sink: msg;lru-cache.js:24[14:16]::FLOW_DESCR_END","/lru-cache.js","11","24","11","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lru-cache.js:27[25:27];Sink: msg.payload.key;lru-cache.js:33[26:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lru-cache.js:27[25:27];Sink: msg.payload.value;lru-cache.js:33[43:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lru-cache.js:27[25:27];Sink: msg;lru-cache.js:34[14:16]::FLOW_DESCR_END","/lru-cache.js","27","25","27","27"

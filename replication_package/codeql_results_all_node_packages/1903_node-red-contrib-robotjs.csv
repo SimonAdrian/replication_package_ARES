@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keyboard.js:9[33:35];Sink: msg;keyboard.js:18[27:29]::FLOW_DESCR_END","/nodes/keyboard/keyboard.js","9","33","9","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mouse.js:18[33:35];Sink: msg;mouse.js:33[27:29]::FLOW_DESCR_END","/nodes/mouse/mouse.js","18","33","18","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;screen.js:14[33:35];Sink: node.path;actions.js:46[40:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;screen.js:14[33:35];Sink: node.path;actions.js:70[40:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;screen.js:14[33:35];Sink: msg;screen.js:26[27:29]::FLOW_DESCR_END","/nodes/screen/screen.js","14","33","14","35"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cool-loop-join.js:10[35:37];Sink: msg;cool-loop-join.js:13[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cool-loop-join.js:10[35:37];Sink: `next-${msg._msgid}`;cool-loop-join.js:23[31:50]::FLOW_DESCR_END","/nodes/cool-loop-join.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cool-loop-start.js:10[35:37];Sink: msg;cool-loop-start.js:53[27:29]::FLOW_DESCR_END","/nodes/cool-loop-start.js","10","35","10","37"

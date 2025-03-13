@@ -1,0 +1,80 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: inputs;ATEM.js:42[44:49];Sink: ""ID: ""  ... terface;ATEM.js:45[26:152]::FLOW_DESCR_END","/ATEM/ATEM.js","42","44","42","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: auxs;ATEM.js:50[53:56];Sink: ""Aux ID ... .source;ATEM.js:53[26:71]::FLOW_DESCR_END","/ATEM/ATEM.js","50","53","50","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: MEs;ATEM.js:58[41:43];Sink: ""ME: ""  ... w).name;ATEM.js:61[26:170]::FLOW_DESCR_END","/ATEM/ATEM.js","58","41","58","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: keyers;ATEM.js:66[44:49];Sink: ""ME: ""  ... r.onAir;ATEM.js:69[26:118]::FLOW_DESCR_END","/ATEM/ATEM.js","66","44","66","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: macros;ATEM.js:75[44:49];Sink: ""ID: ""  ... ription;ATEM.js:79[49:196]::FLOW_DESCR_END","/ATEM/ATEM.js","75","44","75","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: keyer;ATEM.js:101[50:54];Sink: ""Got Ke ... r.onAir;ATEM.js:112[22:126]::FLOW_DESCR_END","/ATEM/ATEM.js","101","50","101","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: macro;ATEM.js:118[50:54];Sink: ""Got Ma ... o.state;ATEM.js:132[44:115]::FLOW_DESCR_END","/ATEM/ATEM.js","118","50","118","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;ATEM.js:350[55:59];Sink: ""Got In ... ut.name;ATEM.js:363[40:92]::FLOW_DESCR_END","/ATEM/ATEM.js","350","55","350","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ME;ATEM.js:369[52:53];Sink: ""Got Pr ... ut.name;ATEM.js:379[40:183]::FLOW_DESCR_END","/ATEM/ATEM.js","369","52","369","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ME;ATEM.js:401[52:53];Sink: ""Got Pr ... ut.name;ATEM.js:411[40:182]::FLOW_DESCR_END","/ATEM/ATEM.js","401","52","401","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;ATEM.js:435[63:67];Sink: ""Got In ... ut.name;ATEM.js:448[40:92]::FLOW_DESCR_END","/ATEM/ATEM.js","435","63","435","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ATEM.js:454[43:47];Sink: ""An Err ... + error;ATEM.js:460[24:51]::FLOW_DESCR_END","/ATEM/ATEM.js","454","43","454","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;ATEMNetwork.js:389[56:60];Sink: state;ATEMNetwork.js:191[57:61]::FLOW_DESCR_END","/ATEMNetwork/ATEMNetwork.js","389","56","389","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ATEMNetwork.js:392[40:44];Sink: ""ERROR"" + error;ATEMNetwork.js:393[22:36]::FLOW_DESCR_END","/ATEMNetwork/ATEMNetwork.js","392","40","392","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;example.js:4[43:47];Sink: state;example.js:5[23:27]::FLOW_DESCR_END","/example.js","4","43","4","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: name;example.js:8[39:42];Sink: name;example.js:9[22:25]::FLOW_DESCR_END","/example.js","8","39","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;example.js:12[41:42];Sink: id;example.js:13[14:15]::FLOW_DESCR_END","/example.js","12","41","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config;example.js:12[45:50];Sink: config. ... terface;example.js:13[24:44]::FLOW_DESCR_END","/example.js","12","45","12","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;example.js:12[53:56];Sink: info;example.js:13[18:21]::FLOW_DESCR_END","/example.js","12","53","12","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: source;example.js:16[32:37];Sink: source;example.js:17[40:45]::FLOW_DESCR_END","/example.js","16","32","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:755[27:27];Sink: ME;index.js:759[30:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:755[27:27];Sink: keyer;index.js:759[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:755[27:27];Sink: enabled;index.js:759[41:47]::FLOW_DESCR_END","/index.js","755","27","755","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:763[27:27];Sink: keyer;index.js:769[32:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:763[27:27];Sink: onAir;index.js:769[39:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:763[27:27];Sink: inTransition;index.js:769[46:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:763[27:27];Sink: isAutoTransitioning;index.js:769[60:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:763[27:27];Sink: framesRemaining;index.js:769[81:95]::FLOW_DESCR_END","/index.js","763","27","763","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:773[27:27];Sink: macroIndex;index.js:778[22:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:773[27:27];Sink: isUsed;index.js:778[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:773[27:27];Sink: name;index.js:778[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:773[27:27];Sink: description;index.js:778[48:58]::FLOW_DESCR_END","/index.js","773","27","773","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:782[27:27];Sink: ME;index.js:787[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:782[27:27];Sink: inTransition;index.js:787[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:782[27:27];Sink: framesRemaining;index.js:787[40:54]::FLOW_DESCR_END","/index.js","782","27","782","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:890[27:27];Sink: ME;index.js:899[27:28]::FLOW_DESCR_END","/index.js","890","27","890","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:904[27:27];Sink: source;example.js:17[40:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;index.js:904[27:27];Sink: ME;index.js:913[27:28]::FLOW_DESCR_END","/index.js","904","27","904","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;index.js:917[27:27];Sink: aux;index.js:927[32:34]::FLOW_DESCR_END","/index.js","917","27","917","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:930[27:30];Sink: name;example.js:9[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;index.js:930[27:30];Sink: productName;index.js:932[34:44]::FLOW_DESCR_END","/index.js","930","27","930","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:953[33:37];Sink: ""ERROR"" + error;ATEMNetwork.js:393[22:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:953[33:37];Sink: error;index.js:954[25:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:953[33:37];Sink: e;playground.js:28[40:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:953[33:37];Sink: e;playground.js:43[42:42]::FLOW_DESCR_END","/index.js","953","33","953","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: state;ATEMNetwork.js:191[57:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: ""ERROR"" + error;ATEMNetwork.js:393[22:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: state;example.js:5[23:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: name;example.js:9[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: id;example.js:13[14:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: source;example.js:17[40:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: cmd.name;index.js:483[15:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: cmd.data;index.js:483[25:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: ME;index.js:759[30:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: keyer;index.js:759[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: enabled;index.js:759[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: keyer;index.js:769[32:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: onAir;index.js:769[39:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: inTransition;index.js:769[46:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: isAutoTransitioning;index.js:769[60:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: framesRemaining;index.js:769[81:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: macroIndex;index.js:778[22:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: isUsed;index.js:778[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: name;index.js:778[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: description;index.js:778[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: ME;index.js:787[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: inTransition;index.js:787[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: framesRemaining;index.js:787[40:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: ME;index.js:899[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: ME;index.js:913[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: aux;index.js:927[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: productName;index.js:932[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: 'state  ... + state;playground.js:9[14:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: e;playground.js:28[40:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: data;playground.js:37[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:983[26:28];Sink: e;playground.js:43[42:42]::FLOW_DESCR_END","/index.js","983","26","983","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;playground.js:8[40:44];Sink: 'state  ... + state;playground.js:9[14:38]::FLOW_DESCR_END","/playground.js","8","40","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;playground.js:28[24:24];Sink: e;playground.js:28[40:40]::FLOW_DESCR_END","/playground.js","28","24","28","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;playground.js:30[23:25];Sink: data;playground.js:37[27:30]::FLOW_DESCR_END","/playground.js","30","23","30","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;playground.js:43[24:24];Sink: e;playground.js:43[42:42]::FLOW_DESCR_END","/playground.js","43","24","43","24"

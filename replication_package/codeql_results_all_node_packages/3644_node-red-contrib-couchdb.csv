@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;couchdb.js:45[31:33];Sink: msg.payload;couchdb.js:48[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;couchdb.js:45[31:33];Sink: msg;couchdb.js:51[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;couchdb.js:45[31:33];Sink: msg;couchdb.js:62[27:29]::FLOW_DESCR_END","/couchdb.js","45","31","45","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;couchdb.js:48[43:46];Sink: msg.payload;couchdb.js:48[16:26]::FLOW_DESCR_END","/couchdb.js","48","43","48","46"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jde-date-time.js:11[32:34];Sink: msg;jde-date-time.js:28[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jde-date-time.js:11[32:34];Sink: msg;jde-date-time.js:62[17:19]::FLOW_DESCR_END","/jde-date-time/jde-date-time.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lodash.js:11[32:34];Sink: msg;lodash.js:29[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lodash.js:11[32:34];Sink: msg;lodash.js:63[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lodash.js:11[32:34];Sink: msg;lodash.js:65[25:27]::FLOW_DESCR_END","/lodash/lodash.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;type-detect.js:10[32:34];Sink: msg;type-detect.js:29[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;type-detect.js:10[32:34];Sink: msg;type-detect.js:31[25:27]::FLOW_DESCR_END","/type-detect/type-detect.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uuid.js:12[32:34];Sink: msg;uuid.js:85[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uuid.js:12[32:34];Sink: msg;uuid.js:124[17:19]::FLOW_DESCR_END","/uuid/uuid.js","12","32","12","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;various.js:8[23:25];Sink: msg;various.js:93[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;various.js:8[23:25];Sink: msg;various.js:142[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;various.js:8[23:25];Sink: msg;various.js:145[47:49]::FLOW_DESCR_END","/various/various.js","8","23","8","25"

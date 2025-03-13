@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;daikin-controller.js:26[41:47];Sink: e;daikin-controller.js:55[28:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;daikin-controller.js:26[41:47];Sink: message.payload;daikin-controller.js:67[50:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;daikin-controller.js:26[41:47];Sink: ""Error  ... + error;daikin-controller.js:95[33:109]::FLOW_DESCR_END","/dist/daikin-controller.js","26","41","26","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;daikin-device.js:27[66:76];Sink: ""Could  ... + error;daikin-device.js:27[33:91]::FLOW_DESCR_END","/dist/daikin-device.js","27","66","27","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;daikin-device.js:30[52:62];Sink: ""Daikin ... nected"";daikin-device.js:30[33:77]::FLOW_DESCR_END","/dist/daikin-device.js","30","52","30","62"

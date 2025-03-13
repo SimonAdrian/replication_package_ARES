@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fabric.js:409[41:43];Sink: `submit ... nArgs}`;fabric.js:155[18:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:409[41:43];Sink: `evalua ... nArgs}`;fabric.js:167[18:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:409[41:43];Sink: 'checki ... , null);fabric.js:414[26:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:409[41:43];Sink: msg;fabric.js:426[55:57]::FLOW_DESCR_END","/nodes/fabric.js","409","41","409","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: `submit ... nArgs}`;fabric.js:155[18:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: `evalua ... nArgs}`;fabric.js:167[18:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:211[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:221[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:226[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: 'Create ... eerName;fabric.js:257[26:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:356[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: 'Event  ... odeName;fabric.js:363[18:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: 'CONFIG ... ionType;fabric.js:454[26:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:461[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:467[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:478[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:485[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric.js:447[41:43];Sink: msg;fabric.js:490[55:57]::FLOW_DESCR_END","/nodes/fabric.js","447","41","447","43"

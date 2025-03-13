@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web3.js:19[27:29];Sink: msg;web3.js:68[18:20]::FLOW_DESCR_END","/nodes/web3.js","19","27","19","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web3.js:76[27:29];Sink: msg;web3.js:157[18:20]::FLOW_DESCR_END","/nodes/web3.js","76","27","76","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web3.js:165[27:29];Sink: msg;web3.js:219[18:20]::FLOW_DESCR_END","/nodes/web3.js","165","27","165","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web3.ts:40[30:32];Sink: msg;web3.ts:88[14:16]::FLOW_DESCR_END","/src/web3.ts","40","30","40","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web3.ts:96[30:32];Sink: msg;web3.ts:171[14:16]::FLOW_DESCR_END","/src/web3.ts","96","30","96","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web3.ts:179[30:32];Sink: msg;web3.ts:232[14:16]::FLOW_DESCR_END","/src/web3.ts","179","30","179","32"

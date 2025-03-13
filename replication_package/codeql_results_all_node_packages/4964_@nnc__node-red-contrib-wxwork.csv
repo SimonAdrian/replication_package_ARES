@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;node-red-cli.js:52[30:33];Sink: `node r ... {code}`;node-red-cli.js:53[17:51]::FLOW_DESCR_END","/scripts/node-red-cli.js","52","30","52","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wxwork-app-apiClient.js:12[29:31];Sink: msg;wxwork-app-apiClient.js:16[14:16]::FLOW_DESCR_END","/wxwork-app-apiClient.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wxwork-app-buildChatMsg.js:37[29:31];Sink: msg;wxwork-app-buildChatMsg.js:45[14:16]::FLOW_DESCR_END","/wxwork-app-buildChatMsg.js","37","29","37","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wxwork-app-parseChatMsg.js:23[29:31];Sink: msg;wxwork-app-parseChatMsg.js:27[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wxwork-app-parseChatMsg.js:23[29:31];Sink: msg;wxwork-app-parseChatMsg.js:29[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wxwork-app-parseChatMsg.js:23[29:31];Sink: requestContent;wxwork-app-parseChatMsg.js:43[38:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wxwork-app-parseChatMsg.js:23[29:31];Sink: msg;wxwork-app-parseChatMsg.js:49[14:16]::FLOW_DESCR_END","/wxwork-app-parseChatMsg.js","23","29","23","31"

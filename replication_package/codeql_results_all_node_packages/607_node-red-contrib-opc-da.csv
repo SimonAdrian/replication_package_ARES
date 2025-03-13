@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcSync ... andles);opc-da.js:442[23:90];Sink: item;opc-da.js:478[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcSync ... andles);opc-da.js:442[23:90];Sink: oldItems;opc-da.js:483[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcSync ... andles);opc-da.js:442[23:90];Sink: oldItems;opc-da.js:484[55:62]::FLOW_DESCR_END","/red/opc-da.js","442","23","442","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: elm;opc-da.js:596[28:30];Sink: `Read o ... rCode}`;opc-da.js:580[32:88]::FLOW_DESCR_END","/red/opc-da.js","596","28","596","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;opc-da.js:600[30:33];Sink: `Read o ... rCode}`;opc-da.js:580[32:88]::FLOW_DESCR_END","/red/opc-da.js","600","30","600","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;opc-da.js:606[25:28];Sink: `Read o ... rCode}`;opc-da.js:580[32:88]::FLOW_DESCR_END","/red/opc-da.js","606","25","606","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;opc-da.js:610[31:34];Sink: `Read o ... rCode}`;opc-da.js:580[32:88]::FLOW_DESCR_END","/red/opc-da.js","610","31","610","34"

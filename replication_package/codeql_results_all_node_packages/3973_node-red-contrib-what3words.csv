@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-convert-to-3word-address.js:12[35:37];Sink: msg.payload;node-convert-to-3word-address.js:13[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-convert-to-3word-address.js:12[35:37];Sink: msg;node-convert-to-3word-address.js:38[31:33]::FLOW_DESCR_END","/node-convert-to-3word-address.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-convert-to-coordinates.js:12[35:37];Sink: msg.payload;node-convert-to-coordinates.js:13[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-convert-to-coordinates.js:12[35:37];Sink: msg;node-convert-to-coordinates.js:32[31:33]::FLOW_DESCR_END","/node-convert-to-coordinates.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node-convert-to-coordinates.js:25[47:50];Sink: msg.payload;node-convert-to-coordinates.js:13[48:58]::FLOW_DESCR_END","/node-convert-to-coordinates.js","25","47","25","50"

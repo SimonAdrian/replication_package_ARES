@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:40[33:35];Sink: body;linepay.js:54[63:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:40[33:35];Sink: msg;linepay.js:56[22:24]::FLOW_DESCR_END","/src/linepay.js","40","33","40","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:76[33:35];Sink: node.co ... i + api;linepay.js:92[44:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:76[33:35];Sink: body;linepay.js:92[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:76[33:35];Sink: msg;linepay.js:94[26:28]::FLOW_DESCR_END","/src/linepay.js","76","33","76","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:117[33:35];Sink: node.co ... i + api;linepay.js:133[44:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:117[33:35];Sink: body;linepay.js:133[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:117[33:35];Sink: msg;linepay.js:135[26:28]::FLOW_DESCR_END","/src/linepay.js","117","33","117","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:158[33:35];Sink: node.co ... i + api;linepay.js:173[44:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:158[33:35];Sink: msg;linepay.js:175[26:28]::FLOW_DESCR_END","/src/linepay.js","158","33","158","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:198[33:35];Sink: node.co ... i + api;linepay.js:214[44:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:198[33:35];Sink: body;linepay.js:214[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:198[33:35];Sink: msg;linepay.js:216[26:28]::FLOW_DESCR_END","/src/linepay.js","198","33","198","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:240[33:35];Sink: msg;linepay.js:279[22:24]::FLOW_DESCR_END","/src/linepay.js","240","33","240","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:300[33:35];Sink: node.co ... i + api;linepay.js:310[43:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:300[33:35];Sink: msg;linepay.js:312[26:28]::FLOW_DESCR_END","/src/linepay.js","300","33","300","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:336[33:35];Sink: node.co ... i + api;linepay.js:359[43:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:336[33:35];Sink: msg;linepay.js:361[26:28]::FLOW_DESCR_END","/src/linepay.js","336","33","336","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:385[33:35];Sink: node.co ... i + api;linepay.js:401[44:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:385[33:35];Sink: body;linepay.js:401[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:385[33:35];Sink: msg;linepay.js:403[26:28]::FLOW_DESCR_END","/src/linepay.js","385","33","385","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linepay.js:427[33:35];Sink: node.co ... i + api;linepay.js:442[44:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linepay.js:427[33:35];Sink: msg;linepay.js:444[26:28]::FLOW_DESCR_END","/src/linepay.js","427","33","427","35"

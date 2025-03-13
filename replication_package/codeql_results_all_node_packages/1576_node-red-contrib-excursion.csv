@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;excursion.js:75[35:37];Sink: node.lastMsg;excursion.js:44[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;excursion.js:75[35:37];Sink: ""Value  ... current;excursion.js:80[26:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;excursion.js:75[35:37];Sink: ""Value  ... current;excursion.js:83[26:64]::FLOW_DESCR_END","/excursion/excursion.js","75","35","75","37"

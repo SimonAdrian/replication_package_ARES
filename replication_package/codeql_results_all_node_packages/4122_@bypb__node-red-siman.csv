@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... untName;bypb-siman.js:24[29:56];Sink: JSON.st ...       );bypb-siman.js:43[29:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... untName;bypb-siman.js:24[29:56];Sink: JSON.st ...       );bypb-siman.js:52[29:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... untName;bypb-siman.js:24[29:56];Sink: JSON.st ...       );bypb-siman.js:168[25:13]::FLOW_DESCR_END","/bypb-siman/bypb-siman.js","24","29","24","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;bypb-siman.js:25[33:64];Sink: JSON.st ...       );bypb-siman.js:43[29:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... assword;bypb-siman.js:25[33:64];Sink: JSON.st ...       );bypb-siman.js:52[29:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... assword;bypb-siman.js:25[33:64];Sink: JSON.st ...       );bypb-siman.js:168[25:13]::FLOW_DESCR_END","/bypb-siman/bypb-siman.js","25","33","25","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bypb-siman.js:154[35:37];Sink: JSON.st ...       );bypb-siman.js:168[25:13]::FLOW_DESCR_END","/bypb-siman/bypb-siman.js","154","35","154","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bypb-siman-input.js:24[35:37];Sink: msg;bypb-siman-input.js:26[23:25]::FLOW_DESCR_END","/bypb-siman-input/bypb-siman-input.js","24","35","24","37"

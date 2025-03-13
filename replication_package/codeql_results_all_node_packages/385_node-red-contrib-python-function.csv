@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;python-function.js:11[44:47];Sink: data.toString();python-function.js:12[16:30]::FLOW_DESCR_END","/lib/python-function.js","11","44","11","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;python-function.js:14[44:47];Sink: data.toString();python-function.js:15[18:32]::FLOW_DESCR_END","/lib/python-function.js","14","44","14","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: exitCode;python-function.js:17[38:45];Sink: `Python ... tCode}`;python-function.js:19[20:73]::FLOW_DESCR_END","/lib/python-function.js","17","38","17","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;python-function.js:29[40:47];Sink: msgs;python-function.js:77[21:24]::FLOW_DESCR_END","/lib/python-function.js","29","40","29","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;python-function.js:161[31:33];Sink: JSON.parse(jsonMsg);python-function.js:183[23:41]::FLOW_DESCR_END","/lib/python-function.js","161","31","161","33"

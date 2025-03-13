@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;balance.js:5[20:22];Sink: msg;balance.js:9[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;balance.js:5[20:22];Sink: msg;balance.js:14[25:27]::FLOW_DESCR_END","/nodes/balance.js","5","20","5","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cams.js:5[20:22];Sink: msg;cams.js:12[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cams.js:5[20:22];Sink: msg;cams.js:17[25:27]::FLOW_DESCR_END","/nodes/cams.js","5","20","5","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials;config.js:7[22:32];Sink: credentials;config.js:7[71:81]::FLOW_DESCR_END","/nodes/config.js","7","22","7","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;domofon.js:5[20:22];Sink: msg;domofon.js:20[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;domofon.js:5[20:22];Sink: msg;domofon.js:25[25:27]::FLOW_DESCR_END","/nodes/domofon.js","5","20","5","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;history.js:5[20:22];Sink: msg;history.js:12[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;history.js:5[20:22];Sink: msg;history.js:17[25:27]::FLOW_DESCR_END","/nodes/history.js","5","20","5","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: { res, error, ok };invite.js:21[32:49];Sink: res?.he ... .method;invite.js:22[77:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: { res, error, ok };invite.js:21[32:49];Sink: ok;invite.js:22[105:106]::FLOW_DESCR_END","/nodes/invite.js","21","32","21","49"

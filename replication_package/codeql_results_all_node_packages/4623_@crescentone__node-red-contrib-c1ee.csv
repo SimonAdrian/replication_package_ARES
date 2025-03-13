@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c1ee.js:14[27:29];Sink: [msg, null];c1ee.js:23[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c1ee.js:14[27:29];Sink: [msg, null];c1ee.js:39[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c1ee.js:14[27:29];Sink: [msg, null];c1ee.js:45[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c1ee.js:14[27:29];Sink: [null, msg];c1ee.js:49[23:33]::FLOW_DESCR_END","/c1ee.js","14","27","14","29"

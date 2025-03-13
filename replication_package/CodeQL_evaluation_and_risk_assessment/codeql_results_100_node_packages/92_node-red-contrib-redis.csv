@@ -1,0 +1,9 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:157[32:34];Sink: msg;redis.js:160[61:63]::FLOW_DESCR_END","/redis.js","157","32","157","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:204[32:34];Sink: msg;redis.js:207[61:63]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;redis.js:204[32:34];Sink: msg;redis.js:258[16:18]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;redis.js:204[32:34];Sink: topic;redis.js:268[35:39]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;redis.js:204[32:34];Sink: payload;redis.js:268[42:48]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;redis.js:204[32:34];Sink: payload;redis.js:270[35:41]::FLOW_DESCR_END","/redis.js","204","32","204","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:318[32:34];Sink: msg;redis.js:320[61:63]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;redis.js:318[32:34];Sink: msg;redis.js:337[16:18]::FLOW_DESCR_END","/redis.js","318","32","318","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;redis.js:393[36:36];Sink: e;redis.js:394[22:22]::FLOW_DESCR_END","/redis.js","393","36","393","36"

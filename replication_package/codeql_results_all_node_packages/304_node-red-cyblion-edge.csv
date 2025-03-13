@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;simple.js:54[31:34];Sink: data;simple.js:55[40:43]::FLOW_DESCR_END","/lib/cyblion-mqtt/examples/simple.js","54","31","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: client_name;simple.js:72[26:36];Sink: client_name;simple.js:73[17:27]::FLOW_DESCR_END","/lib/cyblion-mqtt/examples/simple.js","72","26","72","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;index.js:71[47:51];Sink: topic;index.js:78[46:50]::FLOW_DESCR_END","/lib/cyblion-mqtt/index.js","71","47","71","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:71[54:60];Sink: payload;index.js:78[53:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:71[54:60];Sink: shadowobj;index.js:86[57:65]::FLOW_DESCR_END","/lib/cyblion-mqtt/index.js","71","54","71","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;index.js:123[48:52];Sink: topic;index.js:130[47:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: topic;index.js:123[48:52];Sink: key;index.js:139[57:59]::FLOW_DESCR_END","/lib/cyblion-mqtt/index.js","123","48","123","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;index.js:123[55:61];Sink: payload;index.js:130[54:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;index.js:123[55:61];Sink: value;index.js:139[62:66]::FLOW_DESCR_END","/lib/cyblion-mqtt/index.js","123","55","123","61"

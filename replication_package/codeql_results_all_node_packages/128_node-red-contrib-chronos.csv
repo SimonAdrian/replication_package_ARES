@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;change.js:170[40:42];Sink: msg;change.js:423[138:140]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;change.js:170[40:42];Sink: msg;change.js:626[134:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;change.js:170[40:42];Sink: msg;change.js:652[35:37]::FLOW_DESCR_END","/nodes/change.js","170","40","170","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delay.js:170[40:42];Sink: ""Set up ...  + unit;delay.js:438[24:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delay.js:170[40:42];Sink: ""Set up ...  + unit;delay.js:452[24:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delay.js:170[40:42];Sink: ""Set up ... e + ""'"";delay.js:491[24:95]::FLOW_DESCR_END","/nodes/delay.js","170","40","170","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter.js:134[40:42];Sink: msg;filter.js:203[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:134[40:42];Sink: msg;filter.js:226[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:134[40:42];Sink: msg;filter.js:237[38:40]::FLOW_DESCR_END","/nodes/filter.js","134","40","134","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;repeat.js:163[40:42];Sink: node.message;repeat.js:185[42:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;repeat.js:163[40:42];Sink: ""Input  ... s + ""'"";repeat.js:296[32:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;repeat.js:163[40:42];Sink: ""Set up ... print();repeat.js:549[24:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;repeat.js:163[40:42];Sink: ""Set up ... print();repeat.js:573[24:97]::FLOW_DESCR_END","/nodes/repeat.js","163","40","163","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scheduler.js:195[40:42];Sink: msg;scheduler.js:307[90:92]::FLOW_DESCR_END","/nodes/scheduler.js","195","40","195","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.co ... y.value;scheduler.js:717[54:86];Sink: value;scheduler.js:721[74:78]::FLOW_DESCR_END","/nodes/scheduler.js","717","54","717","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.co ... roperty;scheduler.js:717[54:80];Sink: value;scheduler.js:721[74:78]::FLOW_DESCR_END","/nodes/scheduler.js","717","54","717","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.config.output;scheduler.js:717[54:71];Sink: value;scheduler.js:721[74:78]::FLOW_DESCR_END","/nodes/scheduler.js","717","54","717","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.co ... t.value;scheduler.js:748[52:75];Sink: entry.msg;scheduler.js:844[27:35]::FLOW_DESCR_END","/nodes/scheduler.js","748","52","748","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.config.output;scheduler.js:748[52:69];Sink: entry.msg;scheduler.js:844[27:35]::FLOW_DESCR_END","/nodes/scheduler.js","748","52","748","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;state.js:160[44:46];Sink: msg;state.js:216[38:40]::FLOW_DESCR_END","/nodes/state.js","160","44","160","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cu ... data.id;state.js:272[68:92];Sink: ""[State ... econds"";state.js:272[56:157]::FLOW_DESCR_END","/nodes/state.js","272","68","272","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cu ... data.id;state.js:274[68:92];Sink: ""[State ... e.timer;state.js:274[56:160]::FLOW_DESCR_END","/nodes/state.js","274","68","274","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state.data.id;state.js:793[44:56];Sink: ""[State ... s (Z)"");state.js:793[32:147]::FLOW_DESCR_END","/nodes/state.js","793","44","793","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state.data.id;state.js:796[48:60];Sink: ""[State ... xpired"";state.js:796[36:120]::FLOW_DESCR_END","/nodes/state.js","796","48","796","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state.data.id;state.js:816[44:56];Sink: ""[State ... e.timer;state.js:816[32:124]::FLOW_DESCR_END","/nodes/state.js","816","44","816","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cu ... e.value;state.js:847[29:62];Sink: value;state.js:853[66:70]::FLOW_DESCR_END","/nodes/state.js","847","29","847","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cu ... a.state;state.js:847[29:56];Sink: value;state.js:853[66:70]::FLOW_DESCR_END","/nodes/state.js","847","29","847","56"

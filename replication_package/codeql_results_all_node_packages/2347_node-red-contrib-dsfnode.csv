@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dsfnode.js:82[35:37];Sink: msg;dsfnode.js:71[47:49]::FLOW_DESCR_END","/dsfnode.js","82","35","82","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dsfnode.js:162[35:37];Sink: msg;dsfnode.js:148[39:41]::FLOW_DESCR_END","/dsfnode.js","162","35","162","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;dsfnode.js:182[51:63];Sink: `${node ... pDate}`;dsfnode.js:461[31:74]::FLOW_DESCR_END","/dsfnode.js","182","51","182","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dsfnode.js:883[35:37];Sink: msg;dsfnode.js:932[27:29]::FLOW_DESCR_END","/dsfnode.js","883","35","883","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;dsfnode.js:946[79:91];Sink: `${node ... pDate}`;dsfnode.js:1005[40:68]::FLOW_DESCR_END","/dsfnode.js","946","79","946","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dsfnode.js:1034[35:37];Sink: msg;dsfnode.js:970[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsfnode.js:1034[35:37];Sink: msg;dsfnode.js:979[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsfnode.js:1034[35:37];Sink: strCMD;dsfnode.js:994[49:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsfnode.js:1034[35:37];Sink: msg;dsfnode.js:1000[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsfnode.js:1034[35:37];Sink: `${node ... trCMD}`;dsfnode.js:1017[39:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsfnode.js:1034[35:37];Sink: msg;dsfnode.js:1023[39:41]::FLOW_DESCR_END","/dsfnode.js","1034","35","1034","37"

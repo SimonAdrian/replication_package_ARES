@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openthermdec.js:5[35:37];Sink: ""Unknow ... raw+""'"";openthermdec.js:212[27:68]::FLOW_DESCR_END","/openthermdec.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;otgwdec.js:16[35:37];Sink: ""Illega ... raw+""'"";otgwdec.js:25[25:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;otgwdec.js:16[35:37];Sink: ""Illega ... raw+""'"";otgwdec.js:39[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;otgwdec.js:16[35:37];Sink: ""Illega ... raw+""'"";otgwdec.js:47[25:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;otgwdec.js:16[35:37];Sink: ""Illega ... raw+""'"";otgwdec.js:54[25:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;otgwdec.js:16[35:37];Sink: msg;otgwdec.js:61[18:20]::FLOW_DESCR_END","/otgwdec.js","16","35","16","37"

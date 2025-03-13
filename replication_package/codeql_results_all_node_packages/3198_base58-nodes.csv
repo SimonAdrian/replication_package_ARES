@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decoder.js:8[27:29];Sink: msg;decoder.js:14[23:25]::FLOW_DESCR_END","/nodes/decoder/decoder.js","8","27","8","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encoder.js:8[27:29];Sink: msg;encoder.js:14[23:25]::FLOW_DESCR_END","/nodes/encoder/encoder.js","8","27","8","29"

@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;finish.js:17[35:37];Sink: msg;finish.js:23[124:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;finish.js:17[35:37];Sink: msg;finish.js:32[27:29]::FLOW_DESCR_END","/finish.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;init.js:17[35:37];Sink: msg;init.js:19[140:142]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;init.js:17[35:37];Sink: msg.payload.tracker;init.js:25[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;init.js:17[35:37];Sink: msg.payload.domain;init.js:26[36:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;init.js:17[35:37];Sink: msg.res;init.js:27[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;init.js:17[35:37];Sink: msg.req;init.js:28[33:39]::FLOW_DESCR_END","/init.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendbuttons.js:62[36:38];Sink: msg;sendbuttons.js:65[124:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendbuttons.js:62[36:38];Sink: msg;sendbuttons.js:136[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendbuttons.js:62[36:38];Sink: msg;sendbuttons.js:139[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendbuttons.js:62[36:38];Sink: msg;sendbuttons.js:141[30:32]::FLOW_DESCR_END","/sendbuttons.js","62","36","62","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendextra.js:65[30:32];Sink: msg;sendextra.js:75[125:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendextra.js:65[30:32];Sink: msg;sendextra.js:112[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendextra.js:65[30:32];Sink: msg;sendextra.js:114[10:12]::FLOW_DESCR_END","/sendextra.js","65","30","65","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendtext.js:60[36:38];Sink: msg;sendtext.js:68[137:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendtext.js:60[36:38];Sink: msg;sendtext.js:95[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendtext.js:60[36:38];Sink: msg;sendtext.js:97[22:24]::FLOW_DESCR_END","/sendtext.js","60","36","60","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setslots.js:42[36:38];Sink: msg;setslots.js:54[137:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setslots.js:42[36:38];Sink: msg;setslots.js:85[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setslots.js:42[36:38];Sink: msg;setslots.js:88[117:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setslots.js:42[36:38];Sink: msg;setslots.js:90[26:28]::FLOW_DESCR_END","/setslots.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simrasa.js:27[36:38];Sink: msg;simrasa.js:94[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simrasa.js:27[36:38];Sink: msg;simrasa.js:101[26:28]::FLOW_DESCR_END","/simrasa.js","27","36","27","38"

@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:172[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:183[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:243[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:254[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:315[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:326[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;french-holidays.js:59[32:34];Sink: msg;french-holidays.js:355[15:17]::FLOW_DESCR_END","/french-holidays/french-holidays.js","59","32","59","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;french-holidays.js:176[22:26];Sink: error;french-holidays.js:183[28:32]::FLOW_DESCR_END","/french-holidays/french-holidays.js","176","22","176","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;french-holidays.js:193[24:28];Sink: ""# prom ...  ""+body;french-holidays.js:200[25:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;french-holidays.js:193[24:28];Sink: ""- scho ... EndDate;french-holidays.js:232[27:105]::FLOW_DESCR_END","/french-holidays/french-holidays.js","193","24","193","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;french-holidays.js:247[20:24];Sink: error;french-holidays.js:254[26:30]::FLOW_DESCR_END","/french-holidays/french-holidays.js","247","20","247","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;french-holidays.js:264[22:26];Sink: ""# prom ...  ""+body;french-holidays.js:271[23:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;french-holidays.js:264[22:26];Sink: ""- next ... dayName;french-holidays.js:297[25:63]::FLOW_DESCR_END","/french-holidays/french-holidays.js","264","22","264","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;french-holidays.js:319[18:22];Sink: error;french-holidays.js:326[24:28]::FLOW_DESCR_END","/french-holidays/french-holidays.js","319","18","319","22"

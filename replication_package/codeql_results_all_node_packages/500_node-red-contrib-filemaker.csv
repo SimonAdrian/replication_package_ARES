@@ -1,0 +1,111 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;containerData.js:14[28:34];Sink: message;containerData.js:50[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;containerData.js:14[28:34];Sink: message;containerData.js:61[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;containerData.js:14[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;containerData.js:14[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;containerData.js:14[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;containerData.js:14[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/containerData.js","14","28","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;create.js:29[28:34];Sink: message;create.js:44[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;create.js:29[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;create.js:29[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;create.js:29[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;create.js:29[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/create.js","29","28","29","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;databases.js:24[28:34];Sink: message;databases.js:41[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;databases.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;databases.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;databases.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;databases.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/databases.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;delete.js:24[28:34];Sink: message;delete.js:41[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;delete.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;delete.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;delete.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;delete.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/delete.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;duplicate.js:24[28:34];Sink: message;duplicate.js:41[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;duplicate.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;duplicate.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;duplicate.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;duplicate.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/duplicate.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;edit.js:29[28:34];Sink: message;edit.js:46[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;edit.js:29[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;edit.js:29[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;edit.js:29[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;edit.js:29[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/edit.js","29","28","29","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;fieldData.js:13[22:28];Sink: message;fieldData.js:19[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;fieldData.js:13[22:28];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;fieldData.js:13[22:28];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;fieldData.js:13[22:28];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;fieldData.js:13[22:28];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/fieldData.js","13","22","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;find.js:24[28:34];Sink: message;find.js:50[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;find.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;find.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;find.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;find.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/find.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get.js:24[28:34];Sink: message;get.js:41[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/get.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;globals.js:24[28:34];Sink: message;globals.js:39[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;globals.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;globals.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;globals.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;globals.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/globals.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;layout.js:23[28:34];Sink: message;layout.js:40[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layout.js:23[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layout.js:23[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layout.js:23[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layout.js:23[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/layout.js","23","28","23","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;layouts.js:24[28:34];Sink: message;layouts.js:35[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layouts.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layouts.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layouts.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;layouts.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/layouts.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;list.js:24[28:34];Sink: message;list.js:39[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;list.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;list.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;list.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;list.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/list.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;login.js:24[28:34];Sink: message;login.js:33[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;login.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;login.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;login.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;login.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/login.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;logout.js:24[28:34];Sink: message;logout.js:39[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;logout.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;logout.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;logout.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;logout.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/logout.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;productInfo.js:24[28:34];Sink: message;productInfo.js:33[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;productInfo.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;productInfo.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;productInfo.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;productInfo.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/productInfo.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;recordId.js:14[22:28];Sink: message;recordId.js:23[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;recordId.js:14[22:28];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;recordId.js:14[22:28];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;recordId.js:14[22:28];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;recordId.js:14[22:28];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/recordId.js","14","22","14","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;script.js:24[28:34];Sink: message;script.js:37[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;script.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;script.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;script.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;script.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/script.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;scripts.js:24[28:34];Sink: message;scripts.js:31[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;scripts.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;scripts.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;scripts.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;scripts.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/scripts.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;status.js:24[28:34];Sink: message;status.js:31[61:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;status.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;status.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;status.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;status.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/status.js","24","28","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;transform.js:18[22:28];Sink: message;transform.js:28[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transform.js:18[22:28];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transform.js:18[22:28];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transform.js:18[22:28];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transform.js:18[22:28];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/transform.js","18","22","18","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;upload.js:24[28:34];Sink: message;upload.js:46[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;upload.js:24[28:34];Sink: message;utilities.service.js:17[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;upload.js:24[28:34];Sink: Object. ... ayload);utilities.service.js:17[32:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;upload.js:24[28:34];Sink: message;utilities.service.js:18[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;upload.js:24[28:34];Sink: message;utilities.service.js:186[21:27]::FLOW_DESCR_END","/src/nodes/upload.js","24","28","24","34"

@@ -1,0 +1,73 @@
+
+<script type="text/html" data-template-name="natrail">
+    <div class="form-row">
+        <label for="node-input-property"><i class="fa fa-ellipsis-h"></i> <span data-i18n="node-red:common.label.property"></span></label>
+        <input type="text" id="node-input-property" style="width:70%;"/>
+    </div>
+    <div class="form-row">
+        <label for="node-input-scode"><i class="fa fa-train"></i> Station Code</label>
+        <input type="text" id="node-input-scode" data-i18n="[placeholder]common.label.scode">
+    </div>
+    <div class="form-row">
+        <label for="node-input-destscode"><i class="fa fa-train"></i>Destination Station Code</label>
+        <input type="text" id="node-input-destscode" data-i18n="[placeholder]common.label.destscode">
+    </div>
+    <div class="form-row">
+        <label for="node-input-api"><i class="fa fa-key"></i> API Key</label>
+        <input type="text" id="node-input-api">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="node-red:common.label.name"></span></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
+    </div>
+    <div class="form-tips">For a list of valid Station Codes see
+    <a href="https://www.nationalrail.co.uk/stations_destinations/48541.aspx">this link</a>.</div>
+</script>
+
+<script type="text/html" data-help-name="natrail">
+    <p>Gets a list of upcoming train departures for the specified UK rail station.</p>
+    <h3>Outputs</h3>
+    <dl class="message-properties">
+    <dt>payload <span class="property-type">array</span></dt>
+    <dd>contains an array of upcoming train departure objects.</dd>
+    <dt>topic <span class="property-type">string</span></dt>
+    <dd>set to the station code of the station requested.</dd>
+    </dl>
+    <h3>Inputs</h3>
+    <dl class="message-properties">
+        <dt>station <span class="property-type">string</span></dt>
+        <dd>a station code string that can be used if one is not specified in the configuration.</code>.</dd>
+        <dt>destination station <span class="property-type">string</span></dt>
+        <dd>a station code string to filter objects by destination code.</code>.</dd>
+    </dl>
+    <h3>Details</h3>
+    <p>To use this node you will require an API key from the <a target="_new" href="http://realtime.nationalrail.co.uk/OpenLDBWSRegistration/">
+    UK National Rail Developers web site</a>.
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('natrail',{
+        category: 'function',
+        color:"#E0E9F1",
+        defaults: {
+            name: {value:""},
+            scode: {value:"WIN"},
+            destscode: {value:""},
+            property: {value:"payload",required:true},
+            api: {value:"", type: "natRail-config", required:true}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "natrail.png",
+        label: function() {
+            return this.name||"National Rail";
+        },
+        labelStyle: function() {
+            return this.name?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            if (this.property === undefined) { $("#node-input-property").val("payload"); }
+            $("#node-input-property").typedInput({default:'msg',types:['msg']});
+        }
+    });
+</script>

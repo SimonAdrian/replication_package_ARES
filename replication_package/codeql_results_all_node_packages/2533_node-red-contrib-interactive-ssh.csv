@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;interactive-ssh.js:7[49:59];Sink: `Attemp ... .host}`;interactive-ssh.js:7[21:61]::FLOW_DESCR_END","/interactive-ssh/interactive-ssh.js","7","49","7","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;interactive-ssh.js:29[19:29];Sink: `Attemp ... .host}`;interactive-ssh.js:7[21:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;interactive-ssh.js:29[19:29];Sink: `Retryi ... ond(s)`;interactive-ssh.js:94[40:120]::FLOW_DESCR_END","/interactive-ssh/interactive-ssh.js","29","19","29","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;interactive-ssh.js:81[35:35];Sink: `Connec ... } ${e}`;interactive-ssh.js:82[25:59]::FLOW_DESCR_END","/interactive-ssh/interactive-ssh.js","81","35","81","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ssh_config.host;interactive-ssh.js:94[70:84];Sink: `Retryi ... ond(s)`;interactive-ssh.js:94[40:120]::FLOW_DESCR_END","/interactive-ssh/interactive-ssh.js","94","70","94","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;interactive-ssh.js:113[36:38];Sink: data;interactive-ssh.js:129[47:50]::FLOW_DESCR_END","/interactive-ssh/interactive-ssh.js","113","36","113","38"

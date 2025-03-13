@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;t-daks-espax-pinit.js:106[35:37];Sink: msg;t-daks-espax-pinit.js:454[14:16]::FLOW_DESCR_END","/src/t-daks-espax-pinit.js","106","35","106","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;t-daks-espax-server.js:983[39:41];Sink: err;t-daks-espax-server.js:985[16:18]::FLOW_DESCR_END","/src/t-daks-espax-server.js","983","39","983","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;t-daks-espax-server.js:1274[39:42];Sink: data;t-daks-espax-server.js:1280[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;t-daks-espax-server.js:1274[39:42];Sink: data.length;t-daks-espax-server.js:1280[28:38]::FLOW_DESCR_END","/src/t-daks-espax-server.js","1274","39","1274","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;t-daks-espax.js:55[43:45];Sink: msg;t-daks-espax.js:78[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;t-daks-espax.js:55[43:45];Sink: msg;t-daks-espax.js:180[60:62]::FLOW_DESCR_END","/src/t-daks-espax.js","55","43","55","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;t-daks-event-id_start.js:40[39:41];Sink: msg;t-daks-event-id_start.js:42[50:52]::FLOW_DESCR_END","/src/t-daks-event-id_start.js","40","39","40","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.location;t-daks-log.js:47[30:41];Sink: msg.loc ... payload;t-daks-log.js:47[30:82]::FLOW_DESCR_END","/src/t-daks-log.js","47","30","47","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;t-misc-string-to-array-filter.js:46[35:37];Sink: msg;t-misc-string-to-array-filter.js:87[14:16]::FLOW_DESCR_END","/src/t-misc-string-to-array-filter.js","46","35","46","37"

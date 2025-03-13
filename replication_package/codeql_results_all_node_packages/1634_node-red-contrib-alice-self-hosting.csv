@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.path;webhook.js:189[32:47];Sink: route.base;webhook.js:217[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.js:189[32:47];Sink: route.unlink;webhook.js:219[18:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.js:189[32:47];Sink: route.devices;webhook.js:220[17:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.js:189[32:47];Sink: route.query;webhook.js:221[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.js:189[32:47];Sink: route.action;webhook.js:222[18:29]::FLOW_DESCR_END","/build/lib/webhook.js","189","32","189","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;color.js:106[27:29];Sink: value;color.js:123[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:106[27:29];Sink: value;color.js:145[44:48]::FLOW_DESCR_END","/build/nodes/color.js","106","27","106","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;color.js:140[26:31];Sink: value;color.js:145[44:48]::FLOW_DESCR_END","/build/nodes/color.js","140","26","140","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;mode.js:124[26:31];Sink: value;mode.js:129[44:48]::FLOW_DESCR_END","/build/nodes/mode.js","124","26","124","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;onoff.js:102[26:31];Sink: value;onoff.js:107[44:48]::FLOW_DESCR_END","/build/nodes/onoff.js","102","26","102","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;range.js:113[26:31];Sink: value;range.js:126[44:48]::FLOW_DESCR_END","/build/nodes/range.js","113","26","113","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;toggle.js:100[26:31];Sink: value;toggle.js:105[44:48]::FLOW_DESCR_END","/build/nodes/toggle.js","100","26","100","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.path;webhook.ts:186[36:51];Sink: route.base;webhook.ts:217[13:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.ts:186[36:51];Sink: route.unlink;webhook.ts:219[14:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.ts:186[36:51];Sink: route.devices;webhook.ts:220[13:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.ts:186[36:51];Sink: route.query;webhook.ts:221[14:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.path;webhook.ts:186[36:51];Sink: route.action;webhook.ts:222[14:25]::FLOW_DESCR_END","/src/lib/webhook.ts","186","36","186","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;color.ts:113[29:31];Sink: value;color.ts:137[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.ts:113[29:31];Sink: value;color.ts:172[36:40]::FLOW_DESCR_END","/src/nodes/color.ts","113","29","113","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;color.ts:166[22:27];Sink: value;color.ts:172[36:40]::FLOW_DESCR_END","/src/nodes/color.ts","166","22","166","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;mode.ts:153[22:27];Sink: value;mode.ts:159[36:40]::FLOW_DESCR_END","/src/nodes/mode.ts","153","22","153","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;onoff.ts:126[22:27];Sink: value;onoff.ts:132[36:40]::FLOW_DESCR_END","/src/nodes/onoff.ts","126","22","126","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;range.ts:137[22:27];Sink: value;range.ts:151[36:40]::FLOW_DESCR_END","/src/nodes/range.ts","137","22","137","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: object;toggle.ts:124[22:27];Sink: value;toggle.ts:130[36:40]::FLOW_DESCR_END","/src/nodes/toggle.ts","124","22","124","27"

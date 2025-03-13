@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;victron-modbus.js:218[32:34];Sink: msg;victron-modbus.js:110[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;victron-modbus.js:218[32:34];Sink: msg;victron-modbus.js:118[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;victron-modbus.js:218[32:34];Sink: msg;victron-modbus.js:126[42:44]::FLOW_DESCR_END","/src/nodes/victron-modbus.js","218","32","218","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;victron-modbus.js:320[26:30];Sink: error;victron-modbus.js:321[31:35]::FLOW_DESCR_END","/src/nodes/victron-modbus.js","320","26","320","30"

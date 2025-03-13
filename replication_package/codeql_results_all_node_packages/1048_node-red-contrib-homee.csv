@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;discovery.js:14[25:31];Sink: `Discov ... ssage}`;discovery.js:15[16:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;discovery.js:14[25:31];Sink: `messag ... alias}`;discovery.js:23[18:72]::FLOW_DESCR_END","/lib/discovery.js","14","25","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;discovery.js:14[34:38];Sink: rinfo.port;discovery.js:21[47:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;discovery.js:14[34:38];Sink: rinfo.address;discovery.js:21[59:71]::FLOW_DESCR_END","/lib/discovery.js","14","34","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;discovery.js:29[74:85];Sink: `UDP Se ... .port}`;discovery.js:29[16:87]::FLOW_DESCR_END","/lib/discovery.js","29","74","29","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;virtualHomee.js:51[30:32];Sink: err;virtualHomee.js:55[25:27]::FLOW_DESCR_END","/lib/virtualHomee.js","51","30","51","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: parsed.method;virtualHomee.js:101[15:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: parsed. ... s.nodes;virtualHomee.js:112[34:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: parsed. ... ributes;virtualHomee.js:182[13:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: parsed. ... s.nodes;virtualHomee.js:183[13:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: parsed. ... t_value;virtualHomee.js:184[13:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: `${'{'\n ...   + '}';virtualHomee.js:198[21:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;virtualHomee.js:73[25:31];Sink: new Err ... teId}`);virtual-homee.js:73[20:87]::FLOW_DESCR_END","/lib/virtualHomee.js","73","25","73","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homee-api.js:46[23:25];Sink: msg.payload;homee-api.js:47[18:28]::FLOW_DESCR_END","/nodes/homee-api.js","46","23","46","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: attributes;homee-device.js:33[62:71];Sink: JSON.st ... bute });homee-device.js:46[44:72]::FLOW_DESCR_END","/nodes/homee-device.js","33","62","33","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: `update ... value}`;homee-device.js:113[18:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: `${RED. ...  ${id}`;homee-device.js:154[19:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: `Attrib ... conds.`;homee-device.js:159[20:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: `updati ... Value}`;homee-device.js:166[20:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: JSON.st ... bute });homee-device.js:174[40:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: `updati ... Value}`;homee-device.js:178[20:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homee-device.js:65[23:25];Sink: JSON.st ... bute });homee-device.js:191[38:66]::FLOW_DESCR_END","/nodes/homee-device.js","65","23","65","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;homee.js:41[29:31];Sink: err;homee.js:41[46:48]::FLOW_DESCR_END","/nodes/homee.js","41","29","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: attributeId;virtual-homee.js:69[36:46];Sink: new Err ... teId}`);virtual-homee.js:73[20:87]::FLOW_DESCR_END","/nodes/virtual-homee.js","69","36","69","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ody.id);virtual-homee.js:114[27:63];Sink: credentials;virtual-homee.js:116[45:55]::FLOW_DESCR_END","/nodes/virtual-homee.js","114","27","114","63"

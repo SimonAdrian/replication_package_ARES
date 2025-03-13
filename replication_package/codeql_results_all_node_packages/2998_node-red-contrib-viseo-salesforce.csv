@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-salesforce-object.js:16[27:30];Sink: [undefined, data];node-salesforce-object.js:57[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-salesforce-object.js:16[27:30];Sink: [data, undefined];node-salesforce-object.js:81[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-salesforce-object.js:16[27:30];Sink: [undefined, data];node-salesforce-object.js:92[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-salesforce-object.js:16[27:30];Sink: [undefined, data];node-salesforce-object.js:95[27:43]::FLOW_DESCR_END","/node-salesforce-object.js","16","27","16","30"

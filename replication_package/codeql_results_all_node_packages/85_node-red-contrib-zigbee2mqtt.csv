@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message_in;bridge.js:37[44:53];Sink: 'Publis ... ayload);bridge.js:38[30:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message_in;bridge.js:37[44:53];Sink: message_in.topic;bridge.js:39[46:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message_in;bridge.js:37[44:53];Sink: JSON.st ... ayload);bridge.js:39[64:97]::FLOW_DESCR_END","/nodes/bridge.js","37","44","37","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;out.js:16[43:49];Sink: message;out.js:38[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;out.js:16[43:49];Sink: 'Publis ... toSend);out.js:238[38:155]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;out.js:16[43:49];Sink: JSON.st ... toSend);out.js:239[111:132]::FLOW_DESCR_END","/nodes/out.js","16","43","16","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;server.js:27[45:51];Sink: topic + '/get';server.js:747[59:72]::FLOW_DESCR_END","/nodes/server.js","27","45","27","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:33[41:45];Sink: error;server.js:676[25:29]::FLOW_DESCR_END","/nodes/server.js","33","41","33","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:34[36:40];Sink: error;server.js:684[25:29]::FLOW_DESCR_END","/nodes/server.js","34","36","34","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.host;server.js:56[43:58];Sink: baseUrl ... ig.host;server.js:56[33:58]::FLOW_DESCR_END","/nodes/server.js","56","43","56","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:61[106:108];Sink: err;server.js:64[49:51]::FLOW_DESCR_END","/nodes/server.js","61","106","61","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:375[97:99];Sink: 'zigbee ... ' + err;server.js:381[47:85]::FLOW_DESCR_END","/nodes/server.js","375","97","375","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:388[49:53];Sink: 'zigbee ... + error;server.js:389[39:79]::FLOW_DESCR_END","/nodes/server.js","388","49","388","53"

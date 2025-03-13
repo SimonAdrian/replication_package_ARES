@@ -1,0 +1,86 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");ui-tabulator.js:232[17:49];Sink: data.length;ui-tabulator.js:234[70:80]::FLOW_DESCR_END","/nodes/ui-tabulator.js","232","17","232","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[11094:11094]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[11198:11198]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: ""Sent c ... istener;ui-tabulator.umd.js:23[11213:11263]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[11607:11607]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[12318:12318]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[12441:12441]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[12569:12569]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[12953:12953]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[13066:13066]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[13164:13164]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[13732:13732]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: t;ui-tabulator.umd.js:23[13911:13911]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: t;ui-tabulator.umd.js:23[14569:14569]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: t;ui-tabulator.umd.js:23[14789:14789]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: e;ui-tabulator.umd.js:23[15127:15127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: i;ui-tabulator.umd.js:23[15861:15861]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: e;ui-tabulator.umd.js:23[17778:17778]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: t;ui-tabulator.umd.js:23[18526:18526]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: t;ui-tabulator.umd.js:23[18558:18558]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: t;ui-tabulator.umd.js:23[18653:18653]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[8624:8624];Sink: l;ui-tabulator.umd.js:23[22027:22027]::FLOW_DESCR_END","/resources/ui-tabulator.umd.js","23","8624","23","8624"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[11094:11094]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[11198:11198]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: ""Sent c ... istener;ui-tabulator.umd.js:23[11213:11263]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[11607:11607]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[12318:12318]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[12441:12441]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[12569:12569]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[12953:12953]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[13066:13066]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[13164:13164]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[13732:13732]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: t;ui-tabulator.umd.js:23[13911:13911]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: t;ui-tabulator.umd.js:23[14569:14569]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: t;ui-tabulator.umd.js:23[14789:14789]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: e;ui-tabulator.umd.js:23[15127:15127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: i;ui-tabulator.umd.js:23[15861:15861]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: e;ui-tabulator.umd.js:23[17778:17778]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: t;ui-tabulator.umd.js:23[18526:18526]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: t;ui-tabulator.umd.js:23[18558:18558]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: t;ui-tabulator.umd.js:23[18653:18653]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9168:9168];Sink: l;ui-tabulator.umd.js:23[22027:22027]::FLOW_DESCR_END","/resources/ui-tabulator.umd.js","23","9168","23","9168"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;ui-tabulator.umd.js:23[9360:9360];Sink: e;ui-tabulator.umd.js:23[2494:2494]::FLOW_DESCR_END","/resources/ui-tabulator.umd.js","23","9360","23","9360"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:270[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:274[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: ""Sent c ... istener;UITabulator.vue:276[16:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:310[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:358[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:367[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:376[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:411[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:423[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:432[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:487[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:502[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:561[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:576[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:614[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:694[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:880[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:947[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:951[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: msg;UITabulator.vue:962[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:77[50:52];Sink: t1;UITabulator.vue:1261[31:32]::FLOW_DESCR_END","/ui/components/UITabulator.vue","77","50","77","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:270[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:274[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: ""Sent c ... istener;UITabulator.vue:276[16:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:310[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:358[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:367[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:376[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:411[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:423[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:432[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:487[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:502[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:561[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:576[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:614[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:694[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:880[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:947[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:951[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: msg;UITabulator.vue:962[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UITabulator.vue:125[48:50];Sink: t1;UITabulator.vue:1261[31:32]::FLOW_DESCR_END","/ui/components/UITabulator.vue","125","48","125","50"

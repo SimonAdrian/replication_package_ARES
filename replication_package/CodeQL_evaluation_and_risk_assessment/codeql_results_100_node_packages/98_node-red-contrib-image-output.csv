@@ -1,0 +1,4 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;image.js:64[35:37];Sink: msg;image.js:29[45:47]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;image.js:64[35:37];Sink: msg;image.js:35[29:31]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;image.js:64[35:37];Sink: msg;image.js:69[40:42]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;image.js:64[35:37];Sink: msg;image.js:89[122:124]::FLOW_DESCR_END","/image/image.js","64","35","64","37"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ClearBladeAuth.js:66[38:42];Sink: error;ClearBladeAuth.js:67[44:48]::FLOW_DESCR_END","/nodes/ClearBladeAuth.js","66","38","66","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;ClearBladeAuth.js:66[45:52];Sink: response;ClearBladeAuth.js:67[74:81]::FLOW_DESCR_END","/nodes/ClearBladeAuth.js","66","45","66","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ClearBladeAuth.js:66[55:58];Sink: body;ClearBladeAuth.js:67[104:107]::FLOW_DESCR_END","/nodes/ClearBladeAuth.js","66","55","66","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;cb-mqtt-broker.js:59[17:22];Sink: node.brokerurl;cb-mqtt-broker.js:283[39:52]::FLOW_DESCR_END","/nodes/cb-mqtt-broker.js","59","17","59","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;cb-mqtt-broker.js:173[47:55];Sink: node.brokerurl;cb-mqtt-broker.js:283[39:52]::FLOW_DESCR_END","/nodes/cb-mqtt-broker.js","173","47","173","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;cb-mqtt-broker.js:367[44:48];Sink: error;cb-mqtt-broker.js:368[44:48]::FLOW_DESCR_END","/nodes/cb-mqtt-broker.js","367","44","367","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-out-cb.js:20[33:35];Sink: msg;mqtt-out-cb.js:40[37:39]::FLOW_DESCR_END","/nodes/mqtt-out-cb.js","20","33","20","35"

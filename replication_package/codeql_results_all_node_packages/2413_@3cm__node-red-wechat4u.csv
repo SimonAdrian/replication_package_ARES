@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:33[45:48];Sink: data;index.js:39[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;index.js:33[45:48];Sink: bot.botData;index.js:99[39:49]::FLOW_DESCR_END","/nodes/wechat4u/index.js","33","45","33","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uuid;index.js:82[22:25];Sink: `uuid: ${uuid}`;index.js:83[18:32]::FLOW_DESCR_END","/nodes/wechat4u/index.js","82","22","82","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: avatar;index.js:87[29:34];Sink: `\u767b\u5f55\u7528\u6237\u5934\u50cf ... vatar}`;index.js:88[18:44]::FLOW_DESCR_END","/nodes/wechat4u/index.js","87","29","87","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: contacts;index.js:110[40:47];Sink: `\u8054\u7cfb\u4eba(${ ... tacts}`;index.js:112[18:71]::FLOW_DESCR_END","/nodes/wechat4u/index.js","110","40","110","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;index.js:120[30:32];Sink: err;index.js:121[20:22]::FLOW_DESCR_END","/nodes/wechat4u/index.js","120","30","120","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:9[31:33];Sink: `\u4e8c\u7ef4\u7801\u94fe\u63a5: ${loginUrl}`;index.js:12[19:38]::FLOW_DESCR_END","/nodes/wechat4u-uuid/index.js","9","31","9","33"

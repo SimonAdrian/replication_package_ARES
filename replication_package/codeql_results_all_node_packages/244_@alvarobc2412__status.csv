@@ -1,0 +1,107 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chain-response.js:6[36:38];Sink: msg;chain-response.js:29[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chain-response.js:6[36:38];Sink: msg;chain-response.js:77[23:25]::FLOW_DESCR_END","/nodes/control-flow/chain-response.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coexistence.js:6[36:38];Sink: msg;coexistence.js:23[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coexistence.js:6[36:38];Sink: msg;coexistence.js:60[23:25]::FLOW_DESCR_END","/nodes/control-flow/coexistence.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;responded-existence.js:6[36:38];Sink: msg;responded-existence.js:23[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;responded-existence.js:6[36:38];Sink: newMsg;responded-existence.js:69[23:28]::FLOW_DESCR_END","/nodes/control-flow/responded-existence.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;response.js:6[36:38];Sink: msg;response.js:23[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;response.js:6[36:38];Sink: msg;response.js:60[23:25]::FLOW_DESCR_END","/nodes/control-flow/response.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;find-object.js:7[36:38];Sink: msg;find-object.js:39[23:25]::FLOW_DESCR_END","/nodes/extraction/find-object.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-kv-property.js:7[36:38];Sink: msg;get-kv-property.js:34[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-kv-property.js:7[36:38];Sink: msg;get-kv-property.js:74[27:29]::FLOW_DESCR_END","/nodes/extraction/get-kv-property.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-property-value.js:7[36:38];Sink: msg;get-property-value.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-property-value.js:7[36:38];Sink: msg;get-property-value.js:37[27:29]::FLOW_DESCR_END","/nodes/extraction/get-property-value.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;last-timestamp.js:5[36:38];Sink: msg;last-timestamp.js:40[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;last-timestamp.js:5[36:38];Sink: msg;last-timestamp.js:43[35:37]::FLOW_DESCR_END","/nodes/extraction/last-timestamp.js","5","36","5","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter-by-date.js:6[36:38];Sink: msg;filter-by-date.js:41[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by-date.js:6[36:38];Sink: msg;filter-by-date.js:44[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by-date.js:6[36:38];Sink: msg;filter-by-date.js:60[27:29]::FLOW_DESCR_END","/nodes/filtering/filter-by-date.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:13[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:18[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg.payload;filter-by.js:23[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:24[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:33[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:38[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:43[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-by.js:6[36:38];Sink: msg;filter-by.js:53[35:37]::FLOW_DESCR_END","/nodes/filtering/filter-by.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-by.js:7[36:38];Sink: msg;group-by.js:27[27:29]::FLOW_DESCR_END","/nodes/filtering/group-by.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;csv-reader.js:10[36:38];Sink: msg;csv-reader.js:73[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;csv-reader.js:10[36:38];Sink: msg;csv-reader.js:78[27:29]::FLOW_DESCR_END","/nodes/integration/csv-reader.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;csv-reader.js:81[29:31];Sink: err;csv-reader.js:82[28:30]::FLOW_DESCR_END","/nodes/integration/csv-reader.js","81","29","81","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;github-collector.js:9[36:38];Sink: apiUrl;github-collector.js:28[22:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;github-collector.js:9[36:38];Sink: msg;github-collector.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;github-collector.js:9[36:38];Sink: msg;github-collector.js:38[39:41]::FLOW_DESCR_END","/nodes/integration/github-collector.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.req ... sername;github-collector.js:10[28:48];Sink: apiUrl;github-collector.js:28[22:27]::FLOW_DESCR_END","/nodes/integration/github-collector.js","10","28","10","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;github-collector.js:10[53:67];Sink: apiUrl;github-collector.js:28[22:27]::FLOW_DESCR_END","/nodes/integration/github-collector.js","10","53","10","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-getter.js:10[42:44];Sink: conceptName;log-getter.js:28[50:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-getter.js:10[42:44];Sink: url;log-getter.js:32[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-getter.js:10[42:44];Sink: url;log-getter.js:35[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-getter.js:10[42:44];Sink: msg;log-getter.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-getter.js:10[42:44];Sink: msg;log-getter.js:77[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-getter.js:10[42:44];Sink: msg;log-getter.js:85[43:45]::FLOW_DESCR_END","/nodes/integration/log-getter.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-trace.js:5[36:38];Sink: newMsg;log-trace.js:22[35:40]::FLOW_DESCR_END","/nodes/integration/log-trace.js","5","36","5","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project-to-url.js:8[36:38];Sink: `https: ... Token}`;project-to-url.js:14[21:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-to-url.js:8[36:38];Sink: msg;project-to-url.js:25[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-to-url.js:8[36:38];Sink: msg;project-to-url.js:41[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-to-url.js:8[36:38];Sink: msg;project-to-url.js:48[27:29]::FLOW_DESCR_END","/nodes/integration/project-to-url.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.apiKey;project-to-url.js:10[49:61];Sink: `https: ... Token}`;project-to-url.js:14[21:109]::FLOW_DESCR_END","/nodes/integration/project-to-url.js","10","49","10","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trello-collector.js:8[36:38];Sink: `https: ... token}`;trello-collector.js:24[21:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trello-collector.js:8[36:38];Sink: msg;trello-collector.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trello-collector.js:8[36:38];Sink: msg;trello-collector.js:76[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trello-collector.js:8[36:38];Sink: newMsg;trello-collector.js:87[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trello-collector.js:8[36:38];Sink: msg;trello-collector.js:90[66:68]::FLOW_DESCR_END","/nodes/integration/trello-collector.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:25[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:31[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: githubUrl;url-to-doc.js:35[62:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:53[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:67[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: url;url-to-doc.js:73[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:82[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: url;url-to-doc.js:86[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:89[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:95[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:100[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:112[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;url-to-doc.js:9[42:44];Sink: msg;url-to-doc.js:120[31:33]::FLOW_DESCR_END","/nodes/integration/url-to-doc.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: file.download_url;url-to-doc.js:41[40:56];Sink: pdfUrl;url-to-doc.js:44[34:39]::FLOW_DESCR_END","/nodes/integration/url-to-doc.js","41","40","41","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;and.js:9[36:38];Sink: newMsg;and.js:25[27:32]::FLOW_DESCR_END","/nodes/logic/and.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;if-else.js:5[36:38];Sink: [msg, null];if-else.js:7[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if-else.js:5[36:38];Sink: [null, msg];if-else.js:9[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if-else.js:5[36:38];Sink: msg;if-else.js:11[58:60]::FLOW_DESCR_END","/nodes/logic/if-else.js","5","36","5","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;implies.js:8[36:38];Sink: newMsg;implies.js:21[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;implies.js:8[36:38];Sink: newMsg;implies.js:25[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;implies.js:8[36:38];Sink: newMsg;implies.js:29[31:36]::FLOW_DESCR_END","/nodes/logic/implies.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lesser-than.js:7[36:38];Sink: msg;lesser-than.js:15[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lesser-than.js:7[36:38];Sink: msg;lesser-than.js:19[27:29]::FLOW_DESCR_END","/nodes/logic/lesser-than.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;or.js:9[36:38];Sink: msg;or.js:17[27:29]::FLOW_DESCR_END","/nodes/logic/or.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;status-parser.js:6[36:38];Sink: newMsg;status-parser.js:21[23:28]::FLOW_DESCR_END","/nodes/status/status-parser.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;check-property.js:7[36:38];Sink: msg;check-property.js:29[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;check-property.js:7[36:38];Sink: msg;check-property.js:36[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;check-property.js:7[36:38];Sink: msg;check-property.js:40[27:29]::FLOW_DESCR_END","/nodes/validation/check-property.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exists-pipe.js:9[36:38];Sink: msg;exists-pipe.js:18[23:25]::FLOW_DESCR_END","/nodes/validation/exists-pipe.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:24[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:30[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: githubUrl;exists-section-in-doc.js:34[62:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:52[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:58[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:66[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: url;exists-section-in-doc.js:72[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:81[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: url;exists-section-in-doc.js:85[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:94[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:99[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:111[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-section-in-doc.js:8[42:44];Sink: msg;exists-section-in-doc.js:126[31:33]::FLOW_DESCR_END","/nodes/validation/exists-section-in-doc.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: file.download_url;exists-section-in-doc.js:40[40:56];Sink: pdfUrl;exists-section-in-doc.js:43[34:39]::FLOW_DESCR_END","/nodes/validation/exists-section-in-doc.js","40","40","40","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: `https: ... Token}`;exists-url.js:39[25:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: msg;exists-url.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: msg;exists-url.js:53[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: msg;exists-url.js:98[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: msg;exists-url.js:107[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: msg;exists-url.js:112[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists-url.js:8[36:38];Sink: msg;exists-url.js:120[27:29]::FLOW_DESCR_END","/nodes/validation/exists-url.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.apiKey;exists-url.js:20[23:35];Sink: `https: ... Token}`;exists-url.js:39[25:113]::FLOW_DESCR_END","/nodes/validation/exists-url.js","20","23","20","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;has-activity.js:6[42:44];Sink: msg;has-activity.js:29[23:25]::FLOW_DESCR_END","/nodes/validation/has-activity.js","6","42","6","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;is-valid-url.js:5[36:38];Sink: msg;is-valid-url.js:26[23:25]::FLOW_DESCR_END","/nodes/validation/is-valid-url.js","5","36","5","38"

@@ -1,0 +1,116 @@
+<script type="text/javascript">
+    RED.nodes.registerType('writefeed',{
+        category: 'netpie',
+        color: '#eebbbb',
+        defaults: {
+            name :  {value: "writefeed"}, 
+            feedid: {value: ""},
+            apikey: {value: ""},
+            data: {value: "", validate: RED.validators.typedInput("dataType")},
+            dataType: {value: ""}
+        },
+        inputs:1,
+        outputs:0,
+        icon: "netpie.png",
+        align: "right",
+        label: function() {
+            return this.name||"writefeed";
+        },
+
+        oneditprepare: function() {
+
+            if (this.dataType == null) {
+                if (this.data == "") {
+                    this.dataType = "str";
+                } else {
+                    this.dataType = "msg";
+                }
+            } else if (this.dataType === 'string' || this.dataType === 'none') {
+                this.dataType = "str";
+            }
+            $("#node-input-dataType").val(this.dataType);
+
+            $("#node-input-data").typedInput({
+                default: 'msg',
+                typeField: $("#node-input-dataType"),
+                types:['msg','str']
+            });
+            $("#node-input-payload").typedInput('type',this.dataType);
+        },
+
+        label: function() {
+            if (this.name) return this.name;
+            else {
+                var name = 'writefeed';
+                if (this.feedid) name += ': '+this.feedid;
+                return name;
+            }
+        },
+
+        button: {
+            enabled: function() {
+                return !this.changed
+            },
+            onclick: function() {
+                if (this.changed) {
+                    return RED.notify(RED._("notification.warning", {message:RED._("notification.warnings.undeployedChanges")}),"warning");
+                }
+                var label = (this.name||this.data);
+                var node = this;
+                $.ajax({
+                    url: "inject/"+this.id,
+                    type:"POST",
+                    success: function(resp, textStatus, xhr) {
+                        RED.notify(node._("inject.success",{label:label}),"success");
+                    },
+                    error: function(jqXHR,textStatus,errorThrown) {
+                        if (jqXHR.status == 404) {
+                            RED.notify(node._("common.notification.error",{message:node._("common.notification.errors.not-deployed")}),"error");
+                        } else if (jqXHR.status == 500) {
+                            RED.notify(node._("common.notification.error",{message:node._("inject.errors.failed")}),"error");
+                        } else if (jqXHR.status == 0) {
+                            RED.notify(node._("common.notification.error",{message:node._("common.notification.errors.no-response")}),"error");
+                        } else {
+                            RED.notify(node._("common.notification.error",{message:node._("common.notification.errors.unexpected",{status:jqXHR.status,message:textStatus})}),"error");
+                        }
+                    }
+                });
+            }
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="writefeed">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-feedid"><i class="icon-cog"></i> Feed ID</label>
+        <input type="text" id="node-input-feedid" placeholder="Feed ID">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-apikey"><i class="icon-cog"></i> API Key</label>
+        <input type="text" id="node-input-apikey" placeholder="API KEY">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-data"><i class="icon-cog"></i> Data</label>
+        <input type="text" id="node-input-data" placeholder="">
+        <input type="hidden" id="node-input-dataType">
+
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="writefeed">
+    <p>Write a feed data via REST API.</p>
+    <h3>Inputs</h3>
+    <dl class="message-properties">
+        <dt class="optional">payload<span class="property-type">string</span></dt>
+        <dd>The data to be recorded. The format is of the form<br><br> temp:24.6,humid:62.5,light:9.2<br><br>Will be overrided if the data type in the nodeis is set to string.</dd>
+    </dl>
+    <h3>Details</h3>
+    <p>For the testing purpose, a writefeed node comes with a button for manually sending the data into a feed. The button works only if the node is configured with a specific payload value.</p>
+</script>

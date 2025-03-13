@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:61[31:33];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:61[31:33];Sink: msg;gitlab.js:108[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:61[31:33];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","61","31","61","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:125[31:33];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:125[31:33];Sink: msg;gitlab.js:172[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:125[31:33];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","125","31","125","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:190[31:33];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:190[31:33];Sink: msg;gitlab.js:251[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:190[31:33];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","190","31","190","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:269[31:33];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:269[31:33];Sink: msg;gitlab.js:296[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:269[31:33];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","269","31","269","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:313[31:33];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:313[31:33];Sink: msg;gitlab.js:345[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:313[31:33];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","313","31","313","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:363[31:33];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:363[31:33];Sink: msg;gitlab.js:400[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:363[31:33];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","363","31","363","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:420[29:31];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:420[29:31];Sink: msg;gitlab.js:452[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:420[29:31];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","420","29","420","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;gitlab.js:445[24:27];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","445","24","445","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:472[29:31];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:472[29:31];Sink: msg;gitlab.js:529[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:472[29:31];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","472","29","472","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:549[29:31];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:549[29:31];Sink: msg;gitlab.js:606[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:549[29:31];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","549","29","549","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gitlab.js:625[29:31];Sink: msg;gitlab.js:21[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:625[29:31];Sink: msg;gitlab.js:668[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gitlab.js:625[29:31];Sink: obj;gitlab.js:689[47:49]::FLOW_DESCR_END","/gitlab.js","625","29","625","31"

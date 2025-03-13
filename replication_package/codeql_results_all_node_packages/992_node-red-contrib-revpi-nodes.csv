@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;socket.js:24[13:27];Sink: command;socket.js:316[21:27]::FLOW_DESCR_END","/revpi-nodes/libs/socket.js","24","13","24","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.password;socket.js:265[35:50];Sink: command;socket.js:316[21:27]::FLOW_DESCR_END","/revpi-nodes/libs/socket.js","265","35","265","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;revpi-nodes.js:42[32:46];Sink: command;socket.js:316[21:27]::FLOW_DESCR_END","/revpi-nodes/revpi-nodes.js","42","32","42","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.password;revpi-nodes.js:256[15:31];Sink: command;socket.js:316[21:27]::FLOW_DESCR_END","/revpi-nodes/revpi-nodes.js","256","15","256","31"

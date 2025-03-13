@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;twitter-favorite.js:30[36:38];Sink: payload;twitter-favorite.js:14[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;twitter-favorite.js:30[36:38];Sink: msg;twitter-favorite.js:49[27:29]::FLOW_DESCR_END","/twitter-favorite.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tweets;twitter-search.js:14[58:63];Sink: payload;twitter-search.js:14[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweets;twitter-search.js:14[58:63];Sink: JSON.st ... result);twitter-search.js:47[26:47]::FLOW_DESCR_END","/twitter-search.js","14","58","14","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;twitter-search.js:30[36:38];Sink: payload;twitter-search.js:14[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;twitter-search.js:30[36:38];Sink: msg;twitter-search.js:48[27:29]::FLOW_DESCR_END","/twitter-search.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: user;twitter-user.js:14[55:58];Sink: payload;twitter-user.js:14[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;twitter-user.js:14[55:58];Sink: JSON.st ... result);twitter-user.js:48[26:47]::FLOW_DESCR_END","/twitter-user.js","14","55","14","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;twitter-user.js:30[36:38];Sink: payload;twitter-user.js:14[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;twitter-user.js:30[36:38];Sink: msg;twitter-user.js:49[27:29]::FLOW_DESCR_END","/twitter-user.js","30","36","30","38"

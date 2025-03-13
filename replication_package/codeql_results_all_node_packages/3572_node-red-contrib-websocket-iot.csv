@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;IOT_Init.js:20[36:38];Sink: msg;IOT_Init.js:22[23:25]::FLOW_DESCR_END","/IOT_Init.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;IOT_connectNode.js:34[44:50];Sink: message;IOT_connectNode.js:12[21:27]::FLOW_DESCR_END","/IOT_connectNode.js","34","44","34","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;IOT_connectNode.js:54[35:37];Sink: message;IOT_connectNode.js:12[21:27]::FLOW_DESCR_END","/IOT_connectNode.js","54","35","54","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;IOT_dataBase_add.js:11[35:37];Sink: msg.topic;IOT_dataBase_add.js:54[25:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;IOT_dataBase_add.js:11[35:37];Sink: msg;IOT_dataBase_add.js:55[23:25]::FLOW_DESCR_END","/IOT_dataBase_add.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;IOT_function.js:23[35:37];Sink: msg;IOT_function.js:112[23:25]::FLOW_DESCR_END","/IOT_function.js","23","35","23","37"

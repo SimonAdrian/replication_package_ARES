@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;smart-valve.js:740[51:55];Sink: ""MQTT error: ""+error;smart-valve.js:741[27:46]::FLOW_DESCR_END","/smart-valve.js","740","51","740","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;smart-valve.js:749[44:48];Sink: 'MQTT m ... '+topic;smart-valve.js:752[26:57]::FLOW_DESCR_END","/smart-valve.js","749","44","749","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;smart-valve.js:749[51:57];Sink: msg;smart-valve.js:72[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;smart-valve.js:749[51:57];Sink: JSON.stringify(data);smart-valve.js:89[35:54]::FLOW_DESCR_END","/smart-valve.js","749","51","749","57"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;grok.js:16[32:38];Sink: message;grok.js:17[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;grok.js:16[32:38];Sink: message;grok.js:19[17:23]::FLOW_DESCR_END","/nodes/grok.js","16","32","16","38"

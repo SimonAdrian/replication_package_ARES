@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;producer.js:183[32:34];Sink: [msg, null];producer.js:217[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;producer.js:183[32:34];Sink: [null,  ... : ex }];producer.js:226[18:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;producer.js:183[32:34];Sink: [null,  ... : ex }];producer.js:240[14:42]::FLOW_DESCR_END","/src/kafka/producer.js","183","32","183","34"

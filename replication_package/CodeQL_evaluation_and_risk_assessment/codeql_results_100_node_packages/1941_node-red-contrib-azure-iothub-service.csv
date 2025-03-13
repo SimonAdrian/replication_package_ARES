@@ -1,0 +1,12 @@
+FP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ?.[key];eventhub-recv.js:9[17:39];Sink: value;eventhub-recv.js:12[44:48]::FLOW_DESCR_END
+FP, FLOW_DESCR_START::Source: node.cr ... ?.[key];eventhub-recv.js:9[17:39];Sink: value;eventhub-recv.js:14[46:50]::FLOW_DESCR_END","/lib/eventhub-recv.js","9","17","9","39"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: { devic ... ..msg };iothub-registry.js:48[33:79];Sink: errorMessage;iothub-registry.js:33[24:35]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: { devic ... ..msg };iothub-registry.js:48[33:79];Sink: { ...ms ... age } };iothub-registry.js:35[23:75]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: { devic ... ..msg };iothub-registry.js:48[33:79];Sink: { ...ms ... esult };iothub-registry.js:43[27:95]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: { devic ... ..msg };iothub-registry.js:48[33:79];Sink: deviceId;iothub-registry.js:159[30:37]::FLOW_DESCR_END
+FP, FLOW_DESCR_START::Source: { devic ... ..msg };iothub-registry.js:48[33:79];Sink: `Invali ... ethod}`;iothub-registry.js:171[24:50]::FLOW_DESCR_END","/lib/iothub-registry.js","48","33","48","79"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: { devic ... ssage };iothub-send.js:55[39:68];Sink: deviceId;iothub-send.js:63[29:36]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: { devic ... ssage };iothub-send.js:55[39:68];Sink: `Could  ... ing()}`;iothub-send.js:65[36:93]::FLOW_DESCR_END","/lib/iothub-send.js","55","39","55","68"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;iothub-registry.js:48[35:42];Sink: deviceId;iothub-registry.js:159[30:37]::FLOW_DESCR_END","/lib/iothub-registry.js","48","35","48","42"
+FP (duplicate), "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;iothub-send.js:55[41:48];Sink: deviceId;iothub-send.js:63[29:36]::FLOW_DESCR_END
+FP (duplicate), FLOW_DESCR_START::Source: deviceId;iothub-send.js:55[41:48];Sink: `Could  ... ing()}`;iothub-send.js:65[36:93]::FLOW_DESCR_END","/lib/iothub-send.js","55","41","55","48"

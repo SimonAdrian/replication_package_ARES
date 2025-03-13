@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cognito-create-user.js:55[32:34];Sink: [msg, null];cognito-create-user.js:137[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-create-user.js:55[32:34];Sink: [null, msg];cognito-create-user.js:142[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-create-user.js:55[32:34];Sink: [null, msg];cognito-create-user.js:147[19:29]::FLOW_DESCR_END","/cognito-create-user.js","55","32","55","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cognito-resend-verification.js:33[32:34];Sink: [msg, null];cognito-resend-verification.js:74[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-resend-verification.js:33[32:34];Sink: [null, msg];cognito-resend-verification.js:78[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-resend-verification.js:33[32:34];Sink: [null, msg];cognito-resend-verification.js:83[19:29]::FLOW_DESCR_END","/cognito-resend-verification.js","33","32","33","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cognito-user-login.js:37[32:34];Sink: [msg, null];cognito-user-login.js:117[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-user-login.js:37[32:34];Sink: [null, msg];cognito-user-login.js:121[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-user-login.js:37[32:34];Sink: [null, msg];cognito-user-login.js:126[19:29]::FLOW_DESCR_END","/cognito-user-login.js","37","32","37","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cognito-verify-user.js:33[32:34];Sink: [msg, null];cognito-verify-user.js:74[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-verify-user.js:33[32:34];Sink: [null, msg];cognito-verify-user.js:78[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-verify-user.js:33[32:34];Sink: [null, msg];cognito-verify-user.js:83[19:29]::FLOW_DESCR_END","/cognito-verify-user.js","33","32","33","34"

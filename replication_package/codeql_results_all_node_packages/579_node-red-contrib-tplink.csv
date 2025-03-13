@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev;kasa.js:108[39:41];Sink: device;kasa.js:87[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dev;kasa.js:108[39:41];Sink: `Proces ... (msg)}`;kasa.js:170[19:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dev;kasa.js:108[39:41];Sink: `Pollin ... error}`;kasa.js:365[43:89]::FLOW_DESCR_END","/nodes/kasa.js","108","39","108","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;kasa.js:134[24:28];Sink: `Underl ... error}`;kasa.js:134[44:75]::FLOW_DESCR_END","/nodes/kasa.js","134","24","134","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kasa.js:140[32:34];Sink: obj;kasa.js:1[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kasa.js:140[32:34];Sink: shortId;kasa.js:153[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kasa.js:140[32:34];Sink: `Proces ... (msg)}`;kasa.js:170[19:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kasa.js:140[32:34];Sink: `Invali ... nput)}`;kasa.js:261[20:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kasa.js:140[32:34];Sink: `Invali ... ${cmd}`;kasa.js:322[29:51]::FLOW_DESCR_END","/nodes/kasa.js","140","32","140","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.deviceId;kasa.js:141[34:53];Sink: shortId;kasa.js:153[26:32]::FLOW_DESCR_END","/nodes/kasa.js","141","34","141","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;kasa.js:364[34:38];Sink: `Pollin ... error}`;kasa.js:365[43:89]::FLOW_DESCR_END","/nodes/kasa.js","364","34","364","38"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;10-raw-file-out.js:41[36:38];Sink: `Failed ... ${err}`;10-raw-file-out.js:42[18:75]::FLOW_DESCR_END","/nodes/10-raw-file-out.js","41","36","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;10-raw-file-out.js:47[37:39];Sink: `Failed ... ${err}`;10-raw-file-out.js:48[20:80]::FLOW_DESCR_END","/nodes/10-raw-file-out.js","47","37","47","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;12-cloud-store-out.js:86[39:39];Sink: `Error  ... : ${e}`;12-cloud-store-out.js:87[25:54]::FLOW_DESCR_END","/nodes/12-cloud-store-out.js","86","39","86","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: p;12-cloud-store-out.js:89[45:45];Sink: `Upload ... ct(p)}`;12-cloud-store-out.js:90[24:64]::FLOW_DESCR_END","/nodes/12-cloud-store-out.js","89","45","89","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;24-wav-out.js:41[32:34];Sink: `Failed ... ${err}`;24-wav-out.js:42[18:79]::FLOW_DESCR_END","/nodes/24-wav-out.js","41","32","41","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;dpx.js:24[17:21];Sink: `DPX he ... true)}`;dpx.js:86[18:68]::FLOW_DESCR_END","/util/dpx.js","24","17","24","21"

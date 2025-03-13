@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;luftkvalitet-daily.js:34[31:33];Sink: msg;luftkvalitet-daily.js:61[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;luftkvalitet-daily.js:34[31:33];Sink: msg;luftkvalitet-daily.js:68[20:22]::FLOW_DESCR_END","/daily/luftkvalitet-daily.js","34","31","34","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;luftkvalitet-historical.js:34[31:33];Sink: msg;luftkvalitet-historical.js:61[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;luftkvalitet-historical.js:34[31:33];Sink: msg;luftkvalitet-historical.js:68[20:22]::FLOW_DESCR_END","/historical/luftkvalitet-historical.js","34","31","34","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;luftkvalitet-latest.js:34[31:33];Sink: msg;luftkvalitet-latest.js:60[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;luftkvalitet-latest.js:34[31:33];Sink: msg;luftkvalitet-latest.js:67[20:22]::FLOW_DESCR_END","/latest/luftkvalitet-latest.js","34","31","34","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;luftkvalitet-lookup.js:34[31:33];Sink: msg;luftkvalitet-lookup.js:60[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;luftkvalitet-lookup.js:34[31:33];Sink: msg;luftkvalitet-lookup.js:67[20:22]::FLOW_DESCR_END","/lookup/luftkvalitet-lookup.js","34","31","34","33"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tadpoledbhub.js:22[36:38];Sink: JSON.stringify(data);tadpoledbhub.js:33[47:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tadpoledbhub.js:22[36:38];Sink: msg;tadpoledbhub.js:46[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tadpoledbhub.js:22[36:38];Sink: msg;tadpoledbhub.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tadpoledbhub.js:22[36:38];Sink: msg;tadpoledbhub.js:55[30:32]::FLOW_DESCR_END","/tadpoledbhub.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tadpoledbhub.js:43[30:32];Sink: err;tadpoledbhub.js:46[34:36]::FLOW_DESCR_END","/tadpoledbhub.js","43","30","43","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;tadpoledbhub.js:43[40:43];Sink: JSON.stringify(data);tadpoledbhub.js:33[47:66]::FLOW_DESCR_END","/tadpoledbhub.js","43","40","43","43"

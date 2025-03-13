@@ -1,0 +1,30 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sentiloRestClient.js:25[29:32];Sink: ""The re ... eString;sentiloRestClient.js:36[39:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sentiloRestClient.js:25[29:32];Sink: dataString;sentiloRestClient.js:55[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sentiloRestClient.js:25[29:32];Sink: JSON.st ... ssage});publish.js:50[36:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sentiloRestClient.js:25[29:32];Sink: JSON.st ... ssage});subscribe-without-endpoint.js:49[36:101]::FLOW_DESCR_END","/libs/sentiloRestClient.js","25","29","25","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sentiloRestClient.js:50[26:26];Sink: dataString;sentiloRestClient.js:55[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;sentiloRestClient.js:50[26:26];Sink: JSON.st ... ssage});publish.js:50[36:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;sentiloRestClient.js:50[26:26];Sink: JSON.st ... ssage});subscribe-without-endpoint.js:49[36:101]::FLOW_DESCR_END","/libs/sentiloRestClient.js","50","26","50","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: dataString;sentiloRestClient.js:55[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: JSON.st ... ssage});publish.js:50[36:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:50[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:72[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:81[113:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:91[116:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:104[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:115[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:21[27:29];Sink: msg;publish.js:128[74:76]::FLOW_DESCR_END","/publish/publish.js","21","27","21","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve.js:17[27:29];Sink: msg;retrieve.js:59[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve.js:17[27:29];Sink: msg;retrieve.js:178[35:37]::FLOW_DESCR_END","/retrieve/retrieve.js","17","27","17","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:118[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:190[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:199[113:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:209[116:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:219[113:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:228[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:237[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:249[110:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-with-endpoint.js:70[31:33];Sink: msg;subscribe-with-endpoint.js:259[104:106]::FLOW_DESCR_END","/subscribe-with-endpoint/subscribe-with-endpoint.js","70","31","70","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;subscribe-without-endpoint.js:22[27:29];Sink: JSON.st ... ssage});subscribe-without-endpoint.js:49[36:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-without-endpoint.js:22[27:29];Sink: msg;subscribe-without-endpoint.js:49[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscribe-without-endpoint.js:22[27:29];Sink: 'Invali ... ionType;subscribe-without-endpoint.js:191[28:88]::FLOW_DESCR_END","/subscribe-without-endpoint/subscribe-without-endpoint.js","22","27","22","29"

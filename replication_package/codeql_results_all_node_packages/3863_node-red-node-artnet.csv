@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-node-artnet.js:21[35:37];Sink: payload.address;node-red-node-artnet.js:29[20:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-node-artnet.js:21[35:37];Sink: payload.value;node-red-node-artnet.js:29[37:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-node-artnet.js:21[35:37];Sink: payload ... address;node-red-node-artnet.js:32[21:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-node-artnet.js:21[35:37];Sink: payload ... ].value;node-red-node-artnet.js:32[49:72]::FLOW_DESCR_END","/node-red-node-artnet.js","21","35","21","37"

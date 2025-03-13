@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;astrodata.js:632[32:34];Sink: ""JD0: "" ...  offset;astrodata.js:638[14:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;astrodata.js:632[32:34];Sink: msg;astrodata.js:685[15:17]::FLOW_DESCR_END","/astrodata/astrodata.js","632","32","632","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;astrodata.js:703[32:34];Sink: ""JD0: "" ...  offset;astrodata.js:710[14:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;astrodata.js:703[32:34];Sink: msg;astrodata.js:778[15:17]::FLOW_DESCR_END","/astrodata/astrodata.js","703","32","703","34"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;opensprinkler.js:43[32:32];Sink: err;opensprinkler.js:77[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;opensprinkler.js:43[32:32];Sink: dat;opensprinkler.js:77[95:97]::FLOW_DESCR_END","/src/opensprinkler.js","43","32","43","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: name;program.js:10[30:33];Sink: name;program.js:12[35:38]::FLOW_DESCR_END","/src/program.js","10","30","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;program.js:10[36:40];Sink: value;program.js:12[41:45]::FLOW_DESCR_END","/src/program.js","10","36","10","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-gate.js:21[27:29];Sink: msg;run-gate.js:31[22:24]::FLOW_DESCR_END","/src/run-gate.js","21","27","21","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timerctl-out.js:10[27:29];Sink: 'Scale  ...  100%.';timerctl-out.js:35[48:116]::FLOW_DESCR_END","/src/timerctl-out.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zone-timer.js:14[27:29];Sink: this.queuedMessage;zone-timer.js:34[30:47]::FLOW_DESCR_END","/src/zone-timer.js","14","27","14","29"

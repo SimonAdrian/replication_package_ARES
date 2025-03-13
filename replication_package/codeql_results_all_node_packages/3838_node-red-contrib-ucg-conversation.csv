@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: msg;conversation.js:46[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: msg;conversation.js:68[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: 'contex ... sg.user;conversation.js:80[52:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: msg;conversation.js:84[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: 'contex ... sg.user;conversation.js:116[35:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: msg;conversation.js:155[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: msg;conversation.js:191[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: 'contex ... sg.user;conversation.js:203[33:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;conversation.js:235[31:33];Sink: msg;conversation.js:212[15:17]::FLOW_DESCR_END","/conversation.js","235","31","235","33"

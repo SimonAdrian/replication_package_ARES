@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Calls.js:63[32:36];Sink: 'error: ...  + body;Calls.js:70[25:58]::FLOW_DESCR_END","/Calls.js","63","32","63","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;Calls.js:63[49:52];Sink: 'error: ...  + body;Calls.js:70[25:58]::FLOW_DESCR_END","/Calls.js","63","49","63","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Read.js:18[36:38];Sink: 'input: ... ct(msg);Read.js:19[22:49]::FLOW_DESCR_END","/Read.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Write.js:16[36:38];Sink: 'execut ... t(opts);Calls.js:51[17:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Write.js:16[36:38];Sink: 'input: ... ct(msg);Write.js:17[22:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Write.js:16[36:38];Sink: 'value  ... + value;Write.js:21[22:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Write.js:16[36:38];Sink: value;Write.js:22[48:52]::FLOW_DESCR_END","/Write.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrhumanizer.js:46[36:38];Sink: msg;nrhumanizer.js:53[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrhumanizer.js:46[36:38];Sink: msg;nrhumanizer.js:72[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrhumanizer.js:46[36:38];Sink: propert ... ct(obj);nrhumanizer.js:77[25:62]::FLOW_DESCR_END","/nrhumanizer.js","46","36","46","38"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;emerge.js:55[35:37];Sink: msgBuffer;emerge.js:64[42:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;emerge.js:55[35:37];Sink: msg;emerge.js:200[22:24]::FLOW_DESCR_END","/emerge/emerge.js","55","35","55","37"

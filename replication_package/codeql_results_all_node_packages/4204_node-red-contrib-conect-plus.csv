@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();fetch.js:24[30:40];Sink: y;fetch.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();fetch.js:24[30:40];Sink: y;fetch.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();fetch.js:24[30:40];Sink: op[1];fetch.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();fetch.js:24[30:40];Sink: error_1;fetch.js:84[36:42]::FLOW_DESCR_END","/dist/fetch/fetch.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fetch.js:51[32:34];Sink: msg;fetch.js:84[45:47]::FLOW_DESCR_END","/dist/fetch/fetch.js","51","32","51","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.deviceId;client.js:10[86:101];Sink: url;client.js:33[24:26]::FLOW_DESCR_END","/dist/lib/client.js","10","86","10","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();send.js:24[30:40];Sink: y;send.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();send.js:24[30:40];Sink: y;send.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();send.js:24[30:40];Sink: op[1];send.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();send.js:24[30:40];Sink: error_1;send.js:84[36:42]::FLOW_DESCR_END","/dist/send/send.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send.js:51[32:34];Sink: msg;send.js:84[45:47]::FLOW_DESCR_END","/dist/send/send.js","51","32","51","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;send.js:63[35:49];Sink: url;client.js:33[24:26]::FLOW_DESCR_END","/dist/send/send.js","63","35","63","49"

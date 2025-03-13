@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;locationrq.js:11[32:34];Sink: msg;locationrq.js:17[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;locationrq.js:11[32:34];Sink: msg;locationrq.js:28[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;locationrq.js:11[32:34];Sink: msg;locationrq.js:48[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;locationrq.js:11[32:34];Sink: msg;locationrq.js:52[21:23]::FLOW_DESCR_END","/skyhook/locationrq.js","11","32","11","34"

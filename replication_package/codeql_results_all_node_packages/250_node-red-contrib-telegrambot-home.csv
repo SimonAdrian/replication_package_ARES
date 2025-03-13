@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;bot-config.js:47[51:55];Sink: error.message;bot-config.js:48[25:37]::FLOW_DESCR_END","/nodes/bot-config/bot-config.js","47","51","47","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;bot-config.js:55[59:63];Sink: error.message;bot-config.js:56[25:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;bot-config.js:55[59:63];Sink: `Bot st ... ssage}`;bot-config.js:78[29:59]::FLOW_DESCR_END","/nodes/bot-config/bot-config.js","55","59","55","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;bot-config.js:85[59:63];Sink: error.message;bot-config.js:86[25:37]::FLOW_DESCR_END","/nodes/bot-config/bot-config.js","85","59","85","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg;command.js:32[47:52];Sink: `receiv ... name}'`;command.js:43[21:83]::FLOW_DESCR_END","/nodes/command/command.js","32","47","32","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg.from.username;command.js:35[24:43];Sink: `receiv ... name}'`;command.js:43[21:83]::FLOW_DESCR_END","/nodes/command/command.js","35","24","35","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notify.js:22[31:33];Sink: chatId;notify.js:49[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notify.js:22[31:33];Sink: messageToSend;notify.js:49[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notify.js:22[31:33];Sink: msg;notify.js:52[21:23]::FLOW_DESCR_END","/nodes/notify/notify.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;payload.js:48[31:33];Sink: msg;payload.js:130[21:23]::FLOW_DESCR_END","/nodes/payload/payload.js","48","31","48","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switch.js:55[31:33];Sink: chatId;switch.js:157[40:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch.js:55[31:33];Sink: question;switch.js:157[48:55]::FLOW_DESCR_END","/nodes/switch/switch.js","55","31","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg;switch.js:66[33:38];Sink: `receiv ... orized`;switch.js:111[25:92]::FLOW_DESCR_END","/nodes/switch/switch.js","66","33","66","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg.from.username;switch.js:67[26:45];Sink: `receiv ... orized`;switch.js:111[25:92]::FLOW_DESCR_END","/nodes/switch/switch.js","67","26","67","45"

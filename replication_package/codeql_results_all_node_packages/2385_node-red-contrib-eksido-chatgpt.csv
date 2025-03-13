@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatgpt.js:8[29:31];Sink: msg;chatgpt.js:45[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatgpt.js:8[29:31];Sink: JSON.st ... ayload);chatgpt.js:58[21:43]::FLOW_DESCR_END","/chatgpt.js","8","29","8","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;chatgpt.js:37[30:34];Sink: `ChatGP ... {data}`;chatgpt.js:47[24:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;chatgpt.js:37[30:34];Sink: JSON.st ... ayload);chatgpt.js:58[21:43]::FLOW_DESCR_END","/chatgpt.js","37","30","37","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatgpt.js:53[28:32];Sink: error;chatgpt.js:54[50:54]::FLOW_DESCR_END","/chatgpt.js","53","28","53","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openai-chat.js:8[31:33];Sink: msg;openai-chat.js:38[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openai-chat.js:8[31:33];Sink: msg;openai-chat.js:40[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openai-chat.js:8[31:33];Sink: JSON.st ... ayload);openai-chat.js:50[25:47]::FLOW_DESCR_END","/openai-chat.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;openai-chat.js:30[29:33];Sink: `Open A ... {data}`;openai-chat.js:40[28:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;openai-chat.js:30[29:33];Sink: JSON.st ... ayload);openai-chat.js:50[25:47]::FLOW_DESCR_END","/openai-chat.js","30","29","30","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;openai-chat.js:45[30:34];Sink: error;openai-chat.js:46[62:66]::FLOW_DESCR_END","/openai-chat.js","45","30","45","34"

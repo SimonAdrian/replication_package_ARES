@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;braumeister.js:10[31:33];Sink: msg;braumeister.js:59[21:23]::FLOW_DESCR_END","/nodes/braumeister.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;braumeister.js:11[22:37];Sink: url;braumeister.js:13[15:17]::FLOW_DESCR_END","/nodes/braumeister.js","11","22","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;braumeister.js:13[29:33];Sink: error;braumeister.js:15[42:46]::FLOW_DESCR_END","/nodes/braumeister.js","13","29","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;recipes.js:42[31:33];Sink: msg;recipes.js:56[21:23]::FLOW_DESCR_END","/nodes/recipes.js","42","31","42","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;recipes.js:43[22:37];Sink: url;recipes.js:45[15:17]::FLOW_DESCR_END","/nodes/recipes.js","43","22","43","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;recipes.js:45[29:33];Sink: error;recipes.js:47[42:46]::FLOW_DESCR_END","/nodes/recipes.js","45","29","45","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;recipes.js:45[36:43];Sink: recipeStr;recipes.js:5[17:25]::FLOW_DESCR_END","/nodes/recipes.js","45","36","45","43"

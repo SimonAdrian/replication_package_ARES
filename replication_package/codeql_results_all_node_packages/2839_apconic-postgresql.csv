@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oracledb.js:47[40:42];Sink: { ...ms ... .rows };oracledb.js:51[23:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oracledb.js:47[40:42];Sink: { ...ms ... error };oracledb.js:54[21:49]::FLOW_DESCR_END","/oracledb.js","47","40","47","42"

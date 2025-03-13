@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apiai.js:29[31:33];Sink: [msg, null];apiai.js:47[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apiai.js:29[31:33];Sink: [null,msg];apiai.js:53[19:28]::FLOW_DESCR_END","/lib/apiai.js","29","31","29","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apiai.js:74[31:33];Sink: [msg, null];apiai.js:106[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apiai.js:74[31:33];Sink: [null,msg];apiai.js:113[19:28]::FLOW_DESCR_END","/lib/apiai.js","74","31","74","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;test.js:37[33:40];Sink: 'respon ... ) + '>';test.js:38[15:60]::FLOW_DESCR_END","/test.js","37","33","37","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;test.js:42[30:34];Sink: 'error: ... ) + '>';test.js:43[15:54]::FLOW_DESCR_END","/test.js","42","30","42","34"

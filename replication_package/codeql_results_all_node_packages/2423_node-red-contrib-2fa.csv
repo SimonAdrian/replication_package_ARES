@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fsp.rea ... lePath);config-node.js:72[17:38];Sink: data;config-node.js:54[49:52]::FLOW_DESCR_END","/nodes/config-node.js","72","17","72","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;verify-node.js:11[36:38];Sink: msg;verify-node.js:39[22:24]::FLOW_DESCR_END","/nodes/verify-node.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fsp.rea ... lePath);decrypt-users.js:24[9:30];Sink: data;decrypt-users.js:9[37:40]::FLOW_DESCR_END","/utils/decrypt-users.js","24","9","24","30"

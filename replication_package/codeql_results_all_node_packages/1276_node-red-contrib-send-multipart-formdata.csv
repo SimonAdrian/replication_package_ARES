@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;http-send-multipart-formdata.js:20[35:37];Sink: msg;http-send-multipart-formdata.js:29[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-formdata.js:20[35:37];Sink: msg;http-send-multipart-formdata.js:39[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-formdata.js:20[35:37];Sink: msg;http-send-multipart-formdata.js:123[31:33]::FLOW_DESCR_END","/http-send-multipart-formdata.js","20","35","20","37"

@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;66-mongodb.js:12[21:26];Sink: ""MongoD ... "" + url;66-mongodb.js:45[21:41]::FLOW_DESCR_END","/66-mongodb.js","12","21","12","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.user;66-mongodb.js:27[25:45];Sink: ""MongoD ... "" + url;66-mongodb.js:45[21:41]::FLOW_DESCR_END","/66-mongodb.js","27","25","27","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;66-mongodb.js:28[30:54];Sink: ""MongoD ... "" + url;66-mongodb.js:45[21:41]::FLOW_DESCR_END","/66-mongodb.js","28","30","28","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;66-mongodb.js:31[29:38];Sink: ""MongoD ... "" + url;66-mongodb.js:45[21:41]::FLOW_DESCR_END","/66-mongodb.js","31","29","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;66-mongodb.js:34[34:46];Sink: ""MongoD ... "" + url;66-mongodb.js:45[21:41]::FLOW_DESCR_END","/66-mongodb.js","34","34","34","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;66-mongodb.js:39[42:50];Sink: ""MongoD ... "" + url;66-mongodb.js:45[21:41]::FLOW_DESCR_END","/66-mongodb.js","39","42","39","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;66-mongodb.js:77[64:66];Sink: err;66-mongodb.js:80[47:49]::FLOW_DESCR_END","/66-mongodb.js","77","64","77","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:101[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg.payload;66-mongodb.js:115[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:117[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:122[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:124[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:139[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:146[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:166[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:95[46:48];Sink: msg;66-mongodb.js:173[52:54]::FLOW_DESCR_END","/66-mongodb.js","95","46","95","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;66-mongodb.js:206[64:66];Sink: err;66-mongodb.js:209[47:49]::FLOW_DESCR_END","/66-mongodb.js","206","64","206","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;66-mongodb.js:219[47:49];Sink: msg;66-mongodb.js:259[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:219[47:49];Sink: msg;66-mongodb.js:271[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb.js:219[47:49];Sink: msg;66-mongodb.js:289[52:54]::FLOW_DESCR_END","/66-mongodb.js","219","47","219","49"

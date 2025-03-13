@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-clear-clipboard.js:10[35:37];Sink: msg;nbr-clear-clipboard.js:31[16:18]::FLOW_DESCR_END","/nbr-clear-clipboard.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-clear-clipboard.js:27[39:42];Sink: new Err ... ayload);nbr-clear-clipboard.js:35[20:41]::FLOW_DESCR_END","/nbr-clear-clipboard.js","27","39","27","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-clear-clipboard.js:40[28:30];Sink: err;nbr-clear-clipboard.js:41[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-clear-clipboard.js:40[28:30];Sink: new Error(err);nbr-clear-clipboard.js:46[17:30]::FLOW_DESCR_END","/nbr-clear-clipboard.js","40","28","40","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-get-clipboard.js:15[35:37];Sink: JSON.stringify(t);nbr-get-clipboard.js:32[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nbr-get-clipboard.js:15[35:37];Sink: msg;nbr-get-clipboard.js:39[16:18]::FLOW_DESCR_END","/nbr-get-clipboard.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-get-clipboard.js:35[39:42];Sink: JSON.stringify(t);nbr-get-clipboard.js:32[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;nbr-get-clipboard.js:35[39:42];Sink: new Err ... ayload);nbr-get-clipboard.js:44[17:38]::FLOW_DESCR_END","/nbr-get-clipboard.js","35","39","35","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-get-clipboard.js:49[28:30];Sink: err;nbr-get-clipboard.js:50[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-get-clipboard.js:49[28:30];Sink: new Error(err);nbr-get-clipboard.js:55[17:30]::FLOW_DESCR_END","/nbr-get-clipboard.js","49","28","49","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-get-img-clipboard.js:15[35:37];Sink: JSON.stringify(t);nbr-get-img-clipboard.js:32[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nbr-get-img-clipboard.js:15[35:37];Sink: msg;nbr-get-img-clipboard.js:39[16:18]::FLOW_DESCR_END","/nbr-get-img-clipboard.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-get-img-clipboard.js:35[39:42];Sink: JSON.stringify(t);nbr-get-img-clipboard.js:32[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;nbr-get-img-clipboard.js:35[39:42];Sink: new Err ... ayload);nbr-get-img-clipboard.js:44[17:38]::FLOW_DESCR_END","/nbr-get-img-clipboard.js","35","39","35","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-get-img-clipboard.js:49[28:30];Sink: err;nbr-get-img-clipboard.js:50[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-get-img-clipboard.js:49[28:30];Sink: new Error(err);nbr-get-img-clipboard.js:55[17:30]::FLOW_DESCR_END","/nbr-get-img-clipboard.js","49","28","49","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-set-clipboard.js:11[35:37];Sink: msg;nbr-set-clipboard.js:33[16:18]::FLOW_DESCR_END","/nbr-set-clipboard.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-set-clipboard.js:29[39:42];Sink: new Err ... ayload);nbr-set-clipboard.js:37[20:41]::FLOW_DESCR_END","/nbr-set-clipboard.js","29","39","29","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-set-clipboard.js:42[28:30];Sink: err;nbr-set-clipboard.js:43[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-set-clipboard.js:42[28:30];Sink: new Error(err);nbr-set-clipboard.js:48[17:30]::FLOW_DESCR_END","/nbr-set-clipboard.js","42","28","42","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nbr-set-img-clipboard.js:11[35:37];Sink: msg;nbr-set-img-clipboard.js:33[16:18]::FLOW_DESCR_END","/nbr-set-img-clipboard.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nbr-set-img-clipboard.js:29[39:42];Sink: new Err ... ayload);nbr-set-img-clipboard.js:37[20:41]::FLOW_DESCR_END","/nbr-set-img-clipboard.js","29","39","29","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nbr-set-img-clipboard.js:42[28:30];Sink: err;nbr-set-img-clipboard.js:43[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nbr-set-img-clipboard.js:42[28:30];Sink: new Error(err);nbr-set-img-clipboard.js:48[17:30]::FLOW_DESCR_END","/nbr-set-img-clipboard.js","42","28","42","30"

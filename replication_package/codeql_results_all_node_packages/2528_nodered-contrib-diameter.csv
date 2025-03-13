@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.client.host;diameter-client-request.js:36[87:102];Sink: `${mome ... } host`;diameter-client-request.js:36[33:109]::FLOW_DESCR_END","/diameter-client-request.js","36","87","36","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;diameter-client-request.js:226[38:42];Sink: `${mome ... error}`;diameter-client-request.js:227[33:94]::FLOW_DESCR_END","/diameter-client-request.js","226","38","226","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.client.host;diameter-client-request.js:227[68:83];Sink: `${mome ... error}`;diameter-client-request.js:227[33:94]::FLOW_DESCR_END","/diameter-client-request.js","227","68","227","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.client.host;diameter-client-request.js:250[102:117];Sink: `${mome ... .host}`;diameter-client-request.js:250[33:119]::FLOW_DESCR_END","/diameter-client-request.js","250","102","250","117"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;diameter-client-request.js:254[46:50];Sink: `${mome ... error}`;diameter-client-request.js:255[37:98]::FLOW_DESCR_END","/diameter-client-request.js","254","46","254","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.client.host;diameter-client-request.js:255[72:87];Sink: `${mome ... error}`;diameter-client-request.js:255[37:98]::FLOW_DESCR_END","/diameter-client-request.js","255","72","255","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;diameter-client-request.js:93[21:24];Sink: `${mome ... {host}`;diameter-client-request.js:134[45:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;diameter-client-request.js:93[21:24];Sink: `${mome ... {host}`;diameter-client-request.js:137[45:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;diameter-client-request.js:93[21:24];Sink: `${mome ... {host}`;diameter-client-request.js:219[33:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;diameter-client-request.js:93[21:24];Sink: host;diameter-client-request.js:235[52:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;diameter-client-request.js:93[21:24];Sink: host;diameter-client-request.js:263[56:59]::FLOW_DESCR_END","/diameter-client-request.js","93","21","93","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;diameter-client-request.js:335[37:40];Sink: `${mome ... {host}`;diameter-client-request.js:357[49:107]::FLOW_DESCR_END","/diameter-client-request.js","335","37","335","40"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;dashboard-server.js:11[46:56];Sink: 'connec ... ig.port;dashboard-server.js:11[22:76]::FLOW_DESCR_END","/dashboard-server.js","11","46","11","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;dashboard-server.js:11[66:76];Sink: 'connec ... ig.port;dashboard-server.js:11[22:76]::FLOW_DESCR_END","/dashboard-server.js","11","66","11","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;dashboard-server.js:24[51:61];Sink: 'discon ... ig.port;dashboard-server.js:24[22:81]::FLOW_DESCR_END","/dashboard-server.js","24","51","24","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;dashboard-server.js:24[71:81];Sink: 'discon ... ig.port;dashboard-server.js:24[22:81]::FLOW_DESCR_END","/dashboard-server.js","24","71","24","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dashboard-server.js:27[37:39];Sink: err;dashboard-server.js:28[51:53]::FLOW_DESCR_END","/dashboard-server.js","27","37","27","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dashboard-server.js:30[35:37];Sink: command;dashboard-server.js:38[30:36]::FLOW_DESCR_END","/dashboard-server.js","30","35","30","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rtde-interface.js:10[35:37];Sink: msg;rtde-interface.js:16[27:29]::FLOW_DESCR_END","/rtde-interface.js","10","35","10","37"

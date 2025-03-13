@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;minecraft-ping.js:23[36:38];Sink: msg;minecraft-ping.js:38[27:29]::FLOW_DESCR_END","/minecraft-ping.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;minecraft-ping.js:272[36:38];Sink: msg;minecraft-ping.js:312[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;minecraft-ping.js:272[36:38];Sink: msg;minecraft-ping.js:328[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;minecraft-ping.js:272[36:38];Sink: msg;minecraft-ping.js:352[39:41]::FLOW_DESCR_END","/minecraft-ping.js","272","36","272","38"

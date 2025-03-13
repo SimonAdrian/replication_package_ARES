@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bsb-lan.js:8[36:38];Sink: 'JQ=' + ... in(',');bsb-lan.js:20[41:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bsb-lan.js:8[36:38];Sink: msg;bsb-lan.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bsb-lan.js:8[36:38];Sink: msg;bsb-lan.js:41[31:33]::FLOW_DESCR_END","/nodes/bsb-lan.js","8","36","8","38"

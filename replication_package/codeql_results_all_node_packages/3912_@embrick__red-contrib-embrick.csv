@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;analog_output.js:23[35:37];Sink: msg;analog_output.js:72[25:27]::FLOW_DESCR_END","/nodes/analog_output.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;digital_output.js:17[35:37];Sink: msg;digital_output.js:39[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;digital_output.js:17[35:37];Sink: msg;digital_output.js:59[27:29]::FLOW_DESCR_END","/nodes/digital_output.js","17","35","17","37"

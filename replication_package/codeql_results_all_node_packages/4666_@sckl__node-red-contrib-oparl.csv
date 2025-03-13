@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oparl-request.ts:13[19:21];Sink: msg;oparl-request.ts:41[14:16]::FLOW_DESCR_END","/src/oparl-request/oparl-request.ts","13","19","13","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.links.next;oparl-request.ts:32[17:35];Sink: url;oparl-request.ts:33[33:35]::FLOW_DESCR_END","/src/oparl-request/oparl-request.ts","32","17","32","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.links;oparl-request.ts:32[17:30];Sink: url;oparl-request.ts:33[33:35]::FLOW_DESCR_END","/src/oparl-request/oparl-request.ts","32","17","32","30"

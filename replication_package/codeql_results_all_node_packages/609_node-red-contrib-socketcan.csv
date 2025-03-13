@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: ""Invali ... ame.dlc;send.js:116[21:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg;send.js:117[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: ""Invali ... ame.dlc;send.js:128[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg;send.js:128[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg;send.js:152[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: ""Invali ... ame.dlc;send.js:184[28:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg;send.js:184[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: ""Invali ... ame.dlc;send.js:212[30:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg.payload;send.js:212[71:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg;send.js:235[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: frame.data;send.js:253[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:85[31:33];Sink: msg;send.js:276[29:31]::FLOW_DESCR_END","/src/send.js","85","31","85","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;send.js:176[28:44];Sink: ""Invali ... ame.dlc;send.js:116[21:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame.data.length;send.js:176[28:44];Sink: ""Invali ... ame.dlc;send.js:128[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame.data.length;send.js:176[28:44];Sink: ""Invali ... ame.dlc;send.js:184[28:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame.data.length;send.js:176[28:44];Sink: ""Invali ... ame.dlc;send.js:212[30:68]::FLOW_DESCR_END","/src/send.js","176","28","176","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;send.js:204[30:46];Sink: ""Invali ... ame.dlc;send.js:116[21:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame.data.length;send.js:204[30:46];Sink: ""Invali ... ame.dlc;send.js:128[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame.data.length;send.js:204[30:46];Sink: ""Invali ... ame.dlc;send.js:184[28:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame.data.length;send.js:204[30:46];Sink: ""Invali ... ame.dlc;send.js:212[30:68]::FLOW_DESCR_END","/src/send.js","204","30","204","46"

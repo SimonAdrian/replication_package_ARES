@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;yeelight.js:35[44:46];Sink: err;yeelight.js:36[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;yeelight.js:35[44:46];Sink: err;yeelight.js:39[28:30]::FLOW_DESCR_END","/yeelight/yeelight.js","35","44","35","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;yeelight.js:74[36:38];Sink: msg;yeelight.js:80[31:33]::FLOW_DESCR_END","/yeelight/yeelight.js","74","36","74","38"

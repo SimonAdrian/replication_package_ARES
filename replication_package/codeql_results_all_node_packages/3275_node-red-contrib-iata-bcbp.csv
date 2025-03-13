@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bcbp-decode.js:7[35:37];Sink: msg;bcbp-decode.js:9[23:25]::FLOW_DESCR_END","/nodes/bcbp-decode.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bcbp-encode.js:7[35:37];Sink: msg;bcbp-encode.js:9[23:25]::FLOW_DESCR_END","/nodes/bcbp-encode.js","7","35","7","37"

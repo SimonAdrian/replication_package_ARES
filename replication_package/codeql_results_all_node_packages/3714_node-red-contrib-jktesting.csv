@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json');gulpfile.js:48[32:62];Sink: `Curren ... lease}`;gulpfile.js:53[13:72]::FLOW_DESCR_END","/gulpfile.js","48","32","48","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;jktest.js:87[45:49];Sink: event;jktest.js:88[62:66]::FLOW_DESCR_END","/nodes/jktest.js","87","45","87","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jktest.js:213[35:37];Sink: msg;jktest.js:303[15:17]::FLOW_DESCR_END","/nodes/jktest.js","213","35","213","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jktest2.js:53[26:28];Sink: msg;jktest2.js:59[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jktest2.js:53[26:28];Sink: msg;jktest2.js:60[10:12]::FLOW_DESCR_END","/nodes/jktest2.js","53","26","53","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: removed;jktest2.js:95[23:29];Sink: removed;jktest2.js:96[77:83]::FLOW_DESCR_END","/nodes/jktest2.js","95","23","95","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jktestEditableList.js:76[35:37];Sink: msg;jktestEditableList.js:98[23:25]::FLOW_DESCR_END","/nodes/jktestEditableList.js","76","35","76","37"

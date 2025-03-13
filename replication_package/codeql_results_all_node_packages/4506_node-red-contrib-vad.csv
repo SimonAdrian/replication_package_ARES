@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vad.js:34[35:37];Sink: msg;vad.js:46[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vad.js:34[35:37];Sink: msg;vad.js:46[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vad.js:34[35:37];Sink: msg;vad.js:50[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vad.js:34[35:37];Sink: msg;vad.js:50[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vad.js:34[35:37];Sink: msg;vad.js:54[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vad.js:34[35:37];Sink: msg;vad.js:54[60:62]::FLOW_DESCR_END","/vad.js","34","35","34","37"

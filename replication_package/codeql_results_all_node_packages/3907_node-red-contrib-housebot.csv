@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.server.password;hb-device.js:93[18:37];Sink: JSON.st ...  + '\n';hb-device.js:98[20:45]::FLOW_DESCR_END","/housebot/hb-device.js","93","18","93","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ex;hb-device.js:105[33:34];Sink: ""Subscr ... ex.code;hb-device.js:106[19:69]::FLOW_DESCR_END","/housebot/hb-device.js","105","33","105","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;hb-server.js:10[15:25];Sink: node.host;hb-server.js:167[32:40]::FLOW_DESCR_END","/housebot/hb-server.js","10","15","10","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;hb-server.js:12[19:43];Sink: JSON.st ...  + '\n';hb-server.js:175[20:45]::FLOW_DESCR_END","/housebot/hb-server.js","12","19","12","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... assword;hb-server.js:56[19:40];Sink: JSON.st ...  + '\n';hb-server.js:63[21:46]::FLOW_DESCR_END","/housebot/hb-server.js","56","19","56","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: task.server.password;hb-server.js:116[19:38];Sink: JSON.st ...  + '\n';hb-server.js:121[21:46]::FLOW_DESCR_END","/housebot/hb-server.js","116","19","116","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;hb-server.js:171[18:30];Sink: JSON.st ...  + '\n';hb-server.js:175[20:45]::FLOW_DESCR_END","/housebot/hb-server.js","171","18","171","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;hb-server.js:227[50:63];Sink: host;hb-server.js:394[27:30]::FLOW_DESCR_END","/housebot/hb-server.js","227","50","227","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;hb-server.js:227[66:79];Sink: port;hb-server.js:394[21:24]::FLOW_DESCR_END","/housebot/hb-server.js","227","66","227","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.password;hb-server.js:227[103:120];Sink: JSON.st ...  + '\n';hb-server.js:402[19:44]::FLOW_DESCR_END","/housebot/hb-server.js","227","103","227","120"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... assword;hb-server.js:227[124:150];Sink: JSON.st ...  + '\n';hb-server.js:402[19:44]::FLOW_DESCR_END","/housebot/hb-server.js","227","124","227","150"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;hb-server.js:262[46:59];Sink: host;hb-server.js:441[27:30]::FLOW_DESCR_END","/housebot/hb-server.js","262","46","262","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;hb-server.js:262[62:75];Sink: port;hb-server.js:441[21:24]::FLOW_DESCR_END","/housebot/hb-server.js","262","62","262","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.password;hb-server.js:262[100:117];Sink: JSON.st ...  + '\n';hb-server.js:448[19:44]::FLOW_DESCR_END","/housebot/hb-server.js","262","100","262","117"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... assword;hb-server.js:262[121:147];Sink: JSON.st ...  + '\n';hb-server.js:448[19:44]::FLOW_DESCR_END","/housebot/hb-server.js","262","121","262","147"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.server.host;hb-server.js:391[56:73];Sink: err;hb-server.js:230[31:33]::FLOW_DESCR_END","/housebot/hb-server.js","391","56","391","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;hb-server.js:405[32:35];Sink: server.allDevices;hb-server.js:221[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;hb-server.js:405[32:35];Sink: jsonResponse.error;hb-server.js:238[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;hb-server.js:405[32:35];Sink: jsonResponse.data;hb-server.js:248[31:47]::FLOW_DESCR_END","/housebot/hb-server.js","405","32","405","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.server.host;hb-server.js:438[56:73];Sink: err;hb-server.js:265[31:33]::FLOW_DESCR_END","/housebot/hb-server.js","438","56","438","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;hb-server.js:451[32:35];Sink: server.allTasks;hb-server.js:256[30:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;hb-server.js:451[32:35];Sink: jsonResponse.error;hb-server.js:273[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;hb-server.js:451[32:35];Sink: jsonResponse.data;hb-server.js:283[31:47]::FLOW_DESCR_END","/housebot/hb-server.js","451","32","451","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.server.host;hb-server.js:463[57:74];Sink: err;hb-server.js:265[31:33]::FLOW_DESCR_END","/housebot/hb-server.js","463","57","463","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.server.password;hb-task.js:70[18:37];Sink: JSON.st ...  + '\n';hb-task.js:75[20:45]::FLOW_DESCR_END","/housebot/hb-task.js","70","18","70","37"

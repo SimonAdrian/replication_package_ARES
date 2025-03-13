@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;PostgreClient.js:123[38:40];Sink: err;PostgreClient.js:125[73:75]::FLOW_DESCR_END","/PostgreClient.js","123","38","123","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PostgreClient.js:132[45:47];Sink: msg.channel;PostgreClient.js:133[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PostgreClient.js:132[45:47];Sink: msg.payload;PostgreClient.js:133[55:65]::FLOW_DESCR_END","/PostgreClient.js","132","45","132","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;PostgrePool.js:18[32:34];Sink: err;PostgrePool.js:20[68:70]::FLOW_DESCR_END","/PostgrePool.js","18","32","18","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;postgresql.js:91[56:58];Sink: `connec ... err)}.`;postgresql.js:94[143:267]::FLOW_DESCR_END","/postgresql.js","91","56","91","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;postgresql.js:98[61:63];Sink: `connec ... err)}.`;postgresql.js:101[28:152]::FLOW_DESCR_END","/postgresql.js","98","61","98","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;postgresql.js:115[64:66];Sink: `connec ... err)}.`;postgresql.js:118[149:275]::FLOW_DESCR_END","/postgresql.js","115","64","115","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;postgresql.js:122[69:71];Sink: `connec ... err)}.`;postgresql.js:125[32:158]::FLOW_DESCR_END","/postgresql.js","122","69","122","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;postgresql.js:272[41:43];Sink: msg;postgresql.js:288[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postgresql.js:272[41:43];Sink: msg;postgresql.js:295[58:60]::FLOW_DESCR_END","/postgresql.js","272","41","272","43"

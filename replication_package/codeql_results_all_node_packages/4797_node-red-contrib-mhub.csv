@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mhub.js:385[31:33];Sink: node;mhub.js:407[30:33]::FLOW_DESCR_END","/dist/nodes/mhub.js","385","31","385","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mhub.ts:562[22:24];Sink: node;mhub.ts:340[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mhub.ts:562[22:24];Sink: node;mhub.ts:586[15:18]::FLOW_DESCR_END","/src/nodes/mhub.ts","562","22","562","24"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keyvalue-read-r2.js:10[32:34];Sink: msg;keyvalue-read-r2.js:14[19:21]::FLOW_DESCR_END","/nodes/keyvalue-read-r2.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keyvalue-write-r2.js:10[32:34];Sink: JSON.st ... ull, 2);keyvalue-write-r2.js:21[36:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;keyvalue-write-r2.js:10[32:34];Sink: msg;keyvalue-write-r2.js:22[19:21]::FLOW_DESCR_END","/nodes/keyvalue-write-r2.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... lePath);keyvalue-write-r2.js:17[29:53];Sink: JSON.st ... ull, 2);keyvalue-write-r2.js:21[36:64]::FLOW_DESCR_END","/nodes/keyvalue-write-r2.js","17","29","17","53"

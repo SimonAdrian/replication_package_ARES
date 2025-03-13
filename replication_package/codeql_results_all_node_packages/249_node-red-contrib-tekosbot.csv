@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chat-platform.js:778[69:75];Sink: payload;chat-platform.js:102[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chat-platform.js:778[69:75];Sink: prettyj ... ayload);chat-platform.js:183[19:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chat-platform.js:778[69:75];Sink: parsedMessage.chatId;chat-platform.js:214[36:55]::FLOW_DESCR_END","/lib/chat-platform/chat-platform.js","778","69","778","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-generic-buttons.js:14[31:33];Sink: msg;chatbot-generic-buttons.js:38[19:21]::FLOW_DESCR_END","/nodes/chatbot-generic-buttons.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-generic-card.js:19[31:33];Sink: msg;chatbot-generic-card.js:65[19:21]::FLOW_DESCR_END","/nodes/chatbot-generic-card.js","19","31","19","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-text.js:36[31:33];Sink: msg;chatbot-text.js:86[19:21]::FLOW_DESCR_END","/nodes/chatbot-text.js","36","31","36","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: member;99-matrixbot.js:53[69:74];Sink: ""Trying ... .roomId;99-matrixbot.js:55[20:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;99-matrixbot.js:53[69:74];Sink: ""Automa ... .roomId;99-matrixbot.js:60[17:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;99-matrixbot.js:53[69:74];Sink: ""Cannot ...       e;99-matrixbot.js:78[17:19]::FLOW_DESCR_END","/nodes/matrixbot/99-matrixbot.js","53","69","53","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-matrixbot.js:177[31:33];Sink: ""Sendin ... payload;99-matrixbot.js:184[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-matrixbot.js:177[31:33];Sink: destRoom;99-matrixbot.js:197[24:31]::FLOW_DESCR_END","/nodes/matrixbot/99-matrixbot.js","177","31","177","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;99-matrixbot.js:366[9:13];Sink: event;99-matrixbot.js:372[21:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;99-matrixbot.js:366[9:13];Sink: event;99-matrixbot.js:433[21:25]::FLOW_DESCR_END","/nodes/matrixbot/99-matrixbot.js","366","9","366","13"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: room;99-matrixbot.js:367[9:12];Sink: ""Receiv ... ().body;99-matrixbot.js:426[11:35]::FLOW_DESCR_END","/nodes/matrixbot/99-matrixbot.js","367","9","367","12"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: room;99-matrixbot.js:489[9:12];Sink: ""Receiv ... ().body;99-matrixbot.js:511[11:35]::FLOW_DESCR_END","/nodes/matrixbot/99-matrixbot.js","489","9","489","12"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;postgrestor.js:59[22:24];Sink: msg;postgrestor.js:105[21:23]::FLOW_DESCR_END","/nodes/postgrestor.js","59","22","59","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tekos-form.js:271[31:33];Sink: msg;tekos-form.js:293[17:19]::FLOW_DESCR_END","/nodes/tekos-form.js","271","31","271","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tekosbot-media.js:13[31:33];Sink: msg;tekosbot-media.js:36[17:19]::FLOW_DESCR_END","/nodes/tekosbot-media.js","13","31","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tekosbot-media.js:46[31:33];Sink: msg;tekosbot-media.js:67[17:19]::FLOW_DESCR_END","/nodes/tekosbot-media.js","46","31","46","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;postgrestor.js:63[9:16];Sink: value;postgrestor.js:9[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: password;postgrestor.js:63[9:16];Sink: value;postgrestor.js:12[42:46]::FLOW_DESCR_END","/nodes/postgrestor.js","63","9","63","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;postgrestor.js:64[9:12];Sink: value;postgrestor.js:9[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;postgrestor.js:64[9:12];Sink: value;postgrestor.js:12[42:46]::FLOW_DESCR_END","/nodes/postgrestor.js","64","9","64","12"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;postgrestor.js:65[9:12];Sink: value;postgrestor.js:9[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: port;postgrestor.js:65[9:12];Sink: value;postgrestor.js:12[42:46]::FLOW_DESCR_END","/nodes/postgrestor.js","65","9","65","12"

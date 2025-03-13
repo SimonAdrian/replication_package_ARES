@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');listServices.js:18[30:61];Sink: JSON.st ... nators);listServices.js:53[49:74]::FLOW_DESCR_END","/listServices.js","18","30","18","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple-aws.js:82[41:43];Sink: [null, msgCopy];simple-aws.js:107[23:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple-aws.js:82[41:43];Sink: [msgCopy, null];simple-aws.js:126[27:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple-aws.js:82[41:43];Sink: [msgCopy, null];simple-aws.js:131[27:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple-aws.js:82[41:43];Sink: [null, msgCopy];simple-aws.js:141[23:37]::FLOW_DESCR_END","/simple-aws.js","82","41","82","43"

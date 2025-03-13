@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;strapi.js:19[36:38];Sink: JSON.stringify(data);strapi.js:30[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strapi.js:19[36:38];Sink: options.uri;strapi.js:39[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strapi.js:19[36:38];Sink: options.body;strapi.js:53[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strapi.js:19[36:38];Sink: msg;strapi.js:59[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strapi.js:19[36:38];Sink: msg;strapi.js:63[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strapi.js:19[36:38];Sink: msg;strapi.js:69[30:32]::FLOW_DESCR_END","/strapi.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;strapi.js:56[44:46];Sink: err;strapi.js:59[34:36]::FLOW_DESCR_END","/strapi.js","56","44","56","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;strapi.js:56[54:57];Sink: JSON.stringify(data);strapi.js:30[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;strapi.js:56[54:57];Sink: options.uri;strapi.js:39[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;strapi.js:56[54:57];Sink: options.body;strapi.js:53[30:41]::FLOW_DESCR_END","/strapi.js","56","54","56","57"

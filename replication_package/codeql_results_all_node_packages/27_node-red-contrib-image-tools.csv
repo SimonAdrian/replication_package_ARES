@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:30[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:40[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:66[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:84[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:89[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:94[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:115[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;barcodeWriter.js:23[36:38];Sink: msg;barcodeWriter.js:118[37:39]::FLOW_DESCR_END","/barcodeWriter.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;imageViewer.js:54[36:38];Sink: msg;imageViewer.js:60[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageViewer.js:54[36:38];Sink: msg;imageViewer.js:66[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageViewer.js:54[36:38];Sink: msg;imageViewer.js:115[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageViewer.js:54[36:38];Sink: msg;imageViewer.js:123[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageViewer.js:54[36:38];Sink: msg;imageViewer.js:138[31:33]::FLOW_DESCR_END","/imageViewer.js","54","36","54","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jimp.js:141[43:45];Sink: msg;jimp.js:144[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jimp.js:141[43:45];Sink: msg;jimp.js:482[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jimp.js:141[43:45];Sink: msg;jimp.js:496[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jimp.js:141[43:45];Sink: msg;jimp.js:511[47:49]::FLOW_DESCR_END","/jimp.js","141","43","141","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xzingDecode.js:80[36:38];Sink: msg;xzingDecode.js:88[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xzingDecode.js:80[36:38];Sink: msg;xzingDecode.js:98[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xzingDecode.js:80[36:38];Sink: node.msgMem;xzingDecode.js:124[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xzingDecode.js:80[36:38];Sink: msg;xzingDecode.js:143[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xzingDecode.js:80[36:38];Sink: msg;xzingDecode.js:156[35:37]::FLOW_DESCR_END","/xzingDecode.js","80","36","80","38"

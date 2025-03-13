@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a;dali-4net.js:1[2918:2918];Sink: e;dali-4net.js:1[1988:1988]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;dali-4net.js:1[2918:2918];Sink: e;dali-4net.js:1[2121:2121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;dali-4net.js:1[2918:2918];Sink: e;dali-4net.js:1[2258:2258]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;dali-4net.js:1[2918:2918];Sink: e.payload;dali-4net.js:1[2349:2357]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;dali-4net.js:1[2918:2918];Sink: e.payload;dali-4net.js:1[2747:2755]::FLOW_DESCR_END","/nodes/dali-4net.js","1","2918","1","2918"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;dali2-iot-gateway.js:1[515:515];Sink: r;dali2-iot-gateway.js:1[688:688]::FLOW_DESCR_END","/nodes/dali2-iot-gateway.js","1","515","1","515"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;dali2-iot-gateway.js:1[8940:8940];Sink: t;dali2-iot-gateway.js:1[10265:10265]::FLOW_DESCR_END","/nodes/dali2-iot-gateway.js","1","8940","1","8940"

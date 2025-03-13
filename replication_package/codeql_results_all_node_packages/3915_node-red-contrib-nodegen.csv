@@ -1,0 +1,55 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... a.icon);nodegen.js:42[39:64];Sink: buf;nodegen.js:43[58:60]::FLOW_DESCR_END","/lib/nodegen.js","42","39","42","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...  icon));nodegen.js:59[27:86];Sink: buf;nodegen.js:60[83:85]::FLOW_DESCR_END","/lib/nodegen.js","59","27","59","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ache'));nodegen.js:98[19:87];Sink: buf;nodegen.js:99[75:77]::FLOW_DESCR_END","/lib/nodegen.js","98","19","98","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: outputPath;nodegen.js:43[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: outputPath;nodegen.js:45[79:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... , icon);nodegen.js:60[34:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... s.yml');nodegen.js:99[26:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... .json');nodegen.js:219[30:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... de.js');nodegen.js:227[30:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... .html');nodegen.js:232[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... ec.js');nodegen.js:237[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... ME.md');nodegen.js:242[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: path.jo ... CENSE');nodegen.js:247[30:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: msg;nodegen.js:54[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodegen.js:18[31:33];Sink: msg;nodegen.js:59[21:23]::FLOW_DESCR_END","/nodegen.js","18","31","18","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: outputPath;nodegen.js:43[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: outputPath;nodegen.js:45[79:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... , icon);nodegen.js:60[34:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... s.yml');nodegen.js:99[26:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... .json');nodegen.js:219[30:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... de.js');nodegen.js:227[30:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... .html');nodegen.js:232[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... ec.js');nodegen.js:237[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... ME.md');nodegen.js:242[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:43[34:60];Sink: path.jo ... CENSE');nodegen.js:247[30:72]::FLOW_DESCR_END","/nodegen.js","43","34","43","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: outputPath;nodegen.js:43[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: outputPath;nodegen.js:45[79:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... , icon);nodegen.js:60[34:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... s.yml');nodegen.js:99[26:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... .json');nodegen.js:219[30:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... de.js');nodegen.js:227[30:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... .html');nodegen.js:232[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... ec.js');nodegen.js:237[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... ME.md');nodegen.js:242[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);nodegen.js:50[20:46];Sink: path.jo ... CENSE');nodegen.js:247[30:72]::FLOW_DESCR_END","/nodegen.js","50","20","50","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: outputPath;nodegen.js:43[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: outputPath;nodegen.js:45[79:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... , icon);nodegen.js:60[34:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... s.yml');nodegen.js:99[26:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... .json');nodegen.js:219[30:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... de.js');nodegen.js:227[30:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... .html');nodegen.js:232[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... ec.js');nodegen.js:237[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... ME.md');nodegen.js:242[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:23[34:60];Sink: path.jo ... CENSE');nodegen.js:247[30:72]::FLOW_DESCR_END","/test.js","23","34","23","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: outputPath;nodegen.js:43[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: outputPath;nodegen.js:45[79:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... , icon);nodegen.js:60[34:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... s.yml');nodegen.js:99[26:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... .json');nodegen.js:219[30:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... de.js');nodegen.js:227[30:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... .html');nodegen.js:232[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... ec.js');nodegen.js:237[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... ME.md');nodegen.js:242[30:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... cePath);test.js:30[23:49];Sink: path.jo ... CENSE');nodegen.js:247[30:72]::FLOW_DESCR_END","/test.js","30","23","30","49"

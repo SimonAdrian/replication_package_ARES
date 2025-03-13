@@ -1,0 +1,288 @@
+<!--
+
+  MIT License
+
+  Copyright (c) 2020-2023 Bosch Rexroth AG
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+
+-->
+
+
+<!--
+
+  ctrlx-datalayer-subscribe -- A node to subscribe to the datalayer.
+
+-->
+<script type="text/javascript">
+
+  var treeList_Subscribe;
+
+  function onEditPrepare_TreeView(node) {
+
+    // Create a new TreeList widget, that the user can use to browse the data layer and select a node.
+    // See: https://nodered.org/docs/api/ui/treeList/
+    //      https://discourse.nodered.org/t/select-form-with-tree-structure-in-custom-node/8348
+    treeList_Subscribe = $("<div>")
+      .css({width: "100%", height: "100%"})
+      .appendTo(".node-input-browse-row")
+      .treeList({})
+      .on('treelistitemmouseover', function(e, item) {
+      })
+      .on('treelistitemmouseout', function(e, item) {
+      })
+      .on('treelistselect', function(event, item) {
+        if (item.id && item.id !== '') {
+          $('#node-input-path').val(item.id);
+        }
+      });
+
+
+    // Now create the root item of the tree view.
+    let rootItem = {
+      label:  "Data Layer",
+      id: '',
+      class: 'red-ui-palette-header',
+      expanded: true,
+      children: function(done) {
+
+        // The current selected path of the node.
+        let path = $('#node-input-path').val();
+
+        // Get a reference to the config node settings.
+        let configNodeSubscription = RED.nodes.node($('#node-input-subscription').val());
+        let configNodeDevice = RED.nodes.node(configNodeSubscription.device);
+
+        // We need to browse the child items on the server(runtime of Node-RED). For this, the server needs to know the config node or username/password.
+        let username = (configNodeDevice && configNodeDevice.credentials) ? configNodeDevice.credentials.username : undefined;
+        let password = (configNodeDevice && configNodeDevice.credentials) ? configNodeDevice.credentials.password : undefined;
+        let hostname = (configNodeDevice) ? configNodeDevice.hostname : undefined;
+        let id = (configNodeDevice) ? configNodeDevice.id : undefined;
+
+        // Ask the server to browse the given path for us. Send all necessary infos along the request.
+        $.getJSON('ctrlx/browse', {id: id, path: this.id, hostname: hostname, username: username, password: password}, (result) => {
+
+          // Create a new subitem for each browsed element
+          let childs = result.map((val) => {
+            let childId = (this.id) ? this.id + '/' + val : val;
+            return {
+              id: (this.id) ? this.id + '/' + val : val,
+              label: val,
+              expanded: path.startsWith(childId) ? true : false,
+              selected: (path === childId) ? true : undefined,
+              children: this.children
+            }
+          });
+          done(childs);
+
+        }).fail(function(jqxhr, textStatus, error) {
+
+          // Display a toast message on error.
+          RED.notify('Something went wrong (' + error + '). Please retry.', 'error');
+          console.log(textStatus + ', ' + error);
+          done([]);
+
+        });
+      }
+    }
+    let items = [];
+    items.push(rootItem);
+
+    // Show and fill the TreeView when button is clicked.
+    $('#node-input-browse-button').click(function() {
+
+      treeList_Subscribe.treeList('empty');
+      treeList_Subscribe.treeList('data', items);
+      $(".node-input-browse-row").show()
+
+      setTimeout(function() {
+        treeList_Subscribe.treeList('show', '');
+      }, 100);
+
+    });
+
+  }
+
+  function resizeNodeList_Subscribe() {
+      var rows = $("#dialog-form>div:not(.node-input-browse-row)");
+      var height = $("#dialog-form").height();
+      for (var i = 0; i < rows.length; i++) {
+          height -= $(rows[i]).outerHeight(true);
+      }
+      var editorRow = $("#dialog-form>div.node-input-browse-row");
+      height -= (parseInt(editorRow.css("marginTop")) + parseInt(editorRow.css("marginBottom")));
+      $(".node-input-browse-row").css("height", height + "px");
+  }
+
+  function generateName_Subscribe(node) {
+    if (node.name) {
+      return node.name;
+    } else if (node.path) {
+      if (node.path.length < 50) {
+        return `${node.path}`;
+      } else {
+        let shortPath = node.path.substr(node.path.length - 45);
+        let shortPathStart = Math.max(shortPath.indexOf('/'), 0);
+        return `...${shortPath.substr(shortPathStart)}`;
+      }
+    } else {
+      return 'Data Layer Subscribe';
+    }
+  }
+
+
+  RED.nodes.registerType('ctrlx-datalayer-subscribe', {
+      category: 'ctrlX AUTOMATION',
+      color: '#C0DEED',
+      icon: 'icons/core.png',
+      defaults: {
+        subscription: {type: 'ctrlx-config-subscription', required: true},
+        path: {value: '', required: false},
+        name: {value: '', required: false},
+        inputs: {value: 0}
+      },
+      inputs: 0,
+      outputs: 1,
+      paletteLabel: 'Data Layer Subscribe',
+      label: function() {
+        return generateName_Subscribe(this);
+      },
+      oneditprepare: function() {
+        onEditPrepare_TreeView(this);
+
+        const isDynamic = function() {
+          return $('#node-input-topicType').val() === "dynamic";
+        }
+        const updateVisibility = function() {
+          var dynamic = isDynamic();
+          if (dynamic) {
+            $('div.form-row.form-row-mqtt-static').hide();
+            $('div.form-row.node-input-browse-row').hide();
+            $('div.section-browse').hide();
+          } else {
+            $('div.form-row.form-row-mqtt-static').show();
+          }
+        }
+
+        $('#node-input-topicType').on("change", function () {
+          $("#node-input-inputs").val(isDynamic() ? 1 : 0);
+          updateVisibility();
+        });
+
+        if (this.inputs === 1) {
+          $('#node-input-topicType').val('dynamic')
+        } else {
+          $('#node-input-topicType').val('static')
+        }
+        $('#node-input-topicType').trigger("change");
+      },
+      oneditresize: resizeNodeList_Subscribe,
+      oneditsave: function() {
+        if ($('#node-input-topicType').val() === "dynamic") {
+          $('#node-input-path').val("");
+        }
+      }
+  });
+</script>
+
+
+
+
+
+<script type="text/html" data-template-name="ctrlx-datalayer-subscribe">
+
+  <div class="form-row">
+    <label for="node-input-subscription"><i class="fa fa-envelope"></i> Subscription</label>
+    <input type="text" id="node-input-subscription">
+  </div>
+
+  <div class="form-row">
+    <label for="node-input-topicType"> Type</label>
+    <select id="node-input-topicType" style="width: 70%">
+        <option value="static">static</option>
+        <option value="dynamic">dynamic</option>
+    </select>
+    <input type="hidden" id="node-input-inputs">
+  </div>
+
+  <div class="form-row form-row-mqtt-static">
+    <label for="node-input-path"><i class="fa fa-globe"></i> Path</label>
+    <input id="node-input-path" type="text" placeholder="path/to/data/layer/node">
+    <button type="button" id="node-input-browse-button" class="btn"><i class="fa fa-search"></i></button>
+  </div>
+
+  <div class="form-row node-input-browse-row" hidden></div>
+
+  <div class="form-row">
+    <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+    <input type="text" id="node-input-name" placeholder="Name">
+  </div>
+
+</script>
+
+
+
+
+<script type="text/html" data-help-name="ctrlx-datalayer-subscribe">
+
+  <p>Use this node to subscribe to the ctrlX Data Layer.</p>
+
+  <h3>Outputs</h3>
+  <dl class="message-properties">
+    <dt>payload <span class="property-type">any</span></dt>
+    <dd>The node returns the monitored data.</dd>
+
+    <dt>topic <span class="property-type">string</span></dt>
+    <dd>The <code>topic</code> property is set to <code>path</code> of the data.</dd>
+
+    <dt>type <span class="property-type">string</span></dt>
+    <dd>Data type of the returned payload.</dd>
+
+    <dt>timestamp <span class="property-type">number</span></dt>
+    <dd>Timestamp of the latched data in javascript format as number. Can be directly converted to Date object (Contains number of milliseconds from Jan 1, 1970).</dd>
+
+    <dt>timestampFiletime <span class="property-type">number</span></dt>
+    <dd>Timestamp of the latched data as 100-nanoseconds since Jan 1 1601 (a.k.a FILETIME). This is the internal format as recorded by Data Layer.</dd>
+  </dl>
+
+  <h3>Details</h3>
+  <p>In case of an error, the node will not emit a <code>msg</code> but throw an error, that can be catched by the <code>catch</code> node.</p>
+
+  <p>When the property <code>type</code> is changed to <code>dynamic</code>, then the path to subscribe to is no longer static and fixed
+    after the deploy, but can be injected during runtime. The node gets an input connector which accepts a <code>msg</code> to define the data layer path to subscribe to.</p>
+
+  <h3>Inputs</h3>
+  <dl class="message-properties">
+    <dt class="optional">action <span class="property-type">string</span></dt>
+    <dd>Name of the action the node should perform.
+        Must be one of <code>"subscribe"</code> or <code>"unsubscribe"</code>.</dd>
+
+    <dt class="optional">path <span class="property-type">string</span></dt>
+    <dd>For the <code>"subscribe"</code> action this is the a single string or an array of strings with the ctrlX Data Layer node paths to subscribe to.</dd>
+  </dl>
+
+  <h3>References</h3>
+  <ul>
+    <li><a href="https://github.com/boschrexroth/node-red-contrib-ctrlx-automation">GitHub</a> - the nodes github repository</li>
+    <li><a href="https://developer.community.boschrexroth.com">ctrlX Community</a> - forum and support</li>
+    <li><a href="https://docs.automation.boschrexroth.com">ctrlX AUTOMATION Product Help</a> - the online documentation of ctrlX AUTOMATION</li>
+    <li><a href="https://www.boschrexroth.com">Bosch Rexroth AG</a> - WE MOVE. YOU WIN.</li>
+  </ul>
+
+</script>

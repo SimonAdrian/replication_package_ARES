@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: joinCon ... .apikey;join-message.js:12[30:58];Sink: `${JOIN ... pikey}`;joinapi.js:43[18:80]::FLOW_DESCR_END","/join-message.js","12","30","12","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;join-message.js:13[41:43];Sink: msg;join-message.js:26[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-message.js:13[41:43];Sink: msg;join-message.js:52[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-message.js:13[41:43];Sink: msg;join-message.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-message.js:13[41:43];Sink: msg;join-message.js:61[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-message.js:13[41:43];Sink: value;encryption.js:158[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-message.js:13[41:43];Sink: push;joinapi.js:39[59:62]::FLOW_DESCR_END","/join-message.js","13","41","13","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: command;join-receive-message.js:54[30:36];Sink: value;encryption.js:166[44:48]::FLOW_DESCR_END","/join-receive-message.js","54","30","54","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;join-receive-message.js:60[35:37];Sink: value;encryption.js:166[44:48]::FLOW_DESCR_END","/join-receive-message.js","60","35","60","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;join-server.js:21[21:31];Sink: `Starti ... rt}...`;join-server.js:22[18:58]::FLOW_DESCR_END","/join-server.js","21","21","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;join-server.js:22[45:53];Sink: `Starti ... rt}...`;join-server.js:22[18:58]::FLOW_DESCR_END","/join-server.js","22","45","22","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;join-server.js:47[24:28];Sink: command;join-server.js:27[37:43]::FLOW_DESCR_END","/join-server.js","47","24","47","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;join-server.js:59[19:19];Sink: `Error  ... : ${e}`;join-server.js:59[33:61]::FLOW_DESCR_END","/join-server.js","59","19","59","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: joinCon ... iceName;join-server.js:66[37:57];Sink: `Sendin ... eName}`;join-server.js:66[13:59]::FLOW_DESCR_END","/join-server.js","66","37","66","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: joinCon ... iceName;join-server.js:79[35:67];Sink: `Saved  ... eName}`;join-server.js:79[13:69]::FLOW_DESCR_END","/join-server.js","79","35","79","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: joinCon ... .apikey;join-server.js:100[13:41];Sink: `Sendin ... ions)}`;join-server.js:108[12:61]::FLOW_DESCR_END","/join-server.js","100","13","100","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: joinCon ... iceName;join-server.js:101[17:49];Sink: `Sendin ... ions)}`;join-server.js:108[12:61]::FLOW_DESCR_END","/join-server.js","101","17","101","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;join-server.js:102[11:21];Sink: `Sendin ... ions)}`;join-server.js:108[12:61]::FLOW_DESCR_END","/join-server.js","102","11","102","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.deviceId;joinapi.js:30[36:50];Sink: `Regist ... ssage}`;joinapi.js:30[14:76]::FLOW_DESCR_END","/js/joinapi.js","30","36","30","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.deviceId;joinapi.js:31[11:25];Sink: deviceId;join-server.js:112[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;joinapi.js:31[11:25];Sink: deviceId;join-server.js:114[37:44]::FLOW_DESCR_END","/js/joinapi.js","31","11","31","25"

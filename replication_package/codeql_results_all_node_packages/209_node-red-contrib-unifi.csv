@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unifi.js:47[36:38];Sink: msg;unifi.js:311[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;unifi.js:47[36:38];Sink: msg;unifi.js:321[31:33]::FLOW_DESCR_END","/unifi.js","47","36","47","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;unifi.js:339[45:48];Sink: url;unifiws-helper.js:34[28:30]::FLOW_DESCR_END","/unifi.js","339","45","339","48"

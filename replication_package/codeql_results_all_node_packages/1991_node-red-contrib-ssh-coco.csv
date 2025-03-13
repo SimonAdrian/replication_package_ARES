@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ssh-client-v2.js:38[34:36];Sink: err;ssh-client-v2.js:40[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ssh-client-v2.js:38[34:36];Sink: err;ssh-client-v2.js:146[28:30]::FLOW_DESCR_END","/src/ssh-client-v2.js","38","34","38","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ssh-client-v2.js:83[33:35];Sink: msg;ssh-client-v2.js:103[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-client-v2.js:83[33:35];Sink: msg.payload;ssh-client-v2.js:122[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-client-v2.js:83[33:35];Sink: msg;ssh-client-v2.js:127[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-client-v2.js:83[33:35];Sink: msg;ssh-client-v2.js:146[33:35]::FLOW_DESCR_END","/src/ssh-client-v2.js","83","33","83","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;ssh-client-v2.js:131[50:53];Sink: data.toString();ssh-client-v2.js:110[37:51]::FLOW_DESCR_END","/src/ssh-client-v2.js","131","50","131","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ssh-client-v2.js:133[36:39];Sink: data.toString();ssh-client-v2.js:110[37:51]::FLOW_DESCR_END","/src/ssh-client-v2.js","133","36","133","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ssh-client-v2.js:135[43:46];Sink: data.toString();ssh-client-v2.js:110[37:51]::FLOW_DESCR_END","/src/ssh-client-v2.js","135","43","135","46"

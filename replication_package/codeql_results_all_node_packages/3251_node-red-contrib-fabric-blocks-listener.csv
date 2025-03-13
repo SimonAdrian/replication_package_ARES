@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... rtBlock;fabric-blocks-listener.js:178[51:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.payload.endBlock;fabric-blocks-listener.js:181[49:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... Address;fabric-blocks-listener.js:184[52:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... Timeout;fabric-blocks-listener.js:187[55:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.payload.sslCert;fabric-blocks-listener.js:190[48:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... ostName;fabric-blocks-listener.js:193[52:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.payload.username;fabric-blocks-listener.js:196[49:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.payload.mspId;fabric-blocks-listener.js:199[46:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... eKeyPEM;fabric-blocks-listener.js:202[54:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... CertPEM;fabric-blocks-listener.js:205[54:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... nelName;fabric-blocks-listener.js:208[52:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-blocks-listener.js:176[36:38];Sink: msg.pay ... connect;fabric-blocks-listener.js:211[51:72]::FLOW_DESCR_END","/fabric-blocks-listener.js","176","36","176","38"

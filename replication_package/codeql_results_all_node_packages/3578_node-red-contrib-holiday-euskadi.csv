@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;holiday-euskadi.js:10[35:37];Sink: msg.payload;holiday-euskadi.js:22[91:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;holiday-euskadi.js:10[35:37];Sink: [null, null, msg];holiday-euskadi.js:57[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;holiday-euskadi.js:10[35:37];Sink: [null, msg, null];holiday-euskadi.js:68[17:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;holiday-euskadi.js:10[35:37];Sink: [msg, null, null];holiday-euskadi.js:74[17:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;holiday-euskadi.js:10[35:37];Sink: [null, null, msg];holiday-euskadi.js:79[16:32]::FLOW_DESCR_END","/holiday-euskadi.js","10","35","10","37"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;blink.js:10[25:29];Sink: ""An err ... + error;blink.js:12[39:67]::FLOW_DESCR_END","/blink/blink.js","10","25","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;device.js:8[132:136];Sink: ""An err ... + error;device.js:16[30:57]::FLOW_DESCR_END","/device/device.js","8","132","8","136"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ping.js:8[127:131];Sink: ""An err ... + error;ping.js:10[39:67]::FLOW_DESCR_END","/ping/ping.js","8","127","8","131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;purge.js:10[25:29];Sink: ""An err ... + error;purge.js:18[32:60]::FLOW_DESCR_END","/purge/purge.js","10","25","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;reboot.js:10[25:29];Sink: ""An err ... + error;reboot.js:18[32:60]::FLOW_DESCR_END","/reboot/reboot.js","10","25","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;restart.js:13[25:29];Sink: ""An err ... + error;restart.js:15[39:67]::FLOW_DESCR_END","/restart/restart.js","13","25","13","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;shutdown.js:10[25:29];Sink: ""An err ... + error;shutdown.js:18[32:60]::FLOW_DESCR_END","/shutdown/shutdown.js","10","25","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;update.js:13[25:29];Sink: ""An err ... + error;update.js:15[39:67]::FLOW_DESCR_END","/update/update.js","13","25","13","29"

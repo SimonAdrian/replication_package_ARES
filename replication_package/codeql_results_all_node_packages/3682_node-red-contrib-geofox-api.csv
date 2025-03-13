@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geofox-api.js:256[38:40];Sink: msg.payload.error;geofox-api.js:267[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geofox-api.js:256[38:40];Sink: msg;geofox-api.js:270[17:19]::FLOW_DESCR_END","/geofox-api.js","256","38","256","40"

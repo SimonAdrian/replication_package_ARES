@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qna.js:9[35:37];Sink: msg;qna.js:14[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qna.js:9[35:37];Sink: msg;qna.js:18[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qna.js:9[35:37];Sink: msg;qna.js:43[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qna.js:9[35:37];Sink: msg;qna.js:49[43:45]::FLOW_DESCR_END","/azure_qna/qna.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translator.js:9[35:37];Sink: msg;translator.js:14[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:9[35:37];Sink: msg;translator.js:18[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:9[35:37];Sink: msg;translator.js:43[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:9[35:37];Sink: msg;translator.js:49[43:45]::FLOW_DESCR_END","/azure_translator/translator.js","9","35","9","37"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;roadrunner.js:65[52:55];Sink: ""out: ""+d[i]+"" :"";roadrunner.js:74[58:74]::FLOW_DESCR_END","/roadrunner.js","65","52","65","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;roadrunner.js:78[52:55];Sink: ""err: ""+data+"" :"";roadrunner.js:79[54:70]::FLOW_DESCR_END","/roadrunner.js","78","52","78","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;roadrunner.js:138[32:34];Sink: msg;roadrunner.js:148[88:90]::FLOW_DESCR_END","/roadrunner.js","138","32","138","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;roadrunner.js:163[52:55];Sink: ""out: ""+data+"" :"";roadrunner.js:164[54:70]::FLOW_DESCR_END","/roadrunner.js","163","52","163","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;roadrunner.js:167[52:55];Sink: ""err: ""+data+"" :"";roadrunner.js:168[54:70]::FLOW_DESCR_END","/roadrunner.js","167","52","167","55"

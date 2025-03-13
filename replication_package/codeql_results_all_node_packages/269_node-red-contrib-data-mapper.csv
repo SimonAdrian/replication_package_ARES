@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-mapper.js:235[39:41];Sink: obj;data-mapper.js:425[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;data-mapper.js:235[39:41];Sink: obj;data-mapper.js:432[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;data-mapper.js:235[39:41];Sink: msg;data-mapper.js:470[27:29]::FLOW_DESCR_END","/data-mapper/data-mapper.js","235","39","235","41"

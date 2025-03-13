@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tpCommon.js:61[48:50];Sink: ""python ... "" + err;tpCommon.js:62[30:50]::FLOW_DESCR_END","/tpCommon.js","61","48","61","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpCommon.js:66[54:57];Sink: ""err: "" + data;tpCommon.js:68[30:43]::FLOW_DESCR_END","/tpCommon.js","66","54","66","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpCommon.js:183[50:53];Sink: msg;tpCommon.js:150[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;tpCommon.js:183[50:53];Sink: msg;tpCommon.js:160[18:20]::FLOW_DESCR_END","/tpCommon.js","183","50","183","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tpInitialize.js:59[42:44];Sink: ""python ... "" + err;tpInitialize.js:60[24:44]::FLOW_DESCR_END","/tpInitialize.js","59","42","59","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpInitialize.js:64[48:51];Sink: ""data: "" + data;tpInitialize.js:69[28:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;tpInitialize.js:64[48:51];Sink: ""err: "" + data;tpInitialize.js:71[28:41]::FLOW_DESCR_END","/tpInitialize.js","64","48","64","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpInitialize.js:76[48:51];Sink: ""data: "" + d[i];tpInitialize.js:87[30:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;tpInitialize.js:76[48:51];Sink: ""data: "" + d[i];tpInitialize.js:89[30:44]::FLOW_DESCR_END","/tpInitialize.js","76","48","76","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: slotInfo.host;tpInitialize.js:200[20:32];Sink: ""err: T ... 'name'];tpInitialize.js:343[44:170]::FLOW_DESCR_END","/tpInitialize.js","200","20","200","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');tpInitialize.js:589[29:62];Sink: JSON.st ... opJson);tpInitialize.js:653[36:57]::FLOW_DESCR_END","/tpInitialize.js","589","29","589","62"

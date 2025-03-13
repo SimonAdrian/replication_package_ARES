@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:14[42:44];Sink: `${err} ... tring}`;index.js:52[31:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:14[42:44];Sink: JSON.st ... ayload);index.js:100[26:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:14[42:44];Sink: msg;index.js:104[31:33]::FLOW_DESCR_END","/index.js","14","42","14","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... nString;index.js:27[36:68];Sink: `${err} ... tring}`;index.js:52[31:102]::FLOW_DESCR_END","/index.js","27","36","27","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connect ... ).pop();index.js:38[39:71];Sink: `${err} ... tring}`;index.js:52[31:102]::FLOW_DESCR_END","/index.js","38","39","38","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ityName;index.js:40[38:64];Sink: `${err} ... tring}`;index.js:52[31:102]::FLOW_DESCR_END","/index.js","40","38","40","64"

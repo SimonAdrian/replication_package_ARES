@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rigrunner-get.js:9[41:43];Sink: msg;rigrunner-get.js:13[27:29]::FLOW_DESCR_END","/rigrunner/rigrunner-get.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server.host;rigrunner-get.js:11[53:63];Sink: 'http:/ ... rs.xml';rigrunner-get.js:24[4:40]::FLOW_DESCR_END","/rigrunner/rigrunner-get.js","11","53","11","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rigrunner-set.js:9[41:43];Sink: msg;rigrunner-set.js:14[27:29]::FLOW_DESCR_END","/rigrunner/rigrunner-set.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server.host;rigrunner-set.js:12[53:63];Sink: 'http:/ ... rs.xml';rigrunner-set.js:28[4:40]::FLOW_DESCR_END","/rigrunner/rigrunner-set.js","12","53","12","63"

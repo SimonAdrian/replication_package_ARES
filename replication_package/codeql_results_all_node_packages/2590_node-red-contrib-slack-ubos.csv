@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:220[21:42];Sink: extractedSubstring;slackpost.js:222[51:68]::FLOW_DESCR_END","/slackpost.js","220","21","220","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:227[46:67];Sink: RED._("" ... Token();slackpost.js:633[11:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:227[46:67];Sink: RED._("" ... Token();slackpost.js:652[11:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.token;slackpost.js:227[46:67];Sink: RED._("" ... Token();slackpost.js:694[11:27]::FLOW_DESCR_END","/slackpost.js","227","46","227","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:943[34:36];Sink: msg;slackpost.js:963[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:943[34:36];Sink: msg;slackpost.js:972[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:943[34:36];Sink: msg;slackpost.js:980[16:18]::FLOW_DESCR_END","/slackpost.js","943","34","943","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:1119[34:36];Sink: msg;slackpost.js:1143[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1119[34:36];Sink: ""invali ...  method;slackpost.js:1171[26:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1119[34:36];Sink: msg;slackpost.js:1171[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1119[34:36];Sink: msg;slackpost.js:1244[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1119[34:36];Sink: msg;slackpost.js:1253[18:20]::FLOW_DESCR_END","/slackpost.js","1119","34","1119","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:1285[34:36];Sink: msg;slackpost.js:1306[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1285[34:36];Sink: ""invali ...  method;slackpost.js:1340[26:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1285[34:36];Sink: msg;slackpost.js:1340[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1285[34:36];Sink: msg;slackpost.js:1375[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:1285[34:36];Sink: msg;slackpost.js:1384[18:20]::FLOW_DESCR_END","/slackpost.js","1285","34","1285","36"

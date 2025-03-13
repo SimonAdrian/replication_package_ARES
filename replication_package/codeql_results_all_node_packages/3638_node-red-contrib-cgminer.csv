@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;node-cgminer.js:9[32:34];Sink: command;node-cgminer.js:25[17:23]::FLOW_DESCR_END","/node-cgminer.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-cgminer.js:27[32:34];Sink: 'Net so ... ' + err;node-cgminer.js:32[15:40]::FLOW_DESCR_END","/node-cgminer.js","27","32","27","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-cgminer.js:45[29:31];Sink: command;node-cgminer.js:25[17:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-cgminer.js:45[29:31];Sink: msg;node-cgminer.js:51[15:17]::FLOW_DESCR_END","/node-cgminer.js","45","29","45","31"

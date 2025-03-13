@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getFanspeed.js:10[29:31];Sink: msg;getFanspeed.js:40[25:27]::FLOW_DESCR_END","/nodes/getFanspeed.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getProfile.js:10[29:31];Sink: msg;getProfile.js:23[25:27]::FLOW_DESCR_END","/nodes/getProfile.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getTemp.js:10[29:31];Sink: msg;getTemp.js:57[25:27]::FLOW_DESCR_END","/nodes/getTemp.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setProfile.js:11[29:31];Sink: msg;setProfile.js:28[25:27]::FLOW_DESCR_END","/nodes/setProfile.js","11","29","11","31"

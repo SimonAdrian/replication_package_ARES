@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdkafka.js:117[47:49];Sink: err;rdkafka.js:120[43:45]::FLOW_DESCR_END","/rdkafka/rdkafka.js","117","47","117","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdkafka.js:209[47:49];Sink: '[rdkaf ... ' + err;rdkafka.js:210[35:73]::FLOW_DESCR_END","/rdkafka/rdkafka.js","209","47","209","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdkafka.js:222[39:41];Sink: '[rdkaf ... mestamp;rdkafka.js:262[33:121]::FLOW_DESCR_END","/rdkafka/rdkafka.js","222","39","222","41"

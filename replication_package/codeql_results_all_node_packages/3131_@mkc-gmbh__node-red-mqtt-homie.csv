@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;mkc-mqtt-config.js:95[48:52];Sink: `handle ... error}`;mkc-mqtt-config.js:177[16:47]::FLOW_DESCR_END","/mkc-mqtt-config.js","95","48","95","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;mkc-mqtt-config.js:95[55:61];Sink: payload;mkc-mqtt-config.js:127[43:49]::FLOW_DESCR_END","/mkc-mqtt-config.js","95","55","95","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mkc-mqtt-device.js:64[49:51];Sink: enable;device.js:246[37:42]::FLOW_DESCR_END","/mkc-mqtt-device.js","64","49","64","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mkc-mqtt-in.js:125[49:51];Sink: enable;device.js:246[37:42]::FLOW_DESCR_END","/mkc-mqtt-in.js","125","49","125","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mkc-mqtt-out.js:30[41:43];Sink: msg;mkc-mqtt-out.js:65[27:29]::FLOW_DESCR_END","/mkc-mqtt-out.js","30","41","30","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mkc-mqtt-out.js:142[49:51];Sink: enable;device.js:246[37:42]::FLOW_DESCR_END","/mkc-mqtt-out.js","142","49","142","51"

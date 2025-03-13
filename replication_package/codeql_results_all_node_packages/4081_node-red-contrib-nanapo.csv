@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nanapo.js:42[34:37];Sink: data;nanapo.js:43[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;nanapo.js:42[34:37];Sink: reslen;nanapo.js:43[25:30]::FLOW_DESCR_END","/src/nanapo.js","42","34","42","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nanapo.js:79[35:37];Sink: errorInfo;nanapo.js:37[24:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nanapo.js:79[35:37];Sink: errorInfo;nanapo.js:81[22:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nanapo.js:79[35:37];Sink: errorInfo;nanapo.js:94[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nanapo.js:79[35:37];Sink: errorInfo;nanapo.js:108[26:34]::FLOW_DESCR_END","/src/nanapo.js","79","35","79","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nanapo.js:84[36:38];Sink: request;nanapo.js:105[18:24]::FLOW_DESCR_END","/src/nanapo.js","84","36","84","38"

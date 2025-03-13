@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;index.js:74[24:24];Sink: `Emulat ... ssage}`;index.js:75[24:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;index.js:74[24:24];Sink: e;index.js:75[57:57]::FLOW_DESCR_END","/index.js","74","24","74","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;index.js:96[44:52];Sink: `Listen ... .port}`;index.js:96[27:54]::FLOW_DESCR_END","/index.js","96","44","96","52"

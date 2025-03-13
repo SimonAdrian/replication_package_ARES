@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ap ... .apiKey;gpt-engineer.js:13[24:56];Sink: command + '\n';utils.js:20[26:39]::FLOW_DESCR_END","/gpt-engineer.js","13","24","13","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;gpt-engineer.js:42[27:29];Sink: `SSH error: ${err}`;gpt-engineer.js:48[24:42]::FLOW_DESCR_END","/gpt-engineer.js","42","27","42","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: msg;gpt-engineer.js:86[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: {\n      ...       };initialPrompt.js:7[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: `\n[nod ... mmand}`;initialPrompt.js:25[18:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: `\n[nod ... mmand}`;initialPrompt.js:29[18:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: {\n      ...       };response.js:6[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: flowId;sharedInFlow.js:4[22:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: flowId;sharedInFlow.js:5[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: flowId;sharedInFlow.js:7[24:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpt-engineer.js:53[33:35];Sink: command + '\n';utils.js:20[26:39]::FLOW_DESCR_END","/gpt-engineer.js","53","33","53","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;utils.js:5[25:28];Sink: dataString;utils.js:7[34:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;utils.js:5[25:28];Sink: dataString;utils.js:8[18:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;utils.js:5[25:28];Sink: dataString;utils.js:11[43:52]::FLOW_DESCR_END","/logic/utils.js","5","25","5","28"

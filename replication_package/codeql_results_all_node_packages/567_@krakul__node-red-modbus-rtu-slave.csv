@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbus-rtu-slave.js:82[49:51];Sink: err;modbus-rtu-slave.js:49[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;modbus-rtu-slave.js:82[49:51];Sink: err;modbus-rtu-slave.js:51[35:37]::FLOW_DESCR_END","/src/modbus-rtu-slave.js","82","49","82","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbus-rtu-slave.js:96[51:53];Sink: err;modbus-rtu-slave.js:49[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;modbus-rtu-slave.js:96[51:53];Sink: err;modbus-rtu-slave.js:51[35:37]::FLOW_DESCR_END","/src/modbus-rtu-slave.js","96","51","96","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;modbus-rtu-slave.js:99[56:62];Sink: ""server ... equest);modbus-rtu-slave.js:100[32:90]::FLOW_DESCR_END","/src/modbus-rtu-slave.js","99","56","99","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbus-rtu-slave.js:113[36:38];Sink: err;modbus-rtu-slave.js:49[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbus-rtu-slave.js:113[36:38];Sink: err;modbus-rtu-slave.js:51[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbus-rtu-slave.js:113[36:38];Sink: msg;modbus-rtu-slave.js:114[24:26]::FLOW_DESCR_END","/src/modbus-rtu-slave.js","113","36","113","38"

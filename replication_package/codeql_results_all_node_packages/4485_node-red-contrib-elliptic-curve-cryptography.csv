@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bip39.js:33[32:34];Sink: msg;bip39.js:36[17:19]::FLOW_DESCR_END","/bip39.js","33","32","33","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sha256hex.js:21[32:34];Sink: msg;sha256hex.js:23[17:19]::FLOW_DESCR_END","/sha256hex.js","21","32","21","34"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message.js:9[25:27];Sink: newMessage;message.js:18[19:28]::FLOW_DESCR_END","/src/nodes/message/message.js","9","25","9","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send.js:12[31:33];Sink: [msg, null];send.js:98[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send.js:12[31:33];Sink: [null,  ... rror }];send.js:105[23:47]::FLOW_DESCR_END","/src/nodes/send/send.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;start-conversation.js:6[25:27];Sink: newMessage;start-conversation.js:14[19:28]::FLOW_DESCR_END","/src/nodes/start-conversation/start-conversation.js","6","25","6","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;template.js:12[25:27];Sink: newMessage;template.js:20[19:28]::FLOW_DESCR_END","/src/nodes/template/template.js","12","25","12","27"

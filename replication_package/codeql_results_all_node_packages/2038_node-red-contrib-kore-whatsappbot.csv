@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-addTag.js:19[42:44];Sink: [null, msg];whatsapp-addTag.js:25[23:33]::FLOW_DESCR_END","/whatsapp-addTag.js","19","42","19","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;whatsapp-client.js:37[50:50];Sink: message.message;whatsapp-client.js:170[61:75]::FLOW_DESCR_END","/whatsapp-client.js","37","50","37","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;whatsapp-client.js:43[44:44];Sink: message;whatsapp-client.js:45[43:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;whatsapp-client.js:43[44:44];Sink: message;whatsapp-client.js:54[58:64]::FLOW_DESCR_END","/whatsapp-client.js","43","44","43","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;whatsapp-client.js:59[44:44];Sink: m;whatsapp-client.js:60[48:48]::FLOW_DESCR_END","/whatsapp-client.js","59","44","59","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;whatsapp-client.js:62[41:41];Sink: m;whatsapp-client.js:62[75:75]::FLOW_DESCR_END","/whatsapp-client.js","62","41","62","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;whatsapp-client.js:63[44:44];Sink: m;whatsapp-client.js:64[48:48]::FLOW_DESCR_END","/whatsapp-client.js","63","44","63","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update;whatsapp-client.js:67[46:51];Sink: update;whatsapp-client.js:100[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: update;whatsapp-client.js:67[46:51];Sink: update;whatsapp-client.js:119[42:47]::FLOW_DESCR_END","/whatsapp-client.js","67","46","67","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-sendButtons.js:23[36:38];Sink: _resp;whatsapp-sendButtons.js:47[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-sendButtons.js:23[36:38];Sink: msg;whatsapp-sendButtons.js:90[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-sendButtons.js:23[36:38];Sink: msg;whatsapp-sendButtons.js:95[27:29]::FLOW_DESCR_END","/whatsapp-sendButtons.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-sendCard.js:15[36:38];Sink: to;whatsapp-sendCard.js:24[25:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-sendCard.js:15[36:38];Sink: displayName;whatsapp-sendCard.js:24[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-sendCard.js:15[36:38];Sink: cards;whatsapp-sendCard.js:24[42:46]::FLOW_DESCR_END","/whatsapp-sendCard.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-sendImage.js:34[50:52];Sink: [msg, null];whatsapp-sendImage.js:35[23:33]::FLOW_DESCR_END","/whatsapp-sendImage.js","34","50","34","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-sendImage.js:38[42:44];Sink: [null, msg];whatsapp-sendImage.js:93[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-sendImage.js:38[42:44];Sink: [null, msg];whatsapp-sendImage.js:98[27:37]::FLOW_DESCR_END","/whatsapp-sendImage.js","38","42","38","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-sendMessage.js:33[50:52];Sink: [msg, null];whatsapp-sendMessage.js:34[23:33]::FLOW_DESCR_END","/whatsapp-sendMessage.js","33","50","33","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-sendMessage.js:37[42:44];Sink: [null, msg];whatsapp-sendMessage.js:91[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-sendMessage.js:37[42:44];Sink: [null, msg];whatsapp-sendMessage.js:96[27:37]::FLOW_DESCR_END","/whatsapp-sendMessage.js","37","42","37","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-storeMessage.js:21[36:38];Sink: msg;whatsapp-storeMessage.js:47[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-storeMessage.js:21[36:38];Sink: msg;whatsapp-storeMessage.js:52[27:29]::FLOW_DESCR_END","/whatsapp-storeMessage.js","21","36","21","38"

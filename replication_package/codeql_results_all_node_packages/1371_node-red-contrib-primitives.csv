@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iterate.js:15[35:37];Sink: [msg, null];iterate.js:50[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iterate.js:15[35:37];Sink: [null, msg];iterate.js:55[27:37]::FLOW_DESCR_END","/arrays/iterate.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;join.js:17[35:37];Sink: msg;join.js:60[23:25]::FLOW_DESCR_END","/arrays/join.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;toggle.js:15[35:37];Sink: msg;toggle.js:46[23:25]::FLOW_DESCR_END","/boolean/toggle.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decrement.js:17[35:37];Sink: msg;decrement.js:30[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decrement.js:17[35:37];Sink: msg;decrement.js:55[23:25]::FLOW_DESCR_END","/numbers/decrement.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;increment.js:17[35:37];Sink: msg;increment.js:30[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;increment.js:17[35:37];Sink: msg;increment.js:55[23:25]::FLOW_DESCR_END","/numbers/increment.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;split.js:27[35:37];Sink: propVal ... lit_on);split.js:46[25:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;split.js:27[35:37];Sink: msg;split.js:68[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;split.js:27[35:37];Sink: msg;split.js:70[23:25]::FLOW_DESCR_END","/strings/split.js","27","35","27","37"

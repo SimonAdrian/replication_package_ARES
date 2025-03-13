@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: msg;ftp.js:63[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: localFilename;ftp.js:70[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: msg;ftp.js:87[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: filename;ftp.js:95[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: localFilename;ftp.js:98[24:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: filename;ftp.js:98[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:55[34:36];Sink: msg;ftp.js:112[27:29]::FLOW_DESCR_END","/ftp.js","55","34","55","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ftp.js:111[35:37];Sink: err;ftp.js:112[22:24]::FLOW_DESCR_END","/ftp.js","111","35","111","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: msg;sftp.js:74[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: msg;sftp.js:91[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: filename;sftp.js:101[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: localFilename;sftp.js:101[43:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: localFilename;sftp.js:104[33:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: filename;sftp.js:104[48:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:65[34:36];Sink: msg;sftp.js:129[29:31]::FLOW_DESCR_END","/sftp.js","65","34","65","36"

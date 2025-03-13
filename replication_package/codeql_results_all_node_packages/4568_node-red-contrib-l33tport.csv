@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speedport.js:12[31:33];Sink: msg;speedport.js:166[19:21]::FLOW_DESCR_END","/speedport.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;speedport.js:38[34:36];Sink: `error: ... ssage}`;speedport.js:39[22:44]::FLOW_DESCR_END","/speedport.js","38","34","38","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;speedport.js:78[38:42];Sink: statusJSON;speedport.js:87[28:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;speedport.js:78[38:42];Sink: statusDict;speedport.js:103[46:55]::FLOW_DESCR_END","/speedport.js","78","38","78","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;speedport.js:132[36:40];Sink: input;speedport.js:151[22:26]::FLOW_DESCR_END","/speedport.js","132","36","132","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;speedport.js:138[35:35];Sink: e;speedport.js:139[39:39]::FLOW_DESCR_END","/speedport.js","138","35","138","35"

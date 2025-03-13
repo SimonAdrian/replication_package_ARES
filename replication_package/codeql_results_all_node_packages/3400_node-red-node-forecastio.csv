@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;forecastio.js:117[37:37];Sink: err;forecastio.js:144[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;forecastio.js:117[37:37];Sink: err;forecastio.js:226[40:42]::FLOW_DESCR_END","/forecastio.js","117","37","117","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forecastio.js:137[35:37];Sink: msg;forecastio.js:140[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:137[35:37];Sink: msg;forecastio.js:144[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:137[35:37];Sink: msg;forecastio.js:149[43:45]::FLOW_DESCR_END","/forecastio.js","137","35","137","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forecastio.js:171[36:38];Sink: msg;forecastio.js:222[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:171[36:38];Sink: msg;forecastio.js:226[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:171[36:38];Sink: msg;forecastio.js:228[39:41]::FLOW_DESCR_END","/forecastio.js","171","36","171","38"

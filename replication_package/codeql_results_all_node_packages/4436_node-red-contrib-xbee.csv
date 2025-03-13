@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xbee-red.js:61[60:62];Sink: err.message;xbee-red.js:64[23:33]::FLOW_DESCR_END","/lib/xbee-red.js","61","60","61","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xbee-red.js:125[60:62];Sink: err.message;xbee-red.js:128[23:33]::FLOW_DESCR_END","/lib/xbee-red.js","125","60","125","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;xbee.js:90[44:48];Sink: frame;xbee.js:91[38:42]::FLOW_DESCR_END","/lib/xbee.js","90","44","90","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xbee.js:92[30:32];Sink: err;xbee.js:93[39:41]::FLOW_DESCR_END","/lib/xbee.js","92","30","92","32"

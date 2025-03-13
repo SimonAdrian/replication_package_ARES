@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GrovePi-Buzzer.js:24[34:36];Sink: msg;GrovePi-Buzzer.js:31[23:25]::FLOW_DESCR_END","/GrovePi-Buzzer.js","24","34","24","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GrovePi-I2CLcd.js:120[34:36];Sink: msg;GrovePi-I2CLcd.js:130[23:25]::FLOW_DESCR_END","/GrovePi-I2CLcd.js","120","34","120","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GrovePi-LED.js:28[34:36];Sink: msg;GrovePi-LED.js:42[23:25]::FLOW_DESCR_END","/GrovePi-LED.js","28","34","28","36"

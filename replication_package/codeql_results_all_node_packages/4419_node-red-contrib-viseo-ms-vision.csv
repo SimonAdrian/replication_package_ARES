@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-video-indexer.js:17[27:30];Sink: data;node-video-indexer.js:54[26:29]::FLOW_DESCR_END","/node-video-indexer.js","17","27","17","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-vision-image-describe.js:22[27:30];Sink: data;node-vision-image-describe.js:63[26:29]::FLOW_DESCR_END","/node-vision-image-describe.js","22","27","22","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-vision-image-faces.js:22[27:30];Sink: data;node-vision-image-faces.js:109[26:29]::FLOW_DESCR_END","/node-vision-image-faces.js","22","27","22","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-vision-image-faces.js:111[23:25];Sink: err;node-vision-image-faces.js:113[27:29]::FLOW_DESCR_END","/node-vision-image-faces.js","111","23","111","25"

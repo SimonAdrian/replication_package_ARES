@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... s.miner;node.js:7[26:69];Sink: node.url;node.js:77[23:30]::FLOW_DESCR_END","/node.js","7","26","7","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... .worker;node.js:8[27:71];Sink: node.url;node.js:77[23:30]::FLOW_DESCR_END","/node.js","8","27","8","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:19[36:38];Sink: msg;node.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:19[36:38];Sink: msg;node.js:38[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:19[36:38];Sink: msg;node.js:80[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:19[36:38];Sink: msg;node.js:83[31:33]::FLOW_DESCR_END","/node.js","19","36","19","38"

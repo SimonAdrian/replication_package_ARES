@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: outTopic;lighttalk.js:140[38:45];Sink: ""With t ... utTopic;lighttalk.js:150[25:54]::FLOW_DESCR_END","/lighttalk.js","140","38","140","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lighttalk.js:140[48:50];Sink: ""Messag ... "" + msg;lighttalk.js:149[25:50]::FLOW_DESCR_END","/lighttalk.js","140","48","140","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lighttalk.js:174[36:40];Sink: ""Can't  ... + error;lighttalk.js:175[22:44]::FLOW_DESCR_END","/lighttalk.js","174","36","174","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: '\ub4f1\ub85d\ud558\uc2e0 \uc2a4 ... ) + ')';lighttalk.js:66[19:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: ""\ub4f1\ub85d\ud558\uc2e0 \uc2a4 ... \ub05d\ub0ac\uc2b5\ub2c8\ub2e4.';lighttalk.js:79[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: ""\ub4f1\ub85d\ud558\uc2e0 \uc2a4 ... \ub05d\ub0ac\uc2b5\ub2c8\ub2e4.';lighttalk.js:89[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: msg.payload;lighttalk.js:197[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: '\ub4f1\ub85d\ud558\uc2e0 \uc2a4 ... ) + ')';lighttalk.js:215[27:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: msg_toPublish;lighttalk.js:219[49:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: ""\ub4f1\ub85d\ud558\uc2e0 \uc2a4 ... \ub05d\ub0ac\uc2b5\ub2c8\ub2e4.';lighttalk.js:227[31:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: msg_toPublish;lighttalk.js:230[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:196[35:37];Sink: ""\ub4f1\ub85d\ud558\uc2e0 \uc2a4 ... \ub05d\ub0ac\uc2b5\ub2c8\ub2e4.';lighttalk.js:236[31:110]::FLOW_DESCR_END","/lighttalk.js","196","35","196","37"

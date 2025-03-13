@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;Receiver.js:10[32:37];Sink: packet;Receiver.js:21[38:43]::FLOW_DESCR_END","/build/lib/Receiver.js","10","32","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sender;Receiver.js:10[40:45];Sink: sender;Receiver.js:21[46:51]::FLOW_DESCR_END","/build/lib/Receiver.js","10","40","10","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;VBANNode.js:48[42:44];Sink: err;VBANNode.js:49[37:39]::FLOW_DESCR_END","/build/lib/VBANNode.js","48","42","48","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;IPFilter.js:24[36:38];Sink: [msg];IPFilter.js:47[27:31]::FLOW_DESCR_END","/build/nodes/IPFilter.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: send;IPFilter.js:24[41:44];Sink: send;IPFilter.js:30[53:56]::FLOW_DESCR_END","/build/nodes/IPFilter.js","24","41","24","44"

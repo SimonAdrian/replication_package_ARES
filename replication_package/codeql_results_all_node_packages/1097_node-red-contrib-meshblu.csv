@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: query.port;getPath.js:21[56:65];Sink: path;claim.js:20[32:35]::FLOW_DESCR_END","/lib/getPath.js","21","56","21","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;meshblu.js:48[36:38];Sink: err;meshblu.js:49[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;meshblu.js:48[36:38];Sink: err;meshblu.js:50[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;meshblu.js:48[36:38];Sink: err;meshblu.js:51[19:21]::FLOW_DESCR_END","/meshblu.js","48","36","48","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;meshblu.js:86[76:78];Sink: err;meshblu.js:87[51:53]::FLOW_DESCR_END","/meshblu.js","86","76","86","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;meshblu.js:92[51:54];Sink: data;meshblu.js:95[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;meshblu.js:92[51:54];Sink: data;meshblu.js:98[19:22]::FLOW_DESCR_END","/meshblu.js","92","51","92","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meshblu.js:127[32:34];Sink: msg;meshblu.js:146[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meshblu.js:127[32:34];Sink: msg;meshblu.js:158[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meshblu.js:127[32:34];Sink: msg;meshblu.js:170[73:75]::FLOW_DESCR_END","/meshblu.js","127","32","127","34"

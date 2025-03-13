@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.host;SonosHelper.js:74[38:48];Sink: ""Found  ... address;SonosHelper.js:51[25:96]::FLOW_DESCR_END","/sonos/SonosHelper.js","74","38","74","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonos-control.js:29[30:32];Sink: msg;sonos-control.js:114[13:15]::FLOW_DESCR_END","/sonos/sonos-control.js","29","30","29","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonos-get-queue.js:21[30:32];Sink: msg;sonos-get-queue.js:45[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-get-queue.js:21[30:32];Sink: msg;sonos-get-queue.js:73[14:16]::FLOW_DESCR_END","/sonos/sonos-get-queue.js","21","30","21","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonos-queue.js:29[30:32];Sink: ""Queuei ... songuri;sonos-queue.js:52[13:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-queue.js:29[30:32];Sink: ""Direct ... songuri;sonos-queue.js:58[13:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-queue.js:29[30:32];Sink: _songuri;sonos-queue.js:59[16:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sonos-queue.js:29[30:32];Sink: ""Queuin ... songuri;sonos-queue.js:75[13:62]::FLOW_DESCR_END","/sonos/sonos-queue.js","29","30","29","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonos-status.js:21[30:32];Sink: msg;sonos-status.js:156[14:16]::FLOW_DESCR_END","/sonos/sonos-status.js","21","30","21","32"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.credentials.key;config-handler.js:36[15:34];Sink: username;api-ex.js:78[27:34]::FLOW_DESCR_END","/build/config-handler.js","36","15","36","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .secret;config-handler.js:37[18:40];Sink: password;api-ex.js:78[37:44]::FLOW_DESCR_END","/build/config-handler.js","37","18","37","40"

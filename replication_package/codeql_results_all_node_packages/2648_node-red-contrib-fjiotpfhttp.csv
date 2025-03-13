@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotpfhttp.js:65[34:36];Sink: msg;iotpfhttp.js:109[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotpfhttp.js:65[34:36];Sink: msg;iotpfhttp.js:258[85:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotpfhttp.js:65[34:36];Sink: msg;iotpfhttp.js:261[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotpfhttp.js:65[34:36];Sink: msg;iotpfhttp.js:266[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotpfhttp.js:65[34:36];Sink: msg;iotpfhttp.js:307[31:33]::FLOW_DESCR_END","/iotpfhttp.js","65","34","65","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iotpfhttp.js:255[36:38];Sink: err;iotpfhttp.js:261[36:38]::FLOW_DESCR_END","/iotpfhttp.js","255","36","255","38"

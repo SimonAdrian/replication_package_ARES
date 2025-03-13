@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.js:15[27:29];Sink: typeof  ... ayload);cryptoBlue.js:31[161:235]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:15[27:29];Sink: typeof  ... ayload);cryptoBlue.js:38[207:281]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:15[27:29];Sink: typeof  ... ayload);cryptoBlue.js:45[207:281]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:15[27:29];Sink: typeof  ... ayload);cryptoBlue.js:50[253:327]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:15[27:29];Sink: msg;cryptoBlue.js:62[18:20]::FLOW_DESCR_END","/nodes/cryptoBlue.js","15","27","15","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.js:70[27:29];Sink: msg;cryptoBlue.js:87[18:20]::FLOW_DESCR_END","/nodes/cryptoBlue.js","70","27","70","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.js:96[27:29];Sink: Buffer. ...  'hex');cryptoBlue.js:140[79:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:96[27:29];Sink: Buffer. ...  'hex');cryptoBlue.js:153[78:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:96[27:29];Sink: Buffer. ...  'hex');cryptoBlue.js:154[78:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.js:96[27:29];Sink: msg;cryptoBlue.js:166[18:20]::FLOW_DESCR_END","/nodes/cryptoBlue.js","96","27","96","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.js:174[27:29];Sink: msg;cryptoBlue.js:265[18:20]::FLOW_DESCR_END","/nodes/cryptoBlue.js","174","27","174","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.ts:48[24:26];Sink: typeof  ... ayload);cryptoBlue.ts:67[53:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:48[24:26];Sink: typeof  ... ayload);cryptoBlue.ts:77[53:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:48[24:26];Sink: typeof  ... ayload);cryptoBlue.ts:87[53:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:48[24:26];Sink: typeof  ... ayload);cryptoBlue.ts:95[53:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:48[24:26];Sink: msg;cryptoBlue.ts:112[14:16]::FLOW_DESCR_END","/src/cryptoBlue.ts","48","24","48","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.ts:120[26:28];Sink: msg;cryptoBlue.ts:136[18:20]::FLOW_DESCR_END","/src/cryptoBlue.ts","120","26","120","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.ts:145[26:28];Sink: Buffer. ... ,'hex');cryptoBlue.ts:189[64:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:145[26:28];Sink: Buffer. ... ,'hex');cryptoBlue.ts:202[63:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:145[26:28];Sink: Buffer. ... ,'hex');cryptoBlue.ts:203[63:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cryptoBlue.ts:145[26:28];Sink: msg;cryptoBlue.ts:215[18:20]::FLOW_DESCR_END","/src/cryptoBlue.ts","145","26","145","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cryptoBlue.ts:223[26:28];Sink: msg;cryptoBlue.ts:314[18:20]::FLOW_DESCR_END","/src/cryptoBlue.ts","223","26","223","28"

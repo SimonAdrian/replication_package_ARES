@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;cloud-publisher.js:52[21:26];Sink: node.brokerurl;cloud-publisher.js:262[48:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;cloud-publisher.js:52[21:26];Sink: ""Connec ... okerurl;cloud-publisher.js:268[34:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;cloud-publisher.js:52[21:26];Sink: ""Discon ... okerurl;cloud-publisher.js:317[38:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;cloud-publisher.js:52[21:26];Sink: ""Connec ... okerurl;cloud-publisher.js:328[38:85]::FLOW_DESCR_END","/azeti/cloud-publisher.js","52","21","52","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ortName;cloud-publisher.js:73[42:79];Sink: msg.topic;cloud-publisher.js:399[37:45]::FLOW_DESCR_END","/azeti/cloud-publisher.js","73","42","73","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .serial;cloud-publisher.js:74[27:49];Sink: msg.topic;cloud-publisher.js:399[37:45]::FLOW_DESCR_END","/azeti/cloud-publisher.js","74","27","74","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;cloud-publisher.js:184[59:67];Sink: node.brokerurl;cloud-publisher.js:262[48:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;cloud-publisher.js:184[59:67];Sink: ""Connec ... okerurl;cloud-publisher.js:268[34:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;cloud-publisher.js:184[59:67];Sink: ""Discon ... okerurl;cloud-publisher.js:317[38:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;cloud-publisher.js:184[59:67];Sink: ""Connec ... okerurl;cloud-publisher.js:328[38:85]::FLOW_DESCR_END","/azeti/cloud-publisher.js","184","59","184","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloud-publisher.js:514[40:42];Sink: msg;cloud-publisher.js:521[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloud-publisher.js:514[40:42];Sink: msg;cloud-publisher.js:542[49:51]::FLOW_DESCR_END","/azeti/cloud-publisher.js","514","40","514","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event.js:64[36:38];Sink: msg;event.js:136[23:25]::FLOW_DESCR_END","/azeti/event.js","64","36","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;historical-data.js:24[36:38];Sink: msg;historical-data.js:49[23:25]::FLOW_DESCR_END","/azeti/historical-data.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor-id-setter.js:22[36:38];Sink: msg;sensor-id-setter.js:30[23:25]::FLOW_DESCR_END","/azeti/sensor-id-setter.js","22","36","22","38"

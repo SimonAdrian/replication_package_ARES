@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-airtable.js:20[22:25];Sink: [data, null];node-airtable.js:84[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-airtable.js:20[22:25];Sink: [null, data];node-airtable.js:87[22:33]::FLOW_DESCR_END","/node-airtable.js","20","22","20","25"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... his.id);oauth2.js:52[29:61];Sink: this.credentials;oauth2.js:351[44:59]::FLOW_DESCR_END","/src/oauth2.js","52","29","52","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);oauth2.js:421[28:60];Sink: credentials;oauth2.js:428[44:54]::FLOW_DESCR_END","/src/oauth2.js","421","28","421","60"

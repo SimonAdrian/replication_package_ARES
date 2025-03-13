@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ient_id;ushahidi-post.js:12[21:46];Sink: payload;ushahidi-post.js:125[17:23]::FLOW_DESCR_END","/ushahidi-post.js","12","21","12","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... _secret;ushahidi-post.js:13[25:54];Sink: payload;ushahidi-post.js:125[17:23]::FLOW_DESCR_END","/ushahidi-post.js","13","25","13","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;ushahidi-post.js:17[22:46];Sink: payload;ushahidi-post.js:125[17:23]::FLOW_DESCR_END","/ushahidi-post.js","17","22","17","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;ushahidi-post.js:18[22:46];Sink: payload;ushahidi-post.js:125[17:23]::FLOW_DESCR_END","/ushahidi-post.js","18","22","18","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;ushahidi-post.js:87[32:36];Sink: ""Respon ... : "" + e;ushahidi-post.js:103[26:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;ushahidi-post.js:87[32:36];Sink: payload;ushahidi-post.js:125[17:23]::FLOW_DESCR_END","/ushahidi-post.js","87","32","87","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ushahidi-post.js:119[31:33];Sink: err.toS ...  again"";ushahidi-post.js:120[20:95]::FLOW_DESCR_END","/ushahidi-post.js","119","31","119","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ushahidi-post.js:129[32:34];Sink: msg;ushahidi-post.js:183[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ushahidi-post.js:129[32:34];Sink: err.toS ... fy(msg);ushahidi-post.js:208[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ushahidi-post.js:129[32:34];Sink: payload;ushahidi-post.js:212[17:23]::FLOW_DESCR_END","/ushahidi-post.js","129","32","129","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.email;ushahidi-post.js:148[34:42];Sink: payload;ushahidi-post.js:212[17:23]::FLOW_DESCR_END","/ushahidi-post.js","148","34","148","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;ushahidi-post.js:167[32:36];Sink: ""Respon ... : "" + e;ushahidi-post.js:180[26:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;ushahidi-post.js:167[32:36];Sink: err.toS ... fy(msg);ushahidi-post.js:208[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;ushahidi-post.js:167[32:36];Sink: payload;ushahidi-post.js:212[17:23]::FLOW_DESCR_END","/ushahidi-post.js","167","32","167","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ushahidi-post.js:207[31:33];Sink: err.toS ... fy(msg);ushahidi-post.js:208[20:83]::FLOW_DESCR_END","/ushahidi-post.js","207","31","207","33"

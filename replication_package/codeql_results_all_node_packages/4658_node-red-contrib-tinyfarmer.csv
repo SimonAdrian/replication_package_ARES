@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control_relay.js:16[35:37];Sink: msg;control_relay.js:62[23:25]::FLOW_DESCR_END","/nodes/control_relay.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google_sheet.js:18[35:37];Sink: paramString;google_sheet.js:26[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google_sheet.js:18[35:37];Sink: msg.url;google_sheet.js:41[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google_sheet.js:18[35:37];Sink: msg;google_sheet.js:43[31:33]::FLOW_DESCR_END","/nodes/google_sheet.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;paramplus.js:14[35:37];Sink: msg.payload;paramplus.js:21[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;paramplus.js:14[35:37];Sink: msg;paramplus.js:23[23:25]::FLOW_DESCR_END","/nodes/paramplus.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor_co2.js:13[35:37];Sink: msg.payload;sensor_co2.js:18[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor_co2.js:13[35:37];Sink: msg;sensor_co2.js:22[23:25]::FLOW_DESCR_END","/nodes/sensor_co2.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor_cust.js:19[35:37];Sink: msg.payload;sensor_cust.js:24[25:35]::FLOW_DESCR_END","/nodes/sensor_cust.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor_humi.js:13[35:37];Sink: msg.payload;sensor_humi.js:18[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor_humi.js:13[35:37];Sink: msg;sensor_humi.js:22[23:25]::FLOW_DESCR_END","/nodes/sensor_humi.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor_illumi.js:13[35:37];Sink: msg.payload;sensor_illumi.js:18[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor_illumi.js:13[35:37];Sink: msg;sensor_illumi.js:22[23:25]::FLOW_DESCR_END","/nodes/sensor_illumi.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor_no.js:13[35:37];Sink: msg.payload;sensor_no.js:18[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor_no.js:13[35:37];Sink: msg;sensor_no.js:23[27:29]::FLOW_DESCR_END","/nodes/sensor_no.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor_temp.js:13[35:37];Sink: msg.payload;sensor_temp.js:18[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor_temp.js:13[35:37];Sink: msg;sensor_temp.js:22[23:25]::FLOW_DESCR_END","/nodes/sensor_temp.js","13","35","13","37"

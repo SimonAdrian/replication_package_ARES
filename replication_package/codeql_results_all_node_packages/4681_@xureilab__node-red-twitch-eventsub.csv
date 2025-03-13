@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();twitch-eventsub-config.js:39[30:40];Sink: y;twitch-eventsub-config.js:33[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();twitch-eventsub-config.js:39[30:40];Sink: y;twitch-eventsub-config.js:33[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();twitch-eventsub-config.js:39[30:40];Sink: op[1];twitch-eventsub-config.js:33[147:151]::FLOW_DESCR_END","/dist/twitch-eventsub-config.js","39","30","39","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();twitch-eventsub-service.js:24[30:40];Sink: y;twitch-eventsub-service.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();twitch-eventsub-service.js:24[30:40];Sink: y;twitch-eventsub-service.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();twitch-eventsub-service.js:24[30:40];Sink: op[1];twitch-eventsub-service.js:18[147:151]::FLOW_DESCR_END","/dist/twitch-eventsub-service.js","24","30","24","40"

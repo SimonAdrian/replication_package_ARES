@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;wechat.js:58[50:56];Sink: topic+''+message;wechat.js:60[33:48]::FLOW_DESCR_END","/extra/wechat/wechat.js","58","50","58","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wechat.js:76[35:37];Sink: msg.payload;wechat.js:79[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wechat.js:76[35:37];Sink: msg;wechat.js:107[49:51]::FLOW_DESCR_END","/extra/wechat/wechat.js","76","35","76","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;edisonserial.js:62[35:37];Sink: ""Send M ... payload;edisonserial.js:67[22:51]::FLOW_DESCR_END","/hardwareOutput/edisonSerial/edisonserial.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;camera.js:21[28:28];Sink: e;camera.js:22[41:41]::FLOW_DESCR_END","/imageProcessing/camera/camera.js","21","28","21","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;disp.js:26[28:28];Sink: e;disp.js:27[42:42]::FLOW_DESCR_END","/io/disp.js","26","28","26","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;disp.js:81[35:38];Sink: data.payload;disp.js:83[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;disp.js:81[35:38];Sink: data;disp.js:85[34:37]::FLOW_DESCR_END","/io/disp.js","81","35","81","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dispGauge.ejs:167[35:38];Sink: 'recv ' + data;dispGauge.ejs:168[15:28]::FLOW_DESCR_END","/io/dispGauge.ejs","167","35","167","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;add-strings.js:23[35:37];Sink: msg;add-strings.js:33[23:25]::FLOW_DESCR_END","/logic/addString/add-strings.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;change-sign.js:22[35:37];Sink: msg;change-sign.js:25[27:29]::FLOW_DESCR_END","/logic/changeSign/change-sign.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;change-type.js:22[35:37];Sink: msg;change-type.js:34[23:25]::FLOW_DESCR_END","/logic/changeType/change-type.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;substring.js:9[30:32];Sink: msg;substring.js:17[15:17]::FLOW_DESCR_END","/logic/subString/substring.js","9","30","9","32"

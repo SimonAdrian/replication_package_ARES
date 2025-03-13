@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:99[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:100[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:101[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:102[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:103[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:104[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: key;cosmino-digitaltwin-change-status.js:105[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmino-digitaltwin-change-status.js:10[38:40];Sink: url;cosmino-digitaltwin-change-status.js:110[17:19]::FLOW_DESCR_END","/cosmino-digitaltwin-change-status.js","10","38","10","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;cosmino-digitaltwin-change-status.js:74[58:69];Sink: url;cosmino-digitaltwin-change-status.js:82[22:24]::FLOW_DESCR_END","/cosmino-digitaltwin-change-status.js","74","58","74","69"

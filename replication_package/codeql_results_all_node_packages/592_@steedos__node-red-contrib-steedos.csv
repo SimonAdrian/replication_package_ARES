@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:292[25:27];Sink: msg;index.js:294[58:60]::FLOW_DESCR_END","/index.js","292","25","292","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:329[31:33];Sink: msg;index.js:331[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:329[31:33];Sink: action;index.js:354[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:329[31:33];Sink: msg.payload;index.js:354[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:329[31:33];Sink: options;index.js:354[72:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:329[31:33];Sink: msg;index.js:359[18:20]::FLOW_DESCR_END","/index.js","329","31","329","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:499[23:25];Sink: e;index.js:501[53:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:499[23:25];Sink: msg;index.js:501[56:58]::FLOW_DESCR_END","/index.js","499","23","499","25"

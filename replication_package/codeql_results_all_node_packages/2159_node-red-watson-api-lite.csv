@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;main.js:18[19:21];Sink: msg;main.js:53[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:18[19:21];Sink: msg;main.js:58[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:18[19:21];Sink: msg;main.js:70[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:18[19:21];Sink: msg;main.js:74[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:18[19:21];Sink: msg;main.js:89[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:18[19:21];Sink: msg;main.js:93[23:25]::FLOW_DESCR_END","/nodes/assistant/main.js","18","19","18","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;main.js:21[19:21];Sink: msg;main.js:36[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:21[19:21];Sink: msg;main.js:43[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:21[19:21];Sink: msg;main.js:99[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:21[19:21];Sink: msg;main.js:114[19:21]::FLOW_DESCR_END","/nodes/speech-to-text/main.js","21","19","21","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;main.js:12[19:21];Sink: msg;main.js:34[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;main.js:12[19:21];Sink: msg;main.js:42[21:23]::FLOW_DESCR_END","/nodes/text-to-speech/main.js","12","19","12","21"

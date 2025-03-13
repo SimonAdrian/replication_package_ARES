@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;s5.js:13[32:34];Sink: msg;s5.js:15[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s5.js:13[32:34];Sink: msg;s5.js:428[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s5.js:13[32:34];Sink: msg;s5.js:433[105:107]::FLOW_DESCR_END","/red/s5.js","13","32","13","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;s5.js:222[35:37];Sink: err;s5.js:223[32:34]::FLOW_DESCR_END","/red/s5.js","222","35","222","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;s5.js:290[26:26];Sink: e insta ... gify(e);s5.js:292[24:73]::FLOW_DESCR_END","/red/s5.js","290","26","290","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;s5.js:437[32:34];Sink: res.msg;s5.js:442[26:32]::FLOW_DESCR_END","/red/s5.js","437","32","437","34"

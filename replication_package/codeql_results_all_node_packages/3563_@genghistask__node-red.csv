@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tab.id. ... ).pop();genghistask.html:110[61:101];Sink: url;genghistask.html:113[27:29]::FLOW_DESCR_END","/genghistask.html","110","61","110","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;genghistask.js:28[58:60];Sink: err.code;genghistask.js:29[32:39]::FLOW_DESCR_END","/genghistask.js","28","58","28","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;genghistask.js:31[59:61];Sink: err.code;genghistask.js:32[32:39]::FLOW_DESCR_END","/genghistask.js","31","59","31","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;genghistask.js:42[52:55];Sink: code;genghistask.js:44[32:35]::FLOW_DESCR_END","/genghistask.js","42","52","42","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... '.pub');ssh.js:12[16:44];Sink: Ssh.getPublicKey();genghistask-ssh.js:5[18:35]::FLOW_DESCR_END","/helper/ssh.js","12","16","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ogfile);workspace.js:104[12:35];Sink: workspa ... tab_id);genghistask.js:100[18:73]::FLOW_DESCR_END","/helper/workspace.js","104","12","104","35"

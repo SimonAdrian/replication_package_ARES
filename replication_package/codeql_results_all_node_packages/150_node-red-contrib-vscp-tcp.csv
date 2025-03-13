@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-in.js:89[22:30];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","89","22","89","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host.host;vscp-tcp-in.js:90[17:30];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","90","17","90","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-in.js:90[17:25];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","90","17","90","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host.port;vscp-tcp-in.js:91[17:30];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","91","17","91","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-in.js:91[17:25];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","91","17","91","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-in.js:126[15:23];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","126","15","126","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;vscp-tcp-in.js:127[15:23];Sink: 'Connec ... is.port;vscp-tcp-in.js:124[14:23]::FLOW_DESCR_END","/src/vscp-tcp-in.js","127","15","127","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vscp-tcp-in.js:194[42:44];Sink: err;vscp-tcp-in.js:197[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;vscp-tcp-in.js:194[42:44];Sink: err.message;vscp-tcp-in.js:197[23:33]::FLOW_DESCR_END","/src/vscp-tcp-in.js","194","42","194","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-out.js:86[22:30];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","86","22","86","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host.host;vscp-tcp-out.js:87[17:30];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","87","17","87","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-out.js:87[17:25];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","87","17","87","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host.port;vscp-tcp-out.js:88[17:30];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","88","17","88","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-out.js:88[17:25];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","88","17","88","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;vscp-tcp-out.js:104[15:23];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","104","15","104","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;vscp-tcp-out.js:105[15:23];Sink: 'Connec ... is.port;vscp-tcp-out.js:102[14:23]::FLOW_DESCR_END","/src/vscp-tcp-out.js","105","15","105","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vscp-tcp-out.js:165[42:44];Sink: err;vscp-tcp-out.js:168[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;vscp-tcp-out.js:165[42:44];Sink: err;vscp-tcp-out.js:171[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;vscp-tcp-out.js:165[42:44];Sink: err.message;vscp-tcp-out.js:171[23:33]::FLOW_DESCR_END","/src/vscp-tcp-out.js","165","42","165","44"

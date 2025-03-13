@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lz4.js:60[22:24];Sink: msg;lz4.js:27[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lz4.js:60[22:24];Sink: msg;lz4.js:31[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lz4.js:60[22:24];Sink: msg;lz4.js:40[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lz4.js:60[22:24];Sink: msg;lz4.js:44[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lz4.js:60[22:24];Sink: msg;lz4.js:63[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lz4.js:60[22:24];Sink: msg;lz4.js:86[34:36]::FLOW_DESCR_END","/lz4.js","60","22","60","24"

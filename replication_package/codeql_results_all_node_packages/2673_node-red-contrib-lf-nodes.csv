@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addAlarm.js:14[31:33];Sink: msg;addAlarm.js:45[19:21]::FLOW_DESCR_END","/nodes/addAlarm/addAlarm.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alarmList.js:12[31:33];Sink: msg;alarmList.js:46[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarmList.js:12[31:33];Sink: msg;alarmList.js:56[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarmList.js:12[31:33];Sink: msg;alarmList.js:113[25:27]::FLOW_DESCR_END","/nodes/alarmList/alarmList.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;configFrontend.js:14[31:33];Sink: msg;configFrontend.js:58[19:21]::FLOW_DESCR_END","/nodes/configFrontend/configFrontend.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grafana.js:8[31:33];Sink: msg;grafana.js:14[17:19]::FLOW_DESCR_END","/nodes/grafana/grafana.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;interactiveNode.js:7[31:33];Sink: msg;interactiveNode.js:14[17:19]::FLOW_DESCR_END","/nodes/interactiveNode/interactiveNode.js","7","31","7","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sceneSwitch.js:9[31:33];Sink: msg;sceneSwitch.js:19[19:21]::FLOW_DESCR_END","/nodes/sceneSwitch/sceneSwitch.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateAlarmStatus.js:10[31:33];Sink: msg;updateAlarmStatus.js:33[19:21]::FLOW_DESCR_END","/nodes/updateAlarmStatus/updateAlarmStatus.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;visualNode.js:7[31:33];Sink: msg;visualNode.js:13[17:19]::FLOW_DESCR_END","/nodes/visualNode/visualNode.js","7","31","7","33"

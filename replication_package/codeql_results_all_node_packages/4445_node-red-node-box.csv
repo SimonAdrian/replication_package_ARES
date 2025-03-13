@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:115[51:54];Sink: req;box.js:115[24:26]::FLOW_DESCR_END","/box.js","115","51","115","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.it ... entries;box.js:162[27:54];Sink: req;box.js:115[24:26]::FLOW_DESCR_END","/box.js","162","27","162","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entries[i];box.js:167[51:60];Sink: req;box.js:115[24:26]::FLOW_DESCR_END","/box.js","167","51","167","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);box.js:257[27:59];Sink: credentials;box.js:294[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);box.js:257[27:59];Sink: credentials;box.js:314[51:61]::FLOW_DESCR_END","/box.js","257","27","257","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;box.js:277[21:23];Sink: ""reques ... "" + err;box.js:279[29:50]::FLOW_DESCR_END","/box.js","277","21","277","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:277[34:37];Sink: ""oauth  ... a.error;box.js:283[29:56]::FLOW_DESCR_END","/box.js","277","34","277","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;box.js:299[25:27];Sink: 'fetchi ... ' + err;box.js:301[33:69]::FLOW_DESCR_END","/box.js","299","25","299","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;box.js:299[30:35];Sink: 'fetchi ... message;box.js:305[33:71]::FLOW_DESCR_END","/box.js","299","30","299","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:299[38:41];Sink: 'fetchi ... message;box.js:305[33:71]::FLOW_DESCR_END","/box.js","299","38","299","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:340[39:41];Sink: msg;box.js:346[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:340[39:41];Sink: msg;box.js:406[19:21]::FLOW_DESCR_END","/box.js","340","39","340","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:437[35:37];Sink: msg;box.js:447[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:437[35:37];Sink: msg;box.js:460[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:437[35:37];Sink: msg;box.js:466[35:37]::FLOW_DESCR_END","/box.js","437","35","437","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:485[35:37];Sink: msg;box.js:500[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:485[35:37];Sink: msg;box.js:520[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:485[35:37];Sink: msg;box.js:533[94:96]::FLOW_DESCR_END","/box.js","485","35","485","37"

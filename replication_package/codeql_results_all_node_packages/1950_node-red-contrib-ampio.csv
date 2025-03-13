@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ampio-config.js:28[21:31];Sink: node.brokerurl;ampio-config.js:67[21:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;ampio-config.js:28[21:31];Sink: node.brokerurl;ampio-config.js:119[29:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;ampio-config.js:28[21:31];Sink: ""Ampio  ... lientId;ampio-config.js:129[34:140]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;ampio-config.js:28[21:31];Sink: ""! Ampi ... lientId;ampio-config.js:168[38:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;ampio-config.js:28[21:31];Sink: ""! FAIL ... lientId;ampio-config.js:177[38:142]::FLOW_DESCR_END","/ampioin/ampio-config.js","28","21","28","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;ampio-config.js:65[62:70];Sink: node.brokerurl;ampio-config.js:67[21:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;ampio-config.js:65[62:70];Sink: node.brokerurl;ampio-config.js:119[29:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;ampio-config.js:65[62:70];Sink: ""Ampio  ... lientId;ampio-config.js:129[34:140]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;ampio-config.js:65[62:70];Sink: ""! Ampi ... lientId;ampio-config.js:168[38:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;ampio-config.js:65[62:70];Sink: ""! FAIL ... lientId;ampio-config.js:177[38:142]::FLOW_DESCR_END","/ampioin/ampio-config.js","65","62","65","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ampio-config.js:182[54:58];Sink: error;ampio-config.js:183[37:41]::FLOW_DESCR_END","/ampioin/ampio-config.js","182","54","182","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ampio-config.js:268[84:86];Sink: err;ampio-config.js:273[41:43]::FLOW_DESCR_END","/ampioin/ampio-config.js","268","84","268","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;in.html:60[159:166];Sink: ""b64->U ... ob(str);in.html:41[23:54]::FLOW_DESCR_END","/ampioin/in.html","60","159","60","166"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;in.html:63[160:167];Sink: ""b64->U ... ob(str);in.html:41[23:54]::FLOW_DESCR_END","/ampioin/in.html","63","160","63","167"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;in.html:72[39:46];Sink: ""b64->U ... ob(str);in.html:41[23:54]::FLOW_DESCR_END","/ampioin/in.html","72","39","72","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;lcd.html:58[135:142];Sink: ""b64->U ... ob(str);lcd.html:41[23:54]::FLOW_DESCR_END","/ampioin/lcd.html","58","135","58","142"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;lcd.html:61[41:48];Sink: ""b64->U ... ob(str);lcd.html:41[23:54]::FLOW_DESCR_END","/ampioin/lcd.html","61","41","61","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;out.html:63[159:166];Sink: ""b64->U ... ob(str);out.html:43[23:54]::FLOW_DESCR_END","/ampioin/out.html","63","159","63","166"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;out.html:66[160:167];Sink: ""b64->U ... ob(str);out.html:43[23:54]::FLOW_DESCR_END","/ampioin/out.html","66","160","66","167"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.name;out.html:75[39:46];Sink: ""b64->U ... ob(str);out.html:43[23:54]::FLOW_DESCR_END","/ampioin/out.html","75","39","75","46"

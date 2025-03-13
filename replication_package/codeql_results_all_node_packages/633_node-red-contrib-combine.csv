@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;combine-bangbang.js:9[30:32];Sink: msg;combine-bangbang.js:28[23:25]::FLOW_DESCR_END","/nodes/combine-bangbang.js","9","30","9","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;combine-defer.js:17[30:32];Sink: msg;combine-defer.js:29[39:41]::FLOW_DESCR_END","/nodes/combine-defer.js","17","30","17","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;combine-if.js:6[30:32];Sink: [msg, null];combine-if.js:15[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;combine-if.js:6[30:32];Sink: [null, msg];combine-if.js:17[31:41]::FLOW_DESCR_END","/nodes/combine-if.js","6","30","6","32"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bp-awair.js:39[32:34];Sink: msg;bp-awair.js:55[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bp-awair.js:39[32:34];Sink: msg;bp-awair.js:165[29:31]::FLOW_DESCR_END","/bp-awair.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data:e;vue.global.prod.js:1[31657:31662];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31657","1","31662"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: setupState:t;vue.global.prod.js:1[31664:31675];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31664","1","31675"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ctx:o;vue.global.prod.js:1[31691:31695];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31691","1","31695"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: appContext:r;vue.global.prod.js:1[31697:31708];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31697","1","31708"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: propsOptions:s;vue.global.prod.js:1[31710:31723];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31710","1","31723"

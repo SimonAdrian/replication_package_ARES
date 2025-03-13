@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xml-stream.js:44[35:37];Sink: msg.filename;xml-stream.js:14[33:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xml-stream.js:44[35:37];Sink: msg.filename;xml-stream.js:31[42:53]::FLOW_DESCR_END","/xml-stream.js","44","35","44","37"

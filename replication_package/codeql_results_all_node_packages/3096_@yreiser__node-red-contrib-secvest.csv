@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;secvest_command.js:9[18:33];Sink: url;secvest_command.js:45[14:16]::FLOW_DESCR_END","/secvest_command.js","9","18","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;secvest_command.js:10[18:33];Sink: url;secvest_command.js:45[14:16]::FLOW_DESCR_END","/secvest_command.js","10","18","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;secvest_command.js:18[32:34];Sink: url;secvest_command.js:45[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secvest_command.js:18[32:34];Sink: msg;secvest_command.js:74[21:23]::FLOW_DESCR_END","/secvest_command.js","18","32","18","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;secvest_status.js:9[18:33];Sink: url;secvest_status.js:42[14:16]::FLOW_DESCR_END","/secvest_status.js","9","18","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;secvest_status.js:10[18:33];Sink: url;secvest_status.js:42[14:16]::FLOW_DESCR_END","/secvest_status.js","10","18","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;secvest_status.js:16[32:34];Sink: msg;secvest_status.js:63[21:23]::FLOW_DESCR_END","/secvest_status.js","16","32","16","34"

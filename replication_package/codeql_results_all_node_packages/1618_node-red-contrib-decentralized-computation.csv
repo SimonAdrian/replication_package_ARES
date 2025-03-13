@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;and.js:48[32:34];Sink: msg;and.js:54[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;and.js:48[32:34];Sink: msg;and.js:59[50:52]::FLOW_DESCR_END","/and/and.js","48","32","48","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:217[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:218[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:219[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:318[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: parts;if.js:320[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:363[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:364[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:365[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: nextMsg;if.js:431[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;if.js:447[32:34];Sink: msg;if.js:452[33:35]::FLOW_DESCR_END","/if/if.js","447","32","447","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nothing.js:46[32:34];Sink: msg;nothing.js:47[17:19]::FLOW_DESCR_END","/nothing/nothing.js","46","32","46","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;orchestrator.js:449[14:18];Sink: `Receiv ... topic}`;orchestrator.js:453[26:76]::FLOW_DESCR_END","/orchestrator/orchestrator.js","449","14","449","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;proxymqtt.js:52[17:22];Sink: node.brokerurl;proxymqtt.js:266[38:51]::FLOW_DESCR_END","/proxymqtt/proxymqtt.js","52","17","52","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;proxymqtt.js:185[47:55];Sink: node.brokerurl;proxymqtt.js:266[38:51]::FLOW_DESCR_END","/proxymqtt/proxymqtt.js","185","47","185","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;proxymqtt.js:360[45:49];Sink: error;proxymqtt.js:361[24:28]::FLOW_DESCR_END","/proxymqtt/proxymqtt.js","360","45","360","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;proxymqtt.js:610[34:36];Sink: msg;proxymqtt.js:623[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;proxymqtt.js:610[34:36];Sink: msg;proxymqtt.js:625[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;proxymqtt.js:610[34:36];Sink: modified_msg;proxymqtt.js:646[39:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;proxymqtt.js:610[34:36];Sink: msg;proxymqtt.js:649[39:41]::FLOW_DESCR_END","/proxymqtt/proxymqtt.js","610","34","610","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;proxymqtt.js:610[45:48];Sink: done;proxymqtt.js:646[53:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: done;proxymqtt.js:610[45:48];Sink: done;proxymqtt.js:649[44:47]::FLOW_DESCR_END","/proxymqtt/proxymqtt.js","610","45","610","48"

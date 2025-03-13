@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;homegear-mqtt.js:71[64:70];Sink: 'unexpe ... result);homegear-mqtt.js:91[17:93]::FLOW_DESCR_END","/homegear-mqtt.js","71","64","71","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;homegear-mqtt.js:171[29:33];Sink: '""' + p ... ameter';homegear-mqtt.js:202[16:74]::FLOW_DESCR_END","/homegear-mqtt.js","171","29","171","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... lename);conv-hm-rftypes.js:207[13:37];Sink: '  -> g ...  + '"")';conv-hm-rftypes.js:53[17:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lename);conv-hm-rftypes.js:207[13:37];Sink: '  - ch ... count.';conv-hm-rftypes.js:70[16:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lename);conv-hm-rftypes.js:207[13:37];Sink: ' - fou ... e + '""';conv-hm-rftypes.js:233[16:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lename);conv-hm-rftypes.js:207[13:37];Sink: 'Unique ... .length;conv-hm-rftypes.js:268[13:53]::FLOW_DESCR_END","/util/conv-hm-rftypes.js","207","13","207","37"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;array-loop.js:34[36:38];Sink: [null, msg];array-loop.js:62[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;array-loop.js:34[36:38];Sink: msg;array-loop.js:87[27:29]::FLOW_DESCR_END","/array-loop.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;counter-loop.js:39[36:38];Sink: [null, msg];counter-loop.js:97[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter-loop.js:39[36:38];Sink: msg;counter-loop.js:122[27:29]::FLOW_DESCR_END","/counter-loop.js","39","36","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;while-loop.js:142[36:38];Sink: msg;while-loop.js:162[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;while-loop.js:142[36:38];Sink: [null, msg];while-loop.js:178[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;while-loop.js:142[36:38];Sink: msg;while-loop.js:186[31:33]::FLOW_DESCR_END","/while-loop.js","142","36","142","38"

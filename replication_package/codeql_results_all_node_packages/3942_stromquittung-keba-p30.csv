@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gsi_kebap30.js:13[38:40];Sink: json;gsi_kebap30.js:15[23:26]::FLOW_DESCR_END","/lib/gsi_kebap30.js","13","38","13","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gsi_kebap30.js:54[46:48];Sink: json[""Session ID""];gsi_kebap30.js:68[45:62]::FLOW_DESCR_END","/lib/gsi_kebap30.js","54","46","54","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.account;gsi_kebap30.js:69[98:114];Sink: ""https: ... account;gsi_kebap30.js:69[47:114]::FLOW_DESCR_END","/lib/gsi_kebap30.js","69","98","69","114"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nr-quittung.js:8[35:37];Sink: msg;nr-quittung.js:14[25:27]::FLOW_DESCR_END","/nr-quittung.js","8","35","8","37"

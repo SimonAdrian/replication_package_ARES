@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: msg.coo ... ].value;schedulerTaskStop.js:44[58:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: msg.cookies[name];schedulerTaskStop.js:44[82:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: msg.cookies[name];schedulerTaskStop.js:46[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: statusCode;schedulerTaskStop.js:53[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: len;schedulerTaskStop.js:66[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: statusCode;schedulerTaskStop.js:72[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedulerTaskStop.js:11[34:36];Sink: msg.payload;schedulerTaskStop.js:72[58:68]::FLOW_DESCR_END","/schedulerTaskStop.js","11","34","11","36"

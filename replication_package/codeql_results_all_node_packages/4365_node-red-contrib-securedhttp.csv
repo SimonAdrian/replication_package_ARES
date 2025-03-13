@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;securedhttp.js:232[34:36];Sink: err;securedhttp.js:235[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedhttp.js:232[34:36];Sink: err;securedhttp.js:235[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedhttp.js:232[34:36];Sink: errorMessage;securedhttp.js:248[46:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedhttp.js:232[34:36];Sink: errorMessage;securedhttp.js:249[48:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;securedhttp.js:232[34:36];Sink: errorMessage;securedhttp.js:249[62:73]::FLOW_DESCR_END","/securedhttp.js","232","34","232","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: errorMessage;securedhttp.js:248[46:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: errorMessage;securedhttp.js:249[48:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: errorMessage;securedhttp.js:249[62:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: ""user "" ... s flow"";securedhttp.js:258[50:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: ""user "" ... s flow"";securedhttp.js:265[62:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: errorMessage;securedhttp.js:289[50:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: errorMessage;securedhttp.js:290[52:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;securedhttp.js:232[39:46];Sink: errorMessage;securedhttp.js:290[66:77]::FLOW_DESCR_END","/securedhttp.js","232","39","232","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: msg.headers;securedhttp.js:365[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: msg.coo ... ].value;securedhttp.js:377[58:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: msg.cookies[name];securedhttp.js:377[82:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: msg.cookies[name];securedhttp.js:379[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: statusCode;securedhttp.js:386[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: len;securedhttp.js:399[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: statusCode;securedhttp.js:405[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;securedhttp.js:362[34:36];Sink: msg.payload;securedhttp.js:405[58:68]::FLOW_DESCR_END","/securedhttp.js","362","34","362","36"

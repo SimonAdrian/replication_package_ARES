@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;parts-unlimited-orders.html:162[39:39];Sink: `const| ... value}`;parts-unlimited-orders.html:165[77:101]::FLOW_DESCR_END","/parts-unlimited-orders.html","162","39","162","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;parts-unlimited-orders.html:233[30:30];Sink: `${type ... value}`;parts-unlimited-orders.html:238[85:111]::FLOW_DESCR_END","/parts-unlimited-orders.html","233","30","233","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: type;parts-unlimited-orders.html:233[33:36];Sink: `${type ... value}`;parts-unlimited-orders.html:238[85:111]::FLOW_DESCR_END","/parts-unlimited-orders.html","233","33","233","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;parts-unlimited-orders.js:12[38:40];Sink: [msg, null];parts-unlimited-orders.js:19[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;parts-unlimited-orders.js:12[38:40];Sink: [null, msg];parts-unlimited-orders.js:25[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;parts-unlimited-orders.js:12[38:40];Sink: msg;parts-unlimited-orders.js:34[26:28]::FLOW_DESCR_END","/parts-unlimited-orders.js","12","38","12","40"

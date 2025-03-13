@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform-text.js:8[35:37];Sink: msg;transform-text.js:12[26:28]::FLOW_DESCR_END","/dist/nodes/transform-text/transform-text.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform-text.js:18[35:37];Sink: msg;transform-text.js:23[26:28]::FLOW_DESCR_END","/dist/nodes/transform-text/transform-text.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform-text.js:29[35:37];Sink: msg;transform-text.js:33[26:28]::FLOW_DESCR_END","/dist/nodes/transform-text/transform-text.js","29","35","29","37"

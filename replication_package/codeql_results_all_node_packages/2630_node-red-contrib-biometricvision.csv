@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;biometricCompare.js:285[24:28];Sink: value;biometricCompare.js:19[49:53]::FLOW_DESCR_END","/biometricvision/biometricCompare.js","285","24","285","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;biometricCompare.js:306[18:22];Sink: error;biometricCompare.js:309[15:19]::FLOW_DESCR_END","/biometricvision/biometricCompare.js","306","18","306","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;biometricCompare.js:366[22:29];Sink: value;biometricCompare.js:19[49:53]::FLOW_DESCR_END","/biometricvision/biometricCompare.js","366","22","366","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: value;biometricCompare.js:19[49:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: data;biometricCompare.js:229[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: msg;biometricCompare.js:294[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: [null,msg];biometricCompare.js:295[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: msg;biometricCompare.js:382[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: [null,msg];biometricCompare.js:383[20:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: msg.pay ... ll,msg];biometricCompare.js:408[14:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: [null,null,msg];biometricCompare.js:471[14:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;biometricCompare.js:519[29:31];Sink: [null,null,null,msg];biometricCompare.js:494[15:34]::FLOW_DESCR_END","/biometricvision/biometricCompare.js","519","29","519","31"

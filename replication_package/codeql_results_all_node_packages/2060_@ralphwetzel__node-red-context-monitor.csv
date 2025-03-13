@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;monitor.js:210[58:62];Sink: object;monitor.js:115[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value;monitor.js:210[58:62];Sink: object;monitor.js:134[62:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value;monitor.js:210[58:62];Sink: object;monitor.js:135[47:52]::FLOW_DESCR_END","/lib/monitor.js","210","58","210","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monitor.js:176[35:37];Sink: [msg, m];monitor.js:192[22:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monitor.js:176[35:37];Sink: [msg, null];monitor.js:195[22:32]::FLOW_DESCR_END","/monitor.js","176","35","176","37"

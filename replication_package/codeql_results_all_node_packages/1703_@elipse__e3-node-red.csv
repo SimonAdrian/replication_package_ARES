@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ConnectionManager.js:71[48:56];Sink: `[E3] ${msg}`;connectionConfig.js:7[171:183]::FLOW_DESCR_END","/dist/ConnectionManager.js","71","48","71","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ConnectionManager.js:76[51:59];Sink: `[E3] ${msg}`;connectionConfig.js:7[171:183]::FLOW_DESCR_END","/dist/ConnectionManager.js","76","51","76","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ConnectionManager.js:81[34:36];Sink: err.message;ConnectionManager.js:87[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ConnectionManager.js:81[34:36];Sink: err.message;ConnectionManager.js:90[35:45]::FLOW_DESCR_END","/dist/ConnectionManager.js","81","34","81","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ConnectionManager.js:95[56:64];Sink: `[E3] ${msg}`;connectionConfig.js:7[171:183]::FLOW_DESCR_END","/dist/ConnectionManager.js","95","56","95","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ConnectionManager.js:129[58:66];Sink: `Discon ... .port}`;ConnectionManager.js:129[18:68]::FLOW_DESCR_END","/dist/ConnectionManager.js","129","58","129","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ConnectionManager.js:194[64:72];Sink: `Failed ... iod}ms`;ConnectionManager.js:194[22:112]::FLOW_DESCR_END","/dist/ConnectionManager.js","194","64","194","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ConnectionManager.js:197[128:136];Sink: `Reache ... ing up`;ConnectionManager.js:197[22:149]::FLOW_DESCR_END","/dist/ConnectionManager.js","197","128","197","136"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;connectionConfig.js:6[65:75];Sink: key;ConnectionManager.js:41[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;connectionConfig.js:6[65:75];Sink: `Failed ... iod}ms`;ConnectionManager.js:194[22:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;connectionConfig.js:6[65:75];Sink: `Reache ... ing up`;ConnectionManager.js:197[22:149]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;connectionConfig.js:6[65:75];Sink: this.ip;ConnectionManager.js:202[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;connectionConfig.js:6[65:75];Sink: `[E3] ${msg}`;connectionConfig.js:7[171:183]::FLOW_DESCR_END","/dist/nodes/connectionConfig.js","6","65","6","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;connectionConfig.js:7[72:82];Sink: key;ConnectionManager.js:41[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;connectionConfig.js:7[72:82];Sink: `Failed ... iod}ms`;ConnectionManager.js:194[22:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;connectionConfig.js:7[72:82];Sink: `Reache ... ing up`;ConnectionManager.js:197[22:149]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;connectionConfig.js:7[72:82];Sink: this.port;ConnectionManager.js:202[37:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;connectionConfig.js:7[72:82];Sink: `[E3] ${msg}`;connectionConfig.js:7[171:183]::FLOW_DESCR_END","/dist/nodes/connectionConfig.js","7","72","7","82"

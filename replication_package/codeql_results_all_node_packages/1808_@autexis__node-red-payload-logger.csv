@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: batchToProcess.pop();config.js:220[30:49];Sink: message;config.js:248[20:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: batchToProcess.pop();config.js:220[30:49];Sink: `Archiv ... hived.`;config.js:331[24:111]::FLOW_DESCR_END","/nodes/config/config.js","220","30","220","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dirs.pop();config.js:269[35:44];Sink: `[archi ... ipped.`;config.js:274[27:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dirs.pop();config.js:269[35:44];Sink: `[archi ... ${err}`;config.js:288[28:94]::FLOW_DESCR_END","/nodes/config/config.js","269","35","269","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: message;config.js:17[55:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... ePath}`;config.js:80[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... exists`;config.js:84[19:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... ting..`;config.js:86[19:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... eated.`;config.js:89[21:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... lename`;config.js:96[19:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... ting..`;config.js:100[19:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... eated.`;config.js:105[17:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[creat ... ${err}`;config.js:112[22:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `get al ... cPath}`;config.js:157[17:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[dirCr ... th} ..`;config.js:175[27:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `====== ${zip.name}`;config.js:212[23:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: message;config.js:248[20:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `[dirCr ... ${err}`;config.js:252[22:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `Pendin ... Dirs)}`;config.js:307[19:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingDirs.pop();config.js:308[32:48];Sink: `Archiv ... hived.`;config.js:331[24:111]::FLOW_DESCR_END","/nodes/config/config.js","308","32","308","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: (messag ... message;logger.js:89[20:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: `\n${ut ... sage)}`;logger.js:91[20:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: util.in ... essage);logger.js:93[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: dir;logger.js:101[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: logText;logger.js:101[61:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: `[creat ... exists`;logger.js:108[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: `creati ... ${dir}`;logger.js:212[22:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: `[creat ... exists`;logger.js:272[24:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: msg.payload;logger.js:338[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logger.js:13[29:31];Sink: msg;logger.js:403[17:19]::FLOW_DESCR_END","/nodes/logger/logger.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');logger.js:98[39:62];Sink: logText;logger.js:101[61:67]::FLOW_DESCR_END","/nodes/logger/logger.js","98","39","98","62"

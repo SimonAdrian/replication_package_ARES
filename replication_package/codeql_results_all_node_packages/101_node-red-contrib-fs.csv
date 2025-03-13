@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-file-copier.js:54[29:31];Sink: 'Either ... ode.ext;fs-file-copier.js:49[15:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fs-file-copier.js:54[29:31];Sink: msg;fs-file-copier.js:133[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fs-file-copier.js:54[29:31];Sink: msg;fs-file-copier.js:142[17:19]::FLOW_DESCR_END","/fs/fs-file-copier.js","54","29","54","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fs-file-copier.js:97[27:29];Sink: err;fs-file-copier.js:98[46:48]::FLOW_DESCR_END","/fs/fs-file-copier.js","97","27","97","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fs-file-copier.js:101[28:30];Sink: err;fs-file-copier.js:102[52:54]::FLOW_DESCR_END","/fs/fs-file-copier.js","101","28","101","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entry;fs-file-copier.js:105[27:31];Sink: 'Either ... ode.ext;fs-file-copier.js:49[15:118]::FLOW_DESCR_END","/fs/fs-file-copier.js","105","27","105","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fs-file-lister.js:201[30:32];Sink: err;fs-file-lister.js:202[95:97]::FLOW_DESCR_END","/fs/fs-file-lister.js","201","30","201","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fs-file-lister.js:205[31:33];Sink: err;fs-file-lister.js:206[67:69]::FLOW_DESCR_END","/fs/fs-file-lister.js","205","31","205","33"

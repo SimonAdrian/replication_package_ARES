@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;collect-2jciebu-usb.js:5[35:37];Sink: msg;collect-2jciebu-usb.js:70[27:29]::FLOW_DESCR_END","/collect-2jciebu-usb.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;collect-2jciebu-usb.js:80[36:38];Sink: 'error: ' + err;collect-2jciebu-usb.js:81[27:41]::FLOW_DESCR_END","/collect-2jciebu-usb.js","80","36","80","38"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... dentity;node-tradfri.js:64[25:49];Sink: node.identity;node-tradfri.js:95[38:50]::FLOW_DESCR_END","/dist/node-tradfri.js","64","25","64","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.credentials.psk;node-tradfri.js:65[20:39];Sink: node.psk;node-tradfri.js:95[53:60]::FLOW_DESCR_END","/dist/node-tradfri.js","65","20","65","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-tradfri.js:289[36:38];Sink: `[Tradf ... {res}'`;node-tradfri.js:279[35:112]::FLOW_DESCR_END","/dist/node-tradfri.js","289","36","289","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... dentity;node-tradfri.ts:59[25:49];Sink: node.identity;node-tradfri.ts:94[38:50]::FLOW_DESCR_END","/src/node-tradfri.ts","59","25","59","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.credentials.psk;node-tradfri.ts:60[20:39];Sink: node.psk;node-tradfri.ts:94[53:60]::FLOW_DESCR_END","/src/node-tradfri.ts","60","20","60","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-tradfri.ts:302[35:37];Sink: `[Tradf ... {res}'`;node-tradfri.ts:290[35:112]::FLOW_DESCR_END","/src/node-tradfri.ts","302","35","302","37"

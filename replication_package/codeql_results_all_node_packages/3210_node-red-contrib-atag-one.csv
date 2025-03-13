@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;thermostat.js:197[35:37];Sink: err;thermostat.js:88[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;thermostat.js:197[35:37];Sink: 'error: ' + err;thermostat.js:199[29:43]::FLOW_DESCR_END","/thermostat.js","197","35","197","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;thermostat.js:197[40:42];Sink: err;thermostat.js:88[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;thermostat.js:197[40:42];Sink: 'status ... tusCode;thermostat.js:202[29:55]::FLOW_DESCR_END","/thermostat.js","197","40","197","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;thermostat.js:197[45:48];Sink: data;thermostat.js:84[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;thermostat.js:197[45:48];Sink: result;thermostat.js:221[29:34]::FLOW_DESCR_END","/thermostat.js","197","45","197","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;thermostat.js:275[39:45];Sink: ""Messag ... fo.port;thermostat.js:277[25:120]::FLOW_DESCR_END","/thermostat.js","275","39","275","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: requestInfo;thermostat.js:275[48:58];Sink: ""POST p ... pairUrl;thermostat.js:146[21:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: requestInfo;thermostat.js:275[48:58];Sink: ""Messag ... fo.port;thermostat.js:277[25:120]::FLOW_DESCR_END","/thermostat.js","275","48","275","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: requestInfo.port;thermostat.js:277[105:120];Sink: ""Messag ... fo.port;thermostat.js:277[25:120]::FLOW_DESCR_END","/thermostat.js","277","105","277","120"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;thermostat.js:288[37:40];Sink: data;thermostat.js:289[25:28]::FLOW_DESCR_END","/thermostat.js","288","37","288","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thermostat.js:409[29:31];Sink: msg;thermostat.js:420[32:34]::FLOW_DESCR_END","/thermostat.js","409","29","409","31"

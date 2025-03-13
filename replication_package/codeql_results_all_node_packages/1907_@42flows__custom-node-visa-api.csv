@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;card-validation.js:8[29:31];Sink: [msg];card-validation.js:88[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;card-validation.js:8[29:31];Sink: [, msg];card-validation.js:94[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;card-validation.js:8[29:31];Sink: [, , msg];card-validation.js:96[20:28]::FLOW_DESCR_END","/src/custom_nodes/card-validation/card-validation.js","8","29","8","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-alias.js:10[29:31];Sink: [msg];create-alias.js:106[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-alias.js:10[29:31];Sink: [, msg];create-alias.js:112[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-alias.js:10[29:31];Sink: [, , msg];create-alias.js:114[20:28]::FLOW_DESCR_END","/src/custom_nodes/create-alias/create-alias.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pull-funds-transactions.js:10[29:31];Sink: [msg];pull-funds-transactions.js:144[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pull-funds-transactions.js:10[29:31];Sink: [, msg];pull-funds-transactions.js:150[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pull-funds-transactions.js:10[29:31];Sink: [, , msg];pull-funds-transactions.js:152[20:28]::FLOW_DESCR_END","/src/custom_nodes/pull-funds-transactions/pull-funds-transactions.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;push-funds-transactions.js:10[29:31];Sink: [msg];push-funds-transactions.js:144[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;push-funds-transactions.js:10[29:31];Sink: [, msg];push-funds-transactions.js:150[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;push-funds-transactions.js:10[29:31];Sink: [, , msg];push-funds-transactions.js:152[20:28]::FLOW_DESCR_END","/src/custom_nodes/push-funds-transactions/push-funds-transactions.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;resolve.js:10[29:31];Sink: msg;resolve.js:11[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resolve.js:10[29:31];Sink: [msg];resolve.js:30[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resolve.js:10[29:31];Sink: [, msg];resolve.js:36[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resolve.js:10[29:31];Sink: [, , msg];resolve.js:38[20:28]::FLOW_DESCR_END","/src/custom_nodes/resolve/resolve.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reverse-funds-transactions.js:10[29:31];Sink: [msg];reverse-funds-transactions.js:179[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reverse-funds-transactions.js:10[29:31];Sink: [, msg];reverse-funds-transactions.js:185[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reverse-funds-transactions.js:10[29:31];Sink: [, , msg];reverse-funds-transactions.js:187[20:28]::FLOW_DESCR_END","/src/custom_nodes/reverse-funds-transactions/reverse-funds-transactions.js","10","29","10","31"

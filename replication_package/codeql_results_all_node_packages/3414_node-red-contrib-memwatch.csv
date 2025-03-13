@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;memwatch.js:19[35:37];Sink: msg;memwatch.js:28[23:25]::FLOW_DESCR_END","/nodes/memwatch.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;memwatch.js:87[35:37];Sink: msg;memwatch.js:95[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;memwatch.js:87[35:37];Sink: msg;memwatch.js:100[27:29]::FLOW_DESCR_END","/nodes/memwatch.js","87","35","87","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;memwatch.js:115[35:37];Sink: msg;memwatch.js:127[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;memwatch.js:115[35:37];Sink: msg;memwatch.js:132[27:29]::FLOW_DESCR_END","/nodes/memwatch.js","115","35","115","37"

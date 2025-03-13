@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update;envisalink-controller.js:87[40:45];Sink: update;envisalink-controller.js:90[49:54]::FLOW_DESCR_END","/envisalink-controller.js","87","40","87","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update;envisalink-controller.js:95[45:50];Sink: update;envisalink-controller.js:98[54:59]::FLOW_DESCR_END","/envisalink-controller.js","95","45","95","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update;envisalink-controller.js:103[49:54];Sink: update;envisalink-controller.js:106[58:63]::FLOW_DESCR_END","/envisalink-controller.js","103","49","103","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update;envisalink-controller.js:111[42:47];Sink: update;envisalink-controller.js:114[51:56]::FLOW_DESCR_END","/envisalink-controller.js","111","42","111","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;envisalink-out.js:17[32:34];Sink: msg;envisalink-out.js:19[18:20]::FLOW_DESCR_END","/envisalink-out.js","17","32","17","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;envisalink.js:12[15:29];Sink: 'Login  ... assword;envisalink.js:94[31:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;envisalink.js:12[15:29];Sink: command ...  '\r\n';envisalink.js:184[25:51]::FLOW_DESCR_END","/envisalink.js","12","15","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ex;envisalink.js:32[41:42];Sink: '' + ex;envisalink.js:33[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;envisalink.js:32[41:42];Sink: ex;envisalink.js:34[25:26]::FLOW_DESCR_END","/envisalink.js","32","41","32","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;envisalink.js:50[40:43];Sink: tpi.pre ... pi.post;envisalink.js:61[37:115]::FLOW_DESCR_END","/envisalink.js","50","40","50","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _this.o ... assword;envisalink.js:94[71:92];Sink: 'Login  ... assword;envisalink.js:94[31:92]::FLOW_DESCR_END","/envisalink.js","94","71","94","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _this.o ... assword;envisalink.js:95[33:54];Sink: command ...  '\r\n';envisalink.js:184[25:51]::FLOW_DESCR_END","/envisalink.js","95","33","95","54"

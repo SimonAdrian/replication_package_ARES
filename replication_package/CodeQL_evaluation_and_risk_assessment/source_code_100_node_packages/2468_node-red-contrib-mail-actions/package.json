@@ -1,0 +1,29 @@
+{
+    "name": "node-red-contrib-mail-actions",
+    "version": "1.0.1",
+    "description": "A node to take operations on IMAP email.",
+    "main": "actions.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Andy Feltham",
+        "email": "andy.feltham@filament.ai"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FilamentAI/node-red-contrib-email-actions.git"
+    },
+    "keywords": [
+        "node-red"
+    ],
+    "dependencies": {
+        "imap-simple": "*"
+    },
+    "node-red": {
+        "nodes": {
+            "mailactions": "actions.js"
+        }
+    }
+}

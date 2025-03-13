@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;68-mysql.js:117[39:41];Sink: msg;68-mysql.js:129[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;68-mysql.js:117[39:41];Sink: msg;68-mysql.js:147[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;68-mysql.js:117[39:41];Sink: msg;68-mysql.js:151[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;68-mysql.js:117[39:41];Sink: msg;68-mysql.js:165[67:69]::FLOW_DESCR_END","/68-mysql.js","117","39","117","41"

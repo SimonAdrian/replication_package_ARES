@@ -1,0 +1,31 @@
+{
+  "name": "node-red-contrib-azure-iothub-service",
+  "description": "Nodes to communicate with devices via Azure IoT Hub and Event Hubs.",
+  "version": "0.0.3",
+  "author": { "name": "Bea Steers" },
+  "node-red": {
+    "nodes": {
+      "eventhub-recv": "lib/eventhub-recv.js",
+      "iothub-registry": "lib/iothub-registry.js",
+      "iothub-send": "lib/iothub-send.js"
+    }
+  },
+  "dependencies": {
+    "@azure/event-hubs": "5.12.0",
+    "azure-iothub": "1.16.5",
+    "azure-iot-common": "1.13.2"
+  },
+  "keywords": [
+    "node-red",
+    "Azure",
+    "Azure Event Hub",
+    "Event Hub",
+    "IoT",
+    "Event Hubs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beasteers/node-red-contrib-azure-iothub-service"
+  },
+  "license": "MIT"
+}

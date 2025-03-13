@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:61[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:64[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:68[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:73[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:82[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:85[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:91[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:94[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:98[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:106[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:109[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: ""Unsupp ... payload;xbox-controller.js:113[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xbox-controller.js:52[22:24];Sink: msg;xbox-controller.js:113[57:59]::FLOW_DESCR_END","/nodes/xbox-controller.js","52","22","52","24"

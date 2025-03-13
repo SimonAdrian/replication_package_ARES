@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;epi-aws.js:71[35:37];Sink: msg;epi-aws.js:74[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;epi-aws.js:71[35:37];Sink: msg;epi-aws.js:80[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;epi-aws.js:71[35:37];Sink: msg;epi-aws.js:92[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;epi-aws.js:71[35:37];Sink: msg;epi-aws.js:99[27:29]::FLOW_DESCR_END","/epi-aws.js","71","35","71","37"

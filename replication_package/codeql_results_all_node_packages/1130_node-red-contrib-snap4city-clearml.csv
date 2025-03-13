@@ -1,0 +1,30 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:21[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:32[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:34[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:62[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:67[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:78[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:84[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-enqueue.js:8[35:37];Sink: msg;clearml-serving-enqueue.js:113[27:29]::FLOW_DESCR_END","/clearml-serving-enqueue.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;clearml-serving-enqueue.js:58[25:29];Sink: errorMsg;clearml-serving-enqueue.js:61[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;clearml-serving-enqueue.js:58[25:29];Sink: errorMsg;clearml-serving-enqueue.js:62[32:39]::FLOW_DESCR_END","/clearml-serving-enqueue.js","58","25","58","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;clearml-serving-enqueue.js:58[32:39];Sink: errorMsg;clearml-serving-enqueue.js:110[34:41]::FLOW_DESCR_END","/clearml-serving-enqueue.js","58","32","58","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:25[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:27[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:37[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:39[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:49[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:51[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:72[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clearml-serving-ondemand.js:9[35:37];Sink: msg;clearml-serving-ondemand.js:96[27:29]::FLOW_DESCR_END","/clearml-serving-ondemand.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;clearml-serving-ondemand.js:68[26:30];Sink: errorMsg;clearml-serving-ondemand.js:71[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;clearml-serving-ondemand.js:68[26:30];Sink: errorMsg;clearml-serving-ondemand.js:72[32:39]::FLOW_DESCR_END","/clearml-serving-ondemand.js","68","26","68","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;clearml-serving-ondemand.js:68[33:40];Sink: errorMsg;clearml-serving-ondemand.js:93[38:45]::FLOW_DESCR_END","/clearml-serving-ondemand.js","68","33","68","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... shToken;snap4city-authentication-clearml.js:114[32:60];Sink: ""Refres ... shToken;snap4city-authentication-clearml.js:115[16:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... shToken;snap4city-authentication-clearml.js:114[32:60];Sink: params;snap4city-authentication-clearml.js:128[26:31]::FLOW_DESCR_END","/snap4city-authentication-clearml.js","114","32","114","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;snap4city-authentication-clearml.js:118[162:182];Sink: params;snap4city-authentication-clearml.js:128[26:31]::FLOW_DESCR_END","/snap4city-authentication-clearml.js","118","162","118","182"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;snap4city-authentication-clearml.js:118[220:244];Sink: params;snap4city-authentication-clearml.js:128[26:31]::FLOW_DESCR_END","/snap4city-authentication-clearml.js","118","220","118","244"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:92[32:78];Sink: params;snap4city-utility.js:100[26:31]::FLOW_DESCR_END","/snap4city-utility.js","92","32","92","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:170[24:70];Sink: params;snap4city-utility.js:184[18:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:170[24:70];Sink: ""FAILED ... nseText;snap4city-utility.js:186[18:71]::FLOW_DESCR_END","/snap4city-utility.js","170","24","170","70"

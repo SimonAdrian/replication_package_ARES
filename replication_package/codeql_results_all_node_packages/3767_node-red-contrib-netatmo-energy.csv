@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-getroommeasure.js:38[36:38];Sink: msg;netatmo-getroommeasure.js:52[27:29]::FLOW_DESCR_END","/src/netatmo-getroommeasure.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-homesdata.js:31[36:38];Sink: msg;netatmo-homesdata.js:45[27:29]::FLOW_DESCR_END","/src/netatmo-homesdata.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-homestatus.js:31[36:38];Sink: msg;netatmo-homestatus.js:45[27:29]::FLOW_DESCR_END","/src/netatmo-homestatus.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-setroomthermpoint.js:34[36:38];Sink: msg;netatmo-setroomthermpoint.js:48[27:29]::FLOW_DESCR_END","/src/netatmo-setroomthermpoint.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-setthermmode.js:32[36:38];Sink: msg;netatmo-setthermmode.js:46[27:29]::FLOW_DESCR_END","/src/netatmo-setthermmode.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-switchhomeschedule.js:31[36:38];Sink: msg;netatmo-switchhomeschedule.js:45[27:29]::FLOW_DESCR_END","/src/netatmo-switchhomeschedule.js","31","36","31","38"

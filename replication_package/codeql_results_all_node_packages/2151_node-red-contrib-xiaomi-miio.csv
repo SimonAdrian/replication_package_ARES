@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;air-purifier.js:17[28:42];Sink: 'No suc ... eviceId;air-purifier.js:35[33:76]::FLOW_DESCR_END","/air-purifier/air-purifier.js","17","28","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: reg.id;devices.js:27[15:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: deviceId;devices.js:68[51:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: device. ... a.types;devices.js:68[72:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: device.miioModel;devices.js:68[106:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: device.properties;devices.js:69[14:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: 'Skip d ... ce.type;devices.js:109[29:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:23[25:27];Sink: model;devices.js:174[40:44]::FLOW_DESCR_END","/common/devices.js","23","25","23","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: reg.id;devices.js:54[19:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: deviceId;devices.js:68[51:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: device. ... a.types;devices.js:68[72:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: device.miioModel;devices.js:68[106:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: device.properties;devices.js:69[14:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: 'Skip d ... ce.type;devices.js:109[29:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;devices.js:51[53:55];Sink: model;devices.js:174[40:44]::FLOW_DESCR_END","/common/devices.js","51","53","51","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;devices.js:117[27:32];Sink: device;devices.js:119[39:44]::FLOW_DESCR_END","/common/devices.js","117","27","117","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devices.js:12[35:37];Sink: msg;devices.js:25[24:26]::FLOW_DESCR_END","/devices/devices.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;generic.js:13[36:38];Sink: msg;generic.js:28[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generic.js:13[36:38];Sink: msg;generic.js:33[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generic.js:13[36:38];Sink: msg;generic.js:38[28:30]::FLOW_DESCR_END","/generic/generic.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;generic.js:21[28:42];Sink: 'No suc ... eviceId;generic.js:32[33:76]::FLOW_DESCR_END","/generic/generic.js","21","28","21","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;sensor-ht.js:14[24:38];Sink: deviceId;sensor-ht.js:25[68:75]::FLOW_DESCR_END","/sensor-ht/sensor-ht.js","14","24","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor-ht.js:17[39:41];Sink: msg;sensor-ht.js:22[32:34]::FLOW_DESCR_END","/sensor-ht/sensor-ht.js","17","39","17","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reg;miio-test.js:11[25:27];Sink: reg.id;miio-test.js:15[15:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;miio-test.js:11[25:27];Sink: reg.id;miio-test.js:19[50:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;miio-test.js:11[25:27];Sink: device. ... a.types;miio-test.js:19[69:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;miio-test.js:11[25:27];Sink: device.miioModel;miio-test.js:19[103:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;miio-test.js:11[25:27];Sink: device.properties;miio-test.js:20[14:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reg;miio-test.js:11[25:27];Sink: device. ... t.token;miio-test.js:21[23:45]::FLOW_DESCR_END","/test/miio-test.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;miio-test.js:26[27:32];Sink: device;miio-test.js:28[39:44]::FLOW_DESCR_END","/test/miio-test.js","26","27","26","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reg;miio-test.js:42[29:31];Sink: reg;miio-test.js:43[23:25]::FLOW_DESCR_END","/test/miio-test.js","42","29","42","31"

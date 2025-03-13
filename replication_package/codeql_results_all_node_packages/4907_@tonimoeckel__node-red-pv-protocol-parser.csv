@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pv-protocol.js:6[35:37];Sink: msg.payload.length;pv-protocol.js:16[40:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pv-protocol.js:6[35:37];Sink: request.length;pv-protocol.js:16[59:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pv-protocol.js:6[35:37];Sink: msg;pv-protocol.js:18[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pv-protocol.js:6[35:37];Sink: msg.payload.length;pv-protocol.js:20[43:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pv-protocol.js:6[35:37];Sink: request.length;pv-protocol.js:20[62:75]::FLOW_DESCR_END","/pv-protocol.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pv-request.js:9[35:37];Sink: msg;pv-request.js:39[23:25]::FLOW_DESCR_END","/pv-request.js","9","35","9","37"

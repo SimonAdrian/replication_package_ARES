@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:11[36:38];Sink: msg;opentok.js:23[23:25]::FLOW_DESCR_END","/nodes/opentok.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:33[34:36];Sink: msg;opentok.js:44[19:21]::FLOW_DESCR_END","/nodes/opentok.js","33","34","33","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:53[34:36];Sink: msg;opentok.js:64[19:21]::FLOW_DESCR_END","/nodes/opentok.js","53","34","53","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:73[34:36];Sink: msg;opentok.js:80[21:23]::FLOW_DESCR_END","/nodes/opentok.js","73","34","73","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:90[34:36];Sink: msg;opentok.js:97[21:23]::FLOW_DESCR_END","/nodes/opentok.js","90","34","90","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:106[34:36];Sink: msg;opentok.js:125[21:23]::FLOW_DESCR_END","/nodes/opentok.js","106","34","106","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opentok.js:135[34:36];Sink: msg;opentok.js:144[21:23]::FLOW_DESCR_END","/nodes/opentok.js","135","34","135","36"

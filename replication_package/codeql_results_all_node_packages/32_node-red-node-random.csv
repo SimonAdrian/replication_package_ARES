@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;random.js:14[35:37];Sink: ""Random ... .high_e;random.js:42[28:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;random.js:14[35:37];Sink: msg;random.js:69[27:29]::FLOW_DESCR_END","/random.js","14","35","14","37"

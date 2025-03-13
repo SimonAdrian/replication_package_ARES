@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;melsoft.js:81[36:38];Sink: msg;melsoft.js:83[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melsoft.js:81[36:38];Sink: msg;melsoft.js:445[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melsoft.js:81[36:38];Sink: msg;melsoft.js:450[110:112]::FLOW_DESCR_END","/red/melsoft.js","81","36","81","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;melsoft.js:272[26:26];Sink: e && e.toString();melsoft.js:274[24:40]::FLOW_DESCR_END","/red/melsoft.js","272","26","272","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;melsoft.js:278[28:28];Sink: e && e.toString();melsoft.js:280[24:40]::FLOW_DESCR_END","/red/melsoft.js","278","28","278","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;melsoft.js:288[35:37];Sink: obj;melsoft.js:290[47:49]::FLOW_DESCR_END","/red/melsoft.js","288","35","288","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;melsoft.js:454[32:34];Sink: res.msg;melsoft.js:459[26:32]::FLOW_DESCR_END","/red/melsoft.js","454","32","454","34"

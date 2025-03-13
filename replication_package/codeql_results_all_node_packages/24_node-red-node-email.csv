@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;61-email.js:87[35:37];Sink: msg;61-email.js:171[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;61-email.js:87[35:37];Sink: msg;61-email.js:181[46:48]::FLOW_DESCR_END","/61-email.js","87","35","87","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .userid;61-email.js:240[27:49];Sink: saslxoauth2;61-email.js:319[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... .userid;61-email.js:240[27:49];Sink: node.userid;61-email.js:322[48:58]::FLOW_DESCR_END","/61-email.js","240","27","240","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;61-email.js:247[33:57];Sink: node.password;61-email.js:323[48:60]::FLOW_DESCR_END","/61-email.js","247","33","247","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;61-email.js:421[39:41];Sink: err.message;61-email.js:424[32:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;61-email.js:421[39:41];Sink: err;61-email.js:424[44:46]::FLOW_DESCR_END","/61-email.js","421","39","421","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;61-email.js:583[35:37];Sink: msg;61-email.js:560[79:81]::FLOW_DESCR_END","/61-email.js","583","35","583","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;61-email.js:704[30:32];Sink: ""Error: ... message;61-email.js:705[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;61-email.js:704[30:32];Sink: err;61-email.js:705[49:51]::FLOW_DESCR_END","/61-email.js","704","30","704","32"

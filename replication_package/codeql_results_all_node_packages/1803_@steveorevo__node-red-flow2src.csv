@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flow2src.js:5[36:38];Sink: path +  ... t.json';flow2src.js:228[38:60]::FLOW_DESCR_END","/flow2src/flow2src.js","5","36","5","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... e_json);flow2src.js:61[41:69];Sink: flowFile;flow2src.js:257[38:45]::FLOW_DESCR_END","/flow2src/flow2src.js","61","41","61","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... owFile);flow2src.js:72[33:57];Sink: sF.file;flow2src.js:220[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... owFile);flow2src.js:72[33:57];Sink: obj[sF.property];flow2src.js:220[59:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... owFile);flow2src.js:72[33:57];Sink: JSON.st ... ull, 4);flow2src.js:228[63:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... owFile);flow2src.js:72[33:57];Sink: JSON.st ... ull, 4);flow2src.js:257[48:74]::FLOW_DESCR_END","/flow2src/flow2src.js","72","33","72","57"

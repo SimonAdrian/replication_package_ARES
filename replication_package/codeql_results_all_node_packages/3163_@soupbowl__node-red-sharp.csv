@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sharp-convert.js:11[30:32];Sink: msg;sharp-convert.js:21[17:19]::FLOW_DESCR_END","/sharp-convert.js","11","30","11","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sharp-resize.js:14[30:32];Sink: msg;sharp-resize.js:29[17:19]::FLOW_DESCR_END","/sharp-resize.js","14","30","14","32"

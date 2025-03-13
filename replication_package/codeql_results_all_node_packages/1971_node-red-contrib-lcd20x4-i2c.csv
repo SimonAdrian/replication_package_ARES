@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;LCD20x4-I2C.js:62[48:51];Sink: data;LCD20x4-I2C.js:68[31:34]::FLOW_DESCR_END","/LCD20x4-I2C/LCD20x4-I2C.js","62","48","62","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;LCD20x4-I2C.js:76[48:51];Sink: ""err: ""+data+"" :"";LCD20x4-I2C.js:77[35:51]::FLOW_DESCR_END","/LCD20x4-I2C/LCD20x4-I2C.js","76","48","76","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;LCD20x4-I2C.js:108[36:38];Sink: ""msgs V ... payload;LCD20x4-I2C.js:117[35:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LCD20x4-I2C.js:108[36:38];Sink: ""Input  ... payload;LCD20x4-I2C.js:123[31:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LCD20x4-I2C.js:108[36:38];Sink: ""Messag ... [i].pos;LCD20x4-I2C.js:147[43:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LCD20x4-I2C.js:108[36:38];Sink: ""Messag ... [i].pos;LCD20x4-I2C.js:152[43:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LCD20x4-I2C.js:108[36:38];Sink: JSON.st ...  + ""\n"";LCD20x4-I2C.js:164[44:73]::FLOW_DESCR_END","/LCD20x4-I2C/LCD20x4-I2C.js","108","36","108","38"

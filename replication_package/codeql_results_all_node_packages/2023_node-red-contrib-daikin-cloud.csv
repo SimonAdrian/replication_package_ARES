@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tokenSet;daikin_brp069c4.js:88[52:59];Sink: JSON.st ... kenSet);daikin_brp069c4.js:90[53:76]::FLOW_DESCR_END","/daikin_brp069c4.js","88","52","88","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tokenSet;daikin_brp069c4.js:100[64:71];Sink: JSON.st ... kenSet);daikin_brp069c4.js:102[65:88]::FLOW_DESCR_END","/daikin_brp069c4.js","100","64","100","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;daikin_brp069c4.js:120[36:38];Sink: msg;daikin_brp069c4.js:132[35:37]::FLOW_DESCR_END","/daikin_brp069c4.js","120","36","120","38"

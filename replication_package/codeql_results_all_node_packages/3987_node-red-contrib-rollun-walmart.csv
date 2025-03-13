@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');walmart-api-client.js:131[37:79];Sink: 'invali ...  + data;walmart-api-client.js:119[21:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');walmart-api-client.js:131[37:79];Sink: `Token  ... s_in})`;walmart-api-client.js:123[21:163]::FLOW_DESCR_END","/walmart-api-client.js","131","37","131","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;walmart-api.html:220[30:30];Sink: `${type ... value}`;walmart-api.html:225[85:111]::FLOW_DESCR_END","/walmart-api.html","220","30","220","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: type;walmart-api.html:220[33:36];Sink: `${type ... value}`;walmart-api.html:225[85:111]::FLOW_DESCR_END","/walmart-api.html","220","33","220","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;walmart-api.js:13[32:34];Sink: [msg, null];walmart-api.js:16[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;walmart-api.js:13[32:34];Sink: [null, msg];walmart-api.js:32[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;walmart-api.js:13[32:34];Sink: [msg, null];walmart-api.js:40[21:31]::FLOW_DESCR_END","/walmart-api.js","13","32","13","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: clientSecret;walmart-api-client.js:47[26:37];Sink: this.cacheFileName;walmart-api-client.js:107[18:35]::FLOW_DESCR_END","/walmart-api-client.js","47","26","47","37"

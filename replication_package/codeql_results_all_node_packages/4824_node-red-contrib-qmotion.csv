@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qmotion.js:73[31:33];Sink: msg;qmotion.js:24[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmotion.js:73[31:33];Sink: msg;qmotion.js:33[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmotion.js:73[31:33];Sink: ""qmotio ... channel;qmotion.js:41[13:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmotion.js:73[31:33];Sink: msg;qmotion.js:42[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmotion.js:73[31:33];Sink: ""qmotio ... osition;qmotion.js:52[13:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qmotion.js:73[31:33];Sink: msg;qmotion.js:53[13:15]::FLOW_DESCR_END","/qmotion/qmotion.js","73","31","73","33"

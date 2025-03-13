@@ -1,0 +1,88 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;asset-export-outcome.js:9[35:37];Sink: msg;asset-export-outcome.js:46[134:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;asset-export-outcome.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;asset-export-outcome.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/asset_export_outcome/asset-export-outcome.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;asset-migration-outcome.js:9[35:37];Sink: msg;asset-migration-outcome.js:26[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;asset-migration-outcome.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;asset-migration-outcome.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/asset_migration_outcome/asset-migration-outcome.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;check-effective-permission-right.js:9[35:37];Sink: msg;check-effective-permission-right.js:37[100:102]::FLOW_DESCR_END","/nodes/check_effective_permission_right/check-effective-permission-right.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;export-asset.js:9[35:37];Sink: msg;export-asset.js:85[134:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;export-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;export-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/export_asset/export-asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-asset-balance.js:9[35:37];Sink: msg;get-asset-balance.js:26[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-asset-balance.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-asset-balance.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/get_asset_balance/get-asset-balance.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;issue-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;issue-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/issue_asset/issue-asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;issue_non-fungible_asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;issue_non-fungible_asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/issue_non-fungible_asset/issue_non-fungible_asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-asset-holders.js:9[35:37];Sink: msg;list-asset-holders.js:44[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-asset-holders.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-asset-holders.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/list_asset_holders/list-asset-holders.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-asset-migrations.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-asset-migrations.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/list_asset_migrations/list-asset-migrations.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-exported-assets.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-exported-assets.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/list_exported_assets/list-exported-assets.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-issued-assets.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-issued-assets.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/list_issued_assets/list-issued-assets.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-messages.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-messages.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/list_messages/list-messages.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-owned-assets.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;list-owned-assets.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/list_owned_assets/list-owned-assets.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-message.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-message.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/log_message/log-message.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;migrate-asset.js:9[35:37];Sink: msg;migrate-asset.js:112[134:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;migrate-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;migrate-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/migrate_asset/migrate-asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-message.js:9[35:37];Sink: msg;read-message.js:58[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-message.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-message.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/read_message/read-message.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reissue-asset.js:9[35:37];Sink: msg;reissue-asset.js:58[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reissue-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reissue-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/reissue_asset/reissue-asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reissue_non-fungible_asset.js:9[35:37];Sink: msg;reissue_non-fungible_asset.js:73[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reissue_non-fungible_asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reissue_non-fungible_asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/reissue_non-fungible_asset/reissue_non-fungible_asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-asset-info.js:9[35:37];Sink: msg;retrieve-asset-info.js:26[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-asset-info.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-asset-info.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_asset_info/retrieve-asset-info.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-asset-issuance-history.js:9[35:37];Sink: msg;retrieve-asset-issuance-history.js:61[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-asset-issuance-history.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-asset-issuance-history.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_asset_issuance_history/retrieve-asset-issuance-history.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-device-id-info.js:9[35:37];Sink: msg;retrieve-device-id-info.js:29[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-device-id-info.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-device-id-info.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_device_identification_info/retrieve-device-id-info.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-message-container.js:9[35:37];Sink: msg;retrieve-message-container.js:16[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-message-container.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-message-container.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_message_container/retrieve-message-container.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-message-origin.js:9[35:37];Sink: msg;retrieve-message-origin.js:32[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-message-origin.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-message-origin.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_message_origin/retrieve-message-origin.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-message-progress.js:9[35:37];Sink: msg;retrieve-message-progress.js:16[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-message-progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve-message-progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_message_progress/retrieve-message-progress.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve_non-fungible_asset_issuance_progress.js:9[35:37];Sink: msg;retrieve_non-fungible_asset_issuance_progress.js:17[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_asset_issuance_progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_asset_issuance_progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_non-fungible_asset_issuance_progress/retrieve_non-fungible_asset_issuance_progress.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token.js:9[35:37];Sink: msg;retrieve_non-fungible_token.js:89[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_non-fungible_token/retrieve_non-fungible_token.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_retrieval_progress.js:9[35:37];Sink: msg;retrieve_non-fungible_token_retrieval_progress.js:36[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_retrieval_progress.js:9[35:37];Sink: msg;retrieve_non-fungible_token_retrieval_progress.js:40[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_retrieval_progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_retrieval_progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_non-fungible_token_retrieval_progress/retrieve_non-fungible_token_retrieval_progress.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_transfer_progress.js:9[35:37];Sink: msg;retrieve_non-fungible_token_transfer_progress.js:25[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_transfer_progress.js:9[35:37];Sink: msg;retrieve_non-fungible_token_transfer_progress.js:29[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_transfer_progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve_non-fungible_token_transfer_progress.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/retrieve_non-fungible_token_transfer_progress/retrieve_non-fungible_token_transfer_progress.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-permission-rights.js:9[35:37];Sink: msg;retrieve-permission-rights.js:18[79:81]::FLOW_DESCR_END","/nodes/retrieve_permission_rights/retrieve-permission-rights.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-message.js:9[35:37];Sink: message;send-message.js:84[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-message.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-message.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/send_message/send-message.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-permission-rights.js:9[35:37];Sink: msg;set-permission-rights.js:152[79:81]::FLOW_DESCR_END","/nodes/set_permission_rights/set-permission-rights.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transfer-asset.js:9[35:37];Sink: msg;transfer-asset.js:52[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer-asset.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/transfer_asset/transfer-asset.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transfer_non-fungible_token.js:9[35:37];Sink: msg;transfer_non-fungible_token.js:48[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer_non-fungible_token.js:9[35:37];Sink: msg;catenis-api-response-handler.js:7[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer_non-fungible_token.js:9[35:37];Sink: msg;catenis-api-response-handler.js:11[12:14]::FLOW_DESCR_END","/nodes/transfer_non-fungible_token/transfer_non-fungible_token.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf8'});convert-flows.js:14[32:72];Sink: JSON.st ... (flows);convert-flows.js:25[32:52]::FLOW_DESCR_END","/util/convert-flows.js","14","32","14","72"

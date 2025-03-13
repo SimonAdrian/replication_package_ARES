@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... Config);comfort-cloud-command.js:58[27:77];Sink: credentials;comfort-cloud-command.js:184[81:91]::FLOW_DESCR_END","/src/comfort-cloud-command.js","58","27","58","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:74[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:85[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:177[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:191[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:199[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:207[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-command.js:59[42:44];Sink: msg;comfort-cloud-command.js:218[42:44]::FLOW_DESCR_END","/src/comfort-cloud-command.js","59","42","59","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... Config);comfort-cloud-device.js:13[27:77];Sink: credentials;comfort-cloud-device.js:42[81:91]::FLOW_DESCR_END","/src/comfort-cloud-device.js","13","27","13","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;comfort-cloud-device.js:14[42:44];Sink: msg;comfort-cloud-device.js:28[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-device.js:14[42:44];Sink: msg;comfort-cloud-device.js:35[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-device.js:14[42:44];Sink: msg;comfort-cloud-device.js:49[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-device.js:14[42:44];Sink: msg;comfort-cloud-device.js:57[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-device.js:14[42:44];Sink: msg;comfort-cloud-device.js:65[50:52]::FLOW_DESCR_END","/src/comfort-cloud-device.js","14","42","14","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... Config);comfort-cloud-groups.js:13[27:77];Sink: credentials;comfort-cloud-groups.js:33[81:91]::FLOW_DESCR_END","/src/comfort-cloud-groups.js","13","27","13","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;comfort-cloud-groups.js:14[42:44];Sink: msg;comfort-cloud-groups.js:21[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-groups.js:14[42:44];Sink: msg;comfort-cloud-groups.js:26[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-groups.js:14[42:44];Sink: msg;comfort-cloud-groups.js:40[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-groups.js:14[42:44];Sink: msg;comfort-cloud-groups.js:48[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfort-cloud-groups.js:14[42:44];Sink: msg;comfort-cloud-groups.js:56[50:52]::FLOW_DESCR_END","/src/comfort-cloud-groups.js","14","42","14","44"

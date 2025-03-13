@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:20[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:26[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:34[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:42[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:51[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:60[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:113[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:120[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:127[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:246[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: ""Conver ...  + "")."";converter.js:249[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;converter.js:12[35:37];Sink: msg;converter.js:250[27:29]::FLOW_DESCR_END","/converter.js","12","35","12","37"

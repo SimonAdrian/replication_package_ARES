@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;05-node-dev-ops.js:12[36:38];Sink: msg;05-node-dev-ops.js:27[18:20]::FLOW_DESCR_END","/nodes/05-node-dev-ops.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;10-node-factory.js:427[36:38];Sink: msg;10-node-factory.js:489[30:32]::FLOW_DESCR_END","/nodes/10-node-factory.js","427","36","427","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;20-pkg-file.js:138[36:38];Sink: msg;20-pkg-file.js:133[18:20]::FLOW_DESCR_END","/nodes/20-pkg-file.js","138","36","138","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;30-npm-tarball.js:15[36:38];Sink: msg;30-npm-tarball.js:32[26:28]::FLOW_DESCR_END","/nodes/30-npm-tarball.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;40-node-red-install.html:2[65:68];Sink: ""NodeRe ... "" + msg;40-node-red-install.html:40[21:77]::FLOW_DESCR_END","/nodes/40-node-red-install.html","2","65","2","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;50-npm-publish.js:14[36:38];Sink: tarball;50-npm-publish.js:61[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-npm-publish.js:14[36:38];Sink: opts;50-npm-publish.js:61[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-npm-publish.js:14[36:38];Sink: msg;50-npm-publish.js:64[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50-npm-publish.js:14[36:38];Sink: msg;50-npm-publish.js:75[30:32]::FLOW_DESCR_END","/nodes/50-npm-publish.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;60-otp-generator.js:10[36:38];Sink: { ...ms ... : err };60-otp-generator.js:14[50:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;60-otp-generator.js:10[36:38];Sink: msg;60-otp-generator.js:45[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;60-otp-generator.js:10[36:38];Sink: msg;60-otp-generator.js:52[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;60-otp-generator.js:10[36:38];Sink: msg;60-otp-generator.js:58[30:32]::FLOW_DESCR_END","/nodes/60-otp-generator.js","10","36","10","38"

@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:14[35:37];Sink: [msg, null];create.js:63[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:14[35:37];Sink: [null, msg];create.js:75[27:37]::FLOW_DESCR_END","/doc/create.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:13[35:37];Sink: [msg, null];delete.js:49[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:13[35:37];Sink: [null, msg];delete.js:60[27:37]::FLOW_DESCR_END","/doc/delete.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exists.js:80[35:37];Sink: [msg, null];exists.js:25[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists.js:80[35:37];Sink: [null, msg];exists.js:29[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists.js:80[35:37];Sink: [msg, null];exists.js:62[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exists.js:80[35:37];Sink: [null, msg];exists.js:66[27:37]::FLOW_DESCR_END","/doc/exists.js","80","35","80","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:13[35:37];Sink: [msg, null];get.js:56[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:13[35:37];Sink: [null, msg];get.js:67[27:37]::FLOW_DESCR_END","/doc/get.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:15[35:37];Sink: [msg, null];index.js:64[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:15[35:37];Sink: [null, msg];index.js:77[27:37]::FLOW_DESCR_END","/doc/index.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search.js:13[42:44];Sink: [null, msg];search.js:82[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:13[42:44];Sink: [msg, null];search.js:116[31:41]::FLOW_DESCR_END","/doc/search.js","13","42","13","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:14[35:37];Sink: [msg, null];update.js:65[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:14[35:37];Sink: [null, msg];update.js:77[27:37]::FLOW_DESCR_END","/doc/update.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:14[35:37];Sink: [msg, null];create.js:55[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:14[35:37];Sink: [null, msg];create.js:67[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:14[35:37];Sink: [null, msg];create.js:76[31:41]::FLOW_DESCR_END","/index/create.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exists.js:13[35:37];Sink: [res?ms ... ll:msg];exists.js:45[27:54]::FLOW_DESCR_END","/index/exists.js","13","35","13","37"

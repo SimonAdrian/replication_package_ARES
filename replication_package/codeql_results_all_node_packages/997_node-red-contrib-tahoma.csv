@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .html');tahoma-config.js:14[28:78];Sink: callbac ... tring();tahoma-config.js:16[24:46]::FLOW_DESCR_END","/dist/nodes/tahoma-config.js","14","28","14","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tahoma-read.js:12[36:38];Sink: msg;tahoma-read.js:18[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tahoma-read.js:12[36:38];Sink: msg;tahoma-read.js:30[28:30]::FLOW_DESCR_END","/dist/nodes/tahoma-read.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tahoma.js:58[36:38];Sink: msg;tahoma.js:117[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tahoma.js:58[36:38];Sink: msg;tahoma.js:135[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tahoma.js:58[36:38];Sink: msg;tahoma.js:152[28:30]::FLOW_DESCR_END","/dist/nodes/tahoma.js","58","36","58","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .html');tahoma-config.ts:16[30:80];Sink: callbac ... tring();tahoma-config.ts:18[24:46]::FLOW_DESCR_END","/src/nodes/tahoma-config.ts","16","30","16","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tahoma-read.ts:17[27:29];Sink: msg;tahoma-read.ts:24[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tahoma-read.ts:17[27:29];Sink: msg;tahoma-read.ts:37[31:33]::FLOW_DESCR_END","/src/nodes/tahoma-read.ts","17","27","17","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tahoma.ts:75[27:29];Sink: msg;tahoma.ts:141[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tahoma.ts:75[27:29];Sink: msg;tahoma.ts:164[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tahoma.ts:75[27:29];Sink: msg;tahoma.ts:182[31:33]::FLOW_DESCR_END","/src/nodes/tahoma.ts","75","27","75","29"

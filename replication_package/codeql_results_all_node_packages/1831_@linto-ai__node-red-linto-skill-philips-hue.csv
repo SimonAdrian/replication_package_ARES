@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;hueConnect.js:44[37:44];Sink: response;hueConnect.js:60[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;hueConnect.js:44[37:44];Sink: response;hueConnect.js:64[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;hueConnect.js:44[37:44];Sink: response.statusCode;hueConnect.js:70[30:48]::FLOW_DESCR_END","/api/hueConnect.js","44","37","44","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;hueConnect.js:44[47:50];Sink: body;hueConnect.js:68[15:18]::FLOW_DESCR_END","/api/hueConnect.js","44","47","44","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;light.js:113[32:34];Sink: msg;light.js:156[19:21]::FLOW_DESCR_END","/light.js","113","32","113","34"

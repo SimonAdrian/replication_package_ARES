@@ -1,0 +1,30 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-commandsession.js:16[33:35];Sink: msg;myhome-commandsession.js:41[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myhome-commandsession.js:16[33:35];Sink: 'comman ... rrorMsg;myhome-utils.js:191[24:86]::FLOW_DESCR_END","/myhome-commandsession.js","16","33","16","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-energy.js:25[33:35];Sink: [msg, msg2];myhome-energy.js:249[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myhome-energy.js:25[33:35];Sink: msg;myhome-energy.js:263[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myhome-energy.js:25[33:35];Sink: 'invali ... fy(msg);myhome-energy.js:268[19:71]::FLOW_DESCR_END","/myhome-energy.js","25","33","25","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;myhome-gateway.js:22[17:27];Sink: ""gatewa ... ect..."";myhome-gateway.js:71[18:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway.js:22[17:27];Sink: 'gatewa ... t + ')';myhome-gateway.js:102[19:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway.js:22[17:27];Sink: node.host;myhome-gateway.js:103[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway.js:22[17:27];Sink: 'gatewa ... ing...';myhome-gateway.js:105[21:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway.js:22[17:27];Sink: gateway.host;myhome-utils.js:224[33:44]::FLOW_DESCR_END","/myhome-gateway.js","22","17","22","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;myhome-gateway.js:23[17:27];Sink: ""gatewa ... ect..."";myhome-gateway.js:71[18:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;myhome-gateway.js:23[17:27];Sink: 'gatewa ... t + ')';myhome-gateway.js:102[19:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;myhome-gateway.js:23[17:27];Sink: node.port;myhome-gateway.js:103[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;myhome-gateway.js:23[17:27];Sink: 'gatewa ... ing...';myhome-gateway.js:105[21:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;myhome-gateway.js:23[17:27];Sink: gateway.port;myhome-utils.js:224[19:30]::FLOW_DESCR_END","/myhome-gateway.js","23","17","23","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;myhome-gateway.js:42[41:44];Sink: ""Parsin ...  + ""')"";myhome-gateway.js:50[25:146]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;myhome-gateway.js:42[41:44];Sink: ""Receiv ... e + ""'"";myhome-gateway.js:156[21:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;myhome-gateway.js:42[41:44];Sink: frame;myhome-gateway.js:159[38:42]::FLOW_DESCR_END","/myhome-gateway.js","42","41","42","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;myhome-gateway.js:62[60:68];Sink: ""gatewa ... ect..."";myhome-gateway.js:71[18:139]::FLOW_DESCR_END","/myhome-gateway.js","62","60","62","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;myhome-gateway.js:62[78:86];Sink: ""gatewa ... ect..."";myhome-gateway.js:71[18:139]::FLOW_DESCR_END","/myhome-gateway.js","62","78","62","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;myhome-gateway.js:102[74:82];Sink: 'gatewa ... t + ')';myhome-gateway.js:102[19:106]::FLOW_DESCR_END","/myhome-gateway.js","102","74","102","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;myhome-gateway.js:102[92:100];Sink: 'gatewa ... t + ')';myhome-gateway.js:102[19:106]::FLOW_DESCR_END","/myhome-gateway.js","102","92","102","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;myhome-gateway.js:105[66:74];Sink: 'gatewa ... ing...';myhome-gateway.js:105[21:128]::FLOW_DESCR_END","/myhome-gateway.js","105","66","105","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;myhome-gateway.js:105[84:92];Sink: 'gatewa ... ing...';myhome-gateway.js:105[21:128]::FLOW_DESCR_END","/myhome-gateway.js","105","84","105","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-light.js:24[33:35];Sink: [msg, msg2];myhome-light.js:125[22:32]::FLOW_DESCR_END","/myhome-light.js","24","33","24","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-scenario.js:24[33:35];Sink: 'Button ... range.';myhome-scenario.js:265[22:102]::FLOW_DESCR_END","/myhome-scenario.js","24","33","24","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-shutter.js:24[33:35];Sink: [msg, msg2];myhome-shutter.js:104[22:32]::FLOW_DESCR_END","/myhome-shutter.js","24","33","24","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-thermo-central.js:22[33:35];Sink: [msg, msg2];myhome-thermo-central.js:192[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myhome-thermo-central.js:22[33:35];Sink: 'comman ... rrorMsg;myhome-utils.js:191[24:86]::FLOW_DESCR_END","/myhome-thermo-central.js","22","33","22","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-thermo-zone.js:30[33:35];Sink: [msg, msg2];myhome-thermo-zone.js:226[22:32]::FLOW_DESCR_END","/myhome-thermo-zone.js","30","33","30","35"

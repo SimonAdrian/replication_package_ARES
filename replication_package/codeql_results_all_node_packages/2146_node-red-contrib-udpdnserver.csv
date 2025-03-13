@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;udpdnserver.js:79[38:40];Sink: result;udpdnserver.js:114[27:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;udpdnserver.js:79[38:40];Sink: msg;utils.js:26[14:16]::FLOW_DESCR_END","/udpdnserver.js","79","38","79","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;udpdnserver.js:79[43:46];Sink: info.port;udpdnserver.js:114[35:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info;udpdnserver.js:79[43:46];Sink: info.address;udpdnserver.js:114[46:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info;udpdnserver.js:79[43:46];Sink: info.port;udpdnserver.js:133[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info;udpdnserver.js:79[43:46];Sink: info.address;udpdnserver.js:133[45:56]::FLOW_DESCR_END","/udpdnserver.js","79","43","79","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result. ... rr.port;udpdnserver.js:120[25:51];Sink: upport;utils.js:26[19:24]::FLOW_DESCR_END","/udpdnserver.js","120","25","120","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;utils.js:33[33:40];Sink: data;udpdnserver.js:133[29:32]::FLOW_DESCR_END","/utils.js","33","33","33","40"

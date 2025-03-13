@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bot.js:62[32:34];Sink: 'Reques ... message;bot.js:89[24:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bot.js:62[32:34];Sink: 'Reques ... exists';bot.js:93[20:70]::FLOW_DESCR_END","/bot.js","62","32","62","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: qrCode;client.js:34[24:29];Sink: qrCode;client.js:35[27:32]::FLOW_DESCR_END","/client.js","34","24","34","29"

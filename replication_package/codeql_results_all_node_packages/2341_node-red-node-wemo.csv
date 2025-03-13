@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev.port;WeMoNG.js:33[27:34];Sink: util.in ... ptions);WeMoNG.js:46[50:75]::FLOW_DESCR_END","/WeMoNG.js","33","27","33","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;WeMoNG.js:232[35:37];Sink: msg;WeMoNG.js:244[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:232[35:37];Sink: data;wemo.js:387[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:232[35:37];Sink: util.fo ...  value);wemo.js:602[22:114]::FLOW_DESCR_END","/WeMoNG.js","232","35","232","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:429[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:454[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:462[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:473[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:481[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:492[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;WeMoNG.js:418[35:37];Sink: msg;WeMoNG.js:501[40:42]::FLOW_DESCR_END","/WeMoNG.js","418","35","418","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: headers;wemo.js:172[42:48];Sink: location.href;wemo.js:175[17:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: headers;wemo.js:172[42:48];Sink: ""failed ... on.href;wemo.js:317[27:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: headers;wemo.js:172[42:48];Sink: ""Failed ... on.href;wemo.js:323[23:64]::FLOW_DESCR_END","/lib/wemo.js","172","42","172","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wemo.js:175[41:43];Sink: err;wemo.js:324[23:25]::FLOW_DESCR_END","/lib/wemo.js","175","41","175","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: xml;wemo.js:175[51:53];Sink: key;wemo.js:230[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: xml;wemo.js:175[51:53];Sink: key;wemo.js:257[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: xml;wemo.js:175[51:53];Sink: util.fo ... y, udn);wemo.js:279[34:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: xml;wemo.js:175[51:53];Sink: device.serialNumber;wemo.js:293[41:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: xml;wemo.js:175[51:53];Sink: device.serialNumber;wemo.js:308[41:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: xml;wemo.js:175[51:53];Sink: xml;wemo.js:318[27:29]::FLOW_DESCR_END","/lib/wemo.js","175","51","175","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;wemo.js:203[41:45];Sink: key;wemo.js:230[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;wemo.js:203[41:45];Sink: key;wemo.js:257[58:60]::FLOW_DESCR_END","/lib/wemo.js","203","41","203","45"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb.js:15[32:34];Sink: msg.db_collection;mongodb.js:36[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:15[32:34];Sink: collection;mongodb.js:39[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:15[32:34];Sink: url;mongodb.js:41[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:15[32:34];Sink: collection;mongodb.js:46[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:15[32:34];Sink: msg;mongodb.js:51[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:15[32:34];Sink: msg;mongodb.js:88[23:25]::FLOW_DESCR_END","/mongodb/mongodb.js","15","32","15","34"

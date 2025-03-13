@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pisrf.js:53[55:58];Sink: ""out: "" ...  + "" :"";pisrf.js:54[58:78]::FLOW_DESCR_END","/pisrf.js","53","55","53","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pisrf.js:61[55:58];Sink: ""err: "" ...  + "" :"";pisrf.js:62[58:78]::FLOW_DESCR_END","/pisrf.js","61","55","61","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;pisrf.js:65[49:52];Sink: ""ret: "" ...  + "" :"";pisrf.js:66[58:78]::FLOW_DESCR_END","/pisrf.js","65","49","65","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pisrf.js:71[49:51];Sink: 'error: ' + err;pisrf.js:74[37:51]::FLOW_DESCR_END","/pisrf.js","71","49","71","51"

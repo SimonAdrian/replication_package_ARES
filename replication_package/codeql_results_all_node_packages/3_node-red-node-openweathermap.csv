@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .apikey;weather.js:54[175:197];Sink: url;weather.js:74[29:31]::FLOW_DESCR_END","/weather.js","54","175","54","197"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .apikey;weather.js:56[174:196];Sink: url;weather.js:74[29:31]::FLOW_DESCR_END","/weather.js","56","174","56","196"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .apikey;weather.js:60[154:176];Sink: url;weather.js:74[29:31]::FLOW_DESCR_END","/weather.js","60","154","60","176"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .apikey;weather.js:62[153:175];Sink: url;weather.js:74[29:31]::FLOW_DESCR_END","/weather.js","62","153","62","175"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .apikey;weather.js:66[168:190];Sink: url;weather.js:74[29:31]::FLOW_DESCR_END","/weather.js","66","168","66","190"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;weather.js:74[43:47];Sink: err;weather.js:199[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;weather.js:74[43:47];Sink: err;weather.js:254[36:38]::FLOW_DESCR_END","/weather.js","74","43","74","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;weather.js:74[58:61];Sink: err;weather.js:199[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;weather.js:74[58:61];Sink: err;weather.js:254[36:38]::FLOW_DESCR_END","/weather.js","74","58","74","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather.js:184[35:37];Sink: msg;weather.js:30[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:184[35:37];Sink: msg;weather.js:36[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:184[35:37];Sink: msg;weather.js:162[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:184[35:37];Sink: msg;weather.js:199[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:184[35:37];Sink: msg;weather.js:204[39:41]::FLOW_DESCR_END","/weather.js","184","35","184","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather.js:231[35:37];Sink: msg;weather.js:30[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:231[35:37];Sink: msg;weather.js:36[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:231[35:37];Sink: msg;weather.js:162[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:231[35:37];Sink: msg;weather.js:254[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:231[35:37];Sink: msg;weather.js:256[35:37]::FLOW_DESCR_END","/weather.js","231","35","231","37"

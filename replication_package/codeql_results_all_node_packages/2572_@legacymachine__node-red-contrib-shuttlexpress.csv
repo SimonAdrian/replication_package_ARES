@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... de-RED`;shuttlexpress.js:37[26:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... de-RED`;shuttlexpress.js:49[22:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... alue}]`;shuttlexpress.js:62[26:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... ious}]`;shuttlexpress.js:77[26:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... alue}]`;shuttlexpress.js:95[26:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... alue}]`;shuttlexpress.js:110[26:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ...  true]`;shuttlexpress.js:125[26:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `${Shut ... false]`;shuttlexpress.js:140[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;shuttlexpress.js:27[34:39];Sink: `Stop $ ... device`;shuttlexpress.js:155[25:52]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","27","34","27","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;shuttlexpress.js:48[37:38];Sink: `${Shut ... de-RED`;shuttlexpress.js:49[22:79]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","48","37","48","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;shuttlexpress.js:60[32:36];Sink: `${Shut ... alue}]`;shuttlexpress.js:62[26:57]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","60","32","60","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: previous;shuttlexpress.js:75[38:45];Sink: `${Shut ... ious}]`;shuttlexpress.js:77[26:83]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","75","38","75","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: current;shuttlexpress.js:75[48:54];Sink: `${Shut ... ious}]`;shuttlexpress.js:77[26:83]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","75","48","75","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;shuttlexpress.js:93[32:36];Sink: `${Shut ... alue}]`;shuttlexpress.js:95[26:57]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","93","32","93","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;shuttlexpress.js:108[28:32];Sink: `${Shut ... alue}]`;shuttlexpress.js:110[26:66]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","108","28","108","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;shuttlexpress.js:123[35:39];Sink: `${Shut ...  true]`;shuttlexpress.js:125[26:62]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","123","35","123","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;shuttlexpress.js:138[33:37];Sink: `${Shut ... false]`;shuttlexpress.js:140[26:63]::FLOW_DESCR_END","/shuttlexpress/shuttlexpress.js","138","33","138","37"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zattoo.js:39[31:33];Sink: msg;zattoo.js:63[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zattoo.js:39[31:33];Sink: err.message;zattoo.js:67[22:32]::FLOW_DESCR_END","/zattoo.js","39","31","39","33"

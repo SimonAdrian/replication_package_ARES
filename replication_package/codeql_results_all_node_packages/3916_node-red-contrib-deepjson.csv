@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepjson.js:12[35:37];Sink: key;deepjson.js:34[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:12[35:37];Sink: command;deepjson.js:34[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:12[35:37];Sink: msg;deepjson.js:40[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:12[35:37];Sink: msg;deepjson.js:45[35:37]::FLOW_DESCR_END","/deepjson.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;deepjson.js:34[58:65];Sink: key;deepjson.js:34[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;deepjson.js:34[58:65];Sink: command;deepjson.js:34[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;deepjson.js:34[58:65];Sink: response;deepjson.js:40[44:51]::FLOW_DESCR_END","/deepjson.js","34","58","34","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepjson.js:72[35:37];Sink: key;deepjson.js:112[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:72[35:37];Sink: command;deepjson.js:112[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:72[35:37];Sink: data;deepjson.js:112[41:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:72[35:37];Sink: msg;deepjson.js:118[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:72[35:37];Sink: msg;deepjson.js:123[35:37]::FLOW_DESCR_END","/deepjson.js","72","35","72","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepjson.js:150[35:37];Sink: ""dj key ... payload;deepjson.js:159[26:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:150[35:37];Sink: msg;deepjson.js:169[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepjson.js:150[35:37];Sink: msg;deepjson.js:179[27:29]::FLOW_DESCR_END","/deepjson.js","150","35","150","37"

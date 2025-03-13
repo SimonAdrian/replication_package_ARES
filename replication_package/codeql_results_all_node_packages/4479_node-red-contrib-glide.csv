@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als(id);auth.js:49[23:50];Sink: credentials;auth.js:64[36:46]::FLOW_DESCR_END","/auth.js","49","23","49","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-row.js:17[38:40];Sink: msg;update-row.js:37[19:21]::FLOW_DESCR_END","/update-row.js","17","38","17","40"

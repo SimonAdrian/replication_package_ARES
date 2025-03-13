@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rewinder.js:19[23:25];Sink: msg;rewinder.js:29[50:52]::FLOW_DESCR_END","/nodes/rewinder.js","19","23","19","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rewinder.ts:38[13:15];Sink: msg;rewinder.ts:57[54:56]::FLOW_DESCR_END","/src/nodes/rewinder.ts","38","13","38","15"

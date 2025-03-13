@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;booleanGenerator.js:9[32:34];Sink: msg;booleanGenerator.js:12[17:19]::FLOW_DESCR_END","/nodes/booleanGenerator.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;colorGenerator.js:5[32:34];Sink: msg;colorGenerator.js:41[17:19]::FLOW_DESCR_END","/nodes/colorGenerator.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listGenerator.js:5[32:34];Sink: msg;listGenerator.js:24[17:19]::FLOW_DESCR_END","/nodes/listGenerator.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nameGenerator.js:11[32:34];Sink: msg;nameGenerator.js:17[17:19]::FLOW_DESCR_END","/nodes/nameGenerator.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;numberGenerator.js:5[32:34];Sink: msg;numberGenerator.js:15[19:21]::FLOW_DESCR_END","/nodes/numberGenerator.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uuidGenerator.js:5[32:34];Sink: msg;uuidGenerator.js:14[17:19]::FLOW_DESCR_END","/nodes/uuidGenerator.js","5","32","5","34"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;solaredge-power.js:112[41:45];Sink: chunk;solaredge-power.js:114[30:34]::FLOW_DESCR_END","/solaredge-power.js","112","41","112","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;solaredge-power.js:126[42:44];Sink: err;solaredge-power.js:127[28:30]::FLOW_DESCR_END","/solaredge-power.js","126","42","126","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;solaredge-power.js:151[41:45];Sink: chunk;solaredge-power.js:153[30:34]::FLOW_DESCR_END","/solaredge-power.js","151","41","151","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;solaredge-power.js:172[42:44];Sink: err;solaredge-power.js:173[28:30]::FLOW_DESCR_END","/solaredge-power.js","172","42","172","44"

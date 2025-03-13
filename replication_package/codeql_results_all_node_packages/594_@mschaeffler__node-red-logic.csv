@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;counter.js:9[35:37];Sink: msg;counter.js:31[19:21]::FLOW_DESCR_END","/counter.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logic_and.js:15[35:37];Sink: msg;logic_and.js:69[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logic_and.js:15[35:37];Sink: msg;logic_and.js:78[35:37]::FLOW_DESCR_END","/logic_and.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logic_bool.js:14[35:37];Sink: msg;logic_bool.js:31[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logic_bool.js:14[35:37];Sink: msg;logic_bool.js:40[27:29]::FLOW_DESCR_END","/logic_bool.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logic_not.js:14[35:37];Sink: msg;logic_not.js:31[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logic_not.js:14[35:37];Sink: msg;logic_not.js:40[27:29]::FLOW_DESCR_END","/logic_not.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logic_or.js:15[35:37];Sink: msg;logic_or.js:69[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logic_or.js:15[35:37];Sink: msg;logic_or.js:78[35:37]::FLOW_DESCR_END","/logic_or.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_falling.js:28[35:37];Sink: msg;math_falling.js:78[39:41]::FLOW_DESCR_END","/math_falling.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_hysteresis.js:32[35:37];Sink: msg;math_hysteresis.js:84[35:37]::FLOW_DESCR_END","/math_hysteresis.js","32","35","32","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_mean.js:38[35:37];Sink: msg;math_mean.js:97[35:37]::FLOW_DESCR_END","/math_mean.js","38","35","38","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_minus.js:24[35:37];Sink: msg;math_minus.js:64[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;math_minus.js:24[35:37];Sink: msg;math_minus.js:73[31:33]::FLOW_DESCR_END","/math_minus.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_number.js:24[35:37];Sink: msg;math_number.js:64[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;math_number.js:24[35:37];Sink: msg;math_number.js:73[31:33]::FLOW_DESCR_END","/math_number.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_reduce.js:30[35:37];Sink: msg;math_reduce.js:122[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;math_reduce.js:30[35:37];Sink: msg;math_reduce.js:132[39:41]::FLOW_DESCR_END","/math_reduce.js","30","35","30","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_rising.js:28[35:37];Sink: msg;math_rising.js:79[39:41]::FLOW_DESCR_END","/math_rising.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;math_statistics.js:23[35:37];Sink: msg;math_statistics.js:102[35:37]::FLOW_DESCR_END","/math_statistics.js","23","35","23","37"

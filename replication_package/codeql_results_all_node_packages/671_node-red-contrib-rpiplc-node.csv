@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-analog-read.js:7[20:22];Sink: msg;rpiplc-analog-read.js:12[15:17]::FLOW_DESCR_END","/nodes/rpiplc-analog-read.js","7","20","7","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-analog-write.js:7[20:22];Sink: value;rpiplc-analog-write.js:17[43:47]::FLOW_DESCR_END","/nodes/rpiplc-analog-write.js","7","20","7","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-digital-read.js:7[20:22];Sink: msg;rpiplc-digital-read.js:12[15:17]::FLOW_DESCR_END","/nodes/rpiplc-digital-read.js","7","20","7","22"

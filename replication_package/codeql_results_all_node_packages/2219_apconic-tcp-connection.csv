@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tcp-connection.js:27[30:34];Sink: error;tcp-connection.js:30[18:22]::FLOW_DESCR_END","/tcp-connection.js","27","30","27","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;tcp-connection.js:8[17:20];Sink: `Error  ... {port}`;tcp-connection.js:30[25:59]::FLOW_DESCR_END","/tcp-connection.js","8","17","8","20"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;login.js:23[12:12];Sink: err;haier-roboot.js:33[21:23]::FLOW_DESCR_END","/haier/login.js","23","12","23","12"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;haier-roboot.js:12[30:33];Sink: data;haier-roboot.js:21[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;haier-roboot.js:12[30:33];Sink: data;haier-roboot.js:35[21:24]::FLOW_DESCR_END","/haier-roboot.js","12","30","12","33"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mcp23017.js:48[29:31];Sink: ""Topic  ... ic+ ""]"";mcp23017.js:64[16:89]::FLOW_DESCR_END","/mcp23017/mcp23017.js","48","29","48","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;mcp23017.js:79[40:44];Sink: ""Pin ""  ... + value;mcp23017.js:80[15:42]::FLOW_DESCR_END","/mcp23017/mcp23017.js","79","40","79","44"

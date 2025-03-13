@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fakeroku-device.js:21[43:45];Sink: err;fakeroku-device.js:22[28:30]::FLOW_DESCR_END","/dist/fakeroku-device.js","21","43","21","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;fakeroku-device.js:52[34:34];Sink: e;fakeroku-device.js:54[24:24]::FLOW_DESCR_END","/dist/fakeroku-device.js","52","34","52","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.port;fakeroku-device.js:57[73:87];Sink: ""fakero ... de.port;fakeroku-device.js:57[24:87]::FLOW_DESCR_END","/dist/fakeroku-device.js","57","73","57","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fakeroku-device.js:66[38:42];Sink: error;fakeroku-device.js:67[24:28]::FLOW_DESCR_END","/dist/fakeroku-device.js","66","38","66","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;fakeroku-device.js:70[45:49];Sink: ""Remote ... address;fakeroku-device.js:73[28:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;fakeroku-device.js:70[45:49];Sink: rinfo.port;fakeroku-device.js:75[87:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;fakeroku-device.js:70[45:49];Sink: rinfo.address;fakeroku-device.js:75[99:111]::FLOW_DESCR_END","/dist/fakeroku-device.js","70","45","70","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;fakeroku-device.js:128[25:35];Sink: device.SSDP_RESPONSE;fakeroku-device.js:75[33:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;fakeroku-device.js:128[25:35];Sink: device. ... .length;fakeroku-device.js:75[58:84]::FLOW_DESCR_END","/dist/fakeroku-device.js","128","25","128","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fakeroku-device.ts:40[34:36];Sink: err;fakeroku-device.ts:41[28:30]::FLOW_DESCR_END","/src/fakeroku-device.ts","40","34","40","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;fakeroku-device.ts:71[34:34];Sink: e;fakeroku-device.ts:73[24:24]::FLOW_DESCR_END","/src/fakeroku-device.ts","71","34","71","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configNode.port;fakeroku-device.ts:76[66:80];Sink: `fakero ... .port}`;fakeroku-device.ts:76[24:82]::FLOW_DESCR_END","/src/fakeroku-device.ts","76","66","76","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fakeroku-device.ts:87[29:33];Sink: error;fakeroku-device.ts:88[24:28]::FLOW_DESCR_END","/src/fakeroku-device.ts","87","29","87","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;fakeroku-device.ts:92[36:40];Sink: ""Remote ... address;fakeroku-device.ts:95[28:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;fakeroku-device.ts:92[36:40];Sink: rinfo.port;fakeroku-device.ts:97[87:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;fakeroku-device.ts:92[36:40];Sink: rinfo.address;fakeroku-device.ts:97[99:111]::FLOW_DESCR_END","/src/fakeroku-device.ts","92","36","92","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;fakeroku-device.ts:154[25:35];Sink: device.SSDP_RESPONSE;fakeroku-device.ts:97[33:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;fakeroku-device.ts:154[25:35];Sink: device. ... .length;fakeroku-device.ts:97[58:84]::FLOW_DESCR_END","/src/fakeroku-device.ts","154","25","154","35"

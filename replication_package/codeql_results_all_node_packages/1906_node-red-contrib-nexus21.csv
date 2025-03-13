@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tvlift.js:121[35:37];Sink: 'tv lif ... ull, 2);tvlift.js:122[22:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tvlift.js:121[35:37];Sink: msg.pay ... || ""?"");tvlift.js:142[30:98]::FLOW_DESCR_END","/nexus21/tvlift.js","121","35","121","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.STATUS;tvlift.js:142[70:89];Sink: msg.pay ... || ""?"");tvlift.js:142[30:98]::FLOW_DESCR_END","/nexus21/tvlift.js","142","70","142","89"

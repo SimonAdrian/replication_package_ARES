@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;commands.js:53[31:33];Sink: [msgCopy, null];commands.js:68[31:45]::FLOW_DESCR_END","/lib/commands.js","53","31","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;commands.ts:61[31:33];Sink: [msgCopy, null];commands.ts:81[35:49]::FLOW_DESCR_END","/src/commands.ts","61","31","61","33"

@@ -1,0 +1,40 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: msg;node.js:41[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: msg;node.js:305[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: setData(msg, data);node.js:330[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: setData(msg, error);node.js:337[41:59]::FLOW_DESCR_END","/cb-admin/node.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: msg;node.js:19[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: msg;node.js:76[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: setData(msg, data);node.js:101[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: setData(msg, error);node.js:108[41:59]::FLOW_DESCR_END","/cb-analytics-admin/node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:21[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:75[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, data);node.js:100[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, error);node.js:107[41:59]::FLOW_DESCR_END","/cb-analytics-config/node.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: msg;node.js:29[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: msg;node.js:113[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: setData(msg, data);node.js:138[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:23[36:38];Sink: setData(msg, error);node.js:145[41:59]::FLOW_DESCR_END","/cb-analytics-library/node.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:243[36:38];Sink: msg;node.js:249[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:243[36:38];Sink: msg;node.js:1359[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:243[36:38];Sink: setData(msg, data);node.js:1384[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:243[36:38];Sink: setData(msg, error);node.js:1391[41:59]::FLOW_DESCR_END","/cb-analytics-links/node.js","243","36","243","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: msg;node.js:19[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: msg;node.js:52[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: setData(msg, data);node.js:77[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: setData(msg, error);node.js:84[41:59]::FLOW_DESCR_END","/cb-analytics-settings/node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: msg;node.js:41[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: msg;node.js:185[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: setData(msg, data);node.js:210[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:35[36:38];Sink: setData(msg, error);node.js:217[41:59]::FLOW_DESCR_END","/cb-functions/node.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:37[36:38];Sink: msg;node.js:43[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:37[36:38];Sink: msg;node.js:190[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:37[36:38];Sink: setData(msg, data);node.js:215[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:37[36:38];Sink: setData(msg, error);node.js:222[41:59]::FLOW_DESCR_END","/cb-indexes/node.js","37","36","37","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: msg;node.js:19[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: msg;node.js:56[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: setData(msg, data);node.js:81[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:13[36:38];Sink: setData(msg, error);node.js:88[41:59]::FLOW_DESCR_END","/cb-query-service/node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:21[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:75[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, data);node.js:100[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, error);node.js:107[41:59]::FLOW_DESCR_END","/cb-query-settings/node.js","15","36","15","38"

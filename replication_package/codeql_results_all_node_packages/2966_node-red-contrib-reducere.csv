@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ActionCreator.js:6[33:35];Sink: msg;ActionCreator.js:22[19:21]::FLOW_DESCR_END","/nodes/ActionCreator/ActionCreator.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Reducer.js:206[39:41];Sink: msgs;Reducer.js:36[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Reducer.js:206[39:41];Sink: msg;Reducer.js:242[46:48]::FLOW_DESCR_END","/nodes/Reducer/Reducer.js","206","39","206","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RootReducer.js:6[35:37];Sink: [ {stat ... bstate];RootReducer.js:26[21:79]::FLOW_DESCR_END","/nodes/RootReducer/RootReducer.js","6","35","6","37"

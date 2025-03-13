@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configS ... als.uri;bigmongo.js:281[18:46];Sink: config.uri;bigmongo.js:237[48:57]::FLOW_DESCR_END","/bigmongo/bigmongo.js","281","18","281","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configS ... als.url;bigmongo.js:281[51:79];Sink: config.uri;bigmongo.js:237[48:57]::FLOW_DESCR_END","/bigmongo/bigmongo.js","281","51","281","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigmongo.js:302[33:35];Sink: msg;bigmongo.js:373[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:302[33:35];Sink: msg;bigmongo.js:383[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:302[33:35];Sink: msg;bigmongo.js:436[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:302[33:35];Sink: msg;bigmongo.js:468[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:302[33:35];Sink: msg;bigmongo.js:481[27:29]::FLOW_DESCR_END","/bigmongo/bigmongo.js","302","33","302","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigmongo.js:318[67:69];Sink: msg;bigmongo.js:373[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:318[67:69];Sink: msg;bigmongo.js:383[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:318[67:69];Sink: msg;bigmongo.js:436[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:318[67:69];Sink: msg;bigmongo.js:468[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bigmongo.js:318[67:69];Sink: msg;bigmongo.js:481[27:29]::FLOW_DESCR_END","/bigmongo/bigmongo.js","318","67","318","69"

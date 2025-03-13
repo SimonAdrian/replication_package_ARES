@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:283[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:306[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:324[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:347[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: filename;smb.js:361[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: data;smb.js:361[53:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:370[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:388[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:406[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:425[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smb.js:25[32:34];Sink: msg;smb.js:443[30:32]::FLOW_DESCR_END","/red/smb.js","25","32","25","34"

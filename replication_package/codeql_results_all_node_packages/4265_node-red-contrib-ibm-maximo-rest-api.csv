@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;connect.js:27[25:29];Sink: ""NOT CO ...  errStr;connect.js:40[18:43]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/connect.js","27","25","27","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;connect.js:27[32:39];Sink: JSON.stringify(opts);retrieve.js:144[15:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;connect.js:27[32:39];Sink: JSON.stringify(opts);update.js:82[13:32]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/connect.js","27","32","27","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:15[29:31];Sink: message;connect.js:39[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:15[29:31];Sink: message;create.js:81[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:15[29:31];Sink: message;create.js:94[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/create.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:15[29:31];Sink: message;connect.js:39[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:15[29:31];Sink: message;delete.js:74[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:15[29:31];Sink: message;delete.js:87[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/delete.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve.js:16[29:31];Sink: message;connect.js:39[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve.js:16[29:31];Sink: message;retrieve.js:164[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve.js:16[29:31];Sink: message;retrieve.js:176[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/retrieve.js","16","29","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;retrieve.js:148[26:30];Sink: error.length;retrieve.js:162[14:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;retrieve.js:148[26:30];Sink: error;retrieve.js:163[14:18]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/retrieve.js","148","26","148","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;connect.js:39[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;update.js:88[14:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:15[29:31];Sink: message;update.js:120[13:19]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/update.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;update.js:76[26:30];Sink: error;update.js:87[14:18]::FLOW_DESCR_END","/IBM-Maximo-Oslc-Api/update.js","76","26","76","30"

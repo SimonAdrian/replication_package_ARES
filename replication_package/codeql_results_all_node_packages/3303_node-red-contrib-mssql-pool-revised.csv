@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql.js:86[32:34];Sink: m;mssql.js:76[30:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:86[32:34];Sink: query;mssql.js:109[17:21]::FLOW_DESCR_END","/mssql.js","86","32","86","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql.js:90[20:22];Sink: ""pool on:""+err;mssql.js:91[16:29]::FLOW_DESCR_END","/mssql.js","90","20","90","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql.js:114[21:23];Sink: err;mssql.js:115[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mssql.js:114[21:23];Sink: err;mssql.js:116[15:17]::FLOW_DESCR_END","/mssql.js","114","21","114","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql_old.js:70[32:34];Sink: m;mssql_old.js:60[30:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql_old.js:70[32:34];Sink: query;mssql_old.js:85[27:31]::FLOW_DESCR_END","/mssql_old.js","70","32","70","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql_old.js:90[31:33];Sink: err;mssql_old.js:91[28:30]::FLOW_DESCR_END","/mssql_old.js","90","31","90","33"

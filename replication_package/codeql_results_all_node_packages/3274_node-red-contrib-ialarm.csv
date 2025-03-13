@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-ialarm.js:63[39:41];Sink: msg;node-red-ialarm.js:37[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-red-ialarm.js:63[39:41];Sink: e;node-red-ialarm.js:38[14:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-red-ialarm.js:63[39:41];Sink: ""error: ""+err;node-red-ialarm.js:64[22:34]::FLOW_DESCR_END","/node-red-ialarm.js","63","39","63","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;node-red-ialarm.js:69[40:45];Sink: message;node-red-ialarm.js:24[16:22]::FLOW_DESCR_END","/node-red-ialarm.js","69","40","69","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-ialarm.js:124[37:39];Sink: msg;node-red-ialarm.js:37[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-red-ialarm.js:124[37:39];Sink: e;node-red-ialarm.js:38[14:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-red-ialarm.js:124[37:39];Sink: ""error: ""+err;node-red-ialarm.js:125[20:32]::FLOW_DESCR_END","/node-red-ialarm.js","124","37","124","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: events;node-red-ialarm.js:130[38:43];Sink: message;node-red-ialarm.js:24[16:22]::FLOW_DESCR_END","/node-red-ialarm.js","130","38","130","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-ialarm.js:176[31:33];Sink: msg;node-red-ialarm.js:37[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-ialarm.js:176[31:33];Sink: e;node-red-ialarm.js:38[14:14]::FLOW_DESCR_END","/node-red-ialarm.js","176","31","176","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: commandResponse;node-red-ialarm.js:187[37:51];Sink: message;node-red-ialarm.js:24[16:22]::FLOW_DESCR_END","/node-red-ialarm.js","187","37","187","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-ialarm.js:195[35:37];Sink: msg;node-red-ialarm.js:37[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-red-ialarm.js:195[35:37];Sink: e;node-red-ialarm.js:38[14:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-red-ialarm.js:195[35:37];Sink: ""error: ""+err;node-red-ialarm.js:196[18:30]::FLOW_DESCR_END","/node-red-ialarm.js","195","35","195","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;node-red-ialarm.js:210[17:27];Sink: ""error  ... ""+error;node-red-ialarm.js:234[16:78]::FLOW_DESCR_END","/node-red-ialarm.js","210","17","210","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;node-red-ialarm.js:211[17:27];Sink: ""error  ... ""+error;node-red-ialarm.js:234[16:78]::FLOW_DESCR_END","/node-red-ialarm.js","211","17","211","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: zoneInfo;node-red-ialarm.js:229[36:43];Sink: ""zoneIn ... neInfo);node-red-ialarm.js:230[16:52]::FLOW_DESCR_END","/node-red-ialarm.js","229","36","229","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-red-ialarm.js:233[33:37];Sink: ""error  ... ""+error;node-red-ialarm.js:234[16:78]::FLOW_DESCR_END","/node-red-ialarm.js","233","33","233","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;node-red-ialarm.js:234[41:49];Sink: ""error  ... ""+error;node-red-ialarm.js:234[16:78]::FLOW_DESCR_END","/node-red-ialarm.js","234","41","234","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;node-red-ialarm.js:234[57:65];Sink: ""error  ... ""+error;node-red-ialarm.js:234[16:78]::FLOW_DESCR_END","/node-red-ialarm.js","234","57","234","65"

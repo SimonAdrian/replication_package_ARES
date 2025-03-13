@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:36[31:33];Sink: RED._("" ... on_name;ambi.js:52[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:36[31:33];Sink: ""Power  ... on_name;ambi.js:58[18:64]::FLOW_DESCR_END","/ambi/ambi.js","36","31","36","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:78[31:33];Sink: RED._("" ... on_name;ambi.js:94[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:78[31:33];Sink: ""Comfor ... on_name;ambi.js:100[18:67]::FLOW_DESCR_END","/ambi/ambi.js","78","31","78","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:120[31:33];Sink: RED._("" ... on_name;ambi.js:139[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:120[31:33];Sink: ""Away T ...     ""C"";ambi.js:146[11:15]::FLOW_DESCR_END","/ambi/ambi.js","120","31","120","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:173[31:33];Sink: RED._("" ... on_name;ambi.js:192[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:173[31:33];Sink: ""Away T ...     ""C"";ambi.js:199[11:15]::FLOW_DESCR_END","/ambi/ambi.js","173","31","173","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:226[31:33];Sink: RED._("" ... on_name;ambi.js:245[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:226[31:33];Sink: ""Away H ...     ""%"";ambi.js:252[11:15]::FLOW_DESCR_END","/ambi/ambi.js","226","31","226","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:279[31:33];Sink: RED._("" ... on_name;ambi.js:298[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:279[31:33];Sink: ""Temper ...     ""C"";ambi.js:305[11:15]::FLOW_DESCR_END","/ambi/ambi.js","279","31","279","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:332[31:33];Sink: RED._("" ... on_name;ambi.js:348[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:332[31:33];Sink: ""Sensor ... on_name;ambi.js:355[18:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:332[31:33];Sink: msg;ambi.js:366[23:25]::FLOW_DESCR_END","/ambi/ambi.js","332","31","332","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:382[31:33];Sink: RED._("" ... on_name;ambi.js:398[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:382[31:33];Sink: ""Sensor ... on_name;ambi.js:405[18:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:382[31:33];Sink: msg;ambi.js:416[23:25]::FLOW_DESCR_END","/ambi/ambi.js","382","31","382","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ambi.js:432[31:33];Sink: RED._("" ... on_name;ambi.js:448[11:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:432[31:33];Sink: ""Curren ... on_name;ambi.js:455[18:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ambi.js:432[31:33];Sink: msg;ambi.js:466[23:25]::FLOW_DESCR_END","/ambi/ambi.js","432","31","432","33"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;hsync.js:32[24:24];Sink: e;hsync.js:33[36:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;hsync.js:32[24:24];Sink: e;hsync.js:34[32:32]::FLOW_DESCR_END","/hsync.js","32","24","32","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;hsync.js:175[30:30];Sink: e;hsync.js:177[18:18]::FLOW_DESCR_END","/hsync.js","175","30","175","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hsync.js:180[27:29];Sink: msg;hsync.js:181[17:19]::FLOW_DESCR_END","/hsync.js","180","27","180","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hsync.js:184[39:41];Sink: msg;hsync.js:186[17:19]::FLOW_DESCR_END","/hsync.js","184","39","184","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hsync.js:245[35:37];Sink: msg;hsync.js:246[17:19]::FLOW_DESCR_END","/hsync.js","245","35","245","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hsync.js:337[37:39];Sink: msg;hsync.js:338[35:37]::FLOW_DESCR_END","/hsync.js","337","37","337","39"

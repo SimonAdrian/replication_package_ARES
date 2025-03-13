@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nunjucks.js:6[35:37];Sink: msg;nunjucks.js:8[23:25]::FLOW_DESCR_END","/nodes/nunjucks.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nunjucks_render.js:108[36:38];Sink: msg;nunjucks_render.js:134[23:25]::FLOW_DESCR_END","/nodes/nunjucks_render.js","108","36","108","38"

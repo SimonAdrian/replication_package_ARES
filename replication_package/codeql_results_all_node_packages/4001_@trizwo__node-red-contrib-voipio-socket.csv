@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;voipio-socket-filter.js:39[35:37];Sink: [msg, null];voipio-socket-filter.js:42[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket-filter.js:39[35:37];Sink: [msg, null];voipio-socket-filter.js:73[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket-filter.js:39[35:37];Sink: [null, msg];voipio-socket-filter.js:76[31:41]::FLOW_DESCR_END","/voipio-socket-filter.js","39","35","39","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;voipio-socket-to.js:32[35:37];Sink: msg;voipio-socket-to.js:42[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket-to.js:32[35:37];Sink: msg;voipio-socket-to.js:51[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket-to.js:32[35:37];Sink: msg;voipio-socket-to.js:61[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket-to.js:32[35:37];Sink: msg;voipio-socket-to.js:74[31:33]::FLOW_DESCR_END","/voipio-socket-to.js","32","35","32","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;voipio-socket.js:32[34:40];Sink: request;voipio-socket.js:36[71:77]::FLOW_DESCR_END","/voipio-socket.js","32","34","32","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;voipio-socket.js:128[35:37];Sink: ""unknow ... al api"";voipio-socket.js:154[31:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket.js:128[35:37];Sink: ""socket ... ockets"";voipio-socket.js:174[31:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket.js:128[35:37];Sink: ""invali ... fy(msg);voipio-socket.js:249[27:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket.js:128[35:37];Sink: JSON.st ... ayload);voipio-socket.js:299[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket.js:128[35:37];Sink: JSON.st ... ayload);voipio-socket.js:306[33:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voipio-socket.js:128[35:37];Sink: ""api '"" ... bject."";voipio-socket.js:308[31:142]::FLOW_DESCR_END","/voipio-socket.js","128","35","128","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg._session.port;voipio-socket.js:362[171:187];Sink: ""auth f ... t + "")"";voipio-socket.js:362[35:193]::FLOW_DESCR_END","/voipio-socket.js","362","171","362","187"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg._session.port;voipio-socket.js:391[175:191];Sink: ""auth f ... t + "")"";voipio-socket.js:391[35:197]::FLOW_DESCR_END","/voipio-socket.js","391","175","391","191"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;voipio-socket.js:448[52:57];Sink: JSON.st ...      });voipio-socket.js:352[29:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;voipio-socket.js:448[52:57];Sink: ""new we ... otePort;voipio-socket.js:450[26:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;voipio-socket.js:448[52:57];Sink: ""error  ... + error;voipio-socket.js:481[36:161]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;voipio-socket.js:448[52:57];Sink: ""error  ... + error;voipio-socket.js:499[28:156]::FLOW_DESCR_END","/voipio-socket.js","448","52","448","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;voipio-socket.js:477[46:49];Sink: ""auth f ... t + "")"";voipio-socket.js:362[35:193]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;voipio-socket.js:477[46:49];Sink: JSON.st ...      });voipio-socket.js:364[37:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;voipio-socket.js:477[46:49];Sink: JSON.st ...      });voipio-socket.js:374[37:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;voipio-socket.js:477[46:49];Sink: ""auth f ... t + "")"";voipio-socket.js:391[35:197]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;voipio-socket.js:477[46:49];Sink: JSON.st ...      });voipio-socket.js:393[37:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;voipio-socket.js:477[46:49];Sink: JSON.st ...      });voipio-socket.js:403[37:26]::FLOW_DESCR_END","/voipio-socket.js","477","46","477","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;voipio-socket.js:489[45:47];Sink: ""error  ... "" + err;voipio-socket.js:490[32:55]::FLOW_DESCR_END","/voipio-socket.js","489","45","489","47"

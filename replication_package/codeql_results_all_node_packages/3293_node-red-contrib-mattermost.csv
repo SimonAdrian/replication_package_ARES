@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;matterMostPost.js:30[25:34];Sink: JSON.stringify(data);matterMostPost.js:49[45:64]::FLOW_DESCR_END","/matterMostPost.js","30","25","30","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matterMostPost.js:36[36:38];Sink: JSON.stringify(data);matterMostPost.js:49[45:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matterMostPost.js:36[36:38];Sink: msg;matterMostPost.js:59[30:32]::FLOW_DESCR_END","/matterMostPost.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;matterMostPost.js:38[28:40];Sink: JSON.stringify(data);matterMostPost.js:49[45:64]::FLOW_DESCR_END","/matterMostPost.js","38","28","38","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.username;matterMostPost.js:38[45:56];Sink: JSON.stringify(data);matterMostPost.js:49[45:64]::FLOW_DESCR_END","/matterMostPost.js","38","45","38","56"

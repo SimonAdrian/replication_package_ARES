@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aes-decrypt.js:9[30:32];Sink: msg;aes-decrypt.js:19[14:16]::FLOW_DESCR_END","/src/aes-decrypt.js","9","30","9","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aes-encrypt.js:9[30:32];Sink: msg;aes-encrypt.js:23[14:16]::FLOW_DESCR_END","/src/aes-encrypt.js","9","30","9","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rsa-decrypt.js:8[30:32];Sink: msg;rsa-decrypt.js:15[14:16]::FLOW_DESCR_END","/src/rsa-decrypt.js","8","30","8","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rsa-encrypt.js:8[30:32];Sink: msg;rsa-encrypt.js:19[14:16]::FLOW_DESCR_END","/src/rsa-encrypt.js","8","30","8","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sha256.js:8[30:32];Sink: msg;sha256.js:11[14:16]::FLOW_DESCR_END","/src/sha256.js","8","30","8","32"

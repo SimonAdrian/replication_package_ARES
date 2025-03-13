@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;predix-apm-alerts.js:45[35:39];Sink: 'Unuthe ... (error);predix-apm-alerts.js:46[20:61]::FLOW_DESCR_END","/predix-apm-alerts.js","45","35","45","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;predix-apm-alerts.js:49[30:36];Sink: 'Bad Pa ... payload;predix-apm-alerts.js:50[20:44]::FLOW_DESCR_END","/predix-apm-alerts.js","49","30","49","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;predix-apm-alerts.js:53[32:36];Sink: 'Reques ... + error;predix-apm-alerts.js:54[20:44]::FLOW_DESCR_END","/predix-apm-alerts.js","53","32","53","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;predix-apm-alerts.js:57[33:36];Sink: 'Sendin ... y(data);predix-apm-alerts.js:58[18:58]::FLOW_DESCR_END","/predix-apm-alerts.js","57","33","57","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: seconds;predix-apm-alerts.js:61[34:40];Sink: 'No res ... ng Up.';predix-apm-alerts.js:62[18:72]::FLOW_DESCR_END","/predix-apm-alerts.js","61","34","61","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-apm-alerts.js:65[32:39];Sink: 'Alerts ... dy.uuid;predix-apm-alerts.js:66[18:84]::FLOW_DESCR_END","/predix-apm-alerts.js","65","32","65","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-apm-alerts.js:69[33:40];Sink: 'Alerts ... dy.uuid;predix-apm-alerts.js:70[18:85]::FLOW_DESCR_END","/predix-apm-alerts.js","69","33","69","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-apm-alerts.js:73[33:40];Sink: 'Respon ... se.body;predix-apm-alerts.js:74[20:82]::FLOW_DESCR_END","/predix-apm-alerts.js","73","33","73","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;predix-apm-alerts.js:94[26:28];Sink: err;predix-apm-alerts.js:96[39:41]::FLOW_DESCR_END","/predix-apm-alerts.js","94","26","94","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;predix-apm-alerts.js:94[31:38];Sink: response;predix-apm-alerts.js:100[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;predix-apm-alerts.js:94[31:38];Sink: response;predix-apm-alerts.js:158[44:51]::FLOW_DESCR_END","/predix-apm-alerts.js","94","31","94","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;predix-apm-alerts.js:121[9:11];Sink: err;predix-apm-alerts.js:123[38:40]::FLOW_DESCR_END","/predix-apm-alerts.js","121","9","121","11"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;predix-apm-alerts.js:121[24:27];Sink: r;predix-apm-alerts.js:127[35:35]::FLOW_DESCR_END","/predix-apm-alerts.js","121","24","121","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;predix-apm-alerts.js:132[31:33];Sink: msg.payload;predix-apm-alerts.js:140[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;predix-apm-alerts.js:132[31:33];Sink: data;predix-apm-alerts.js:144[32:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;predix-apm-alerts.js:132[31:33];Sink: data;predix-apm-alerts.js:147[36:39]::FLOW_DESCR_END","/predix-apm-alerts.js","132","31","132","33"

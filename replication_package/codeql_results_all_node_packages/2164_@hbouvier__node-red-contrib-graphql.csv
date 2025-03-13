@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mutate.js:13[42:44];Sink: msg;mutate.js:21[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mutate.js:13[42:44];Sink: msg;mutate.js:23[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mutate.js:13[42:44];Sink: msg;send.js:5[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mutate.js:13[42:44];Sink: [null, msg];send.js:8[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mutate.js:13[42:44];Sink: [msg, null];send.js:12[22:32]::FLOW_DESCR_END","/src/nodes/mutate.js","13","42","13","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;query.js:13[42:44];Sink: msg;query.js:21[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:13[42:44];Sink: msg;query.js:23[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:13[42:44];Sink: msg;send.js:5[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:13[42:44];Sink: [null, msg];send.js:8[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:13[42:44];Sink: [msg, null];send.js:12[22:32]::FLOW_DESCR_END","/src/nodes/query.js","13","42","13","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;subscribe.js:26[18:20];Sink: err.message;subscribe.js:27[40:50]::FLOW_DESCR_END","/src/nodes/subscribe.js","26","18","26","20"

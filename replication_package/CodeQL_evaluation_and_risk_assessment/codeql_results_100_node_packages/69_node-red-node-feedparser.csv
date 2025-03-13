@@ -1,0 +1,4 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;32-feedparse.js:31[42:44];Sink: err;32-feedparse.js:31[60:62]::FLOW_DESCR_END","/32-feedparse.js","31","42","31","44"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;32-feedparse.js:33[45:47];Sink: RED._("" ... tusCode;32-feedparse.js:34[60:117]::FLOW_DESCR_END","/32-feedparse.js","33","45","33","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;32-feedparse.js:38[49:53];Sink: error;32-feedparse.js:38[69:73]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: error;32-feedparse.js:38[49:53];Sink: error;32-feedparse.js:38[75:79]::FLOW_DESCR_END","/32-feedparse.js","38","49","38","53"

@@ -1,0 +1,30 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');persistent.js:87[24:64];Sink: ctxvar;persistent.js:93[28:33]::FLOW_DESCR_END","/nodes/lib/persistent.js","87","24","87","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-coil.js:35[27:29];Sink: msg;redplc-coil.js:46[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-coil.js:35[27:29];Sink: msg;redplc-coil.js:83[23:25]::FLOW_DESCR_END","/nodes/redplc-coil.js","35","27","35","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-compare.js:41[27:29];Sink: msg;redplc-compare.js:116[23:25]::FLOW_DESCR_END","/nodes/redplc-compare.js","41","27","41","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-contact.js:35[27:29];Sink: msg;redplc-contact.js:47[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-contact.js:35[27:29];Sink: msg;redplc-contact.js:70[23:25]::FLOW_DESCR_END","/nodes/redplc-contact.js","35","27","35","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-counter.js:37[27:29];Sink: msg;redplc-counter.js:48[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-counter.js:37[27:29];Sink: [msg, msg2];redplc-counter.js:102[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-counter.js:37[27:29];Sink: msg;redplc-counter.js:105[27:29]::FLOW_DESCR_END","/nodes/redplc-counter.js","37","27","37","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-export.js:66[27:29];Sink: [msg, null];redplc-export.js:77[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-export.js:66[27:29];Sink: [msg, null];redplc-export.js:85[23:33]::FLOW_DESCR_END","/nodes/redplc-export.js","66","27","66","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-flipflop.js:37[27:29];Sink: msg;redplc-flipflop.js:48[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-flipflop.js:37[27:29];Sink: msg;redplc-flipflop.js:84[23:25]::FLOW_DESCR_END","/nodes/redplc-flipflop.js","37","27","37","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-function.js:32[27:29];Sink: msg;redplc-function.js:59[23:25]::FLOW_DESCR_END","/nodes/redplc-function.js","32","27","32","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-math.js:47[27:29];Sink: msg;redplc-math.js:58[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-math.js:47[27:29];Sink: msg;redplc-math.js:69[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-math.js:47[27:29];Sink: msg;redplc-math.js:80[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-math.js:47[27:29];Sink: msg;redplc-math.js:138[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-math.js:47[27:29];Sink: msg;redplc-math.js:163[23:25]::FLOW_DESCR_END","/nodes/redplc-math.js","47","27","47","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-move.js:40[27:29];Sink: msg;redplc-move.js:51[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-move.js:40[27:29];Sink: msg;redplc-move.js:63[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-move.js:40[27:29];Sink: msg;redplc-move.js:95[23:25]::FLOW_DESCR_END","/nodes/redplc-move.js","40","27","40","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-scale.js:58[27:29];Sink: msg;redplc-scale.js:69[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-scale.js:58[27:29];Sink: msg;redplc-scale.js:80[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-scale.js:58[27:29];Sink: msg;redplc-scale.js:103[23:25]::FLOW_DESCR_END","/nodes/redplc-scale.js","58","27","58","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-sys.js:88[36:38];Sink: msg;redplc-sys.js:90[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-sys.js:88[36:38];Sink: msg;redplc-sys.js:94[27:29]::FLOW_DESCR_END","/nodes/redplc-sys.js","88","36","88","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-sys.js:109[36:38];Sink: msg;redplc-sys.js:120[27:29]::FLOW_DESCR_END","/nodes/redplc-sys.js","109","36","109","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-timer.js:89[27:29];Sink: msg;redplc-timer.js:100[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-timer.js:89[27:29];Sink: msg;redplc-timer.js:182[23:25]::FLOW_DESCR_END","/nodes/redplc-timer.js","89","27","89","29"

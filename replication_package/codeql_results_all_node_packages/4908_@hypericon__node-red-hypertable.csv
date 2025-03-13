@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-record.js:17[29:31];Sink: path;create-record.js:52[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-record.js:17[29:31];Sink: msg;create-record.js:70[17:19]::FLOW_DESCR_END","/nodes/create-record.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-record.js:17[29:31];Sink: msg;delete-record.js:59[17:19]::FLOW_DESCR_END","/nodes/delete-record.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hypertable-connection.js:17[23:25];Sink: msg;hypertable-connection.js:20[17:19]::FLOW_DESCR_END","/nodes/hypertable-connection.js","17","23","17","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-collection.js:18[29:31];Sink: path;read-collection.js:44[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-collection.js:18[29:31];Sink: msg;read-collection.js:58[17:19]::FLOW_DESCR_END","/nodes/read-collection.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-record.js:17[29:31];Sink: path;read-record.js:42[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-record.js:17[29:31];Sink: msg;read-record.js:56[17:19]::FLOW_DESCR_END","/nodes/read-record.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-record.js:17[29:31];Sink: msg;update-record.js:73[17:19]::FLOW_DESCR_END","/nodes/update-record.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;z-example.js:18[29:31];Sink: msg;z-example.js:58[17:19]::FLOW_DESCR_END","/nodes/z-example.js","18","29","18","31"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;machinechat-bridge.js:186[29:35];Sink: data.msg;machinechat-bridge.js:209[34:41]::FLOW_DESCR_END","/services/connector/machinechat-bridge.js","186","29","186","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;machinechat-bridge.js:267[28:28];Sink: `proble ... ssage}`;machinechat-bridge.js:268[24:59]::FLOW_DESCR_END","/services/connector/machinechat-bridge.js","267","28","267","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: obj;machinechat-bridge.js:106[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: prasedRawInput;machinechat-bridge.js:154[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: prasedRawInput;machinechat-bridge.js:227[32:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: prasedRawInput;machinechat-bridge.js:260[22:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: postData;machinechat-bridge.js:273[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: value;machinechat-bridge.js:281[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-bridge.js:292[32:34];Sink: prasedRawInput;machinechat-bridge.js:285[18:31]::FLOW_DESCR_END","/services/connector/machinechat-bridge.js","292","32","292","34"

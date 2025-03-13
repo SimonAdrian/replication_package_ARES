@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dt-action.ts:12[45:47];Sink: msg;dt-action.ts:14[35:37]::FLOW_DESCR_END","/src/dt-action/dt-action.ts","12","45","12","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dt-event.ts:10[27:29];Sink: msg;dt-event.ts:11[18:20]::FLOW_DESCR_END","/src/dt-event/dt-event.ts","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dt-model.ts:10[27:29];Sink: msg;dt-model.ts:11[18:20]::FLOW_DESCR_END","/src/dt-model/dt-model.ts","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dt-relation.ts:12[27:29];Sink: msg;dt-relation.ts:13[18:20]::FLOW_DESCR_END","/src/dt-relation/dt-relation.ts","12","27","12","29"

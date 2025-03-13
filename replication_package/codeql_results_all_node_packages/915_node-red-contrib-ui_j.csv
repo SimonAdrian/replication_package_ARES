@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ui.js:100[32:34];Sink: msg;ui.js:126[19:21]::FLOW_DESCR_END","/ui.js","100","32","100","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ui.js:131[26:28];Sink: state;ui.js:106[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ui.js:131[26:28];Sink: msg;ui.js:146[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ui.js:131[26:28];Sink: replayMessages[id];ui.js:216[39:56]::FLOW_DESCR_END","/ui.js","131","26","131","28"

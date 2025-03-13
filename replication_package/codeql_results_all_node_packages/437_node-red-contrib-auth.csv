@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonWebToken.js:30[35:37];Sink: msg;jsonWebToken.js:45[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonWebToken.js:30[35:37];Sink: msg;jsonWebToken.js:52[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonWebToken.js:30[35:37];Sink: msg;jsonWebToken.js:57[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonWebToken.js:30[35:37];Sink: msg;jsonWebToken.js:69[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonWebToken.js:30[35:37];Sink: msg;jsonWebToken.js:77[27:29]::FLOW_DESCR_END","/jsonWebToken.js","30","35","30","37"

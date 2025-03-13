@@ -1,0 +1,28 @@
+{
+  "name": "node-red-contrib-oracle-ng",
+  "version": "0.1.7",
+  "description": "Simple node-red node for talking to oracle dbs",
+  "main": "oracledb2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+	"node-red",
+    "oralcedb"
+  ],
+  "author": "uma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umasudhan/node-red-contrib-oracle-ng"
+  },
+  "node-red": {
+    "nodes": {
+      "oracledb2": "oracledb2.js"
+    }
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "oracledb": "^2.3.0"
+  }
+}

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nba.js:41[29:31];Sink: msg;node_helper.js:34[15:17]::FLOW_DESCR_END","/nba.js","41","29","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nba.js:61[29:31];Sink: msg;nba.js:67[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nba.js:61[29:31];Sink: msg;node_helper.js:34[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nba.js:61[29:31];Sink: msg;node_helper.js:38[23:25]::FLOW_DESCR_END","/nba.js","61","29","61","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nba.js:96[29:31];Sink: msg;nba.js:103[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nba.js:96[29:31];Sink: msg;node_helper.js:34[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nba.js:96[29:31];Sink: msg;node_helper.js:38[23:25]::FLOW_DESCR_END","/nba.js","96","29","96","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nba.js:130[29:31];Sink: msg;node_helper.js:34[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nba.js:130[29:31];Sink: msg;node_helper.js:38[23:25]::FLOW_DESCR_END","/nba.js","130","29","130","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nba.js:157[29:31];Sink: msg;node_helper.js:34[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nba.js:157[29:31];Sink: msg;node_helper.js:38[23:25]::FLOW_DESCR_END","/nba.js","157","29","157","31"

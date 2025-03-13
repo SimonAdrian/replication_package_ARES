@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: '-   << ... ' + msg;sofia2.js:152[14:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: 'ssapMe ... geQUERY;sofia2.js:168[15:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: ssapMessageQUERY;sofia2.js:171[16:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: msg;sofia2.js:180[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: msg;sofia2.js:185[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: ssapMessageINSERT;sofia2.js:199[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: msg;sofia2.js:207[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: msg;sofia2.js:212[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: msg;sofia2.js:272[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: [msg, null];sofia2.js:279[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia2.js:143[36:38];Sink: msg;sofia2.js:299[17:19]::FLOW_DESCR_END","/sofia2.js","143","36","143","38"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;thing.js:95[42:44];Sink: err;thing.js:97[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;thing.js:95[42:44];Sink: err.message;thing.js:97[33:43]::FLOW_DESCR_END","/lib/thing.js","95","42","95","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;thing.js:101[27:33];Sink: `$thing ... topic}`;thing.js:107[45:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;thing.js:101[27:33];Sink: JSON.st ...      });thing.js:107[113:22]::FLOW_DESCR_END","/lib/thing.js","101","27","101","33"

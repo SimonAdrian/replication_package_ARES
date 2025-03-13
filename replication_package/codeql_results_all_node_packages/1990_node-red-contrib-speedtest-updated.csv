@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speedtest.js:10[26:28];Sink: msg;speedtest.js:27[33:35]::FLOW_DESCR_END","/speedtest.js","10","26","10","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;speedtest.js:25[30:32];Sink: err;speedtest.js:27[28:30]::FLOW_DESCR_END","/speedtest.js","25","30","25","32"

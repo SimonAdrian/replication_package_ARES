@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;JSONPath.js:22[31:33];Sink: msg;JSONPath.js:28[23:25]::FLOW_DESCR_END","/engines/JSONPath.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;JSONSelect.js:30[31:33];Sink: msg;JSONSelect.js:36[23:25]::FLOW_DESCR_END","/engines/JSONSelect.js","30","31","30","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jq.js:42[31:33];Sink: msg;jq.js:68[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jq.js:42[31:33];Sink: incoming;jq.js:73[24:31]::FLOW_DESCR_END","/engines/jq.js","42","31","42","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;jq.js:70[40:43];Sink: data;jq.js:70[58:61]::FLOW_DESCR_END","/engines/jq.js","70","40","70","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;jq.js:72[34:37];Sink: code;jq.js:72[52:55]::FLOW_DESCR_END","/engines/jq.js","72","34","72","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;json-select.js:54[31:33];Sink: msg;json-select.js:60[23:25]::FLOW_DESCR_END","/engines/json-select.js","54","31","54","33"

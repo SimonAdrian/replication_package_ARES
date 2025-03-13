@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;startAutolearner.js:8[35:37];Sink: msg;startAutolearner.js:43[27:29]::FLOW_DESCR_END","/source/startAutolearner.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;startAutolearner.js:31[37:41];Sink: error;startAutolearner.js:33[32:36]::FLOW_DESCR_END","/source/startAutolearner.js","31","37","31","41"

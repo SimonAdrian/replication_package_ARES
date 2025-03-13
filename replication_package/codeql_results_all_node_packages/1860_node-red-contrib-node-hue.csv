@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-server.js:260[22:24];Sink: msg;hue-server.js:261[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-server.js:260[22:24];Sink: msg;hue-bridge.js:61[18:20]::FLOW_DESCR_END","/lib/hue-server.js","260","22","260","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;hue-server.js:260[27:29];Sink: obj;hue-server.js:261[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: obj;hue-server.js:260[27:29];Sink: obj;hue-bridge.js:61[23:25]::FLOW_DESCR_END","/lib/hue-server.js","260","27","260","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-server.js:264[24:26];Sink: msg;hue-server.js:265[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-server.js:264[24:26];Sink: msg;hue-bridge.js:66[17:19]::FLOW_DESCR_END","/lib/hue-server.js","264","24","264","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;hue-server.js:264[29:31];Sink: obj;hue-server.js:265[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: obj;hue-server.js:264[29:31];Sink: obj;hue-bridge.js:66[22:24]::FLOW_DESCR_END","/lib/hue-server.js","264","29","264","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-bridge.js:60[35:37];Sink: msg;hue-bridge.js:61[18:20]::FLOW_DESCR_END","/red/hue-bridge.js","60","35","60","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;hue-bridge.js:60[40:42];Sink: obj;hue-bridge.js:61[23:25]::FLOW_DESCR_END","/red/hue-bridge.js","60","40","60","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-bridge.js:65[37:39];Sink: msg;hue-bridge.js:66[17:19]::FLOW_DESCR_END","/red/hue-bridge.js","65","37","65","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;hue-bridge.js:65[42:44];Sink: obj;hue-bridge.js:66[22:24]::FLOW_DESCR_END","/red/hue-bridge.js","65","42","65","44"

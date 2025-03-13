@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grpc-call.js:15[40:42];Sink: msg;grpc-call.js:84[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grpc-call.js:15[40:42];Sink: msg;grpc-call.js:89[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grpc-call.js:15[40:42];Sink: msg;grpc-call.js:96[47:49]::FLOW_DESCR_END","/grpc/grpc-call.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;grpc-call.js:109[40:44];Sink: ""gRpcCa ... + error;grpc-call.js:110[28:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;grpc-call.js:109[40:44];Sink: error;grpc-call.js:111[29:33]::FLOW_DESCR_END","/grpc/grpc-call.js","109","40","109","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grpc-client-streaming.js:15[40:42];Sink: msg;grpc-client-streaming.js:84[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grpc-client-streaming.js:15[40:42];Sink: msg.payload;grpc-client-streaming.js:95[37:47]::FLOW_DESCR_END","/grpc/grpc-client-streaming.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;grpc-client-streaming.js:103[40:44];Sink: ""gClien ... + error;grpc-client-streaming.js:105[28:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;grpc-client-streaming.js:103[40:44];Sink: error;grpc-client-streaming.js:106[29:33]::FLOW_DESCR_END","/grpc/grpc-client-streaming.js","103","40","103","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;grpc-register-function.js:46[35:39];Sink: ""gRpcRe ... + error;grpc-register-function.js:47[24:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;grpc-register-function.js:46[35:39];Sink: error;grpc-register-function.js:48[25:29]::FLOW_DESCR_END","/grpc/grpc-register-function.js","46","35","46","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grpc-response.js:10[30:32];Sink: msg.payload[i];grpc-response.js:29[25:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grpc-response.js:10[30:32];Sink: msg.payload;grpc-response.js:32[24:34]::FLOW_DESCR_END","/grpc/grpc-response.js","10","30","10","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;grpc-response.js:44[30:34];Sink: ""gRpcRe ... + error;grpc-response.js:45[15:49]::FLOW_DESCR_END","/grpc/grpc-response.js","44","30","44","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;grpc-server.js:32[35:39];Sink: ""gRPC S ... + error;grpc-server.js:33[24:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;grpc-server.js:32[35:39];Sink: error;grpc-server.js:34[25:29]::FLOW_DESCR_END","/grpc/grpc-server.js","32","35","32","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data.byteLength;forge.min-0.7.0.js:1[1582:1601];Sink: this.write;forge.min-0.7.0.js:1[9411:9420]::FLOW_DESCR_END","/grpc/scripts/forge.min-0.7.0.js","1","1582","1","1601"

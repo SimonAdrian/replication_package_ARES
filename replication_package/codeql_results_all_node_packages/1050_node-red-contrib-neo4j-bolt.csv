@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;neo4j.js:31[34:36];Sink: query;neo4j.js:90[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neo4j.js:31[34:36];Sink: params;neo4j.js:90[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neo4j.js:31[34:36];Sink: [null, msg, null];neo4j.js:100[25:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neo4j.js:31[34:36];Sink: [msg, null, null];neo4j.js:107[25:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neo4j.js:31[34:36];Sink: msg;neo4j.js:113[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neo4j.js:31[34:36];Sink: [null, null, msg];neo4j.js:119[21:37]::FLOW_DESCR_END","/neo4j.js","31","34","31","36"

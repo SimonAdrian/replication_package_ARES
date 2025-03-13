@@ -1,0 +1,49 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;append.js:34[29:31];Sink: msg;append.js:37[14:16]::FLOW_DESCR_END","/append/append.js","34","29","34","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: [null,msg];dataAnalysis.js:360[18:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: topic;dataAnalysis.js:370[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: topic;dataAnalysis.js:374[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: [null,msg];dataAnalysis.js:377[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: msg.top ... message;dataAnalysis.js:382[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: [msg,null,msg];dataAnalysis.js:392[17:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataAnalysis.js:347[29:31];Sink: msg;dataAnalysis.js:410[15:17]::FLOW_DESCR_END","/dataAnalysis/dataAnalysis.js","347","29","347","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;levenshteinDistanceNode.js:33[33:35];Sink: msg;levenshteinDistanceNode.js:36[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;levenshteinDistanceNode.js:33[33:35];Sink: [null,msg];levenshteinDistanceNode.js:40[15:24]::FLOW_DESCR_END","/levenshteinDistance/levenshteinDistanceNode.js","33","33","33","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrixNode.js:150[29:31];Sink: msg;matrixNode.js:153[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrixNode.js:150[29:31];Sink: [null,msg];matrixNode.js:156[15:24]::FLOW_DESCR_END","/matrix/matrixNode.js","150","29","150","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monitorflow.js:43[35:37];Sink: msg;monitorflow.js:45[17:19]::FLOW_DESCR_END","/monitor/monitorflow.js","43","35","43","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;os.js:22[40:42];Sink: msg;os.js:38[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;os.js:22[40:42];Sink: [null,msg];os.js:42[21:30]::FLOW_DESCR_END","/nodejs/os.js","22","40","22","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spawnProcess.js:95[40:42];Sink: msg.payload;spawnProcess.js:105[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spawnProcess.js:95[40:42];Sink: [null,msg];spawnProcess.js:116[21:30]::FLOW_DESCR_END","/spawnProcess/spawnProcess.js","95","40","95","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;01-base.js:43[34:36];Sink: ""outHel ... ayload);01-base.js:44[16:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;01-base.js:43[34:36];Sink: ""mismat ... ayload);01-base.js:48[17:104]::FLOW_DESCR_END","/test/01-base.js","43","34","43","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;01-base.js:52[36:38];Sink: ""errorH ... fy(msg);01-base.js:53[16:49]::FLOW_DESCR_END","/test/01-base.js","52","36","52","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dataAnalysis.js:45[38:40];Sink: JSON.st ... g._i]});dataAnalysis.js:50[19:143]::FLOW_DESCR_END","/test/dataAnalysis.js","45","38","45","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dataAnalysis.js:57[38:40];Sink: JSON.st ... g:msg});dataAnalysis.js:58[18:79]::FLOW_DESCR_END","/test/dataAnalysis.js","57","38","57","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dataAnalysis.js:60[39:41];Sink: JSON.st ... g:msg});dataAnalysis.js:61[18:80]::FLOW_DESCR_END","/test/dataAnalysis.js","60","39","60","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform.js:69[28:30];Sink: msg;transform.js:72[17:19]::FLOW_DESCR_END","/test/transform.js","69","28","69","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform.js:111[35:37];Sink: ""outHel ... payload;transform.js:112[17:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transform.js:111[35:37];Sink: ""mismat ... ayload);transform.js:116[18:85]::FLOW_DESCR_END","/test/transform.js","111","35","111","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform.js:120[37:39];Sink: ""errorH ... payload;transform.js:121[17:42]::FLOW_DESCR_END","/test/transform.js","120","37","120","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformConfluence.js:59[34:36];Sink: ""outHel ... ayload);transformConfluence.js:60[16:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transformConfluence.js:59[34:36];Sink: ""mismat ... ayload);transformConfluence.js:64[17:104]::FLOW_DESCR_END","/test/transformConfluence.js","59","34","59","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformConfluence.js:68[36:38];Sink: ""errorH ... fy(msg);transformConfluence.js:69[16:49]::FLOW_DESCR_END","/test/transformConfluence.js","68","36","68","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformXLSX.js:45[34:36];Sink: ""outHel ... g.json);transformXLSX.js:46[16:52]::FLOW_DESCR_END","/test/transformXLSX.js","45","34","45","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformXLSX.js:53[36:38];Sink: ""errorH ... fy(msg);transformXLSX.js:54[16:49]::FLOW_DESCR_END","/test/transformXLSX.js","53","36","53","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformXML.js:46[34:36];Sink: ""outHel ... ayload);transformXML.js:47[16:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transformXML.js:46[34:36];Sink: ""mismat ... ayload);transformXML.js:51[17:104]::FLOW_DESCR_END","/test/transformXML.js","46","34","46","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformXML.js:55[36:38];Sink: ""errorH ... fy(msg);transformXML.js:56[16:49]::FLOW_DESCR_END","/test/transformXML.js","55","36","55","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;hostAvailable.js:15[29:29];Sink: ""state  ... tring();hostAvailable.js:46[21:55]::FLOW_DESCR_END","/testing/hostAvailable.js","15","29","15","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;hostAvailable.js:34[19:27];Sink: host;hostAvailable.js:30[23:26]::FLOW_DESCR_END","/testing/hostAvailable.js","34","19","34","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;hostAvailable.js:34[29:37];Sink: port;hostAvailable.js:30[17:20]::FLOW_DESCR_END","/testing/hostAvailable.js","34","29","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hostAvailable.js:78[34:36];Sink: [null,msg];hostAvailable.js:86[24:33]::FLOW_DESCR_END","/testing/hostAvailable.js","78","34","78","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;load-injector.js:63[35:37];Sink: msg;load-injector.js:77[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;load-injector.js:63[35:37];Sink: [null,msg];load-injector.js:80[15:24]::FLOW_DESCR_END","/testing/load-injector.js","63","35","63","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: err;test.js:27[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: [null,msg];test.js:29[12:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: [null,null,msg];test.js:81[17:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: msg;test.js:98[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: msg;test.js:101[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: msg;test.js:116[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;test.js:70[28:30];Sink: msg;test.js:119[21:23]::FLOW_DESCR_END","/testing/test.js","70","28","70","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform.js:528[29:31];Sink: [null,msg];transform.js:538[15:24]::FLOW_DESCR_END","/transform/transform.js","528","29","528","31"

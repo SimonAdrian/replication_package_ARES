@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myMessage;control.js:15[34:42];Sink: 'Settin ...  + '\'';control.js:64[24:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myMessage;control.js:15[34:42];Sink: cs[c].v ...  + '""}';control.js:65[23:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myMessage;control.js:15[34:42];Sink: 'Settin ...  + '\'';control.js:74[24:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myMessage;control.js:15[34:42];Sink: cs[c].v ... itoring;control.js:75[23:100]::FLOW_DESCR_END","/control.js","15","34","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myError;control.js:38[15:21];Sink: 'There  ... myError;control.js:46[19:65]::FLOW_DESCR_END","/control.js","38","15","38","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myResponse;control.js:38[24:33];Sink: 'There  ... myError;control.js:46[19:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myResponse;control.js:38[24:33];Sink: 'https: ... ize=50';control.js:48[17:127]::FLOW_DESCR_END","/control.js","38","24","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myError;control.js:49[14:20];Sink: 'There  ... myError;control.js:51[21:72]::FLOW_DESCR_END","/control.js","49","14","49","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myResponse;control.js:49[23:32];Sink: 'There  ... se.body;control.js:57[22:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myResponse;control.js:49[23:32];Sink: cs[c].v ...  + '""}';control.js:65[23:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: myResponse;control.js:49[23:32];Sink: cs[c].v ... itoring;control.js:75[23:100]::FLOW_DESCR_END","/control.js","49","23","49","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myError;control.js:66[20:26];Sink: 'There  ... myError;control.js:68[27:87]::FLOW_DESCR_END","/control.js","66","20","66","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: myError;control.js:76[20:26];Sink: 'There  ... myError;control.js:78[27:92]::FLOW_DESCR_END","/control.js","76","20","76","26"

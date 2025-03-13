@@ -1,0 +1,61 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hs-device.js:29[30:32];Sink: msg;hs-device.js:37[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hs-device.js:29[30:32];Sink: msg;hs-device.js:46[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hs-device.js:29[30:32];Sink: msg;hs-device.js:57[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hs-device.js:29[30:32];Sink: msg;hs-device.js:67[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hs-device.js:29[30:32];Sink: msg;hs-device.js:77[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hs-device.js:29[30:32];Sink: msg;hs-device.js:86[11:13]::FLOW_DESCR_END","/homeseer/hs-device.js","29","30","29","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hs-event.js:11[30:32];Sink: msg;hs-event.js:15[11:13]::FLOW_DESCR_END","/homeseer/hs-event.js","11","30","11","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... + value;hs-server.js:55[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... + label;hs-server.js:71[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ...  string;hs-server.js:87[15:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... + value;hs-server.js:103[15:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... eventId;hs-server.js:119[15:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... viceRef;hs-server.js:130[15:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: ""getAll ... ndpoint;hs-server.js:189[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;hs-server.js:13[15:25];Sink: 'http:/ ... events';hs-server.js:191[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","13","15","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... + value;hs-server.js:55[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... + label;hs-server.js:71[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ...  string;hs-server.js:87[15:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... + value;hs-server.js:103[15:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... eventId;hs-server.js:119[15:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... viceRef;hs-server.js:130[15:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: ""getAll ... ndpoint;hs-server.js:189[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;hs-server.js:14[15:25];Sink: 'http:/ ... events';hs-server.js:191[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","14","15","14","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... + value;hs-server.js:55[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... + label;hs-server.js:71[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ...  string;hs-server.js:87[15:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... + value;hs-server.js:103[15:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... eventId;hs-server.js:119[15:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... viceRef;hs-server.js:130[15:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: ""getAll ... ndpoint;hs-server.js:189[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;hs-server.js:20[11:19];Sink: 'http:/ ... events';hs-server.js:191[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","20","11","20","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... + value;hs-server.js:55[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... + label;hs-server.js:71[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ...  string;hs-server.js:87[15:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... + value;hs-server.js:103[15:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... eventId;hs-server.js:119[15:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... viceRef;hs-server.js:130[15:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: ""getAll ... ndpoint;hs-server.js:189[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;hs-server.js:20[29:37];Sink: 'http:/ ... events';hs-server.js:191[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","20","29","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.Events;hs-server.js:192[13:32];Sink: allEvents;hs-server.js:286[26:34]::FLOW_DESCR_END","/homeseer/hs-server.js","192","13","192","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;hs-server.js:218[39:52];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.query.host;hs-server.js:218[39:52];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","218","39","218","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;hs-server.js:218[62:75];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.query.port;hs-server.js:218[62:75];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","218","62","218","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;hs-server.js:249[39:52];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.query.host;hs-server.js:249[39:52];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","249","39","249","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;hs-server.js:249[62:75];Sink: ""getAll ... ndpoint;hs-server.js:178[17:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.query.port;hs-server.js:249[62:75];Sink: 'http:/ ... status';hs-server.js:180[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","249","62","249","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;hs-server.js:284[37:50];Sink: ""getAll ... ndpoint;hs-server.js:189[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.query.host;hs-server.js:284[37:50];Sink: 'http:/ ... events';hs-server.js:191[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","284","37","284","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;hs-server.js:284[60:73];Sink: ""getAll ... ndpoint;hs-server.js:189[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.query.port;hs-server.js:284[60:73];Sink: 'http:/ ... events';hs-server.js:191[14:61]::FLOW_DESCR_END","/homeseer/hs-server.js","284","60","284","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.data[""ref""];hs-server.js:312[31:50];Sink: req.bod ... tring();hs-server.js:312[31:61]::FLOW_DESCR_END","/homeseer/hs-server.js","312","31","312","50"

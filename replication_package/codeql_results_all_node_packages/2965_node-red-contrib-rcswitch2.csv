@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rcswitch.js:16[28:30];Sink: ""send c ... uccess"";rcswitch.js:315[18:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcswitch.js:16[28:30];Sink: systemcode;rcswitch.js:334[22:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcswitch.js:16[28:30];Sink: ""send c ... uccess"";rcswitch.js:335[18:80]::FLOW_DESCR_END","/rcswitch/rcswitch.js","16","28","16","30"

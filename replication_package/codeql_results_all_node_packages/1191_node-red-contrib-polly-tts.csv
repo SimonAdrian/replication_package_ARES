@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: 'Failed ... + aPath;polly-tts.js:40[35:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: msg;polly-tts.js:789[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: [msg, null];polly-tts.js:804[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: [msg, null];polly-tts.js:834[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: path;polly-tts.js:856[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: data;polly-tts.js:856[32:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: errorMessage;polly-tts.js:891[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;polly-tts.js:765[35:37];Sink: [null, msg];polly-tts.js:903[19:29]::FLOW_DESCR_END","/polly-tts/polly-tts.js","765","35","765","37"

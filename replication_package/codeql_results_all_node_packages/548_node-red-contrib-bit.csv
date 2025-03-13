@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bit-simple-sixteen.js:1[219:219];Sink: e;bit-simple-sixteen.js:1[262:262]::FLOW_DESCR_END","/bit/bit-simple-sixteen.js","1","219","1","219"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bit-simple-thirtytwo.js:1[221:221];Sink: e;bit-simple-thirtytwo.js:1[264:264]::FLOW_DESCR_END","/bit/bit-simple-thirtytwo.js","1","221","1","221"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a;bit-sixteen.js:1[212:212];Sink: a;bit-sixteen.js:1[255:255]::FLOW_DESCR_END","/bit/bit-sixteen.js","1","212","1","212"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a;bit-thirtytwo.js:1[214:214];Sink: a;bit-thirtytwo.js:1[257:257]::FLOW_DESCR_END","/bit/bit-thirtytwo.js","1","214","1","214"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: b;docstrap.lib.js:1[717:717]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[9632:9632]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: c;docstrap.lib.js:1[23529:23529]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[29902:29902]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[2056:2059]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[6633:6636]::FLOW_DESCR_END","/docs/gen/scripts/docstrap.lib.js","1","9634","1","9634"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;diffusion-publisher.js:12[31:33];Sink: ""'Recei ... d + ""'"";diffusion-publisher.js:13[18:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;diffusion-publisher.js:12[31:33];Sink: ""Update ... d + ""'"";diffusion-publisher.js:16[22:90]::FLOW_DESCR_END","/diffusion-publisher.js","12","31","12","33"

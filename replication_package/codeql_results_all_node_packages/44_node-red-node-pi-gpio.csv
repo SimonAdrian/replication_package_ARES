@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;36-rpi-gpio.js:53[52:55];Sink: ""out: ""+d[i]+"" :"";36-rpi-gpio.js:62[58:74]::FLOW_DESCR_END","/36-rpi-gpio.js","53","52","53","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;36-rpi-gpio.js:66[52:55];Sink: ""err: ""+data+"" :"";36-rpi-gpio.js:67[54:70]::FLOW_DESCR_END","/36-rpi-gpio.js","66","52","66","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;36-rpi-gpio.js:85[46:48];Sink: RED._("" ... rr.path;36-rpi-gpio.js:86[57:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:85[46:48];Sink: err;36-rpi-gpio.js:86[107:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:85[46:48];Sink: RED._("" ... rr.path;36-rpi-gpio.js:87[62:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:85[46:48];Sink: err;36-rpi-gpio.js:87[117:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:85[46:48];Sink: err;36-rpi-gpio.js:88[83:85]::FLOW_DESCR_END","/36-rpi-gpio.js","85","46","85","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;36-rpi-gpio.js:91[52:54];Sink: err;36-rpi-gpio.js:93[80:82]::FLOW_DESCR_END","/36-rpi-gpio.js","91","52","91","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;36-rpi-gpio.js:152[32:34];Sink: msg;36-rpi-gpio.js:167[79:81]::FLOW_DESCR_END","/36-rpi-gpio.js","152","32","152","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;36-rpi-gpio.js:187[56:59];Sink: ""out: ""+data+"" :"";36-rpi-gpio.js:188[58:74]::FLOW_DESCR_END","/36-rpi-gpio.js","187","56","187","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;36-rpi-gpio.js:191[56:59];Sink: ""err: ""+data+"" :"";36-rpi-gpio.js:192[58:74]::FLOW_DESCR_END","/36-rpi-gpio.js","191","56","191","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;36-rpi-gpio.js:206[50:52];Sink: RED._("" ... rr.path;36-rpi-gpio.js:207[61:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:206[50:52];Sink: err;36-rpi-gpio.js:207[111:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:206[50:52];Sink: RED._("" ... rr.path;36-rpi-gpio.js:208[66:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:206[50:52];Sink: err;36-rpi-gpio.js:208[121:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;36-rpi-gpio.js:206[50:52];Sink: err;36-rpi-gpio.js:209[87:89]::FLOW_DESCR_END","/36-rpi-gpio.js","206","50","206","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;36-rpi-gpio.js:212[56:58];Sink: err;36-rpi-gpio.js:214[84:86]::FLOW_DESCR_END","/36-rpi-gpio.js","212","56","212","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;36-rpi-gpio.js:260[52:55];Sink: ""err: ""+data+"" :"";36-rpi-gpio.js:261[54:70]::FLOW_DESCR_END","/36-rpi-gpio.js","260","52","260","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;36-rpi-gpio.js:275[46:48];Sink: RED._("" ... r.errno;36-rpi-gpio.js:278[35:81]::FLOW_DESCR_END","/36-rpi-gpio.js","275","46","275","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;36-rpi-gpio.js:318[52:55];Sink: ""err: ""+data+"" :"";36-rpi-gpio.js:319[54:70]::FLOW_DESCR_END","/36-rpi-gpio.js","318","52","318","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;36-rpi-gpio.js:336[46:48];Sink: RED._("" ... r.errno;36-rpi-gpio.js:339[35:81]::FLOW_DESCR_END","/36-rpi-gpio.js","336","46","336","48"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpunode.js:13[28:30];Sink: [null,msg];gpunode.js:15[13:22]::FLOW_DESCR_END","/gpunode.js","13","28","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpunode.js:48[29:31];Sink: [null,null,msg];gpunode.js:49[14:28]::FLOW_DESCR_END","/gpunode.js","48","29","48","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpunode.js:72[30:32];Sink: [null,msg];gpunode.js:79[16:25]::FLOW_DESCR_END","/gpunode.js","72","30","72","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpunode.js:84[29:31];Sink: [null,msg];gpunode.js:100[15:24]::FLOW_DESCR_END","/gpunode.js","84","29","84","31"

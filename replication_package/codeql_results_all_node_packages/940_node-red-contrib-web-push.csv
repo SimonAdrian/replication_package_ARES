@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web-push-notification.js:9[23:25];Sink: msg;web-push-notification.js:68[19:21]::FLOW_DESCR_END","/web-push-notification.js","9","23","9","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web-push.js:8[22:24];Sink: msg;web-push.js:101[23:25]::FLOW_DESCR_END","/web-push.js","8","22","8","24"

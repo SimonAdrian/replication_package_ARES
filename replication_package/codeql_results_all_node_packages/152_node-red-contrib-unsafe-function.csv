@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unsafe-function.js:267[41:43];Sink: msg;unsafe-function.js:352[38:40]::FLOW_DESCR_END","/unsafe-function.js","267","41","267","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unsafe-function.js:297[25:27];Sink: msg;unsafe-function.js:352[38:40]::FLOW_DESCR_END","/unsafe-function.js","297","25","297","27"

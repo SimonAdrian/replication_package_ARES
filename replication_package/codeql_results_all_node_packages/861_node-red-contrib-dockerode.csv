@@ -1,0 +1,398 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:10[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: Object. ...  res });docker-config-actions.js:29[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:32[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:36[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:40[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: Object. ...  res });docker-config-actions.js:50[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:53[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Name c ... d + ""]"";docker-config-actions.js:57[40:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:57[103:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:61[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: Object. ...  res });docker-config-actions.js:71[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Node i ... d + ""]"";docker-config-actions.js:74[40:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:74[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Config ... d + ""]"";docker-config-actions.js:78[40:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:78[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:82[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:86[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: Object. ...  res });docker-config-actions.js:96[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Node i ... d + ""]"";docker-config-actions.js:99[40:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:99[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Config ... d + ""]"";docker-config-actions.js:103[40:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:103[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:107[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:111[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: Object. ...  res });docker-config-actions.js:121[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Node i ... d + ""]"";docker-config-actions.js:124[40:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:124[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Bad pa ... d + ""]"";docker-config-actions.js:128[40:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:128[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Config ... d + ""]"";docker-config-actions.js:132[40:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:132[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:136[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:140[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: ""Called ...  action;docker-config-actions.js:146[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-config-actions.js:9[36:38];Sink: msg;docker-config-actions.js:146[76:78]::FLOW_DESCR_END","/dist/docker-config-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();docker-container-actions.js:24[30:40];Sink: y;docker-container-actions.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-container-actions.js:24[30:40];Sink: y;docker-container-actions.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-container-actions.js:24[30:40];Sink: op[1];docker-container-actions.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-container-actions.js:24[30:40];Sink: stats.read;docker-container-actions.js:737[41:50]::FLOW_DESCR_END","/dist/docker-container-actions.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;docker-container-actions.js:47[27:37];Sink: ""config ... ig.host;docker-container-actions.js:47[15:37]::FLOW_DESCR_END","/dist/docker-container-actions.js","47","27","47","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""action: "" + action;docker-container-actions.js:77[35:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""contai ... ainerId;docker-container-actions.js:78[35:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ... : {} });docker-container-actions.js:111[47:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:119[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  err });docker-container-actions.js:120[47:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ... ut_1 });docker-container-actions.js:123[47:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ['sh',  ... ig.cmd];docker-container-actions.js:132[78:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ['sh',  ... ig.cmd];docker-container-actions.js:136[78:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:149[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ['sh',  ... ig.cmd];docker-container-actions.js:157[70:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ['sh',  ... ig.cmd];docker-container-actions.js:161[70:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:174[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ... dout });docker-container-actions.js:204[55:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:206[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:214[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:214[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:218[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:222[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:232[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:236[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:240[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:244[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:254[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:258[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:258[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:262[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:266[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:276[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:280[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:280[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:284[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:288[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:307[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:311[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:311[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:315[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:319[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:329[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:333[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:333[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:337[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:341[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:351[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:355[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:355[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:359[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:363[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:389[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:407[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:421[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:425[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:425[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:429[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:433[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:443[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:447[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:447[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:451[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:455[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:465[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:469[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:469[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:473[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:477[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:487[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:491[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:491[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:495[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:499[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:509[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:513[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:513[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:517[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:521[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:531[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:535[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:535[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:539[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:543[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:553[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:557[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:557[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:561[111:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:565[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:569[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:579[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:583[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:583[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:587[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:591[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:601[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:605[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:605[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:609[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:613[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:623[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:627[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:627[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:631[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:635[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:645[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:649[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:649[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:653[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:657[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:667[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""Contai ... d + ""]"";docker-container-actions.js:671[48:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:671[107:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:675[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:679[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:690[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""Contai ... d + ""]"";docker-container-actions.js:694[48:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:694[107:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:698[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:702[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:712[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""No suc ... d + ""]"";docker-container-actions.js:716[48:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:716[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:720[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:724[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ...  res });docker-container-actions.js:748[47:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:752[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:756[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:760[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: Object. ... : {} });docker-container-actions.js:766[43:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: ""Called ...  action;docker-container-actions.js:770[40:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-container-actions.js:48[36:38];Sink: msg;docker-container-actions.js:770[84:86]::FLOW_DESCR_END","/dist/docker-container-actions.js","48","36","48","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;docker-container-actions.js:147[76:78];Sink: err;docker-container-actions.js:148[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;docker-container-actions.js:147[76:78];Sink: err;docker-container-actions.js:149[56:58]::FLOW_DESCR_END","/dist/docker-container-actions.js","147","76","147","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;docker-container-actions.js:172[68:70];Sink: err;docker-container-actions.js:173[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;docker-container-actions.js:172[68:70];Sink: err;docker-container-actions.js:174[48:50]::FLOW_DESCR_END","/dist/docker-container-actions.js","172","68","172","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;docker-container-actions.js:200[69:73];Sink: ""Error  ... _stderr;docker-container-actions.js:206[60:99]::FLOW_DESCR_END","/dist/docker-container-actions.js","200","69","200","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;docker-container-actions.js:405[66:68];Sink: 'Error:' + err;docker-container-actions.js:407[52:65]::FLOW_DESCR_END","/dist/docker-container-actions.js","405","66","405","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:28[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:31[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:35[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:44[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:47[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:51[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:60[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:63[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:67[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:76[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:79[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:83[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:92[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:95[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:99[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:108[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:111[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:115[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:140[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:143[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:147[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:156[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:159[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:163[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:172[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:175[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:179[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: Object. ...  res });docker-engine-actions.js:188[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:191[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:195[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: ""Called ...  action;docker-engine-actions.js:201[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-engine-actions.js:9[36:38];Sink: msg;docker-engine-actions.js:201[76:78]::FLOW_DESCR_END","/dist/docker-engine-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();docker-events.js:24[30:40];Sink: y;docker-events.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-events.js:24[30:40];Sink: y;docker-events.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-events.js:24[30:40];Sink: op[1];docker-events.js:18[147:151]::FLOW_DESCR_END","/dist/docker-events.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-events.js:47[36:38];Sink: msg;docker-events.js:68[66:68]::FLOW_DESCR_END","/dist/docker-events.js","47","36","47","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:28[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:31[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:35[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:39[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:49[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:52[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:56[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:66[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:69[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:73[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:83[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:86[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:90[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:100[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:103[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:107[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:119[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:122[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:126[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: Object. ...  res });docker-image-actions.js:136[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:139[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:143[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: ""Called ...  action;docker-image-actions.js:149[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-image-actions.js:9[36:38];Sink: msg;docker-image-actions.js:149[76:78]::FLOW_DESCR_END","/dist/docker-image-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();docker-network-actions.js:24[30:40];Sink: y;docker-network-actions.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-network-actions.js:24[30:40];Sink: y;docker-network-actions.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();docker-network-actions.js:24[30:40];Sink: op[1];docker-network-actions.js:18[147:151]::FLOW_DESCR_END","/dist/docker-network-actions.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:79[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:82[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:86[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:90[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:100[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:103[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:107[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:117[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:120[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:124[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:134[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:137[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:141[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:151[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:154[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:158[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:168[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:171[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:175[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ...  res });docker-network-actions.js:199[47:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:202[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:206[109:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: Object. ... : {} });docker-network-actions.js:213[43:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: ""Called ...  action;docker-network-actions.js:217[40:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-network-actions.js:45[36:38];Sink: msg;docker-network-actions.js:217[84:86]::FLOW_DESCR_END","/dist/docker-network-actions.js","45","36","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: Object. ...  res });docker-node-actions.js:29[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:32[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:36[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:40[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: Object. ...  res });docker-node-actions.js:50[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:53[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:57[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: Object. ...  res });docker-node-actions.js:67[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:70[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:74[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: Object. ...  res });docker-node-actions.js:84[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:87[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:91[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: ""Called ...  action;docker-node-actions.js:97[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-node-actions.js:9[36:38];Sink: msg;docker-node-actions.js:97[76:78]::FLOW_DESCR_END","/dist/docker-node-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:29[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:32[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:36[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:40[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:50[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:53[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:57[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:67[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:70[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:74[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:84[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:87[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:91[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:101[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:104[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:108[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:118[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:121[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:125[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:135[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:138[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:142[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:152[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:155[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:159[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:169[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:172[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:176[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:186[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:189[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:193[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: Object. ...  res });docker-plugin-actions.js:203[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:206[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:210[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: ""Called ...  action;docker-plugin-actions.js:216[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-plugin-actions.js:9[36:38];Sink: msg;docker-plugin-actions.js:216[76:78]::FLOW_DESCR_END","/dist/docker-plugin-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: Object. ...  res });docker-secret-actions.js:29[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:32[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:36[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:40[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: Object. ...  res });docker-secret-actions.js:50[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:53[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:57[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: Object. ...  res });docker-secret-actions.js:67[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:70[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:74[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: Object. ...  res });docker-secret-actions.js:84[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:87[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:91[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: Object. ...  res });docker-secret-actions.js:101[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:104[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:108[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: ""Called ...  action;docker-secret-actions.js:114[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-secret-actions.js:9[36:38];Sink: msg;docker-secret-actions.js:114[76:78]::FLOW_DESCR_END","/dist/docker-secret-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: Object. ...  res });docker-service-actions.js:32[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:35[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:39[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:43[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: Object. ...  res });docker-service-actions.js:53[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:56[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:60[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:64[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: Object. ...  res });docker-service-actions.js:74[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:77[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:81[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: Object. ...  res });docker-service-actions.js:91[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:94[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:98[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: Object. ...  res });docker-service-actions.js:108[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:111[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:115[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: Object. ...  res });docker-service-actions.js:126[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:129[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:133[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: ""Called ...  action;docker-service-actions.js:139[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-service-actions.js:9[36:38];Sink: msg;docker-service-actions.js:139[76:78]::FLOW_DESCR_END","/dist/docker-service-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: Object. ...  res });docker-swarm-actions.js:23[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:26[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:30[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: Object. ...  res });docker-swarm-actions.js:40[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:43[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:47[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: Object. ...  res });docker-swarm-actions.js:57[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:60[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:64[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: Object. ...  res });docker-swarm-actions.js:74[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:77[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:81[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: Object. ...  res });docker-swarm-actions.js:91[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:94[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:102[100:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: ""Called ...  action;docker-swarm-actions.js:108[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-swarm-actions.js:9[36:38];Sink: msg;docker-swarm-actions.js:108[76:78]::FLOW_DESCR_END","/dist/docker-swarm-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: Object. ...  res });docker-task-actions.js:27[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: msg;docker-task-actions.js:30[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: msg;docker-task-actions.js:34[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: msg;docker-task-actions.js:38[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: Object. ...  res });docker-task-actions.js:48[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: msg;docker-task-actions.js:51[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: msg;docker-task-actions.js:55[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: ""Called ...  action;docker-task-actions.js:79[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-task-actions.js:9[36:38];Sink: msg;docker-task-actions.js:79[76:78]::FLOW_DESCR_END","/dist/docker-task-actions.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: Object. ...  res });docker-volume-actions.js:28[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:31[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:35[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:39[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: Object. ...  res });docker-volume-actions.js:49[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:53[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:57[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: Object. ...  res });docker-volume-actions.js:67[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:70[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:74[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:78[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:82[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: Object. ...  res });docker-volume-actions.js:92[30:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:96[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:100[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: Object. ...  res });docker-volume-actions.js:110[35:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:113[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:117[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: ""Called ...  action;docker-volume-actions.js:123[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docker-volume-actions.js:9[36:38];Sink: msg;docker-volume-actions.js:123[76:78]::FLOW_DESCR_END","/dist/docker-volume-actions.js","9","36","9","38"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartpi-modules-digital-out.js:16[36:38];Sink: msg;smartpi-modules-digital-out.js:84[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartpi-modules-digital-out.js:16[36:38];Sink: msg;smartpi-modules-digital-out.js:87[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartpi-modules-digital-out.js:16[36:38];Sink: msg;smartpi-modules-digital-out.js:177[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartpi-modules-digital-out.js:16[36:38];Sink: msg;smartpi-modules-digital-out.js:180[45:47]::FLOW_DESCR_END","/smartpi-modules-digital-out.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartpi-treshold-trigger.js:8[35:37];Sink: msg;smartpi-treshold-trigger.js:22[31:33]::FLOW_DESCR_END","/smartpi-treshold-trigger.js","8","35","8","37"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Read.js:30[23:25];Sink: input;ReadNode.js:67[54:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Read.js:30[23:25];Sink: msg;ReadNode.js:92[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Read.js:30[23:25];Sink: msg;ReadNode.js:101[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Read.js:30[23:25];Sink: msg;ReadNode.js:109[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Read.js:30[23:25];Sink: object;utils.js:2[41:46]::FLOW_DESCR_END","/src/Read/Read.js","30","23","30","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Write.js:28[23:25];Sink: payload;WriteNode.js:68[68:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Write.js:28[23:25];Sink: opts;WriteNode.js:68[77:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Write.js:28[23:25];Sink: msg;WriteNode.js:80[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Write.js:28[23:25];Sink: object;utils.js:2[41:46]::FLOW_DESCR_END","/src/Write/Write.js","28","23","28","25"

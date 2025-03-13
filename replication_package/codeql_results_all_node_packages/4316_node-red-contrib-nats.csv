@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nats.js:52[33:35];Sink: this.subject;nats.js:58[27:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nats.js:52[33:35];Sink: this.message;nats.js:58[41:52]::FLOW_DESCR_END","/nats.js","52","33","52","35"

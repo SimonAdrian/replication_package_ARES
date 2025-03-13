@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uuid;run-core.js:30[16:19];Sink: 'https: ...  + uuid;run-core.js:34[25:68]::FLOW_DESCR_END","/src/wechat4u/run-core.js","30","16","30","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: avatar;run-core.js:39[23:28];Sink: avatar;run-core.js:40[34:39]::FLOW_DESCR_END","/src/wechat4u/run-core.js","39","23","39","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: contacts;run-core.js:61[28:35];Sink: contacts;run-core.js:62[15:22]::FLOW_DESCR_END","/src/wechat4u/run-core.js","61","28","61","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;run-core.js:68[17:19];Sink: err;run-core.js:69[24:26]::FLOW_DESCR_END","/src/wechat4u/run-core.js","68","17","68","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-core.js:172[19:21];Sink: msg.Content;run-core.js:189[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-core.js:172[19:21];Sink: `./medi ... d}.jpg`;run-core.js:197[26:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-core.js:172[19:21];Sink: `./medi ... d}.mp3`;run-core.js:208[26:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-core.js:172[19:21];Sink: `./medi ... d}.gif`;run-core.js:219[26:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-core.js:172[19:21];Sink: `./medi ... d}.mp4`;run-core.js:231[26:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-core.js:172[19:21];Sink: `./medi ... eName}`;run-core.js:243[28:52]::FLOW_DESCR_END","/src/wechat4u/run-core.js","172","19","172","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-core.js:308[19:21];Sink: `./medi ... e}.jpg`;run-core.js:310[22:54]::FLOW_DESCR_END","/src/wechat4u/run-core.js","308","19","308","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ContactList;core.js:269[16:31];Sink: contacts;run-core.js:62[15:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ContactList;core.js:269[16:31];Sink: contacts.length;wechat.js:157[37:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ContactList;core.js:269[16:31];Sink: res.length;wechat.js:315[54:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ContactList;core.js:269[16:31];Sink: contacts;wechat.js:356[35:42]::FLOW_DESCR_END","/src/wechat4u/src/core.js","269","16","269","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.MediaId;core.js:635[23:34];Sink: res.mediaId;wechat.js:66[37:47]::FLOW_DESCR_END","/src/wechat4u/src/core.js","635","23","635","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wechat.js:13[35:37];Sink: err;wechat.js:14[38:40]::FLOW_DESCR_END","/src/wechat4u/src/wechat.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;wechat4u.js:35[40:43];Sink: wechat.botData;wechat4u.js:81[34:47]::FLOW_DESCR_END","/wechat4u.js","35","40","35","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uuid;wechat4u.js:63[22:25];Sink: 'https: ...  + uuid;wechat4u.js:64[33:76]::FLOW_DESCR_END","/wechat4u.js","63","22","63","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wechat4u.js:104[29:31];Sink: err;wechat4u.js:105[15:17]::FLOW_DESCR_END","/wechat4u.js","104","29","104","31"

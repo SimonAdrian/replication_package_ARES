@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;stomp.js:43[43:47];Sink: error;stomp.js:46[21:25]::FLOW_DESCR_END","/stomp.js","43","43","43","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stomp.js:117[34:36];Sink: sendHeaders;stomp.js:130[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stomp.js:117[34:36];Sink: payload;stomp.js:137[21:27]::FLOW_DESCR_END","/stomp.js","117","34","117","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;stomp.js:172[45:49];Sink: error;stomp.js:175[19:23]::FLOW_DESCR_END","/stomp.js","172","45","172","49"

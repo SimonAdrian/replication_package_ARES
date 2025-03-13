@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: b;docstrap.lib.js:1[717:717]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[9632:9632]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: c;docstrap.lib.js:1[23529:23529]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[29902:29902]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[2056:2059]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[6633:6636]::FLOW_DESCR_END","/docs/gen/scripts/docstrap.lib.js","1","9634","1","9634"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jwt-in.js:1[3001:3001];Sink: t;jwt-in.js:1[1965:1965]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;jwt-in.js:1[3001:3001];Sink: i;jwt-in.js:1[2395:2395]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;jwt-in.js:1[3001:3001];Sink: i;jwt-in.js:1[2759:2759]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;jwt-in.js:1[3001:3001];Sink: e;jwt-in.js:1[2975:2975]::FLOW_DESCR_END","/jwt/jwt-in.js","1","3001","1","3001"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jwt-out.js:1[2872:2872];Sink: t;jwt-out.js:1[2142:2142]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;jwt-out.js:1[2872:2872];Sink: t;jwt-out.js:1[2468:2468]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;jwt-out.js:1[2872:2872];Sink: t;jwt-out.js:1[2817:2817]::FLOW_DESCR_END","/jwt/jwt-out.js","1","2872","1","2872"

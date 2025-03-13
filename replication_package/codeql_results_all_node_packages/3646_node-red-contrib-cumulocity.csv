@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c8y-alarm-by-id.js:26[29:31];Sink: msg;c8y-alarm-by-id.js:52[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarm-by-id.js:26[29:31];Sink: msg;c8y-alarm-by-id.js:81[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarm-by-id.js:26[29:31];Sink: msg;c8y-alarm-by-id.js:104[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarm-by-id.js:26[29:31];Sink: msg;c8y-alarm-by-id.js:109[16:18]::FLOW_DESCR_END","/c8y-alarm-by-id.js","26","29","26","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c8y-alarms-update.js:26[29:31];Sink: msg;c8y-alarms-update.js:51[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms-update.js:26[29:31];Sink: msg;c8y-alarms-update.js:75[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms-update.js:26[29:31];Sink: msg;c8y-alarms-update.js:98[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms-update.js:26[29:31];Sink: msg;c8y-alarms-update.js:108[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms-update.js:26[29:31];Sink: msg;c8y-alarms-update.js:113[24:26]::FLOW_DESCR_END","/c8y-alarms-update.js","26","29","26","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c8y-alarms.js:31[29:31];Sink: msg;c8y-alarms.js:111[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms.js:31[29:31];Sink: msg;c8y-alarms.js:138[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms.js:31[29:31];Sink: msg;c8y-alarms.js:161[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-alarms.js:31[29:31];Sink: msg;c8y-alarms.js:194[16:18]::FLOW_DESCR_END","/c8y-alarms.js","31","29","31","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c8y-events.js:53[29:31];Sink: msg;c8y-events.js:109[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-events.js:53[29:31];Sink: msg;c8y-events.js:154[16:18]::FLOW_DESCR_END","/c8y-events.js","53","29","53","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:81[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:105[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:116[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:126[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:135[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:147[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-measurements.js:31[29:31];Sink: msg;c8y-measurements.js:180[16:18]::FLOW_DESCR_END","/c8y-measurements.js","31","29","31","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;c8y-measurements.js:92[60:63];Sink: ""Error: ... y.error;c8y-measurements.js:129[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;c8y-measurements.js:92[60:63];Sink: 'Unexpe ...  + body;c8y-measurements.js:141[22:56]::FLOW_DESCR_END","/c8y-measurements.js","92","60","92","63"

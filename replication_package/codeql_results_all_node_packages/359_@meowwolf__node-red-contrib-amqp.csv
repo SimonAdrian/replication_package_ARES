@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: Buffer.from(msg);Amqp.js:129[56:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: options;Amqp.js:129[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: payload;amqp-out.js:67[42:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: properties;amqp-out.js:67[51:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: JSON.st ... ayload);amqp-out.js:70[42:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: properties;amqp-out.js:70[67:76]::FLOW_DESCR_END","/build/src/nodes/amqp-out.js","34","45","34","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;Amqp.js:280[21:24];Sink: brokerUrl;Amqp.js:42[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","280","21","280","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;Amqp.js:280[27:30];Sink: brokerUrl;Amqp.js:42[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","280","27","280","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: username;Amqp.js:281[21:28];Sink: brokerUrl;Amqp.js:42[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","281","21","281","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;Amqp.js:281[31:38];Sink: brokerUrl;Amqp.js:42[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","281","31","281","38"

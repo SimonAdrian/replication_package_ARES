@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.dbname;sqlite.js:23[36:46];Sink: ""opened ... e+"" ok"";sqlite.js:23[26:52]::FLOW_DESCR_END","/sqlite.js","23","36","23","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sqlite.js:26[42:44];Sink: err;sqlite.js:27[59:61]::FLOW_DESCR_END","/sqlite.js","26","42","26","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.dbname;sqlite.js:27[46:56];Sink: ""failed ... .dbname;sqlite.js:27[28:56]::FLOW_DESCR_END","/sqlite.js","27","46","27","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:178[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:181[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:187[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:195[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:198[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:204[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:212[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:215[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:222[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:231[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:234[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:241[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg.database;sqlite.js:260[54:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:264[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:274[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlite.js:299[39:41];Sink: msg;sqlite.js:284[59:61]::FLOW_DESCR_END","/sqlite.js","299","39","299","41"

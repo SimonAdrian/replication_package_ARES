@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-global-state.js:12[35:37];Sink: property;set-global-state.js:18[50:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-global-state.js:12[35:37];Sink: property;set-global-state.js:33[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-global-state.js:12[35:37];Sink: property;set-global-state.js:35[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-global-state.js:12[35:37];Sink: msg;set-global-state.js:51[39:41]::FLOW_DESCR_END","/nodes/set-global-state/set-global-state.js","12","35","12","37"

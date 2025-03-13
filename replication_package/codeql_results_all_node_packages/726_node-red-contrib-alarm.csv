@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;changeState.js:41[35:37];Sink: msg;changeState.js:47[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;changeState.js:41[35:37];Sink: msg;changeState.js:61[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;changeState.js:41[35:37];Sink: msg;changeState.js:68[64:66]::FLOW_DESCR_END","/alarm/changeState.js","41","35","41","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textStatus;sensor.html:69[64:73];Sink: textStatus;sensor.html:71[46:55]::FLOW_DESCR_END","/alarm/sensor.html","69","64","69","73"

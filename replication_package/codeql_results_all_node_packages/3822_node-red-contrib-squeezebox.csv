@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;squeezebox.js:8[15:25];Sink: ""Config ... de.port;squeezebox.js:17[14:92]::FLOW_DESCR_END","/squeezebox.js","8","15","8","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;squeezebox.js:9[15:25];Sink: ""Config ... de.port;squeezebox.js:17[14:92]::FLOW_DESCR_END","/squeezebox.js","9","15","9","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;squeezebox.js:17[66:74];Sink: ""Config ... de.port;squeezebox.js:17[14:92]::FLOW_DESCR_END","/squeezebox.js","17","66","17","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;squeezebox.js:17[84:92];Sink: ""Config ... de.port;squeezebox.js:17[14:92]::FLOW_DESCR_END","/squeezebox.js","17","84","17","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;squeezebox.js:60[29:31];Sink: msg;squeezebox.js:75[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;squeezebox.js:60[29:31];Sink: msg;squeezebox.js:79[15:17]::FLOW_DESCR_END","/squeezebox.js","60","29","60","31"

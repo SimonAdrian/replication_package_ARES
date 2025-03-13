@@ -1,0 +1,41 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createCollaboration.js:16[35:37];Sink: msg;createCollaboration.js:63[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createCollaboration.js:16[35:37];Sink: msg;createCollaboration.js:86[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createCollaboration.js:16[35:37];Sink: msg;createCollaboration.js:88[99:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createCollaboration.js:16[35:37];Sink: msg;createCollaboration.js:95[47:49]::FLOW_DESCR_END","/source/createCollaboration.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createFolder.js:16[35:37];Sink: msg;createFolder.js:56[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createFolder.js:16[35:37];Sink: msg;createFolder.js:58[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createFolder.js:16[35:37];Sink: msg;createFolder.js:64[31:33]::FLOW_DESCR_END","/source/createFolder.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;createNewBox.js:114[51:54];Sink: req;createNewBox.js:114[24:26]::FLOW_DESCR_END","/source/createNewBox.js","114","51","114","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.it ... entries;createNewBox.js:161[27:54];Sink: req;createNewBox.js:114[24:26]::FLOW_DESCR_END","/source/createNewBox.js","161","27","161","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entries[i];createNewBox.js:166[51:60];Sink: req;createNewBox.js:114[24:26]::FLOW_DESCR_END","/source/createNewBox.js","166","51","166","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);createNewBox.js:248[27:59];Sink: credentials;createNewBox.js:285[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);createNewBox.js:248[27:59];Sink: credentials;createNewBox.js:305[51:61]::FLOW_DESCR_END","/source/createNewBox.js","248","27","248","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;createNewBox.js:268[21:23];Sink: ""reques ... "" + err;createNewBox.js:270[29:50]::FLOW_DESCR_END","/source/createNewBox.js","268","21","268","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;createNewBox.js:268[34:37];Sink: ""oauth  ... a.error;createNewBox.js:274[29:56]::FLOW_DESCR_END","/source/createNewBox.js","268","34","268","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;createNewBox.js:290[25:27];Sink: 'fetchi ... ' + err;createNewBox.js:292[33:69]::FLOW_DESCR_END","/source/createNewBox.js","290","25","290","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;createNewBox.js:290[30:35];Sink: 'fetchi ... message;createNewBox.js:296[33:71]::FLOW_DESCR_END","/source/createNewBox.js","290","30","290","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;createNewBox.js:290[38:41];Sink: 'fetchi ... message;createNewBox.js:296[33:71]::FLOW_DESCR_END","/source/createNewBox.js","290","38","290","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:389[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:409[106:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:414[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:426[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:432[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:471[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:476[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:487[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNewBox.js:331[35:37];Sink: msg;createNewBox.js:493[31:33]::FLOW_DESCR_END","/source/createNewBox.js","331","35","331","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createTagName.js:17[35:37];Sink: msg;createTagName.js:64[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createTagName.js:17[35:37];Sink: msg;createTagName.js:69[31:33]::FLOW_DESCR_END","/source/createTagName.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;downloadFile.js:21[35:37];Sink: msg;downloadFile.js:56[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;downloadFile.js:21[35:37];Sink: filename;downloadFile.js:66[56:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;downloadFile.js:21[35:37];Sink: msg;downloadFile.js:68[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;downloadFile.js:21[35:37];Sink: msg;downloadFile.js:75[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;downloadFile.js:21[35:37];Sink: msg;downloadFile.js:79[39:41]::FLOW_DESCR_END","/source/downloadFile.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getInfoFolder.js:17[35:37];Sink: msg;getInfoFolder.js:41[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getInfoFolder.js:17[35:37];Sink: msg;getInfoFolder.js:52[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getInfoFolder.js:17[35:37];Sink: msg;getInfoFolder.js:99[31:33]::FLOW_DESCR_END","/source/getInfoFolder.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uploadFile.js:20[32:34];Sink: msg;uploadFile.js:58[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uploadFile.js:20[32:34];Sink: msg;uploadFile.js:100[95:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uploadFile.js:20[32:34];Sink: msg;uploadFile.js:107[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uploadFile.js:20[32:34];Sink: msg;uploadFile.js:119[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uploadFile.js:20[32:34];Sink: msg;uploadFile.js:127[27:29]::FLOW_DESCR_END","/source/uploadFile.js","20","32","20","34"

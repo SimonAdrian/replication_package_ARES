@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scp-iot-http.js:32[32:34];Sink: msg.payload;scp-iot-http.js:40[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scp-iot-http.js:32[32:34];Sink: msg;scp-iot-http.js:72[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scp-iot-http.js:32[32:34];Sink: msg;scp-iot-http.js:149[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scp-iot-http.js:32[32:34];Sink: msg;scp-iot-http.js:158[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scp-iot-http.js:32[32:34];Sink: msg;scp-iot-http.js:161[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scp-iot-http.js:32[32:34];Sink: msg;scp-iot-http.js:191[21:23]::FLOW_DESCR_END","/scp-iot-http.js","32","32","32","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;scp-iot-http.js:145[31:35];Sink: msg.payload;scp-iot-http.js:40[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;scp-iot-http.js:145[31:35];Sink: error;scp-iot-http.js:158[24:28]::FLOW_DESCR_END","/scp-iot-http.js","145","31","145","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;scp-iot-http.js:145[48:51];Sink: msg.payload;scp-iot-http.js:40[42:52]::FLOW_DESCR_END","/scp-iot-http.js","145","48","145","51"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;got.js:11[20:22];Sink: Object. ... \t\t\t\t\t});got.js:20[16:7]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;got.js:11[20:22];Sink: Object. ... \t\t\t\t\t});got.js:30[17:8]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;got.js:11[20:22];Sink: msg;got.js:39[22:24]::FLOW_DESCR_END","/src/got.js","11","20","11","22"

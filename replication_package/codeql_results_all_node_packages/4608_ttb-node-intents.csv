@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:9[28:30];Sink: msg;Intents.js:11[12:14]::FLOW_DESCR_END","/Intents.js","9","28","9","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:24[28:30];Sink: msg;Intents.js:26[12:14]::FLOW_DESCR_END","/Intents.js","24","28","24","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:39[28:30];Sink: msg;Intents.js:41[12:14]::FLOW_DESCR_END","/Intents.js","39","28","39","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:54[28:30];Sink: msg;Intents.js:56[12:14]::FLOW_DESCR_END","/Intents.js","54","28","54","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:68[28:30];Sink: msg;Intents.js:70[12:14]::FLOW_DESCR_END","/Intents.js","68","28","68","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:82[28:30];Sink: msg;Intents.js:84[12:14]::FLOW_DESCR_END","/Intents.js","82","28","82","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:95[28:30];Sink: msg;Intents.js:98[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Intents.js:95[28:30];Sink: msg;Intents.js:101[13:15]::FLOW_DESCR_END","/Intents.js","95","28","95","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Intents.js:111[28:30];Sink: msg;Intents.js:114[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Intents.js:111[28:30];Sink: msg;Intents.js:117[13:15]::FLOW_DESCR_END","/Intents.js","111","28","111","30"

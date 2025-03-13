@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;test.mjs:16[30:32];Sink: err;test.mjs:17[54:56]::FLOW_DESCR_END","/src/test.mjs","16","30","16","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-media-decrypt.js:9[38:40];Sink: imageMe ... eLength;decryptWhatsappMedia.mjs:23[61:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-media-decrypt.js:9[38:40];Sink: imageMe ... eLength;decryptWhatsappMedia.mjs:30[61:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-media-decrypt.js:9[38:40];Sink: msg;whatsapp-media-decrypt.js:11[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-media-decrypt.js:9[38:40];Sink: msg;whatsapp-media-decrypt.js:19[19:21]::FLOW_DESCR_END","/whatsapp-media-decrypt.js","9","38","9","40"

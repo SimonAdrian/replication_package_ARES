@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;custom-partner-node.js:14[35:37];Sink: 'Gettin ...  + ') ';zonal-get-purchases.js:18[19:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;custom-partner-node.js:14[35:37];Sink: 'About  ... ount_id;zonal-get-purchases.js:76[23:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;custom-partner-node.js:14[35:37];Sink: `Succes ... dest}.`;zonal-get-purchases.js:154[29:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;custom-partner-node.js:14[35:37];Sink: missing ... it ids"";zonal-send-node-messages.js:32[27:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;custom-partner-node.js:14[35:37];Sink: [msg,msg2,msg3];zonal-send-node-messages.js:36[23:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;custom-partner-node.js:14[35:37];Sink: [msg,msg2,msg3];zonal-send-node-messages.js:41[23:37]::FLOW_DESCR_END","/custom-partner-node.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...  null );zonal-get-purchases.js:99[31:95];Sink: 'About  ... ount_id;zonal-get-purchases.js:76[23:136]::FLOW_DESCR_END","/zonal-get-purchases.js","99","31","99","95"

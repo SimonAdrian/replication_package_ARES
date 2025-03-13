@@ -1,0 +1,61 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;emit_log.js:10[21:23];Sink: err;emit_log.js:6[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/emit_log.js","10","21","10","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;emit_log.js:10[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;emit_log.js:10[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/emit_log.js","10","26","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;emit_log_direct.js:14[21:23];Sink: err;emit_log_direct.js:10[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/emit_log_direct.js","14","21","14","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;emit_log_direct.js:14[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;emit_log_direct.js:14[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/emit_log_direct.js","14","26","14","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;emit_log_topic.js:14[21:23];Sink: err;emit_log_topic.js:10[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/emit_log_topic.js","14","21","14","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;emit_log_topic.js:14[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;emit_log_topic.js:14[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/emit_log_topic.js","14","26","14","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;new_task.js:10[21:23];Sink: err;new_task.js:6[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/new_task.js","10","21","10","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;new_task.js:10[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;new_task.js:10[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/new_task.js","10","26","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;receive.js:10[21:23];Sink: err;receive.js:6[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive.js","10","21","10","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;receive.js:10[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;receive.js:10[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive.js","10","26","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;receive_logs.js:10[21:23];Sink: err;receive_logs.js:6[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive_logs.js","10","21","10","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;receive_logs.js:10[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;receive_logs.js:10[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive_logs.js","10","26","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;receive_logs_direct.js:19[21:23];Sink: err;receive_logs_direct.js:15[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive_logs_direct.js","19","21","19","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;receive_logs_direct.js:19[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;receive_logs_direct.js:19[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive_logs_direct.js","19","26","19","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;receive_logs_topic.js:18[21:23];Sink: err;receive_logs_topic.js:14[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive_logs_topic.js","18","21","18","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;receive_logs_topic.js:18[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;receive_logs_topic.js:18[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/receive_logs_topic.js","18","26","18","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rpc_client.js:23[21:23];Sink: err;rpc_client.js:19[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/rpc_client.js","23","21","23","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;rpc_client.js:23[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;rpc_client.js:23[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/rpc_client.js","23","26","23","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rpc_server.js:19[21:23];Sink: err;rpc_server.js:15[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/rpc_server.js","19","21","19","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;rpc_server.js:19[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;rpc_server.js:19[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/rpc_server.js","19","26","19","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;send.js:10[21:23];Sink: err;send.js:6[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/send.js","10","21","10","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;send.js:10[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;send.js:10[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/send.js","10","26","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;worker.js:10[21:23];Sink: err;worker.js:6[17:19]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/worker.js","10","21","10","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;worker.js:10[26:29];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;worker.js:10[26:29];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/amqplib/examples/tutorials/callback_api/worker.js","10","26","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s.read();mux.js:59[19:26];Sink: chunk;mux.js:61[31:35]::FLOW_DESCR_END","/amqplib/lib/mux.js","59","19","59","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: queue.pop();bluebird.js:2593[21:31];Sink: index;bluebird.js:2540[60:64]::FLOW_DESCR_END","/bluebird/js/browser/bluebird.js","2593","21","2593","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: queue.pop();map.js:121[21:31];Sink: index;map.js:68[60:64]::FLOW_DESCR_END","/bluebird/js/release/map.js","121","21","121","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mclient.js:4[45:47];Sink: err;mclient.js:101[14:16]::FLOW_DESCR_END","/mclient.js","4","45","4","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;mclient.js:4[50:53];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;mclient.js:4[50:53];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/mclient.js","4","50","4","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mclient.js:38[45:47];Sink: err;mclient.js:101[14:16]::FLOW_DESCR_END","/mclient.js","38","45","38","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;mclient.js:38[50:53];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;mclient.js:38[50:53];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/mclient.js","38","50","38","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mclient.js:78[49:51];Sink: err;mclient.js:101[14:16]::FLOW_DESCR_END","/mclient.js","78","49","78","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conn;mclient.js:78[54:57];Sink: connection;callback_model.js:34[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conn;mclient.js:78[54:57];Sink: connection;channel.js:463[22:31]::FLOW_DESCR_END","/mclient.js","78","54","78","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;_stream_readable.js:570[19:23];Sink: chunk;_stream_readable.js:572[26:30]::FLOW_DESCR_END","/readable-stream/lib/_stream_readable.js","570","19","570","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: er;_stream_readable.js:583[20:21];Sink: er;_stream_readable.js:584[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: er;_stream_readable.js:583[20:21];Sink: er;_stream_readable.js:588[26:27]::FLOW_DESCR_END","/readable-stream/lib/_stream_readable.js","583","20","583","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: chunk;_stream_readable.js:188[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: chunk;_stream_readable.js:195[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: state.length;_stream_readable.js:309[33:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: state.ended;_stream_readable.js:309[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: doRead;_stream_readable.js:350[26:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: ret;_stream_readable.js:405[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: state.flowing;_stream_readable.js:443[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: state.flowing;_stream_readable.js:778[17:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: chunk;_stream_readable.js:808[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;_stream_readable.js:805[30:34];Sink: n;_stream_readable.js:838[28:28]::FLOW_DESCR_END","/readable-stream/lib/_stream_readable.js","805","30","805","34"

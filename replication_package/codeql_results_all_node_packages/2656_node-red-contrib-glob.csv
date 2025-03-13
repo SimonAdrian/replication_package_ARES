@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;glob.js:18[27:29];Sink: msg;glob.js:25[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;glob.js:18[27:29];Sink: msg;glob.js:33[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;glob.js:18[27:29];Sink: msg;glob.js:52[26:28]::FLOW_DESCR_END","/glob.js","18","27","18","29"

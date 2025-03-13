@@ -1,0 +1,53 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:7[29:31];Sink: [null, msg];box.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:7[29:31];Sink: [msg, null];box.js:29[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:7[29:31];Sink: [null, msg];box.js:32[26:36]::FLOW_DESCR_END","/nodes/box/box.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cable.js:7[29:31];Sink: [null, msg];cable.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cable.js:7[29:31];Sink: [msg, null];cable.js:27[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cable.js:7[29:31];Sink: [null, msg];cable.js:30[26:36]::FLOW_DESCR_END","/nodes/cable/cable.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;client.js:7[29:31];Sink: [null, msg];client.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;client.js:7[29:31];Sink: [msg, null];client.js:26[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;client.js:7[29:31];Sink: [null, msg];client.js:29[26:36]::FLOW_DESCR_END","/nodes/client/client.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getOZmapClientByONUCode.js:7[29:31];Sink: [null, msg];getOZmapClientByONUCode.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getOZmapClientByONUCode.js:7[29:31];Sink: [msg, null];getOZmapClientByONUCode.js:17[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getOZmapClientByONUCode.js:7[29:31];Sink: [null, msg];getOZmapClientByONUCode.js:20[26:36]::FLOW_DESCR_END","/nodes/client/getOZmapClientByONUCode.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateClient.js:7[29:31];Sink: [null, msg];updateClient.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateClient.js:7[29:31];Sink: [msg, null];updateClient.js:17[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateClient.js:7[29:31];Sink: [null, msg];updateClient.js:20[26:36]::FLOW_DESCR_END","/nodes/client/updateClient.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;network-connectable.js:7[29:31];Sink: [null, msg];network-connectable.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;network-connectable.js:7[29:31];Sink: [msg, null];network-connectable.js:27[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;network-connectable.js:7[29:31];Sink: [null, msg];network-connectable.js:30[26:36]::FLOW_DESCR_END","/nodes/network-connectable/network-connectable.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;network-connector.js:7[29:31];Sink: [null, msg];network-connector.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;network-connector.js:7[29:31];Sink: [msg, null];network-connector.js:29[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;network-connector.js:7[29:31];Sink: [null, msg];network-connector.js:32[26:36]::FLOW_DESCR_END","/nodes/network-connector/network-connector.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clone.js:6[29:31];Sink: [null, msg];clone.js:11[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clone.js:6[29:31];Sink: [msg, null];clone.js:19[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clone.js:6[29:31];Sink: [null, msg];clone.js:22[26:36]::FLOW_DESCR_END","/nodes/project/clone.js","6","29","6","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project.js:7[29:31];Sink: [null, msg];project.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project.js:7[29:31];Sink: [msg, null];project.js:26[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project.js:7[29:31];Sink: [null, msg];project.js:29[26:36]::FLOW_DESCR_END","/nodes/project/project.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getAllPropertiesWithClients.js:7[29:31];Sink: [null, msg];getAllPropertiesWithClients.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getAllPropertiesWithClients.js:7[29:31];Sink: msg;getAllPropertiesWithClients.js:16[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getAllPropertiesWithClients.js:7[29:31];Sink: [msg, null];getAllPropertiesWithClients.js:28[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getAllPropertiesWithClients.js:7[29:31];Sink: [null, msg];getAllPropertiesWithClients.js:31[26:36]::FLOW_DESCR_END","/nodes/property/getAllPropertiesWithClients.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getPropertyByClientId.js:7[29:31];Sink: [null, msg];getPropertyByClientId.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPropertyByClientId.js:7[29:31];Sink: msg;getPropertyByClientId.js:16[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPropertyByClientId.js:7[29:31];Sink: [msg, null];getPropertyByClientId.js:18[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPropertyByClientId.js:7[29:31];Sink: [null, msg];getPropertyByClientId.js:21[26:36]::FLOW_DESCR_END","/nodes/property/getPropertyByClientId.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;property.js:7[29:31];Sink: [null, msg];property.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;property.js:7[29:31];Sink: [msg, null];property.js:27[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;property.js:7[29:31];Sink: [null, msg];property.js:30[26:36]::FLOW_DESCR_END","/nodes/property/property.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateProperty.js:7[29:31];Sink: [null, msg];updateProperty.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateProperty.js:7[29:31];Sink: [msg, null];updateProperty.js:17[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateProperty.js:7[29:31];Sink: [null, msg];updateProperty.js:20[26:36]::FLOW_DESCR_END","/nodes/property/updateProperty.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;region.js:7[29:31];Sink: [null, msg];region.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;region.js:7[29:31];Sink: [msg, null];region.js:29[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;region.js:7[29:31];Sink: [null, msg];region.js:32[26:36]::FLOW_DESCR_END","/nodes/region/region.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createUser.js:7[29:31];Sink: [null, msg];createUser.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createUser.js:7[29:31];Sink: [msg, null];createUser.js:18[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createUser.js:7[29:31];Sink: [null, msg];createUser.js:21[26:36]::FLOW_DESCR_END","/nodes/user/createUser.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateUserPassword.js:7[29:31];Sink: [null, msg];updateUserPassword.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateUserPassword.js:7[29:31];Sink: [msg, null];updateUserPassword.js:20[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateUserPassword.js:7[29:31];Sink: [null, msg];updateUserPassword.js:23[26:36]::FLOW_DESCR_END","/nodes/user/updateUserPassword.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;user.js:7[29:31];Sink: [null, msg];user.js:12[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;user.js:7[29:31];Sink: [msg, null];user.js:26[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;user.js:7[29:31];Sink: [null, msg];user.js:29[26:36]::FLOW_DESCR_END","/nodes/user/user.js","7","29","7","31"

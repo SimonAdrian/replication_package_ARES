@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... s(n.id);37-hdfs-cf.js:72[20:49];Sink: ""URL =  ... payload;37-hdfs-cf.js:112[15:59]::FLOW_DESCR_END","/application/37-hdfs-cf.js","72","20","72","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bigcred ... tpfsUrl;37-hdfs-cf.js:77[13:36];Sink: ""In nod ... "" + url;37-hdfs-cf.js:109[16:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: bigcred ... tpfsUrl;37-hdfs-cf.js:77[13:36];Sink: ""URL =  ... payload;37-hdfs-cf.js:112[15:59]::FLOW_DESCR_END","/application/37-hdfs-cf.js","77","13","77","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: ""fileLo ... ocation;37-hdfs-cf.js:94[15:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: ""In msg ... "" + url;37-hdfs-cf.js:103[16:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: ""URL =  ... payload;37-hdfs-cf.js:112[15:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: ""Payloa ... payload;37-hdfs-cf.js:147[17:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: msg;37-hdfs-cf.js:168[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: ""Payloa ... payload;37-hdfs-cf.js:169[17:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: msg;37-hdfs-cf.js:176[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;37-hdfs-cf.js:88[27:29];Sink: payload;37-hdfs-cf.js:180[14:20]::FLOW_DESCR_END","/application/37-hdfs-cf.js","88","27","88","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bigcred ... .userid;37-hdfs-cf.js:97[30:50];Sink: ""URL =  ... payload;37-hdfs-cf.js:112[15:59]::FLOW_DESCR_END","/application/37-hdfs-cf.js","97","30","97","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;37-hdfs-cf.js:173[27:29];Sink: ""URL =  ... payload;37-hdfs-cf.js:112[15:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;37-hdfs-cf.js:173[27:29];Sink: ""Payloa ... payload;37-hdfs-cf.js:147[17:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;37-hdfs-cf.js:173[27:29];Sink: ""Payloa ... payload;37-hdfs-cf.js:165[17:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;37-hdfs-cf.js:173[27:29];Sink: ""Payloa ... payload;37-hdfs-cf.js:169[17:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;37-hdfs-cf.js:173[27:29];Sink: payload;37-hdfs-cf.js:180[14:20]::FLOW_DESCR_END","/application/37-hdfs-cf.js","173","27","173","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);37-hdfs-cf.js:191[20:58];Sink: JSON.st ... !="""")});37-hdfs-cf.js:193[12:111]::FLOW_DESCR_END","/application/37-hdfs-cf.js","191","20","191","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);37-hdfs-cf.js:213[21:59];Sink: credentials;37-hdfs-cf.js:224[42:52]::FLOW_DESCR_END","/application/37-hdfs-cf.js","213","21","213","59"

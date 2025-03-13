@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;noderedTest.js:22[41:43];Sink: ""outHel ... g.topic;noderedTest.js:23[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;noderedTest.js:22[41:43];Sink: ""outHel ... payload;noderedTest.js:25[19:50]::FLOW_DESCR_END","/test/noderedTest.js","22","41","22","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xsltransform.js:28[35:37];Sink: ""remove ... payload;xsltransform.js:33[17:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:28[35:37];Sink: ""loaded ""+msg.topic;xsltransform.js:42[17:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:28[35:37];Sink: ""loaded ... message;xsltransform.js:48[16:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:28[35:37];Sink: msg;xsltransform.js:49[27:29]::FLOW_DESCR_END","/xsltransform/xsltransform.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xsltransform.js:87[35:37];Sink: msg;xsltransform.js:100[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:87[35:37];Sink: msg;xsltransform.js:106[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:87[35:37];Sink: msg;xsltransform.js:113[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:87[35:37];Sink: msg;xsltransform.js:126[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:87[35:37];Sink: msg;xsltransform.js:132[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xsltransform.js:87[35:37];Sink: msg;xsltransform.js:139[96:98]::FLOW_DESCR_END","/xsltransform/xsltransform.js","87","35","87","37"

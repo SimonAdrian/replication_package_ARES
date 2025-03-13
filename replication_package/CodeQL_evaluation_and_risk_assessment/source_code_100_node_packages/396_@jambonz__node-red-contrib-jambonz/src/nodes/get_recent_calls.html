@@ -1,0 +1,100 @@
+<!-- Javascript -->
+<script type="text/javascript">
+  var mustacheType = {
+  value: 'mustache',
+  label: 'mustache',
+  hasvalue: true,
+  icon: 'resources/@jambonz/node-red-contrib-jambonz/icons/mustache.svg'
+}
+
+  RED.nodes.registerType('get_recent_calls',{
+      category: 'jambonz',
+      color: '#aebfb9',
+      defaults: {
+        name: {value: ''},
+        server: {value: '', required: true, type: 'jambonz_auth'},
+        direction: {value: ''},
+        directionType:{value: 'str'},
+        trunk: {value: ''},
+        trunkType:{value: 'str'},
+        page:{value: 1},
+        pageType:{value: 'num'},
+        count:{value: 25},
+        countType:{value: 'num'},
+        days:{value: 7},
+        daysType:{value: 'num'}
+      },
+      inputs:1,
+      outputs:1,
+      icon: "font-awesome/fa-cubes",
+      paletteLabel: "Get - Recent Calls",
+      label: function() { return this.name || 'Get Recent Calls';},
+      oneditprepare: () => {
+        $('#node-input-page').typedInput({
+            types: ['num', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+            typeField: $('#node-input-pageType')
+        });
+        $('#node-input-count').typedInput({
+            types: ['num', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+            typeField: $('#node-input-countType')
+        });
+        $('#node-input-days').typedInput({
+            types: ['num', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+            typeField: $('#node-input-daysType')
+        });
+        $('#node-input-direction').typedInput({
+          types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-directionType')
+        });
+        $('#node-input-trunk').typedInput({
+          types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-trunkType')
+        });
+      }
+  });
+</script>
+
+<!-- HTML -->
+<script type="text/html" data-template-name="get_recent_calls">
+        <div class="form-row">
+          <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+          <input type="text" id="node-input-name" placeholder="Name">
+        </div>
+        <div class="form-row">
+          <label for="node-input-server">Server</label>
+          <input type="text" id="node-input-server">
+        </div>
+        <div class="form-row">
+          <label for="node-input-direction">Direction</label>
+          <input type="text" id="node-input-direction" placeholder="inbound">
+          <input type="hidden" id="node-input-directionType">
+        </div>
+        <div class="form-row">
+          <label for="node-input-trunk">Trunk</label>
+          <input type="text" id="node-input-trunk" placeholder="trunk name">
+          <input type="hidden" id="node-input-trunkType">
+        </div>
+        <div class="form-row">
+          <label for="node-input-page">Page</label>
+          <input type="text" id="node-input-page" >
+          <input type="hidden" id="node-input-pageType">
+        </div>
+        <div class="form-row">
+          <label for="node-input-count">Count</label>
+          <input type="text" id="node-input-count" >
+          <input type="hidden" id="node-input-countType">
+        </div>
+        <div class="form-row">
+          <label for="node-input-days">Days</label>
+          <input type="text" id="node-input-days" >
+          <input type="hidden" id="node-input-daysType">
+        </div>
+</script>
+
+<!-- Help Text -->
+<script type="text/html" data-help-name="get_recent_calls">
+      <p>Get recent call records</p>
+      
+      <h3>Details</h3>
+      Call detail records are only kept in the system for 30 days. As there could be a large number of CDRs, this node allows you to query pages of data at a time.
+</script>

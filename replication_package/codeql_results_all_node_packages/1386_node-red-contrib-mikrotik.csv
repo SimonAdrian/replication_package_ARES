@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mikrotik.js:24[36:38];Sink: msg.command;mikrotik.js:57[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mikrotik.js:24[36:38];Sink: msg;mikrotik.js:62[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mikrotik.js:24[36:38];Sink: 'Error  ... fy(err);mikrotik.js:66[32:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mikrotik.js:24[36:38];Sink: msg;mikrotik.js:66[116:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mikrotik.js:24[36:38];Sink: msg;mikrotik.js:71[61:63]::FLOW_DESCR_END","/nodes/mikrotik.js","24","36","24","38"

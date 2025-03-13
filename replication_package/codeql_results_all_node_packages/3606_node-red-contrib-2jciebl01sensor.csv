@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;collect-2jciebl01.js:7[35:37];Sink: msg;collect-2jciebl01.js:74[31:33]::FLOW_DESCR_END","/collect-2jciebl01.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;collect-2jciebl01.js:27[41:50];Sink: macAddr ... .length;collect-2jciebl01.js:46[31:120]::FLOW_DESCR_END","/collect-2jciebl01.js","27","41","27","50"

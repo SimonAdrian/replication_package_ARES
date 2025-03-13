@@ -1,0 +1,115 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.person;wws-credentials.js:314[39:58];Sink: ""wws-cr ... "" "", 2);wws-credentials.js:635[25:107]::FLOW_DESCR_END","/wws-credentials/wws-credentials.js","314","39","314","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;wws-credentials.js:602[33:33];Sink: ""Unsupp ... message;wws-credentials.js:603[30:119]::FLOW_DESCR_END","/wws-credentials/wws-credentials.js","602","33","602","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als(id);wws-credentials.js:648[27:54];Sink: ""wws-cr ... "" "", 2);wws-credentials.js:635[25:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... als(id);wws-credentials.js:648[27:54];Sink: oauthConfig;wws-credentials.js:671[38:48]::FLOW_DESCR_END","/wws-credentials/wws-credentials.js","648","27","648","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-file-post.js:28[31:33];Sink: msg;wws-file-post.js:86[21:23]::FLOW_DESCR_END","/wws-file-post/wws-file-post.js","28","31","28","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-focus.js:35[23:25];Sink: msg;wws-focus.js:80[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-focus.js:35[23:25];Sink: msg;wws-focus.js:85[21:23]::FLOW_DESCR_END","/wws-focus/wws-focus.js","35","23","35","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:66[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:66[23:25];Sink: msg;wws-graphql.js:104[19:21]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","66","23","66","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: msg;wws-graphql.js:161[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: 'wwsGet ... ing...';wws-graphql.js:185[23:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: 'wwsGet ... ta !!!';wws-graphql.js:203[23:140]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: msg;wws-graphql.js:206[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: ""wwsGet ... ssageId;wws-graphql.js:212[21:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:149[23:25];Sink: ""wwsGet ... ssageId;wws-graphql.js:215[20:71]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","149","23","149","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:329[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:329[23:25];Sink: theMsg;wws-graphql.js:252[41:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:329[23:25];Sink: theMsg;wws-graphql.js:264[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:329[23:25];Sink: 'wwsGet ... ing...';wws-graphql.js:288[23:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:329[23:25];Sink: ""wwsGet ...  person;wws-graphql.js:305[21:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:329[23:25];Sink: ""wwsGet ...  person;wws-graphql.js:308[20:70]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","329","23","329","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:412[23:25];Sink: msg;wws-graphql.js:424[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:412[23:25];Sink: msg;wws-graphql.js:444[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:412[23:25];Sink: msg;wws-graphql.js:491[19:21]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","412","23","412","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: msg;wws-graphql.js:575[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: msg;wws-graphql.js:594[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: 'wwsFil ... ERWISE';wws-graphql.js:639[21:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: 'wwsFil ... nsList';wws-graphql.js:640[21:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: 'wwsFil ... nsList';wws-graphql.js:641[19:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: outArray;wws-graphql.js:651[19:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: 'wwsFil ... ng....';wws-graphql.js:663[21:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: msg;wws-graphql.js:681[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: ""wwsFil ...  + lens;wws-graphql.js:783[25:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: 'wwsFil ... ctionId;wws-graphql.js:785[24:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: msg;wws-graphql.js:785[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:559[23:25];Sink: msg;wws-graphql.js:793[83:85]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","559","23","559","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ions[i];wws-graphql.js:765[39:69];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","765","39","765","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... tations;wws-graphql.js:765[39:66];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","765","39","765","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.message;wws-graphql.js:765[39:54];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","765","39","765","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:828[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:828[23:25];Sink: msg;wws-graphql.js:839[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:828[23:25];Sink: ""wwsFil ... cessed';wws-graphql.js:936[23:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:828[23:25];Sink: msg;wws-graphql.js:970[19:21]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","828","23","828","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:1009[23:25];Sink: msg;wws-graphql.js:1018[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1009[23:25];Sink: msg;wws-graphql.js:1053[19:21]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1009","23","1009","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:1098[23:25];Sink: msg;wws-graphql.js:1110[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1098[23:25];Sink: msg;wws-graphql.js:1131[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1098[23:25];Sink: msg;wws-graphql.js:1183[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1098[23:25];Sink: msg;wws-graphql.js:1203[25:27]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1098","23","1098","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: msg;wws-graphql.js:1267[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: msg;wws-graphql.js:1381[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: 'wwsUpd ... known!';wws-graphql.js:1434[27:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: 'wwsUpd ... known!';wws-graphql.js:1436[26:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: msg;wws-graphql.js:1436[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: 'wwsUpd ... ].value;wws-graphql.js:1450[27:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: 'wwsUpd ... ].value;wws-graphql.js:1452[26:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: msg;wws-graphql.js:1452[133:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: 'wwsUpd ... spaceId;wws-graphql.js:1514[27:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: msg;wws-graphql.js:1547[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1255[23:25];Sink: msg;wws-graphql.js:1550[23:25]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1255","23","1255","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ateInfo;wws-graphql.js:1416[30:56];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.dat ... ateInfo;wws-graphql.js:1416[30:56];Sink: 'wwsUpd ... known!';wws-graphql.js:1434[27:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.dat ... ateInfo;wws-graphql.js:1416[30:56];Sink: 'wwsUpd ... known!';wws-graphql.js:1436[26:79]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1416","30","1416","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.space;wws-graphql.js:1416[30:43];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.space;wws-graphql.js:1416[30:43];Sink: 'wwsUpd ... known!';wws-graphql.js:1434[27:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.space;wws-graphql.js:1416[30:43];Sink: 'wwsUpd ... known!';wws-graphql.js:1436[26:79]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1416","30","1416","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: templat ... eStatus;wws-graphql.js:1421[28:51];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: templat ... eStatus;wws-graphql.js:1421[28:51];Sink: 'wwsUpd ... known!';wws-graphql.js:1434[27:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: templat ... eStatus;wws-graphql.js:1421[28:51];Sink: 'wwsUpd ... known!';wws-graphql.js:1436[26:79]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1421","28","1421","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.updateSpace;wws-graphql.js:1524[27:46];Sink: 'wwsUpd ... known!';wws-graphql.js:1545[27:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.updateSpace;wws-graphql.js:1524[27:46];Sink: 'wwsUpd ... known!';wws-graphql.js:1547[26:101]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1524","27","1524","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: msg;wws-graphql.js:1627[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: msg;wws-graphql.js:1646[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: ""wwsCre ... plateId;wws-graphql.js:1764[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: 'wwsCre ... llowed';wws-graphql.js:1809[25:169]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: 'wwsCre ... llowed';wws-graphql.js:1811[24:168]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: msg;wws-graphql.js:1811[171:173]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: 'wwsCre ... plateId;wws-graphql.js:1840[25:129]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: msg;wws-graphql.js:1872[114:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: msg;wws-graphql.js:1875[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: ""wwsCre ... plateId;wws-graphql.js:1881[23:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1615[23:25];Sink: ""wwsCre ... plateId;wws-graphql.js:1883[22:117]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1615","23","1615","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.createSpace;wws-graphql.js:1850[25:44];Sink: 'wwsCre ... known!';wws-graphql.js:1870[25:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.createSpace;wws-graphql.js:1850[25:44];Sink: 'wwsCre ... known!';wws-graphql.js:1872[24:111]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1850","25","1850","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:1943[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:1962[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:1981[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:2000[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ... d ....';wws-graphql.js:2081[25:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ...  ' ...';wws-graphql.js:2083[23:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ... d ....';wws-graphql.js:2106[31:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ... ons...';wws-graphql.js:2108[29:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ... d ....';wws-graphql.js:2116[25:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ... ons...';wws-graphql.js:2118[23:149]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:2149[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:2168[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: ""wwsAdd ... ssageId;wws-graphql.js:2173[21:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: 'wwsAdd ... ssageId;wws-graphql.js:2175[20:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:1926[23:25];Sink: msg;wws-graphql.js:2175[78:80]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","1926","23","1926","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-graphql.js:2210[23:25];Sink: logMsg;wws-graphql.js:39[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:2210[23:25];Sink: msg;wws-graphql.js:2225[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:2210[23:25];Sink: msg;wws-graphql.js:2239[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:2210[23:25];Sink: msg;wws-graphql.js:2263[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wws-graphql.js:2210[23:25];Sink: msg;wws-graphql.js:2406[19:21]::FLOW_DESCR_END","/wws-graphql/wws-graphql.js","2210","23","2210","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-message-post.js:79[35:37];Sink: msg;wws-message-post.js:149[27:29]::FLOW_DESCR_END","/wws-message-post/wws-message-post.js","79","35","79","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wws-token-viewer.js:57[35:37];Sink: msg;wws-token-viewer.js:66[23:25]::FLOW_DESCR_END","/wws-token-viewer/wws-token-viewer.js","57","35","57","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.message;wws-webhook.js:247[51:66];Sink: logMsg;wws-webhook.js:41[25:30]::FLOW_DESCR_END","/wws-webhook/wws-webhook.js","247","51","247","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.message;wws-webhook.js:250[46:61];Sink: logMsg;wws-webhook.js:41[25:30]::FLOW_DESCR_END","/wws-webhook/wws-webhook.js","250","46","250","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ateInfo;wws-webhook.js:329[40:66];Sink: (logMsg ... "" "", 2);wws-webhook.js:35[25:83]::FLOW_DESCR_END","/wws-webhook/wws-webhook.js","329","40","329","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.space;wws-webhook.js:329[40:53];Sink: (logMsg ... "" "", 2);wws-webhook.js:35[25:83]::FLOW_DESCR_END","/wws-webhook/wws-webhook.js","329","40","329","53"

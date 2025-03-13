@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;radius-response.js:9[31:33];Sink: msg;radius-response.js:10[24:26]::FLOW_DESCR_END","/radius-response.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;radius-server.js:30[69:80];Sink: 'RADIUS ... ss.port;radius-server.js:30[16:80]::FLOW_DESCR_END","/radius-server.js","30","69","30","80"

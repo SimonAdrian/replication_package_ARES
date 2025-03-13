@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:121[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:130[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:140[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:149[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: number + ""@c.us"";whatsapp.js:156[36:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: message;whatsapp.js:156[54:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:160[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:165[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: number + ""@c.us"";whatsapp.js:175[40:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:179[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:184[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: number + ""@c.us"";whatsapp.js:187[40:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:191[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:196[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: number + ""@c.us"";whatsapp.js:207[40:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:211[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:216[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: number + ""@c.us"";whatsapp.js:219[40:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:223[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp.js:114[42:44];Sink: [null, msg];whatsapp.js:228[35:45]::FLOW_DESCR_END","/whatsapp.js","114","42","114","44"

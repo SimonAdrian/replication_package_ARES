@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cson.js:24[35:37];Sink: msg;cson.js:29[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cson.js:24[35:37];Sink: msg;cson.js:31[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cson.js:24[35:37];Sink: msg;cson.js:37[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cson.js:24[35:37];Sink: msg;cson.js:47[30:32]::FLOW_DESCR_END","/cson/cson.js","24","35","24","37"

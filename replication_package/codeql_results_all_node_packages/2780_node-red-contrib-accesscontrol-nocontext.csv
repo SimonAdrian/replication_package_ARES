@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ac_export.js:11[36:38];Sink: msg;ac_export.js:53[39:41]::FLOW_DESCR_END","/accesscontrol/ac_export.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ac_import.js:11[36:38];Sink: msg;ac_import.js:55[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ac_import.js:11[36:38];Sink: msg;ac_import.js:63[43:45]::FLOW_DESCR_END","/accesscontrol/ac_import.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ac_init.js:7[36:38];Sink: msg;ac_init.js:16[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ac_init.js:7[36:38];Sink: msg;ac_init.js:20[39:41]::FLOW_DESCR_END","/accesscontrol/ac_init.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ac_lock.js:8[36:38];Sink: msg;ac_lock.js:31[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ac_lock.js:8[36:38];Sink: msg;ac_lock.js:35[39:41]::FLOW_DESCR_END","/accesscontrol/ac_lock.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deny.js:35[36:38];Sink: msg;deny.js:145[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deny.js:35[36:38];Sink: msg;deny.js:149[39:41]::FLOW_DESCR_END","/accesscontrol/deny.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;extend.js:13[36:38];Sink: msg;extend.js:57[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;extend.js:13[36:38];Sink: msg;extend.js:62[39:41]::FLOW_DESCR_END","/accesscontrol/extend.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grant.js:42[36:38];Sink: msg;grant.js:149[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grant.js:42[36:38];Sink: msg;grant.js:153[39:41]::FLOW_DESCR_END","/accesscontrol/grant.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;permission.js:15[36:38];Sink: msg;permission.js:95[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;permission.js:15[36:38];Sink: msg;permission.js:99[39:41]::FLOW_DESCR_END","/accesscontrol/permission.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;permissions.js:42[36:38];Sink: msg;permissions.js:164[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;permissions.js:42[36:38];Sink: msg;permissions.js:168[39:41]::FLOW_DESCR_END","/accesscontrol/permissions.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remove.js:14[36:38];Sink: msg;remove.js:168[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;remove.js:14[36:38];Sink: msg;remove.js:172[39:41]::FLOW_DESCR_END","/accesscontrol/remove.js","14","36","14","38"

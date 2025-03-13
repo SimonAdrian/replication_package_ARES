@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entityGetInformations.js:5[35:37];Sink: msg;entityGetInformations.js:9[23:25]::FLOW_DESCR_END","/src/entityGetInformations.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entityMoveTo.js:5[35:37];Sink: msg;entityMoveTo.js:27[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entityMoveTo.js:5[35:37];Sink: msg;entityMoveTo.js:40[27:29]::FLOW_DESCR_END","/src/entityMoveTo.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entityMoveToXYZ.js:5[35:37];Sink: msg;entityMoveToXYZ.js:17[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entityMoveToXYZ.js:5[35:37];Sink: msg;entityMoveToXYZ.js:30[27:29]::FLOW_DESCR_END","/src/entityMoveToXYZ.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getraw.js:5[35:37];Sink: msg;getraw.js:9[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getraw.js:5[35:37];Sink: msg;getraw.js:13[27:29]::FLOW_DESCR_END","/src/getraw.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;raw.js:5[35:37];Sink: msg;raw.js:10[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;raw.js:5[35:37];Sink: msg;raw.js:17[31:33]::FLOW_DESCR_END","/src/raw.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rawOnOff.js:5[35:37];Sink: msg;rawOnOff.js:11[23:25]::FLOW_DESCR_END","/src/rawOnOff.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sign.js:5[35:37];Sink: msg;sign.js:13[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sign.js:5[35:37];Sink: msg;sign.js:17[27:29]::FLOW_DESCR_END","/src/sign.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple.js:5[35:37];Sink: msg;simple.js:10[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple.js:5[35:37];Sink: msg;simple.js:17[31:33]::FLOW_DESCR_END","/src/simple.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smart.js:5[35:37];Sink: msg;smart.js:8[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smart.js:5[35:37];Sink: msg;smart.js:13[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smart.js:5[35:37];Sink: msg;smart.js:19[31:33]::FLOW_DESCR_END","/src/smart.js","5","35","5","37"

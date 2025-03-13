@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mailchimp-list.js:25[35:37];Sink: msg;mailchimp-list.js:32[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mailchimp-list.js:25[35:37];Sink: [msg,null];mailchimp-list.js:44[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mailchimp-list.js:25[35:37];Sink: ""failed ... eration;mailchimp-list.js:58[28:86]::FLOW_DESCR_END","/mailchimp-list.js","25","35","25","37"

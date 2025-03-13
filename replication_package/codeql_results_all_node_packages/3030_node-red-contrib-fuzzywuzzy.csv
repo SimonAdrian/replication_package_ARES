@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fuzzywuzzy.js:38[33:35];Sink: msg;fuzzywuzzy.js:43[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fuzzywuzzy.js:38[33:35];Sink: [{...ms ... Keys }];fuzzywuzzy.js:63[21:189]::FLOW_DESCR_END","/fuzzywuzzy.js","38","33","38","35"

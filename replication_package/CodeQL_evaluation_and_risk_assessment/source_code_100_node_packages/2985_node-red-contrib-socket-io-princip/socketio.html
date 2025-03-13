@@ -1,0 +1,130 @@
+<!-- EVENT Config Node -->
+
+<script type="text/javascript">
+    RED.nodes.registerType('socket-io-event',{
+        category: 'config',
+        defaults: {
+            addr: {value:"",required:true}
+        },
+        label: function() {
+            return this.addr;
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="socket-io-event">
+    <div class="form-row">
+        <label for="node-config-input-addr"><i class="fa fa-dot-circle-o"></i> Address</label>
+        <input type="text" id="node-config-input-addr">
+    </div>
+</script>
+
+<!-- SOCKER SERVER Config Node -->
+
+<script type="text/javascript">
+    RED.nodes.registerType('socket-io-server',{
+        category: 'config',
+        defaults: {
+            port: {value:4001,required:true,validate:RED.validators.number()}
+        },
+        label: function() {
+            return 'Socket server on ' + this.port;
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="socket-io-server">
+    <div class="form-row">
+        <label for="node-config-input-port"><i class="fa fa-dot-circle-o"></i> Port</label>
+        <input type="text" id="node-config-input-port">
+    </div>
+</script>
+
+
+<!-- OUTPUT Node -->
+<script type="text/javascript">
+    RED.nodes.registerType('socket-io-out',{
+      category: 'output',
+      color: '#bc97d2',
+      defaults: {
+          name: {value: "", required: false},
+          event: {value: "", required: true, type: "socket-io-event"},
+          server: {value: "", required: true, type: "socket-io-server"}
+      },
+      inputs: 1,
+      outputs: 0,
+      align: 'right',
+      icon: "white-globe.png",
+      paletteLabel: "socket.io",
+      label: function() {
+          return this.name || "socket.io";
+      }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="socket-io-out">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-server"><i class="fa fa-dot-circle-o"></i> Server</label>
+        <input type="text" id="node-input-server" placeholder="Event">
+    </div>
+    <div class="form-row">
+        <label for="node-input-event"><i class="fa fa-dot-circle-o"></i> Event</label>
+        <input type="text" id="node-input-event" placeholder="Event">
+    </div>
+    <div class="form-tips"><b>Tip:</b> Tips.</div>
+</script>
+
+<script type="text/x-red" data-help-name="socket-io-out">
+   <p>Some useful help text to introduce the node.</p>
+   <p>Outputs an object called <code>msg</code> containing <code>msg.topic</code> and
+   <code>msg.payload</code>.</p>
+   <p><code>msg.payload</code> is a <i>String</i>.</p>
+</script>
+
+<!-- INPUT Node -->
+<script type="text/javascript">
+    RED.nodes.registerType('socket-io-in',{
+      category: 'input',
+      color: '#bc97d2',
+      defaults: {
+          name: {value: "", required: false},
+          event: {value: "", required: true, type: "socket-io-event"},
+          server: {value: "", required: true, type: "socket-io-server"}
+      },
+      inputs: 0,
+      outputs: 1,
+      align: 'left',
+      icon: "white-globe.png",
+      paletteLabel: "socket.io",
+      label: function() {
+          return this.name || "socket.io";
+      }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="socket-io-in">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-server"><i class="fa fa-dot-circle-o"></i> Server</label>
+        <input type="text" id="node-input-server" placeholder="Event">
+    </div>
+    <div class="form-row">
+        <label for="node-input-event"><i class="fa fa-dot-circle-o"></i> Event</label>
+        <input type="text" id="node-input-event" placeholder="Event">
+    </div>
+    <div class="form-tips"><b>Tip:</b> Tips.</div>
+</script>
+
+<script type="text/x-red" data-help-name="socket-io-in">
+   <p>Some useful help text to introduce the node.</p>
+   <p>Outputs an object called <code>msg</code> containing <code>msg.topic</code> and
+   <code>msg.payload</code>.</p>
+   <p><code>msg.payload</code> is a <i>String</i>.</p>
+</script>

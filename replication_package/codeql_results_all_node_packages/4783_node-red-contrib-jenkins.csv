@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: job;build.js:31[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: buildNumber;build.js:31[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: msg;build.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: job;build.js:38[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: buildNumber;build.js:38[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: msg;build.js:42[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;build.js:22[35:37];Sink: msg;build.js:48[31:33]::FLOW_DESCR_END","/nodes/build.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;job.js:18[35:37];Sink: msg;job.js:33[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;job.js:18[35:37];Sink: msg;job.js:41[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;job.js:18[35:37];Sink: msg;job.js:48[31:33]::FLOW_DESCR_END","/nodes/job.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;status.js:18[35:37];Sink: msg;status.js:39[27:29]::FLOW_DESCR_END","/nodes/status.js","18","35","18","37"

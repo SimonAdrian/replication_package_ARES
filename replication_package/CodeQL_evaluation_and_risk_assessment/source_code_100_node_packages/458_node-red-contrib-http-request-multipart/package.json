@@ -1,0 +1,49 @@
+{
+  "name": "node-red-contrib-http-request-multipart",
+  "version": "0.2.11",
+  "description": "A Node-RED node for performing http(s) requests that use Request library with optimized proxy support.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psyntium/node-red-contrib-http-request-multipart.git"
+  },
+  "keywords": [
+    "node-red",
+    "http",
+    "https",
+    "request",
+    "proxy"
+  ],
+  "author": {
+    "name": "Aiman Shaharuddin",
+    "email": "psyntium@gmail.com",
+    "url": "https://github.com/psyntium"
+  },
+  "contributors": [
+    {
+      "name": "Yohann Ciurlik",
+      "email": "spawnrider@gmail.com",
+      "url": "https://github.com/spawnrider"
+    },
+    {
+      "name": "Mohamed Chekir",
+      "email": "medchkir@gmail.com",
+      "url": "https://github.com/medchkir"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psyntium/node-red-contrib-http-request-multipart/issues"
+  },
+  "node-red": {
+    "nodes": {
+      "www-request-multipart": "www-request-multipart.js"
+    }
+  },
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "homepage": "https://github.com/mikakaraila/node-red-contrib-opcua#readme",
+  "scripts": {
+    "test": "karma start opcua.conf.js --log-level debug --single-run"
+  }
+}

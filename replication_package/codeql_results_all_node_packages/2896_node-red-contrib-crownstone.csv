@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;CrownstoneAPI.js:96[34:38];Sink: JSON.st ... || err);crownstoneScanner.js:172[38:68]::FLOW_DESCR_END","/crownstone/CrownstoneAPI.js","96","34","96","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;CrownstoneAPI.js:104[29:31];Sink: ""Error: ... message;CrownstoneAPI.js:105[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;CrownstoneAPI.js:104[29:31];Sink: JSON.st ... || err);crownstoneScanner.js:172[38:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;CrownstoneAPI.js:104[29:31];Sink: JSON.stringify(err);crownstoneScanner.js:196[36:54]::FLOW_DESCR_END","/crownstone/CrownstoneAPI.js","104","29","104","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.email;crownstoneScanner.html:58[32:53];Sink: email;crownstoneScanner.html:122[42:46]::FLOW_DESCR_END","/crownstone/crownstoneScanner.html","58","32","58","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crownstoneScanner.js:30[26:28];Sink: msg;crownstoneScanner.js:33[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crownstoneScanner.js:30[26:28];Sink: msg;crownstoneScanner.js:85[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crownstoneScanner.js:30[26:28];Sink: msg;crownstoneScanner.js:96[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crownstoneScanner.js:30[26:28];Sink: msg;crownstoneScanner.js:101[30:32]::FLOW_DESCR_END","/crownstone/crownstoneScanner.js","30","26","30","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: send;crownstoneScanner.js:30[31:34];Sink: send;crownstoneScanner.js:85[34:37]::FLOW_DESCR_END","/crownstone/crownstoneScanner.js","30","31","30","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;crownstoneScanner.js:30[37:40];Sink: done;crownstoneScanner.js:85[40:43]::FLOW_DESCR_END","/crownstone/crownstoneScanner.js","30","37","30","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;BluenetUart.js:58[28:35];Sink: byte;UartReadBuffer.js:49[40:43]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/BluenetUart.js","58","28","58","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;BluenetUart.js:62[70:73];Sink: data.string;BluenetUart.js:64[48:58]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/BluenetUart.js","62","70","62","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;BleHandler.js:74[41:43];Sink: err;BleHandler.js:34[43:45]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/ble/BleHandler.js","74","41","74","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;BleHandler.js:339[44:47];Sink: data;BleHandler.js:340[45:48]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/ble/BleHandler.js","339","44","339","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: isNotification;BleHandler.js:339[50:63];Sink: isNotification;BleHandler.js:340[51:64]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/ble/BleHandler.js","339","50","339","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;Scanner.js:18[34:38];Sink: state;Scanner.js:19[48:52]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/ble/Scanner.js","18","34","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: advertisement;Scanner.js:25[31:43];Sink: peripheral;Scanner.js:109[72:81]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/ble/Scanner.js","25","31","25","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;Scanner.js:26[30:36];Sink: warning;Scanner.js:26[67:73]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/ble/Scanner.js","26","30","26","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;BleHandler.js:74[41:43];Sink: err;BleHandler.js:34[43:45]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/core/ble/BleHandler.js","74","41","74","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;BleHandler.js:337[44:47];Sink: data;BleHandler.js:338[45:48]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/core/ble/BleHandler.js","337","44","337","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: isNotification;BleHandler.js:337[50:63];Sink: isNotification;BleHandler.js:338[51:64]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/core/ble/BleHandler.js","337","50","337","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;Scanner.js:19[34:38];Sink: state;Scanner.js:20[48:52]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/core/ble/Scanner.js","19","34","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: advertisement;Scanner.js:26[31:43];Sink: peripheral;Scanner.js:110[72:81]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/core/ble/Scanner.js","26","31","26","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;Scanner.js:27[30:36];Sink: warning;Scanner.js:27[67:73]::FLOW_DESCR_END","/lib/bluenet-nodejs-lib/core/ble/Scanner.js","27","30","27","36"

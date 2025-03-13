@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;mullah.js:15[26:40];Sink: ""host:  ... ient_id;mullah.js:21[18:130]::FLOW_DESCR_END","/mullah.js","15","26","15","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mullah.js:46[38:40];Sink: 'Error  ... tring();mullah.js:48[24:72]::FLOW_DESCR_END","/mullah.js","46","38","46","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mullah.js:89[35:37];Sink: msg;mullah.js:98[18:20]::FLOW_DESCR_END","/mullah.js","89","35","89","37"

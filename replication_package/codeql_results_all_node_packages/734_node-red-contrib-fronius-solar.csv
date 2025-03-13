@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fronius.js:40[31:33];Sink: msg;fronius.js:67[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fronius.js:40[31:33];Sink: msg;fronius.js:78[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fronius.js:40[31:33];Sink: msg;fronius.js:89[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fronius.js:40[31:33];Sink: msg;fronius.js:100[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fronius.js:40[31:33];Sink: msg;fronius.js:111[19:21]::FLOW_DESCR_END","/fronius/fronius.js","40","31","40","33"

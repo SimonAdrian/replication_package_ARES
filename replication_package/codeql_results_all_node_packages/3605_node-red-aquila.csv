@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;action.js:45[24:28];Sink: error;action.js:47[91:95]::FLOW_DESCR_END","/action.js","45","24","45","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;action.js:89[24:28];Sink: error;action.js:91[91:95]::FLOW_DESCR_END","/action.js","89","24","89","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;authentication-config.js:32[17:21];Sink: error;authentication-config.js:34[62:66]::FLOW_DESCR_END","/authentication-config.js","32","17","32","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;authentication-config.js:32[34:37];Sink: credentials.token;authentication-config.js:51[35:51]::FLOW_DESCR_END","/authentication-config.js","32","34","32","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;event.js:42[42:44];Sink: err;event.js:44[69:71]::FLOW_DESCR_END","/event.js","42","42","42","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;service.js:54[24:28];Sink: error;service.js:56[92:96]::FLOW_DESCR_END","/service.js","54","24","54","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wserial.js:40[42:44];Sink: err;wserial.js:42[69:71]::FLOW_DESCR_END","/wserial.js","40","42","40","44"

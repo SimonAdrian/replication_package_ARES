@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: c;buspro.js:32[27:27];Sink: eventSender;buspro.js:42[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: c;buspro.js:32[27:27];Sink: eventTarget;buspro.js:43[23:33]::FLOW_DESCR_END","/buspro/buspro.js","32","27","32","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;buspro.js:121[27:29];Sink: msg.target;buspro.js:135[33:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buspro.js:121[27:29];Sink: msg.code;buspro.js:135[45:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buspro.js:121[27:29];Sink: msg.payload;buspro.js:135[55:65]::FLOW_DESCR_END","/buspro/buspro.js","121","27","121","29"

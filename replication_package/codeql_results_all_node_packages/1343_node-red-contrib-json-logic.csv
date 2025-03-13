@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonlogic.js:6[27:29];Sink: rule;jsonlogic.js:50[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.js:6[27:29];Sink: data;jsonlogic.js:50[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.js:6[27:29];Sink: [msg, null];jsonlogic.js:69[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.js:6[27:29];Sink: [null, msg];jsonlogic.js:69[55:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.js:6[27:29];Sink: msg;jsonlogic.js:79[26:28]::FLOW_DESCR_END","/nodes/jsonlogic.js","6","27","6","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonlogic_switcher.js:6[27:29];Sink: operation;jsonlogic_switcher.js:50[117:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic_switcher.js:6[27:29];Sink: data;jsonlogic_switcher.js:50[128:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic_switcher.js:6[27:29];Sink: outputs;jsonlogic_switcher.js:75[18:24]::FLOW_DESCR_END","/nodes/jsonlogic_switcher.js","6","27","6","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonlogic.ts:20[24:26];Sink: rule;jsonlogic.ts:70[35:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.ts:20[24:26];Sink: data;jsonlogic.ts:70[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.ts:20[24:26];Sink: [msg,null];jsonlogic.ts:90[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.ts:20[24:26];Sink: [null,msg];jsonlogic.ts:90[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic.ts:20[24:26];Sink: msg;jsonlogic.ts:100[18:20]::FLOW_DESCR_END","/src/jsonlogic.ts","20","24","20","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonlogic_switcher.ts:23[24:26];Sink: operation;jsonlogic_switcher.ts:73[64:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic_switcher.ts:23[24:26];Sink: data;jsonlogic_switcher.ts:73[74:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonlogic_switcher.ts:23[24:26];Sink: outputs;jsonlogic_switcher.ts:102[14:20]::FLOW_DESCR_END","/src/jsonlogic_switcher.ts","23","24","23","26"

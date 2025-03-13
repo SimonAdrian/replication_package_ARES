@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;26-i2c.js:29[35:37];Sink: msg;26-i2c.js:33[37:39]::FLOW_DESCR_END","/i2c/26-i2c.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;26-i2c.js:62[35:37];Sink: msg;26-i2c.js:83[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:62[35:37];Sink: msg;26-i2c.js:97[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:62[35:37];Sink: msg;26-i2c.js:104[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:62[35:37];Sink: msg;26-i2c.js:118[35:37]::FLOW_DESCR_END","/i2c/26-i2c.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:176[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:178[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:189[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:193[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:193[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:197[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:197[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;26-i2c.js:145[35:37];Sink: msg;26-i2c.js:202[33:35]::FLOW_DESCR_END","/i2c/26-i2c.js","145","35","145","37"

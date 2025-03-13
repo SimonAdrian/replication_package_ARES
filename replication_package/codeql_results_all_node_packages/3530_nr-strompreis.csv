@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nr-strompreis.js:9[41:43];Sink: ""https: ... p=""+zip;nr-strompreis.js:21[43:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr-strompreis.js:9[41:43];Sink: msg;nr-strompreis.js:30[27:29]::FLOW_DESCR_END","/nr-strompreis.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data[0];nr-strompreis.js:23[30:45];Sink: ""https: ... p=""+zip;nr-strompreis.js:21[43:97]::FLOW_DESCR_END","/nr-strompreis.js","23","30","23","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;nr-strompreis.js:23[30:42];Sink: ""https: ... p=""+zip;nr-strompreis.js:21[43:97]::FLOW_DESCR_END","/nr-strompreis.js","23","30","23","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data[i];nr-strompreis.js:26[34:49];Sink: ""https: ... p=""+zip;nr-strompreis.js:21[43:97]::FLOW_DESCR_END","/nr-strompreis.js","26","34","26","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;nr-strompreis.js:26[34:46];Sink: ""https: ... p=""+zip;nr-strompreis.js:21[43:97]::FLOW_DESCR_END","/nr-strompreis.js","26","34","26","46"

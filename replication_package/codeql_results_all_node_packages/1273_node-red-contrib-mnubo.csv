@@ -1,0 +1,49 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mnubo-analytics.js:157[31:33];Sink: msg;mnubo-analytics.js:73[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-analytics.js:157[31:33];Sink: msg;mnubo-analytics.js:79[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-analytics.js:157[31:33];Sink: msg;mnubo-analytics.js:106[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-analytics.js:157[31:33];Sink: msg;mnubo-analytics.js:112[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-analytics.js:157[31:33];Sink: msg;mnubo-analytics.js:130[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-analytics.js:157[31:33];Sink: msg;mnubo-analytics.js:136[25:27]::FLOW_DESCR_END","/analytics/mnubo-analytics.js","157","31","157","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mnubo-auth.js:52[31:33];Sink: msg;mnubo-auth.js:28[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-auth.js:52[31:33];Sink: msg;mnubo-auth.js:37[23:25]::FLOW_DESCR_END","/authentication/mnubo-auth.js","52","31","52","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mnubo-events.js:145[31:33];Sink: msg.payload;mnubo-events.js:27[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-events.js:145[31:33];Sink: msg.payload;mnubo-events.js:30[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-events.js:145[31:33];Sink: msg;mnubo-events.js:38[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-events.js:145[31:33];Sink: msg;mnubo-events.js:44[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-events.js:145[31:33];Sink: msg;mnubo-events.js:92[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-events.js:145[31:33];Sink: msg;mnubo-events.js:99[25:27]::FLOW_DESCR_END","/events/mnubo-events.js","145","31","145","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:25[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:35[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:212[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:218[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:317[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:325[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:331[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:356[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-model.js:401[31:33];Sink: msg;mnubo-model.js:366[25:27]::FLOW_DESCR_END","/model/mnubo-model.js","401","31","401","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:40[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:49[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:54[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:91[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:96[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:117[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:140[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:145[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:178[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-objects.js:230[31:33];Sink: msg;mnubo-objects.js:184[25:27]::FLOW_DESCR_END","/objects/mnubo-objects.js","230","31","230","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:40[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:50[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:56[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:96[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:101[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:121[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:144[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:150[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:197[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:203[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:213[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:219[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:248[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:260[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:295[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mnubo-owners.js:358[49:51];Sink: msg;mnubo-owners.js:301[25:27]::FLOW_DESCR_END","/owners/mnubo-owners.js","358","49","358","51"

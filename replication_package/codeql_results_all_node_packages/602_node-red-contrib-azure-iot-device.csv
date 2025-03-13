@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiotdevice.js:162[36:38];Sink: node.de ... questId;azureiotdevice.js:172[26:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiotdevice.js:162[36:38];Sink: node.de ... ayload);azureiotdevice.js:482[38:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiotdevice.js:162[36:38];Sink: node.de ... ayload);azureiotdevice.js:505[30:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiotdevice.js:162[36:38];Sink: node.de ... hodName;azureiotdevice.js:519[18:98]::FLOW_DESCR_END","/azureiotdevice/azureiotdevice.js","162","36","162","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... ficate';azureiotdevice.js:113[22:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... tings.';azureiotdevice.js:217[26:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... cates.';azureiotdevice.js:222[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... added.';azureiotdevice.js:262[38:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... g DPS.';azureiotdevice.js:269[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... eeded.';azureiotdevice.js:276[38:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;azureiotdevice.js:284[45:59];Sink: node.de ... gnedHub;azureiotdevice.js:277[38:94]::FLOW_DESCR_END","/azureiotdevice/azureiotdevice.js","284","45","284","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiotdevice.js:393[57:59];Sink: node.de ... sg.data;azureiotdevice.js:394[34:94]::FLOW_DESCR_END","/azureiotdevice/azureiotdevice.js","393","57","393","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;azureiotdevice.js:444[61:67];Sink: node.de ... ayload);azureiotdevice.js:445[30:106]::FLOW_DESCR_END","/azureiotdevice/azureiotdevice.js","444","61","444","67"

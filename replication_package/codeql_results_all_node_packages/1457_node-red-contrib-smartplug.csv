@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;smartplug.js:145[26:31];Sink: status;smartplug.js:146[16:21]::FLOW_DESCR_END","/smartplug.js","145","26","145","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartplug.js:171[29:31];Sink: msg;smartplug.js:202[17:19]::FLOW_DESCR_END","/smartplug.js","171","29","171","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;smartplug.js:215[26:31];Sink: status;smartplug.js:216[16:21]::FLOW_DESCR_END","/smartplug.js","215","26","215","31"

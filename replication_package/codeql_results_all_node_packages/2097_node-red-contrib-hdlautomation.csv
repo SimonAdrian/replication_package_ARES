@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlautomation-action.js:116[35:37];Sink: msg;hdlautomation-action.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlautomation-action.js:116[35:37];Sink: msg;hdlautomation-action.js:26[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlautomation-action.js:116[35:37];Sink: msg;hdlautomation-action.js:39[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlautomation-action.js:116[35:37];Sink: msg;hdlautomation-action.js:97[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlautomation-action.js:116[35:37];Sink: msg;hdlautomation-action.js:111[31:33]::FLOW_DESCR_END","/hdlautomation-action/hdlautomation-action.js","116","35","116","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: controller.port;hdlautomation-controller.js:29[57:71];Sink: port;hdlautomation-controller.js:152[34:37]::FLOW_DESCR_END","/hdlautomation-controller/hdlautomation-controller.js","29","57","29","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;hdlautomation-controller.js:101[82:92];Sink: ""Create ... ig.port;hdlautomation-controller.js:101[21:92]::FLOW_DESCR_END","/hdlautomation-controller/hdlautomation-controller.js","101","82","101","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;hdlautomation-controller.js:111[48:54];Sink: message;hdlautomation-controller.js:113[29:35]::FLOW_DESCR_END","/hdlautomation-controller/hdlautomation-controller.js","111","48","111","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hdlautomation-controller.js:135[37:39];Sink: ""Error  ... "" + err;hdlautomation-controller.js:136[25:54]::FLOW_DESCR_END","/hdlautomation-controller/hdlautomation-controller.js","135","37","135","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlautomation-device.js:62[35:37];Sink: ""[HDLAu ... operate;hdlautomation-deviceModule.js:169[35:92]::FLOW_DESCR_END","/hdlautomation-device/hdlautomation-device.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlautomation-device_OLD.js:62[35:37];Sink: ""[HDLAu ... operate;hdlautomation-device_OLD.js:125[35:92]::FLOW_DESCR_END","/hdlautomation-device/hdlautomation-device_OLD.js","62","35","62","37"

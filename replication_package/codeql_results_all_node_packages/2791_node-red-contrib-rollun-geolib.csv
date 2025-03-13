@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: msg;get-distance.js:22[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: [msg];get-distance.js:23[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: msg;get-distance.js:27[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: [msg];get-distance.js:28[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: msg;get-distance.js:36[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: [null, msg];get-distance.js:37[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: msg;get-distance.js:39[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-distance.js:15[32:34];Sink: [msg];get-distance.js:40[26:30]::FLOW_DESCR_END","/get-distance.js","15","32","15","34"

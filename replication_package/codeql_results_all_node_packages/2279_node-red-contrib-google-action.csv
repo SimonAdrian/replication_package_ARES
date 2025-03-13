@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;google-action.js:49[21:26];Sink: ""Listen ... de.port;google-action.js:100[18:49]::FLOW_DESCR_END","/google-action.js","49","21","49","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;google-action.js:100[41:49];Sink: ""Listen ... de.port;google-action.js:100[18:49]::FLOW_DESCR_END","/google-action.js","100","41","100","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-action.js:118[34:36];Sink: msg.conversationId;google-action.js:120[34:51]::FLOW_DESCR_END","/google-action.js","118","34","118","36"

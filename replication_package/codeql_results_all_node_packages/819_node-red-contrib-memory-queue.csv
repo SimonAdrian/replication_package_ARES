@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;memoryQueue.js:68[31:33];Sink: msg;memoryQueue.js:76[17:19]::FLOW_DESCR_END","/src/memoryQueue.js","68","31","68","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;memoryQueue.js:87[35:37];Sink: JSON.pa ... y(msg));memoryQueue.js:88[17:47]::FLOW_DESCR_END","/src/memoryQueue.js","87","35","87","37"

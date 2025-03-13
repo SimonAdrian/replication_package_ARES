@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ivona.js:323[25:27];Sink: msg;ivona.js:343[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona.js:323[25:27];Sink: msg;ivona.js:354[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona.js:323[25:27];Sink: msg.file;ivona.js:358[44:51]::FLOW_DESCR_END","/ivona.js","323","25","323","27"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: inmsg;input.js:23[23:27];Sink: `====== ... nmsg)}`;input.js:25[16:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inmsg;input.js:23[23:27];Sink: input;input.js:60[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inmsg;input.js:23[23:27];Sink: `====== ... Value}`;input.js:65[20:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: inmsg;input.js:23[23:27];Sink: `====== ... Value}`;input.js:119[18:101]::FLOW_DESCR_END","/ATTIC/input.js","23","23","23","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: inmsg;output.js:24[23:27];Sink: `====== ... nmsg)}`;output.js:26[16:95]::FLOW_DESCR_END","/ATTIC/output.js","24","23","24","27"

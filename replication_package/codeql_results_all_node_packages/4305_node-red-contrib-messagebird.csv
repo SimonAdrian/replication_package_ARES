@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;messagebird.js:8[31:33];Sink: msg;messagebird.js:23[37:39]::FLOW_DESCR_END","/messagebird.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;messagebird.js:34[31:33];Sink: {\n      ...       };messagebird.js:43[11:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;messagebird.js:34[31:33];Sink: msg;messagebird.js:54[36:38]::FLOW_DESCR_END","/messagebird.js","34","31","34","33"

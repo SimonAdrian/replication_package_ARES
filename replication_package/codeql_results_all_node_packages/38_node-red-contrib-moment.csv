@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrhumanizer.js:46[32:34];Sink: msg;nrhumanizer.js:67[17:19]::FLOW_DESCR_END","/moment/nrhumanizer.js","46","32","46","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrmoment.js:75[36:38];Sink: msg;nrmoment.js:319[18:20]::FLOW_DESCR_END","/moment/nrmoment.js","75","36","75","38"

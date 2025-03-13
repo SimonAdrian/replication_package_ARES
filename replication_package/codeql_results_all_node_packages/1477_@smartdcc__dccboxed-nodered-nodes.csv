@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sd;dccboxed-receive.js:101[26:27];Sink: 'unknow ... ify(sd);dccboxed-receive.js:214[31:79]::FLOW_DESCR_END","/dist/dccboxed-receive.js","101","26","101","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dccboxed-receive.js:101[30:32];Sink: msgs;dccboxed-receive.js:87[27:30]::FLOW_DESCR_END","/dist/dccboxed-receive.js","101","30","101","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;dccboxed-receive.js:219[41:41];Sink: e;dccboxed-receive.js:219[57:57]::FLOW_DESCR_END","/dist/dccboxed-receive.js","219","41","219","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dccboxed-send.js:42[27:29];Sink: [msg, null, null];dccboxed-send.js:79[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dccboxed-send.js:42[27:29];Sink: [null, msg, null];dccboxed-send.js:90[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dccboxed-send.js:42[27:29];Sink: [null, null, msg];dccboxed-send.js:98[26:42]::FLOW_DESCR_END","/dist/dccboxed-send.js","42","27","42","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duis-construct.js:30[27:29];Sink: msg;duis-construct.js:50[18:20]::FLOW_DESCR_END","/dist/duis-construct.js","30","27","30","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duis-parser.js:30[27:29];Sink: msg;duis-parser.js:39[22:24]::FLOW_DESCR_END","/dist/duis-parser.js","30","27","30","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duis-sign.js:31[27:29];Sink: msg;duis-sign.js:40[26:28]::FLOW_DESCR_END","/dist/duis-sign.js","31","27","31","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duis-tariff.js:93[27:29];Sink: msg;duis-tariff.js:142[18:20]::FLOW_DESCR_END","/dist/duis-tariff.js","93","27","93","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duis-template.js:69[27:29];Sink: msg;duis-template.js:101[22:24]::FLOW_DESCR_END","/dist/duis-template.js","69","27","69","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gbcs-parser.js:33[27:29];Sink: msg;gbcs-parser.js:49[22:24]::FLOW_DESCR_END","/dist/gbcs-parser.js","33","27","33","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gbcs-signer.js:37[27:29];Sink: msg;gbcs-signer.js:67[22:24]::FLOW_DESCR_END","/dist/gbcs-signer.js","37","27","37","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gbcs-utrn.js:135[33:35];Sink: msg;gbcs-utrn.js:221[22:24]::FLOW_DESCR_END","/dist/gbcs-utrn.js","135","33","135","35"

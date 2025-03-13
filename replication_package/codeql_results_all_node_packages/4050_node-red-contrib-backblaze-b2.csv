@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;b2.js:49[33:35];Sink: msg;b2.js:70[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;b2.js:49[33:35];Sink: msg;b2.js:92[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;b2.js:49[33:35];Sink: msg;b2.js:98[30:32]::FLOW_DESCR_END","/b2.js","49","33","49","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;b2.js:113[33:35];Sink: msg;b2.js:136[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;b2.js:113[33:35];Sink: msg;b2.js:142[30:32]::FLOW_DESCR_END","/b2.js","113","33","113","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;b2.js:157[33:35];Sink: msg;b2.js:177[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;b2.js:157[33:35];Sink: msg;b2.js:208[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;b2.js:157[33:35];Sink: msg;b2.js:224[30:32]::FLOW_DESCR_END","/b2.js","157","33","157","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;b2.js:243[33:35];Sink: msg;b2.js:263[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;b2.js:243[33:35];Sink: msg;b2.js:308[26:28]::FLOW_DESCR_END","/b2.js","243","33","243","35"

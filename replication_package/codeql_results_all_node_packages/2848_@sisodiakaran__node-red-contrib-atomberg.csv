@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;atomberg-device-state.js:19[38:40];Sink: msg;atomberg-device-state.js:29[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;atomberg-device-state.js:19[38:40];Sink: msg;atomberg-device-state.js:32[55:57]::FLOW_DESCR_END","/nodes/atomberg-device-state.js","19","38","19","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;atomberg-devices.js:24[38:40];Sink: msg;atomberg-devices.js:32[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;atomberg-devices.js:24[38:40];Sink: msg;atomberg-devices.js:35[55:57]::FLOW_DESCR_END","/nodes/atomberg-devices.js","24","38","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;atomberg-send-command.js:19[38:40];Sink: params;atomberg.js:60[57:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;atomberg-send-command.js:19[38:40];Sink: msg;atomberg-send-command.js:27[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;atomberg-send-command.js:19[38:40];Sink: msg;atomberg-send-command.js:30[55:57]::FLOW_DESCR_END","/nodes/atomberg-send-command.js","19","38","19","40"

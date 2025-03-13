@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: `Set ${ ... ad} \u00b0C`;fritz.js:173[34:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: msg;fritz.js:174[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: msg;fritz.js:178[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: msg;fritz.js:246[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: msg;fritz.js:273[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: msg;fritz.js:284[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: msg;fritz.js:292[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:215[40:42];Sink: ""Unknow ... ined-');fritz.js:297[32:77]::FLOW_DESCR_END","/fritz.js","215","40","215","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fritz.js:316[33:35];Sink: `${msg. ... 'off'}`;fritz.js:327[42:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:316[33:35];Sink: msg;fritz.js:328[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:316[33:35];Sink: msg;fritz.js:332[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:316[33:35];Sink: msg;fritz.js:344[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:316[33:35];Sink: ""Unknow ... ined-');fritz.js:348[32:77]::FLOW_DESCR_END","/fritz.js","316","33","316","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: `${msg. ... yload}`;fritz.js:375[34:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: msg;fritz.js:376[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: `${msg. ... yload}`;fritz.js:383[34:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: msg;fritz.js:384[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: `${msg. ... yload}`;fritz.js:389[34:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: msg;fritz.js:390[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: `${msg. ... yload}`;fritz.js:396[34:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: msg;fritz.js:397[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: msg;fritz.js:403[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: msg;fritz.js:411[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:366[39:41];Sink: ""Unknow ... ined-');fritz.js:415[32:77]::FLOW_DESCR_END","/fritz.js","366","39","366","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fritz.js:433[39:41];Sink: `${msg. ... yload}`;fritz.js:443[34:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:433[39:41];Sink: msg;fritz.js:444[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:433[39:41];Sink: msg;fritz.js:450[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:433[39:41];Sink: ""Unknow ... ined-');fritz.js:454[32:77]::FLOW_DESCR_END","/fritz.js","433","39","433","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fritz.js:475[33:35];Sink: msg;fritz.js:487[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:475[33:35];Sink: msg;fritz.js:493[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:475[33:35];Sink: ""Unknow ... ined-');fritz.js:497[32:77]::FLOW_DESCR_END","/fritz.js","475","33","475","35"

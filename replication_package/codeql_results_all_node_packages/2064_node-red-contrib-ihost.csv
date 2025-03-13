@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.ihostList;api-server.html:339[33:50];Sink: ip;api-server.html:270[38:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.ihostList;api-server.html:339[33:50];Sink: ihostList;api-server.html:340[57:65]::FLOW_DESCR_END","/src/api-server.html","339","33","339","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ce_list;control-device.js:204[56:80];Sink: deviceData;control-device.js:89[54:63]::FLOW_DESCR_END","/src/control-device.js","204","56","204","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;control-device.js:204[56:68];Sink: deviceData;control-device.js:89[54:63]::FLOW_DESCR_END","/src/control-device.js","204","56","204","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jsonData;event-state.js:134[48:55];Sink: 'jsonda ... onData);event-state.js:135[22:58]::FLOW_DESCR_END","/src/event-state.js","134","48","134","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jsonData;event-state.js:160[45:52];Sink: 'jsonda ... onData);event-state.js:161[22:58]::FLOW_DESCR_END","/src/event-state.js","160","45","160","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-devices.js:8[33:35];Sink: msg;get-devices.js:52[35:37]::FLOW_DESCR_END","/src/get-devices.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ce_list;register-device.js:62[44:68];Sink: dev;register-device.js:65[49:51]::FLOW_DESCR_END","/src/register-device.js","62","44","62","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;register-device.js:62[44:56];Sink: dev;register-device.js:65[49:51]::FLOW_DESCR_END","/src/register-device.js","62","44","62","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;mdns.js:18[22:29];Sink: `mDNS r ... .data}`;mdns.js:24[25:75]::FLOW_DESCR_END","/src/utils/mdns.js","18","22","18","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev;register-device.js:64[36:38];Sink: dev;register-device.js:65[49:51]::FLOW_DESCR_END","/src/register-device.js","64","36","64","38"

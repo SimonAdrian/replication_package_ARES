@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();ExampleKafka.js:23[30:40];Sink: y;ExampleKafka.js:17[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();ExampleKafka.js:23[30:40];Sink: op[1];ExampleKafka.js:17[105:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();ExampleKafka.js:23[30:40];Sink: ""Do som ... rdEvent;ExampleKafka.js:59[37:86]::FLOW_DESCR_END","/src/lib-event-stream/build/examples/ExampleKafka.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();EventStreamManager.js:23[30:40];Sink: y;EventStreamManager.js:17[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();EventStreamManager.js:23[30:40];Sink: op[1];EventStreamManager.js:17[105:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();EventStreamManager.js:23[30:40];Sink: payload;EventStreamManager.js:158[80:86]::FLOW_DESCR_END","/src/lib-event-stream/build/src/EventStreamManager.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();UrnUtils.js:33[30:40];Sink: y;UrnUtils.js:27[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();UrnUtils.js:33[30:40];Sink: op[1];UrnUtils.js:27[105:109]::FLOW_DESCR_END","/src/lib-event-stream/build/src/UrnUtils.js","33","30","33","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();KafkaEventBroker.js:23[30:40];Sink: y;KafkaEventBroker.js:17[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();KafkaEventBroker.js:23[30:40];Sink: op[1];KafkaEventBroker.js:17[105:109]::FLOW_DESCR_END","/src/lib-event-stream/build/src/adapaters/KafkaEventBroker.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();EventStreamManger.test.js:23[30:40];Sink: y;EventStreamManger.test.js:17[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();EventStreamManger.test.js:23[30:40];Sink: op[1];EventStreamManger.test.js:17[105:109]::FLOW_DESCR_END","/src/lib-event-stream/build/test/EventStreamManger.test.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();KafkaEventBrocker.test.js:23[30:40];Sink: y;KafkaEventBrocker.test.js:17[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();KafkaEventBrocker.test.js:23[30:40];Sink: op[1];KafkaEventBrocker.test.js:17[105:109]::FLOW_DESCR_END","/src/lib-event-stream/build/test/adapaters/KafkaEventBrocker.test.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();MockEventBrocker.test.js:23[30:40];Sink: y;MockEventBrocker.test.js:17[102:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();MockEventBrocker.test.js:23[30:40];Sink: op[1];MockEventBrocker.test.js:17[105:109]::FLOW_DESCR_END","/src/lib-event-stream/build/test/adapaters/MockEventBrocker.test.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;EventStreamManager.ts:236[17:21];Sink: event;EventStreamManager.ts:239[66:70]::FLOW_DESCR_END","/src/lib-event-stream/src/EventStreamManager.ts","236","17","236","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;KafkaEventBroker.ts:126[35:37];Sink: err;ExampleKafka.ts:33[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;KafkaEventBroker.ts:126[35:37];Sink: err;ExampleLocalDevelopment.ts:57[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;KafkaEventBroker.ts:126[35:37];Sink: err;node-red-adapter.js:41[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;KafkaEventBroker.ts:126[35:37];Sink: err;node-red-adapter.js:42[17:19]::FLOW_DESCR_END","/src/lib-event-stream/src/adapaters/KafkaEventBroker.ts","126","35","126","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vt-event-listener.js:21[32:34];Sink: msg;node-red-adapter.js:20[15:17]::FLOW_DESCR_END","/src/vt-event-listener.js","21","32","21","34"

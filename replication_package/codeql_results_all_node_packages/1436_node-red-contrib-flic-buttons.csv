@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;flic.js:127[34:38];Sink: error;flic.js:128[18:22]::FLOW_DESCR_END","/flic.js","127","34","127","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: clickType;example.js:17[35:43];Sink: bdAddr  ... ds ago"";example.js:18[15:120]::FLOW_DESCR_END","/lib/example.js","17","35","17","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: timeDiff;example.js:17[57:64];Sink: bdAddr  ... ds ago"";example.js:18[15:120]::FLOW_DESCR_END","/lib/example.js","17","57","17","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connectionStatus;example.js:20[44:59];Sink: bdAddr  ... n : """");example.js:21[15:114]::FLOW_DESCR_END","/lib/example.js","20","44","20","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: disconnectReason;example.js:20[62:77];Sink: bdAddr  ... n : """");example.js:21[15:114]::FLOW_DESCR_END","/lib/example.js","20","62","20","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;example.js:34[54:58];Sink: ""Blueto ... + state;example.js:35[14:58]::FLOW_DESCR_END","/lib/example.js","34","54","34","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bdAddr;example.js:38[41:46];Sink: bdAddr  ... ds ago"";example.js:18[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: bdAddr;example.js:38[41:46];Sink: bdAddr  ... n : """");example.js:21[15:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: bdAddr;example.js:38[41:46];Sink: ""A new  ...  bdAddr;example.js:39[14:48]::FLOW_DESCR_END","/lib/example.js","38","41","38","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;example.js:43[29:33];Sink: ""Daemon ... + error;example.js:44[14:48]::FLOW_DESCR_END","/lib/example.js","43","29","43","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: had_error;fliclibNodeJs.js:161[20:28];Sink: hadError;fliclibNodeJs.js:866[22:29]::FLOW_DESCR_END","/lib/fliclibNodeJs.js","161","20","161","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fliclibNodeJs.js:165[20:24];Sink: ""Daemon ... + error;example.js:44[14:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fliclibNodeJs.js:165[20:24];Sink: error;fliclibNodeJs.js:950[22:26]::FLOW_DESCR_END","/lib/fliclibNodeJs.js","165","20","165","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: bdAddr  ... ds ago"";example.js:18[15:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: bdAddr  ... n : """");example.js:21[15:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: ""A new  ...  bdAddr;example.js:39[14:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: event.bdAddr;fliclibNodeJs.js:898[38:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: event.m ... Buttons;fliclibNodeJs.js:907[44:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: event.m ... Buttons;fliclibNodeJs.js:911[45:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclibNodeJs.js:169[19:22];Sink: event.bdAddr;fliclibNodeJs.js:937[34:45]::FLOW_DESCR_END","/lib/fliclibNodeJs.js","169","19","169","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bdAddr;newscanwizard.js:19[42:47];Sink: ""Found  ... ing..."";newscanwizard.js:20[15:84]::FLOW_DESCR_END","/lib/newscanwizard.js","19","42","19","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: name;newscanwizard.js:19[50:53];Sink: ""Found  ... ing..."";newscanwizard.js:20[15:84]::FLOW_DESCR_END","/lib/newscanwizard.js","19","50","19","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;newscanwizard.js:25[34:39];Sink: ""Comple ...  result;newscanwizard.js:26[15:48]::FLOW_DESCR_END","/lib/newscanwizard.js","25","34","25","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bdAddr;newscanwizard.js:25[42:47];Sink: ""Your n ...  bdAddr;newscanwizard.js:28[16:45]::FLOW_DESCR_END","/lib/newscanwizard.js","25","42","25","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bdAddr;scanwizard.js:35[45:50];Sink: ""Button ... added!"";scanwizard.js:20[15:57]::FLOW_DESCR_END","/lib/scanwizard.js","35","45","35","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: removedReason;scanwizard.js:64[29:41];Sink: ""Scan W ... "" + msg;scanwizard.js:24[15:42]::FLOW_DESCR_END","/lib/scanwizard.js","64","29","64","41"

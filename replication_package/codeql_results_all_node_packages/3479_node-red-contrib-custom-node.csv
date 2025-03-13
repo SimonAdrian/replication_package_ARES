@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;custom-node.js:6[35:37];Sink: ""Publis ... g.topic;custom-node.js:18[29:60]::FLOW_DESCR_END","/custom-node.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].min;custom-node.js:22[27:37];Sink: ""Topic  ... RESHOLD;custom-node.js:26[33:147]::FLOW_DESCR_END","/custom-node.js","22","27","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].max;custom-node.js:23[27:37];Sink: ""Topic  ... RESHOLD;custom-node.js:26[33:147]::FLOW_DESCR_END","/custom-node.js","23","27","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].minThreshold;custom-node.js:24[37:56];Sink: ""Topic  ... RESHOLD;custom-node.js:26[33:147]::FLOW_DESCR_END","/custom-node.js","24","37","24","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].maxThreshold;custom-node.js:25[37:56];Sink: ""Topic  ... RESHOLD;custom-node.js:26[33:147]::FLOW_DESCR_END","/custom-node.js","25","37","25","56"

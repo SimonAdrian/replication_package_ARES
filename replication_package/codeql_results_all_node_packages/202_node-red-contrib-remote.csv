@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;remote-access.js:34[37:40];Sink: prefix + ': ' + line;remote-access.js:81[20:39]::FLOW_DESCR_END","/nodes/remote-access.js","34","37","34","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;remote-access.js:38[37:40];Sink: prefix + ': ' + line;remote-access.js:81[20:39]::FLOW_DESCR_END","/nodes/remote-access.js","38","37","38","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;remote-access.js:45[31:34];Sink: ""ssh pr ... l + "")"";remote-access.js:50[18:77]::FLOW_DESCR_END","/nodes/remote-access.js","45","31","45","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;remote-access.js:45[37:42];Sink: ""ssh pr ... l + "")"";remote-access.js:50[18:77]::FLOW_DESCR_END","/nodes/remote-access.js","45","37","45","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;remote-access.js:53[30:33];Sink: ""ssh pr ... l + "")"";remote-access.js:58[18:76]::FLOW_DESCR_END","/nodes/remote-access.js","53","30","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;remote-access.js:53[36:41];Sink: ""ssh pr ... l + "")"";remote-access.js:58[18:76]::FLOW_DESCR_END","/nodes/remote-access.js","53","36","53","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;remote-access.js:61[31:33];Sink: ""ssh pr ... message;remote-access.js:62[18:69]::FLOW_DESCR_END","/nodes/remote-access.js","61","31","61","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.port;remote-access.js:112[20:37];Sink: `Using  ... {port}`;remote-access.js:113[16:64]::FLOW_DESCR_END","/nodes/remote-access.js","112","20","112","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... message;remote-commons.js:49[24:50];Sink: 'reques ... (error);remote-access.js:118[18:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... message;remote-commons.js:49[24:50];Sink: 'heartb ... (error);remote-access.js:208[20:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... message;remote-commons.js:49[24:50];Sink: 'sendNo ... (error);remote-notification.js:65[30:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... message;remote-commons.js:49[24:50];Sink: 'sendNo ... (error);remote-question.js:80[30:88]::FLOW_DESCR_END","/nodes/remote-commons.js","49","24","49","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... message;remote-config.js:32[45:71];Sink: `dns re ... rror)}`;remote-config.js:62[27:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... message;remote-config.js:32[45:71];Sink: `https  ... rror)}`;remote-config.js:86[21:69]::FLOW_DESCR_END","/nodes/remote-config.js","32","45","32","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remote-notification.js:19[31:33];Sink: msg;remote-notification.js:60[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;remote-notification.js:19[31:33];Sink: msg;remote-notification.js:73[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;remote-notification.js:19[31:33];Sink: msg;remote-notification.js:118[23:25]::FLOW_DESCR_END","/nodes/remote-notification.js","19","31","19","33"

@@ -1,0 +1,6 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;https.js:108[34:36];Sink: msg;https.js:123[58:60]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;https.js:108[34:36];Sink: msg;https.js:403[75:77]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;https.js:108[34:36];Sink: msg;https.js:409[71:73]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;https.js:108[34:36];Sink: msg;https.js:569[81:83]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;https.js:108[34:36];Sink: msg;https.js:572[36:38]::FLOW_DESCR_END","/https/https.js","108","34","108","36"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;https.js:561[27:29];Sink: err;https.js:572[32:34]::FLOW_DESCR_END","/https/https.js","561","27","561","29"

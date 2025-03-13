@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ChangePosition.js:13[36:38];Sink: JSON.st ... tring();ChangePosition.js:33[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ChangePosition.js:13[36:38];Sink: g_msg;ChangePosition.js:56[23:27]::FLOW_DESCR_END","/node/Behavior/ChangePosition.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CreateEntity.js:13[36:38];Sink: JSON.st ... tring();CreateEntity.js:38[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;CreateEntity.js:13[36:38];Sink: g_msg;CreateEntity.js:61[23:27]::FLOW_DESCR_END","/node/Behavior/CreateEntity.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DelQuest.js:13[36:38];Sink: JSON.st ... tring();DelQuest.js:29[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DelQuest.js:13[36:38];Sink: g_msg;DelQuest.js:53[23:27]::FLOW_DESCR_END","/node/Behavior/DelQuest.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GetPlayerBirthday.js:12[36:38];Sink: JSON.st ... tring();GetPlayerBirthday.js:29[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GetPlayerBirthday.js:12[36:38];Sink: g_msg;GetPlayerBirthday.js:52[23:27]::FLOW_DESCR_END","/node/Behavior/GetPlayerBirthday.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GetPlayerLocation.js:12[36:38];Sink: JSON.st ... tring();GetPlayerLocation.js:27[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GetPlayerLocation.js:12[36:38];Sink: g_msg;GetPlayerLocation.js:52[23:27]::FLOW_DESCR_END","/node/Behavior/GetPlayerLocation.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GetPlayerNum.js:14[36:38];Sink: g_msg;GetPlayerNum.js:46[23:27]::FLOW_DESCR_END","/node/Behavior/GetPlayerNum.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;QuestAction.js:13[36:38];Sink: JSON.st ... tring();QuestAction.js:31[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;QuestAction.js:13[36:38];Sink: g_msg;QuestAction.js:54[23:27]::FLOW_DESCR_END","/node/Behavior/QuestAction.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;QuestFinish.js:13[36:38];Sink: JSON.st ... tring();QuestFinish.js:29[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;QuestFinish.js:13[36:38];Sink: g_msg;QuestFinish.js:53[23:27]::FLOW_DESCR_END","/node/Behavior/QuestFinish.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RunCmdByPlayer.js:12[36:38];Sink: JSON.st ... tring();RunCmdByPlayer.js:24[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RunCmdByPlayer.js:12[36:38];Sink: g_msg;RunCmdByPlayer.js:47[23:27]::FLOW_DESCR_END","/node/Behavior/RunCmdByPlayer.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SendMail.js:9[36:38];Sink: JSON.st ... tring();SendMail.js:17[34:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SendMail.js:9[36:38];Sink: g_msg;SendMail.js:40[23:27]::FLOW_DESCR_END","/node/Behavior/SendMail.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SendMessage.js:10[36:38];Sink: JSON.st ... tring();SendMessage.js:28[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SendMessage.js:10[36:38];Sink: g_msg;SendMessage.js:49[23:27]::FLOW_DESCR_END","/node/Behavior/SendMessage.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RunCommand.js:6[36:38];Sink: JSON.st ... tring();RunCommand.js:14[34:68]::FLOW_DESCR_END","/node/Console/RunCommand.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OnChatMsg.js:13[36:38];Sink: JSON.st ... tring();OnChatMsg.js:40[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;OnChatMsg.js:13[36:38];Sink: g_msg;OnChatMsg.js:72[23:27]::FLOW_DESCR_END","/node/Event/OnChatMsg.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OnKillEntity.js:14[36:38];Sink: g_msg;OnKillEntity.js:61[23:27]::FLOW_DESCR_END","/node/Event/OnKillEntity.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OnPlayerExp.js:13[36:38];Sink: JSON.st ... tring();OnPlayerExp.js:41[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;OnPlayerExp.js:13[36:38];Sink: g_msg;OnPlayerExp.js:71[23:27]::FLOW_DESCR_END","/node/Event/OnPlayerExp.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OnPosition.js:14[36:38];Sink: JSON.st ... tring();OnPosition.js:40[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;OnPosition.js:14[36:38];Sink: g_msg;OnPosition.js:70[23:27]::FLOW_DESCR_END","/node/Event/OnPosition.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OnQuestChange.js:13[36:38];Sink: JSON.st ... tring();OnQuestChange.js:41[34:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;OnQuestChange.js:13[36:38];Sink: g_msg;OnQuestChange.js:71[23:27]::FLOW_DESCR_END","/node/Event/OnQuestChange.js","13","36","13","38"

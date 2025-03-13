@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:233[31:33];Sink: msg;index.js:244[19:21]::FLOW_DESCR_END","/index.js","233","31","233","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: left;sensortagpromise.js:275[40:43];Sink: 'leave  ... edRelay;sensortagpromise.js:276[19:88]::FLOW_DESCR_END","/sensortagpromise.js","275","40","275","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: right;sensortagpromise.js:275[46:50];Sink: 'leave  ... edRelay;sensortagpromise.js:276[19:88]::FLOW_DESCR_END","/sensortagpromise.js","275","46","275","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reedRelay;sensortagpromise.js:275[53:61];Sink: 'leave  ... edRelay;sensortagpromise.js:276[19:88]::FLOW_DESCR_END","/sensortagpromise.js","275","53","275","61"

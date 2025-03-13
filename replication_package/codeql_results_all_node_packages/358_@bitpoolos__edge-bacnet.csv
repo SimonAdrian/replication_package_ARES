@@ -1,0 +1,50 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;bacnet_client.js:111[30:35];Sink: device;bacnet_client.js:135[40:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;bacnet_client.js:111[30:35];Sink: device;bacnet_client.js:158[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;bacnet_client.js:111[30:35];Sink: `BACnet ... dr[0]}`;bacnet_gateway.js:156[13:145]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;bacnet_client.js:111[30:35];Sink: `BACnet ... dress}`;bacnet_gateway.js:159[21:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;bacnet_client.js:111[30:35];Sink: `BACnet ... dress}`;bacnet_gateway.js:518[38:98]::FLOW_DESCR_END","/bacnet_client.js","111","30","111","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bacnet_client.js:166[30:32];Sink: param2;bacnet_client.js:280[41:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;bacnet_client.js:166[30:32];Sink: param2;bacnet_gateway.js:529[31:36]::FLOW_DESCR_END","/bacnet_client.js","166","30","166","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;bacnet_gateway.js:152[42:47];Sink: `BACnet ... dr[0]}`;bacnet_gateway.js:156[13:145]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;bacnet_gateway.js:152[42:47];Sink: `BACnet ... dress}`;bacnet_gateway.js:159[21:81]::FLOW_DESCR_END","/bacnet_gateway.js","152","42","152","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;bacnet_gateway.js:156[43:57];Sink: `BACnet ... dr[0]}`;bacnet_gateway.js:156[13:145]::FLOW_DESCR_END","/bacnet_gateway.js","156","43","156","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;bacnet_gateway.js:159[45:59];Sink: `BACnet ... dress}`;bacnet_gateway.js:159[21:81]::FLOW_DESCR_END","/bacnet_gateway.js","159","45","159","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: param1;bacnet_gateway.js:164[45:50];Sink: param1;bacnet_gateway.js:526[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: param1;bacnet_gateway.js:164[45:50];Sink: param1;bacnet_gateway.js:529[23:28]::FLOW_DESCR_END","/bacnet_gateway.js","164","45","164","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: param2;bacnet_gateway.js:164[53:58];Sink: param2;bacnet_gateway.js:529[31:36]::FLOW_DESCR_END","/bacnet_gateway.js","164","53","164","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bacnet_gateway.js:200[32:34];Sink: outputType;bacnet_client.js:738[15:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bacnet_gateway.js:200[32:34];Sink: objectPropertyType;bacnet_client.js:739[15:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bacnet_gateway.js:200[32:34];Sink: readNodeName;bacnet_client.js:740[15:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bacnet_gateway.js:200[32:34];Sink: (receiv ... || null;client.js:1437[13:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bacnet_gateway.js:200[32:34];Sink: port || ... ET_PORT;transport.js:37[46:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bacnet_gateway.js:200[32:34];Sink: address;transport.js:37[75:81]::FLOW_DESCR_END","/bacnet_gateway.js","200","32","200","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;bacnet_gateway.js:517[44:49];Sink: `BACnet ... dress}`;bacnet_gateway.js:518[38:98]::FLOW_DESCR_END","/bacnet_gateway.js","517","44","517","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;bacnet_gateway.js:518[62:76];Sink: `BACnet ... dress}`;bacnet_gateway.js:518[38:98]::FLOW_DESCR_END","/bacnet_gateway.js","518","62","518","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bacnet_read.js:55[32:34];Sink: msg;bacnet_read.js:60[19:21]::FLOW_DESCR_END","/bacnet_read.js","55","32","55","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bacnet_server.js:180[55:58];Sink: newValue;bacnet_server.js:191[60:67]::FLOW_DESCR_END","/bacnet_server.js","180","55","180","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.re ... ].value;bacnet_server.js:184[28:60];Sink: newValue;bacnet_server.js:191[60:67]::FLOW_DESCR_END","/bacnet_server.js","184","28","184","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.re ... alue[0];bacnet_server.js:184[28:54];Sink: newValue;bacnet_server.js:191[60:67]::FLOW_DESCR_END","/bacnet_server.js","184","28","184","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.re ... e.value;bacnet_server.js:184[28:51];Sink: newValue;bacnet_server.js:191[60:67]::FLOW_DESCR_END","/bacnet_server.js","184","28","184","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.request.value;bacnet_server.js:184[28:45];Sink: newValue;bacnet_server.js:191[60:67]::FLOW_DESCR_END","/bacnet_server.js","184","28","184","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitpool_inject.js:115[36:38];Sink: msg;bitpool_inject.js:166[22:24]::FLOW_DESCR_END","/bitpool_inject.js","115","36","115","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...  ""r"" });common.js:217[12:88];Sink: data;common.js:201[53:56]::FLOW_DESCR_END","/common.js","217","12","217","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...  ""r"" });common.js:244[12:95];Sink: data;common.js:230[60:63]::FLOW_DESCR_END","/common.js","244","12","244","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.deviceId;client.js:293[60:74];Sink: `BACnet ... dr[0]}`;bacnet_gateway.js:156[13:145]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;client.js:293[60:74];Sink: `BACnet ... dress}`;bacnet_gateway.js:159[21:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.deviceId;client.js:293[60:74];Sink: `BACnet ... dress}`;bacnet_gateway.js:518[38:98]::FLOW_DESCR_END","/resources/node-bacstack-ts/dist/lib/client.js","293","60","293","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transport.js:13[37:39];Sink: id;client.js:72[28:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transport.js:13[37:39];Sink: msg;transport.js:13[73:75]::FLOW_DESCR_END","/resources/node-bacstack-ts/dist/lib/transport.js","13","37","13","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: `BACnet ... dr[0]}`;bacnet_gateway.js:156[13:145]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: `BACnet ... dress}`;bacnet_gateway.js:159[21:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: `BACnet ... dress}`;bacnet_gateway.js:518[38:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: (receiv ... || null;client.js:1437[13:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: rinfo.address;transport.js:13[78:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: port || ... ET_PORT;transport.js:37[46:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;transport.js:13[42:46];Sink: address;transport.js:37[75:81]::FLOW_DESCR_END","/resources/node-bacstack-ts/dist/lib/transport.js","13","42","13","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;transport.js:14[35:37];Sink: id;client.js:72[28:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;transport.js:14[35:37];Sink: err;transport.js:14[64:66]::FLOW_DESCR_END","/resources/node-bacstack-ts/dist/lib/transport.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data:e;vue.global.prod.js:1[31657:31662];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31657","1","31662"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: setupState:t;vue.global.prod.js:1[31664:31675];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31664","1","31675"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ctx:o;vue.global.prod.js:1[31691:31695];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31691","1","31695"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: appContext:r;vue.global.prod.js:1[31697:31708];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31697","1","31708"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: propsOptions:s;vue.global.prod.js:1[31710:31723];Sink: e;vue.global.prod.js:1[3310:3310]::FLOW_DESCR_END","/resources/vue.global.prod.js","1","31710","1","31723"

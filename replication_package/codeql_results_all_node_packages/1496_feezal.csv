@@ -1,0 +1,40 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... html'));build.js:74[12:71];Sink: src.toS ... iewer>`;build.js:76[13:69]::FLOW_DESCR_END","/lib/build.js","74","12","74","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.co ... backend;build.js:77[44:66];Sink: src.toS ... iewer>`;build.js:76[13:69]::FLOW_DESCR_END","/lib/build.js","77","44","77","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dir.spl ... ).pop();elements.js:42[32:56];Sink: element ... + ';\n';elements.js:70[9:178]::FLOW_DESCR_END","/lib/elements.js","42","32","42","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;feezal.js:131[25:30];Sink: '[feezal] ' + string;feezal.js:46[47:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;feezal.js:131[25:30];Sink: 'Feezal ... address;feezal.js:133[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;feezal.js:131[25:30];Sink: address;feezal.js:212[40:46]::FLOW_DESCR_END","/nodes/feezal.js","131","25","131","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;feezal.js:136[30:33];Sink: src.toS ... iewer>`;build.js:76[13:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;feezal.js:136[30:33];Sink: '[feezal] ' + string;feezal.js:47[45:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;feezal.js:136[30:33];Sink: viewerJson;feezal.js:144[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;feezal.js:136[30:33];Sink: JSON.st ... ction});feezal.js:144[38:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;feezal.js:136[30:33];Sink: feezalFile;feezal.js:147[37:46]::FLOW_DESCR_END","/nodes/feezal.js","136","30","136","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.site.name;feezal.js:142[54:67];Sink: '[feezal] ' + string;feezal.js:47[45:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.site.name;feezal.js:142[54:67];Sink: viewerJson;feezal.js:144[26:35]::FLOW_DESCR_END","/nodes/feezal.js","142","54","142","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.site.name;feezal.js:143[54:67];Sink: '[feezal] ' + string;feezal.js:47[45:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.site.name;feezal.js:143[54:67];Sink: feezalFile;feezal.js:147[37:46]::FLOW_DESCR_END","/nodes/feezal.js","143","54","143","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;feezal.js:164[33:39];Sink: message;feezal.js:165[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:164[33:39];Sink: message;feezal.js:167[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:164[33:39];Sink: message;feezal-connection-node-red.js:48[34:40]::FLOW_DESCR_END","/nodes/feezal.js","164","33","164","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topics;feezal.js:173[32:37];Sink: topic;feezal.js:175[43:47]::FLOW_DESCR_END","/nodes/feezal.js","173","32","173","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: site;feezal.js:183[31:34];Sink: '[feezal] ' + string;feezal.js:47[45:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: site;feezal.js:183[31:34];Sink: site;feezal.js:185[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: site;feezal.js:183[31:34];Sink: site;feezal.js:199[51:54]::FLOW_DESCR_END","/nodes/feezal.js","183","31","183","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;feezal.js:205[27:33];Sink: message;feezal.js:206[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:205[27:33];Sink: message;feezal.js:207[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:205[27:33];Sink: message;feezal.js:208[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:205[27:33];Sink: message;feezal.js:240[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:205[27:33];Sink: message;feezal-connection-node-red.js:48[34:40]::FLOW_DESCR_END","/nodes/feezal.js","205","27","205","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;feezal.js:217[28:32];Sink: error;feezal.js:218[39:43]::FLOW_DESCR_END","/nodes/feezal.js","217","28","217","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;feezal.js:234[30:36];Sink: message;feezal.js:165[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:234[30:36];Sink: message;feezal.js:167[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:234[30:36];Sink: cache[t];feezal.js:178[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:234[30:36];Sink: message;feezal.js:236[36:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;feezal.js:234[30:36];Sink: message;feezal-connection-node-red.js:48[34:40]::FLOW_DESCR_END","/nodes/feezal.js","234","30","234","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;feezal.js:239[29:35];Sink: message;feezal.js:240[27:33]::FLOW_DESCR_END","/nodes/feezal.js","239","29","239","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;feezal-connection-node-red.js:47[33:39];Sink: message;feezal-connection-node-red.js:48[34:40]::FLOW_DESCR_END","/www/src/feezal-connection-node-red.js","47","33","47","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;feezal-connection-node-red.js:53[33:37];Sink: error;feezal-connection-node-red.js:54[27:31]::FLOW_DESCR_END","/www/src/feezal-connection-node-red.js","53","33","53","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;feezal-connection-node-red.js:57[41:45];Sink: error;feezal-connection-node-red.js:58[27:31]::FLOW_DESCR_END","/www/src/feezal-connection-node-red.js","57","41","57","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: timeout;feezal-connection-node-red.js:61[43:49];Sink: timeout;feezal-connection-node-red.js:62[46:52]::FLOW_DESCR_END","/www/src/feezal-connection-node-red.js","61","43","61","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fifo.pop();paho-mqtt.js:1244[31:40];Sink: willMes ... adBytes;paho-mqtt.js:434[40:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fifo.pop();paho-mqtt.js:1244[31:40];Sink: payloadBytes;paho-mqtt.js:450[36:47]::FLOW_DESCR_END","/www/src/paho-mqtt.js","1244","31","1244","40"

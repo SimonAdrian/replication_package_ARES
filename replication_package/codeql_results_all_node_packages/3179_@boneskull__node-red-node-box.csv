@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als(id);box-api.js:82[33:60];Sink: credentials;box-api.js:84[42:52]::FLOW_DESCR_END","/lib/box-api.js","82","33","82","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... pUserId;box-api.js:181[62:87];Sink: `Authen ... serId}`;box-api.js:181[32:89]::FLOW_DESCR_END","/lib/box-api.js","181","62","181","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box-download.js:41[30:32];Sink: msg;box-download.js:84[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box-download.js:41[30:32];Sink: msg;box-download.js:87[41:43]::FLOW_DESCR_END","/lib/box-download.js","41","30","41","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box-items.js:41[30:32];Sink: msg;box-items.js:64[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box-items.js:41[30:32];Sink: msg;box-items.js:69[29:31]::FLOW_DESCR_END","/lib/box-items.js","41","30","41","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... nodeId);box-oauth2.js:64[27:58];Sink: credentials;box-oauth2.js:102[48:58]::FLOW_DESCR_END","/lib/box-oauth2.js","64","27","64","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box-set-file-info.js:45[30:32];Sink: msg;box-set-file-info.js:74[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box-set-file-info.js:45[30:32];Sink: msg;box-set-file-info.js:77[41:43]::FLOW_DESCR_END","/lib/box-set-file-info.js","45","30","45","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box-upload.js:34[35:37];Sink: msg;box-upload.js:55[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box-upload.js:34[35:37];Sink: msg;box-upload.js:89[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box-upload.js:34[35:37];Sink: msg;box-upload.js:112[33:35]::FLOW_DESCR_END","/lib/box-upload.js","34","35","34","37"

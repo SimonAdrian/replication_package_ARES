@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;dmxusbpro.js:9[21:26];Sink: ""this i ... y(this);dmxusbpro.js:12[21:61]::FLOW_DESCR_END","/dmxusbpro.js","9","21","9","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dmxusbpro.js:19[34:36];Sink: current_universe;dmxusbpro.js:22[23:38]::FLOW_DESCR_END","/dmxusbpro.js","19","34","19","36"

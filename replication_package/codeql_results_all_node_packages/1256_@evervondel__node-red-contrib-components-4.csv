@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: EVENT_R ... allerId;component-return.js:130[34:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: msg;component-return.js:130[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: msg._comp;component-return.js:140[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: msg;component-return.js:162[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: msg;run-component.js:207[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: msg;run-component.js:235[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-return.js:107[32:34];Sink: msgArr. ...  msgArr;run-component.js:247[21:53]::FLOW_DESCR_END","/components/component-return.js","107","32","107","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;component-start.js:106[32:34];Sink: msg;component-start.js:114[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-start.js:106[32:34];Sink: EVENT_R ... allerId;component-start.js:121[32:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-start.js:106[32:34];Sink: msg;component-start.js:121[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-start.js:106[32:34];Sink: msg;run-component.js:207[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-start.js:106[32:34];Sink: msg;run-component.js:235[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;component-start.js:106[32:34];Sink: msgArr. ...  msgArr;run-component.js:247[21:53]::FLOW_DESCR_END","/components/component-start.js","106","32","106","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-component.js:198[43:45];Sink: msg;run-component.js:207[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-component.js:198[43:45];Sink: msg;run-component.js:235[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-component.js:198[43:45];Sink: msgArr. ...  msgArr;run-component.js:247[21:53]::FLOW_DESCR_END","/components/run-component.js","198","43","198","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-component.js:260[32:34];Sink: msg;run-component.js:149[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-component.js:260[32:34];Sink: msg;run-component.js:207[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-component.js:260[32:34];Sink: msg;run-component.js:235[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-component.js:260[32:34];Sink: msgArr. ...  msgArr;run-component.js:247[21:53]::FLOW_DESCR_END","/components/run-component.js","260","32","260","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multiple_out_ports_spec.js:127[47:49];Sink: msg;multiple_out_ports_spec.js:128[56:58]::FLOW_DESCR_END","/components/test/multiple_out_ports_spec.js","127","47","127","49"

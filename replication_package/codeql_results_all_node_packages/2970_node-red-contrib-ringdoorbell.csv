@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: activity;ringdoorbell.js:28[24:31];Sink: activity;ringdoorbell.js:29[31:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: activity;ringdoorbell.js:28[24:31];Sink: activity;ringdoorbell.js:30[15:22]::FLOW_DESCR_END","/lib/ringdoorbell.js","28","24","28","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ringdoorbell-node.js:41[40:42];Sink: msg;ringdoorbell-node.js:42[14:16]::FLOW_DESCR_END","/ringdoorbell-node.js","41","40","41","42"

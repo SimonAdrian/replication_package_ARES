@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: msg;firebase_modify.js:124[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: msg;firebase_modify.js:143[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: msg;firebase_modify.js:157[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: msg;firebase_modify.js:162[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: msg.payload;firebase_modify.js:187[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: ""Invali ...  ""\""]."";firebase_modify.js:202[26:167]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: msg;firebase_modify.js:202[170:172]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_modify.js:113[33:35];Sink: ""Receiv ... , ""\t"");firebase_modify.js:206[21:125]::FLOW_DESCR_END","/firebase/firebase_modify.js","113","33","113","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase_off.js:112[35:37];Sink: msg;firebase_off.js:118[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_off.js:112[35:37];Sink: ""Invali ...  ""\""]."";firebase_off.js:124[28:178]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_off.js:112[35:37];Sink: msg;firebase_off.js:124[181:183]::FLOW_DESCR_END","/firebase/firebase_off.js","112","35","112","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase_once.js:386[35:37];Sink: ""Receiv ... , ""\t"");firebase_once.js:390[25:129]::FLOW_DESCR_END","/firebase/firebase_once.js","386","35","386","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: msg;firebase_ondisconnect.js:131[111:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: msg;firebase_ondisconnect.js:150[110:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: msg;firebase_ondisconnect.js:164[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: msg;firebase_ondisconnect.js:169[111:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: ""Invali ...  ""\""]."";firebase_ondisconnect.js:208[28:169]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: msg;firebase_ondisconnect.js:208[172:174]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebase_ondisconnect.js:122[35:37];Sink: ""Receiv ... , ""\t"");firebase_ondisconnect.js:212[23:127]::FLOW_DESCR_END","/firebase/firebase_ondisconnect.js","122","35","122","37"

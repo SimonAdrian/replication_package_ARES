@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-vallox.js:60[42:44];Sink: [msg, null];99-vallox.js:75[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:60[42:44];Sink: errorMessage;99-vallox.js:83[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:60[42:44];Sink: [null, msg];99-vallox.js:85[35:45]::FLOW_DESCR_END","/vallox/99-vallox.js","60","42","60","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-vallox.js:109[42:44];Sink: [msg, null];99-vallox.js:119[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:109[42:44];Sink: [null, msg];99-vallox.js:129[27:37]::FLOW_DESCR_END","/vallox/99-vallox.js","109","42","109","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-vallox.js:176[42:44];Sink: [msg];99-vallox.js:195[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:176[42:44];Sink: [null, msg];99-vallox.js:205[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:176[42:44];Sink: errorMessage;99-vallox.js:207[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:176[42:44];Sink: [null, null, msg];99-vallox.js:209[35:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:176[42:44];Sink: [msg];99-vallox.js:214[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-vallox.js:176[42:44];Sink: [msg];99-vallox.js:220[27:31]::FLOW_DESCR_END","/vallox/99-vallox.js","176","42","176","44"

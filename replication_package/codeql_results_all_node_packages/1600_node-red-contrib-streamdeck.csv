@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;streamdeck.js:14[32:36];Sink: error;streamdeck.js:15[23:27]::FLOW_DESCR_END","/streamdeck.js","14","32","14","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:47[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:53[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:58[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:63[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:74[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:81[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:92[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:100[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:111[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:118[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:125[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:132[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streamdeck.js:40[32:34];Sink: msg;streamdeck.js:138[52:54]::FLOW_DESCR_END","/streamdeck.js","40","32","40","34"

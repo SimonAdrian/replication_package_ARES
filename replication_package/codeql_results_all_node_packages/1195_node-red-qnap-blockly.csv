@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blockly.js:9[35:37];Sink: msg;blockly.js:11[23:25]::FLOW_DESCR_END","/blockly/blockly.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b.location;blockly_compressed.js:386[1:10];Sink: d;blockly_compressed.js:386[232:232]::FLOW_DESCR_END","/blockly/node-red/blockly_lib/blockly_compressed.js","386","1","386","10"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b.location.host;blockly_compressed.js:386[26:40];Sink: d;blockly_compressed.js:386[232:232]::FLOW_DESCR_END","/blockly/node-red/blockly_lib/blockly_compressed.js","386","26","386","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b.location;blockly_compressed.js:386[26:35];Sink: d;blockly_compressed.js:386[232:232]::FLOW_DESCR_END","/blockly/node-red/blockly_lib/blockly_compressed.js","386","26","386","35"

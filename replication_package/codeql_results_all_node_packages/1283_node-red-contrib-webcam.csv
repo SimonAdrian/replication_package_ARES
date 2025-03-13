@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;cam-config.js:5[21:26];Sink: node.ho ... '=null';cam-config.js:37[29:91]::FLOW_DESCR_END","/cam-config.js","5","21","5","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev;cam-config.js:20[31:32];Sink: ev;cam-config.js:21[25:26]::FLOW_DESCR_END","/cam-config.js","20","31","20","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;cam-config.js:37[29:37];Sink: node.ho ... '=null';cam-config.js:37[29:91]::FLOW_DESCR_END","/cam-config.js","37","29","37","37"

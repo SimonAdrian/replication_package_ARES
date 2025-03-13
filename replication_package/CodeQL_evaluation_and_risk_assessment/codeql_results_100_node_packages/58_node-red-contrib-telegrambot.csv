@@ -1,0 +1,22 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;99-telegrambot.js:104[26:47];Sink: 'Aborti ... f.token;99-telegrambot.js:116[32:143]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","104","26","104","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;99-telegrambot.js:292[58:62];Sink: 'Webhoo ... message;99-telegrambot.js:296[31:63]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","292","58","292","62"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;99-telegrambot.js:387[58:62];Sink: error.message;99-telegrambot.js:399[31:43]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","387","58","387","62"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.cr ... s.token;99-telegrambot.js:405[73:94];Sink: 'Bot '  ...  + hint;99-telegrambot.js:414[36:78]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: self.cr ... s.token;99-telegrambot.js:405[73:94];Sink: hint;99-telegrambot.js:422[35:38]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","405","73","405","94"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;99-telegrambot.js:457[50:54];Sink: 'Bot er ... message;99-telegrambot.js:458[27:55]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","457","50","457","54"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg;99-telegrambot.js:1223[52:57];Sink: 'Unauth ... sername;99-telegrambot.js:1299[35:79]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1223","52","1223","57"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg.from.username;99-telegrambot.js:1262[28:47];Sink: 'Unauth ... sername;99-telegrambot.js:1299[35:79]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1262","28","1262","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg;99-telegrambot.js:1410[48:53];Sink: 'Unauth ... sername;99-telegrambot.js:1553[31:75]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1410","48","1410","53"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg.from.username;99-telegrambot.js:1448[28:47];Sink: 'Unauth ... sername;99-telegrambot.js:1553[31:75]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1448","28","1448","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg;99-telegrambot.js:1656[49:54];Sink: 'Unauth ... sername;99-telegrambot.js:1984[31:75]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1656","49","1656","54"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg.chat.username;99-telegrambot.js:1708[28:47];Sink: 'Unauth ... sername;99-telegrambot.js:1984[31:75]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1708","28","1708","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: botMsg.from.username;99-telegrambot.js:1718[28:47];Sink: 'Unauth ... sername;99-telegrambot.js:1984[31:75]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","1718","28","1718","47"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;99-telegrambot.js:2759[36:39];Sink: filePath;99-telegrambot.js:2765[55:62]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","2759","36","2759","39"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;99-telegrambot.js:2773[37:39];Sink: errorMessage;99-telegrambot.js:2113[32:43]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: err;99-telegrambot.js:2773[37:39];Sink: errorMessage;99-telegrambot.js:2116[32:43]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","2773","37","2773","39"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-telegrambot.js:3189[36:38];Sink: msg;99-telegrambot.js:3197[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;99-telegrambot.js:3189[36:38];Sink: msg;99-telegrambot.js:3203[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;99-telegrambot.js:3189[36:38];Sink: msg;99-telegrambot.js:3213[51:53]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;99-telegrambot.js:3189[36:38];Sink: msg;99-telegrambot.js:3218[47:49]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;99-telegrambot.js:3189[36:38];Sink: msg;99-telegrambot.js:3221[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;99-telegrambot.js:3189[36:38];Sink: msg;99-telegrambot.js:3241[39:41]::FLOW_DESCR_END","/telegrambot/99-telegrambot.js","3189","36","3189","38"

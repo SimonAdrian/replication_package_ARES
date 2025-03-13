@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: record;notifications.js:203[58:63];Sink: record.eventName;notifications.js:205[37:52]::FLOW_DESCR_END","/notifications.js","203","58","203","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objects.js:65[36:38];Sink: opParams.conditions;objects.js:180[56:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objects.js:65[36:38];Sink: opParams.etag;objects.js:183[58:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objects.js:65[36:38];Sink: opParams.etag;objects.js:187[58:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objects.js:65[36:38];Sink: opParams.dateTime;objects.js:199[62:78]::FLOW_DESCR_END","/objects.js","65","36","65","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;objects.js:112[62:64];Sink: err;objects.js:113[45:47]::FLOW_DESCR_END","/objects.js","112","62","112","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;objects.js:290[61:61];Sink: e;objects.js:291[41:41]::FLOW_DESCR_END","/objects.js","290","61","290","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;presigned.js:70[35:37];Sink: node.operation;presigned.js:92[43:56]::FLOW_DESCR_END","/presigned.js","70","35","70","37"

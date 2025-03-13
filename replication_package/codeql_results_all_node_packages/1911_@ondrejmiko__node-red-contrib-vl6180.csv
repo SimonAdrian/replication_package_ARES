@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vl6180.js:28[29:31];Sink: msg;vl6180.js:38[15:17]::FLOW_DESCR_END","/vl6180.js","28","29","28","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;vl6180.js:31[42:45];Sink: ""out: "" ...  + "" :"";vl6180.js:32[42:62]::FLOW_DESCR_END","/vl6180.js","31","42","31","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;vl6180.js:41[42:45];Sink: ""err: "" ...  + "" :"";vl6180.js:42[42:62]::FLOW_DESCR_END","/vl6180.js","41","42","41","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;vl6180.js:45[36:39];Sink: ""ret: "" ...  + "" :"";vl6180.js:46[42:62]::FLOW_DESCR_END","/vl6180.js","45","36","45","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vl6180.js:51[36:38];Sink: 'error: ' + err;vl6180.js:54[21:35]::FLOW_DESCR_END","/vl6180.js","51","36","51","38"

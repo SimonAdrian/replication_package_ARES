@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;array-split.js:24[35:37];Sink: [null, msg];array-split.js:43[35:45]::FLOW_DESCR_END","/array-split.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;display-ui.js:35[35:37];Sink: msg;display-ui.js:76[23:25]::FLOW_DESCR_END","/display-ui.js","35","35","35","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gateway-device-clear.js:65[35:37];Sink: [msg, null];gateway-device-clear.js:131[31:41]::FLOW_DESCR_END","/gateway-device-clear.js","65","35","65","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gateway-device-resolve.js:73[35:37];Sink: [msg, null];gateway-device-resolve.js:156[27:37]::FLOW_DESCR_END","/gateway-device-resolve.js","73","35","73","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gateway-device-update.js:71[35:37];Sink: [msg, null];gateway-device-update.js:143[31:41]::FLOW_DESCR_END","/gateway-device-update.js","71","35","71","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gateway-device-update.js:278[41:43];Sink: [msg, null];gateway-device-update.js:407[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-device-update.js:278[41:43];Sink: [{...ms ... , null];gateway-device-update.js:417[27:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-device-update.js:278[41:43];Sink: [null,  ... esult}];gateway-device-update.js:428[31:63]::FLOW_DESCR_END","/gateway-device-update.js","278","41","278","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gateway-event.js:59[35:37];Sink: gateway ... ting: ';signalrconnection.js:116[25:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-event.js:59[35:37];Sink: gateway ... ection';signalrconnection.js:119[29:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-event.js:59[35:37];Sink: gateway ... nected';signalrconnection.js:153[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-event.js:59[35:37];Sink: gateway ... ection';signalrconnection.js:159[25:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-event.js:59[35:37];Sink: gateway ... nected';signalrconnection.js:174[21:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gateway-event.js:59[35:37];Sink: gateway ... ection';signalrconnection.js:207[21:52]::FLOW_DESCR_END","/gateway-event.js","59","35","59","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;lineeventsignalrconnection.js:126[24:43];Sink: location;lineeventsignalrconnection.js:127[31:38]::FLOW_DESCR_END","/lineeventsignalrconnection.js","126","24","126","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msgflow.js:88[41:43];Sink: msg;msgflow.js:95[27:29]::FLOW_DESCR_END","/msgflow.js","88","41","88","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msgflow.js:113[41:43];Sink: msg;msgflow.js:145[44:46]::FLOW_DESCR_END","/msgflow.js","113","41","113","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;signalrconnection.js:129[24:43];Sink: location;signalrconnection.js:130[31:38]::FLOW_DESCR_END","/signalrconnection.js","129","24","129","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ui-elevationzone.js:31[35:37];Sink: [msg, null];ui-elevationzone.js:65[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ui-elevationzone.js:31[35:37];Sink: [null, msg];ui-elevationzone.js:74[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ui-elevationzone.js:31[35:37];Sink: msg;ui-elevationzone.js:91[31:33]::FLOW_DESCR_END","/ui-elevationzone.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ui-server.js:57[37:40];Sink: responseid;ui-server.js:175[92:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ui-server.js:57[37:40];Sink: response;ui-server.js:175[104:111]::FLOW_DESCR_END","/ui-server.js","57","37","57","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vision-inspection.js:123[32:34];Sink: `ACS vi ... | err}`;vision-inspection.js:124[31:151]::FLOW_DESCR_END","/vision-inspection.js","123","32","123","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;x20.js:60[32:34];Sink: `ACS x2 ... | err}`;x20.js:61[31:137]::FLOW_DESCR_END","/x20.js","60","32","60","34"

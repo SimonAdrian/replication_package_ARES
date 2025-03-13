@@ -1,0 +1,1 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;makeLeakbotAPIRequestNode.js:14[31:33];Sink: msg;makeLeakbotAPIRequestNode.js:17[21:23]::FLOW_DESCR_END","/src/nodes/shared/makeLeakbotAPIRequestNode.js","14","31","14","33"

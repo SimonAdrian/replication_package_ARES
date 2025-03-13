@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moniai.js:159[34:36];Sink: msg.headers;moniai.js:162[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moniai.js:159[34:36];Sink: len;moniai.js:189[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moniai.js:159[34:36];Sink: statusCode;moniai.js:193[24:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moniai.js:159[34:36];Sink: msg.payload;moniai.js:193[41:51]::FLOW_DESCR_END","/moniai/moniai.js","159","34","159","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moniai.js:208[34:36];Sink: msg.headers;moniai.js:213[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moniai.js:208[34:36];Sink: len;moniai.js:242[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moniai.js:208[34:36];Sink: statusCode;moniai.js:246[24:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moniai.js:208[34:36];Sink: msg.payload;moniai.js:246[41:51]::FLOW_DESCR_END","/moniai/moniai.js","208","34","208","36"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;colorCircle.js:21[30:32];Sink: msg;colorCircle.js:25[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;colorCircle.js:21[30:32];Sink: msg;colorCircle.js:39[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;colorCircle.js:21[30:32];Sink: msg;colorCircle.js:41[69:71]::FLOW_DESCR_END","/source/colorCircle.js","21","30","21","32"

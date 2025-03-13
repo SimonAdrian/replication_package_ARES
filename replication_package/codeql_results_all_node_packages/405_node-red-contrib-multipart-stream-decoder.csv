@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: msg;multipart_decoder.js:81[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: msg;multipart_decoder.js:126[107:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: msg;multipart_decoder.js:211[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: msg;multipart_decoder.js:531[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: url;multipart_decoder.js:595[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: url;multipart_decoder.js:601[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: url;multipart_decoder.js:618[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: msg;multipart_decoder.js:624[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: [null, msg];multipart_decoder.js:640[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: msg;multipart_decoder.js:705[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_decoder.js:468[41:43];Sink: [null, msg];multipart_decoder.js:718[31:41]::FLOW_DESCR_END","/multipart_decoder.js","468","41","468","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;multipart_decoder.js:696[51:53];Sink: ""MULTIP ...  + text;multipart_decoder.js:66[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;multipart_decoder.js:696[51:53];Sink: err;multipart_decoder.js:705[32:34]::FLOW_DESCR_END","/multipart_decoder.js","696","51","696","53"

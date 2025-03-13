@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: updates;runtime-variable-reader.js:18[66:72];Sink: `Runtim ... value}`;runtime-variable-reader.js:23[43:171]::FLOW_DESCR_END","/src/lib/runtime-variable-reader.js","18","66","18","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: runtime.host;runtime-variable-reader.js:55[39:50];Sink: `Runtim ... ime)}.`;runtime-variable-reader.js:16[34:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: runtime.host;runtime-variable-reader.js:55[39:50];Sink: `Runtim ... value}`;runtime-variable-reader.js:23[43:171]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: runtime.host;runtime-variable-reader.js:55[39:50];Sink: `Runtim ... ime)}.`;runtime-variable-reader.js:30[38:154]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: runtime.host;runtime-variable-reader.js:55[39:50];Sink: `Runtim ... ime)}.`;runtime-variable-reader.js:44[34:133]::FLOW_DESCR_END","/src/lib/runtime-variable-reader.js","55","39","55","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: runtime.port;runtime-variable-reader.js:55[55:66];Sink: `Runtim ... ime)}.`;runtime-variable-reader.js:16[34:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: runtime.port;runtime-variable-reader.js:55[55:66];Sink: `Runtim ... value}`;runtime-variable-reader.js:23[43:171]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: runtime.port;runtime-variable-reader.js:55[55:66];Sink: `Runtim ... ime)}.`;runtime-variable-reader.js:30[38:154]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: runtime.port;runtime-variable-reader.js:55[55:66];Sink: `Runtim ... ime)}.`;runtime-variable-reader.js:44[34:133]::FLOW_DESCR_END","/src/lib/runtime-variable-reader.js","55","55","55","66"

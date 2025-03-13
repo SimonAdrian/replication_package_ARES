@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:129[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:130[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:133[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:136[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:139[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:142[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:151[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:152[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:155[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:164[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:165[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:97[32:34];Sink: msg;docloud.js:168[42:44]::FLOW_DESCR_END","/nodes/docloud.js","97","32","97","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jobid;docloud.js:127[36:40];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","127","36","127","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jobid;docloud.js:131[38:42];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","131","38","131","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jobid;docloud.js:134[40:44];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","134","40","134","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jobid;docloud.js:137[35:39];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","137","35","137","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;docloud.js:140[34:38];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","140","34","140","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jobid;docloud.js:149[36:40];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","149","36","149","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;docloud.js:153[34:38];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","153","34","153","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jobid;docloud.js:162[36:40];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","162","36","162","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;docloud.js:166[34:38];Sink: msg.payload.log;docloud.js:108[62:76]::FLOW_DESCR_END","/nodes/docloud.js","166","34","166","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:230[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:237[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:243[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:250[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:257[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:264[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:272[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:281[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg.payload.file;docloud.js:286[62:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:290[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:299[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg.payload.file;docloud.js:303[62:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docloud.js:221[31:33];Sink: msg;docloud.js:308[21:23]::FLOW_DESCR_END","/nodes/docloud.js","221","31","221","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;docloud.js:361[22:28];Sink: message;docloud.js:362[17:23]::FLOW_DESCR_END","/nodes/docloud.js","361","22","361","28"

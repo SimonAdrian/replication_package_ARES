@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dynamicAction.js:13[36:38];Sink: `state:${state}`;dynamicAction.js:31[28:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynamicAction.js:13[36:38];Sink: value;dynamicAction.js:31[46:50]::FLOW_DESCR_END","/src/dynamicAction.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gate.js:58[36:38];Sink: [msg, null];gate.js:60[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:58[36:38];Sink: [null, msg];gate.js:63[27:37]::FLOW_DESCR_END","/src/gate.js","58","36","58","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;value.js:21[27:29];Sink: msg;value.js:46[23:25]::FLOW_DESCR_END","/src/value.js","21","27","21","29"

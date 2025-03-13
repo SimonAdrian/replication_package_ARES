@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;PN532.js:41[48:51];Sink: data;PN532.js:42[25:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;PN532.js:41[48:51];Sink: ""Card E ...  + data;PN532.js:54[42:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;PN532.js:41[48:51];Sink: ""Card UID: ""+data;PN532.js:59[58:74]::FLOW_DESCR_END","/PN532/PN532.js","41","48","41","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;PN532.js:66[52:55];Sink: ""err: ""+data;PN532.js:67[54:65]::FLOW_DESCR_END","/PN532/PN532.js","66","52","66","55"

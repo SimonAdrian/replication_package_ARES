@@ -1,0 +1,79 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;sofia4cities-connection-config.js:38[14:19];Sink: ""MQTT:  ... is.port;sofia4cities-connection-config.js:42[16:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;sofia4cities-connection-config.js:38[14:19];Sink: this.port;sofia4cities-connection-config.js:45[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;sofia4cities-connection-config.js:38[14:19];Sink: node.port;sofia4cities-connection-config.js:66[33:41]::FLOW_DESCR_END","/sofia4cities-connection-config/sofia4cities-connection-config.js","38","14","38","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;sofia4cities-connection-config.js:42[59:67];Sink: ""MQTT:  ... is.port;sofia4cities-connection-config.js:42[16:67]::FLOW_DESCR_END","/sofia4cities-connection-config/sofia4cities-connection-config.js","42","59","42","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia4cities-delete.js:21[29:31];Sink: ""Using  ... yDelete;sofia4cities-delete.js:54[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-delete.js:21[29:31];Sink: msg;sofia4cities-delete.js:65[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-delete.js:21[29:31];Sink: msg;sofia4cities-delete.js:73[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-delete.js:21[29:31];Sink: msg;sofia4cities-delete.js:216[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-delete.js:21[29:31];Sink: msg;sofia4cities-delete.js:243[19:21]::FLOW_DESCR_END","/sofia4cities-delete/sofia4cities-delete.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-delete.js:167[34:34];Sink: ""Using  ... sionKey;sofia4cities-delete.js:45[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-delete.js:167[34:34];Sink: ""Using  ... yDelete;sofia4cities-delete.js:54[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-delete.js:167[34:34];Sink: ""Sessio ... sionKey;sofia4cities-delete.js:173[23:65]::FLOW_DESCR_END","/sofia4cities-delete/sofia4cities-delete.js","167","34","167","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-delete.js:222[42:44];Sink: ""Error:""+err;sofia4cities-delete.js:223[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-delete.js:222[42:44];Sink: ""Error:""+err;sofia4cities-delete.js:224[23:34]::FLOW_DESCR_END","/sofia4cities-delete/sofia4cities-delete.js","222","42","222","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-delete.js:232[38:40];Sink: err;sofia4cities-delete.js:233[65:67]::FLOW_DESCR_END","/sofia4cities-delete/sofia4cities-delete.js","232","38","232","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-delete.js:249[37:39];Sink: ""Error:""+err;sofia4cities-delete.js:250[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-delete.js:249[37:39];Sink: ""Error:""+err;sofia4cities-delete.js:251[18:29]::FLOW_DESCR_END","/sofia4cities-delete/sofia4cities-delete.js","249","37","249","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: ""Using  ... yInsert;sofia4cities-insert.js:32[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: msg;sofia4cities-insert.js:44[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: msg;sofia4cities-insert.js:52[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: msg;sofia4cities-insert.js:182[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: insertBody;sofia4cities-insert.js:186[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: msg;sofia4cities-insert.js:212[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-insert.js:16[29:31];Sink: insertBody;sofia4cities-insert.js:217[22:31]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","16","29","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-insert.js:116[31:31];Sink: ""Using  ... yInsert;sofia4cities-insert.js:32[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-insert.js:116[31:31];Sink: insertBody;sofia4cities-insert.js:186[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-insert.js:116[31:31];Sink: insertBody;sofia4cities-insert.js:217[22:31]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","116","31","116","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-insert.js:142[34:34];Sink: ""Using  ... sionKey;sofia4cities-insert.js:29[19:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-insert.js:142[34:34];Sink: ""Using  ... yInsert;sofia4cities-insert.js:32[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-insert.js:142[34:34];Sink: ""Sessio ... sionKey;sofia4cities-insert.js:148[23:65]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","142","34","142","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-insert.js:170[36:36];Sink: ""Using  ... yInsert;sofia4cities-insert.js:32[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-insert.js:170[36:36];Sink: insertBody;sofia4cities-insert.js:186[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-insert.js:170[36:36];Sink: insertBody;sofia4cities-insert.js:217[22:31]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","170","36","170","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-insert.js:188[42:44];Sink: ""Error:""+err;sofia4cities-insert.js:189[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-insert.js:188[42:44];Sink: ""Error:""+err;sofia4cities-insert.js:190[23:34]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","188","42","188","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-insert.js:197[38:40];Sink: ""Error:""+err;sofia4cities-insert.js:199[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-insert.js:197[38:40];Sink: ""Error:""+err;sofia4cities-insert.js:200[21:32]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","197","38","197","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-insert.js:219[37:39];Sink: err;sofia4cities-insert.js:220[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-insert.js:219[37:39];Sink: ""Error:""+err;sofia4cities-insert.js:221[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-insert.js:219[37:39];Sink: ""Error:""+err;sofia4cities-insert.js:222[18:29]::FLOW_DESCR_END","/sofia4cities-insert/sofia4cities-insert.js","219","37","219","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia4cities-leave.js:15[29:31];Sink: msg;sofia4cities-leave.js:31[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-leave.js:15[29:31];Sink: msg;sofia4cities-leave.js:39[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-leave.js:15[29:31];Sink: msg;sofia4cities-leave.js:106[19:21]::FLOW_DESCR_END","/sofia4cities-leave/sofia4cities-leave.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-leave.js:113[36:38];Sink: ""Error:""+err;sofia4cities-leave.js:114[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-leave.js:113[36:38];Sink: ""Error:""+err;sofia4cities-leave.js:115[18:29]::FLOW_DESCR_END","/sofia4cities-leave/sofia4cities-leave.js","113","36","113","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia4cities-query.js:21[29:31];Sink: ""Using query:""+query;sofia4cities-query.js:41[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-query.js:21[29:31];Sink: msg;sofia4cities-query.js:50[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-query.js:21[29:31];Sink: msg;sofia4cities-query.js:58[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-query.js:21[29:31];Sink: msg;sofia4cities-query.js:178[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-query.js:21[29:31];Sink: msg;sofia4cities-query.js:203[19:21]::FLOW_DESCR_END","/sofia4cities-query/sofia4cities-query.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-query.js:140[33:33];Sink: ""Using  ... sionKey;sofia4cities-query.js:39[19:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-query.js:140[33:33];Sink: ""Using query:""+query;sofia4cities-query.js:41[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-query.js:140[33:33];Sink: ""Sessio ... sionKey;sofia4cities-query.js:146[22:64]::FLOW_DESCR_END","/sofia4cities-query/sofia4cities-query.js","140","33","140","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-query.js:183[35:37];Sink: ""Error:""+err;sofia4cities-query.js:184[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-query.js:183[35:37];Sink: ""Error:""+err;sofia4cities-query.js:185[22:33]::FLOW_DESCR_END","/sofia4cities-query/sofia4cities-query.js","183","35","183","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-query.js:192[37:39];Sink: err;sofia4cities-query.js:193[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-query.js:192[37:39];Sink: err;sofia4cities-query.js:194[63:65]::FLOW_DESCR_END","/sofia4cities-query/sofia4cities-query.js","192","37","192","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-query.js:197[32:32];Sink: ""Output:""+result;sofia4cities-query.js:212[18:33]::FLOW_DESCR_END","/sofia4cities-query/sofia4cities-query.js","197","32","197","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-query.js:208[31:33];Sink: ""Error:""+err;sofia4cities-query.js:209[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-query.js:208[31:33];Sink: ""Error:""+err;sofia4cities-query.js:210[18:29]::FLOW_DESCR_END","/sofia4cities-query/sofia4cities-query.js","208","31","208","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia4cities-subscribe.js:23[30:32];Sink: ""Using  ... beQuery;sofia4cities-subscribe.js:51[19:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-subscribe.js:23[30:32];Sink: msg;sofia4cities-subscribe.js:59[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-subscribe.js:23[30:32];Sink: msg;sofia4cities-subscribe.js:64[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-subscribe.js:23[30:32];Sink: msg;sofia4cities-subscribe.js:73[19:21]::FLOW_DESCR_END","/sofia4cities-subscribe/sofia4cities-subscribe.js","23","30","23","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: ""Using  ... hUpdate;sofia4cities-update.js:57[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: msg;sofia4cities-update.js:67[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: msg;sofia4cities-update.js:75[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: msg;sofia4cities-update.js:230[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: updateBody;sofia4cities-update.js:235[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: msg;sofia4cities-update.js:259[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sofia4cities-update.js:21[29:31];Sink: updateBody;sofia4cities-update.js:264[22:31]::FLOW_DESCR_END","/sofia4cities-update/sofia4cities-update.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sofia4cities-update.js:176[34:34];Sink: ""Using  ... sionKey;sofia4cities-update.js:48[19:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-update.js:176[34:34];Sink: ""Using  ... hUpdate;sofia4cities-update.js:57[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;sofia4cities-update.js:176[34:34];Sink: ""Sessio ... sionKey;sofia4cities-update.js:182[23:65]::FLOW_DESCR_END","/sofia4cities-update/sofia4cities-update.js","176","34","176","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-update.js:237[42:44];Sink: err;sofia4cities-update.js:238[66:68]::FLOW_DESCR_END","/sofia4cities-update/sofia4cities-update.js","237","42","237","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-update.js:244[38:40];Sink: err;sofia4cities-update.js:245[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-update.js:244[38:40];Sink: ""Error:""+err;sofia4cities-update.js:246[22:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sofia4cities-update.js:244[38:40];Sink: ""Error:""+err;sofia4cities-update.js:247[21:32]::FLOW_DESCR_END","/sofia4cities-update/sofia4cities-update.js","244","38","244","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sofia4cities-update.js:266[37:39];Sink: err;sofia4cities-update.js:267[61:63]::FLOW_DESCR_END","/sofia4cities-update/sofia4cities-update.js","266","37","266","39"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;safeQueue.js:522[36:38];Sink: msg;safeQueue.js:536[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:522[36:38];Sink: msg;safeQueue.js:548[27:29]::FLOW_DESCR_END","/red/safeQueue.js","522","36","522","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:653[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:676[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:697[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:714[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:727[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:759[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;safeQueue.js:635[36:38];Sink: msg;safeQueue.js:775[31:33]::FLOW_DESCR_END","/red/safeQueue.js","635","36","635","38"

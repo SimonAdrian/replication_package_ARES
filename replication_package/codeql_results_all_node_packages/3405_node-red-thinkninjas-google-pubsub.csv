@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();index.js:23[30:40];Sink: y;index.js:17[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();index.js:23[30:40];Sink: y;index.js:17[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();index.js:23[30:40];Sink: op[1];index.js:17[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();index.js:23[30:40];Sink: ex_1;index.js:73[42:45]::FLOW_DESCR_END","/dist/index.js","23","30","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:45[40:42];Sink: dataBuffer;index.js:64[64:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:45[40:42];Sink: msg.pay ... ributes;index.js:64[76:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:45[40:42];Sink: msg;index.js:73[48:50]::FLOW_DESCR_END","/dist/index.js","45","40","45","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.ts:13[37:39];Sink: dataBuffer;index.ts:29[63:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.ts:13[37:39];Sink: msg.pay ... ributes;index.ts:29[75:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.ts:13[37:39];Sink: msg;index.ts:35[36:38]::FLOW_DESCR_END","/lib/index.ts","13","37","13","39"

@@ -1,0 +1,34 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafkaAdmin.js:139[34:36];Sink: msg.top ... ' + err;kafkaAdmin.js:17[16:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaAdmin.js:139[34:36];Sink: [null, msg];kafkaAdmin.js:19[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaAdmin.js:139[34:36];Sink: msg;kafkaAdmin.js:49[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaAdmin.js:139[34:36];Sink: [null, msg];kafkaAdmin.js:104[15:25]::FLOW_DESCR_END","/kafkaManager/kafkaAdmin.js","139","34","139","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafkaAdmin.js:179[49:51];Sink: err;kafkaAdmin.js:181[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;kafkaAdmin.js:179[49:51];Sink: err;kafkaAdmin.js:182[32:34]::FLOW_DESCR_END","/kafkaManager/kafkaAdmin.js","179","49","179","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host.host;kafkaBroker.js:115[17:25];Sink: host;kafkaBroker.js:90[24:27]::FLOW_DESCR_END","/kafkaManager/kafkaBroker.js","115","17","115","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host.port;kafkaBroker.js:115[28:36];Sink: port;kafkaBroker.js:90[18:21]::FLOW_DESCR_END","/kafkaManager/kafkaBroker.js","115","28","115","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;kafkaBroker.js:327[41:41];Sink: 'on err ... message;kafkaBroker.js:332[16:38]::FLOW_DESCR_END","/kafkaManager/kafkaBroker.js","327","41","327","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafkaCommit.js:8[32:34];Sink: msg;kafkaCommit.js:12[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaCommit.js:8[32:34];Sink: [null, msg];kafkaCommit.js:15[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaCommit.js:8[32:34];Sink: msg;kafkaCommit.js:19[19:21]::FLOW_DESCR_END","/kafkaManager/kafkaCommit.js","8","32","8","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;kafkaConsumer.js:41[39:39];Sink: 'on error ' + err;kafkaConsumer.js:46[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;kafkaConsumer.js:41[39:39];Sink: 'on error ' + err;kafkaConsumer.js:50[16:32]::FLOW_DESCR_END","/kafkaManager/kafkaConsumer.js","41","39","41","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ex;kafkaConsumer.js:53[50:51];Sink: 'on off ...  ' + ex;kafkaConsumer.js:55[16:42]::FLOW_DESCR_END","/kafkaManager/kafkaConsumer.js","53","50","53","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;kafkaConsumerGroup.js:47[39:39];Sink: 'on error ' + err;kafkaConsumerGroup.js:52[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;kafkaConsumerGroup.js:47[39:39];Sink: 'on error ' + err;kafkaConsumerGroup.js:56[16:32]::FLOW_DESCR_END","/kafkaManager/kafkaConsumerGroup.js","47","39","47","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;kafkaConsumerGroup.js:60[50:50];Sink: 'on off ... e ' + e;kafkaConsumerGroup.js:62[16:41]::FLOW_DESCR_END","/kafkaManager/kafkaConsumerGroup.js","60","50","60","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafkaOffset.js:118[34:36];Sink: msg.top ... ' + err;kafkaOffset.js:23[16:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaOffset.js:118[34:36];Sink: [null, msg];kafkaOffset.js:25[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaOffset.js:118[34:36];Sink: msg;kafkaOffset.js:29[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaOffset.js:118[34:36];Sink: [null, msg];kafkaOffset.js:79[15:25]::FLOW_DESCR_END","/kafkaManager/kafkaOffset.js","118","34","118","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafkaOffset.js:159[49:51];Sink: err;kafkaOffset.js:160[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;kafkaOffset.js:159[49:51];Sink: err;kafkaOffset.js:161[32:34]::FLOW_DESCR_END","/kafkaManager/kafkaOffset.js","159","49","159","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafkaOffset.js:174[38:40];Sink: err;kafkaOffset.js:85[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;kafkaOffset.js:174[38:40];Sink: err;kafkaOffset.js:86[26:28]::FLOW_DESCR_END","/kafkaManager/kafkaOffset.js","174","38","174","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;kafkaOffset.js:174[43:46];Sink: data;kafkaOffset.js:89[24:27]::FLOW_DESCR_END","/kafkaManager/kafkaOffset.js","174","43","174","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafkaProducer.js:333[32:34];Sink: msg;kafkaProducer.js:129[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaProducer.js:333[32:34];Sink: msg;kafkaProducer.js:130[41:43]::FLOW_DESCR_END","/kafkaManager/kafkaProducer.js","333","32","333","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafkaRollback.js:8[32:34];Sink: msg;kafkaRollback.js:13[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaRollback.js:8[32:34];Sink: [null, msg];kafkaRollback.js:16[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafkaRollback.js:8[32:34];Sink: msg;kafkaRollback.js:20[19:21]::FLOW_DESCR_END","/kafkaManager/kafkaRollback.js","8","32","8","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;t01base.js:182[35:37];Sink: "" outHe ... fy(msg);t01base.js:183[17:57]::FLOW_DESCR_END","/test/t01base.js","182","35","182","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;t01base.js:186[37:39];Sink: "" error ... fy(msg);t01base.js:187[17:59]::FLOW_DESCR_END","/test/t01base.js","186","37","186","39"

@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;sse-client.js:80[40:44];Sink: `Receiv ... .type}`;sse-client.js:14[17:66]::FLOW_DESCR_END","/sse-client/sse-client.js","80","40","80","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sse-client.js:83[37:39];Sink: errorMessage;sse-client.js:32[17:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sse-client.js:83[37:39];Sink: errorMessage;sse-client.js:42[14:25]::FLOW_DESCR_END","/sse-client/sse-client.js","83","37","83","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `data:  ... d')}\n`;sse-server.js:44[21:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `id: ${ ... d}\n\n`;sse-server.js:45[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `id: ${ ... d}\n\n`;sse-server.js:74[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `Data: ${data}`;sse-server.js:94[16:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `event: ${event}\n`;sse-server.js:96[32:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `data: ${data}\n`;sse-server.js:97[32:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sse-server.js:119[21:23];Sink: `id: ${ ... d}\n\n`;sse-server.js:98[32:54]::FLOW_DESCR_END","/sse-server/sse-server.js","119","21","119","23"

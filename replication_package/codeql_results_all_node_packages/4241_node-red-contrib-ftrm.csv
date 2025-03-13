@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: neigh;ftrm-config.js:20[37:41];Sink: '+ ' +  ... monName;ftrm-config.js:21[14:49]::FLOW_DESCR_END","/ftrm-config.js","20","37","20","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: neigh;ftrm-config.js:22[24:28];Sink: '- ' +  ... monName;ftrm-config.js:23[14:49]::FLOW_DESCR_END","/ftrm-config.js","22","24","22","28"

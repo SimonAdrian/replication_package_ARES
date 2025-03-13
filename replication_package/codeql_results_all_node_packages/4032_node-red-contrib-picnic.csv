@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;picnic-action.js:22[36:38];Sink: msg;picnic-action.js:32[54:56]::FLOW_DESCR_END","/picnic-action.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;picnic-action.js:34[45:52];Sink: [response];picnic-action.js:39[27:36]::FLOW_DESCR_END","/picnic-action.js","34","45","34","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;picnic-action.js:42[42:49];Sink: [null,response];picnic-action.js:47[27:41]::FLOW_DESCR_END","/picnic-action.js","42","42","42","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;picnic-action.js:58[54:57];Sink: data;picnic-action.js:59[23:26]::FLOW_DESCR_END","/picnic-action.js","58","54","58","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:44[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:53[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:63[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:72[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:81[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:90[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:100[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:109[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:118[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:127[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:136[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;picnic-instance.js:37[47:50];Sink: data;picnic-instance.js:145[60:63]::FLOW_DESCR_END","/picnic-instance.js","37","47","37","50"

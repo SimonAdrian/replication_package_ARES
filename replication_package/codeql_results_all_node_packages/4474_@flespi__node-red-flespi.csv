@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-device.js:11[39:41];Sink: [msg, null];create-device.js:35[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-device.js:11[39:41];Sink: [null, msg];create-device.js:39[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-device.js:11[39:41];Sink: [msg, null];create-device.js:46[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-device.js:11[39:41];Sink: [null, msg];create-device.js:50[38:48]::FLOW_DESCR_END","/create-device.js","11","39","11","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.server.host;create-device.js:16[39:54];Sink: ""https: ... evices"";create-device.js:16[25:86]::FLOW_DESCR_END","/create-device.js","16","39","16","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stream-device.js:11[39:41];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stream-device.js:11[39:41];Sink: [msg, null];stream-device.js:24[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stream-device.js:11[39:41];Sink: [null, msg];stream-device.js:28[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stream-device.js:11[39:41];Sink: [msg, null];stream-device.js:34[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stream-device.js:11[39:41];Sink: [null, msg];stream-device.js:38[38:48]::FLOW_DESCR_END","/stream-device.js","11","39","11","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.server.host;stream-device.js:15[39:54];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","15","39","15","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... sult[0];stream-device.js:23[47:69];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","23","47","23","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.result;stream-device.js:23[47:66];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","23","47","23","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.errors;stream-device.js:27[47:66];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","27","47","27","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errors. ... sult[0];stream-device.js:33[47:76];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","33","47","33","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errors. ... .result;stream-device.js:33[47:73];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","33","47","33","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... .errors;stream-device.js:37[47:72];Sink: ""https: ... load.id;stream-device.js:15[25:136]::FLOW_DESCR_END","/stream-device.js","37","47","37","72"

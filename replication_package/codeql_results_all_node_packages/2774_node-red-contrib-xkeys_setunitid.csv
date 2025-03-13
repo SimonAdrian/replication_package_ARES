@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_setunitid.js:22[27:31];Sink: error;xkeys_setunitid.js:23[30:34]::FLOW_DESCR_END","/xkeys_setunitid.js","22","27","22","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_setunitid.js:25[23:27];Sink: error;xkeys_setunitid.js:26[35:39]::FLOW_DESCR_END","/xkeys_setunitid.js","25","23","25","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xkeys_setunitid.js:30[61:63];Sink: 'Subscr ... ' + err;xkeys_setunitid.js:35[15:43]::FLOW_DESCR_END","/xkeys_setunitid.js","30","61","30","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;xkeys_setunitid.js:30[66:72];Sink: `Subscr ... nted)}`;xkeys_setunitid.js:32[15:66]::FLOW_DESCR_END","/xkeys_setunitid.js","30","66","30","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;xkeys_setunitid.js:42[32:38];Sink: `Hello  ... arted `;xkeys_setunitid.js:49[18:93]::FLOW_DESCR_END","/xkeys_setunitid.js","42","32","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xkeys_setunitid.js:120[29:31];Sink: `new_un ... t_id})`;xkeys_setunitid.js:152[16:76]::FLOW_DESCR_END","/xkeys_setunitid.js","120","29","120","31"

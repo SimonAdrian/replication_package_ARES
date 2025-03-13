@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: x + ""-> ... ions[x];http-send-multipart-form.js:42[19:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: msg;http-send-multipart-form.js:52[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: msg;http-send-multipart-form.js:68[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: ""fileDa ... ataType;http-send-multipart-form.js:98[27:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: RED._("" ... ype+""]"";http-send-multipart-form.js:100[17:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: msg;http-send-multipart-form.js:100[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: ""msg.pa ... .length;http-send-multipart-form.js:109[27:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: x + ""-> ... ions[x];http-send-multipart-form.js:128[29:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: formFil ... .length;http-send-multipart-form.js:134[27:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: 'conten ... ileName;http-send-multipart-form.js:135[27:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-send-multipart-form.js:32[30:32];Sink: msg;http-send-multipart-form.js:169[17:19]::FLOW_DESCR_END","/http-send-multipart-form.js","32","30","32","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.user;http-send-multipart-form.js:80[21:41];Sink: url;http-send-multipart-form.js:124[27:29]::FLOW_DESCR_END","/http-send-multipart-form.js","80","21","80","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;http-send-multipart-form.js:81[17:41];Sink: url;http-send-multipart-form.js:124[27:29]::FLOW_DESCR_END","/http-send-multipart-form.js","81","17","81","41"

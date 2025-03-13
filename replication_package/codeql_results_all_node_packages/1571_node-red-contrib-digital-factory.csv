@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scw-df-custommethod-response.js:10[39:41];Sink: """"+msg. ... ssageId;scw-df-custommethod-response.js:11[51:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scw-df-custommethod-response.js:10[39:41];Sink: msg.code;scw-df-custommethod-response.js:12[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scw-df-custommethod-response.js:10[39:41];Sink: msg.payload;scw-df-custommethod-response.js:12[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scw-df-custommethod-response.js:10[39:41];Sink: """"+msg. ... ssageId;scw-df-custommethod-response.js:21[37:66]::FLOW_DESCR_END","/src/scw-df-custommethod-response.js","10","39","10","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;scw-digital-factory.js:324[45:47];Sink: ""Client ... essage);scw-digital-factory.js:325[33:79]::FLOW_DESCR_END","/src/scw-digital-factory.js","324","45","324","47"

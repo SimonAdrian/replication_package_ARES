@@ -1,0 +1,90 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);facebook.js:181[27:59];Sink: credentials;facebook.js:219[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);facebook.js:181[27:59];Sink: credent ... ssToken;facebook.js:225[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);facebook.js:181[27:59];Sink: credentials;facebook.js:238[51:61]::FLOW_DESCR_END","/ue-sdk/facebook.js","181","27","181","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;facebook.js:202[21:23];Sink: ""reques ... "" + err;facebook.js:204[29:50]::FLOW_DESCR_END","/ue-sdk/facebook.js","202","21","202","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;facebook.js:202[34:37];Sink: ""oauth  ... a.error;facebook.js:208[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook.js:202[34:37];Sink: credent ... ssToken;facebook.js:225[29:51]::FLOW_DESCR_END","/ue-sdk/facebook.js","202","34","202","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;facebook.js:224[25:27];Sink: 'fetchi ... ' + err;facebook.js:228[33:74]::FLOW_DESCR_END","/ue-sdk/facebook.js","224","25","224","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;facebook.js:224[38:41];Sink: 'fetchi ... message;facebook.js:232[33:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;facebook.js:224[38:41];Sink: data;facebook.js:236[29:32]::FLOW_DESCR_END","/ue-sdk/facebook.js","224","38","224","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;facebook.js:233[33:50];Sink: 'fetchi ... message;facebook.js:232[33:50]::FLOW_DESCR_END","/ue-sdk/facebook.js","233","33","233","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);fbmessenger.js:187[27:59];Sink: credentials;fbmessenger.js:254[41:51]::FLOW_DESCR_END","/ue-sdk/fbmessenger.js","187","27","187","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fbmessenger.js:210[21:23];Sink: ""reques ... "" + err;fbmessenger.js:213[29:50]::FLOW_DESCR_END","/ue-sdk/fbmessenger.js","210","21","210","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;fbmessenger.js:210[34:37];Sink: ""oauth  ... a.error;fbmessenger.js:217[29:56]::FLOW_DESCR_END","/ue-sdk/fbmessenger.js","210","34","210","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err1;fbmessenger.js:234[25:28];Sink: 'fetchi ...  + err1;fbmessenger.js:237[33:78]::FLOW_DESCR_END","/ue-sdk/fbmessenger.js","234","25","234","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data1;fbmessenger.js:234[40:44];Sink: 'fetchi ... message;fbmessenger.js:241[33:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data1;fbmessenger.js:234[40:44];Sink: data1.data[i];fbmessenger.js:251[28:40]::FLOW_DESCR_END","/ue-sdk/fbmessenger.js","234","40","234","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);fbworkplace.js:160[27:59];Sink: credentials;fbworkplace.js:194[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);fbworkplace.js:160[27:59];Sink: credentials;fbworkplace.js:195[37:47]::FLOW_DESCR_END","/ue-sdk/fbworkplace.js","160","27","160","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fbworkplace.js:178[33:36];Sink: body;fbworkplace.js:179[33:36]::FLOW_DESCR_END","/ue-sdk/fbworkplace.js","178","33","178","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:185[27:59];Sink: credentials;google.js:225[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:185[27:59];Sink: credent ... ssToken;google.js:231[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:185[27:59];Sink: credent ... shToken;google.js:232[29:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:185[27:59];Sink: credentials;google.js:243[51:61]::FLOW_DESCR_END","/ue-sdk/google.js","185","27","185","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:207[21:23];Sink: ""reques ... "" + err;google.js:209[29:50]::FLOW_DESCR_END","/ue-sdk/google.js","207","21","207","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:207[34:37];Sink: ""oauth  ... a.error;google.js:213[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google.js:207[34:37];Sink: credent ... ssToken;google.js:231[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google.js:207[34:37];Sink: credent ... shToken;google.js:232[29:52]::FLOW_DESCR_END","/ue-sdk/google.js","207","34","207","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:230[25:27];Sink: 'fetchi ... ' + err;google.js:234[33:72]::FLOW_DESCR_END","/ue-sdk/google.js","230","25","230","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:230[38:41];Sink: 'fetchi ... message;google.js:238[33:50]::FLOW_DESCR_END","/ue-sdk/google.js","230","38","230","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;google.js:239[33:50];Sink: 'fetchi ... message;google.js:238[33:50]::FLOW_DESCR_END","/ue-sdk/google.js","239","33","239","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);kakaostory.js:185[27:59];Sink: credentials;kakaostory.js:224[47:57]::FLOW_DESCR_END","/ue-sdk/kakaostory.js","185","27","185","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kakaostory.js:205[21:23];Sink: ""reques ... "" + err;kakaostory.js:209[29:50]::FLOW_DESCR_END","/ue-sdk/kakaostory.js","205","21","205","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;kakaostory.js:205[34:37];Sink: ""oauth  ... a.error;kakaostory.js:213[29:56]::FLOW_DESCR_END","/ue-sdk/kakaostory.js","205","34","205","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);kik.js:98[21:53];Sink: credentials;kik.js:111[37:47]::FLOW_DESCR_END","/ue-sdk/kik.js","98","21","98","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);line.js:191[27:59];Sink: credentials;line.js:210[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);line.js:191[27:59];Sink: credentials;line.js:211[38:48]::FLOW_DESCR_END","/ue-sdk/line.js","191","27","191","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);linkedin.js:181[27:59];Sink: credentials;linkedin.js:219[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);linkedin.js:181[27:59];Sink: credent ... ssToken;linkedin.js:225[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);linkedin.js:181[27:59];Sink: credentials;linkedin.js:238[51:61]::FLOW_DESCR_END","/ue-sdk/linkedin.js","181","27","181","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;linkedin.js:202[21:23];Sink: ""reques ... "" + err;linkedin.js:204[29:50]::FLOW_DESCR_END","/ue-sdk/linkedin.js","202","21","202","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;linkedin.js:202[34:37];Sink: ""oauth  ... a.error;linkedin.js:208[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;linkedin.js:202[34:37];Sink: credent ... ssToken;linkedin.js:225[29:51]::FLOW_DESCR_END","/ue-sdk/linkedin.js","202","34","202","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;linkedin.js:224[25:27];Sink: 'fetchi ... ' + err;linkedin.js:228[33:74]::FLOW_DESCR_END","/ue-sdk/linkedin.js","224","25","224","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;linkedin.js:224[38:41];Sink: 'fetchi ... message;linkedin.js:232[33:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;linkedin.js:224[38:41];Sink: data;linkedin.js:236[29:32]::FLOW_DESCR_END","/ue-sdk/linkedin.js","224","38","224","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;linkedin.js:233[33:50];Sink: 'fetchi ... message;linkedin.js:232[33:50]::FLOW_DESCR_END","/ue-sdk/linkedin.js","233","33","233","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);pinterest.js:187[27:59];Sink: credentials;pinterest.js:254[41:51]::FLOW_DESCR_END","/ue-sdk/pinterest.js","187","27","187","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pinterest.js:210[21:23];Sink: ""reques ... "" + err;pinterest.js:213[29:50]::FLOW_DESCR_END","/ue-sdk/pinterest.js","210","21","210","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pinterest.js:210[34:37];Sink: ""oauth  ... a.error;pinterest.js:217[29:56]::FLOW_DESCR_END","/ue-sdk/pinterest.js","210","34","210","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err1;pinterest.js:234[25:28];Sink: 'fetchi ...  + err1;pinterest.js:237[33:76]::FLOW_DESCR_END","/ue-sdk/pinterest.js","234","25","234","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data1;pinterest.js:234[40:44];Sink: 'fetchi ... message;pinterest.js:241[33:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data1;pinterest.js:234[40:44];Sink: data1.data[i];pinterest.js:251[28:40]::FLOW_DESCR_END","/ue-sdk/pinterest.js","234","40","234","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);sendgrid.js:164[27:59];Sink: credentials;sendgrid.js:183[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);sendgrid.js:164[27:59];Sink: credentials;sendgrid.js:184[38:48]::FLOW_DESCR_END","/ue-sdk/sendgrid.js","164","27","164","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);skype.js:88[21:59];Sink: credentials;skype.js:130[38:48]::FLOW_DESCR_END","/ue-sdk/skype.js","88","21","88","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);skype.js:95[21:53];Sink: credentials;skype.js:130[38:48]::FLOW_DESCR_END","/ue-sdk/skype.js","95","21","95","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;skype.js:116[15:17];Sink: 'fetchi ... ' + err;skype.js:119[17:55]::FLOW_DESCR_END","/ue-sdk/skype.js","116","15","116","17"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;skype.js:116[28:31];Sink: 'fetchi ... message;skype.js:123[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;skype.js:116[28:31];Sink: data;skype.js:127[16:19]::FLOW_DESCR_END","/ue-sdk/skype.js","116","28","116","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;skype.js:124[8:25];Sink: 'fetchi ... message;skype.js:123[17:25]::FLOW_DESCR_END","/ue-sdk/skype.js","124","8","124","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);sms.js:162[27:59];Sink: credentials;sms.js:181[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);sms.js:162[27:59];Sink: credentials;sms.js:182[38:48]::FLOW_DESCR_END","/ue-sdk/sms.js","162","27","162","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);smtp.js:162[27:59];Sink: credentials;smtp.js:181[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);smtp.js:162[27:59];Sink: credentials;smtp.js:182[38:48]::FLOW_DESCR_END","/ue-sdk/smtp.js","162","27","162","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);telegram.js:95[21:53];Sink: credentials;telegram.js:108[37:47]::FLOW_DESCR_END","/ue-sdk/telegram.js","95","21","95","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);threema.js:98[21:53];Sink: credentials;threema.js:111[37:47]::FLOW_DESCR_END","/ue-sdk/threema.js","98","21","98","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);tumblr.js:217[27:59];Sink: credentials;tumblr.js:266[40:50]::FLOW_DESCR_END","/ue-sdk/tumblr.js","217","27","217","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ue-sdk.js:651[36:38];Sink: ""payloa ... payload;ue-sdk.js:653[23:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ue-sdk.js:651[36:38];Sink: msg;ue-sdk.js:1114[23:25]::FLOW_DESCR_END","/ue-sdk/ue-sdk.js","651","36","651","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);viber.js:95[21:53];Sink: credentials;viber.js:108[37:47]::FLOW_DESCR_END","/ue-sdk/viber.js","95","21","95","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);viberpa.js:95[21:53];Sink: credentials;viberpa.js:108[37:47]::FLOW_DESCR_END","/ue-sdk/viberpa.js","95","21","95","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);wechat.js:88[21:59];Sink: credentials;wechat.js:132[38:48]::FLOW_DESCR_END","/ue-sdk/wechat.js","88","21","88","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);wechat.js:95[21:53];Sink: credentials;wechat.js:132[38:48]::FLOW_DESCR_END","/ue-sdk/wechat.js","95","21","95","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wechat.js:118[15:17];Sink: 'fetchi ... ' + err;wechat.js:121[17:56]::FLOW_DESCR_END","/ue-sdk/wechat.js","118","15","118","17"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;wechat.js:118[28:31];Sink: 'fetchi ... message;wechat.js:125[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;wechat.js:118[28:31];Sink: data;wechat.js:129[16:19]::FLOW_DESCR_END","/ue-sdk/wechat.js","118","28","118","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;wechat.js:126[8:25];Sink: 'fetchi ... message;wechat.js:125[17:25]::FLOW_DESCR_END","/ue-sdk/wechat.js","126","8","126","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);weibo.js:182[27:59];Sink: credentials;weibo.js:214[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);weibo.js:182[27:59];Sink: credent ... ssToken;weibo.js:230[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);weibo.js:182[27:59];Sink: credentials;weibo.js:242[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);weibo.js:182[27:59];Sink: credentials;weibo.js:243[51:61]::FLOW_DESCR_END","/ue-sdk/weibo.js","182","27","182","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;weibo.js:202[21:23];Sink: ""reques ... "" + err;weibo.js:204[29:50]::FLOW_DESCR_END","/ue-sdk/weibo.js","202","21","202","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;weibo.js:202[34:37];Sink: ""oauth  ... a.error;weibo.js:208[29:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;weibo.js:202[34:37];Sink: data;weibo.js:212[25:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;weibo.js:202[34:37];Sink: credent ... ssToken;weibo.js:230[29:51]::FLOW_DESCR_END","/ue-sdk/weibo.js","202","34","202","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;weibo.js:228[25:27];Sink: 'fetchi ... ' + err;weibo.js:232[33:71]::FLOW_DESCR_END","/ue-sdk/weibo.js","228","25","228","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;weibo.js:228[38:41];Sink: 'fetchi ... message;weibo.js:236[33:50]::FLOW_DESCR_END","/ue-sdk/weibo.js","228","38","228","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;weibo.js:237[33:50];Sink: 'fetchi ... message;weibo.js:236[33:50]::FLOW_DESCR_END","/ue-sdk/weibo.js","237","33","237","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);whatsapp.js:158[27:59];Sink: credentials;whatsapp.js:177[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);whatsapp.js:158[27:59];Sink: credentials;whatsapp.js:178[38:48]::FLOW_DESCR_END","/ue-sdk/whatsapp.js","158","27","158","59"

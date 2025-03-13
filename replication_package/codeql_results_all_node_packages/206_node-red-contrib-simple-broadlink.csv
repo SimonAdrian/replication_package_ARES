@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;broadlink.js:25[37:41];Sink: rinfo.a ... + ' - ';broadlink.js:45[25:64]::FLOW_DESCR_END","/broadlink.js","25","37","25","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo.port;broadlink.js:45[47:56];Sink: rinfo.a ... + ' - ';broadlink.js:45[25:64]::FLOW_DESCR_END","/broadlink.js","45","47","45","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;broadlink.js:133[43:51];Sink: this.host.port;broadlink.js:133[43:56]::FLOW_DESCR_END","/broadlink.js","133","43","133","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;broadlink.js:133[59:67];Sink: this.host.address;broadlink.js:133[59:75]::FLOW_DESCR_END","/broadlink.js","133","59","133","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple-broadlink.js:70[36:38];Sink: msg;simple-broadlink.js:83[27:29]::FLOW_DESCR_END","/simple-broadlink.js","70","36","70","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple-device.js:15[36:38];Sink: msg;simple-device.js:19[31:33]::FLOW_DESCR_END","/simple-device.js","15","36","15","38"

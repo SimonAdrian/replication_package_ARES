@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;usbcamera.js:39[35:37];Sink: ""usbcamera:""+filefqn;usbcamera.js:102[50:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;usbcamera.js:39[35:37];Sink: msg;usbcamera.js:140[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;usbcamera.js:39[35:37];Sink: msg;usbcamera.js:156[31:33]::FLOW_DESCR_END","/usbcamera.js","39","35","39","37"

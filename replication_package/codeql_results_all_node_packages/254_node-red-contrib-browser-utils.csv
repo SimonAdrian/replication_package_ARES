@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;camera.js:59[32:34];Sink: msg;camera.js:61[19:21]::FLOW_DESCR_END","/camera/camera.js","59","32","59","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fileinject.js:57[32:34];Sink: msg;fileinject.js:59[19:21]::FLOW_DESCR_END","/fileinject/fileinject.js","57","32","57","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;microphone.js:68[32:34];Sink: msg;microphone.js:70[19:21]::FLOW_DESCR_END","/microphone/microphone.js","68","32","68","34"

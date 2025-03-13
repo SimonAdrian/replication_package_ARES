@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mailx.js:11[35:37];Sink: body;mailx.js:45[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mailx.js:11[35:37];Sink: "" Comma ... command;mailx.js:50[30:62]::FLOW_DESCR_END","/mailx/mailx.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mailx.js:55[45:48];Sink: data;mailx.js:56[20:23]::FLOW_DESCR_END","/mailx/mailx.js","55","45","55","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mailx.js:59[45:48];Sink: data;mailx.js:60[20:23]::FLOW_DESCR_END","/mailx/mailx.js","59","45","59","48"

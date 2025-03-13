@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.credentials.ip;Gree2Climate.js:17[19:37];Sink: address;deviceFactory.js:76[60:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.credentials.ip;Gree2Climate.js:17[19:37];Sink: address;deviceFactory.js:78[56:62]::FLOW_DESCR_END","/Gree2Climate.js","17","19","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;deviceFactory.js:20[13:24];Sink: address;deviceFactory.js:76[60:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: options.host;deviceFactory.js:20[13:24];Sink: address;deviceFactory.js:78[56:62]::FLOW_DESCR_END","/lib/deviceFactory.js","20","13","20","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.options.host;deviceFactory.js:43[27:43];Sink: address;deviceFactory.js:76[60:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.options.host;deviceFactory.js:43[27:43];Sink: address;deviceFactory.js:78[56:62]::FLOW_DESCR_END","/lib/deviceFactory.js","43","27","43","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deviceFactory.js:46[32:34];Sink: message;deviceFactory.js:179[55:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deviceFactory.js:46[32:34];Sink: message;deviceFactory.js:238[7:13]::FLOW_DESCR_END","/lib/deviceFactory.js","46","32","46","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;deviceFactory.js:47[30:32];Sink: ""[UDP]  ... "" + err;deviceFactory.js:48[19:56]::FLOW_DESCR_END","/lib/deviceFactory.js","47","30","47","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.options.host;deviceFactory.js:55[29:45];Sink: address;deviceFactory.js:76[60:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.options.host;deviceFactory.js:55[29:45];Sink: address;deviceFactory.js:78[56:62]::FLOW_DESCR_END","/lib/deviceFactory.js","55","29","55","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.port;deviceFactory.js:164[53:68];Sink: port;deviceFactory.js:311[70:73]::FLOW_DESCR_END","/lib/deviceFactory.js","164","53","164","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.port;deviceFactory.js:290[12:27];Sink: port;deviceFactory.js:311[70:73]::FLOW_DESCR_END","/lib/deviceFactory.js","290","12","290","27"

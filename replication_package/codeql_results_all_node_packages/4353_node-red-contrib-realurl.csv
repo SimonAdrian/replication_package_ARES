@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;realurl.js:25[32:34];Sink: msg;realurl.js:37[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;realurl.js:25[32:34];Sink: msg;realurl.js:39[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;realurl.js:25[32:34];Sink: msg;realurl.js:43[23:25]::FLOW_DESCR_END","/realurl.js","25","32","25","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;realurl.js:35[19:21];Sink: err;realurl.js:37[24:26]::FLOW_DESCR_END","/realurl.js","35","19","35","21"

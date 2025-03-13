@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xlsx-template-lsi.js:8[35:37];Sink: msg.payload;xlsx-template-lsi.js:16[65:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xlsx-template-lsi.js:8[35:37];Sink: msg.template;xlsx-template-lsi.js:18[82:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xlsx-template-lsi.js:8[35:37];Sink: msg.report;xlsx-template-lsi.js:20[88:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xlsx-template-lsi.js:8[35:37];Sink: pathReport;xlsx-template-lsi.js:38[34:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xlsx-template-lsi.js:8[35:37];Sink: msg;xlsx-template-lsi.js:41[23:25]::FLOW_DESCR_END","/xlsx-template-lsi.js","8","35","8","37"

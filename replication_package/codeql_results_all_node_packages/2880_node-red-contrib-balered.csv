@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:398[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:407[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:424[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:436[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:447[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:458[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:470[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:482[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:493[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:353[36:38];Sink: msg;BaleRed.js:504[51:53]::FLOW_DESCR_END","/balered/BaleRed.js","353","36","353","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BaleRed.js:566[36:38];Sink: file_name;BaleRed.js:601[54:62]::FLOW_DESCR_END","/balered/BaleRed.js","566","36","566","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: file_name2.pop();BaleRed.js:593[57:72];Sink: file_name;BaleRed.js:601[54:62]::FLOW_DESCR_END","/balered/BaleRed.js","593","57","593","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BaleRed.js:661[36:38];Sink: msg;BaleRed.js:712[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:661[36:38];Sink: msg;BaleRed.js:744[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:661[36:38];Sink: msg;BaleRed.js:753[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BaleRed.js:661[36:38];Sink: msg;BaleRed.js:762[47:49]::FLOW_DESCR_END","/balered/BaleRed.js","661","36","661","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BaleRed.js:796[36:38];Sink: msg;BaleRed.js:816[31:33]::FLOW_DESCR_END","/balered/BaleRed.js","796","36","796","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BaleRed.js:831[36:38];Sink: msg;BaleRed.js:835[27:29]::FLOW_DESCR_END","/balered/BaleRed.js","831","36","831","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BaleRed.js:860[36:38];Sink: msg;BaleRed.js:866[23:25]::FLOW_DESCR_END","/balered/BaleRed.js","860","36","860","38"

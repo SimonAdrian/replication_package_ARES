@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hangouts-chat-bot.js:18[30:32];Sink: msg;hangouts-chat-bot.js:67[18:20]::FLOW_DESCR_END","/source/hangouts-chat-bot.js","18","30","18","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;hangouts-chat-bot.js:45[30:34];Sink: error;hangouts-chat-bot.js:56[19:23]::FLOW_DESCR_END","/source/hangouts-chat-bot.js","45","30","45","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;hangouts-chat-bot.js:45[47:50];Sink: bodyObj.error;hangouts-chat-bot.js:60[19:31]::FLOW_DESCR_END","/source/hangouts-chat-bot.js","45","47","45","50"

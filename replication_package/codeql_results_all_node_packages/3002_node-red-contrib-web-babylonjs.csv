@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;events.js:7[47:49];Sink: evt;events.js:8[23:25]::FLOW_DESCR_END","/events.js","7","47","7","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;events.js:10[45:47];Sink: evt;events.js:11[23:25]::FLOW_DESCR_END","/events.js","10","45","10","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shape.js:38[32:34];Sink: msg.payload;shape.js:40[50:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shape.js:38[32:34];Sink: JSON.stringify(msg);transformation.js:33[25:43]::FLOW_DESCR_END","/shape.js","38","32","38","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;shape.js:44[46:48];Sink: evt;shape.js:46[23:25]::FLOW_DESCR_END","/shape.js","44","46","44","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform.js:9[36:38];Sink: msg;transform.js:38[18:20]::FLOW_DESCR_END","/transform.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;transformation.js:20[36:42];Sink: evt;events.js:8[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transformation.js:20[36:42];Sink: evt;events.js:11[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transformation.js:20[36:42];Sink: evt;shape.js:46[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transformation.js:20[36:42];Sink: evt.type;transformation.js:23[30:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transformation.js:20[36:42];Sink: evt;transformation.js:23[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;transformation.js:20[36:42];Sink: JSON.stringify(msg);transformation.js:33[25:43]::FLOW_DESCR_END","/transformation.js","20","36","20","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;transformation.js:27[25:29];Sink: error;transformation.js:28[27:31]::FLOW_DESCR_END","/transformation.js","27","25","27","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transformation.js:31[34:36];Sink: JSON.stringify(msg);transformation.js:33[25:43]::FLOW_DESCR_END","/transformation.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;transformation.js:56[47:53];Sink: request;transformation.js:60[52:58]::FLOW_DESCR_END","/transformation.js","56","47","56","53"

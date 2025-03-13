@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;client.js:118[29:33];Sink: contentBody;client.js:138[15:25]::FLOW_DESCR_END","/client.js","118","29","118","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-presto-client.js:41[29:31];Sink: [msg, null];node-red-presto-client.js:66[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-presto-client.js:41[29:31];Sink: [null, msg];node-red-presto-client.js:72[16:26]::FLOW_DESCR_END","/node-red-presto-client.js","41","29","41","31"

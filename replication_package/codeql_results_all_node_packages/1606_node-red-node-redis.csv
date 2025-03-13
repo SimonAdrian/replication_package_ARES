@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;65-redisout.js:15[57:59];Sink: err;65-redisout.js:16[39:41]::FLOW_DESCR_END","/65-redisout.js","15","57","15","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;65-redisout.js:41[21:26];Sink: this.port;65-redisout.js:46[61:69]::FLOW_DESCR_END","/65-redisout.js","41","21","41","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;65-redisout.js:63[35:37];Sink: k;65-redisout.js:67[37:37]::FLOW_DESCR_END","/65-redisout.js","63","35","63","37"

@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dataMid ... .params;CreateBase.js:32[22:53];Sink: dados;CreateBase.js:92[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dataMid ... .params;CreateBase.js:32[22:53];Sink: htmlPage;CreateBase.js:111[41:48]::FLOW_DESCR_END","/CreateBase.js","32","22","32","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");CreateBase.js:103[16:65];Sink: htmlPage;CreateBase.js:111[41:48]::FLOW_DESCR_END","/CreateBase.js","103","16","103","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;openProtocol.js:76[34:36];Sink: `${RED. ... .code}`;openProtocol.js:128[24:118]::FLOW_DESCR_END","/red/openProtocol.js","76","34","76","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;openProtocol.js:87[46:49];Sink: data.key;openProtocol.js:160[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;openProtocol.js:87[46:49];Sink: data.data;openProtocol.js:160[33:41]::FLOW_DESCR_END","/red/openProtocol.js","87","46","87","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;openProtocol.js:89[36:39];Sink: data;openProtocol.js:152[34:37]::FLOW_DESCR_END","/red/openProtocol.js","89","36","89","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;openProtocol.js:90[33:36];Sink: data;openProtocol.js:156[31:34]::FLOW_DESCR_END","/red/openProtocol.js","90","33","90","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.port;openProtocol.js:128[93:102];Sink: `${RED. ... .code}`;openProtocol.js:128[24:118]::FLOW_DESCR_END","/red/openProtocol.js","128","93","128","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: [msg, null];openProtocol.js:307[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:310[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:369[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:374[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:376[100:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: [msg, null];openProtocol.js:389[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: [msg, null];openProtocol.js:401[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:403[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: [msg, null];openProtocol.js:413[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: [msg, null];openProtocol.js:426[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:429[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:439[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:444[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openProtocol.js:292[27:29];Sink: msg;openProtocol.js:446[100:102]::FLOW_DESCR_END","/red/openProtocol.js","292","27","292","29"

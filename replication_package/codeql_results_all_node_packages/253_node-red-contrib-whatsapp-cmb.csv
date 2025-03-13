@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp.js:32[29:31];Sink: msg;whatsapp.js:99[39:41]::FLOW_DESCR_END","/nodes/whatsapp.js","32","29","32","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... enumber;whatsapp.js:51[27:54];Sink: reqUrl;whatsapp.js:89[21:26]::FLOW_DESCR_END","/nodes/whatsapp.js","51","27","51","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.credentials.key;whatsapp.js:52[23:42];Sink: reqUrl;whatsapp.js:89[21:26]::FLOW_DESCR_END","/nodes/whatsapp.js","52","23","52","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;whatsapp.js:89[38:42];Sink: error;whatsapp.js:92[36:40]::FLOW_DESCR_END","/nodes/whatsapp.js","89","38","89","42"

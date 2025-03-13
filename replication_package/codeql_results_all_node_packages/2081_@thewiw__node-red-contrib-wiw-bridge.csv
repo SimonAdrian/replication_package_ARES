@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;valuesObject2S7.js:6[36:38];Sink: msg;valuesObject2S7.js:13[23:25]::FLOW_DESCR_END","/nodes/valuesObject2S7.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wiw2ValuesObject.js:7[36:38];Sink: valueKey;wiw2ValuesObject.js:36[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiw2ValuesObject.js:7[36:38];Sink: valueKey;wiw2ValuesObject.js:39[40:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiw2ValuesObject.js:7[36:38];Sink: value;wiw2ValuesObject.js:39[50:54]::FLOW_DESCR_END","/nodes/wiw2ValuesObject.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wiwCheck.js:10[36:38];Sink: [msg,sendMsgs];wiwCheck.js:45[23:36]::FLOW_DESCR_END","/nodes/wiwCheck.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wiwLogs.js:7[36:38];Sink: msgId;wiwLogs.js:32[114:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiwLogs.js:7[36:38];Sink: [null,  ... l,null];wiwLogs.js:34[43:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiwLogs.js:7[36:38];Sink: [null,  ... l,null];wiwLogs.js:44[43:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiwLogs.js:7[36:38];Sink: [null,  ... l,null];wiwLogs.js:53[39:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiwLogs.js:7[36:38];Sink: [msg, n ... l,null];wiwLogs.js:63[35:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiwLogs.js:7[36:38];Sink: [null,  ... , null];wiwLogs.js:67[31:59]::FLOW_DESCR_END","/nodes/wiwLogs.js","7","36","7","38"

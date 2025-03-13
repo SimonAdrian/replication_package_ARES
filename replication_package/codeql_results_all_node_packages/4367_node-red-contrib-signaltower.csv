@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signaltower.js:23[35:37];Sink: msg;signaltower.js:50[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signaltower.js:23[35:37];Sink: msg;signaltower.js:57[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signaltower.js:23[35:37];Sink: msg;signaltower.js:58[19:21]::FLOW_DESCR_END","/signaltower.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signaltower.js:74[33:35];Sink: msg;signaltower.js:93[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signaltower.js:74[33:35];Sink: msg;signaltower.js:100[26:28]::FLOW_DESCR_END","/signaltower.js","74","33","74","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signaltower.js:112[29:31];Sink: msg;signaltower.js:131[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signaltower.js:112[29:31];Sink: msg;signaltower.js:138[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signaltower.js:112[29:31];Sink: msg;signaltower.js:139[6:8]::FLOW_DESCR_END","/signaltower.js","112","29","112","31"

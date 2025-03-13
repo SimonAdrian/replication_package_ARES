@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;server-zendesk.js:129[38:44];Sink: `[Zende ... nId}"")`;server-zendesk.js:144[25:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;server-zendesk.js:129[38:44];Sink: `[Zende ... sID}"")`;server-zendesk.js:159[25:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;server-zendesk.js:129[38:44];Sink: agents;server-zendesk.js:183[36:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;server-zendesk.js:129[38:44];Sink: message;server-zendesk.js:187[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;server-zendesk.js:129[38:44];Sink: JSON.st ... d: 9 });server-zendesk.js:234[20:126]::FLOW_DESCR_END","/server-zendesk.js","129","38","129","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... tion_id;server-zendesk.js:143[37:72];Sink: `[Zende ... nId}"")`;server-zendesk.js:144[25:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message ... tion_id;server-zendesk.js:143[37:72];Sink: JSON.st ... d: 9 });server-zendesk.js:234[20:126]::FLOW_DESCR_END","/server-zendesk.js","143","37","143","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... node.id;server-zendesk.js:158[35:80];Sink: `[Zende ... sID}"")`;server-zendesk.js:159[25:78]::FLOW_DESCR_END","/server-zendesk.js","158","35","158","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... us.node;server-zendesk.js:158[35:77];Sink: `[Zende ... sID}"")`;server-zendesk.js:159[25:78]::FLOW_DESCR_END","/server-zendesk.js","158","35","158","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... tStatus;server-zendesk.js:158[35:72];Sink: `[Zende ... sID}"")`;server-zendesk.js:159[25:78]::FLOW_DESCR_END","/server-zendesk.js","158","35","158","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... s.edges;server-zendesk.js:182[26:58];Sink: agents;server-zendesk.js:183[36:41]::FLOW_DESCR_END","/server-zendesk.js","182","26","182","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... .agents;server-zendesk.js:182[26:52];Sink: agents;server-zendesk.js:183[36:41]::FLOW_DESCR_END","/server-zendesk.js","182","26","182","52"

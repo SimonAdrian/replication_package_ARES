@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createreadstream-node.js:8[36:38];Sink: msg;createreadstream-node.js:34[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createreadstream-node.js:8[36:38];Sink: msg;createreadstream-node.js:39[34:36]::FLOW_DESCR_END","/createreadstream-node.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listblobdirectories-node.js:8[36:38];Sink: msg;listblobdirectories-node.js:36[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listblobdirectories-node.js:8[36:38];Sink: msg;listblobdirectories-node.js:46[42:44]::FLOW_DESCR_END","/listblobdirectories-node.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listblobs-node.js:8[36:38];Sink: msg;listblobs-node.js:36[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listblobs-node.js:8[36:38];Sink: msg;listblobs-node.js:46[42:44]::FLOW_DESCR_END","/listblobs-node.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listcontainers-node.js:8[36:38];Sink: msg;listcontainers-node.js:31[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listcontainers-node.js:8[36:38];Sink: msg;listcontainers-node.js:41[42:44]::FLOW_DESCR_END","/listcontainers-node.js","8","36","8","38"

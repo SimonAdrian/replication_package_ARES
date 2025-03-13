@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linebot-client.js:15[35:37];Sink: msg;linebot-client.js:32[23:25]::FLOW_DESCR_END","/nodes/linebot-client.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linebot-reply-sticker.js:15[35:37];Sink: msg;linebot-reply-sticker.js:28[23:25]::FLOW_DESCR_END","/nodes/linebot-reply-sticker.js","15","35","15","37"

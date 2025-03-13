@@ -1,0 +1,152 @@
+pre .caseta-attributes-example {
+    white-space: pre;
+    font-size: 9px;
+    outline: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+
+}
+.string {color: green;}
+.number {color: darkorange;}
+.null {color: magenta;}
+.key {color: red;}
+.o {color: gray;}
+
+
+table.caseta-table {
+    border: solid 1px #aaa;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table.caseta-table th {
+    background-color: #000;
+    border: solid 1px #aaa;
+    color: #fff;
+    text-align: left;
+}
+
+table.caseta-table > tr > td {
+    font-family: monospace;
+    font-size: 10pt;
+    border: solid 1px #aaa;
+    color: #333;
+    background: #eee;
+}
+
+.caseta-form-row > label {
+    width: 180px !important;
+}
+
+
+.caseta-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.caseta-tooltip .caseta-tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.caseta-tooltip:hover .caseta-tooltip-text {
+    visibility: visible;
+}
+
+
+div .caseta-cmd-reference {
+    padding-left: 5px
+}
+
+input.caseta-config-input:disabled {
+    border-style: hidden;
+    color: white;
+    background-color: white;
+}
+input.caseta-config-input-address:disabled {
+
+    color: lightgray;
+}
+select.caseta-config-input:disabled {
+    border-style: hidden;
+    color: white;
+    background-color: white;
+}
+
+.caseta-form-tip {
+    background: #ffe;
+    padding: 6px 6px;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    word-break: keep-all;
+}
+
+.caseta-form-section-collapsible {
+
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+
+}
+
+.caseta-form-section-collapsible-active, .caseta-form-section-collapsible:hover {
+
+    cursor: pointer;
+
+}
+
+
+.caseta-form-section-collapsible-content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+
+}
+
+
+.caseta-form-section {
+
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+
+}
+.caseta-form-section-content {
+    padding: 0 18px;
+
+
+}
+
+.caseta-form-section-description {
+
+    padding: 6px 6px;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    word-break: keep-all;
+}
+
+.caseta-form-row-ah {
+    visibility: hidden;
+}

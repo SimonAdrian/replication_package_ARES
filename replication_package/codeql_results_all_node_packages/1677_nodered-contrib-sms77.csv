@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lookup.js:14[49:51];Sink: msg;NodeUtil.js:13[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lookup.js:14[49:51];Sink: {...msg ... sponse};lookup.js:27[22:48]::FLOW_DESCR_END","/src/nodes/lookup/lookup.js","14","49","14","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms.js:14[49:51];Sink: msg;NodeUtil.js:13[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms.js:14[49:51];Sink: {...msg, payload};NodeUtil.js:26[14:30]::FLOW_DESCR_END","/src/nodes/sms/sms.js","14","49","14","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;voice.js:14[49:51];Sink: msg;NodeUtil.js:13[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voice.js:14[49:51];Sink: {...msg, payload};NodeUtil.js:26[14:30]::FLOW_DESCR_END","/src/nodes/voice/voice.js","14","49","14","51"

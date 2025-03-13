@@ -1,0 +1,82 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Shelly ... iceType;99-shelly.js:430[31:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error.message;99-shelly.js:441[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Shelly ... issues"";99-shelly.js:517[31:209]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error.message;99-shelly.js:528[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Downlo ...  emeter;99-shelly.js:680[36:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error;99-shelly.js:680[72:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Downlo ...  emeter;99-shelly.js:682[35:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Failed ... + error;99-shelly.js:1303[27:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Instal ... + error;99-shelly.js:1445[31:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Uninst ... + error;99-shelly.js:1504[51:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Instal ... + error;99-shelly.js:1520[31:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error.message;99-shelly.js:1759[39:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Error  ... + error;99-shelly.js:1763[39:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Error  ... + error;99-shelly.js:1775[27:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error.message;99-shelly.js:1797[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Error  ... + error;99-shelly.js:1801[31:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error;99-shelly.js:1834[82:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error;99-shelly.js:2120[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Reques ... st.path;99-shelly.js:2122[32:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error;99-shelly.js:2160[63:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: hookTypes;99-shelly.js:2215[66:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Instal ... + error;99-shelly.js:2235[31:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Uninst ... + error;99-shelly.js:2267[31:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error.message;99-shelly.js:2575[39:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Error  ... + error;99-shelly.js:2579[39:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error;99-shelly.js:2593[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Error  ... + error;99-shelly.js:2598[31:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: error;99-shelly.js:2618[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:347[30:37];Sink: ""Error  ... + error;99-shelly.js:2622[31:93]::FLOW_DESCR_END","/shelly/99-shelly.js","347","30","347","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error.message;99-shelly.js:441[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error.message;99-shelly.js:528[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error;99-shelly.js:680[72:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Failed ... + error;99-shelly.js:1303[27:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Instal ... + error;99-shelly.js:1445[31:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Uninst ... + error;99-shelly.js:1504[51:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Instal ... + error;99-shelly.js:1520[31:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error.message;99-shelly.js:1759[39:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Error  ... + error;99-shelly.js:1763[39:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Error  ... + error;99-shelly.js:1775[27:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error.message;99-shelly.js:1797[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Error  ... + error;99-shelly.js:1801[31:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error;99-shelly.js:1834[82:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error;99-shelly.js:2120[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Reques ... st.path;99-shelly.js:2122[32:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error;99-shelly.js:2160[63:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Instal ... + error;99-shelly.js:2235[31:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Uninst ... + error;99-shelly.js:2267[31:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error.message;99-shelly.js:2575[39:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Error  ... + error;99-shelly.js:2579[39:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error;99-shelly.js:2593[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Error  ... + error;99-shelly.js:2598[31:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: error;99-shelly.js:2618[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:368[24:28];Sink: ""Error  ... + error;99-shelly.js:2622[31:93]::FLOW_DESCR_END","/shelly/99-shelly.js","368","24","368","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;99-shelly.js:1852[21:31];Sink: ""Shelly ... de.port;99-shelly.js:1863[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;99-shelly.js:1852[21:31];Sink: ""Shelly ... de.port;99-shelly.js:1886[24:112]::FLOW_DESCR_END","/shelly/99-shelly.js","1852","21","1852","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;99-shelly.js:1863[81:89];Sink: ""Shelly ... de.port;99-shelly.js:1863[32:89]::FLOW_DESCR_END","/shelly/99-shelly.js","1863","81","1863","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;99-shelly.js:1886[104:112];Sink: ""Shelly ... de.port;99-shelly.js:1886[24:112]::FLOW_DESCR_END","/shelly/99-shelly.js","1886","104","1886","112"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: ""Downlo ...  emeter;99-shelly.js:680[36:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: error;99-shelly.js:680[72:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: ""Downlo ...  emeter;99-shelly.js:682[35:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: [null, msg];99-shelly.js:689[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: [msg];99-shelly.js:1754[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: ""Error  ... + error;99-shelly.js:1763[39:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: [msg];99-shelly.js:1770[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: ""Error  ... + error;99-shelly.js:1775[27:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: [msg];99-shelly.js:1792[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: ""Failed ... ngRoute;99-shelly.js:1834[36:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: error;99-shelly.js:1834[82:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:1971[46:48];Sink: ""Failed ... setting;99-shelly.js:1838[32:139]::FLOW_DESCR_END","/shelly/99-shelly.js","1971","46","1971","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;99-shelly.js:2635[21:31];Sink: ""Shelly ... de.port;99-shelly.js:2646[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;99-shelly.js:2635[21:31];Sink: ""Shelly ... de.port;99-shelly.js:2672[24:112]::FLOW_DESCR_END","/shelly/99-shelly.js","2635","21","2635","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;99-shelly.js:2646[81:89];Sink: ""Shelly ... de.port;99-shelly.js:2646[32:89]::FLOW_DESCR_END","/shelly/99-shelly.js","2646","81","2646","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;99-shelly.js:2672[104:112];Sink: ""Shelly ... de.port;99-shelly.js:2672[24:112]::FLOW_DESCR_END","/shelly/99-shelly.js","2672","104","2672","112"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-shelly.js:2755[46:48];Sink: [msg];99-shelly.js:2570[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:2755[46:48];Sink: [msg];99-shelly.js:2587[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:2755[46:48];Sink: [msg];99-shelly.js:2613[27:31]::FLOW_DESCR_END","/shelly/99-shelly.js","2755","46","2755","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;99-shelly.js:2854[30:37];Sink: ""Failed ... + error;99-shelly.js:2996[28:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;99-shelly.js:2854[30:37];Sink: error;99-shelly.js:2996[62:66]::FLOW_DESCR_END","/shelly/99-shelly.js","2854","30","2854","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;99-shelly.js:2861[24:28];Sink: ""Failed ... + error;99-shelly.js:2996[28:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;99-shelly.js:2861[24:28];Sink: error;99-shelly.js:2996[62:66]::FLOW_DESCR_END","/shelly/99-shelly.js","2861","24","2861","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-shelly.js:2908[42:44];Sink: [msg];99-shelly.js:2988[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-shelly.js:2908[42:44];Sink: [msg];99-shelly.js:2991[31:35]::FLOW_DESCR_END","/shelly/99-shelly.js","2908","42","2908","44"

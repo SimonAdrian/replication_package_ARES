@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timerScheduler.js:11[31:33];Sink: `Timer  ... conds.`;timerScheduler.js:58[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timerScheduler.js:11[31:33];Sink: `Timer  ... fy it.`;timerScheduler.js:60[19:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timerScheduler.js:11[31:33];Sink: `Timer  ... opped.`;timerScheduler.js:77[18:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timerScheduler.js:11[31:33];Sink: `No tim ... ame}'.`;timerScheduler.js:79[19:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timerScheduler.js:11[31:33];Sink: `Timer  ... conds.`;timerScheduler.js:99[18:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timerScheduler.js:11[31:33];Sink: `No tim ... ame}'.`;timerScheduler.js:101[19:60]::FLOW_DESCR_END","/nodes/timerScheduler.js","11","31","11","33"

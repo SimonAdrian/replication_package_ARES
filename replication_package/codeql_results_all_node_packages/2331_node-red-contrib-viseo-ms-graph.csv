@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-ms-graph-excel.js:16[23:26];Sink: data;node-ms-graph-excel.js:75[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph-excel.js:16[23:26];Sink: data;node-ms-graph-excel.js:89[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph-excel.js:16[23:26];Sink: data;node-ms-graph-excel.js:103[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph-excel.js:16[23:26];Sink: data;node-ms-graph-excel.js:110[22:25]::FLOW_DESCR_END","/node-ms-graph-excel.js","16","23","16","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:61[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:68[22:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:78[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:83[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:95[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:100[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:111[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:125[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:130[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:145[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:150[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:161[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ms-graph.js:17[23:26];Sink: data;node-ms-graph.js:166[24:27]::FLOW_DESCR_END","/node-ms-graph.js","17","23","17","26"

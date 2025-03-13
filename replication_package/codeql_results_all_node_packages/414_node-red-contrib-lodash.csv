@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lodash.js:11[35:37];Sink: msg;lodash.js:28[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lodash.js:11[35:37];Sink: msg;lodash.js:62[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lodash.js:11[35:37];Sink: msg;lodash.js:64[33:35]::FLOW_DESCR_END","/lodash/lodash.js","11","35","11","37"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;http-auth.js:187[30:32];Sink: msg;http-auth.js:12[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-auth.js:187[30:32];Sink: msg;http-auth.js:73[15:17]::FLOW_DESCR_END","/nodes/http-auth.js","187","30","187","32"

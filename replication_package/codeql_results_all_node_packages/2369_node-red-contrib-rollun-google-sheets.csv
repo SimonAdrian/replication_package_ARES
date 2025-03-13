@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gsheets-get-cells.js:12[40:42];Sink: [msg, null];gsheets-get-cells.js:16[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gsheets-get-cells.js:12[40:42];Sink: [null, msg];gsheets-get-cells.js:31[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gsheets-get-cells.js:12[40:42];Sink: [msg, null];gsheets-get-cells.js:34[21:31]::FLOW_DESCR_END","/gsheets-get-cells.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;gsheets-sdk.html:217[26:26];Sink: value;gsheets-sdk.html:46[30:34]::FLOW_DESCR_END","/gsheets-sdk.html","217","26","217","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: type;gsheets-sdk.html:217[29:32];Sink: value;gsheets-sdk.html:46[30:34]::FLOW_DESCR_END","/gsheets-sdk.html","217","29","217","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gsheets-sdk.js:163[38:40];Sink: [msg, null];gsheets-sdk.js:168[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gsheets-sdk.js:163[38:40];Sink: [null, msg];gsheets-sdk.js:182[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gsheets-sdk.js:163[38:40];Sink: [msg, null];gsheets-sdk.js:186[19:29]::FLOW_DESCR_END","/gsheets-sdk.js","163","38","163","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gsheets-update-row.js:26[38:40];Sink: [msg, null];gsheets-update-row.js:30[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gsheets-update-row.js:26[38:40];Sink: [null, msg];gsheets-update-row.js:64[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gsheets-update-row.js:26[38:40];Sink: [msg, null];gsheets-update-row.js:67[19:29]::FLOW_DESCR_END","/gsheets-update-row.js","26","38","26","40"

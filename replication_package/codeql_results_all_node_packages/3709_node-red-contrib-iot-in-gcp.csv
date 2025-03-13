@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigquery.js:28[30:32];Sink: msg;bigquery.js:50[23:25]::FLOW_DESCR_END","/bigquery.js","28","30","28","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;iotcore-device.js:58[25:39];Sink: mqttTopic;iotcore-device.js:161[37:45]::FLOW_DESCR_END","/iotcore-device.js","58","25","58","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;iotcore-device.js:130[51:55];Sink: error;iotcore-device.js:138[32:36]::FLOW_DESCR_END","/iotcore-device.js","130","51","130","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;iotcore-device.js:159[45:57];Sink: mqttTopic;iotcore-device.js:161[37:45]::FLOW_DESCR_END","/iotcore-device.js","159","45","159","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotcore-device.js:214[40:42];Sink: msg;iotcore-device.js:235[45:47]::FLOW_DESCR_END","/iotcore-device.js","214","40","214","42"

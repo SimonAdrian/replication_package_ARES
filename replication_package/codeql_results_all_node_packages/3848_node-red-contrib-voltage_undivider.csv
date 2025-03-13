@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:35[99:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:55[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:56[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:64[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:65[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:69[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:70[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:77[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:78[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:82[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:83[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;voltage_undivider.js:27[31:33];Sink: msg;voltage_undivider.js:271[19:21]::FLOW_DESCR_END","/voltage_undivider.js","27","31","27","33"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;56-twilio.js:51[34:36];Sink: msg;56-twilio.js:62[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;56-twilio.js:51[34:36];Sink: msg;56-twilio.js:68[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;56-twilio.js:51[34:36];Sink: msg;56-twilio.js:73[32:34]::FLOW_DESCR_END","/56-twilio.js","51","34","51","36"

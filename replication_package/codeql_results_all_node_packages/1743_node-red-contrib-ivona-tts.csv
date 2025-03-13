@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ivona-tts.js:130[31:33];Sink: [msg,null];ivona-tts.js:140[28:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona-tts.js:130[31:33];Sink: msg.file;ivona-tts.js:145[50:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona-tts.js:130[31:33];Sink: [null,msg];ivona-tts.js:160[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona-tts.js:130[31:33];Sink: [null,msg];ivona-tts.js:170[25:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona-tts.js:130[31:33];Sink: [msg, null];ivona-tts.js:176[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ivona-tts.js:130[31:33];Sink: [null,msg];ivona-tts.js:184[21:30]::FLOW_DESCR_END","/ivona-tts/ivona-tts.js","130","31","130","33"

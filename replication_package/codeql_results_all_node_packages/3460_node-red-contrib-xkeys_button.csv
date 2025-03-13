@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_button.js:19[27:31];Sink: error;xkeys_button.js:20[30:34]::FLOW_DESCR_END","/xkeys_button.js","19","27","19","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_button.js:22[23:27];Sink: error;xkeys_button.js:23[35:39]::FLOW_DESCR_END","/xkeys_button.js","22","23","22","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xkeys_button.js:28[61:63];Sink: 'Subscr ... ' + err;xkeys_button.js:34[15:43]::FLOW_DESCR_END","/xkeys_button.js","28","61","28","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;xkeys_button.js:28[66:72];Sink: ""Subscr ... ranted);xkeys_button.js:30[15:66]::FLOW_DESCR_END","/xkeys_button.js","28","66","28","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;xkeys_button.js:41[32:38];Sink: `Hello  ... arted `;xkeys_button.js:48[18:99]::FLOW_DESCR_END","/xkeys_button.js","41","32","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xkeys_button.js:178[29:31];Sink: JSON.st ... evice});xkeys_button.js:192[34:103]::FLOW_DESCR_END","/xkeys_button.js","178","29","178","31"

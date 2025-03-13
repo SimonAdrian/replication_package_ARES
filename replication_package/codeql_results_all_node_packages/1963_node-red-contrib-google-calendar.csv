@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addEvent.js:14[35:37];Sink: msg;addEvent.js:70[27:29]::FLOW_DESCR_END","/source/addEvent.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;addEvent.js:58[37:41];Sink: error;addEvent.js:60[32:36]::FLOW_DESCR_END","/source/addEvent.js","58","37","58","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getEvent.js:13[35:37];Sink: msg;getEvent.js:34[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getEvent.js:13[35:37];Sink: msg;getEvent.js:73[27:29]::FLOW_DESCR_END","/source/getEvent.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: delay;google.js:61[59:63];Sink: delay;google.js:63[45:49]::FLOW_DESCR_END","/source/google.js","61","59","61","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: delay;google.js:135[59:63];Sink: delay;google.js:137[45:49]::FLOW_DESCR_END","/source/google.js","135","59","135","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:213[27:59];Sink: credentials;google.js:251[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:213[27:59];Sink: credentials;google.js:267[51:61]::FLOW_DESCR_END","/source/google.js","213","27","213","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:234[21:23];Sink: ""reques ... "" + err;google.js:236[29:50]::FLOW_DESCR_END","/source/google.js","234","21","234","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:234[34:37];Sink: ""oauth  ... a.error;google.js:240[29:56]::FLOW_DESCR_END","/source/google.js","234","34","234","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:256[25:27];Sink: 'fetchi ... ' + err;google.js:258[33:72]::FLOW_DESCR_END","/source/google.js","256","25","256","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:256[38:41];Sink: 'fetchi ... message;google.js:262[33:50]::FLOW_DESCR_END","/source/google.js","256","38","256","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;google.js:263[33:50];Sink: 'fetchi ... message;google.js:262[33:50]::FLOW_DESCR_END","/source/google.js","263","33","263","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateEvent.js:19[36:38];Sink: msg;updateEvent.js:73[27:29]::FLOW_DESCR_END","/source/updateEvent.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;updateEvent.js:58[37:41];Sink: error;updateEvent.js:60[32:36]::FLOW_DESCR_END","/source/updateEvent.js","58","37","58","41"

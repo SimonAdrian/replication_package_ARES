@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frp-CombineAsArray.js:198[39:41];Sink: msg;frp-CombineAsArray.js:234[46:48]::FLOW_DESCR_END","/frp-CombineAsArray.js","198","39","198","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frp-CombineWith.js:200[39:41];Sink: msg;frp-CombineWith.js:236[46:48]::FLOW_DESCR_END","/frp-CombineWith.js","200","39","200","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frp-filter.js:181[39:41];Sink: msg;frp-filter.js:217[46:48]::FLOW_DESCR_END","/frp-filter.js","181","39","181","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frp-map.js:182[39:41];Sink: msg;frp-map.js:218[46:48]::FLOW_DESCR_END","/frp-map.js","182","39","182","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frp-scan.js:187[39:41];Sink: msg;frp-scan.js:223[46:48]::FLOW_DESCR_END","/frp-scan.js","187","39","187","41"

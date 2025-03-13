@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;castv2-sender.js:227[54:58];Sink: error;castv2-sender.js:228[37:41]::FLOW_DESCR_END","/castv2-sender.js","227","54","227","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;castv2-sender.js:652[39:41];Sink: msg;castv2-sender.js:694[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;castv2-sender.js:652[39:41];Sink: msg;castv2-sender.js:699[38:40]::FLOW_DESCR_END","/castv2-sender.js","652","39","652","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;DashCastController.js:14[24:27];Sink: data;DashCastController.js:18[33:36]::FLOW_DESCR_END","/lib/DashCastController.js","14","24","14","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;DashCastReceiver.js:13[23:28];Sink: status;DashCastReceiver.js:14[29:34]::FLOW_DESCR_END","/lib/DashCastReceiver.js","13","23","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;MediaController.js:16[24:27];Sink: status;MediaController.js:22[33:38]::FLOW_DESCR_END","/lib/MediaController.js","16","24","16","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.status[0];MediaController.js:18[26:39];Sink: status;MediaController.js:22[33:38]::FLOW_DESCR_END","/lib/MediaController.js","18","26","18","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;MediaReceiverBase.js:15[23:28];Sink: status;MediaReceiverBase.js:16[29:34]::FLOW_DESCR_END","/lib/MediaReceiverBase.js","15","23","15","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;YouTubeController.js:25[24:27];Sink: status;YouTubeController.js:31[31:36]::FLOW_DESCR_END","/lib/YouTubeController.js","25","24","25","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.status[0];YouTubeController.js:27[24:37];Sink: status;YouTubeController.js:31[31:36]::FLOW_DESCR_END","/lib/YouTubeController.js","27","24","27","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;YouTubeReceiver.js:14[23:28];Sink: status;YouTubeReceiver.js:15[29:34]::FLOW_DESCR_END","/lib/YouTubeReceiver.js","14","23","14","28"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: insert_queue.pop();insert.js:101[19:36];Sink: msg;insert.js:129[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: insert_queue.pop();insert.js:101[19:36];Sink: msg;insert.js:134[21:23]::FLOW_DESCR_END","/discovery-insert/insert.js","101","19","101","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insert.js:158[32:34];Sink: msg;insert.js:129[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insert.js:158[32:34];Sink: msg;insert.js:134[21:23]::FLOW_DESCR_END","/discovery-insert/insert.js","158","32","158","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update_queue.pop();update.js:108[19:36];Sink: msg;update.js:153[21:23]::FLOW_DESCR_END","/discovery-insert/update.js","108","19","108","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:169[34:36];Sink: msg;update.js:153[21:23]::FLOW_DESCR_END","/discovery-insert/update.js","169","34","169","36"

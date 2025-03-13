@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;project-link.js:775[33:35];Sink: err;project-link.js:784[28:30]::FLOW_DESCR_END","/nodes/project-link.js","775","33","775","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;project-link.js:775[38:42];Sink: `Expect ... Topic}`;project-link.js:779[27:83]::FLOW_DESCR_END","/nodes/project-link.js","775","38","775","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project-link.js:775[45:47];Sink: msg;project-link.js:784[33:35]::FLOW_DESCR_END","/nodes/project-link.js","775","45","775","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project-link.js:808[40:42];Sink: msg;project-link.js:809[22:24]::FLOW_DESCR_END","/nodes/project-link.js","808","40","808","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project-link.js:852[42:44];Sink: topic;project-link.js:546[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:852[42:44];Sink: message;project-link.js:546[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:852[42:44];Sink: responseTopic;project-link.js:870[54:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:852[42:44];Sink: msg;project-link.js:870[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:852[42:44];Sink: msg;project-link.js:882[53:55]::FLOW_DESCR_END","/nodes/project-link.js","852","42","852","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.pro ... k.pop();project-link.js:861[46:76];Sink: topic;project-link.js:546[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.pro ... k.pop();project-link.js:861[46:76];Sink: responseTopic;project-link.js:870[54:66]::FLOW_DESCR_END","/nodes/project-link.js","861","46","861","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;project-link.js:925[25:27];Sink: err;project-link.js:933[28:30]::FLOW_DESCR_END","/nodes/project-link.js","925","25","925","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project-link.js:925[37:39];Sink: msg;project-link.js:933[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:925[37:39];Sink: msg;project-link.js:1046[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:925[37:39];Sink: msg;project-link.js:1051[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:925[37:39];Sink: msg;project-link.js:1054[35:37]::FLOW_DESCR_END","/nodes/project-link.js","925","37","925","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;project-link.js:957[42:44];Sink: message;project-link.js:546[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;project-link.js:957[42:44];Sink: msg;project-link.js:1013[54:56]::FLOW_DESCR_END","/nodes/project-link.js","957","42","957","44"

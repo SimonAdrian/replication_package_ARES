@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-file-xlsx.js:13[23:26];Sink: [undefined,data];node-file-xlsx.js:91[22:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-file-xlsx.js:13[23:26];Sink: [data, undefined];node-file-xlsx.js:95[20:36]::FLOW_DESCR_END","/node-file-xlsx.js","13","23","13","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: XLSX.re ... rkbook);node-file-xlsx.js:49[20:42];Sink: wb;node-file-xlsx.js:83[24:25]::FLOW_DESCR_END","/node-file-xlsx.js","49","20","49","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-get-lines.js:17[27:30];Sink: data;node-get-lines.js:34[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-get-lines.js:17[27:30];Sink: data;node-get-lines.js:44[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-get-lines.js:17[27:30];Sink: data;node-get-lines.js:57[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-get-lines.js:17[27:30];Sink: data;node-get-lines.js:62[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-get-lines.js:17[27:30];Sink: data;node-get-lines.js:67[26:29]::FLOW_DESCR_END","/node-get-lines.js","17","27","17","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-log-line.js:22[27:30];Sink: data;node-log-line.js:91[38:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-log-line.js:22[27:30];Sink: data;node-log-line.js:106[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-log-line.js:22[27:30];Sink: data;node-log-line.js:122[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-log-line.js:22[27:30];Sink: data;node-log-line.js:126[31:34]::FLOW_DESCR_END","/node-log-line.js","22","27","22","30"

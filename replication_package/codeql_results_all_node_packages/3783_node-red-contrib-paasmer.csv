@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;paasmer-config.js:11[35:37];Sink: msg;paasmer-config.js:45[27:29]::FLOW_DESCR_END","/paasmer/paasmer-config.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;paasmer-iot.js:91[35:37];Sink: topicNa ... g.topic;paasmer-iot.js:109[56:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;paasmer-iot.js:91[35:37];Sink: msg.payload;paasmer-iot.js:109[80:90]::FLOW_DESCR_END","/paasmer/paasmer-iot.js","91","35","91","37"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;midi.js:135[35:37];Sink: msg.payload;midi.js:153[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;midi.js:135[35:37];Sink: msg.payload;midi.js:154[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;midi.js:135[35:37];Sink: msg.payload;midi.js:156[41:51]::FLOW_DESCR_END","/midi.js","135","35","135","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start.js:17[28:31];Sink: data.toString();start.js:18[15:29]::FLOW_DESCR_END","/project/start.js","17","28","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start.js:21[28:31];Sink: data.toString();start.js:22[15:29]::FLOW_DESCR_END","/project/start.js","21","28","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;start.js:25[22:25];Sink: `child  ... {code}`;start.js:26[15:54]::FLOW_DESCR_END","/project/start.js","25","22","25","25"

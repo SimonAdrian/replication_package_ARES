@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ftp.js:49[31:33];Sink: err;ftp.js:52[18:20]::FLOW_DESCR_END","/ftp.js","49","31","49","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp.js:66[32:34];Sink: msg;ftp.js:70[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:66[32:34];Sink: msg;ftp.js:81[19:21]::FLOW_DESCR_END","/ftp.js","66","32","66","34"

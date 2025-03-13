@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-handlers.js:93[38:41];Sink: errorMessage;error-handling.js:35[24:35]::FLOW_DESCR_END","/node-handlers.js","93","38","93","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;node-handlers.js:123[38:38];Sink: errorMessage;error-handling.js:35[24:35]::FLOW_DESCR_END","/node-handlers.js","123","38","123","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-handlers.js:148[32:34];Sink: msg;error-handling.js:35[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-handlers.js:148[32:34];Sink: msg;error-handling.js:37[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-handlers.js:148[32:34];Sink: JSON.st ... Object);node-handlers.js:127[23:48]::FLOW_DESCR_END","/node-handlers.js","148","32","148","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-handlers.js:163[32:34];Sink: msg;error-handling.js:35[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-handlers.js:163[32:34];Sink: msg;error-handling.js:37[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-handlers.js:163[32:34];Sink: JSON.st ... Object);node-handlers.js:127[23:48]::FLOW_DESCR_END","/node-handlers.js","163","32","163","34"

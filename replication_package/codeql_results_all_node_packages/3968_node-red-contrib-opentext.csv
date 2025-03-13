@@ -1,0 +1,51 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;capture.js:54[32:34];Sink: node.doc_id;capture.js:110[13:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;capture.js:54[32:34];Sink: node.output_type;capture.js:242[13:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;capture.js:54[32:34];Sink: Body;capture.js:248[14:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;capture.js:54[32:34];Sink: send_url;capture.js:271[13:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;capture.js:54[32:34];Sink: msg;capture.js:330[21:23]::FLOW_DESCR_END","/capture/capture.js","54","32","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;capture.js:276[39:46];Sink: respons ... Message;capture.js:281[24:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;capture.js:276[39:46];Sink: response.body;capture.js:282[26:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;capture.js:276[39:46];Sink: respons ... Message;capture.js:304[19:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;capture.js:276[39:46];Sink: response.body;capture.js:305[16:28]::FLOW_DESCR_END","/capture/capture.js","276","39","276","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;capture.js:276[49:52];Sink: node.doc_id;capture.js:110[13:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;capture.js:276[49:52];Sink: Body;capture.js:248[14:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;capture.js:276[49:52];Sink: n + "":  ... gm, """");capture.js:335[23:68]::FLOW_DESCR_END","/capture/capture.js","276","49","276","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;download.js:54[32:34];Sink: download_url;download.js:106[16:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download.js:54[32:34];Sink: node.contenttype;download.js:112[15:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download.js:54[32:34];Sink: download_url;download.js:118[14:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download.js:54[32:34];Sink: msg;download.js:211[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download.js:54[32:34];Sink: msg;download.js:212[21:23]::FLOW_DESCR_END","/download/download.js","54","32","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;download.js:156[39:46];Sink: download_url;download.js:106[16:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;download.js:156[39:46];Sink: node.contenttype;download.js:112[15:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;download.js:156[39:46];Sink: download_url;download.js:118[14:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;download.js:156[39:46];Sink: response.statusCode;download.js:159[16:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;download.js:156[39:46];Sink: respons ... Message;download.js:180[19:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;download.js:156[39:46];Sink: response.body;download.js:181[16:28]::FLOW_DESCR_END","/download/download.js","156","39","156","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ot2auth.js:54[32:34];Sink: msg;ot2auth.js:156[21:23]::FLOW_DESCR_END","/ot2auth/ot2auth.js","54","32","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ot2auth.js:112[54:57];Sink: n + "":  ... gm, """");ot2auth.js:161[23:68]::FLOW_DESCR_END","/ot2auth/ot2auth.js","112","54","112","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sign.js:56[32:34];Sink: Document;sign.js:109[17:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sign.js:56[32:34];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sign.js:56[32:34];Sink: msg;sign.js:203[21:23]::FLOW_DESCR_END","/signature/sign.js","56","32","56","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cor ... t.email;sign.js:82[26:59];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END","/signature/sign.js","82","26","82","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cor ... t.email;sign.js:84[27:60];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END","/signature/sign.js","84","27","84","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cor ... t.email;sign.js:86[18:51];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END","/signature/sign.js","86","18","86","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cor ... t.email;sign.js:88[25:58];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END","/signature/sign.js","88","25","88","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cor ... t.email;sign.js:90[24:57];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END","/signature/sign.js","90","24","90","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cor ... t.email;sign.js:92[24:57];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END","/signature/sign.js","92","24","92","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;sign.js:158[39:46];Sink: respons ... Message;sign.js:163[24:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;sign.js:158[39:46];Sink: response.body;sign.js:164[26:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;sign.js:158[39:46];Sink: respons ... Message;sign.js:177[19:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;sign.js:158[39:46];Sink: response.body;sign.js:178[16:28]::FLOW_DESCR_END","/signature/sign.js","158","39","158","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;sign.js:158[49:52];Sink: Document;sign.js:109[17:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;sign.js:158[49:52];Sink: Body;sign.js:132[14:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;sign.js:158[49:52];Sink: n + "":  ... gm, """");sign.js:208[23:68]::FLOW_DESCR_END","/signature/sign.js","158","49","158","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;upload.js:54[32:34];Sink: node.upload_type;upload.js:79[14:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:54[32:34];Sink: Body;upload.js:118[15:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:54[32:34];Sink: upload_url;upload.js:132[15:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:54[32:34];Sink: upload_url;upload.js:201[13:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:54[32:34];Sink: msg;upload.js:270[21:23]::FLOW_DESCR_END","/upload/upload.js","54","32","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;upload.js:218[39:46];Sink: respons ... Message;upload.js:224[26:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;upload.js:218[39:46];Sink: response.body;upload.js:225[26:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;upload.js:218[39:46];Sink: respons ... Message;upload.js:242[19:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;upload.js:218[39:46];Sink: response.body;upload.js:243[16:28]::FLOW_DESCR_END","/upload/upload.js","218","39","218","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;upload.js:218[49:52];Sink: n + "":  ... gm, """");upload.js:275[23:68]::FLOW_DESCR_END","/upload/upload.js","218","49","218","52"

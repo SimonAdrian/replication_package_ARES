@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp.js:161[40:42];Sink: msg.amq ... veryTag;amqp.js:164[64:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp.js:161[40:42];Sink: msg;amqp.js:192[31:33]::FLOW_DESCR_END","/lib/amqp.js","161","40","161","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp.js:220[40:42];Sink: node.to ... g.topic;amqp.js:228[42:64]::FLOW_DESCR_END","/lib/amqp.js","220","40","220","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;amqp.js:240[21:26];Sink: ""Connec ... ocation;amqp.js:298[30:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;amqp.js:240[21:26];Sink: ""AMQP s ... closed"";amqp.js:324[30:78]::FLOW_DESCR_END","/lib/amqp.js","240","21","240","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;amqp.js:241[21:26];Sink: ""Connec ... ocation;amqp.js:298[30:80]::FLOW_DESCR_END","/lib/amqp.js","241","21","241","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;amqp.js:264[35:43];Sink: ""Connec ... ocation;amqp.js:298[30:80]::FLOW_DESCR_END","/lib/amqp.js","264","35","264","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;amqp.js:264[53:61];Sink: ""Connec ... ocation;amqp.js:298[30:80]::FLOW_DESCR_END","/lib/amqp.js","264","53","264","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;amqp.js:324[58:66];Sink: ""AMQP s ... closed"";amqp.js:324[30:78]::FLOW_DESCR_END","/lib/amqp.js","324","58","324","66"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;melview-connection.js:46[47:54];Sink: respons ... ookie'];melview-connection.js:48[47:76]::FLOW_DESCR_END","/melview-connection.js","46","47","46","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;melview-connection.js:83[51:58];Sink: buildings;melview-connection.js:87[52:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;melview-connection.js:83[51:58];Sink: response;melview-connection.js:101[26:33]::FLOW_DESCR_END","/melview-connection.js","83","51","83","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;melview-unitcommand.js:67[36:38];Sink: msg;melview-unitcommand.js:99[35:37]::FLOW_DESCR_END","/melview-unitcommand.js","67","36","67","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;melview-unitcommand.js:96[48:52];Sink: error;melview-unitcommand.js:97[47:51]::FLOW_DESCR_END","/melview-unitcommand.js","96","48","96","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;melview-unitquery.js:11[36:38];Sink: msg;melview-unitquery.js:20[27:29]::FLOW_DESCR_END","/melview-unitquery.js","11","36","11","38"

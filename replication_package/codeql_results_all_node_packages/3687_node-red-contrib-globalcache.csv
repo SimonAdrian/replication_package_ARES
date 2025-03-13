@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;globalcache.js:42[64:74];Sink: 'config ... e + ']';globalcache.js:42[22:128]::FLOW_DESCR_END","/globalcache.js","42","64","42","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;globalcache.js:42[84:94];Sink: 'config ... e + ']';globalcache.js:42[22:128]::FLOW_DESCR_END","/globalcache.js","42","84","42","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;globalcache.js:58[61:71];Sink: 'discon ... e + ']';globalcache.js:58[22:125]::FLOW_DESCR_END","/globalcache.js","58","61","58","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;globalcache.js:58[81:91];Sink: 'discon ... e + ']';globalcache.js:58[22:125]::FLOW_DESCR_END","/globalcache.js","58","81","58","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;globalcache.js:81[36:38];Sink: payload;globalcache.js:112[23:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;globalcache.js:81[36:38];Sink: justnow;globalcache.js:112[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;globalcache.js:81[36:38];Sink: data;globalcache.js:158[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;globalcache.js:81[36:38];Sink: justnow;globalcache.js:158[43:49]::FLOW_DESCR_END","/globalcache.js","81","36","81","38"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;email.js:15[39:41];Sink: err;email.js:16[34:36]::FLOW_DESCR_END","/src/email.js","15","39","15","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;email.js:74[33:35];Sink: msg;email.js:133[26:28]::FLOW_DESCR_END","/src/email.js","74","33","74","35"

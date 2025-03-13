@@ -1,0 +1,29 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _this.deviceId;modem.js:256[53:66];Sink: error;modem.js:540[32:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _this.deviceId;modem.js:256[53:66];Sink: error;modem.js:543[38:42]::FLOW_DESCR_END","/lib/modem.js","256","53","256","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: lib.getCredentials();cloud.js:24[28:47];Sink: 'Connec ... lientId;lib.js:52[20:74]::FLOW_DESCR_END","/nodes/cloud/cloud.js","24","28","24","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');lib.js:16[58:114];Sink: 'Connec ... lientId;lib.js:52[20:74]::FLOW_DESCR_END","/nodes/cloud/lib.js","16","58","16","114"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');lib.js:17[42:102];Sink: this.broker;lib.js:50[27:37]::FLOW_DESCR_END","/nodes/cloud/lib.js","17","42","17","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: c.username;lib.js:19[15:24];Sink: 'Connec ... lientId;lib.js:52[20:74]::FLOW_DESCR_END","/nodes/cloud/lib.js","19","15","19","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lib.js:60[32:34];Sink: err;lib.js:61[20:22]::FLOW_DESCR_END","/nodes/cloud/lib.js","60","32","60","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fullTopic;lib.js:72[34:42];Sink: topic;lib.js:84[31:35]::FLOW_DESCR_END","/nodes/cloud/lib.js","72","34","72","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lib.js:111[48:50];Sink: 'Failed ... tring();lib.js:113[24:73]::FLOW_DESCR_END","/nodes/cloud/lib.js","111","48","111","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;lib.js:111[53:59];Sink: granted;lib.js:117[20:26]::FLOW_DESCR_END","/nodes/cloud/lib.js","111","53","111","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lib.js:59[29:31];Sink: topic;lib.js:105[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lib.js:59[29:31];Sink: message;lib.js:105[40:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lib.js:59[29:31];Sink: sf;lib.js:105[49:50]::FLOW_DESCR_END","/nodes/cloud-publish/lib.js","59","29","59","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;lib.js:108[31:36];Sink: status;lib.js:110[17:22]::FLOW_DESCR_END","/nodes/cloud-publish/lib.js","108","31","108","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloud-subscribe.js:25[28:30];Sink: msg;cloud-subscribe.js:26[25:27]::FLOW_DESCR_END","/nodes/cloud-subscribe/cloud-subscribe.js","25","28","25","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloud-subscribe.js:28[33:35];Sink: message;cloud-subscribe.js:43[23:29]::FLOW_DESCR_END","/nodes/cloud-subscribe/cloud-subscribe.js","28","33","28","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;digital-output.js:76[33:35];Sink: msg;digital-output.js:110[27:29]::FLOW_DESCR_END","/nodes/digital-output/digital-output.js","76","33","76","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms.js:9[36:38];Sink: msg;sms.js:13[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms.js:9[36:38];Sink: msg;sms.js:19[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms.js:9[36:38];Sink: msg;sms.js:23[27:29]::FLOW_DESCR_END","/nodes/sms/sms.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;sms-gate.js:53[37:41];Sink: 'Modem  ... message;sms-gate.js:54[23:53]::FLOW_DESCR_END","/nodes/sms-gate/sms-gate.js","53","37","53","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sms-gate.js:59[60:63];Sink: data;sms-gate.js:59[117:120]::FLOW_DESCR_END","/nodes/sms-gate/sms-gate.js","59","60","59","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms-response.js:17[36:38];Sink: msg;sms-response.js:27[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms-response.js:17[36:38];Sink: msg;sms-response.js:40[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms-response.js:17[36:38];Sink: msg;sms-response.js:52[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms-response.js:17[36:38];Sink: msg;sms-response.js:64[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms-response.js:17[36:38];Sink: msg;sms-response.js:76[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms-response.js:17[36:38];Sink: msg;sms-response.js:88[31:33]::FLOW_DESCR_END","/nodes/sms-response/sms-response.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms-status.js:9[36:38];Sink: msg;sms-status.js:15[23:25]::FLOW_DESCR_END","/nodes/sms-status/sms-status.js","9","36","9","38"

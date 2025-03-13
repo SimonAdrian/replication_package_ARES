@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-sensit.js:13[27:30];Sink: data;node-sensit.js:110[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-sensit.js:13[27:30];Sink: data;node-sensit.js:133[19:22]::FLOW_DESCR_END","/node-sensit.js","13","27","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node-sensit.js:63[30:33];Sink: req.url;node-sensit.js:66[17:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;node-sensit.js:63[30:33];Sink: data;node-sensit.js:110[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;node-sensit.js:63[30:33];Sink: data;node-sensit.js:133[19:22]::FLOW_DESCR_END","/node-sensit.js","63","30","63","33"

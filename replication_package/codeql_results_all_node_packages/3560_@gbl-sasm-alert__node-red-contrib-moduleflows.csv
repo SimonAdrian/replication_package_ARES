@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moduleflows.js:153[31:33];Sink: msg;moduleflows.js:154[17:19]::FLOW_DESCR_END","/nodes/moduleflows.js","153","31","153","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moduleflows.js:171[32:34];Sink: msg;moduleflows.js:205[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moduleflows.js:171[32:34];Sink: msg;moduleflows.js:211[60:62]::FLOW_DESCR_END","/nodes/moduleflows.js","171","32","171","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;moduleflows.js:229[41:46];Sink: status;moduleflows.js:231[19:24]::FLOW_DESCR_END","/nodes/moduleflows.js","229","41","229","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moduleflows.js:240[32:34];Sink: msg[""GBL__""];moduleflows.js:242[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moduleflows.js:240[32:34];Sink: msg;moduleflows.js:246[17:19]::FLOW_DESCR_END","/nodes/moduleflows.js","240","32","240","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moduleflows.js:257[32:34];Sink: msg.__GBLstack.pop();moduleflows.js:259[25:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moduleflows.js:257[32:34];Sink: msg;moduleflows.js:259[47:49]::FLOW_DESCR_END","/nodes/moduleflows.js","257","32","257","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;submoduleflows.js:14[41:46];Sink: status;submoduleflows.js:15[19:24]::FLOW_DESCR_END","/nodes/submoduleflows.js","14","41","14","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;submoduleflows.js:23[32:34];Sink: msg;submoduleflows.js:24[17:19]::FLOW_DESCR_END","/nodes/submoduleflows.js","23","32","23","34"

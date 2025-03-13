@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: member;99-matrixbot.js:34[66:71];Sink: ""Trying ... .roomId;99-matrixbot.js:36[15:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;99-matrixbot.js:34[66:71];Sink: ""Automa ... .roomId;99-matrixbot.js:38[16:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;99-matrixbot.js:34[66:71];Sink: ""Cannot ... : "" + e;99-matrixbot.js:40[17:94]::FLOW_DESCR_END","/matrixbot/99-matrixbot.js","34","66","34","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-matrixbot.js:130[36:38];Sink: ""Sendin ... payload;99-matrixbot.js:138[20:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-matrixbot.js:130[36:38];Sink: destRoom;99-matrixbot.js:150[52:59]::FLOW_DESCR_END","/matrixbot/99-matrixbot.js","130","36","130","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: room;99-matrixbot.js:248[69:72];Sink: ""Receiv ... ().body;99-matrixbot.js:264[6:105]::FLOW_DESCR_END","/matrixbot/99-matrixbot.js","248","69","248","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: room;99-matrixbot.js:310[69:72];Sink: ""Receiv ... ().body;99-matrixbot.js:326[6:105]::FLOW_DESCR_END","/matrixbot/99-matrixbot.js","310","69","310","72"

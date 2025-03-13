@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;autosuggest-service.js:40[34:36];Sink: msg;autosuggest-service.js:51[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;autosuggest-service.js:40[34:36];Sink: msg;autosuggest-service.js:258[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;autosuggest-service.js:40[34:36];Sink: msg;autosuggest-service.js:263[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;autosuggest-service.js:40[34:36];Sink: msg;autosuggest-service.js:313[85:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;autosuggest-service.js:40[34:36];Sink: msg;autosuggest-service.js:316[40:42]::FLOW_DESCR_END","/autosuggest-service.js","40","34","40","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;autosuggest-service.js:310[36:38];Sink: err;autosuggest-service.js:316[36:38]::FLOW_DESCR_END","/autosuggest-service.js","310","36","310","38"

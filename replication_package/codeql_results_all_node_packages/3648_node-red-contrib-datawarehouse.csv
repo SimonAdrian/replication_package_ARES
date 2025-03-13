@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;datawarehouse-save.js:8[31:33];Sink: msg.topic;datawarehouse-save.js:19[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;datawarehouse-save.js:8[31:33];Sink: msg.payload;datawarehouse-save.js:19[37:47]::FLOW_DESCR_END","/datawarehouse-save.js","8","31","8","33"

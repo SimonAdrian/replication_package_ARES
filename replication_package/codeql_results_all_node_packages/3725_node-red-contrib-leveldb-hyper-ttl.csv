@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:56[35:37];Sink: msg.topic;leveldb-hyper-ttl.js:60[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:56[35:37];Sink: msg;leveldb-hyper-ttl.js:67[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:56[35:37];Sink: msg;leveldb-hyper-ttl.js:72[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","56","35","56","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:87[35:37];Sink: msg.topic;leveldb-hyper-ttl.js:100[53:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:87[35:37];Sink: msg.payload;leveldb-hyper-ttl.js:100[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:87[35:37];Sink: msg.topic;leveldb-hyper-ttl.js:106[53:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:87[35:37];Sink: msg.payload;leveldb-hyper-ttl.js:106[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:87[35:37];Sink: msg;leveldb-hyper-ttl.js:116[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","87","35","87","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:130[35:37];Sink: msg;leveldb-hyper-ttl.js:145[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","130","35","130","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:159[35:37];Sink: msg;leveldb-hyper-ttl.js:177[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:159[35:37];Sink: msg;leveldb-hyper-ttl.js:185[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:159[35:37];Sink: msg;leveldb-hyper-ttl.js:194[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:159[35:37];Sink: msg;leveldb-hyper-ttl.js:199[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","159","35","159","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;leveldb-hyper-ttl.js:190[53:56];Sink: data;leveldb-hyper-ttl.js:191[24:27]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","190","53","190","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:213[35:37];Sink: msg;leveldb-hyper-ttl.js:239[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:213[35:37];Sink: msg;leveldb-hyper-ttl.js:256[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:213[35:37];Sink: msg;leveldb-hyper-ttl.js:273[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:213[35:37];Sink: msg;leveldb-hyper-ttl.js:278[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","213","35","213","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:293[35:37];Sink: 'overri ... l '+ttl;leveldb-hyper-ttl.js:300[37:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:293[35:37];Sink: msg;leveldb-hyper-ttl.js:313[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","293","35","293","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:327[35:37];Sink: msg;leveldb-hyper-ttl.js:342[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","327","35","327","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;leveldb-hyper-ttl.js:359[35:37];Sink: msg;leveldb-hyper-ttl.js:380[52:54]::FLOW_DESCR_END","/leveldb-hyper-ttl.js","359","35","359","37"

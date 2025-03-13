@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;threshold-control.js:69[32:34];Sink: [message, null];threshold-control.js:45[23:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;threshold-control.js:69[32:34];Sink: [null, message];threshold-control.js:49[23:37]::FLOW_DESCR_END","/src/nodes/threshold-control.js","69","32","69","34"

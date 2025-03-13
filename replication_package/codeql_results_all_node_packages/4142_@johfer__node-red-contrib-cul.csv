@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;cul.js:106[49:55];Sink: message;cul.js:107[74:80]::FLOW_DESCR_END","/cul.js","106","49","106","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cul.js:139[30:32];Sink: 'culout ... ) + ']';cul.js:140[13:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul.js:139[30:32];Sink: payload;cul.js:152[34:40]::FLOW_DESCR_END","/cul.js","139","30","139","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;cul.js:249[27:33];Sink: 'Messag ... essage);cul.js:250[13:57]::FLOW_DESCR_END","/cul.js","249","27","249","33"

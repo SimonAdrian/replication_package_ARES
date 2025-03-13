@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;pushstaq.js:60[46:50];Sink: errorMessage;pushstaq.js:83[44:55]::FLOW_DESCR_END","/pushstaq.js","60","46","60","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pushstaq.js:89[36:38];Sink: errorMessage;pushstaq.js:94[32:43]::FLOW_DESCR_END","/pushstaq.js","89","36","89","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pushstaq.js:112[36:38];Sink: msg;pushstaq.js:83[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pushstaq.js:112[36:38];Sink: msg;pushstaq.js:94[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pushstaq.js:112[36:38];Sink: data;pushstaq.js:98[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pushstaq.js:112[36:38];Sink: msg;pushstaq.js:127[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pushstaq.js:112[36:38];Sink: msg;pushstaq.js:135[91:93]::FLOW_DESCR_END","/pushstaq.js","112","36","112","38"

@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grade.js:8[35:37];Sink: msg;grade.js:32[23:25]::FLOW_DESCR_END","/membership/grade.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;input.js:7[35:37];Sink: msg;input.js:17[23:25]::FLOW_DESCR_END","/membership/input.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reverse_grade.js:8[35:37];Sink: msg;reverse_grade.js:31[23:25]::FLOW_DESCR_END","/membership/reverse_grade.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trapezoid.js:10[35:37];Sink: msg;trapezoid.js:38[23:25]::FLOW_DESCR_END","/membership/trapezoid.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;triangle.js:9[35:37];Sink: msg;triangle.js:35[23:25]::FLOW_DESCR_END","/membership/triangle.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aggregation.js:9[35:37];Sink: es;aggregation.js:26[44:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aggregation.js:9[35:37];Sink: msg;aggregation.js:49[23:25]::FLOW_DESCR_END","/output/aggregation.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;implication.js:8[35:37];Sink: msg;implication.js:34[23:25]::FLOW_DESCR_END","/output/implication.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;outmf.js:7[35:37];Sink: msg;outmf.js:30[23:25]::FLOW_DESCR_END","/output/outmf.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;and.js:17[35:37];Sink: es;and.js:43[44:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;and.js:17[35:37];Sink: msg;and.js:54[27:29]::FLOW_DESCR_END","/rule/and.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;not.js:17[35:37];Sink: msg;not.js:37[23:25]::FLOW_DESCR_END","/rule/not.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;or.js:17[35:37];Sink: es;or.js:43[44:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;or.js:17[35:37];Sink: msg;or.js:54[27:29]::FLOW_DESCR_END","/rule/or.js","17","35","17","37"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebird-db.js:101[39:41];Sink: msg;firebird-db.js:108[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firebird-db.js:101[39:41];Sink: msg;firebird-db.js:113[35:37]::FLOW_DESCR_END","/firebird-db.js","101","39","101","41"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .fname);downloadfile_spec.js:43[13:41];Sink: JSON.st ... ull, 2);downloadfile_spec.js:162[11:50]::FLOW_DESCR_END","/test/downloadfile_spec.js","43","13","43","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;downloadfile_spec.js:206[45:48];Sink: data.to ... .trim();downloadfile_spec.js:207[32:53]::FLOW_DESCR_END","/test/downloadfile_spec.js","206","45","206","48"

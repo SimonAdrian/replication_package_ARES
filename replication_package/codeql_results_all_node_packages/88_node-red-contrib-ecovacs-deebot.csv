@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.payload;ecovacs-deebot.js:432[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.arg;ecovacs-deebot.js:432[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.arg2;ecovacs-deebot.js:432[59:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.arg3;ecovacs-deebot.js:432[69:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.payload;ecovacs-deebot.js:434[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.arg;ecovacs-deebot.js:434[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.arg2;ecovacs-deebot.js:434[59:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.payload;ecovacs-deebot.js:436[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.arg;ecovacs-deebot.js:436[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecovacs-deebot.js:411[27:29];Sink: msg.payload;ecovacs-deebot.js:438[37:47]::FLOW_DESCR_END","/nodes/ecovacs-deebot.js","411","27","411","29"

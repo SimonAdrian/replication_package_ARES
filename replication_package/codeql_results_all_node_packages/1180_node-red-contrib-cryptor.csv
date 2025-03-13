@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decryptor.js:31[35:37];Sink: msg;decryptor.js:33[23:25]::FLOW_DESCR_END","/decryptionNode/decryptor.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encryptor.js:31[35:37];Sink: msg;encryptor.js:33[23:25]::FLOW_DESCR_END","/encryptionNode/encryptor.js","31","35","31","37"

@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;add-item.js:13[36:38];Sink: ""### fi ... ilename;add-item.js:25[25:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add-item.js:13[36:38];Sink: 'File n ... ilename;add-item.js:30[33:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add-item.js:13[36:38];Sink: filename;add-item.js:31[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add-item.js:13[36:38];Sink: filename;add-item.js:41[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add-item.js:13[36:38];Sink: msg;add-item.js:43[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add-item.js:13[36:38];Sink: ""File "" ...  empty"";add-item.js:45[27:58]::FLOW_DESCR_END","/add-item.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');add-item.js:27[31:64];Sink: ""1 -"" + fileContent;add-item.js:37[25:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');add-item.js:27[31:64];Sink: fileContent;add-item.js:41[44:54]::FLOW_DESCR_END","/add-item.js","27","31","27","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');add-item.js:32[35:68];Sink: ""1 -"" + fileContent;add-item.js:37[25:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');add-item.js:32[35:68];Sink: fileContent;add-item.js:41[44:54]::FLOW_DESCR_END","/add-item.js","32","35","32","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hello-world.js:5[35:37];Sink: msg;hello-world.js:7[23:25]::FLOW_DESCR_END","/hello-world.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-list.js:11[36:38];Sink: ""### fi ... ilename;read-list.js:22[25:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-list.js:11[36:38];Sink: msg;read-list.js:31[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-list.js:11[36:38];Sink: ""File "" ...  empty"";read-list.js:34[27:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read-list.js:11[36:38];Sink: msg;read-list.js:37[27:29]::FLOW_DESCR_END","/read-list.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');read-list.js:23[27:60];Sink: ""1 -"" + fileContent;read-list.js:24[25:43]::FLOW_DESCR_END","/read-list.js","23","27","23","60"

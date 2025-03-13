@@ -1,0 +1,30 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: 'new de ... t.devid;particle.js:106[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: 'new pr ... dOrSlug;particle.js:115[18:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: '\tDevi ... oSendTo;particle.js:144[60:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: '\tProd ... dOrSlug;particle.js:162[17:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: 'Add de ... ptions);particle.js:174[60:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: 'Naming ... ptions);particle.js:178[60:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:88[21:23];Sink: 'Claimi ... ptions);particle.js:182[60:104]::FLOW_DESCR_END","/particle/particle.js","88","21","88","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: that.pc ... sstoken;particle.js:94[11:45];Sink: 'Add de ... ptions);particle.js:174[60:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: that.pc ... sstoken;particle.js:94[11:45];Sink: 'Naming ... ptions);particle.js:178[60:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: that.pc ... sstoken;particle.js:94[11:45];Sink: 'Claimi ... ptions);particle.js:182[60:104]::FLOW_DESCR_END","/particle/particle.js","94","11","94","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;particle.js:397[25:28];Sink: JSON.stringify(data);particle.js:403[20:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;particle.js:397[25:28];Sink: JSON.stringify(data);particle.js:407[21:40]::FLOW_DESCR_END","/particle/particle.js","397","25","397","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;particle.js:426[25:29];Sink: JSON.st ... (error);particle.js:432[18:38]::FLOW_DESCR_END","/particle/particle.js","426","25","426","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;particle.js:524[21:23];Sink: 'New pu ... evtname;particle.js:541[17:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:524[21:23];Sink: 'New pa ... t.param;particle.js:551[17:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:524[21:23];Sink: 'evtnam ... t.param;particle.js:568[7:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:524[21:23];Sink: 'shortc ... evtname;particle.js:598[17:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:524[21:23];Sink: 'Publis ... ptions);particle.js:695[15:60]::FLOW_DESCR_END","/particle/particle.js","524","21","524","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: that.pc ... sstoken;particle.js:674[18:52];Sink: 'Publis ... ptions);particle.js:695[15:60]::FLOW_DESCR_END","/particle/particle.js","674","18","674","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: 'new de ... t.devid;particle.js:780[17:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: 'new fu ... t.fname;particle.js:788[17:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: 'new pa ... t.param;particle.js:796[17:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: 'shortc ... t.param;particle.js:810[17:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: '\t\tDe ... oSendTo;particle.js:904[15:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: '\t\tFu ... t.fname;particle.js:905[15:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:769[21:23];Sink: '\t\tPa ... mToSend;particle.js:906[15:48]::FLOW_DESCR_END","/particle/particle.js","769","21","769","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;particle.js:995[20:22];Sink: 'new de ... t.devid;particle.js:1005[17:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:995[20:22];Sink: 'new va ... .getvar;particle.js:1013[17:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:995[20:22];Sink: '\t\tDe ... t.devid;particle.js:1068[15:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;particle.js:995[20:22];Sink: '\t\tVa ... .getvar;particle.js:1069[15:49]::FLOW_DESCR_END","/particle/particle.js","995","20","995","22"

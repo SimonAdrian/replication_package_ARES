@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... message;tankerkoenig-prices.js:40[20:40];Sink: error;tankerkoenig-prices.js:70[18:22]::FLOW_DESCR_END","/tankerkoenig-prices/tankerkoenig-prices.js","40","20","40","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tankerkoenig-prices.js:82[22:24];Sink: msg;tankerkoenig-prices.js:65[9:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tankerkoenig-prices.js:82[22:24];Sink: error;tankerkoenig-prices.js:70[18:22]::FLOW_DESCR_END","/tankerkoenig-prices/tankerkoenig-prices.js","82","22","82","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... message;tankerkoenig-search.js:30[20:40];Sink: error;tankerkoenig-search.js:48[18:22]::FLOW_DESCR_END","/tankerkoenig-search/tankerkoenig-search.js","30","20","30","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tankerkoenig-search.js:63[22:24];Sink: msg;tankerkoenig-search.js:44[9:11]::FLOW_DESCR_END","/tankerkoenig-search/tankerkoenig-search.js","63","22","63","24"

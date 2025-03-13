@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mtopic;ha-bemfa.js:15[51:56];Sink: mtopic;ha-bemfa.js:20[33:38]::FLOW_DESCR_END","/ha-bemfa.js","15","51","15","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;ha-bemfa.js:15[59:66];Sink: payload;ha-bemfa.js:20[41:47]::FLOW_DESCR_END","/ha-bemfa.js","15","59","15","66"

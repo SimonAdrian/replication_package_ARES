@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: ""bright ... ()+""\n"";neopixel.js:60[40:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: ""Invali ... : ""+pay;neopixel.js:81[42:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: ""Invali ... : ""+pay;neopixel.js:89[46:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: pay+""\n"";neopixel.js:103[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: parts.join("","")+""\n"";neopixel.js:113[44:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: ""Invali ... : ""+pay;neopixel.js:115[34:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neopixel.js:58[32:34];Sink: node.bgnd+""\n"";neopixel.js:163[44:57]::FLOW_DESCR_END","/neopixel.js","58","32","58","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;neopixel.js:125[52:55];Sink: ""out: ""+data+"" :"";neopixel.js:126[54:70]::FLOW_DESCR_END","/neopixel.js","125","52","125","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;neopixel.js:129[52:55];Sink: ""err: ""+data+"" :"";neopixel.js:130[54:70]::FLOW_DESCR_END","/neopixel.js","129","52","129","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;neopixel.js:143[46:48];Sink: RED._("" ... r.errno;neopixel.js:146[35:81]::FLOW_DESCR_END","/neopixel.js","143","46","143","48"

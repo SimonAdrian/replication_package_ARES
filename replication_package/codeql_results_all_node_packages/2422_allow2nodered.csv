@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;check.js:109[40:42];Sink: msg;check.js:104[28:30]::FLOW_DESCR_END","/Allow2/check.js","109","40","109","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textStatus;pairing.html:43[64:73];Sink: textStatus;pairing.html:45[46:55]::FLOW_DESCR_END","/Allow2/pairing.html","43","64","43","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... stFile);pairing.js:28[25:52];Sink: data;pairing.js:84[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... stFile);pairing.js:28[25:52];Sink: persist;pairing.js:86[40:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... stFile);pairing.js:28[25:52];Sink: nodeData;pairing.js:93[52:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... stFile);pairing.js:28[25:52];Sink: data;pairing.js:109[35:38]::FLOW_DESCR_END","/Allow2/pairing.js","28","25","28","52"

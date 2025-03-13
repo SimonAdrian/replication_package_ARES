@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:198[36:38];Sink: ""Digita ... payload;grovepi.js:200[51:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:198[36:38];Sink: 'Digita ... + state;GrovePiBoard.js:231[23:57]::FLOW_DESCR_END","/grovepi.js","198","36","198","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:244[36:38];Sink: ""LcdRGB ... ad.text;grovepi.js:247[52:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:244[36:38];Sink: r;GrovePiBoard.js:36[40:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:244[36:38];Sink: g;GrovePiBoard.js:37[40:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:244[36:38];Sink: b;GrovePiBoard.js:38[40:40]::FLOW_DESCR_END","/grovepi.js","244","36","244","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:289[36:38];Sink: ""Analog ... payload;grovepi.js:291[51:106]::FLOW_DESCR_END","/grovepi.js","289","36","289","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ultraso ... .read();GrovePiBoard.js:209[18:40];Sink: ""Analog ... esponse;grovepi.js:52[52:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ultraso ... .read();GrovePiBoard.js:209[18:40];Sink: ""Digita ... esponse;grovepi.js:104[51:84]::FLOW_DESCR_END","/lib/GrovePiBoard.js","209","18","209","40"

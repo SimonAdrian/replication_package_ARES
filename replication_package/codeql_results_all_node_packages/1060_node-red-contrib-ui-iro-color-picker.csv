@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: color;ui-iro-color-picker.js:766[88:92];Sink: colorHex8String;ui-iro-color-picker.js:670[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: color;ui-iro-color-picker.js:766[88:92];Sink: $scope.iroColorValue;ui-iro-color-picker.js:926[72:91]::FLOW_DESCR_END","/ui-iro-color-picker.js","766","88","766","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: color;ui-iro-color-picker.js:772[89:93];Sink: colorHex8String;ui-iro-color-picker.js:670[84:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: color;ui-iro-color-picker.js:772[89:93];Sink: $scope.iroColorValue;ui-iro-color-picker.js:926[72:91]::FLOW_DESCR_END","/ui-iro-color-picker.js","772","89","772","93"

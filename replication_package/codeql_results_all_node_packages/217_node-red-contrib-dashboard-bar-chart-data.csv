@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg;bar-chart-data.js:25[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.topic + '_last';bar-chart-data.js:43[12:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topics[i] + '_data';bar-chart-data.js:59[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topics[i] + '_last';bar-chart-data.js:60[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topic + '_data';bar-chart-data.js:100[13:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: restoredData;bar-chart-data.js:100[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topic + ... ounter';bar-chart-data.js:101[13:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.data_counter[i];bar-chart-data.js:101[38:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topic + '_last';bar-chart-data.js:103[14:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topic + '_last';bar-chart-data.js:105[14:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topics;bar-chart-data.js:109[22:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.topic + '_data';bar-chart-data.js:117[23:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.top ... ounter';bar-chart-data.js:118[30:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.topic + '_last';bar-chart-data.js:128[24:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.topic + '_last';bar-chart-data.js:129[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.top ... ounter';bar-chart-data.js:179[13:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: msg.topic + '_data';bar-chart-data.js:184[12:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bar-chart-data.js:6[30:32];Sink: topics;bar-chart-data.js:349[24:29]::FLOW_DESCR_END","/bar-chart-data.js","6","30","6","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i];bar-chart-data.js:94[19:25];Sink: restoredData;bar-chart-data.js:100[30:41]::FLOW_DESCR_END","/bar-chart-data.js","94","19","94","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topicData[i2];bar-chart-data.js:97[29:41];Sink: restoredData;bar-chart-data.js:100[30:41]::FLOW_DESCR_END","/bar-chart-data.js","97","29","97","41"

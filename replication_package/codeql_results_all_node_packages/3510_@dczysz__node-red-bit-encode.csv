@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bit-decode.js:10[23:25];Sink: msg;bit-decode.js:13[19:21]::FLOW_DESCR_END","/nodes/bit-decode.js","10","23","10","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bit-encode.js:10[23:25];Sink: msg;bit-encode.js:13[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bit-encode.js:10[23:25];Sink: e.message;bit-encode.js:15[20:28]::FLOW_DESCR_END","/nodes/bit-encode.js","10","23","10","25"

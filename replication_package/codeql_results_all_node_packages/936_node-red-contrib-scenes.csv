@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scene.js:10[36:38];Sink: id;scene.js:12[23:24]::FLOW_DESCR_END","/nodes/scene.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scene.ts:12[31:33];Sink: id;scene.ts:14[17:18]::FLOW_DESCR_END","/src/nodes/scene.ts","12","31","12","33"

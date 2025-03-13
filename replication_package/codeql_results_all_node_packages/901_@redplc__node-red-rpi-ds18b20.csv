@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-ds18b20-fs.js:67[36:38];Sink: msg;redplc-ds18b20-fs.js:69[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-ds18b20-fs.js:67[36:38];Sink: msg;redplc-ds18b20-fs.js:79[23:25]::FLOW_DESCR_END","/nodes/redplc-ds18b20-fs.js","67","36","67","38"

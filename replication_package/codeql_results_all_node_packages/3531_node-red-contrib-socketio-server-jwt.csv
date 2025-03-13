@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;socketio.js:18[17:22];Sink: ""Create ...  bindOn;socketio.js:56[14:39]::FLOW_DESCR_END","/socketio.js","18","17","18","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;socketio.js:55[22:30];Sink: ""Create ...  bindOn;socketio.js:56[14:39]::FLOW_DESCR_END","/socketio.js","55","22","55","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;socketio.js:181[36:41];Sink: 'discon ... cket.id;socketio.js:70[18:42]::FLOW_DESCR_END","/socketio.js","181","36","181","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;socketio.js:194[37:39];Sink: `connec ... ssage}`;socketio.js:196[23:59]::FLOW_DESCR_END","/socketio.js","194","37","194","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.socketIOEvent;socketio.js:251[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.payload;socketio.js:251[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.socketIOEvent;socketio.js:261[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.payload;socketio.js:261[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.socketIOEvent;socketio.js:267[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.payload;socketio.js:267[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.socketIOEvent;socketio.js:272[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:214[31:33];Sink: msg.payload;socketio.js:272[38:48]::FLOW_DESCR_END","/socketio.js","214","31","214","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio.js:283[31:33];Sink: msg;socketio.js:288[19:21]::FLOW_DESCR_END","/socketio.js","283","31","283","33"

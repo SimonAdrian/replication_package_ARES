@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather.js:20[30:32];Sink: 'HTTP ' ... ns.path;weather.js:212[12:104]::FLOW_DESCR_END","/weather/weather.js","20","30","20","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;weather.js:212[78:89];Sink: 'HTTP ' ... ns.path;weather.js:212[12:104]::FLOW_DESCR_END","/weather/weather.js","212","78","212","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;weather.js:227[21:21];Sink: err;weather.js:42[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;weather.js:227[21:21];Sink: err;weather.js:63[20:22]::FLOW_DESCR_END","/weather/weather.js","227","21","227","21"

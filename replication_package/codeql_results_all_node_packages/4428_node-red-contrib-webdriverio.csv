@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:10[34:36];Sink: msg;webdriverio.js:13[19:21]::FLOW_DESCR_END","/webdriverio.js","10","34","10","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:20[36:38];Sink: msg;webdriverio.js:24[23:25]::FLOW_DESCR_END","/webdriverio.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:32[36:38];Sink: msg;webdriverio.js:36[23:25]::FLOW_DESCR_END","/webdriverio.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:98[36:38];Sink: msg;webdriverio.js:102[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdriverio.js:98[36:38];Sink: msg;webdriverio.js:107[25:27]::FLOW_DESCR_END","/webdriverio.js","98","36","98","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:117[36:38];Sink: msg;webdriverio.js:121[23:25]::FLOW_DESCR_END","/webdriverio.js","117","36","117","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:129[36:38];Sink: msg;webdriverio.js:132[23:25]::FLOW_DESCR_END","/webdriverio.js","129","36","129","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:140[36:38];Sink: [msg, null];webdriverio.js:145[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdriverio.js:140[36:38];Sink: [null, msg];webdriverio.js:147[25:35]::FLOW_DESCR_END","/webdriverio.js","140","36","140","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:157[36:38];Sink: msg;webdriverio.js:169[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdriverio.js:157[36:38];Sink: msg;webdriverio.js:174[27:29]::FLOW_DESCR_END","/webdriverio.js","157","36","157","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:184[36:38];Sink: msg;webdriverio.js:191[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdriverio.js:184[36:38];Sink: msg;webdriverio.js:197[27:29]::FLOW_DESCR_END","/webdriverio.js","184","36","184","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdriverio.js:207[36:38];Sink: msg;webdriverio.js:214[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdriverio.js:207[36:38];Sink: msg;webdriverio.js:220[27:29]::FLOW_DESCR_END","/webdriverio.js","207","36","207","38"

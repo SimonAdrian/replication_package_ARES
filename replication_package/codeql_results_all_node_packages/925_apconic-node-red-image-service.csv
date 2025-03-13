@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;images.js:23[38:40];Sink: { ...ms ... mages };images.js:45[17:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;images.js:23[38:40];Sink: imageAbsolutePath;images.js:102[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;images.js:23[38:40];Sink: `File $ ... saved!`;images.js:106[21:54]::FLOW_DESCR_END","/images.js","23","38","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;images.js:97[32:36];Sink: error;images.js:99[33:37]::FLOW_DESCR_END","/images.js","97","32","97","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: image;images.js:97[49:53];Sink: image;images.js:102[39:43]::FLOW_DESCR_END","/images.js","97","49","97","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;serveImage.js:10[38:40];Sink: {\r\n     ...       };serveImage.js:19[21:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serveImage.js:10[38:40];Sink: { ...ms ...  file };serveImage.js:28[19:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serveImage.js:10[38:40];Sink: { ...ms ... mage` };serveImage.js:30[19:62]::FLOW_DESCR_END","/serveImage.js","10","38","10","40"

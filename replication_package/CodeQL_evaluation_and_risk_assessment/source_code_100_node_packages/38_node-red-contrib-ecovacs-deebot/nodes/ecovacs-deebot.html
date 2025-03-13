@@ -1,0 +1,81 @@
+<script type="text/javascript">
+    RED.nodes.registerType('ecovacs-deebot', {
+        paletteLabel: 'Ecovacs Deebot',
+        category: 'ecovacs-deebot',
+        color: '#1E90FF',
+        defaults: {
+            account: {
+                required: true,
+                type: "ecovacs-account"
+            },
+            name: {
+                required: true,
+                value: "Deebot"
+            },
+            deviceNumber: {
+                required: true,
+                validate: RED.validators.regex(/^[1-9][0-9]?$/),
+                value: "1"
+            },
+            connectOnStartup: {
+                value: false,
+                required: true
+            },
+            enableGetMapsOnStartup: {
+                value: false,
+                required: true
+            },
+            enableSimpleEvents: {
+                required: true,
+                value: false
+            },
+            login: {
+                value: "ecovacs.com",
+                required: true
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "file.png",
+        label: function () {
+            return this.name || "ecovacs-deebot";
+        },
+        oneditprepare: function () {
+            $("#node-input-name").typedInput({
+                type:"str",
+                types:["str"]
+            });
+            $("#node-input-deviceNumber").typedInput({
+                type:"num",
+                types:["num"]
+            });
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="ecovacs-deebot">
+    <div class="form-row">
+        <label for="node-input-account"><i class="fa fa-globe"></i> <span data-i18n="ecovacs-deebot.account.label"></span></label>
+        <input type="text" id="node-input-account">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="ecovacs-deebot.name.label"></span></label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-deviceNumber"><i class="fa fa-tag"></i> <span data-i18n="ecovacs-deebot.deviceNumber.label"></span></label>
+        <input type="text" id="node-input-deviceNumber" data-i18n="[placeholder]ecovacs-deebot.deviceNumber.placeholder">
+    </div>
+    <div class="form-row">
+        <label for="node-input-connectOnStartup"><i class="fa fa-tag"></i> <span data-i18n="ecovacs-deebot.connectOnStartup.label"></span></label>
+        <input type="checkbox" id="node-input-connectOnStartup">
+    </div>
+    <div class="form-row">
+        <label for="node-input-enableGetMapsOnStartup"><i class="fa fa-tag"></i> <span data-i18n="ecovacs-deebot.enableGetMapsOnStartup.label"></span></label>
+        <input type="checkbox" id="node-input-enableGetMapsOnStartup">
+    </div>
+    <div class="form-row">
+        <label for="node-input-enableSimpleEvents"><i class="fa fa-tag"></i> <span data-i18n="ecovacs-deebot.enableSimpleEvents.label"></span></label>
+        <input type="checkbox" id="node-input-enableSimpleEvents">
+    </div>
+</script>

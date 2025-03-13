@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entity.js:16[35:37];Sink: msg;entity.js:26[18:20]::FLOW_DESCR_END","/src/entity/entity.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;launch.js:120[55:65];Sink: 'mqtt:/ ... ig.host;launch.js:120[43:65]::FLOW_DESCR_END","/src/launch/launch.js","120","55","120","65"

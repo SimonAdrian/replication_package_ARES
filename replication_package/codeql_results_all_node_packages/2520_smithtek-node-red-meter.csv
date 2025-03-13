@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Smithtek-Meter-Multiply.js:7[32:34];Sink: msg;Smithtek-Meter-Multiply.js:13[17:19]::FLOW_DESCR_END","/node/Smithtek-Meter-Multiply.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Smithtek-Meter-Reset.js:7[32:34];Sink: msg;Smithtek-Meter-Reset.js:13[17:19]::FLOW_DESCR_END","/node/Smithtek-Meter-Reset.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Smithtek-Metering.js:61[36:38];Sink: msg;Smithtek-Metering.js:64[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Smithtek-Metering.js:61[36:38];Sink: msg.payload;Smithtek-Metering.js:65[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Smithtek-Metering.js:61[36:38];Sink: msg;Smithtek-Metering.js:69[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Smithtek-Metering.js:61[36:38];Sink: msg.payload;Smithtek-Metering.js:70[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Smithtek-Metering.js:61[36:38];Sink: msg;Smithtek-Metering.js:121[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Smithtek-Metering.js:61[36:38];Sink: msg;Smithtek-Metering.js:148[27:29]::FLOW_DESCR_END","/node/Smithtek-Metering.js","61","36","61","38"

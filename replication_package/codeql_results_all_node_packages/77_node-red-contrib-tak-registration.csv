@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:32[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: a;tak-ingest.js:39[49:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: b;tak-ingest.js:43[49:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:69[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:81[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:86[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:96[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: a;tak-ingest.js:106[45:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: b;tak-ingest.js:110[45:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:123[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:127[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-ingest.js:53[34:36];Sink: msg;tak-ingest.js:131[27:29]::FLOW_DESCR_END","/tak-ingest.js","53","34","53","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: msg;tak-registration.js:119[95:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: ""DP: ""  ... sg.hash;tak-registration.js:222[46:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: msg;tak-registration.js:225[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: msg;tak-registration.js:240[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: msg;tak-registration.js:462[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: msg;tak-registration.js:485[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tak-registration.js:100[36:38];Sink: ""Droppe ... ayload);tak-registration.js:490[26:66]::FLOW_DESCR_END","/tak-registration.js","100","36","100","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.fil ... ).pop();tak-registration.js:110[31:59];Sink: ""Droppe ... ayload);tak-registration.js:490[26:66]::FLOW_DESCR_END","/tak-registration.js","110","31","110","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.fil ... ).pop();tak-registration.js:113[77:105];Sink: ""Droppe ... ayload);tak-registration.js:490[26:66]::FLOW_DESCR_END","/tak-registration.js","113","77","113","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;tak-registration.js:215[85:93];Sink: ""Droppe ... ayload);tak-registration.js:490[26:66]::FLOW_DESCR_END","/tak-registration.js","215","85","215","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;tak-registration.js:222[55:63];Sink: ""DP: ""  ... sg.hash;tak-registration.js:222[46:104]::FLOW_DESCR_END","/tak-registration.js","222","55","222","63"

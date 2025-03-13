@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;controller.js:11[33:35];Sink: msgOut;controller.js:15[26:31]::FLOW_DESCR_END","/dist/nodes/controller.js","11","33","11","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decode.js:18[33:35];Sink: message;decode.js:21[22:28]::FLOW_DESCR_END","/dist/nodes/decode.js","18","33","18","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encode.js:14[27:29];Sink: this.de ... de(msg);encode.js:19[22:45]::FLOW_DESCR_END","/dist/nodes/encode.js","14","27","14","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: incommingMsg;mysdebug.js:9[33:44];Sink: msg;mysdebug.js:64[18:20]::FLOW_DESCR_END","/dist/nodes/mysdebug.js","9","33","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;controller.ts:36[37:39];Sink: msgOut;controller.ts:40[30:35]::FLOW_DESCR_END","/src/nodes/controller.ts","36","37","36","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decode.ts:37[37:39];Sink: message;decode.ts:40[26:32]::FLOW_DESCR_END","/src/nodes/decode.ts","37","37","37","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encode.ts:20[31:33];Sink: this.de ... de(msg);encode.ts:25[26:49]::FLOW_DESCR_END","/src/nodes/encode.ts","20","31","20","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: incommingMsg;mysdebug.ts:24[37:48];Sink: msg;mysdebug.ts:84[22:24]::FLOW_DESCR_END","/src/nodes/mysdebug.ts","24","37","24","48"

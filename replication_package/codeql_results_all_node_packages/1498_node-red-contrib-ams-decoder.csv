@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ams_decoder_aidon.js:5[35:37];Sink: msg;ams_decoder_aidon.js:111[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ams_decoder_aidon.js:5[35:37];Sink: msg;ams_decoder_aidon.js:114[11:13]::FLOW_DESCR_END","/src/ams_decoder_aidon.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ams_decoder_kaifa.js:5[35:37];Sink: msg;ams_decoder_kaifa.js:193[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ams_decoder_kaifa.js:5[35:37];Sink: msg;ams_decoder_kaifa.js:196[11:13]::FLOW_DESCR_END","/src/ams_decoder_kaifa.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ams_decoder_kamstrup.js:5[35:37];Sink: msg;ams_decoder_kamstrup.js:110[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ams_decoder_kamstrup.js:5[35:37];Sink: msg;ams_decoder_kamstrup.js:113[11:13]::FLOW_DESCR_END","/src/ams_decoder_kamstrup.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ams_decoder_kamstrup_debugger.js:5[35:37];Sink: msg;ams_decoder_kamstrup_debugger.js:110[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ams_decoder_kamstrup_debugger.js:5[35:37];Sink: msg;ams_decoder_kamstrup_debugger.js:113[11:13]::FLOW_DESCR_END","/src/ams_decoder_kamstrup_debugger.js","5","35","5","37"

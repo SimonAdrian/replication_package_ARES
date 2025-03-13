@@ -1,0 +1,115 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.stringify(msg);ocpp-cp-json.js:327[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: `Inject ... .cbId}`;ocpp-cp-json.js:347[21:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: `Inject ... s_url}`;ocpp-cp-json.js:351[21:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... , ', ');ocpp-cp-json.js:391[54:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: 'OCPP J ... message;ocpp-cp-json.js:409[25:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... , ', ');ocpp-cp-json.js:441[54:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... equest);ocpp-cp-json.js:443[17:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-json.js:322[31:33];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END","/ocpp/ocpp-cp-json.js","322","31","322","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.pay ... ta.cbId;ocpp-cp-json.js:346[27:47];Sink: `Inject ... .cbId}`;ocpp-cp-json.js:347[21:49]::FLOW_DESCR_END","/ocpp/ocpp-cp-json.js","346","27","346","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.pay ... csmsUrl;ocpp-cp-json.js:350[72:95];Sink: `Inject ... s_url}`;ocpp-cp-json.js:351[21:56]::FLOW_DESCR_END","/ocpp/ocpp-cp-json.js","350","72","350","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.pay ... csmsUrl;ocpp-cp-json.js:350[112:135];Sink: `Inject ... s_url}`;ocpp-cp-json.js:351[21:56]::FLOW_DESCR_END","/ocpp/ocpp-cp-json.js","350","112","350","135"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ocpp-cp-req.js:32[31:33];Sink: msg;ocpp-cp-req.js:106[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-cp-req.js:32[31:33];Sink: msg;ocpp-cp-req.js:110[25:27]::FLOW_DESCR_END","/ocpp/ocpp-cp-req.js","32","31","32","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: xmlSoap;ocpp-cp-req.js:85[43:49];Sink: xmlSoap;ocpp-cp-req.js:86[37:43]::FLOW_DESCR_END","/ocpp/ocpp-cp-req.js","85","43","85","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: xmlSoap;ocpp-cp-req.js:89[44:50];Sink: xmlSoap;ocpp-cp-req.js:90[37:43]::FLOW_DESCR_END","/ocpp/ocpp-cp-req.js","89","44","89","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ocpp-cp-req.js:93[45:47];Sink: err;ocpp-cp-req.js:94[35:37]::FLOW_DESCR_END","/ocpp/ocpp-cp-req.js","93","45","93","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ocpp-req.js:36[31:33];Sink: msg;ocpp-req.js:126[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-req.js:36[31:33];Sink: `respon ... mmand}`;ocpp-req.js:131[21:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-req.js:36[31:33];Sink: msg;ocpp-req.js:132[25:27]::FLOW_DESCR_END","/ocpp/ocpp-req.js","36","31","36","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: xmlSoap;ocpp-req.js:103[43:49];Sink: xmlSoap;ocpp-req.js:104[37:43]::FLOW_DESCR_END","/ocpp/ocpp-req.js","103","43","103","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: xmlSoap;ocpp-req.js:107[44:50];Sink: xmlSoap;ocpp-req.js:108[37:43]::FLOW_DESCR_END","/ocpp/ocpp-req.js","107","44","107","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ocpp-req.js:111[45:47];Sink: `got SO ... ssage}`;ocpp-req.js:112[21:52]::FLOW_DESCR_END","/ocpp/ocpp-req.js","111","45","111","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ocpp-server.js:66[21:23];Sink: 'EMITTE ... ' + err;ocpp-server.js:67[18:40]::FLOW_DESCR_END","/ocpp/ocpp-server.js","66","21","66","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ocpp-server.js:81[54:64];Sink: `Error  ... .name}`;logdata.js:47[17:80]::FLOW_DESCR_END","/ocpp/ocpp-server.js","81","54","81","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ws;ocpp-server.js:225[44:45];Sink: ws;ocpp-server.js:230[25:26]::FLOW_DESCR_END","/ocpp/ocpp-server.js","225","44","225","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req;ocpp-server.js:225[47:49];Sink: cbid;ocpp-server.js:230[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req;ocpp-server.js:225[47:49];Sink: connname;ocpp-server.js:240[17:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req;ocpp-server.js:225[47:49];Sink: connname;ocpp-server.js:251[19:26]::FLOW_DESCR_END","/ocpp/ocpp-server.js","225","47","225","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ocpp-server.js:370[24:27];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END","/ocpp/ocpp-server.js","370","24","370","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.command;ocpp-server.js:376[34:50];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END","/ocpp/ocpp-server.js","376","34","376","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ocpp.data;ocpp-server.js:377[39:52];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END","/ocpp/ocpp-server.js","377","39","377","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgIn;ocpp-server.js:462[37:41];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END","/ocpp/ocpp-server.js","462","37","462","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: 'EMITTE ... ' + err;ocpp-server.js:67[18:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: msg.msgId;ocpp-server.js:788[25:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: msg.payload;ocpp-server.js:788[36:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:779[31:33];Sink: `EMITTE ... ${err}`;ocpp-server.js:830[18:40]::FLOW_DESCR_END","/ocpp/ocpp-server.js","779","31","779","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ocpp-server.js:829[21:23];Sink: `EMITTE ... ${err}`;ocpp-server.js:830[18:40]::FLOW_DESCR_END","/ocpp/ocpp-server.js","829","21","829","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;ocpp-server.js:842[57:67];Sink: `Error  ... .name}`;logdata.js:47[17:80]::FLOW_DESCR_END","/ocpp/ocpp-server.js","842","57","842","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... Parsed);ocpp-cp-json.js:210[50:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:213[15:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... , ', ');ocpp-cp-json.js:238[53:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... sponse);ocpp-cp-json.js:240[19:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: `Got a  ... SGID]}`;ocpp-cp-json.js:247[15:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: 'EMITTE ... ' + err;ocpp-server.js:67[18:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... , ', ');ocpp-server.js:379[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... equest);ocpp-server.js:389[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: msgIn;ocpp-server.js:494[65:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... , ', ');ocpp-server.js:539[21:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: JSON.st ... sponse);ocpp-server.js:542[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: msg.msgId;ocpp-server.js:572[25:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: `EMITTE ... ${err}`;ocpp-server.js:830[18:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: msg;ocpp-server.js:1268[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: msg;ocpp-server.js:1273[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ocpp-server.js:1183[31:33];Sink: msg;ocpp-server.js:1278[21:23]::FLOW_DESCR_END","/ocpp/ocpp-server.js","1183","31","1183","33"

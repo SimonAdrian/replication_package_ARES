@@ -1,0 +1,25 @@
+{
+  "httprequeststream": {
+    "label": {
+      "ignore_header": "Ignore msg.headers",
+      "showprogress": "Show Progress",
+      "headers": "Request Headers",
+      "paytoqs": {
+        "ignore": "Ignore",
+        "body": "Post as body",
+        "query": "Add as query string"
+      }
+    },
+
+    "error": {
+    },
+
+    "tip": {
+
+    },
+    "status": {
+      "waiting": "Waiting for Godot",
+      "timeout": "No more time to waiting"
+    }
+  }
+}

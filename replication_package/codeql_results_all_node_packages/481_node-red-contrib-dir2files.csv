@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dir2files.js:9[36:38];Sink: msg;dir2files.js:51[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dir2files.js:9[36:38];Sink: msg;dir2files.js:57[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dir2files.js:9[36:38];Sink: msg;dir2files.js:62[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dir2files.js:9[36:38];Sink: msg;dir2files.js:66[27:29]::FLOW_DESCR_END","/dir2files.js","9","36","9","38"

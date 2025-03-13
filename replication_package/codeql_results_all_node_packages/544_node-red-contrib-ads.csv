@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle.value;ads-connection.js:102[86:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle.symname;ads-connection.js:115[35:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle.notifyHandle;ads-connection.js:115[74:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle. ... eLength;ads-connection.js:116[52:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle.symhandle;ads-connection.js:116[96:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle.value;ads-connection.js:116[130:141]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: handle.bytelength;ads-connection.js:117[47:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: handle;ads-connection.js:90[54:59];Sink: adsState;ads-connection.js:604[51:58]::FLOW_DESCR_END","/ads-connection.js","90","54","90","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ads-connection.js:128[47:51];Sink: error;ads-connection.js:129[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;ads-connection.js:128[47:51];Sink: util.fo ...  error);ads-connection.js:131[24:58]::FLOW_DESCR_END","/ads-connection.js","128","47","128","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-in.js:22[33:35];Sink: msg;ads-in.js:23[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-in.js:22[33:35];Sink: outMsg;ads-in.js:116[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-in.js:22[33:35];Sink: cfg.symname;ads-in.js:117[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-in.js:22[33:35];Sink: outMsg;ads-in.js:117[79:84]::FLOW_DESCR_END","/ads-in.js","22","33","22","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-out.js:13[33:35];Sink: msg;ads-out.js:14[75:77]::FLOW_DESCR_END","/ads-out.js","13","33","13","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-symbols.js:31[33:35];Sink: msg;ads-symbols.js:32[71:73]::FLOW_DESCR_END","/ads-symbols.js","31","33","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-system.js:30[33:35];Sink: msg;ads-system.js:31[70:72]::FLOW_DESCR_END","/ads-system.js","30","33","30","35"

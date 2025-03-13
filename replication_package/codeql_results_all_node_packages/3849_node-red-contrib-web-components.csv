@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;component-camera.js:41[46:49];Sink: data;component-camera.js:42[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;component-camera.js:41[46:49];Sink: imageBuffer;component-camera.js:76[58:68]::FLOW_DESCR_END","/component-camera.js","41","46","41","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;component-camera.js:46[45:48];Sink: data;component-camera.js:48[49:52]::FLOW_DESCR_END","/component-camera.js","46","45","46","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;component-camera.js:69[47:49];Sink: err;component-camera.js:70[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;component-camera.js:69[47:49];Sink: err;component-camera.js:97[32:34]::FLOW_DESCR_END","/component-camera.js","69","47","69","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;component-chatbot.js:76[35:37];Sink: JSON.stringify(msg);component-chatbot.js:78[49:67]::FLOW_DESCR_END","/component-chatbot.js","76","35","76","37"

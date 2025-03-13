@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cl ... sername;client.js:31[50:74];Sink: message;client.js:349[28:34]::FLOW_DESCR_END","/client.js","31","50","31","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cl ... sername;client.js:171[67:91];Sink: message;client.js:349[28:34]::FLOW_DESCR_END","/client.js","171","67","171","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cl ... sername;client.js:175[49:73];Sink: ""Succes ... sername;client.js:175[21:73]::FLOW_DESCR_END","/client.js","175","49","175","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;client.js:182[38:41];Sink: `Rate l ... out '}`;client.js:183[22:133]::FLOW_DESCR_END","/client.js","182","38","182","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cl ... sername;client.js:235[72:96];Sink: message;client.js:349[28:34]::FLOW_DESCR_END","/client.js","235","72","235","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cl ... sername;client.js:261[46:70];Sink: message;client.js:349[28:34]::FLOW_DESCR_END","/client.js","261","46","261","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord-client.js:7[40:42];Sink: msg;discord-client.js:15[23:25]::FLOW_DESCR_END","/discord-client.js","7","40","7","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord-send-message.js:6[37:39];Sink: msg.payload;discord-send-message.js:15[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discord-send-message.js:6[37:39];Sink: msg;discord-send-message.js:17[25:27]::FLOW_DESCR_END","/discord-send-message.js","6","37","6","39"

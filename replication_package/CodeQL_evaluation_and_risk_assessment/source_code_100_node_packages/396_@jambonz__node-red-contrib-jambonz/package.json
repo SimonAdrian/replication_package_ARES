@@ -1,0 +1,74 @@
+{
+  "name": "@jambonz/node-red-contrib-jambonz",
+  "version": "2.4.28",
+  "description": "Node-RED nodes for jambonz platform",
+  "keywords": [
+    "node-red"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jambonz/node-red-contrib-jambonz.git"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+      "helpers": "src/utils/http-helpers.js",
+      "webhook": "src/nodes/webhooks.js",
+      "s3:upload": "src/nodes/s3-upload.js",
+      "auth": "src/nodes/auth.js",
+      "enqueue": "src/nodes/enqueue.js",
+      "lex": "src/nodes/lex.js",
+      "say": "src/nodes/say.js",
+      "dtmf": "src/nodes/dtmf.js",
+      "config": "src/nodes/config.js",
+      "conference": "src/nodes/conference.js",
+      "gather": "src/nodes/gather.js",
+      "listen": "src/nodes/listen.js",
+      "sip:decline": "src/nodes/sip-decline.js",
+      "sip:request": "src/nodes/sip-request.js",
+      "sip:refer": "src/nodes/sip-refer.js",
+      "hangup": "src/nodes/hangup.js",
+      "message": "src/nodes/message.js",
+      "tag": "src/nodes/tag.js",
+      "pause": "src/nodes/pause.js",
+      "dequeue": "src/nodes/dequeue.js",
+      "play": "src/nodes/play.js",
+      "dial": "src/nodes/dial.js",
+      "redirect": "src/nodes/redirect.js",
+      "dialogflow": "src/nodes/dialogflow.js",
+      "leave": "src/nodes/leave.js",
+      "rasa": "src/nodes/rasa.js",
+      "userauth": "src/nodes/userauth.js",
+      "create call": "src/nodes/create_call.js",
+      "create sms": "src/nodes/create_sms.js",
+      "lcc": "src/nodes/lcc.js",
+      "get_alerts": "src/nodes/get_alerts.js",
+      "get_call": "src/nodes/get_call.js",
+      "get_calls": "src/nodes/get_calls.js",
+      "get_recent_calls": "src/nodes/get_recent_calls.js",
+      "answer": "src/nodes/answer.js",
+      "dub": "src/nodes/dub.js"
+    }
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1665.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "hash-sum": "^2.0.0",
+    "is-utf8": "^0.2.1",
+    "media-typer": "^1.1.0",
+    "multer": "^1.4.5-lts.1",
+    "mustache": "^4.2.0",
+    "on-headers": "^1.0.2",
+    "raw-body": "^2.5.2",
+    "s3-upload-stream": "^1.0.7",
+    "undici": "^5.28.4",
+    "ws": "^8.18.0"
+  }
+}

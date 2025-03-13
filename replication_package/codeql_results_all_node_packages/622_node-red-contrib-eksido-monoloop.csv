@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monoloop.js:33[35:37];Sink: msg;monoloop.js:40[25:27]::FLOW_DESCR_END","/monoloop.js","33","35","33","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monoloop.js:46[35:37];Sink: msg;monoloop.js:53[25:27]::FLOW_DESCR_END","/monoloop.js","46","35","46","37"

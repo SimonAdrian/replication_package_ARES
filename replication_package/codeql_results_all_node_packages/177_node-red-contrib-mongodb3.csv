@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configS ... als.uri;mongodb.js:214[18:46];Sink: config.uri;mongodb.js:166[48:57]::FLOW_DESCR_END","/mongodb/mongodb.js","214","18","214","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configS ... als.url;mongodb.js:214[51:79];Sink: config.uri;mongodb.js:166[48:57]::FLOW_DESCR_END","/mongodb/mongodb.js","214","51","214","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb.js:232[33:35];Sink: msg;mongodb.js:260[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:232[33:35];Sink: msg;mongodb.js:274[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:232[33:35];Sink: msg;mongodb.js:303[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:232[33:35];Sink: msg;mongodb.js:340[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:232[33:35];Sink: msg;mongodb.js:353[27:29]::FLOW_DESCR_END","/mongodb/mongodb.js","232","33","232","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb.js:247[67:69];Sink: msg;mongodb.js:260[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:247[67:69];Sink: msg;mongodb.js:274[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:247[67:69];Sink: msg;mongodb.js:303[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:247[67:69];Sink: msg;mongodb.js:340[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:247[67:69];Sink: msg;mongodb.js:353[27:29]::FLOW_DESCR_END","/mongodb/mongodb.js","247","67","247","69"

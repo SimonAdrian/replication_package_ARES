@@ -1,0 +1,40 @@
+{
+  "name": "@intres/azure-computer-vision",
+  "version": "3.0.3",
+  "description": "Node-red nodes for Microsoft Azure Computer Vision",
+  "main": "index.js",
+  "keywords": [
+    "Javascript",
+    "Azure",
+    "Computer Vision",
+    "Image analysis",
+    "Describe image",
+    "Detect objects",
+    "Get area of interest",
+    "OCR",
+    "Get thumbnail",
+    "Read",
+    "node-red"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+      "ms-img-analysis": "image-analysis/image-analysis.js",
+      "ms-img-describe": "describe-image/describe-image.js",
+      "ms-img-obj-detect": "detect-objects/detect-objects.js",
+      "ms-area-of-interest": "get-area-of-interest/get-area-of-interest.js",
+      "ms-img-ocr": "image-ocr/image-ocr.js",
+      "ms-img-thumbnail": "thumbnail/thumbnail.js",
+      "ms-read": "read/read.js",
+      "ms-get-read-result": "get-read-result/get-read-result.js"
+    }
+  },
+  "author": "Tsung Jui Wang",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DID-AuthVerifyResolve.js:9[41:43];Sink: msg;DID-AuthVerifyResolve.js:26[33:35]::FLOW_DESCR_END","/DID-AuthVerifyResolve.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DID-Create.js:8[41:43];Sink: msg;DID-Create.js:20[25:27]::FLOW_DESCR_END","/DID-Create.js","8","41","8","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DID-Verify.js:9[41:43];Sink: msg;DID-Verify.js:19[25:27]::FLOW_DESCR_END","/DID-Verify.js","9","41","9","43"

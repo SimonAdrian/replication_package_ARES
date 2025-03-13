@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forex.js:12[27:29];Sink: `Reques ... | '?'}`;forex.js:32[24:74]::FLOW_DESCR_END","/src/forex.js","12","27","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stock-intraday.js:12[27:29];Sink: `Reques ... terval`;stock-intraday.js:32[24:95]::FLOW_DESCR_END","/src/stock-intraday.js","12","27","12","29"

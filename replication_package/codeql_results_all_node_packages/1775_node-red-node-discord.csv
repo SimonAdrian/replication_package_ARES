@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();get-emoji-reactions.js:24[30:40];Sink: y;get-emoji-reactions.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-emoji-reactions.js:24[30:40];Sink: y;get-emoji-reactions.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-emoji-reactions.js:24[30:40];Sink: op[1];get-emoji-reactions.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/get-emoji-reactions.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;members-monitoring.js:26[44:46];Sink: __assig ... }, msg);members-monitoring.js:28[31:90]::FLOW_DESCR_END","/dist/nodes/members-monitoring.js","26","44","26","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-messages.js:38[44:46];Sink: channel;send-messages.js:51[64:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-messages.js:38[44:46];Sink: ""Couldn ... found."";send-messages.js:109[40:103]::FLOW_DESCR_END","/dist/nodes/send-messages.js","38","44","38","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;members-monitoring.ts:26[29:31];Sink: { monit ... ..msg };members-monitoring.ts:28[23:75]::FLOW_DESCR_END","/src/nodes/members-monitoring.ts","26","29","26","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-messages.ts:29[29:31];Sink: channel;send-messages.ts:41[52:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-messages.ts:29[29:31];Sink: finalMessage.length;send-messages.ts:89[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-messages.ts:29[29:31];Sink: `Couldn ... found.`;send-messages.ts:110[19:77]::FLOW_DESCR_END","/src/nodes/send-messages.ts","29","29","29","31"

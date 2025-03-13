@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jwt.js:30[38:40];Sink: msg;jwt.js:95[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jwt.js:30[38:40];Sink: [msg, null];jwt.js:98[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jwt.js:30[38:40];Sink: jwk._ke ... "" + url;jwt.js:142[25:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jwt.js:30[38:40];Sink: ""Unable ... "" + url;jwt.js:146[25:53]::FLOW_DESCR_END","/jwt.js","30","38","30","40"

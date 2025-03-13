@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;soapclient.js:29[24:26];Sink: err;soapclient.js:30[31:33]::FLOW_DESCR_END","/bikerp/soapclient.js","29","24","29","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;soapclient.js:83[24:26];Sink: err;soapclient.js:84[31:33]::FLOW_DESCR_END","/bikerp/soapclient.js","83","24","83","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;w215.js:64[32:34];Sink: msg;w215.js:73[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;w215.js:64[32:34];Sink: msg;w215.js:81[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;w215.js:64[32:34];Sink: msg;w215.js:92[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;w215.js:64[32:34];Sink: msg;w215.js:98[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;w215.js:64[32:34];Sink: msg;w215.js:104[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;w215.js:64[32:34];Sink: msg;w215.js:110[18:20]::FLOW_DESCR_END","/w215.js","64","32","64","34"

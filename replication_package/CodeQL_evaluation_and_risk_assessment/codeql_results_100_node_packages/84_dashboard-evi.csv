@@ -1,0 +1,21 @@
+FP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bases.pop();ui_base.html:1044[37:47];Sink: ""Removi ...  ""+n.id;ui_base.html:1045[41:69]::FLOW_DESCR_END","/nodes/ui_base.html","1044","37","1044","47"
+?, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node;ui_base.html:2835[49:52];Sink: node;ui_base.html:2885[79:82]::FLOW_DESCR_END","/nodes/ui_base.html","2835","49","2835","52"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ui.js:147[35:37];Sink: msg;ui.js:268[53:55]::FLOW_DESCR_END","/ui.js","147","35","147","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ui.js:274[29:31];Sink: state;ui.js:152[43:47]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;ui.js:274[29:31];Sink: msg;ui.js:297[43:45]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;ui.js:274[29:31];Sink: replayMessages[id];ui.js:402[55:72]::FLOW_DESCR_END","/ui.js","274","29","274","31"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket.client.id;ui.js:394[30:45]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket. ... Address;ui.js:394[48:170]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket.client.id;ui.js:411[51:66]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket. ... Address;ui.js:411[69:191]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket.client.id;ui.js:415[51:66]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket. ... Address;ui.js:415[69:191]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket.client.id;ui.js:421[34:49]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket. ... Address;ui.js:421[52:174]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket.client.id;ui.js:424[49:64]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: socket;ui.js:392[34:39];Sink: socket. ... Address;ui.js:424[67:189]::FLOW_DESCR_END","/ui.js","392","34","392","39"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: index;ui.js:407[41:45];Sink: index;ui.js:411[38:42]::FLOW_DESCR_END","/ui.js","407","41","407","45"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;ui.js:414[43:43];Sink: d.group;ui.js:415[33:39]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: d;ui.js:414[43:43];Sink: d.state;ui.js:415[42:48]::FLOW_DESCR_END","/ui.js","414","43","414","43"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: audioStatus;ui.js:423[40:50];Sink: audioStatus;ui.js:424[36:46]::FLOW_DESCR_END","/ui.js","423","40","423","50"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: p;ui.js:426[41:41];Sink: params;ui.js:411[194:199]::FLOW_DESCR_END","/ui.js","426","41","426","41"

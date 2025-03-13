@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crc-file.js:21[27:29];Sink: msg;crc-file.js:32[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crc-file.js:21[27:29];Sink: msg;crc-file.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crc-file.js:21[27:29];Sink: msg;crc-file.js:45[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crc-file.js:21[27:29];Sink: msg;crc-file.js:70[31:33]::FLOW_DESCR_END","/crc-file.js","21","27","21","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;crc-file.js:30[37:39];Sink: err;crc-file.js:32[36:38]::FLOW_DESCR_END","/crc-file.js","30","37","30","39"

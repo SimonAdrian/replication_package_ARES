@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uid_array[0];rc522.js:35[13:24];Sink: ""UID: "" + uid;rc522.js:55[12:24]::FLOW_DESCR_END","/rc522.js","35","13","35","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uid_array[1];rc522.js:36[13:24];Sink: ""UID: "" + uid;rc522.js:55[12:24]::FLOW_DESCR_END","/rc522.js","36","13","36","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uid_array[2];rc522.js:37[13:24];Sink: ""UID: "" + uid;rc522.js:55[12:24]::FLOW_DESCR_END","/rc522.js","37","13","37","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: uid_array[3];rc522.js:38[13:24];Sink: ""UID: "" + uid;rc522.js:55[12:24]::FLOW_DESCR_END","/rc522.js","38","13","38","24"

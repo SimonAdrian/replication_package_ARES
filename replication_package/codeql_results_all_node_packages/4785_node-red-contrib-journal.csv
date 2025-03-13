@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;journal.js:88[35:37];Sink: values;journal.js:14[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;journal.js:88[35:37];Sink: [null, ret];journal.js:22[15:25]::FLOW_DESCR_END","/journal.js","88","35","88","37"

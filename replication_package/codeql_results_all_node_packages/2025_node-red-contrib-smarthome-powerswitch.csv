@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerswitch.js:30[29:31];Sink: ""msg.ti ...  ""ms)."";powerswitch.js:232[21:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerswitch.js:30[29:31];Sink: ""msg.ti ...  ""ms)."";powerswitch.js:234[21:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerswitch.js:30[29:31];Sink: ""msg.ti ...  ""ms)."";powerswitch.js:238[21:158]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerswitch.js:30[29:31];Sink: msg;powerswitch.js:299[21:23]::FLOW_DESCR_END","/nodes/powerswitch.js","30","29","30","31"

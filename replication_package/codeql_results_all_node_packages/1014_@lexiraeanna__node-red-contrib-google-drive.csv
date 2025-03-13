@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... his.id);google-credentials.js:23[33:65];Sink: credentials;google-credentials.js:41[55:65]::FLOW_DESCR_END","/google-credentials.js","23","33","23","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: `[googl ... essful`;google-drive.js:72[29:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: `[googl ... ileId}`;delete.js:11[21:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: `[googl ... ileId}`;delete.js:14[21:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;delete.js:19[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;export.js:38[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;get.js:30[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;list.js:12[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: metadat ... ovided';update.js:16[57:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: content;update.js:17[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: parsedMetadata;update.js:27[64:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: metadata;update.js:29[81:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: requestBody;update.js:47[67:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: uploadType;update.js:67[52:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;update.js:109[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;watch.js:16[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: errorMessage;utils.js:11[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: err;utils.js:11[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: errorMessage;utils.js:13[24:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;utils.js:13[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;google-drive.js:20[42:44];Sink: msg;utils.js:23[38:40]::FLOW_DESCR_END","/google-drive.js","20","42","20","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fileMet ... imeType;google-drive.js:98[34:59];Sink: `[googl ... eType}`;google-drive.js:99[29:67]::FLOW_DESCR_END","/google-drive.js","98","34","98","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fileMet ... imeType;create.js:44[54:74];Sink: msg;export.js:38[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fileMet ... imeType;create.js:44[54:74];Sink: msg;utils.js:23[38:40]::FLOW_DESCR_END","/operations/create.js","44","54","44","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fileMet ... ta.name;delete.js:17[76:97];Sink: `[googl ... .name}`;delete.js:17[21:99]::FLOW_DESCR_END","/operations/delete.js","17","76","17","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;export.js:41[35:37];Sink: errorMessage;utils.js:21[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;export.js:41[35:37];Sink: err;utils.js:21[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;export.js:41[35:37];Sink: errorMessage;utils.js:23[24:35]::FLOW_DESCR_END","/operations/export.js","41","35","41","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;get.js:33[46:48];Sink: errorMessage;utils.js:21[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;get.js:33[46:48];Sink: err;utils.js:21[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;get.js:33[46:48];Sink: errorMessage;utils.js:23[24:35]::FLOW_DESCR_END","/operations/get.js","33","46","33","48"

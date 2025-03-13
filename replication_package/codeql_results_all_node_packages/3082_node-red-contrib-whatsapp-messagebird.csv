@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatsapp-messagebird.js:13[32:34];Sink: msg.payload[i];whatsapp-messagebird.js:19[42:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatsapp-messagebird.js:13[32:34];Sink: msg;whatsapp-messagebird.js:26[19:21]::FLOW_DESCR_END","/whatsapp-messagebird.js","13","32","13","34"

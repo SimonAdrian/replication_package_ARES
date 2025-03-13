@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.host;S-Tech-cloud.js:27[16:36];Sink: 'Connec ... ' + url;S-Tech-cloud.js:293[15:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.host;S-Tech-cloud.js:27[16:36];Sink: 'Discon ... ' + url;S-Tech-cloud.js:348[15:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.host;S-Tech-cloud.js:27[16:36];Sink: url;S-Tech-cloud.js:353[18:20]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","27","16","27","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.port;S-Tech-cloud.js:28[16:36];Sink: 'Connec ... ' + url;S-Tech-cloud.js:293[15:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.port;S-Tech-cloud.js:28[16:36];Sink: 'Discon ... ' + url;S-Tech-cloud.js:348[15:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.port;S-Tech-cloud.js:28[16:36];Sink: url;S-Tech-cloud.js:353[18:20]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","28","16","28","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.login;S-Tech-cloud.js:30[17:38];Sink: JSON.st ... outmsg);S-Tech-cloud.js:392[13:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... s.login;S-Tech-cloud.js:30[17:38];Sink: JSON.st ... outmsg);S-Tech-cloud.js:401[13:34]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","30","17","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');S-Tech-cloud.js:142[18:77];Sink: 'serial ... _serial;S-Tech-cloud.js:144[14:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');S-Tech-cloud.js:142[18:77];Sink: controller_serial;S-Tech-cloud.js:150[35:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');S-Tech-cloud.js:142[18:77];Sink: controller_serial;S-Tech-cloud.js:457[36:52]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","142","18","142","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;S-Tech-cloud.js:296[40:43];Sink: devst;S-Tech-cloud.js:220[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;S-Tech-cloud.js:296[40:43];Sink: devst;S-Tech-cloud.js:251[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;S-Tech-cloud.js:296[40:43];Sink: ""Reques ... questId;S-Tech-cloud.js:306[18:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;S-Tech-cloud.js:296[40:43];Sink: ""Reques ... questId;S-Tech-cloud.js:318[18:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;S-Tech-cloud.js:296[40:43];Sink: ""Device ... questId;S-Tech-cloud.js:329[18:82]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","296","40","296","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;S-Tech-cloud.js:346[35:38];Sink: '\u041a\u043e\u0434 \u0437\u0430 ... tring();S-Tech-cloud.js:349[17:60]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","346","35","346","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;S-Tech-cloud.js:374[30:34];Sink: '\u041e\u0448\u0438\u0431\u043a\u0430 ... tring();S-Tech-cloud.js:376[17:55]::FLOW_DESCR_END","/nodes/S-Tech-cloud.js","374","30","374","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: controller_serial;alice-device.js:66[34:50];Sink: controller_serial;alice-device.js:71[35:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: controller_serial;alice-device.js:66[34:50];Sink: id;alice-device.js:94[39:40]::FLOW_DESCR_END","/nodes/alice-device.js","66","34","66","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev;alice-device.js:87[26:28];Sink: devcp;alice-device.js:94[32:36]::FLOW_DESCR_END","/nodes/alice-device.js","87","26","87","28"

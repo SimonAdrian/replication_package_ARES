@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sub-link-input.js:40[23:25];Sink: errorText;util.js:20[31:39]::FLOW_DESCR_END","/sub-link/sub-link-input.js","40","23","40","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sub-link-output.js:193[23:25];Sink: errorText;util.js:20[31:39]::FLOW_DESCR_END","/sub-link/sub-link-output.js","193","23","193","25"

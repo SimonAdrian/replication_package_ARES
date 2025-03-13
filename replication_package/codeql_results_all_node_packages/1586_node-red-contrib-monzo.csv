@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;monzo-in.js:139[32:34];Sink: err;monzo-in.js:142[26:28]::FLOW_DESCR_END","/monzo/monzo-in.js","139","32","139","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;monzo-in.js:139[43:46];Sink: body;monzo-in.js:167[30:33]::FLOW_DESCR_END","/monzo/monzo-in.js","139","43","139","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:217[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:233[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:241[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:258[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:266[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:293[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:316[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-in.js:201[35:37];Sink: msg;monzo-in.js:326[82:84]::FLOW_DESCR_END","/monzo/monzo-in.js","201","35","201","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monzo-out.js:31[35:37];Sink: msg;monzo-out.js:145[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-out.js:31[35:37];Sink: msg;monzo-out.js:155[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monzo-out.js:31[35:37];Sink: msg;monzo-out.js:163[61:63]::FLOW_DESCR_END","/monzo/monzo-out.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;monzo-out.js:115[48:50];Sink: err;monzo-out.js:117[44:46]::FLOW_DESCR_END","/monzo/monzo-out.js","115","48","115","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;monzo-out.js:115[59:62];Sink: bodyObject;monzo-out.js:134[48:57]::FLOW_DESCR_END","/monzo/monzo-out.js","115","59","115","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;monzo-webhook.js:104[36:38];Sink: err;monzo-webhook.js:106[33:35]::FLOW_DESCR_END","/monzo/monzo-webhook.js","104","36","104","38"

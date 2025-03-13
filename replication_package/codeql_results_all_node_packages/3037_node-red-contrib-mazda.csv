@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mazda-car.js:16[29:31];Sink: { ...ms ...  info };mazda-car.js:26[18:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mazda-car.js:16[29:31];Sink: `Comman ... ${cmd}`;mazda-car.js:58[23:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mazda-car.js:16[29:31];Sink: { ...pa ... tatus };mazda-car.js:68[19:66]::FLOW_DESCR_END","/red/mazda-car.js","16","29","16","31"

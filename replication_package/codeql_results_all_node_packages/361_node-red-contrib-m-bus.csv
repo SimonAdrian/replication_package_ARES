@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mbus-client.js:269[25:27];Sink: data.data;mbus-client.js:221[28:36]::FLOW_DESCR_END","/mbus-client.js","269","25","269","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mbus-client.js:537[32:35];Sink: devices;mbus-client.js:82[41:47]::FLOW_DESCR_END","/mbus-client.js","537","32","537","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mbus-client.js:546[33:36];Sink: devices;mbus-client.js:82[41:47]::FLOW_DESCR_END","/mbus-client.js","546","33","546","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mbus-controller.js:33[23:25];Sink: msg;mbus-controller.js:63[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mbus-controller.js:33[23:25];Sink: `Device ...  : ''}`;mbus-controller.js:78[44:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mbus-controller.js:33[23:25];Sink: msg;mbus-controller.js:88[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mbus-controller.js:33[23:25];Sink: msg;mbus-controller.js:97[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mbus-controller.js:33[23:25];Sink: `New pr ... d.old}`;mbus-controller.js:112[44:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mbus-controller.js:33[23:25];Sink: msg;mbus-controller.js:146[140:142]::FLOW_DESCR_END","/mbus-controller.js","33","23","33","25"

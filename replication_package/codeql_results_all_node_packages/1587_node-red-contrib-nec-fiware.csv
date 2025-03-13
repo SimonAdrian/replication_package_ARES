@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create_entity.js:21[32:34];Sink: msg;create_entity.js:36[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create_entity.js:21[32:34];Sink: msg;create_entity.js:44[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create_entity.js:21[32:34];Sink: msg;create_entity.js:49[25:27]::FLOW_DESCR_END","/nec-fiware/create_entity.js","21","32","21","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_oauth_client.js:36[31:35];Sink: err;create_entity.js:34[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:36[31:35];Sink: error;fiware_oauth_client.js:38[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:36[31:35];Sink: err;put_entity.js:35[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:36[31:35];Sink: msg.payload;put_entity.js:40[23:33]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","36","31","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: err;create_entity.js:34[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: body;fiware_oauth_client.js:43[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: body;fiware_oauth_client.js:46[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: err;put_entity.js:35[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: msg.payload;put_entity.js:40[23:33]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","36","48","36","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_oauth_client.js:76[31:35];Sink: err;create_entity.js:41[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:76[31:35];Sink: error;fiware_oauth_client.js:79[30:34]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","76","31","76","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;fiware_oauth_client.js:76[38:45];Sink: response.statusCode;fiware_oauth_client.js:77[34:52]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","76","38","76","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fiware_oauth_client.js:76[48:51];Sink: err;create_entity.js:41[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:76[48:51];Sink: body;fiware_oauth_client.js:88[31:34]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","76","48","76","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_oauth_client.js:118[31:35];Sink: error;fiware_oauth_client.js:121[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:118[31:35];Sink: msg.payload;put_entity.js:40[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:118[31:35];Sink: err;put_entity.js:45[56:58]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","118","31","118","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;fiware_oauth_client.js:118[38:45];Sink: response.statusCode;fiware_oauth_client.js:119[34:52]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","118","38","118","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fiware_oauth_client.js:118[48:51];Sink: body;fiware_oauth_client.js:130[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:118[48:51];Sink: msg.payload;put_entity.js:40[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:118[48:51];Sink: err;put_entity.js:45[56:58]::FLOW_DESCR_END","/nec-fiware/fiware_oauth_client.js","118","48","118","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;put_entity.js:21[32:34];Sink: msg;put_entity.js:37[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put_entity.js:21[32:34];Sink: msg.payload;put_entity.js:40[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put_entity.js:21[32:34];Sink: msg;put_entity.js:48[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;put_entity.js:21[32:34];Sink: msg;put_entity.js:53[25:27]::FLOW_DESCR_END","/nec-fiware/put_entity.js","21","32","21","34"

@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;aws-ses.js:60[66:76];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;aws-ses.js:60[66:76];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","60","66","60","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;aws-ses.js:60[86:96];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;aws-ses.js:60[86:96];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","60","86","60","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;aws-ses.js:66[55:65];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;aws-ses.js:66[55:65];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","66","55","66","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;aws-ses.js:66[75:85];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;aws-ses.js:66[75:85];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","66","75","66","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;aws-ses.js:73[63:73];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;aws-ses.js:73[63:73];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","73","63","73","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;aws-ses.js:73[83:93];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;aws-ses.js:73[83:93];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","73","83","73","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;aws-ses.js:84[60:70];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;aws-ses.js:84[60:70];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","84","60","84","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;aws-ses.js:84[80:90];Sink: timesta ... ' + msg;aws-ses.js:39[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;aws-ses.js:84[80:90];Sink: timesta ... ' + msg;aws-ses.js:41[21:44]::FLOW_DESCR_END","/aws-ses.js","84","80","84","90"

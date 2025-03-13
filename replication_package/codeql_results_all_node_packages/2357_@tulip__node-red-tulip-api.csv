@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tulip_machine_attribute.js:111[32:34];Sink: {\n      ...       };tulip_machine_attribute.js:118[20:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tulip_machine_attribute.js:111[32:34];Sink: `Overri ... /json'`;tulip_machine_attribute.js:204[11:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tulip_machine_attribute.js:111[32:34];Sink: body;utils.js:66[15:18]::FLOW_DESCR_END","/tulip_machine_attribute.js","111","32","111","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tulip_tables.js:29[32:34];Sink: {\n      ...       };tulip_tables.js:69[20:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tulip_tables.js:29[32:34];Sink: `Overri ... /json'`;tulip_tables.js:96[13:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tulip_tables.js:29[32:34];Sink: queryParamVal;tulip_tables.js:124[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tulip_tables.js:29[32:34];Sink: body;utils.js:66[15:18]::FLOW_DESCR_END","/tulip_tables.js","29","32","29","34"

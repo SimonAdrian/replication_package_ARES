@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;detect-language.js:6[33:35];Sink: msg;detect-language.js:30[39:41]::FLOW_DESCR_END","/detect-language/detect-language.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;key-phrases.js:6[33:35];Sink: msg;key-phrases.js:30[39:41]::FLOW_DESCR_END","/key-phrases/key-phrases.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sentiment.js:6[33:35];Sink: msg;sentiment.js:32[39:41]::FLOW_DESCR_END","/sentiment/sentiment.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e?.resp ... message;text-analytics-base.js:72[29:61];Sink: e.message;detect-language.js:30[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;text-analytics-base.js:72[29:61];Sink: e.message;key-phrases.js:30[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;text-analytics-base.js:72[29:61];Sink: e.message;sentiment.js:32[28:36]::FLOW_DESCR_END","/utilities/text-analytics-base.js","72","29","72","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e?.resp ... ?.error;text-analytics-base.js:72[29:52];Sink: e.message;detect-language.js:30[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;text-analytics-base.js:72[29:52];Sink: e.message;key-phrases.js:30[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;text-analytics-base.js:72[29:52];Sink: e.message;sentiment.js:32[28:36]::FLOW_DESCR_END","/utilities/text-analytics-base.js","72","29","72","52"

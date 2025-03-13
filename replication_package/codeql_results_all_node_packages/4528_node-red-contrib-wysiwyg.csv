@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jodit.es2018.en.js:4931[18:18];Sink: e;jodit.es2018.en.js:4935[69:69]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.en.js","4931","18","4931","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();jodit.es2018.en.js:5982[30:40];Sink: y;jodit.es2018.en.js:5964[115:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();jodit.es2018.en.js:5982[30:40];Sink: y;jodit.es2018.en.js:5964[148:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();jodit.es2018.en.js:5982[30:40];Sink: op[1];jodit.es2018.en.js:5964[151:155]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.en.js","5982","30","5982","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jodit.es2018.en.js:17878[13:13];Sink: types;jodit.es2018.en.js:17676[26:30]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.en.js","17878","13","17878","13"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;jodit.es2018.en.js:19705[56:60];Sink: editor. ... (value);jodit.es2018.en.js:19714[39:51]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.en.js","19705","56","19705","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: height;jodit.es2018.en.js:23064[15:20];Sink: height;jodit.es2018.en.js:23076[42:47]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.en.js","23064","15","23064","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jodit.es2018.js:4931[18:18];Sink: e;jodit.es2018.js:4935[69:69]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.js","4931","18","4931","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();jodit.es2018.js:5982[30:40];Sink: y;jodit.es2018.js:5964[115:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();jodit.es2018.js:5982[30:40];Sink: y;jodit.es2018.js:5964[148:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();jodit.es2018.js:5982[30:40];Sink: op[1];jodit.es2018.js:5964[151:155]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.js","5982","30","5982","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jodit.es2018.js:22112[13:13];Sink: types;jodit.es2018.js:21910[26:30]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.js","22112","13","22112","13"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;jodit.es2018.js:23939[56:60];Sink: editor. ... (value);jodit.es2018.js:23948[39:51]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.js","23939","56","23939","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: height;jodit.es2018.js:27298[15:20];Sink: height;jodit.es2018.js:27310[42:47]::FLOW_DESCR_END","/resources/jodit/jodit.es2018.js","27298","15","27298","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();jodit.js:1909[30:40];Sink: y;jodit.js:1891[115:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();jodit.js:1909[30:40];Sink: y;jodit.js:1891[148:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();jodit.js:1909[30:40];Sink: op[1];jodit.js:1891[151:155]::FLOW_DESCR_END","/resources/jodit/jodit.js","1909","30","1909","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jodit.js:6859[49:49];Sink: e;jodit.js:6864[87:87]::FLOW_DESCR_END","/resources/jodit/jodit.js","6859","49","6859","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;jodit.js:25923[65:69];Sink: editor. ... (value);jodit.js:25932[39:51]::FLOW_DESCR_END","/resources/jodit/jodit.js","25923","65","25923","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: height;jodit.js:29944[42:47];Sink: height;jodit.js:29956[42:47]::FLOW_DESCR_END","/resources/jodit/jodit.js","29944","42","29944","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wysiwyg.js:16[23:25];Sink: msg;wysiwyg.js:25[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wysiwyg.js:16[23:25];Sink: msg;wysiwyg.js:34[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wysiwyg.js:16[23:25];Sink: msg;wysiwyg.js:41[14:16]::FLOW_DESCR_END","/wysiwyg.js","16","23","16","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wysiwyg.js:46[22:24];Sink: msg;wysiwyg.js:49[17:19]::FLOW_DESCR_END","/wysiwyg.js","46","22","46","24"

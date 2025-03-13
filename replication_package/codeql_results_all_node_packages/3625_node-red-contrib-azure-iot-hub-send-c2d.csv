@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;sendc2dmessage.js:13[18:32];Sink: msg.dev ... eviceId;sendc2dmessage.js:72[24:47]::FLOW_DESCR_END","/src/sendc2dmessage.js","13","18","13","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendc2dmessage.js:62[30:32];Sink: msg.dev ... eviceId;sendc2dmessage.js:72[24:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sendc2dmessage.js:62[30:32];Sink: msg.payload;sendc2dmessage.js:72[50:60]::FLOW_DESCR_END","/src/sendc2dmessage.js","62","30","62","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;sendc2dmessage.js:72[24:35];Sink: msg.dev ... eviceId;sendc2dmessage.js:72[24:47]::FLOW_DESCR_END","/src/sendc2dmessage.js","72","24","72","35"

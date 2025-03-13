@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-role.js:15[42:44];Sink: messageId;get-role.js:22[70:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-role.js:15[42:44];Sink: messageId;get-role.js:31[66:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-role.js:15[42:44];Sink: msg;get-role.js:41[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-role.js:15[42:44];Sink: msg;get-role.js:82[18:20]::FLOW_DESCR_END","/module/get-role.js","15","42","15","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;receive-message.js:18[26:32];Sink: message.id;receive-message.js:21[44:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;receive-message.js:18[26:32];Sink: message;receive-message.js:21[56:62]::FLOW_DESCR_END","/module/receive-message.js","18","26","18","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-advanced-message.js:21[42:44];Sink: messageObj;send-advanced-message.js:45[52:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-advanced-message.js:21[42:44];Sink: messageObj;send-advanced-message.js:58[42:51]::FLOW_DESCR_END","/module/send-advanced-message.js","21","42","21","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-simple-message.js:20[42:44];Sink: messageObj;send-simple-message.js:44[52:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-simple-message.js:20[42:44];Sink: messageObj;send-simple-message.js:57[42:51]::FLOW_DESCR_END","/module/send-simple-message.js","20","42","20","44"

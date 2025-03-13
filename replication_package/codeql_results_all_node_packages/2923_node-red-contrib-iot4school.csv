@@ -1,0 +1,66 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;iot2school.js:21[21:26];Sink: node.brokerurl;iot2school.js:154[44:57]::FLOW_DESCR_END","/iot2school/iot2school.js","21","21","21","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;iot2school.js:80[65:73];Sink: node.brokerurl;iot2school.js:154[44:57]::FLOW_DESCR_END","/iot2school/iot2school.js","80","65","80","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:455[40:42];Sink: msg;iot2school.js:460[41:43]::FLOW_DESCR_END","/iot2school/iot2school.js","455","40","455","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:549[40:42];Sink: msg;iot2school.js:554[41:43]::FLOW_DESCR_END","/iot2school/iot2school.js","549","40","549","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:600[38:40];Sink: msg;iot2school.js:615[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:600[38:40];Sink: msg;iot2school.js:618[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:600[38:40];Sink: msg;iot2school.js:626[61:63]::FLOW_DESCR_END","/iot2school/iot2school.js","600","38","600","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:867[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:878[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:892[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:905[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:912[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:922[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:929[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:854[36:38];Sink: msg;iot2school.js:939[23:25]::FLOW_DESCR_END","/iot2school/iot2school.js","854","36","854","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:974[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:981[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:999[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:1005[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:1016[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:1023[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:966[36:38];Sink: msg;iot2school.js:1031[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","966","36","966","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1060[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1067[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1085[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1091[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1102[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1109[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1052[36:38];Sink: msg;iot2school.js:1117[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","1052","36","1052","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1145[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1152[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1170[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1176[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1187[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1194[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1137[36:38];Sink: msg;iot2school.js:1202[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","1137","36","1137","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1214[36:38];Sink: msg;iot2school.js:1222[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1214[36:38];Sink: msg;iot2school.js:1229[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1214[36:38];Sink: msg;iot2school.js:1244[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1214[36:38];Sink: msg;iot2school.js:1250[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1214[36:38];Sink: msg;iot2school.js:1259[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","1214","36","1214","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1288[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1295[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1313[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1319[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1330[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1337[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1280[36:38];Sink: msg;iot2school.js:1345[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","1280","36","1280","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1368[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1375[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1393[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1399[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1410[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1417[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1360[36:38];Sink: msg;iot2school.js:1425[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","1360","36","1360","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1453[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1460[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1478[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1484[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1495[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1502[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1445[36:38];Sink: msg;iot2school.js:1510[27:29]::FLOW_DESCR_END","/iot2school/iot2school.js","1445","36","1445","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot2school.js:1564[36:38];Sink: [msg, n ... , null];iot2school.js:1568[35:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1564[36:38];Sink: [null,  ... , null];iot2school.js:1570[35:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1564[36:38];Sink: [null,  ... , null];iot2school.js:1572[35:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot2school.js:1564[36:38];Sink: [null,  ... l, msg];iot2school.js:1574[35:57]::FLOW_DESCR_END","/iot2school/iot2school.js","1564","36","1564","38"

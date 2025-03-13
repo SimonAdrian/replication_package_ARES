@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;average-bars.js:6[33:35];Sink: msg;average-bars.js:28[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;average-bars.js:6[33:35];Sink: barName;average-bars.js:393[23:29]::FLOW_DESCR_END","/average-bars.js","6","33","6","35"

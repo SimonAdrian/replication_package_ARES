@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: wasi.fs ... r(path);wasmer.js:95[36:56];Sink: content;wasmer.js:66[63:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: wasi.fs ... r(path);wasmer.js:95[36:56];Sink: content;wasmer.js:76[52:58]::FLOW_DESCR_END","/wasmer.js","95","36","95","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: msg;common.js:49[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: msg;common.js:50[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: msg + """";common.js:52[19:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: consoleText;common.js:54[20:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: msg;common.js:81[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: content;wasmer.js:66[63:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: content;wasmer.js:76[52:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: msg;wasmer.js:131[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wasmer.js:130[46:48];Sink: msg;wasmer.js:138[26:28]::FLOW_DESCR_END","/wasmer.js","130","46","130","48"

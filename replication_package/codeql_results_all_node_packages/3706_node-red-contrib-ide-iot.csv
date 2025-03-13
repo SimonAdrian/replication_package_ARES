@@ -1,0 +1,103 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Application.js:43[32:34];Sink: msg;Application.js:67[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Application.js:43[32:34];Sink: msg;Application.js:145[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Application.js:43[32:34];Sink: msg;Application.js:155[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Application.js:43[32:34];Sink: msg;Application.js:158[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Application.js:43[32:34];Sink: msg;Application.js:179[21:23]::FLOW_DESCR_END","/Application.js","43","32","43","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Application.js:140[31:35];Sink: error;Application.js:155[24:28]::FLOW_DESCR_END","/Application.js","140","31","140","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Container.js:37[32:34];Sink: msg;Container.js:59[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Container.js:37[32:34];Sink: msg;Container.js:122[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Container.js:37[32:34];Sink: msg;Container.js:132[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Container.js:37[32:34];Sink: msg;Container.js:135[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Container.js:37[32:34];Sink: msg;Container.js:155[21:23]::FLOW_DESCR_END","/Container.js","37","32","37","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Container.js:117[31:35];Sink: error;Container.js:132[24:28]::FLOW_DESCR_END","/Container.js","117","31","117","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ContentInstance.js:39[32:34];Sink: msg;ContentInstance.js:57[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ContentInstance.js:39[32:34];Sink: msg;ContentInstance.js:135[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ContentInstance.js:39[32:34];Sink: msg;ContentInstance.js:145[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ContentInstance.js:39[32:34];Sink: msg;ContentInstance.js:148[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ContentInstance.js:39[32:34];Sink: msg;ContentInstance.js:168[21:23]::FLOW_DESCR_END","/ContentInstance.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ContentInstance.js:130[31:35];Sink: error;ContentInstance.js:145[24:28]::FLOW_DESCR_END","/ContentInstance.js","130","31","130","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:64[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:124[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:134[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:137[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:217[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:226[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:229[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:249[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledActuator.js:42[32:34];Sink: msg;LabeledActuator.js:250[25:27]::FLOW_DESCR_END","/LabeledActuator.js","42","32","42","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;LabeledActuator.js:120[31:35];Sink: error;LabeledActuator.js:134[24:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;LabeledActuator.js:120[31:35];Sink: msg.payload;LabeledActuator.js:157[23:33]::FLOW_DESCR_END","/LabeledActuator.js","120","31","120","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;LabeledActuator.js:120[48:51];Sink: msg.payload;LabeledActuator.js:157[23:33]::FLOW_DESCR_END","/LabeledActuator.js","120","48","120","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;LabeledActuator.js:213[35:39];Sink: msg.payload;LabeledActuator.js:157[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;LabeledActuator.js:213[35:39];Sink: error;LabeledActuator.js:226[28:32]::FLOW_DESCR_END","/LabeledActuator.js","213","35","213","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;LabeledActuator.js:213[52:55];Sink: msg.payload;LabeledActuator.js:157[23:33]::FLOW_DESCR_END","/LabeledActuator.js","213","52","213","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:61[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:128[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:137[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:140[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:206[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:215[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:218[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LabeledSensor.js:40[32:34];Sink: msg;LabeledSensor.js:238[25:27]::FLOW_DESCR_END","/LabeledSensor.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;LabeledSensor.js:124[31:35];Sink: error;LabeledSensor.js:137[24:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;LabeledSensor.js:124[31:35];Sink: url;LabeledSensor.js:168[23:25]::FLOW_DESCR_END","/LabeledSensor.js","124","31","124","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;LabeledSensor.js:124[48:51];Sink: url;LabeledSensor.js:168[23:25]::FLOW_DESCR_END","/LabeledSensor.js","124","48","124","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;LabeledSensor.js:202[35:39];Sink: url;LabeledSensor.js:168[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;LabeledSensor.js:202[35:39];Sink: error;LabeledSensor.js:215[28:32]::FLOW_DESCR_END","/LabeledSensor.js","202","35","202","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;LabeledSensor.js:202[52:55];Sink: url;LabeledSensor.js:168[23:25]::FLOW_DESCR_END","/LabeledSensor.js","202","52","202","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;NamedActuator.js:39[32:34];Sink: msg;NamedActuator.js:55[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedActuator.js:39[32:34];Sink: msg;NamedActuator.js:111[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedActuator.js:39[32:34];Sink: msg;NamedActuator.js:121[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedActuator.js:39[32:34];Sink: msg;NamedActuator.js:124[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedActuator.js:39[32:34];Sink: msg;NamedActuator.js:144[21:23]::FLOW_DESCR_END","/NamedActuator.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;NamedActuator.js:107[31:35];Sink: error;NamedActuator.js:121[24:28]::FLOW_DESCR_END","/NamedActuator.js","107","31","107","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;NamedSensor.js:41[32:34];Sink: msg;NamedSensor.js:58[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedSensor.js:41[32:34];Sink: msg;NamedSensor.js:129[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedSensor.js:41[32:34];Sink: msg;NamedSensor.js:138[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedSensor.js:41[32:34];Sink: msg;NamedSensor.js:141[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;NamedSensor.js:41[32:34];Sink: msg;NamedSensor.js:161[21:23]::FLOW_DESCR_END","/NamedSensor.js","41","32","41","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;NamedSensor.js:125[31:35];Sink: error;NamedSensor.js:138[24:28]::FLOW_DESCR_END","/NamedSensor.js","125","31","125","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;NotificationsHandler.js:28[20:25];Sink: ""Server ... context;NotificationsHandler.js:70[25:81]::FLOW_DESCR_END","/NotificationsHandler.js","28","20","28","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;NotificationsHandler.js:29[20:25];Sink: ""Server ... context;NotificationsHandler.js:70[25:81]::FLOW_DESCR_END","/NotificationsHandler.js","29","20","29","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;NotificationsHandler.js:40[50:53];Sink: ""Partia ...  + body;NotificationsHandler.js:43[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;NotificationsHandler.js:40[50:53];Sink: ""Body: "" + body;NotificationsHandler.js:48[37:51]::FLOW_DESCR_END","/NotificationsHandler.js","40","50","40","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;NotificationsHandler.js:54[51:53];Sink: err;NotificationsHandler.js:55[39:41]::FLOW_DESCR_END","/NotificationsHandler.js","54","51","54","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;NotificationsHandler.js:56[45:48];Sink: ""Body: "" + body;NotificationsHandler.js:48[37:51]::FLOW_DESCR_END","/NotificationsHandler.js","56","45","56","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;NotificationsHandler.js:64[33:37];Sink: `error  ... ssage}`;NotificationsHandler.js:65[28:66]::FLOW_DESCR_END","/NotificationsHandler.js","64","33","64","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;OM2MEntity.js:30[24:33];Sink: password;OM2MEntity.js:35[66:73]::FLOW_DESCR_END","/OM2MEntity.js","30","24","30","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:55[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:99[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:109[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:112[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:196[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:205[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:208[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticActuator.js:37[32:34];Sink: msg;SemanticActuator.js:229[25:27]::FLOW_DESCR_END","/SemanticActuator.js","37","32","37","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;SemanticActuator.js:95[31:35];Sink: error;SemanticActuator.js:109[24:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;SemanticActuator.js:95[31:35];Sink: url;SemanticActuator.js:141[23:25]::FLOW_DESCR_END","/SemanticActuator.js","95","31","95","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;SemanticActuator.js:95[48:51];Sink: url;SemanticActuator.js:141[23:25]::FLOW_DESCR_END","/SemanticActuator.js","95","48","95","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;SemanticActuator.js:192[35:39];Sink: url;SemanticActuator.js:141[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;SemanticActuator.js:192[35:39];Sink: error;SemanticActuator.js:205[28:32]::FLOW_DESCR_END","/SemanticActuator.js","192","35","192","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;SemanticActuator.js:192[52:55];Sink: url;SemanticActuator.js:141[23:25]::FLOW_DESCR_END","/SemanticActuator.js","192","52","192","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SemanticDescriptor.js:40[32:34];Sink: msg;SemanticDescriptor.js:57[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticDescriptor.js:40[32:34];Sink: msg;SemanticDescriptor.js:121[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticDescriptor.js:40[32:34];Sink: msg;SemanticDescriptor.js:131[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticDescriptor.js:40[32:34];Sink: msg;SemanticDescriptor.js:134[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticDescriptor.js:40[32:34];Sink: msg;SemanticDescriptor.js:154[21:23]::FLOW_DESCR_END","/SemanticDescriptor.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;SemanticDescriptor.js:117[31:35];Sink: error;SemanticDescriptor.js:131[24:28]::FLOW_DESCR_END","/SemanticDescriptor.js","117","31","117","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:58[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:112[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:121[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:124[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:188[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:197[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:200[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SemanticSensor.js:40[32:34];Sink: msg;SemanticSensor.js:220[25:27]::FLOW_DESCR_END","/SemanticSensor.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;SemanticSensor.js:108[31:35];Sink: error;SemanticSensor.js:121[24:28]::FLOW_DESCR_END","/SemanticSensor.js","108","31","108","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;SemanticSensor.js:184[35:39];Sink: error;SemanticSensor.js:197[28:32]::FLOW_DESCR_END","/SemanticSensor.js","184","35","184","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Subscription.js:38[32:34];Sink: msg;Subscription.js:57[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Subscription.js:38[32:34];Sink: msg;Subscription.js:122[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Subscription.js:38[32:34];Sink: msg;Subscription.js:132[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Subscription.js:38[32:34];Sink: msg;Subscription.js:135[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Subscription.js:38[32:34];Sink: msg;Subscription.js:155[21:23]::FLOW_DESCR_END","/Subscription.js","38","32","38","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Subscription.js:117[31:35];Sink: error;Subscription.js:132[24:28]::FLOW_DESCR_END","/Subscription.js","117","31","117","35"

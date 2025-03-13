@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-sms.js:15[29:31];Sink: `Node m ... ssage}`;send-sms.js:17[16:46]::FLOW_DESCR_END","/nodes/send-sms.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ssageId;send-sms.js:40[27:49];Sink: `Messag ... ageId}`;send-sms.js:41[18:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ssageId;send-sms.js:40[27:49];Sink: `https: ... status`;send-sms.js:47[46:115]::FLOW_DESCR_END","/nodes/send-sms.js","40","27","40","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: statusR ... .status;send-sms.js:57[32:57];Sink: `SMS de ... atus}""`;send-sms.js:65[26:78]::FLOW_DESCR_END","/nodes/send-sms.js","57","32","57","57"

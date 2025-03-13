@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:17[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:25[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:27[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:29[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:36[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:46[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-base64.js:11[35:37];Sink: msg;70-base64.js:52[39:41]::FLOW_DESCR_END","/70-base64.js","11","35","11","37"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monogoto-customer.js:217[34:36];Sink: msg;monogoto-customer.js:289[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monogoto-customer.js:217[34:36];Sink: msg;monogoto-customer.js:344[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monogoto-customer.js:217[34:36];Sink: [undefined,msg];monogoto-customer.js:346[39:53]::FLOW_DESCR_END","/monogoto-customer.js","217","34","217","36"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;AHNetwork.js:7[21:31];Sink: this.port;AHNetwork.js:35[33:41]::FLOW_DESCR_END","/AHNetwork/AHNetwork.js","7","21","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;AHNetwork.js:31[129:139];Sink: ""Attemp ... ig.port;AHNetwork.js:31[22:139]::FLOW_DESCR_END","/AHNetwork/AHNetwork.js","31","129","31","139"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;AHNetwork.js:56[46:46];Sink: ""Some e ...  e.code;AHNetwork.js:72[36:107]::FLOW_DESCR_END","/AHNetwork/AHNetwork.js","56","46","56","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;AHNetwork.js:59[154:164];Sink: ""Critic ... ig.port;AHNetwork.js:59[38:164]::FLOW_DESCR_END","/AHNetwork/AHNetwork.js","59","154","59","164"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;AHNetwork.js:65[136:146];Sink: ""Failed ... ig.port;AHNetwork.js:65[38:146]::FLOW_DESCR_END","/AHNetwork/AHNetwork.js","65","136","65","146"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;AHNetwork_old.js:44[116:126];Sink: ""Create ... ig.port;AHNetwork_old.js:44[18:126]::FLOW_DESCR_END","/AHNetwork/AHNetwork_old.js","44","116","44","126"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;AHNetwork_old.js:47[21:31];Sink: node.port;AHNetwork_old.js:194[26:34]::FLOW_DESCR_END","/AHNetwork/AHNetwork_old.js","47","21","47","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;AHNetwork_old.js:162[30:30];Sink: ""An Err ... d "" + e;AHNetwork_old.js:184[28:50]::FLOW_DESCR_END","/AHNetwork/AHNetwork_old.js","162","30","162","30"

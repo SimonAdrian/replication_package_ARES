@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_brightness.js:63[33:35];Sink: msg;tplink_brightness.js:97[23:25]::FLOW_DESCR_END","/nodes/tplink_brightness.js","63","33","63","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_colour.js:64[33:35];Sink: msg;tplink_colour.js:98[23:25]::FLOW_DESCR_END","/nodes/tplink_colour.js","64","33","64","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_command.js:112[33:35];Sink: msg;tplink_command.js:183[23:25]::FLOW_DESCR_END","/nodes/tplink_command.js","112","33","112","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_status.js:62[33:35];Sink: msg;tplink_status.js:95[23:25]::FLOW_DESCR_END","/nodes/tplink_status.js","62","33","62","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_tapo_connect_api.js:109[33:35];Sink: msg;tplink_tapo_connect_api.js:178[23:25]::FLOW_DESCR_END","/nodes/tplink_tapo_connect_api.js","109","33","109","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_toggle.js:98[33:35];Sink: msg;tplink_toggle.js:153[23:25]::FLOW_DESCR_END","/nodes/tplink_toggle.js","98","33","98","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_turn_off.js:62[33:35];Sink: msg;tplink_turn_off.js:95[23:25]::FLOW_DESCR_END","/nodes/tplink_turn_off.js","62","33","62","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tplink_turn_on.js:62[33:35];Sink: msg;tplink_turn_on.js:98[23:25]::FLOW_DESCR_END","/nodes/tplink_turn_on.js","62","33","62","35"

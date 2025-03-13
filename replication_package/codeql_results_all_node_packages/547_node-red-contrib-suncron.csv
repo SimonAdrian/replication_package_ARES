@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;suncron.js:296[32:34];Sink: debugMsg;suncron.js:207[19:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;suncron.js:296[32:34];Sink: `new of ... Type]}`;suncron.js:312[19:74]::FLOW_DESCR_END","/suncron.js","296","32","296","34"

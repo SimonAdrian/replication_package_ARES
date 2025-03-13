@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;array-map.js:21[40:42];Sink: [null, msg];array-map.js:25[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;array-map.js:21[40:42];Sink: [null, null, msg];array-map.js:48[42:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;array-map.js:21[40:42];Sink: msg;array-map.js:112[35:37]::FLOW_DESCR_END","/array-map.js","21","40","21","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;array-map.js:145[40:42];Sink: [null, finalMsg];array-map.js:161[38:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;array-map.js:145[40:42];Sink: msg;array-map.js:170[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;array-map.js:145[40:42];Sink: msg;array-map.js:196[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;array-map.js:145[40:42];Sink: finalMsg;array-map.js:211[35:42]::FLOW_DESCR_END","/array-map.js","145","40","145","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;array-map.js:227[30:32];Sink: msg;array-map.js:230[27:29]::FLOW_DESCR_END","/array-map.js","227","30","227","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deep-merge.js:10[32:34];Sink: msg;deep-merge.js:18[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deep-merge.js:10[32:34];Sink: msg;deep-merge.js:19[17:19]::FLOW_DESCR_END","/deep-merge.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: msg;foreach.js:53[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: msg;foreach.js:59[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: msg;foreach.js:72[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: msg;foreach.js:80[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: resultMsg;foreach.js:89[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: [null, resultMsg];foreach.js:94[23:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:47[38:40];Sink: resultMsg;foreach.js:98[32:40]::FLOW_DESCR_END","/foreach.js","47","38","47","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;foreach.js:127[31:33];Sink: msg;foreach.js:134[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:127[31:33];Sink: msg;foreach.js:140[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:127[31:33];Sink: [null, msg];foreach.js:143[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:127[31:33];Sink: msg;foreach.js:147[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:127[31:33];Sink: [null, msg];foreach.js:150[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foreach.js:127[31:33];Sink: msg;foreach.js:152[24:26]::FLOW_DESCR_END","/foreach.js","127","31","127","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;foreach.js:157[32:34];Sink: msg;foreach.js:168[43:45]::FLOW_DESCR_END","/foreach.js","157","32","157","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;foreach.js:180[32:34];Sink: msg;foreach.js:189[41:43]::FLOW_DESCR_END","/foreach.js","180","32","180","34"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;download-document.js:11[42:44];Sink: msg;download-document.js:18[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download-document.js:11[42:44];Sink: { ...ms ... ument };download-document.js:26[18:46]::FLOW_DESCR_END","/node-red-paperless-ngx/download-document.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-correspondents.js:10[42:44];Sink: { ...ms ...  tags };get-correspondents.js:18[18:42]::FLOW_DESCR_END","/node-red-paperless-ngx/get-correspondents.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-customfields.js:10[42:44];Sink: { ...ms ...  tags };get-customfields.js:18[18:42]::FLOW_DESCR_END","/node-red-paperless-ngx/get-customfields.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-documents.js:11[42:44];Sink: { ...ms ... ments };get-documents.js:31[18:47]::FLOW_DESCR_END","/node-red-paperless-ngx/get-documents.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-tags.js:10[42:44];Sink: { ...ms ...  tags };get-tags.js:17[18:42]::FLOW_DESCR_END","/node-red-paperless-ngx/get-tags.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-document.js:12[42:44];Sink: msg;update-document.js:17[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-document.js:12[42:44];Sink: { ...ms ... esult };update-document.js:27[18:44]::FLOW_DESCR_END","/node-red-paperless-ngx/update-document.js","12","42","12","44"

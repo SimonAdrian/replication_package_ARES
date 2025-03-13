@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;remootio.js:74[42:44];Sink: err;remootio.js:76[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;remootio.js:74[42:44];Sink: err;remootio.js:77[33:35]::FLOW_DESCR_END","/remootio.js","74","42","74","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remootio.js:119[36:38];Sink: msg;remootio.js:135[23:25]::FLOW_DESCR_END","/remootio.js","119","36","119","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;remootio.js:129[46:48];Sink: err;remootio.js:131[37:39]::FLOW_DESCR_END","/remootio.js","129","46","129","48"

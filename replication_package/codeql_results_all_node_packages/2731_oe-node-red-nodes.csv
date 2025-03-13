@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-data.js:26[32:34];Sink: [null, msg];create-data.js:69[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-data.js:26[32:34];Sink: [msg, null];create-data.js:81[23:33]::FLOW_DESCR_END","/create-data/create-data.js","26","32","26","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;destroy-data.js:27[32:34];Sink: [null, msg];destroy-data.js:42[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;destroy-data.js:27[32:34];Sink: [msg, null];destroy-data.js:46[23:33]::FLOW_DESCR_END","/destroy-data/destroy-data.js","27","32","27","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;execute-remote-method.js:19[32:34];Sink: 'Node r ... found.';execute-remote-method.js:52[29:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-remote-method.js:19[32:34];Sink: msg;execute-remote-method.js:54[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-remote-method.js:19[32:34];Sink: msg;execute-remote-method.js:76[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-remote-method.js:19[32:34];Sink: msg;execute-remote-method.js:87[20:22]::FLOW_DESCR_END","/execute-remote-method/execute-remote-method.js","19","32","19","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;find-data.js:27[32:34];Sink: [null, msg];find-data.js:68[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find-data.js:27[32:34];Sink: [msg, null];find-data.js:82[23:33]::FLOW_DESCR_END","/find-data/find-data.js","27","32","27","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remote-method.js:49[32:34];Sink: msg;remote-method.js:54[19:21]::FLOW_DESCR_END","/remote-method/remote-method.js","49","32","49","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decision-table.js:13[32:34];Sink: [msg, null];decision-table.js:28[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decision-table.js:13[32:34];Sink: [null, msg];decision-table.js:32[29:39]::FLOW_DESCR_END","/rule-engine-decision-table/decision-table.js","13","32","13","34"

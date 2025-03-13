@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.set ... tt.host;sts-mqtt-node.js:28[20:53];Sink: node.brokerurl;sts-mqtt-node.js:158[36:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.set ... tt.host;sts-mqtt-node.js:28[20:53];Sink: JSON.st ... \n    });sts-mqtt-node.js:400[14:6]::FLOW_DESCR_END","/sts-mqtt-node.js","28","20","28","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.set ... tt.port;sts-mqtt-node.js:32[20:53];Sink: JSON.st ... \n    });sts-mqtt-node.js:400[14:6]::FLOW_DESCR_END","/sts-mqtt-node.js","32","20","32","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;sts-mqtt-node.js:48[17:22];Sink: node.brokerurl;sts-mqtt-node.js:158[36:49]::FLOW_DESCR_END","/sts-mqtt-node.js","48","17","48","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;sts-mqtt-node.js:96[57:65];Sink: node.brokerurl;sts-mqtt-node.js:158[36:49]::FLOW_DESCR_END","/sts-mqtt-node.js","96","57","96","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sts-mqtt-node.js:366[32:34];Sink: msg;sts-mqtt-node.js:381[37:39]::FLOW_DESCR_END","/sts-mqtt-node.js","366","32","366","34"

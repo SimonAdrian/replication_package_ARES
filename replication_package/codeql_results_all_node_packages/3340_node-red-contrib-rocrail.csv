@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rcp.js:5[30:32];Sink: [null,msg];rcp.js:11[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcp.js:5[30:32];Sink: jObj.clock.$.cmd;rcp.js:25[20:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcp.js:5[30:32];Sink: [null,msg];rcp.js:28[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcp.js:5[30:32];Sink: ""power: ... $.power;rcp.js:32[20:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcp.js:5[30:32];Sink: [msg,msg];rcp.js:35[22:30]::FLOW_DESCR_END","/RCP/rcp.js","5","30","5","32"

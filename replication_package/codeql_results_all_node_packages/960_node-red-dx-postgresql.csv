@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pg.js:21[34:36];Sink: err.message;pg.js:22[24:34]::FLOW_DESCR_END","/pg.js","21","34","21","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pg.js:51[33:35];Sink: [null,  ... : err}];pg.js:54[22:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:51[33:35];Sink: err;pg.js:60[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:51[33:35];Sink: msg;pg.js:60[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:51[33:35];Sink: [msg, null];pg.js:112[22:32]::FLOW_DESCR_END","/pg.js","51","33","51","35"

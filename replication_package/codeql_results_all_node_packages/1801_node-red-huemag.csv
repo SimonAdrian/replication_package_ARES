@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-group.js:104[29:31];Sink: msg;hue-group.js:128[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-group.js:104[29:31];Sink: msg;hue-group.js:197[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-group.js:104[29:31];Sink: msg;hue-group.js:263[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-group.js:104[29:31];Sink: msg;hue-group.js:282[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-group.js:104[29:31];Sink: msg;hue-group.js:321[25:27]::FLOW_DESCR_END","/red/hue-group.js","104","29","104","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-light.js:107[29:31];Sink: msg;hue-light.js:143[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-light.js:107[29:31];Sink: msg;hue-light.js:225[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-light.js:107[29:31];Sink: msg;hue-light.js:369[25:27]::FLOW_DESCR_END","/red/hue-light.js","107","29","107","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-motion.js:99[29:31];Sink: msg;hue-motion.js:142[25:27]::FLOW_DESCR_END","/red/hue-motion.js","99","29","99","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-scene.js:23[29:31];Sink: error;hue-scene.js:68[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hue-scene.js:23[29:31];Sink: msg;hue-scene.js:68[24:26]::FLOW_DESCR_END","/red/hue-scene.js","23","29","23","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hue-whitecolor.js:9[31:33];Sink: msg;hue-whitecolor.js:11[17:19]::FLOW_DESCR_END","/red/hue-whitecolor.js","9","31","9","33"

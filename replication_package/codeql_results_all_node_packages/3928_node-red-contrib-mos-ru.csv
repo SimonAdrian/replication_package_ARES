@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;energy-get.js:45[36:38];Sink: msg;energy-get.js:186[31:33]::FLOW_DESCR_END","/energy/energy-get.js","45","36","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;energy-set.js:49[36:38];Sink: msg;energy-set.js:210[31:33]::FLOW_DESCR_END","/energy/energy-set.js","49","36","49","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;password-reset.js:35[36:38];Sink: msg;password-reset.js:108[31:33]::FLOW_DESCR_END","/password/password-reset.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;password-update.js:34[36:38];Sink: msg;password-update.js:104[31:33]::FLOW_DESCR_END","/password/password-update.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;water-get.js:45[36:38];Sink: msg;water-get.js:172[31:33]::FLOW_DESCR_END","/water/water-get.js","45","36","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;water-set.js:49[36:38];Sink: msg;water-set.js:221[31:33]::FLOW_DESCR_END","/water/water-set.js","49","36","49","38"

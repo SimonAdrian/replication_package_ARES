@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;api.js:71[41:43];Sink: port;api.js:129[64:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;api.js:71[41:43];Sink: host;api.js:129[70:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;api.js:71[41:43];Sink: RED._("" ... tion_id;api.js:282[37:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;api.js:71[41:43];Sink: msg;api.js:282[95:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;api.js:71[41:43];Sink: port;api.js:301[72:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;api.js:71[41:43];Sink: host;api.js:301[78:81]::FLOW_DESCR_END","/lib/api.js","71","41","71","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;api.js:87[78:85];Sink: host;api.js:129[70:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;api.js:87[78:85];Sink: RED._("" ... tion_id;api.js:282[37:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;api.js:87[78:85];Sink: host;api.js:301[78:81]::FLOW_DESCR_END","/lib/api.js","87","78","87","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;api.js:88[62:70];Sink: port;api.js:129[64:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;api.js:88[62:70];Sink: RED._("" ... tion_id;api.js:282[37:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;api.js:88[62:70];Sink: port;api.js:301[72:75]::FLOW_DESCR_END","/lib/api.js","88","62","88","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;api.js:88[75:82];Sink: port;api.js:129[64:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;api.js:88[75:82];Sink: RED._("" ... tion_id;api.js:282[37:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;api.js:88[75:82];Sink: port;api.js:301[72:75]::FLOW_DESCR_END","/lib/api.js","88","75","88","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webApi.js:12[37:39];Sink: url;webApi.js:31[26:28]::FLOW_DESCR_END","/lib/webApi.js","12","37","12","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;webApi.js:17[26:34];Sink: url;webApi.js:31[26:28]::FLOW_DESCR_END","/lib/webApi.js","17","26","17","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;webApi.js:21[74:81];Sink: url;webApi.js:31[26:28]::FLOW_DESCR_END","/lib/webApi.js","21","74","21","81"

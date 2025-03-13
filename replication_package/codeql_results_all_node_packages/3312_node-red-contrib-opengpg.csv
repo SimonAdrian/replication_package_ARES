@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opengpg.js:34[32:34];Sink: msg;opengpg.js:54[20:22]::FLOW_DESCR_END","/opengpg/opengpg.js","34","32","34","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opengpg.js:67[32:34];Sink: msg;opengpg.js:95[20:22]::FLOW_DESCR_END","/opengpg/opengpg.js","67","32","67","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opengpg.js:111[32:34];Sink: msg;opengpg.js:139[20:22]::FLOW_DESCR_END","/opengpg/opengpg.js","111","32","111","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opengpg.js:154[32:34];Sink: msg;opengpg.js:180[20:22]::FLOW_DESCR_END","/opengpg/opengpg.js","154","32","154","34"

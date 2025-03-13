@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;fission-invocation.html:235[27:32];Sink: status;fission-invocation.html:227[33:38]::FLOW_DESCR_END","/nodes/fission-invocation.html","235","27","235","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;fission-invocation.html:248[27:32];Sink: status;fission-invocation.html:227[33:38]::FLOW_DESCR_END","/nodes/fission-invocation.html","248","27","248","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;fission-invocation.html:261[27:32];Sink: status;fission-invocation.html:227[33:38]::FLOW_DESCR_END","/nodes/fission-invocation.html","261","27","261","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fission-invocation.js:31[36:38];Sink: buildMs ...  false);fission-invocation.js:70[27:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fission-invocation.js:31[36:38];Sink: buildMs ... , true);fission-invocation.js:78[27:60]::FLOW_DESCR_END","/nodes/fission-invocation.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fission-params-validate.js:57[36:38];Sink: [msg, null];fission-params-validate.js:60[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fission-params-validate.js:57[36:38];Sink: err;fission-params-validate.js:63[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fission-params-validate.js:57[36:38];Sink: msg;fission-params-validate.js:63[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fission-params-validate.js:57[36:38];Sink: [null, msg];fission-params-validate.js:66[27:37]::FLOW_DESCR_END","/nodes/fission-params-validate.js","57","36","57","38"

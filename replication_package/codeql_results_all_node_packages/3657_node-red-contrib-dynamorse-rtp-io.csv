@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: selected.port;30-nmos-rtp-in.js:60[81:93];Sink: `Select ... ted)}.`;30-nmos-rtp-in.js:60[20:52]::FLOW_DESCR_END","/nodes/30-nmos-rtp-in.js","60","81","60","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: selected.port;30-nmos-rtp-in.js:66[48:60];Sink: config.sender;30-nmos-rtp-in.js:93[20:32]::FLOW_DESCR_END","/nodes/30-nmos-rtp-in.js","66","48","66","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;30-nmos-rtp-in.js:78[29:32];Sink: x.txt[0];30-nmos-rtp-in.js:53[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;30-nmos-rtp-in.js:78[29:32];Sink: `Select ... ted)}.`;30-nmos-rtp-in.js:60[20:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;30-nmos-rtp-in.js:78[29:32];Sink: `Found  ...  : ''}`;30-nmos-rtp-in.js:81[20:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;30-nmos-rtp-in.js:78[29:32];Sink: config.sender;30-nmos-rtp-in.js:93[20:32]::FLOW_DESCR_END","/nodes/30-nmos-rtp-in.js","78","29","78","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.txt[0];30-nmos-rtp-in.js:81[86:96];Sink: `Found  ...  : ''}`;30-nmos-rtp-in.js:81[20:103]::FLOW_DESCR_END","/nodes/30-nmos-rtp-in.js","81","86","81","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;30-nmos-rtp-in.js:99[28:32];Sink: config.sender;30-nmos-rtp-in.js:93[20:32]::FLOW_DESCR_END","/nodes/30-nmos-rtp-in.js","99","28","99","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;grainProcessor.js:24[23:25];Sink: 'Proces ... ' + err;grainProcessor.js:25[17:39]::FLOW_DESCR_END","/util/grainProcessor.js","24","23","24","25"

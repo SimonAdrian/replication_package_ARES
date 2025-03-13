@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:84[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:96[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:105[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:111[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:117[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:121[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:126[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola-new.js:26[30:32];Sink: msg;iberdrola-new.js:131[15:17]::FLOW_DESCR_END","/iberdrola/iberdrola-new.js","26","30","26","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:43[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:68[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:88[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:131[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:135[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:146[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:150[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:155[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:159[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:163[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iberdrola.js:26[30:32];Sink: msg;iberdrola.js:169[15:17]::FLOW_DESCR_END","/iberdrola/iberdrola.js","26","30","26","32"

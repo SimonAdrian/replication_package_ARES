@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;float32-to-uint16.js:6[35:37];Sink: msg;float32-to-uint16.js:18[23:25]::FLOW_DESCR_END","/float32-to-uint16.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;merge-key-value-arr.js:5[35:37];Sink: ""Arrays ... .length;merge-key-value-arr.js:11[28:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;merge-key-value-arr.js:5[35:37];Sink: msg;merge-key-value-arr.js:18[23:25]::FLOW_DESCR_END","/merge-key-value-arr.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sub-array.js:6[35:37];Sink: msg;sub-array.js:30[23:25]::FLOW_DESCR_END","/sub-array.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uint16-to-float32.js:6[35:37];Sink: msg;uint16-to-float32.js:17[23:25]::FLOW_DESCR_END","/uint16-to-float32.js","6","35","6","37"

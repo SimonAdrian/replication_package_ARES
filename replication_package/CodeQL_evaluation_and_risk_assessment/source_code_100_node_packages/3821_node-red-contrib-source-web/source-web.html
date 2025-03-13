@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    RED.nodes.registerType('source-web',{
+        category: 'function', //节点分类
+        color: '#a6bbcf', //节点背景颜色
+        defaults: {
+            name: {value:""},
+            webconfig:{value:'',type:'web-config'}
+        },
+        inputs:0, //节点输入 0 or 1
+        outputs:1, //节点输出 0 or more
+        icon: "web.png", // 节点使用图标
+        label: function() { //节点标签
+            return this.name||"web资源";
+        }
+    });
+</script>
+ 
+<script type="text/x-red" data-template-name="source-web">
+    <div class="form-row">
+        <label for="node-input-webconfig"><i class="icon-tag"></i>配置</label>
+        <input type="text" id="node-input-webconfig">
+    </div>
+    <div class="form-row"> 
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label> 
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+ 
+<script type="text/x-red" data-help-name="source-web">
+    <p>硬盘资源暴露在WEB</p> 
+</script>

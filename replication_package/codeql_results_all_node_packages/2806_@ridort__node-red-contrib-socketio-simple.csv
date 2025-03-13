@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio-join.js:22[27:29];Sink: msg;socketio-join.js:30[17:19]::FLOW_DESCR_END","/src/socketio-join.js","22","27","22","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio-leave.js:22[27:29];Sink: msg;socketio-leave.js:30[17:19]::FLOW_DESCR_END","/src/socketio-leave.js","22","27","22","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;socketio-server.js:15[19:29];Sink: `Server ... nPort}`;socketio-server.js:67[14:54]::FLOW_DESCR_END","/src/socketio-server.js","15","19","15","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;socketio-server.js:40[26:31];Sink: `${sock ... nected`;socketio-server.js:43[16:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;socketio-server.js:40[26:31];Sink: `${sock ... nected`;socketio-server.js:51[18:43]::FLOW_DESCR_END","/src/socketio-server.js","40","26","40","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;socketio-server.js:45[23:28];Sink: `sio_ev ... event}`;socketio-server.js:47[19:39]::FLOW_DESCR_END","/src/socketio-server.js","45","23","45","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;socketio-server.js:46[16:20];Sink: `sio_ev ... event}`;socketio-server.js:47[19:39]::FLOW_DESCR_END","/src/socketio-server.js","46","16","46","20"

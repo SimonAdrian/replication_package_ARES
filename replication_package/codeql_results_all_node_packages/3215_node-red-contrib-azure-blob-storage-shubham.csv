@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Contai ... eation"";azureblobstorage.js:123[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... loaded"";azureblobstorage.js:135[26:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:136[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""destin ... ionFile;azureblobstorage.js:172[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... fully!"";azureblobstorage.js:190[26:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:71[36:38];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:191[27:113]::FLOW_DESCR_END","/azureblobstorage.js","71","36","71","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:80[34:54];Sink: ""Blob ' ... loaded"";azureblobstorage.js:135[26:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:80[34:54];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:136[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:80[34:54];Sink: ""destin ... ionFile;azureblobstorage.js:172[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:80[34:54];Sink: ""Blob ' ... fully!"";azureblobstorage.js:190[26:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:80[34:54];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:191[27:113]::FLOW_DESCR_END","/azureblobstorage.js","80","34","80","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:88[39:64];Sink: ""Contai ... eation"";azureblobstorage.js:123[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:88[39:64];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:136[27:96]::FLOW_DESCR_END","/azureblobstorage.js","88","39","88","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ntainer;azureblobstorage.js:152[31:56];Sink: ""Contai ... eation"";azureblobstorage.js:123[26:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ntainer;azureblobstorage.js:152[31:56];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:136[27:96]::FLOW_DESCR_END","/azureblobstorage.js","152","31","152","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:153[26:46];Sink: ""Blob ' ... loaded"";azureblobstorage.js:135[26:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:153[26:46];Sink: ""Blob ' ... me +""'"";azureblobstorage.js:136[27:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:153[26:46];Sink: ""destin ... ionFile;azureblobstorage.js:172[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:153[26:46];Sink: ""Blob ' ... fully!"";azureblobstorage.js:190[26:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:153[26:46];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:191[27:113]::FLOW_DESCR_END","/azureblobstorage.js","153","26","153","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:157[36:38];Sink: ""msg.pa ... payload;azureblobstorage.js:163[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:157[36:38];Sink: ""destin ... ionFile;azureblobstorage.js:172[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureblobstorage.js:157[36:38];Sink: ""Blob ' ... e) +""'"";azureblobstorage.js:191[27:113]::FLOW_DESCR_END","/azureblobstorage.js","157","36","157","38"

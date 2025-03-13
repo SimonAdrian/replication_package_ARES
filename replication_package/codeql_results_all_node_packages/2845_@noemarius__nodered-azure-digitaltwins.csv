@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batch-create-twin.js:11[29:31];Sink: msg;batch-create-twin.js:44[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batch-create-twin.js:11[29:31];Sink: msg;batch-create-twin.js:46[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batch-create-twin.js:11[29:31];Sink: msg;batch-create-twin.js:51[19:21]::FLOW_DESCR_END","/batch-create-twin.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batch-delete-twin.js:14[38:40];Sink: msg;batch-delete-twin.js:48[19:21]::FLOW_DESCR_END","/batch-delete-twin.js","14","38","14","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batch-update-twin.js:11[29:31];Sink: msg;batch-update-twin.js:45[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batch-update-twin.js:11[29:31];Sink: msg;batch-update-twin.js:47[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batch-update-twin.js:11[29:31];Sink: msg;batch-update-twin.js:52[19:21]::FLOW_DESCR_END","/batch-update-twin.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-twin.js:11[29:31];Sink: msg;create-twin.js:35[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-twin.js:11[29:31];Sink: msg;create-twin.js:37[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-twin.js:11[29:31];Sink: msg;create-twin.js:42[19:21]::FLOW_DESCR_END","/create-twin.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-all-twins.js:11[29:31];Sink: msg;delete-all-twins.js:37[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete-all-twins.js:11[29:31];Sink: msg;delete-all-twins.js:39[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete-all-twins.js:11[29:31];Sink: msg;delete-all-twins.js:44[19:21]::FLOW_DESCR_END","/delete-all-twins.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-twin.js:11[29:31];Sink: msg;delete-twin.js:35[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete-twin.js:11[29:31];Sink: msg;delete-twin.js:37[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete-twin.js:11[29:31];Sink: msg;delete-twin.js:42[19:21]::FLOW_DESCR_END","/delete-twin.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-twins.js:11[29:31];Sink: msg;get-twins.js:36[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-twins.js:11[29:31];Sink: msg;get-twins.js:38[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-twins.js:11[29:31];Sink: msg;get-twins.js:43[19:21]::FLOW_DESCR_END","/get-twins.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-twin.js:11[29:31];Sink: msg;update-twin.js:35[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-twin.js:11[29:31];Sink: msg;update-twin.js:37[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-twin.js:11[29:31];Sink: msg;update-twin.js:42[19:21]::FLOW_DESCR_END","/update-twin.js","11","29","11","31"

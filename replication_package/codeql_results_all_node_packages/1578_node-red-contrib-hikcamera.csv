@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hikcamera.js:39[33:35];Sink: err;hikcamera.js:40[28:30]::FLOW_DESCR_END","/hikcamera.js","39","33","39","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hikcamera.js:56[31:33];Sink: err;hikcamera.js:57[28:30]::FLOW_DESCR_END","/hikcamera.js","56","31","56","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hikcamera.js:156[39:41];Sink: msg;hikcamera.js:164[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hikcamera.js:156[39:41];Sink: msg;hikcamera.js:172[39:41]::FLOW_DESCR_END","/hikcamera.js","156","39","156","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;hikvision-api.js:30[15:26];Sink: header;hikvision-api.js:34[16:21]::FLOW_DESCR_END","/hikvision-api.js","30","15","30","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;hikvision-api.js:30[36:47];Sink: header;hikvision-api.js:34[16:21]::FLOW_DESCR_END","/hikvision-api.js","30","36","30","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;hikvision-api.js:40[30:33];Sink: e.code;hikvision-api.js:108[25:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;hikvision-api.js:40[30:33];Sink: e.code;hikvision-api.js:111[26:31]::FLOW_DESCR_END","/hikvision-api.js","40","30","40","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hikvision-api.js:56[31:33];Sink: ""Connec ... "" + err;hikvision-api.js:137[25:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;hikvision-api.js:56[31:33];Sink: err;hikvision-api.js:138[21:23]::FLOW_DESCR_END","/hikvision-api.js","56","31","56","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;hikvision-api.js:123[43:54];Sink: 'Connec ... ns.port;hikvision-api.js:123[25:75]::FLOW_DESCR_END","/hikvision-api.js","123","43","123","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.port;hikvision-api.js:123[64:75];Sink: 'Connec ... ns.port;hikvision-api.js:123[25:75]::FLOW_DESCR_END","/hikvision-api.js","123","64","123","75"

@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `Invali ... utput}`;sodick-siot-comm.js:94[18:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `data:  ... Value}`;sodick-siot-comm.js:101[22:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `getDat ... Value}`;sodick-siot-comm.js:105[24:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `connec ... Value}`;sodick-siot-comm.js:118[22:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `discon ... nect)}`;sodick-siot-comm.js:167[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `invali ... Value}`;sodick-siot-comm.js:172[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `undefi ... Json)}`;sodick-siot-comm.js:175[22:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sodick-siot-comm.js:195[29:32];Sink: `stdout: ${data}`;sodick-siot-comm.js:196[18:34]::FLOW_DESCR_END","/sodick-siot-comm.js","195","29","195","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sodick-siot-comm.js:208[29:32];Sink: `error: ... ing()}`;sodick-siot-comm.js:209[16:42]::FLOW_DESCR_END","/sodick-siot-comm.js","208","29","208","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sodick-siot-comm.js:211[23:26];Sink: `close: ${data}`;sodick-siot-comm.js:216[18:33]::FLOW_DESCR_END","/sodick-siot-comm.js","211","23","211","26"

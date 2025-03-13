@@ -1,0 +1,47 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.dat ... s.items;wwsApplications.html:54[74:94];Sink: ""[wwsNo ... .items);wwsApplications.html:54[24:95]::FLOW_DESCR_END","/wwsApplications.html","54","74","54","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.data.spaces;wwsApplications.html:54[74:88];Sink: ""[wwsNo ... .items);wwsApplications.html:54[24:95]::FLOW_DESCR_END","/wwsApplications.html","54","74","54","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wwsApplications.js:67[33:35];Sink: 'Unable ... ' + err;wwsApplications.js:27[24:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;wwsApplications.js:67[33:35];Sink: `Error  ... ${err}`;wwsApplications.js:69[19:52]::FLOW_DESCR_END","/wwsApplications.js","67","33","67","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;wwsApplications.js:67[38:40];Sink: '[wwsNo ... spaces);wwsApplications.js:29[21:74]::FLOW_DESCR_END","/wwsApplications.js","67","38","67","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.bod ... s.items;wwsApplications.js:73[13:38];Sink: '[wwsNo ... spaces);wwsApplications.js:29[21:74]::FLOW_DESCR_END","/wwsApplications.js","73","13","73","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.body.data.spaces;wwsApplications.js:73[13:32];Sink: '[wwsNo ... spaces);wwsApplications.js:29[21:74]::FLOW_DESCR_END","/wwsApplications.js","73","13","73","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wwsApplications.js:106[8:10];Sink: err ||  ... tusCode;wwsApplications.js:108[55:75]::FLOW_DESCR_END","/wwsApplications.js","106","8","106","10"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;wwsApplications.js:106[13:15];Sink: err ||  ... tusCode;wwsApplications.js:108[55:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;wwsApplications.js:106[13:15];Sink: this.accessToken;wwsApplications.js:129[61:76]::FLOW_DESCR_END","/wwsApplications.js","106","13","106","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wwsGraphQL.js:14[30:32];Sink: ""[wwsNo ... QLQuery;wwsGraphQL.js:23[17:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsGraphQL.js:14[30:32];Sink: ""Unable ... r + "")"";wwsGraphQL.js:33[17:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsGraphQL.js:14[30:32];Sink: msg;wwsGraphQL.js:48[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsGraphQL.js:14[30:32];Sink: JSON.st ... ' ', 2);wwsGraphQL.js:84[15:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsGraphQL.js:14[30:32];Sink: _url;wwsGraphQL.js:86[16:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsGraphQL.js:14[30:32];Sink: ""[wwsNo ...  + _url;wwsGraphQL.js:88[17:105]::FLOW_DESCR_END","/wwsGraphQL.js","14","30","14","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wwsGraphQL.js:86[33:35];Sink: ""Unable ... r + "")"";wwsGraphQL.js:33[17:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;wwsGraphQL.js:86[33:35];Sink: ""[wwsNo ...  + _url;wwsGraphQL.js:88[17:105]::FLOW_DESCR_END","/wwsGraphQL.js","86","33","86","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;wwsGraphQL.js:86[38:40];Sink: ""[wwsNo ... s.body);wwsGraphQL.js:92[16:81]::FLOW_DESCR_END","/wwsGraphQL.js","86","38","86","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... ().port;wwsReceive.js:220[59:79];Sink: ""server ... ().port;wwsReceive.js:220[24:79]::FLOW_DESCR_END","/wwsReceive.js","220","59","220","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;wwsReceive.js:278[33:35];Sink: `Error  ... sCode}`;wwsReceive.js:281[20:93]::FLOW_DESCR_END","/wwsReceive.js","278","33","278","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: ""[wwsNo ... spaceId;wwsSend.js:52[17:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: ""Unable ... pace )"";wwsSend.js:54[17:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: ""Unable ... r + "")"";wwsSend.js:59[19:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: msg;wwsSend.js:65[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: ""Unable ... r + "")"";wwsSend.js:85[18:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: msg;wwsSend.js:92[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: ""Unable ... paces)"";wwsSend.js:99[15:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: url;wwsSend.js:163[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wwsSend.js:14[29:31];Sink: `Error  ... sCode}`;wwsSend.js:166[20:93]::FLOW_DESCR_END","/wwsSend.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wwsSend.js:120[33:35];Sink: `Error  ... ${err}`;wwsSend.js:122[19:52]::FLOW_DESCR_END","/wwsSend.js","120","33","120","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;wwsSend.js:120[38:40];Sink: ""[wwsNo ... tSpaces;wwsSend.js:43[20:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;wwsSend.js:120[38:40];Sink: ""[wwsNo ... .id+""}"";wwsSend.js:82[17:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;wwsSend.js:120[38:40];Sink: url;wwsSend.js:163[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;wwsSend.js:120[38:40];Sink: `Error  ... sCode}`;wwsSend.js:166[20:93]::FLOW_DESCR_END","/wwsSend.js","120","38","120","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.bod ... s.items;wwsSend.js:126[13:38];Sink: ""[wwsNo ... tSpaces;wwsSend.js:43[20:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.bod ... s.items;wwsSend.js:126[13:38];Sink: ""[wwsNo ... .id+""}"";wwsSend.js:82[17:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.bod ... s.items;wwsSend.js:126[13:38];Sink: url;wwsSend.js:163[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.bod ... s.items;wwsSend.js:126[13:38];Sink: `Error  ... sCode}`;wwsSend.js:166[20:93]::FLOW_DESCR_END","/wwsSend.js","126","13","126","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.body.data.spaces;wwsSend.js:126[13:32];Sink: ""[wwsNo ... tSpaces;wwsSend.js:43[20:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.body.data.spaces;wwsSend.js:126[13:32];Sink: ""[wwsNo ... .id+""}"";wwsSend.js:82[17:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.body.data.spaces;wwsSend.js:126[13:32];Sink: url;wwsSend.js:163[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.body.data.spaces;wwsSend.js:126[13:32];Sink: `Error  ... sCode}`;wwsSend.js:166[20:93]::FLOW_DESCR_END","/wwsSend.js","126","13","126","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;wwsSend.js:163[33:35];Sink: ""Unable ... r + "")"";wwsSend.js:59[19:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;wwsSend.js:163[33:35];Sink: ""Unable ... r + "")"";wwsSend.js:85[18:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res;wwsSend.js:163[33:35];Sink: `Error  ... sCode}`;wwsSend.js:166[20:93]::FLOW_DESCR_END","/wwsSend.js","163","33","163","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wwsTestNode.js:6[29:31];Sink: msg;wwsTestNode.js:13[14:16]::FLOW_DESCR_END","/wwsTestNode.js","6","29","6","31"

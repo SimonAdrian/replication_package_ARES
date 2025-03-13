@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;focas.js:76[36:40];Sink: `${error}`;focas.js:119[24:33]::FLOW_DESCR_END","/red/focas.js","76","36","76","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;focas.js:161[27:29];Sink: msg;focas.js:152[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;focas.js:161[27:29];Sink: msg;focas.js:158[36:38]::FLOW_DESCR_END","/red/focas.js","161","27","161","29"

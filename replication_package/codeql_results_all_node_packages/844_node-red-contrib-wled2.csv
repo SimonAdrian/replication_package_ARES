@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();WledDevice.js:37[30:40];Sink: y;WledDevice.js:31[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();WledDevice.js:37[30:40];Sink: y;WledDevice.js:31[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();WledDevice.js:37[30:40];Sink: op[1];WledDevice.js:31[147:151]::FLOW_DESCR_END","/dist/WledDevice.js","37","30","37","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;WledNode.js:45[37:39];Sink: msg;WledNode.js:84[19:21]::FLOW_DESCR_END","/dist/WledNode.js","45","37","45","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();discover.js:24[30:40];Sink: y;discover.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discover.js:24[30:40];Sink: y;discover.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discover.js:24[30:40];Sink: op[1];discover.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discover.js:24[30:40];Sink: ""wled2: ... "" + e_1;discover.js:93[60:116]::FLOW_DESCR_END","/dist/controllers/discover.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();effects.js:24[30:40];Sink: y;effects.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();effects.js:24[30:40];Sink: y;effects.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();effects.js:24[30:40];Sink: op[1];effects.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();effects.js:24[30:40];Sink: ""wled2: ... aults."";effects.js:77[48:118]::FLOW_DESCR_END","/dist/controllers/effects.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();palettes.js:24[30:40];Sink: y;palettes.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();palettes.js:24[30:40];Sink: y;palettes.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();palettes.js:24[30:40];Sink: op[1];palettes.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();palettes.js:24[30:40];Sink: ""wled2: ... aults."";palettes.js:76[48:119]::FLOW_DESCR_END","/dist/controllers/palettes.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();wled2.js:43[30:40];Sink: y;wled2.js:37[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();wled2.js:43[30:40];Sink: y;wled2.js:37[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();wled2.js:43[30:40];Sink: op[1];wled2.js:37[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();wled2.js:43[30:40];Sink: e_1;wled2.js:126[36:38]::FLOW_DESCR_END","/dist/wled2.js","43","30","43","40"

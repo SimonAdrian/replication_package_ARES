@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flickr.js:72[39:41];Sink: msg;flickr.js:120[49:51]::FLOW_DESCR_END","/flickr.js","72","39","72","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;flickr.js:111[58:60];Sink: err.toString();flickr.js:113[40:53]::FLOW_DESCR_END","/flickr.js","111","58","111","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;flickr.js:111[77:80];Sink: body;flickr.js:120[44:47]::FLOW_DESCR_END","/flickr.js","111","77","111","80"

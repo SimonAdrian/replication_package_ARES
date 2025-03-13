@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;facebook-messenger.js:71[19:23];Sink: error;facebook-messenger.js:73[52:56]::FLOW_DESCR_END","/services/social/facebook-messenger.js","71","19","71","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;facebook-messenger.js:71[26:33];Sink: response.body.error;facebook-messenger.js:75[31:49]::FLOW_DESCR_END","/services/social/facebook-messenger.js","71","26","71","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;facebook-messenger.js:98[19:23];Sink: error;facebook-messenger.js:100[53:57]::FLOW_DESCR_END","/services/social/facebook-messenger.js","98","19","98","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;facebook-messenger.js:98[26:33];Sink: response.body.error;facebook-messenger.js:102[31:49]::FLOW_DESCR_END","/services/social/facebook-messenger.js","98","26","98","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;facebook-messenger.js:146[31:33];Sink: ""Receiv ... fy(msg);facebook-messenger.js:147[16:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facebook-messenger.js:146[31:33];Sink: ""Sendin ... .peerId;facebook-messenger.js:149[18:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facebook-messenger.js:146[31:33];Sink: ""Sendin ... .peerId;facebook-messenger.js:153[18:115]::FLOW_DESCR_END","/services/social/facebook-messenger.js","146","31","146","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;facebook.js:26[44:51];Sink: ""[Exist ... snippet;facebook.js:49[52:119]::FLOW_DESCR_END","/services/social/facebook.js","26","44","26","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... snippet;facebook.js:49[91:119];Sink: ""[Exist ... snippet;facebook.js:49[52:119]::FLOW_DESCR_END","/services/social/facebook.js","49","91","49","119"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... data[i];facebook.js:49[91:111];Sink: ""[Exist ... snippet;facebook.js:49[52:119]::FLOW_DESCR_END","/services/social/facebook.js","49","91","49","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;facebook.js:136[43:50];Sink: ""The pa ... dy.name;facebook.js:138[29:68]::FLOW_DESCR_END","/services/social/facebook.js","136","43","136","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;facebook.js:156[35:37];Sink: body.pa ... + ""\""."";facebook.js:192[26:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facebook.js:156[35:37];Sink: ""Post a ... + ""\""."";facebook.js:195[26:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facebook.js:156[35:37];Sink: ""Post U ... postURL;facebook.js:198[26:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facebook.js:156[35:37];Sink: ""Post a ... + ""\""."";facebook.js:199[26:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facebook.js:156[35:37];Sink: postURL;facebook.js:202[25:31]::FLOW_DESCR_END","/services/social/facebook.js","156","35","156","37"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;auth-oidc.js:43[22:26];Sink: body;auth-oidc.js:56[62:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;auth-oidc.js:43[22:26];Sink: body.jwks_uri;auth-oidc.js:60[37:49]::FLOW_DESCR_END","/auth-oidc.js","43","22","43","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;auth-oidc.js:83[22:24];Sink: err;auth-oidc.js:84[44:46]::FLOW_DESCR_END","/auth-oidc.js","83","22","83","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth-oidc.js:90[22:24];Sink: msg;auth-oidc.js:96[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth-oidc.js:90[22:24];Sink: msg;auth-oidc.js:105[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth-oidc.js:90[22:24];Sink: msg;auth-oidc.js:110[19:21]::FLOW_DESCR_END","/auth-oidc.js","90","22","90","24"

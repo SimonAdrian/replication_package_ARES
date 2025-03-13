@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;konkeio.js:76[30:32];Sink: msg;konkeio.js:80[19:21]::FLOW_DESCR_END","/konkeio.js","76","30","76","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;konkeio.js:87[30:32];Sink: msg;konkeio.js:115[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;konkeio.js:87[30:32];Sink: msg;konkeio.js:120[21:23]::FLOW_DESCR_END","/konkeio.js","87","30","87","32"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... alToken;ring-alarm.js:52[25:53];Sink: newToken;ring-alarm.js:48[42:49]::FLOW_DESCR_END","/dist/ring-alarm.js","52","25","52","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tokenUpdate;ring-alarm.js:62[89:99];Sink: newToken;ring-alarm.js:48[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tokenUpdate;ring-alarm.js:62[89:99];Sink: tokenUpdate;ring-alarm.js:64[33:43]::FLOW_DESCR_END","/dist/ring-alarm.js","62","89","62","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ring-alarm.js:376[49:51];Sink: ""Invali ... ayload);ring-alarm.js:380[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ring-alarm.js:376[49:51];Sink: ""Invali ... ayload);ring-alarm.js:436[55:90]::FLOW_DESCR_END","/dist/ring-alarm.js","376","49","376","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d.data.zid;ring-alarm.js:388[64:73];Sink: devicesToIgnore;ring-alarm.js:391[64:78]::FLOW_DESCR_END","/dist/ring-alarm.js","388","64","388","73"

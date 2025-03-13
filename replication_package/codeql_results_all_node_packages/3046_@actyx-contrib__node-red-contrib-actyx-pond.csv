@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actyxfish.js:7[27:29];Sink: {\n      ...       };actyxfish.js:8[18:13]::FLOW_DESCR_END","/dist/nodes/actyxfish/actyxfish.js","7","27","7","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pondemit.js:13[31:33];Sink: JSON.st ... ayload);pondemit.js:21[36:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pondemit.js:13[31:33];Sink: msg.payload;pondemit.js:22[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pondemit.js:13[31:33];Sink: {\n      ...       };pondemit.js:23[34:29]::FLOW_DESCR_END","/dist/nodes/pondemit/pondemit.js","13","31","13","33"

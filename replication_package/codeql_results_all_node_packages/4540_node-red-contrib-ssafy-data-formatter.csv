@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DataFormatter.js:326[35:37];Sink: msg;DataFormatter.js:415[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DataFormatter.js:326[35:37];Sink: msg;DataFormatter.js:418[46:48]::FLOW_DESCR_END","/DataFormatter/DataFormatter.js","326","35","326","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: msg;FileCloud.js:53[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: msg;FileCloud.js:57[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: msg;FileCloud.js:67[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: msg;FileCloud.js:71[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: msg;FileCloud.js:80[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: msg;FileCloud.js:84[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: `${para ... eName}`;googleApi.js:36[5:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;FileCloud.js:12[29:31];Sink: path;oneApi.js:39[44:47]::FLOW_DESCR_END","/FileCloud/FileCloud.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;googleApi.js:43[22:25];Sink: data;googleApi.js:44[25:28]::FLOW_DESCR_END","/FileCloud/lib/googleApi.js","43","22","43","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;oneApi.js:47[22:25];Sink: data;oneApi.js:48[25:28]::FLOW_DESCR_END","/FileCloud/lib/oneApi.js","47","22","47","25"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;writeAttachment.js:21[36:38];Sink: msg;writeAttachment.js:66[38:40]::FLOW_DESCR_END","/deprecated/writeAttachment.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createDocuments.js:21[36:38];Sink: msg;createDocuments.js:43[30:32]::FLOW_DESCR_END","/src/createDocuments.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createLog.js:22[36:38];Sink: msg;createLog.js:59[30:32]::FLOW_DESCR_END","/src/createLog.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteDocuments.js:30[36:38];Sink: msg;deleteDocuments.js:55[30:32]::FLOW_DESCR_END","/src/deleteDocuments.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;explainQuery.js:20[36:38];Sink: msg;explainQuery.js:45[30:32]::FLOW_DESCR_END","/src/explainQuery.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;readAttachments.js:21[36:38];Sink: msg;readAttachments.js:55[38:40]::FLOW_DESCR_END","/src/readAttachments.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;readDocuments.js:32[36:38];Sink: msg;readDocuments.js:71[30:32]::FLOW_DESCR_END","/src/readDocuments.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;removeItems.js:33[36:38];Sink: msg;removeItems.js:64[30:32]::FLOW_DESCR_END","/src/removeItems.js","33","36","33","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;runAgent.js:21[36:38];Sink: msg;runAgent.js:58[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;runAgent.js:21[36:38];Sink: msg;runAgent.js:71[30:32]::FLOW_DESCR_END","/src/runAgent.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateDocuments.js:33[36:38];Sink: msg;updateDocuments.js:75[30:32]::FLOW_DESCR_END","/src/updateDocuments.js","33","36","33","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;writeAttachments.js:22[36:38];Sink: msg;writeAttachments.js:54[38:40]::FLOW_DESCR_END","/src/writeAttachments.js","22","36","22","38"

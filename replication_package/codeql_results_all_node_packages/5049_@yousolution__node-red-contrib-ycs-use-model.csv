@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;select-group-node.js:9[36:38];Sink: msg.payload;select-group-node.js:14[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;select-group-node.js:9[36:38];Sink: msg;select-group-node.js:17[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;select-group-node.js:9[36:38];Sink: msg;select-group-node.js:23[31:33]::FLOW_DESCR_END","/select-group-node.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ycs-use-model.js:12[35:37];Sink: apiUrl;ycs-use-model.js:20[24:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ycs-use-model.js:12[35:37];Sink: payload;ycs-use-model.js:20[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ycs-use-model.js:12[35:37];Sink: msg;ycs-use-model.js:25[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ycs-use-model.js:12[35:37];Sink: msg;ycs-use-model.js:34[31:33]::FLOW_DESCR_END","/ycs-use-model.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... message;ycs-use-model.js:29[36:68];Sink: errorMsg;ycs-use-model.js:31[32:39]::FLOW_DESCR_END","/ycs-use-model.js","29","36","29","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... a.error;ycs-use-model.js:29[36:60];Sink: errorMsg;ycs-use-model.js:31[32:39]::FLOW_DESCR_END","/ycs-use-model.js","29","36","29","60"

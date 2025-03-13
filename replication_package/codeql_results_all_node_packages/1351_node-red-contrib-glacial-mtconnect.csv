@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mtconnect-receive.js:46[29:31];Sink: ""Error  ... message;mtconnect-receive.js:47[27:64]::FLOW_DESCR_END","/mtconnect-receive.js","46","29","46","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mtconnect-rules.js:8[35:37];Sink: msg;mtconnect-rules.js:40[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mtconnect-rules.js:8[35:37];Sink: msg;mtconnect-rules.js:42[78:80]::FLOW_DESCR_END","/mtconnect-rules.js","8","35","8","37"

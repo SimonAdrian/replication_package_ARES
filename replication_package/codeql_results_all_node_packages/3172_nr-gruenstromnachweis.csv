@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gruenstromtracker.js:6[41:43];Sink: msg;gruenstromtracker.js:27[35:37]::FLOW_DESCR_END","/gruenstromtracker.js","6","41","6","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prepare ... eventId;gruenstromtracker.js:16[35:60];Sink: ""https: ... payload;gruenstromtracker.js:25[63:153]::FLOW_DESCR_END","/gruenstromtracker.js","16","35","16","60"

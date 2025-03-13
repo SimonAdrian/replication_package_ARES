@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:159[29:31];Sink: msg;waveshare-sense-hat-b-16864.js:179[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:159[29:31];Sink: 'accel  ... payload;waveshare-sense-hat-b-16864.js:180[46:79]::FLOW_DESCR_END","/waveshare-sense-hat-b-16864.js","159","29","159","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:212[29:31];Sink: msg;waveshare-sense-hat-b-16864.js:242[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:212[29:31];Sink: 'analog ... payload;waveshare-sense-hat-b-16864.js:243[46:73]::FLOW_DESCR_END","/waveshare-sense-hat-b-16864.js","212","29","212","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:276[29:31];Sink: msg;waveshare-sense-hat-b-16864.js:333[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:276[29:31];Sink: 'barome ... payload;waveshare-sense-hat-b-16864.js:334[46:72]::FLOW_DESCR_END","/waveshare-sense-hat-b-16864.js","276","29","276","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:366[29:31];Sink: msg;waveshare-sense-hat-b-16864.js:396[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:366[29:31];Sink: 'light  ... payload;waveshare-sense-hat-b-16864.js:397[46:75]::FLOW_DESCR_END","/waveshare-sense-hat-b-16864.js","366","29","366","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:427[29:31];Sink: msg;waveshare-sense-hat-b-16864.js:447[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waveshare-sense-hat-b-16864.js:427[29:31];Sink: 'temp h ... payload;waveshare-sense-hat-b-16864.js:448[46:83]::FLOW_DESCR_END","/waveshare-sense-hat-b-16864.js","427","29","427","31"

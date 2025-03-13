@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-rsa-decrypt.js:10[35:37];Sink: msg;sense-rsa-decrypt.js:49[27:29]::FLOW_DESCR_END","/sense-rsa-decrypt.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-rsa-encrypt.js:10[35:37];Sink: msg;sense-rsa-encrypt.js:41[27:29]::FLOW_DESCR_END","/sense-rsa-encrypt.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense-rsa-generate-keypair.js:8[35:37];Sink: msg;sense-rsa-generate-keypair.js:30[27:29]::FLOW_DESCR_END","/sense-rsa-generate-keypair.js","8","35","8","37"

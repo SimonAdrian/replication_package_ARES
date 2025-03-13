@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;huawei-router.js:75[38:40];Sink: msg;huawei-router.js:105[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;huawei-router.js:75[38:40];Sink: msg;huawei-router.js:109[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;huawei-router.js:75[38:40];Sink: msg;huawei-router.js:114[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;huawei-router.js:75[38:40];Sink: msg;huawei-router.js:119[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;huawei-router.js:75[38:40];Sink: msg;huawei-router.js:125[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;huawei-router.js:75[38:40];Sink: msg;huawei-router.js:154[18:20]::FLOW_DESCR_END","/huawei-router/huawei-router.js","75","38","75","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;huawei-router.js:182[38:40];Sink: msg;huawei-router.js:233[14:16]::FLOW_DESCR_END","/huawei-router/huawei-router.js","182","38","182","40"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remote-button.js:7[35:37];Sink: msg;remote-button.js:14[18:20]::FLOW_DESCR_END","/nodes/remote-button.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vestel-remote-control.js:12[35:37];Sink: ""Sendin ... oBeSent;vestel-remote-control.js:36[28:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vestel-remote-control.js:12[35:37];Sink: postData;vestel-remote-control.js:63[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vestel-remote-control.js:12[35:37];Sink: msg;vestel-remote-control.js:72[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vestel-remote-control.js:12[35:37];Sink: errorMessage;vestel-remote-control.js:83[32:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vestel-remote-control.js:12[35:37];Sink: msg;vestel-remote-control.js:83[46:48]::FLOW_DESCR_END","/nodes/vestel-remote-control.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;vestel-remote-control.js:56[34:34];Sink: errorMessage;vestel-remote-control.js:58[31:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;vestel-remote-control.js:56[34:34];Sink: errorMessage;vestel-remote-control.js:83[32:43]::FLOW_DESCR_END","/nodes/vestel-remote-control.js","56","34","56","34"

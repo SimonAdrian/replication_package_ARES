@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-my-local-ip.js:23[29:31];Sink: JSON.stringify(msg);node-red-my-local-ip.js:27[16:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-my-local-ip.js:23[29:31];Sink: JSON.pa ... y(msg));node-red-my-local-ip.js:28[16:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-my-local-ip.js:23[29:31];Sink: jsonMsg.payload.ip;node-red-my-local-ip.js:30[16:33]::FLOW_DESCR_END","/node-red-my-local-ip.js","23","29","23","31"

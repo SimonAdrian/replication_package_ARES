@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pub.js:9[36:38];Sink: topic;pub.js:18[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pub.js:9[36:38];Sink: message;pub.js:18[35:41]::FLOW_DESCR_END","/lib/pub/pub.js","9","36","9","38"

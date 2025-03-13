@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: VarValue_p;openpcs_read.js:429[72:81];Sink: strTraceMsg_p;openpcs_read.js:940[31:43]::FLOW_DESCR_END","/openpcs_read.js","429","72","429","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: Error_p;openpcs_read.js:446[65:71];Sink: strTraceMsg_p;openpcs_read.js:940[31:43]::FLOW_DESCR_END","/openpcs_read.js","446","65","446","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: Msg_p;openpcs_write.js:319[54:58];Sink: value;ipcclient.js:835[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: Msg_p;openpcs_write.js:319[54:58];Sink: value;ipcclient.js:910[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: Msg_p;openpcs_write.js:319[54:58];Sink: VarValue_p;openpcs_write.js:754[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: Msg_p;openpcs_write.js:319[54:58];Sink: strTraceMsg_p;openpcs_write.js:1115[31:43]::FLOW_DESCR_END","/openpcs_write.js","319","54","319","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: VarValue_p;openpcs_write.js:499[73:82];Sink: strTraceMsg_p;openpcs_write.js:1115[31:43]::FLOW_DESCR_END","/openpcs_write.js","499","73","499","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: Error_p;openpcs_write.js:516[66:72];Sink: strTraceMsg_p;openpcs_write.js:1115[31:43]::FLOW_DESCR_END","/openpcs_write.js","516","66","516","72"

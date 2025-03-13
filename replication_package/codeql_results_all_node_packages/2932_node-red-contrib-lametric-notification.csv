@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-notification.js:5[31:33];Sink: notificationString;send-notification.js:31[16:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-notification.js:5[31:33];Sink: notificationString;send-notification.js:85[17:34]::FLOW_DESCR_END","/notification/send-notification.js","5","31","5","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;send-notification.js:35[19:29];Sink: JSON.st ... ptions);send-notification.js:46[16:38]::FLOW_DESCR_END","/notification/send-notification.js","35","19","35","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .apikey;send-notification.js:39[24:46];Sink: JSON.st ... ptions);send-notification.js:46[16:38]::FLOW_DESCR_END","/notification/send-notification.js","39","24","39","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;send-notification.js:67[34:37];Sink: 'Body: ' + body;send-notification.js:68[20:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;send-notification.js:67[34:37];Sink: bodyObj ... message;send-notification.js:74[27:51]::FLOW_DESCR_END","/notification/send-notification.js","67","34","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;send-notification.js:80[32:32];Sink: 'proble ... message;send-notification.js:81[20:55]::FLOW_DESCR_END","/notification/send-notification.js","80","32","80","32"

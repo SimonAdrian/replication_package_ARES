@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mqttMessage;cx_mqtt_one.ts:93[38:48];Sink: mqttMessage;cx_mqtt_one.ts:93[78:88]::FLOW_DESCR_END","/nodes/cx_mqtt_one.ts","93","38","93","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: text;cx_mqtt_one.ts:94[37:40];Sink: text;cx_mqtt_one.ts:94[66:69]::FLOW_DESCR_END","/nodes/cx_mqtt_one.ts","94","37","94","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: $mqttSubscriptions;cx_mqtt_one.ts:89[43:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: msg.brokerId;cx_mqtt_one.ts:135[55:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: options;cx_mqtt_one.ts:146[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: brokerId;cx_mqtt_one.ts:209[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: msg.brokerId;cx_mqtt_one.ts:215[52:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: msg.brokerId;cx_mqtt_one.ts:239[52:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: msg.topic;cx_mqtt_one.ts:246[44:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: payload;cx_mqtt_one.ts:246[55:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: msg.opts;cx_mqtt_one.ts:246[64:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: msg.brokerId;cx_mqtt_one.ts:256[52:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: ""Broker ... exist!"";cx_mqtt_one.ts:258[23:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_mqtt_one.ts:99[27:29];Sink: $mqttSubscriptions;cx_mqtt_one.ts:282[39:56]::FLOW_DESCR_END","/nodes/cx_mqtt_one.ts","99","27","99","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;cx_mqtt_one.ts:152[32:34];Sink: err;cx_mqtt_one.ts:159[24:26]::FLOW_DESCR_END","/nodes/cx_mqtt_one.ts","152","32","152","34"

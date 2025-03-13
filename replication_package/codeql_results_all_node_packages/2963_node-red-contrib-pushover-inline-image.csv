@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pushover.js:72[35:37];Sink: ""image  ... "" + err;pushover.js:73[26:46]::FLOW_DESCR_END","/pushover.js","72","35","72","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;pushover.js:86[13:16];Sink: ""Pushov ... errors);pushover.js:90[26:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;pushover.js:86[13:16];Sink: ""pushov ... y(body);pushover.js:92[24:74]::FLOW_DESCR_END","/pushover.js","86","13","86","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pushover.js:95[33:35];Sink: ""Pushov ... "" + err;pushover.js:96[24:47]::FLOW_DESCR_END","/pushover.js","95","33","95","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;pushover.js:165[13:16];Sink: ""Pushov ... errors);pushover.js:169[26:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;pushover.js:165[13:16];Sink: ""pushov ... y(body);pushover.js:171[24:74]::FLOW_DESCR_END","/pushover.js","165","13","165","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pushover.js:174[33:35];Sink: ""Pushov ... "" + err;pushover.js:175[24:47]::FLOW_DESCR_END","/pushover.js","174","33","174","35"

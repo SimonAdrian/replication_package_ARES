@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AlarmOutput.js:7[35:37];Sink: msg;AlarmOutput.js:36[72:74]::FLOW_DESCR_END","/nodes/AlarmOutput.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;G-FrameManager.js:39[45:47];Sink: ""Error  ... message;G-FrameManager.js:42[36:78]::FLOW_DESCR_END","/nodes/G-FrameManager.js","39","45","39","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;G-FrameManager.js:74[35:37];Sink: topic;G-FrameManager.js:207[68:72]::FLOW_DESCR_END","/nodes/G-FrameManager.js","74","35","74","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;G-StorageManager.js:39[45:47];Sink: ""Error  ... message;G-StorageManager.js:42[36:78]::FLOW_DESCR_END","/nodes/G-StorageManager.js","39","45","39","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MQTT-InfluxDB-Alarm.js:7[35:37];Sink: msg;MQTT-InfluxDB-Alarm.js:43[39:41]::FLOW_DESCR_END","/nodes/MQTT-InfluxDB-Alarm.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MQTT-InfluxDB-Write.js:7[35:37];Sink: msg;MQTT-InfluxDB-Write.js:126[39:41]::FLOW_DESCR_END","/nodes/MQTT-InfluxDB-Write.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ProcessControl.js:43[45:47];Sink: ""Error  ... message;ProcessControl.js:46[36:78]::FLOW_DESCR_END","/nodes/ProcessControl.js","43","45","43","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ProcessControl.js:224[35:37];Sink: topic;ProcessControl.js:209[68:72]::FLOW_DESCR_END","/nodes/ProcessControl.js","224","35","224","37"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simplepush.js:9[35:37];Sink: outputMsgs;simplepush.js:102[34:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simplepush.js:9[35:37];Sink: msg;simplepush.js:106[30:32]::FLOW_DESCR_END","/simplepush.js","9","35","9","37"

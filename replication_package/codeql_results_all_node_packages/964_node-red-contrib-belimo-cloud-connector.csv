@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;belimo-datapoint.js:61[35:37];Sink: msg;belimo-datapoint.js:94[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;belimo-datapoint.js:61[35:37];Sink: pathname;belimo-datapoint.js:353[31:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;belimo-datapoint.js:61[35:37];Sink: data;belimo-datapoint.js:353[41:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;belimo-datapoint.js:61[35:37];Sink: pathname;belimo-datapoint.js:386[31:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;belimo-datapoint.js:61[35:37];Sink: value;belimo-datapoint.js:386[41:45]::FLOW_DESCR_END","/belimo-datapoint.js","61","35","61","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;belimo-finddevice.js:64[35:37];Sink: err;belimo-finddevice.js:88[43:45]::FLOW_DESCR_END","/belimo-finddevice.js","64","35","64","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Client.js:189[87:89];Sink: err;Client.js:192[25:27]::FLOW_DESCR_END","/lib/Client.js","189","87","189","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;Client.js:189[104:107];Sink: err;Client.js:79[34:36]::FLOW_DESCR_END","/lib/Client.js","189","104","189","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Client.js:233[87:89];Sink: 'Err:' + err;Client.js:236[17:28]::FLOW_DESCR_END","/lib/Client.js","233","87","233","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.api.host;Client.js:253[44:56];Sink: 'Cloud  ...  + path;Client.js:275[15:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.api.host;Client.js:253[44:56];Sink: 'Cloud  ...  + path;Client.js:321[17:54]::FLOW_DESCR_END","/lib/Client.js","253","44","253","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Client.js:283[37:39];Sink: err;Client.js:285[29:31]::FLOW_DESCR_END","/lib/Client.js","283","37","283","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Client.js:330[39:41];Sink: err;Client.js:332[31:33]::FLOW_DESCR_END","/lib/Client.js","330","39","330","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Subscriptions.js:105[47:49];Sink: utility ... e, err);belimo-datapoint.js:177[32:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;Subscriptions.js:105[47:49];Sink: `Err: ${err}`;Subscriptions.js:107[35:47]::FLOW_DESCR_END","/lib/Subscriptions.js","105","47","105","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;Subscriptions.js:105[62:65];Sink: JSON.st ... .token);Subscriptions.js:99[56:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;Subscriptions.js:105[62:65];Sink: JSON.stringify(body);Subscriptions.js:125[64:83]::FLOW_DESCR_END","/lib/Subscriptions.js","105","62","105","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;Subscriptions.js:199[35:35];Sink: payload.deviceId;Subscriptions.js:227[62:77]::FLOW_DESCR_END","/lib/Subscriptions.js","199","35","199","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Subscriptions.js:237[30:30];Sink: e || '';Subscriptions.js:240[56:62]::FLOW_DESCR_END","/lib/Subscriptions.js","237","30","237","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Subscriptions.js:246[30:30];Sink: e || '';Subscriptions.js:249[44:50]::FLOW_DESCR_END","/lib/Subscriptions.js","246","30","246","30"

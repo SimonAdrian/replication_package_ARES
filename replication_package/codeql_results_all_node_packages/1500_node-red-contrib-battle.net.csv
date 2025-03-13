@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BattleCheck.js:10[35:37];Sink: msg;BattleCheck.js:18[24:26]::FLOW_DESCR_END","/battle/BattleCheck.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;BattleNet.js:108[17:21];Sink: error;BattleNet.js:110[37:41]::FLOW_DESCR_END","/battle/BattleNet.js","108","17","108","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;BattleNet.js:108[24:31];Sink: statusCode;BattleNet.js:116[34:43]::FLOW_DESCR_END","/battle/BattleNet.js","108","24","108","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;BattleNet.js:141[17:21];Sink: error;BattleNet.js:143[38:42]::FLOW_DESCR_END","/battle/BattleNet.js","141","17","141","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;BattleNet.js:141[24:31];Sink: statusCode;BattleNet.js:149[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;BattleNet.js:141[24:31];Sink: response.headers;BattleNet.js:149[47:62]::FLOW_DESCR_END","/battle/BattleNet.js","141","24","141","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;BattleNet.js:197[17:21];Sink: error;BattleNet.js:199[38:42]::FLOW_DESCR_END","/battle/BattleNet.js","197","17","197","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;BattleNet.js:197[24:31];Sink: response.headers;BattleNet.js:205[45:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;BattleNet.js:197[24:31];Sink: statusCode;BattleNet.js:210[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;BattleNet.js:197[24:31];Sink: response.headers;BattleNet.js:210[47:62]::FLOW_DESCR_END","/battle/BattleNet.js","197","24","197","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;BattleSet.js:10[35:37];Sink: msg.payload;BattleSet.js:12[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;BattleSet.js:10[35:37];Sink: msg;BattleSet.js:18[24:26]::FLOW_DESCR_END","/battle/BattleSet.js","10","35","10","37"

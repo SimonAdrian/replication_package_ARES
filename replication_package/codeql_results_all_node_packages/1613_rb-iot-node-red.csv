@@ -1,0 +1,45 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;begin-audio-playback.js:19[32:34];Sink: msg;begin-audio-playback.js:61[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;begin-audio-playback.js:19[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;begin-audio-playback.js:19[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/audio/begin-audio-playback.js","19","32","19","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;begin-audio-recording.js:19[32:34];Sink: msg;begin-audio-recording.js:73[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;begin-audio-recording.js:19[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;begin-audio-recording.js:19[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/audio/begin-audio-recording.js","19","32","19","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;end-audio-playback.js:14[32:34];Sink: msg;end-audio-playback.js:25[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;end-audio-playback.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;end-audio-playback.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/audio/end-audio-playback.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;end-audio-recording.js:14[32:34];Sink: msg;end-audio-recording.js:25[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;end-audio-recording.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;end-audio-recording.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/audio/end-audio-recording.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wait-for-audio-playback.js:14[32:34];Sink: msg;wait-for-audio-playback.js:25[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wait-for-audio-playback.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wait-for-audio-playback.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/audio/wait-for-audio-playback.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;end-call.js:14[32:34];Sink: msg;end-call.js:25[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;end-call.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;end-call.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/calls/end-call.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-call-status.js:14[32:34];Sink: msg;get-call-status.js:25[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-call-status.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-call-status.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/calls/get-call-status.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;place-call.js:17[32:34];Sink: msg;place-call.js:30[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;place-call.js:17[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;place-call.js:17[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/calls/place-call.js","17","32","17","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;receive-call.js:14[32:34];Sink: msg;receive-call.js:27[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;receive-call.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;receive-call.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/calls/receive-call.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;configure.js:14[32:34];Sink: msg;configure.js:27[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;configure.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;configure.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/config/configure.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;connect.js:26[32:34];Sink: msg;connect.js:58[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connect.js:26[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connect.js:26[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/config/connect.js","26","32","26","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-keypad-input.js:20[32:34];Sink: msg;get-keypad-input.js:60[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-keypad-input.js:20[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-keypad-input.js:20[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/keypad/get-keypad-input.js","20","32","20","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;receive-sms.js:14[32:34];Sink: msg;receive-sms.js:68[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;receive-sms.js:14[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;receive-sms.js:14[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/messages/receive-sms.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-mms.js:24[32:34];Sink: msg;send-mms.js:103[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-mms.js:24[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-mms.js:24[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/messages/send-mms.js","24","32","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-sms.js:18[32:34];Sink: msg;send-sms.js:64[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-sms.js:18[32:34];Sink: msg;utility.js:19[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-sms.js:18[32:34];Sink: msg;utility.js:27[30:32]::FLOW_DESCR_END","/nodes/messages/send-sms.js","18","32","18","34"

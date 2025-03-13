@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;salesforce-platform-event-pub.js:30[32:34];Sink: msg;salesforce-platform-event-pub.js:35[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;salesforce-platform-event-pub.js:30[32:34];Sink: msg;salesforce-platform-event-pub.js:38[21:23]::FLOW_DESCR_END","/salesforce-platform-event-pub.js","30","32","30","34"

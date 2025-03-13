@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:41[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:47[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:55[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:59[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: ""Error  ... + error;m2x.js:79[43:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:79[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: errorMessage;m2x.js:153[28:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:153[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;m2x.js:39[36:38];Sink: msg;m2x.js:156[23:25]::FLOW_DESCR_END","/m2x/m2x.js","39","36","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_devices_spec.js:46[37:39];Sink: msg;m2x_devices_spec.js:47[29:31]::FLOW_DESCR_END","/test/m2x/m2x_devices_spec.js","46","37","46","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_devices_spec.js:82[37:39];Sink: msg;m2x_devices_spec.js:83[29:31]::FLOW_DESCR_END","/test/m2x/m2x_devices_spec.js","82","37","82","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_devices_spec.js:98[37:39];Sink: msg;m2x_devices_spec.js:99[29:31]::FLOW_DESCR_END","/test/m2x/m2x_devices_spec.js","98","37","98","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_devices_spec.js:119[37:39];Sink: msg;m2x_devices_spec.js:120[29:31]::FLOW_DESCR_END","/test/m2x/m2x_devices_spec.js","119","37","119","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_devices_spec.js:139[37:39];Sink: msg;m2x_devices_spec.js:140[29:31]::FLOW_DESCR_END","/test/m2x/m2x_devices_spec.js","139","37","139","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_distributions_spec.js:36[42:44];Sink: msg;m2x_distributions_spec.js:37[34:36]::FLOW_DESCR_END","/test/m2x/m2x_distributions_spec.js","36","42","36","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_distributions_spec.js:59[42:44];Sink: msg;m2x_distributions_spec.js:60[34:36]::FLOW_DESCR_END","/test/m2x/m2x_distributions_spec.js","59","42","59","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_distributions_spec.js:84[42:44];Sink: msg;m2x_distributions_spec.js:85[34:36]::FLOW_DESCR_END","/test/m2x/m2x_distributions_spec.js","84","42","84","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_distributions_spec.js:113[42:44];Sink: msg;m2x_distributions_spec.js:114[34:36]::FLOW_DESCR_END","/test/m2x/m2x_distributions_spec.js","113","42","113","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_distributions_spec.js:130[42:44];Sink: msg;m2x_distributions_spec.js:131[34:36]::FLOW_DESCR_END","/test/m2x/m2x_distributions_spec.js","130","42","130","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_distributions_spec.js:146[42:44];Sink: msg;m2x_distributions_spec.js:147[34:36]::FLOW_DESCR_END","/test/m2x/m2x_distributions_spec.js","146","42","146","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;m2x_key_spec.js:76[37:39];Sink: msg;m2x_key_spec.js:77[29:31]::FLOW_DESCR_END","/test/m2x/m2x_key_spec.js","76","37","76","39"

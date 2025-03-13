@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snowflakedw.js:49[33:35];Sink: msg;snowflakedw.js:26[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snowflakedw.js:49[33:35];Sink: server;snowflakedw.js:54[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snowflakedw.js:49[33:35];Sink: msg;utils.js:129[28:30]::FLOW_DESCR_END","/nodes/snowflakedw.js","49","33","49","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: row;utils.js:88[42:44];Sink: 'Number ... .length;utils.js:94[37:77]::FLOW_DESCR_END","/nodes/utils.js","88","42","88","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;test.js:8[29:31];Sink: err.message;test.js:10[43:53]::FLOW_DESCR_END","/test/test.js","8","29","8","31"

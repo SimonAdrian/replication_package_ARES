@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ccxt-api.js:461[32:34];Sink: msg;ccxt-api.js:474[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ccxt-api.js:461[32:34];Sink: msg;ccxt-api.js:505[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ccxt-api.js:461[32:34];Sink: msg;ccxt-api.js:703[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ccxt-api.js:461[32:34];Sink: msg;ccxt-api.js:1061[37:39]::FLOW_DESCR_END","/ccxt-v2/ccxt-api.js","461","32","461","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... leName);gensourcemaps.js:196[36:68];Sink: updated ... ontents;gensourcemaps.js:321[17:37]::FLOW_DESCR_END","/gensourcemaps/gensourcemaps.js","196","36","196","68"

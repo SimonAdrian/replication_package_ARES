@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-camera.js:12[32:34];Sink: msg;netatmo-camera.js:48[25:27]::FLOW_DESCR_END","/netatmo-camera.js","12","32","12","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;netatmo-camera.js:22[32:36];Sink: error;netatmo-camera.js:23[20:24]::FLOW_DESCR_END","/netatmo-camera.js","22","32","22","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;netatmo-camera.js:26[34:38];Sink: error;netatmo-camera.js:27[19:23]::FLOW_DESCR_END","/netatmo-camera.js","26","34","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.homes[0];netatmo-camera.js:35[61:73];Sink: 'Error  ... ' + url;netatmo-camera.js:45[26:52]::FLOW_DESCR_END","/netatmo-camera.js","35","61","35","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: home.cameras;netatmo-camera.js:36[65:76];Sink: 'Error  ... ' + url;netatmo-camera.js:45[26:52]::FLOW_DESCR_END","/netatmo-camera.js","36","65","36","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo-dashboard.js:59[38:40];Sink: msg;netatmo-dashboard.js:62[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;netatmo-dashboard.js:59[38:40];Sink: msg;netatmo-dashboard.js:197[12:14]::FLOW_DESCR_END","/netatmo-dashboard.js","59","38","59","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: clientSecret;netatmo-dashboard.js:5[39:50];Sink: `grant_ ... ecret}`;netatmo-dashboard.js:48[19:137]::FLOW_DESCR_END","/netatmo-dashboard.js","5","39","5","50"

@@ -1,0 +1,40 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;automl.js:62[30:32];Sink: msg;automl.js:77[27:29]::FLOW_DESCR_END","/automl.js","62","30","62","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigquery-insert.js:59[30:32];Sink: msg;bigquery-insert.js:62[27:29]::FLOW_DESCR_END","/bigquery-insert.js","59","30","59","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigquery.js:56[30:32];Sink: msg;bigquery.js:79[23:25]::FLOW_DESCR_END","/bigquery.js","56","30","56","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dlp.js:53[30:32];Sink: msg;dlp.js:80[27:29]::FLOW_DESCR_END","/dlp.js","53","30","53","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dns-change-create.js:60[41:43];Sink: msg;dns-change-create.js:71[23:25]::FLOW_DESCR_END","/dns-change-create.js","60","41","60","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dns-records-list.js:57[41:43];Sink: msg;dns-records-list.js:72[23:25]::FLOW_DESCR_END","/dns-records-list.js","57","41","57","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;documentai.js:78[30:32];Sink: msg;documentai.js:166[27:29]::FLOW_DESCR_END","/documentai.js","78","30","78","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firestore.js:62[30:32];Sink: msg.payload.content;firestore.js:93[40:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firestore.js:62[30:32];Sink: `msg.pa ... ment)}`;firestore.js:115[44:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firestore.js:62[30:32];Sink: `msg.pa ... uery)}`;firestore.js:126[40:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;firestore.js:62[30:32];Sink: msg;firestore.js:142[27:29]::FLOW_DESCR_END","/firestore.js","62","30","62","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gce-instance.js:32[30:32];Sink: msg;gce-instance.js:168[27:29]::FLOW_DESCR_END","/gce-instance.js","32","30","32","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;gcs-read.js:107[37:39];Sink: `readSt ... ssage}`;gcs-read.js:108[28:61]::FLOW_DESCR_END","/gcs-read.js","107","37","107","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gcs-read.js:163[24:26];Sink: `Badly  ... gsURL}`;gcs-read.js:78[28:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gcs-read.js:163[24:26];Sink: msg;gcs-read.js:120[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gcs-read.js:163[24:26];Sink: `Badly  ... gsURL}`;gcs-read.js:139[28:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gcs-read.js:163[24:26];Sink: msg;gcs-read.js:156[23:25]::FLOW_DESCR_END","/gcs-read.js","163","24","163","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gcs-signedURL.js:145[24:26];Sink: `Badly  ... gsURL}`;gcs-signedURL.js:83[28:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gcs-signedURL.js:145[24:26];Sink: msg;gcs-signedURL.js:130[27:29]::FLOW_DESCR_END","/gcs-signedURL.js","145","24","145","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gcs-write.js:68[24:26];Sink: msg;gcs-write.js:121[27:29]::FLOW_DESCR_END","/gcs-write.js","68","24","68","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;gcs-write.js:117[38:40];Sink: `writeS ... ssage}`;gcs-write.js:118[28:62]::FLOW_DESCR_END","/gcs-write.js","117","38","117","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-command-send.js:88[32:34];Sink: msg;iot-command-send.js:174[27:29]::FLOW_DESCR_END","/iot-command-send.js","88","32","88","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-config-update.js:66[32:34];Sink: msg;iot-config-update.js:152[27:29]::FLOW_DESCR_END","/iot-config-update.js","66","32","66","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;iot-telemetry-send.js:79[22:36];Sink: finalUrl;iot-telemetry-send.js:122[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;iot-telemetry-send.js:79[22:36];Sink: `Client ... entId}`;iot-telemetry-send.js:204[24:46]::FLOW_DESCR_END","/iot-telemetry-send.js","79","22","79","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-telemetry-send.js:162[32:34];Sink: msg;iot-telemetry-send.js:172[23:25]::FLOW_DESCR_END","/iot-telemetry-send.js","162","32","162","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: success;iot-telemetry-send.js:206[39:45];Sink: `MQTT C ... ccess}`;iot-telemetry-send.js:208[28:55]::FLOW_DESCR_END","/iot-telemetry-send.js","206","39","206","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;iot-telemetry-send.js:220[37:39];Sink: `MQTT Error: ${err}`;iot-telemetry-send.js:221[28:47]::FLOW_DESCR_END","/iot-telemetry-send.js","220","37","220","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;language-sentiment.js:68[30:32];Sink: msg;language-sentiment.js:92[27:29]::FLOW_DESCR_END","/language-sentiment.js","68","30","68","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;metadata.js:34[30:32];Sink: msg;metadata.js:41[23:25]::FLOW_DESCR_END","/metadata.js","34","30","34","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monitoring.js:44[30:32];Sink: msg;monitoring.js:74[27:29]::FLOW_DESCR_END","/monitoring.js","44","30","44","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pubsub-out.js:75[32:34];Sink: msg;pubsub-out.js:85[27:29]::FLOW_DESCR_END","/pubsub-out.js","75","32","75","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spanner.js:69[30:32];Sink: sqlStatement;spanner.js:92[47:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spanner.js:69[30:32];Sink: msg;spanner.js:94[23:25]::FLOW_DESCR_END","/spanner.js","69","30","69","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speech-to-text.js:57[30:32];Sink: msg;speech-to-text.js:78[27:29]::FLOW_DESCR_END","/speech-to-text.js","57","30","57","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stackdriver-log.js:61[24:26];Sink: logNameToUse;stackdriver-log.js:76[37:48]::FLOW_DESCR_END","/stackdriver-log.js","61","24","61","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;text-to-speech.js:64[30:32];Sink: msg;text-to-speech.js:105[27:29]::FLOW_DESCR_END","/text-to-speech.js","64","30","64","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translate.js:99[30:32];Sink: msg;translate.js:126[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translate.js:99[30:32];Sink: msg;translate.js:129[31:33]::FLOW_DESCR_END","/translate.js","99","30","99","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vision.js:110[30:32];Sink: msg;vision.js:146[27:29]::FLOW_DESCR_END","/vision.js","110","30","110","32"

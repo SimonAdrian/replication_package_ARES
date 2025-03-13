@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.br ... ig.port;mqttssl.js:47[67:88];Sink: '[mqtt] ... :'+port;mqttClientPool.js:116[38:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;mqttssl.js:47[67:88];Sink: '[mqtt] ... :'+port;mqttClientPool.js:140[34:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;mqttssl.js:47[67:88];Sink: '[mqtt] ... :'+port;mqttClientPool.js:148[34:99]::FLOW_DESCR_END","/mqttssl.js","47","67","47","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqttssl.js:62[45:49];Sink: error;mqttssl.js:64[28:32]::FLOW_DESCR_END","/mqttssl.js","62","45","62","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.br ... ig.port;mqttssl.js:92[67:88];Sink: '[mqtt] ... :'+port;mqttClientPool.js:116[38:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;mqttssl.js:92[67:88];Sink: '[mqtt] ... :'+port;mqttClientPool.js:140[34:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;mqttssl.js:92[67:88];Sink: '[mqtt] ... :'+port;mqttClientPool.js:148[34:99]::FLOW_DESCR_END","/mqttssl.js","92","67","92","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqttssl.js:93[38:40];Sink: msg;mqttssl.js:98[41:43]::FLOW_DESCR_END","/mqttssl.js","93","38","93","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqttssl.js:106[36:40];Sink: error;mqttssl.js:108[28:32]::FLOW_DESCR_END","/mqttssl.js","106","36","106","40"

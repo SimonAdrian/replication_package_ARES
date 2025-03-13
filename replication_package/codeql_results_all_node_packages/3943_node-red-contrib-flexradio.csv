@@ -1,0 +1,32 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;flexradio-discovery.js:15[15:25];Sink: 'stoppe ... de.port;flexradio-discovery.js:31[16:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;flexradio-discovery.js:15[15:25];Sink: 'start  ... de.port;flexradio-discovery.js:60[13:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;flexradio-discovery.js:15[15:25];Sink: 'stop l ... de.port;flexradio-discovery.js:64[13:68]::FLOW_DESCR_END","/flexradio-discovery.js","15","15","15","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;flexradio-discovery.js:27[51:59];Sink: 'starte ... is.port;flexradio-discovery.js:27[16:59]::FLOW_DESCR_END","/flexradio-discovery.js","27","51","27","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;flexradio-discovery.js:31[51:59];Sink: 'stoppe ... de.port;flexradio-discovery.js:31[16:59]::FLOW_DESCR_END","/flexradio-discovery.js","31","51","31","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;flexradio-discovery.js:60[42:50];Sink: 'start  ... de.port;flexradio-discovery.js:60[13:68]::FLOW_DESCR_END","/flexradio-discovery.js","60","42","60","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;flexradio-discovery.js:60[60:68];Sink: 'start  ... de.port;flexradio-discovery.js:60[13:68]::FLOW_DESCR_END","/flexradio-discovery.js","60","60","60","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;flexradio-discovery.js:64[42:50];Sink: 'stop l ... de.port;flexradio-discovery.js:64[13:68]::FLOW_DESCR_END","/flexradio-discovery.js","64","42","64","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;flexradio-discovery.js:64[60:68];Sink: 'stop l ... de.port;flexradio-discovery.js:64[13:68]::FLOW_DESCR_END","/flexradio-discovery.js","64","60","64","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: descriptor.port;flexradio-radio.js:71[64:78];Sink: 'connec ... or.port;flexradio-radio.js:71[13:78]::FLOW_DESCR_END","/flexradio-radio.js","71","64","71","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: discovery;flexradio-radio.js:158[29:37];Sink: 'connec ... or.port;flexradio-radio.js:71[13:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: discovery;flexradio-radio.js:158[29:37];Sink: 'automa ... ad.port;flexradio-radio.js:160[15:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: discovery;flexradio-radio.js:158[29:37];Sink: 'closin ... or.port;flexradio-radio.js:240[13:72]::FLOW_DESCR_END","/flexradio-radio.js","158","29","158","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: discove ... ad.port;flexradio-radio.js:160[80:101];Sink: 'automa ... ad.port;flexradio-radio.js:160[15:101]::FLOW_DESCR_END","/flexradio-radio.js","160","80","160","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: discovery;flexradio-radio.js:171[29:37];Sink: 'connec ... or.port;flexradio-radio.js:71[13:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: discovery;flexradio-radio.js:171[29:37];Sink: 'connec ... ad.port;flexradio-radio.js:174[16:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: discovery;flexradio-radio.js:171[29:37];Sink: 'closin ... or.port;flexradio-radio.js:240[13:72]::FLOW_DESCR_END","/flexradio-radio.js","171","29","171","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: discove ... ad.port;flexradio-radio.js:174[82:103];Sink: 'connec ... ad.port;flexradio-radio.js:174[16:103]::FLOW_DESCR_END","/flexradio-radio.js","174","82","174","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;flexradio-radio.js:187[30:40];Sink: 'connec ... or.port;flexradio-radio.js:71[13:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;flexradio-radio.js:187[30:40];Sink: 'connec ... or.port;flexradio-radio.js:188[14:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;flexradio-radio.js:187[30:40];Sink: 'closin ... or.port;flexradio-radio.js:240[13:72]::FLOW_DESCR_END","/flexradio-radio.js","187","30","187","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;flexradio-radio.js:187[49:59];Sink: 'connec ... or.port;flexradio-radio.js:71[13:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;flexradio-radio.js:187[49:59];Sink: 'connec ... or.port;flexradio-radio.js:188[14:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;flexradio-radio.js:187[49:59];Sink: 'closin ... or.port;flexradio-radio.js:240[13:72]::FLOW_DESCR_END","/flexradio-radio.js","187","49","187","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: descriptor.port;flexradio-radio.js:188[65:79];Sink: 'connec ... or.port;flexradio-radio.js:188[14:79]::FLOW_DESCR_END","/flexradio-radio.js","188","65","188","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: descriptor.port;flexradio-radio.js:240[58:72];Sink: 'closin ... or.port;flexradio-radio.js:240[13:72]::FLOW_DESCR_END","/flexradio-radio.js","240","58","240","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flexradio-request.js:24[29:31];Sink: msg;flexradio-request.js:25[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexradio-request.js:24[29:31];Sink: { ...ms ... ponse };flexradio-request.js:26[10:32]::FLOW_DESCR_END","/flexradio-request.js","24","29","24","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flexradio-stream.js:27[29:31];Sink: `settin ... ream}]`;flexradio-stream.js:31[14:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexradio-stream.js:27[29:31];Sink: `settin ... type}]`;flexradio-stream.js:38[14:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexradio-stream.js:27[29:31];Sink: `Subscr ... ream}.`;flexradio-stream.js:71[13:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flexradio-stream.js:27[29:31];Sink: `Unsubs ... ream}.`;flexradio-stream.js:94[13:74]::FLOW_DESCR_END","/flexradio-stream.js","27","29","27","31"

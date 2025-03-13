@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-search.js:18[27:30];Sink: data;node-search.js:59[26:29]::FLOW_DESCR_END","/node-search.js","18","27","18","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-search.js:61[23:25];Sink: err;node-search.js:63[27:29]::FLOW_DESCR_END","/node-search.js","61","23","61","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-spell-check.js:19[27:30];Sink: data;node-spell-check.js:71[26:29]::FLOW_DESCR_END","/node-spell-check.js","19","27","19","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-spell-check.js:68[19:21];Sink: err;node-spell-check.js:69[36:38]::FLOW_DESCR_END","/node-spell-check.js","68","19","68","21"

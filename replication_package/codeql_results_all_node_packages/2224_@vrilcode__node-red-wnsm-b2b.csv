@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wnsm-b2b-node.js:15[37:39];Sink: endpoint;wnsm-b2b-node.js:70[11:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wnsm-b2b-node.js:15[37:39];Sink: msg;wnsm-b2b-node.js:82[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wnsm-b2b-node.js:15[37:39];Sink: `${conf ... point}`;wnsm-b2b.js:69[7:40]::FLOW_DESCR_END","/wnsm-b2b-node.js","15","37","15","39"

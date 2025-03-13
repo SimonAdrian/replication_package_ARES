@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webApi.js:39[37:39];Sink: `isCrea ... otype}`;webApi.js:44[25:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webApi.js:39[37:39];Sink: msg;webApi.js:58[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webApi.js:39[37:39];Sink: postData;webApi.js:86[25:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webApi.js:39[37:39];Sink: url;webApi.js:88[26:28]::FLOW_DESCR_END","/lib/webApi.js","39","37","39","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;webApi.js:61[26:34];Sink: url;webApi.js:88[26:28]::FLOW_DESCR_END","/lib/webApi.js","61","26","61","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;webApi.js:66[74:81];Sink: url;webApi.js:88[26:28]::FLOW_DESCR_END","/lib/webApi.js","66","74","66","81"

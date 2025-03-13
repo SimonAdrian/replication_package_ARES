@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shutter.js:9[35:37];Sink: msg;shutter.js:35[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter.js:9[35:37];Sink: msg;shutter.js:56[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter.js:9[35:37];Sink: msg.pay ... rCase();shutter.js:61[54:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter.js:9[35:37];Sink: ""Value  ... payload;shutter.js:64[35:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter.js:9[35:37];Sink: msg.payload;shutter.js:68[52:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter.js:9[35:37];Sink: msg;shutter.js:72[61:63]::FLOW_DESCR_END","/shutter.js","9","35","9","37"

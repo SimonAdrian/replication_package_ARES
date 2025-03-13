@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;modbustcp.js:51[17:27];Sink: timesta ... "" + msg;modbustcp.js:39[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;modbustcp.js:51[17:27];Sink: timesta ... "" + msg;modbustcp.js:40[20:43]::FLOW_DESCR_END","/modbustcp.js","51","17","51","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;modbustcp.js:52[17:27];Sink: timesta ... "" + msg;modbustcp.js:39[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;modbustcp.js:52[17:27];Sink: timesta ... "" + msg;modbustcp.js:40[20:43]::FLOW_DESCR_END","/modbustcp.js","52","17","52","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;modbustcp.js:70[11:19];Sink: timesta ... "" + msg;modbustcp.js:39[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;modbustcp.js:70[11:19];Sink: timesta ... "" + msg;modbustcp.js:40[20:43]::FLOW_DESCR_END","/modbustcp.js","70","11","70","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;modbustcp.js:72[11:19];Sink: timesta ... "" + msg;modbustcp.js:39[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;modbustcp.js:72[11:19];Sink: timesta ... "" + msg;modbustcp.js:40[20:43]::FLOW_DESCR_END","/modbustcp.js","72","11","72","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbustcp.js:84[44:46];Sink: ""Modbus ... , null);modbustcp.js:85[20:75]::FLOW_DESCR_END","/modbustcp.js","84","44","84","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;modbustcp.js:95[52:60];Sink: timesta ... "" + msg;modbustcp.js:39[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;modbustcp.js:95[52:60];Sink: timesta ... "" + msg;modbustcp.js:40[20:43]::FLOW_DESCR_END","/modbustcp.js","95","52","95","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;modbustcp.js:95[70:78];Sink: timesta ... "" + msg;modbustcp.js:39[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;modbustcp.js:95[70:78];Sink: timesta ... "" + msg;modbustcp.js:40[20:43]::FLOW_DESCR_END","/modbustcp.js","95","70","95","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbustcp.js:338[22:24];Sink: params.name;modbustcp.js:347[38:48]::FLOW_DESCR_END","/modbustcp.js","338","22","338","24"

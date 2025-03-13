@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;webrtc-in.js:47[28:30];Sink: err;webrtc-in.js:49[19:21]::FLOW_DESCR_END","/webrtc-in.js","47","28","47","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webrtc-out.js:36[24:26];Sink: msg.payload;webrtc-out.js:37[23:33]::FLOW_DESCR_END","/webrtc-out.js","36","24","36","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;webrtc-out.js:51[28:30];Sink: err;webrtc-out.js:52[19:21]::FLOW_DESCR_END","/webrtc-out.js","51","28","51","30"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docomoapi.js:44[31:33];Sink: msg;docomoapi.js:86[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docomoapi.js:44[31:33];Sink: obj;docomoapi.js:257[47:49]::FLOW_DESCR_END","/docomoapi.js","44","31","44","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;docomoapi.js:83[43:50];Sink: ""Failed ... e + ""."";docomoapi.js:89[22:85]::FLOW_DESCR_END","/docomoapi.js","83","43","83","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;docomoapi.js:83[53:56];Sink: obj;docomoapi.js:257[47:49]::FLOW_DESCR_END","/docomoapi.js","83","53","83","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docomoapi.js:105[31:33];Sink: msg;docomoapi.js:173[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docomoapi.js:105[31:33];Sink: obj;docomoapi.js:257[47:49]::FLOW_DESCR_END","/docomoapi.js","105","31","105","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;docomoapi.js:170[43:50];Sink: ""Failed ... e + ""."";docomoapi.js:176[22:85]::FLOW_DESCR_END","/docomoapi.js","170","43","170","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;docomoapi.js:170[53:56];Sink: obj;docomoapi.js:257[47:49]::FLOW_DESCR_END","/docomoapi.js","170","53","170","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;docomoapi.js:194[31:33];Sink: msg;docomoapi.js:244[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;docomoapi.js:194[31:33];Sink: obj;docomoapi.js:257[47:49]::FLOW_DESCR_END","/docomoapi.js","194","31","194","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;docomoapi.js:241[43:50];Sink: ""Failed ... e + ""."";docomoapi.js:247[22:85]::FLOW_DESCR_END","/docomoapi.js","241","43","241","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;docomoapi.js:241[53:56];Sink: obj;docomoapi.js:257[47:49]::FLOW_DESCR_END","/docomoapi.js","241","53","241","56"

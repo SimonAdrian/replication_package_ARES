@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropbox.js:219[35:37];Sink: msg;dropbox.js:222[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:219[35:37];Sink: msg;dropbox.js:242[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:219[35:37];Sink: msg;dropbox.js:250[86:88]::FLOW_DESCR_END","/dropbox.js","219","35","219","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropbox.js:270[35:37];Sink: msg;dropbox.js:277[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:270[35:37];Sink: msg;dropbox.js:290[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:270[35:37];Sink: msg;dropbox.js:305[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:270[35:37];Sink: msg;dropbox.js:324[49:51]::FLOW_DESCR_END","/dropbox.js","270","35","270","37"

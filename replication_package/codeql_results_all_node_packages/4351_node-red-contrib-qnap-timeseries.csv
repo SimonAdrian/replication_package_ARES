@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongo-timeseries.js:87[37:39];Sink: err;mongo-timeseries.js:89[16:18]::FLOW_DESCR_END","/mongo-timeseries.js","87","37","87","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongo-timeseries.js:94[29:31];Sink: msg;mongo-timeseries.js:98[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongo-timeseries.js:94[29:31];Sink: msg;mongo-timeseries.js:105[57:59]::FLOW_DESCR_END","/mongo-timeseries.js","94","29","94","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongo-timeseries.js:240[37:39];Sink: err;mongo-timeseries.js:243[16:18]::FLOW_DESCR_END","/mongo-timeseries.js","240","37","240","39"

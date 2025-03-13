@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-service-bus-post.js:8[35:37];Sink: msg;azure-service-bus-post.js:15[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-service-bus-post.js:8[35:37];Sink: msg;azure-service-bus-post.js:19[33:35]::FLOW_DESCR_END","/azure-service-bus-post.js","8","35","8","37"

@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mm-api-node.js:19[36:38];Sink: 'execut ... .method;mm-api-node.js:25[31:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-api-node.js:19[36:38];Sink: msg;mm-api-node.js:29[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-api-node.js:19[36:38];Sink: msg;mm-api-node.js:36[31:33]::FLOW_DESCR_END","/mm-api-node.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;mm-receive-node.js:29[40:46];Sink: message.data.post;mm-receive-node.js:37[29:45]::FLOW_DESCR_END","/mm-receive-node.js","29","40","29","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mm-send-node.js:80[36:38];Sink: err.body;mm-send-node.js:4[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-send-node.js:80[36:38];Sink: err.message;mm-send-node.js:10[20:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-send-node.js:80[36:38];Sink: msg;mm-send-node.js:71[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-send-node.js:80[36:38];Sink: msg.payload;mm-send-node.js:99[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-send-node.js:80[36:38];Sink: msg.payload;mm-send-node.js:104[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mm-send-node.js:80[36:38];Sink: msg.payload;mm-send-node.js:113[38:48]::FLOW_DESCR_END","/mm-send-node.js","80","36","80","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;mm-send-node.js:95[59:67];Sink: err.body;mm-send-node.js:4[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;mm-send-node.js:95[59:67];Sink: err.message;mm-send-node.js:10[20:30]::FLOW_DESCR_END","/mm-send-node.js","95","59","95","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;mm-send-node.js:99[54:62];Sink: channelID;mm-send-node.js:71[50:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;mm-send-node.js:99[54:62];Sink: node.ho ... ame].id;mm-send-node.js:99[54:94]::FLOW_DESCR_END","/mm-send-node.js","99","54","99","62"

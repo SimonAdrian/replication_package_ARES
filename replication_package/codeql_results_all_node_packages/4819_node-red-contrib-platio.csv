@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;platio.js:41[23:27];Sink: error;platio.js:43[28:32]::FLOW_DESCR_END","/src/platio.js","41","23","41","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;platio.js:41[40:43];Sink: this._g ... e(body);platio.js:49[28:54]::FLOW_DESCR_END","/src/platio.js","41","40","41","43"

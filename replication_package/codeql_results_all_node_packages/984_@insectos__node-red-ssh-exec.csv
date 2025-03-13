@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;ssh-exec.js:25[29:39];Sink: `${reas ... {host}`;utils.js:303[12:60]::FLOW_DESCR_END","/ssh-exec/ssh-exec.js","25","29","25","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ssh-exec.js:27[23:25];Sink: msg;utils.js:182[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-exec.js:27[23:25];Sink: msg;utils.js:189[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-exec.js:27[23:25];Sink: `Create ... ghost}`;utils.js:236[16:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-exec.js:27[23:25];Sink: `Create ... ghost}`;utils.js:242[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ssh-exec.js:27[23:25];Sink: data;utils.js:256[25:28]::FLOW_DESCR_END","/ssh-exec/ssh-exec.js","27","23","27","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;utils.js:90[13:23];Sink: `SSH Co ... {host}`;utils.js:287[12:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;utils.js:90[13:23];Sink: `${reas ... {host}`;utils.js:303[12:60]::FLOW_DESCR_END","/ssh-exec/utils.js","90","13","90","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state.s ... ig.host;utils.js:139[14:34];Sink: `SSH Co ... {host}`;utils.js:287[12:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: state.s ... ig.host;utils.js:139[14:34];Sink: `${reas ... {host}`;utils.js:303[12:60]::FLOW_DESCR_END","/ssh-exec/utils.js","139","14","139","34"

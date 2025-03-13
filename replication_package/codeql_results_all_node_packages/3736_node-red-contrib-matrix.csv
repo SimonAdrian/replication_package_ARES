@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: member;matrix.js:21[71:76];Sink: ""Trying ... .roomId;matrix.js:23[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;matrix.js:21[71:76];Sink: ""Automa ... .roomId;matrix.js:25[30:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;matrix.js:21[71:76];Sink: ""Cannot ... : "" + e;matrix.js:27[31:108]::FLOW_DESCR_END","/matrix.js","21","71","21","76"

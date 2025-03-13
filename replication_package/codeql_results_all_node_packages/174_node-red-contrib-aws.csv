@@ -1,0 +1,42 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DynamoDB.js:52[29:31];Sink: msg;DynamoDB.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DynamoDB.js:52[29:31];Sink: [msg,null];DynamoDB.js:65[15:24]::FLOW_DESCR_END","/DynamoDB.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DynamoDBConvert.js:32[29:31];Sink: msg;DynamoDBConvert.js:36[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DynamoDBConvert.js:32[29:31];Sink: msg;DynamoDBConvert.js:42[15:17]::FLOW_DESCR_END","/DynamoDBConvert.js","32","29","32","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;EC2.js:52[29:31];Sink: msg;EC2.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EC2.js:52[29:31];Sink: [msg,null];EC2.js:65[15:24]::FLOW_DESCR_END","/EC2.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ECS.js:52[29:31];Sink: msg;ECS.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ECS.js:52[29:31];Sink: [msg,null];ECS.js:65[15:24]::FLOW_DESCR_END","/ECS.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ES.js:52[29:31];Sink: msg;ES.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ES.js:52[29:31];Sink: [msg,null];ES.js:65[15:24]::FLOW_DESCR_END","/ES.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Firehose.js:52[29:31];Sink: msg;Firehose.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Firehose.js:52[29:31];Sink: [msg,null];Firehose.js:65[15:24]::FLOW_DESCR_END","/Firehose.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Iot.js:52[29:31];Sink: msg;Iot.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Iot.js:52[29:31];Sink: [msg,null];Iot.js:65[15:24]::FLOW_DESCR_END","/Iot.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;IotData.js:52[29:31];Sink: msg;IotData.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;IotData.js:52[29:31];Sink: [msg,null];IotData.js:65[15:24]::FLOW_DESCR_END","/IotData.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;KMS.js:52[29:31];Sink: msg;KMS.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;KMS.js:52[29:31];Sink: [msg,null];KMS.js:65[15:24]::FLOW_DESCR_END","/KMS.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Kinesis.js:52[29:31];Sink: msg;Kinesis.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Kinesis.js:52[29:31];Sink: [msg,null];Kinesis.js:65[15:24]::FLOW_DESCR_END","/Kinesis.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Lambda.js:52[29:31];Sink: msg;Lambda.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Lambda.js:52[29:31];Sink: [msg,null];Lambda.js:65[15:24]::FLOW_DESCR_END","/Lambda.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Polly.js:52[29:31];Sink: msg;Polly.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Polly.js:52[29:31];Sink: [msg,null];Polly.js:65[15:24]::FLOW_DESCR_END","/Polly.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RDS.js:52[29:31];Sink: msg;RDS.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RDS.js:52[29:31];Sink: [msg,null];RDS.js:65[15:24]::FLOW_DESCR_END","/RDS.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Redshift.js:52[29:31];Sink: msg;Redshift.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Redshift.js:52[29:31];Sink: [msg,null];Redshift.js:65[15:24]::FLOW_DESCR_END","/Redshift.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Rekognition.js:52[29:31];Sink: msg;Rekognition.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Rekognition.js:52[29:31];Sink: [msg,null];Rekognition.js:65[15:24]::FLOW_DESCR_END","/Rekognition.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ResourceGroupsTaggingAPI.js:52[29:31];Sink: msg;ResourceGroupsTaggingAPI.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ResourceGroupsTaggingAPI.js:52[29:31];Sink: [msg,null];ResourceGroupsTaggingAPI.js:65[15:24]::FLOW_DESCR_END","/ResourceGroupsTaggingAPI.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Route53.js:52[29:31];Sink: msg;Route53.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Route53.js:52[29:31];Sink: [msg,null];Route53.js:65[15:24]::FLOW_DESCR_END","/Route53.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;S3.js:52[29:31];Sink: msg;S3.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S3.js:52[29:31];Sink: [msg,null];S3.js:65[15:24]::FLOW_DESCR_END","/S3.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SNS.js:52[29:31];Sink: msg;SNS.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SNS.js:52[29:31];Sink: [msg,null];SNS.js:65[15:24]::FLOW_DESCR_END","/SNS.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SQS.js:52[29:31];Sink: msg;SQS.js:58[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQS.js:52[29:31];Sink: [msg,null];SQS.js:65[15:24]::FLOW_DESCR_END","/SQS.js","52","29","52","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');gen.js:4[27:58];Sink: serviceDef.metadata;gen.js:5[13:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');gen.js:4[27:58];Sink: htmlFile;gen.js:289[66:73]::FLOW_DESCR_END","/gen_scripts/gen.js","4","27","4","58"

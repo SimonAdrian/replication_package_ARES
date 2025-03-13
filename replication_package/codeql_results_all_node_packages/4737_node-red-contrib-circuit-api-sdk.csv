@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit.js:120[38:38];Sink: 'broadc ... teners';circuit.js:161[22:87]::FLOW_DESCR_END","/circuit/circuit.js","120","38","120","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit.js:123[40:40];Sink: 'broadc ... teners';circuit.js:161[22:87]::FLOW_DESCR_END","/circuit/circuit.js","123","40","123","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit.js:126[37:37];Sink: 'broadc ... teners';circuit.js:161[22:87]::FLOW_DESCR_END","/circuit/circuit.js","126","37","126","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit.js:129[37:37];Sink: 'broadc ... teners';circuit.js:161[22:87]::FLOW_DESCR_END","/circuit/circuit.js","129","37","129","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit.js:135[44:44];Sink: 'broadc ... teners';circuit.js:161[22:87]::FLOW_DESCR_END","/circuit/circuit.js","135","44","135","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit.js:138[41:41];Sink: 'broadc ... teners';circuit.js:161[22:87]::FLOW_DESCR_END","/circuit/circuit.js","138","41","138","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:192[27:29];Sink: msg;circuit.js:198[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:192[27:29];Sink: msg;circuit.js:203[31:33]::FLOW_DESCR_END","/circuit/circuit.js","192","27","192","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:274[27:29];Sink: msg;circuit.js:279[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:274[27:29];Sink: msg;circuit.js:284[31:33]::FLOW_DESCR_END","/circuit/circuit.js","274","27","274","29"

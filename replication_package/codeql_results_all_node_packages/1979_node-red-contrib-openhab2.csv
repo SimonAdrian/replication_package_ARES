@@ -1,0 +1,43 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.host;77-openhab2.html:421[21:36];Sink: ""config ... config);77-openhab2.html:427[26:61]::FLOW_DESCR_END","/77-openhab2.html","421","21","421","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.port;77-openhab2.html:422[21:36];Sink: ""config ... config);77-openhab2.html:427[26:61]::FLOW_DESCR_END","/77-openhab2.html","422","21","422","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.username;77-openhab2.html:424[25:44];Sink: ""config ... config);77-openhab2.html:427[26:61]::FLOW_DESCR_END","/77-openhab2.html","424","25","424","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cntrlConfig.password;77-openhab2.html:425[25:44];Sink: ""config ... config);77-openhab2.html:427[26:61]::FLOW_DESCR_END","/77-openhab2.html","425","25","425","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: url;77-openhab2.js:103[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: ""reques ... l + ""'"";77-openhab2.js:106[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: ""respon ...  later"";77-openhab2.js:112[22:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: ""respon ... l + ""'"";77-openhab2.js:119[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: url;77-openhab2.js:275[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: ""reques ... l + ""'"";77-openhab2.js:277[14:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:35[29:43];Sink: ""respon ... l + ""'"";77-openhab2.js:280[14:81]::FLOW_DESCR_END","/77-openhab2.js","35","29","35","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: url;77-openhab2.js:103[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: ""reques ... l + ""'"";77-openhab2.js:106[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: ""respon ...  later"";77-openhab2.js:112[22:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: ""respon ... l + ""'"";77-openhab2.js:119[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: url;77-openhab2.js:275[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: ""reques ... l + ""'"";77-openhab2.js:277[14:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:39[36:50];Sink: ""respon ... l + ""'"";77-openhab2.js:280[14:81]::FLOW_DESCR_END","/77-openhab2.js","39","36","39","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: url;77-openhab2.js:103[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: ""reques ... l + ""'"";77-openhab2.js:106[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: ""respon ...  later"";77-openhab2.js:112[22:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: ""respon ... l + ""'"";77-openhab2.js:119[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: url;77-openhab2.js:275[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: ""reques ... l + ""'"";77-openhab2.js:277[14:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:43[10:20];Sink: ""respon ... l + ""'"";77-openhab2.js:280[14:81]::FLOW_DESCR_END","/77-openhab2.js","43","10","43","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: url;77-openhab2.js:103[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: ""reques ... l + ""'"";77-openhab2.js:106[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: ""respon ...  later"";77-openhab2.js:112[22:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: ""respon ... l + ""'"";77-openhab2.js:119[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: url;77-openhab2.js:275[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: ""reques ... l + ""'"";77-openhab2.js:277[14:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:47[16:26];Sink: ""respon ... l + ""'"";77-openhab2.js:280[14:81]::FLOW_DESCR_END","/77-openhab2.js","47","16","47","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;77-openhab2.js:103[30:34];Sink: ""reques ... l + ""'"";77-openhab2.js:106[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;77-openhab2.js:103[30:34];Sink: error;77-openhab2.js:107[38:42]::FLOW_DESCR_END","/77-openhab2.js","103","30","103","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;77-openhab2.js:103[37:44];Sink: response;77-openhab2.js:113[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;77-openhab2.js:103[37:44];Sink: ""respon ... l + ""'"";77-openhab2.js:119[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;77-openhab2.js:103[37:44];Sink: response;77-openhab2.js:120[38:45]::FLOW_DESCR_END","/77-openhab2.js","103","37","103","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;77-openhab2.js:103[47:50];Sink: item.na ... eEvent"";77-openhab2.js:129[17:41]::FLOW_DESCR_END","/77-openhab2.js","103","47","103","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;77-openhab2.js:275[29:33];Sink: ""reques ... l + ""'"";77-openhab2.js:277[14:77]::FLOW_DESCR_END","/77-openhab2.js","275","29","275","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;77-openhab2.js:275[36:43];Sink: ""respon ... l + ""'"";77-openhab2.js:280[14:81]::FLOW_DESCR_END","/77-openhab2.js","275","36","275","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;77-openhab2.js:275[46:49];Sink: body;77-openhab2.js:283[14:17]::FLOW_DESCR_END","/77-openhab2.js","275","46","275","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-openhab2.js:468[29:31];Sink: msg;77-openhab2.js:484[21:23]::FLOW_DESCR_END","/77-openhab2.js","468","29","468","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-openhab2.js:521[29:31];Sink: msg;77-openhab2.js:531[32:34]::FLOW_DESCR_END","/77-openhab2.js","521","29","521","31"

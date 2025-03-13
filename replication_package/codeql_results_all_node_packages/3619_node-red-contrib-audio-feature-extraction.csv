@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;utils.js:81[21:23];Sink: msg;utils.js:25[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.js:81[21:23];Sink: msg;utils.js:39[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.js:81[21:23];Sink: JSON.st ...  + '\n';utils.js:54[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.js:81[21:23];Sink: msg;utils.js:101[15:17]::FLOW_DESCR_END","/utils/utils.js","81","21","81","23"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-athena-express.js:39[35:37];Sink: msg;aws-athena-express.js:32[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-athena-express.js:39[35:37];Sink: msg;aws-athena-express.js:82[22:24]::FLOW_DESCR_END","/aws-athena-express.js","39","35","39","37"

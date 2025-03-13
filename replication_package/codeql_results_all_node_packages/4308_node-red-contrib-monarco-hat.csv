@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;monarco-hat-drv.js:154[30:32];Sink: ""Monarc ... "" + err;monarco-hat-drv.js:156[24:44]::FLOW_DESCR_END","/nodes/monarco-hat-drv.js","154","30","154","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: buffer;monarco-hat-drv.js:154[35:40];Sink: ""Buffer ... ('hex');monarco-hat-drv.js:163[28:62]::FLOW_DESCR_END","/nodes/monarco-hat-drv.js","154","35","154","40"

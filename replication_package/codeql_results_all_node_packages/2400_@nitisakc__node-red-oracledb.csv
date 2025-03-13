@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oracle-exec.js:61[36:38];Sink: [msg,null];oracle-exec.js:122[31:40]::FLOW_DESCR_END","/method/oracle-exec/oracle-exec.js","61","36","61","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;oracle-server.js:16[21:26];Sink: ""Oracle ... message;oracle-server.js:125[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;oracle-server.js:16[21:26];Sink: ""Connec ... tString;oracle-server.js:135[34:83]::FLOW_DESCR_END","/method/oracle-server/oracle-server.js","16","21","16","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;oracle-server.js:17[21:26];Sink: ""Oracle ... message;oracle-server.js:125[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;oracle-server.js:17[21:26];Sink: ""Connec ... tString;oracle-server.js:135[34:83]::FLOW_DESCR_END","/method/oracle-server/oracle-server.js","17","21","17","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;oracle-server.js:113[42:50];Sink: ""Oracle ... message;oracle-server.js:125[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;oracle-server.js:113[42:50];Sink: ""Connec ... tString;oracle-server.js:135[34:83]::FLOW_DESCR_END","/method/oracle-server/oracle-server.js","113","42","113","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;oracle-server.js:113[60:68];Sink: ""Oracle ... message;oracle-server.js:125[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;oracle-server.js:113[60:68];Sink: ""Connec ... tString;oracle-server.js:135[34:83]::FLOW_DESCR_END","/method/oracle-server/oracle-server.js","113","60","113","68"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: queue.shift();message-queue.js:109[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: queue;message-queue.js:115[50:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: [queue];message-queue.js:143[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: queue.shift();message-queue.js:162[39:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: [queue];message-queue.js:169[35:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: queue;message-queue.js:185[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;message-queue.js:129[36:38];Sink: msg;message-queue.js:206[35:37]::FLOW_DESCR_END","/message-queue/message-queue.js","129","36","129","38"

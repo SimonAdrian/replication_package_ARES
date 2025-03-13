@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;index.js:193[36:42];Sink: `Error: ${text}`;index.js:31[24:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:193[36:42];Sink: `MCX: ${text}`;index.js:35[22:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;index.js:193[36:42];Sink: 'No act ... payload;index.js:198[28:58]::FLOW_DESCR_END","/motorcortex/session/index.js","193","36","193","42"

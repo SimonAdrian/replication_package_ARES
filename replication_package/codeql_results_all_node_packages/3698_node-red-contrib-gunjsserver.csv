@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;gunjsserver.js:5[21:31];Sink: 'Server ...  + path;gunjsserver.js:28[17:45]::FLOW_DESCR_END","/gunjsserver.js","5","21","5","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gunjsserver.js:8[36:38];Sink: msg;gunjsserver.js:30[24:26]::FLOW_DESCR_END","/gunjsserver.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;gunjsserver.js:13[23:31];Sink: 'Server ...  + path;gunjsserver.js:28[17:45]::FLOW_DESCR_END","/gunjsserver.js","13","23","13","31"

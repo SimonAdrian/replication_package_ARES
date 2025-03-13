@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:25[32:34];Sink: [msg, null];samsung.js:29[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;samsung.js:25[32:34];Sink: [null, msg];samsung.js:30[33:43]::FLOW_DESCR_END","/lib/samsung.js","25","32","25","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:39[32:34];Sink: [msg, null];samsung.js:43[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;samsung.js:39[32:34];Sink: [null, msg];samsung.js:44[33:43]::FLOW_DESCR_END","/lib/samsung.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:51[32:34];Sink: msg;samsung.js:66[21:23]::FLOW_DESCR_END","/lib/samsung.js","51","32","51","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:75[38:40];Sink: msg;samsung.js:94[19:21]::FLOW_DESCR_END","/lib/samsung.js","75","38","75","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:106[32:34];Sink: msg;samsung.js:111[19:21]::FLOW_DESCR_END","/lib/samsung.js","106","32","106","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:121[32:34];Sink: msg;samsung.js:125[19:21]::FLOW_DESCR_END","/lib/samsung.js","121","32","121","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:133[32:34];Sink: msg;samsung.js:148[21:23]::FLOW_DESCR_END","/lib/samsung.js","133","32","133","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;samsung.js:159[32:34];Sink: msg;samsung.js:168[21:23]::FLOW_DESCR_END","/lib/samsung.js","159","32","159","34"

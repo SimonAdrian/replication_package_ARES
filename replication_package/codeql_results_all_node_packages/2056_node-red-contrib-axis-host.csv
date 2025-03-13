@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;axis-camera.js:17[29:31];Sink: msg;axis-camera.js:57[16:18]::FLOW_DESCR_END","/axis-camera.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;axis-objects.js:41[36:39];Sink: rows[i];axis-objects.js:50[32:38]::FLOW_DESCR_END","/axis-objects.js","41","36","41","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;axis-trigger.js:14[29:31];Sink: msg;axis-trigger.js:24[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;axis-trigger.js:14[29:31];Sink: msg;axis-trigger.js:45[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;axis-trigger.js:14[29:31];Sink: msg;axis-trigger.js:60[33:35]::FLOW_DESCR_END","/axis-trigger.js","14","29","14","31"

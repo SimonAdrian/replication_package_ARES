@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;node-socketio-in.js:41[38:43];Sink: SOCKETS;node-socketio-in.js:38[46:52]::FLOW_DESCR_END","/node-socketio-in.js","41","38","41","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-socketio-in.js:54[35:38];Sink: result;node-socketio-in.js:58[23:28]::FLOW_DESCR_END","/node-socketio-in.js","54","35","54","38"

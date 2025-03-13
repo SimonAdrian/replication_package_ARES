@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alignment.js:108[35:37];Sink: idvalue;alignment.js:114[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alignment.js:108[35:37];Sink: msg.payload.sequence;alignment.js:115[31:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alignment.js:108[35:37];Sink: idvalue;alignment.js:118[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alignment.js:108[35:37];Sink: msg.payload.sequence;alignment.js:119[31:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alignment.js:108[35:37];Sink: msg;alignment.js:135[15:17]::FLOW_DESCR_END","/alignment.js","108","35","108","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hamming.js:6[35:37];Sink: idvalue;hamming.js:13[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hamming.js:6[35:37];Sink: msg.payload.sequence;hamming.js:14[30:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hamming.js:6[35:37];Sink: idvalue;hamming.js:17[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hamming.js:6[35:37];Sink: msg.payload.sequence;hamming.js:18[30:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hamming.js:6[35:37];Sink: msg;hamming.js:38[15:17]::FLOW_DESCR_END","/hamming.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jasparprocessing.js:5[35:37];Sink: msg;jasparprocessing.js:60[23:25]::FLOW_DESCR_END","/jasparprocessing.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: idvalue;motif-pfm.js:66[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: msg.payload.sequence;motif-pfm.js:68[38:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: msg.payload.PFMArray;motif-pfm.js:71[33:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: idvalue;motif-pfm.js:75[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: msg.payload.sequence;motif-pfm.js:77[38:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: msg.payload.PFMArray;motif-pfm.js:80[33:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;motif-pfm.js:59[35:37];Sink: msg;motif-pfm.js:114[15:17]::FLOW_DESCR_END","/motif-pfm.js","59","35","59","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;seqcount.js:11[35:37];Sink: msg;seqcount.js:121[14:16]::FLOW_DESCR_END","/seqcount.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttratio.js:6[35:37];Sink: idvalue;ttratio.js:15[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttratio.js:6[35:37];Sink: msg.payload.sequence;ttratio.js:16[31:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttratio.js:6[35:37];Sink: idvalue;ttratio.js:19[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttratio.js:6[35:37];Sink: msg.payload.sequence;ttratio.js:20[31:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttratio.js:6[35:37];Sink: msg;ttratio.js:65[15:17]::FLOW_DESCR_END","/ttratio.js","6","35","6","37"

@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub2adt.js:22[35:37];Sink: msg;azureiothub2adt.js:45[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:22[35:37];Sink: msg;azureiothub2adt.js:61[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:22[35:37];Sink: msg;azureiothub2adt.js:66[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:22[35:37];Sink: msg.sta ... lTwinId;azureiothub2adt.js:67[19:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:22[35:37];Sink: msg;azureiothub2adt.js:77[17:19]::FLOW_DESCR_END","/azureiothub2adt.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:127[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:144[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:149[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg.sta ... lTwinId;azureiothub2adt.js:150[19:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: 'property :' + prop;azureiothub2adt.js:168[21:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: ""Proper ... at ADT"";azureiothub2adt.js:174[22:165]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: ""IoT Hu ... p.value;azureiothub2adt.js:178[22:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:191[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:216[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:246[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: 'publis ... lTwinId;azureiothub2adt.js:257[19:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub2adt.js:100[35:37];Sink: msg;azureiothub2adt.js:264[17:19]::FLOW_DESCR_END","/azureiothub2adt.js","100","35","100","37"

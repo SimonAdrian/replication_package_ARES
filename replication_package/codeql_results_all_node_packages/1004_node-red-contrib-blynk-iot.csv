@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tlsOptions.host;blynk-iot-client.js:126[41:55];Sink: `Start  ... .port}`;blynk-iot-client.js:126[16:76]::FLOW_DESCR_END","/nodes/blynk-iot-client.js","126","41","126","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tlsOptions.port;blynk-iot-client.js:126[60:74];Sink: `Start  ... .port}`;blynk-iot-client.js:126[16:76]::FLOW_DESCR_END","/nodes/blynk-iot-client.js","126","60","126","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgData;blynk-iot-client.js:157[29:35];Sink: `Messag ... }bytes`;blynk-iot-client.js:164[21:59]::FLOW_DESCR_END","/nodes/blynk-iot-client.js","157","29","157","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;blynk-iot-client.js:200[30:32];Sink: `Socket error${err}`;blynk-iot-client.js:202[20:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;blynk-iot-client.js:200[30:32];Sink: err;blynk-iot-client.js:204[28:30]::FLOW_DESCR_END","/nodes/blynk-iot-client.js","200","30","200","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blynk-iot-zergba.js:55[37:39];Sink: ret;blynk-iot-zergba.js:75[19:21]::FLOW_DESCR_END","/nodes/blynk-iot-zergba.js","55","37","55","39"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nut-ups.js:9[30:32];Sink: msg;nut-ups.js:24[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nut-ups.js:9[30:32];Sink: msg;nut-ups.js:40[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nut-ups.js:9[30:32];Sink: msg;nut-ups.js:52[12:14]::FLOW_DESCR_END","/nut-ups/nut-ups.js","9","30","9","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nut-ups.js:20[20:22];Sink: err;nut-ups.js:24[17:19]::FLOW_DESCR_END","/nut-ups/nut-ups.js","20","20","20","22"

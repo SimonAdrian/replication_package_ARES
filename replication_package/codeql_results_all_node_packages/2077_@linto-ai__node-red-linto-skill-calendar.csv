@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;opCalConector.js:165[35:37];Sink: err;opCalConector.js:58[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opCalConector.js:165[35:37];Sink: err;opCalConector.js:78[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opCalConector.js:165[35:37];Sink: err;opCalConector.js:99[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opCalConector.js:165[35:37];Sink: err;opCalConector.js:116[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opCalConector.js:165[35:37];Sink: err;opCalConector.js:139[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opCalConector.js:165[35:37];Sink: err;opCalConector.js:156[21:23]::FLOW_DESCR_END","/api/opCalConector.js","165","35","165","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linto-calendar-skill.js:51[37:39];Sink: msg;linto-calendar-skill.js:72[19:21]::FLOW_DESCR_END","/linto-calendar-skill.js","51","37","51","39"

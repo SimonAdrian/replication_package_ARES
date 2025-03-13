@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-ai.js:42[27:29];Sink: msg;redplc-wago-cc100-ai.js:44[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-ai.js:42[27:29];Sink: msg;redplc-wago-cc100-ai.js:62[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-ai.js","42","27","42","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-ao.js:42[27:29];Sink: msg;redplc-wago-cc100-ao.js:44[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-ao.js:42[27:29];Sink: msg;redplc-wago-cc100-ao.js:66[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-ao.js","42","27","42","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-di.js:41[27:29];Sink: msg;redplc-wago-cc100-di.js:43[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-di.js:41[27:29];Sink: msg;redplc-wago-cc100-di.js:61[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-di.js","41","27","41","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-do.js:42[27:29];Sink: msg;redplc-wago-cc100-do.js:44[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-do.js:42[27:29];Sink: msg;redplc-wago-cc100-do.js:66[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-do.js","42","27","42","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-key.js:76[27:29];Sink: msg;redplc-wago-cc100-key.js:78[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-key.js:76[27:29];Sink: msg;redplc-wago-cc100-key.js:90[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-key.js","76","27","76","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-led.js:42[27:29];Sink: msg;redplc-wago-cc100-led.js:44[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-led.js:42[27:29];Sink: msg;redplc-wago-cc100-led.js:61[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-led.js","42","27","42","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-wago-cc100-pt.js:44[27:29];Sink: msg;redplc-wago-cc100-pt.js:46[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-wago-cc100-pt.js:44[27:29];Sink: msg;redplc-wago-cc100-pt.js:70[23:25]::FLOW_DESCR_END","/nodes/redplc-wago-cc100-pt.js","44","27","44","29"

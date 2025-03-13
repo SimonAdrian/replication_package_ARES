@@ -1,0 +1,10 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;WebSocket.js:145[38:42];Sink: `${error}`;WebSocket.js:146[36:45]::FLOW_DESCR_END","/build/nodes/WebSocket.js","145","38","145","42"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;WebSocket.js:153[38:41];Sink: `Connec ...  : ''}`;WebSocket.js:155[36:116]::FLOW_DESCR_END","/build/nodes/WebSocket.js","153","38","153","41"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;WebSocket.js:153[44:49];Sink: `Connec ...  : ''}`;WebSocket.js:155[36:116]::FLOW_DESCR_END","/build/nodes/WebSocket.js","153","44","153","49"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;WebSocket.js:236[31:33];Sink: `Unable ... later.`;WebSocket.js:92[32:94]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;WebSocket.js:236[31:33];Sink: `Connec ... } open`;WebSocket.js:102[36:62]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;WebSocket.js:236[31:33];Sink: `Connec ...  : ''}`;WebSocket.js:155[36:116]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;WebSocket.js:236[31:33];Sink: `Input  ... point}`;WebSocket.js:247[35:143]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;WebSocket.js:236[31:33];Sink: `Input  ... point}`;WebSocket.js:251[31:137]::FLOW_DESCR_END","/build/nodes/WebSocket.js","236","31","236","33"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: unifiResponse.meta;unifi.js:87[126:143];Sink: msg;unifi.js:88[31:33]::FLOW_DESCR_END","/build/nodes/unifi.js","87","126","87","143"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: unifiResponse.meta;unifi.js:87[326:343];Sink: msg;unifi.js:88[31:33]::FLOW_DESCR_END","/build/nodes/unifi.js","87","326","87","343"

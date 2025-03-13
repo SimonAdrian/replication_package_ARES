@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;theKeys.js:126[29:31];Sink: ""name="" ... Command;theKeys.js:37[13:152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;theKeys.js:126[29:31];Sink: ""sendCo ... command;theKeys.js:44[15:136]::FLOW_DESCR_END","/theKeys.js","126","29","126","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;theKeys.js:171[11:21];Sink: JSON.st ...  body});theKeys.js:201[22:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;theKeys.js:171[11:21];Sink: url;theKeys.js:235[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;theKeys.js:171[11:21];Sink: ""reques ... l + ""'"";theKeys.js:238[16:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;theKeys.js:171[11:21];Sink: ""respon ... l + ""'"";theKeys.js:242[16:83]::FLOW_DESCR_END","/theKeys.js","171","11","171","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;theKeys.js:175[17:27];Sink: JSON.st ...  body});theKeys.js:201[22:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;theKeys.js:175[17:27];Sink: url;theKeys.js:235[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;theKeys.js:175[17:27];Sink: ""reques ... l + ""'"";theKeys.js:238[16:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;theKeys.js:175[17:27];Sink: ""respon ... l + ""'"";theKeys.js:242[16:83]::FLOW_DESCR_END","/theKeys.js","175","17","175","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;theKeys.js:203[50:54];Sink: error;theKeys.js:206[38:42]::FLOW_DESCR_END","/theKeys.js","203","50","203","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;theKeys.js:235[30:34];Sink: ""reques ... l + ""'"";theKeys.js:238[16:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;theKeys.js:235[30:34];Sink: error;theKeys.js:239[38:42]::FLOW_DESCR_END","/theKeys.js","235","30","235","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;theKeys.js:235[37:44];Sink: ""respon ... l + ""'"";theKeys.js:242[16:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;theKeys.js:235[37:44];Sink: response;theKeys.js:243[38:45]::FLOW_DESCR_END","/theKeys.js","235","37","235","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;theKeys.js:235[47:50];Sink: ""lock i ... ciated"";theKeys.js:253[19:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;theKeys.js:235[47:50];Sink: ""lock i ... ciated"";theKeys.js:254[16:55]::FLOW_DESCR_END","/theKeys.js","235","47","235","50"

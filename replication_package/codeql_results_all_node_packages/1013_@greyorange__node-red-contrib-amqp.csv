@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Amqp.js:51[42:44];Sink: err.message;Amqp.js:52[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;Amqp.js:51[42:44];Sink: err.message;Amqp.js:53[59:69]::FLOW_DESCR_END","/build/src/Amqp.js","51","42","51","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Amqp.js:283[39:41];Sink: err.message;Amqp.js:284[72:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;Amqp.js:283[39:41];Sink: err.message;Amqp.js:285[74:84]::FLOW_DESCR_END","/build/src/Amqp.js","283","39","283","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: Buffer.from(msg);Amqp.js:174[56:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: options;Amqp.js:174[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: payload;amqp-out.js:67[42:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: properties;amqp-out.js:67[51:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: JSON.st ... ayload);amqp-out.js:70[42:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:34[45:47];Sink: properties;amqp-out.js:70[67:76]::FLOW_DESCR_END","/build/src/nodes/amqp-out.js","34","45","34","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;Amqp.js:384[21:24];Sink: brokerUrl;Amqp.js:43[55:63]::FLOW_DESCR_END","/build/src/Amqp.js","384","21","384","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;Amqp.js:384[27:30];Sink: brokerUrl;Amqp.js:43[55:63]::FLOW_DESCR_END","/build/src/Amqp.js","384","27","384","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: username;Amqp.js:385[21:28];Sink: brokerUrl;Amqp.js:43[55:63]::FLOW_DESCR_END","/build/src/Amqp.js","385","21","385","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;Amqp.js:385[31:38];Sink: brokerUrl;Amqp.js:43[55:63]::FLOW_DESCR_END","/build/src/Amqp.js","385","31","385","38"

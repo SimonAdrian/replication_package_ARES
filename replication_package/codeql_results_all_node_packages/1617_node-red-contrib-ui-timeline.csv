@@ -1,0 +1,62 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ch ... .index];Chart.js:3084[10:45];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... .index];Chart.js:3084[10:45];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... .index];Chart.js:3084[10:45];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... .index];Chart.js:3084[10:45];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... .index];Chart.js:3084[10:45];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","3084","10","3084","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ch ... atasets;Chart.js:3084[10:33];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... atasets;Chart.js:3084[10:33];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... atasets;Chart.js:3084[10:33];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... atasets;Chart.js:3084[10:33];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ch ... atasets;Chart.js:3084[10:33];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","3084","10","3084","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.la ... .index];Chart.js:4523[21:50];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END","/lib/js/Chart.js","4523","21","4523","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chart.data.labels;Chart.js:5398[16:32];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END","/lib/js/Chart.js","5398","16","5398","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:8365[18:30];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:8365[18:30];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:8365[18:30];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:8365[18:30];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:8365[18:30];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","8365","18","8365","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8655[18:33];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8655[18:33];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8655[18:33];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8655[18:33];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8655[18:33];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","8655","18","8655","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8688[18:33];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8688[18:33];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8688[18:33];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8688[18:33];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8688[18:33];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","8688","18","8688","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8729[18:33];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8729[18:33];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8729[18:33];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8729[18:33];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: me.data.datasets;Chart.js:8729[18:33];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","8729","18","8729","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:11503[18:30];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11503[18:30];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11503[18:30];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11503[18:30];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11503[18:30];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","11503","18","11503","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:11744[18:30];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11744[18:30];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11744[18:30];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11744[18:30];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:11744[18:30];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","11744","18","11744","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chart.data.datasets;Chart.js:12352[18:36];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chart.data.datasets;Chart.js:12352[18:36];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chart.data.datasets;Chart.js:12352[18:36];Sink: loopable[i];Chart.js:1797[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chart.data.datasets;Chart.js:12352[18:36];Sink: loopable[i];Chart.js:1801[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chart.data.datasets;Chart.js:12352[18:36];Sink: loopable[keys[i]];Chart.js:1808[22:38]::FLOW_DESCR_END","/lib/js/Chart.js","12352","18","12352","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chart.d ... i].data;Chart.js:13062[12:38];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END","/lib/js/Chart.js","13062","12","13062","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chart.d ... sets[i];Chart.js:13062[12:33];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END","/lib/js/Chart.js","13062","12","13062","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chart.data.datasets;Chart.js:13062[12:30];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END","/lib/js/Chart.js","13062","12","13062","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0];Chart.js:13065[28:34];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END","/lib/js/Chart.js","13065","28","13065","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... [index];Chart.js:13179[15:53];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... [index];Chart.js:13179[15:53];Sink: rawValue;Chart.js:13037[56:63]::FLOW_DESCR_END","/lib/js/Chart.js","13179","15","13179","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... x].data;Chart.js:13179[15:46];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... x].data;Chart.js:13179[15:46];Sink: rawValue;Chart.js:13037[56:63]::FLOW_DESCR_END","/lib/js/Chart.js","13179","15","13179","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... tIndex];Chart.js:13179[15:41];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... tIndex];Chart.js:13179[15:41];Sink: rawValue;Chart.js:13037[56:63]::FLOW_DESCR_END","/lib/js/Chart.js","13179","15","13179","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:13179[15:27];Sink: value;Chart.js:1735[59:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.datasets;Chart.js:13179[15:27];Sink: rawValue;Chart.js:13037[56:63]::FLOW_DESCR_END","/lib/js/Chart.js","13179","15","13179","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:13736[30:42];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END","/lib/js/Chart.js","13736","30","13736","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:13736[47:59];Sink: value;Chart.js:1721[45:49]::FLOW_DESCR_END","/lib/js/Chart.js","13736","47","13736","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ui_timeline.js:70[44:46];Sink: JSON.st ... ayload);ui_timeline.js:77[36:62]::FLOW_DESCR_END","/ui_timeline.js","70","44","70","46"

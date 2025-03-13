@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node;connector.js:29[22:25];Sink: topic;connector.js:89[38:42]::FLOW_DESCR_END","/components/connector.js","29","22","29","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;connector.js:65[48:50];Sink: msg.payload;connector.js:68[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connector.js:65[48:50];Sink: msg;connector.js:70[43:45]::FLOW_DESCR_END","/components/connector.js","65","48","65","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;connector.js:80[48:50];Sink: topic;connector.js:89[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;connector.js:80[48:50];Sink: msg.payload;connector.js:89[45:55]::FLOW_DESCR_END","/components/connector.js","80","48","80","50"

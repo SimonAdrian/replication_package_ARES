@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;AXPro-config.js:336[53:57];Sink: ""BANANA ...  + sRet;AXPro-config.js:241[63:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;AXPro-config.js:336[53:57];Sink: ""BANANA ...  + sRet;AXPro-config.js:265[75:105]::FLOW_DESCR_END","/nodes/AXPro-config.js","336","53","336","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;AXPro-config.js:366[57:61];Sink: ""AXPro- ... error"");AXPro-config.js:367[59:128]::FLOW_DESCR_END","/nodes/AXPro-config.js","366","57","366","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Doorbell-config.js:181[57:61];Sink: ""Doorbe ... error"");Doorbell-config.js:182[59:132]::FLOW_DESCR_END","/nodes/Doorbell-config.js","181","57","181","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;Doorbell-config.js:269[51:55];Sink: chunk;Doorbell-config.js:270[63:67]::FLOW_DESCR_END","/nodes/Doorbell-config.js","269","51","269","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;Hikvision-config.js:14[21:31];Sink: ""Hikvis ... de.host;Hikvision-config.js:243[71:168]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;Hikvision-config.js:14[21:31];Sink: ""Hikvis ... de.host;Hikvision-config.js:257[43:152]::FLOW_DESCR_END","/nodes/Hikvision-config.js","14","21","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;Hikvision-config.js:16[21:31];Sink: ""Hikvis ... de.host;Hikvision-config.js:243[71:168]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;Hikvision-config.js:16[21:31];Sink: ""Hikvis ... de.host;Hikvision-config.js:257[43:152]::FLOW_DESCR_END","/nodes/Hikvision-config.js","16","21","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;Hikvision-config.js:16[41:49];Sink: ""Hikvis ... de.host;Hikvision-config.js:243[71:168]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;Hikvision-config.js:16[41:49];Sink: ""Hikvis ... de.host;Hikvision-config.js:257[43:152]::FLOW_DESCR_END","/nodes/Hikvision-config.js","16","41","16","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;Hikvision-config.js:225[53:57];Sink: result;Hikvision-config.js:251[41:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;Hikvision-config.js:225[53:57];Sink: ""BANANA ...  + sRet;Hikvision-config.js:286[55:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;Hikvision-config.js:225[53:57];Sink: ""BANANA ...  + sRet;Hikvision-config.js:309[63:93]::FLOW_DESCR_END","/nodes/Hikvision-config.js","225","53","225","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;Hikvision-config.js:243[160:168];Sink: ""Hikvis ... de.host;Hikvision-config.js:243[71:168]::FLOW_DESCR_END","/nodes/Hikvision-config.js","243","160","243","168"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Hikvision-config.js:256[57:61];Sink: ""Hikvis ... de.host;Hikvision-config.js:257[43:152]::FLOW_DESCR_END","/nodes/Hikvision-config.js","256","57","256","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;Hikvision-config.js:257[144:152];Sink: ""Hikvis ... de.host;Hikvision-config.js:257[43:152]::FLOW_DESCR_END","/nodes/Hikvision-config.js","257","144","257","152"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Speaker-config.js:364[57:61];Sink: ""Speake ... error"");Speaker-config.js:365[59:131]::FLOW_DESCR_END","/nodes/Speaker-config.js","364","57","364","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hikvisionUltimateAlarm.js:325[30:32];Sink: [null, _msg];hikvisionUltimateAlarm.js:70[61:72]::FLOW_DESCR_END","/nodes/hikvisionUltimateAlarm.js","325","30","325","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hikvisionUltimateDoorbell.js:74[30:32];Sink: [msg, null];hikvisionUltimateDoorbell.js:102[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hikvisionUltimateDoorbell.js:74[30:32];Sink: [msg, null];hikvisionUltimateDoorbell.js:108[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hikvisionUltimateDoorbell.js:74[30:32];Sink: [msg, null];hikvisionUltimateDoorbell.js:112[17:27]::FLOW_DESCR_END","/nodes/hikvisionUltimateDoorbell.js","74","30","74","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hikvisionUltimateSpeaker.js:36[30:32];Sink: [msg, null];hikvisionUltimateSpeaker.js:40[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hikvisionUltimateSpeaker.js:36[30:32];Sink: [msg, null];hikvisionUltimateSpeaker.js:47[16:26]::FLOW_DESCR_END","/nodes/hikvisionUltimateSpeaker.js","36","30","36","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote;hikDiscovery.js:36[53:58];Sink: 'getAll ... message;hikDiscovery.js:49[33:136]::FLOW_DESCR_END","/nodes/utils/hikDiscovery.js","36","53","36","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote.port;hikDiscovery.js:49[102:112];Sink: 'getAll ... message;hikDiscovery.js:49[33:136]::FLOW_DESCR_END","/nodes/utils/hikDiscovery.js","49","102","49","112"

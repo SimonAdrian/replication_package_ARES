@@ -1,0 +1,383 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.re ... questId;circuit-sdk.js:6751[46:67];Sink: reqId;circuit-sdk.js:6754[70:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","6751","46","6751","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info.deviceId;circuit-sdk.js:7025[29:41];Sink: error;circuit-sdk.js:216[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info.deviceId;circuit-sdk.js:7025[29:41];Sink: error;circuit-sdk.js:218[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info.deviceId;circuit-sdk.js:7025[29:41];Sink: deviceId || 'NONE';circuit-sdk.js:7182[113:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info.deviceId;circuit-sdk.js:7025[29:41];Sink: deviceI ... fault>';circuit-sdk.js:7198[98:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info.deviceId;circuit-sdk.js:7025[29:41];Sink: '[WebRT ... + ' - ';circuit-sdk.js:7206[38:117]::FLOW_DESCR_END","/circuit/circuit-sdk.js","7025","29","7025","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: new Upl ...      });circuit-sdk.js:15589[16:10];Sink: file;circuit-sdk.js:15690[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: new Upl ...      });circuit-sdk.js:15589[16:10];Sink: '[XMLHt ... + value;circuit-sdk.js:43921[23:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: new Upl ...      });circuit-sdk.js:15589[16:10];Sink: data;circuit-sdk.js:44001[23:26]::FLOW_DESCR_END","/circuit/circuit-sdk.js","15589","16","15603","10"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:15939[23:42];Sink: url;circuit-sdk.js:6810[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:15939[23:42];Sink: _targetObfuscated;circuit-sdk.js:6827[64:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:15939[23:42];Sink: _targetObfuscated;circuit-sdk.js:6832[61:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:15939[23:42];Sink: getUrl();circuit-sdk.js:16247[31:38]::FLOW_DESCR_END","/circuit/circuit-sdk.js","15939","23","15939","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location;circuit-sdk.js:15939[23:37];Sink: url;circuit-sdk.js:6810[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:15939[23:37];Sink: _targetObfuscated;circuit-sdk.js:6827[64:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:15939[23:37];Sink: _targetObfuscated;circuit-sdk.js:6832[61:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:15939[23:37];Sink: getUrl();circuit-sdk.js:16247[31:38]::FLOW_DESCR_END","/circuit/circuit-sdk.js","15939","23","15939","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:16208[33:52];Sink: url;circuit-sdk.js:6810[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:16208[33:52];Sink: _targetObfuscated;circuit-sdk.js:6827[64:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:16208[33:52];Sink: _targetObfuscated;circuit-sdk.js:6832[61:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:16208[33:52];Sink: _server;circuit-sdk.js:16209[65:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location.host;circuit-sdk.js:16208[33:52];Sink: getUrl();circuit-sdk.js:16247[31:38]::FLOW_DESCR_END","/circuit/circuit-sdk.js","16208","33","16208","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location;circuit-sdk.js:16208[33:47];Sink: url;circuit-sdk.js:6810[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:16208[33:47];Sink: _targetObfuscated;circuit-sdk.js:6827[64:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:16208[33:47];Sink: _targetObfuscated;circuit-sdk.js:6832[61:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:16208[33:47];Sink: _server;circuit-sdk.js:16209[65:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: window.location;circuit-sdk.js:16208[33:47];Sink: getUrl();circuit-sdk.js:16247[31:38]::FLOW_DESCR_END","/circuit/circuit-sdk.js","16208","33","16208","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.request.type;circuit-sdk.js:16268[60:76];Sink: '[Conne ... equest';circuit-sdk.js:16268[26:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","16268","60","16268","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.content.type;circuit-sdk.js:21815[81:97];Sink: '[UserT ... nt.type;circuit-sdk.js:21815[26:97]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21815","81","21815","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:21889[58:60];Sink: evt.data;circuit-sdk.js:21890[82:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21889","58","21889","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:21894[66:68];Sink: evt.data;circuit-sdk.js:21895[90:97]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21894","66","21894","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:21899[67:69];Sink: evt.data;circuit-sdk.js:21900[91:98]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21899","67","21899","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:21904[58:60];Sink: evt.data;circuit-sdk.js:21905[82:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21904","58","21904","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:21909[70:72];Sink: evt.data;circuit-sdk.js:21910[94:101]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21909","70","21909","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:21914[58:60];Sink: evt.data;circuit-sdk.js:21915[82:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","21914","58","21914","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22654[45:56];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22654[45:56];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22654[45:56];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22654[45:56];Sink: partnerDeviceId;circuit-sdk.js:34600[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22654[45:56];Sink: partnerDeviceId;circuit-sdk.js:34666[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22654","45","22654","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22711[32:43];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22711[32:43];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22711[32:43];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22711[32:43];Sink: partnerDeviceId;circuit-sdk.js:34600[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22711[32:43];Sink: partnerDeviceId;circuit-sdk.js:34666[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22711","32","22711","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.nD.dIr;circuit-sdk.js:22738[33:43];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.nD.dIr;circuit-sdk.js:22738[33:43];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22738","33","22738","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.anD.dIr;circuit-sdk.js:22763[34:45];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22763","34","22763","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22764[32:43];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22764[32:43];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22764[32:43];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22764[32:43];Sink: partnerDeviceId;circuit-sdk.js:34600[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22764[32:43];Sink: partnerDeviceId;circuit-sdk.js:34666[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22764","32","22764","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22782[32:43];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22782[32:43];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22782[32:43];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22782[32:43];Sink: partnerDeviceId;circuit-sdk.js:34600[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22782[32:43];Sink: partnerDeviceId;circuit-sdk.js:34666[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22782","32","22782","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22859[32:43];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22859[32:43];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22859[32:43];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22859[32:43];Sink: partnerDeviceId;circuit-sdk.js:34600[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22859[32:43];Sink: partnerDeviceId;circuit-sdk.js:34666[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22859","32","22859","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22877[32:43];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22877[32:43];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22877[32:43];Sink: partnerDeviceId;circuit-sdk.js:34434[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22877[32:43];Sink: partnerDeviceId;circuit-sdk.js:34600[60:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.caD.dIr;circuit-sdk.js:22877[32:43];Sink: partnerDeviceId;circuit-sdk.js:34666[60:74]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22877","32","22877","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: '[CstaS ...  callId;circuit-sdk.js:35058[30:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.prC.cIDD;circuit-sdk.js:22906[35:47];Sink: callId;circuit-sdk.js:35060[59:64]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22906","35","22906","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.iD.dIr;circuit-sdk.js:22926[35:45];Sink: '[CstaS ... eviceId;circuit-sdk.js:33641[26:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.iD.dIr;circuit-sdk.js:22926[35:45];Sink: '[CstaS ... ition.';circuit-sdk.js:33644[30:106]::FLOW_DESCR_END","/circuit/circuit-sdk.js","22926","35","22926","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt.data.version;circuit-sdk.js:25551[37:52];Sink: '[Exten ... ION_STR;circuit-sdk.js:25509[29:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.version;circuit-sdk.js:25551[37:52];Sink: _extensionVersion;circuit-sdk.js:25531[86:102]::FLOW_DESCR_END","/circuit/circuit-sdk.js","25551","37","25551","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25573[40:52];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25573[40:52];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25573[40:52];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25573[40:52];Sink: data;circuit-sdk.js:25574[95:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25573[40:52];Sink: [data];circuit-sdk.js:25575[68:73]::FLOW_DESCR_END","/circuit/circuit-sdk.js","25573","40","25573","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25581[40:52];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25581[40:52];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25581[40:52];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25581[40:52];Sink: data;circuit-sdk.js:25582[98:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt.data.data;circuit-sdk.js:25581[40:52];Sink: [data];circuit-sdk.js:25583[71:76]::FLOW_DESCR_END","/circuit/circuit-sdk.js","25581","40","25581","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:26328[63:65];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:26328[63:65];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:26328[63:65];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:26328[63:65];Sink: [_telephonyData];circuit-sdk.js:26106[50:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:26328[63:65];Sink: evt.data;circuit-sdk.js:26331[100:107]::FLOW_DESCR_END","/circuit/circuit-sdk.js","26328","63","26328","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;circuit-sdk.js:26342[69:72];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:26342[69:72];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:26342[69:72];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:26342[69:72];Sink: data.newState;circuit-sdk.js:26348[121:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:26342[69:72];Sink: [data.newState];circuit-sdk.js:26354[52:66]::FLOW_DESCR_END","/circuit/circuit-sdk.js","26342","69","26342","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:28370[39:41];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:28370[39:41];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:28370[39:41];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:28370[39:41];Sink: [localC ... eakers];circuit-sdk.js:28400[72:105]::FLOW_DESCR_END","/circuit/circuit-sdk.js","28370","39","28370","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:28406[44:46];Sink: evt.userId;circuit-sdk.js:28418[133:142]::FLOW_DESCR_END","/circuit/circuit-sdk.js","28406","44","28406","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: this.callId;circuit-sdk.js:10769[73:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: this;circuit-sdk.js:10778[48:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: participant.userId;circuit-sdk.js:11047[127:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: participant;circuit-sdk.js:11072[93:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: participant;circuit-sdk.js:11080[97:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: this.callId;circuit-sdk.js:11098[62:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: this.callId;circuit-sdk.js:11108[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: '[Circu ... .callId;circuit-sdk.js:26795[34:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: '[Circu ... te.name;circuit-sdk.js:26847[30:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:26848[50:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call, replaced];circuit-sdk.js:26928[50:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: options ... .callId;circuit-sdk.js:27287[98:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [_primaryLocalCall];circuit-sdk.js:27380[90:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [_primaryLocalCall];circuit-sdk.js:27443[69:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: incomingCall.callId;circuit-sdk.js:27691[79:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: eventParams;circuit-sdk.js:27721[50:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: localCall.callId;circuit-sdk.js:27745[80:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [_primaryLocalCall];circuit-sdk.js:27795[60:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:27798[62:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:27801[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: call.callId;circuit-sdk.js:27827[90:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [p.user ... reamId];circuit-sdk.js:27985[172:203]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: p.userId;circuit-sdk.js:27987[116:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.callId, p];circuit-sdk.js:27988[72:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.c ... cipant];circuit-sdk.js:28027[76:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:28069[60:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call, cause];circuit-sdk.js:28088[71:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.c ... rapper];circuit-sdk.js:28092[64:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [_prima ... eCount];circuit-sdk.js:28137[65:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: call;circuit-sdk.js:28147[110:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:28212[57:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:28257[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call, event.tone];circuit-sdk.js:28266[60:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:28269[55:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call, event.error];circuit-sdk.js:28275[49:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call,  ... arning];circuit-sdk.js:28298[51:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:28316[69:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.callId];circuit-sdk.js:28341[79:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.callId];circuit-sdk.js:28343[80:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.callId];circuit-sdk.js:28350[62:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... eakers];circuit-sdk.js:28400[72:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:28434[68:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [oldCal ... callId];circuit-sdk.js:28675[46:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: replaces.callId;circuit-sdk.js:28831[98:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: mediaType;circuit-sdk.js:29077[91:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: mediaType;circuit-sdk.js:29088[82:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: mediaType;circuit-sdk.js:29107[82:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.c ... cipant];circuit-sdk.js:29270[78:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.c ... yMuted];circuit-sdk.js:29281[56:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: '[Circu ... vId = ';circuit-sdk.js:29348[26:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:29705[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:29710[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... callId];circuit-sdk.js:29773[62:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:29833[67:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:29841[80:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... ipants];circuit-sdk.js:29848[73:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... ipants];circuit-sdk.js:29852[71:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:29862[75:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... callId];circuit-sdk.js:30025[62:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:30038[76:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:30044[74:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... rapper];circuit-sdk.js:30050[67:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call,  ... eboard];circuit-sdk.js:30132[67:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:30143[68:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... , user];circuit-sdk.js:30312[81:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... uester];circuit-sdk.js:30326[72:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call, cause];circuit-sdk.js:30421[59:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:30502[76:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call.c ... cipant];circuit-sdk.js:30571[76:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:30788[76:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:30810[63:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... ndTime];circuit-sdk.js:30824[73:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... , null];circuit-sdk.js:30837[73:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: localCall.callId;circuit-sdk.js:30869[110:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:30870[71:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: localCall.callId;circuit-sdk.js:30872[110:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:30873[71:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:31691[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localCall];circuit-sdk.js:31710[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [callId, true];circuit-sdk.js:32228[72:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [_prima ...  false];circuit-sdk.js:32248[72:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: _primar ... .callId;circuit-sdk.js:32860[100:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: _primar ... .callId;circuit-sdk.js:32873[99:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:32997[62:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [localC ... cipant];circuit-sdk.js:32998[63:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: oldConversation;circuit-sdk.js:29347[64:78];Sink: [call];circuit-sdk.js:34482[60:65]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29347","64","29347","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: conversation;circuit-sdk.js:10528[49:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: this.callId;circuit-sdk.js:10769[73:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: this;circuit-sdk.js:10778[48:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: participant.userId;circuit-sdk.js:11047[127:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: participant;circuit-sdk.js:11072[93:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: participant;circuit-sdk.js:11080[97:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: conversation.convId;circuit-sdk.js:26840[104:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: [conversation];circuit-sdk.js:26841[59:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: [call, replaced];circuit-sdk.js:26928[50:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: options ... ssionId;circuit-sdk.js:27232[82:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: [p.user ... reamId];circuit-sdk.js:27985[172:203]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: p.userId;circuit-sdk.js:27987[116:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: [call.callId, p];circuit-sdk.js:27988[72:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: replaces.callId;circuit-sdk.js:28831[98:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: mediaType;circuit-sdk.js:29077[91:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: mediaType;circuit-sdk.js:29088[82:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: mediaType;circuit-sdk.js:29107[82:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: newConversation;circuit-sdk.js:29347[81:95];Sink: newConv ... .convId;circuit-sdk.js:29349[65:86]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29347","81","29347","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conversation;circuit-sdk.js:29382[61:72];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conversation;circuit-sdk.js:29382[61:72];Sink: '[Circu ... .convId;circuit-sdk.js:29383[26:118]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29382","61","29382","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: participant.userId;circuit-sdk.js:11047[127:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: participant;circuit-sdk.js:11072[93:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: participant;circuit-sdk.js:11080[97:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: [p.user ... reamId];circuit-sdk.js:27985[172:203]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: p.userId;circuit-sdk.js:27987[116:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: [call.callId, p];circuit-sdk.js:27988[72:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: [call.c ... cipant];circuit-sdk.js:28027[76:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: [call.c ... cipant];circuit-sdk.js:29270[78:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:29390[73:76];Sink: [callId, true];circuit-sdk.js:32228[72:85]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29390","73","29390","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: participants;circuit-sdk.js:29390[79:90];Sink: contact.userId;circuit-sdk.js:29220[107:120]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29390","79","29390","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: conversation;circuit-sdk.js:10392[50:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: conversation.convId;circuit-sdk.js:26840[104:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: [conversation];circuit-sdk.js:26841[59:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: [conversation];circuit-sdk.js:27605[68:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: conversation.convId;circuit-sdk.js:29003[102:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: conv;circuit-sdk.js:29448[65:68];Sink: conv.convId;circuit-sdk.js:29449[103:113]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29448","65","29448","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: callId;circuit-sdk.js:29463[68:73];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callId;circuit-sdk.js:29463[68:73];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callId;circuit-sdk.js:29463[68:73];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callId;circuit-sdk.js:29463[68:73];Sink: [callId, true];circuit-sdk.js:32228[72:85]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29463","68","29463","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;circuit-sdk.js:29478[80:83];Sink: data.userId;circuit-sdk.js:29486[86:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:29478[80:83];Sink: data;circuit-sdk.js:29490[89:92]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29478","80","29478","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: routing;circuit-sdk.js:29478[86:92];Sink: data.userId;circuit-sdk.js:29486[86:96]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29478","86","29478","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;circuit-sdk.js:29498[80:83];Sink: data.userId;circuit-sdk.js:29507[90:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:29498[80:83];Sink: data;circuit-sdk.js:29511[93:96]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29498","80","29498","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: routing;circuit-sdk.js:29498[86:92];Sink: data.userId;circuit-sdk.js:29507[90:100]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29498","86","29498","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:29582[66:68];Sink: evt;circuit-sdk.js:29584[90:92]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29582","66","29582","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: [_prima ... eCount];circuit-sdk.js:28137[65:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: [evt.stageAction];circuit-sdk.js:29715[74:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29604[70:72];Sink: [localCall.curtain];circuit-sdk.js:29721[60:78]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29604","70","29604","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:29877[70:72];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29877[70:72];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29877[70:72];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29877[70:72];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:29877[70:72];Sink: [_prima ... eCount];circuit-sdk.js:28137[65:123]::FLOW_DESCR_END","/circuit/circuit-sdk.js","29877","70","29877","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30067[68:70];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30067[68:70];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30067","68","30067","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30127[73:75];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30127[73:75];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30127[73:75];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30127[73:75];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30127[73:75];Sink: [call,  ... eboard];circuit-sdk.js:30132[67:88]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30127","73","30127","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30138[74:76];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30138","74","30138","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30149[58:60];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30149","58","30149","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30236[71:73];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30236[71:73];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30236[71:73];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30236[71:73];Sink: [call, cause];circuit-sdk.js:28088[71:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30236[71:73];Sink: [evt.sessionId];circuit-sdk.js:30255[72:86]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30236","71","30236","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30339[62:64];Sink: evt.cause;circuit-sdk.js:30341[99:107]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30339","62","30339","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30385[73:75];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30385[73:75];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30385[73:75];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30385[73:75];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30385[73:75];Sink: evt.sessionId;circuit-sdk.js:30402[101:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30385[73:75];Sink: [call, cause];circuit-sdk.js:30421[59:71]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30385","73","30385","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30430[65:67];Sink: rtcSessionId;circuit-sdk.js:25012[91:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30430[65:67];Sink: evt.cause;circuit-sdk.js:30446[106:114]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30430","65","30430","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30487[65:67];Sink: evt.userId;circuit-sdk.js:30507[116:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30487[65:67];Sink: evt.cause;circuit-sdk.js:30553[106:114]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30487","65","30487","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30600[79:81];Sink: '[Circu ... leted.';circuit-sdk.js:30679[57:151]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30600","79","30600","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30695[76:78];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30695[76:78];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30695[76:78];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30695[76:78];Sink: [userId];circuit-sdk.js:29166[69:76]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30695","76","30695","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30732[74:76];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30732[74:76];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30732[74:76];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30732[74:76];Sink: [call.c ... yMuted];circuit-sdk.js:29281[56:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30732[74:76];Sink: userId;circuit-sdk.js:30767[136:141]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30732","74","30732","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30815[88:90];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30815[88:90];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30815[88:90];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30815[88:90];Sink: [localC ... ndTime];circuit-sdk.js:30824[73:103]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30815","88","30815","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30841[87:89];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30841[87:89];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30841[87:89];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30841[87:89];Sink: [_prima ... eCount];circuit-sdk.js:28137[65:123]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30841","87","30841","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30907[76:78];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30907[76:78];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30907[76:78];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30907[76:78];Sink: evt.questionNumber;circuit-sdk.js:30919[107:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30907[76:78];Sink: [evt.qu ... onData];circuit-sdk.js:30920[61:96]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30907","76","30907","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30924[83:85];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30924[83:85];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30924[83:85];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30924[83:85];Sink: evt.questionNumber;circuit-sdk.js:30931[116:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30924[83:85];Sink: [evt.qu ... , null];circuit-sdk.js:30932[61:86]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30924","83","30924","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30936[69:71];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30936[69:71];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30936[69:71];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30936[69:71];Sink: evt.que ... nNumber;circuit-sdk.js:30943[109:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30936[69:71];Sink: [evt.qu ... ubType];circuit-sdk.js:30944[63:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30936","69","30936","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:30948[68:70];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30948[68:70];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30948[68:70];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30948[68:70];Sink: [localCall.curtain];circuit-sdk.js:29721[60:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:30948[68:70];Sink: [_prima ... urtain];circuit-sdk.js:30957[52:78]::FLOW_DESCR_END","/circuit/circuit-sdk.js","30948","68","30948","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;circuit-sdk.js:33947[53:56];Sink: event;circuit-sdk.js:22114[78:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;circuit-sdk.js:33947[53:56];Sink: '[CstaP ... ror.div;circuit-sdk.js:22116[38:76]::FLOW_DESCR_END","/circuit/circuit-sdk.js","33947","53","33947","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: args;circuit-sdk.js:25252[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: args;circuit-sdk.js:25257[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: args;circuit-sdk.js:25262[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: replaces.callId;circuit-sdk.js:28831[98:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: mediaType;circuit-sdk.js:29077[91:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: mediaType;circuit-sdk.js:29088[82:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: mediaType;circuit-sdk.js:29107[82:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: '[CallC ... .callId;circuit-sdk.js:36435[34:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: '[CallC ... te.name;circuit-sdk.js:36498[26:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: [call];circuit-sdk.js:36499[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: [oldCall, false];circuit-sdk.js:36564[62:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: call;circuit-sdk.js:36717[56:59];Sink: [call, false];circuit-sdk.js:36623[50:62]::FLOW_DESCR_END","/circuit/circuit-sdk.js","36717","56","36717","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;circuit-sdk.js:36722[59:62];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END","/circuit/circuit-sdk.js","36722","59","36722","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;circuit-sdk.js:36727[54:57];Sink: convId;circuit-sdk.js:25025[82:87]::FLOW_DESCR_END","/circuit/circuit-sdk.js","36727","54","36727","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;circuit-sdk.js:38761[30:32];Sink: err;circuit-sdk.js:38763[64:66]::FLOW_DESCR_END","/circuit/circuit-sdk.js","38761","30","38761","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:43304[65:67];Sink: conv.convId;circuit-sdk.js:41233[78:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43304[65:67];Sink: conv.convId;circuit-sdk.js:41235[79:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43304[65:67];Sink: conv.convId;circuit-sdk.js:41270[70:80]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43304","65","43304","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:43315[68:70];Sink: conv.convId;circuit-sdk.js:41233[78:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43315[68:70];Sink: conv.convId;circuit-sdk.js:41235[79:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43315[68:70];Sink: conv.convId;circuit-sdk.js:41270[70:80]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43315","68","43315","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:43326[63:65];Sink: conv.convId;circuit-sdk.js:41233[78:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43326[63:65];Sink: conv.convId;circuit-sdk.js:41235[79:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43326[63:65];Sink: conv.convId;circuit-sdk.js:41270[70:80]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43326","63","43326","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:43337[63:65];Sink: conv.convId;circuit-sdk.js:41233[78:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43337[63:65];Sink: conv.convId;circuit-sdk.js:41235[79:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43337[63:65];Sink: conv.convId;circuit-sdk.js:41270[70:80]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43337","63","43337","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;circuit-sdk.js:43360[61:63];Sink: conv.convId;circuit-sdk.js:41233[78:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43360[61:63];Sink: conv.convId;circuit-sdk.js:41235[79:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;circuit-sdk.js:43360[61:63];Sink: conv.convId;circuit-sdk.js:41270[70:80]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43360","61","43360","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;circuit-sdk.js:43986[38:41];Sink: '[XMLHt ... ull, 2);circuit-sdk.js:43987[31:108]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43986","38","43986","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;circuit-sdk.js:43992[39:39];Sink: '[XMLHt ... ull, 2);circuit-sdk.js:43993[31:92]::FLOW_DESCR_END","/circuit/circuit-sdk.js","43992","39","43992","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;circuit-sdk.js:44004[35:35];Sink: '[XMLHt ... ull, 2);circuit-sdk.js:44005[27:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","44004","35","44004","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;circuit-sdk.js:44125[46:46];Sink: url;circuit-sdk.js:44078[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;circuit-sdk.js:44125[46:46];Sink: itemId;circuit-sdk.js:44103[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;circuit-sdk.js:44125[46:46];Sink: d;circuit-sdk.js:44126[70:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;circuit-sdk.js:44125[46:46];Sink: body.to ... 'utf8');circuit-sdk.js:44130[69:89]::FLOW_DESCR_END","/circuit/circuit-sdk.js","44125","46","44125","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;circuit-sdk.js:44133[47:47];Sink: e;circuit-sdk.js:44134[71:71]::FLOW_DESCR_END","/circuit/circuit-sdk.js","44133","47","44133","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;circuit-sdk.js:44141[53:57];Sink: chunk;circuit-sdk.js:44142[85:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;circuit-sdk.js:44141[53:57];Sink: chunk;circuit-sdk.js:44143[35:39]::FLOW_DESCR_END","/circuit/circuit-sdk.js","44141","53","44141","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;circuit-sdk.js:44150[47:47];Sink: e;circuit-sdk.js:44151[83:83]::FLOW_DESCR_END","/circuit/circuit-sdk.js","44150","47","44150","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:177[27:29];Sink: msg;circuit.js:186[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:177[27:29];Sink: msg;circuit.js:191[31:33]::FLOW_DESCR_END","/circuit/circuit.js","177","27","177","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:216[27:29];Sink: msg;circuit.js:222[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:216[27:29];Sink: msg;circuit.js:227[31:33]::FLOW_DESCR_END","/circuit/circuit.js","216","27","216","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:292[27:29];Sink: msg;circuit.js:298[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:292[27:29];Sink: msg;circuit.js:303[31:33]::FLOW_DESCR_END","/circuit/circuit.js","292","27","292","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:378[27:29];Sink: msg;circuit.js:390[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:378[27:29];Sink: msg;circuit.js:395[31:33]::FLOW_DESCR_END","/circuit/circuit.js","378","27","378","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;circuit.js:421[27:29];Sink: msg;circuit.js:433[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;circuit.js:421[27:29];Sink: msg;circuit.js:438[31:33]::FLOW_DESCR_END","/circuit/circuit.js","421","27","421","29"

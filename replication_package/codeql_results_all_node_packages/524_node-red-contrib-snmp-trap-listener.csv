@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.port;snmp-trap-listener.js:171[54:63];Sink: moment( ... ) + msg;snmp-trap-listener.js:101[31:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.port;snmp-trap-listener.js:171[54:63];Sink: ""can't  ... or.port;snmp-trap-listener.js:171[32:63]::FLOW_DESCR_END","/snmp-trap-listener.js","171","54","171","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;snmp-trap-listener.js:315[52:62];Sink: moment( ... ) + msg;snmp-trap-listener.js:93[29:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;snmp-trap-listener.js:315[52:62];Sink: ""Listen ... ig.port;snmp-trap-listener.js:315[18:62]::FLOW_DESCR_END","/snmp-trap-listener.js","315","52","315","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;snmp-trap-listener.js:400[41:51];Sink: moment( ... ) + msg;snmp-trap-listener.js:93[29:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;snmp-trap-listener.js:400[41:51];Sink: ""Closin ... ig.port;snmp-trap-listener.js:400[22:51]::FLOW_DESCR_END","/snmp-trap-listener.js","400","41","400","51"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;samplequery.js:9[28:33];Sink: result;samplequery.js:10[15:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;samplequery.js:9[28:33];Sink: result.data[0];samplequery.js:11[15:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;samplequery.js:9[28:33];Sink: result. ... .Animal;samplequery.js:13[23:52]::FLOW_DESCR_END","/samplequery.js","9","28","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result. ... ltData];samplequery.js:13[23:45];Sink: result. ... .Animal;samplequery.js:13[23:52]::FLOW_DESCR_END","/samplequery.js","13","23","13","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;samplequery.js:15[27:32];Sink: result;samplequery.js:16[20:25]::FLOW_DESCR_END","/samplequery.js","15","27","15","32"

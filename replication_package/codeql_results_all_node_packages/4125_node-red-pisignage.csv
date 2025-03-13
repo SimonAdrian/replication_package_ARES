@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pisignage.js:82[42:44];Sink: msg.pay ... erState;pisignage.js:83[25:46]::FLOW_DESCR_END","/pisignage.js","82","42","82","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data['d ... ['_id'];pisignage.js:104[33:65];Sink: this.playerID;pisignage.js:105[29:41]::FLOW_DESCR_END","/pisignage.js","104","33","104","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data['d ... ts'][0];pisignage.js:104[33:58];Sink: this.playerID;pisignage.js:105[29:41]::FLOW_DESCR_END","/pisignage.js","104","33","104","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data['d ... jects'];pisignage.js:104[33:55];Sink: this.playerID;pisignage.js:105[29:41]::FLOW_DESCR_END","/pisignage.js","104","33","104","55"

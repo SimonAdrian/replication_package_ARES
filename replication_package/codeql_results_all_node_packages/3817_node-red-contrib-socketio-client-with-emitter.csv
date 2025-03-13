@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;socketio-client.js:114[15:25];Sink: uri;socketio-client.js:126[51:53]::FLOW_DESCR_END","/socketio-client/socketio-client.js","114","15","114","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;socketio-client.js:119[21:31];Sink: uri;socketio-client.js:126[51:53]::FLOW_DESCR_END","/socketio-client/socketio-client.js","119","21","119","31"

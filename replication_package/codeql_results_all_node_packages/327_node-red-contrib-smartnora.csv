@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;util.js:92[111:115];Sink: state;util.js:95[45:49]::FLOW_DESCR_END","/build/nodes/util.js","92","111","92","115"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;util.js:105[118:122];Sink: state;util.js:107[164:168]::FLOW_DESCR_END","/build/nodes/util.js","105","118","105","122"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;util.js:169[34:36];Sink: msg;util.js:179[107:109]::FLOW_DESCR_END","/build/nodes/util.js","169","34","169","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body.deviceId;local-execution.js:41[167:179];Sink: `[nora] ... iceId}`;local-execution.js:41[104:181]::FLOW_DESCR_END","/build/nora/local-execution.js","41","167","41","179"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;local-execution.js:112[30:34];Sink: `[nora] ... iceId}`;local-execution.js:41[104:181]::FLOW_DESCR_END","/build/nora/local-execution.js","112","30","112","34"

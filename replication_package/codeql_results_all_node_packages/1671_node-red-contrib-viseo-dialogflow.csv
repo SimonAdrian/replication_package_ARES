@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-dialogflow-handoff.js:13[27:30];Sink: [undefined, data];node-dialogflow-handoff.js:33[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow-handoff.js:13[27:30];Sink: [undefined, data];node-dialogflow-handoff.js:39[23:39]::FLOW_DESCR_END","/node-dialogflow-handoff.js","13","27","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [data, undefined];node-dialogflow.js:97[42:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [undefined, data];node-dialogflow.js:101[42:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [undefined, data];node-dialogflow.js:107[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [data, undefined];node-dialogflow.js:114[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [undefined, data];node-dialogflow.js:118[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [data, undefined];node-dialogflow.js:167[42:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [undefined, data];node-dialogflow.js:171[42:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [undefined, data];node-dialogflow.js:179[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [data, undefined];node-dialogflow.js:200[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-dialogflow.js:22[27:30];Sink: [undefined, data];node-dialogflow.js:204[34:50]::FLOW_DESCR_END","/node-dialogflow.js","22","27","22","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-dialogflow.js:99[39:41];Sink: err;node-dialogflow.js:100[36:38]::FLOW_DESCR_END","/node-dialogflow.js","99","39","99","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-dialogflow.js:169[39:41];Sink: err;node-dialogflow.js:170[36:38]::FLOW_DESCR_END","/node-dialogflow.js","169","39","169","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.id;server-dialogflow.js:117[17:28];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","117","17","117","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.locale;server-dialogflow.js:118[21:36];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","118","21","118","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.us ... tion.id;server-dialogflow.js:121[17:49];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","121","17","121","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.us ... rsation;server-dialogflow.js:121[17:46];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","121","17","121","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.address;server-dialogflow.js:121[17:33];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","121","17","121","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.me ... es.list;server-dialogflow.js:123[19:56];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","123","19","123","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.me ... ilities;server-dialogflow.js:123[19:51];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","123","19","123","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.message.surface;server-dialogflow.js:123[19:38];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","123","19","123","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.message.intent;server-dialogflow.js:124[17:35];Sink: 'RECEIV ... \n    });server-dialogflow.js:115[14:6]::FLOW_DESCR_END","/server-dialogflow.js","124","17","124","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.id;server-dialogflow.js:214[21:32];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","214","21","214","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.locale;server-dialogflow.js:215[25:40];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","215","25","215","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.us ... tion.id;server-dialogflow.js:218[21:53];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","218","21","218","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.us ... rsation;server-dialogflow.js:218[21:50];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","218","21","218","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.address;server-dialogflow.js:218[21:37];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","218","21","218","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.me ... es.list;server-dialogflow.js:220[23:60];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","220","23","220","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.me ... ilities;server-dialogflow.js:220[23:55];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","220","23","220","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.message.surface;server-dialogflow.js:220[23:42];Sink: 'REPLY: ...      });server-dialogflow.js:212[18:10]::FLOW_DESCR_END","/server-dialogflow.js","220","23","220","42"

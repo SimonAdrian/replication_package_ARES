@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myhome-commandsession.js:18[31:33];Sink: 'comman ... payload;myhome-commandsession.js:31[22:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myhome-commandsession.js:18[31:33];Sink: command;myhome-utils.js:49[22:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myhome-commandsession.js:18[31:33];Sink: command;myhome-utils.js:54[22:28]::FLOW_DESCR_END","/myhome-commandsession.js","18","31","18","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;myhome-gateway (copia).js:17[17:27];Sink: node.host;myhome-gateway (copia).js:71[38:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway (copia).js:17[17:27];Sink: 'connec ... de.host;myhome-gateway (copia).js:111[26:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway (copia).js:17[17:27];Sink: config.host;myhome-utils.js:21[31:41]::FLOW_DESCR_END","/myhome-gateway (copia).js","17","17","17","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;myhome-gateway (copia).js:18[17:27];Sink: node.port;myhome-gateway (copia).js:71[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;myhome-gateway (copia).js:18[17:27];Sink: config.port;myhome-utils.js:21[18:28]::FLOW_DESCR_END","/myhome-gateway (copia).js","18","17","18","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;myhome-gateway (copia).js:53[39:42];Sink: 'sdata is '+sdata;myhome-gateway (copia).js:87[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;myhome-gateway (copia).js:53[39:42];Sink: 'comman ...  packet;myhome-gateway (copia).js:128[22:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;myhome-gateway (copia).js:53[39:42];Sink: packet;myhome-gateway (copia).js:131[28:33]::FLOW_DESCR_END","/myhome-gateway (copia).js","53","39","53","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;myhome-gateway (copia).js:111[53:61];Sink: 'connec ... de.host;myhome-gateway (copia).js:111[26:61]::FLOW_DESCR_END","/myhome-gateway (copia).js","111","53","111","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;myhome-gateway.js:17[17:27];Sink: node.host;myhome-gateway.js:55[38:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway.js:17[17:27];Sink: 'connec ... de.host;myhome-gateway.js:93[26:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;myhome-gateway.js:17[17:27];Sink: config.host;myhome-utils.js:21[31:41]::FLOW_DESCR_END","/myhome-gateway.js","17","17","17","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;myhome-gateway.js:18[17:27];Sink: node.port;myhome-gateway.js:55[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;myhome-gateway.js:18[17:27];Sink: config.port;myhome-utils.js:21[18:28]::FLOW_DESCR_END","/myhome-gateway.js","18","17","18","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;myhome-gateway.js:37[39:42];Sink: 'sdata is '+sdata;myhome-gateway.js:67[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;myhome-gateway.js:37[39:42];Sink: 'comman ...  packet;myhome-gateway.js:110[22:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;myhome-gateway.js:37[39:42];Sink: packet;myhome-gateway.js:113[28:33]::FLOW_DESCR_END","/myhome-gateway.js","37","39","37","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;myhome-gateway.js:93[53:61];Sink: 'connec ... de.host;myhome-gateway.js:93[26:61]::FLOW_DESCR_END","/myhome-gateway.js","93","53","93","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;myhome-light.js:10[32:37];Sink: 'failed ...  packet;myhome-light.js:35[22:59]::FLOW_DESCR_END","/myhome-light.js","10","32","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;myhome-switch.js:10[32:37];Sink: 'failed ...  packet;myhome-switch.js:18[24:61]::FLOW_DESCR_END","/myhome-switch.js","10","32","10","37"

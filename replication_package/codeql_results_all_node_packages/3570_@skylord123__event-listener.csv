@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-listener-emit.js:38[41:43];Sink: eventPayload;event-listener-emit.js:42[55:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-listener-emit.js:38[41:43];Sink: msg;event-listener-emit.js:43[23:25]::FLOW_DESCR_END","/src/event-listener-emit.js","38","41","38","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;event-listener-on.js:33[63:69];Sink: payload;event-listener-on.js:35[27:33]::FLOW_DESCR_END","/src/event-listener-on.js","33","63","33","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-listener-wait-for.js:97[41:43];Sink: [null, msg];event-listener-wait-for.js:130[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-listener-wait-for.js:97[41:43];Sink: newMsg || msg;event-listener-wait-for.js:153[27:39]::FLOW_DESCR_END","/src/event-listener-wait-for.js","97","41","97","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;event-listener-wait-for.js:134[31:37];Sink: valueToSet;event-listener-wait-for.js:89[48:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;event-listener-wait-for.js:134[31:37];Sink: valueToSet;event-listener-wait-for.js:91[50:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;event-listener-wait-for.js:134[31:37];Sink: newMsg || msg;event-listener-wait-for.js:153[27:39]::FLOW_DESCR_END","/src/event-listener-wait-for.js","134","31","134","37"

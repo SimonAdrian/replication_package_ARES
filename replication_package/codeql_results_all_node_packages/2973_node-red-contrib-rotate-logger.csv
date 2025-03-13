@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rotate-logger.js:42[32:34];Sink: JSON.stringify(msg);rotate-logger.js:49[32:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rotate-logger.js:42[32:34];Sink: JSON.st ... plete]);rotate-logger.js:57[32:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rotate-logger.js:42[32:34];Sink: JSON.st ... .error);rotate-logger.js:67[31:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rotate-logger.js:42[32:34];Sink: JSON.st ... g.warn);rotate-logger.js:76[30:53]::FLOW_DESCR_END","/rotate-logger.js","42","32","42","34"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;obs.js:14[21:31];Sink: `ws://$ ... .port}`;obs.js:38[50:81]::FLOW_DESCR_END","/obs.js","14","21","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;obs.js:15[21:31];Sink: `ws://$ ... .port}`;obs.js:38[50:81]::FLOW_DESCR_END","/obs.js","15","21","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;obs.js:16[25:49];Sink: node.password;obs.js:38[84:96]::FLOW_DESCR_END","/obs.js","16","25","16","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;obs.js:38[58:66];Sink: `ws://$ ... .port}`;obs.js:38[50:81]::FLOW_DESCR_END","/obs.js","38","58","38","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;obs.js:38[71:79];Sink: `ws://$ ... .port}`;obs.js:38[50:81]::FLOW_DESCR_END","/obs.js","38","71","38","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;obs.js:83[41:43];Sink: err;obs.js:86[24:26]::FLOW_DESCR_END","/obs.js","83","41","83","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obs.js:333[45:47];Sink: node.ob ... estType;obs.js:417[58:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obs.js:333[45:47];Sink: node.ob ... estData;obs.js:417[91:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obs.js:333[45:47];Sink: [null,  ... : err}];obs.js:422[26:55]::FLOW_DESCR_END","/obs.js","333","45","333","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obs.js:437[45:47];Sink: {...msg ... neName};obs.js:460[30:57]::FLOW_DESCR_END","/obs.js","437","45","437","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obs.js:478[45:47];Sink: {...msg};obs.js:512[26:33]::FLOW_DESCR_END","/obs.js","478","45","478","47"

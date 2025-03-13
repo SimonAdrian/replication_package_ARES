@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-ldap.js:90[30:32];Sink: msg;99-ldap.js:121[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-ldap.js:90[30:32];Sink: msg;99-ldap.js:131[34:36]::FLOW_DESCR_END","/99-ldap.js","90","30","90","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;99-ldap.js:112[32:36];Sink: error;99-ldap.js:113[41:45]::FLOW_DESCR_END","/99-ldap.js","112","32","112","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;99-ldap.js:170[33:35];Sink: ""LDAP C ... "" + err;99-ldap.js:171[13:43]::FLOW_DESCR_END","/99-ldap.js","170","33","170","35"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');git-nodes.js:51[23:61];Sink: RED.set ... ' + key;git-nodes.js:66[28:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');git-nodes.js:51[23:61];Sink: value[key];git-nodes.js:66[85:94]::FLOW_DESCR_END","/git-nodes.js","51","23","51","61"

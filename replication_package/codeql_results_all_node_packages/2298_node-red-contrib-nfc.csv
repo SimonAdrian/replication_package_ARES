@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nfc.js:70[35:37];Sink: msg.payload;nfc.js:84[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:70[35:37];Sink: msg;nfc.js:87[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:70[35:37];Sink: msg;nfc.js:90[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:70[35:37];Sink: msg;nfc.js:95[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:70[35:37];Sink: msg;nfc.js:100[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:70[35:37];Sink: msg;nfc.js:104[45:47]::FLOW_DESCR_END","/lib/nfc.js","70","35","70","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:127[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:130[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:137[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:140[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:144[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:148[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:152[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:116[35:37];Sink: msg;nfc.js:156[41:43]::FLOW_DESCR_END","/lib/nfc.js","116","35","116","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nfc.js:167[35:37];Sink: msg;nfc.js:248[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:167[35:37];Sink: msg;nfc.js:293[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:167[35:37];Sink: msg;nfc.js:298[45:47]::FLOW_DESCR_END","/lib/nfc.js","167","35","167","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:392[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:395[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:399[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:403[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:470[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:474[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:478[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:484[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nfc.js:313[35:37];Sink: msg;nfc.js:488[45:47]::FLOW_DESCR_END","/lib/nfc.js","313","35","313","37"

@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;umbhandler.js:95[40:44];Sink: ""tty RX ... ""bytes"";umbhandler.js:98[35:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;umbhandler.js:95[40:44];Sink: chunk.t ... ('hex');umbhandler.js:99[37:57]::FLOW_DESCR_END","/umbhandler.js","95","40","95","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: cur_unit;umbcontroller_node.js:57[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""Error: "" + response;umbcontroller_node.js:148[32:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""channe ... hannels;umbcontroller_node.js:154[32:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""Error: "" + response;umbcontroller_node.js:166[36:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""Error: "" + response;umbcontroller_node.js:191[44:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""CurCha ... Channel;umbcontroller_node.js:197[44:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""Error: = "" + error;umbcontroller_node.js:222[24:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;umbhandler.js:127[41:45];Sink: ""TX end ... l + "")"";umbhandler.js:163[23:52]::FLOW_DESCR_END","/umbhandler.js","127","41","127","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: cur_unit;umbcontroller_node.js:57[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""Error: "" + response;umbcontroller_node.js:148[32:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""channe ... hannels;umbcontroller_node.js:154[32:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""Error: "" + response;umbcontroller_node.js:166[36:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""Error: "" + response;umbcontroller_node.js:191[44:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""CurCha ... Channel;umbcontroller_node.js:197[44:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""Error: = "" + error;umbcontroller_node.js:222[24:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""["" + s ... x + "")"";umbhandler.js:197[35:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ex;umbhandler.js:198[35:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ex;umbhandler.js:196[37:38];Sink: ""TX end ... l + "")"";umbhandler.js:283[23:52]::FLOW_DESCR_END","/umbhandler.js","196","37","196","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hadError;umbhandler.js:201[37:44];Sink: ""["" + s ... r + "")"";umbhandler.js:202[35:95]::FLOW_DESCR_END","/umbhandler.js","201","37","201","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;umbhandler.js:216[36:39];Sink: ""["" + s ... ""bytes"";umbhandler.js:217[35:91]::FLOW_DESCR_END","/umbhandler.js","216","36","216","39"

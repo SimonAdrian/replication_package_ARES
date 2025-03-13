@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aerospike.js:21[32:34];Sink: rec;aerospike.js:34[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aerospike.js:21[32:34];Sink: rec;aerospike.js:45[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aerospike.js:21[32:34];Sink: ""put re ... msg.key;aerospike.js:48[20:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aerospike.js:21[32:34];Sink: ""put re ... fy(rec);aerospike.js:49[20:55]::FLOW_DESCR_END","/aerospike/aerospike.js","21","32","21","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;aerospike.js:60[32:36];Sink: error;aerospike.js:61[29:33]::FLOW_DESCR_END","/aerospike/aerospike.js","60","32","60","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aerospike.js:81[32:34];Sink: msg.key;aerospike.js:83[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aerospike.js:81[32:34];Sink: msg.key;aerospike.js:88[52:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aerospike.js:81[32:34];Sink: msg.key;aerospike.js:90[73:79]::FLOW_DESCR_END","/aerospike/aerospike.js","81","32","81","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;aerospike.js:104[32:36];Sink: error;aerospike.js:105[29:33]::FLOW_DESCR_END","/aerospike/aerospike.js","104","32","104","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aerospike.js:126[32:34];Sink: msg.range;aerospike.js:138[23:31]::FLOW_DESCR_END","/aerospike/aerospike.js","126","32","126","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;aerospike.js:155[36:36];Sink: e;aerospike.js:159[27:27]::FLOW_DESCR_END","/aerospike/aerospike.js","155","36","155","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rec;aerospike.js:162[31:33];Sink: rec;aerospike.js:163[23:25]::FLOW_DESCR_END","/aerospike/aerospike.js","162","31","162","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;aerospike.js:183[32:36];Sink: error;aerospike.js:184[29:33]::FLOW_DESCR_END","/aerospike/aerospike.js","183","32","183","36"

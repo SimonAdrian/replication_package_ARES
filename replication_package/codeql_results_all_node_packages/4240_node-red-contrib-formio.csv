@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;formio.js:23[38:40];Sink: msg;formio.js:55[17:19]::FLOW_DESCR_END","/formio.js","23","38","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;formio.js:31[58:72];Sink: `Authen ...  *****`;formio.js:31[11:81]::FLOW_DESCR_END","/formio.js","31","58","31","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;formio.js:61[38:40];Sink: [msg];formio.js:76[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formio.js:61[38:40];Sink: [null, msg];formio.js:83[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formio.js:61[38:40];Sink: msg;formio.js:86[37:39]::FLOW_DESCR_END","/formio.js","61","38","61","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;formio.js:69[58:72];Sink: `Authen ...  *****`;formio.js:69[11:81]::FLOW_DESCR_END","/formio.js","69","58","69","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;formio.js:96[38:40];Sink: [msg];formio.js:112[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formio.js:96[38:40];Sink: [null, msg];formio.js:118[21:31]::FLOW_DESCR_END","/formio.js","96","38","96","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;formio.js:105[58:72];Sink: `Authen ...  *****`;formio.js:105[11:81]::FLOW_DESCR_END","/formio.js","105","58","105","72"

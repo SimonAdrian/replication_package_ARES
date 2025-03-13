@@ -1,0 +1,1 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;db-query.js:20[28:30];Sink: {...msg, payload };db-query.js:42[8:25]::FLOW_DESCR_END","/src/db-query.js","20","28","20","30"

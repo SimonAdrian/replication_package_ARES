@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gphotos.js:39[29:31];Sink: upName;gphotos.js:62[13:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gphotos.js:39[29:31];Sink: upAlbum;gphotos.js:63[13:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gphotos.js:39[29:31];Sink: ""upload ... upAlbum;gphotos.js:67[14:60]::FLOW_DESCR_END","/gphotos.js","39","29","39","31"

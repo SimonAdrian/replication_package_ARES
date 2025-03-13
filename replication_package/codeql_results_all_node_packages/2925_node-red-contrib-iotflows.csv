@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotflows.js:551[38:40];Sink: msg;iotflows.js:572[49:51]::FLOW_DESCR_END","/iotflows.js","551","38","551","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;iotflows.js:551[47:50];Sink: done;iotflows.js:572[54:57]::FLOW_DESCR_END","/iotflows.js","551","47","551","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotflows.js:609[38:40];Sink: msg;iotflows.js:628[49:51]::FLOW_DESCR_END","/iotflows.js","609","38","609","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;iotflows.js:609[47:50];Sink: done;iotflows.js:628[54:57]::FLOW_DESCR_END","/iotflows.js","609","47","609","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotflows.js:736[38:40];Sink: msg;iotflows.js:757[49:51]::FLOW_DESCR_END","/iotflows.js","736","38","736","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;iotflows.js:736[47:50];Sink: done;iotflows.js:757[54:57]::FLOW_DESCR_END","/iotflows.js","736","47","736","50"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;learn.js:41[26:31];Sink: device;learn.js:51[35:40]::FLOW_DESCR_END","/learn.js","41","26","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;learn.js:56[39:44];Sink: device.macAddress;learn.js:57[55:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;learn.js:56[39:44];Sink: device.state;learn.js:57[74:85]::FLOW_DESCR_END","/learn.js","56","39","56","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;learn.js:60[25:30];Sink: device;learn.js:62[26:31]::FLOW_DESCR_END","/learn.js","60","25","60","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ir;learn.js:60[33:34];Sink: ir;learn.js:63[27:28]::FLOW_DESCR_END","/learn.js","60","33","60","34"

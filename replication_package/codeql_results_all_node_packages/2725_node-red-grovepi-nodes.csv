@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:96[32:34];Sink: ""out: ""+msg.payload;grovepi.js:101[54:72]::FLOW_DESCR_END","/grovepi.js","96","32","96","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:141[32:34];Sink: ""out: ""+msg.payload;grovepi.js:145[54:72]::FLOW_DESCR_END","/grovepi.js","141","32","141","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:184[32:34];Sink: ""out: ""+msg.payload;grovepi.js:188[54:72]::FLOW_DESCR_END","/grovepi.js","184","32","184","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:224[32:34];Sink: r;grovepi.js:35[41:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:224[32:34];Sink: g;grovepi.js:36[41:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:224[32:34];Sink: b;grovepi.js:37[41:41]::FLOW_DESCR_END","/grovepi.js","224","32","224","34"

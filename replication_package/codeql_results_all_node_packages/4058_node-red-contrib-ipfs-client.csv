@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ipfs.js:32[27:29];Sink: msg;ipfs.js:127[18:20]::FLOW_DESCR_END","/nodes/ipfs.js","32","27","32","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ipfs.ts:27[27:29];Sink: msg;ipfs.ts:69[12:14]::FLOW_DESCR_END","/src/ipfs.ts","27","27","27","29"

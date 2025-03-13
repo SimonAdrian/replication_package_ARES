@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;synthesize.js:41[25:29];Sink: buffer;tts.js:9[34:39]::FLOW_DESCR_END","/src/synthesize.js","41","25","41","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;synthesize.js:58[21:28];Sink: buffer;tts.js:9[34:39]::FLOW_DESCR_END","/src/synthesize.js","58","21","58","28"

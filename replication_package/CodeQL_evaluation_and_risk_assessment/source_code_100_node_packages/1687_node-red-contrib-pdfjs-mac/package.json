@@ -1,0 +1,23 @@
+{
+  "name": "node-red-contrib-pdfjs-mac",
+  "version": "1.0.14",
+  "description": "Node-RED node to extract pdf data using pdfjs with legacy support",
+  "dependencies": {
+    "pdfjs-dist": "^2.16.105"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macleodconstruction/node-red-contrib-pdfjs-mac.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "node-red",
+    "pdf",
+    "legacy"
+  ],
+  "node-red": {
+    "nodes": {
+      "pdf": "pdf.js"
+    }
+  }
+}

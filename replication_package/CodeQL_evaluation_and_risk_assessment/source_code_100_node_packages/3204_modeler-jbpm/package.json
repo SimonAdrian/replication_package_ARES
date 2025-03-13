@@ -1,0 +1,41 @@
+{
+  "name": "modeler-jbpm",
+  "version": "1.3.6",
+  "license": "MIT",
+  "node-red": {
+    "nodes": {
+      "create-case": "./lib/create-case/create-case.js",
+      "search-activity": "./lib/search-activity/search-activity.js",
+      "check-in": "./lib/check-in/check-in.js",
+      "check-out": "./lib/check-out/check-out.js"
+    }
+  },
+  "dependencies": {
+    "validator": "^8.1.0"
+  },
+  "keywords": [
+    "jbpm",
+    "modeler",
+    "node-red"
+  ],
+  "description": "The Set of nodes help make Execute the following set of actions: * Create Process Instance * Create Task Instances * Claim Task * Start Task * Complete Task * Check-in Task (Complex Type) * check-out Task (Complex Type)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keith3895/node-red-jbpm.git"
+  },
+  "author": {
+    "name": "Keith Franklin Jathanna"
+  },
+  "bugs": {
+    "url": "https://github.com/Keith3895/node-red-jbpm/issues"
+  },
+  "homepage": "https://github.com/Keith3895/node-red-jbpm#readme"
+}

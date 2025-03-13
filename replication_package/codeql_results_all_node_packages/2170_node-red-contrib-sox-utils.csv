@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sox_convert.js:226[35:37];Sink: [msg,null];sox_convert.js:146[31:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_convert.js:226[35:37];Sink: [msg,null];sox_convert.js:146[55:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_convert.js:226[35:37];Sink: node.inputFilePath;sox_convert.js:285[38:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_convert.js:226[35:37];Sink: msg.payload;sox_convert.js:285[58:68]::FLOW_DESCR_END","/sox_convert.js","226","35","226","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.lastMsg;sox_play.js:137[27:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.lastMsg;sox_play.js:144[27:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.lastMsg;sox_play.js:192[27:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.lastMsg;sox_play.js:199[27:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: chunk;sox_play.js:216[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg;sox_play.js:322[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg;sox_play.js:322[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.filePath;sox_play.js:344[42:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg.payload;sox_play.js:344[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.filePath;sox_play.js:367[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg.payload;sox_play.js:367[61:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: node.filePath;sox_play.js:389[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg.payload;sox_play.js:389[61:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg;sox_play.js:400[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg;sox_play.js:400[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg;sox_play.js:403[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_play.js:258[35:37];Sink: msg;sox_play.js:403[56:58]::FLOW_DESCR_END","/sox_play.js","258","35","258","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: [msg,null];sox_record.js:117[31:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: [msg,null];sox_record.js:117[55:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: [msg,null];sox_record.js:225[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: [msg,null];sox_record.js:225[63:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: [msg,null];sox_record.js:230[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: [msg,null];sox_record.js:230[63:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sox_record.js:346[35:37];Sink: chunk;sox_record.js:259[44:48]::FLOW_DESCR_END","/sox_record.js","346","35","346","37"

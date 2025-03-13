@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:7[39:41];Sink: msg;auth.js:17[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:7[39:41];Sink: msg;auth.js:24[35:37]::FLOW_DESCR_END","/google-firebase/auth.js","7","39","7","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;on.js:8[39:41];Sink: msg;on.js:16[35:37]::FLOW_DESCR_END","/google-firebase/on.js","8","39","8","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;once.js:9[39:41];Sink: msg;once.js:20[35:37]::FLOW_DESCR_END","/google-firebase/once.js","9","39","9","41"

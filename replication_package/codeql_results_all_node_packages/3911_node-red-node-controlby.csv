@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;controlby-in.js:21[42:48];Sink: `${message}`;controlby-in.js:22[36:47]::FLOW_DESCR_END","/controlby-in.js","21","42","21","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: global. ... ig.port;controlby-udp.js:32[20:60];Sink: port;controlby-udp.js:33[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: global. ... ig.port;controlby-udp.js:32[20:60];Sink: port;controlby-udp.js:42[45:48]::FLOW_DESCR_END","/controlby-udp.js","32","20","32","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;controlby-udp.js:36[33:37];Sink: error;controlby-udp.js:37[46:50]::FLOW_DESCR_END","/controlby-udp.js","36","33","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: global. ... ig.port;controlby-udp.js:49[20:60];Sink: port;controlby-udp.js:50[43:46]::FLOW_DESCR_END","/controlby-udp.js","49","20","49","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: global. ... ig.port;controlby-udp.js:67[20:61];Sink: port;controlby-udp.js:68[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: global. ... ig.port;controlby-udp.js:67[20:61];Sink: port;controlby-udp.js:69[49:52]::FLOW_DESCR_END","/controlby-udp.js","67","20","67","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;controlby-udp.js:72[28:32];Sink: error;controlby-udp.js:73[46:50]::FLOW_DESCR_END","/controlby-udp.js","72","28","72","32"

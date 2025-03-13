@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);sql.js:83[27:65];Sink: JSON.st ... !='')});sql.js:85[22:121]::FLOW_DESCR_END","/sql.js","83","27","83","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);sql.js:103[31:69];Sink: credentials;sql.js:114[52:62]::FLOW_DESCR_END","/sql.js","103","31","103","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sql.js:553[35:37];Sink: InjectP ... result);sql.js:560[39:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sql.js:553[35:37];Sink: e.message;sql.js:568[28:36]::FLOW_DESCR_END","/sql.js","553","35","553","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sql.js:585[35:37];Sink: InjectP ... g,rows);sql.js:598[35:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sql.js:585[35:37];Sink: e.message;sql.js:606[28:36]::FLOW_DESCR_END","/sql.js","585","35","585","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sql.js:628[39:41];Sink: InjectP ... g,rows);sql.js:672[35:57]::FLOW_DESCR_END","/sql.js","628","39","628","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sql.js:698[39:41];Sink: InjectP ... g,rows);sql.js:720[35:57]::FLOW_DESCR_END","/sql.js","698","39","698","41"

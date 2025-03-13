@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compile.js:23[31:33];Sink: msg;compile.js:56[19:21]::FLOW_DESCR_END","/nodes/compile.js","23","31","23","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;layer-dense.js:15[31:33];Sink: msg;layer-dense.js:30[17:19]::FLOW_DESCR_END","/nodes/layer-dense.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;model.js:38[31:33];Sink: msg;model.js:51[17:19]::FLOW_DESCR_END","/nodes/model.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;optimizer.js:14[31:33];Sink: msg;optimizer.js:27[17:19]::FLOW_DESCR_END","/nodes/optimizer.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;predict.js:11[31:33];Sink: msg;predict.js:30[19:21]::FLOW_DESCR_END","/nodes/predict.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensor.js:25[31:33];Sink: msg;tensor.js:99[17:19]::FLOW_DESCR_END","/nodes/tensor.js","25","31","25","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;train.js:75[31:33];Sink: [null,  ... : [] }];train.js:111[19:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;train.js:75[31:33];Sink: [msg, null, null];train.js:128[23:39]::FLOW_DESCR_END","/nodes/train.js","75","31","75","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transform.js:47[31:33];Sink: trainData;transform.js:114[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transform.js:47[31:33];Sink: targetData;transform.js:115[36:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transform.js:47[31:33];Sink: msg;transform.js:141[17:19]::FLOW_DESCR_END","/nodes/transform.js","47","31","47","33"

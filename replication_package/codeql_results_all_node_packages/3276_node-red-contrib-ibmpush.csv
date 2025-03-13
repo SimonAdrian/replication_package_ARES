@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: vcapSer ... als.url;88-ibmpush.js:31[20:58];Sink: ""Connec ... tionUrl;88-ibmpush.js:112[11:19]::FLOW_DESCR_END","/ibmpush/88-ibmpush.js","31","20","31","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);88-ibmpush.js:68[23:61];Sink: credentials;88-ibmpush.js:76[45:55]::FLOW_DESCR_END","/ibmpush/88-ibmpush.js","68","23","68","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;88-ibmpush.js:215[27:34];Sink: respons ... message;88-ibmpush.js:221[16:54]::FLOW_DESCR_END","/ibmpush/88-ibmpush.js","215","27","215","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;88-ibmpush.js:215[37:40];Sink: respons ... message;88-ibmpush.js:221[16:54]::FLOW_DESCR_END","/ibmpush/88-ibmpush.js","215","37","215","40"

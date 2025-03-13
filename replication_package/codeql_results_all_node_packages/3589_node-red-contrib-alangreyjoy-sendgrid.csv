@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;basicEmail.js:9[32:34];Sink: msg;basicEmail.js:14[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;basicEmail.js:9[32:34];Sink: msg;basicEmail.js:35[38:40]::FLOW_DESCR_END","/nodes/basicEmail.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dynamicTemplate.js:8[32:34];Sink: msg;dynamicTemplate.js:18[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynamicTemplate.js:8[32:34];Sink: msg;dynamicTemplate.js:34[38:40]::FLOW_DESCR_END","/nodes/dynamicTemplate.js","8","32","8","34"

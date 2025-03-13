@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Aladin.js:21[23:25];Sink: msg;Aladin.js:42[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Aladin.js:21[23:25];Sink: msg;Aladin.js:54[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Aladin.js:21[23:25];Sink: msg;Aladin.js:66[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Aladin.js:21[23:25];Sink: msg;Aladin.js:78[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Aladin.js:21[23:25];Sink: msg;Aladin.js:87[51:53]::FLOW_DESCR_END","/Meoseon/Aladin.js","21","23","21","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Meoseon-NaverBooks.js:14[23:25];Sink: msg;Meoseon-NaverBooks.js:37[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-NaverBooks.js:14[23:25];Sink: msg;Meoseon-NaverBooks.js:42[23:25]::FLOW_DESCR_END","/Meoseon/Meoseon-NaverBooks.js","14","23","14","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... .ApiKey;Meoseon-Ship.js:7[21:70];Sink: node.requestUrl;Meoseon-Ship.js:19[16:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... .ApiKey;Meoseon-Ship.js:7[21:70];Sink: ""this n ... uestUrl;Meoseon-Ship.js:23[26:91]::FLOW_DESCR_END","/Meoseon/Meoseon-Ship.js","7","21","7","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Meoseon-Ship.js:15[25:27];Sink: msg;Meoseon-Ship.js:23[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Ship.js:15[25:27];Sink: msg;Meoseon-Ship.js:29[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Ship.js:15[25:27];Sink: msg;Meoseon-Ship.js:35[23:25]::FLOW_DESCR_END","/Meoseon/Meoseon-Ship.js","15","25","15","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:58[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:64[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:68[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:70[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:157[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:174[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:178[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Meoseon-Shopping.js:104[32:34];Sink: msg;Meoseon-Shopping.js:181[25:27]::FLOW_DESCR_END","/Meoseon/Meoseon-Shopping.js","104","32","104","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shopping-filter.js:10[32:34];Sink: msg;shopping-filter.js:73[17:19]::FLOW_DESCR_END","/Meoseon/shopping-filter.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shopping-filter.js:82[32:34];Sink: msg;shopping-filter.js:127[17:19]::FLOW_DESCR_END","/Meoseon/shopping-filter.js","82","32","82","34"

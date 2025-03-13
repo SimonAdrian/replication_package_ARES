@@ -1,0 +1,133 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mailactions',{
+        category: 'social',
+        color: '#c7e9c0',
+        defaults: {
+            name: {value:""},
+            protocol: {value: "IMAP", required:true}, // Which protocol to use to connect to the mail server ("IMAP" or "POP3")
+            server: {value:"imap.gmail.com",required:true},
+            useSSL: {value: true},
+            port: {value:"993",required:true},
+            box: {value:"INBOX"}, // For IMAP, The mailbox to process
+            outbox: {value:"Processed"}, // For IMAP, The mailbox to process
+            tag: {value:"nodered"}, // For IMAP, The mailbox to process 
+        },
+        credentials: {
+            userid: {type:"text"},
+            password: {type: "password"},
+            global: { type:"boolean"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "envelope.png",
+        paletteLabel: function() {
+            return "mail-actions";
+        },
+        label: function() {
+            return this.name||"mail-actions";
+        },
+        labelStyle: function() {
+            return (this.name)?"node_label_italic":"";
+        },
+        oneditprepare: function() {
+            if (this.credentials.global) {
+                $('#node-tip').show();
+            } else {
+                $('#node-tip').hide();
+            }
+            if (typeof this.box === 'undefined') {
+                $("#node-input-box").val("INBOX");
+                this.box = "INBOX";
+            }
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="mailactions">
+    <div class="form-row">
+        <label for="node-input-protocol"><i class="fa fa-envelope"></i> <span>Protocol</span></label>
+        <select type="text" id="node-input-protocol">
+            <option value="IMAP">IMAP</option>
+            <option value="POP3">POP3</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-useSSL"><i class="fa fa-lock"></i> <span>Use SSL?</span></label>
+        <input type="checkbox" id="node-input-useSSL" style="width: auto;">
+    </div>
+    <div class="form-row">
+        <label for="node-input-server"><i class="fa fa-globe"></i> <span>Server</span></label>
+        <input type="text" id="node-input-server" placeholder="imap.gmail.com">
+    </div>
+    <div class="form-row">
+        <label for="node-input-port"><i class="fa fa-random"></i> <span>Port</span></label>
+        <input type="text" id="node-input-port" placeholder="993">
+    </div>
+    <div class="form-row">
+        <label for="node-input-userid"><i class="fa fa-user"></i> <span>Userid</span></label>
+        <input type="text" id="node-input-userid">
+    </div>
+    <div class="form-row">
+        <label for="node-input-password"><i class="fa fa-lock"></i> <span>Password</span></label>
+        <input type="password" id="node-input-password">
+    </div>
+    <br/>
+    <div class="form-row node-input-box">
+        <label for="node-input-box"><i class="fa fa-inbox"></i> <span>Original Folder</span></label>
+        <input type="text" id="node-input-box">
+    </div>
+    <div class="form-row node-input-box">
+        <label for="node-input-outbox"><i class="fa fa-inbox"></i> <span>Target Folder</span></label>
+        <input type="text" id="node-input-outbox">
+    </div>
+    <br/>
+    <div class="form-row node-input-box">
+        <label for="node-input-tag"><i class="fa fa-tag"></i> <span>Tag</span></label>
+        <input type="text" id="node-input-tag">
+    </div>
+    <br/>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="node-red:common.label.name"></span></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
+    </div>
+    <script>
+        var checkPorts = function() {
+            var currentPort = $("#node-input-port").val();
+            if (currentPort === "143" || currentPort === "993" || currentPort === "110" || currentPort == "995") {
+                if ($("#node-input-useSSL").prop("checked") === true) {
+                    $("#node-input-port").val($("#node-input-protocol").val() === "IMAP"?"993":"995");
+                } else {
+                    $("#node-input-port").val($("#node-input-protocol").val() === "IMAP"?"143":"110");
+                }
+            }
+        };
+
+        $("#node-input-useSSL").change(function(x, y) {
+          console.log("useSSL: x="+ JSON.stringify(x) + ", y=" + y);
+          console.log("Value: " + $("#node-input-useSSL").prop("checked"));
+          checkPorts();
+        });
+
+        $("#node-input-protocol").change(function() {
+            var protocol = $("#node-input-protocol").val();
+            if (protocol === "IMAP") {
+                $(".node-input-box").show();
+                $(".node-input-disposition").show();
+            } else {
+                $(".node-input-box").hide();
+                $(".node-input-disposition").hide();
+            }
+            checkPorts();
+        });
+    </script>
+</script>
+
+<script type="text/x-red" data-help-name="mailactions">
+    <p>A node to compliment the existing email-IN node provided as standard within Node-RED.</p>
+    <h3>Inputs</h3>
+    <p>The message sent to this node is expected to contain the output of an email-in node. Specifically the <code>headers</code> object is used to locate the individual message related to this message. Once the email has been identified, the node attempts to add the <code>label</code> to the email, and move it to a specified <code>folder</code></p>
+    <p>The new label can be sent via <code>msg.email.label</code> or set in the node properties.</p>
+    <p>The new target folder can be sent via <code>msg.email.folder</code> or set in the node properties.</p>
+    <h3>Outputs</h3>
+    <p>The original message will remain unchanged as a result of this node however there will be an additional <code>msg._email</code> property which contains information about the specific email from the IMAP server.</p>
+</script>

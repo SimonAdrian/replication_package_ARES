@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: ""Cloud  ... +geturl;cos.js:152[17:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: ""Cloud  ... ry +"")"";cos.js:172[23:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: msg;cos.js:187[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: filefqn;cos.js:211[25:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: filefqn;cos.js:217[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: objectname;cos.js:228[68:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:59[30:32];Sink: msg;cos.js:256[17:19]::FLOW_DESCR_END","/cos.js","59","30","59","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: ""URL: "" ...  + hmac;cos.js:472[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: objectname;cos.js:496[66:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: msg;cos.js:515[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: msg;cos.js:525[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: objectname;cos.js:602[70:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: msg;cos.js:620[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: msg;cos.js:630[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: objectname;cos.js:661[67:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:309[30:32];Sink: msg;cos.js:687[17:19]::FLOW_DESCR_END","/cos.js","309","30","309","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cos.js:735[30:32];Sink: msg;cos.js:813[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:735[30:32];Sink: msg;cos.js:827[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:735[30:32];Sink: objectname;cos.js:836[68:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:735[30:32];Sink: msg;cos.js:842[17:19]::FLOW_DESCR_END","/cos.js","735","30","735","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cos.js:892[30:32];Sink: msg;cos.js:985[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:892[30:32];Sink: msg;cos.js:1016[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cos.js:892[30:32];Sink: msg;cos.js:1051[16:18]::FLOW_DESCR_END","/cos.js","892","30","892","32"

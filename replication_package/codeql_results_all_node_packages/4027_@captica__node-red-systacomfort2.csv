@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;systacomfort2.js:23[32:34];Sink: `SystaC ... stack}`;systacomfort2.js:24[24:86]::FLOW_DESCR_END","/systacomfort2/systacomfort2.js","23","32","23","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;systacomfort2.js:29[40:44];Sink: `Reciev ... ing()}`;systacomfort2.js:30[22:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;systacomfort2.js:29[40:44];Sink: rinfo.port;systacomfort2.js:35[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;systacomfort2.js:29[40:44];Sink: rinfo.address;systacomfort2.js:35[51:63]::FLOW_DESCR_END","/systacomfort2/systacomfort2.js","29","40","29","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo.port;systacomfort2.js:30[64:73];Sink: `Reciev ... ing()}`;systacomfort2.js:30[22:109]::FLOW_DESCR_END","/systacomfort2/systacomfort2.js","30","64","30","73"

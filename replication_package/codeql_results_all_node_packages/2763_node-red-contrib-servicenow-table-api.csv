@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servicenow-table-API.js:68[35:37];Sink: msg;servicenow-table-API.js:116[31:33]::FLOW_DESCR_END","/servicenow-table-API.js","68","35","68","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servicenow-table-API.js:178[35:37];Sink: msg;servicenow-table-API.js:214[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;servicenow-table-API.js:178[35:37];Sink: ""Error  ... y(body);servicenow-table-API.js:221[32:156]::FLOW_DESCR_END","/servicenow-table-API.js","178","35","178","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servicenow-table-API.js:271[35:37];Sink: msg;servicenow-table-API.js:314[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;servicenow-table-API.js:271[35:37];Sink: ""Error  ... y(body);servicenow-table-API.js:321[32:156]::FLOW_DESCR_END","/servicenow-table-API.js","271","35","271","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servicenow-table-API.js:372[35:37];Sink: msg;servicenow-table-API.js:415[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;servicenow-table-API.js:372[35:37];Sink: ""Error  ... y(body);servicenow-table-API.js:422[32:154]::FLOW_DESCR_END","/servicenow-table-API.js","372","35","372","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servicenow-table-API.js:468[35:37];Sink: msg;servicenow-table-API.js:493[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;servicenow-table-API.js:468[35:37];Sink: ""Error  ... y(body);servicenow-table-API.js:500[32:154]::FLOW_DESCR_END","/servicenow-table-API.js","468","35","468","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;servicenow-table-API.js:550[35:37];Sink: msg;servicenow-table-API.js:588[31:33]::FLOW_DESCR_END","/servicenow-table-API.js","550","35","550","37"

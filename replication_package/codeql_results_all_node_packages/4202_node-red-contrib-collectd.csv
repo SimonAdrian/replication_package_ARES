@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: buffer;collectd.js:43[41:46];Sink: buffer. ... 'utf8');collectd.js:45[26:48]::FLOW_DESCR_END","/collectd.js","43","41","43","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;collectd.js:65[35:37];Sink: 'Payloa ... d + ']';collectd.js:70[27:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;collectd.js:65[35:37];Sink: putval;collectd.js:74[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;collectd.js:65[35:37];Sink: putval + '\n';collectd.js:77[44:56]::FLOW_DESCR_END","/collectd.js","65","35","65","37"

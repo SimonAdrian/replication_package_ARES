@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... .e_mail;ecojoko-connect.js:32[23:45];Sink: postData;ecojoko.js:134[23:30]::FLOW_DESCR_END","/ecojoko-connect.js","32","23","32","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;ecojoko-connect.js:33[25:49];Sink: postData;ecojoko.js:134[23:30]::FLOW_DESCR_END","/ecojoko-connect.js","33","25","33","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;ecojoko-connect.js:38[54:66];Sink: postData;ecojoko.js:134[23:30]::FLOW_DESCR_END","/ecojoko-connect.js","38","54","38","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;ecojoko.js:44[41:45];Sink: JSON.st ... ull, 4);test.js:17[29:61]::FLOW_DESCR_END","/ecojoko.js","44","41","44","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;ecojoko.js:95[61:73];Sink: postData;ecojoko.js:134[23:30]::FLOW_DESCR_END","/ecojoko.js","95","61","95","73"

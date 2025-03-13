@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google-speech-text.js:19[27:30];Sink: data;google-speech-text.js:36[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-speech-text.js:19[27:30];Sink: data;google-speech-text.js:101[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-speech-text.js:19[27:30];Sink: data;google-speech-text.js:110[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-speech-text.js:19[27:30];Sink: data;google-speech-text.js:114[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-speech-text.js:19[27:30];Sink: data;google-speech-text.js:163[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-speech-text.js:19[27:30];Sink: data;google-speech-text.js:167[30:33]::FLOW_DESCR_END","/google-speech-text.js","19","27","19","30"

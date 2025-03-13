@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;config.js:29[30:35];Sink: host;devices.js:34[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;config.js:29[30:35];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/config.js","29","30","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;config.js:30[21:26];Sink: port;devices.js:34[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;config.js:30[21:26];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/config.js","30","21","30","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;config.js:41[31:39];Sink: host;devices.js:34[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;config.js:41[31:39];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/config.js","41","31","41","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;config.js:41[41:49];Sink: port;devices.js:34[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;config.js:41[41:49];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/config.js","41","41","41","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.host;config.js:53[31:43];Sink: host;devices.js:34[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.body.host;config.js:53[31:43];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/config.js","53","31","53","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.port;config.js:53[46:58];Sink: port;devices.js:34[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req.body.port;config.js:53[46:58];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/config.js","53","46","53","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;devices.js:35[19:23];Sink: 'Error  ... + error;devices.js:36[26:70]::FLOW_DESCR_END","/lib/devices.js","35","19","35","23"

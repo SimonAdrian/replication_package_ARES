@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hw-io-ain.js:6[32:34];Sink: msg;hw-io-ain.js:28[12:14]::FLOW_DESCR_END","/hw-io-ain.js","6","32","6","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hw-io-din.js:10[32:34];Sink: msg;hw-io-din.js:36[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hw-io-din.js:10[32:34];Sink: msg;hw-io-din.js:45[14:16]::FLOW_DESCR_END","/hw-io-din.js","10","32","10","34"

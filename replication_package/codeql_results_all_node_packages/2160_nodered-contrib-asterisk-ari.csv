@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ari_client.js:15[63:65];Sink: err;ari_client.js:17[36:38]::FLOW_DESCR_END","/ari_client.js","15","63","15","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... als.url;ari_client.js:86[19:45];Sink: url;ari_client.js:245[17:19]::FLOW_DESCR_END","/ari_client.js","86","19","86","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... sername;ari_client.js:86[48:79];Sink: username;ari_client.js:245[22:29]::FLOW_DESCR_END","/ari_client.js","86","48","86","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... assword;ari_client.js:86[82:113];Sink: password;ari_client.js:245[32:39]::FLOW_DESCR_END","/ari_client.js","86","82","86","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... als.url;ari_client.js:87[47:73];Sink: url;ari_client.js:15[29:31]::FLOW_DESCR_END","/ari_client.js","87","47","87","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... sername;ari_client.js:87[76:107];Sink: username;ari_client.js:15[34:41]::FLOW_DESCR_END","/ari_client.js","87","76","87","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.se ... assword;ari_client.js:87[110:141];Sink: password;ari_client.js:15[44:51]::FLOW_DESCR_END","/ari_client.js","87","110","87","141"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ari_client.js:101[36:38];Sink: msg;ari_client.js:110[23:25]::FLOW_DESCR_END","/ari_client.js","101","36","101","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ari_client.js:141[36:38];Sink: msg;ari_client.js:148[23:25]::FLOW_DESCR_END","/ari_client.js","141","36","141","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ari_client.js:166[36:38];Sink: [msg, bmsg];ari_client.js:188[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ari_client.js:166[36:38];Sink: [msg, null];ari_client.js:196[27:37]::FLOW_DESCR_END","/ari_client.js","166","36","166","38"

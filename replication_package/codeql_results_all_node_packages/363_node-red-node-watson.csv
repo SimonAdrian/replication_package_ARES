@@ -1,0 +1,65 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-workspace-manager.js:1040[31:33];Sink: msg.payload;v1-workspace-manager.js:871[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-workspace-manager.js:1040[31:33];Sink: msg;v1-workspace-manager.js:1099[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-workspace-manager.js:1040[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/assistant/v1-workspace-manager.js","1040","31","1040","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:306[31:33];Sink: 'contex ... sg.user;v1.js:266[35:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:306[31:33];Sink: msg;v1.js:322[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:306[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/assistant/v1.js","306","31","306","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v2.js:383[31:33];Sink: 'session-' + key;v2.js:102[40:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:383[31:33];Sink: 'session-' + key;v2.js:292[43:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:383[31:33];Sink: msg;v2.js:426[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:383[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/assistant/v2.js","383","31","383","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-document-loader.js:169[31:33];Sink: msg.payload;v1-document-loader.js:104[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-document-loader.js:169[31:33];Sink: msg;v1-document-loader.js:224[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-document-loader.js:169[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/discovery/v1-document-loader.js","169","31","169","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-query-builder.js:113[31:33];Sink: msg;v1-query-builder.js:116[17:19]::FLOW_DESCR_END","/services/discovery/v1-query-builder.js","113","31","113","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:374[31:33];Sink: msg;v1.js:399[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:374[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/discovery/v1.js","374","31","374","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v2-project-manager.js:204[31:33];Sink: msg;v2-project-manager.js:237[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2-project-manager.js:204[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/discovery/v2-project-manager.js","204","31","204","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;v3-doc.js:183[13:17];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/language_translator/v3-doc.js","183","13","183","17"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;v3-doc.js:183[20:27];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/language_translator/v3-doc.js","183","20","183","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;v3-doc.js:311[13:17];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/language_translator/v3-doc.js","311","13","311","17"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;v3-doc.js:311[20:27];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/language_translator/v3-doc.js","311","20","311","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;v3-doc.js:311[30:33];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/language_translator/v3-doc.js","311","30","311","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v3-doc.js:481[31:33];Sink: msg.payload;v3-doc.js:267[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3-doc.js:481[31:33];Sink: msg;v3-doc.js:472[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3-doc.js:481[31:33];Sink: msg;v3-doc.js:477[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3-doc.js:481[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/language_translator/v3-doc.js","481","31","481","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v3.js:432[31:33];Sink: msg.payload;v3.js:223[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:432[31:33];Sink: msg;v3.js:465[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:432[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/language_translator/v3.js","432","31","432","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v3.js:97[31:33];Sink: msg;v3.js:116[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:97[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/language_translator_identify/v3.js","97","31","97","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v3.js:113[31:33];Sink: msg;v3.js:126[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:113[31:33];Sink: msg;v3.js:253[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:113[31:33];Sink: msg;v3.js:261[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:113[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/language_translator_util/v3.js","113","31","113","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:281[31:33];Sink: msg;v1.js:312[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:281[31:33];Sink: contents;payload-utils.js:49[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:281[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/natural_language_classifier/v1.js","281","31","281","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-model-manager.js:260[31:33];Sink: msg;v1-model-manager.js:268[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-model-manager.js:260[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/natural_language_understanding/v1-model-manager.js","260","31","260","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:273[31:33];Sink: msg;v1.js:311[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:273[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/natural_language_understanding/v1.js","273","31","273","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-corpus-builder.js:466[31:33];Sink: msg.payload;v1-corpus-builder.js:398[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-corpus-builder.js:466[31:33];Sink: msg;v1-corpus-builder.js:507[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-corpus-builder.js:466[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/speech_to_text/v1-corpus-builder.js","466","31","466","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;v1.js:508[29:32];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/speech_to_text/v1.js","508","29","508","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;v1.js:555[27:29];Sink: err;v1.js:559[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;v1.js:555[27:29];Sink: messageTxt;payload-utils.js:154[16:25]::FLOW_DESCR_END","/services/speech_to_text/v1.js","555","27","555","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: JSON.st ... Packet);v1.js:502[21:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: a.data;v1.js:608[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: audioData.data;v1.js:628[28:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: JSON.st ... ioData);v1.js:638[28:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: msg;v1.js:755[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: contents;payload-utils.js:49[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: url;payload-utils.js:79[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:701[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/speech_to_text/v1.js","701","31","701","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-corpus-builder.js:378[31:33];Sink: msg.payload;v1-corpus-builder.js:251[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-corpus-builder.js:378[31:33];Sink: msg;v1-corpus-builder.js:419[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-corpus-builder.js:378[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/text_to_speech/v1-corpus-builder.js","378","31","378","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:151[31:33];Sink: msg;v1.js:177[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:151[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/text_to_speech/v1.js","151","31","151","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v3.js:173[31:33];Sink: msg;v3.js:155[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:173[31:33];Sink: msg;v3.js:161[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v3.js:173[31:33];Sink: msg;payload-utils.js:154[28:30]::FLOW_DESCR_END","/services/tone_analyzer/v3.js","173","31","173","33"

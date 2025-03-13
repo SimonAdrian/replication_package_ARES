@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.dbname;spool.js:19[17:29];Sink: ""Opened ... fully."";spool.js:36[26:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.dbname;spool.js:19[17:29];Sink: ""Failed ... .dbname;spool.js:44[28:58]::FLOW_DESCR_END","/spool.js","19","17","19","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;spool.js:36[38:48];Sink: ""Opened ... fully."";spool.js:36[26:67]::FLOW_DESCR_END","/spool.js","36","38","36","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;spool.js:42[42:44];Sink: err + ""."";spool.js:44[61:69]::FLOW_DESCR_END","/spool.js","42","42","42","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;spool.js:44[48:58];Sink: ""Failed ... .dbname;spool.js:44[28:58]::FLOW_DESCR_END","/spool.js","44","48","44","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spool.js:67[30:32];Sink: msg;spool.js:89[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spool.js:67[30:32];Sink: stringifiedMsg;spool.js:134[66:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spool.js:67[30:32];Sink: ""Messag ... abase."";spool.js:140[43:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spool.js:67[30:32];Sink: ""Could  ... abase."";spool.js:141[26:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spool.js:67[30:32];Sink: msg;spool.js:149[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spool.js:67[30:32];Sink: msg._ms ...  node."";spool.js:150[19:84]::FLOW_DESCR_END","/spool.js","67","30","67","32"

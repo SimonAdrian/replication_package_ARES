@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.token;graphql.js:97[18:39];Sink: headers ... ization;graphql.js:133[18:38]::FLOW_DESCR_END","/graphql.js","97","18","97","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;graphql.js:199[31:33];Sink: headers ... ization;graphql.js:133[18:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:199[31:33];Sink: node.msg;graphql.js:164[25:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:199[31:33];Sink: [null, node.msg];graphql.js:173[25:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:199[31:33];Sink: [null, node.msg];graphql.js:185[25:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:199[31:33];Sink: [null, node.msg];graphql.js:195[21:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:199[31:33];Sink: ""msg: "" ... fy(msg);graphql.js:201[21:52]::FLOW_DESCR_END","/graphql.js","199","31","199","33"

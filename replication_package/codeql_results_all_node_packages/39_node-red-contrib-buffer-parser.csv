@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:223[85:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:605[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:618[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:635[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:644[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:685[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:697[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-maker.js:600[36:38];Sink: msg;buffer-maker.js:701[35:37]::FLOW_DESCR_END","/buffer-maker.js","600","36","600","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:669[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:679[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:692[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:709[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:718[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:730[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:770[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:805[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;buffer-parser.js:664[36:38];Sink: msg;buffer-parser.js:811[35:37]::FLOW_DESCR_END","/buffer-parser.js","664","36","664","38"

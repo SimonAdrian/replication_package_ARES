@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jwt.js:34[36:38];Sink: msg;jwt.js:36[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jwt.js:34[36:38];Sink: msg;jwt.js:54[30:32]::FLOW_DESCR_END","/jwt.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jwt.js:97[36:38];Sink: msg;jwt.js:99[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jwt.js:97[36:38];Sink: [msg, null];jwt.js:138[26:36]::FLOW_DESCR_END","/jwt.js","97","36","97","38"

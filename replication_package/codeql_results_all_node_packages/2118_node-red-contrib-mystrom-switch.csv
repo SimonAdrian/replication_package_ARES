@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mystrom-switch-relay.js:8[33:35];Sink: msg;mystrom-switch-relay.js:25[22:24]::FLOW_DESCR_END","/dist/nodes/mystrom-switch-relay/mystrom-switch-relay.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mystrom-switch-status.js:7[33:35];Sink: msg;mystrom-switch-status.js:21[22:24]::FLOW_DESCR_END","/dist/nodes/mystrom-switch-status/mystrom-switch-status.js","7","33","7","35"

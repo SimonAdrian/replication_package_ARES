@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;sqldbs.js:51[66:76];Sink: ""Connec ... ls.user;sqldbs.js:51[26:116]::FLOW_DESCR_END","/sqldbs.js","51","66","51","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;sqldbs.js:51[96:116];Sink: ""Connec ... ls.user;sqldbs.js:51[26:116]::FLOW_DESCR_END","/sqldbs.js","51","96","51","116"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;sqldbs.js:54[62:72];Sink: ""Connec ... try..."";sqldbs.js:54[26:127]::FLOW_DESCR_END","/sqldbs.js","54","62","54","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;sqldbs.js:54[92:112];Sink: ""Connec ... try..."";sqldbs.js:54[26:127]::FLOW_DESCR_END","/sqldbs.js","54","92","54","112"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sqldbs.js:107[39:41];Sink: msg;sqldbs.js:122[35:37]::FLOW_DESCR_END","/sqldbs.js","107","39","107","41"

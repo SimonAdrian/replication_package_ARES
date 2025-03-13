@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;24-thingrest.js:44[34:36];Sink: msg;24-thingrest.js:55[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;24-thingrest.js:44[34:36];Sink: msg;24-thingrest.js:175[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;24-thingrest.js:44[34:36];Sink: payload;24-thingrest.js:179[27:33]::FLOW_DESCR_END","/24-thingrest.js","44","34","44","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;24-thingrest.js:172[37:39];Sink: payload;24-thingrest.js:179[27:33]::FLOW_DESCR_END","/24-thingrest.js","172","37","172","39"

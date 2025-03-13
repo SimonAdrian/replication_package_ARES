@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object-detection.js:23[38:40];Sink: msg;object-detection.js:64[19:21]::FLOW_DESCR_END","/object-detection-node/object-detection.js","23","38","23","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webcam-object-detection.js:53[27:29];Sink: msg;webcam-object-detection.js:56[18:20]::FLOW_DESCR_END","/webcam-object-detection-node/webcam-object-detection.js","53","27","53","29"

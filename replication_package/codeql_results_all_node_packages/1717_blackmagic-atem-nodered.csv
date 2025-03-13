@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;atem.js:102[35:37];Sink: msg;atem.js:103[24:26]::FLOW_DESCR_END","/atem.js","102","35","102","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: command ... Message;warning.js:19[67:101];Sink: ""[WARN] ... Message;warning.js:19[19:101]::FLOW_DESCR_END","/commands/warning.js","19","67","19","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;network.js:342[42:46];Sink: errorMessage;network.js:45[51:62]::FLOW_DESCR_END","/network.js","342","42","342","46"

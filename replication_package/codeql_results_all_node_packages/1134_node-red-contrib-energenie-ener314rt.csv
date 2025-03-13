@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ener314rt-raw.js:38[40:42];Sink: msg;ener314rt-raw.js:42[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ener314rt-raw.js:38[40:42];Sink: msg;ener314rt-raw.js:66[27:29]::FLOW_DESCR_END","/red/ener314rt-raw.js","38","40","38","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ook-dimmer.js:29[40:42];Sink: msg;ook-dimmer.js:127[31:33]::FLOW_DESCR_END","/red/ook-dimmer.js","29","40","29","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ook-switch.js:29[40:42];Sink: msg;ook-switch.js:71[31:33]::FLOW_DESCR_END","/red/ook-switch.js","29","40","29","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openThings-thermostat.js:33[40:42];Sink: `Invali ... yload}`;openThings-thermostat.js:64[40:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openThings-thermostat.js:33[40:42];Sink: `Invali ... yload}`;openThings-thermostat.js:69[36:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openThings-thermostat.js:33[40:42];Sink: `Unknow ... ${cmd}`;openThings-thermostat.js:139[40:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openThings-thermostat.js:33[40:42];Sink: `Error  ... ${cmd}`;openThings-thermostat.js:144[32:68]::FLOW_DESCR_END","/red/openThings-thermostat.js","33","40","33","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;openThings-thermostat.js:196[48:50];Sink: `Board  ... ${err}`;openThings-thermostat.js:197[28:53]::FLOW_DESCR_END","/red/openThings-thermostat.js","196","48","196","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openThings-trv.js:33[40:42];Sink: `Invali ... yload}`;openThings-trv.js:69[40:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openThings-trv.js:33[40:42];Sink: `Invali ... yload}`;openThings-trv.js:74[36:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openThings-trv.js:33[40:42];Sink: `Unknow ... ${cmd}`;openThings-trv.js:126[40:63]::FLOW_DESCR_END","/red/openThings-trv.js","33","40","33","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;openThings-trv.js:148[48:50];Sink: `Board  ... ${err}`;openThings-trv.js:149[28:53]::FLOW_DESCR_END","/red/openThings-trv.js","148","48","148","50"

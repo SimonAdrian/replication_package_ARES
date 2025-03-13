@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: msg;bcrypt.js:107[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: [null, msg];bcrypt.js:107[61:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: msg;bcrypt.js:114[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: [null, msg];bcrypt.js:114[63:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: msg;bcrypt.js:122[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: [msg, null];bcrypt.js:122[63:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: msg;bcrypt.js:124[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: [null, msg];bcrypt.js:124[63:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bcrypt.js:84[32:34];Sink: msg;bcrypt.js:128[24:26]::FLOW_DESCR_END","/bcrypt/bcrypt.js","84","32","84","34"

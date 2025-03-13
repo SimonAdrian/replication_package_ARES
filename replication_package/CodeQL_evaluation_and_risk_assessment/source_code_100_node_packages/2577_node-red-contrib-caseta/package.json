@@ -1,0 +1,38 @@
+{
+  "name": "node-red-contrib-caseta",
+  "version": "3.2.0",
+  "description": "Node-RED collection to observe and control a Lutron Caseta home network.",
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "node-red": {
+    "version": ">=2.2.0",
+    "nodes": {
+      "caseta-bridge": "caseta-bridge.js",
+      "caseta-react": "caseta-react.js",
+      "caseta-control": "caseta-control.js",
+      "caseta-query": "caseta-query.js"
+    }
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "telnet-client": "^2.2.1"
+  },
+  "author": {
+    "name": "Vahdettin",
+    "email": "vahdettin_in_beta@icloud.com",
+    "url": "https://discourse.nodered.org/u/Vahdettin"
+  },
+  "repository": {},
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "lutron",
+    "caseta",
+    "smartbridge pro",
+    "smart hub pro"
+  ],
+  "devDependencies": {
+    "handlebars": "^4.7.8"
+  }
+}

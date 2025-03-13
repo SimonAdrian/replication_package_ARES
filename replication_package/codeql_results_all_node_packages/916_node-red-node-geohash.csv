@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;70-geohash.js:15[35:37];Sink: msg;70-geohash.js:26[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-geohash.js:15[35:37];Sink: msg;70-geohash.js:47[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-geohash.js:15[35:37];Sink: msg;70-geohash.js:64[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;70-geohash.js:15[35:37];Sink: msg;70-geohash.js:76[39:41]::FLOW_DESCR_END","/70-geohash.js","15","35","15","37"

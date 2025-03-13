@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OpenPLC-input.js:11[36:38];Sink: msg;OpenPLC-input.js:19[23:25]::FLOW_DESCR_END","/OpenPLC/OpenPLC-input.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OpenPLC.js:59[36:38];Sink: msg;OpenPLC.js:89[46:48]::FLOW_DESCR_END","/OpenPLC/OpenPLC.js","59","36","59","38"

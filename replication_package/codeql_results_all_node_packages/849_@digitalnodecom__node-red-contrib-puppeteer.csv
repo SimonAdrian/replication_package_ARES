@@ -1,0 +1,41 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;close.js:9[38:40];Sink: msg;close.js:23[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;close.js:9[38:40];Sink: msg;close.js:32[14:16]::FLOW_DESCR_END","/puppeteer/browser/close.js","9","38","9","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;launch.js:12[38:40];Sink: msg;launch.js:89[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;launch.js:12[38:40];Sink: msg;launch.js:98[14:16]::FLOW_DESCR_END","/puppeteer/browser/launch.js","12","38","12","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;newPage.js:6[38:40];Sink: msg;newPage.js:20[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newPage.js:6[38:40];Sink: msg;newPage.js:29[14:16]::FLOW_DESCR_END","/puppeteer/browser/newPage.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;click.js:8[38:40];Sink: msg;click.js:45[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;click.js:8[38:40];Sink: msg;click.js:54[14:16]::FLOW_DESCR_END","/puppeteer/page/click.js","8","38","8","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;close.js:6[38:40];Sink: msg;close.js:20[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;close.js:6[38:40];Sink: msg;close.js:29[14:16]::FLOW_DESCR_END","/puppeteer/page/close.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;content.js:7[38:40];Sink: msg;content.js:15[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;content.js:7[38:40];Sink: msg;content.js:23[14:16]::FLOW_DESCR_END","/puppeteer/page/content.js","7","38","7","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteCookies.js:7[38:40];Sink: msg;deleteCookies.js:16[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteCookies.js:7[38:40];Sink: msg;deleteCookies.js:24[14:16]::FLOW_DESCR_END","/puppeteer/page/deleteCookies.js","7","38","7","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;download.js:8[38:40];Sink: msg;download.js:91[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download.js:8[38:40];Sink: msg;download.js:132[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download.js:8[38:40];Sink: msg;download.js:140[14:16]::FLOW_DESCR_END","/puppeteer/page/download.js","8","38","8","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;focus.js:6[38:40];Sink: msg;focus.js:47[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;focus.js:6[38:40];Sink: msg;focus.js:55[14:16]::FLOW_DESCR_END","/puppeteer/page/focus.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:6[38:40];Sink: msg;get.js:64[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:6[38:40];Sink: msg;get.js:74[14:16]::FLOW_DESCR_END","/puppeteer/page/get.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getCookies.js:6[38:40];Sink: msg;getCookies.js:25[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getCookies.js:6[38:40];Sink: msg;getCookies.js:34[14:16]::FLOW_DESCR_END","/puppeteer/page/getCookies.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;goto.js:6[38:40];Sink: msg;goto.js:26[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;goto.js:6[38:40];Sink: msg;goto.js:35[14:16]::FLOW_DESCR_END","/puppeteer/page/goto.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;press.js:6[38:40];Sink: msg;press.js:22[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;press.js:6[38:40];Sink: msg;press.js:31[14:16]::FLOW_DESCR_END","/puppeteer/page/keyboard/press.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;type.js:6[38:40];Sink: msg;type.js:22[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;type.js:6[38:40];Sink: msg;type.js:31[14:16]::FLOW_DESCR_END","/puppeteer/page/keyboard/type.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rename.js:6[38:40];Sink: msg;rename.js:54[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rename.js:6[38:40];Sink: msg;rename.js:62[14:16]::FLOW_DESCR_END","/puppeteer/page/rename.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;screenshot.js:6[38:40];Sink: msg;screenshot.js:26[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;screenshot.js:6[38:40];Sink: msg;screenshot.js:34[14:16]::FLOW_DESCR_END","/puppeteer/page/screenshot.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set.js:6[38:40];Sink: msg;set.js:62[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set.js:6[38:40];Sink: msg;set.js:70[14:16]::FLOW_DESCR_END","/puppeteer/page/set.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setCookies.js:6[38:40];Sink: msg;setCookies.js:22[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setCookies.js:6[38:40];Sink: msg;setCookies.js:31[14:16]::FLOW_DESCR_END","/puppeteer/page/setCookies.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;upload.js:6[38:40];Sink: msg;upload.js:47[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;upload.js:6[38:40];Sink: msg;upload.js:56[14:16]::FLOW_DESCR_END","/puppeteer/page/upload.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waitFor.js:6[38:40];Sink: msg;waitFor.js:36[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waitFor.js:6[38:40];Sink: msg;waitFor.js:44[14:16]::FLOW_DESCR_END","/puppeteer/page/waitFor.js","6","38","6","40"

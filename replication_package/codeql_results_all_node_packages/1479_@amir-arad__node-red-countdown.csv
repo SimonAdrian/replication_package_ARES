@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;countdown.js:56[23:25];Sink: msg;countdown.js:59[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countdown.js:56[23:25];Sink: [msg, statusMessage];countdown.js:85[20:39]::FLOW_DESCR_END","/countdown/countdown.js","56","23","56","25"

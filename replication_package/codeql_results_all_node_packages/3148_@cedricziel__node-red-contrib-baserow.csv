@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-file.js:21[18:59];Sink: `${url} ... -auth/`;baserow-file.js:6[13:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-file.js:21[18:59];Sink: `${this ... -file/`;baserow-file.js:56[23:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-file.js:21[18:59];Sink: `${this ... a-url/`;baserow-file.js:73[19:62]::FLOW_DESCR_END","/baserow-file.js","21","18","21","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;baserow-file.js:37[29:31];Sink: msg.payload;baserow-file.js:56[66:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-file.js:37[29:31];Sink: msg;baserow-file.js:63[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-file.js:37[29:31];Sink: msg.payload;baserow-file.js:74[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-file.js:37[29:31];Sink: msg;baserow-file.js:83[24:26]::FLOW_DESCR_END","/baserow-file.js","37","29","37","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-listen.js:25[18:59];Sink: `${url} ... -auth/`;baserow-listen.js:11[13:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-listen.js:25[18:59];Sink: `${compiledUrl}`;baserow-listen.js:88[17:32]::FLOW_DESCR_END","/baserow-listen.js","25","18","25","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedUrl.host;baserow-listen.js:45[36:49];Sink: `${compiledUrl}`;baserow-listen.js:88[17:32]::FLOW_DESCR_END","/baserow-listen.js","45","36","45","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;baserow-listen.js:157[38:41];Sink: data;baserow-listen.js:158[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;baserow-listen.js:157[38:41];Sink: data;baserow-listen.js:238[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;baserow-listen.js:157[38:41];Sink: msg;baserow-listen.js:256[32:34]::FLOW_DESCR_END","/baserow-listen.js","157","38","157","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: flags;baserow-listen.js:157[44:48];Sink: flags;baserow-listen.js:158[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flags;baserow-listen.js:157[44:48];Sink: flags;baserow-listen.js:238[48:52]::FLOW_DESCR_END","/baserow-listen.js","157","44","157","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-row.js:21[18:59];Sink: `${url} ... -auth/`;baserow-row.js:6[13:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-row.js:21[18:59];Sink: `${this ... owId}/`;baserow-row.js:57[19:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... als.url;baserow-row.js:21[18:59];Sink: `${this ... leId}/`;baserow-row.js:76[19:67]::FLOW_DESCR_END","/baserow-row.js","21","18","21","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: `${this ... owId}/`;baserow-row.js:57[19:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: msg;baserow-row.js:66[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: `${this ... leId}/`;baserow-row.js:76[19:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: msg.payload;baserow-row.js:77[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: msg;baserow-row.js:90[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: msg;baserow-row.js:113[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: msg;baserow-row.js:137[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;baserow-row.js:37[29:31];Sink: msg;baserow-row.js:156[24:26]::FLOW_DESCR_END","/baserow-row.js","37","29","37","31"

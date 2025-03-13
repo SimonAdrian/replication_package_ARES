@@ -1,0 +1,50 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:159[60:70];Sink: `https: ... -token`;rest-data-interface.js:20[42:98]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","159","60","159","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:183[59:69];Sink: `https: ... -token`;rest-data-interface.js:37[42:100]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","183","59","183","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:203[54:64];Sink: `https: ... ssions`;rest-data-interface.js:101[42:80]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","203","54","203","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:219[56:66];Sink: `https: ... on_id}`;rest-data-interface.js:119[42:105]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","219","56","219","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:263[71:81];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:263[71:81];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:263[71:81];Sink: `Succes ... .host}`;plc-next-rest-api.js:263[27:83]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","263","71","263","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:273[76:86];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:273[76:86];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:273[76:86];Sink: `Sucess ... .host}`;plc-next-rest-api.js:273[31:88]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","273","76","273","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:279[88:98];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:279[88:98];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:279[88:98];Sink: `Sucess ... .host}`;plc-next-rest-api.js:279[27:100]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","279","88","279","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:280[60:70];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:280[60:70];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:280[60:70];Sink: `Establ ... host}!`;plc-next-rest-api.js:280[27:73]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","280","60","280","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:287[68:78];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:287[68:78];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:287[68:78];Sink: `Could  ... host}!`;plc-next-rest-api.js:287[27:81]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","287","68","287","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:466[54:64];Sink: `https: ... iables`;rest-data-interface.js:258[41:91]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","466","54","466","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:489[55:65];Sink: `https: ... iables`;rest-data-interface.js:281[41:91]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","489","55","489","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:515[55:65];Sink: `https: ... y.json`;rest-data-interface.js:53[41:83]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","515","55","515","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:519[55:65];Sink: `https: ... y.json`;rest-data-interface.js:64[41:83]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","519","55","519","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:553[53:63];Sink: `https: ... groups`;rest-data-interface.js:172[41:88]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","553","53","553","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:572[54:64];Sink: `https: ... groups`;rest-data-interface.js:191[42:89]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","572","54","572","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.id;plc-next-rest-api.js:573[50:60];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.id;plc-next-rest-api.js:573[50:60];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.id;plc-next-rest-api.js:573[50:60];Sink: `Succes ... .host}`;plc-next-rest-api.js:573[19:81]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","573","50","573","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:573[69:79];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:573[69:79];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:573[69:79];Sink: `Succes ... .host}`;plc-next-rest-api.js:573[19:81]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","573","69","573","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;plc-next-rest-api.js:611[50:60];Sink: `https: ... up_id}`;rest-data-interface.js:211[41:100]::FLOW_DESCR_END","/lib/plc-next-rest-api.js","611","50","611","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-browse-items.js:15[36:38];Sink: msg;plc-browse-items.js:28[26:28]::FLOW_DESCR_END","/plc-browse-items.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: text;debug.js:14[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: text;debug.js:16[28:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `Succes ... .host}`;plc-next-rest-api.js:263[27:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `Sucess ... .host}`;plc-next-rest-api.js:273[31:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `Sucess ... .host}`;plc-next-rest-api.js:279[27:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `Establ ... host}!`;plc-next-rest-api.js:280[27:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `Could  ... host}!`;plc-next-rest-api.js:287[27:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `https: ... -token`;rest-data-interface.js:20[42:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `https: ... -token`;rest-data-interface.js:37[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;plc-connector.js:13[13:18];Sink: `https: ... ssions`;rest-data-interface.js:101[42:80]::FLOW_DESCR_END","/plc-connector.js","13","13","13","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-create-group.js:40[35:37];Sink: msg;plc-create-group.js:54[26:28]::FLOW_DESCR_END","/plc-create-group.js","40","35","40","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-read-group-variables.js:14[36:38];Sink: `https: ... up_id}`;rest-data-interface.js:211[41:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc-read-group-variables.js:14[36:38];Sink: msg;plc-read-group-variables.js:31[26:28]::FLOW_DESCR_END","/plc-read-group-variables.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-read-variables.js:40[35:37];Sink: msg;plc-read-variables.js:52[22:24]::FLOW_DESCR_END","/plc-read-variables.js","40","35","40","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-report-groups.js:13[35:37];Sink: msg;plc-report-groups.js:21[26:28]::FLOW_DESCR_END","/plc-report-groups.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-report-sessions.js:13[35:37];Sink: msg;plc-report-sessions.js:21[26:28]::FLOW_DESCR_END","/plc-report-sessions.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc-write-variables.js:42[36:38];Sink: msg;plc-write-variables.js:114[26:28]::FLOW_DESCR_END","/plc-write-variables.js","42","36","42","38"

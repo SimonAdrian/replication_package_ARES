@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;mqttdb.js:49[21:26];Sink: node.brokerurl;mqttdb.js:198[44:57]::FLOW_DESCR_END","/mqttdb.js","49","21","49","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mqttdb.js:111[71:79];Sink: node.brokerurl;mqttdb.js:198[44:57]::FLOW_DESCR_END","/mqttdb.js","111","71","111","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqttdb.js:257[51:55];Sink: error;mqttdb.js:262[32:36]::FLOW_DESCR_END","/mqttdb.js","257","51","257","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqttdb.js:419[40:42];Sink: msg;mqttdb.js:434[49:51]::FLOW_DESCR_END","/mqttdb.js","419","40","419","42"

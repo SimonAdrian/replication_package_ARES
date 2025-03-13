@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;command.js:9[35:37];Sink: cmd;command.js:69[48:50]::FLOW_DESCR_END","/iotgemini/command.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set_out.js:7[35:37];Sink: cmd;set_out.js:29[48:50]::FLOW_DESCR_END","/iotgemini/set_out.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set_rgb.js:9[35:37];Sink: cmd;set_rgb.js:43[48:50]::FLOW_DESCR_END","/iotgemini/set_rgb.js","9","35","9","37"

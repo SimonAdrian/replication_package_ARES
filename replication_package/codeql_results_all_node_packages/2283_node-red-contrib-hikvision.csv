@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hikvision.js:50[33:35];Sink: err;hikvision.js:52[32:34]::FLOW_DESCR_END","/hikvision.js","50","33","50","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hikvision.js:150[39:41];Sink: msg;hikvision.js:164[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hikvision.js:150[39:41];Sink: msg;hikvision.js:172[39:41]::FLOW_DESCR_END","/hikvision.js","150","39","150","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hikvision.js:203[39:41];Sink: msg;hikvision.js:209[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hikvision.js:203[39:41];Sink: msg;hikvision.js:213[27:29]::FLOW_DESCR_END","/hikvision.js","203","39","203","41"

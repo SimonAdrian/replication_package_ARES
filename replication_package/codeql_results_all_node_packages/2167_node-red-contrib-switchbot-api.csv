@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-command.js:19[35:37];Sink: msg;send-command.js:35[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-command.js:19[35:37];Sink: msg;send-command.js:43[35:37]::FLOW_DESCR_END","/send-command.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.body;switchbot-api-client.js:18[20:32];Sink: data.in ... oteList;send-command.js:58[65:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.body;switchbot-api-client.js:18[20:32];Sink: data.deviceList;send-command.js:59[57:71]::FLOW_DESCR_END","/switchbot-api-client.js","18","20","18","32"

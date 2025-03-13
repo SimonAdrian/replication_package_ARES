@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;giphy-random.js:7[35:37];Sink: msg;giphy-random.js:43[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;giphy-random.js:7[35:37];Sink: msg;giphy-random.js:48[27:29]::FLOW_DESCR_END","/nodes/giphy-random.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;giphy-random.js:34[33:37];Sink: res;giphy-random.js:42[33:35]::FLOW_DESCR_END","/nodes/giphy-random.js","34","33","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;giphy-random.js:45[31:31];Sink: e.message;giphy-random.js:46[29:37]::FLOW_DESCR_END","/nodes/giphy-random.js","45","31","45","31"

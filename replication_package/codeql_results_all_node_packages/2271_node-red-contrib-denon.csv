@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;denon.js:31[79:89];Sink: `${node ... .port}`;denon.js:31[23:106]::FLOW_DESCR_END","/denon.js","31","79","31","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;denon.js:31[94:104];Sink: `${node ... .port}`;denon.js:31[23:106]::FLOW_DESCR_END","/denon.js","31","94","31","104"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;denon.js:46[69:79];Sink: `${node ... .port}`;denon.js:46[19:96]::FLOW_DESCR_END","/denon.js","46","69","46","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;denon.js:46[84:94];Sink: `${node ... .port}`;denon.js:46[19:96]::FLOW_DESCR_END","/denon.js","46","84","46","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;denon.js:58[71:81];Sink: `${node ... .port}`;denon.js:58[19:98]::FLOW_DESCR_END","/denon.js","58","71","58","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;denon.js:58[86:96];Sink: `${node ... .port}`;denon.js:58[19:98]::FLOW_DESCR_END","/denon.js","58","86","58","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;denon.js:62[56:66];Sink: `${node ... .port}`;denon.js:62[19:83]::FLOW_DESCR_END","/denon.js","62","56","62","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;denon.js:62[71:81];Sink: `${node ... .port}`;denon.js:62[19:83]::FLOW_DESCR_END","/denon.js","62","71","62","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;denon.js:83[36:38];Sink: `denono ... msg)}]`;denon.js:84[30:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;denon.js:83[36:38];Sink: payload;denon.js:122[23:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;denon.js:83[36:38];Sink: `${node ... data)}`;denon.js:169[19:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;denon.js:83[36:38];Sink: data.cmd;denon.js:186[49:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;denon.js:83[36:38];Sink: (data.c ... nown*/);denon.js:186[59:119]::FLOW_DESCR_END","/denon.js","83","36","83","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;denon.js:237[38:41];Sink: `${node ... data)}`;denon.js:238[19:82]::FLOW_DESCR_END","/denon.js","237","38","237","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;connectionFSM.js:6[30:33];Sink: data;connectionFSM.js:7[57:60]::FLOW_DESCR_END","/lib/connectionFSM.js","6","30","6","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;connectionFSM.js:36[71:79];Sink: 'Connec ... is.port;connectionFSM.js:36[51:97]::FLOW_DESCR_END","/lib/connectionFSM.js","36","71","36","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;connectionFSM.js:36[89:97];Sink: 'Connec ... is.port;connectionFSM.js:36[51:97]::FLOW_DESCR_END","/lib/connectionFSM.js","36","89","36","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;connectionFSM.js:54[47:51];Sink: 'Error  ... + error;connectionFSM.js:55[55:89]::FLOW_DESCR_END","/lib/connectionFSM.js","54","47","54","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cause;connectionFSM.js:64[58:62];Sink: 'Denon  ... + cause;connectionFSM.js:65[55:102]::FLOW_DESCR_END","/lib/connectionFSM.js","64","58","64","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cause;connectionFSM.js:69[58:62];Sink: 'Denon  ... + cause;connectionFSM.js:70[55:102]::FLOW_DESCR_END","/lib/connectionFSM.js","69","58","69","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cause;connectionFSM.js:74[56:60];Sink: 'Denon  ... + cause;connectionFSM.js:75[55:100]::FLOW_DESCR_END","/lib/connectionFSM.js","74","56","74","60"

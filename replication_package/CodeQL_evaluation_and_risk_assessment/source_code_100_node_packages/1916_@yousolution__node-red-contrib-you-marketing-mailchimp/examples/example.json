@@ -1,0 +1,87 @@
+[
+    {
+        "id": "14cbc80102569a2e",
+        "type": "tab",
+        "label": "Example Mailchimp Marketing",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "7ad92fd86c337b17",
+        "type": "websocket-listener",
+        "path": "/oauth/mailchimp/callback",
+        "wholemsg": "true"
+    },
+    {
+        "id": "a84becc01db978f7",
+        "type": "debug",
+        "z": "14cbc80102569a2e",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a08865e72e271fe9",
+        "type": "inject",
+        "z": "14cbc80102569a2e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "be437cec59b6bc5b"
+            ]
+        ]
+    },
+    {
+        "id": "be437cec59b6bc5b",
+        "type": "marketingMailchimp",
+        "z": "14cbc80102569a2e",
+        "name": "",
+        "server": "us00",
+        "token": "dddddddddddddddddddddddddddddddddddd",
+        "resourceName": "Campaigns",
+        "resource": "Get campaign feedback message",
+        "queryParams": "",
+        "bodyPost": "bodyPost",
+        "app_id": "test",
+        "workflow_id": "paperino",
+        "workflow_email_id": "pluto",
+        "campaign_id": "45c74482fb",
+        "feedback_id": "125000",
+        "conversation_id": "pippo",
+        "message_id": "pluto",
+        "x": 360,
+        "y": 100,
+        "wires": [
+            [
+                "a84becc01db978f7"
+            ]
+        ]
+    }
+]

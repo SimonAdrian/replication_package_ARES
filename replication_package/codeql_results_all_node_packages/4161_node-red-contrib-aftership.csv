@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.trackings;aftership.js:57[22:40];Sink: x;aftership.js:62[28:28]::FLOW_DESCR_END","/aftership.js","57","22","57","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aftership.js:92[29:31];Sink: msg;aftership.js:107[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aftership.js:92[29:31];Sink: msg;aftership.js:112[16:18]::FLOW_DESCR_END","/aftership.js","92","29","92","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aftership.js:126[29:31];Sink: '/track ... _number;aftership.js:133[34:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aftership.js:126[29:31];Sink: msg;aftership.js:136[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aftership.js:126[29:31];Sink: msg;aftership.js:142[17:19]::FLOW_DESCR_END","/aftership.js","126","29","126","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.tracking;aftership.js:141[21:38];Sink: '/track ... _number;aftership.js:133[34:74]::FLOW_DESCR_END","/aftership.js","141","21","141","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;aftership.js:163[39:44];Sink: status;aftership.js:164[16:21]::FLOW_DESCR_END","/aftership.js","163","39","163","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;aftership.js:182[39:44];Sink: status;aftership.js:183[16:21]::FLOW_DESCR_END","/aftership.js","182","39","182","44"

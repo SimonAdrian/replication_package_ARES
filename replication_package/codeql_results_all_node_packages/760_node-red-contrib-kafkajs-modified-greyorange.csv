@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafka-commit.js:7[32:34];Sink: msg;kafka-commit.js:21[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafka-commit.js:7[32:34];Sink: [null, msg];kafka-commit.js:25[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafka-commit.js:7[32:34];Sink: msg;kafka-commit.js:29[19:21]::FLOW_DESCR_END","/js/kafka-commit.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kafka-producer.js:80[41:43];Sink: msg;kafka-producer.js:106[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;kafka-producer.js:80[41:43];Sink: [null, msg];kafka-producer.js:110[35:45]::FLOW_DESCR_END","/js/kafka-producer.js","80","41","80","43"

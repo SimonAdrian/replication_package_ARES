@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;typeform.js:27[33:37];Sink: body;typeform.js:31[25:28]::FLOW_DESCR_END","/typeform.js","27","33","27","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);typeform.js:56[31:69];Sink: credentials;typeform.js:58[52:62]::FLOW_DESCR_END","/typeform.js","56","31","56","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;typeform.js:188[35:37];Sink: msg;typeform.js:233[27:29]::FLOW_DESCR_END","/typeform.js","188","35","188","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;typeform.js:223[26:28];Sink: err;typeform.js:225[39:41]::FLOW_DESCR_END","/typeform.js","223","26","223","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;typeform.js:223[41:44];Sink: body;typeform.js:229[39:42]::FLOW_DESCR_END","/typeform.js","223","41","223","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;typeform.js:252[35:37];Sink: msg;typeform.js:264[27:29]::FLOW_DESCR_END","/typeform.js","252","35","252","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;typeform.js:259[26:28];Sink: err;typeform.js:261[39:41]::FLOW_DESCR_END","/typeform.js","259","26","259","28"

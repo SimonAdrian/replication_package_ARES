@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:44[46:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:51[25:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:56[38:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:73[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:74[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: [null, msg];deduplicate.js:79[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:83[50:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: node.re ... ic+'""]';deduplicate.js:87[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deduplicate.js:62[36:38];Sink: [msg, null];deduplicate.js:94[23:33]::FLOW_DESCR_END","/deduplicate.js","62","36","62","38"

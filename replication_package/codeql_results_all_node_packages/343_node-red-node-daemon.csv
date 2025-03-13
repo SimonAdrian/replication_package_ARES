@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;daemon.js:34[32:34];Sink: ""inp: ""+msg.payload;daemon.js:63[32:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:34[32:34];Sink: msg.payload;daemon.js:65[87:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:34[32:34];Sink: node.cm ... y(args);daemon.js:84[28:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:34[32:34];Sink: [lastmsg,null,null];daemon.js:105[39:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:34[32:34];Sink: [null,lastmsg,null];daemon.js:115[31:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:34[32:34];Sink: lastmsg;daemon.js:137[95:101]::FLOW_DESCR_END","/daemon.js","34","32","34","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;daemon.js:88[56:59];Sink: ""inp: ""+msg.payload;daemon.js:63[32:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;daemon.js:88[56:59];Sink: msg.payload;daemon.js:65[87:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;daemon.js:88[56:59];Sink: ""out: ""+data;daemon.js:91[32:43]::FLOW_DESCR_END","/daemon.js","88","56","88","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;daemon.js:110[56:59];Sink: ""inp: ""+msg.payload;daemon.js:63[32:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;daemon.js:110[56:59];Sink: msg.payload;daemon.js:65[87:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;daemon.js:110[56:59];Sink: ""err: ""+data;daemon.js:113[32:43]::FLOW_DESCR_END","/daemon.js","110","56","110","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;daemon.js:118[50:53];Sink: ""ret: "" ... +signal;daemon.js:119[32:54]::FLOW_DESCR_END","/daemon.js","118","50","118","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;daemon.js:118[55:60];Sink: ""ret: "" ... +signal;daemon.js:119[32:54]::FLOW_DESCR_END","/daemon.js","118","55","118","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;daemon.js:129[50:52];Sink: 'error: ' + err;daemon.js:132[37:51]::FLOW_DESCR_END","/daemon.js","129","50","129","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;daemon.js:136[56:58];Sink: 'error: ' + err;daemon.js:138[37:51]::FLOW_DESCR_END","/daemon.js","136","56","136","58"

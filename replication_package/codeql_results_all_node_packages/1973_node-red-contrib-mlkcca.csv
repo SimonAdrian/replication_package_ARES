@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;milkcocoa.js:76[34:36];Sink: msg;milkcocoa.js:85[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;milkcocoa.js:76[34:36];Sink: payload;milkcocoa.js:95[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;milkcocoa.js:76[34:36];Sink: targetId;milkcocoa.js:98[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;milkcocoa.js:76[34:36];Sink: payload;milkcocoa.js:98[37:43]::FLOW_DESCR_END","/milkcocoa.js","76","34","76","36"

@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run_query.js:20[29:31];Sink: ""Topic  ... g.topic;run_query.js:22[14:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run_query.js:20[29:31];Sink: ""Payloa ... ayload);run_query.js:23[14:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run_query.js:20[29:31];Sink: ""SQL loop : "" + sql;run_query.js:65[18:36]::FLOW_DESCR_END","/run_query.js","20","29","20","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;run_query.js:40[45:47];Sink: err;run_query.js:45[17:19]::FLOW_DESCR_END","/run_query.js","40","45","40","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.hanaConfig.host;run_query.js:47[53:72];Sink: errMess;run_query.js:48[17:23]::FLOW_DESCR_END","/run_query.js","47","53","47","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;table_insert.js:35[29:31];Sink: ""Payloa ... ayload);table_insert.js:37[14:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;table_insert.js:35[29:31];Sink: msg;table_insert.js:65[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;table_insert.js:35[29:31];Sink: ""SQL loop : "" + sql;table_insert.js:92[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;table_insert.js:35[29:31];Sink: msg;table_insert.js:124[14:16]::FLOW_DESCR_END","/table_insert.js","35","29","35","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;table_insert.js:52[45:47];Sink: ""Payloa ... ayload);table_insert.js:37[14:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;table_insert.js:52[45:47];Sink: err;table_insert.js:57[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;table_insert.js:52[45:47];Sink: ""SQL loop : "" + sql;table_insert.js:92[18:36]::FLOW_DESCR_END","/table_insert.js","52","45","52","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.hanaConfig.host;table_insert.js:59[53:72];Sink: errMess;table_insert.js:60[17:23]::FLOW_DESCR_END","/table_insert.js","59","53","59","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;table_monitor.js:42[44:46];Sink: err;table_monitor.js:47[16:18]::FLOW_DESCR_END","/table_monitor.js","42","44","42","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.hanaConfig.host;table_monitor.js:49[52:71];Sink: errMess;table_monitor.js:50[16:22]::FLOW_DESCR_END","/table_monitor.js","49","52","49","71"

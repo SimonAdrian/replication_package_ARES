@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();connection.js:24[30:40];Sink: y;connection.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();connection.js:24[30:40];Sink: y;connection.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();connection.js:24[30:40];Sink: op[1];connection.js:18[147:151]::FLOW_DESCR_END","/lib/core/connection.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();pool.js:24[30:40];Sink: y;pool.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();pool.js:24[30:40];Sink: y;pool.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();pool.js:24[30:40];Sink: op[1];pool.js:18[147:151]::FLOW_DESCR_END","/lib/core/pool.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();resource.js:37[30:40];Sink: y;resource.js:31[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();resource.js:37[30:40];Sink: y;resource.js:31[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();resource.js:37[30:40];Sink: op[1];resource.js:31[147:151]::FLOW_DESCR_END","/lib/core/resource.js","37","30","37","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();sender.js:24[30:40];Sink: y;sender.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();sender.js:24[30:40];Sink: y;sender.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();sender.js:24[30:40];Sink: op[1];sender.js:18[147:151]::FLOW_DESCR_END","/lib/core/sender.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();subscriber.js:24[30:40];Sink: y;subscriber.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();subscriber.js:24[30:40];Sink: y;subscriber.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();subscriber.js:24[30:40];Sink: op[1];subscriber.js:18[147:151]::FLOW_DESCR_END","/lib/core/subscriber.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();tls.js:24[30:40];Sink: y;tls.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();tls.js:24[30:40];Sink: y;tls.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();tls.js:24[30:40];Sink: op[1];tls.js:18[147:151]::FLOW_DESCR_END","/lib/core/tls.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();device-status-change.js:24[22:32];Sink: y;device-status-change.js:18[105:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();device-status-change.js:24[22:32];Sink: y;device-status-change.js:18[138:138]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();device-status-change.js:24[22:32];Sink: op[1];device-status-change.js:18[141:145]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();device-status-change.js:24[22:32];Sink: e_1.message;device-status-change.js:137[24:34]::FLOW_DESCR_END","/lib/device-status-change.js","24","22","24","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;device-status-change.js:61[31:33];Sink: err.toString();device-status-change.js:62[26:39]::FLOW_DESCR_END","/lib/device-status-change.js","61","31","61","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-status-change.js:64[33:35];Sink: 'messag ... tentStr;device-status-change.js:68[17:38]::FLOW_DESCR_END","/lib/device-status-change.js","64","33","64","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: enterEv ... records;notification.html:101[23:48];Sink: event;notification.html:102[36:40]::FLOW_DESCR_END","/lib/notification.html","101","23","101","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: userDet ... priseId;notification.js:60[30:60];Sink: JSON.st ... ptions);notification.js:103[21:43]::FLOW_DESCR_END","/lib/notification.js","60","30","60","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: enterEv ... records;notification.js:81[23:48];Sink: `\u7b5b\u9009\u51fa\u56fd\u5185\u4e1a ... vent)}`;notification.js:82[21:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: enterEv ... records;notification.js:81[23:48];Sink: JSON.st ... ptions);notification.js:103[21:43]::FLOW_DESCR_END","/lib/notification.js","81","23","81","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;notification.js:105[39:43];Sink: JSON.st ... (error);notification.js:112[27:47]::FLOW_DESCR_END","/lib/notification.js","105","39","105","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;notification.js:105[46:53];Sink: JSON.st ... sponse);notification.js:107[27:50]::FLOW_DESCR_END","/lib/notification.js","105","46","105","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: props.deviceName;notification.js:129[36:51];Sink: JSON.st ... ptions);notification.js:132[21:43]::FLOW_DESCR_END","/lib/notification.js","129","36","129","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;notification.js:133[38:42];Sink: JSON.st ... (error);notification.js:140[25:45]::FLOW_DESCR_END","/lib/notification.js","133","38","133","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;notification.js:133[45:52];Sink: JSON.st ... sponse);notification.js:135[25:48]::FLOW_DESCR_END","/lib/notification.js","133","45","133","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;aepRequest.js:16[24:31];Sink: `\u7b5b\u9009\u51fa\u56fd\u5185\u4e1a ... vent)}`;notification.js:82[21:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;aepRequest.js:16[24:31];Sink: JSON.st ... ptions);notification.js:103[21:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;aepRequest.js:16[24:31];Sink: JSON.stringify(err);notification.js:148[19:37]::FLOW_DESCR_END","/lib/utils/aepRequest.js","16","24","16","31"

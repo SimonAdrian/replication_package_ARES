@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createRepositoryFile.js:11[20:22];Sink: [null, msg];createRepositoryFile.js:34[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createRepositoryFile.js:11[20:22];Sink: [msg, null];createRepositoryFile.js:38[17:27]::FLOW_DESCR_END","/lib/createRepositoryFile.js","11","20","11","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getRepositoryFile.js:10[20:22];Sink: [null, msg];getRepositoryFile.js:21[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getRepositoryFile.js:10[20:22];Sink: [msg, null];getRepositoryFile.js:25[17:27]::FLOW_DESCR_END","/lib/getRepositoryFile.js","10","20","10","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateRepositoryFile.js:11[20:22];Sink: [null, msg];updateRepositoryFile.js:34[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateRepositoryFile.js:11[20:22];Sink: [msg, null];updateRepositoryFile.js:38[17:27]::FLOW_DESCR_END","/lib/updateRepositoryFile.js","11","20","11","22"

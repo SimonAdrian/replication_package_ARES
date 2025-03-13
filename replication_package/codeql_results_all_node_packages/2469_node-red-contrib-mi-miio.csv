@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CommonNode.js:12[35:37];Sink: [value];CommonNode.js:127[45:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;CommonNode.js:12[35:37];Sink: method;CommonNode.js:185[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;CommonNode.js:12[35:37];Sink: value;CommonNode.js:185[45:49]::FLOW_DESCR_END","/nodes/CommonNode.js","12","35","12","37"

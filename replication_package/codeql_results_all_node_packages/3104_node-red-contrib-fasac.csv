@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mailserver_start_node.js:34[45:47];Sink: [allSuc ... sponse];mailserver_start_node.js:139[31:85]::FLOW_DESCR_END","/mailserver_start_node.js","34","45","34","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;metasploit_create_meterpreter_node.js:40[45:47];Sink: [allSuc ... sponse];metasploit_create_meterpreter_node.js:105[31:85]::FLOW_DESCR_END","/metasploit_create_meterpreter_node.js","40","45","40","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;metasploit_start_node.js:39[45:47];Sink: [allSuc ... sponse];metasploit_start_node.js:130[31:85]::FLOW_DESCR_END","/metasploit_start_node.js","39","45","39","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;msfrpc.mjs:129[11:15];Sink: error;msfrpc_listener_start_node.js:31[41:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;msfrpc.mjs:129[11:15];Sink: error;msfrpc_session_command_node.js:72[32:36]::FLOW_DESCR_END","/msfrpc.mjs","129","11","129","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msfrpc_listener_start_node.js:11[45:47];Sink: msg;msfrpc_listener_start_node.js:102[35:37]::FLOW_DESCR_END","/msfrpc_listener_start_node.js","11","45","11","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msfrpc_session_command_node.js:11[46:48];Sink: msg;msfrpc_session_command_node.js:53[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msfrpc_session_command_node.js:11[46:48];Sink: msg;msfrpc_session_command_node.js:63[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msfrpc_session_command_node.js:11[46:48];Sink: msg;msfrpc_session_command_node.js:67[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msfrpc_session_command_node.js:11[46:48];Sink: msg;msfrpc_session_command_node.js:72[39:41]::FLOW_DESCR_END","/msfrpc_session_command_node.js","11","46","11","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scenario_plane_clean_node.js:27[45:47];Sink: [allSuc ... sponse];scenario_plane_clean_node.js:58[31:85]::FLOW_DESCR_END","/scenario_plane_clean_node.js","27","45","27","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scenario_plane_prepare_node.js:33[45:47];Sink: [allSuc ... sponse];scenario_plane_prepare_node.js:123[31:85]::FLOW_DESCR_END","/scenario_plane_prepare_node.js","33","45","33","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vm_start_node.js:33[45:47];Sink: [allSuc ... sponse];vm_start_node.js:96[31:85]::FLOW_DESCR_END","/vm_start_node.js","33","45","33","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;workload_stop_node.js:26[45:47];Sink: [allSuc ... sponse];workload_stop_node.js:67[31:85]::FLOW_DESCR_END","/workload_stop_node.js","26","45","26","47"

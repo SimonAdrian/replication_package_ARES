@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _e;cluster.js:216[28:29];Sink: `IPC error ${_e}`;cluster.js:218[23:39]::FLOW_DESCR_END","/cluster.js","216","28","216","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cluster.js:342[25:27];Sink: msg;cluster.js:345[24:26]::FLOW_DESCR_END","/cluster.js","342","25","342","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ipc;cluster.js:351[33:35];Sink: msg;cluster.js:345[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ipc;cluster.js:351[33:35];Sink: ipc.msg;cluster.js:355[17:23]::FLOW_DESCR_END","/cluster.js","351","33","351","35"

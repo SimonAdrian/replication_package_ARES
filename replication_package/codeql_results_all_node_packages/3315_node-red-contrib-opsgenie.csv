@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opsgenie_alert_action.js:34[35:37];Sink: ""An Ops ... e + ""'"";opsgenie_alert_action.js:55[42:129]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opsgenie_alert_action.js:34[35:37];Sink: JSON.stringify(body);opsgenie_api.js:82[27:46]::FLOW_DESCR_END","/src/opsgenie_alert_action.js","34","35","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;opsgenie_api.js:50[37:41];Sink: ""There  ... t.body);opsgenie_alert_action.js:57[44:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;opsgenie_api.js:50[37:41];Sink: ""An Ops ... ) + ""'"";opsgenie_alert_action.js:76[42:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;opsgenie_api.js:50[37:41];Sink: ""There  ... t.body);opsgenie_alert_action.js:78[44:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;opsgenie_api.js:50[37:41];Sink: ""There  ... t.body);opsgenie_alert_read.js:45[44:151]::FLOW_DESCR_END","/src/opsgenie_api.js","50","37","50","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;opsgenie_api.js:73[38:40];Sink: ""There  ... t.body);opsgenie_alert_action.js:57[44:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opsgenie_api.js:73[38:40];Sink: ""There  ... t.body);opsgenie_alert_action.js:78[44:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;opsgenie_api.js:73[38:40];Sink: ""There  ... t.body);opsgenie_alert_read.js:45[44:151]::FLOW_DESCR_END","/src/opsgenie_api.js","73","38","73","40"

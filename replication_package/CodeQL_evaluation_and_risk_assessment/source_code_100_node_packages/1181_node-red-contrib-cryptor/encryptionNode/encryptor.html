@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    
+    RED.nodes.registerType('encryptor',{
+        category: 'function',
+        color: '#e74c3c',
+        defaults: {
+            name: {value:""},
+            cryptoPassword: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "hash.png",
+        label: function() {
+            return this.name||'encryptor';
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="encryptor">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-cryptoPassword"><i class="icon-tag"></i> Crypto Password</label>
+        <input type="text" id="node-input-cryptoPassword" placeholder="password used to encrypt">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="encryptor">
+    <p>This node take a string and encrypts it using aes-256-ctr and the password you provide which is required to decrypt it using the decrypt node.</p>
+</script>

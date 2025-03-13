@@ -1,0 +1,139 @@
+<script type="text/javascript">
+    RED.nodes.registerType('img-thumbnail',{
+        category: 'Azure Computer Vision',
+        color: '#008AD7',
+        defaults: {
+            name: { value: ''  },
+            inputMode: { value: 'url', required: true },
+            imageFilePath: { value: '', validate: function() {
+                    // If input mode is file, imageFilePath is required
+                    if (this.inputMode === 'file') return !!this.imageFilePath;
+                    return true;
+                }},
+            imageUrl: { value: '', validate: function() {
+                    // If input mode is url, imageUrl is required
+                    if (this.inputMode === 'url') return !!this.imageUrl;
+                    return true;
+                }},
+            width: { value: 0,  validate: function() {
+                    const width = parseInt(this.width);
+                    if (!width) return false;
+                    if (width < 1 || width > 1024) return false;
+                    return true;
+                }},
+            height: { value: 0,  validate: function() {
+                    const height = parseInt(this.height);
+                    if (!height) return false;
+                    if (height < 1 || height > 1024) return false;
+                    return true;
+                }},
+            smartCropping: { value: 'yes', required: true },
+            modelVersion: { value: '' }
+        },
+        credentials: {
+            key: { type: 'password' },
+            region: { type: 'text' }
+        },
+        inputs: 1,
+        outputs: 1,
+        label: function() {
+            if (this.name) return this.name;
+            return 'img-thumbnail';
+        },
+        oneditprepare: function() {
+            $('#node-input-inputMode').on('change', function() {
+                if (this.value === 'url') {
+                    $('#node-input-div-imageFilePath').hide();
+                    $('#node-input-div-imageUrl').show();
+                } else {
+                    $('#node-input-div-imageFilePath').show();
+                    $('#node-input-div-imageUrl').hide();
+                }
+            });
+        },
+        icon: 'font-awesome/fa-exchange',
+    });
+</script>
+
+<script type="text/html" data-template-name="img-thumbnail">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name </label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-inputMode"><i class="fa fa-tag"></i> Input mode </label>
+        <select name="node-input-inputMode" id="node-input-inputMode">
+            <option value="file"> file </option>
+            <option value="url"> url </option>
+        </select>
+    </div>
+
+    <div id="node-input-div-imageFilePath" class="form-row">
+        <label for="node-input-imageFilePath"><i class="fa fa-tag"></i> Image file path </label>
+        <input type="text" id="node-input-imageFilePath" placeholder="Must be an absolute path to local file system">
+    </div>
+
+    <div id="node-input-div-imageUrl" class="form-row">
+        <label for="node-input-imageUrl"><i class="fa fa-tag"></i> Image url </label>
+        <input type="text" id="node-input-imageUrl" placeholder="URL to the image">
+    </div>
+
+    <div id="node-input-div-width" class="form-row">
+        <label for="node-input-width"><i class="fa fa-tag"></i> Width </label>
+        <input type="number" id="node-input-width" placeholder="Recommended minimum of 50">
+    </div>
+
+    <div id="node-input-div-height" class="form-row">
+        <label for="node-input-height"><i class="fa fa-tag"></i> Height </label>
+        <input type="number" id="node-input-height" placeholder="Recommended minimum of 50">
+    </div>
+
+    <div id="node-input-div-smartCropping" class="form-row">
+        <label for="node-input-smartCropping"><i class="fa fa-tag"></i> Smart cropping </label>
+        <select name="node-input-smartCropping" id="node-input-smartCropping">
+            <option value="yes"> Yes </option>
+            <option value="no"> No </option>
+        </select>
+    </div>
+
+    <div id="node-input-div-modelVersion" class="form-row">
+        <label for="node-input-modelVersion"><i class="fa fa-tag"></i> Model version </label>
+        <input type="text" id="node-input-modelVersion" placeholder="Optional parameter to specify the version of the AI model">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-key"><i class="fa fa-tag"></i> Key </label>
+        <input type="password" id="node-input-key" placeholder="Your beautiful key">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-region"><i class="fa fa-tag"></i> Region </label>
+        <input type="text" id="node-input-region" placeholder="Region">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="img-thumbnail">
+    <p> Image thumbnail of Microsoft Computer Vision </p>
+    <h3>Outputs</h3>
+    <dl class="message-properties">
+        <dt> msg.payload
+            <span class="property-type"> ArrayBuffer </span>
+        </dt>
+        <dd>
+            An ArrayBuffer of the thumbnail.
+        </dd>
+    </dl>
+    <h3>Details</h3>
+    <p>
+        There are two input modes for this node: file mode and url mode.
+    </p>
+    <h5> 'file' mode </h5>
+    <p> In file mode, the node will try to read image content to be analyzed from the file path given.
+    </p>
+    <h5> 'url' mode </h5>
+    <p> In url mode, the node will try to read image content to be analyzed from url provided. </p>
+
+    <p> smartCropping is an optional input to specify if smart cropping should be applied or not. The default value is true.</p>
+    <p> modelVersion is an optional input to specify the version of the AI model. The default value is "latest".</p>
+</script>

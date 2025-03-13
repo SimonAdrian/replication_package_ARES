@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;HAP-NodeRed.js:180[30:34];Sink: event;HAP-NodeRed.js:183[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;HAP-NodeRed.js:180[30:34];Sink: node.state;HAP-NodeRed.js:236[104:113]::FLOW_DESCR_END","/HAP-NodeRed.js","180","30","180","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: JSON.stringify(msg);HAP-NodeRed.js:330[56:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: msg.payload;HAP-NodeRed.js:334[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: (newMsg ... newMsg);HAP-NodeRed.js:364[23:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: JSON.st ... newMsg);HAP-NodeRed.js:367[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: this.msg;HAP-NodeRed.js:383[52:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: this.msg;HAP-NodeRed.js:391[192:199]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: JSON.st ... .state);HAP-NodeRed.js:415[59:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: JSON.st ... ayload);HAP-NodeRed.js:415[87:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: payload;HAP-NodeRed.js:419[82:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:328[32:34];Sink: node.state;HAP-NodeRed.js:451[105:114]::FLOW_DESCR_END","/HAP-NodeRed.js","328","32","328","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;HAP-NodeRed.js:400[30:34];Sink: JSON.st ... newMsg);HAP-NodeRed.js:367[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;HAP-NodeRed.js:400[30:34];Sink: JSON.st ... .state);HAP-NodeRed.js:415[59:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;HAP-NodeRed.js:400[30:34];Sink: JSON.st ... ayload);HAP-NodeRed.js:415[87:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;HAP-NodeRed.js:400[30:34];Sink: payload;HAP-NodeRed.js:419[82:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;HAP-NodeRed.js:400[30:34];Sink: node.state;HAP-NodeRed.js:451[105:114]::FLOW_DESCR_END","/HAP-NodeRed.js","400","30","400","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:506[32:34];Sink: msg.payload;HAP-NodeRed.js:512[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:506[32:34];Sink: this.msg;HAP-NodeRed.js:515[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:506[32:34];Sink: JSON.st ... ayload);HAP-NodeRed.js:909[54:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:506[32:34];Sink: payload;HAP-NodeRed.js:934[58:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:506[32:34];Sink: payload;HAP-NodeRed.js:951[58:64]::FLOW_DESCR_END","/HAP-NodeRed.js","506","32","506","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:570[32:34];Sink: this.msg;HAP-NodeRed.js:593[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;HAP-NodeRed.js:570[32:34];Sink: this.msg;HAP-NodeRed.js:595[27:34]::FLOW_DESCR_END","/HAP-NodeRed.js","570","32","570","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.host;HAP-NodeRed.js:824[28:38];Sink: device. ... "" + err;HAP-NodeRed.js:824[28:73]::FLOW_DESCR_END","/HAP-NodeRed.js","824","28","824","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.port;HAP-NodeRed.js:824[48:58];Sink: device. ... "" + err;HAP-NodeRed.js:824[28:73]::FLOW_DESCR_END","/HAP-NodeRed.js","824","48","824","58"

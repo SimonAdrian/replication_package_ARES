@@ -1,0 +1,245 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws.js:64[39:41];Sink: msg;aws.js:68[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:64[39:41];Sink: msg;aws.js:89[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:64[39:41];Sink: msg;aws.js:98[39:41]::FLOW_DESCR_END","/aws/aws.js","64","39","64","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws.js:136[35:37];Sink: msg;aws.js:139[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:136[35:37];Sink: msg;aws.js:144[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:136[35:37];Sink: msg;aws.js:155[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:136[35:37];Sink: msg;aws.js:161[27:29]::FLOW_DESCR_END","/aws/aws.js","136","35","136","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws.js:190[43:45];Sink: msg;aws.js:193[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:190[43:45];Sink: msg;aws.js:198[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:190[43:45];Sink: msg;aws.js:212[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws.js:190[43:45];Sink: msg;aws.js:226[59:61]::FLOW_DESCR_END","/aws/aws.js","190","43","190","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;box.js:59[21:23];Sink: ""refres ... "" + err;box.js:61[28:63]::FLOW_DESCR_END","/box/box.js","59","21","59","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:59[34:37];Sink: ""refres ... message;box.js:65[28:71]::FLOW_DESCR_END","/box/box.js","59","34","59","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;box.js:65[54:71];Sink: ""refres ... message;box.js:65[28:71]::FLOW_DESCR_END","/box/box.js","65","54","65","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:115[51:54];Sink: req;box.js:115[24:26]::FLOW_DESCR_END","/box/box.js","115","51","115","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.it ... entries;box.js:162[27:54];Sink: req;box.js:115[24:26]::FLOW_DESCR_END","/box/box.js","162","27","162","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entries[i];box.js:167[51:60];Sink: req;box.js:115[24:26]::FLOW_DESCR_END","/box/box.js","167","51","167","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);box.js:257[27:59];Sink: credentials;box.js:295[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);box.js:257[27:59];Sink: credentials;box.js:315[51:61]::FLOW_DESCR_END","/box/box.js","257","27","257","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;box.js:277[21:23];Sink: ""reques ... "" + err;box.js:279[29:50]::FLOW_DESCR_END","/box/box.js","277","21","277","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:277[34:37];Sink: ""oauth  ... a.error;box.js:283[29:56]::FLOW_DESCR_END","/box/box.js","277","34","277","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;box.js:300[25:27];Sink: 'fetchi ... ' + err;box.js:302[33:69]::FLOW_DESCR_END","/box/box.js","300","25","300","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;box.js:300[30:35];Sink: 'fetchi ... message;box.js:306[33:71]::FLOW_DESCR_END","/box/box.js","300","30","300","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;box.js:300[38:41];Sink: 'fetchi ... message;box.js:306[33:71]::FLOW_DESCR_END","/box/box.js","300","38","300","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:341[39:41];Sink: msg;box.js:347[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:341[39:41];Sink: msg;box.js:409[19:21]::FLOW_DESCR_END","/box/box.js","341","39","341","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:440[35:37];Sink: msg;box.js:450[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:440[35:37];Sink: msg;box.js:463[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:440[35:37];Sink: msg;box.js:469[35:37]::FLOW_DESCR_END","/box/box.js","440","35","440","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;box.js:488[35:37];Sink: msg;box.js:503[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:488[35:37];Sink: msg;box.js:523[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;box.js:488[35:37];Sink: msg;box.js:538[75:77]::FLOW_DESCR_END","/box/box.js","488","35","488","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:43[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:47[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:73[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:80[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delicious.js:41[39:41];Sink: msg;delicious.js:85[36:38]::FLOW_DESCR_END","/delicious/delicious.js","41","39","41","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;delicious.js:71[47:49];Sink: err;delicious.js:73[36:38]::FLOW_DESCR_END","/delicious/delicious.js","71","47","71","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;delicious.js:71[55:58];Sink: body;delicious.js:80[40:43]::FLOW_DESCR_END","/delicious/delicious.js","71","55","71","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;delicious.js:84[40:42];Sink: err;delicious.js:85[32:34]::FLOW_DESCR_END","/delicious/delicious.js","84","40","84","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropbox.js:61[39:41];Sink: msg;dropbox.js:65[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:61[39:41];Sink: msg;dropbox.js:82[35:37]::FLOW_DESCR_END","/dropbox/dropbox.js","61","39","61","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropbox.js:116[35:37];Sink: msg;dropbox.js:119[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:116[35:37];Sink: msg;dropbox.js:126[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:116[35:37];Sink: msg;dropbox.js:131[35:37]::FLOW_DESCR_END","/dropbox/dropbox.js","116","35","116","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropbox.js:164[39:41];Sink: msg;dropbox.js:167[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:164[39:41];Sink: msg;dropbox.js:177[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:164[39:41];Sink: filename;dropbox.js:182[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:164[39:41];Sink: msg;dropbox.js:184[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:164[39:41];Sink: filename;dropbox.js:194[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropbox.js:164[39:41];Sink: msg;dropbox.js:196[55:57]::FLOW_DESCR_END","/dropbox/dropbox.js","164","39","164","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fitbit.js:99[38:41];Sink: 'https: ... '.json';fitbit.js:208[32:98]::FLOW_DESCR_END","/fitbit/fitbit.js","99","38","99","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:107[47:49];Sink: msg;fitbit.js:114[61:63]::FLOW_DESCR_END","/fitbit/fitbit.js","107","47","107","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fitbit.js:112[46:49];Sink: 'https: ... '.json';fitbit.js:208[32:98]::FLOW_DESCR_END","/fitbit/fitbit.js","112","46","112","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:157[47:49];Sink: msg;fitbit.js:165[61:63]::FLOW_DESCR_END","/fitbit/fitbit.js","157","47","157","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:199[47:49];Sink: msg;fitbit.js:213[61:63]::FLOW_DESCR_END","/fitbit/fitbit.js","199","47","199","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:288[39:41];Sink: url;fitbit.js:299[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fitbit.js:288[39:41];Sink: msg;fitbit.js:304[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fitbit.js:288[39:41];Sink: msg;fitbit.js:323[31:33]::FLOW_DESCR_END","/fitbit/fitbit.js","288","39","288","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);fitbit.js:363[27:65];Sink: credentials;fitbit.js:394[64:74]::FLOW_DESCR_END","/fitbit/fitbit.js","363","27","363","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flickr.js:72[39:41];Sink: msg;flickr.js:120[49:51]::FLOW_DESCR_END","/flickr/flickr.js","72","39","72","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;flickr.js:111[58:60];Sink: err.toString();flickr.js:113[40:53]::FLOW_DESCR_END","/flickr/flickr.js","111","58","111","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;flickr.js:111[77:80];Sink: body;flickr.js:120[44:47]::FLOW_DESCR_END","/flickr/flickr.js","111","77","111","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;forecastio.js:111[37:37];Sink: err;forecastio.js:137[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;forecastio.js:111[37:37];Sink: err;forecastio.js:206[40:42]::FLOW_DESCR_END","/forecast/forecastio.js","111","37","111","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forecastio.js:130[35:37];Sink: msg;forecastio.js:133[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:130[35:37];Sink: msg;forecastio.js:137[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:130[35:37];Sink: msg;forecastio.js:142[43:45]::FLOW_DESCR_END","/forecast/forecastio.js","130","35","130","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forecastio.js:163[36:38];Sink: msg;forecastio.js:202[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:163[36:38];Sink: msg;forecastio.js:206[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecastio.js:163[36:38];Sink: msg;forecastio.js:208[39:41]::FLOW_DESCR_END","/forecast/forecastio.js","163","36","163","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... square);foursquare.js:61[31:68];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END","/foursquare/foursquare.js","61","31","61","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:67[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:82[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:85[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:89[89:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:126[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:162[123:125]::FLOW_DESCR_END","/foursquare/foursquare.js","64","35","64","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.location;foursquare.js:117[36:47];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END","/foursquare/foursquare.js","117","36","117","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.location;foursquare.js:117[61:72];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END","/foursquare/foursquare.js","117","61","117","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;foursquare.js:119[37:39];Sink: err.toString();foursquare.js:121[28:41]::FLOW_DESCR_END","/foursquare/foursquare.js","119","37","119","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;foursquare.js:119[56:59];Sink: ""Error  ... rDetail;foursquare.js:126[32:110]::FLOW_DESCR_END","/foursquare/foursquare.js","119","56","119","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... nodeid);foursquare.js:200[27:58];Sink: credentials;foursquare.js:210[41:51]::FLOW_DESCR_END","/foursquare/foursquare.js","200","27","200","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;foursquare.js:253[66:68];Sink: resp;foursquare.js:258[47:50]::FLOW_DESCR_END","/foursquare/foursquare.js","253","66","253","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;foursquare.js:253[85:88];Sink: message;foursquare.js:265[51:57]::FLOW_DESCR_END","/foursquare/foursquare.js","253","85","253","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... square);swarm.js:31[27:64];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END","/foursquare/swarm.js","31","27","31","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: msg;swarm.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: msg;swarm.js:110[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: msg;swarm.js:116[112:114]::FLOW_DESCR_END","/foursquare/swarm.js","43","39","43","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... square);swarm.js:75[31:68];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END","/foursquare/swarm.js","75","31","75","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:80[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:85[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:110[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:116[112:114]::FLOW_DESCR_END","/foursquare/swarm.js","77","35","77","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;swarm.js:108[37:39];Sink: err.toString();swarm.js:110[28:41]::FLOW_DESCR_END","/foursquare/swarm.js","108","37","108","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;swarm.js:108[56:59];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;swarm.js:108[56:59];Sink: ""Error  ... rDetail;swarm.js:116[32:110]::FLOW_DESCR_END","/foursquare/swarm.js","108","56","108","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar.js:64[39:41];Sink: msg;calendar.js:72[40:42]::FLOW_DESCR_END","/google/calendar.js","64","39","64","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar.js:159[39:41];Sink: msg;calendar.js:164[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:159[39:41];Sink: msg;calendar.js:170[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:159[39:41];Sink: msg;calendar.js:175[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:159[39:41];Sink: msg;calendar.js:511[19:21]::FLOW_DESCR_END","/google/calendar.js","159","39","159","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;calendar.js:215[56:73];Sink: err;calendar.js:54[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.error.message;calendar.js:215[56:73];Sink: err;calendar.js:153[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.error.message;calendar.js:215[56:73];Sink: err;calendar.js:541[28:30]::FLOW_DESCR_END","/google/calendar.js","215","56","215","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.code;calendar.js:252[31:45];Sink: ""Error: ... tring();calendar.js:170[36:61]::FLOW_DESCR_END","/google/calendar.js","252","31","252","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;calendar.js:253[40:57];Sink: ""Error: ... tring();calendar.js:170[36:61]::FLOW_DESCR_END","/google/calendar.js","253","40","253","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.code;calendar.js:364[31:45];Sink: err;calendar.js:72[36:38]::FLOW_DESCR_END","/google/calendar.js","364","31","364","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;calendar.js:365[40:57];Sink: err;calendar.js:72[36:38]::FLOW_DESCR_END","/google/calendar.js","365","40","365","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.code;calendar.js:428[31:45];Sink: err;calendar.js:72[36:38]::FLOW_DESCR_END","/google/calendar.js","428","31","428","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;calendar.js:429[40:57];Sink: err;calendar.js:72[36:38]::FLOW_DESCR_END","/google/calendar.js","429","40","429","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar.js:547[39:41];Sink: msg;calendar.js:552[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:547[39:41];Sink: msg;calendar.js:575[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:547[39:41];Sink: msg;calendar.js:578[55:57]::FLOW_DESCR_END","/google/calendar.js","547","39","547","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;directions.js:27[35:37];Sink: response;directions.js:60[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;directions.js:27[35:37];Sink: msg;directions.js:299[29:31]::FLOW_DESCR_END","/google/directions.js","27","35","27","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;directions.js:215[29:31];Sink: err;directions.js:299[24:26]::FLOW_DESCR_END","/google/directions.js","215","29","215","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:73[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:87[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:127[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:153[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:178[27:29]::FLOW_DESCR_END","/google/geocoding.js","35","35","35","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;geocoding.js:119[25:27];Sink: err;geocoding.js:121[35:37]::FLOW_DESCR_END","/google/geocoding.js","119","25","119","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:55[21:23];Sink: ""refres ... "" + err;google.js:57[28:63]::FLOW_DESCR_END","/google/google.js","55","21","55","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:55[34:37];Sink: ""refres ... message;google.js:61[28:71]::FLOW_DESCR_END","/google/google.js","55","34","55","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;google.js:61[54:71];Sink: ""refres ... message;google.js:61[28:71]::FLOW_DESCR_END","/google/google.js","61","54","61","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:180[27:59];Sink: credentials;google.js:218[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:180[27:59];Sink: credentials;google.js:234[51:61]::FLOW_DESCR_END","/google/google.js","180","27","180","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:201[21:23];Sink: ""reques ... "" + err;google.js:203[29:50]::FLOW_DESCR_END","/google/google.js","201","21","201","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:201[34:37];Sink: ""oauth  ... a.error;google.js:207[29:56]::FLOW_DESCR_END","/google/google.js","201","34","201","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:223[25:27];Sink: 'fetchi ... ' + err;google.js:225[33:72]::FLOW_DESCR_END","/google/google.js","223","25","223","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:223[38:41];Sink: 'fetchi ... message;google.js:229[33:50]::FLOW_DESCR_END","/google/google.js","223","38","223","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;google.js:230[33:50];Sink: 'fetchi ... message;google.js:229[33:50]::FLOW_DESCR_END","/google/google.js","230","33","230","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;places.js:47[35:37];Sink: msg;places.js:556[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;places.js:47[35:37];Sink: msg;places.js:566[27:29]::FLOW_DESCR_END","/google/places.js","47","35","47","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;places.js:243[25:27];Sink: err;places.js:245[35:37]::FLOW_DESCR_END","/google/places.js","243","25","243","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:53[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:59[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:67[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:73[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:79[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:87[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:93[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:99[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: msg;plus.js:754[29:31]::FLOW_DESCR_END","/google/plus.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;instagram.js:32[58:62];Sink: ""Instag ... esponse;instagram.js:37[27:124]::FLOW_DESCR_END","/instagram/instagram.js","32","58","32","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;instagram.js:32[65:72];Sink: ""Instag ... esponse;instagram.js:37[27:124]::FLOW_DESCR_END","/instagram/instagram.js","32","65","32","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:35[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:156[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:167[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:208[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:219[31:33]::FLOW_DESCR_END","/instagram/instagram.js","57","35","57","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);instagram.js:383[27:59];Sink: credentials;instagram.js:408[42:52]::FLOW_DESCR_END","/instagram/instagram.js","383","27","383","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);instagram.js:416[27:59];Sink: credentials;instagram.js:470[46:56]::FLOW_DESCR_END","/instagram/instagram.js","416","27","416","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;instagram.js:446[21:23];Sink: ""reques ... "" + err;instagram.js:448[33:54]::FLOW_DESCR_END","/instagram/instagram.js","446","21","446","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;instagram.js:446[26:31];Sink: ""Instag ...  + data;instagram.js:455[33:136]::FLOW_DESCR_END","/instagram/instagram.js","446","26","446","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;instagram.js:446[34:37];Sink: ""oauth  ... a.error;instagram.js:451[33:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;instagram.js:446[34:37];Sink: ""Instag ...  + data;instagram.js:455[33:136]::FLOW_DESCR_END","/instagram/instagram.js","446","34","446","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... boneup);jawboneup.js:56[27:63];Sink: ""proble ...  + "", "";jawboneup.js:122[24:82]::FLOW_DESCR_END","/jawboneup/jawboneup.js","56","27","56","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:73[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:84[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:90[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:102[129:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jawboneup.js:59[37:39];Sink: msg;jawboneup.js:107[41:43]::FLOW_DESCR_END","/jawboneup/jawboneup.js","59","37","59","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;jawboneup.js:71[52:54];Sink: err.toString();jawboneup.js:73[34:47]::FLOW_DESCR_END","/jawboneup/jawboneup.js","71","52","71","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;jawboneup.js:71[71:74];Sink: ""Error  ... message;jawboneup.js:78[38:200]::FLOW_DESCR_END","/jawboneup/jawboneup.js","71","71","71","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... nodeid);jawboneup.js:163[27:58];Sink: credentials;jawboneup.js:173[41:51]::FLOW_DESCR_END","/jawboneup/jawboneup.js","163","27","163","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;jawboneup.js:234[70:72];Sink: resp;jawboneup.js:239[50:53]::FLOW_DESCR_END","/jawboneup/jawboneup.js","234","70","234","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;jawboneup.js:234[89:92];Sink: message;jawboneup.js:246[54:60]::FLOW_DESCR_END","/jawboneup/jawboneup.js","234","89","234","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;weather.js:61[41:41];Sink: err;weather.js:145[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;weather.js:61[41:41];Sink: err;weather.js:193[36:38]::FLOW_DESCR_END","/openweathermap/weather.js","61","41","61","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;weather.js:110[37:37];Sink: err;weather.js:145[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;weather.js:110[37:37];Sink: err;weather.js:193[36:38]::FLOW_DESCR_END","/openweathermap/weather.js","110","37","110","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather.js:134[35:37];Sink: msg;weather.js:29[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:134[35:37];Sink: msg;weather.js:36[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:134[35:37];Sink: msg;weather.js:145[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:134[35:37];Sink: msg;weather.js:150[39:41]::FLOW_DESCR_END","/openweathermap/weather.js","134","35","134","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather.js:174[36:38];Sink: msg;weather.js:29[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:174[36:38];Sink: msg;weather.js:36[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:174[36:38];Sink: msg;weather.js:193[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:174[36:38];Sink: msg;weather.js:195[35:37]::FLOW_DESCR_END","/openweathermap/weather.js","174","36","174","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:42[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:46[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:82[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:87[36:38]::FLOW_DESCR_END","/pinboard/pinboard.js","40","39","40","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;pinboard.js:74[44:48];Sink: result.result_code;pinboard.js:82[40:57]::FLOW_DESCR_END","/pinboard/pinboard.js","74","44","74","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pinboard.js:86[40:42];Sink: err;pinboard.js:87[32:34]::FLOW_DESCR_END","/pinboard/pinboard.js","86","40","86","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;strava.js:44[21:23];Sink: error;strava.js:192[36:40]::FLOW_DESCR_END","/strava/strava.js","44","21","44","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;strava.js:44[26:31];Sink: error;strava.js:192[36:40]::FLOW_DESCR_END","/strava/strava.js","44","26","44","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;strava.js:44[34:37];Sink: data;strava.js:55[29:32]::FLOW_DESCR_END","/strava/strava.js","44","34","44","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;strava.js:83[21:23];Sink: error;strava.js:197[48:52]::FLOW_DESCR_END","/strava/strava.js","83","21","83","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;strava.js:83[26:31];Sink: error;strava.js:197[48:52]::FLOW_DESCR_END","/strava/strava.js","83","26","83","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;strava.js:83[34:37];Sink: data;strava.js:94[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;strava.js:83[34:37];Sink: error;strava.js:197[48:52]::FLOW_DESCR_END","/strava/strava.js","83","34","83","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;strava.js:188[35:37];Sink: msg;strava.js:192[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strava.js:188[35:37];Sink: msg;strava.js:197[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strava.js:188[35:37];Sink: msg;strava.js:200[47:49]::FLOW_DESCR_END","/strava/strava.js","188","35","188","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);strava.js:229[27:59];Sink: credentials;strava.js:254[42:52]::FLOW_DESCR_END","/strava/strava.js","229","27","229","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);strava.js:262[27:59];Sink: credentials;strava.js:315[46:56]::FLOW_DESCR_END","/strava/strava.js","262","27","262","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;strava.js:290[21:23];Sink: ""reques ... "" + err;strava.js:292[33:54]::FLOW_DESCR_END","/strava/strava.js","290","21","290","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;strava.js:290[26:31];Sink: ""Strava ... tusCode;strava.js:300[33:109]::FLOW_DESCR_END","/strava/strava.js","290","26","290","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;strava.js:290[34:37];Sink: ""oauth  ... a.error;strava.js:295[33:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;strava.js:290[34:37];Sink: data;strava.js:299[29:32]::FLOW_DESCR_END","/strava/strava.js","290","34","290","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;box_spec.js:82[50:69];Sink: '/box-c ... '+state;box_spec.js:85[34:88]::FLOW_DESCR_END","/test/box/box_spec.js","82","50","82","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;google_spec.js:69[50:69];Sink: '/googl ... '+state;google_spec.js:72[34:91]::FLOW_DESCR_END","/test/google/google_spec.js","69","50","69","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;instagram_spec.js:177[41:60];Sink: '/insta ... rfToken;instagram_spec.js:194[38:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;instagram_spec.js:177[41:60];Sink: '/insta ... rfToken;instagram_spec.js:211[38:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;instagram_spec.js:177[41:60];Sink: '/insta ... rfToken;instagram_spec.js:222[38:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;instagram_spec.js:177[41:60];Sink: '/insta ... rfToken;instagram_spec.js:232[38:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;instagram_spec.js:177[41:60];Sink: '/insta ... rfToken;instagram_spec.js:243[34:118]::FLOW_DESCR_END","/test/instagram/instagram_spec.js","177","41","177","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.headers.location;strava_spec.js:159[41:60];Sink: '/strav ... rfToken;strava_spec.js:176[38:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;strava_spec.js:159[41:60];Sink: '/strav ... rfToken;strava_spec.js:193[38:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;strava_spec.js:159[41:60];Sink: '/strav ... rfToken;strava_spec.js:204[38:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;strava_spec.js:159[41:60];Sink: '/strav ... rfToken;strava_spec.js:214[38:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.headers.location;strava_spec.js:159[41:60];Sink: '/strav ... rfToken;strava_spec.js:225[34:90]::FLOW_DESCR_END","/test/strava/strava_spec.js","159","41","159","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tfl-bus.js:27[40:44];Sink: error;tfl-bus.js:37[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;tfl-bus.js:27[40:44];Sink: stops;tfl-bus.js:162[22:26]::FLOW_DESCR_END","/tfl/tfl-bus.js","27","40","27","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;tfl-bus.js:27[47:54];Sink: response;tfl-bus.js:40[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;tfl-bus.js:27[47:54];Sink: stops;tfl-bus.js:162[22:26]::FLOW_DESCR_END","/tfl/tfl-bus.js","27","47","27","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;tfl-bus.js:27[57:60];Sink: stops;tfl-bus.js:162[22:26]::FLOW_DESCR_END","/tfl/tfl-bus.js","27","57","27","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tfl-bus.js:50[42:46];Sink: lines;tfl-bus.js:169[22:26]::FLOW_DESCR_END","/tfl/tfl-bus.js","50","42","50","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;tfl-bus.js:50[49:56];Sink: lines;tfl-bus.js:169[22:26]::FLOW_DESCR_END","/tfl/tfl-bus.js","50","49","50","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;tfl-bus.js:50[59:62];Sink: lines;tfl-bus.js:169[22:26]::FLOW_DESCR_END","/tfl/tfl-bus.js","50","59","50","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tfl-bus.js:81[42:46];Sink: err;tfl-bus.js:120[32:34]::FLOW_DESCR_END","/tfl/tfl-bus.js","81","42","81","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;tfl-bus.js:81[49:56];Sink: err;tfl-bus.js:120[32:34]::FLOW_DESCR_END","/tfl/tfl-bus.js","81","49","81","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tfl-bus.js:113[35:37];Sink: msg;tfl-bus.js:120[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-bus.js:113[35:37];Sink: msg;tfl-bus.js:145[27:29]::FLOW_DESCR_END","/tfl/tfl-bus.js","113","35","113","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:35[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:45[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:49[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: ""Invali ... ubeline;tfl-underground.js:80[48:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:80[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tfl-underground.js:29[35:37];Sink: msg;tfl-underground.js:82[47:49]::FLOW_DESCR_END","/tfl/tfl-underground.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tfl-underground.js:43[45:47];Sink: err.toString();tfl-underground.js:45[36:49]::FLOW_DESCR_END","/tfl/tfl-underground.js","43","45","43","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunder.js:110[35:37];Sink: msg;wunder.js:29[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunder.js:110[35:37];Sink: msg;wunder.js:36[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunder.js:110[35:37];Sink: msg;wunder.js:121[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunder.js:110[35:37];Sink: msg;wunder.js:126[39:41]::FLOW_DESCR_END","/weatherunderground/wunder.js","110","35","110","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunder.js:156[36:38];Sink: msg;wunder.js:29[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunder.js:156[36:38];Sink: msg;wunder.js:36[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunder.js:156[36:38];Sink: msg;wunder.js:175[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunder.js:156[36:38];Sink: msg;wunder.js:177[35:37]::FLOW_DESCR_END","/weatherunderground/wunder.js","156","36","156","38"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apn-notification.js:9[36:38];Sink: msg;apn-notification.js:108[27:29]::FLOW_DESCR_END","/apn/apn-notification.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apn.js:9[36:38];Sink: tokens;apn.js:78[45:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apn.js:9[36:38];Sink: msg;apn.js:85[31:33]::FLOW_DESCR_END","/apn/apn.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gcm-notification.js:9[36:38];Sink: msg;gcm-notification.js:89[27:29]::FLOW_DESCR_END","/gcm/gcm-notification.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gcm.js:9[36:38];Sink: msg;gcm.js:52[27:29]::FLOW_DESCR_END","/gcm/gcm.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web-notification.js:9[36:38];Sink: msg;web-notification.js:69[27:29]::FLOW_DESCR_END","/web/web-notification.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web.js:9[36:38];Sink: msg;web.js:71[35:37]::FLOW_DESCR_END","/web/web.js","9","36","9","38"

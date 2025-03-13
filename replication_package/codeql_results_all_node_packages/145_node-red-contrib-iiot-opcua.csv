@@ -1,0 +1,56 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-browser.js:258[27:29];Sink: originMessage;opcua-iiot-browser.js:156[85:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-browser.js:258[27:29];Sink: msg;opcua-iiot-browser.js:271[29:31]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-browser.js","258","27","258","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;opcua-iiot-connector.js:190[59:61];Sink: err;opcua-iiot-connector.js:401[28:30]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-connector.js","190","59","190","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-crawler.js:255[36:38];Sink: s;opcua-iiot-crawler.js:22[63:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-crawler.js:255[36:38];Sink: s;opcua-iiot-crawler.js:26[83:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-crawler.js:255[36:38];Sink: restMessage;opcua-iiot-crawler.js:185[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-crawler.js:255[36:38];Sink: payload;opcua-iiot-crawler.js:239[85:91]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-crawler.js","255","36","255","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-discovery.js:103[27:29];Sink: Object. ... ng() });opcua-iiot-discovery.js:109[27:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-discovery.js:103[27:29];Sink: outputMessage;opcua-iiot-discovery.js:118[23:35]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-discovery.js","103","27","103","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-flex-connector.js:32[27:29];Sink: msg;opcua-iiot-flex-connector.js:41[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-flex-connector.js:32[27:29];Sink: msg;opcua-iiot-flex-connector.js:46[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-flex-connector.js:32[27:29];Sink: msg;opcua-iiot-flex-connector.js:51[87:89]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-flex-connector.js","32","27","32","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-flex-server.js:136[36:38];Sink: err;opcua-iiot-flex-server.js:114[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-flex-server.js:136[36:38];Sink: msg;opcua-iiot-flex-server.js:114[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-flex-server.js:136[36:38];Sink: msg;opcua-iiot-flex-server.js:151[27:29]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-flex-server.js","136","36","136","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-inject.js:130[27:29];Sink: outputMessage;opcua-iiot-inject.js:149[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-inject.js:130[27:29];Sink: msg;opcua-iiot-inject.js:154[37:39]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-inject.js","130","27","130","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;opcua-iiot-listener.js:123[48:50];Sink: err;opcua-iiot-listener.js:126[32:34]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-listener.js","123","48","123","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: monitoredItem;opcua-iiot-listener.js:132[44:56];Sink: (_c = ( ... tring();opcua-iiot-listener.js:388[42:242]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: monitoredItem;opcua-iiot-listener.js:132[44:56];Sink: monitoredItem;opcua-iiot-listener.js:388[245:257]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: monitoredItem;opcua-iiot-listener.js:132[44:56];Sink: error;opcua-iiot-listener.js:406[32:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: monitoredItem;opcua-iiot-listener.js:132[44:56];Sink: nodeId;opcua-iiot-listener.js:430[53:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: monitoredItem;opcua-iiot-listener.js:132[44:56];Sink: nodeId;opcua-iiot-listener.js:496[53:58]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-listener.js","132","44","132","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;opcua-iiot-listener.js:402[38:40];Sink: error;opcua-iiot-listener.js:406[32:36]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-listener.js","402","38","402","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: msg;opcua-iiot-listener.js:215[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: Object. ...    } });opcua-iiot-listener.js:274[27:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: nodeIdToMonitor;opcua-iiot-listener.js:297[57:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: msg;opcua-iiot-listener.js:314[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: msg;opcua-iiot-listener.js:346[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: msg;opcua-iiot-listener.js:552[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: msg;opcua-iiot-listener.js:556[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-listener.js:564[27:29];Sink: msg;opcua-iiot-listener.js:574[79:81]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-listener.js","564","27","564","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-method-caller.js:128[36:38];Sink: msg;opcua-iiot-method-caller.js:120[29:31]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-method-caller.js","128","36","128","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-node.js:52[27:29];Sink: msg;opcua-iiot-node.js:70[41:43]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-node.js","52","27","52","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcua_i ... e, msg);opcua-iiot-read.js:100[13:122];Sink: message;opcua-iiot-read.js:104[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcua_i ... e, msg);opcua-iiot-read.js:100[13:122];Sink: 'JSON n ... ull, 2);opcua-iiot-read.js:156[31:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcua_i ... e, msg);opcua-iiot-read.js:100[13:122];Sink: readResult.msg;opcua-iiot-read.js:157[37:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcua_i ... e, msg);opcua-iiot-read.js:100[13:122];Sink: 'JSON n ... results;opcua-iiot-read.js:172[31:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcua_i ... e, msg);opcua-iiot-read.js:100[13:122];Sink: readResult.msg;opcua-iiot-read.js:173[37:50]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-read.js","100","13","100","122"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-read.js:189[36:38];Sink: msg;opcua-iiot-read.js:41[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-read.js:189[36:38];Sink: msg;opcua-iiot-read.js:181[29:31]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-read.js","189","36","189","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-response.js:220[27:29];Sink: Object. ... load });opcua-iiot-response.js:239[35:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-response.js:220[27:29];Sink: Object. ... load });opcua-iiot-response.js:243[31:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-response.js:220[27:29];Sink: msg;opcua-iiot-response.js:249[37:39]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-response.js","220","27","220","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-result-filter.js:69[27:29];Sink: s;opcua-iiot-result-filter.js:12[63:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-result-filter.js:69[27:29];Sink: s;opcua-iiot-result-filter.js:16[83:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-result-filter.js:69[27:29];Sink: new Err ... detype);opcua-iiot-result-filter.js:120[36:108]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-result-filter.js","69","27","69","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-server-cmd.js:27[27:29];Sink: Object. ... load });opcua-iiot-server-cmd.js:38[31:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-server-cmd.js:27[27:29];Sink: Object. ... load });opcua-iiot-server-cmd.js:45[27:91]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-server-cmd.js","27","27","27","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-server.js:81[27:29];Sink: err;opcua-iiot-server.js:47[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-server.js:81[27:29];Sink: msg;opcua-iiot-server.js:47[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-server.js:81[27:29];Sink: msg;opcua-iiot-server.js:96[23:25]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-server.js","81","27","81","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;opcua-iiot-write.js:95[27:29];Sink: msg;opcua-iiot-write.js:36[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-write.js:95[27:29];Sink: msg;opcua-iiot-write.js:50[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-write.js:95[27:29];Sink: msg;opcua-iiot-write.js:87[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;opcua-iiot-write.js:95[27:29];Sink: 'Wrong  ... write.';opcua-iiot-write.js:108[31:121]::FLOW_DESCR_END","/opcuaIIoT/opcua-iiot-write.js","95","27","95","29"

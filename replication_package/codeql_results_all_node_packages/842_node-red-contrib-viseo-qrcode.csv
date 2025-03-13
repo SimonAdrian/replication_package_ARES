@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-qrcode.js:18[23:26];Sink: data;node-qrcode.js:37[15:18]::FLOW_DESCR_END","/node-qrcode.js","18","23","18","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-qrcode.js:47[62:64];Sink: 'HTTP Error: ' + err;node-qrcode.js:48[37:56]::FLOW_DESCR_END","/node-qrcode.js","47","62","47","64"

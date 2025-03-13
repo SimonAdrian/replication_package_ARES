@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ebay-api.html:305[30:30];Sink: `${type ... value}`;ebay-api.html:310[85:111]::FLOW_DESCR_END","/ebay-api.html","305","30","305","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: type;ebay-api.html:305[33:36];Sink: `${type ... value}`;ebay-api.html:310[85:111]::FLOW_DESCR_END","/ebay-api.html","305","33","305","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ebay-api.js:12[32:34];Sink: [msg, null];ebay-api.js:19[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ebay-api.js:12[32:34];Sink: [msg, null];ebay-api.js:26[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ebay-api.js:12[32:34];Sink: [null, msg];ebay-api.js:33[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ebay-api.js:12[32:34];Sink: [null, msg];ebay-api.js:43[21:31]::FLOW_DESCR_END","/ebay-api.js","12","32","12","34"

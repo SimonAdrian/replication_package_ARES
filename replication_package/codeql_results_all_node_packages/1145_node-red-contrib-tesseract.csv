@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tesseract.js:13[29:31];Sink: msg;tesseract.js:77[15:17]::FLOW_DESCR_END","/tesseract.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tesseract.js:19[57:59];Sink: ""Encoun ... message;tesseract.js:23[18:81]::FLOW_DESCR_END","/tesseract.js","19","57","19","59"

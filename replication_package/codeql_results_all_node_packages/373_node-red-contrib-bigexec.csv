@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bigexec.js:107[34:36];Sink: err;bigexec.js:108[32:34]::FLOW_DESCR_END","/bigexec/bigexec.js","107","34","107","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigexec.js:158[34:36];Sink: msg;bigexec.js:196[36:38]::FLOW_DESCR_END","/bigexec/bigexec.js","158","34","158","36"

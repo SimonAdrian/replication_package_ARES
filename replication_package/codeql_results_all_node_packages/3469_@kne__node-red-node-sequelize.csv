@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sequelize.js:120[40:42];Sink: msg;sequelize.js:162[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequelize.js:120[40:42];Sink: msg;sequelize.js:167[68:70]::FLOW_DESCR_END","/sequelize.js","120","40","120","42"

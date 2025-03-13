@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mtopic;bridge.js:13[64:69];Sink: mtopic;bridge.js:14[38:43]::FLOW_DESCR_END","/bridge/bridge.js","13","64","13","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;bridge.js:13[72:79];Sink: mpayload;bridge.js:14[46:53]::FLOW_DESCR_END","/bridge/bridge.js","13","72","13","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;bridge.js:17[72:79];Sink: topic;bridge.js:19[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;bridge.js:17[72:79];Sink: payload;bridge.js:19[45:51]::FLOW_DESCR_END","/bridge/bridge.js","17","72","17","79"

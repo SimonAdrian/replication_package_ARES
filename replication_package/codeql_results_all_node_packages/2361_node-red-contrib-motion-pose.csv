@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pose-detect-iotcam.js:23[27:29];Sink: msg;pose-detect-iotcam.js:98[18:20]::FLOW_DESCR_END","/body/pose-detect-iotcam/pose-detect-iotcam.js","23","27","23","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pose-detect-iotcam.js:75[48:51];Sink: data;pose-detect-iotcam.js:68[58:61]::FLOW_DESCR_END","/body/pose-detect-iotcam/pose-detect-iotcam.js","75","48","75","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pose-detect-webcam.js:14[27:29];Sink: msg;pose-detect-webcam.js:20[18:20]::FLOW_DESCR_END","/body/pose-detect-webcam/pose-detect-webcam.js","14","27","14","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pose-find.js:6[35:37];Sink: msg;pose-find.js:15[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pose-find.js:6[35:37];Sink: msg;pose-find.js:133[23:25]::FLOW_DESCR_END","/body/pose-find/pose-find.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pose-register.js:6[35:37];Sink: msg;pose-register.js:123[23:25]::FLOW_DESCR_END","/body/pose-register/pose-register.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hand-detect-iotcam.js:23[27:29];Sink: msg;hand-detect-iotcam.js:97[18:20]::FLOW_DESCR_END","/hand/hand-detect-iotcam/hand-detect-iotcam.js","23","27","23","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;hand-detect-iotcam.js:74[48:51];Sink: data;hand-detect-iotcam.js:67[58:61]::FLOW_DESCR_END","/hand/hand-detect-iotcam/hand-detect-iotcam.js","74","48","74","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hand-detect-webcam.js:15[27:29];Sink: msg;hand-detect-webcam.js:18[18:20]::FLOW_DESCR_END","/hand/hand-detect-webcam/hand-detect-webcam.js","15","27","15","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hand-find.js:79[32:34];Sink: msg;hand-find.js:112[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hand-find.js:79[32:34];Sink: msg;hand-find.js:154[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hand-find.js:79[32:34];Sink: msg;hand-find.js:188[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hand-find.js:79[32:34];Sink: msg;hand-find.js:233[17:19]::FLOW_DESCR_END","/hand/hand-find/hand-find.js","79","32","79","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hand-register.js:79[32:34];Sink: msg;hand-register.js:91[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hand-register.js:79[32:34];Sink: msg;hand-register.js:126[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hand-register.js:79[32:34];Sink: msg;hand-register.js:160[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hand-register.js:79[32:34];Sink: msg;hand-register.js:208[17:19]::FLOW_DESCR_END","/hand/hand-register/hand-register.js","79","32","79","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monitor.js:57[36:38];Sink: msg;monitor.js:58[48:50]::FLOW_DESCR_END","/monitor/monitor.js","57","36","57","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monitor.js:67[27:29];Sink: msg;monitor.js:73[18:20]::FLOW_DESCR_END","/monitor/monitor.js","67","27","67","29"

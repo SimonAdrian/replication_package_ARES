@@ -1,0 +1,85 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;account.js:25[36:38];Sink: msg;account.js:40[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:25[36:38];Sink: ""privat ... vateKey;account.js:43[32:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:25[36:38];Sink: msg;account.js:43[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:25[36:38];Sink: msg;account.js:46[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:25[36:38];Sink: msg;account.js:50[35:37]::FLOW_DESCR_END","/NEMNodes/account/account.js","25","36","25","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;accountInfo.js:28[36:38];Sink: msg;accountInfo.js:39[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:28[36:38];Sink: ""addres ... address;accountInfo.js:48[32:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:28[36:38];Sink: msg;accountInfo.js:48[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:28[36:38];Sink: msg;accountInfo.js:51[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:28[36:38];Sink: msg;accountInfo.js:54[35:37]::FLOW_DESCR_END","/NEMNodes/account/accountInfo.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;accountInfo.js:42[29:33];Sink: error;accountInfo.js:44[44:48]::FLOW_DESCR_END","/NEMNodes/account/accountInfo.js","42","29","42","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;generateAccount.js:24[36:38];Sink: msg;generateAccount.js:32[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generateAccount.js:24[36:38];Sink: msg;generateAccount.js:35[35:37]::FLOW_DESCR_END","/NEMNodes/account/generateAccount.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;publicAccount.js:26[36:38];Sink: msg;publicAccount.js:39[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publicAccount.js:26[36:38];Sink: ""public ... blicKey;publicAccount.js:42[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publicAccount.js:26[36:38];Sink: msg;publicAccount.js:42[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publicAccount.js:26[36:38];Sink: msg;publicAccount.js:45[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publicAccount.js:26[36:38];Sink: msg;publicAccount.js:48[35:37]::FLOW_DESCR_END","/NEMNodes/account/publicAccount.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signData.js:28[36:38];Sink: msg;signData.js:50[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signData.js:28[36:38];Sink: errorText;signData.js:52[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signData.js:28[36:38];Sink: msg;signData.js:56[35:37]::FLOW_DESCR_END","/NEMNodes/account/signData.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: msg;signTransaction.js:39[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: msg;signTransaction.js:43[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: msg;signTransaction.js:47[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: ""privat ... vateKey;signTransaction.js:50[32:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: msg;signTransaction.js:50[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: msg;signTransaction.js:53[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:26[36:38];Sink: msg;signTransaction.js:56[35:37]::FLOW_DESCR_END","/NEMNodes/account/signTransaction.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transactions.js:32[36:38];Sink: msg;transactions.js:58[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transactions.js:32[36:38];Sink: msg;transactions.js:64[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transactions.js:32[36:38];Sink: ""public ... blicKey;transactions.js:73[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transactions.js:32[36:38];Sink: msg;transactions.js:73[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transactions.js:32[36:38];Sink: msg;transactions.js:76[55:57]::FLOW_DESCR_END","/NEMNodes/account/transactions.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;transactions.js:67[29:33];Sink: error;transactions.js:69[44:48]::FLOW_DESCR_END","/NEMNodes/account/transactions.js","67","29","67","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;verifySignature.js:28[36:38];Sink: msg;verifySignature.js:49[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;verifySignature.js:28[36:38];Sink: errorText;verifySignature.js:52[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;verifySignature.js:28[36:38];Sink: msg;verifySignature.js:55[35:37]::FLOW_DESCR_END","/NEMNodes/account/verifySignature.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;serverConfig.js:27[48:53];Sink: ""server ... is.host;serverConfig.js:33[24:74]::FLOW_DESCR_END","/NEMNodes/config/serverConfig.js","27","48","27","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;serverConfig.js:30[39:44];Sink: ""server ... is.host;serverConfig.js:33[24:74]::FLOW_DESCR_END","/NEMNodes/config/serverConfig.js","30","39","30","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;serverConfig.js:33[66:74];Sink: ""server ... is.host;serverConfig.js:33[24:74]::FLOW_DESCR_END","/NEMNodes/config/serverConfig.js","33","66","33","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listener.js:32[36:38];Sink: msg;listener.js:54[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listener.js:32[36:38];Sink: msg;listener.js:68[73:75]::FLOW_DESCR_END","/NEMNodes/listeners/listener.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;newBlock.js:29[36:38];Sink: msg;newBlock.js:48[51:53]::FLOW_DESCR_END","/NEMNodes/listeners/newBlock.js","29","36","29","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aggregateBondedTransaction.js:27[36:38];Sink: msg;aggregateBondedTransaction.js:57[35:37]::FLOW_DESCR_END","/NEMNodes/transactions/aggregateBondedTransaction.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aggregateCompleteTransaction.js:28[36:38];Sink: msg;aggregateCompleteTransaction.js:57[35:37]::FLOW_DESCR_END","/NEMNodes/transactions/aggregateCompleteTransaction.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;announceTransaction.js:27[36:38];Sink: msg;announceTransaction.js:39[35:37]::FLOW_DESCR_END","/NEMNodes/transactions/announceTransaction.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;announceTransaction.js:41[25:29];Sink: error;announceTransaction.js:43[40:44]::FLOW_DESCR_END","/NEMNodes/transactions/announceTransaction.js","41","25","41","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cosignatureTransaction.js:22[36:38];Sink: msg;cosignatureTransaction.js:30[31:33]::FLOW_DESCR_END","/NEMNodes/transactions/cosignatureTransaction.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createMosaicDefinitionTransaction.js:31[36:38];Sink: msg;createMosaicDefinitionTransaction.js:54[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createMosaicDefinitionTransaction.js:31[36:38];Sink: ""namesp ... orrect"";createMosaicDefinitionTransaction.js:57[32:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createMosaicDefinitionTransaction.js:31[36:38];Sink: msg;createMosaicDefinitionTransaction.js:57[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createMosaicDefinitionTransaction.js:31[36:38];Sink: ""mosaic ... orrect"";createMosaicDefinitionTransaction.js:60[32:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createMosaicDefinitionTransaction.js:31[36:38];Sink: msg;createMosaicDefinitionTransaction.js:60[77:79]::FLOW_DESCR_END","/NEMNodes/transactions/createMosaicDefinitionTransaction.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createNamespaceTransaction.js:27[36:38];Sink: msg;createNamespaceTransaction.js:43[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNamespaceTransaction.js:27[36:38];Sink: ""namesp ... mespace;createNamespaceTransaction.js:46[32:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createNamespaceTransaction.js:27[36:38];Sink: msg;createNamespaceTransaction.js:46[74:76]::FLOW_DESCR_END","/NEMNodes/transactions/createNamespaceTransaction.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSubNamespaceTransaction.js:27[36:38];Sink: msg;createSubNamespaceTransaction.js:44[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSubNamespaceTransaction.js:27[36:38];Sink: ""subNam ... mespace;createSubNamespaceTransaction.js:47[32:77]::FLOW_DESCR_END","/NEMNodes/transactions/createSubNamespaceTransaction.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lockFundTransaction.js:24[36:38];Sink: msg;lockFundTransaction.js:39[31:33]::FLOW_DESCR_END","/NEMNodes/transactions/lockFundTransaction.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modifyMultisigAccountTransaction.js:31[36:38];Sink: msg;modifyMultisigAccountTransaction.js:61[31:33]::FLOW_DESCR_END","/NEMNodes/transactions/modifyMultisigAccountTransaction.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mosaicSupplyChangeTransaction.js:27[36:38];Sink: msg;mosaicSupplyChangeTransaction.js:44[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicSupplyChangeTransaction.js:27[36:38];Sink: ""mosaic ... orrect"";mosaicSupplyChangeTransaction.js:47[32:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicSupplyChangeTransaction.js:27[36:38];Sink: msg;mosaicSupplyChangeTransaction.js:47[77:79]::FLOW_DESCR_END","/NEMNodes/transactions/mosaicSupplyChangeTransaction.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;secretLockTransaction.js:34[36:38];Sink: msg;secretLockTransaction.js:58[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secretLockTransaction.js:34[36:38];Sink: ""addres ... orrect"";secretLockTransaction.js:61[36:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secretLockTransaction.js:34[36:38];Sink: msg;secretLockTransaction.js:61[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secretLockTransaction.js:34[36:38];Sink: ""mosaic ... orrect"";secretLockTransaction.js:64[36:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secretLockTransaction.js:34[36:38];Sink: msg;secretLockTransaction.js:64[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;secretLockTransaction.js:34[36:38];Sink: msg;secretLockTransaction.js:68[67:69]::FLOW_DESCR_END","/NEMNodes/transactions/secretLockTransaction.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;secretProofTransaction.js:30[36:38];Sink: msg;secretProofTransaction.js:47[27:29]::FLOW_DESCR_END","/NEMNodes/transactions/secretProofTransaction.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transferTransaction.js:30[36:38];Sink: msg;transferTransaction.js:60[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transferTransaction.js:30[36:38];Sink: ""addres ... orrect"";transferTransaction.js:63[32:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transferTransaction.js:30[36:38];Sink: msg;transferTransaction.js:63[79:81]::FLOW_DESCR_END","/NEMNodes/transactions/transferTransaction.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;format.js:27[36:38];Sink: msg;format.js:32[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;format.js:27[36:38];Sink: msg;format.js:40[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;format.js:27[36:38];Sink: msg;format.js:52[35:37]::FLOW_DESCR_END","/NEMNodes/utility/format.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;format.js:33[28:30];Sink: err;format.js:34[40:42]::FLOW_DESCR_END","/NEMNodes/utility/format.js","33","28","33","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;format.js:41[28:30];Sink: err;format.js:42[40:42]::FLOW_DESCR_END","/NEMNodes/utility/format.js","41","28","41","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;input.js:29[36:38];Sink: msg;input.js:38[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;input.js:29[36:38];Sink: msg;input.js:40[35:37]::FLOW_DESCR_END","/NEMNodes/utility/input.js","29","36","29","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mosaicInfo.js:27[36:38];Sink: msg;mosaicInfo.js:37[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicInfo.js:27[36:38];Sink: ""mosaic ...  mosaic;mosaicInfo.js:42[36:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicInfo.js:27[36:38];Sink: msg;mosaicInfo.js:42[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicInfo.js:27[36:38];Sink: msg;mosaicInfo.js:45[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicInfo.js:27[36:38];Sink: msg;mosaicInfo.js:49[35:37]::FLOW_DESCR_END","/NEMNodes/utility/mosaicInfo.js","27","36","27","38"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;converse.js:31[32:34];Sink: msg;converse.js:63[21:23]::FLOW_DESCR_END","/tjbot/converse.js","31","32","31","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tjbot.js:30[32:34];Sink: err;tjbot.js:31[26:28]::FLOW_DESCR_END","/tjbot/dist/tjbot.js","30","32","30","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listen.js:91[32:34];Sink: msg;listen.js:83[19:21]::FLOW_DESCR_END","/tjbot/listen.js","91","32","91","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;see.js:121[32:34];Sink: msg;see.js:68[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;see.js:121[32:34];Sink: msg;see.js:99[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;see.js:121[32:34];Sink: msg;see.js:109[25:27]::FLOW_DESCR_END","/tjbot/see.js","121","32","121","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speak.js:137[32:34];Sink: msg;speak.js:50[19:21]::FLOW_DESCR_END","/tjbot/speak.js","137","32","137","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tone.js:30[32:34];Sink: msg;tone.js:48[21:23]::FLOW_DESCR_END","/tjbot/tone.js","30","32","30","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translate.js:82[32:34];Sink: msg;translate.js:92[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translate.js:82[32:34];Sink: msg;translate.js:105[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translate.js:82[32:34];Sink: msg;translate.js:123[31:33]::FLOW_DESCR_END","/tjbot/translate.js","82","32","82","34"

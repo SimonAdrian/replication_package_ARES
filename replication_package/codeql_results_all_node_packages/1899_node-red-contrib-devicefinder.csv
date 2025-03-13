@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: xkeysPanel;devicefinder.js:61[28:37];Sink: xkeysPanel.uniqueId;devicefinder.js:138[39:57]::FLOW_DESCR_END","/devicefinder.js","61","28","61","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;devicefinder.js:137[32:35];Sink: data;devicefinder.js:138[33:36]::FLOW_DESCR_END","/devicefinder.js","137","32","137","35"

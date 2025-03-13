@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbusReadNodeI.js:19[30:32];Sink: msgOut;modbusReadNodeI.js:130[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbusReadNodeI.js:19[30:32];Sink: msgOut;modbusReadNodeI.js:135[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbusReadNodeI.js:19[30:32];Sink: msgOut;modbusReadNodeI.js:139[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbusReadNodeI.js:19[30:32];Sink: msgOut;modbusReadNodeI.js:146[25:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;modbusReadNodeI.js:19[30:32];Sink: msgOut;modbusReadNodeI.js:150[25:30]::FLOW_DESCR_END","/modbusReadNodes/modbusReadNodeI.js","19","30","19","32"

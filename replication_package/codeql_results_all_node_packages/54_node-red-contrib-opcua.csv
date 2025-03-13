@@ -1,0 +1,110 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;101-opcuaitem.js:49[36:38];Sink: (node.n ... Message;101-opcuaitem.js:38[27:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;101-opcuaitem.js:49[36:38];Sink: msg;101-opcuaitem.js:77[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;101-opcuaitem.js:49[36:38];Sink: ""Unknow ... + items;opcua-basics.js:565[23:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;101-opcuaitem.js:49[36:38];Sink: ""Unknow ... atatype;opcua-basics.js:699[19:55]::FLOW_DESCR_END","/opcua/101-opcuaitem.js","49","36","49","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.localkeyfile;102-opcuaclient.js:53[25:38];Sink: chalk.r ... y(err));102-opcuaclient.js:169[18:94]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","53","25","53","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... ificate;102-opcuaclient.js:71[27:55];Sink: ""User c ... ificate;102-opcuaclient.js:143[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... ificate;102-opcuaclient.js:71[27:55];Sink: ""User c ... ificate;102-opcuaclient.js:465[22:74]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","71","27","71","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... vatekey;102-opcuaclient.js:72[26:53];Sink: ""User p ... vatekey;102-opcuaclient.js:148[20:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... vatekey;102-opcuaclient.js:72[26:53];Sink: ""User p ... vatekey;102-opcuaclient.js:469[22:73]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","72","26","72","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.localkeyfile;102-opcuaclient.js:80[21:37];Sink: chalk.r ... y(err));102-opcuaclient.js:169[18:94]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","80","21","80","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... ls.user;102-opcuaclient.js:136[19:48];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... ls.user;102-opcuaclient.js:136[19:48];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... ls.user;102-opcuaclient.js:136[19:48];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","136","19","136","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:137[19:52];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:137[19:52];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:137[19:52];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","137","19","137","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: crypto_ ... atekey);102-opcuaclient.js:150[26:71];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: crypto_ ... atekey);102-opcuaclient.js:150[26:71];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: crypto_ ... atekey);102-opcuaclient.js:150[26:71];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","150","26","150","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... ls.user;102-opcuaclient.js:449[23:52];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... ls.user;102-opcuaclient.js:449[23:52];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... ls.user;102-opcuaclient.js:449[23:52];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","449","23","449","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:450[23:56];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:450[23:56];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:450[23:56];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","450","23","450","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:457[23:44];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:457[23:44];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:457[23:44];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","457","23","457","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: crypto_ ... atekey);102-opcuaclient.js:471[28:73];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: crypto_ ... atekey);102-opcuaclient.js:471[28:73];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: crypto_ ... atekey);102-opcuaclient.js:471[28:73];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","471","28","471","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: userIde ... assword;102-opcuaclient.js:531[176:196];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: userIde ... assword;102-opcuaclient.js:531[176:196];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","531","176","531","196"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;102-opcuaclient.js:629[45:47];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","629","45","629","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: chalk.r ... y(err));102-opcuaclient.js:169[18:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: opcuaEn ... ndpoint;102-opcuaclient.js:527[35:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:875[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: buf;102-opcuaclient.js:909[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1028[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1235[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1302[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1313[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1327[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1341[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1355[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [newMsg, null];102-opcuaclient.js:1517[23:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1782[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msg, null];102-opcuaclient.js:1791[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: msg.topic;102-opcuaclient.js:2022[46:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: nodeStr;102-opcuaclient.js:2067[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: [msgToSend, null];102-opcuaclient.js:2108[21:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: msg.topic;102-opcuaclient.js:2136[46:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: nodeStr;102-opcuaclient.js:2202[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: msg.topic;102-opcuaclient.js:2251[46:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: msg.topic;102-opcuaclient.js:2341[46:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: msg.topic;102-opcuaclient.js:2366[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: ""Unknow ... + items;opcua-basics.js:565[23:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-opcuaclient.js:643[30:32];Sink: ""Unknow ... atatype;opcua-basics.js:699[19:55]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","643","30","643","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... alue });102-opcuaclient.js:799[33:111];Sink: chalk.r ... y(err));102-opcuaclient.js:169[18:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.se ... alue });102-opcuaclient.js:799[33:111];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","799","33","799","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... alue });102-opcuaclient.js:813[36:131];Sink: chalk.y ... dState);102-opcuaclient.js:814[22:81]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","813","36","813","131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: clientF ... d(size);102-opcuaclient.js:860[29:49];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","860","29","860","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... leName);102-opcuaclient.js:901[19:47];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... leName);102-opcuaclient.js:901[19:47];Sink: buf;102-opcuaclient.js:909[34:36]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","901","19","901","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:1063[23:44];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:1063[23:44];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:1063[23:44];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","1063","23","1063","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... tion });102-opcuaclient.js:1554[49:146];Sink: chalk.r ... y(err));102-opcuaclient.js:169[18:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.se ... tion });102-opcuaclient.js:1554[49:146];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","1554","49","1554","146"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dataValue;102-opcuaclient.js:1993[46:54];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","1993","46","1993","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: index;102-opcuaclient.js:1993[57:61];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","1993","57","1993","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dataValue;102-opcuaclient.js:2077[47:55];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dataValue;102-opcuaclient.js:2077[47:55];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2077","47","2077","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: monitoredItem;102-opcuaclient.js:2208[30:42];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2208","30","2208","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dataValue;102-opcuaclient.js:2208[45:53];Sink: chalk.c ... essage);102-opcuaclient.js:173[20:229]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dataValue;102-opcuaclient.js:2208[45:53];Sink: logMessage;102-opcuaclient.js:174[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dataValue;102-opcuaclient.js:2208[45:53];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2208","45","2208","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: index;102-opcuaclient.js:2208[56:60];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2208","56","2208","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: element;102-opcuaclient.js:2292[41:47];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: element;102-opcuaclient.js:2292[41:47];Sink: ""Cannot ... tring!"";opcua-basics.js:230[17:82]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2292","41","2292","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err_message;102-opcuaclient.js:2383[45:55];Sink: chalk.r ... y(err));102-opcuaclient.js:169[18:94]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2383","45","2383","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opcuaEn ... assword;102-opcuaclient.js:2469[23:44];Sink: chalk.y ... essage);102-opcuaclient.js:179[20:43]::FLOW_DESCR_END","/opcua/102-opcuaclient.js","2469","23","2469","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;103-opcuabrowser.js:162[36:38];Sink: ""nodeId ... oBrowse;103-opcuabrowser.js:104[28:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;103-opcuabrowser.js:162[36:38];Sink: msg;103-opcuabrowser.js:188[27:29]::FLOW_DESCR_END","/opcua/103-opcuabrowser.js","162","36","162","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .users);104-opcuaserver.js:101[36:62];Sink: logMessage;104-opcuaserver.js:191[28:37]::FLOW_DESCR_END","/opcua/104-opcuaserver.js","101","36","101","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;104-opcuaserver.js:508[68:73];Sink: ""Reason: "" + reason;104-opcuaserver.js:509[32:50]::FLOW_DESCR_END","/opcua/104-opcuaserver.js","508","68","508","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: ""Server ... fy(err);104-opcuaserver.js:178[24:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: (node.n ... Message;104-opcuaserver.js:184[27:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: logMessage;104-opcuaserver.js:191[28:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: ""Cannot ... aType!"";104-opcuaserver.js:224[24:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: msg;104-opcuaserver.js:574[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: ""Variab ... bleName;104-opcuaserver.js:722[36:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: ""INDEXE ... ndexStr;104-opcuaserver.js:938[40:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: msg;104-opcuaserver.js:1247[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: msg.filename;104-opcuaserver.js:1542[50:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: ""Unknow ... + items;opcua-basics.js:565[23:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;104-opcuaserver.js:532[36:38];Sink: ""Unknow ... atatype;opcua-basics.js:699[19:55]::FLOW_DESCR_END","/opcua/104-opcuaserver.js","532","36","532","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;104-opcuaserver.js:1717[68:73];Sink: ""Reason: "" + reason;104-opcuaserver.js:1718[32:50]::FLOW_DESCR_END","/opcua/104-opcuaserver.js","1717","68","1717","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;106-opcuaevent.js:36[36:38];Sink: msg;106-opcuaevent.js:45[23:25]::FLOW_DESCR_END","/opcua/106-opcuaevent.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;107-opcuamethod.js:436[32:34];Sink: logMessage;107-opcuamethod.js:337[20:29]::FLOW_DESCR_END","/opcua/107-opcuamethod.js","436","32","436","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;108-opcuarights.js:63[32:34];Sink: ""Concat ... merged);108-opcuarights.js:136[21:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;108-opcuarights.js:63[32:34];Sink: ""Permis ... ssions);108-opcuarights.js:144[19:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;108-opcuarights.js:63[32:34];Sink: msg;108-opcuarights.js:146[17:19]::FLOW_DESCR_END","/opcua/108-opcuarights.js","63","32","63","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... 0].port;109-opcuadiscovery.js:95[61:84];Sink: ""  serv ... ring());109-opcuadiscovery.js:95[22:96]::FLOW_DESCR_END","/opcua/109-opcuadiscovery.js","95","61","95","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;109-opcuadiscovery.js:105[34:41];Sink: "" reque ... tring();109-opcuadiscovery.js:109[15:76]::FLOW_DESCR_END","/opcua/109-opcuadiscovery.js","105","34","105","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;109-opcuadiscovery.js:116[14:20];Sink: "" reque ... ma.name;109-opcuadiscovery.js:120[17:50]::FLOW_DESCR_END","/opcua/109-opcuadiscovery.js","116","14","116","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;109-opcuadiscovery.js:133[32:34];Sink: msg;109-opcuadiscovery.js:163[21:23]::FLOW_DESCR_END","/opcua/109-opcuadiscovery.js","133","32","133","34"

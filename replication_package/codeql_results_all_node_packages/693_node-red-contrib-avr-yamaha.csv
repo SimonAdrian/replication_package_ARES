@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;avr-yamaha.js:221[42:45];Sink: 'This i ... result);avr-yamaha.js:251[31:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;avr-yamaha.js:221[42:45];Sink: 'This i ...  + body;avr-yamaha.js:252[31:104]::FLOW_DESCR_END","/avr-yamaha.js","221","42","221","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;avr-yamaha.js:272[34:36];Sink: 'Failed ... ' + err;avr-yamaha.js:273[20:72]::FLOW_DESCR_END","/avr-yamaha.js","272","34","272","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;avr-yamaha.js:312[47:51];Sink: event;avr-yamaha.js:314[43:47]::FLOW_DESCR_END","/avr-yamaha.js","312","47","312","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avr-yamaha.js:318[48:50];Sink: ""UPnP E ... tring();avr-yamaha.js:323[22:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avr-yamaha.js:318[48:50];Sink: 'Unknow ... result);avr-yamaha.js:376[29:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avr-yamaha.js:318[48:50];Sink: 'Proper ...  + prop;avr-yamaha.js:384[28:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avr-yamaha.js:318[48:50];Sink: 'Receiv ...  + prop;avr-yamaha.js:490[30:90]::FLOW_DESCR_END","/avr-yamaha.js","318","48","318","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;avr-yamaha.js:504[73:84];Sink: 'UDP cl ... ss.port;avr-yamaha.js:504[20:84]::FLOW_DESCR_END","/avr-yamaha.js","504","73","504","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avr-yamaha.js:606[33:35];Sink: msg;avr-yamaha.js:618[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avr-yamaha.js:606[33:35];Sink: msg;avr-yamaha.js:621[78:80]::FLOW_DESCR_END","/avr-yamaha.js","606","33","606","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avr-yamaha.js:651[31:33];Sink: msg;avr-yamaha.js:683[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avr-yamaha.js:651[31:33];Sink: msg;avr-yamaha.js:686[72:74]::FLOW_DESCR_END","/avr-yamaha.js","651","31","651","33"

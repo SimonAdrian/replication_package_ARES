@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;httpouterror.js:221[23:25];Sink: headers;httpouterror.js:28[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;httpouterror.js:221[23:25];Sink: msg.coo ... ].value;httpouterror.js:41[46:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;httpouterror.js:221[23:25];Sink: msg.cookies[name];httpouterror.js:41[70:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;httpouterror.js:221[23:25];Sink: msg.cookies[name];httpouterror.js:43[46:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;httpouterror.js:221[23:25];Sink: statusCode;httpouterror.js:229[33:42]::FLOW_DESCR_END","/src/httpouterror.js","221","23","221","25"

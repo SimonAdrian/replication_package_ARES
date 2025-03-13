@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sqlparser.js:9[31:33];Sink: msg;sqlparser.js:16[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlparser.js:9[31:33];Sink: msg;sqlparser.js:19[19:21]::FLOW_DESCR_END","/lib/sqlparser.js","9","31","9","33"

@@ -1,0 +1,57 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[prop].command;index3d.html:96[61:78];Sink: c;index3d.html:112[31:31]::FLOW_DESCR_END","/worldmap/index3d.html","96","61","96","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: t;leaflet.js:5[1725:1725]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO t ... odeName;nvg.js:87[20:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO t ... odeName;nvg.js:126[21:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: node.attributes;nvg.js:133[31:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO p ... odeName;nvg.js:175[21:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO p ... odeName;nvg.js:180[21:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO p ... odeName;nvg.js:213[21:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO p ... on.ring;nvg.js:305[18:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: 'TODO p ... rawable;nvg.js:502[19:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: fileName;worldmap.js:69[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: fileName;worldmap.js:78[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: fileName;worldmap.js:83[47:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: e;worldmap.js:112[75:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: baselayername;worldmap.js:528[77:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: clusterAt;worldmap.js:598[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... :true});worldmap.js:1461[37:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... :true});worldmap.js:1462[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: data[""name""];worldmap.js:1758[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... .name});worldmap.js:2527[33:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: cmd.map.name;worldmap.js:2612[36:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: cmd.map.name;worldmap.js:2621[36:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: cmd.map.name;worldmap.js:2653[40:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: opt;worldmap.js:2653[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: cmd.map.minimap;worldmap.js:2673[59:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... metry});worldmap.js:2738[37:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: cmd.map.overlay;worldmap.js:2941[36:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... eNames);worldmap.js:3104[39:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... tomCmd);worldmap.js:3108[38:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[prop].command;worldmap.js:122[49:66];Sink: JSON.st ... tomCmd);worldmap.js:3113[49:77]::FLOW_DESCR_END","/worldmap/worldmap.js","122","49","122","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:329[26:26];Sink: JSON.st ... ined)});worldmap.js:347[13:163]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:329[26:26];Sink: data.lat;worldmap.js:1742[66:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:329[26:26];Sink: data.lon;worldmap.js:1742[86:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:329[26:26];Sink: data.lat;worldmap.js:1743[66:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:329[26:26];Sink: data.lon;worldmap.js:1743[86:93]::FLOW_DESCR_END","/worldmap/worldmap.js","329","26","329","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:350[26:26];Sink: e.message;worldmap.js:350[43:51]::FLOW_DESCR_END","/worldmap/worldmap.js","350","26","350","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:717[31:31];Sink: JSON.st ... .name});worldmap.js:738[13:60]::FLOW_DESCR_END","/worldmap/worldmap.js","717","31","717","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:741[34:34];Sink: JSON.st ... .name});worldmap.js:752[13:60]::FLOW_DESCR_END","/worldmap/worldmap.js","741","34","741","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:755[36:36];Sink: baselayername;worldmap.js:528[77:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:755[36:36];Sink: JSON.st ... .name});worldmap.js:758[13:57]::FLOW_DESCR_END","/worldmap/worldmap.js","755","36","755","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:903[32:32];Sink: JSON.stringify(d);worldmap.js:859[13:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:903[32:32];Sink: JSON.st ... k.lng});worldmap.js:887[17:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:903[32:32];Sink: data.lat;worldmap.js:1742[66:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:903[32:32];Sink: data.lon;worldmap.js:1742[86:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:903[32:32];Sink: data.lat;worldmap.js:1743[66:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;worldmap.js:903[32:32];Sink: data.lon;worldmap.js:1743[86:93]::FLOW_DESCR_END","/worldmap/worldmap.js","903","32","903","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:1471[45:45];Sink: JSON.stringify(m);worldmap.js:1487[17:33]::FLOW_DESCR_END","/worldmap/worldmap.js","1471","45","1471","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.coordinates[1];worldmap.js:1732[66:84];Sink: e;worldmap.js:112[75:75]::FLOW_DESCR_END","/worldmap/worldmap.js","1732","66","1732","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.coordinates[0];worldmap.js:1732[86:104];Sink: e;worldmap.js:112[75:75]::FLOW_DESCR_END","/worldmap/worldmap.js","1732","86","1732","104"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.coordinates[2];worldmap.js:1764[67:85];Sink: e;worldmap.js:112[75:75]::FLOW_DESCR_END","/worldmap/worldmap.js","1764","67","1764","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.coordinates[1];worldmap.js:1764[87:105];Sink: e;worldmap.js:112[75:75]::FLOW_DESCR_END","/worldmap/worldmap.js","1764","87","1764","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .opts');worldmap.js:22[23:75];Sink: JSON.st ... ts }}});worldmap.js:138[38:140]::FLOW_DESCR_END","/worldmap.js","22","23","22","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;worldmap.js:64[53:53];Sink: ""Socket ... e.stack;worldmap.js:64[69:103]::FLOW_DESCR_END","/worldmap.js","64","53","64","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;worldmap.js:95[40:46];Sink: JSON.stringify(m);worldmap.js:86[38:54]::FLOW_DESCR_END","/worldmap.js","95","40","95","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;worldmap.js:173[35:37];Sink: msg;worldmap.js:180[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;worldmap.js:173[35:37];Sink: JSON.st ... ayload);worldmap.js:188[51:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;worldmap.js:173[35:37];Sink: JSON.st ... ayload);worldmap.js:194[42:68]::FLOW_DESCR_END","/worldmap.js","173","35","173","37"

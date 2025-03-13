@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;german-holidays.js:578[36:38];Sink: msg;german-holidays.js:580[87:89]::FLOW_DESCR_END","/german-holidays.js","578","36","578","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: outMsg.data.year;german-holidays.js:663[73:88];Sink: `_getSp ... cNext}`;german-holidays.js:181[16:89]::FLOW_DESCR_END","/german-holidays.js","663","73","663","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: outMsg.data.year;german-holidays.js:681[66:81];Sink: `_getSp ... cNext}`;german-holidays.js:181[16:89]::FLOW_DESCR_END","/german-holidays.js","681","66","681","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: outMsg.data.year;german-holidays.js:694[61:76];Sink: `_getSp ... cNext}`;german-holidays.js:181[16:89]::FLOW_DESCR_END","/german-holidays.js","694","61","694","76"

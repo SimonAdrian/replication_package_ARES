@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cognito.js:24[35:37];Sink: msg;cognito.js:29[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito.js:24[35:37];Sink: msg;cognito.js:37[25:27]::FLOW_DESCR_END","/cognito.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ses.js:24[35:37];Sink: msg;ses.js:29[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ses.js:24[35:37];Sink: msg;ses.js:35[25:27]::FLOW_DESCR_END","/ses.js","24","35","24","37"

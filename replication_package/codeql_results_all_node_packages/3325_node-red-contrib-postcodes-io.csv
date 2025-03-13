@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;01-postcode-lookup.js:13[36:38];Sink: payload ... tcode.';01-postcode-lookup.js:37[36:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;01-postcode-lookup.js:13[36:38];Sink: msg;01-postcode-lookup.js:53[31:33]::FLOW_DESCR_END","/01-postcode-lookup.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;02-postcode-exists.js:13[36:38];Sink: msg;02-postcode-exists.js:38[31:33]::FLOW_DESCR_END","/02-postcode-exists.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;03-postcode-near.js:13[36:38];Sink: payload ... ation.';03-postcode-near.js:46[36:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;03-postcode-near.js:13[36:38];Sink: msg;03-postcode-near.js:62[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;03-postcode-near.js:13[36:38];Sink: msg;03-postcode-near.js:78[31:33]::FLOW_DESCR_END","/03-postcode-near.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.location;03-postcode-near.js:46[36:51];Sink: payload ... ation.';03-postcode-near.js:46[36:81]::FLOW_DESCR_END","/03-postcode-near.js","46","36","46","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;04-postcode-random.js:13[36:38];Sink: msg;04-postcode-random.js:20[27:29]::FLOW_DESCR_END","/04-postcode-random.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;05-postcode-reverse-geocode.js:13[36:38];Sink: msg;05-postcode-reverse-geocode.js:34[27:29]::FLOW_DESCR_END","/05-postcode-reverse-geocode.js","13","36","13","38"

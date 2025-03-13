@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: outputTopic;10-fusion.js:24[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: outputTopic;10-fusion.js:25[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: topic;10-fusion.js:53[48:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: outputTopic;10-fusion.js:94[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: inputTopic;10-fusion.js:108[66:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: inputTopic;10-fusion.js:111[38:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: outputTopic;10-fusion.js:119[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: topic;10-fusion.js:131[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: msg;10-fusion.js:131[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;10-fusion.js:75[31:33];Sink: topic;10-fusion.js:134[55:59]::FLOW_DESCR_END","/10-fusion.js","75","31","75","33"

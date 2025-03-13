@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: supply;sxutil.js:163[31:36];Sink: supply;sxutil.js:164[36:41]::FLOW_DESCR_END","/sxutil.js","163","31","163","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sxutil.js:216[32:32];Sink: err;subscribe.js:110[47:49]::FLOW_DESCR_END","/sxutil.js","216","32","216","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: st;sxutil.js:220[33:34];Sink: st;sxutil.js:221[39:40]::FLOW_DESCR_END","/sxutil.js","220","33","220","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;subscribe.js:96[9:11];Sink: err;subscribe.js:110[47:49]::FLOW_DESCR_END","/synerex/nodes/subscribe.js","96","9","96","11"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: success;subscribe.js:97[9:15];Sink: successData;sxutil.js:340[32:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: success;subscribe.js:97[9:15];Sink: success;subscribe.js:114[38:44]::FLOW_DESCR_END","/synerex/nodes/subscribe.js","97","9","97","15"

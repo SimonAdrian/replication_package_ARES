@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;harperdb.js:50[31:33];Sink: msg;harperdb.js:116[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;harperdb.js:50[31:33];Sink: msg;harperdb.js:125[21:23]::FLOW_DESCR_END","/harperdb.js","50","31","50","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;harperdb.js:113[33:37];Sink: error;harperdb.js:116[24:28]::FLOW_DESCR_END","/harperdb.js","113","33","113","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;harperdb.js:113[50:53];Sink: body.error;harperdb.js:118[24:33]::FLOW_DESCR_END","/harperdb.js","113","50","113","53"

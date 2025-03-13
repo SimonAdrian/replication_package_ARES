@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;find-user.js:21[32:34];Sink: msg;find-user.js:83[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find-user.js:21[32:34];Sink: msg;find-user.js:127[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find-user.js:21[32:34];Sink: msg;find-user.js:137[27:29]::FLOW_DESCR_END","/nodes/find-user.js","21","32","21","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;login-user.js:21[21:45];Sink: ""0["" +  ... d + ""]"";login-user.js:24[17:57]::FLOW_DESCR_END","/nodes/login-user.js","21","21","21","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;login-user.js:22[21:45];Sink: ""0["" +  ... d + ""]"";login-user.js:24[17:57]::FLOW_DESCR_END","/nodes/login-user.js","22","21","22","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: ""1["" +  ... d + ""]"";login-user.js:41[19:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: ""3["" +  ...  + text;login-user.js:67[21:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: msg;login-user.js:69[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: ""[4"" +  ...  + text;login-user.js:79[23:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: msg;login-user.js:81[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: '--- tr ... ame+']';login-user.js:86[19:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: msg;login-user.js:125[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login-user.js:26[32:34];Sink: msg;login-user.js:140[23:25]::FLOW_DESCR_END","/nodes/login-user.js","26","32","26","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.username;login-user.js:38[47:66];Sink: ""1["" +  ... d + ""]"";login-user.js:41[19:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.username;login-user.js:38[47:66];Sink: ""[4"" +  ...  + text;login-user.js:79[23:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.username;login-user.js:38[47:66];Sink: '--- tr ... ame+']';login-user.js:86[19:57]::FLOW_DESCR_END","/nodes/login-user.js","38","47","38","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.password;login-user.js:39[47:66];Sink: ""1["" +  ... d + ""]"";login-user.js:41[19:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.password;login-user.js:39[47:66];Sink: ""3["" +  ...  + text;login-user.js:67[21:72]::FLOW_DESCR_END","/nodes/login-user.js","39","47","39","66"

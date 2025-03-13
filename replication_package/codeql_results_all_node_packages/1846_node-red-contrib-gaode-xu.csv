@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gaode.js:18[36:38];Sink: image_map;gaode.js:29[22:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gaode.js:18[36:38];Sink: msg;gaode.js:58[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gaode.js:18[36:38];Sink: msg;gaode.js:65[27:29]::FLOW_DESCR_END","/gaode.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gaode.js:90[36:38];Sink: msg;gaode.js:143[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gaode.js:90[36:38];Sink: msg;gaode.js:150[27:29]::FLOW_DESCR_END","/gaode.js","90","36","90","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gaode.js:192[36:38];Sink: msg;gaode.js:213[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gaode.js:192[36:38];Sink: msg;gaode.js:219[27:29]::FLOW_DESCR_END","/gaode.js","192","36","192","38"

@@ -1,0 +1,38 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;central.js:49[33:35];Sink: msg;central.js:53[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;central.js:49[33:35];Sink: msg.source;central.js:58[24:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;central.js:49[33:35];Sink: msg.state;central.js:58[36:44]::FLOW_DESCR_END","/central/central.js","49","33","49","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compare.js:59[36:38];Sink: msg;compare.js:82[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compare.js:59[36:38];Sink: ""Topic  ... g.topic;compare.js:88[35:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compare.js:59[36:38];Sink: ""Payloa ... payload;compare.js:96[35:77]::FLOW_DESCR_END","/compare/compare.js","59","36","59","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;counter.js:51[36:38];Sink: ""Invali ... l_topic;counter.js:114[32:61]::FLOW_DESCR_END","/counter/counter.js","51","36","51","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delay.js:83[36:38];Sink: msg;delay.js:140[26:28]::FLOW_DESCR_END","/delay/delay.js","83","36","83","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;heating-curve.js:49[36:38];Sink: ""Invali ... l_topic;heating-curve.js:119[32:61]::FLOW_DESCR_END","/heating-curve/heating-curve.js","49","36","49","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;light.js:84[36:38];Sink: ""Invali ... gTimeMs;light.js:290[35:77]::FLOW_DESCR_END","/light/light.js","84","36","84","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logic.js:60[36:38];Sink: msg;logic.js:83[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logic.js:60[36:38];Sink: ""Topic  ... g.topic;logic.js:89[28:97]::FLOW_DESCR_END","/logic/logic.js","60","36","60","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mixing-valve.js:70[36:38];Sink: ""Invali ... payload;mixing-valve.js:147[47:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mixing-valve.js:70[36:38];Sink: ""Invali ... payload;mixing-valve.js:162[47:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mixing-valve.js:70[36:38];Sink: ""Invali ... l_topic;mixing-valve.js:184[39:68]::FLOW_DESCR_END","/mixing-valve/mixing-valve.js","70","36","70","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;compare.js:66[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;compare.js:107[24:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;counter.js:58[40:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_se ... message;counter.js:137[23:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;delay.js:90[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;delay.js:119[52:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;delay.js:127[52:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;delay.js:136[52:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;delay.js:212[48:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;forwarder.js:62[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;hysteresis.js:85[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;logic.js:67[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;logic.js:102[24:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: JSON.st ... alData);persistence.js:43[32:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;scheduler.js:83[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;scheduler.js:230[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");persistence.js:20[31:59];Sink: node_settings;statistic.js:59[44:56]::FLOW_DESCR_END","/persistence.js","20","31","20","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scene.js:82[36:38];Sink: ""Invali ... gTimeMs;scene.js:249[28:70]::FLOW_DESCR_END","/scene/scene.js","82","36","82","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shutter.js:72[36:38];Sink: msg;shutter.js:95[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter.js:72[36:38];Sink: msg;shutter.js:209[74:76]::FLOW_DESCR_END","/shutter/shutter.js","72","36","72","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shutter-complex.js:100[36:38];Sink: msg;shutter-complex.js:123[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter-complex.js:100[36:38];Sink: ""stop a ...  + ""ms"";shutter-complex.js:395[28:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shutter-complex.js:100[36:38];Sink: ""stop a ...  + ""ms"";shutter-complex.js:452[28:61]::FLOW_DESCR_END","/shutter-complex/shutter-complex.js","100","36","100","38"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitreloaderNode.js:58[30:32];Sink: obj;bitreloaderNode.js:4[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bitreloaderNode.js:58[30:32];Sink: level;bitreloaderNode.js:4[69:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bitreloaderNode.js:58[30:32];Sink: msg;bitreloaderNode.js:63[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bitreloaderNode.js:58[30:32];Sink: node.mode;bitreloaderNode.js:73[61:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bitreloaderNode.js:58[30:32];Sink: msg;bitreloaderNode.js:86[9:11]::FLOW_DESCR_END","/src/bitreloaderNode.js","58","30","58","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitunloaderNode.js:10[30:32];Sink: msg;bitunloaderNode.js:18[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bitunloaderNode.js:10[30:32];Sink: msg;bitunloaderNode.js:53[10:12]::FLOW_DESCR_END","/src/bitunloaderNode.js","10","30","10","32"

@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.username;ctrlx-config.js:45[22:39];Sink: postData;CtrlxCore.js:329[15:22]::FLOW_DESCR_END","/ctrlx-config.js","45","22","45","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.password;ctrlx-config.js:46[22:39];Sink: postData;CtrlxCore.js:329[15:22]::FLOW_DESCR_END","/ctrlx-config.js","46","22","46","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;ctrlx-config.js:128[23:47];Sink: postData;CtrlxCore.js:329[15:22]::FLOW_DESCR_END","/ctrlx-config.js","128","23","128","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;ctrlx-config.js:129[23:47];Sink: postData;CtrlxCore.js:329[15:22]::FLOW_DESCR_END","/ctrlx-config.js","129","23","129","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;ctrlx-config.js:136[47:59];Sink: postData;CtrlxCore.js:329[15:22]::FLOW_DESCR_END","/ctrlx-config.js","136","47","136","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;ctrlx-config.js:136[62:74];Sink: postData;CtrlxCore.js:329[15:22]::FLOW_DESCR_END","/ctrlx-config.js","136","62","136","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:120[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:134[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:169[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:198[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:252[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:261[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:283[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:309[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:331[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:340[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:362[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:372[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:394[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:416[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ctrlx-datalayer-request.js:98[33:35];Sink: msg;ctrlx-datalayer-request.js:429[93:95]::FLOW_DESCR_END","/ctrlx-datalayer-request.js","98","33","98","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: p.port;CtrlxCore.js:103[18:23];Sink: this._port;CtrlxCore.js:674[9:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: p.port;CtrlxCore.js:103[18:23];Sink: `_creat ... ${url}`;CtrlxDatalayerSubscription.js:229[15:52]::FLOW_DESCR_END","/lib/CtrlxCore.js","103","18","103","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;CtrlxCore.js:325[22:24];Sink: err;CtrlxCore.js:471[48:50]::FLOW_DESCR_END","/lib/CtrlxCore.js","325","22","325","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;CtrlxCore.js:383[22:24];Sink: `failed ... ssage}`;CtrlxCore.js:554[19:68]::FLOW_DESCR_END","/lib/CtrlxCore.js","383","22","383","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;CtrlxDatalayerSubscription.js:238[22:24];Sink: err;CtrlxDatalayerSubscription.js:239[44:46]::FLOW_DESCR_END","/lib/CtrlxDatalayerSubscription.js","238","22","238","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;benchmark.js:201[23:26];Sink: JSON.stringify(data);benchmark.js:203[19:38]::FLOW_DESCR_END","/test/helper/benchmark.js","201","23","201","26"

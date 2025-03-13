@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchpad.colors.off;test.js:28[29:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... red.low;test.js:30[26:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... .medium;test.js:31[29:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... ed.high;test.js:32[27:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... een.low;test.js:34[28:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... .medium;test.js:35[31:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... en.high;test.js:36[29:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... nge.low;test.js:38[29:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... .medium;test.js:39[32:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... ge.high;test.js:40[30:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... low.low;test.js:42[29:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... .medium;test.js:43[32:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: launchpad;test.js:7[35:43];Sink: launchp ... ow.high;test.js:44[30:57]::FLOW_DESCR_END","/test.js","7","35","7","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: button;test.js:12[31:36];Sink: button. ... ressed';test.js:13[17:54]::FLOW_DESCR_END","/test.js","12","31","12","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: button;test.js:19[34:39];Sink: button. ... ressed';test.js:20[17:54]::FLOW_DESCR_END","/test.js","19","34","19","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: button;test.js:23[36:41];Sink: button. ... leased';test.js:24[17:55]::FLOW_DESCR_END","/test.js","23","36","23","41"

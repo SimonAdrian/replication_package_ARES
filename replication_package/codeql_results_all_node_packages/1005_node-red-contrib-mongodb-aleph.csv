@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongodb.js:74[64:66];Sink: err;mongodb.js:77[47:49]::FLOW_DESCR_END","/mongodb.js","74","64","74","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:98[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg.payload;mongodb.js:113[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:115[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:119[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:123[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:125[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:129[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:143[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:147[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:153[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:157[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:176[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:180[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:186[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:92[46:48];Sink: msg;mongodb.js:190[43:45]::FLOW_DESCR_END","/mongodb.js","92","46","92","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongodb.js:222[64:66];Sink: err;mongodb.js:225[47:49]::FLOW_DESCR_END","/mongodb.js","222","64","222","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb.js:236[47:49];Sink: msg;mongodb.js:276[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:236[47:49];Sink: msg;mongodb.js:288[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb.js:236[47:49];Sink: msg;mongodb.js:305[52:54]::FLOW_DESCR_END","/mongodb.js","236","47","236","49"

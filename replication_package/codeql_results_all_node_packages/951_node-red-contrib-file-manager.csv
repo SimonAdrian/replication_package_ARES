@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;file-manager.js:10[32:34];Sink: msg;file-manager.js:14[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;file-manager.js:10[32:34];Sink: msg;file-manager.js:17[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;file-manager.js:10[32:34];Sink: _filePath;file-manager.js:32[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;file-manager.js:10[32:34];Sink: msg.file;file-manager.js:32[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;file-manager.js:10[32:34];Sink: msg;file-manager.js:34[19:21]::FLOW_DESCR_END","/file-manager.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;file-manager.js:47[32:34];Sink: msg;file-manager.js:52[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;file-manager.js:47[32:34];Sink: msg;file-manager.js:55[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;file-manager.js:47[32:34];Sink: msg;file-manager.js:95[17:19]::FLOW_DESCR_END","/file-manager.js","47","32","47","34"

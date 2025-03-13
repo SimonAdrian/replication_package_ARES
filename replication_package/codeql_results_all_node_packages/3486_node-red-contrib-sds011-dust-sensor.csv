@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sds011-node.js:20[33:35];Sink: err;sds011-node.js:22[41:43]::FLOW_DESCR_END","/sds011-node/sds011-node.js","20","33","20","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sds011-node.js:31[32:35];Sink: 'buffer ... .length;sds011-node.js:218[18:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sds011-node.js:31[32:35];Sink: 'wrong  ... ffer[9];sds011-node.js:223[18:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sds011-node.js:31[32:35];Sink: msg;sds011-node.js:380[12:14]::FLOW_DESCR_END","/sds011-node/sds011-node.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sds011-node.js:35[31:33];Sink: 'Comman ... rameter;sds011-node.js:44[16:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sds011-node.js:35[31:33];Sink: 'Unknow ... payload;sds011-node.js:89[22:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sds011-node.js:35[31:33];Sink: buffer;sds011-node.js:117[16:21]::FLOW_DESCR_END","/sds011-node/sds011-node.js","35","31","35","33"

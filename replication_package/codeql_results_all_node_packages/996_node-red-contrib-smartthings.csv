@@ -1,0 +1,35 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-accel.js:79[31:33];Sink: msg;smartthings-accel.js:40[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-accel.js:79[31:33];Sink: msg;smartthings-accel.js:83[29:31]::FLOW_DESCR_END","/smartthings/smartthings-accel.js","79","31","79","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-battery.js:82[31:33];Sink: msg;smartthings-battery.js:43[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-battery.js:82[31:33];Sink: msg;smartthings-battery.js:87[29:31]::FLOW_DESCR_END","/smartthings/smartthings-battery.js","82","31","82","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-color-temperature.js:130[31:33];Sink: msg;smartthings-color-temperature.js:135[29:31]::FLOW_DESCR_END","/smartthings/smartthings-color-temperature.js","130","31","130","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-color.js:235[31:33];Sink: msg;smartthings-color.js:239[29:31]::FLOW_DESCR_END","/smartthings/smartthings-color.js","235","31","235","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-energy-meter.js:81[31:33];Sink: msg;smartthings-energy-meter.js:42[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-energy-meter.js:81[31:33];Sink: msg;smartthings-energy-meter.js:85[29:31]::FLOW_DESCR_END","/smartthings/smartthings-energy-meter.js","81","31","81","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-humidity.js:81[31:33];Sink: msg;smartthings-humidity.js:42[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-humidity.js:81[31:33];Sink: msg;smartthings-humidity.js:85[29:31]::FLOW_DESCR_END","/smartthings/smartthings-humidity.js","81","31","81","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-illuminance.js:78[31:33];Sink: msg;smartthings-illuminance.js:40[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-illuminance.js:78[31:33];Sink: msg;smartthings-illuminance.js:82[29:31]::FLOW_DESCR_END","/smartthings/smartthings-illuminance.js","78","31","78","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-level.js:111[31:33];Sink: msg;smartthings-level.js:115[29:31]::FLOW_DESCR_END","/smartthings/smartthings-level.js","111","31","111","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-lock.js:73[31:33];Sink: msg;smartthings-lock.js:38[18:20]::FLOW_DESCR_END","/smartthings/smartthings-lock.js","73","31","73","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-motion.js:74[31:33];Sink: msg;smartthings-motion.js:38[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-motion.js:74[31:33];Sink: msg;smartthings-motion.js:78[29:31]::FLOW_DESCR_END","/smartthings/smartthings-motion.js","74","31","74","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-onoff.js:74[31:33];Sink: msg;smartthings-onoff.js:38[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-onoff.js:74[31:33];Sink: msg;smartthings-onoff.js:78[31:33]::FLOW_DESCR_END","/smartthings/smartthings-onoff.js","74","31","74","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-openclose.js:83[31:33];Sink: msg;smartthings-openclose.js:39[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-openclose.js:83[31:33];Sink: msg;smartthings-openclose.js:87[29:31]::FLOW_DESCR_END","/smartthings/smartthings-openclose.js","83","31","83","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-power-meter.js:81[31:33];Sink: msg;smartthings-power-meter.js:42[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-power-meter.js:81[31:33];Sink: msg;smartthings-power-meter.js:85[29:31]::FLOW_DESCR_END","/smartthings/smartthings-power-meter.js","81","31","81","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-presence.js:74[31:33];Sink: msg;smartthings-presence.js:38[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-presence.js:74[31:33];Sink: msg;smartthings-presence.js:78[29:31]::FLOW_DESCR_END","/smartthings/smartthings-presence.js","74","31","74","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-smoke.js:78[31:33];Sink: msg;smartthings-smoke.js:40[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-smoke.js:78[31:33];Sink: msg;smartthings-smoke.js:82[29:31]::FLOW_DESCR_END","/smartthings/smartthings-smoke.js","78","31","78","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-status.js:70[31:33];Sink: msg;smartthings-status.js:37[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-status.js:70[31:33];Sink: msg;smartthings-status.js:74[29:31]::FLOW_DESCR_END","/smartthings/smartthings-status.js","70","31","70","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-temperature.js:81[31:33];Sink: msg;smartthings-temperature.js:42[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-temperature.js:81[31:33];Sink: msg;smartthings-temperature.js:85[29:31]::FLOW_DESCR_END","/smartthings/smartthings-temperature.js","81","31","81","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-thermostat.js:257[31:33];Sink: msg;smartthings-thermostat.js:261[29:31]::FLOW_DESCR_END","/smartthings/smartthings-thermostat.js","257","31","257","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-threeaxis.js:90[31:33];Sink: msg;smartthings-threeaxis.js:44[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-threeaxis.js:90[31:33];Sink: msg;smartthings-threeaxis.js:94[29:31]::FLOW_DESCR_END","/smartthings/smartthings-threeaxis.js","90","31","90","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartthings-water.js:78[31:33];Sink: msg;smartthings-water.js:40[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartthings-water.js:78[31:33];Sink: msg;smartthings-water.js:82[29:31]::FLOW_DESCR_END","/smartthings/smartthings-water.js","78","31","78","33"

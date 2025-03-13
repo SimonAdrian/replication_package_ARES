@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;v1.js:115[11:15];Sink: messageTxt;v1.js:245[16:25]::FLOW_DESCR_END","/nodes/v1.js","115","11","115","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;v1.js:115[18:25];Sink: messageTxt;v1.js:245[16:25]::FLOW_DESCR_END","/nodes/v1.js","115","18","115","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;v1.js:153[11:15];Sink: messageTxt;v1.js:245[16:25]::FLOW_DESCR_END","/nodes/v1.js","153","11","153","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;v1.js:153[18:25];Sink: messageTxt;v1.js:245[16:25]::FLOW_DESCR_END","/nodes/v1.js","153","18","153","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;v1.js:153[28:31];Sink: messageTxt;v1.js:245[16:25]::FLOW_DESCR_END","/nodes/v1.js","153","28","153","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cn.host;v1.js:177[22:28];Sink: uriAddress;v1.js:180[17:26]::FLOW_DESCR_END","/nodes/v1.js","177","22","177","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:255[31:33];Sink: msg;v1.js:245[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:255[31:33];Sink: msg;v1.js:289[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:255[31:33];Sink: msg;v1.js:293[21:23]::FLOW_DESCR_END","/nodes/v1.js","255","31","255","33"

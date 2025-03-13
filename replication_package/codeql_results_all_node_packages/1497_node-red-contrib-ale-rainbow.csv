@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ale-rainbow-function.js:224[39:41];Sink: msg;ale-rainbow-function.js:272[46:48]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow-function.js","224","39","224","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... r.pop();ale-rainbow.js:74[23:53];Sink: ""Remove ... r.name);ale-rainbow.js:76[22:110]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","74","23","74","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... r.pop();ale-rainbow.js:78[23:53];Sink: ""Remove ... r.name);ale-rainbow.js:76[22:110]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","78","23","78","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... r.pop();ale-rainbow.js:81[19:52];Sink: ""Remove ... r.name);ale-rainbow.js:83[22:114]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","81","19","81","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... r.pop();ale-rainbow.js:85[23:56];Sink: ""Remove ... r.name);ale-rainbow.js:83[22:114]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","85","23","85","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ale-rainbow.js:365[74:78];Sink: ""onLogi ... (error);ale-rainbow.js:368[26:140]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","365","74","365","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ale-rainbow.js:388[68:72];Sink: ""onLogi ... e.name);ale-rainbow.js:391[26:98]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","388","68","388","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ale-rainbow.js:410[76:80];Sink: ""onLogi ... rrorStr;ale-rainbow.js:414[26:128]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","410","76","410","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;ale-rainbow.js:442[45:48];Sink: ""\u00a7\u00a7\u00a7\u00a7\u00a7\u00a7 ... e.name);ale-rainbow.js:457[26:118]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","442","45","442","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ale-rainbow.js:641[36:38];Sink: ""Got AP ... ct(msg);ale-rainbow.js:642[22:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ale-rainbow.js:641[36:38];Sink: ""Rainbo ... ct(msg);ale-rainbow.js:643[22:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ale-rainbow.js:641[36:38];Sink: msg;ale-rainbow.js:740[33:35]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","641","36","641","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ale-rainbow.js:814[36:38];Sink: ""Rainbo ... r.name);ale-rainbow.js:865[30:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ale-rainbow.js:814[36:38];Sink: ""Rainbo ... r.name);ale-rainbow.js:872[50:211]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ale-rainbow.js:814[36:38];Sink: ""Rainbo ... failed"";ale-rainbow.js:877[50:130]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","814","36","814","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ale-rainbow.js:963[96:102];Sink: ""Rainbo ... r.name);ale-rainbow.js:957[31:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ale-rainbow.js:963[96:102];Sink: ""Rainbo ... r.name);ale-rainbow.js:988[26:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ale-rainbow.js:963[96:102];Sink: ""Rainbo ... r.name);ale-rainbow.js:1002[30:141]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ale-rainbow.js:963[96:102];Sink: ""Rainbo ... r.name);ale-rainbow.js:1004[34:147]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","963","96","963","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ale-rainbow.js:1090[36:38];Sink: ""Ack ms ... ct(msg);ale-rainbow.js:1091[22:51]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","1090","36","1090","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: contact;ale-rainbow.js:1111[130:136];Sink: ""Rainbo ... ontact);ale-rainbow.js:1116[26:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: contact;ale-rainbow.js:1111[130:136];Sink: ""Rainbo ... fy(res);ale-rainbow.js:1118[26:73]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","1111","130","1111","136"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... s.login;ale-rainbow.js:1158[83:127];Sink: ""Rainbo ... ull, 2);ale-rainbow.js:1158[18:137]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","1158","83","1158","127"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... s.login;ale-rainbow.js:1160[84:128];Sink: ""Rainbo ... ull, 2);ale-rainbow.js:1160[22:138]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","1160","84","1160","128"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ale-rainbow.js:1168[36:38];Sink: ""Set pr ... ct(msg);ale-rainbow.js:1169[22:56]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","1168","36","1168","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ale-rainbow.js:1214[36:38];Sink: ""Sendin ... r.name);ale-rainbow.js:1234[30:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ale-rainbow.js:1214[36:38];Sink: ""Can't  ... rrorTxt;ale-rainbow.js:1255[32:67]::FLOW_DESCR_END","/ale-rainbow/ale-rainbow.js","1214","36","1214","38"

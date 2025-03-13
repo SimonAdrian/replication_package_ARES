@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;check_mqtt_connection.js:11[36:38];Sink: msg;check_mqtt_connection.js:39[22:24]::FLOW_DESCR_END","/check_mqtt_connection.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;check_mqtt_connection.js:23[49:59];Sink: `mqtt:/ ... .port}`;check_mqtt_connection.js:23[39:76]::FLOW_DESCR_END","/check_mqtt_connection.js","23","49","23","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;check_mqtt_connection.js:23[64:74];Sink: `mqtt:/ ... .port}`;check_mqtt_connection.js:23[39:76]::FLOW_DESCR_END","/check_mqtt_connection.js","23","64","23","74"

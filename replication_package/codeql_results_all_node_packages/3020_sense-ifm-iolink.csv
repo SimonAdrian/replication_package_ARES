@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;sense-dp2200.js:9[47:57];Sink: requestJSON;sense-dp2200.js:62[27:37]::FLOW_DESCR_END","/sense-dp2200.js","9","47","9","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;sense-tv7105.js:9[47:57];Sink: requestJSON;sense-tv7105.js:63[27:37]::FLOW_DESCR_END","/sense-tv7105.js","9","47","9","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;sense-vvb010.js:9[47:57];Sink: requestJSON;sense-vvb010.js:130[27:37]::FLOW_DESCR_END","/sense-vvb010.js","9","47","9","57"

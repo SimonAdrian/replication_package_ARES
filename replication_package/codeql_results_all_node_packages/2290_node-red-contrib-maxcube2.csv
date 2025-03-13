@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;maxcube.js:38[45:47];Sink: err;maxcube.js:39[16:18]::FLOW_DESCR_END","/maxcube.js","38","45","38","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: serverConfig.host;maxcube.js:51[30:46];Sink: ""maxcub ... sabled"";maxcube.js:51[19:58]::FLOW_DESCR_END","/maxcube.js","51","30","51","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: serverConfig.host;maxcube.js:54[52:68];Sink: ""closin ... ig.host;maxcube.js:54[21:68]::FLOW_DESCR_END","/maxcube.js","54","52","54","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;maxcube.js:80[31:33];Sink: 'Temper ... ta+ ')';maxcube.js:97[22:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maxcube.js:80[31:33];Sink: 'Temper ... eeded.';maxcube.js:100[23:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maxcube.js:80[31:33];Sink: 'Device ... address;maxcube.js:117[23:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maxcube.js:80[31:33];Sink: 'Reset  ... eeded.';maxcube.js:120[24:114]::FLOW_DESCR_END","/maxcube.js","80","31","80","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;maxcube.js:350[44:44];Sink: e;maxcube.js:351[30:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;maxcube.js:350[44:44];Sink: JSON.stringify(e);maxcube.js:353[20:36]::FLOW_DESCR_END","/maxcube.js","350","44","350","44"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dnssd.js:12[39:41];Sink: 'dnssdA ... : ' + e;dnssd.js:48[28:53]::FLOW_DESCR_END","/dnssd.js","12","39","12","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dnssd.js:247[33:35];Sink: msg.payload;dnssd.js:251[98:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dnssd.js:247[33:35];Sink: msg.payload;dnssd.js:253[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dnssd.js:247[33:35];Sink: 'dnssd. ... : ' + e;dnssd.js:280[28:48]::FLOW_DESCR_END","/dnssd.js","247","33","247","35"

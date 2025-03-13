@@ -1,0 +1,108 @@
+<script type="text/html" data-template-name="google">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css" />
+    <div class="form-row">
+        <label for="node-input-google">
+            <i class="fa fa-google"></i>
+            Connection</label>
+        <input type="text" id="node-input-google" />
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-taskListId">Task List</label>
+        <select id="node-input-taskListId" style="width: 70%"></select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-taskTitle">
+            Task Title</label>
+        <input type="text" placeholder="Task title" name="node-input-taskTitle" id="node-input-taskTitle" style="display: inline-block; vertical-align: top;">
+    </div>
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js"></script>
+
+<script type="text/javascript">
+    var selecteTaskListId;
+    RED.nodes.registerType('google', {
+        category: 'Google Tasks',
+        color: '#FFCC66',
+        icon: 'google.png',
+        defaults: {
+            google: {
+                type: "google-credentials",
+                required: true
+            },
+            taskListId: {
+                type: "text",
+                value: '',
+                required: true
+            },
+            taskTitle: {
+                type: "text",
+                value: '',
+                required: true
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        label: function() {
+            return this.name || "Google Auth Add Task";
+        },
+        oneditprepare: function() {
+            var google = $("#node-input-google").val() || "";
+            console.log("GOOGLE: ", google);
+
+            // get accessToken
+            window.googleConfigNodeIntervalId = window.setTimeout(pollGoogleCredentials, 3000);
+
+            function pollGoogleCredentials() {
+                $.getJSON('credentials/google-credentials/' + google, function(data) {
+                    if (data.token.access_token) {
+                        this.accessToken = data.token.access_token;
+                        getTaskList();
+                        // delete
+                        window.clearTimeout(window.googleConfigNodeIntervalId);
+                        delete window.googleConfigNodeIntervalId;
+                    } else {
+                        window.googleConfigNodeIntervalId = window.setTimeout(pollGoogleCredentials, 3000);
+                    }
+                });
+            }
+
+            // call api get task list
+            function getTaskList() {
+                $.getJSON('tasklist', function(data) {
+                    if (data && data.length) {
+                        data.forEach(function(element) {
+                            if (!selecteTaskListId) {
+                                selecteTaskListId = element.id;
+                            }
+                            $("#node-input-taskListId").append('<option value=' + element.id + '>' + element.title + '</option>');
+                            if (selecteTaskListId == element.id) {
+                                $('#node-input-taskListId option[value="' + selecteTaskListId + '"]').prop('selected', true)
+                            }
+                        })
+                        console.log("selecteTaskListId: ", selecteTaskListId);
+                    } else {
+                        $("#node-input-taskListId").find('option').remove().end();
+                    }
+
+                });
+            }
+
+        },
+        oneditsave: function() {
+            selecteTaskListId = $("#node-input-taskListId option:selected").val();
+
+            if (window.googleConfigNodeIntervalId) {
+                window.clearTimeout(window.googleConfigNodeIntervalId);
+                delete window.googleConfigNodeIntervalId;
+            }
+        },
+        oneditcancel: function() {
+            if (window.googleConfigNodeIntervalId) {
+                window.clearTimeout(window.googleConfigNodeIntervalId);
+                delete window.googleConfigNodeIntervalId;
+            }
+        }
+    });
+</script>

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notification-center.js:8[26:28];Sink: [null, msg];notification-center.js:16[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notification-center.js:8[26:28];Sink: [msg, null];notification-center.js:18[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notification-center.js:8[26:28];Sink: e.message;notification-center.js:29[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notification-center.js:8[26:28];Sink: e;notification-center.js:30[27:27]::FLOW_DESCR_END","/main/notification-center.js","8","26","8","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notification-center_spec.js:136[42:44];Sink: msg;notification-center_spec.js:137[29:31]::FLOW_DESCR_END","/test/notification-center_spec.js","136","42","136","44"

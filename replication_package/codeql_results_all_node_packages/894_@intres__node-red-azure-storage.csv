@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-blob-storage-download.js:7[33:35];Sink: msg;azure-blob-storage-download.js:20[39:41]::FLOW_DESCR_END","/azure-blob-storage-download.js","7","33","7","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-blob-storage-upload.js:7[33:35];Sink: msg;azure-blob-storage-upload.js:22[39:41]::FLOW_DESCR_END","/azure-blob-storage-upload.js","7","33","7","35"

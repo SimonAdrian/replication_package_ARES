@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: PollError;MIIOgetdata.js:66[36:44];Sink: PollError;MIIOgetdata.js:68[19:27]::FLOW_DESCR_END","/nodes/MIIOgetdata.js","66","36","66","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MIIOsendcommand.js:14[31:33];Sink: SinglePayload;MIIOsendcommand.js:42[58:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;MIIOsendcommand.js:14[31:33];Sink: msg;MIIOsendcommand.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;MIIOsendcommand.js:14[31:33];Sink: CustomJsonCMD;MIIOsendcommand.js:66[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;MIIOsendcommand.js:14[31:33];Sink: msg;MIIOsendcommand.js:70[19:21]::FLOW_DESCR_END","/nodes/MIIOsendcommand.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: SingleCMDErrorMsg;MIIOsendcommand.js:50[51:67];Sink: `Mihome ... orMsg}`;MIIOsendcommand.js:52[23:94]::FLOW_DESCR_END","/nodes/MIIOsendcommand.js","50","51","50","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: JsonCMDErrorMsg;MIIOsendcommand.js:74[49:63];Sink: `Mihome ... orMsg}`;MIIOsendcommand.js:76[23:92]::FLOW_DESCR_END","/nodes/MIIOsendcommand.js","74","49","74","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;devices.js:128[40:43];Sink: data;devices.js:83[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;devices.js:128[40:43];Sink: data;devices.js:135[39:42]::FLOW_DESCR_END","/nodes/devices.js","128","40","128","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: SingleCMD;devices.js:153[50:58];Sink: SingleCMDErrorCube;devices.js:166[64:81]::FLOW_DESCR_END","/nodes/devices.js","153","50","153","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: CustomJsonCMD;devices.js:172[48:60];Sink: JsonCMDErrorCube;devices.js:187[62:77]::FLOW_DESCR_END","/nodes/devices.js","172","48","172","60"

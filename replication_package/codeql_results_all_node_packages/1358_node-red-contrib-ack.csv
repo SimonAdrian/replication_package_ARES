@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: path.jo ... ME, id);ack.js:96[26:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: JSON.stringify(msg);ack.js:96[59:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: `Failed ... , id)}`;ack.js:98[32:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: msg;ack.js:144[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: [msg, null, null];ack.js:179[22:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: [null, null, msg];ack.js:185[22:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: [msg, null, null];ack.js:190[22:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: [null,  ... , null];ack.js:199[30:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ack.js:141[36:38];Sink: [null, msg, null];ack.js:210[22:38]::FLOW_DESCR_END","/ack.js","141","36","141","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ack.js:243[36:38];Sink: msg;ack.js:245[36:38]::FLOW_DESCR_END","/ack.js","243","36","243","38"

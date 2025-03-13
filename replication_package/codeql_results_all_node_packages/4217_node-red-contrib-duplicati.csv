@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();duplicati.js:24[30:40];Sink: y;duplicati.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();duplicati.js:24[30:40];Sink: y;duplicati.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();duplicati.js:24[30:40];Sink: op[1];duplicati.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();duplicati.js:24[30:40];Sink: err_1;duplicati.js:142[40:44]::FLOW_DESCR_END","/dist/duplicati.js","24","30","24","40"

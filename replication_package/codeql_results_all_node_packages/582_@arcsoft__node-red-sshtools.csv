@@ -1,0 +1,46 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sshfile.js:96[29:31];Sink: msg;sshfile.js:117[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshfile.js:96[29:31];Sink: msg;sshfile.js:143[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshfile.js:96[29:31];Sink: msg;sshfile.js:176[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshfile.js:96[29:31];Sink: msg;sshfile.js:178[77:79]::FLOW_DESCR_END","/sshfile.js","96","29","96","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sshfile.js:246[29:31];Sink: msg;sshfile.js:273[24:26]::FLOW_DESCR_END","/sshfile.js","246","29","246","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: had_error;sshtools.js:617[28:36];Sink: err;sshtools.js:560[40:42]::FLOW_DESCR_END","/sshtools.js","617","28","617","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sshtools.js:623[28:28];Sink: err;sshtools.js:560[40:42]::FLOW_DESCR_END","/sshtools.js","623","28","623","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;sshtun.js:10[15:25];Sink: err + "" ... id +"">"";sshtun.js:161[16:46]::FLOW_DESCR_END","/sshtun.js","10","15","10","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sshtun.js:134[28:30];Sink: err + "" ... error>"";sshtun.js:135[26:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sshtun.js:134[28:30];Sink: err + "" ... rt +"">"";sshtun.js:136[20:80]::FLOW_DESCR_END","/sshtun.js","134","28","134","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sshtun.js:137[32:34];Sink: err + "" ... error>"";sshtun.js:138[26:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sshtun.js:137[32:34];Sink: err + "" ... rt +"">"";sshtun.js:139[20:80]::FLOW_DESCR_END","/sshtun.js","137","32","137","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;sshtun.js:146[17:25];Sink: err + "" ... id +"">"";sshtun.js:161[16:46]::FLOW_DESCR_END","/sshtun.js","146","17","146","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;sshtun.js:146[31:39];Sink: err + "" ... id +"">"";sshtun.js:161[16:46]::FLOW_DESCR_END","/sshtun.js","146","31","146","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;sshtun.js:270[15:25];Sink: err + "" ... d + "">"";sshtun.js:301[16:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;sshtun.js:270[15:25];Sink: e + "" < ... d + "">"";sshtun.js:345[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;sshtun.js:270[15:25];Sink: err + "" ... id +"">"";sshtun.js:347[17:47]::FLOW_DESCR_END","/sshtun.js","270","15","270","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;sshtun.js:285[17:25];Sink: err + "" ... d + "">"";sshtun.js:301[16:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;sshtun.js:285[17:25];Sink: e + "" < ... d + "">"";sshtun.js:345[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;sshtun.js:285[17:25];Sink: err + "" ... id +"">"";sshtun.js:347[17:47]::FLOW_DESCR_END","/sshtun.js","285","17","285","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;sshtun.js:285[31:39];Sink: err + "" ... d + "">"";sshtun.js:301[16:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;sshtun.js:285[31:39];Sink: e + "" < ... d + "">"";sshtun.js:345[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;sshtun.js:285[31:39];Sink: err + "" ... id +"">"";sshtun.js:347[17:47]::FLOW_DESCR_END","/sshtun.js","285","31","285","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sshtun.js:344[30:30];Sink: e + "" < ... d + "">"";sshtun.js:345[17:47]::FLOW_DESCR_END","/sshtun.js","344","30","344","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sshtun.js:346[34:36];Sink: err + "" ... id +"">"";sshtun.js:347[17:47]::FLOW_DESCR_END","/sshtun.js","346","34","346","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sshtun.js:356[30:32];Sink: msg.payload;sshtun.js:362[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:356[30:32];Sink: Buffer. ... ase64');sshtun.js:364[21:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:356[30:32];Sink: Buffer. ... ayload);sshtun.js:366[21:47]::FLOW_DESCR_END","/sshtun.js","356","30","356","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sshtun.js:399[30:32];Sink: msg.payload;sshtun.js:405[24:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:399[30:32];Sink: Buffer. ... ase64');sshtun.js:407[24:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:399[30:32];Sink: Buffer. ... ayload);sshtun.js:409[24:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:399[30:32];Sink: msg.payload;sshtun.js:415[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:399[30:32];Sink: Buffer. ... ase64');sshtun.js:417[22:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:399[30:32];Sink: Buffer. ... ayload);sshtun.js:419[22:48]::FLOW_DESCR_END","/sshtun.js","399","30","399","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sshtun.js:479[33:35];Sink: err + "" <tunnelIn>"";sshtun.js:480[20:38]::FLOW_DESCR_END","/sshtun.js","479","33","479","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sshtun.js:481[37:39];Sink: err + "" <tunnelIn>"";sshtun.js:482[20:38]::FLOW_DESCR_END","/sshtun.js","481","37","481","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sshtun.js:511[30:32];Sink: buffer;sshtun.js:525[21:26]::FLOW_DESCR_END","/sshtun.js","511","30","511","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sshtun.js:577[29:31];Sink: err + "" ... d + "">"";sshtun.js:628[19:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sshtun.js:577[29:31];Sink: err + "" ... d + "">"";sshtun.js:770[19:51]::FLOW_DESCR_END","/sshtun.js","577","29","577","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;sshtun.js:586[35:42];Sink: err + "" ... d + "">"";sshtun.js:628[19:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;sshtun.js:586[35:42];Sink: err + "" ... d + "">"";sshtun.js:770[19:51]::FLOW_DESCR_END","/sshtun.js","586","35","586","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;sshtun.js:587[20:28];Sink: err + "" ... d + "">"";sshtun.js:628[19:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;sshtun.js:587[20:28];Sink: err + "" ... d + "">"";sshtun.js:770[19:51]::FLOW_DESCR_END","/sshtun.js","587","20","587","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;sshtun.js:587[33:40];Sink: err + "" ... d + "">"";sshtun.js:628[19:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;sshtun.js:587[33:40];Sink: err + "" ... d + "">"";sshtun.js:770[19:51]::FLOW_DESCR_END","/sshtun.js","587","33","587","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sshtun.js:769[36:38];Sink: err + "" ... d + "">"";sshtun.js:770[19:51]::FLOW_DESCR_END","/sshtun.js","769","36","769","38"

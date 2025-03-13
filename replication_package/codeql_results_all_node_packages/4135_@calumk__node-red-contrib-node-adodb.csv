@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg.topic;adodb.js:51[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:55[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:67[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg.topic;adodb.js:78[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:82[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:94[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:110[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:123[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:141[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:154[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;adodb.js:162[39:41];Sink: msg;adodb.js:165[51:53]::FLOW_DESCR_END","/adodb.js","162","39","162","41"

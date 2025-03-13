@@ -1,0 +1,2 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;consensus.js:122[33:35];Sink: votingUrl;consensus.js:46[17:25]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;consensus.js:122[33:35];Sink: msg;consensus.js:126[22:24]::FLOW_DESCR_END","/dist/nodes/consensus/consensus.js","122","33","122","35"

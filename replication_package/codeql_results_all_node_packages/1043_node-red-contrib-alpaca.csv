@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alpaca.js:94[35:37];Sink: msg;alpaca.js:98[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alpaca.js:94[35:37];Sink: msg;alpaca.js:102[24:26]::FLOW_DESCR_END","/nodes/alpaca.js","94","35","94","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alpaca.js:309[35:37];Sink: ""Invali ... n("", "");alpaca.js:316[28:62]::FLOW_DESCR_END","/nodes/alpaca.js","309","35","309","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple.js:34[35:37];Sink: msg;simple.js:48[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple.js:34[35:37];Sink: msg;simple.js:53[24:26]::FLOW_DESCR_END","/nodes/simple.js","34","35","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple.js:66[35:37];Sink: msg;simple.js:71[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple.js:66[35:37];Sink: msg;simple.js:75[24:26]::FLOW_DESCR_END","/nodes/simple.js","66","35","66","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple.js:88[35:37];Sink: msg;simple.js:98[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple.js:88[35:37];Sink: msg;simple.js:102[24:26]::FLOW_DESCR_END","/nodes/simple.js","88","35","88","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple.js:115[35:37];Sink: msg;simple.js:120[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple.js:115[35:37];Sink: msg;simple.js:123[24:26]::FLOW_DESCR_END","/nodes/simple.js","115","35","115","37"

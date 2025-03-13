@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;interval_length.js:183[35:37];Sink: [msg, null];interval_length.js:69[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interval_length.js:183[35:37];Sink: [null, msg];interval_length.js:72[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interval_length.js:183[35:37];Sink: topic;interval_length.js:195[47:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interval_length.js:183[35:37];Sink: topic;interval_length.js:217[36:40]::FLOW_DESCR_END","/interval_length.js","183","35","183","37"

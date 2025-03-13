@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;jar-func.js:33[37:40];Sink: ""jar out: "" + line;jar-func.js:41[18:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;jar-func.js:33[37:40];Sink: msg;jar-func.js:44[17:19]::FLOW_DESCR_END","/jar-func.js","33","37","33","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;jar-func.js:65[37:40];Sink: ""error: "" + data;jar-func.js:67[15:30]::FLOW_DESCR_END","/jar-func.js","65","37","65","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;jar-func.js:70[31:34];Sink: ""close  ...  signal;jar-func.js:71[16:51]::FLOW_DESCR_END","/jar-func.js","70","31","70","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;jar-func.js:70[37:42];Sink: ""close  ...  signal;jar-func.js:71[16:51]::FLOW_DESCR_END","/jar-func.js","70","37","70","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;jar-func.js:73[31:34];Sink: ""error: "" + code;jar-func.js:74[15:30]::FLOW_DESCR_END","/jar-func.js","73","31","73","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jar-func.js:79[30:32];Sink: JSON.st ...  + ""\n"";jar-func.js:82[23:48]::FLOW_DESCR_END","/jar-func.js","79","30","79","32"

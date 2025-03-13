@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rs485-serial.js:44[38:40];Sink: payload;rs485-serial.js:57[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rs485-serial.js:44[38:40];Sink: msg;rs485-serial.js:60[47:49]::FLOW_DESCR_END","/rs485-serial.js","44","38","44","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rs485-serial.js:59[92:100];Sink: errmsg;rs485-serial.js:60[40:45]::FLOW_DESCR_END","/rs485-serial.js","59","92","59","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;rs485-serial.js:322[59:59];Sink: data;rs485-serial.js:253[60:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;rs485-serial.js:322[59:59];Sink: d[z];rs485-serial.js:325[62:65]::FLOW_DESCR_END","/rs485-serial.js","322","59","322","59"

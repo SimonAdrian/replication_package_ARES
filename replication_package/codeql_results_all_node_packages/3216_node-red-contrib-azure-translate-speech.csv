@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translate-speech.js:44[35:37];Sink: msg;translate-speech.js:48[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translate-speech.js:44[35:37];Sink: ab;translate-speech.js:74[30:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translate-speech.js:44[35:37];Sink: msg;translate-speech.js:112[31:33]::FLOW_DESCR_END","/translate-speech.js","44","35","44","37"

@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;lookup-place.js:33[21:35];Sink: geonamesURL;lookup-place.js:55[19:29]::FLOW_DESCR_END","/lookup-place/lookup-place.js","33","21","33","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lookup-place.js:41[31:33];Sink: msg;lookup-place.js:69[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lookup-place.js:41[31:33];Sink: msg;lookup-place.js:78[19:21]::FLOW_DESCR_END","/lookup-place/lookup-place.js","41","31","41","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;lookup-place.js:51[54:66];Sink: geonamesURL;lookup-place.js:55[19:29]::FLOW_DESCR_END","/lookup-place/lookup-place.js","51","54","51","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lookup-place.js:71[34:38];Sink: JSON.st ... (error);lookup-place.js:73[23:43]::FLOW_DESCR_END","/lookup-place/lookup-place.js","71","34","71","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;lookup-timezone.js:33[21:35];Sink: geonamesURL;lookup-timezone.js:51[19:29]::FLOW_DESCR_END","/lookup-timezone/lookup-timezone.js","33","21","33","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lookup-timezone.js:40[31:33];Sink: msg;lookup-timezone.js:66[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lookup-timezone.js:40[31:33];Sink: msg;lookup-timezone.js:75[20:22]::FLOW_DESCR_END","/lookup-timezone/lookup-timezone.js","40","31","40","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;lookup-timezone.js:47[51:63];Sink: geonamesURL;lookup-timezone.js:51[19:29]::FLOW_DESCR_END","/lookup-timezone/lookup-timezone.js","47","51","47","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lookup-timezone.js:68[34:38];Sink: JSON.st ... (error);lookup-timezone.js:70[23:43]::FLOW_DESCR_END","/lookup-timezone/lookup-timezone.js","68","34","68","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;search-place.js:36[21:35];Sink: geonamesURL;search-place.js:52[19:29]::FLOW_DESCR_END","/search-place/search-place.js","36","21","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search-place.js:41[31:33];Sink: msg;search-place.js:66[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search-place.js:41[31:33];Sink: msg;search-place.js:75[19:21]::FLOW_DESCR_END","/search-place/search-place.js","41","31","41","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;search-place.js:48[54:66];Sink: geonamesURL;search-place.js:52[19:29]::FLOW_DESCR_END","/search-place/search-place.js","48","54","48","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;search-place.js:68[34:38];Sink: JSON.st ... (error);search-place.js:70[23:43]::FLOW_DESCR_END","/search-place/search-place.js","68","34","68","38"

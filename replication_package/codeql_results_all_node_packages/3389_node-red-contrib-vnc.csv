@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;info.js:8[33:35];Sink: msg;info.js:16[21:23]::FLOW_DESCR_END","/info.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keyboard.js:8[33:35];Sink: msg;keyboard.js:24[19:21]::FLOW_DESCR_END","/keyboard.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mouse.js:8[33:35];Sink: msg;mouse.js:12[21:23]::FLOW_DESCR_END","/mouse.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;screenshot.js:11[33:35];Sink: msg;screenshot.js:22[25:27]::FLOW_DESCR_END","/screenshot.js","11","33","11","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;vnc-client.js:43[25:27];Sink: err;vnc-client.js:53[24:26]::FLOW_DESCR_END","/vnc-client.js","43","25","43","27"

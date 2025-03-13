@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easytouch-ble-node.js:8[31:33];Sink: msg;easytouch-ble-node.js:12[19:21]::FLOW_DESCR_END","/easytouch-ble-node.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;easytouch-ble-node.js:10[56:80];Sink: Buffer. ... 'utf8');easytouch.js:108[21:48]::FLOW_DESCR_END","/easytouch-ble-node.js","10","56","10","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easytouch-ble-node.js:21[31:33];Sink: msg;easytouch-ble-node.js:26[19:21]::FLOW_DESCR_END","/easytouch-ble-node.js","21","31","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;easytouch-ble-node.js:24[60:84];Sink: Buffer. ... 'utf8');easytouch.js:108[21:48]::FLOW_DESCR_END","/easytouch-ble-node.js","24","60","24","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.password;index.js:20[52:66];Sink: Buffer. ... 'utf8');easytouch.js:108[21:48]::FLOW_DESCR_END","/index.js","20","52","20","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: command ... assword;index.js:41[51:87];Sink: Buffer. ... 'utf8');easytouch.js:108[21:48]::FLOW_DESCR_END","/index.js","41","51","41","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: command ... assword;index.js:51[55:91];Sink: Buffer. ... 'utf8');easytouch.js:108[21:48]::FLOW_DESCR_END","/index.js","51","55","51","91"

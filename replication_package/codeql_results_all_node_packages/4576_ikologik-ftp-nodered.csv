@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: msg;ftp.js:45[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: localFilename;ftp.js:53[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: msg;ftp.js:65[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: filename;ftp.js:73[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: localFilename;ftp.js:76[24:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: filename;ftp.js:76[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:39[34:36];Sink: msg;ftp.js:84[27:29]::FLOW_DESCR_END","/ikologik-ftp/ftp.js","39","34","39","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ftp.js:83[35:37];Sink: err;ftp.js:84[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ftp.js:83[35:37];Sink: err;ftp.js:86[21:23]::FLOW_DESCR_END","/ikologik-ftp/ftp.js","83","35","83","37"

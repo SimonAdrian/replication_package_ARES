@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azeotrope.js:6[35:37];Sink: msg;azeotrope.js:9[23:25]::FLOW_DESCR_END","/azeotrope.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bresenham.js:5[35:37];Sink: msg;bresenham.js:16[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bresenham.js:5[35:37];Sink: msg;bresenham.js:21[23:25]::FLOW_DESCR_END","/bresenham.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpio.js:5[35:37];Sink: msg;gpio.js:12[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpio.js:5[35:37];Sink: msg;gpio.js:13[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpio.js:5[35:37];Sink: msg;gpio.js:18[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gpio.js:5[35:37];Sink: msg;gpio.js:19[80:82]::FLOW_DESCR_END","/gpio.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;h2oboilingpoint.js:6[35:37];Sink: msg;h2oboilingpoint.js:9[23:25]::FLOW_DESCR_END","/h2oboilingpoint.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerlevel.js:7[35:37];Sink: msg;powerlevel.js:17[13:15]::FLOW_DESCR_END","/powerlevel.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rgb.js:5[35:37];Sink: msg.payload;rgb.js:10[58:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rgb.js:5[35:37];Sink: msg.payload;rgb.js:14[56:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rgb.js:5[35:37];Sink: msg;rgb.js:35[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rgb.js:5[35:37];Sink: msg;rgb.js:38[25:27]::FLOW_DESCR_END","/rgb.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tempoffset.js:7[35:37];Sink: msg;tempoffset.js:11[23:25]::FLOW_DESCR_END","/tempoffset.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timetotargettemp.js:7[35:37];Sink: msg.payload;timetotargettemp.js:10[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timetotargettemp.js:7[35:37];Sink: currenttemp;timetotargettemp.js:21[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timetotargettemp.js:7[35:37];Sink: currenttemp;timetotargettemp.js:27[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timetotargettemp.js:7[35:37];Sink: msg;timetotargettemp.js:44[20:22]::FLOW_DESCR_END","/timetotargettemp.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttoliquidabv.js:7[35:37];Sink: msg.payload;ttoliquidabv.js:10[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttoliquidabv.js:7[35:37];Sink: msg.payload;ttoliquidabv.js:14[32:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttoliquidabv.js:7[35:37];Sink: msg;ttoliquidabv.js:30[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttoliquidabv.js:7[35:37];Sink: msg;ttoliquidabv.js:41[24:26]::FLOW_DESCR_END","/ttoliquidabv.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttovaporabv.js:7[35:37];Sink: msg.payload;ttovaporabv.js:10[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttovaporabv.js:7[35:37];Sink: msg.payload;ttovaporabv.js:14[32:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttovaporabv.js:7[35:37];Sink: msg;ttovaporabv.js:30[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttovaporabv.js:7[35:37];Sink: msg;ttovaporabv.js:41[24:26]::FLOW_DESCR_END","/ttovaporabv.js","7","35","7","37"

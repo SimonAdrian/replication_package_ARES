@@ -1,0 +1,148 @@
+<!-- Javascript -->
+<script type="text/javascript">
+  var mustacheType = {
+    value: 'mustache',
+    label: 'mustache',
+    hasvalue: true,
+    icon: 'resources/@jambonz/node-red-contrib-jambonz/icons/mustache.svg'
+  }
+
+  RED.nodes.registerType('conference',{
+    category: 'jambonz',
+    color: '#bbabaa',
+    defaults: {
+      name: {value: ''},
+      conference: {required: true, value: ''},
+      conferenceType: {value: 'str'},
+      beep: {value: false},
+      endConferenceOnExit: {value: false},
+      startConferenceOnEnter: {value: true},
+      maxParticipants: {},
+      maxParticipantsType: {value: 'num'},
+      enterHook: {},
+      enterHookType: {value: 'str'},
+      waitHook: {},
+      waitHookType: {value: 'str'},
+      actionHook: {},
+      actionHookType: {value: 'str'},
+      statusHook: {},
+      statusHookType: {value: 'str'},
+      joinMuted : {value: false}
+    },
+    inputs:1,
+    outputs:1,
+    icon: "font-awesome/fa-cubes",
+    label: function() { 
+      return this.name || 'conference';
+    },
+    oneditprepare: function() {
+      $('#node-input-conference').typedInput({
+        types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+        typeField: $('#node-input-conferenceType')
+      });
+      $('#node-input-enterHook').typedInput({
+        types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+        typeField: $('#node-input-enterHookType')
+      });
+      $('#node-input-waitHook').typedInput({
+        types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+        typeField: $('#node-input-waitHookType')
+      });
+      $('#node-input-maxParticipants').typedInput({
+        types: ['num', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+        typeField: $('#node-input-maxParticipantsType')
+      });
+      $('#node-input-actionHook').typedInput({
+        types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+        typeField: $('#node-input-actionHookType')
+      });
+      $('#node-input-statusHook').typedInput({
+        types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+        typeField: $('#node-input-statusHookType')
+      });
+    }
+  });
+</script>
+
+<!-- HTML -->
+<script type="text/html" data-template-name="conference">
+    <div class="form-row">
+      <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+      <label for="node-input-conference">Conference name</label>
+      <input type="text" id="node-input-conference" placeholder="conference to join">
+      <input type="hidden" id="node-input-conferenceType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-enterHook">Enter hook</label>
+      <input type="text" id="node-input-enterHook" placeholder="webhook url">
+      <input type="hidden" id="node-input-enterHookType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-waitHook">Wait hook</label>
+      <input type="text" id="node-input-waitHook" placeholder="webhook url">
+      <input type="hidden" id="node-input-waitHookType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-actionHook">Action hook</label>
+      <input type="text" id="node-input-actionHook" placeholder="webhook url">
+      <input type="hidden" id="node-input-actionHookType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-statusHook">Status hook</label>
+      <input type="text" id="node-input-statusHook" placeholder="webhook url">
+      <input type="hidden" id="node-input-statusHookType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-beep">Beep on entry</label>
+      <input type="checkbox" id="node-input-beep">
+    </div>
+    <div class="form-row">
+      <label for="node-input-startConferenceOnEnter">Start on entry</label>
+      <input type="checkbox" id="node-input-startConferenceOnEnter">
+    </div>
+    <div class="form-row">
+      <label for="node-input-endConferenceOnExit">End on exit</label>
+      <input type="checkbox" id="node-input-endConferenceOnExit">
+    </div>
+    <div class="form-row">
+      <label for="node-input-joinMuted">Join muted</label>
+      <input type="checkbox" id="node-input-joinMuted">
+    </div>
+    <div class="form-row">
+      <label for="node-input-maxParticipants">Max participants</label>
+      <input type="text" id="node-input-maxParticipants">
+      <input type="hidden" id="node-input-maxParticipantsType">
+    </div>
+</script>
+
+<!-- Help Text -->
+<script type="text/html" data-help-name="conference">
+  <p>Places a caller in a conference.</p>
+  <h3>Properties</h3>
+  <p><code>Conference Name</code> - The name of the conference to join the caller to.</p>
+  <p><code>Enter hook</code> - A webhook to retrieve something to play or say to the caller just before they are put into a conference after waiting for it to start</p>
+  <p><code>Wait hook</code> - A webhook to retrieve commands to play or say while the caller is waiting for the conference to start</p>
+  <p><code>Action hook</code> - A webhook to call when the conference ends</p>
+  <p><code>Status hook</code> - A webhook to call with conference status events</p>
+  <p><code>Beep on entry</code> - If checked, play a beep tone to the conference when caller enters </p>
+  <p><code>Start on entry</code> - If checked, start the conference only when this caller enters</p>
+  <p><code>End on exit</code> - If checked, end the conference when this caller hangs up</p>
+  <p><code>Max participants</code> - Maximum number of participants that will be allowed in the conference</p>
+  <h3>Outputs</h3>
+  <dl class="message-properties">
+    <dt>jambonz<span class="property-type">object</span></dt>
+    <dd> <code>msg.jambonz</code> will contain any previous actions provided to the input with the new <code>conference</code> action appended  </dd>
+  </dl>
+  <h3>Details</h3>
+  The conference verb places a call into a conference.
+  <h3>References</h3>
+  <ul>
+    <li><a href="https://www.jambonz.org/docs/webhooks/conference/">Jambonz conference reference</a></li>
+  </ul>
+</script>
+
+
+  

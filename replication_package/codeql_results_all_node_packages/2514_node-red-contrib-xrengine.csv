@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[d];xrengine.js:12[174127:174138];Sink: a;xrengine.js:6[793:793]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data[d];xrengine.js:12[174127:174138];Sink: a;xrengine.js:12[591:591]::FLOW_DESCR_END","/xrengine.js","12","174127","12","174138"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[e];xrengine.js:12[177929:177940];Sink: a;xrengine.js:6[793:793]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data[e];xrengine.js:12[177929:177940];Sink: a;xrengine.js:12[591:591]::FLOW_DESCR_END","/xrengine.js","12","177929","12","177940"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b.aObject.data[d+1];xrengine.js:12[291474:291492];Sink: a;xrengine.js:6[793:793]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b.aObject.data[d+1];xrengine.js:12[291474:291492];Sink: a;xrengine.js:12[591:591]::FLOW_DESCR_END","/xrengine.js","12","291474","12","291492"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: u;xrengine.js:14[3649:3649];Sink: a;xrengine.js:6[793:793]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: u;xrengine.js:14[3649:3649];Sink: a;xrengine.js:12[591:591]::FLOW_DESCR_END","/xrengine.js","14","3649","14","3649"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: p;xrengine.js:14[3748:3748];Sink: a;xrengine.js:6[793:793]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: p;xrengine.js:14[3748:3748];Sink: a;xrengine.js:12[591:591]::FLOW_DESCR_END","/xrengine.js","14","3748","14","3748"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: j;xrengine.js:14[14385:14385];Sink: a;xrengine.js:6[793:793]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: j;xrengine.js:14[14385:14385];Sink: d;xrengine.js:6[953:953]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: j;xrengine.js:14[14385:14385];Sink: d.const ... ototype;xrengine.js:6[989:1011]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: j;xrengine.js:14[14385:14385];Sink: d;xrengine.js:6[1125:1125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: j;xrengine.js:14[14385:14385];Sink: a;xrengine.js:12[591:591]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: j;xrengine.js:14[14385:14385];Sink: d;xrengine.js:12[28870:28870]::FLOW_DESCR_END","/xrengine.js","14","14385","14","14385"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;state-machine.js:32[35:37];Sink: msg.topic;state-machine.js:53[63:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;state-machine.js:32[35:37];Sink: msg;state-machine.js:60[31:33]::FLOW_DESCR_END","/state-machine.js","32","35","32","37"

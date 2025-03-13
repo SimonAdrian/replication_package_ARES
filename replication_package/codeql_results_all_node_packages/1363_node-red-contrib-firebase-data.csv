@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addFirebase.js:25[36:38];Sink: msg;addFirebase.js:152[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;addFirebase.js:25[36:38];Sink: msg;addFirebase.js:174[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;addFirebase.js:25[36:38];Sink: msg;addFirebase.js:177[35:37]::FLOW_DESCR_END","/source/addFirebase.js","25","36","25","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorGet;addFirebase.js:122[40:47];Sink: errorGet;addFirebase.js:124[32:39]::FLOW_DESCR_END","/source/addFirebase.js","122","40","122","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorDelete;addFirebase.js:134[51:61];Sink: errorDelete;addFirebase.js:136[40:50]::FLOW_DESCR_END","/source/addFirebase.js","134","51","134","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorPut;addFirebase.js:145[56:63];Sink: errorPut;addFirebase.js:147[48:55]::FLOW_DESCR_END","/source/addFirebase.js","145","56","145","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;addFirebase.js:166[37:41];Sink: error;addFirebase.js:168[32:36]::FLOW_DESCR_END","/source/addFirebase.js","166","37","166","41"

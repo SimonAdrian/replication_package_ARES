@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;IPConnection.js:337[36:44];Sink: this.port;IPConnection.js:123[33:41]::FLOW_DESCR_END","/Tinkerforge/IPConnection.js","337","36","337","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;IPConnection.js:337[47:55];Sink: this.host;IPConnection.js:123[44:52]::FLOW_DESCR_END","/Tinkerforge/IPConnection.js","337","47","337","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;IPConnection.js:407[59:67];Sink: this.host;IPConnection.js:123[44:52]::FLOW_DESCR_END","/Tinkerforge/IPConnection.js","407","59","407","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;IPConnection.js:407[70:78];Sink: this.port;IPConnection.js:123[33:41]::FLOW_DESCR_END","/Tinkerforge/IPConnection.js","407","70","407","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;IPConnection.js:464[63:71];Sink: this.host;IPConnection.js:123[44:52]::FLOW_DESCR_END","/Tinkerforge/IPConnection.js","464","63","464","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;IPConnection.js:464[74:82];Sink: this.port;IPConnection.js:123[33:41]::FLOW_DESCR_END","/Tinkerforge/IPConnection.js","464","74","464","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tinkerforge_led.js:6[35:37];Sink: index;BrickletLEDStripV2.js:786[39:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tinkerforge_led.js:6[35:37];Sink: value;BrickletLEDStripV2.js:786[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tinkerforge_led.js:6[35:37];Sink: msg;tinkerforge_led.js:58[23:25]::FLOW_DESCR_END","/tinkerforge_led.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tinkerforge_led.js:19[15:19];Sink: 'Error: ' + error;tinkerforge_led.js:21[21:37]::FLOW_DESCR_END","/tinkerforge_led.js","19","15","19","19"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nats-streaming-publish.js:20[38:40];Sink: err;nats-streaming-publish.js:21[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nats-streaming-publish.js:20[38:40];Sink: err;nats-streaming-publish.js:22[51:53]::FLOW_DESCR_END","/nats-streaming-publish.js","20","38","20","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nats-streaming-publish.js:40[39:41];Sink: 'connec ... ' + err;nats-streaming-publish.js:40[56:79]::FLOW_DESCR_END","/nats-streaming-publish.js","40","39","40","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nats-streaming-publish.js:64[32:34];Sink: msg.payload;nats-streaming-publish.js:74[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nats-streaming-publish.js:64[32:34];Sink: channel;nats-streaming-publish.js:89[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nats-streaming-publish.js:64[32:34];Sink: message;nats-streaming-publish.js:89[37:43]::FLOW_DESCR_END","/nats-streaming-publish.js","64","32","64","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nats-streaming-subscribe.js:22[38:40];Sink: err;nats-streaming-subscribe.js:23[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;nats-streaming-subscribe.js:22[38:40];Sink: err;nats-streaming-subscribe.js:24[51:53]::FLOW_DESCR_END","/nats-streaming-subscribe.js","22","38","22","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nats-streaming-subscribe.js:122[39:41];Sink: 'connec ... ' + err;nats-streaming-subscribe.js:122[56:79]::FLOW_DESCR_END","/nats-streaming-subscribe.js","122","39","122","41"

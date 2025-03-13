@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""Remote ... decoded;filebrowser.js:112[29:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""select ... decoded;filebrowser.js:170[41:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: msg;filebrowser.js:247[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""select ... decoded;filebrowser.js:267[41:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: msg;filebrowser.js:342[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""Query ::"" + query;filebrowser.js:390[41:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""Parent ... entPath;filebrowser.js:403[45:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: msg;filebrowser.js:493[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""Share  ... ulltext;filebrowser.js:509[33:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: folders;filebrowser.js:527[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""Remote ... decoded;filebrowser.js:569[45:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: ""FETCH  ... etchURL;filebrowser.js:576[41:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filebrowser.js:67[36:38];Sink: msg;filebrowser.js:691[47:49]::FLOW_DESCR_END","/filebrowser.js","67","36","67","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.no ... sername;filebrowser.js:77[28:59];Sink: ""Share  ... ulltext;filebrowser.js:509[33:68]::FLOW_DESCR_END","/filebrowser.js","77","28","77","59"

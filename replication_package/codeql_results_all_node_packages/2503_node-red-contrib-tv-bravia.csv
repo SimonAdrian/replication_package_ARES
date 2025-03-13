@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tv-bravia.js:46[36:40];Sink: error;tv-bravia.js:48[23:27]::FLOW_DESCR_END","/tv-bravia.js","46","36","46","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tv-bravia.js:114[33:35];Sink: 'Succes ...  action;tv-bravia.js:132[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tv-bravia.js:114[33:35];Sink: msg;tv-bravia.js:135[21:23]::FLOW_DESCR_END","/tv-bravia.js","114","33","114","35"

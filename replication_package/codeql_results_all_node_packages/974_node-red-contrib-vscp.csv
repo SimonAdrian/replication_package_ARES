@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: ""Invali ... ame.dlc;can2vscp.js:84[40:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: msg;can2vscp.js:84[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: msg;can2vscp.js:96[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: ""Invali ... ame.dlc;can2vscp.js:124[44:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: msg.payload;can2vscp.js:124[85:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: msg;can2vscp.js:154[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: msg;can2vscp.js:165[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;can2vscp.js:49[35:37];Sink: msg;can2vscp.js:173[18:20]::FLOW_DESCR_END","/src/can2vscp.js","49","35","49","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;can2vscp.js:76[36:52];Sink: ""Invali ... ame.dlc;can2vscp.js:84[40:81]::FLOW_DESCR_END","/src/can2vscp.js","76","36","76","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event2value.js:63[35:37];Sink: msg;event2value.js:82[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event2value.js:63[35:37];Sink: msg;event2value.js:212[18:20]::FLOW_DESCR_END","/src/event2value.js","63","35","63","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;measurementfilter.js:61[35:37];Sink: msg;measurementfilter.js:145[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;measurementfilter.js:61[35:37];Sink: msg;measurementfilter.js:151[97:99]::FLOW_DESCR_END","/src/measurementfilter.js","61","35","61","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vscp2can.js:50[35:37];Sink: msg;vscp2can.js:81[18:20]::FLOW_DESCR_END","/src/vscp2can.js","50","35","50","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vscpfilter.js:66[35:37];Sink: msg;vscpfilter.js:134[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vscpfilter.js:66[35:37];Sink: msg;vscpfilter.js:140[98:100]::FLOW_DESCR_END","/src/vscpfilter.js","66","35","66","37"

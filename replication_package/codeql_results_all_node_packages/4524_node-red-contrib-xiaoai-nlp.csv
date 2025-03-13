@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.username;XiaoAi.js:26[38:57];Sink: path;XiaoAi.js:38[28:31]::FLOW_DESCR_END","/lib/XiaoAi.js","26","38","26","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... sername;XiaoAi.js:36[39:70];Sink: obj;utils.js:16[41:43]::FLOW_DESCR_END","/lib/XiaoAi.js","36","39","36","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.username;XiaoAi.js:56[36:55];Sink: path;XiaoAi.js:57[24:27]::FLOW_DESCR_END","/lib/XiaoAi.js","56","36","56","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;xiaoai-mibrain.js:12[30:33];Sink: [data, null];xiaoai-mibrain.js:20[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;xiaoai-mibrain.js:12[30:33];Sink: [null, data];xiaoai-mibrain.js:35[21:32]::FLOW_DESCR_END","/xiaoai-mibrain.js","12","30","12","33"

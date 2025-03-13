@@ -1,0 +1,34 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: msg;plc.js:440[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: msg;plc.js:544[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: msg;plc.js:566[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: nextMsg;plc.js:620[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: port;plc.js:715[59:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: host;plc.js:715[65:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: RED._("" ... tion_id;plc.js:860[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: msg;plc.js:860[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: port;plc.js:875[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:629[35:37];Sink: host;plc.js:875[73:76]::FLOW_DESCR_END","/plc.js","629","35","629","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;plc.js:685[39:46];Sink: host;plc.js:715[65:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;plc.js:685[39:46];Sink: RED._("" ... tion_id;plc.js:860[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;plc.js:685[39:46];Sink: host;plc.js:875[73:76]::FLOW_DESCR_END","/plc.js","685","39","685","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;plc.js:686[24:32];Sink: port;plc.js:715[59:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;plc.js:686[24:32];Sink: RED._("" ... tion_id;plc.js:860[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;plc.js:686[24:32];Sink: port;plc.js:875[67:70]::FLOW_DESCR_END","/plc.js","686","24","686","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;plc.js:686[37:44];Sink: port;plc.js:715[59:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;plc.js:686[37:44];Sink: RED._("" ... tion_id;plc.js:860[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;plc.js:686[37:44];Sink: port;plc.js:875[67:70]::FLOW_DESCR_END","/plc.js","686","37","686","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plc.js:979[35:37];Sink: port;plc.js:1021[59:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:979[35:37];Sink: host;plc.js:1021[65:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:979[35:37];Sink: RED._("" ... tion_id;plc.js:1195[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:979[35:37];Sink: msg;plc.js:1195[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:979[35:37];Sink: port;plc.js:1210[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plc.js:979[35:37];Sink: host;plc.js:1210[73:76]::FLOW_DESCR_END","/plc.js","979","35","979","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;plc.js:991[39:46];Sink: host;plc.js:1021[65:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;plc.js:991[39:46];Sink: RED._("" ... tion_id;plc.js:1195[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;plc.js:991[39:46];Sink: host;plc.js:1210[73:76]::FLOW_DESCR_END","/plc.js","991","39","991","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;plc.js:992[24:32];Sink: port;plc.js:1021[59:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;plc.js:992[24:32];Sink: RED._("" ... tion_id;plc.js:1195[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;plc.js:992[24:32];Sink: port;plc.js:1210[67:70]::FLOW_DESCR_END","/plc.js","992","24","992","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;plc.js:992[37:44];Sink: port;plc.js:1021[59:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;plc.js:992[37:44];Sink: RED._("" ... tion_id;plc.js:1195[32:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;plc.js:992[37:44];Sink: port;plc.js:1210[67:70]::FLOW_DESCR_END","/plc.js","992","37","992","44"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:16[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:22[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:27[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:33[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:53[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:56[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlitedb.js:12[32:34];Sink: msg;sqlitedb.js:63[21:23]::FLOW_DESCR_END","/sqlitedb.js","12","32","12","34"

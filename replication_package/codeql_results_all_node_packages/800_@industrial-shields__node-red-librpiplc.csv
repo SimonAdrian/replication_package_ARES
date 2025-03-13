@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-analog-read.js:26[20:22];Sink: msg;rpiplc-analog-read.js:42[15:17]::FLOW_DESCR_END","/nodes/rpiplc-analog-read.js","26","20","26","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-analog-write.js:26[20:22];Sink: value;rpiplc-analog-write.js:48[53:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpiplc-analog-write.js:26[20:22];Sink: msg;rpiplc-analog-write.js:53[15:17]::FLOW_DESCR_END","/nodes/rpiplc-analog-write.js","26","20","26","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-digital-read.js:26[20:22];Sink: msg;rpiplc-digital-read.js:47[15:17]::FLOW_DESCR_END","/nodes/rpiplc-digital-read.js","26","20","26","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-digital-write.js:26[20:22];Sink: msg;rpiplc-digital-write.js:59[15:17]::FLOW_DESCR_END","/nodes/rpiplc-digital-write.js","26","20","26","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpiplc-set-config.js:28[20:22];Sink: msg;rpiplc-set-config.js:49[14:16]::FLOW_DESCR_END","/nodes/rpiplc-set-config.js","28","20","28","22"

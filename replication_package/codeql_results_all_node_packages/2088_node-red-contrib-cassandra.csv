@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;cassandra.js:34[47:49];Sink: err;cassandra.js:37[32:34]::FLOW_DESCR_END","/cassandra/cassandra.js","34","47","34","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cassandra.js:80[39:41];Sink: msg;cassandra.js:88[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cassandra.js:80[39:41];Sink: msg;cassandra.js:91[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cassandra.js:80[39:41];Sink: ""Batchi ... ueries"";cassandra.js:96[30:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cassandra.js:80[39:41];Sink: msg.topic;cassandra.js:99[55:63]::FLOW_DESCR_END","/cassandra/cassandra.js","80","39","80","41"

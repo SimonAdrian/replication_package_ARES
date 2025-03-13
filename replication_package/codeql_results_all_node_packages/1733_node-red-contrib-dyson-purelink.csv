@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();dyson-config.js:24[30:40];Sink: y;dyson-config.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-config.js:24[30:40];Sink: y;dyson-config.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-config.js:24[30:40];Sink: op[1];dyson-config.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-config.js:24[30:40];Sink: e_1;dyson-config.js:73[35:37]::FLOW_DESCR_END","/dist/dyson-config.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();dyson-link.js:24[30:40];Sink: y;dyson-link.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-link.js:24[30:40];Sink: y;dyson-link.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-link.js:24[30:40];Sink: op[1];dyson-link.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-link.js:24[30:40];Sink: e_1;dyson-link.js:67[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-link.js:24[30:40];Sink: e_2;dyson-link.js:88[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dyson-link.js:24[30:40];Sink: ""Networ ... device);dyson-link.js:118[48:98]::FLOW_DESCR_END","/dist/dyson-link.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dyson-link.js:154[40:42];Sink: ""action: "" + action;dyson-link.js:177[24:42]::FLOW_DESCR_END","/dist/dyson-link.js","154","40","154","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();DysonPurelink.js:24[30:40];Sink: y;DysonPurelink.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();DysonPurelink.js:24[30:40];Sink: y;DysonPurelink.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();DysonPurelink.js:24[30:40];Sink: op[1];DysonPurelink.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();DysonPurelink.js:24[30:40];Sink: device.serial;DysonPurelink.js:62[41:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();DysonPurelink.js:24[30:40];Sink: networkDevice.serial;DysonPurelink.js:100[40:59]::FLOW_DESCR_END","/dist/dysonpurelink/DysonPurelink.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;device.js:139[43:45];Sink: ""MQTT:  ... at(err);device.js:140[27:52]::FLOW_DESCR_END","/dist/dysonpurelink/device.js","139","43","139","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;device.js:143[52:58];Sink: json;device.js:148[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;device.js:143[52:58];Sink: json;device.js:151[41:44]::FLOW_DESCR_END","/dist/dysonpurelink/device.js","143","52","143","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;device.js:458[56:68];Sink: this._g ... Topic();device.js:440[29:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.username;device.js:458[56:68];Sink: this._g ... Topic();device.js:452[29:51]::FLOW_DESCR_END","/dist/dysonpurelink/device.js","458","56","458","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: y;dysonCloud.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: y;dysonCloud.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: op[1];dysonCloud.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: JSON.st ... o.data);dysonCloud.js:108[63:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: e_1;dysonCloud.js:123[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: e_1;dysonCloud.js:124[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: e_2;dysonCloud.js:192[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: e_2;dysonCloud.js:193[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: e_3;dysonCloud.js:239[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();dysonCloud.js:24[30:40];Sink: e_3;dysonCloud.js:240[37:39]::FLOW_DESCR_END","/dist/dysonpurelink/dysonCloud.js","24","30","24","40"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_dutycontrol.js:117[32:34];Sink: JSON.stringify(msg);smithtek_dutycontrol.js:118[16:34]::FLOW_DESCR_END","/smithtek/smithtek_dutycontrol.js","117","32","117","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_pumptrip_formatter.js:8[32:34];Sink: msg;smithtek_pumptrip_formatter.js:17[17:19]::FLOW_DESCR_END","/smithtek/smithtek_pumptrip_formatter.js","8","32","8","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_senseflow_formatter.js:7[32:34];Sink: msg;smithtek_senseflow_formatter.js:13[17:19]::FLOW_DESCR_END","/smithtek/smithtek_senseflow_formatter.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_startstop_formatter.js:7[32:34];Sink: msg;smithtek_startstop_formatter.js:13[17:19]::FLOW_DESCR_END","/smithtek/smithtek_startstop_formatter.js","7","32","7","34"

@@ -1,0 +1,45 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;blind.js:15[40:43];Sink: data;blind.js:17[25:28]::FLOW_DESCR_END","/blind.js","15","40","15","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blind.js:20[35:37];Sink: msg;blind.js:86[31:33]::FLOW_DESCR_END","/blind.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;blind.js:147[40:43];Sink: data;blind.js:149[25:28]::FLOW_DESCR_END","/blind.js","147","40","147","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;blind.js:152[41:44];Sink: 'Blind  ... rame[9];blind.js:171[31:82]::FLOW_DESCR_END","/blind.js","152","41","152","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hapcanMessage.frame;blind.js:171[61:79];Sink: 'Blind  ... rame[9];blind.js:171[31:82]::FLOW_DESCR_END","/blind.js","171","61","171","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;button.js:16[40:43];Sink: data;button.js:18[25:28]::FLOW_DESCR_END","/button.js","16","40","16","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;button.js:21[35:37];Sink: msg;button.js:102[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;button.js:21[35:37];Sink: 'Invali ...  '+ led;button.js:116[28:54]::FLOW_DESCR_END","/button.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;button.js:166[40:43];Sink: data;button.js:168[25:28]::FLOW_DESCR_END","/button.js","166","40","166","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;button.js:171[41:44];Sink: 'Button ... rame[8];button.js:193[31:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;button.js:171[41:44];Sink: 'Led va ... rame[9];button.js:205[31:75]::FLOW_DESCR_END","/button.js","171","41","171","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hapcanMessage.frame;button.js:193[63:81];Sink: 'Button ... rame[8];button.js:193[31:84]::FLOW_DESCR_END","/button.js","193","63","193","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hapcanMessage.frame;button.js:205[54:72];Sink: 'Led va ... rame[9];button.js:205[31:75]::FLOW_DESCR_END","/button.js","205","54","205","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;custom.js:37[40:43];Sink: data;custom.js:39[25:28]::FLOW_DESCR_END","/custom.js","37","40","37","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;custom.js:42[35:37];Sink: msg;custom.js:80[31:33]::FLOW_DESCR_END","/custom.js","42","35","42","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;custom.js:115[40:43];Sink: data;custom.js:117[25:28]::FLOW_DESCR_END","/custom.js","115","40","115","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dimmer.js:18[40:43];Sink: data;dimmer.js:20[25:28]::FLOW_DESCR_END","/dimmer.js","18","40","18","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dimmer.js:23[35:37];Sink: msg;dimmer.js:88[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dimmer.js:23[35:37];Sink: msg;dimmer.js:117[31:33]::FLOW_DESCR_END","/dimmer.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dimmer.js:187[40:43];Sink: data;dimmer.js:189[25:28]::FLOW_DESCR_END","/dimmer.js","187","40","187","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hapcan-gateway.js:74[50:52];Sink: 'error  ... ' + err;hapcan-gateway.js:75[30:70]::FLOW_DESCR_END","/hapcan-gateway.js","74","50","74","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ir.js:14[40:43];Sink: data;ir.js:16[25:28]::FLOW_DESCR_END","/ir.js","14","40","14","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ir.js:19[41:44];Sink: `Unknow ... hex')}`;ir.js:60[39:115]::FLOW_DESCR_END","/ir.js","19","41","19","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: hapcanMessage.frame;ir.js:60[76:94];Sink: `Unknow ... hex')}`;ir.js:60[39:115]::FLOW_DESCR_END","/ir.js","60","76","60","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;relay.js:18[40:43];Sink: data;relay.js:20[25:28]::FLOW_DESCR_END","/relay.js","18","40","18","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;relay.js:23[35:37];Sink: msg;relay.js:98[31:33]::FLOW_DESCR_END","/relay.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;relay.js:163[40:43];Sink: data;relay.js:165[25:28]::FLOW_DESCR_END","/relay.js","163","40","163","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rgb.js:19[40:43];Sink: data;rgb.js:21[25:28]::FLOW_DESCR_END","/rgb.js","19","40","19","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rgb.js:24[35:37];Sink: msg;rgb.js:121[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rgb.js:24[35:37];Sink: msg;rgb.js:150[31:33]::FLOW_DESCR_END","/rgb.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rgb.js:229[40:43];Sink: data;rgb.js:231[25:28]::FLOW_DESCR_END","/rgb.js","229","40","229","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtc.js:14[40:43];Sink: data;rtc.js:16[25:28]::FLOW_DESCR_END","/rtc.js","14","40","14","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rtc.js:21[35:37];Sink: msg;rtc.js:60[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rtc.js:21[35:37];Sink: msg;rtc.js:78[35:37]::FLOW_DESCR_END","/rtc.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtc.js:103[64:67];Sink: data;rtc.js:104[25:28]::FLOW_DESCR_END","/rtc.js","103","64","103","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;state.js:14[40:43];Sink: data;state.js:16[25:28]::FLOW_DESCR_END","/state.js","14","40","14","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;state.js:19[35:37];Sink: ""msg:""+ ... i].node;state.js:58[42:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;state.js:19[35:37];Sink: ""contro ... i].node;state.js:59[42:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;state.js:19[35:37];Sink: 'Invali ...  nodeNr;state.js:98[28:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;state.js:19[35:37];Sink: 'Invali ... groupNr;state.js:105[28:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;state.js:19[35:37];Sink: msg;state.js:122[35:37]::FLOW_DESCR_END","/state.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;temp.js:14[40:43];Sink: data;temp.js:16[25:28]::FLOW_DESCR_END","/temp.js","14","40","14","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;input-helper.js:5[36:38];Sink: msg;input-helper.js:6[23:25]::FLOW_DESCR_END","/test/input-helper.js","5","36","5","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;temp_spec.js:79[51:53];Sink: msg;temp_spec.js:92[37:39]::FLOW_DESCR_END","/test/temp_spec.js","79","51","79","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;thermostat.js:14[40:43];Sink: data;thermostat.js:16[25:28]::FLOW_DESCR_END","/thermostat.js","14","40","14","43"

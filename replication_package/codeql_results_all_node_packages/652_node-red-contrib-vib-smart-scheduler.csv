@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smart-scheduler.js:537[35:37];Sink: msg;smart-scheduler.js:121[26:28]::FLOW_DESCR_END","/smart-scheduler.js","537","35","537","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;smart-scheduler.js:642[51:55];Sink: ""MQTT error:""+error;smart-scheduler.js:643[27:45]::FLOW_DESCR_END","/smart-scheduler.js","642","51","642","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;smart-scheduler.js:690[44:48];Sink: 'MQTT R ... '+topic;smart-scheduler.js:692[26:53]::FLOW_DESCR_END","/smart-scheduler.js","690","44","690","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;smart-scheduler.js:690[51:57];Sink: 'MQTT R ... oad:'+p;smart-scheduler.js:694[26:51]::FLOW_DESCR_END","/smart-scheduler.js","690","51","690","57"

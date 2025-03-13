@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;absolute-humidity.js:10[35:37];Sink: msg.relativeHumidity;absolute-humidity.js:18[19:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;absolute-humidity.js:10[35:37];Sink: msg.payload;absolute-humidity.js:24[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;absolute-humidity.js:10[35:37];Sink: msg.temperature;absolute-humidity.js:29[19:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;absolute-humidity.js:10[35:37];Sink: msg.payload;absolute-humidity.js:33[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;absolute-humidity.js:10[35:37];Sink: msg;absolute-humidity.js:95[11:13]::FLOW_DESCR_END","/src/absolute-humidity.js","10","35","10","37"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloud.js:392[27:29];Sink: value.toString();mbnet.js:138[91:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloud.js:392[27:29];Sink: value.toString();mbnet.js:142[92:107]::FLOW_DESCR_END","/red/cloud.js","392","27","392","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json');mbnet.js:83[20:80];Sink: 'mqtt://'+docker_ip;mbnet.js:93[49:67]::FLOW_DESCR_END","/red/mbnet.js","83","20","83","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;mbnet.js:106[65:71];Sink: values[key];cloud.js:162[36:46]::FLOW_DESCR_END","/red/mbnet.js","106","65","106","71"

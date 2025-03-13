@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;edit-issue.js:12[37:39];Sink: [null, msg];edit-issue.js:24[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edit-issue.js:12[37:39];Sink: [null, msg];edit-issue.js:35[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edit-issue.js:12[37:39];Sink: [null, msg];edit-issue.js:46[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edit-issue.js:12[37:39];Sink: [null, msg];edit-issue.js:57[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edit-issue.js:12[37:39];Sink: [msg, null];edit-issue.js:63[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;edit-issue.js:12[37:39];Sink: [null, msg];edit-issue.js:68[19:29]::FLOW_DESCR_END","/edit-issue.js","12","37","12","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-issue.js:12[37:39];Sink: [msg, null];get-issue.js:25[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-issue.js:12[37:39];Sink: [null, msg];get-issue.js:30[19:29]::FLOW_DESCR_END","/get-issue.js","12","37","12","39"

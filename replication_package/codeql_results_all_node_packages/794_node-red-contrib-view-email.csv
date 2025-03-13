@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;61-email.js:79[35:37];Sink: msg;61-email.js:133[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;61-email.js:79[35:37];Sink: msg;61-email.js:143[46:48]::FLOW_DESCR_END","/61-email.js","79","35","79","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;61-email.js:274[52:55];Sink: util.fo ... , data);61-email.js:285[30:75]::FLOW_DESCR_END","/61-email.js","274","52","274","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;61-email.js:289[45:47];Sink: ""error: ... fy(err);61-email.js:291[26:56]::FLOW_DESCR_END","/61-email.js","289","45","289","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;61-email.js:299[53:59];Sink: util.fo ... awData);61-email.js:304[30:79]::FLOW_DESCR_END","/61-email.js","299","53","299","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;61-email.js:310[69:75];Sink: util.fo ... awData);61-email.js:329[30:78]::FLOW_DESCR_END","/61-email.js","310","69","310","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;61-email.js:335[53:55];Sink: ""Invali ... "" + cmd;61-email.js:336[26:48]::FLOW_DESCR_END","/61-email.js","335","53","335","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;61-email.js:339[46:48];Sink: ""We wer ... "" + cmd;61-email.js:340[26:49]::FLOW_DESCR_END","/61-email.js","339","46","339","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;61-email.js:516[39:41];Sink: err;61-email.js:518[30:32]::FLOW_DESCR_END","/61-email.js","516","39","516","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;61-email.js:526[35:37];Sink: msg;61-email.js:481[79:81]::FLOW_DESCR_END","/61-email.js","526","35","526","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;61-email.js:608[30:32];Sink: ""Error: ... message;61-email.js:609[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;61-email.js:608[30:32];Sink: err;61-email.js:609[49:51]::FLOW_DESCR_END","/61-email.js","608","30","608","32"

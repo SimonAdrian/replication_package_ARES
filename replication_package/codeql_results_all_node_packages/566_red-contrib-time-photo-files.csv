@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: msg;time-photo-files.js:55[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: filename;time-photo-files.js:80[56:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: msg;time-photo-files.js:83[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: msg;time-photo-files.js:88[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: filename;time-photo-files.js:121[61:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: msg;time-photo-files.js:130[95:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: buf;time-photo-files.js:136[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: msg;time-photo-files.js:137[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-photo-files.js:169[35:37];Sink: msg;time-photo-files.js:143[39:41]::FLOW_DESCR_END","/time-photo-files.js","169","35","169","37"

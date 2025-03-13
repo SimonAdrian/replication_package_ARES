@@ -1,0 +1,16 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;sqlite.js:21[36:46];Sink: ""opened ... e+"" ok"";sqlite.js:21[26:52]::FLOW_DESCR_END","/sqlite.js","21","36","21","46"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sqlite.js:23[42:44];Sink: err;sqlite.js:24[59:61]::FLOW_DESCR_END","/sqlite.js","23","42","23","44"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;sqlite.js:24[46:56];Sink: ""failed ... .dbname;sqlite.js:24[28:56]::FLOW_DESCR_END","/sqlite.js","24","46","24","56"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:62[59:61]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:65[47:49]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:71[87:89]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:79[59:61]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:82[47:49]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:88[86:88]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:96[59:61]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:99[47:49]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:106[74:76]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:115[59:61]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:118[47:49]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:125[79:81]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;sqlite.js:140[39:41];Sink: msg;sqlite.js:143[51:53]::FLOW_DESCR_END","/sqlite.js","140","39","140","41"

@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bacnet-client.js:1[1100:1100];Sink: e;bacnet-client.js:1[1111:1111]::FLOW_DESCR_END","/bacnet/bacnet-client.js","1","1100","1","1100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bacnet-client.js:1[1329:1329];Sink: e;bacnet-client.js:1[1359:1359]::FLOW_DESCR_END","/bacnet/bacnet-client.js","1","1329","1","1329"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n;bacnet-command.js:1[1924:1924];Sink: n;bacnet-command.js:1[1986:1986]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n;bacnet-command.js:1[1924:1924];Sink: n;bacnet-command.js:1[2633:2633]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n;bacnet-command.js:1[1924:1924];Sink: n;bacnet-command.js:1[2934:2934]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n;bacnet-command.js:1[1924:1924];Sink: n;bacnet-command.js:1[3494:3494]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n;bacnet-command.js:1[1924:1924];Sink: n;bacnet-command.js:1[3601:3601]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n;bacnet-command.js:1[1924:1924];Sink: n;bacnet-command.js:1[3712:3712]::FLOW_DESCR_END","/bacnet/bacnet-command.js","1","1924","1","1924"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;bacnet-read.js:1[607:607];Sink: t;bacnet-read.js:1[1605:1605]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-read.js:1[607:607];Sink: t;bacnet-read.js:1[1647:1647]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-read.js:1[607:607];Sink: t;bacnet-read.js:1[2524:2524]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-read.js:1[607:607];Sink: t;bacnet-read.js:1[2566:2566]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-read.js:1[607:607];Sink: t;bacnet-read.js:1[2624:2624]::FLOW_DESCR_END","/bacnet/bacnet-read.js","1","607","1","607"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[2797:2797]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[2839:2839]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[2934:2934]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[3076:3076]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[4077:4077]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[4133:4133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;bacnet-write.js:1[1912:1912];Sink: t;bacnet-write.js:1[4192:4192]::FLOW_DESCR_END","/bacnet/bacnet-write.js","1","1912","1","1912"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: b;docstrap.lib.js:1[717:717]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[9632:9632]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: c;docstrap.lib.js:1[23529:23529]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[29902:29902]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[2056:2059]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[6633:6636]::FLOW_DESCR_END","/docs/gen/scripts/docstrap.lib.js","1","9634","1","9634"

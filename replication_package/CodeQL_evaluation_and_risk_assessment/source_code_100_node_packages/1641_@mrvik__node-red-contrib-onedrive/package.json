@@ -1,0 +1,35 @@
+{
+  "name": "@mrvik/node-red-contrib-onedrive",
+  "version": "0.2.0",
+  "description": "Nodes exposing onedrive-api package functions",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mrvik/node-red-contrib-onedrive.git"
+  },
+  "keywords": [
+    "node-red",
+    "onedrive"
+  ],
+  "author": "MrViK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/mrvik/node-red-contrib-onedrive/issues"
+  },
+  "homepage": "https://gitlab.com/mrvik/node-red-contrib-onedrive#readme",
+  "node-red": {
+    "nodes": {
+      "onedrive-upload-file": "upload-file/onedrive-upload-file.js",
+      "onedrive-download-file": "download-file/onedrive-download-file.js",
+      "create-readable-stream": "readable-stream/readable-stream.js"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  },
+  "dependencies": {
+    "onedrive-api": "^0.5.1"
+  }
+}

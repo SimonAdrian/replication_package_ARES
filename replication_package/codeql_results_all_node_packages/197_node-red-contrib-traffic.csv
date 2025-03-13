@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;traffic.js:85[31:33];Sink: msg;traffic.js:96[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;traffic.js:85[31:33];Sink: msg;traffic.js:108[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;traffic.js:85[31:33];Sink: msg;traffic.js:117[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;traffic.js:85[31:33];Sink: msg;traffic.js:120[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;traffic.js:85[31:33];Sink: store;traffic.js:124[32:36]::FLOW_DESCR_END","/traffic/traffic.js","85","31","85","33"

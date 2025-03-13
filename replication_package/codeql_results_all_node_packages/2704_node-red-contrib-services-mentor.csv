@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg.topic;sender.js:71[23:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg;sender.js:147[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg;sender.js:160[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg;sender.js:176[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg;sender.js:185[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg;sender.js:188[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:59[58:60];Sink: msg;sender.js:203[19:21]::FLOW_DESCR_END","/sender.js","59","58","59","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;sender.js:172[34:38];Sink: error;sender.js:185[22:26]::FLOW_DESCR_END","/sender.js","172","34","172","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ENCRIPTA.js:5[35:37];Sink: msg;ENCRIPTA.js:7[23:25]::FLOW_DESCR_END","/services/ENCRIPTA.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alarms.js:83[40:42];Sink: msg;alarms.js:168[58:60]::FLOW_DESCR_END","/services/alarms.js","83","40","83","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-info-db.js:34[33:35];Sink: msg;delete-info-db.js:44[51:53]::FLOW_DESCR_END","/services/delete-info-db.js","34","33","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;mqtt-brk.js:34[21:26];Sink: node.brokerurl;mqtt-brk.js:212[48:61]::FLOW_DESCR_END","/services/mqtt-brk.js","34","21","34","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mqtt-brk.js:133[57:65];Sink: node.brokerurl;mqtt-brk.js:212[48:61]::FLOW_DESCR_END","/services/mqtt-brk.js","133","57","133","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mysql-db.js:58[58:60];Sink: err.code;mysql-db.js:61[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;mysql-db.js:58[58:60];Sink: err;mysql-db.js:69[40:42]::FLOW_DESCR_END","/services/mysql-db.js","58","58","58","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;receiver.js:46[65:69];Sink: topic;receiver.js:76[23:27]::FLOW_DESCR_END","/services/receiver.js","46","65","46","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;save-db.js:86[37:39];Sink: msg;save-db.js:126[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-db.js:86[37:39];Sink: msg;save-db.js:130[55:57]::FLOW_DESCR_END","/services/save-db.js","86","37","86","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;sender.js:61[61:65];Sink: topic;sender.js:68[35:39]::FLOW_DESCR_END","/services/sender.js","61","61","61","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sender.js:100[40:42];Sink: msg;sender.js:121[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:100[40:42];Sink: msg;sender.js:138[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:100[40:42];Sink: msg;sender.js:169[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:100[40:42];Sink: msg;sender.js:178[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:100[40:42];Sink: msg;sender.js:181[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:100[40:42];Sink: msg;sender.js:196[27:29]::FLOW_DESCR_END","/services/sender.js","100","40","100","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;sender.js:165[38:42];Sink: error;sender.js:178[32:36]::FLOW_DESCR_END","/services/sender.js","165","38","165","42"

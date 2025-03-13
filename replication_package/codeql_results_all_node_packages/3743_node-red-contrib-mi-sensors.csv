@@ -1,0 +1,29 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:10[27:29];Sink: msg;xiaomi-actions.js:13[27:29]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:25[27:29];Sink: msg;xiaomi-actions.js:27[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","25","27","25","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:38[27:29];Sink: msg;xiaomi-actions.js:43[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","38","27","38","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:54[27:29];Sink: msg;xiaomi-actions.js:59[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","54","27","54","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:72[27:29];Sink: msg;xiaomi-actions.js:88[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","72","27","72","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:100[27:29];Sink: msg;xiaomi-actions.js:112[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","100","27","100","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:125[27:29];Sink: msg;xiaomi-actions.js:134[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","125","27","125","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:145[27:29];Sink: msg;xiaomi-actions.js:150[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","145","27","145","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:161[27:29];Sink: msg;xiaomi-actions.js:171[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","161","27","161","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:182[27:29];Sink: msg;xiaomi-actions.js:192[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","182","27","182","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-actions.js:203[27:29];Sink: msg;xiaomi-actions.js:205[23:25]::FLOW_DESCR_END","/node-red-contrib-xiaomi-actions/xiaomi-actions.js","203","27","203","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-all.js:33[31:33];Sink: msg;xiaomi-all.js:44[27:29]::FLOW_DESCR_END","/node-red-contrib-xiaomi-all/xiaomi-all.js","33","31","33","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:16[31:33];Sink: msg;xiaomi-gateway.js:40[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:16[31:33];Sink: msg;xiaomi-gateway.js:49[31:33]::FLOW_DESCR_END","/node-red-contrib-xiaomi-gateway/xiaomi-gateway.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:206[27:29];Sink: message;xiaomi-gateway.js:221[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:206[27:29];Sink: message.length;xiaomi-gateway.js:221[43:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:206[27:29];Sink: por;xiaomi-gateway.js:221[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:206[27:29];Sink: add;xiaomi-gateway.js:221[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-gateway.js:206[27:29];Sink: msg;xiaomi-gateway.js:223[53:55]::FLOW_DESCR_END","/node-red-contrib-xiaomi-gateway/xiaomi-gateway.js","206","27","206","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;xiaomi-gateway.js:209[27:35];Sink: por;xiaomi-gateway.js:221[59:61]::FLOW_DESCR_END","/node-red-contrib-xiaomi-gateway/xiaomi-gateway.js","209","27","209","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;xiaomi-gateway.js:209[40:47];Sink: por;xiaomi-gateway.js:221[59:61]::FLOW_DESCR_END","/node-red-contrib-xiaomi-gateway/xiaomi-gateway.js","209","40","209","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-ht.js:14[31:33];Sink: msg;xiaomi-ht.js:45[27:29]::FLOW_DESCR_END","/node-red-contrib-xiaomi-ht/xiaomi-ht.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-magnet.js:15[31:33];Sink: msg;xiaomi-magnet.js:59[27:29]::FLOW_DESCR_END","/node-red-contrib-xiaomi-magnet/xiaomi-magnet.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-motion.js:14[31:33];Sink: msg;xiaomi-motion.js:57[27:29]::FLOW_DESCR_END","/node-red-contrib-xiaomi-motion/xiaomi-motion.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-socket.js:13[31:33];Sink: msg;xiaomi-socket.js:22[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-socket.js:13[31:33];Sink: msg;xiaomi-socket.js:28[31:33]::FLOW_DESCR_END","/node-red-contrib-xiaomi-socket/xiaomi-socket.js","13","31","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-wleak.js:14[31:33];Sink: msg;xiaomi-wleak.js:46[27:29]::FLOW_DESCR_END","/node-red-contrib-xiaomi-wleak/xiaomi-wleak.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;utils.js:89[31:33];Sink: [msg];utils.js:96[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.js:89[31:33];Sink: msg;utils.js:102[31:33]::FLOW_DESCR_END","/src/utils.js","89","31","89","33"

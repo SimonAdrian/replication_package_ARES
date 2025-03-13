@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordActivity.js:9[40:42];Sink: msg;discordActivity.js:24[31:33]::FLOW_DESCR_END","/discord/discordActivity.js","9","40","9","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordChannelName.js:9[34:36];Sink: channel;discordChannelName.js:12[34:40]::FLOW_DESCR_END","/discord/discordChannelName.js","9","34","9","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordClient.js:9[39:41];Sink: msg;discordClient.js:11[27:29]::FLOW_DESCR_END","/discord/discordClient.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordCommandManager.js:16[40:42];Sink: msg;discordCommandManager.js:39[16:18]::FLOW_DESCR_END","/discord/discordCommandManager.js","16","40","16","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordEventManager.js:17[40:42];Sink: msg;discordEventManager.js:50[16:18]::FLOW_DESCR_END","/discord/discordEventManager.js","17","40","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordGuildManager.js:17[40:42];Sink: msg;discordGuildManager.js:41[16:18]::FLOW_DESCR_END","/discord/discordGuildManager.js","17","40","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordInteractionManager.js:16[37:39];Sink: msg;discordInteractionManager.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discordInteractionManager.js:16[37:39];Sink: `Modal ${customId}`;discordInteractionManager.js:83[37:55]::FLOW_DESCR_END","/discord/discordInteractionManager.js","16","37","16","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordMessageManager.js:18[40:42];Sink: msg;discordMessageManager.js:48[16:18]::FLOW_DESCR_END","/discord/discordMessageManager.js","18","40","18","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discordPermissions.js:9[40:42];Sink: msg;discordPermissions.js:69[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discordPermissions.js:9[40:42];Sink: msg;discordPermissions.js:95[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discordPermissions.js:9[40:42];Sink: msg;discordPermissions.js:122[20:22]::FLOW_DESCR_END","/discord/discordPermissions.js","9","40","9","42"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;platma-whoami.js:6[32:34];Sink: msg;platma-whoami.js:8[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;platma-whoami.js:6[32:34];Sink: msg;platma-whoami.js:18[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;platma-whoami.js:6[32:34];Sink: msg;platma-whoami.js:49[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;platma-whoami.js:6[32:34];Sink: msg;platma-whoami.js:56[29:31]::FLOW_DESCR_END","/platma-whoami.js","6","32","6","34"

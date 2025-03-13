@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;holiday.js:8[36:38];Sink: [msg, null];holiday.js:47[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;holiday.js:8[36:38];Sink: [null, msg];holiday.js:50[27:37]::FLOW_DESCR_END","/holiday.js","8","36","8","38"

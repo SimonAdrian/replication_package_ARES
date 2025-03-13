@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pilcd.js:36[32:34];Sink: ""inp: "" ... payload;pilcd.js:37[50:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pilcd.js:36[32:34];Sink: msg.payload + ""\n"";pilcd.js:38[63:80]::FLOW_DESCR_END","/pilcd.js","36","32","36","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pilcd.js:49[55:58];Sink: ""out: "" ...  + "" :"";pilcd.js:50[58:78]::FLOW_DESCR_END","/pilcd.js","49","55","49","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pilcd.js:53[55:58];Sink: ""err: "" ...  + "" :"";pilcd.js:54[58:78]::FLOW_DESCR_END","/pilcd.js","53","55","53","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;pilcd.js:57[49:52];Sink: ""ret: "" ...  + "" :"";pilcd.js:58[58:78]::FLOW_DESCR_END","/pilcd.js","57","49","57","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pilcd.js:63[49:51];Sink: 'error: ' + err;pilcd.js:66[37:51]::FLOW_DESCR_END","/pilcd.js","63","49","63","51"

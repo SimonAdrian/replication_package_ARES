@@ -1,0 +1,64 @@
+{
+	"name": "node-red-contrib-zwave-js",
+	"version": "9.0.4",
+	"license": "MIT",
+	"description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+	"dependencies": {
+		"limiter": "^2.1.0",
+		"lodash": "^4.17.21",
+		"winston": "^3.13.0",
+		"winston-transport": "^4.7.0",
+		"zwave-js": "^12.5.6"
+	},
+	"devDependencies": {
+		"eslint": "^9.1.1",
+		"prettier": "^3.2.5"
+	},
+	"scripts": {
+		"validate": "node-red-dev validate -o validation_result.json"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"keywords": [
+		"node-red",
+		"zwave",
+		"zwave-js",
+		"controller",
+		"smart",
+		"automation",
+		"home-automation",
+		"home"
+	],
+	"node-red": {
+		"version": ">=2.0.0",
+		"nodes": {
+			"zwave-js": "zwave-js/zwave-js.js",
+			"zwave-device": "zwave-js/zwave-device.js",
+			"event-filter": "zwave-js/event-filter.js",
+			"cmd-factory": "zwave-js/cmd-factory.js"
+		}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zwave-js/node-red-contrib-zwave-js.git"
+	},
+	"author": {
+		"name": "Marcus Davies",
+		"email": "marcus.davies83@icloud.com"
+	},
+	"contributors": [
+		{
+			"name": "hufftheweevil (Justin)",
+			"url": "https://github.com/hufftheweevil"
+		},
+		{
+			"name": "crxporter",
+			"url": "https://github.com/crxporter"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/zwave-js/node-red-contrib-zwave-js/issues"
+	},
+	"homepage": "https://github.com/zwave-js/node-red-contrib-zwave-js#readme"
+}

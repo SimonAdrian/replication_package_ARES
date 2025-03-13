@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spark-payload-parser.js:58[31:33];Sink: newMsg;spark-payload-parser.js:72[23:28]::FLOW_DESCR_END","/spark/spark-payload-parser.js","58","31","58","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;spark-webhook.js:33[17:22];Sink: 'Create ... kTarget;spark-webhook.js:172[22:65]::FLOW_DESCR_END","/spark/spark-webhook.js","33","17","33","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;spark-webhook.js:38[26:34];Sink: 'Create ... kTarget;spark-webhook.js:172[22:65]::FLOW_DESCR_END","/spark/spark-webhook.js","38","26","38","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;spark-webhook.js:66[43:45];Sink: 'error: ... message;spark-webhook.js:69[22:44]::FLOW_DESCR_END","/spark/spark-webhook.js","66","43","66","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;spark-webhook.js:116[46:48];Sink: 'error: ... message;spark-webhook.js:119[22:44]::FLOW_DESCR_END","/spark/spark-webhook.js","116","46","116","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;spark-webhook.js:116[51:53];Sink: 'error: ' + errorMsg;spark-webhook.js:134[22:41]::FLOW_DESCR_END","/spark/spark-webhook.js","116","51","116","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;spark-webhook.js:162[44:46];Sink: 'error: ... message;spark-webhook.js:165[23:45]::FLOW_DESCR_END","/spark/spark-webhook.js","162","44","162","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;spark-webhook.js:162[49:51];Sink: 'error: ' + errorMsg;spark-webhook.js:179[24:43]::FLOW_DESCR_END","/spark/spark-webhook.js","162","49","162","51"

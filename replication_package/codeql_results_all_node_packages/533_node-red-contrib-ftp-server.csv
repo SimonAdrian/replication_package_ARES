@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;index.js:120[54:64];Sink: `Starti ... .port}`;index.js:120[19:66]::FLOW_DESCR_END","/index.js","120","54","120","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connection;index.js:140[44:53];Sink: `Remote ... lient}`;index.js:143[23:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connection;index.js:140[44:53];Sink: `Client ... lient}`;index.js:219[27:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connection;index.js:140[44:53];Sink: remoteClient;index.js:226[25:36]::FLOW_DESCR_END","/index.js","140","44","140","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: `Invali ... {user}`;index.js:152[31:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: `Connec ... ${usr}`;index.js:162[31:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: `Connec ... ${usr}`;index.js:175[35:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: `Invali ... ${usr}`;index.js:178[35:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: `Invali ... ${usr}`;index.js:190[35:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: `Client ... lient}`;index.js:219[27:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: user;index.js:150[48:51];Sink: remoteClient;index.js:226[25:36]::FLOW_DESCR_END","/index.js","150","48","150","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:223[41:45];Sink: error.toString();index.js:227[25:40]::FLOW_DESCR_END","/index.js","223","41","223","45"

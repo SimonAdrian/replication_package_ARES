@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;petduino-in.js:20[30:32];Sink: msg;petduino-in.js:73[18:20]::FLOW_DESCR_END","/src/petduino-in.js","20","30","20","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;petduino-out.js:15[29:31];Sink: msg;petduino-out.js:62[15:17]::FLOW_DESCR_END","/src/petduino-out.js","15","29","15","31"

@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: msg;filter.js:79[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: uri;filter.js:143[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: payload ... rid].pv;filter.js:143[41:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: uri;filter.js:150[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: uri;filter.js:155[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: payload ... rid].pv;filter.js:155[41:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: uri;filter.js:160[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: uri;filter.js:160[115:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: uri;filter.js:165[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:40[27:29];Sink: payload ... rid].pv;filter.js:165[41:65]::FLOW_DESCR_END","/dist/nodes/filter.js","40","27","40","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remap-names.js:40[27:29];Sink: msg;remap-names.js:83[27:29]::FLOW_DESCR_END","/dist/nodes/remap-names.js","40","27","40","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rename-resources.js:38[27:29];Sink: msg;rename-resources.js:56[27:29]::FLOW_DESCR_END","/dist/nodes/rename-resources.js","38","27","38","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;statistics.js:69[27:29];Sink: msg.topic;statistics.js:86[52:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;statistics.js:69[27:29];Sink: uri;statistics.js:145[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;statistics.js:69[27:29];Sink: uri;statistics.js:211[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;statistics.js:69[27:29];Sink: uri;statistics.js:213[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;statistics.js:69[27:29];Sink: uri;statistics.js:242[44:46]::FLOW_DESCR_END","/dist/nodes/statistics.js","69","27","69","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;store-forward.js:52[27:29];Sink: msg;store-forward.js:139[23:25]::FLOW_DESCR_END","/dist/nodes/store-forward.js","52","27","52","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;synchronise.js:65[27:29];Sink: msg.topic;synchronise.js:75[29:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;synchronise.js:65[27:29];Sink: msg.payload;synchronise.js:75[40:50]::FLOW_DESCR_END","/dist/nodes/synchronise.js","65","27","65","29"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... sername;91-irc.js:51[84:109];Sink: RED._("" ... fig.ssl;91-irc.js:51[22:135]::FLOW_DESCR_END","/91-irc.js","51","84","51","109"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;91-irc.js:260[35:37];Sink: msg.raw;91-irc.js:261[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;91-irc.js:260[35:37];Sink: RED._("" ... msg.raw;91-irc.js:262[54:95]::FLOW_DESCR_END","/91-irc.js","260","35","260","37"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: y;nina-warnings.js:37[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: y;nina-warnings.js:37[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: op[1];nina-warnings.js:37[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: ""Reques ... (err_1);nina-warnings.js:178[40:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: err_1;nina-warnings.js:180[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: resp;nina-warnings.js:236[51:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: body;nina-warnings.js:257[47:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: ""Cannot ... tusCode;nina-warnings.js:328[42:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();nina-warnings.js:43[30:40];Sink: resp;nina-warnings.js:333[35:38]::FLOW_DESCR_END","/dist/nina-warnings.js","43","30","43","40"

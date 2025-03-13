@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;ble-uart.js:16[30:34];Sink: 'on ->  ... + state;ble-uart.js:17[19:47]::FLOW_DESCR_END","/ble-uart.js","16","30","16","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ble-uart.js:32[24:28];Sink: 'bleno  ... + error;ble-uart.js:33[19:41]::FLOW_DESCR_END","/ble-uart.js","32","24","32","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ble-uart.js:51[41:45];Sink: 'on ->  ... ccess');ble-uart.js:52[17:83]::FLOW_DESCR_END","/ble-uart.js","51","41","51","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ble-uart.js:128[37:39];Sink: Buffer.from(payload);ble-uart.js:134[17:36]::FLOW_DESCR_END","/ble-uart.js","128","37","128","39"

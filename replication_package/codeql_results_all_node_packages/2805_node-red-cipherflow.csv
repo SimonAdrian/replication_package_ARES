@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;add.js:22[36:38];Sink: firstNodeId;add.js:46[52:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add.js:22[36:38];Sink: secondNodeId;add.js:67[53:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add.js:22[36:38];Sink: msg;add.js:133[31:33]::FLOW_DESCR_END","/nodes/compute/add.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;addPlain.js:36[36:38];Sink: msg;addPlain.js:83[31:33]::FLOW_DESCR_END","/nodes/compute/addPlain.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exponent.js:33[36:38];Sink: msg;exponent.js:87[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exponent.js:33[36:38];Sink: msg;exponent.js:95[33:35]::FLOW_DESCR_END","/nodes/compute/exponent.js","33","36","33","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multi.js:24[36:38];Sink: firstNodeId;multi.js:46[52:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multi.js:24[36:38];Sink: secondNodeId;multi.js:61[53:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multi.js:24[36:38];Sink: msg;multi.js:135[31:33]::FLOW_DESCR_END","/nodes/compute/multi.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multiPlain.js:34[36:38];Sink: msg;multiPlain.js:90[31:33]::FLOW_DESCR_END","/nodes/compute/multiPlain.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;negate.js:23[36:38];Sink: msg;negate.js:56[27:29]::FLOW_DESCR_END","/nodes/compute/negate.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reciprocal.js:36[36:38];Sink: msg;reciprocal.js:180[27:29]::FLOW_DESCR_END","/nodes/compute/reciprocal.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decrypt.js:11[36:38];Sink: msg;decrypt.js:38[31:33]::FLOW_DESCR_END","/nodes/encode/decrypt.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encrypt-pack.js:36[36:38];Sink: msg;encrypt-pack.js:144[31:33]::FLOW_DESCR_END","/nodes/encode/encrypt-pack.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encrypt.js:35[36:38];Sink: msgArray;encrypt.js:126[31:38]::FLOW_DESCR_END","/nodes/encode/encrypt.js","35","36","35","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;input.js:34[36:38];Sink: msg;input.js:86[31:33]::FLOW_DESCR_END","/nodes/encode/input.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setContext.js:13[36:38];Sink: msg;setContext.js:27[31:33]::FLOW_DESCR_END","/nodes/encode/setContext.js","13","36","13","38"

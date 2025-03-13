@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: acceleratedValue;stateful-encoder.js:155[24:39];Sink: `turned ... edValue;stateful-encoder.js:158[31:64]::FLOW_DESCR_END","/stateful-encoder.js","155","24","155","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: acceleratedValue;stateful-encoder.js:163[25:40];Sink: `turned ... edValue;stateful-encoder.js:166[31:65]::FLOW_DESCR_END","/stateful-encoder.js","163","25","163","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stateless-led-button.js:134[32:34];Sink: ""receiv ... + value;stateless-led-button.js:139[37:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stateless-led-button.js:134[32:34];Sink: ""is set ... ing(16);stateless-led-button.js:144[41:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stateless-led-button.js:134[32:34];Sink: ""is set ... ing(16);stateless-led-button.js:148[39:83]::FLOW_DESCR_END","/stateless-led-button.js","134","32","134","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;tiles-hub-config.js:19[81:91];Sink: ""Regist ... ig.port;tiles-hub-config.js:19[29:116]::FLOW_DESCR_END","/tiles-hub-config.js","19","81","19","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;tiles-hub-config.js:19[106:116];Sink: ""Regist ... ig.port;tiles-hub-config.js:19[29:116]::FLOW_DESCR_END","/tiles-hub-config.js","19","106","19","116"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;tiles-hub-config.js:35[21:31];Sink: ""Node a ... unter();tiles-hub-config.js:61[31:83]::FLOW_DESCR_END","/tiles-hub-config.js","35","21","35","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;tiles-hub-config.js:46[21:31];Sink: ""Node a ... unter();tiles-hub-config.js:61[31:83]::FLOW_DESCR_END","/tiles-hub-config.js","46","21","46","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;tiles-hub-config.js:61[48:56];Sink: ""Node a ... unter();tiles-hub-config.js:61[31:83]::FLOW_DESCR_END","/tiles-hub-config.js","61","48","61","56"

@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: msg;alexa-master-function.js:82[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: msg;alexa-master-function.js:97[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: msg;alexa-master-function.js:125[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: msg;alexa-master-function.js:160[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: msg;alexa-master-function.js:170[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: msg.payload.pergunta;alexa-master-function.js:323[95:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: nomeEntidadePassword;alexa-master-function.js:324[107:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:351[63:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:541[71:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:614[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:687[67:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:695[67:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:700[63:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: [null, msg];alexa-master-function.js:959[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-master-function.js:12[36:38];Sink: url;alexa-master-function.js:968[52:54]::FLOW_DESCR_END","/alexa-master-function.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alexa-master-function.js:158[73:75];Sink: err;alexa-master-function.js:160[60:62]::FLOW_DESCR_END","/alexa-master-function.js","158","73","158","75"

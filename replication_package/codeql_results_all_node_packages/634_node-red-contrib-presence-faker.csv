@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: debugMsg;presence-faker.js:17[19:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: `new wi ... Begin}`;presence-faker.js:224[17:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: config.windowBegin;presence-faker.js:226[45:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: `new wi ... owEnd}`;presence-faker.js:229[17:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: config.windowEnd;presence-faker.js:231[43:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: `new mi ... ation}`;presence-faker.js:234[17:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: `new ma ... ation}`;presence-faker.js:239[17:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: `new mi ... Count}`;presence-faker.js:244[17:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;presence-faker.js:191[32:34];Sink: `new ma ... Count}`;presence-faker.js:249[17:55]::FLOW_DESCR_END","/presence-faker.js","191","32","191","34"

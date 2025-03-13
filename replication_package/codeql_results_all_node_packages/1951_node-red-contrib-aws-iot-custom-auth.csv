@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;aws-iot.js:134[50:54];Sink: topic;aws-iot.js:139[30:34]::FLOW_DESCR_END","/aws-iot.js","134","50","134","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;aws-iot.js:134[57:63];Sink: payload;aws-iot.js:139[37:43]::FLOW_DESCR_END","/aws-iot.js","134","57","134","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: msg.clientId;aws-iot.js:178[25:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: msg.reconnect;aws-iot.js:178[39:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: msg.topic || n.topic;aws-iot.js:203[34:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: msg.payload;aws-iot.js:203[56:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: ""SEND>"" ... payload;aws-iot.js:204[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: msg.topic || n.topic;aws-iot.js:206[40:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:176[29:31];Sink: msg.payload;aws-iot.js:206[62:72]::FLOW_DESCR_END","/aws-iot.js","176","29","176","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-iot.js:247[29:31];Sink: msg.clientId;aws-iot.js:249[25:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-iot.js:247[29:31];Sink: msg.reconnect;aws-iot.js:249[39:51]::FLOW_DESCR_END","/aws-iot.js","247","29","247","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;aws-iot.js:261[49:53];Sink: 'onMess ... tring();aws-iot.js:262[17:65]::FLOW_DESCR_END","/aws-iot.js","261","49","261","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;aws-iot.js:261[56:62];Sink: 'onMess ... tring();aws-iot.js:262[17:65]::FLOW_DESCR_END","/aws-iot.js","261","56","261","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;aws-iot.js:269[47:55];Sink: 'onDelt ... Object);aws-iot.js:270[17:75]::FLOW_DESCR_END","/aws-iot.js","269","47","269","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateObject;aws-iot.js:269[58:68];Sink: 'onDelt ... Object);aws-iot.js:270[17:75]::FLOW_DESCR_END","/aws-iot.js","269","58","269","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingName;aws-iot.js:277[48:56];Sink: 'onStat ... ntToken;aws-iot.js:279[18:80]::FLOW_DESCR_END","/aws-iot.js","277","48","277","56"

@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;proxy.js:54[37:39];Sink: `- Conn ... message;proxy.js:56[37:114]::FLOW_DESCR_END","/lib/proxy.js","54","37","54","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address;proxy.js:54[42:48];Sink: `- Conn ... mily}.`;proxy.js:58[37:102]::FLOW_DESCR_END","/lib/proxy.js","54","42","54","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: family;proxy.js:54[51:56];Sink: `- Conn ... mily}.`;proxy.js:58[37:102]::FLOW_DESCR_END","/lib/proxy.js","54","51","54","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;proxy.js:54[59:62];Sink: `- Conn ... message;proxy.js:56[37:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;proxy.js:54[59:62];Sink: `- Conn ... mily}.`;proxy.js:58[37:102]::FLOW_DESCR_END","/lib/proxy.js","54","59","54","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: c.port;proxy.js:63[72:77];Sink: `- Conn ... mily}.`;proxy.js:63[33:92]::FLOW_DESCR_END","/lib/proxy.js","63","72","63","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;proxy.js:70[34:37];Sink: ""mcuPro ...  + data;proxy.js:73[37:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;proxy.js:70[34:37];Sink: data;proxy.js:79[34:37]::FLOW_DESCR_END","/lib/proxy.js","70","34","70","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;proxy.js:98[31:34];Sink: ""mcuPro ...  ""<==="";proxy.js:110[33:75]::FLOW_DESCR_END","/lib/proxy.js","98","31","98","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: addr.port;proxy.js:260[66:74];Sink: `- List ... amily}`;proxy.js:260[25:91]::FLOW_DESCR_END","/lib/proxy.js","260","66","260","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mcu_plugin.html:599[62:64];Sink: res[1];mcu_plugin.html:589[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mcu_plugin.html:599[62:64];Sink: msg;mcu_plugin.html:600[29:31]::FLOW_DESCR_END","/mcu_plugin.html","599","62","599","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nt;mcu_plugin.html:676[61:62];Sink: ""MCU: F ...  + ""'."";mcu_plugin.html:671[29:69]::FLOW_DESCR_END","/mcu_plugin.html","676","61","676","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');mcu_plugin.js:524[26:60];Sink: cache_data;mcu_plugin.js:549[52:61]::FLOW_DESCR_END","/mcu_plugin.js","524","26","524","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;mcu_plugin.js:2362[37:38];Sink: id;mcu_plugin.js:2363[37:38]::FLOW_DESCR_END","/mcu_plugin.js","2362","37","2362","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mcu_plugin.js:2362[41:44];Sink: data;mcu_plugin.js:2363[41:44]::FLOW_DESCR_END","/mcu_plugin.js","2362","41","2362","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;mcu_plugin.js:2370[36:37];Sink: id;mcu_plugin.js:2371[36:37]::FLOW_DESCR_END","/mcu_plugin.js","2370","36","2370","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mcu_plugin.js:2370[40:43];Sink: data.error;relay.js:44[38:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;mcu_plugin.js:2370[40:43];Sink: data;mcu_plugin.js:2371[40:43]::FLOW_DESCR_END","/mcu_plugin.js","2370","40","2370","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;mcu_plugin.js:2374[35:36];Sink: id;mcu_plugin.js:2375[35:36]::FLOW_DESCR_END","/mcu_plugin.js","2374","35","2374","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;mcu_plugin.js:2374[39:42];Sink: data.warn;relay.js:49[37:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;mcu_plugin.js:2374[39:42];Sink: data;mcu_plugin.js:2375[39:42]::FLOW_DESCR_END","/mcu_plugin.js","2374","39","2374","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.tr ... read(a);espressif.js:2[49031:49052];Sink: A;espressif.js:2[47643:47643]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.tr ... read(a);espressif.js:2[49031:49052];Sink: A;espressif.js:2[47658:47658]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.tr ... read(a);espressif.js:2[49031:49052];Sink: `Debug: ${A}`;espressif.js:2[47776:47788]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.tr ... read(a);espressif.js:2[49031:49052];Sink: A[0].toString();espressif.js:2[51141:51155]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.tr ... read(a);espressif.js:2[49031:49052];Sink: A;espressif.js:2[58303:58303]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.tr ... read(a);espressif.js:2[49031:49052];Sink: e[0].toString();espressif.js:2[60120:60134]::FLOW_DESCR_END","/resources/lib/espressif.js","2","49031","2","49052"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t[a].data.length;espressif.js:2[62191:62206];Sink: A;espressif.js:2[47643:47643]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t[a].data.length;espressif.js:2[62191:62206];Sink: A;espressif.js:2[47658:47658]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t[a].data.length;espressif.js:2[62191:62206];Sink: `Debug: ${A}`;espressif.js:2[47776:47788]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t[a].data.length;espressif.js:2[62191:62206];Sink: ""Data L ... .length;espressif.js:2[62176:62206]::FLOW_DESCR_END","/resources/lib/espressif.js","2","62191","2","62206"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: o.length;espressif.js:2[62325:62332];Sink: A;espressif.js:2[47643:47643]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: o.length;espressif.js:2[62325:62332];Sink: A;espressif.js:2[47658:47658]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: o.length;espressif.js:2[62325:62332];Sink: `Debug: ${A}`;espressif.js:2[47776:47788]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: o.length;espressif.js:2[62325:62332];Sink: ""Image  ... .length;espressif.js:2[62309:62332]::FLOW_DESCR_END","/resources/lib/espressif.js","2","62325","2","62332"

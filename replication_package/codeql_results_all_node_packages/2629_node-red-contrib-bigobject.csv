@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bo_csv_stream.js:28[35:37];Sink: msg;bo_csv_stream.js:120[16:18]::FLOW_DESCR_END","/bigobject/bo_csv_stream.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;boa.js:24[28:30];Sink: msg;boa.js:108[15:17]::FLOW_DESCR_END","/bigobject/boa.js","24","28","24","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bomart.js:24[28:30];Sink: msg;bomart.js:59[15:17]::FLOW_DESCR_END","/bigobject/bomart.js","24","28","24","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bosh.js:22[35:37];Sink: msg;bosh.js:93[15:17]::FLOW_DESCR_END","/bigobject/bosh.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bosql.js:26[28:30];Sink: msg;bosql.js:106[15:17]::FLOW_DESCR_END","/bigobject/bosql.js","26","28","26","30"

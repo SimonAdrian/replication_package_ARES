@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: 'FTP Li ... tring();ftp.js:86[27:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: msg;ftp.js:91[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: 'FTP Ge ... ilename;ftp.js:102[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: msg;ftp.js:118[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: 'FTP Put:' + newFile;ftp.js:142[27:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: msg;ftp.js:154[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: 'FTP De ... delFile;ftp.js:165[27:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:60[31:33];Sink: msg;ftp.js:172[27:29]::FLOW_DESCR_END","/nodes/ftp.js","60","31","60","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: 'FTP Li ... tring();ftps.js:92[27:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: msg;ftps.js:98[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: 'FTP Ge ... ilename;ftps.js:108[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: msg;ftps.js:124[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: 'FTP Put:' + newFile;ftps.js:172[27:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: msg;ftps.js:184[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: 'FTP De ... delFile;ftps.js:206[27:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftps.js:61[31:33];Sink: msg;ftps.js:213[27:29]::FLOW_DESCR_END","/nodes/ftps.js","61","31","61","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: msg;sftp.js:273[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: ftpfilename;sftp.js:286[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: msg;sftp.js:294[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: msgData;sftp.js:319[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: newFile;sftp.js:319[43:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: msg;sftp.js:324[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: 'SFTP D ... ilename;sftp.js:336[29:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:234[40:42];Sink: msg;sftp.js:342[27:29]::FLOW_DESCR_END","/nodes/sftp.js","234","40","234","42"

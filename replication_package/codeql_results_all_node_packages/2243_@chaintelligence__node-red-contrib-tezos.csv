@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;call-contract.js:32[35:37];Sink: `Callin ... addr}""`;call-contract.js:69[25:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call-contract.js:32[35:37];Sink: `Callin ... }\ua729 ...`;call-contract.js:72[29:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call-contract.js:32[35:37];Sink: msg;call-contract.js:88[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call-contract.js:32[35:37];Sink: msg;call-contract.js:94[27:29]::FLOW_DESCR_END","/nodes/call-contract.js","32","35","32","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;confirm.js:10[36:38];Sink: `Waitin ... med...`;confirm.js:14[29:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;confirm.js:10[36:38];Sink: `Operat ... .hash}`;confirm.js:18[37:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;confirm.js:10[36:38];Sink: msg;confirm.js:21[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;confirm.js:10[36:38];Sink: msg;confirm.js:31[27:29]::FLOW_DESCR_END","/nodes/confirm.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;generate-keys.js:13[35:37];Sink: `mnemon ... monic}`;generate-keys.js:25[25:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generate-keys.js:13[35:37];Sink: msg;generate-keys.js:40[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generate-keys.js:13[35:37];Sink: msg;generate-keys.js:46[27:29]::FLOW_DESCR_END","/nodes/generate-keys.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-contract.js:11[35:37];Sink: msg;get-contract.js:26[27:29]::FLOW_DESCR_END","/nodes/get-contract.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;originate.js:20[35:37];Sink: msg;originate.js:58[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;originate.js:20[35:37];Sink: msg;originate.js:64[27:29]::FLOW_DESCR_END","/nodes/originate.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transfer.js:21[35:37];Sink: ""transf ... ination;transfer.js:53[25:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer.js:21[35:37];Sink: msg;transfer.js:59[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer.js:21[35:37];Sink: msg;transfer.js:65[27:29]::FLOW_DESCR_END","/nodes/transfer.js","21","35","21","37"

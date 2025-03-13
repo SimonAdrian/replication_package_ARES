@@ -1,0 +1,44 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.de ... iceId ];ezlo.html:344[34:62];Sink: currDevice;ezlo.html:345[63:72]::FLOW_DESCR_END","/ezlo.html","344","34","344","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;ezlo.js:166[29:53];Sink: username;ezloclient.js:388[77:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;ezlo.js:166[29:53];Sink: authurl;ezloclient.js:412[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;ezlo.js:166[29:53];Sink: `EzloCl ... rname}`;ezloclient.js:433[24:74]::FLOW_DESCR_END","/ezlo.js","166","29","166","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ezlo.js:391[37:39];Sink: msg.payload;ezlo.js:395[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ezlo.js:391[37:39];Sink: msg.pay ... s || {};ezlo.js:395[62:85]::FLOW_DESCR_END","/ezlo.js","391","37","391","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.username;ezloclient.js:165[45:64];Sink: username;ezloclient.js:388[77:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.config.username;ezloclient.js:165[45:64];Sink: authurl;ezloclient.js:412[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.config.username;ezloclient.js:165[45:64];Sink: `EzloCl ... rname}`;ezloclient.js:433[24:74]::FLOW_DESCR_END","/lib/ezloclient.js","165","45","165","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;ezloclient.js:193[35:38];Sink: code;ezloclient.js:194[54:57]::FLOW_DESCR_END","/lib/ezloclient.js","193","35","193","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;ezloclient.js:193[41:46];Sink: reason;ezloclient.js:194[60:65]::FLOW_DESCR_END","/lib/ezloclient.js","193","41","193","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.serial;ezloclient.js:697[35:52];Sink: `EzloCl ... mware}`;ezloclient.js:697[16:132]::FLOW_DESCR_END","/lib/ezloclient.js","697","35","697","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.model;ezloclient.js:697[60:76];Sink: `EzloCl ... mware}`;ezloclient.js:697[16:132]::FLOW_DESCR_END","/lib/ezloclient.js","697","60","697","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.hardware;ezloclient.js:697[84:103];Sink: `EzloCl ... mware}`;ezloclient.js:697[16:132]::FLOW_DESCR_END","/lib/ezloclient.js","697","84","697","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.firmware;ezloclient.js:697[111:130];Sink: `EzloCl ... mware}`;ezloclient.js:697[16:132]::FLOW_DESCR_END","/lib/ezloclient.js","697","111","697","130"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ( data. ... .length;ezloclient.js:756[35:68];Sink: `EzloCl ...  items`;ezloclient.js:756[16:76]::FLOW_DESCR_END","/lib/ezloclient.js","756","35","756","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.items;ezloclient.js:756[37:53];Sink: `EzloCl ...  items`;ezloclient.js:756[16:76]::FLOW_DESCR_END","/lib/ezloclient.js","756","37","756","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.items;ezloclient.js:757[9:25];Sink: item;ezloclient.js:771[44:47]::FLOW_DESCR_END","/lib/ezloclient.js","757","9","757","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ( data. ... .length;ezloclient.js:777[35:70];Sink: `EzloCl ... evices`;ezloclient.js:777[16:80]::FLOW_DESCR_END","/lib/ezloclient.js","777","35","777","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.devices;ezloclient.js:777[37:55];Sink: `EzloCl ... evices`;ezloclient.js:777[16:80]::FLOW_DESCR_END","/lib/ezloclient.js","777","37","777","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result.devices;ezloclient.js:778[9:27];Sink: dev;ezloclient.js:788[46:48]::FLOW_DESCR_END","/lib/ezloclient.js","778","9","778","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event.r ... iceName;ezloclient.js:904[167:189];Sink: `EzloCl ... ceId})`;ezloclient.js:904[28:218]::FLOW_DESCR_END","/lib/ezloclient.js","904","167","904","189"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event.r ... eviceId;ezloclient.js:904[195:215];Sink: `EzloCl ... ceId})`;ezloclient.js:904[28:218]::FLOW_DESCR_END","/lib/ezloclient.js","904","195","904","215"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event.r ... iceName;ezloclient.js:934[63:85];Sink: `EzloCl ... alue)}`;ezloclient.js:934[32:222]::FLOW_DESCR_END","/lib/ezloclient.js","934","63","934","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event.r ... eviceId;ezloclient.js:934[91:111];Sink: `EzloCl ... alue)}`;ezloclient.js:934[32:222]::FLOW_DESCR_END","/lib/ezloclient.js","934","91","934","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: `EzloCl ...  bytes`;ezloclient.js:794[16:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: message;ezloclient.js:795[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: event.result.status;ezloclient.js:830[57:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: event;ezloclient.js:857[63:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: event;ezloclient.js:864[67:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: event.result._id;ezloclient.js:895[74:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: event.result;ezloclient.js:899[54:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: `EzloCl ... ceId})`;ezloclient.js:904[28:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: `EzloCl ... alue)}`;ezloclient.js:934[32:222]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: event.result;ezloclient.js:945[52:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: message;ezloclient.js:992[65:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: m;wsclient.js:90[49:49];Sink: m;wsclient.js:92[47:47]::FLOW_DESCR_END","/lib/wsclient.js","90","49","90","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;wsclient.js:123[43:46];Sink: code;ezloclient.js:194[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;wsclient.js:123[43:46];Sink: code;wsclient.js:134[45:48]::FLOW_DESCR_END","/lib/wsclient.js","123","43","123","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;wsclient.js:123[49:54];Sink: reason;ezloclient.js:194[60:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reason;wsclient.js:123[49:54];Sink: reason;wsclient.js:134[51:56]::FLOW_DESCR_END","/lib/wsclient.js","123","49","123","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;wsclient.js:149[41:41];Sink: e;wsclient.js:155[81:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;wsclient.js:149[41:41];Sink: e;wsclient.js:157[65:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;wsclient.js:149[41:41];Sink: err;wsclient.js:170[45:47]::FLOW_DESCR_END","/lib/wsclient.js","149","41","149","41"

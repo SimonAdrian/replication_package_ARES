@@ -1,0 +1,2 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt.js:41[40:42];Sink: ""msg.un ...  + ""\"""";mqtt.js:50[39:75]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;mqtt.js:41[40:42];Sink: ""msg.su ...  + ""\"""";mqtt.js:79[35:69]::FLOW_DESCR_END","/mqtt.js","41","40","41","42"

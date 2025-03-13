@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cubic-range-node.js:16[35:37];Sink: RED._("" ... g.table;cubic-range-node.js:27[15:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cubic-range-node.js:16[35:37];Sink: msg;cubic-range-node.js:44[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cubic-range-node.js:16[35:37];Sink: msg;cubic-range-node.js:49[15:17]::FLOW_DESCR_END","/cubic-range-node.js","16","35","16","37"

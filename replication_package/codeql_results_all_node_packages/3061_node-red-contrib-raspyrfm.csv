@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rcpulse.js:95[35:37];Sink: JSON.st ...  + '\n';rcpulse.js:56[34:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rcpulse.js:95[35:37];Sink: msg;rcpulse.js:99[23:25]::FLOW_DESCR_END","/rcpulse.js","95","35","95","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;rfmserver.js:7[21:26];Sink: node.host;rfmserver.js:31[52:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rfmserver.js:7[21:26];Sink: node.host;rfmserver.js:70[40:48]::FLOW_DESCR_END","/rfmserver.js","7","21","7","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;rfmserver.js:8[21:26];Sink: node.port;rfmserver.js:31[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rfmserver.js:8[21:26];Sink: node.port;rfmserver.js:70[29:37]::FLOW_DESCR_END","/rfmserver.js","8","21","8","26"

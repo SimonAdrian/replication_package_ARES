@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ace.js:10[31:33];Sink: key;voice-node.js:30[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ace.js:10[31:33];Sink: value;voice-node.js:30[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ace.js:10[31:33];Sink: callId;voice-node.js:67[20:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ace.js:10[31:33];Sink: `${callId}_svaml`;voice-node.js:89[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ace.js:10[31:33];Sink: svaml;voice-node.js:89[39:43]::FLOW_DESCR_END","/src/nodes/ace/ace.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;call.js:37[31:33];Sink: JSON.st ... errors);call.js:86[46:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call.js:37[31:33];Sink: JSON.st ... ayload);call.js:155[15:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call.js:37[31:33];Sink: JSON.st ... ayload);call.js:173[13:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call.js:37[31:33];Sink: value;voice-node.js:30[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call.js:37[31:33];Sink: svaml;voice-node.js:89[39:43]::FLOW_DESCR_END","/src/nodes/call/call.js","37","31","37","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.callId;call.js:168[33:48];Sink: key;voice-node.js:30[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: resp.data.callId;call.js:168[33:48];Sink: `${callId}_svaml`;voice-node.js:89[20:36]::FLOW_DESCR_END","/src/nodes/call/call.js","168","33","168","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.callId;call.js:170[33:48];Sink: key;voice-node.js:30[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: resp.data.callId;call.js:170[33:48];Sink: callId;voice-node.js:67[20:25]::FLOW_DESCR_END","/src/nodes/call/call.js","170","33","170","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.callId;call.js:172[27:42];Sink: `Voice  ... allId}`;call.js:172[13:44]::FLOW_DESCR_END","/src/nodes/call/call.js","172","27","172","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dtmf.js:10[31:33];Sink: key;voice-node.js:30[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dtmf.js:10[31:33];Sink: callId;voice-node.js:67[20:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dtmf.js:10[31:33];Sink: `${callId}_svaml`;voice-node.js:89[20:36]::FLOW_DESCR_END","/src/nodes/dtmf/dtmf.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: error.status;voice-api.js:24[31:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: JSON.st ... p.data);call.js:160[47:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: `Voice  ... allId}`;call.js:172[13:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: 'Respon ...  + data;rest-client.js:28[23:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: key;voice-node.js:30[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: callId;voice-node.js:67[20:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;rest-client.js:25[28:32];Sink: `${callId}_svaml`;voice-node.js:89[20:36]::FLOW_DESCR_END","/src/utils/rest-client.js","25","28","25","32"

@@ -1,0 +1,39 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: mqttProto._pubtopic;blinker-mqtt.js:134[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:134[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: mqttProto._pubtopic;blinker-mqtt.js:155[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:155[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: mqttProto._pubtopic;blinker-mqtt.js:175[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:175[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: mqttProto._pubtopic;blinker-mqtt.js:195[36:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:31[30:33];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:195[57:9]::FLOW_DESCR_END","/blinker-mqtt.js","31","30","31","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:134[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:134[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:155[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:155[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:175[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:175[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:195[36:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.deviceName;blinker-mqtt.js:55[25:37];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:195[57:9]::FLOW_DESCR_END","/blinker-mqtt.js","55","25","55","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dd.productKey;blinker-mqtt.js:58[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:134[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.productKey;blinker-mqtt.js:58[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:155[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.productKey;blinker-mqtt.js:58[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:175[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: dd.productKey;blinker-mqtt.js:58[25:37];Sink: mqttProto._pubtopic;blinker-mqtt.js:195[36:54]::FLOW_DESCR_END","/blinker-mqtt.js","58","25","58","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dd.uuid;blinker-mqtt.js:59[19:25];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:195[57:9]::FLOW_DESCR_END","/blinker-mqtt.js","59","19","59","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;blinker-mqtt.js:90[29:31];Sink: 'Get De ... ' + err;blinker-mqtt.js:91[18:49]::FLOW_DESCR_END","/blinker-mqtt.js","90","29","90","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: out_parm;blinker-mqtt.js:132[49:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:134[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: data;blinker-mqtt.js:147[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: out_parm;blinker-mqtt.js:154[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:155[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: data;blinker-mqtt.js:163[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: in_parm;blinker-mqtt.js:174[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: JSON.st ... \t\t\t\t\t});blinker-mqtt.js:175[58:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: data;blinker-mqtt.js:188[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: data;blinker-mqtt.js:194[46:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;blinker-mqtt.js:116[55:61];Sink: data;blinker-mqtt.js:207[38:41]::FLOW_DESCR_END","/blinker-mqtt.js","116","55","116","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;blinker-mqtt.js:215[46:48];Sink: err;blinker-mqtt.js:216[18:20]::FLOW_DESCR_END","/blinker-mqtt.js","215","46","215","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;blinker-mqtt.js:237[21:24];Sink: Blinker_key;blinker-mqtt.js:240[61:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:237[21:24];Sink: Blinker_key;blinker-mqtt.js:241[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:237[21:24];Sink: JSON.st ... nd_msg);blinker-mqtt.js:257[50:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:237[21:24];Sink: JSON.st ... nd_msg);blinker-mqtt.js:258[36:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;blinker-mqtt.js:237[21:24];Sink: data;blinker-mqtt.js:265[16:19]::FLOW_DESCR_END","/blinker-mqtt.js","237","21","237","24"

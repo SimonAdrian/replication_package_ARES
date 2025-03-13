@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soundweb-Control.js:115[27:29];Sink: msg;soundweb-Control.js:107[27:29]::FLOW_DESCR_END","/lib/soundweb-Control.js","115","27","115","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;soundweb-server.js:10[20:25];Sink: host;soundweb-server.js:14[41:44]::FLOW_DESCR_END","/lib/soundweb-server.js","10","20","10","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;soundweb-server.js:11[20:25];Sink: port;soundweb-server.js:14[35:38]::FLOW_DESCR_END","/lib/soundweb-server.js","11","20","11","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;soundweb-server.js:66[34:36];Sink: err.toString();soundweb-server.js:68[28:41]::FLOW_DESCR_END","/lib/soundweb-server.js","66","34","66","36"

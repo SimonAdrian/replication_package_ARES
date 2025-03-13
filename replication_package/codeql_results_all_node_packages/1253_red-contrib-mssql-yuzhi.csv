@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql.js:71[32:34];Sink: m;mssql.js:61[30:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:71[32:34];Sink: query;mssql.js:86[27:31]::FLOW_DESCR_END","/mssql.js","71","32","71","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql.js:91[31:33];Sink: err;mssql.js:92[28:30]::FLOW_DESCR_END","/mssql.js","91","31","91","33"

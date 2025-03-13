@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:54[69:90];Sink: '[solac ... ' + ref;solaceConnectionPool.js:329[34:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:54[69:90];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:412[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:54[69:90];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:414[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:54[69:90];Sink: (this.b ... g.port);solace.js:54[35:91]::FLOW_DESCR_END","/solace/solace.js","54","69","54","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.br ... sername;solace.js:54[95:120];Sink: '[solac ... ' + ref;solaceConnectionPool.js:329[34:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.br ... sername;solace.js:54[95:120];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:412[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.br ... sername;solace.js:54[95:120];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:414[42:112]::FLOW_DESCR_END","/solace/solace.js","54","95","54","120"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:92[69:90];Sink: '[solac ... ' + ref;solaceConnectionPool.js:329[34:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:92[69:90];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:412[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:92[69:90];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:414[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.br ... ig.port;solace.js:92[69:90];Sink: (this.b ... g.port);solace.js:92[35:91]::FLOW_DESCR_END","/solace/solace.js","92","69","92","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.br ... sername;solace.js:92[95:120];Sink: '[solac ... ' + ref;solaceConnectionPool.js:329[34:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.br ... sername;solace.js:92[95:120];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:412[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.br ... sername;solace.js:92[95:120];Sink: ""[solac ... "" + ref;solaceConnectionPool.js:414[42:112]::FLOW_DESCR_END","/solace/solace.js","92","95","92","120"

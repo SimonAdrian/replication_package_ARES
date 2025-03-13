@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t.data.buffer;ol.js:1[19917:19929];Sink: r;ol.js:1[20075:20075]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t.data.buffer;ol.js:1[19917:19929];Sink: l;ol.js:1[20313:20313]::FLOW_DESCR_END","/maps/js/ol.js","1","19917","1","19929"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: r;ol.js:1[22977:22977]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: this;ol.js:1[24498:24501]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: t[i];ol.js:1[27292:27295]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: t;ol.js:1[30763:30763]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: i;ol.js:7[317835:317835]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: e;ol.js:7[330353:330353]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r.pop();ol.js:7[317892:317898];Sink: e;ol.js:7[330400:330400]::FLOW_DESCR_END","/maps/js/ol.js","7","317892","7","317898"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t;socket.io.js:6[28642:28642]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t.data;socket.io.js:6[28891:28896]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t.data;socket.io.js:6[28919:28924]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t;socket.io.js:6[29056:29056]::FLOW_DESCR_END","/maps/js/socket.io.js","6","26486","6","26486"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;socket.io.js:6[26525:26525];Sink: t;socket.io.js:6[31365:31365]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26525:26525];Sink: e;socket.io.js:6[31806:31806]::FLOW_DESCR_END","/maps/js/socket.io.js","6","26525","6","26525"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;maps.js:106[38:43];Sink: 'a sock ...  Date();maps.js:111[29:179]::FLOW_DESCR_END","/maps/maps.js","106","38","106","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;maps.js:150[35:37];Sink: msg;maps.js:159[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maps.js:150[35:37];Sink: item.name;map-template.js:46[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maps.js:150[35:37];Sink: item.description;map-template.js:47[48:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maps.js:150[35:37];Sink: item.label;map-template.js:48[42:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maps.js:150[35:37];Sink: item.value;map-template.js:49[42:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;maps.js:150[35:37];Sink: item.unit;map-template.js:50[41:49]::FLOW_DESCR_END","/maps/maps.js","150","35","150","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;map-template.js:22[31:33];Sink: red;map-template.js:23[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: red;map-template.js:22[31:33];Sink: item.name;map-template.js:46[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: red;map-template.js:22[31:33];Sink: item.description;map-template.js:47[48:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: red;map-template.js:22[31:33];Sink: item.label;map-template.js:48[42:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: red;map-template.js:22[31:33];Sink: item.value;map-template.js:49[42:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: red;map-template.js:22[31:33];Sink: item.unit;map-template.js:50[41:49]::FLOW_DESCR_END","/maps/templates/map-template.js","22","31","22","33"

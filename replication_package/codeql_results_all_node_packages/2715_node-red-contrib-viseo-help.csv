@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-comment.js:10[27:30];Sink: data;node-comment.js:16[15:18]::FLOW_DESCR_END","/node-comment.js","10","27","10","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-html.js:10[27:30];Sink: data;node-html.js:16[15:18]::FLOW_DESCR_END","/node-html.js","10","27","10","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:34[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:45[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:72[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:78[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:104[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:130[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:144[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:182[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-nodes.js:15[27:30];Sink: data;node-nodes.js:219[30:33]::FLOW_DESCR_END","/node-nodes.js","15","27","15","30"

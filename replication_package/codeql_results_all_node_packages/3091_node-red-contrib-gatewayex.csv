@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;gatewayex.js:111[40:47];Sink: ""$alarm$"" + p.S;gatewayex.js:117[21:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;gatewayex.js:111[40:47];Sink: p.S;gatewayex.js:117[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;gatewayex.js:111[40:47];Sink: p;gatewayex.js:117[43:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;gatewayex.js:111[40:47];Sink: p;gatewayex.js:151[41:41]::FLOW_DESCR_END","/gatewayex.js","111","40","111","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;gatewayex.js:237[45:49];Sink: error;gatewayex.js:238[22:26]::FLOW_DESCR_END","/gatewayex.js","237","45","237","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... tRemote;gatewayex.js:296[39:62];Sink: node.mqtt;gatewayex.js:190[38:46]::FLOW_DESCR_END","/gatewayex.js","296","39","296","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;gatewayex.js:296[39:51];Sink: node.mqtt;gatewayex.js:190[38:46]::FLOW_DESCR_END","/gatewayex.js","296","39","296","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... qttPort;gatewayex.js:296[67:88];Sink: node.mqtt;gatewayex.js:190[38:46]::FLOW_DESCR_END","/gatewayex.js","296","67","296","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;gatewayex.js:296[67:79];Sink: node.mqtt;gatewayex.js:190[38:46]::FLOW_DESCR_END","/gatewayex.js","296","67","296","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ttTopic;gatewayex.js:307[30:52];Sink: node.to ... /write"";gatewayex.js:179[29:49]::FLOW_DESCR_END","/gatewayex.js","307","30","307","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;gatewayex.js:307[30:42];Sink: node.to ... /write"";gatewayex.js:179[29:49]::FLOW_DESCR_END","/gatewayex.js","307","30","307","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gatewayex.js:564[34:36];Sink: msg;gatewayex.js:569[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gatewayex.js:564[34:36];Sink: msg;gatewayex.js:583[23:25]::FLOW_DESCR_END","/gatewayex.js","564","34","564","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gatewayex.js:623[34:36];Sink: msg;gatewayex.js:637[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gatewayex.js:623[34:36];Sink: msg;gatewayex.js:639[23:25]::FLOW_DESCR_END","/gatewayex.js","623","34","623","36"

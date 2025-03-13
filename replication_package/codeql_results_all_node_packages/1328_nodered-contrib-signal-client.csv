@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signal-client.js:248[41:43];Sink: message;signal-client.js:61[20:26]::FLOW_DESCR_END","/src/signal-client.js","248","41","248","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.data.deviceId;signal-client.js:488[70:85];Sink: `Messag ... stamp}`;signal-client.js:488[29:147]::FLOW_DESCR_END","/src/signal-client.js","488","70","488","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.data.destination;signal-client.js:488[93:111];Sink: `Messag ... stamp}`;signal-client.js:488[29:147]::FLOW_DESCR_END","/src/signal-client.js","488","93","488","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.data.timestamp;signal-client.js:488[129:145];Sink: `Messag ... stamp}`;signal-client.js:488[29:147]::FLOW_DESCR_END","/src/signal-client.js","488","129","488","145"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;andinox1.js:15[36:38];Sink: relaystates;andinox1.js:76[36:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;andinox1.js:15[36:38];Sink: counter;andinox1.js:79[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;andinox1.js:15[36:38];Sink: states;andinox1.js:80[30:35]::FLOW_DESCR_END","/andinox1.js","15","36","15","38"

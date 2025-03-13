@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pg.js:118[26:28];Sink: err;pg.js:62[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;pg.js:118[26:28];Sink: err;pg.js:65[17:19]::FLOW_DESCR_END","/lib/pg.js","118","26","118","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: msg;pg.js:62[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: msg;pg.js:64[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: msg.payload;pg.js:66[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: msg.queryParameters;pg.js:67[17:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: msg;pg.js:157[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: msg;pg.js:181[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pg.js:212[17:19];Sink: Object. ... ws[0]});pg.js:197[22:105]::FLOW_DESCR_END","/lib/pg.js","212","17","212","19"

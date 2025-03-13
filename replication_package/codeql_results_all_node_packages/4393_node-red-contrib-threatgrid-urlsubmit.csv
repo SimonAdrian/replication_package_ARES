@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;threatgrid-urlsubmit.js:5[35:37];Sink: msg;threatgrid-urlsubmit.js:31[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;threatgrid-urlsubmit.js:5[35:37];Sink: msg;threatgrid-urlsubmit.js:34[31:33]::FLOW_DESCR_END","/threatgrid-urlsubmit.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;threatgrid-urlsubmit.js:25[39:43];Sink: error;threatgrid-urlsubmit.js:26[39:43]::FLOW_DESCR_END","/threatgrid-urlsubmit.js","25","39","25","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;threatgrid-urlsubmit.js:25[46:53];Sink: respons ... tusCode;threatgrid-urlsubmit.js:27[44:74]::FLOW_DESCR_END","/threatgrid-urlsubmit.js","25","46","25","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;threatgrid-urlsubmit.js:25[56:59];Sink: body;threatgrid-urlsubmit.js:28[38:41]::FLOW_DESCR_END","/threatgrid-urlsubmit.js","25","56","25","59"

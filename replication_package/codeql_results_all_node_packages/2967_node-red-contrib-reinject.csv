@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reinject.js:20[36:38];Sink: savedMsg;reinject.js:25[31:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reinject.js:20[36:38];Sink: msg;reinject.js:27[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reinject.js:20[36:38];Sink: msg;reinject.js:28[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reinject.js:20[36:38];Sink: msg;reinject.js:31[35:37]::FLOW_DESCR_END","/reinject/reinject.js","20","36","20","38"

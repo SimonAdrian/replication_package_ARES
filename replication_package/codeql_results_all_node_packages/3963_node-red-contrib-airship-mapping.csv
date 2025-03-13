@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;airship-mapping.js:54[28:30];Sink: [msg,null];airship-mapping.js:29[20:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-mapping.js:54[28:30];Sink: [null,msg];airship-mapping.js:39[20:29]::FLOW_DESCR_END","/mapping/airship-mapping.js","54","28","54","30"

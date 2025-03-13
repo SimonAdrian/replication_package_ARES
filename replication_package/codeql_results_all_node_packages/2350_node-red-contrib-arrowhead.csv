@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ah_service_discoverer.js:9[35:37];Sink: body;ah_service_discoverer.js:33[13:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ah_service_discoverer.js:9[35:37];Sink: msg;ah_service_discoverer.js:57[22:24]::FLOW_DESCR_END","/ah_service_discoverer.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ah_token_validator.js:23[41:43];Sink: [null, msg];ah_token_validator.js:37[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ah_token_validator.js:23[41:43];Sink: [msg, null];ah_token_validator.js:84[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ah_token_validator.js:23[41:43];Sink: [null, msg];ah_token_validator.js:91[18:28]::FLOW_DESCR_END","/ah_token_validator.js","23","41","23","43"

@@ -1,0 +1,75 @@
+<script type="text/javascript">
+    RED.nodes.registerType('get-read-result',{
+        category: 'Azure Computer Vision',
+        color: '#008AD7',
+        defaults: {
+            name: { value: ''  },
+        },
+        credentials: {
+            key: { type: 'password' },
+            region: { type: 'text' }
+        },
+        inputs: 1,
+        outputs: 1,
+        label: function() {
+            if (this.name) return this.name;
+            return 'ms-get-read-result';
+        },
+        oneditprepare: function() {
+            $('#node-input-inputMode').on('change', function() {
+                if (this.value === 'url') {
+                    $('#node-input-div-imageFilePath').hide();
+                    $('#node-input-div-imageUrl').show();
+                } else {
+                    $('#node-input-div-imageFilePath').show();
+                    $('#node-input-div-imageUrl').hide();
+                }
+            });
+        },
+        icon: 'font-awesome/fa-exchange',
+    });
+</script>
+
+<script type="text/html" data-template-name="get-read-result">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name </label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-key"><i class="fa fa-tag"></i> Key </label>
+        <input type="password" id="node-input-key" placeholder="Your beautiful key">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-region"><i class="fa fa-tag"></i> Region </label>
+        <input type="text" id="node-input-region" placeholder="Region">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="get-read-result">
+    <p> Get result of read operation. </p>
+    <h3>Inputs</h3>
+    <dl class="message-properties">
+        <dt> msg.payload
+            <span class="property-type"> String </span>
+        </dt>
+        <dd>
+            The URL returned from the read operation.
+        </dd>
+    </dl>
+    <h3>Outputs</h3>
+    <dl class="message-properties">
+        <dt> msg.payload
+            <span class="property-type"> Object </span>
+        </dt>
+        <dd>
+            For more information about output, please refer to the <a href="https://westus.dev.cognitive.microsoft.com/docs/services/computer-vision-v3-2/operations/5d9869604be85dee480c8750">official document</a>.
+        </dd>
+    </dl>
+    <h3>Details</h3>
+     <p>
+         This node should be used with read nodes. This node accepts single URL string as <code>msg.payload</code>, which should be the URL returned from read node.<br/>
+         The output of the node contains information about the status of the process and the result if the process is completed.
+     </p>
+</script>

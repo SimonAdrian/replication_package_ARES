@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lifx.js:166[31:33];Sink: msg;lifx.js:175[19:21]::FLOW_DESCR_END","/lifx-api/lifx.js","166","31","166","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lifx.js:269[31:33];Sink: msg;lifx.js:276[19:21]::FLOW_DESCR_END","/lifx-api/lifx.js","269","31","269","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lifx.js:292[31:33];Sink: msg;lifx.js:302[19:21]::FLOW_DESCR_END","/lifx-api/lifx.js","292","31","292","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lifx.js:317[31:33];Sink: msg;lifx.js:326[19:21]::FLOW_DESCR_END","/lifx-api/lifx.js","317","31","317","33"

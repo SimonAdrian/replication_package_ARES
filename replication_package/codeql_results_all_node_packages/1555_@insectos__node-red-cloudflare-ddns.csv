@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .zoneID;cloudflare-ddns-hub.js:27[19:41];Sink: `DDNS c ... {host}`;utils.js:282[12:35]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns-hub.js","27","19","27","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloudflare-ddns-hub.js:31[23:25];Sink: msg;utils.js:106[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns-hub.js:31[23:25];Sink: msg;utils.js:226[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns-hub.js:31[23:25];Sink: msg;utils.js:250[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns-hub.js:31[23:25];Sink: err;utils.js:257[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns-hub.js:31[23:25];Sink: `DDNS u ... {host}`;utils.js:297[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns-hub.js:31[23:25];Sink: `DDNS u ... {host}`;utils.js:312[12:33]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns-hub.js","31","23","31","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;cloudflare-ddns-spoke.js:11[17:27];Sink: `DDNS u ... {host}`;utils.js:297[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cloudflare-ddns-spoke.js:11[17:27];Sink: `DDNS u ... {host}`;utils.js:312[12:33]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns-spoke.js","11","17","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloudflare-ddns-spoke.js:16[23:25];Sink: msg;utils.js:150[17:19]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns-spoke.js","16","23","16","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;cloudflare-ddns.js:11[17:27];Sink: host;utils.js:18[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cloudflare-ddns.js:11[17:27];Sink: err;utils.js:257[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cloudflare-ddns.js:11[17:27];Sink: `DDNS u ... {host}`;utils.js:297[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;cloudflare-ddns.js:11[17:27];Sink: `DDNS u ... {host}`;utils.js:312[12:33]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns.js","11","17","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .zoneID;cloudflare-ddns.js:13[19:41];Sink: `DDNS c ... {host}`;utils.js:282[12:35]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns.js","13","19","13","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloudflare-ddns.js:17[23:25];Sink: msg;utils.js:77[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns.js:17[23:25];Sink: msg;utils.js:226[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudflare-ddns.js:17[23:25];Sink: msg;utils.js:250[17:19]::FLOW_DESCR_END","/cloudflare-ddns/cloudflare-ddns.js","17","23","17","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;utils.js:16[18:26];Sink: host;utils.js:18[36:39]::FLOW_DESCR_END","/cloudflare-ddns/utils.js","16","18","16","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;utils.js:63[16:24];Sink: err;utils.js:257[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;utils.js:63[16:24];Sink: `DDNS u ... {host}`;utils.js:297[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;utils.js:63[16:24];Sink: `DDNS u ... {host}`;utils.js:312[12:33]::FLOW_DESCR_END","/cloudflare-ddns/utils.js","63","16","63","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload?.host;utils.js:98[16:28];Sink: err;utils.js:257[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload?.host;utils.js:98[16:28];Sink: `DDNS u ... {host}`;utils.js:297[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload?.host;utils.js:98[16:28];Sink: `DDNS u ... {host}`;utils.js:312[12:33]::FLOW_DESCR_END","/cloudflare-ddns/utils.js","98","16","98","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;utils.js:135[16:24];Sink: `DDNS u ... {host}`;utils.js:297[12:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;utils.js:135[16:24];Sink: `DDNS u ... {host}`;utils.js:312[12:33]::FLOW_DESCR_END","/cloudflare-ddns/utils.js","135","16","135","24"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;command.js:28[39:45];Sink: message;command.js:37[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;command.js:28[39:45];Sink: command;command.js:176[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;command.js:28[39:45];Sink: payload;command.js:176[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;command.js:28[39:45];Sink: ""Miio R ... message;command.js:196[27:86]::FLOW_DESCR_END","/nodes/command.js","28","39","28","45"

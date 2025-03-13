@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: outTopic;lighttalk.js:190[38:45];Sink: ""With t ... utTopic;lighttalk.js:200[25:54]::FLOW_DESCR_END","/lighttalk.js","190","38","190","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lighttalk.js:190[48:50];Sink: ""Messag ... "" + msg;lighttalk.js:199[25:50]::FLOW_DESCR_END","/lighttalk.js","190","48","190","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lighttalk.js:230[36:40];Sink: ""Can't  ... + error;lighttalk.js:231[22:44]::FLOW_DESCR_END","/lighttalk.js","230","36","230","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: msg.payload;lighttalk.js:259[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: ""\uc678\ubd80\uc5d0\uc11c \uc785 ... \ub418\uc5c8\uc2b5\ub2c8\ub2e4.';lighttalk.js:277[27:177]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: ""\uc678\ubd80\uc785\ub825 \uc2a4 ... \uc2e4\ud589\ub429\ub2c8\ub2e4.';lighttalk.js:285[35:177]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: msg_toPublish;lighttalk.js:286[49:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: ""\uc678\ubd80\uc785\ub825 \uc2a4 ... \ub05d\ub0ac\uc2b5\ub2c8\ub2e4.';lighttalk.js:290[35:177]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: ""\uc678\ubd80\uc785\ub825 \uc2a4 ... \uc2e4\ud589\ub429\ub2c8\ub2e4.';lighttalk.js:299[31:173]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: msg_toPublish;lighttalk.js:300[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: ""\uc678\ubd80\uc785\ub825 \uc2a4 ... \ub05d\ub0ac\uc2b5\ub2c8\ub2e4.';lighttalk.js:303[35:177]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: ""\uc678\ubd80\uc785\ub825 \uc2a4 ...  \ud574\uc8fc\uc138\uc694.';lighttalk.js:311[31:203]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lighttalk.js:258[35:37];Sink: msg_toPublish;lighttalk.js:328[41:53]::FLOW_DESCR_END","/lighttalk.js","258","35","258","37"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;evrythng-node-red.js:5[31:33];Sink: msg;evrythng-node-red.js:22[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;evrythng-node-red.js:5[31:33];Sink: ""Reques ... propUri;evrythng-node-red.js:33[16:74]::FLOW_DESCR_END","/nodes/evrythng-node-red.js","5","31","5","33"

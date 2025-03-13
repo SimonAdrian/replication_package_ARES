@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weatherflow-forecast.js:18[36:38];Sink: msg;weatherflow-forecast.js:47[34:36]::FLOW_DESCR_END","/nodes/forecast/weatherflow-forecast.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;observations-device.js:18[36:38];Sink: msg;observations-device.js:45[34:36]::FLOW_DESCR_END","/nodes/observations-device/observations-device.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;observations-station.js:15[36:38];Sink: msg;observations-station.js:37[34:36]::FLOW_DESCR_END","/nodes/observations-station/observations-station.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weatherflow-stations.js:10[36:38];Sink: msg;weatherflow-stations.js:27[34:36]::FLOW_DESCR_END","/nodes/stations/weatherflow-stations.js","10","36","10","38"

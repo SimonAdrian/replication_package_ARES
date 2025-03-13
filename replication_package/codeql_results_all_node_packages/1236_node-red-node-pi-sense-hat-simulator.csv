@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;sensehatsim.js:122[53:59];Sink: request;sensehatsim.js:126[58:64]::FLOW_DESCR_END","/sensehatsim.js","122","53","122","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensehatsim.js:261[34:36];Sink: msg;sensehatsim.js:202[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensehatsim.js:261[34:36];Sink: handleT ... ad,msg);sensehatsim.js:266[26:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensehatsim.js:261[34:36];Sink: command;sensehatsim.js:368[34:40]::FLOW_DESCR_END","/sensehatsim.js","261","34","261","36"

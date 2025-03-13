@@ -1,0 +1,29 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: results;node-red-volumio.js:60[44:50];Sink: message;node-red-volumio.js:8[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: results;node-red-volumio.js:60[44:50];Sink: node.ev ... esults);node-red-volumio.js:61[21:59]::FLOW_DESCR_END","/node-red-volumio.js","60","44","60","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-volumio.js:84[31:33];Sink: message;node-red-volumio.js:8[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-volumio.js:84[31:33];Sink: ""waitin ... entName;node-red-volumio.js:123[27:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-volumio.js:84[31:33];Sink: eventName;node-red-volumio.js:135[29:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-volumio.js:84[31:33];Sink: data;node-red-volumio.js:135[40:43]::FLOW_DESCR_END","/node-red-volumio.js","84","31","84","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: results;node-red-volumio.js:125[40:46];Sink: message;node-red-volumio.js:8[16:22]::FLOW_DESCR_END","/node-red-volumio.js","125","40","125","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;node-red-volumio.js:154[17:27];Sink: ""Volumi ... nected"";node-red-volumio.js:165[19:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;node-red-volumio.js:154[17:27];Sink: ""Volumi ... onnect"";node-red-volumio.js:168[19:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;node-red-volumio.js:154[17:27];Sink: ""Connecting to ""+url;volumio.js:33[21:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;node-red-volumio.js:154[17:27];Sink: url;volumio.js:34[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;node-red-volumio.js:154[17:27];Sink: ""ok ""+url;volumio.js:35[21:29]::FLOW_DESCR_END","/node-red-volumio.js","154","17","154","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;node-red-volumio.js:155[17:27];Sink: ""Volumi ... nected"";node-red-volumio.js:165[19:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;node-red-volumio.js:155[17:27];Sink: ""Volumi ... onnect"";node-red-volumio.js:168[19:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;node-red-volumio.js:155[17:27];Sink: ""Connecting to ""+url;volumio.js:33[21:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;node-red-volumio.js:155[17:27];Sink: url;volumio.js:34[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;node-red-volumio.js:155[17:27];Sink: ""ok ""+url;volumio.js:35[21:29]::FLOW_DESCR_END","/node-red-volumio.js","155","17","155","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;node-red-volumio.js:157[40:48];Sink: ""Connecting to ""+url;volumio.js:33[21:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;node-red-volumio.js:157[40:48];Sink: url;volumio.js:34[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;node-red-volumio.js:157[40:48];Sink: ""ok ""+url;volumio.js:35[21:29]::FLOW_DESCR_END","/node-red-volumio.js","157","40","157","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;node-red-volumio.js:157[51:59];Sink: ""Connecting to ""+url;volumio.js:33[21:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;node-red-volumio.js:157[51:59];Sink: url;volumio.js:34[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;node-red-volumio.js:157[51:59];Sink: ""ok ""+url;volumio.js:35[21:29]::FLOW_DESCR_END","/node-red-volumio.js","157","51","157","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;node-red-volumio.js:165[30:38];Sink: ""Volumi ... nected"";node-red-volumio.js:165[19:66]::FLOW_DESCR_END","/node-red-volumio.js","165","30","165","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;node-red-volumio.js:165[44:52];Sink: ""Volumi ... nected"";node-red-volumio.js:165[19:66]::FLOW_DESCR_END","/node-red-volumio.js","165","44","165","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;node-red-volumio.js:168[30:38];Sink: ""Volumi ... onnect"";node-red-volumio.js:168[19:67]::FLOW_DESCR_END","/node-red-volumio.js","168","30","168","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;node-red-volumio.js:168[44:52];Sink: ""Volumi ... onnect"";node-red-volumio.js:168[19:67]::FLOW_DESCR_END","/node-red-volumio.js","168","44","168","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-red-volumio.js:170[41:44];Sink: ""Error  ... errData;node-red-volumio.js:176[21:47]::FLOW_DESCR_END","/node-red-volumio.js","170","41","170","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: results;volumio-test.js:28[53:59];Sink: i + "" "" ... esults);volumio-test.js:29[19:51]::FLOW_DESCR_END","/volumio-test.js","28","53","28","59"

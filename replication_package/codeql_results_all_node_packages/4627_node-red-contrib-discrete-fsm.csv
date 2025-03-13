@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;condition.js:18[35:37];Sink: msg.payload[input];condition.js:21[47:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;condition.js:18[35:37];Sink: msg;condition.js:34[31:33]::FLOW_DESCR_END","/nodes/condition.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;input.js:31[35:37];Sink: msg;input.js:45[23:25]::FLOW_DESCR_END","/nodes/input.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;output.js:14[35:37];Sink: value;output.js:17[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;output.js:14[35:37];Sink: value;output.js:31[49:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;output.js:14[35:37];Sink: msg;output.js:42[31:33]::FLOW_DESCR_END","/nodes/output.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;state.js:36[31:33];Sink: msg;state.js:43[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;state.js:36[31:33];Sink: msg;state.js:50[19:21]::FLOW_DESCR_END","/nodes/state.js","36","31","36","33"

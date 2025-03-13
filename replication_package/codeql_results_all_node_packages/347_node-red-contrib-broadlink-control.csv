@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;A1Node.js:21[36:38];Sink: msg;A1Node.js:46[27:29]::FLOW_DESCR_END","/nodes/A1Node.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;Device.js:115[48:56];Sink: this.host.port;Device.js:115[48:61]::FLOW_DESCR_END","/nodes/Device.js","115","48","115","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;Device.js:115[64:72];Sink: this.host.address;Device.js:115[64:80]::FLOW_DESCR_END","/nodes/Device.js","115","64","115","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DiscoverNode.js:6[36:38];Sink: msg;DiscoverNode.js:89[31:33]::FLOW_DESCR_END","/nodes/DiscoverNode.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MP1Node.js:22[36:38];Sink: msg;MP1Node.js:42[27:29]::FLOW_DESCR_END","/nodes/MP1Node.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;RM.js:7[34:40];Sink: payload;RM.js:12[67:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;RM.js:7[34:40];Sink: payload;RM.js:40[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;RM.js:7[34:40];Sink: payload;RM.js:50[44:50]::FLOW_DESCR_END","/nodes/RM.js","7","34","7","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMNode.js:23[36:38];Sink: msg;RMNode.js:53[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMNode.js:23[36:38];Sink: msg;RMNode.js:60[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMNode.js:23[36:38];Sink: msg;RMNode.js:179[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMNode.js:23[36:38];Sink: msg;RMNode.js:193[39:41]::FLOW_DESCR_END","/nodes/RMNode.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMReceiverNode.js:17[40:42];Sink: msg;RMReceiverNode.js:34[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMReceiverNode.js:17[40:42];Sink: msg;RMReceiverNode.js:50[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMReceiverNode.js:17[40:42];Sink: msg;RMReceiverNode.js:84[35:37]::FLOW_DESCR_END","/nodes/RMReceiverNode.js","17","40","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:42[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:47[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:52[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:72[35:37]::FLOW_DESCR_END","/nodes/S1CNode.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SP2Node.js:22[36:38];Sink: msg;SP2Node.js:42[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SP2Node.js:22[36:38];Sink: msg;SP2Node.js:47[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SP2Node.js:22[36:38];Sink: msg;SP2Node.js:67[35:37]::FLOW_DESCR_END","/nodes/SP2Node.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SetupNode.js:6[36:38];Sink: msg;SetupNode.js:10[23:25]::FLOW_DESCR_END","/nodes/SetupNode.js","6","36","6","38"

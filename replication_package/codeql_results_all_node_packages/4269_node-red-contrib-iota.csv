@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fetch_mam.js:11[32:34];Sink: ""MAM root: "" + root;fetch_mam.js:20[21:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fetch_mam.js:11[32:34];Sink: msg;fetch_mam.js:38[16:18]::FLOW_DESCR_END","/nodes/mam/fetch_mam.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.secret;fetch_mam.js:22[38:50];Sink: ""MAM se ... .secret;fetch_mam.js:22[21:50]::FLOW_DESCR_END","/nodes/mam/fetch_mam.js","22","38","22","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;publish_mam.js:14[36:38];Sink: msg;publish_mam.js:44[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish_mam.js:14[36:38];Sink: msg;publish_mam.js:53[30:32]::FLOW_DESCR_END","/nodes/mam/publish_mam.js","14","36","14","38"

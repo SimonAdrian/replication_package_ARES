@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mediatags.js:26[35:37];Sink: msg;mediatags.js:36[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mediatags.js:26[35:37];Sink: JSON.stringify(err);mediatags.js:40[39:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mediatags.js:26[35:37];Sink: msg;mediatags.js:43[31:33]::FLOW_DESCR_END","/mediatags.js","26","35","26","37"

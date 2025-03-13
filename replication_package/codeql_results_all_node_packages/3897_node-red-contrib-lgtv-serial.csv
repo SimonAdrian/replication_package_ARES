@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lgtv-serial.js:10[35:37];Sink: msg.payload[command];lgtv-serial.js:23[43:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lgtv-serial.js:10[35:37];Sink: msg;lgtv-serial.js:32[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lgtv-serial.js:10[35:37];Sink: msg.payload;lgtv-serial.js:39[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lgtv-serial.js:10[35:37];Sink: msg;lgtv-serial.js:48[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lgtv-serial.js:10[35:37];Sink: msg;lgtv-serial.js:57[27:29]::FLOW_DESCR_END","/lgtv-serial.js","10","35","10","37"

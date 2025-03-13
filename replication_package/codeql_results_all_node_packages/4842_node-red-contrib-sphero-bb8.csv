@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-action.js:13[26:28];Sink: msg;bb8-action.js:15[61:63]::FLOW_DESCR_END","/bb8-action/bb8-action.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-calibration.js:13[26:28];Sink: msg;bb8-calibration.js:14[77:79]::FLOW_DESCR_END","/bb8-calibration/bb8-calibration.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-color.js:13[26:28];Sink: msg;bb8-color.js:15[59:61]::FLOW_DESCR_END","/bb8-color/bb8-color.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-connect.js:13[26:28];Sink: msg;bb8-connect.js:18[27:29]::FLOW_DESCR_END","/bb8-connect/bb8-connect.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bb8-controller.js:64[23:26];Sink: JSON.st ... ull, 4);bb8-controller.js:65[17:45]::FLOW_DESCR_END","/bb8-controller.js","64","23","64","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bb8-controller.js:78[20:23];Sink: JSON.stringify(data);bb8-controller.js:80[17:36]::FLOW_DESCR_END","/bb8-controller.js","78","20","78","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bb8-controller.js:83[18:21];Sink: JSON.stringify(data);bb8-controller.js:85[17:36]::FLOW_DESCR_END","/bb8-controller.js","83","18","83","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bb8-controller.js:100[21:24];Sink: data;bb8-controller.js:101[17:20]::FLOW_DESCR_END","/bb8-controller.js","100","21","100","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-disconnect.js:13[26:28];Sink: msg;bb8-disconnect.js:14[49:51]::FLOW_DESCR_END","/bb8-disconnect/bb8-disconnect.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-roll.js:13[26:28];Sink: msg;bb8-roll.js:16[67:69]::FLOW_DESCR_END","/bb8-roll/bb8-roll.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bb8-stop.js:13[26:28];Sink: msg;bb8-stop.js:14[51:53]::FLOW_DESCR_END","/bb8-stop/bb8-stop.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sphero-bb8.js:19[21:24];Sink: JSON.st ... ull ,4);sphero-bb8.js:20[21:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sphero-bb8.js:19[21:24];Sink: data.type;sphero-bb8.js:24[37:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;sphero-bb8.js:19[21:24];Sink: data.payload;sphero-bb8.js:24[48:59]::FLOW_DESCR_END","/sphero-bb8.js","19","21","19","24"

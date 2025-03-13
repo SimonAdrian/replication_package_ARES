@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mosca.js:59[34:36];Sink: 'Error  ... tring();mosca.js:65[18:77]::FLOW_DESCR_END","/mosca.js","59","34","59","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mosca_spec.js:24[38:40];Sink: err;mosca_spec.js:25[29:31]::FLOW_DESCR_END","/test/mosca_spec.js","24","38","24","40"

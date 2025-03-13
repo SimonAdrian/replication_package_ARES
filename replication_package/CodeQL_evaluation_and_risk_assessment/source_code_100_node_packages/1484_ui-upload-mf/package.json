@@ -1,0 +1,47 @@
+{
+  "name": "ui-upload-mf",
+  "version": "0.1.0",
+  "description": "Upload node with multiple file support",
+  "keywords": [
+    "upload",
+    "websocket",
+    "ui",
+    "dashboard",
+    "node-red",
+    "node-red-contrib",
+    "node-red-ui",
+    "nodered"
+  ],
+  "author": "objt-bwt",
+  "license": "Apache-2.0",
+  "main": "ui_upload_mf.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "node-red": {
+    "version": ">=0.20.0",
+    "nodes": {
+      "ui_upload_mf": "ui_upload_mf.js"
+    }
+  },
+  "files": [
+    "ui_upload_mf.html",
+    "ui_upload_mf.js"
+  ],
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "eslint": "eslint --ext .js,.html .",
+    "eslint_fix": "eslint --fix --ext .js,.html .",
+    "fix": "npm run eslint_fix",
+    "pretest": "npm run-script eslint",
+    "test": "npm -v"
+  }
+}

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;garo-wallbox.js:90[36:38];Sink: postData;garo-wallbox.js:170[43:50]::FLOW_DESCR_END","/garo-wallbox.js","90","36","90","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;garo-wallbox.js:108[41:43];Sink: `Error: ... ssage}`;garo-wallbox.js:109[40:62]::FLOW_DESCR_END","/garo-wallbox.js","108","41","108","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;garo-wallbox.js:123[42:46];Sink: postData;garo-wallbox.js:170[43:50]::FLOW_DESCR_END","/garo-wallbox.js","123","42","123","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;garo-wallbox.js:166[50:52];Sink: `Error: ... ssage}`;garo-wallbox.js:167[48:70]::FLOW_DESCR_END","/garo-wallbox.js","166","50","166","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;garo-wallbox.js:178[37:39];Sink: `Error: ... config`;garo-wallbox.js:179[36:71]::FLOW_DESCR_END","/garo-wallbox.js","178","37","178","39"

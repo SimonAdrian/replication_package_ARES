@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;blynk-controller.js:8[17:27];Sink: RED._(' ... is.port;blynk-controller.js:15[16:73]::FLOW_DESCR_END","/src/blynk-controller.js","8","17","8","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;blynk-controller.js:15[65:73];Sink: RED._(' ... is.port;blynk-controller.js:15[16:73]::FLOW_DESCR_END","/src/blynk-controller.js","15","65","15","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blynk-writer.js:25[23:25];Sink: this.last;blynk-writer.js:10[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blynk-writer.js:25[23:25];Sink: msg.payload;blynk-writer.js:28[24:34]::FLOW_DESCR_END","/src/blynk-writer.js","25","23","25","25"

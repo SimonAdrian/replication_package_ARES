@@ -1,0 +1,53 @@
+{
+  "name": "@nickcis/node-red-contrib-messagehub-node",
+  "version": "0.0.11",
+  "description": "Node-RED nodes of HighLevel MessageHub Producer and Consumer",
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "message-hub-rest": "^1.1.2",
+    "q": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luiselizondo/node-red-contrib-messagehub-node.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "kafka",
+    "kafka producer",
+    "kafka consumer",
+    "nodered",
+    "nodered kafka",
+    "bluemix",
+    "messagehub",
+    "message hub",
+    "hub",
+    "message",
+    "ibm",
+    "iot",
+    "internet of things"
+  ],
+  "node-red": {
+    "nodes": {
+      "messagehub": "messagehub.js"
+    }
+  },
+  "author": {
+    "name": "IBM"
+  },
+  "maintainers": [
+    {
+      "name": "luiselizondo",
+      "email": "luis.elizondo@mx1.ibm.com"
+    },
+    {
+      "name": "niall-weedon",
+      "email": "nweedo3@uk.ibm.com"
+    },
+    {
+      "name": "kfarmer3",
+      "email": "kfarme3@uk.ibm.com"
+    }
+  ]
+}

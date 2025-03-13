@@ -1,0 +1,32 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-bulk.js:14[44:46];Sink: msg;elasticsearch-bulk.js:42[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-bulk.js:14[44:46];Sink: msg;elasticsearch-bulk.js:46[35:37]::FLOW_DESCR_END","/elasticsearch/elasticsearch-bulk.js","14","44","14","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-bulk.js:52[40:44];Sink: ""elasti ... + error;elasticsearch-bulk.js:53[28:67]::FLOW_DESCR_END","/elasticsearch/elasticsearch-bulk.js","52","40","52","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-config.js:21[35:39];Sink: ""Elasti ... + error;elasticsearch-config.js:22[24:56]::FLOW_DESCR_END","/elasticsearch/elasticsearch-config.js","21","35","21","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-create-index.js:15[44:46];Sink: msg;elasticsearch-create-index.js:32[35:37]::FLOW_DESCR_END","/elasticsearch/elasticsearch-create-index.js","15","44","15","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-create-index.js:41[40:44];Sink: ""elasti ... + error;elasticsearch-create-index.js:42[28:74]::FLOW_DESCR_END","/elasticsearch/elasticsearch-create-index.js","41","40","41","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-delete.js:18[36:38];Sink: msg;elasticsearch-delete.js:55[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-delete.js:18[36:38];Sink: msg;elasticsearch-delete.js:60[27:29]::FLOW_DESCR_END","/elasticsearch/elasticsearch-delete.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-delete.js:67[34:38];Sink: ""elasti ... + error;elasticsearch-delete.js:68[20:61]::FLOW_DESCR_END","/elasticsearch/elasticsearch-delete.js","67","34","67","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-deleteByQuery.js:18[36:38];Sink: msg;elasticsearch-deleteByQuery.js:50[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-deleteByQuery.js:18[36:38];Sink: msg;elasticsearch-deleteByQuery.js:55[27:29]::FLOW_DESCR_END","/elasticsearch/elasticsearch-deleteByQuery.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-deleteByQuery.js:62[34:38];Sink: ""elasti ... + error;elasticsearch-deleteByQuery.js:63[20:68]::FLOW_DESCR_END","/elasticsearch/elasticsearch-deleteByQuery.js","62","34","62","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-get.js:18[36:38];Sink: msg;elasticsearch-get.js:52[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-get.js:18[36:38];Sink: msg;elasticsearch-get.js:57[25:27]::FLOW_DESCR_END","/elasticsearch/elasticsearch-get.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-get.js:63[34:38];Sink: ""elasti ... + error;elasticsearch-get.js:64[20:58]::FLOW_DESCR_END","/elasticsearch/elasticsearch-get.js","63","34","63","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-index-exists.js:15[44:46];Sink: msg;elasticsearch-index-exists.js:26[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-index-exists.js:15[44:46];Sink: msg;elasticsearch-index-exists.js:30[35:37]::FLOW_DESCR_END","/elasticsearch/elasticsearch-index-exists.js","15","44","15","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-index-exists.js:35[40:44];Sink: ""elasti ... + error;elasticsearch-index-exists.js:36[28:74]::FLOW_DESCR_END","/elasticsearch/elasticsearch-index-exists.js","35","40","35","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-index.js:19[36:38];Sink: msg;elasticsearch-index.js:53[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-index.js:19[36:38];Sink: msg;elasticsearch-index.js:58[25:27]::FLOW_DESCR_END","/elasticsearch/elasticsearch-index.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-index.js:64[34:38];Sink: ""elasti ... + error;elasticsearch-index.js:65[20:60]::FLOW_DESCR_END","/elasticsearch/elasticsearch-index.js","64","34","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-refresh-index.js:15[44:46];Sink: msg;elasticsearch-refresh-index.js:26[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-refresh-index.js:15[44:46];Sink: msg;elasticsearch-refresh-index.js:30[35:37]::FLOW_DESCR_END","/elasticsearch/elasticsearch-refresh-index.js","15","44","15","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-refresh-index.js:35[40:44];Sink: ""elasti ... + error;elasticsearch-refresh-index.js:36[28:75]::FLOW_DESCR_END","/elasticsearch/elasticsearch-refresh-index.js","35","40","35","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-search.js:17[36:38];Sink: msg;elasticsearch-search.js:79[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-search.js:17[36:38];Sink: msg;elasticsearch-search.js:87[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-search.js:17[36:38];Sink: msg;elasticsearch-search.js:93[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-search.js:17[36:38];Sink: msg;elasticsearch-search.js:114[25:27]::FLOW_DESCR_END","/elasticsearch/elasticsearch-search.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-search.js:120[34:38];Sink: ""elasti ... + error;elasticsearch-search.js:121[20:61]::FLOW_DESCR_END","/elasticsearch/elasticsearch-search.js","120","34","120","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;elasticsearch-update.js:19[36:38];Sink: msg;elasticsearch-update.js:54[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;elasticsearch-update.js:19[36:38];Sink: msg;elasticsearch-update.js:59[25:27]::FLOW_DESCR_END","/elasticsearch/elasticsearch-update.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;elasticsearch-update.js:65[34:38];Sink: ""elasti ... + error;elasticsearch-update.js:66[20:61]::FLOW_DESCR_END","/elasticsearch/elasticsearch-update.js","65","34","65","38"

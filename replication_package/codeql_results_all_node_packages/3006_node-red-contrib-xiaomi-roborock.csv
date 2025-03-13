@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;roborock.js:27[28:30];Sink: node.command;roborock.js:33[29:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;roborock.js:27[28:30];Sink: node.args;roborock.js:33[43:51]::FLOW_DESCR_END","/roborock.js","27","28","27","30"

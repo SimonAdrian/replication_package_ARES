@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getter.js:32[32:34];Sink: msg;getter.js:41[16:18]::FLOW_DESCR_END","/komfnodes/getter.js","32","32","32","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setter.js:34[32:34];Sink: msg;setter.js:60[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setter.js:34[32:34];Sink: msg;setter.js:70[16:18]::FLOW_DESCR_END","/komfnodes/setter.js","34","32","34","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.username;test_komfoclass_integration.js:27[29:48];Sink: 'with u ...  ' + ip;test_komfoclass_integration.js:27[13:67]::FLOW_DESCR_END","/test/integration/test_komfoclass_integration.js","27","29","27","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;test_setter_spec.js:100[29:32];Sink: 'error: ' + call;test_setter_spec.js:101[23:38]::FLOW_DESCR_END","/test/test_setter_spec.js","100","29","100","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;test_setter_spec.js:118[29:32];Sink: 'error: ' + call;test_setter_spec.js:119[23:38]::FLOW_DESCR_END","/test/test_setter_spec.js","118","29","118","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;test_setter_spec.js:138[29:32];Sink: 'error: ' + call;test_setter_spec.js:139[23:38]::FLOW_DESCR_END","/test/test_setter_spec.js","138","29","138","32"

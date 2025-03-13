@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cx_tag_emitter.ts:558[27:29];Sink: `Tag '$ ... ELETED`;cx_tag_emitter.ts:573[31:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_tag_emitter.ts:558[27:29];Sink: `Tag '$ ...  FOUND`;cx_tag_emitter.ts:576[31:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_tag_emitter.ts:558[27:29];Sink: ""Invali ... agName);cx_tag_emitter.ts:671[32:77]::FLOW_DESCR_END","/nodes/cx_tag_emitter.ts","558","27","558","29"

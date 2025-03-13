@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devx-defaults.js:7[36:38];Sink: msg;devx-defaults.js:15[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;devx-defaults.js:7[36:38];Sink: ""Called ...  action;devx-defaults.js:18[32:73]::FLOW_DESCR_END","/dist/devx-defaults.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devx-facts.js:8[36:38];Sink: Object. ... acts });devx-facts.js:33[23:60]::FLOW_DESCR_END","/dist/devx-facts.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devx-rules.js:7[36:38];Sink: msg;devx-rules.js:93[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;devx-rules.js:7[36:38];Sink: Object. ... vent });devx-rules.js:108[31:68]::FLOW_DESCR_END","/dist/devx-rules.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devx-defaults.ts:9[27:29];Sink: msg;devx-defaults.ts:19[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;devx-defaults.ts:9[27:29];Sink: `Called ... ction}`;devx-defaults.ts:22[32:73]::FLOW_DESCR_END","/src/devx-defaults.ts","9","27","9","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devx-facts.ts:11[27:29];Sink: Object. ... acts });devx-facts.ts:38[23:59]::FLOW_DESCR_END","/src/devx-facts.ts","11","27","11","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devx-rules.ts:9[27:29];Sink: msg;devx-rules.ts:98[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;devx-rules.ts:9[27:29];Sink: Object. ... vent });devx-rules.ts:114[31:67]::FLOW_DESCR_END","/src/devx-rules.ts","9","27","9","29"

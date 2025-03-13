@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;tarxz.js:17[28:28];Sink: error;tarxz.js:9[16:20]::FLOW_DESCR_END","/tarxz.js","17","28","17","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;tarxz.js:29[28:28];Sink: error;tarxz.js:9[16:20]::FLOW_DESCR_END","/tarxz.js","29","28","29","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tarxz.js:42[31:33];Sink: p.dir + ... tar.xz';tarxz.js:21[34:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tarxz.js:42[31:33];Sink: msg;tarxz.js:73[17:19]::FLOW_DESCR_END","/tarxz.js","42","31","42","33"

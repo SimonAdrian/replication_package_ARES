@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;query-game-server.js:9[35:37];Sink: msg;query-game-server.js:62[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query-game-server.js:9[35:37];Sink: msg;query-game-server.js:72[28:30]::FLOW_DESCR_END","/query-game-server.js","9","35","9","37"

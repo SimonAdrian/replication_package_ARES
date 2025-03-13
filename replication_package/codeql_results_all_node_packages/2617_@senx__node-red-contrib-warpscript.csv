@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;warpscript.js:33[32:34];Sink: msg;warpscript.js:102[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;warpscript.js:33[32:34];Sink: msg;warpscript.js:107[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;warpscript.js:33[32:34];Sink: msg;warpscript.js:110[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;warpscript.js:33[32:34];Sink: msg;warpscript.js:117[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;warpscript.js:33[32:34];Sink: msg;warpscript.js:120[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;warpscript.js:33[32:34];Sink: postData;warpscript.js:127[22:29]::FLOW_DESCR_END","/warpscript.js","33","32","33","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;warpscript.js:116[28:30];Sink: err;warpscript.js:117[20:22]::FLOW_DESCR_END","/warpscript.js","116","28","116","30"

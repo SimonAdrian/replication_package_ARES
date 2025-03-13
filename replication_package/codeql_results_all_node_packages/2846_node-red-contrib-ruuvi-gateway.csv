@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ruuvi-gateway.js:12[32:34];Sink: url;ruuvi-gateway.js:19[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ruuvi-gateway.js:12[32:34];Sink: msg;ruuvi-gateway.js:27[19:21]::FLOW_DESCR_END","/src/nodes/ruuvi-gateway.js","12","32","12","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.gateway.host;ruuvi-gateway.js:13[40:56];Sink: url;ruuvi-gateway.js:19[17:19]::FLOW_DESCR_END","/src/nodes/ruuvi-gateway.js","13","40","13","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... .gw_mac;ruuvi-gateway.js:23[40:64];Sink: 'ruuvi. ... .gw_mac;ruuvi-gateway.js:23[29:64]::FLOW_DESCR_END","/src/nodes/ruuvi-gateway.js","23","40","23","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.data;ruuvi-gateway.js:23[40:57];Sink: 'ruuvi. ... .gw_mac;ruuvi-gateway.js:23[29:64]::FLOW_DESCR_END","/src/nodes/ruuvi-gateway.js","23","40","23","57"

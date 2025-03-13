@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clean-body.js:7[36:38];Sink: newMsg;clean-body.js:10[23:28]::FLOW_DESCR_END","/dist/nodes/clean-body.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clean-body.ts:16[23:25];Sink: newMsg;clean-body.ts:19[17:22]::FLOW_DESCR_END","/src/nodes/clean-body.ts","16","23","16","25"

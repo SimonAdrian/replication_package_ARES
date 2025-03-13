@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp_dest.js:9[36:38];Sink: `ftp.de ... treams`;ftp_dest.js:36[29:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp_dest.js:9[36:38];Sink: msg;ftp_dest.js:49[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp_dest.js:9[36:38];Sink: msg;ftp_dest.js:60[18:20]::FLOW_DESCR_END","/ftp_dest.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp_src.js:11[36:38];Sink: msg;ftp_src.js:51[18:20]::FLOW_DESCR_END","/ftp_src.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ftp.js:476[32:34];Sink: err;ftp.js:141[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ftp.js:476[32:34];Sink: err.stack + code;ftp.js:479[24:39]::FLOW_DESCR_END","/lib/ftp.js","476","32","476","34"

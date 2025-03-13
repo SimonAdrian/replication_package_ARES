@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;openwhisk.js:204[79:82];Sink: ""Networ ... y(data);openwhisk.js:205[37:80]::FLOW_DESCR_END","/openwhisk/openwhisk.js","204","79","204","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;openwhisk.js:245[112:117];Sink: ""result: "" + result;openwhisk.js:246[53:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;openwhisk.js:245[112:117];Sink: result  ... :true}';openwhisk.js:248[55:83]::FLOW_DESCR_END","/openwhisk/openwhisk.js","245","112","245","117"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;openwhisk.js:254[56:58];Sink: ""error: "" + err;openwhisk.js:255[51:65]::FLOW_DESCR_END","/openwhisk/openwhisk.js","254","56","254","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openwhisk.js:407[35:37];Sink: msg;openwhisk.js:412[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:407[35:37];Sink: msg;openwhisk.js:414[57:59]::FLOW_DESCR_END","/openwhisk/openwhisk.js","407","35","407","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openwhisk.js:499[35:37];Sink: msg;openwhisk.js:504[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:499[35:37];Sink: msg;openwhisk.js:506[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:499[35:37];Sink: msg;openwhisk.js:522[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openwhisk.js:499[35:37];Sink: msg;openwhisk.js:534[29:31]::FLOW_DESCR_END","/openwhisk/openwhisk.js","499","35","499","37"

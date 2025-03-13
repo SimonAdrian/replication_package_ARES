@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;cx_motionlinx.ts:65[21:24];Sink: ""__DATA ... vePdoId;cx_motionlinx.ts:73[33:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;cx_motionlinx.ts:65[21:24];Sink: listener.value;cx_motionlinx.ts:73[58:71]::FLOW_DESCR_END","/nodes/cx_motionlinx.ts","65","21","65","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stateInt;cx_motionlinx.ts:78[29:36];Sink: currentMasterState;cx_motionlinx.ts:81[50:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateInt;cx_motionlinx.ts:78[29:36];Sink: currentMasterState;cx_motionlinx.ts:82[40:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateInt;cx_motionlinx.ts:78[29:36];Sink: sts + "" ... e + "")"";cx_motionlinx.ts:250[27:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateInt;cx_motionlinx.ts:78[29:36];Sink: ""Master ... erState;cx_motionlinx.ts:295[31:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: stateInt;cx_motionlinx.ts:78[29:36];Sink: ""Master ... erState;cx_motionlinx.ts:310[31:87]::FLOW_DESCR_END","/nodes/cx_motionlinx.ts","78","29","78","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;cx_motionlinx.ts:167[33:37];Sink: error;cx_motionlinx.ts:169[27:31]::FLOW_DESCR_END","/nodes/cx_motionlinx.ts","167","33","167","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cx_motionlinx.ts:257[27:29];Sink: sts + "" ... e + "")"";cx_motionlinx.ts:250[27:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_motionlinx.ts:257[27:29];Sink: JSON.st ... ayload);cx_motionlinx.ts:252[73:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_motionlinx.ts:257[27:29];Sink: ""ERROR: ... message;cx_motionlinx.ts:262[28:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cx_motionlinx.ts:257[27:29];Sink: msg;cx_motionlinx.ts:262[51:53]::FLOW_DESCR_END","/nodes/cx_motionlinx.ts","257","27","257","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cx_motionlinx.ts:323[33:35];Sink: ""ERROR: ... message;cx_motionlinx.ts:330[27:47]::FLOW_DESCR_END","/nodes/cx_motionlinx.ts","323","33","323","35"

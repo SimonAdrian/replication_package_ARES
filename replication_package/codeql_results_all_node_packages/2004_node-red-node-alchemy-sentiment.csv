@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;90-sent.js:19[33:35];Sink: msg;90-sent.js:33[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;90-sent.js:19[33:35];Sink: reqBody;alchemyapi.js:201[21:27]::FLOW_DESCR_END","/90-sent.js","19","33","19","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;alchemyapi.js:190[32:36];Sink: ""Alchem ... usInfo);90-sent.js:22[27:90]::FLOW_DESCR_END","/alchemyapi.js","190","32","190","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alchemyapi.js:192[33:35];Sink: ""Alchem ... usInfo);90-sent.js:22[27:90]::FLOW_DESCR_END","/alchemyapi.js","192","33","192","35"

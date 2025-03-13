@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;reusable-flows.js:1[934:934];Sink: t;reusable-flows.js:1[1430:1430]::FLOW_DESCR_END","/reusable-flows/reusable-flows.js","1","934","1","934"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: u;reusable-flows.js:1[2002:2002];Sink: u;reusable-flows.js:1[2310:2310]::FLOW_DESCR_END","/reusable-flows/reusable-flows.js","1","2002","1","2002"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reusable-flows.ts:33[38:40];Sink: msg;reusable-flows.ts:42[14:16]::FLOW_DESCR_END","/src/reusable-flows.ts","33","38","33","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reusable-flows.ts:97[38:40];Sink: msg;reusable-flows.ts:125[58:60]::FLOW_DESCR_END","/src/reusable-flows.ts","97","38","97","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reusable-flows.ts:180[38:40];Sink: msg;reusable-flows.ts:200[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reusable-flows.ts:180[38:40];Sink: msg;reusable-flows.ts:208[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reusable-flows.ts:180[38:40];Sink: [msg];reusable-flows.ts:211[22:26]::FLOW_DESCR_END","/src/reusable-flows.ts","180","38","180","40"

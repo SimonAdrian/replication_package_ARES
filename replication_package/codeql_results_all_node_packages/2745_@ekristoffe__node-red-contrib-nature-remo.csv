@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nature-remo.js:53[36:38];Sink: msg;nature-remo.js:72[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nature-remo.js:53[36:38];Sink: msg;nature-remo.js:90[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nature-remo.js:53[36:38];Sink: msg;nature-remo.js:113[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nature-remo.js:53[36:38];Sink: msg;nature-remo.js:134[55:57]::FLOW_DESCR_END","/nature-remo.js","53","36","53","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nature-remo.js:161[36:38];Sink: msg;nature-remo.js:179[31:33]::FLOW_DESCR_END","/nature-remo.js","161","36","161","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nature-remo.js:196[36:38];Sink: msg;nature-remo.js:220[31:33]::FLOW_DESCR_END","/nature-remo.js","196","36","196","38"

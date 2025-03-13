@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ialsID);fitbit-credentials.js:53[29:67];Sink: credentials;fitbit-credentials.js:65[53:63]::FLOW_DESCR_END","/fitbit-credentials.js","53","29","53","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:192[36:38];Sink: msg;fitbit.js:175[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fitbit.js:192[36:38];Sink: msg;fitbit.js:223[27:29]::FLOW_DESCR_END","/fitbit.js","192","36","192","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-factory.js:36[40:42];Sink: msg;node-factory.js:41[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-factory.js:36[40:42];Sink: msg;node-factory.js:46[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-factory.js:36[40:42];Sink: msg;node-factory.js:55[31:33]::FLOW_DESCR_END","/node-factory.js","36","40","36","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... \n    });oauth-helper.js:13[18:6];Sink: JSON.st ... tokens);oauth-helper.js:32[33:54]::FLOW_DESCR_END","/oauth-helper.js","13","18","18","6"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tokenDa ... s_token;oauth-helper.js:27[27:53];Sink: JSON.st ... tokens);oauth-helper.js:32[33:54]::FLOW_DESCR_END","/oauth-helper.js","27","27","27","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tokenDa ... h_token;oauth-helper.js:29[28:55];Sink: JSON.st ... tokens);oauth-helper.js:32[33:54]::FLOW_DESCR_END","/oauth-helper.js","29","28","29","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;oauth-helper.js:52[18:20];Sink: err;oauth-helper.js:95[59:61]::FLOW_DESCR_END","/oauth-helper.js","52","18","52","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;oauth-helper.js:52[34:37];Sink: errorText;fitbit.js:175[24:32]::FLOW_DESCR_END","/oauth-helper.js","52","34","52","37"

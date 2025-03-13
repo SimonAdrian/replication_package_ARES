@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:28[38:41];Sink: `node-r ... {data}`;index.js:29[10:57]::FLOW_DESCR_END","/index.js","28","38","28","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:32[38:41];Sink: `node-r ... {data}`;index.js:33[10:57]::FLOW_DESCR_END","/index.js","32","38","32","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;index.js:36[32:35];Sink: `node-r ... {code}`;index.js:37[10:80]::FLOW_DESCR_END","/index.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:103[35:37];Sink: dataToPass;index.js:22[15:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:103[35:37];Sink: arguments.join(' ');index.js:24[9:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:103[35:37];Sink: currentJob;index.js:66[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:103[35:37];Sink: msg;index.js:105[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:103[35:37];Sink: `There  ... s run.`;index.js:106[19:90]::FLOW_DESCR_END","/index.js","103","35","103","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:131[35:37];Sink: msg;index.js:140[23:25]::FLOW_DESCR_END","/index.js","131","35","131","37"

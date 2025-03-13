@@ -1,0 +1,171 @@
+<script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js'></script>
+
+<script type="text/x-red" data-template-name="pressac-sensor">
+  <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Sensor name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-gateway"><i class="fa fa-server"></i> Gateway</label>
+        <input type="text" id="node-input-gateway">
+    </div>
+    <div class="form-row">
+        <label for="node-input-sensors"><i class="fa fa-search"></i> Sensors</label>
+        <div style="display: inline-block; position: relative; width: 70%; height: 20px;">
+            <div style="position: absolute; left: 0px; right: 40px;">
+                <select id="node-input-sensors" style="width: 100%">
+                </select>
+            </div>
+            <a id="node-config-input-scan-sensors" class="editor-button" style="position: absolute; right: 0px; top: 0px;">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+    </div>
+    <div class="form-row">
+        <input type="text" id="node-input-list" style="display: none;">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="pressac-sensor">
+  <p>Connects to pressac gateway and publishes messages.</p>
+</script>
+
+<script type="text/javascript">
+  var socket
+  RED.nodes.registerType('pressac-sensor', {
+    category: 'input',
+    color: '#33ccff',
+    defaults: {
+      name: {
+        value: "pressac-sensor"
+      },
+      gateway: {
+        value: "",
+        type: "remote-gateway",
+        required: true
+      },
+      sensors: {
+        value: "",
+        required: true
+      },
+      list: {
+        value: ""
+      }
+    },
+    inputs: 0,
+    outputs: 1,
+    icon: "Pressac-Logo.png",
+    align: "left",
+    label: function () {
+      return this.name || "pressac-sensor";
+    },
+    oneditsave: function () {
+      let sensorSelected = $('#node-input-sensors option:selected').val()
+      if (!sensorSelected || sensorSelected == -1)
+        RED.notify("Select a sensor", "error")
+
+      if (socket && socket.connected)
+        socket.disconnect()
+    },
+    oneditprepare: function () {
+      var ipPattern =
+        /\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b/;
+      var scope = this;
+
+      console.log(this)
+
+      if ($('#node-input-list').val()) {
+        let sensors = $('#node-input-list').val().split("$$")
+        sensors.forEach((sensor) => {
+          if (sensor.indexOf("??") > 0) {
+            $('#node-input-sensors').append('<option value="' + sensor.split("??")[0] + '">' + (sensor.split(
+              "??")[1] || "") + ": " + (sensor.split("??")[0] || "") + '</option>');
+
+            if (sensor.split("??")[0] == this.sensors)
+              $('#node-input-sensors').val(this.sensors)
+          }
+        });
+      }
+      $("#node-input-gateway").change(() => {
+        let option = RED.nodes.node($('#node-input-gateway option:selected').val())
+        if (!option)
+          $('#node-input-sensors').empty()
+        else
+          SearchSensors()
+      });
+
+      function SearchSensors() {
+        var gateway = RED.nodes.node($('#node-input-gateway option:selected').val());
+
+        if (!gateway || !gateway.ip) {
+          RED.notify("Set the gateway URL and password", "error");
+          return
+        }
+
+        if (!ipPattern.test(gateway.ip)) {
+          RED.notify(gateway.ip + " is invalid gateway URL", "error");
+          return
+        }
+
+        //establish socket communication to the server
+        if (gateway.ip == "127.0.0.1")
+          socket = io.connect('http://' + window.location.hostname + '/nodered')
+        else
+          socket = io.connect('http://' + gateway.ip + '/nodered')
+        var timeOut = true
+        setTimeout(() => {
+          if (timeOut) {
+            RED.notify("Timeout,no answer from the gateway ", "error");
+            socket.disconnect()
+          }
+        }, 2000)
+
+        socket.on("connect", () => {
+          timeOut = false
+          socket.emit("password", {
+            password: gateway.password
+          })
+        })
+
+        socket.on("disconnect", () => {
+          socket.disconnect()
+        })
+        socket.on("invalidPassword", () => {
+          RED.notify("Invalid password", "error");
+          socket.disconnect()
+        })
+
+        socket.on('sensors', (sensorsReceived) => {
+          var listText = ""
+          $('#node-input-sensors').empty();
+          if (sensorsReceived.length <= 0) {
+            RED.notify("The gateway has no sensor linked", "error");
+          } else {
+            sensorsReceived.forEach((sensor) => {
+              $('#node-input-sensors').append('<option value="' + sensor.id + '">' + (sensor.name || "") +
+                ": " + (sensor.id || "") + '</option>');
+              listText += (sensor.id + "??" + sensor.name + "$$")
+            });
+          }
+          $('#node-input-list').val(listText)
+        })
+      }
+
+      $('#node-config-input-scan-sensors').click(function () {
+        SearchSensors();
+      });
+
+      function RemoveDuplicate(id) {
+        var optionValues = [];
+        $('#' + id + ' option').each(function () {
+          if ($.inArray(this.text, optionValues) > -1) {
+            $(this).remove()
+          } else {
+            optionValues.push(this.text);
+          }
+        });
+      }
+      RemoveDuplicate("node-input-gateway")
+    }
+  });
+</script>

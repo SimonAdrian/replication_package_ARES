@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;meobox.js:34[21:26];Sink: this._host;telnet.js:68[36:45]::FLOW_DESCR_END","/meobox.js","34","21","34","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;meobox.js:35[21:26];Sink: this._port;telnet.js:68[24:33]::FLOW_DESCR_END","/meobox.js","35","21","35","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meobox.js:39[36:38];Sink: 'NOT MA ...  + '""!';meobox.js:156[40:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meobox.js:39[36:38];Sink: msg;meobox.js:182[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meobox.js:39[36:38];Sink: msg;meobox.js:212[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meobox.js:39[36:38];Sink: this._port;telnet.js:68[24:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meobox.js:39[36:38];Sink: this._host;telnet.js:68[36:45]::FLOW_DESCR_END","/meobox.js","39","36","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;meobox.js:41[24:31];Sink: this._host;telnet.js:68[36:45]::FLOW_DESCR_END","/meobox.js","41","24","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;meobox.js:41[36:44];Sink: this._host;telnet.js:68[36:45]::FLOW_DESCR_END","/meobox.js","41","36","41","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;meobox.js:42[24:31];Sink: this._port;telnet.js:68[24:33]::FLOW_DESCR_END","/meobox.js","42","24","42","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;meobox.js:42[36:44];Sink: this._port;telnet.js:68[24:33]::FLOW_DESCR_END","/meobox.js","42","36","42","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;meobox.js:177[40:42];Sink: err;meobox.js:180[32:34]::FLOW_DESCR_END","/meobox.js","177","40","177","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opts.host;telnet.js:58[18:26];Sink: this._host;telnet.js:68[36:45]::FLOW_DESCR_END","/telnet.js","58","18","58","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opts.port;telnet.js:59[18:26];Sink: this._port;telnet.js:68[24:33]::FLOW_DESCR_END","/telnet.js","59","18","59","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opts.username;telnet.js:61[22:34];Sink: _self._ ...  ""\r\n"";telnet.js:189[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opts.username;telnet.js:61[22:34];Sink: data;telnet.js:208[22:25]::FLOW_DESCR_END","/telnet.js","61","22","61","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: opts.password;telnet.js:62[22:34];Sink: _self._ ...  ""\r\n"";telnet.js:195[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: opts.password;telnet.js:62[22:34];Sink: data;telnet.js:208[22:25]::FLOW_DESCR_END","/telnet.js","62","22","62","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: Error;telnet.js:78[38:42];Sink: Error;telnet.js:79[29:33]::FLOW_DESCR_END","/telnet.js","78","38","78","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: had_error;telnet.js:85[38:46];Sink: had_error;telnet.js:86[29:37]::FLOW_DESCR_END","/telnet.js","85","38","85","46"

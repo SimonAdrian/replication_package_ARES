@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ApiService.js:67[34:37];Sink: err;home-connect-auth.js:37[28:30]::FLOW_DESCR_END","/lib/ApiService.js","67","34","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');TokenStorage.js:18[31:64];Sink: JSON.st ... null,1);TokenStorage.js:34[41:72]::FLOW_DESCR_END","/lib/TokenStorage.js","18","31","18","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;home-connect-request.js:38[33:35];Sink: msg;home-connect-request.js:63[22:24]::FLOW_DESCR_END","/nodes/home-connect-request.js","38","33","38","35"

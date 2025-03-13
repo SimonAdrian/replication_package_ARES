@@ -1,0 +1,53 @@
+<script type="text/javascript">
+    RED.nodes.registerType('radwag-mass',{
+        category: 'Radwag',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+			host: {value:"127.0.0.1", required:true},
+			port: {value:4001, required:true, validate:RED.validators.number()},
+			interval: {value:200,required:true, validate:function(v) { return v >= 200 && v <= 5000 }}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "font-awesome/fa-balance-scale",
+        label: function() {
+            return this.name||"radwag-mass";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="radwag-mass">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+	
+    <div class="form-row">
+        <label for="node-input-host"><i class="fa fa-folder"></i> Host</label>
+        <input type="text" id="node-input-host" style="width:70%;" />
+        <span style="display: block; padding-left: 106px; color: gray; font-size: x-small;">Scale or terminal IP address</span>
+        <input type="hidden" id="node-input-hostType">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-port"><i class="fa fa-globe"></i> Port</label>
+        <input type="text" id="node-input-port" style="width:70%;" />
+        <span style="display: block; padding-left: 106px; color: gray; font-size: x-small;">Scale or terminal tcp port</span>
+        <input type="hidden" id="node-input-portType">
+    </div>
+	
+	 <div class="form-row">
+        <label for="node-input-interval"><i class="fa fa-clock-o"></i> Interval</label>
+        <input type="text" id="node-input-interval" style="width:70%;" />
+        <span style="display: block; padding-left: 106px; color: gray; font-size: x-small;">Mass inquiry interval. Min 200 [ms], max 5000 [ms]</span>
+        <input type="hidden" id="node-input-intervalType">
+    </div>
+	
+	
+	
+</script>
+
+<script type="text/html" data-help-name="radwag-mass">
+    <p> radwag-mass node enables obtaining mass result from Radwag devices via TCP connection. Remember to set the PC/Computer communication port of a scale or a terminal to TCP/Ethernet/Wifi, depending on the scale/terminal type.</p>
+</script>

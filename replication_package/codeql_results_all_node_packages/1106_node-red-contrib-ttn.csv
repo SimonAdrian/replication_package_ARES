@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttn-downlink.js:21[32:34];Sink: dev_id;ttn-downlink.js:33[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttn-downlink.js:21[32:34];Sink: msg.payload;ttn-downlink.js:33[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttn-downlink.js:21[32:34];Sink: port;ttn-downlink.js:33[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttn-downlink.js:21[32:34];Sink: confirmed;ttn-downlink.js:33[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttn-downlink.js:21[32:34];Sink: schedule;ttn-downlink.js:33[59:66]::FLOW_DESCR_END","/ttn-downlink/ttn-downlink.js","21","32","21","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;ttn-downlink.js:23[18:25];Sink: port;ttn-downlink.js:33[42:45]::FLOW_DESCR_END","/ttn-downlink/ttn-downlink.js","23","18","23","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;ttn-downlink.js:23[30:38];Sink: port;ttn-downlink.js:33[42:45]::FLOW_DESCR_END","/ttn-downlink/ttn-downlink.js","23","30","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ttn-uplink.js:21[70:73];Sink: [ msg ];ttn-uplink.js:25[19:25]::FLOW_DESCR_END","/ttn-uplink/ttn-uplink.js","21","70","21","73"

@@ -1,0 +1,45 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... raphql);graphql.js:107[23:62];Sink: ""creden ... ntials);graphql.js:108[19:66]::FLOW_DESCR_END","/graphql.js","107","23","107","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;graphql.js:148[18:22];Sink: ""respon ... + error;graphql.js:339[28:60]::FLOW_DESCR_END","/graphql.js","148","18","148","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""status ... tusCode;graphql.js:157[31:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""respon ... sponse);graphql.js:158[31:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""401 re ... sponse);graphql.js:177[31:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""401 re ... rorCode;graphql.js:180[21:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:192[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:209[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:228[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""401 er ... sponse);graphql.js:238[21:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""respon ... sponse);graphql.js:254[31:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:260[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""respon ... sponse);graphql.js:264[19:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:277[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""respon ... sponse);graphql.js:280[31:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""errorC ... tusCode;graphql.js:282[29:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""respon ... se.body;graphql.js:283[33:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""respon ... sponse);graphql.js:291[23:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""error  ... se.body;graphql.js:295[35:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: ""error  ... message;graphql.js:300[23:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:326[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;graphql.js:148[25:32];Sink: errorMsg;graphql.js:331[28:35]::FLOW_DESCR_END","/graphql.js","148","25","148","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;graphql.js:148[35:38];Sink: ""body:  ... y(body);graphql.js:159[31:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;graphql.js:148[35:38];Sink: ""servic ... eTicket;graphql.js:160[31:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;graphql.js:148[35:38];Sink: ""body:  ... y(body);graphql.js:171[31:64]::FLOW_DESCR_END","/graphql.js","148","35","148","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: ""node.m ... de.msg);graphql.js:172[31:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: ""Callin ... de.msg);graphql.js:173[27:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: [node.msg];graphql.js:174[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:192[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:209[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:228[44:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:239[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: ""msg: "" ... de.msg);graphql.js:247[27:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: ""msg w/ ... de.msg);graphql.js:259[27:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:260[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:277[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:326[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:331[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:339[63:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: headers ... ization;graphql.js:375[18:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: node.msg;graphql.js:418[25:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: [null, node.msg];graphql.js:427[25:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: [null, node.msg];graphql.js:439[25:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: [null, node.msg];graphql.js:448[21:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;graphql.js:455[31:33];Sink: ""msg: "" ... fy(msg);graphql.js:457[21:52]::FLOW_DESCR_END","/graphql.js","455","31","455","33"

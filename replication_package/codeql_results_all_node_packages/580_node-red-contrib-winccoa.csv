@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;winccoajsapi.js:115[29:32];Sink: message;oaJsApi.class.js:73[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;winccoajsapi.js:115[29:32];Sink: data;oaJsApi.class.js:272[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;winccoajsapi.js:115[29:32];Sink: data;oaJsApi.class.js:302[25:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;winccoajsapi.js:115[29:32];Sink: data;oaJsApi.class.js:306[23:26]::FLOW_DESCR_END","/winccoa/api/winccoajsapi.js","115","29","115","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;winccoajsapi.js:116[27:31];Sink: text;winccoajsapi.js:173[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;winccoajsapi.js:116[27:31];Sink: error;winccoaserver.js:81[53:57]::FLOW_DESCR_END","/winccoa/api/winccoajsapi.js","116","27","116","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;winccoaconnect.js:34[23:25];Sink: msg.topic;winccoaconnect.js:49[26:34]::FLOW_DESCR_END","/winccoa/winccoaconnect.js","34","23","34","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;winccoaserver.js:81[29:33];Sink: error;winccoaserver.js:81[53:57]::FLOW_DESCR_END","/winccoa/winccoaserver.js","81","29","81","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;winccoaserver.js:82[28:34];Sink: warning;winccoaserver.js:82[53:59]::FLOW_DESCR_END","/winccoa/winccoaserver.js","82","28","82","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;winccoaserver.js:83[29:32];Sink: info;winccoaserver.js:83[52:55]::FLOW_DESCR_END","/winccoa/winccoaserver.js","83","29","83","32"

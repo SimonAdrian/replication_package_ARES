@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;node-socketio-server.js:91[34:39];Sink: data || '';node-socketio-server.js:60[45:54]::FLOW_DESCR_END","/node-socketio-server.js","91","34","91","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-socketio-server.js:92[34:38];Sink: data || '';node-socketio-server.js:60[45:54]::FLOW_DESCR_END","/node-socketio-server.js","92","34","92","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-socketio-server.js:94[34:38];Sink: data || '';node-socketio-server.js:60[45:54]::FLOW_DESCR_END","/node-socketio-server.js","94","34","94","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-socketio-server.js:95[34:38];Sink: data || '';node-socketio-server.js:60[45:54]::FLOW_DESCR_END","/node-socketio-server.js","95","34","95","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-socketio-server.js:96[34:38];Sink: data || '';node-socketio-server.js:60[45:54]::FLOW_DESCR_END","/node-socketio-server.js","96","34","96","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node-socketio-server.js:97[34:38];Sink: data || '';node-socketio-server.js:60[45:54]::FLOW_DESCR_END","/node-socketio-server.js","97","34","97","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.user.id;node-socketio-server.js:181[26:37];Sink: 'Client ...  userId;node-socketio-server.js:197[27:88]::FLOW_DESCR_END","/node-socketio-server.js","181","26","181","37"

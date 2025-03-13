@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;dde.js:185[27:27];Sink: d;dde.js:186[33:33]::FLOW_DESCR_END","/red/dde.js","185","27","185","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;dde.js:204[36:40];Sink: topic;dde.js:205[43:47]::FLOW_DESCR_END","/red/dde.js","204","36","204","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dde.js:226[26:28];Sink: err &&  ... tring();dde.js:227[24:44]::FLOW_DESCR_END","/red/dde.js","226","26","226","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dde.js:286[28:30];Sink: msg;dde.js:305[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dde.js:286[28:30];Sink: msg;dde.js:307[31:33]::FLOW_DESCR_END","/red/dde.js","286","28","286","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dde.js:311[25:27];Sink: msg;dde.js:327[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dde.js:311[25:27];Sink: msg;dde.js:329[31:33]::FLOW_DESCR_END","/red/dde.js","311","25","311","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dde.js:333[28:30];Sink: msg;dde.js:347[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dde.js:333[28:30];Sink: msg;dde.js:349[31:33]::FLOW_DESCR_END","/red/dde.js","333","28","333","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dde.js:353[27:29];Sink: msg;dde.js:368[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dde.js:353[27:29];Sink: msg;dde.js:370[31:33]::FLOW_DESCR_END","/red/dde.js","353","27","353","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dde.js:374[31:33];Sink: msg;dde.js:389[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dde.js:374[31:33];Sink: msg;dde.js:391[31:33]::FLOW_DESCR_END","/red/dde.js","374","31","374","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dde.js:395[34:36];Sink: msg;dde.js:397[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dde.js:395[34:36];Sink: msg;dde.js:399[31:33]::FLOW_DESCR_END","/red/dde.js","395","34","395","36"

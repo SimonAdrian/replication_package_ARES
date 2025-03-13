@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;barcode-reader.js:8[35:37];Sink: msg;barcode-reader.js:18[27:29]::FLOW_DESCR_END","/barcode-reader.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remote-terminal.js:18[35:37];Sink: msg;remote-terminal.js:76[23:25]::FLOW_DESCR_END","/remote-terminal.js","18","35","18","37"

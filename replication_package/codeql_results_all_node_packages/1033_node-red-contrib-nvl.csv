@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nvl-receive.js:31[35:37];Sink: msg;nvl-receive.js:49[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-receive.js:31[35:37];Sink: msg;nvl-receive.js:73[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-receive.js:31[35:37];Sink: err;nvl-receive.js:111[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-receive.js:31[35:37];Sink: msg;nvl-receive.js:111[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-receive.js:31[35:37];Sink: msg;nvl-receive.js:155[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-receive.js:31[35:37];Sink: msg;nvl-receive.js:170[45:47]::FLOW_DESCR_END","/src/nvl-receive.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nvl-send.js:31[35:37];Sink: msg;nvl-send.js:49[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-send.js:31[35:37];Sink: newMsg;nvl-send.js:98[26:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-send.js:31[35:37];Sink: msg;nvl-send.js:119[37:39]::FLOW_DESCR_END","/src/nvl-send.js","31","35","31","37"

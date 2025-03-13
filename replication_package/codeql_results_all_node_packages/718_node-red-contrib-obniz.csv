@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;obniz-close.js:12[48:53];Sink: status;obniz-close.js:13[21:26]::FLOW_DESCR_END","/obniz-close.js","12","48","12","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obniz-close.js:18[32:34];Sink: msg;obniz-close.js:20[14:16]::FLOW_DESCR_END","/obniz-close.js","18","32","18","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;obniz-connect.js:16[48:53];Sink: status;obniz-connect.js:17[21:26]::FLOW_DESCR_END","/obniz-connect.js","16","48","16","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obniz-connect.js:22[32:34];Sink: [msg, null];obniz-connect.js:26[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obniz-connect.js:22[32:34];Sink: [null, msg];obniz-connect.js:28[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obniz-connect.js:22[32:34];Sink: [null, msg];obniz-connect.js:31[14:24]::FLOW_DESCR_END","/obniz-connect.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;obniz-function.js:15[48:53];Sink: status;obniz-function.js:16[21:26]::FLOW_DESCR_END","/obniz-function.js","15","48","15","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;obniz-repeat.js:16[48:53];Sink: status;obniz-repeat.js:17[21:26]::FLOW_DESCR_END","/obniz-repeat.js","16","48","16","53"

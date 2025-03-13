@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    RED.nodes.registerType('remote-gateway',{
+        category: 'config',
+        defaults: {
+            name: {value:"",required:true},
+            ip: {value:"127.0.0.1",required:true},
+            password: {value:"",required:true},
+        },
+        label: function() {
+            if(this.name && this.ip)
+                return(this.name + ": " + this.ip)
+            return this.name || "";
+        },
+        oneditsave:  function() {
+           // alert("save config")
+        },
+    });
+</script>
+
+<script type="text/x-red" data-template-name="remote-gateway">
+    <div class="form-row">
+        <label for="node-config-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-config-input-name">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-ip"><i class="fa fa-server"></i> IP Address</label>
+        <input type="text" id="node-config-input-ip">
+    </div>
+    <div class="form-row">
+        <label for="node-config-input-password"><i class="fa fa-lock"></i>Password</label>
+        <input type="password" id="node-config-input-password">
+    </div>
+</script> 

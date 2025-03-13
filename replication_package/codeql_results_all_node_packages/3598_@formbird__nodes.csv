@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bulkUpload.js:18[35:37];Sink: msg;NodeRedUtils.js:7[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bulkUpload.js:18[35:37];Sink: msg;NodeRedUtils.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bulkUpload.js:18[35:37];Sink: msg;NodeRedUtils.js:19[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bulkUpload.js:18[35:37];Sink: msg;NodeRedUtils.js:27[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bulkUpload.js:18[35:37];Sink: msg;NodeRedUtils.js:29[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bulkUpload.js:18[35:37];Sink: msg;NodeRedUtils.js:70[19:21]::FLOW_DESCR_END","/bulkUpload.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crud.js:23[35:37];Sink: msg;NodeRedUtils.js:7[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crud.js:23[35:37];Sink: msg;NodeRedUtils.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crud.js:23[35:37];Sink: msg;NodeRedUtils.js:19[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crud.js:23[35:37];Sink: msg;NodeRedUtils.js:27[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crud.js:23[35:37];Sink: msg;NodeRedUtils.js:29[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crud.js:23[35:37];Sink: msg;NodeRedUtils.js:70[19:21]::FLOW_DESCR_END","/crud.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;redis.js:17[57:59];Sink: err;redis.js:18[39:41]::FLOW_DESCR_END","/redis.js","17","57","17","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;redis.js:43[21:26];Sink: this.port;redis.js:49[61:69]::FLOW_DESCR_END","/redis.js","43","21","43","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;redis.js:93[21:26];Sink: this.port;redis.js:98[61:69]::FLOW_DESCR_END","/redis.js","93","21","93","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:115[35:37];Sink: msg;redis.js:133[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:115[35:37];Sink: msg;NodeRedUtils.js:7[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:115[35:37];Sink: msg;NodeRedUtils.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:115[35:37];Sink: msg;NodeRedUtils.js:19[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:115[35:37];Sink: msg;NodeRedUtils.js:27[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:115[35:37];Sink: msg;NodeRedUtils.js:29[23:25]::FLOW_DESCR_END","/redis.js","115","35","115","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search.js:19[35:37];Sink: msg;NodeRedUtils.js:7[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:19[35:37];Sink: msg;NodeRedUtils.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:19[35:37];Sink: msg;NodeRedUtils.js:19[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:19[35:37];Sink: msg;NodeRedUtils.js:27[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:19[35:37];Sink: msg;NodeRedUtils.js:29[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:19[35:37];Sink: msg;NodeRedUtils.js:70[19:21]::FLOW_DESCR_END","/search.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;websocket.js:26[35:37];Sink: msg;NodeRedUtils.js:70[19:21]::FLOW_DESCR_END","/websocket.js","26","35","26","37"

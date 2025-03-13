@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-ses-templated.js:38[35:37];Sink: msg;aws-ses-templated.js:31[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-ses-templated.js:38[35:37];Sink: msg;aws-ses-templated.js:112[26:28]::FLOW_DESCR_END","/aws-ses-templated.js","38","35","38","37"

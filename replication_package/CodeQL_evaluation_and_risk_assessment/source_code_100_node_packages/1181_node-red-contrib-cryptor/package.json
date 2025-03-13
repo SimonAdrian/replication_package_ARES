@@ -1,0 +1,16 @@
+{
+  "name": "node-red-contrib-cryptor",
+  "version": "0.0.2",
+  "license": "The MIT License (MIT)",
+  "description": "These nodes will encrypt/decrypt using aes-256-ctr and a password of your choosing.",
+  "dependencies": {},
+  "keywords": [
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "encryptor": "encryptionNode/encryptor.js",
+      "decryptor": "decryptionNode/decryptor.js"
+    }
+  }
+}

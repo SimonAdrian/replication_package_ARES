@@ -1,0 +1,60 @@
+{
+  "_from": "node-red-incorta@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-Fs3LR8BPSISkj/riF1SVPT21UuI=",
+  "_location": "/node-red-incorta",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "node-red-incorta@0.1.1",
+    "name": "node-red-incorta",
+    "escapedName": "node-red-incorta",
+    "rawSpec": "0.1.1",
+    "saveSpec": null,
+    "fetchSpec": "0.1.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-incorta/-/node-red-incorta-0.1.1.tgz",
+  "_shasum": "16cdcb47c04f4884a48ffae21754953d3db552e2",
+  "_spec": "node-red-incorta@0.1.1",
+  "_where": "/Users/michaellynch/.node-red",
+  "author": "Paul Stone",
+  "bugs": {
+    "url": "https://github.com/incorta/incorta/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jdbc": "0.6.4",
+    "mustache": "^2"
+  },
+  "deprecated": false,
+  "description": "A Node-RED node to read and write to a Incorta database using JDBC",
+  "homepage": "https://github.com/incorta/incorta#readme",
+  "keywords": [
+    "node-red",
+    "jdbc",
+    "incorta",
+    "sql",
+    "database"
+  ],
+  "license": "Apache-2.0",
+  "name": "red-incorta",
+  "node-red": {
+    "nodes": {
+      "incorta": "incorta.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incorta/incorta.git"
+  },
+  "version": "6.0.0",
+  "main": "incorta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

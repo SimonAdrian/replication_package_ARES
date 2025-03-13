@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nodemailer-adapter.js:17[36:38];Sink: msg.payload;nodemailer-adapter.js:30[32:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nodemailer-adapter.js:17[36:38];Sink: msg;nodemailer-adapter.js:32[39:41]::FLOW_DESCR_END","/nodemailer-adapter.js","17","36","17","38"

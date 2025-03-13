@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense.js:152[27:29];Sink: msg;sense.js:155[27:29]::FLOW_DESCR_END","/sense.js","152","27","152","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense.js:174[27:29];Sink: msg;sense.js:171[23:25]::FLOW_DESCR_END","/sense.js","174","27","174","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense.js:199[27:29];Sink: msg;sense.js:196[23:25]::FLOW_DESCR_END","/sense.js","199","27","199","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sense.js:217[27:29];Sink: [msg, msg2];sense.js:236[27:37]::FLOW_DESCR_END","/sense.js","217","27","217","29"

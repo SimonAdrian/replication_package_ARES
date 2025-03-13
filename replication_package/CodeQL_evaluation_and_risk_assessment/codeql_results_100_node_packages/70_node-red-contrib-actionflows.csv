@@ -1,0 +1,11 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: msg;actionflows.js:55[19:21]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: msg;actionflows.js:61[19:21]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: msg;actionflows.js:77[19:21]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: ""`"" + c ... d + "")"";actionflows.js:92[21:102]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: ""af:"" + ain.id;actionflows.js:94[25:38]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: msg;actionflows.js:94[41:43]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: msg;actionflows.js:105[36:38]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:48[31:33];Sink: msg;actionflows.js:117[21:23]::FLOW_DESCR_END","/actionflows/actionflows.js","48","31","48","33"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actionflows.js:277[31:33];Sink: msg;actionflows.js:278[19:21]::FLOW_DESCR_END","/actionflows/actionflows.js","277","31","277","33"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actionflows.js:286[31:33];Sink: msg._af ... ].pop();actionflows.js:288[25:46]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;actionflows.js:286[31:33];Sink: msg;actionflows.js:288[49:51]::FLOW_DESCR_END","/actionflows/actionflows.js","286","31","286","33"

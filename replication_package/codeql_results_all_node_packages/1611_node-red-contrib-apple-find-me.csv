@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apple-find-me.js:78[41:43];Sink: msg;apple-find-me.js:443[31:33]::FLOW_DESCR_END","/nodes/apple-find-me.js","78","41","78","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apple-find-me.js:478[41:43];Sink: msg;apple-find-me.js:843[31:33]::FLOW_DESCR_END","/nodes/apple-find-me.js","478","41","478","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apple-find-me.js:872[41:43];Sink: msg;apple-find-me.js:917[35:37]::FLOW_DESCR_END","/nodes/apple-find-me.js","872","41","872","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apple-find-me.js:934[41:43];Sink: msg;apple-find-me.js:1001[35:37]::FLOW_DESCR_END","/nodes/apple-find-me.js","934","41","934","43"

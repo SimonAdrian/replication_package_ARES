@@ -1,0 +1,152 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;SQLQuery.js:37[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/SQLQuery.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: msg.password;authenticateSap.js:36[83:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: company;authenticateSap.js:49[84:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: user;authenticateSap.js:56[83:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: msg;authenticateSap.js:89[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: msg;authenticateSap.js:95[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: msg;authenticateSap.js:106[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:29[29:31];Sink: msg;authenticateSap.js:114[19:21]::FLOW_DESCR_END","/nodes/authenticateSap.js","29","29","29","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;closeSap.js:27[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/closeSap.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;createSQLQuery.js:61[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/createSQLQuery.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;createSap.js:30[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/createSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;crossJoinSap.js:28[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/crossJoinSap.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;deleteSap.js:26[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/deleteSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;getSap.js:25[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/getSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;listSap.js:28[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/listSap.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;manipulateEntitySap.js:32[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:15[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/manipulateEntitySap.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nextLink.js:6[29:31];Sink: [null, msg];nextLink.js:10[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nextLink.js:6[29:31];Sink: [msg, null];nextLink.js:14[17:27]::FLOW_DESCR_END","/nodes/nextLink.js","6","29","6","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;patchSap.js:31[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/patchSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrors.js:5[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrors.js:12[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrors.js:17[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrors.js:23[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;serviceSap.js:31[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:110[24:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:113[42:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;support.js:124[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;support.js:138[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: `_YOU_S ... }.host`;support.js:334[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: `_YOU_S ... }.port`;support.js:335[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: `_YOU_S ... ersion`;support.js:336[39:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: `_YOU_S ... eaders`;support.js:341[39:82]::FLOW_DESCR_END","/nodes/serviceSap.js","14","29","14","31"

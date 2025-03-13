@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mcp-pcf-aio.js:104[38:40];Sink: ""!!! Un ...  origin;mcp-pcf-aio.js:105[24:121]::FLOW_DESCR_END","/mcp-pcf-aio.js","104","38","104","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: origin;mcp-pcf-aio.js:104[43:48];Sink: ""!!! Un ...  origin;mcp-pcf-aio.js:105[24:121]::FLOW_DESCR_END","/mcp-pcf-aio.js","104","43","104","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mcp-pcf-aio.js:642[35:37];Sink: _msg;mcp-pcf-aio.js:598[68:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mcp-pcf-aio.js:642[35:37];Sink: ""  MCP/ ... payload;mcp-pcf-aio.js:645[45:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mcp-pcf-aio.js:642[35:37];Sink: ""  MCP/ ... payload;mcp-pcf-aio.js:651[45:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mcp-pcf-aio.js:642[35:37];Sink: msg;mcp-pcf-aio.js:652[27:29]::FLOW_DESCR_END","/mcp-pcf-aio.js","642","35","642","37"

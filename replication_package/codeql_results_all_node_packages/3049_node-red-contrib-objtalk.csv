@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objtalk.js:164[22:24];Sink: object;objtalk.js:173[36:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objtalk.js:164[22:24];Sink: msg.payload;objtalk.js:173[44:54]::FLOW_DESCR_END","/objtalk.js","164","22","164","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objtalk.js:223[22:24];Sink: object;objtalk.js:239[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objtalk.js:223[22:24];Sink: event;objtalk.js:239[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objtalk.js:223[22:24];Sink: msg.payload;objtalk.js:239[52:62]::FLOW_DESCR_END","/objtalk.js","223","22","223","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objtalk.js:258[22:24];Sink: pattern;objtalk.js:267[36:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objtalk.js:258[22:24];Sink: msg;objtalk.js:270[12:14]::FLOW_DESCR_END","/objtalk.js","258","22","258","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objtalk.js:292[22:24];Sink: msg;objtalk.js:311[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objtalk.js:292[22:24];Sink: ""can't  ... : "" + e;objtalk.js:315[18:62]::FLOW_DESCR_END","/objtalk.js","292","22","292","24"

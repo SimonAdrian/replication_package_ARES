@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;trexcommands.js:506[39:63];Sink: `Discon ... .user}`;trexcommands.js:550[54:199]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;trexcommands.js:506[39:63];Sink: `Connec ... .user}`;trexcommands.js:588[30:174]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;trexcommands.js:506[39:63];Sink: `Error  ... .user}`;trexcommands.js:612[26:177]::FLOW_DESCR_END","/trexcommands.js","506","39","506","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... ns.port;trexcommands.js:550[146:169];Sink: `Discon ... .user}`;trexcommands.js:550[54:199]::FLOW_DESCR_END","/trexcommands.js","550","146","550","169"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;trexcommands.js:566[31:33];Sink: err;trexcommands.js:567[24:26]::FLOW_DESCR_END","/trexcommands.js","566","31","566","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... ns.port;trexcommands.js:588[121:144];Sink: `Connec ... .user}`;trexcommands.js:588[30:174]::FLOW_DESCR_END","/trexcommands.js","588","121","588","144"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... ns.port;trexcommands.js:612[124:147];Sink: `Error  ... .user}`;trexcommands.js:612[26:177]::FLOW_DESCR_END","/trexcommands.js","612","124","612","147"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trexcommands.js:728[36:38];Sink: msg.error;trexcommands.js:721[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trexcommands.js:728[36:38];Sink: msg;trexcommands.js:721[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trexcommands.js:728[36:38];Sink: msg;trexcommands.js:724[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trexcommands.js:728[36:38];Sink: msg;trexcommands.js:849[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trexcommands.js:728[36:38];Sink: msg;trexcommands.js:876[39:41]::FLOW_DESCR_END","/trexcommands.js","728","36","728","38"

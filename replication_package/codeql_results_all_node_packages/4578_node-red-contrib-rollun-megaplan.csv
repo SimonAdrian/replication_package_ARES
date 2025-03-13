@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;megaplan-get-entity.js:11[32:34];Sink: [msg, null];megaplan-get-entity.js:14[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;megaplan-get-entity.js:11[32:34];Sink: [null, msg];megaplan-get-entity.js:34[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;megaplan-get-entity.js:11[32:34];Sink: [msg, null];megaplan-get-entity.js:40[23:33]::FLOW_DESCR_END","/megaplan-get-entity.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;megaplan-update-entity.js:11[32:34];Sink: [msg, null];megaplan-update-entity.js:14[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;megaplan-update-entity.js:11[32:34];Sink: [null, msg];megaplan-update-entity.js:41[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;megaplan-update-entity.js:11[32:34];Sink: [msg, null];megaplan-update-entity.js:50[21:31]::FLOW_DESCR_END","/megaplan-update-entity.js","11","32","11","34"

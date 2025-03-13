@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgData;blynk-ws-client.js:177[32:38];Sink: `Messag ... }bytes`;blynk-ws-client.js:180[21:59]::FLOW_DESCR_END","/nodes/blynk-ws-client.js","177","32","177","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;blynk-ws-client.js:209[30:32];Sink: `Websocket ${err}`;blynk-ws-client.js:210[20:37]::FLOW_DESCR_END","/nodes/blynk-ws-client.js","209","30","209","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blynk-ws-zergba.js:55[23:25];Sink: ret;blynk-ws-zergba.js:75[19:21]::FLOW_DESCR_END","/nodes/blynk-ws-zergba.js","55","23","55","25"

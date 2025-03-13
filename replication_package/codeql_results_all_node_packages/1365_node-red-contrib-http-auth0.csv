@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;http-auth0.js:221[49:52];Sink: req.tokeninfo.roles;http-auth0.js:235[30:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;http-auth0.js:221[49:52];Sink: req.tokeninfo.groups;http-auth0.js:236[31:50]::FLOW_DESCR_END","/http-auth0.js","221","49","221","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.cookies['email'];http-auth0.js:267[17:36];Sink: req.tokeninfo.email;http-auth0.js:234[30:48]::FLOW_DESCR_END","/http-auth0.js","267","17","267","36"

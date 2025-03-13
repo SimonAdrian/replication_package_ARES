@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;cabiot-listener.js:15[19:34];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-listener/cabiot-listener.js","15","19","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;cabiot-listener.js:16[19:34];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-listener/cabiot-listener.js","16","19","16","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.username;cabiot-listener.js:17[23:42];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-listener/cabiot-listener.js","17","23","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.password;cabiot-listener.js:18[23:42];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-listener/cabiot-listener.js","18","23","18","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;cabiot-publisher.js:17[19:34];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-publisher/cabiot-publisher.js","17","19","17","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;cabiot-publisher.js:18[19:34];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-publisher/cabiot-publisher.js","18","19","18","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.username;cabiot-publisher.js:19[23:42];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-publisher/cabiot-publisher.js","19","23","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.password;cabiot-publisher.js:20[23:42];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/nodes/cabiot-publisher/cabiot-publisher.js","20","23","20","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: routingKey;cabiot-publisher.js:123[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: jsonData;cabiot-publisher.js:123[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: exchangeName;cabiot-publisher.js:123[48:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: exchangeType;cabiot-publisher.js:123[62:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: queueName;cabiot-publisher.js:123[76:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: msg;cabiot-publisher.js:125[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: `${this ... rable}`;amqp.js:122[33:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: exchangeName;amqp.js:133[38:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: routingKey;amqp.js:133[52:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: Buffer.from(data);amqp.js:133[64:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:104[27:29];Sink: obj;utils.js:4[58:60]::FLOW_DESCR_END","/src/nodes/cabiot-publisher/cabiot-publisher.js","104","27","104","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;amqp.js:32[17:20];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/services/amqp.js","32","17","32","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;amqp.js:32[23:26];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/services/amqp.js","32","23","32","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: username = '';amqp.js:32[29:41];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/services/amqp.js","32","29","32","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password = '';amqp.js:32[44:56];Sink: `Build  ... s.url}`;amqp.js:38[21:62]::FLOW_DESCR_END","/src/services/amqp.js","32","44","32","56"

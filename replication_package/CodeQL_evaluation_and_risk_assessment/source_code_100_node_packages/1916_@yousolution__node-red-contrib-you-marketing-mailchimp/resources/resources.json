@@ -1,0 +1,3709 @@
+{
+  "Account Exports": [
+      {
+          "name": "List account exports",
+          "entity": "accountExports",
+          "method": "listAccountExports",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add export",
+          "entity": "accountExports",
+          "method": "createAccountExport",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get account export info",
+          "entity": "accountExports",
+          "method": "getAccountExports",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "export_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Authorized Apps": [
+      {
+          "name": "List authorized apps",
+          "entity": "authorizedApps",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Get authorized app info",
+          "entity": "authorizedApps",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "app_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Automations": [
+      {
+          "name": "List automations",
+          "entity": "automations",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add automation",
+          "entity": "automations",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get automation info",
+          "entity": "automations",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Start automation emails",
+          "entity": "automations",
+          "method": "startAllEmails",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Pause automation emails",
+          "entity": "automations",
+          "method": "pauseAllEmails",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Archive automation",
+          "entity": "automations",
+          "method": "archive",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List automated emails",
+          "entity": "automations",
+          "method": "listAllWorkflowEmails",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get workflow email info",
+          "entity": "automations",
+          "method": "getWorkflowEmail",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete workflow email",
+          "entity": "automations",
+          "method": "deleteWorkflowEmail",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update workflow email",
+          "entity": "automations",
+          "method": "updateWorkflowEmail",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Pause automated email",
+          "entity": "automations",
+          "method": "pauseWorkflowEmail",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Start automated email",
+          "entity": "automations",
+          "method": "startWorkflowEmail",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List automated email subscribers",
+          "entity": "automations",
+          "method": "getWorkflowEmailSubscriberQueue",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add subscriber to workflow email",
+          "entity": "automations",
+          "method": "addWorkflowEmailSubscriber",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get automated email subscriber",
+          "entity": "automations",
+          "method": "getWorkflowEmailSubscriber",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "workflow_email_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List subscribers removed from workflow",
+          "entity": "automations",
+          "method": "listWorkflowEmailSubscribersRemoved",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Remove subscriber from workflow",
+          "entity": "automations",
+          "method": "removeWorkflowEmailSubscriber",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get subscriber removed from workflow",
+          "entity": "automations",
+          "method": "getRemovedWorkflowEmailSubscriber",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "workflow_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Batch Operations": [
+      {
+          "name": "List batch requests",
+          "entity": "batches",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Start batch operation",
+          "entity": "batches",
+          "method": "start",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get batch operation status",
+          "entity": "batches",
+          "method": "status",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "batch_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete batch request",
+          "entity": "batches",
+          "method": "deleteRequest",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      }
+  ],
+  "Batch Webhooks": [
+      {
+          "name": "List batch webhooks",
+          "entity": "batchWebhooks",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add batch webhook",
+          "entity": "batchWebhooks",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get batch webhook info",
+          "entity": "batchWebhooks",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "batch_webhook_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update batch webhook",
+          "entity": "batchWebhooks",
+          "method": "update",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "batch_webhook_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete batch webhook",
+          "entity": "batchWebhooks",
+          "method": "remove",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "batch_webhook_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Campaign Folders": [
+      {
+          "name": "List campaign folders",
+          "entity": "campaignFolders",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add campaign folder",
+          "entity": "campaignFolders",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get campaign folder",
+          "entity": "campaignFolders",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update campaign folder",
+          "entity": "campaignFolders",
+          "method": "update",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete campaign folder",
+          "entity": "campaignFolders",
+          "method": "remove",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Campaigns": [
+      {
+          "name": "List campaigns",
+          "entity": "campaigns",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add campaign",
+          "entity": "campaigns",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get campaign info",
+          "entity": "campaigns",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update campaign settings",
+          "entity": "campaigns",
+          "method": "update",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete campaign",
+          "entity": "campaigns",
+          "method": "remove",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Cancel campaign",
+          "entity": "campaigns",
+          "method": "cancelSend",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Send campaign",
+          "entity": "campaigns",
+          "method": "send",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Schedule campaign",
+          "entity": "campaigns",
+          "method": "schedule",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Unschedule campaign",
+          "entity": "campaigns",
+          "method": "unschedule",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Pause rss campaign",
+          "entity": "campaigns",
+          "method": "pause",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Resume rss campaign",
+          "entity": "campaigns",
+          "method": "resume",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Replicate campaign",
+          "entity": "campaigns",
+          "method": "replicate",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Send test email",
+          "entity": "campaigns",
+          "method": "sendTestEmail",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Resend campaign",
+          "entity": "campaigns",
+          "method": "createResend",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get campaign content",
+          "entity": "campaigns",
+          "method": "getContent",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Set campaign content",
+          "entity": "campaigns",
+          "method": "setContent",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign feedback",
+          "entity": "campaigns",
+          "method": "getFeedback",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add campaign feedback",
+          "entity": "campaigns",
+          "method": "addFeedback",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get campaign feedback message",
+          "entity": "campaigns",
+          "method": "getFeedbackMessage",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "feedback_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update campaign feedback message",
+          "entity": "campaigns",
+          "method": "updateFeedbackMessage",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "feedback_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete campaign feedback message",
+          "entity": "campaigns",
+          "method": "deleteFeedbackMessage",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "feedback_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get campaign send checklist",
+          "entity": "campaigns",
+          "method": "getSendChecklist",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Chimp Chatter Activity": [
+      {
+          "name": "Get latest chimp chatter",
+          "entity": "activityFeed",
+          "method": "getChimpChatter",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      }
+  ],
+  "Connected Sites": [
+      {
+          "name": "List connected sites",
+          "entity": "connectedSites",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add connected site",
+          "entity": "connectedSites",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get connected site",
+          "entity": "connectedSites",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "connected_site_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete connected site",
+          "entity": "connectedSites",
+          "method": "remove",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "connected_site_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Verify connected site script",
+          "entity": "connectedSites",
+          "method": "verifyScriptInstallation",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "connected_site_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Conversations": [
+      {
+          "name": "List conversations",
+          "entity": "conversations",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Get conversation",
+          "entity": "conversations",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "conversation_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List messages",
+          "entity": "conversations",
+          "method": "getConversationMessages",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "conversation_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get message",
+          "entity": "conversations",
+          "method": "getConversationMessage",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "conversation_id",
+                  "value": ""
+              },
+              {
+                  "name": "message_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Customer Journeys": [
+      {
+          "name": "Customer Journeys API trigger for a contact",
+          "entity": "customerJourneys",
+          "method": "trigger",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "journey_id",
+                  "value": ""
+              },
+              {
+                  "name": "step_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "E-commerce Stores": [
+      {
+          "name": "List stores",
+          "entity": "ecommerce",
+          "method": "stores",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add store",
+          "entity": "ecommerce",
+          "method": "addStore",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get store info",
+          "entity": "ecommerce",
+          "method": "getStore",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update store",
+          "entity": "ecommerce",
+          "method": "updateStore",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete store",
+          "entity": "ecommerce",
+          "method": "deleteStore",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List cart line items",
+          "entity": "ecommerce",
+          "method": "getAllCartLineItems",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add cart line item",
+          "entity": "ecommerce",
+          "method": "addCartLineItem",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get cart line item",
+          "entity": "ecommerce",
+          "method": "getCartLineItem",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              },
+              {
+                  "name": "line_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update cart line item",
+          "entity": "ecommerce",
+          "method": "updateCartLineItem",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              },
+              {
+                  "name": "line_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete cart line item",
+          "entity": "ecommerce",
+          "method": "deleteOrderLineItem",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              },
+              {
+                  "name": "line_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List carts",
+          "entity": "ecommerce",
+          "method": "getStoreCarts",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add cart",
+          "entity": "ecommerce",
+          "method": "addStoreCart",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get cart info",
+          "entity": "ecommerce",
+          "method": "getStoreCart",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update cart",
+          "entity": "ecommerce",
+          "method": "updateStoreCart",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete cart",
+          "entity": "ecommerce",
+          "method": "deleteStoreCart",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "cart_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List customers",
+          "entity": "ecommerce",
+          "method": "getAllStoreCustomers",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add customer",
+          "entity": "ecommerce",
+          "method": "addStoreCustomer",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get customer info",
+          "entity": "ecommerce",
+          "method": "getStoreCustomer",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "customer_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add or update customer",
+          "entity": "ecommerce",
+          "method": "setStoreCustomer",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "customer_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update customer",
+          "entity": "ecommerce",
+          "method": "updateStoreCustomer",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "customer_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete customer",
+          "entity": "ecommerce",
+          "method": "deleteStoreCustomer",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "customer_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List order line items",
+          "entity": "ecommerce",
+          "method": "getAllOrderLineItems",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add order line item",
+          "entity": "ecommerce",
+          "method": "addOrderLineItem",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get order line item",
+          "entity": "ecommerce",
+          "method": "getOrderLineItem",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              },
+              {
+                  "name": "line_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update order line item",
+          "entity": "ecommerce",
+          "method": "updateOrderLineItem",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              },
+              {
+                  "name": "line_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete order line item",
+          "entity": "ecommerce",
+          "method": "deleteOrderLineItem",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              },
+              {
+                  "name": "line_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List account orders",
+          "entity": "ecommerce",
+          "method": "orders",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "List orders",
+          "entity": "ecommerce",
+          "method": "getStoreOrders",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add order",
+          "entity": "ecommerce",
+          "method": "addStoreOrder",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get order info",
+          "entity": "ecommerce",
+          "method": "getOrder",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update order",
+          "entity": "ecommerce",
+          "method": "updateOrder",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete order",
+          "entity": "ecommerce",
+          "method": "deleteOrder",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "order_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List product images",
+          "entity": "ecommerce",
+          "method": "getProductImages",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add product image",
+          "entity": "ecommerce",
+          "method": "addProductImage",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get product image info",
+          "entity": "ecommerce",
+          "method": "getProductImage",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "image_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update product image",
+          "entity": "ecommerce",
+          "method": "updateProductImage",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "image_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete product image",
+          "entity": "ecommerce",
+          "method": "deleteProductImage",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "image_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List product variants",
+          "entity": "ecommerce",
+          "method": "getProductVariants",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add product variant",
+          "entity": "ecommerce",
+          "method": "addProductVariants",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get product variant info",
+          "entity": "ecommerce",
+          "method": "getProductVariant",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "variant_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add or update product variant",
+          "entity": "ecommerce",
+          "method": "addProductVariant",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "variant_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update product variant",
+          "entity": "ecommerce",
+          "method": "updateProductVariant",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "variant_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete product variant",
+          "entity": "ecommerce",
+          "method": "deleteProductVariant",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              },
+              {
+                  "name": "variant_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List product",
+          "entity": "ecommerce",
+          "method": "getAllStoreProducts",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add product",
+          "entity": "ecommerce",
+          "method": "addStoreProduct",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get product info",
+          "entity": "ecommerce",
+          "method": "getStoreProduct",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update product",
+          "entity": "ecommerce",
+          "method": "updateStoreProduct",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete product",
+          "entity": "ecommerce",
+          "method": "deleteStoreProduct",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "product_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List promo codes",
+          "entity": "ecommerce",
+          "method": "getPromoCodes",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add promo code",
+          "entity": "ecommerce",
+          "method": "addPromoCode",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get promo code",
+          "entity": "ecommerce",
+          "method": "getPromoCode",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_code_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update promo code",
+          "entity": "ecommerce",
+          "method": "updatePromoCode",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_code_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete promo code",
+          "entity": "ecommerce",
+          "method": "deletePromoCode",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_code_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List promo rules",
+          "entity": "ecommerce",
+          "method": "listPromoRules",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add promo rule",
+          "entity": "ecommerce",
+          "method": "addPromoRules",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get promo rule",
+          "entity": "ecommerce",
+          "method": "getPromoRule",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update promo rule",
+          "entity": "ecommerce",
+          "method": "updatePromoRule",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete promo rule",
+          "entity": "ecommerce",
+          "method": "deletePromoRule",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "store_id",
+                  "value": ""
+              },
+              {
+                  "name": "promo_rule_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Facebook Ads": [
+      {
+          "name": "List facebook ads",
+          "entity": "facebookAds",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Get facebook ad info",
+          "entity": "facebookAds",
+          "method": "getAd",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "outreach_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "File Manager": [
+      {
+          "name": "List stored files",
+          "entity": "fileManager",
+          "method": "files",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add file",
+          "entity": "fileManager",
+          "method": "upload",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get file",
+          "entity": "fileManager",
+          "method": "getFile",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "file_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update file",
+          "entity": "fileManager",
+          "method": "updateFile",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "file_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete file",
+          "entity": "fileManager",
+          "method": "deleteFile",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "file_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List folders",
+          "entity": "fileManager",
+          "method": "listFolders",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add folder",
+          "entity": "fileManager",
+          "method": "createFolder",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get folder",
+          "entity": "fileManager",
+          "method": "getFolder",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update folder",
+          "entity": "fileManager",
+          "method": "updateFolder",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete folder",
+          "entity": "fileManager",
+          "method": "deleteFolder",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Landing Pages": [
+      {
+          "name": "List landing pages",
+          "entity": "landingPages",
+          "method": "getAll",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add landing page",
+          "entity": "landingPages",
+          "method": "create",
+          "queryParams": true,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get landing page info",
+          "entity": "landingPages",
+          "method": "getPage",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "page_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update landing page",
+          "entity": "landingPages",
+          "method": "updatePage",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "page_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete landing page",
+          "entity": "landingPages",
+          "method": "deletePage",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "page_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Publish landing page",
+          "entity": "landingPages",
+          "method": "publishPage",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "page_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Unpublish landing page",
+          "entity": "landingPages",
+          "method": "unpublishPage",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "page_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List stored files",
+          "entity": "landingPages",
+          "method": "getPageContent",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "page_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Lists/Audiences": [
+      {
+          "name": "Get lists info",
+          "entity": "lists",
+          "method": "getAllLists",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add list",
+          "entity": "lists",
+          "method": "createList",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get list info",
+          "entity": "lists",
+          "method": "getList",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update list",
+          "entity": "lists",
+          "method": "updateList",
+          "queryParams": true,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete list",
+          "entity": "lists",
+          "method": "deleteList",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Batch subscribe or unsubscribe",
+          "entity": "lists",
+          "method": "batchListMembers",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List abuse reports",
+          "entity": "lists",
+          "method": "getListAbuseReports",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get abuse report",
+          "entity": "lists",
+          "method": "getListAbuseReportDetails",
+          "queryParams": true,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "report_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List recent activity",
+          "entity": "lists",
+          "method": "getListRecentActivity",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List top email clients",
+          "entity": "lists",
+          "method": "getListClients",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List member events",
+          "entity": "lists",
+          "method": "getListMemberEvents",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add event",
+          "entity": "lists",
+          "method": "createListMemberEvent",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List growth history data",
+          "entity": "lists",
+          "method": "getListGrowthHistory",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get growth history by month",
+          "entity": "lists",
+          "method": "getListGrowthHistoryByMonth",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "month",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List interest categories",
+          "entity": "lists",
+          "method": "getListInterestCategories",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add interest category",
+          "entity": "lists",
+          "method": "createListInterestCategory",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get interest category info",
+          "entity": "lists",
+          "method": "getInterestCategory",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update interest category",
+          "entity": "lists",
+          "method": "updateInterestCategory",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete interest category",
+          "entity": "lists",
+          "method": "deleteInterestCategory",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List interests in category",
+          "entity": "lists",
+          "method": "listInterestCategoryInterests",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add interest in category",
+          "entity": "lists",
+          "method": "createInterestCategoryInterest",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get interest in category",
+          "entity": "lists",
+          "method": "getInterestCategoryInterest",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update interest in category",
+          "entity": "lists",
+          "method": "updateInterestCategoryInterest",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete interest in category",
+          "entity": "lists",
+          "method": "deleteInterestCategoryInterest",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_category_id",
+                  "value": ""
+              },
+              {
+                  "name": "interest_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List locations",
+          "entity": "lists",
+          "method": "getListLocations",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "View recent activity 50",
+          "entity": "lists",
+          "method": "getListMemberActivity",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "View recent activity",
+          "entity": "lists",
+          "method": "getListMemberActivityFeed",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List member goal events",
+          "entity": "lists",
+          "method": "getListMemberGoals",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List recent member notes",
+          "entity": "lists",
+          "method": "getListMemberNotes",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add member note",
+          "entity": "lists",
+          "method": "createListMemberNote",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get member note",
+          "entity": "lists",
+          "method": "getListMemberNote",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              },
+              {
+                  "name": "note_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update note",
+          "entity": "lists",
+          "method": "updateListMemberNote",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete note",
+          "entity": "lists",
+          "method": "deleteListMemberNote",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              },
+              {
+                  "name": "note_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List member tags",
+          "entity": "lists",
+          "method": "getListMemberTags",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add or remove member tags",
+          "entity": "lists",
+          "method": "updateListMemberTags",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List members info",
+          "entity": "lists",
+          "method": "getListMembersInfo",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add member to list",
+          "entity": "lists",
+          "method": "addListMember",
+          "queryParams": true,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get member info",
+          "entity": "lists",
+          "method": "getListMember",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add or update list member",
+          "entity": "lists",
+          "method": "updateListMember",
+          "queryParams": true,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update list member",
+          "entity": "lists",
+          "method": "setListMember",
+          "queryParams": true,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Archive list member",
+          "entity": "lists",
+          "method": "deleteListMember",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete list member",
+          "entity": "lists",
+          "method": "deleteListMemberPermanent",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List merge fields",
+          "entity": "lists",
+          "method": "getListMergeFields",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add merge field",
+          "entity": "lists",
+          "method": "addListMergeField",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get merge field",
+          "entity": "lists",
+          "method": "getListMergeField",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "merge_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update merge field",
+          "entity": "lists",
+          "method": "updateListMergeField",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "merge_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete merge field",
+          "entity": "lists",
+          "method": "deleteListMergeField",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "merge_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List members in segment",
+          "entity": "lists",
+          "method": "getSegmentMembersList",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add member to segment",
+          "entity": "lists",
+          "method": "createSegmentMember",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Remove list member from segment",
+          "entity": "lists",
+          "method": "removeSegmentMember",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List segments",
+          "entity": "lists",
+          "method": "listSegments",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add segment",
+          "entity": "lists",
+          "method": "createSegment",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get segment info",
+          "entity": "lists",
+          "method": "getSegment",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete segment",
+          "entity": "lists",
+          "method": "deleteSegment",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update segment",
+          "entity": "lists",
+          "method": "updateSegment",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Batch add or remove members",
+          "entity": "lists",
+          "method": "batchSegmentMembers",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "segment_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List signup forms",
+          "entity": "lists",
+          "method": "getListSignupForms",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Customize signup form",
+          "entity": "lists",
+          "method": "updateListSignupForm",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Search for tags on a list by name",
+          "entity": "lists",
+          "method": "tagSearch",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List webhooks",
+          "entity": "lists",
+          "method": "getListWebhooks",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Add webhook",
+          "entity": "lists",
+          "method": "createListWebhook",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get webhook info",
+          "entity": "lists",
+          "method": "getListWebhook",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "webhook_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete webhook",
+          "entity": "lists",
+          "method": "deleteListWebhook",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "webhook_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update webhook",
+          "entity": "lists",
+          "method": "updateListWebhook",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "list_id",
+                  "value": ""
+              },
+              {
+                  "name": "webhook_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Ping": [
+      {
+          "name": "Ping",
+          "entity": "ping",
+          "method": "get",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": []
+      }
+  ],
+  "Reporting": [
+      {
+          "name": "Facebook Ads",
+          "entity": "reporting",
+          "method": "getFacebookAdsReportAll",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Get facebook ad report",
+          "entity": "reporting",
+          "method": "getFacebookAdReport",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "outreach_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List facebook ecommerce report",
+          "entity": "reporting",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "outreach_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List landing pages reports",
+          "entity": "reporting",
+          "method": "getLandingPageReportsAll",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Get landing page report",
+          "entity": "reporting",
+          "method": "getLandingPageReport",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "outreach_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign reports",
+          "entity": "reports",
+          "method": "getAllCampaignReports",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Get campaign report",
+          "entity": "reports",
+          "method": "getCampaignReport",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List abuse reports",
+          "entity": "reports",
+          "method": "getCampaignAbuseReports",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get abuse report",
+          "entity": "reports",
+          "method": "getCampaignAbuseReport",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "report_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign feedback",
+          "entity": "reports",
+          "method": "getCampaignAdvice",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign open details",
+          "entity": "reports",
+          "method": "getCampaignOpenDetails",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get opened campaign subscriber",
+          "entity": "reports",
+          "method": "getSubscriberInfoForOpenedCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign details",
+          "entity": "reports",
+          "method": "getCampaignClickDetails",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get campaign link details",
+          "entity": "reports",
+          "method": "getCampaignClickDetailsForLink",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "link_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List clicked link subscribers",
+          "entity": "reports",
+          "method": "getSubscribersInfo",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "link_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get clicked link subscriber",
+          "entity": "reports",
+          "method": "getSubscriberInfo",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "link_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List domain performance stats",
+          "entity": "reports",
+          "method": "getDomainPerformanceForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign product activity",
+          "entity": "reports",
+          "method": "getEcommerceProductActivityForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List EepURL activity",
+          "entity": "reports",
+          "method": "getEepurlActivityForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List email activity",
+          "entity": "reports",
+          "method": "getEmailActivityForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get subscriber email activity",
+          "entity": "reports",
+          "method": "getEmailActivityForSubscriber",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List top open activities",
+          "entity": "reports",
+          "method": "getLocationsForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List campaign recipients",
+          "entity": "reports",
+          "method": "getCampaignRecipients",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get campaign recipient info",
+          "entity": "reports",
+          "method": "getCampaignRecipient",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List child campaign reports",
+          "entity": "reports",
+          "method": "getSubReportsForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "List unsubscribed members",
+          "entity": "reports",
+          "method": "getUnsubscribedListForCampaign",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Get unsubscribed member",
+          "entity": "reports",
+          "method": "getUnsubscribedListMember",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "campaign_id",
+                  "value": ""
+              },
+              {
+                  "name": "subscriber_hash",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Root": [
+      {
+          "name": "Root",
+          "entity": "root",
+          "method": "getRoot",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": []
+      }
+  ],
+  "Search Campaigns": [
+      {
+          "name": "Search campaigns",
+          "entity": "searchCampaigns",
+          "method": "search",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      }
+  ],
+  "Search Members": [
+      {
+          "name": "Search members",
+          "entity": "searchMembers",
+          "method": "search",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      }
+  ],
+  "Template Folders": [
+      {
+          "name": "List template folders",
+          "entity": "templateFolders",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add template folder",
+          "entity": "templateFolders",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get template folder",
+          "entity": "templateFolders",
+          "method": "get",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update template folder",
+          "entity": "templateFolders",
+          "method": "update",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete template folder",
+          "entity": "templateFolders",
+          "method": "remove",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "folder_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Templates": [
+      {
+          "name": "List templates",
+          "entity": "templates",
+          "method": "list",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add template",
+          "entity": "templates",
+          "method": "create",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get template info",
+          "entity": "templates",
+          "method": "getTemplate",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "template_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Update template",
+          "entity": "templates",
+          "method": "updateTemplate",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": [
+              {
+                  "name": "template_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete template",
+          "entity": "templates",
+          "method": "deleteTemplate",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "template_id",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "View default content",
+          "entity": "templates",
+          "method": "getDefaultContentForTemplate",
+          "queryParams": true,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "template_id",
+                  "value": ""
+              }
+          ]
+      }
+  ],
+  "Verified Domains": [
+      {
+          "name": "List sending domains",
+          "entity": "verifiedDomains",
+          "method": "getVerifiedDomainsAll",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": []
+      },
+      {
+          "name": "Add domain to account",
+          "entity": "verifiedDomains",
+          "method": "createVerifiedDomain",
+          "queryParams": false,
+          "bodyParams": true,
+          "pathParams": []
+      },
+      {
+          "name": "Get domain info",
+          "entity": "verifiedDomains",
+          "method": "getDomain",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "domain_name",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Delete domain",
+          "entity": "verifiedDomains",
+          "method": "deleteDomain",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "domain_name",
+                  "value": ""
+              }
+          ]
+      },
+      {
+          "name": "Verify domain",
+          "entity": "verifiedDomains",
+          "method": "submitDomainVerification",
+          "queryParams": false,
+          "bodyParams": false,
+          "pathParams": [
+              {
+                  "name": "domain_name",
+                  "value": ""
+              }
+          ]
+      }
+  ]
+}

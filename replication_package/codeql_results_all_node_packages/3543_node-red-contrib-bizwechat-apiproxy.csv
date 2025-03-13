@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: biz_config.port;bizwechat.js:69[39:53];Sink: `listen ... .port}`;bizwechat.js:69[18:55]::FLOW_DESCR_END","/bizwechat.js","69","39","69","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bizwechat.js:84[24:27];Sink: `revert ... yload}`;bizwechat.js:90[23:50]::FLOW_DESCR_END","/bizwechat.js","84","24","84","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bizwechat.js:106[30:33];Sink: data;bizwechat.js:121[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bizwechat.js:106[30:33];Sink: content;WeChat.js:229[54:60]::FLOW_DESCR_END","/bizwechat.js","106","30","106","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bizwechat.js:136[24:27];Sink: data;bizwechat.js:150[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bizwechat.js:136[24:27];Sink: content;WeChat.js:229[54:60]::FLOW_DESCR_END","/bizwechat.js","136","24","136","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bizwechat.js:168[30:33];Sink: data;bizwechat.js:197[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;bizwechat.js:168[30:33];Sink: sendData;WeChat.js:200[58:65]::FLOW_DESCR_END","/bizwechat.js","168","30","168","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bizwechat.js:215[30:33];Sink: data;bizwechat.js:225[21:24]::FLOW_DESCR_END","/bizwechat.js","215","30","215","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.err_msg;Baidu.js:50[49:60];Sink: err;bizwechat.js:54[23:25]::FLOW_DESCR_END","/lib/Baidu.js","50","49","50","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result;Baidu.js:53[17:27];Sink: `receiv ... sage)}`;bizwechat.js:38[25:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.result;Baidu.js:53[17:27];Sink: `asr result: ${asr}`;bizwechat.js:43[27:46]::FLOW_DESCR_END","/lib/Baidu.js","53","17","53","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.errmsg;WeChat.js:89[51:61];Sink: err;bizwechat.js:54[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.errmsg;WeChat.js:89[51:61];Sink: err;bizwechat.js:124[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.errmsg;WeChat.js:89[51:61];Sink: err;bizwechat.js:200[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.errmsg;WeChat.js:89[51:61];Sink: err;bizwechat.js:228[21:23]::FLOW_DESCR_END","/lib/WeChat.js","89","51","89","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.data.errmsg;WeChat.js:116[58:75];Sink: err;bizwechat.js:54[23:25]::FLOW_DESCR_END","/lib/WeChat.js","116","58","116","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.data.errmsg;WeChat.js:160[58:75];Sink: err;bizwechat.js:200[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.data.errmsg;WeChat.js:160[58:75];Sink: err;bizwechat.js:228[21:23]::FLOW_DESCR_END","/lib/WeChat.js","160","58","160","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.data.errmsg;WeChat.js:206[58:75];Sink: err;bizwechat.js:124[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result.data.errmsg;WeChat.js:206[58:75];Sink: err;bizwechat.js:200[21:23]::FLOW_DESCR_END","/lib/WeChat.js","206","58","206","75"

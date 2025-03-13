@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: key;daizy-events.js:23[42:44];Sink: `[daizy ... value}`;daizy-events.js:25[18:127]::FLOW_DESCR_END","/daizy-events.js","23","42","23","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;daizy-events.js:23[47:51];Sink: `[daizy ... value}`;daizy-events.js:25[18:127]::FLOW_DESCR_END","/daizy-events.js","23","47","23","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;daizy-events.js:73[43:45];Sink: err;daizy-events.js:74[42:44]::FLOW_DESCR_END","/daizy-events.js","73","43","73","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;daizy-events.js:83[46:50];Sink: `Receiv ... entId}`;daizy-events.js:85[16:122]::FLOW_DESCR_END","/daizy-events.js","83","46","83","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;daizy-events.js:83[53:59];Sink: `Receiv ... entId}`;daizy-events.js:85[16:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;daizy-events.js:83[53:59];Sink: `Checki ... entId}`;daizy-events.js:87[19:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;daizy-events.js:83[53:59];Sink: `eventI ... age...`;daizy-events.js:89[18:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;daizy-events.js:83[53:59];Sink: `eventI ... age...`;daizy-events.js:92[18:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;daizy-events.js:83[53:59];Sink: `${self ... entId}`;daizy-events.js:93[26:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;daizy-events.js:83[53:59];Sink: payload.messageId;daizy-events.js:93[59:75]::FLOW_DESCR_END","/daizy-events.js","83","53","83","59"

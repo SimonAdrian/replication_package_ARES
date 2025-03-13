@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrl-limit.js:47[32:34];Sink: msg;nrl-limit.js:87[19:21]::FLOW_DESCR_END","/core/nrl-limit.js","47","32","47","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrl-source.js:269[32:34];Sink: ""Messag ... d + "")"";nrl-source.js:202[30:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrl-source.js:269[32:34];Sink: msg;nrl-source.js:237[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrl-source.js:269[32:34];Sink: msg.payload;nrl-source.js:242[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrl-source.js:269[32:34];Sink: text;common.js:63[18:21]::FLOW_DESCR_END","/core/nrl-source.js","269","32","269","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrl-gate.js:162[35:37];Sink: [msg,null];nrl-gate.js:164[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrl-gate.js:162[35:37];Sink: [null,msg];nrl-gate.js:166[27:36]::FLOW_DESCR_END","/util/nrl-gate.js","162","35","162","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nrl-route.js:12[32:34];Sink: [msg, null];nrl-route.js:14[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nrl-route.js:12[32:34];Sink: [null, msg];nrl-route.js:16[19:29]::FLOW_DESCR_END","/util/nrl-route.js","12","32","12","34"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;microsoft-create-task.js:10[32:34];Sink: ""StartD ... ateTime;microsoft-create-task.js:52[21:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;microsoft-create-task.js:10[32:34];Sink: msg;microsoft-create-task.js:77[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;microsoft-create-task.js:10[32:34];Sink: msg;microsoft-create-task.js:80[23:25]::FLOW_DESCR_END","/microsoft-create-task.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;microsoftAuth.js:29[35:37];Sink: msg;microsoftAuth.js:31[23:25]::FLOW_DESCR_END","/microsoftAuth.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... deAuth);microsoftAuth.js:115[27:63];Sink: credentials;microsoftAuth.js:152[51:61]::FLOW_DESCR_END","/microsoftAuth.js","115","27","115","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;microsoftAuth.js:166[35:37];Sink: msg;microsoftAuth.js:168[23:25]::FLOW_DESCR_END","/microsoftAuth.js","166","35","166","37"

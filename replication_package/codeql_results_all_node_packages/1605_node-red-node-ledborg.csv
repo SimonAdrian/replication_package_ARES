@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;78-ledborg.js:48[32:34];Sink: ""out: ""+msg.payload;78-ledborg.js:90[50:68]::FLOW_DESCR_END","/78-ledborg.js","48","32","48","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;78-ledborg.js:108[52:55];Sink: ""out: ""+data+"" :"";78-ledborg.js:109[54:70]::FLOW_DESCR_END","/78-ledborg.js","108","52","108","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;78-ledborg.js:112[52:55];Sink: ""err: ""+data+"" :"";78-ledborg.js:113[54:70]::FLOW_DESCR_END","/78-ledborg.js","112","52","112","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;78-ledborg.js:124[46:48];Sink: 'error: ' + err;78-ledborg.js:127[33:47]::FLOW_DESCR_END","/78-ledborg.js","124","46","124","48"

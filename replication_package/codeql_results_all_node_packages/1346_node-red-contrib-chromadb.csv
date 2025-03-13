@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chroma-client.js:109[32:34];Sink: msg;chroma-client.js:119[21:23]::FLOW_DESCR_END","/chroma-client.js","109","32","109","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chroma-collection.js:138[32:34];Sink: msg;chroma-collection.js:148[21:23]::FLOW_DESCR_END","/chroma-collection.js","138","32","138","34"

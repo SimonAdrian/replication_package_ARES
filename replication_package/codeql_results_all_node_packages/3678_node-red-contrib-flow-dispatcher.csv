@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Communicator.js:126[33:35];Sink: msg;Communicator.js:68[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;Communicator.js:126[33:35];Sink: info;Communicator.js:202[25:28]::FLOW_DESCR_END","/Communicator-nodes/Communicator.js","126","33","126","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;Communicator.js:157[52:72];Sink: post_body;Communicator.js:142[23:31]::FLOW_DESCR_END","/Communicator-nodes/Communicator.js","157","52","157","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;Communicator.js:158[56:80];Sink: post_body;Communicator.js:142[23:31]::FLOW_DESCR_END","/Communicator-nodes/Communicator.js","158","56","158","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ws;Communicator.js:510[44:45];Sink: ws.upgr ... Address;Communicator.js:511[45:82]::FLOW_DESCR_END","/Communicator-nodes/Communicator.js","510","44","510","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Communicator.js:521[42:42];Sink: 'websoc ... : ' + e;Communicator.js:522[33:55]::FLOW_DESCR_END","/Communicator-nodes/Communicator.js","521","42","521","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Dispatcher.js:138[33:35];Sink: msg;Dispatcher.js:48[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;Dispatcher.js:138[33:35];Sink: post_body;Dispatcher.js:154[23:31]::FLOW_DESCR_END","/Dispatcher-nodes/Dispatcher.js","138","33","138","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;Dispatcher.js:169[52:72];Sink: post_body;Dispatcher.js:154[23:31]::FLOW_DESCR_END","/Dispatcher-nodes/Dispatcher.js","169","52","169","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;Dispatcher.js:170[56:80];Sink: post_body;Dispatcher.js:154[23:31]::FLOW_DESCR_END","/Dispatcher-nodes/Dispatcher.js","170","56","170","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Dispatcher.js:548[29:31];Sink: post_body;Dispatcher.js:154[23:31]::FLOW_DESCR_END","/Dispatcher-nodes/Dispatcher.js","548","29","548","31"

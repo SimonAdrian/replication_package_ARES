@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-exp.js:117[32:34];Sink: msg;v1-exp.js:36[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-exp.js:117[32:34];Sink: node.workspaceid;v1-exp.js:47[39:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-exp.js:117[32:34];Sink: node.workspaceid;v1-exp.js:52[39:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-exp.js:117[32:34];Sink: msg;v1-exp.js:55[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-exp.js:117[32:34];Sink: msg;v1-exp.js:67[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-exp.js:117[32:34];Sink: msg;v1-exp.js:97[15:17]::FLOW_DESCR_END","/services/conversation/v1-exp.js","117","32","117","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1-workspace-manager.js:626[32:34];Sink: msg.payload;v1-workspace-manager.js:530[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-workspace-manager.js:626[32:34];Sink: msg;v1-workspace-manager.js:666[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1-workspace-manager.js:626[32:34];Sink: msg;payload-utils.js:106[28:30]::FLOW_DESCR_END","/services/conversation/v1-workspace-manager.js","626","32","626","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: msg;v1.js:46[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: msg;v1.js:68[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: 'contex ... sg.user;v1.js:80[52:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: msg;v1.js:84[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: 'contex ... sg.user;v1.js:116[35:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: msg;v1.js:154[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: msg;v1.js:200[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: 'contex ... sg.user;v1.js:212[33:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:244[32:34];Sink: msg;v1.js:221[15:17]::FLOW_DESCR_END","/services/conversation/v1.js","244","32","244","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: msg;v2.js:46[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: msg;v2.js:68[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: 'contex ... sg.user;v2.js:78[52:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: msg;v2.js:82[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: 'contex ... sg.user;v2.js:114[35:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: msg;v2.js:153[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: msg;v2.js:189[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: 'contex ... sg.user;v2.js:201[33:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v2.js:233[31:33];Sink: msg;v2.js:210[15:17]::FLOW_DESCR_END","/services/conversation/v2.js","233","31","233","33"

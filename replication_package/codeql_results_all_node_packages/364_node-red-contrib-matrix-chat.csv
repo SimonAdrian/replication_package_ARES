@@ -1,0 +1,234 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-create-room.js:38[36:38];Sink: msg;matrix-create-room.js:45[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-create-room.js:38[36:38];Sink: [null, msg];matrix-create-room.js:46[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-create-room.js:38[36:38];Sink: [msg, null];matrix-create-room.js:62[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-create-room.js:38[36:38];Sink: [null, msg];matrix-create-room.js:66[31:41]::FLOW_DESCR_END","/src/matrix-create-room.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: msg;matrix-crypt-file.js:15[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: msg;matrix-crypt-file.js:20[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: msg;matrix-crypt-file.js:25[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: msg;matrix-crypt-file.js:30[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: error;matrix-crypt-file.js:48[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: [null, msg];matrix-crypt-file.js:50[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-crypt-file.js:11[42:44];Sink: [msg, null];matrix-crypt-file.js:55[23:33]::FLOW_DESCR_END","/src/matrix-crypt-file.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-delete-event.js:28[35:37];Sink: msg;matrix-delete-event.js:31[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-delete-event.js:28[35:37];Sink: [null, msg];matrix-delete-event.js:32[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-delete-event.js:28[35:37];Sink: msg;matrix-delete-event.js:42[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-delete-event.js:28[35:37];Sink: [null, msg];matrix-delete-event.js:43[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-delete-event.js:28[35:37];Sink: [msg, null];matrix-delete-event.js:65[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-delete-event.js:28[35:37];Sink: [null, msg];matrix-delete-event.js:71[27:37]::FLOW_DESCR_END","/src/matrix-delete-event.js","28","35","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: msg;matrix-get-user.js:60[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: msg;matrix-get-user.js:74[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [null, msg];matrix-get-user.js:75[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: msg;matrix-get-user.js:81[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [null, msg];matrix-get-user.js:82[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: msg;matrix-get-user.js:89[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [null, msg];matrix-get-user.js:90[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: msg;matrix-get-user.js:99[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [null, msg];matrix-get-user.js:100[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [msg, null];matrix-get-user.js:125[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: msg;matrix-get-user.js:130[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [null, msg];matrix-get-user.js:131[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-get-user.js:30[42:44];Sink: [msg, null];matrix-get-user.js:137[23:33]::FLOW_DESCR_END","/src/matrix-get-user.js","30","42","30","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-invite-room.js:39[36:38];Sink: msg;matrix-invite-room.js:41[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-invite-room.js:39[36:38];Sink: msg;matrix-invite-room.js:46[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-invite-room.js:39[36:38];Sink: [null, msg];matrix-invite-room.js:47[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-invite-room.js:39[36:38];Sink: msg;matrix-invite-room.js:53[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-invite-room.js:39[36:38];Sink: [msg, null];matrix-invite-room.js:62[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-invite-room.js:39[36:38];Sink: [null, msg];matrix-invite-room.js:66[31:41]::FLOW_DESCR_END","/src/matrix-invite-room.js","39","36","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: msg;matrix-join-room.js:28[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: msg;matrix-join-room.js:33[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: [null, msg];matrix-join-room.js:34[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: msg;matrix-join-room.js:39[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: [msg, null];matrix-join-room.js:48[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: ""Error  ... "":"" + e;matrix-join-room.js:51[32:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: msg;matrix-join-room.js:51[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-join-room.js:26[36:38];Sink: [null, msg];matrix-join-room.js:53[31:41]::FLOW_DESCR_END","/src/matrix-join-room.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: msg;matrix-leave-room.js:29[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: msg;matrix-leave-room.js:34[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: msg;matrix-leave-room.js:39[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: [null, msg];matrix-leave-room.js:40[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: ""Leavin ... g.topic;matrix-leave-room.js:45[26:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: [msg, null];matrix-leave-room.js:48[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: ""Failed ... : "" + e;matrix-leave-room.js:50[28:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: msg;matrix-leave-room.js:50[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-leave-room.js:27[35:37];Sink: [null, msg];matrix-leave-room.js:52[27:37]::FLOW_DESCR_END","/src/matrix-leave-room.js","27","35","27","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-mark-read.js:31[42:44];Sink: msg;matrix-mark-read.js:33[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-mark-read.js:31[42:44];Sink: [msg, null];matrix-mark-read.js:60[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-mark-read.js:31[42:44];Sink: msg;matrix-mark-read.js:63[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-mark-read.js:31[42:44];Sink: [null, msg];matrix-mark-read.js:64[27:37]::FLOW_DESCR_END","/src/matrix-mark-read.js","31","42","31","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-paginate-room.js:36[42:44];Sink: msg;matrix-paginate-room.js:38[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-paginate-room.js:36[42:44];Sink: msg;matrix-paginate-room.js:70[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-paginate-room.js:36[42:44];Sink: [msg, null];matrix-paginate-room.js:142[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-paginate-room.js:36[42:44];Sink: msg;matrix-paginate-room.js:145[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-paginate-room.js:36[42:44];Sink: [null, msg];matrix-paginate-room.js:146[27:37]::FLOW_DESCR_END","/src/matrix-paginate-room.js","36","42","36","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: msg;matrix-react.js:30[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: msg;matrix-react.js:35[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: [null, msg];matrix-react.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: msg;matrix-react.js:42[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: msg;matrix-react.js:48[99:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: msg;matrix-react.js:54[113:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: [msg, null];matrix-react.js:73[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-react.js:28[36:38];Sink: [null, msg];matrix-react.js:77[31:41]::FLOW_DESCR_END","/src/matrix-react.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: room;matrix-receive.js:39[63:66];Sink: `Ignori ...  event`;matrix-receive.js:46[26:155]::FLOW_DESCR_END","/src/matrix-receive.js","39","63","39","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-receive.js:39[103:105];Sink: `Ignori ...  event`;matrix-receive.js:46[26:155]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-receive.js:39[103:105];Sink: msg;matrix-receive.js:132[23:25]::FLOW_DESCR_END","/src/matrix-receive.js","39","103","39","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: msg;matrix-room-ban.js:30[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: msg;matrix-room-ban.js:35[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: [null, msg];matrix-room-ban.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: msg;matrix-room-ban.js:42[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: msg;matrix-room-ban.js:47[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: ""Succes ... g.topic;matrix-room-ban.js:53[30:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: [msg, null];matrix-room-ban.js:55[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: ""Error  ... g.topic;matrix-room-ban.js:58[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: msg;matrix-room-ban.js:58[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-ban.js:28[36:38];Sink: [null, msg];matrix-room-ban.js:60[31:41]::FLOW_DESCR_END","/src/matrix-room-ban.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-room-invite.js:27[54:56];Sink: msg;matrix-room-invite.js:28[23:25]::FLOW_DESCR_END","/src/matrix-room-invite.js","27","54","27","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: msg;matrix-room-kick.js:30[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: msg;matrix-room-kick.js:35[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: [null, msg];matrix-room-kick.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: msg;matrix-room-kick.js:42[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: msg;matrix-room-kick.js:47[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: ""Succes ... g.topic;matrix-room-kick.js:53[30:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: [msg, null];matrix-room-kick.js:55[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: ""Error  ... g.topic;matrix-room-kick.js:58[32:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: msg;matrix-room-kick.js:58[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-kick.js:28[36:38];Sink: [null, msg];matrix-room-kick.js:60[31:41]::FLOW_DESCR_END","/src/matrix-room-kick.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: msg;matrix-room-state-events.js:31[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: [null, msg];matrix-room-state-events.js:32[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: msg;matrix-room-state-events.js:38[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: [null, msg];matrix-room-state-events.js:39[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: msg;matrix-room-state-events.js:46[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: [null, msg];matrix-room-state-events.js:47[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: msg;matrix-room-state-events.js:55[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: msg;matrix-room-state-events.js:105[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-state-events.js:28[42:44];Sink: [msg, null];matrix-room-state-events.js:285[23:33]::FLOW_DESCR_END","/src/matrix-room-state-events.js","28","42","28","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-room-users.js:28[36:38];Sink: msg;matrix-room-users.js:35[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-users.js:28[36:38];Sink: [null, msg];matrix-room-users.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-users.js:28[36:38];Sink: msg;matrix-room-users.js:42[113:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-users.js:28[36:38];Sink: [msg, null];matrix-room-users.js:63[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-room-users.js:28[36:38];Sink: [null, msg];matrix-room-users.js:67[31:41]::FLOW_DESCR_END","/src/matrix-room-users.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: msg;matrix-send-file.js:35[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: [null, msg];matrix-send-file.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: msg.topic;matrix-send-file.js:47[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: msg.content;matrix-send-file.js:47[65:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: [msg, null];matrix-send-file.js:51[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: [null, msg];matrix-send-file.js:56[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: msg;matrix-send-file.js:62[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: ""Upload ... ilename;matrix-send-file.js:67[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: msg.topic;matrix-send-file.js:82[38:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: [msg, null];matrix-send-file.js:86[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: [null, msg];matrix-send-file.js:91[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-file.js:28[36:38];Sink: [null, msg];matrix-send-file.js:96[31:41]::FLOW_DESCR_END","/src/matrix-send-file.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: msg;matrix-send-image.js:35[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: [null, msg];matrix-send-image.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: msg.topic;matrix-send-image.js:47[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: msg.content;matrix-send-image.js:47[65:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: [msg, null];matrix-send-image.js:51[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: [null, msg];matrix-send-image.js:56[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: msg;matrix-send-image.js:62[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: ""Upload ... ilename;matrix-send-image.js:67[22:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: [msg, null];matrix-send-image.js:89[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: [null, msg];matrix-send-image.js:94[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-image.js:28[36:38];Sink: [null, msg];matrix-send-image.js:100[31:41]::FLOW_DESCR_END","/src/matrix-send-image.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: msg;matrix-send-message.js:100[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: [null, msg];matrix-send-message.js:101[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: msg;matrix-send-message.js:113[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: msg;matrix-send-message.js:123[109:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: msg;matrix-send-message.js:131[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: msg.topic;matrix-send-message.js:186[50:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: content;matrix-send-message.js:186[61:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: ""Messag ... payload;matrix-send-message.js:188[30:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: [msg, null];matrix-send-message.js:191[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-send-message.js:71[36:38];Sink: [null, msg];matrix-send-message.js:196[31:41]::FLOW_DESCR_END","/src/matrix-send-message.js","71","36","71","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .userId;matrix-server-config.js:52[23:45];Sink: 'matrix ... Id+'""]';matrix-server-config.js:140[51:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... .userId;matrix-server-config.js:52[23:45];Sink: 'matrix ... Id+'""]';matrix-server-config.js:165[43:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... .userId;matrix-server-config.js:52[23:45];Sink: 'matrix ... Id+'""]';matrix-server-config.js:183[51:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... .userId;matrix-server-config.js:52[23:45];Sink: `User I ... _id']}`;matrix-server-config.js:441[44:119]::FLOW_DESCR_END","/src/matrix-server-config.js","52","23","52","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;matrix-server-config.js:195[69:73];Sink: event;matrix-server-config.js:255[44:48]::FLOW_DESCR_END","/src/matrix-server-config.js","195","69","195","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: room;matrix-server-config.js:195[76:79];Sink: ""Ignori ... result"";matrix-server-config.js:197[30:235]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: room;matrix-server-config.js:195[76:79];Sink: ""Ignori ... essage"";matrix-server-config.js:201[30:230]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: room;matrix-server-config.js:195[76:79];Sink: ""Ignori ... e init"";matrix-server-config.js:205[30:242]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: room;matrix-server-config.js:195[76:79];Sink: `Receiv ...  : ''}`;matrix-server-config.js:254[26:203]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: room;matrix-server-config.js:195[76:79];Sink: room;matrix-server-config.js:255[51:54]::FLOW_DESCR_END","/src/matrix-server-config.js","195","76","195","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: removed;matrix-server-config.js:195[101:107];Sink: removed;matrix-server-config.js:255[76:82]::FLOW_DESCR_END","/src/matrix-server-config.js","195","101","195","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;matrix-server-config.js:195[110:113];Sink: data;matrix-server-config.js:255[85:88]::FLOW_DESCR_END","/src/matrix-server-config.js","195","110","195","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: member;matrix-server-config.js:286[84:89];Sink: ""Got in ... .roomId;matrix-server-config.js:292[30:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;matrix-server-config.js:286[84:89];Sink: ""Automa ... .roomId;matrix-server-config.js:295[38:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member;matrix-server-config.js:286[84:89];Sink: ""Cannot ... : "" + e;matrix-server-config.js:297[39:120]::FLOW_DESCR_END","/src/matrix-server-config.js","286","84","286","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;matrix-server-config.js:313[67:71];Sink: ""SYNC [ ... e + ""]"";matrix-server-config.js:314[28:85]::FLOW_DESCR_END","/src/matrix-server-config.js","313","67","313","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: prevState;matrix-server-config.js:313[74:82];Sink: ""SYNC [ ... e + ""]"";matrix-server-config.js:314[28:85]::FLOW_DESCR_END","/src/matrix-server-config.js","313","74","313","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorObj;matrix-server-config.js:382[80:87];Sink: ""Authen ... rrorObj;matrix-server-config.js:394[28:64]::FLOW_DESCR_END","/src/matrix-server-config.js","382","80","382","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... s(n.id);matrix-server-config.js:526[38:67];Sink: ""found  ... "" + dir;matrix-server-config.js:530[34:106]::FLOW_DESCR_END","/src/matrix-server-config.js","526","38","526","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-synapse-create-edit-user.js:38[36:38];Sink: msg;matrix-synapse-create-edit-user.js:45[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-create-edit-user.js:38[36:38];Sink: [null, msg];matrix-synapse-create-edit-user.js:46[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-create-edit-user.js:38[36:38];Sink: msg;matrix-synapse-create-edit-user.js:51[99:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-create-edit-user.js:38[36:38];Sink: [msg, null];matrix-synapse-create-edit-user.js:67[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-create-edit-user.js:38[36:38];Sink: [null, msg];matrix-synapse-create-edit-user.js:71[31:41]::FLOW_DESCR_END","/src/matrix-synapse-create-edit-user.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-synapse-deactivate-user.js:38[36:38];Sink: msg;matrix-synapse-deactivate-user.js:45[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-deactivate-user.js:38[36:38];Sink: [null, msg];matrix-synapse-deactivate-user.js:46[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-deactivate-user.js:38[36:38];Sink: msg;matrix-synapse-deactivate-user.js:51[99:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-deactivate-user.js:38[36:38];Sink: [msg, null];matrix-synapse-deactivate-user.js:68[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-deactivate-user.js:38[36:38];Sink: [null, msg];matrix-synapse-deactivate-user.js:72[31:41]::FLOW_DESCR_END","/src/matrix-synapse-deactivate-user.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-synapse-join-room.js:37[36:38];Sink: msg;matrix-synapse-join-room.js:44[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-join-room.js:37[36:38];Sink: [null, msg];matrix-synapse-join-room.js:45[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-join-room.js:37[36:38];Sink: msg;matrix-synapse-join-room.js:51[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-join-room.js:37[36:38];Sink: msg;matrix-synapse-join-room.js:56[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-join-room.js:37[36:38];Sink: [msg, null];matrix-synapse-join-room.js:73[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-join-room.js:37[36:38];Sink: [null, msg];matrix-synapse-join-room.js:77[31:41]::FLOW_DESCR_END","/src/matrix-synapse-join-room.js","37","36","37","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-synapse-register.js:24[42:44];Sink: msg;matrix-synapse-register.js:28[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-register.js:24[42:44];Sink: msg;matrix-synapse-register.js:33[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-register.js:24[42:44];Sink: [null, msg];matrix-synapse-register.js:47[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-register.js:24[42:44];Sink: msg;matrix-synapse-register.js:53[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-register.js:24[42:44];Sink: [null, msg];matrix-synapse-register.js:90[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-register.js:24[42:44];Sink: msg;matrix-synapse-register.js:96[27:29]::FLOW_DESCR_END","/src/matrix-synapse-register.js","24","42","24","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-synapse-users.js:27[36:38];Sink: msg;matrix-synapse-users.js:34[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-users.js:27[36:38];Sink: [null, msg];matrix-synapse-users.js:35[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-users.js:27[36:38];Sink: [msg, null];matrix-synapse-users.js:61[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-synapse-users.js:27[36:38];Sink: [null, msg];matrix-synapse-users.js:65[31:41]::FLOW_DESCR_END","/src/matrix-synapse-users.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: msg;matrix-typing.js:35[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: [null, msg];matrix-typing.js:36[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: msg;matrix-typing.js:41[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: [null, msg];matrix-typing.js:42[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: msg;matrix-typing.js:70[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: [msg, null];matrix-typing.js:75[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: ""Failed ... : "" + e;matrix-typing.js:77[28:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: msg;matrix-typing.js:77[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-typing.js:33[41:43];Sink: [null, msg];matrix-typing.js:79[27:37]::FLOW_DESCR_END","/src/matrix-typing.js","33","41","33","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:52[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:68[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:105[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: [null, msg];matrix-upload-file.js:107[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:113[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: [null, msg];matrix-upload-file.js:115[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:124[100:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: [null, msg];matrix-upload-file.js:126[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:133[164:166]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:138[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:150[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:162[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: [null, msg];matrix-upload-file.js:164[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:189[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:199[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:212[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:240[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:319[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:333[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:351[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:358[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:364[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:366[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-upload-file.js:97[32:34];Sink: msg;matrix-upload-file.js:367[33:35]::FLOW_DESCR_END","/src/matrix-upload-file.js","97","32","97","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;matrix-upload-file.js:276[52:54];Sink: ""Screen ... : "" + e;matrix-upload-file.js:358[40:74]::FLOW_DESCR_END","/src/matrix-upload-file.js","276","52","276","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: msg;matrix-user-settings.js:31[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: [null, msg];matrix-user-settings.js:32[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: msg;matrix-user-settings.js:38[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: [null, msg];matrix-user-settings.js:39[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: msg;matrix-user-settings.js:46[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: [null, msg];matrix-user-settings.js:47[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: msg;matrix-user-settings.js:55[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: msg;matrix-user-settings.js:105[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-user-settings.js:28[42:44];Sink: [msg, null];matrix-user-settings.js:176[23:33]::FLOW_DESCR_END","/src/matrix-user-settings.js","28","42","28","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrix-whois-user.js:39[36:38];Sink: msg;matrix-whois-user.js:46[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-whois-user.js:39[36:38];Sink: [null, msg];matrix-whois-user.js:47[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-whois-user.js:39[36:38];Sink: msg;matrix-whois-user.js:52[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-whois-user.js:39[36:38];Sink: [msg, null];matrix-whois-user.js:69[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;matrix-whois-user.js:39[36:38];Sink: [null, msg];matrix-whois-user.js:73[31:41]::FLOW_DESCR_END","/src/matrix-whois-user.js","39","36","39","38"

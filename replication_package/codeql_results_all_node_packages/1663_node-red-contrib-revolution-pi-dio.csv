@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;revpi-read.js:8[28:30];Sink: msg;revpi-read.js:10[12:14]::FLOW_DESCR_END","/revpi-read.js","8","28","8","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;revpi-write.js:9[28:30];Sink: msg;revpi-write.js:13[12:14]::FLOW_DESCR_END","/revpi-write.js","9","28","9","30"

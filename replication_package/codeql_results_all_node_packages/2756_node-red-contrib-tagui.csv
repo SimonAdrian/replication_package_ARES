@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: [, , msg];tagui.js:50[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: script;tagui.js:112[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: msg;tagui.js:179[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: [, , msg];tagui.js:184[40:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: [, msg];tagui.js:201[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: [, msg];tagui.js:224[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tagui.js:45[23:25];Sink: msg;tagui.js:263[35:37]::FLOW_DESCR_END","/dist/tagui.js","45","23","45","25"

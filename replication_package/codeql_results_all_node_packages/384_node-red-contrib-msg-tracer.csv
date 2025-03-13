@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: flowMan ... ig.host;msg-tracer.js:60[36:57];Sink: host;logstash.js:21[46:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flowMan ... ig.host;msg-tracer.js:60[36:57];Sink: host;logstash.js:23[60:63]::FLOW_DESCR_END","/msg-tracer.js","60","36","60","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: flowMan ... ig.port;msg-tracer.js:60[60:81];Sink: port;logstash.js:21[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: flowMan ... ig.port;msg-tracer.js:60[60:81];Sink: port;logstash.js:23[66:69]::FLOW_DESCR_END","/msg-tracer.js","60","60","60","81"

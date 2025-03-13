@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;orvibos20.js:18[32:37];Sink: device.type;orvibos20.js:19[41:51]::FLOW_DESCR_END","/orvibos20.js","18","32","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;orvibos20.js:28[31:36];Sink: device.macAddress;orvibos20.js:29[47:63]::FLOW_DESCR_END","/orvibos20.js","28","31","28","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;orvibos20.js:39[41:46];Sink: ""new st ... + state;orvibos20.js:40[13:53]::FLOW_DESCR_END","/orvibos20.js","39","41","39","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;orvibos20.js:39[49:53];Sink: ""new st ... + state;orvibos20.js:40[13:53]::FLOW_DESCR_END","/orvibos20.js","39","49","39","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orvibos20.js:47[29:31];Sink: ""messag ... payload;orvibos20.js:48[13:46]::FLOW_DESCR_END","/orvibos20.js","47","29","47","31"

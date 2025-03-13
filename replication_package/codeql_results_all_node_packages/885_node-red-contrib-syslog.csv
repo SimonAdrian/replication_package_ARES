@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start.js:17[28:31];Sink: data.toString();start.js:18[15:29]::FLOW_DESCR_END","/project/start.js","17","28","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start.js:21[28:31];Sink: data.toString();start.js:22[15:29]::FLOW_DESCR_END","/project/start.js","21","28","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;start.js:25[22:25];Sink: `child  ... {code}`;start.js:26[15:54]::FLOW_DESCR_END","/project/start.js","25","22","25","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;syslog.js:26[35:37];Sink: msg;syslog.js:42[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;syslog.js:26[35:37];Sink: msg;syslog.js:75[23:25]::FLOW_DESCR_END","/syslog/syslog.js","26","35","26","37"

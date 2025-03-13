@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;nuimo-config.js:22[27:32];Sink: device;nuimo-config.js:23[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;nuimo-config.js:22[27:32];Sink: device.batteryLevel;nuimo-config.js:32[33:51]::FLOW_DESCR_END","/config/nuimo-config.js","22","27","22","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: level;nuimo-config.js:38[42:46];Sink: level;nuimo-config.js:39[43:47]::FLOW_DESCR_END","/config/nuimo-config.js","38","42","38","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: direction;nuimo-config.js:89[27:35];Sink: direction;nuimo-config.js:90[28:36]::FLOW_DESCR_END","/config/nuimo-config.js","89","27","89","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: distance;nuimo-config.js:92[32:39];Sink: distance;nuimo-config.js:93[33:40]::FLOW_DESCR_END","/config/nuimo-config.js","92","32","92","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: amount;nuimo-config.js:96[30:35];Sink: amount;nuimo-config.js:97[31:36]::FLOW_DESCR_END","/config/nuimo-config.js","96","30","96","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;nuimo-config.js:123[32:37];Sink: devices;nuimo-config.js:133[16:22]::FLOW_DESCR_END","/config/nuimo-config.js","123","32","123","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nuimo-interface.js:41[31:33];Sink: value;nuimo-interface.js:24[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuimo-interface.js:41[31:33];Sink: msg;nuimo-interface.js:50[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuimo-interface.js:41[31:33];Sink: apps;nuimo-interface.js:54[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuimo-interface.js:41[31:33];Sink: apps;nuimo-interface.js:172[33:36]::FLOW_DESCR_END","/interface/nuimo-interface.js","41","31","41","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nuimo-set-matrix.js:98[31:33];Sink: msg;nuimo-set-matrix.js:121[17:19]::FLOW_DESCR_END","/matrix/nuimo-set-matrix.js","98","31","98","33"

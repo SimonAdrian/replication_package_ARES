@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: `${proj ... ${err}`;pjlink.js:40[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: msg;pjlink.js:40[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: ""connec ...  reset"";pjlink.js:43[27:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: msg;pjlink.js:94[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: msg;pjlink.js:95[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:158[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:168[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:178[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:188[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:198[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:208[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:218[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:228[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:238[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:248[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pjlink.js:90[35:37];Sink: [msg, null];pjlink.js:258[35:45]::FLOW_DESCR_END","/pjlink/pjlink.js","90","35","90","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;pjlink.js:101[31:38];Sink: `${proj ... ${err}`;pjlink.js:40[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;pjlink.js:101[31:38];Sink: ""connec ...  reset"";pjlink.js:43[27:76]::FLOW_DESCR_END","/pjlink/pjlink.js","101","31","101","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;pjlink.js:101[48:55];Sink: `${proj ... ${err}`;pjlink.js:40[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;pjlink.js:101[48:55];Sink: ""connec ...  reset"";pjlink.js:43[27:76]::FLOW_DESCR_END","/pjlink/pjlink.js","101","48","101","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;pjlink.js:115[28:36];Sink: `${proj ... ${err}`;pjlink.js:40[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;pjlink.js:115[28:36];Sink: ""connec ...  reset"";pjlink.js:43[27:76]::FLOW_DESCR_END","/pjlink/pjlink.js","115","28","115","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;pjlink.js:117[31:38];Sink: `${proj ... ${err}`;pjlink.js:40[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;pjlink.js:117[31:38];Sink: ""connec ...  reset"";pjlink.js:43[27:76]::FLOW_DESCR_END","/pjlink/pjlink.js","117","31","117","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;pjlink.js:117[48:55];Sink: `${proj ... ${err}`;pjlink.js:40[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;pjlink.js:117[48:55];Sink: ""connec ...  reset"";pjlink.js:43[27:76]::FLOW_DESCR_END","/pjlink/pjlink.js","117","48","117","55"

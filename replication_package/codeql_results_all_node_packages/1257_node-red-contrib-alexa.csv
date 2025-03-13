@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa.js:283[34:36];Sink: msg;alexa.js:290[23:25]::FLOW_DESCR_END","/alexa.js","283","34","283","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa.js:299[34:36];Sink: msg;alexa.js:306[23:25]::FLOW_DESCR_END","/alexa.js","299","34","299","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa.js:314[34:36];Sink: msg;alexa.js:320[23:25]::FLOW_DESCR_END","/alexa.js","314","34","314","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa.js:328[34:36];Sink: len;alexa.js:340[56:58]::FLOW_DESCR_END","/alexa.js","328","34","328","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.da ... st.type;alexa-app.js:142[14:35];Sink: requestType;alexa-app.js:234[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.da ... st.type;alexa-app.js:142[14:35];Sink: requestType;alexa-app.js:244[40:50]::FLOW_DESCR_END","/vendor/alexa-app.js","142","14","142","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data.request;alexa-app.js:142[14:30];Sink: requestType;alexa-app.js:234[40:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.data.request;alexa-app.js:142[14:30];Sink: requestType;alexa-app.js:244[40:50]::FLOW_DESCR_END","/vendor/alexa-app.js","142","14","142","30"

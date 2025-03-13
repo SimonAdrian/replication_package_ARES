@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: msg;red-iot-central.js:148[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: ""Type:"" + msg.type;red-iot-central.js:149[26:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: msg.payload;red-iot-central.js:152[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: external_msg;red-iot-central.js:258[27:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: ""Proper ... ToSend);red-iot-central.js:265[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: `Sent d ... ccess`);red-iot-central.js:271[37:160]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: external_msg;red-iot-central.js:273[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: msg;red-iot-central.js:297[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: msg;red-iot-central.js:302[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;red-iot-central.js:48[35:37];Sink: msg;red-iot-central.js:382[43:45]::FLOW_DESCR_END","/red-iot-central.js","48","35","48","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.deviceId;red-iot-central.js:119[52:66];Sink: 'Device ... eviceId;red-iot-central.js:119[38:66]::FLOW_DESCR_END","/red-iot-central.js","119","52","119","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: desiredChange;red-iot-central.js:362[54:66];Sink: `Receiv ... ting]}`;red-iot-central.js:368[30:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: desiredChange;red-iot-central.js:362[54:66];Sink: `Patch: ... tch)}.`;red-iot-central.js:400[30:63]::FLOW_DESCR_END","/red-iot-central.js","362","54","362","66"

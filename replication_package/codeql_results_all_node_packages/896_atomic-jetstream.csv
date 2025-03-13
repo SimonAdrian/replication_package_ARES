@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;jetstream-consumer.js:171[54:54];Sink: m.seq;jetstream-consumer.js:221[17:21]::FLOW_DESCR_END","/jetstream-consumer.js","171","54","171","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jetstream-publish.js:95[27:29];Sink: subject;jetstream-publish.js:116[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jetstream-publish.js:95[27:29];Sink: msg.payload;jetstream-publish.js:116[36:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jetstream-publish.js:95[27:29];Sink: msg;jetstream-publish.js:121[19:21]::FLOW_DESCR_END","/jetstream-publish.js","95","27","95","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;jetstream-server.js:20[15:20];Sink: 'Discon ... de.port;jetstream-server.js:37[13:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;jetstream-server.js:20[15:20];Sink: 'Reconn ... de.port;jetstream-server.js:42[13:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;jetstream-server.js:20[15:20];Sink: 'Connec ... de.port;jetstream-server.js:46[13:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;jetstream-server.js:20[15:20];Sink: 'Connec ... de.port;jetstream-server.js:85[13:78]::FLOW_DESCR_END","/jetstream-server.js","20","15","20","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;jetstream-server.js:37[64:72];Sink: 'Discon ... de.port;jetstream-server.js:37[13:72]::FLOW_DESCR_END","/jetstream-server.js","37","64","37","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;jetstream-server.js:42[62:70];Sink: 'Reconn ... de.port;jetstream-server.js:42[13:70]::FLOW_DESCR_END","/jetstream-server.js","42","62","42","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;jetstream-server.js:46[69:77];Sink: 'Connec ... de.port;jetstream-server.js:46[13:77]::FLOW_DESCR_END","/jetstream-server.js","46","69","46","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;jetstream-server.js:85[70:78];Sink: 'Connec ... de.port;jetstream-server.js:85[13:78]::FLOW_DESCR_END","/jetstream-server.js","85","70","85","78"

@@ -1,0 +1,142 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;v1.js:99[36:39];Sink: '[busin ... eString;v1.js:126[18:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;v1.js:99[36:39];Sink: '[busin ... eString;v1.js:133[17:69]::FLOW_DESCR_END","/businessrules/v1.js","99","36","99","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;v1.js:131[36:36];Sink: e.message;v1.js:132[37:45]::FLOW_DESCR_END","/businessrules/v1.js","131","36","131","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;v1.js:241[29:32];Sink: '[busin ... eString;v1.js:253[18:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;v1.js:241[29:32];Sink: 'An une ... eString;v1.js:254[17:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;v1.js:241[29:32];Sink: dataString;v1.js:262[13:22]::FLOW_DESCR_END","/businessrules/v1.js","241","29","241","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;v1.js:258[28:28];Sink: e.message;v1.js:259[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;v1.js:258[28:28];Sink: e.message;v1.js:260[15:23]::FLOW_DESCR_END","/businessrules/v1.js","258","28","258","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v1.js:274[30:32];Sink: msg;v1.js:197[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:274[30:32];Sink: msg;v1.js:202[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:274[30:32];Sink: msg;v1.js:209[104:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:274[30:32];Sink: msg;v1.js:248[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;v1.js:274[30:32];Sink: dataString;v1.js:262[13:22]::FLOW_DESCR_END","/businessrules/v1.js","274","30","274","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:27[21:26];Sink: ""connec ... de.port;31-tcpin-cf.js:43[26:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:27[21:26];Sink: node.host;31-tcpin-cf.js:46[49:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:27[21:26];Sink: ""connec ... de.port;31-tcpin-cf.js:48[30:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:27[21:26];Sink: ""connec ... de.port;31-tcpin-cf.js:90[30:74]::FLOW_DESCR_END","/io/31-tcpin-cf.js","27","21","27","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;31-tcpin-cf.js:43[43:51];Sink: ""connec ... de.port;31-tcpin-cf.js:43[26:65]::FLOW_DESCR_END","/io/31-tcpin-cf.js","43","43","43","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:43[57:65];Sink: ""connec ... de.port;31-tcpin-cf.js:43[26:65]::FLOW_DESCR_END","/io/31-tcpin-cf.js","43","57","43","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;31-tcpin-cf.js:48[46:54];Sink: ""connec ... de.port;31-tcpin-cf.js:48[30:68]::FLOW_DESCR_END","/io/31-tcpin-cf.js","48","46","48","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:48[60:68];Sink: ""connec ... de.port;31-tcpin-cf.js:48[30:68]::FLOW_DESCR_END","/io/31-tcpin-cf.js","48","60","48","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;31-tcpin-cf.js:90[52:60];Sink: ""connec ... de.port;31-tcpin-cf.js:90[30:74]::FLOW_DESCR_END","/io/31-tcpin-cf.js","90","52","90","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:90[66:74];Sink: ""connec ... de.port;31-tcpin-cf.js:90[30:74]::FLOW_DESCR_END","/io/31-tcpin-cf.js","90","66","90","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;31-tcpin-cf.js:96[45:47];Sink: err;31-tcpin-cf.js:97[30:32]::FLOW_DESCR_END","/io/31-tcpin-cf.js","96","45","96","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:151[60:68];Sink: 'timeou ... de.port;31-tcpin-cf.js:151[30:68]::FLOW_DESCR_END","/io/31-tcpin-cf.js","151","60","151","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;31-tcpin-cf.js:157[44:46];Sink: err;31-tcpin-cf.js:158[30:32]::FLOW_DESCR_END","/io/31-tcpin-cf.js","157","44","157","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;31-tcpin-cf.js:161[41:43];Sink: 'unable ... : '+err;31-tcpin-cf.js:163[32:78]::FLOW_DESCR_END","/io/31-tcpin-cf.js","161","41","161","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:163[60:68];Sink: 'unable ... : '+err;31-tcpin-cf.js:163[32:78]::FLOW_DESCR_END","/io/31-tcpin-cf.js","163","60","163","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:168[60:68];Sink: 'unable ... : '+err;31-tcpin-cf.js:168[32:78]::FLOW_DESCR_END","/io/31-tcpin-cf.js","168","60","168","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:170[51:59];Sink: 'listen ... de.port;31-tcpin-cf.js:170[30:59]::FLOW_DESCR_END","/io/31-tcpin-cf.js","170","51","170","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:175[63:71];Sink: 'stoppe ... de.port;31-tcpin-cf.js:175[34:71]::FLOW_DESCR_END","/io/31-tcpin-cf.js","175","63","175","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:185[21:26];Sink: ""connec ... de.port;31-tcpin-cf.js:199[26:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:185[21:26];Sink: node.host;31-tcpin-cf.js:201[49:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:185[21:26];Sink: ""connec ... de.port;31-tcpin-cf.js:203[30:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;31-tcpin-cf.js:185[21:26];Sink: ""connec ... de.port;31-tcpin-cf.js:212[30:74]::FLOW_DESCR_END","/io/31-tcpin-cf.js","185","21","185","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;31-tcpin-cf.js:199[43:51];Sink: ""connec ... de.port;31-tcpin-cf.js:199[26:65]::FLOW_DESCR_END","/io/31-tcpin-cf.js","199","43","199","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:199[57:65];Sink: ""connec ... de.port;31-tcpin-cf.js:199[26:65]::FLOW_DESCR_END","/io/31-tcpin-cf.js","199","57","199","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;31-tcpin-cf.js:203[46:54];Sink: ""connec ... de.port;31-tcpin-cf.js:203[30:68]::FLOW_DESCR_END","/io/31-tcpin-cf.js","203","46","203","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:203[60:68];Sink: ""connec ... de.port;31-tcpin-cf.js:203[30:68]::FLOW_DESCR_END","/io/31-tcpin-cf.js","203","60","203","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;31-tcpin-cf.js:206[46:48];Sink: 'error : '+err;31-tcpin-cf.js:207[30:43]::FLOW_DESCR_END","/io/31-tcpin-cf.js","206","46","206","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;31-tcpin-cf.js:212[52:60];Sink: ""connec ... de.port;31-tcpin-cf.js:212[30:74]::FLOW_DESCR_END","/io/31-tcpin-cf.js","212","52","212","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:212[66:74];Sink: ""connec ... de.port;31-tcpin-cf.js:212[30:74]::FLOW_DESCR_END","/io/31-tcpin-cf.js","212","66","212","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:223[39:41];Sink: msg.payload;31-tcpin-cf.js:226[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:223[39:41];Sink: new Buf ... ase64');31-tcpin-cf.js:228[38:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:223[39:41];Sink: new Buf ... ayload);31-tcpin-cf.js:230[38:63]::FLOW_DESCR_END","/io/31-tcpin-cf.js","223","39","223","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:242[38:40];Sink: msg.payload;31-tcpin-cf.js:247[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:242[38:40];Sink: new Buf ... ase64');31-tcpin-cf.js:249[42:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:242[38:40];Sink: new Buf ... ayload);31-tcpin-cf.js:251[42:67]::FLOW_DESCR_END","/io/31-tcpin-cf.js","242","38","242","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:264[60:68];Sink: 'timeou ... de.port;31-tcpin-cf.js:264[30:68]::FLOW_DESCR_END","/io/31-tcpin-cf.js","264","60","264","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:276[39:41];Sink: buffer;31-tcpin-cf.js:287[51:56]::FLOW_DESCR_END","/io/31-tcpin-cf.js","276","39","276","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;31-tcpin-cf.js:292[41:43];Sink: 'unable ... : '+err;31-tcpin-cf.js:294[32:78]::FLOW_DESCR_END","/io/31-tcpin-cf.js","292","41","292","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:294[60:68];Sink: 'unable ... : '+err;31-tcpin-cf.js:294[32:78]::FLOW_DESCR_END","/io/31-tcpin-cf.js","294","60","294","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:300[60:68];Sink: 'unable ... : '+err;31-tcpin-cf.js:300[32:78]::FLOW_DESCR_END","/io/31-tcpin-cf.js","300","60","300","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:302[51:59];Sink: 'listen ... de.port;31-tcpin-cf.js:302[30:59]::FLOW_DESCR_END","/io/31-tcpin-cf.js","302","51","302","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:305[63:71];Sink: 'stoppe ... de.port;31-tcpin-cf.js:305[34:71]::FLOW_DESCR_END","/io/31-tcpin-cf.js","305","63","305","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: port;31-tcpin-cf.js:343[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: host;31-tcpin-cf.js:343[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg.payload;31-tcpin-cf.js:347[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg;31-tcpin-cf.js:357[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg;31-tcpin-cf.js:361[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg;31-tcpin-cf.js:376[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg;31-tcpin-cf.js:390[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg;31-tcpin-cf.js:402[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg;31-tcpin-cf.js:428[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: port;31-tcpin-cf.js:437[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: host;31-tcpin-cf.js:437[46:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-tcpin-cf.js:331[35:37];Sink: msg.payload;31-tcpin-cf.js:444[33:43]::FLOW_DESCR_END","/io/31-tcpin-cf.js","331","35","331","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;31-tcpin-cf.js:339[43:50];Sink: host;31-tcpin-cf.js:343[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;31-tcpin-cf.js:339[43:50];Sink: host;31-tcpin-cf.js:437[46:49]::FLOW_DESCR_END","/io/31-tcpin-cf.js","339","43","339","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:340[28:36];Sink: port;31-tcpin-cf.js:343[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;31-tcpin-cf.js:340[28:36];Sink: port;31-tcpin-cf.js:437[40:43]::FLOW_DESCR_END","/io/31-tcpin-cf.js","340","28","340","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;31-tcpin-cf.js:340[41:48];Sink: port;31-tcpin-cf.js:343[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;31-tcpin-cf.js:340[41:48];Sink: port;31-tcpin-cf.js:437[40:43]::FLOW_DESCR_END","/io/31-tcpin-cf.js","340","41","340","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;31-tcpin-cf.js:354[44:47];Sink: msg.payload;31-tcpin-cf.js:347[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;31-tcpin-cf.js:354[44:47];Sink: msg.payload;31-tcpin-cf.js:444[33:43]::FLOW_DESCR_END","/io/31-tcpin-cf.js","354","44","354","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;32-udp-cf.js:25[21:26];Sink: 'udp mu ... de.port;32-udp-cf.js:43[34:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;32-udp-cf.js:25[21:26];Sink: 'udp br ... de.port;32-udp-cf.js:54[30:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;32-udp-cf.js:25[21:26];Sink: 'udp re ... de.port;32-udp-cf.js:59[22:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;32-udp-cf.js:25[21:26];Sink: 'udp re ... de.port;32-udp-cf.js:61[22:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;32-udp-cf.js:25[21:26];Sink: por;32-udp-cf.js:83[59:61]::FLOW_DESCR_END","/io/32-udp-cf.js","25","21","25","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;32-udp-cf.js:36[54:62];Sink: 'udp mu ... de.port;32-udp-cf.js:43[34:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;32-udp-cf.js:36[54:62];Sink: 'udp br ... de.port;32-udp-cf.js:54[30:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;32-udp-cf.js:36[54:62];Sink: 'udp re ... de.port;32-udp-cf.js:59[22:79]::FLOW_DESCR_END","/io/32-udp-cf.js","36","54","36","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;32-udp-cf.js:43[93:101];Sink: 'udp mu ... de.port;32-udp-cf.js:43[34:101]::FLOW_DESCR_END","/io/32-udp-cf.js","43","93","43","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;32-udp-cf.js:54[89:97];Sink: 'udp br ... de.port;32-udp-cf.js:54[30:97]::FLOW_DESCR_END","/io/32-udp-cf.js","54","89","54","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;32-udp-cf.js:59[71:79];Sink: 'udp re ... de.port;32-udp-cf.js:59[22:79]::FLOW_DESCR_END","/io/32-udp-cf.js","59","71","59","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;32-udp-cf.js:61[51:59];Sink: 'udp re ... de.port;32-udp-cf.js:61[22:59]::FLOW_DESCR_END","/io/32-udp-cf.js","61","51","61","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;32-udp-cf.js:64[35:37];Sink: message;32-udp-cf.js:83[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;32-udp-cf.js:64[35:37];Sink: message.length;32-udp-cf.js:83[43:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;32-udp-cf.js:64[35:37];Sink: por;32-udp-cf.js:83[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;32-udp-cf.js:64[35:37];Sink: add;32-udp-cf.js:83[64:66]::FLOW_DESCR_END","/io/32-udp-cf.js","64","35","64","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;32-udp-cf.js:67[27:35];Sink: por;32-udp-cf.js:83[59:61]::FLOW_DESCR_END","/io/32-udp-cf.js","67","27","67","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;32-udp-cf.js:67[40:47];Sink: por;32-udp-cf.js:83[59:61]::FLOW_DESCR_END","/io/32-udp-cf.js","67","40","67","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);66-mongodb-cf.js:72[27:65];Sink: JSON.st ... !="""")});66-mongodb-cf.js:74[22:121]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","72","27","72","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);66-mongodb-cf.js:87[27:65];Sink: credentials;66-mongodb-cf.js:98[48:58]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","87","27","87","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mongoCo ... als.url;66-mongodb-cf.js:173[28:54];Sink: url;66-mongodb-cf.js:112[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mongoCo ... als.url;66-mongodb-cf.js:173[28:54];Sink: this.url;66-mongodb-cf.js:179[32:39]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","173","28","173","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mongoCo ... als.uri;66-mongodb-cf.js:173[59:85];Sink: url;66-mongodb-cf.js:112[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mongoCo ... als.uri;66-mongodb-cf.js:173[59:85];Sink: this.url;66-mongodb-cf.js:179[32:39]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","173","59","173","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mongoCo ... son_url;66-mongodb-cf.js:173[90:121];Sink: url;66-mongodb-cf.js:112[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mongoCo ... son_url;66-mongodb-cf.js:173[90:121];Sink: this.url;66-mongodb-cf.js:179[32:39]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","173","90","173","121"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;66-mongodb-cf.js:184[43:45];Sink: msg.payload;66-mongodb-cf.js:200[39:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb-cf.js:184[43:45];Sink: msg;66-mongodb-cf.js:206[39:41]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","184","43","184","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mongoCo ... als.url;66-mongodb-cf.js:283[28:54];Sink: url;66-mongodb-cf.js:112[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mongoCo ... als.url;66-mongodb-cf.js:283[28:54];Sink: this.url;66-mongodb-cf.js:289[32:39]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","283","28","283","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mongoCo ... als.uri;66-mongodb-cf.js:283[59:85];Sink: url;66-mongodb-cf.js:112[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mongoCo ... als.uri;66-mongodb-cf.js:283[59:85];Sink: this.url;66-mongodb-cf.js:289[32:39]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","283","59","283","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mongoCo ... son_url;66-mongodb-cf.js:283[90:121];Sink: url;66-mongodb-cf.js:112[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mongoCo ... son_url;66-mongodb-cf.js:283[90:121];Sink: this.url;66-mongodb-cf.js:289[32:39]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","283","90","283","121"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;66-mongodb-cf.js:294[43:45];Sink: msg;66-mongodb-cf.js:314[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb-cf.js:294[43:45];Sink: msg;66-mongodb-cf.js:324[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;66-mongodb-cf.js:294[43:45];Sink: msg;66-mongodb-cf.js:334[43:45]::FLOW_DESCR_END","/mongo/66-mongodb-cf.js","294","43","294","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cred.co ... okupURI;mqlight.js:54[26:49];Sink: 'Connec ... ' + err;mqlight.js:61[32:120]::FLOW_DESCR_END","/mqlight/mqlight.js","54","26","54","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqlight.js:77[53:55];Sink: err.toString();mqlight.js:79[40:53]::FLOW_DESCR_END","/mqlight/mqlight.js","77","53","77","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqlight.js:83[54:56];Sink: ""Failed ... "" + err;mqlight.js:85[40:68]::FLOW_DESCR_END","/mqlight/mqlight.js","83","54","83","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cred.co ... okupURI;mqlight.js:120[26:49];Sink: 'Connec ... ' + err;mqlight.js:127[32:120]::FLOW_DESCR_END","/mqlight/mqlight.js","120","26","120","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqlight.js:129[47:49];Sink: topic;mqlight.js:139[41:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqlight.js:129[47:49];Sink: msg.payload;mqlight.js:139[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqlight.js:129[47:49];Sink: msg;mqlight.js:141[49:51]::FLOW_DESCR_END","/mqlight/mqlight.js","129","47","129","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqlight.js:148[45:47];Sink: err.toString();mqlight.js:150[32:45]::FLOW_DESCR_END","/mqlight/mqlight.js","148","45","148","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service ... als.url;spssscoring.js:30[15:37];Sink: u;spssscoring.js:48[21:21]::FLOW_DESCR_END","/spss/spssscoring.js","30","15","30","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service ... ess_key;spssscoring.js:31[16:45];Sink: u;spssscoring.js:48[21:21]::FLOW_DESCR_END","/spss/spssscoring.js","31","16","31","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ery.id);spssscoring.js:43[20:57];Sink: u;spssscoring.js:48[21:21]::FLOW_DESCR_END","/spss/spssscoring.js","43","20","43","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg;spssscoring.js:76[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg;spssscoring.js:86[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg;spssscoring.js:88[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg;spssscoring.js:90[114:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg;spssscoring.js:92[139:141]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: m;spssscoring.js:97[36:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg.payload;spssscoring.js:97[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spssscoring.js:72[35:37];Sink: msg;spssscoring.js:100[35:37]::FLOW_DESCR_END","/spss/spssscoring.js","72","35","72","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;spssscoring.js:83[164:171];Sink: 'Predic ... tusCode;spssscoring.js:92[32:136]::FLOW_DESCR_END","/spss/spssscoring.js","83","164","83","171"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;spssscoring.js:83[174:177];Sink: m;spssscoring.js:97[36:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;spssscoring.js:83[174:177];Sink: msg.payload;spssscoring.js:97[38:48]::FLOW_DESCR_END","/spss/spssscoring.js","83","174","83","177"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);56-twilio-cf.js:57[27:65];Sink: credentials;56-twilio-cf.js:63[48:58]::FLOW_DESCR_END","/twilio/56-twilio-cf.js","57","27","57","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:50[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:65[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:76[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:78[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:80[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:82[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather_insights.js:42[35:37];Sink: msg;weather_insights.js:88[31:33]::FLOW_DESCR_END","/weather/weather_insights.js","42","35","42","37"

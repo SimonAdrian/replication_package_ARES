@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CS5517H.js:16[35:37];Sink: buffer;CS5517H.js:73[41:46]::FLOW_DESCR_END","/CS5517H.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;network.js:10[21:31];Sink: network.port;network.js:22[32:43]::FLOW_DESCR_END","/network.js","10","21","10","31"

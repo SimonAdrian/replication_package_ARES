@@ -1,0 +1,66 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:116[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:118[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:129[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:133[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:133[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:137[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:137[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:85[36:38];Sink: msg;node-stemhat.js:142[33:35]::FLOW_DESCR_END","/node-stemhat.js","85","36","85","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:196[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:198[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:209[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:213[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:213[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:217[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:217[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:165[36:38];Sink: msg;node-stemhat.js:222[33:35]::FLOW_DESCR_END","/node-stemhat.js","165","36","165","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:276[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:278[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:289[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:293[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:293[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:297[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:297[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:245[36:38];Sink: msg;node-stemhat.js:302[33:35]::FLOW_DESCR_END","/node-stemhat.js","245","36","245","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:323[35:37];Sink: msg;node-stemhat.js:344[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:323[35:37];Sink: msg;node-stemhat.js:358[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:323[35:37];Sink: msg;node-stemhat.js:365[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:323[35:37];Sink: msg;node-stemhat.js:379[35:37]::FLOW_DESCR_END","/node-stemhat.js","323","35","323","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:402[35:37];Sink: msg;node-stemhat.js:423[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:402[35:37];Sink: msg;node-stemhat.js:437[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:402[35:37];Sink: msg;node-stemhat.js:444[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:402[35:37];Sink: msg;node-stemhat.js:458[35:37]::FLOW_DESCR_END","/node-stemhat.js","402","35","402","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:481[35:37];Sink: msg;node-stemhat.js:502[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:481[35:37];Sink: msg;node-stemhat.js:516[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:481[35:37];Sink: msg;node-stemhat.js:523[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-stemhat.js:481[35:37];Sink: msg;node-stemhat.js:537[35:37]::FLOW_DESCR_END","/node-stemhat.js","481","35","481","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:566[32:34];Sink: msg;node-stemhat.js:580[81:83]::FLOW_DESCR_END","/node-stemhat.js","566","32","566","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:600[56:59];Sink: ""out: "" ...  + "" :"";node-stemhat.js:601[58:78]::FLOW_DESCR_END","/node-stemhat.js","600","56","600","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:604[56:59];Sink: ""err: "" ...  + "" :"";node-stemhat.js:605[58:78]::FLOW_DESCR_END","/node-stemhat.js","604","56","604","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:619[50:52];Sink: RED._("" ... rr.path;node-stemhat.js:620[61:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:619[50:52];Sink: err;node-stemhat.js:620[115:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:619[50:52];Sink: RED._("" ... rr.path;node-stemhat.js:621[66:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:619[50:52];Sink: err;node-stemhat.js:621[125:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:619[50:52];Sink: err;node-stemhat.js:622[93:95]::FLOW_DESCR_END","/node-stemhat.js","619","50","619","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:625[56:58];Sink: err;node-stemhat.js:627[90:92]::FLOW_DESCR_END","/node-stemhat.js","625","56","625","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-stemhat.js:675[32:34];Sink: msg;node-stemhat.js:689[81:83]::FLOW_DESCR_END","/node-stemhat.js","675","32","675","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:709[56:59];Sink: ""out: "" ...  + "" :"";node-stemhat.js:710[58:78]::FLOW_DESCR_END","/node-stemhat.js","709","56","709","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:713[56:59];Sink: ""err: "" ...  + "" :"";node-stemhat.js:714[58:78]::FLOW_DESCR_END","/node-stemhat.js","713","56","713","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:728[50:52];Sink: RED._("" ... rr.path;node-stemhat.js:729[61:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:728[50:52];Sink: err;node-stemhat.js:729[115:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:728[50:52];Sink: RED._("" ... rr.path;node-stemhat.js:730[66:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:728[50:52];Sink: err;node-stemhat.js:730[125:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:728[50:52];Sink: err;node-stemhat.js:731[93:95]::FLOW_DESCR_END","/node-stemhat.js","728","50","728","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:734[56:58];Sink: err;node-stemhat.js:736[90:92]::FLOW_DESCR_END","/node-stemhat.js","734","56","734","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:790[52:55];Sink: ""out: "" ...  + "" :"";node-stemhat.js:799[58:78]::FLOW_DESCR_END","/node-stemhat.js","790","52","790","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:803[52:55];Sink: ""err: "" ...  + "" :"";node-stemhat.js:804[54:74]::FLOW_DESCR_END","/node-stemhat.js","803","52","803","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:822[46:48];Sink: RED._("" ... rr.path;node-stemhat.js:823[57:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:822[46:48];Sink: err;node-stemhat.js:823[111:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:822[46:48];Sink: RED._("" ... rr.path;node-stemhat.js:824[62:118]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:822[46:48];Sink: err;node-stemhat.js:824[121:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-stemhat.js:822[46:48];Sink: err;node-stemhat.js:825[89:91]::FLOW_DESCR_END","/node-stemhat.js","822","46","822","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:828[52:54];Sink: err;node-stemhat.js:830[86:88]::FLOW_DESCR_END","/node-stemhat.js","828","52","828","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:884[56:59];Sink: ""out: "" ...  + "" :"";node-stemhat.js:885[58:78]::FLOW_DESCR_END","/node-stemhat.js","884","56","884","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-stemhat.js:892[56:59];Sink: ""err: "" ...  + "" :"";node-stemhat.js:893[58:78]::FLOW_DESCR_END","/node-stemhat.js","892","56","892","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;node-stemhat.js:896[50:53];Sink: ""ret: "" ...  + "" :"";node-stemhat.js:897[58:78]::FLOW_DESCR_END","/node-stemhat.js","896","50","896","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-stemhat.js:902[50:52];Sink: 'error: ' + err;node-stemhat.js:905[37:51]::FLOW_DESCR_END","/node-stemhat.js","902","50","902","52"

@@ -1,0 +1,51 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;command.js:10[21:35];Sink: `Reques ... seUrl}`;command.js:65[20:40]::FLOW_DESCR_END","/nodes/command.js","10","21","10","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;command.js:30[29:31];Sink: `Reques ... seUrl}`;command.js:65[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:30[29:31];Sink: output;command.js:77[16:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:30[29:31];Sink: output;command.js:83[14:19]::FLOW_DESCR_END","/nodes/command.js","30","29","30","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;command.js:33[56:67];Sink: `Reques ... seUrl}`;command.js:65[20:40]::FLOW_DESCR_END","/nodes/command.js","33","56","33","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;command.js:33[71:83];Sink: `Reques ... seUrl}`;command.js:65[20:40]::FLOW_DESCR_END","/nodes/command.js","33","71","33","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event.deviceId;config.js:19[15:28];Sink: `\\nThe  ... Object`;config.js:18[19:78]::FLOW_DESCR_END","/nodes/config.js","19","15","19","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event.deviceId;config.js:261[42:55];Sink: `device ... iceId}`;config.js:261[32:57]::FLOW_DESCR_END","/nodes/config.js","261","42","261","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: `\\nThe  ... Object`;config.js:18[19:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: `Untrac ... vent)}`;config.js:242[20:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: event;config.js:258[39:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: `device ... iceId}`;config.js:261[32:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: event;config.js:261[60:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: event;config.js:263[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: event;config.js:266[41:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;config.js:331[31:34];Sink: event;config.js:271[44:48]::FLOW_DESCR_END","/nodes/config.js","331","31","331","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;config.js:341[29:31];Sink: `Websoc ... (err)}`;config.js:342[22:62]::FLOW_DESCR_END","/nodes/config.js","341","29","341","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;config.js:428[36:49];Sink: `GET ${url}`;config.js:431[17:28]::FLOW_DESCR_END","/nodes/config.js","428","36","428","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;config.js:428[54:67];Sink: `GET ${url}`;config.js:431[17:28]::FLOW_DESCR_END","/nodes/config.js","428","54","428","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;config.js:459[36:49];Sink: `GET ${url}`;config.js:462[17:28]::FLOW_DESCR_END","/nodes/config.js","459","36","459","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;config.js:459[54:67];Sink: `GET ${url}`;config.js:462[17:28]::FLOW_DESCR_END","/nodes/config.js","459","54","459","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.params.deviceId;config.js:461[37:55];Sink: `GET ${url}`;config.js:462[17:28]::FLOW_DESCR_END","/nodes/config.js","461","37","461","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;config.js:484[36:49];Sink: `GET ${url}`;config.js:487[17:28]::FLOW_DESCR_END","/nodes/config.js","484","36","484","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;config.js:484[54:67];Sink: `GET ${url}`;config.js:487[17:28]::FLOW_DESCR_END","/nodes/config.js","484","54","484","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.params.deviceId;config.js:486[37:55];Sink: `GET ${url}`;config.js:487[17:28]::FLOW_DESCR_END","/nodes/config.js","486","37","486","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.host;config.js:510[36:48];Sink: `GET ${url}`;config.js:518[17:28]::FLOW_DESCR_END","/nodes/config.js","510","36","510","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.port;config.js:510[53:65];Sink: `GET ${url}`;config.js:518[17:28]::FLOW_DESCR_END","/nodes/config.js","510","53","510","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.host;config.js:544[36:49];Sink: `GET ${url}`;config.js:547[17:28]::FLOW_DESCR_END","/nodes/config.js","544","36","544","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.port;config.js:544[54:67];Sink: `GET ${url}`;config.js:547[17:28]::FLOW_DESCR_END","/nodes/config.js","544","54","544","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;device.js:77[34:38];Sink: `Event  ... vent)}`;device.js:78[18:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;device.js:77[34:38];Sink: `${even ... value}`;device.js:97[22:56]::FLOW_DESCR_END","/nodes/device.js","77","34","77","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device.js:144[29:31];Sink: msg;device.js:174[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device.js:144[29:31];Sink: msg;device.js:190[12:14]::FLOW_DESCR_END","/nodes/device.js","144","29","144","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;event.js:16[29:33];Sink: `Event  ... vent)}`;event.js:17[18:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;event.js:16[29:33];Sink: `Event: ... .name}`;event.js:18[18:39]::FLOW_DESCR_END","/nodes/event.js","16","29","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hsm-setter.js:57[29:31];Sink: output;hsm-setter.js:91[14:19]::FLOW_DESCR_END","/nodes/hsm-setter.js","57","29","57","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;hsm.js:60[34:38];Sink: `Initia ... ntHsm}`;hsm.js:51[18:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;hsm.js:60[34:38];Sink: `Event  ... vent)}`;hsm.js:61[18:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;hsm.js:60[34:38];Sink: `HSM: $ ... ntHsm}`;hsm.js:72[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;hsm.js:60[34:38];Sink: `Fix de ... tHsm}""`;hsm.js:100[18:83]::FLOW_DESCR_END","/nodes/hsm.js","60","34","60","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hsm.js:123[29:31];Sink: output;hsm.js:138[12:17]::FLOW_DESCR_END","/nodes/hsm.js","123","29","123","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;location.js:17[29:33];Sink: `Event  ... vent)}`;location.js:18[18:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;location.js:17[29:33];Sink: `Locati ... .name}`;location.js:19[18:48]::FLOW_DESCR_END","/nodes/location.js","17","29","17","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mode-setter.js:33[29:31];Sink: `Reques ... seUrl}`;mode-setter.js:64[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mode-setter.js:33[29:31];Sink: output;mode-setter.js:74[14:19]::FLOW_DESCR_END","/nodes/mode-setter.js","33","29","33","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;mode.js:58[34:38];Sink: `Initia ... tMode}`;mode.js:49[18:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;mode.js:58[34:38];Sink: `Event  ... vent)}`;mode.js:59[18:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;mode.js:58[34:38];Sink: `Mode:  ... tMode}`;mode.js:61[18:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;mode.js:58[34:38];Sink: `Fix de ... Mode}""`;mode.js:87[18:85]::FLOW_DESCR_END","/nodes/mode.js","58","34","58","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mode.js:106[29:31];Sink: output;mode.js:121[12:17]::FLOW_DESCR_END","/nodes/mode.js","106","29","106","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;request.js:18[29:31];Sink: output;request.js:40[14:19]::FLOW_DESCR_END","/nodes/request.js","18","29","18","31"

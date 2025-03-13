@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bt-serial-port.js:22[34:36];Sink: msg.payload;bt-serial-port.js:26[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bt-serial-port.js:22[34:36];Sink: msg;bt-serial-port.js:29[32:34]::FLOW_DESCR_END","/nodes/bt-serial-port/bt-serial-port.js","22","34","22","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: buffer;bt-serial-port.js:124[49:54];Sink: buffer;bt-serial-port.js:125[47:52]::FLOW_DESCR_END","/nodes/bt-serial-port/bt-serial-port.js","124","49","124","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bt-serial-port.js:148[27:29];Sink: `BTSeri ... derr}'`;bt-serial-port.js:151[35:104]::FLOW_DESCR_END","/nodes/bt-serial-port/bt-serial-port.js","148","27","148","29"

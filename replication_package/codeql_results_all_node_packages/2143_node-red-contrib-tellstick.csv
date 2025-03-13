@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;_tellstick-in-server.js:96[36:39];Sink: dataObj;_tellstick-in-server.js:113[15:21]::FLOW_DESCR_END","/lib/tellstick-in/server/_tellstick-in-server.js","96","36","96","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;_tellstick-input-server.js:29[37:40];Sink: data;_tellstick-input-server.js:30[47:50]::FLOW_DESCR_END","/lib/tellstick-input/server/_tellstick-input-server.js","29","37","29","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: incomingMsg;_tellstick-out-server.js:154[29:39];Sink: msg.errWarnStr;_tellstick-out-server.js:159[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: incomingMsg;_tellstick-out-server.js:154[29:39];Sink: msg.errWarnStr;_tellstick-out-server.js:162[15:28]::FLOW_DESCR_END","/lib/tellstick-out/server/_tellstick-out-server.js","154","29","154","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tellstick-in.js:96[36:39];Sink: dataObj;tellstick-in.js:113[15:21]::FLOW_DESCR_END","/tellstick/tellstick-in.js","96","36","96","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tellstick-input.js:29[37:40];Sink: data;tellstick-input.js:30[47:50]::FLOW_DESCR_END","/tellstick/tellstick-input.js","29","37","29","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: incomingMsg;tellstick-out.js:154[29:39];Sink: msg.errWarnStr;tellstick-out.js:159[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: incomingMsg;tellstick-out.js:154[29:39];Sink: msg.errWarnStr;tellstick-out.js:162[15:28]::FLOW_DESCR_END","/tellstick/tellstick-out.js","154","29","154","39"

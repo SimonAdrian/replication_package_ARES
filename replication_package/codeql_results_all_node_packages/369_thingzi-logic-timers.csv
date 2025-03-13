@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;activity.js:153[35:37];Sink: text;activity.js:69[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;activity.js:153[35:37];Sink: value;activity.js:122[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;activity.js:153[35:37];Sink: value;activity.js:129[64:68]::FLOW_DESCR_END","/activity.js","153","35","153","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;time-check.js:142[35:37];Sink: text;time-check.js:58[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-check.js:142[35:37];Sink: value;time-check.js:111[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-check.js:142[35:37];Sink: value;time-check.js:118[64:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-check.js:142[35:37];Sink: [msg, null];time-check.js:216[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-check.js:142[35:37];Sink: [null, msg];time-check.js:219[27:37]::FLOW_DESCR_END","/time-check.js","142","35","142","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;timer.js:340[64:69];Sink: result.statusCode;timer.js:345[74:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;timer.js:340[64:69];Sink: result.statusCode;timer.js:346[32:48]::FLOW_DESCR_END","/timer.js","340","64","340","69"

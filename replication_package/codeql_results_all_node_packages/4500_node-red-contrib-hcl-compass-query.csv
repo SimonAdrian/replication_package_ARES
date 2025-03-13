@@ -1,0 +1,48 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:54[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:96[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:122[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:131[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:166[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:179[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:209[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:235[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:244[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:280[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:314[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:340[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:351[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:376[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:406[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:461[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:494[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:520[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:531[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:568[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:600[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:626[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:637[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:673[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:712[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:738[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:749[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:784[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:827[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:836[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:871[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compass-query.js:28[29:31];Sink: msg;compass-query.js:878[16:18]::FLOW_DESCR_END","/compass-query.js","28","29","28","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;compass-query.js:83[29:31];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;compass-query.js:83[29:31];Sink: err;compass-query.js:122[20:22]::FLOW_DESCR_END","/compass-query.js","83","29","83","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;compass-query.js:83[39:42];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END","/compass-query.js","83","39","83","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;compass-query.js:196[32:34];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;compass-query.js:196[32:34];Sink: err;compass-query.js:235[20:22]::FLOW_DESCR_END","/compass-query.js","196","32","196","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;compass-query.js:196[42:45];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END","/compass-query.js","196","42","196","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;compass-query.js:301[61:63];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;compass-query.js:301[61:63];Sink: err;compass-query.js:340[21:23]::FLOW_DESCR_END","/compass-query.js","301","61","301","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;compass-query.js:481[41:43];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;compass-query.js:481[41:43];Sink: err;compass-query.js:520[20:22]::FLOW_DESCR_END","/compass-query.js","481","41","481","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;compass-query.js:587[39:41];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;compass-query.js:587[39:41];Sink: err;compass-query.js:626[20:22]::FLOW_DESCR_END","/compass-query.js","587","39","587","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;compass-query.js:587[44:46];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END","/compass-query.js","587","44","587","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;compass-query.js:699[38:40];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;compass-query.js:699[38:40];Sink: err;compass-query.js:738[20:22]::FLOW_DESCR_END","/compass-query.js","699","38","699","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;compass-query.js:699[43:45];Sink: message;compass-query.js:32[18:24]::FLOW_DESCR_END","/compass-query.js","699","43","699","45"

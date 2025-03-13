@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio-dynamic-client.js:105[33:35];Sink: node.eventName;socketio-dynamic-client.js:110[44:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio-dynamic-client.js:105[33:35];Sink: node.message || '';socketio-dynamic-client.js:110[60:77]::FLOW_DESCR_END","/socketio-client/socketio-dynamic-client.js","105","33","105","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;socketio-dynamic-client.js:121[15:25];Sink: uri;socketio-dynamic-client.js:133[51:53]::FLOW_DESCR_END","/socketio-client/socketio-dynamic-client.js","121","15","121","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;socketio-dynamic-client.js:126[21:31];Sink: uri;socketio-dynamic-client.js:133[51:53]::FLOW_DESCR_END","/socketio-client/socketio-dynamic-client.js","126","21","126","31"

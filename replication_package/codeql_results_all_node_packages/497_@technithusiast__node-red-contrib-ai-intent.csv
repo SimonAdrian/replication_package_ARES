@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:56[32:34];Sink: err;index.js:72[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:56[32:34];Sink: msg;index.js:75[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:56[32:34];Sink: err;index.js:84[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:56[32:34];Sink: msg;index.js:87[18:20]::FLOW_DESCR_END","/call-intent/index.js","56","32","56","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:59[32:34];Sink: payload;index.js:36[20:26]::FLOW_DESCR_END","/localai-chat/index.js","59","32","59","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:110[32:34];Sink: `Not su ... ported`;index.js:134[13:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:110[32:34];Sink: msg;index.js:144[12:14]::FLOW_DESCR_END","/openai-response/index.js","110","32","110","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:9[32:34];Sink: msg;index.js:22[12:14]::FLOW_DESCR_END","/openai-system/index.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:12[32:34];Sink: msg;index.js:35[12:14]::FLOW_DESCR_END","/openai-tool/index.js","12","32","12","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:9[32:34];Sink: msg;index.js:20[12:14]::FLOW_DESCR_END","/openai-user/index.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:25[62:65];Sink: [\n      ...       ];index.js:28[17:7]::FLOW_DESCR_END","/register-intent/index.js","25","62","25","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chat-ledger.js:17[31:37];Sink: value;global-context.js:14[28:32]::FLOW_DESCR_END","/utilities/chat-ledger.js","17","31","17","37"

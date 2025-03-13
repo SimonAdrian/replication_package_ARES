@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: qrcode;wc-listen.js:59[26:31];Sink: `\u8bf7\u626b\u7801\u767b\u5f55: ... code)}`;wc-listen.js:13[18:96]::FLOW_DESCR_END","/component/wc-listen.js","59","26","59","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;wc-listen.js:59[34:39];Sink: `\u8bf7\u626b\u7801\u767b\u5f55: ... code)}`;wc-listen.js:13[18:96]::FLOW_DESCR_END","/component/wc-listen.js","59","34","59","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: user;wc-listen.js:60[26:29];Sink: `\u7528\u6237 ${user} \u5df2\u767b\u5f55`;wc-listen.js:20[14:29]::FLOW_DESCR_END","/component/wc-listen.js","60","26","60","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;wc-listen.js:61[28:34];Sink: `\u6536\u5230\u6d88\u606f: ${message}`;wc-listen.js:32[18:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;wc-listen.js:61[28:34];Sink: `\u53d1\u9001\u6d88\u606f:  ... (msg)}`;wc-listen.js:44[18:47]::FLOW_DESCR_END","/component/wc-listen.js","61","28","61","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wc-listen.js:73[36:38];Sink: msg;wc-listen.js:75[23:25]::FLOW_DESCR_END","/component/wc-listen.js","73","36","73","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: qrcode;wechat.js:89[30:35];Sink: `\u8bf7\u626b\u7801\u767b\u5f55: ... code)}`;wechat.js:13[18:96]::FLOW_DESCR_END","/component/wechat.js","89","30","89","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;wechat.js:89[38:43];Sink: `\u8bf7\u626b\u7801\u767b\u5f55: ... code)}`;wechat.js:13[18:96]::FLOW_DESCR_END","/component/wechat.js","89","38","89","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: user;wechat.js:90[30:33];Sink: `\u7528\u6237 ${user} \u5df2\u767b\u5f55`;wechat.js:48[22:37]::FLOW_DESCR_END","/component/wechat.js","90","30","90","33"

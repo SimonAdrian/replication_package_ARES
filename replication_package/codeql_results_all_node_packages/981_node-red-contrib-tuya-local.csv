@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;novostella.js:122[22:26];Sink: error + ... is.Name;novostella.js:124[14:44]::FLOW_DESCR_END","/novostella.js","122","22","122","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;novostella.js:165[29:31];Sink: req;novostella.js:66[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;novostella.js:165[29:31];Sink: req;novostella.js:67[16:18]::FLOW_DESCR_END","/novostella.js","165","29","165","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tuya-local.js:93[22:26];Sink: error + ... is.Name;tuya-local.js:95[14:44]::FLOW_DESCR_END","/tuya-local.js","93","22","93","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tuya-local.js:121[29:31];Sink: req;tuya-local.js:58[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tuya-local.js:121[29:31];Sink: req;tuya-local.js:59[16:18]::FLOW_DESCR_END","/tuya-local.js","121","29","121","31"

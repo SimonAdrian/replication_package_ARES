@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitcoin.js:9[27:29];Sink: msg;bitcoin.js:27[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bitcoin.js:9[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/bitcoin/bitcoin.js","9","27","9","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cabiot-integration.js:13[27:29];Sink: queueName;cabiot-integration.js:30[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-integration.js:13[27:29];Sink: jsonData;cabiot-integration.js:30[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-integration.js:13[27:29];Sink: msg;cabiot-integration.js:31[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-integration.js:13[27:29];Sink: queueName;amqp.js:60[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-integration.js:13[27:29];Sink: Buffer.from(data);amqp.js:60[59:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-integration.js:13[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/cabiot-integration/cabiot-integration.js","13","27","13","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cabiot-publisher.js:14[27:29];Sink: queueName;cabiot-publisher.js:32[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:14[27:29];Sink: jsonData;cabiot-publisher.js:32[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:14[27:29];Sink: msg;cabiot-publisher.js:33[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:14[27:29];Sink: queueName;amqp.js:60[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:14[27:29];Sink: Buffer.from(data);amqp.js:60[59:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-publisher.js:14[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/cabiot-publisher/cabiot-publisher.js","14","27","14","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cabiot-start-process.js:8[27:29];Sink: msg;cabiot-start-process.js:26[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-start-process.js:8[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/cabiot-start-process/cabiot-start-process.js","8","27","8","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cabiot-state.js:8[27:29];Sink: msg;cabiot-state.js:19[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-state.js:8[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/cabiot-state/cabiot-state.js","8","27","8","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cabiot-vaia.js:8[27:29];Sink: msg;cabiot-vaia.js:21[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cabiot-vaia.js:8[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/cabiot-vaia/cabiot-vaia.js","8","27","8","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather.js:9[27:29];Sink: msg;weather.js:16[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:9[27:29];Sink: `https: ... untry}`;weather.js:8[53:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weather.js:9[27:29];Sink: obj;utils.js:4[60:62]::FLOW_DESCR_END","/src/nodes/weather/weather.js","9","27","9","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: location[0];weather.js:9[79:89];Sink: currentWeatherUrl;weather.js:10[56:72]::FLOW_DESCR_END","/src/services/weather.js","9","79","9","89"

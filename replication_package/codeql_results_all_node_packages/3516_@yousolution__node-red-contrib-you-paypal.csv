@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apiPaypal.js:12[29:31];Sink: msg;apiPaypal.js:57[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apiPaypal.js:12[29:31];Sink: `_YOU_A ... .token`;support.js:7[33:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apiPaypal.js:12[29:31];Sink: msg;support.js:74[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apiPaypal.js:12[29:31];Sink: `_YOU_A ... ntials`;support.js:90[39:76]::FLOW_DESCR_END","/nodes/apiPaypal.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;authenticatePaypal.js:24[29:31];Sink: msg;authenticatePaypal.js:49[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticatePaypal.js:24[29:31];Sink: msg;authenticatePaypal.js:55[17:19]::FLOW_DESCR_END","/nodes/authenticatePaypal.js","24","29","24","31"

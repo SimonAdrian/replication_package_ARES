@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-aws-lex.js:23[27:30];Sink: data;node-aws-lex.js:48[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-aws-lex.js:23[27:30];Sink: data;node-aws-lex.js:72[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-aws-lex.js:23[27:30];Sink: data;node-aws-lex.js:85[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-aws-lex.js:23[27:30];Sink: data;node-aws-lex.js:98[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-aws-lex.js:23[27:30];Sink: data;node-aws-lex.js:117[30:33]::FLOW_DESCR_END","/node-aws-lex.js","23","27","23","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-aws-rekognition.js:20[27:30];Sink: data;node-aws-rekognition.js:44[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-aws-rekognition.js:20[27:30];Sink: data;node-aws-rekognition.js:63[30:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-aws-rekognition.js:20[27:30];Sink: data;node-aws-rekognition.js:66[26:29]::FLOW_DESCR_END","/node-aws-rekognition.js","20","27","20","30"

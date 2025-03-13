@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_in.js:103[35:37];Sink: msg;smithtek_in.js:104[77:79]::FLOW_DESCR_END","/smithtek/smithtek_in.js","103","35","103","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_in.js:117[35:37];Sink: msg;smithtek_in.js:119[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_in.js:117[35:37];Sink: msg;smithtek_in.js:122[41:43]::FLOW_DESCR_END","/smithtek/smithtek_in.js","117","35","117","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_out.js:51[36:38];Sink: msg;smithtek_out.js:52[74:76]::FLOW_DESCR_END","/smithtek/smithtek_out.js","51","36","51","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek_out.js:60[34:36];Sink: '/v1.6/ ... e_label;smithtek_out.js:89[15:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek_out.js:60[34:36];Sink: values;smithtek_out.js:90[15:20]::FLOW_DESCR_END","/smithtek/smithtek_out.js","60","34","60","36"

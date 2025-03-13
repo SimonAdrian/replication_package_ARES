@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RawControllerRequest.js:23[36:38];Sink: Object. ...    } });RawControllerRequest.js:75[31:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RawControllerRequest.js:23[36:38];Sink: Object. ...    } });RawControllerRequest.js:81[31:28]::FLOW_DESCR_END","/build/nodes/RawControllerRequest.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: send;RawControllerRequest.js:23[41:44];Sink: send;RawControllerRequest.js:77[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: send;RawControllerRequest.js:23[41:44];Sink: send;RawControllerRequest.js:87[31:34]::FLOW_DESCR_END","/build/nodes/RawControllerRequest.js","23","41","23","44"

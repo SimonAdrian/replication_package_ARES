@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;statistics.js:74[35:37];Sink: msg;statistics.js:198[23:25]::FLOW_DESCR_END","/statistics.js","74","35","74","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.data.length;statistics.js:106[30:45];Sink: value;statistics.js:26[43:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.data.length;statistics.js:106[30:45];Sink: value;statistics.js:28[45:49]::FLOW_DESCR_END","/statistics.js","106","30","106","45"

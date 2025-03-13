@@ -1,0 +1,31 @@
+{
+  "name": "@ecraneworldwide/node-red-contrib-lz4",
+  "version": "1.1.1",
+  "description": "lz4 compress or decompress",
+  "main": "lz4.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "lz4"
+  ],
+  "author": "Glenn Matthys",
+  "license": "Unlicense",
+  "dependencies": {
+    "lz4": "^0.6.3"
+  },
+  "node-red": {
+    "nodes": {
+      "lz4": "lz4.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ECraneWorldwide/node-red-contrib-lz4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ECraneWorldwide/node-red-contrib-lz4/issues"
+  },
+  "homepage": "https://github.com/ECraneWorldwide/node-red-contrib-lz4#readme"
+}

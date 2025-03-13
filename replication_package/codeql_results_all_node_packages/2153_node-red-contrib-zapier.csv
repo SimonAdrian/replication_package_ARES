@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;trigger.js:26[77:79];Sink: err;trigger.js:28[26:28]::FLOW_DESCR_END","/trigger.js","26","77","26","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;trigger.js:26[82:89];Sink: respons ... Message;trigger.js:31[26:72]::FLOW_DESCR_END","/trigger.js","26","82","26","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;trigger.js:26[92:95];Sink: body;trigger.js:32[27:30]::FLOW_DESCR_END","/trigger.js","26","92","26","95"

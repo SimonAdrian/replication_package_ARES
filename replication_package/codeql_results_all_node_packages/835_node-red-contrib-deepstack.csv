@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstack-custom-model.js:23[35:37];Sink: output;deepstack-custom-model.js:32[27:32]::FLOW_DESCR_END","/deepstack-custom-model.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstack-face-recognition.js:23[35:37];Sink: outputs;deepstack-face-recognition.js:32[27:33]::FLOW_DESCR_END","/deepstack-face-recognition.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstack-face-registration.js:20[35:37];Sink: outputs;deepstack-face-registration.js:29[27:33]::FLOW_DESCR_END","/deepstack-face-registration.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstack-object-detection.js:23[35:37];Sink: outputs;deepstack-object-detection.js:32[27:33]::FLOW_DESCR_END","/deepstack-object-detection.js","23","35","23","37"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;deepstream.js:53[38:42];Sink: error;deepstream.js:55[16:20]::FLOW_DESCR_END","/deepstream.js","53","38","53","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstream.js:96[29:31];Sink: msg;deepstream.js:105[18:20]::FLOW_DESCR_END","/deepstream.js","96","29","96","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;deepstream.js:114[29:33];Sink: ""Deepst ... + error;deepstream.js:115[15:54]::FLOW_DESCR_END","/deepstream.js","114","29","114","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;deepstream.js:159[29:33];Sink: ""Deepst ... + error;deepstream.js:160[15:57]::FLOW_DESCR_END","/deepstream.js","159","29","159","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstream.js:178[29:31];Sink: msg.err;deepstream.js:185[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepstream.js:178[29:31];Sink: msg.payload;deepstream.js:187[20:30]::FLOW_DESCR_END","/deepstream.js","178","29","178","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;deepstream.js:195[29:33];Sink: ""Deepst ... + error;deepstream.js:196[15:58]::FLOW_DESCR_END","/deepstream.js","195","29","195","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstream.js:205[29:31];Sink: (msg.to ... method);deepstream.js:208[24:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepstream.js:205[29:31];Sink: msg.payload;deepstream.js:208[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepstream.js:205[29:31];Sink: msg;deepstream.js:209[16:18]::FLOW_DESCR_END","/deepstream.js","205","29","205","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deepstream.js:262[29:31];Sink: msg.payload;deepstream.js:267[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deepstream.js:262[29:31];Sink: msg.payload;deepstream.js:269[18:28]::FLOW_DESCR_END","/deepstream.js","262","29","262","31"

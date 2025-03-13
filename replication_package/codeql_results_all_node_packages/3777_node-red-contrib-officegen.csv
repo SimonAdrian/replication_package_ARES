@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;officegen.js:7[31:33];Sink: msg.filename;officegen.js:30[38:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;officegen.js:7[31:33];Sink: msg;officegen.js:35[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;officegen.js:7[31:33];Sink: msg;officegen.js:40[19:21]::FLOW_DESCR_END","/officegen.js","7","31","7","33"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decode-protobuf.js:29[35:37];Sink: msg;decode-protobuf.js:41[23:25]::FLOW_DESCR_END","/protobuf/decode-protobuf.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encode-protobuf.js:26[35:37];Sink: msg;encode-protobuf.js:41[23:25]::FLOW_DESCR_END","/protobuf/encode-protobuf.js","26","35","26","37"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-api-key.js:26[33:37];Sink: error;get-api-key.js:28[29:33]::FLOW_DESCR_END","/get-api-key.js","26","33","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body2;get-api-key.js:41[57:61];Sink: data_to ... ].token;get-api-key.js:47[71:104]::FLOW_DESCR_END","/get-api-key.js","41","57","41","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-map-box.js:112[35:37];Sink: msg;node-map-box.js:120[27:29]::FLOW_DESCR_END","/node-map-box.js","112","35","112","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-open-street-map.js:99[35:37];Sink: msg;node-open-street-map.js:107[27:29]::FLOW_DESCR_END","/node-open-street-map.js","99","35","99","37"

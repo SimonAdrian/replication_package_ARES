@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geofence.js:36[36:38];Sink: message;geofence.js:98[23:29]::FLOW_DESCR_END","/geofence.js","36","36","36","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;leaflet.draw-src.js:744[26:26];Sink: clientX;leaflet.draw-src.js:752[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:744[26:26];Sink: clientY;leaflet.draw-src.js:752[41:47]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw-src.js","744","26","744","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;leaflet.draw-src.js:760[24:24];Sink: clientX;leaflet.draw-src.js:764[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:760[24:24];Sink: clientY;leaflet.draw-src.js:764[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:760[24:24];Sink: e;leaflet.draw-src.js:764[47:47]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw-src.js","760","24","760","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;leaflet.draw-src.js:788[22:22];Sink: clientX;leaflet.draw-src.js:797[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:788[22:22];Sink: clientY;leaflet.draw-src.js:797[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:788[22:22];Sink: clientX;leaflet.draw-src.js:798[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:788[22:22];Sink: clientY;leaflet.draw-src.js:798[39:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;leaflet.draw-src.js:788[22:22];Sink: e;leaflet.draw-src.js:798[48:48]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw-src.js","788","22","788","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;leaflet.draw-src.js:2428[27:27];Sink: e;leaflet.draw-src.js:2429[62:62]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw-src.js","2428","27","2428","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:8[7818:7818];Sink: i;leaflet.draw.js:8[8031:8031]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[7818:7818];Sink: o;leaflet.draw.js:8[8033:8033]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw.js","8","7818","8","7818"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8120:8120];Sink: i;leaflet.draw.js:8[8194:8194]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8120:8120];Sink: o;leaflet.draw.js:8[8196:8196]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8120:8120];Sink: t;leaflet.draw.js:8[8198:8198]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw.js","8","8120","8","8120"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8670:8670];Sink: e;leaflet.draw.js:8[8910:8910]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8670:8670];Sink: i;leaflet.draw.js:8[8912:8912]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8670:8670];Sink: e;leaflet.draw.js:8[8940:8940]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8670:8670];Sink: i;leaflet.draw.js:8[8942:8942]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:8[8670:8670];Sink: t;leaflet.draw.js:8[8944:8944]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw.js","8","8670","8","8670"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:9[1440:1440];Sink: t;leaflet.draw.js:9[1504:1504]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw.js","9","1440","9","1440"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;geofenceViewHandler.js:147[45:45];Sink: e;geofenceViewHandler.js:148[39:39]::FLOW_DESCR_END","/static/geofenceViewHandler.js","147","45","147","45"

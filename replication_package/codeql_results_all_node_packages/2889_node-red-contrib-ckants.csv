@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;httpclient.js:21[28:32];Sink: 'resour ... ourceId;ckants_create.js:90[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;httpclient.js:21[28:32];Sink: res;ckants_create.js:92[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;httpclient.js:21[28:32];Sink: res;ckants_io.js:138[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;httpclient.js:21[28:32];Sink: res;ckants_io.js:189[22:24]::FLOW_DESCR_END","/src/httpclient.js","21","28","21","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;httpclient.js:29[27:29];Sink: 'resour ... ourceId;ckants_create.js:90[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;httpclient.js:29[27:29];Sink: res;ckants_create.js:92[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;httpclient.js:29[27:29];Sink: res;ckants_io.js:138[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;httpclient.js:29[27:29];Sink: res;ckants_io.js:189[22:24]::FLOW_DESCR_END","/src/httpclient.js","29","27","29","29"

@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: doc;cloudantplus-selector.js:159[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: data;cloudantplus-selector.js:164[81:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: data;cloudantplus-selector.js:174[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: doc;cloudantplus-selector.js:185[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: data;cloudantplus-selector.js:192[47:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: data;cloudantplus-selector.js:199[81:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: data;cloudantplus-selector.js:209[81:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: msg;cloudantplus-selector.js:262[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:117[41:43];Sink: msg;cloudantplus-selector.js:285[47:49]::FLOW_DESCR_END","/cloudantplus-selector.js","117","41","117","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:392[41:43];Sink: id;cloudantplus-selector.js:409[20:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:392[41:43];Sink: options;cloudantplus-selector.js:414[24:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:392[41:43];Sink: ""Docume ...  + ""'."";cloudantplus-selector.js:496[23:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cloudantplus-selector.js:392[41:43];Sink: msg;cloudantplus-selector.js:506[23:25]::FLOW_DESCR_END","/cloudantplus-selector.js","392","41","392","43"

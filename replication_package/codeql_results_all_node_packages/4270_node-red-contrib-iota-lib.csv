@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-converter.js:13[35:37];Sink: 'string ... .packet;iota-converter.js:32[33:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-converter.js:13[35:37];Sink: 'intege ... .packet;iota-converter.js:55[33:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-converter.js:13[35:37];Sink: 'trytes ... packet);iota-converter.js:79[33:96]::FLOW_DESCR_END","/iota-converter.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-getinputs.js:17[35:37];Sink: msg;iota-getinputs.js:33[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-getinputs.js:17[35:37];Sink: msg;iota-getinputs.js:37[36:38]::FLOW_DESCR_END","/iota-getinputs.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-newaddress.js:16[35:37];Sink: msg;iota-newaddress.js:34[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-newaddress.js:16[35:37];Sink: msg;iota-newaddress.js:39[36:38]::FLOW_DESCR_END","/iota-newaddress.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-search.js:17[35:37];Sink: msg;iota-search.js:61[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-search.js:17[35:37];Sink: msg;iota-search.js:65[32:34]::FLOW_DESCR_END","/iota-search.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-sendtransfer.js:14[35:37];Sink: ""messag ... payload;iota-sendtransfer.js:25[27:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-sendtransfer.js:14[35:37];Sink: msg;iota-sendtransfer.js:48[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-sendtransfer.js:14[35:37];Sink: msg;iota-sendtransfer.js:52[29:31]::FLOW_DESCR_END","/iota-sendtransfer.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iota-transactions.js:15[35:37];Sink: ""Input  ... ta_hash;iota-transactions.js:27[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transactions.js:15[35:37];Sink: msg;iota-transactions.js:33[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transactions.js:15[35:37];Sink: msg;iota-transactions.js:41[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iota-transactions.js:15[35:37];Sink: msg;iota-transactions.js:45[44:46]::FLOW_DESCR_END","/iota-transactions.js","15","35","15","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mamFetch.js:11[35:37];Sink: ""MAM ro ... ig.root;mamFetch.js:19[23:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mamFetch.js:11[35:37];Sink: root;mamFetch.js:26[16:19]::FLOW_DESCR_END","/mamFetch.js","11","35","11","37"

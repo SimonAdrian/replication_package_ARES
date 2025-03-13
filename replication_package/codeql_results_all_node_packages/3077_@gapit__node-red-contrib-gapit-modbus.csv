@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: portOptions.port;gapit-modbus.js:79[79:94];Sink: `Cannot ... .port}`;gapit-modbus.js:79[24:96]::FLOW_DESCR_END","/dist/gapit-modbus.js","79","79","79","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;gapit-modbus.js:95[50:57];Sink: `Cannot ... .port}`;gapit-modbus.js:79[24:96]::FLOW_DESCR_END","/dist/gapit-modbus.js","95","50","95","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;gapit-modbus.js:100[19:29];Sink: `Cannot ... .port}`;gapit-modbus.js:79[24:96]::FLOW_DESCR_END","/dist/gapit-modbus.js","100","19","100","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;gapit-modbus.js:100[34:41];Sink: `Cannot ... .port}`;gapit-modbus.js:79[24:96]::FLOW_DESCR_END","/dist/gapit-modbus.js","100","34","100","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gapit-modbus.js:974[33:35];Sink: `Cannot ... .port}`;gapit-modbus.js:79[24:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-modbus.js:974[33:35];Sink: `${scal ... ge[0]}`;gapit-modbus.js:338[35:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-modbus.js:974[33:35];Sink: msg;gapit-modbus.js:999[22:24]::FLOW_DESCR_END","/dist/gapit-modbus.js","974","33","974","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: activeConfig.host;gapit-modbus.js:980[90:106];Sink: `Cannot ... .port}`;gapit-modbus.js:79[24:96]::FLOW_DESCR_END","/dist/gapit-modbus.js","980","90","980","106"

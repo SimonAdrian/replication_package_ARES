@@ -1,0 +1,108 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: 'uhppoted::' + err;common.js:12[15:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-activate-keypads.js:44[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-add-task.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-clear-task-list.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-clear-time-profiles.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-delete-card.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-delete-cards.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-card-by-index.js:60[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-card.js:57[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-cards.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-device.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-door-control.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-event-index.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: new Err ... itten`);uhppoted-get-event.js:22[30:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: new Err ... ndex}`);uhppoted-get-event.js:24[30:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-event.js:41[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-listener.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-status.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-time-profile.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-get-time.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-open-door.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-put-card.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-record-special-events.js:39[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-refresh-task-list.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-restore-default-parameters.js:34[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-door-control.js:56[25:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-door-passcodes.js:44[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-event-index.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-interlock.js:39[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-ip.js:37[32:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: err;uhppoted-set-listener.js:34[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-listener.js:44[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-pc-control.js:39[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-time-profile.js:35[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.deviceId;common.js:21[20:35];Sink: controller.id;uhppoted-set-time.js:35[31:43]::FLOW_DESCR_END","/nodes/common.js","21","20","21","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-activate-keypads.js:15[32:34];Sink: t;uhppoted-activate-keypads.js:26[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-activate-keypads.js:15[32:34];Sink: controller.id;uhppoted-activate-keypads.js:44[31:43]::FLOW_DESCR_END","/nodes/uhppoted-activate-keypads.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-add-task.js:15[32:34];Sink: t;uhppoted-add-task.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-add-task.js:15[32:34];Sink: controller.id;uhppoted-add-task.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-add-task.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-clear-task-list.js:15[32:34];Sink: t;uhppoted-clear-task-list.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-clear-task-list.js:15[32:34];Sink: controller.id;uhppoted-clear-task-list.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-clear-task-list.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-clear-time-profiles.js:15[32:34];Sink: t;uhppoted-clear-time-profiles.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-clear-time-profiles.js:15[32:34];Sink: controller.id;uhppoted-clear-time-profiles.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-clear-time-profiles.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-delete-card.js:15[32:34];Sink: t;uhppoted-delete-card.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-delete-card.js:15[32:34];Sink: controller.id;uhppoted-delete-card.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-delete-card.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-delete-cards.js:15[32:34];Sink: t;uhppoted-delete-cards.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-delete-cards.js:15[32:34];Sink: controller.id;uhppoted-delete-cards.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-delete-cards.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-card-by-index.js:15[32:34];Sink: controller.id;uhppoted-get-card-by-index.js:60[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-card-by-index.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-card.js:15[32:34];Sink: controller.id;uhppoted-get-card.js:57[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-card.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-cards.js:15[32:34];Sink: t;uhppoted-get-cards.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-cards.js:15[32:34];Sink: controller.id;uhppoted-get-cards.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-cards.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-device.js:15[32:34];Sink: t;uhppoted-get-device.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-device.js:15[32:34];Sink: controller.id;uhppoted-get-device.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-device.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-devices.js:15[32:34];Sink: t;uhppoted-get-devices.js:19[27:27]::FLOW_DESCR_END","/nodes/uhppoted-get-devices.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-door-control.js:15[32:34];Sink: t;uhppoted-get-door-control.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-door-control.js:15[32:34];Sink: controller.id;uhppoted-get-door-control.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-door-control.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-event-index.js:15[32:34];Sink: t;uhppoted-get-event-index.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-event-index.js:15[32:34];Sink: controller.id;uhppoted-get-event-index.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-event-index.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-event.js:15[32:34];Sink: 'uhppoted::' + err;common.js:12[15:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-event.js:15[32:34];Sink: new Err ... itten`);uhppoted-get-event.js:22[30:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-event.js:15[32:34];Sink: new Err ... ndex}`);uhppoted-get-event.js:24[30:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-event.js:15[32:34];Sink: t;uhppoted-get-event.js:26[29:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-event.js:15[32:34];Sink: controller.id;uhppoted-get-event.js:41[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-event.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-listener.js:15[32:34];Sink: t;uhppoted-get-listener.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-listener.js:15[32:34];Sink: controller.id;uhppoted-get-listener.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-listener.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-status.js:15[32:34];Sink: t;uhppoted-get-status.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-status.js:15[32:34];Sink: controller.id;uhppoted-get-status.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-status.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-time-profile.js:15[32:34];Sink: t;uhppoted-get-time-profile.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-time-profile.js:15[32:34];Sink: controller.id;uhppoted-get-time-profile.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-time-profile.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-get-time.js:15[32:34];Sink: t;uhppoted-get-time.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-get-time.js:15[32:34];Sink: controller.id;uhppoted-get-time.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-get-time.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-open-door.js:14[32:34];Sink: t;uhppoted-open-door.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-open-door.js:14[32:34];Sink: controller.id;uhppoted-open-door.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-open-door.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-put-card.js:15[32:34];Sink: t;uhppoted-put-card.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-put-card.js:15[32:34];Sink: controller.id;uhppoted-put-card.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-put-card.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-record-special-events.js:15[32:34];Sink: t;uhppoted-record-special-events.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-record-special-events.js:15[32:34];Sink: controller.id;uhppoted-record-special-events.js:39[31:43]::FLOW_DESCR_END","/nodes/uhppoted-record-special-events.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-refresh-task-list.js:15[32:34];Sink: t;uhppoted-refresh-task-list.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-refresh-task-list.js:15[32:34];Sink: controller.id;uhppoted-refresh-task-list.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-refresh-task-list.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-restore-default-parameters.js:15[32:34];Sink: t;uhppoted-restore-default-parameters.js:20[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-restore-default-parameters.js:15[32:34];Sink: controller.id;uhppoted-restore-default-parameters.js:34[31:43]::FLOW_DESCR_END","/nodes/uhppoted-restore-default-parameters.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-door-control.js:15[32:34];Sink: t;uhppoted-set-door-control.js:41[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-door-control.js:15[32:34];Sink: controller.id;uhppoted-set-door-control.js:56[25:37]::FLOW_DESCR_END","/nodes/uhppoted-set-door-control.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-door-passcodes.js:15[32:34];Sink: t;uhppoted-set-door-passcodes.js:30[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-door-passcodes.js:15[32:34];Sink: controller.id;uhppoted-set-door-passcodes.js:44[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-door-passcodes.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-event-index.js:15[32:34];Sink: t;uhppoted-set-event-index.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-event-index.js:15[32:34];Sink: controller.id;uhppoted-set-event-index.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-event-index.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-interlock.js:15[32:34];Sink: t;uhppoted-set-interlock.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-interlock.js:15[32:34];Sink: controller.id;uhppoted-set-interlock.js:39[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-interlock.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-ip.js:15[32:34];Sink: t;uhppoted-set-ip.js:23[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-ip.js:15[32:34];Sink: controller.id;uhppoted-set-ip.js:37[32:44]::FLOW_DESCR_END","/nodes/uhppoted-set-ip.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-listener.js:15[32:34];Sink: 'uhppoted::' + err;common.js:12[15:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-listener.js:15[32:34];Sink: t;uhppoted-set-listener.js:26[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-listener.js:15[32:34];Sink: err;uhppoted-set-listener.js:34[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-listener.js:15[32:34];Sink: controller.id;uhppoted-set-listener.js:44[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-listener.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-pc-control.js:15[32:34];Sink: t;uhppoted-set-pc-control.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-pc-control.js:15[32:34];Sink: controller.id;uhppoted-set-pc-control.js:39[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-pc-control.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-time-profile.js:15[32:34];Sink: t;uhppoted-set-time-profile.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-time-profile.js:15[32:34];Sink: controller.id;uhppoted-set-time-profile.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-time-profile.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uhppoted-set-time.js:15[32:34];Sink: t;uhppoted-set-time.js:21[27:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uhppoted-set-time.js:15[32:34];Sink: controller.id;uhppoted-set-time.js:35[31:43]::FLOW_DESCR_END","/nodes/uhppoted-set-time.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;uhppoted.js:199[34:38];Sink: description;uhppoted.js:428[13:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;uhppoted.js:199[34:38];Sink: prefix  ... e, pad);uhppoted.js:432[19:87]::FLOW_DESCR_END","/nodes/uhppoted.js","199","34","199","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;uhppoted.js:266[32:36];Sink: description;uhppoted.js:428[13:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo;uhppoted.js:266[32:36];Sink: prefix  ... e, pad);uhppoted.js:432[19:87]::FLOW_DESCR_END","/nodes/uhppoted.js","266","32","266","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo.port;uhppoted.js:422[48:57];Sink: description;uhppoted.js:428[13:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: rinfo.port;uhppoted.js:422[48:57];Sink: prefix  ... e, pad);uhppoted.js:432[19:87]::FLOW_DESCR_END","/nodes/uhppoted.js","422","48","422","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;encoder.js:170[47:50];Sink: port;encoder.js:179[27:30]::FLOW_DESCR_END","/nodes/encoder.js","170","47","170","50"

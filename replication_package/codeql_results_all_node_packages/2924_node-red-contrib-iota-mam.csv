@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mamFetch.js:9[35:37];Sink: ""MAM ro ... ig.root;mamFetch.js:13[23:48]::FLOW_DESCR_END","/mamFetch.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.secret;mamFetch.js:15[40:52];Sink: ""MAM se ... .secret;mamFetch.js:15[23:52]::FLOW_DESCR_END","/mamFetch.js","15","40","15","52"

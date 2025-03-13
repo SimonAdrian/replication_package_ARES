@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;gulpfile.js:19[24:28];Sink: error.toString();gulpfile.js:22[15:30]::FLOW_DESCR_END","/gulpfile.js","19","24","19","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;oracledb.js:112[21:26];Sink: ""Oracle ... message;oracledb.js:164[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;oracledb.js:112[21:26];Sink: ""Connec ... tString;oracledb.js:174[34:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;oracledb.js:112[21:26];Sink: ""Oracle ... closed"";oracledb.js:195[30:89]::FLOW_DESCR_END","/lib/oracledb.js","112","21","112","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;oracledb.js:113[21:26];Sink: ""Oracle ... message;oracledb.js:164[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;oracledb.js:113[21:26];Sink: ""Connec ... tString;oracledb.js:174[34:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;oracledb.js:113[21:26];Sink: ""Oracle ... closed"";oracledb.js:195[30:89]::FLOW_DESCR_END","/lib/oracledb.js","113","21","113","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;oracledb.js:153[42:50];Sink: ""Oracle ... message;oracledb.js:164[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;oracledb.js:153[42:50];Sink: ""Connec ... tString;oracledb.js:174[34:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;oracledb.js:153[42:50];Sink: ""Oracle ... closed"";oracledb.js:195[30:89]::FLOW_DESCR_END","/lib/oracledb.js","153","42","153","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;oracledb.js:153[60:68];Sink: ""Oracle ... message;oracledb.js:164[36:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;oracledb.js:153[60:68];Sink: ""Connec ... tString;oracledb.js:174[34:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;oracledb.js:153[60:68];Sink: ""Oracle ... closed"";oracledb.js:195[30:89]::FLOW_DESCR_END","/lib/oracledb.js","153","60","153","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;oracledb.js:100[17:22];Sink: 'Oracle ... message;oracledb.js:127[24:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;oracledb.js:100[17:22];Sink: 'Connec ... tString;oracledb.js:131[22:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;oracledb.js:100[17:22];Sink: 'Oracle ... closed';oracledb.js:151[20:79]::FLOW_DESCR_END","/lib_org/oracledb.js","100","17","100","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;oracledb.js:101[17:22];Sink: 'Oracle ... message;oracledb.js:127[24:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;oracledb.js:101[17:22];Sink: 'Connec ... tString;oracledb.js:131[22:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;oracledb.js:101[17:22];Sink: 'Oracle ... closed';oracledb.js:151[20:79]::FLOW_DESCR_END","/lib_org/oracledb.js","101","17","101","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;oracledb.js:118[30:38];Sink: 'Oracle ... message;oracledb.js:127[24:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;oracledb.js:118[30:38];Sink: 'Connec ... tString;oracledb.js:131[22:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;oracledb.js:118[30:38];Sink: 'Oracle ... closed';oracledb.js:151[20:79]::FLOW_DESCR_END","/lib_org/oracledb.js","118","30","118","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;oracledb.js:118[48:56];Sink: 'Oracle ... message;oracledb.js:127[24:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;oracledb.js:118[48:56];Sink: 'Connec ... tString;oracledb.js:131[22:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;oracledb.js:118[48:56];Sink: 'Oracle ... closed';oracledb.js:151[20:79]::FLOW_DESCR_END","/lib_org/oracledb.js","118","48","118","56"

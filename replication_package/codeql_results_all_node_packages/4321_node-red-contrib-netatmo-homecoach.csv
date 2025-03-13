@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;netatmo_node_get_homecoaches.js:26[35:37];Sink: msg;netatmo_node_get_homecoaches.js:41[27:29]::FLOW_DESCR_END","/netatmo_node_get_homecoaches.js","26","35","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;netatmo_node_get_homecoaches.js:44[38:42];Sink: dateFor ... + error;netatmo_node_get_homecoaches.js:45[31:164]::FLOW_DESCR_END","/netatmo_node_get_homecoaches.js","44","38","44","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;netatmo_node_get_homecoaches.js:48[40:46];Sink: dateFor ... warning;netatmo_node_get_homecoaches.js:49[31:168]::FLOW_DESCR_END","/netatmo_node_get_homecoaches.js","48","40","48","46"

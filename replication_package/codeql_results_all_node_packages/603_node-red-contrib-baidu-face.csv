@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;baidu-face.js:11[30:33];Sink: [data, null];baidu-face.js:25[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;baidu-face.js:11[30:33];Sink: [null, data];baidu-face.js:31[21:32]::FLOW_DESCR_END","/baidu-face.js","11","30","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;baidu-face.js:43[30:33];Sink: [data, null];baidu-face.js:55[21:32]::FLOW_DESCR_END","/baidu-face.js","43","30","43","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;baidu-face.js:71[30:33];Sink: [data, null];baidu-face.js:83[21:32]::FLOW_DESCR_END","/baidu-face.js","71","30","71","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;baidu-face.js:99[30:33];Sink: [data, null];baidu-face.js:110[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;baidu-face.js:99[30:33];Sink: [null ,data];baidu-face.js:116[21:32]::FLOW_DESCR_END","/baidu-face.js","99","30","99","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.access_token;Baidu.js:36[17:33];Sink: `https: ... token}`;Baidu.js:69[43:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.access_token;Baidu.js:36[17:33];Sink: `https: ... token}`;Baidu.js:103[43:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.access_token;Baidu.js:36[17:33];Sink: `https: ... token}`;Baidu.js:129[43:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.access_token;Baidu.js:36[17:33];Sink: `https: ... token}`;Baidu.js:155[43:127]::FLOW_DESCR_END","/lib/Baidu.js","36","17","36","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error_msg;Baidu.js:84[42:55];Sink: err;baidu-face.js:28[21:23]::FLOW_DESCR_END","/lib/Baidu.js","84","42","84","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.result;Baidu.js:88[17:27];Sink: JSON.st ... result);index.js:14[17:38]::FLOW_DESCR_END","/lib/Baidu.js","88","17","88","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error_msg;Baidu.js:110[53:66];Sink: err;baidu-face.js:58[21:23]::FLOW_DESCR_END","/lib/Baidu.js","110","53","110","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error_msg;Baidu.js:136[53:66];Sink: err;baidu-face.js:86[21:23]::FLOW_DESCR_END","/lib/Baidu.js","136","53","136","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error_msg;Baidu.js:162[53:66];Sink: err;baidu-face.js:113[21:23]::FLOW_DESCR_END","/lib/Baidu.js","162","53","162","66"

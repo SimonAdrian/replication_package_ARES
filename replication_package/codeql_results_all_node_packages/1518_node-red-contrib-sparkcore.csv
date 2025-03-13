@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sparkcore.js:46[29:31];Sink: ""Operat ... .method;sparkcore.js:72[16:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sparkcore.js:46[29:31];Sink: ""Name: "" + this.name;sparkcore.js:73[16:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sparkcore.js:46[29:31];Sink: ""Parame ... s.param;sparkcore.js:74[16:41]::FLOW_DESCR_END","/sparkcore/sparkcore.js","46","29","46","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sparkcore.js:243[29:31];Sink: ""[OUT]: ... is.name;sparkcore.js:282[16:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sparkcore.js:243[29:31];Sink: url;sparkcore.js:286[5:7]::FLOW_DESCR_END","/sparkcore/sparkcore.js","243","29","243","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);sparkcore.js:327[21:59];Sink: JSON.st ... token});sparkcore.js:330[13:91]::FLOW_DESCR_END","/sparkcore/sparkcore.js","327","21","327","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);sparkcore.js:349[22:60];Sink: credentials;sparkcore.js:360[43:53]::FLOW_DESCR_END","/sparkcore/sparkcore.js","349","22","349","60"

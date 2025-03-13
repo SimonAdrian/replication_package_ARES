@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bus.js:137[35:37];Sink: msg;bus.js:142[32:34]::FLOW_DESCR_END","/nodes/bus.js","137","35","137","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device.js:144[35:37];Sink: msg;device.js:156[30:32]::FLOW_DESCR_END","/nodes/device.js","144","35","144","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;network.js:27[20:30];Sink: ""Succes ...  + port;network.js:82[26:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;network.js:27[20:30];Sink: port;network.js:375[67:70]::FLOW_DESCR_END","/nodes/network.js","27","20","27","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.deviceId;network.js:251[32:51];Sink: ""Invali ... eviceID;network.js:144[36:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;network.js:251[32:51];Sink: ""Target ... eviceID;network.js:169[36:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;network.js:251[32:51];Sink: ""Target ... eviceID;network.js:179[36:85]::FLOW_DESCR_END","/nodes/network.js","251","32","251","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;network.js:538[41:43];Sink: ""An Err ... "" + err;network.js:539[28:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;network.js:538[41:43];Sink: err;network.js:540[58:60]::FLOW_DESCR_END","/nodes/network.js","538","41","538","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;network.js:543[43:49];Sink: message;network.js:449[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;network.js:543[43:49];Sink: message;network.js:546[33:39]::FLOW_DESCR_END","/nodes/network.js","543","43","543","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;network.js:543[52:56];Sink: ""Incomi ... address;network.js:545[33:68]::FLOW_DESCR_END","/nodes/network.js","543","52","543","56"

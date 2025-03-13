@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... dentity;node-ikea.js:115[25:49];Sink: node.identity;node-ikea.js:222[42:54]::FLOW_DESCR_END","/node-ikea.js","115","25","115","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.credentials.psk;node-ikea.js:116[20:39];Sink: node.psk;node-ikea.js:222[57:64]::FLOW_DESCR_END","/node-ikea.js","116","20","116","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... {res}'`;node-ikea.js:500[35:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... ng()}'`;node-ikea.js:503[31:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... {res}'`;node-ikea.js:514[35:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... ng()}'`;node-ikea.js:517[31:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... {res}'`;node-ikea.js:528[35:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... ng()}'`;node-ikea.js:531[31:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... {res}'`;node-ikea.js:542[35:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-ikea.js:553[36:38];Sink: `[IKEA: ... ng()}'`;node-ikea.js:545[31:119]::FLOW_DESCR_END","/node-ikea.js","553","36","553","38"

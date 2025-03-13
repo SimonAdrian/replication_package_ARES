@@ -1,0 +1,55 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-dashboards.js:12[30:32];Sink: msg;powerbi-dashboards.js:23[16:18]::FLOW_DESCR_END","/powerbi-dashboards.js","12","30","12","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-dataset.js:18[29:31];Sink: msg;powerbi-dataset.js:26[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-dataset.js:18[29:31];Sink: [null, msg];powerbi-dataset.js:26[62:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-dataset.js:18[29:31];Sink: [null, msg];powerbi-dataset.js:31[15:25]::FLOW_DESCR_END","/powerbi-dataset.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-export.js:12[30:32];Sink: msg;powerbi-export.js:17[14:16]::FLOW_DESCR_END","/powerbi-export.js","12","30","12","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: msg;powerbi-gateways.js:26[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:26[62:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:34[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:40[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:47[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:54[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:88[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:104[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:110[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:126[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:142[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:148[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:164[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:170[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:186[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:192[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:200[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:208[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:216[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:224[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:232[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:240[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:248[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:280[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:286[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:294[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:302[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:310[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:318[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:326[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:352[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:358[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:366[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:387[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:393[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:401[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:418[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-gateways.js:18[29:31];Sink: [null, msg];powerbi-gateways.js:424[17:27]::FLOW_DESCR_END","/powerbi-gateways.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-groups.js:18[29:31];Sink: msg;powerbi-groups.js:26[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-groups.js:18[29:31];Sink: [null, msg];powerbi-groups.js:26[62:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-groups.js:18[29:31];Sink: [null, msg];powerbi-groups.js:32[16:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-groups.js:18[29:31];Sink: [null, msg];powerbi-groups.js:58[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-groups.js:18[29:31];Sink: [null, msg];powerbi-groups.js:91[17:27]::FLOW_DESCR_END","/powerbi-groups.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-import.js:12[29:31];Sink: msg;powerbi-import.js:35[15:17]::FLOW_DESCR_END","/powerbi-import.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;powerbi-reports.js:18[29:31];Sink: msg;powerbi-reports.js:28[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-reports.js:18[29:31];Sink: [null, msg];powerbi-reports.js:28[62:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-reports.js:18[29:31];Sink: [null, msg];powerbi-reports.js:35[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-reports.js:18[29:31];Sink: [null, msg];powerbi-reports.js:154[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-reports.js:18[29:31];Sink: [null, msg];powerbi-reports.js:223[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;powerbi-reports.js:18[29:31];Sink: [null, msg];powerbi-reports.js:258[17:27]::FLOW_DESCR_END","/powerbi-reports.js","18","29","18","31"

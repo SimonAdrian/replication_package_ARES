@@ -1,0 +1,1 @@
+Node-RED node for the Pressac Gateway

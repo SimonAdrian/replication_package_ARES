@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;panasonicprojector.js:17[20:30];Sink: port;panasonicprojector.js:180[20:23]::FLOW_DESCR_END","/panasonicprojector.js","17","20","17","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;panasonicprojector.js:29[31:35];Sink: ""Socket ... + error;panasonicprojector.js:31[18:41]::FLOW_DESCR_END","/panasonicprojector.js","29","31","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;panasonicprojector.js:38[35:37];Sink: msg;panasonicprojector.js:102[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;panasonicprojector.js:38[35:37];Sink: project ... rCase();panasonicprojector.js:158[17:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;panasonicprojector.js:38[35:37];Sink: project ... rCase();panasonicprojector.js:159[17:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;panasonicprojector.js:38[35:37];Sink: buffer;panasonicprojector.js:174[18:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;panasonicprojector.js:38[35:37];Sink: port;panasonicprojector.js:180[20:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;panasonicprojector.js:38[35:37];Sink: ipAddress;panasonicprojector.js:180[26:34]::FLOW_DESCR_END","/panasonicprojector.js","38","35","38","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.port;panasonicprojector.js:43[24:39];Sink: port;panasonicprojector.js:180[20:23]::FLOW_DESCR_END","/panasonicprojector.js","43","24","43","39"

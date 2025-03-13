@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;crestron-node-config.js:10[21:31];Sink: node.host;crestron-node-config.js:126[56:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;crestron-node-config.js:10[21:31];Sink: node.host;crestron-node-config.js:230[85:93]::FLOW_DESCR_END","/crestron-node-config.js","10","21","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;crestron-node-config.js:11[21:31];Sink: node.port;crestron-node-config.js:126[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;crestron-node-config.js:11[21:31];Sink: node.port;crestron-node-config.js:230[74:82]::FLOW_DESCR_END","/crestron-node-config.js","11","21","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;crestron-node-config.js:243[59:61];Sink: err;crestron-node-config.js:244[31:33]::FLOW_DESCR_END","/crestron-node-config.js","243","59","243","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crestron-node.js:19[32:34];Sink: tcpmsg;crestron-node.js:68[54:59]::FLOW_DESCR_END","/crestron-node.js","19","32","19","34"

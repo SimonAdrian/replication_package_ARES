@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:39[20:22];Sink: err + ' ... ect...';shc-config.js:66[43:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;shc-config.js:39[20:22];Sink: err;shc-config.js:70[28:30]::FLOW_DESCR_END","/nodes/shc-config.js","39","20","39","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;shc-config.js:106[64:67];Sink: 'Long p ... .pollid;shc-config.js:109[34:100]::FLOW_DESCR_END","/nodes/shc-config.js","106","64","106","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data._p ... .result;shc-config.js:108[39:65];Sink: 'Long p ... .pollid;shc-config.js:109[34:100]::FLOW_DESCR_END","/nodes/shc-config.js","108","39","108","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:114[20:22];Sink: err + ' ... ect...';shc-config.js:66[43:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;shc-config.js:114[20:22];Sink: err;shc-config.js:70[28:30]::FLOW_DESCR_END","/nodes/shc-config.js","114","20","114","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;shc-config.js:122[77:80];Sink: data._p ... .result;shc-config.js:125[49:75]::FLOW_DESCR_END","/nodes/shc-config.js","122","77","122","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:130[20:22];Sink: err + ' ... ect...';shc-config.js:66[43:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;shc-config.js:130[20:22];Sink: err;shc-config.js:70[28:30]::FLOW_DESCR_END","/nodes/shc-config.js","130","20","130","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:217[12:14];Sink: err;shc-config.js:226[29:31]::FLOW_DESCR_END","/nodes/shc-config.js","217","12","217","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:253[12:14];Sink: err;shc-config.js:254[25:27]::FLOW_DESCR_END","/nodes/shc-config.js","253","12","253","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:281[12:14];Sink: err;shc-config.js:282[25:27]::FLOW_DESCR_END","/nodes/shc-config.js","281","12","281","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:309[12:14];Sink: err;shc-config.js:310[25:27]::FLOW_DESCR_END","/nodes/shc-config.js","309","12","309","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:337[12:14];Sink: err;shc-config.js:338[25:27]::FLOW_DESCR_END","/nodes/shc-config.js","337","12","337","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:365[12:14];Sink: err;shc-config.js:366[25:27]::FLOW_DESCR_END","/nodes/shc-config.js","365","12","365","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;shc-config.js:393[12:14];Sink: err;shc-config.js:394[25:27]::FLOW_DESCR_END","/nodes/shc-config.js","393","12","393","14"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;shc-device.js:75[89:94];Sink: data.state;shc-device.js:111[72:81]::FLOW_DESCR_END","/nodes/shc-device.js","75","89","75","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;shc-device.js:91[103:108];Sink: data.state;shc-device.js:111[72:81]::FLOW_DESCR_END","/nodes/shc-device.js","91","103","91","108"

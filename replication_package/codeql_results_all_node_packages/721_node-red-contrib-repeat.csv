@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;repeat.js:5[31:33];Sink: msg;repeat.js:16[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;repeat.js:5[31:33];Sink: [null, msg];repeat.js:19[21:31]::FLOW_DESCR_END","/lib/repeat.js","5","31","5","33"

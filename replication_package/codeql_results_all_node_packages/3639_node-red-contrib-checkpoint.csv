@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;block.js:20[35:37];Sink: msg;block.js:28[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;block.js:20[35:37];Sink: msg;block.js:70[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;block.js:20[35:37];Sink: ""Blocked "" + ip;block.js:74[26:40]::FLOW_DESCR_END","/checkpoint/block.js","20","35","20","37"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;99-grohe.js:258[57:81];Sink: exception;99-grohe.js:301[51:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;99-grohe.js:258[57:81];Sink: exception;99-grohe.js:302[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;99-grohe.js:258[57:81];Sink: username;ondusApi.js:128[34:41]::FLOW_DESCR_END","/grohe/99-grohe.js","258","57","258","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;99-grohe.js:258[84:108];Sink: password;ondusApi.js:129[34:41]::FLOW_DESCR_END","/grohe/99-grohe.js","258","84","258","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;99-grohe.js:381[54:56];Sink: msg;99-grohe.js:441[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-grohe.js:381[54:56];Sink: [msg];99-grohe.js:495[39:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;99-grohe.js:381[54:56];Sink: msg;99-grohe.js:511[54:56]::FLOW_DESCR_END","/grohe/99-grohe.js","381","54","381","56"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-virtual-buttons.js:33[30:32];Sink: msg;alexa-virtual-buttons.js:98[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-virtual-buttons.js:33[30:32];Sink: msg;alexa-virtual-buttons.js:102[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-virtual-buttons.js:33[30:32];Sink: msg;alexa-virtual-buttons.js:128[19:21]::FLOW_DESCR_END","/alexa-virtual-buttons.js","33","30","33","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alexa-virtual-buttons.js:95[30:32];Sink: err;alexa-virtual-buttons.js:102[24:26]::FLOW_DESCR_END","/alexa-virtual-buttons.js","95","30","95","32"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);postgres.js:23[23:61];Sink: JSON.st ...      });postgres.js:25[16:8]::FLOW_DESCR_END","/postgres.js","23","23","23","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);postgres.js:46[25:63];Sink: credentials;postgres.js:57[47:57]::FLOW_DESCR_END","/postgres.js","46","25","46","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;postgres.js:119[31:33];Sink: msg;postgres.js:112[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postgres.js:119[31:33];Sink: msg.payload;postgres.js:114[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postgres.js:119[31:33];Sink: outMsg;postgres.js:163[23:28]::FLOW_DESCR_END","/postgres.js","119","31","119","33"

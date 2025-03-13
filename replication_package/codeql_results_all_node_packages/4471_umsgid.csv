@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;umsgid.js:20[34:36];Sink: msg;umsgid.js:29[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;umsgid.js:20[34:36];Sink: msg;umsgid.js:35[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;umsgid.js:20[34:36];Sink: msg;umsgid.js:53[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;umsgid.js:20[34:36];Sink: msg;umsgid.js:59[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;umsgid.js:20[34:36];Sink: msg;umsgid.js:65[43:45]::FLOW_DESCR_END","/umsgid.js","20","34","20","36"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sequence-detector.js:18[35:37];Sink: [msg, null];sequence-detector.js:32[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequence-detector.js:18[35:37];Sink: [null, msg];sequence-detector.js:40[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequence-detector.js:18[35:37];Sink: [null, msg];sequence-detector.js:49[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequence-detector.js:18[35:37];Sink: msg;sequence-detector.js:64[37:39]::FLOW_DESCR_END","/sequence-detector.js","18","35","18","37"

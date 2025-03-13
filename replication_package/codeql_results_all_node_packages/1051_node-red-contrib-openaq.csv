@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-cities.js:39[31:33];Sink: msg;openaq-cities.js:64[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-cities.js:39[31:33];Sink: msg;openaq-cities.js:69[19:21]::FLOW_DESCR_END","/cities/openaq-cities.js","39","31","39","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-countries.js:39[31:33];Sink: msg;openaq-countries.js:63[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-countries.js:39[31:33];Sink: msg;openaq-countries.js:68[19:21]::FLOW_DESCR_END","/countries/openaq-countries.js","39","31","39","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-latest.js:39[31:33];Sink: msg;openaq-latest.js:71[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-latest.js:39[31:33];Sink: msg;openaq-latest.js:77[21:23]::FLOW_DESCR_END","/latest/openaq-latest.js","39","31","39","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-locations.js:45[31:33];Sink: msg;openaq-locations.js:85[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-locations.js:45[31:33];Sink: msg;openaq-locations.js:90[20:22]::FLOW_DESCR_END","/locations/openaq-locations.js","45","31","45","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-measurements.js:39[31:33];Sink: msg;openaq-measurements.js:75[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-measurements.js:39[31:33];Sink: msg;openaq-measurements.js:81[22:24]::FLOW_DESCR_END","/measurements/openaq-measurements.js","39","31","39","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-parameters.js:39[31:33];Sink: msg;openaq-parameters.js:59[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-parameters.js:39[31:33];Sink: msg;openaq-parameters.js:64[19:21]::FLOW_DESCR_END","/parameters/openaq-parameters.js","39","31","39","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openaq-sources.js:39[31:33];Sink: msg;openaq-sources.js:63[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openaq-sources.js:39[31:33];Sink: msg;openaq-sources.js:68[19:21]::FLOW_DESCR_END","/sources/openaq-sources.js","39","31","39","33"

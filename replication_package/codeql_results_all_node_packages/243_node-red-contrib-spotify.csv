@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);authorize.js:64[29:61];Sink: credentials;authorize.js:88[47:57]::FLOW_DESCR_END","/src/authorize.js","64","29","64","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spotify.js:18[36:38];Sink: msg;spotify.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spotify.js:18[36:38];Sink: msg;spotify.js:40[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spotify.js:18[36:38];Sink: msg;spotify.js:44[27:29]::FLOW_DESCR_END","/src/spotify.js","18","36","18","38"

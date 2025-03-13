@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:23[32:34];Sink: msg;auth.js:39[27:29]::FLOW_DESCR_END","/nodes/auth/auth.js","23","32","23","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getLastMessage.js:13[33:35];Sink: msg;getLastMessage.js:20[27:29]::FLOW_DESCR_END","/nodes/getLastMessage/getLastMessage.js","13","33","13","35"

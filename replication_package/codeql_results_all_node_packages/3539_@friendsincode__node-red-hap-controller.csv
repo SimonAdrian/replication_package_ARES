@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-accessories-get.js:8[42:44];Sink: msg;homekit-accessories-get.js:20[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-accessories-get.js:8[42:44];Sink: `${service.name}:`;homekit-accessories-get.js:22[31:48]::FLOW_DESCR_END","/homekit-accessories-get.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-characteristic-set.js:8[42:44];Sink: msg;homekit-characteristic-set.js:20[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-characteristic-set.js:8[42:44];Sink: `${service.name}:`;homekit-characteristic-set.js:22[31:48]::FLOW_DESCR_END","/homekit-characteristic-set.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-characteristics-get.js:8[42:44];Sink: msg;homekit-characteristics-get.js:20[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-characteristics-get.js:8[42:44];Sink: `${service.name}:`;homekit-characteristics-get.js:22[31:48]::FLOW_DESCR_END","/homekit-characteristics-get.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-characteristics-subscribe.js:9[23:25];Sink: `${serv ... ribed!`;homekit-characteristics-subscribe.js:18[21:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-characteristics-subscribe.js:9[23:25];Sink: `${service.name}:`;homekit-characteristics-subscribe.js:20[23:40]::FLOW_DESCR_END","/homekit-characteristics-subscribe.js","9","23","9","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service;homekit-characteristics-subscribe.js:29[34:40];Sink: `Found  ... .name}`;homekit-characteristics-subscribe.js:30[15:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;homekit-characteristics-subscribe.js:29[34:40];Sink: `${serv ... ribed!`;homekit-characteristics-subscribe.js:58[17:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;homekit-characteristics-subscribe.js:29[34:40];Sink: `${service.name}:`;homekit-characteristics-subscribe.js:60[19:36]::FLOW_DESCR_END","/homekit-characteristics-subscribe.js","29","34","29","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev;homekit-characteristics-subscribe.js:35[29:30];Sink: `Event: ... l, 2)}`;homekit-characteristics-subscribe.js:36[17:55]::FLOW_DESCR_END","/homekit-characteristics-subscribe.js","35","29","35","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: formerSubscribes;homekit-characteristics-subscribe.js:49[34:49];Sink: `Discon ... l, 2)}`;homekit-characteristics-subscribe.js:50[17:76]::FLOW_DESCR_END","/homekit-characteristics-subscribe.js","49","34","49","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;homekit-device.html:29[63:67];Sink: event;homekit-device.html:30[21:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;homekit-device.html:29[63:67];Sink: selectedValue;homekit-device.html:33[21:33]::FLOW_DESCR_END","/homekit-device.html","29","63","29","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-device.js:63[38:40];Sink: msg;homekit-device.js:73[17:19]::FLOW_DESCR_END","/homekit-device.js","63","38","63","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-discovery.js:29[32:34];Sink: msg;homekit-discovery.js:36[17:19]::FLOW_DESCR_END","/homekit-discovery.js","29","32","29","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-identify.js:7[36:38];Sink: msg;homekit-identify.js:16[23:25]::FLOW_DESCR_END","/homekit-identify.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-pair.js:11[38:40];Sink: `${serv ... gData}`;homekit-pair.js:26[25:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-pair.js:11[38:40];Sink: [msg, p ... , null];homekit-pair.js:42[23:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-pair.js:11[38:40];Sink: `${service.name}: `;homekit-pair.js:44[27:45]::FLOW_DESCR_END","/homekit-pair.js","11","38","11","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;homekit-unpair.js:12[38:40];Sink: [msg, null];homekit-unpair.js:30[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;homekit-unpair.js:12[38:40];Sink: `${msg. ... name}:`;homekit-unpair.js:33[27:48]::FLOW_DESCR_END","/homekit-unpair.js","12","38","12","40"

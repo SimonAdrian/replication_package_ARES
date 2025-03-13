@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: query;node-red-contrib-neo4j-driver.js:21[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: params;node-red-contrib-neo4j-driver.js:21[36:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: query;node-red-contrib-neo4j-driver.js:25[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: params;node-red-contrib-neo4j-driver.js:25[36:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: msg;node-red-contrib-neo4j-driver.js:45[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: msg;node-red-contrib-neo4j-driver.js:52[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-neo4j-driver.js:8[38:40];Sink: msg;node-red-contrib-neo4j-driver.js:54[17:19]::FLOW_DESCR_END","/node-red-contrib-neo4j-driver.js","8","38","8","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.uri;node-red-contrib-neo4j-driver.js:11[34:48];Sink: uri;neo4j.js:9[15:17]::FLOW_DESCR_END","/node-red-contrib-neo4j-driver.js","11","34","11","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.username;node-red-contrib-neo4j-driver.js:11[51:70];Sink: username;neo4j.js:9[20:27]::FLOW_DESCR_END","/node-red-contrib-neo4j-driver.js","11","51","11","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;node-red-contrib-neo4j-driver.js:11[73:92];Sink: password;neo4j.js:9[30:37]::FLOW_DESCR_END","/node-red-contrib-neo4j-driver.js","11","73","11","92"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clickhouse.js:8[41:43];Sink: msg;clickhouse.js:35[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clickhouse.js:8[41:43];Sink: msg;clickhouse.js:37[35:37]::FLOW_DESCR_END","/clickhouse.js","8","41","8","43"

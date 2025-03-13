@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp.js:95[26:28];Sink: localFilename;ftp.js:108[58:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:95[26:28];Sink: filename;ftp.js:122[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:95[26:28];Sink: localFilename;ftp.js:125[34:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:95[26:28];Sink: filename;ftp.js:125[49:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp.js:95[26:28];Sink: Object. ...      });ftp.js:146[38:18]::FLOW_DESCR_END","/ftp.js","95","26","95","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ftp.js:135[34:36];Sink: e;ftp.js:153[38:38]::FLOW_DESCR_END","/ftp.js","135","34","135","36"

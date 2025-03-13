@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hal-bundle.js:36[35:37];Sink: queue[0];hal-bundle.js:18[31:38]::FLOW_DESCR_END","/core/hal-bundle.js","36","35","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hal-gate.js:72[35:37];Sink: [msg,null];hal-gate.js:74[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hal-gate.js:72[35:37];Sink: [null,msg];hal-gate.js:76[27:36]::FLOW_DESCR_END","/core/hal-gate.js","72","35","72","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hal-item.js:77[35:37];Sink: msg;hal-item.js:81[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hal-item.js:77[35:37];Sink: msg;hal-item.js:187[27:29]::FLOW_DESCR_END","/core/hal-item.js","77","35","77","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hal-value.js:9[35:37];Sink: msg;hal-value.js:26[23:25]::FLOW_DESCR_END","/core/hal-value.js","9","35","9","37"

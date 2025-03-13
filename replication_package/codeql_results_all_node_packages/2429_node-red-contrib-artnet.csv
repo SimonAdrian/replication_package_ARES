@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: channel;node-red-contrib-artnet.js:43[22:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: channel;node-red-contrib-artnet.js:81[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: value;node-red-contrib-artnet.js:81[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: payload ... channel;node-red-contrib-artnet.js:130[30:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: payload ... ].value;node-red-contrib-artnet.js:130[64:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: payload.channel;node-red-contrib-artnet.js:165[30:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: payload.value;node-red-contrib-artnet.js:165[47:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: transition;node-red-contrib-artnet.js:165[62:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: payload ... channel;node-red-contrib-artnet.js:169[34:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: payload ... ].value;node-red-contrib-artnet.js:169[62:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: transition;node-red-contrib-artnet.js:169[88:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: channel;node-red-contrib-artnet.js:181[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: channel;node-red-contrib-artnet.js:208[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: arcConf ... channel;node-red-contrib-artnet.js:334[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: arcConf ... channel;node-red-contrib-artnet.js:335[30:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: arcConf ... channel;node-red-contrib-artnet.js:348[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: arcConf ... channel;node-red-contrib-artnet.js:349[30:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: arcConf ... channel;node-red-contrib-artnet.js:360[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-artnet.js:117[36:38];Sink: arcConf ... channel;node-red-contrib-artnet.js:361[30:50]::FLOW_DESCR_END","/node-red-contrib-artnet.js","117","36","117","38"

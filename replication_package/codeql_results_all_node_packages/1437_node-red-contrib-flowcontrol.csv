@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flowcontrol.js:46[35:37];Sink: topic;flowcontrol.js:31[25:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flowcontrol.js:46[35:37];Sink: topic;flowcontrol.js:34[16:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flowcontrol.js:46[35:37];Sink: g;flowcontrol.js:34[22:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flowcontrol.js:46[35:37];Sink: msg;flowcontrol.js:158[19:21]::FLOW_DESCR_END","/flowcontrol.js","46","35","46","37"

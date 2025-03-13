@@ -1,0 +1,62 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;dashboard-calendar.js:34[25:39];Sink: JSON.st ... icData);dashboard-calendar.js:91[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;dashboard-calendar.js:34[25:39];Sink: JSON.st ... ayload);dashboard-calendar.js:172[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;dashboard-calendar.js:34[25:39];Sink: JSON.st ... newMsg);dashboard-calendar.js:293[30:51]::FLOW_DESCR_END","/dashboard-calendar.js","34","25","34","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dashboard-calendar.js:46[36:38];Sink: ""Flow i ... fy(msg);dashboard-calendar.js:47[22:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dashboard-calendar.js:46[36:38];Sink: JSON.st ... icData);dashboard-calendar.js:91[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dashboard-calendar.js:46[36:38];Sink: encodeU ... essage);snap4city-utility.js:70[25:272]::FLOW_DESCR_END","/dashboard-calendar.js","46","36","46","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-calendar.js:83[23:35];Sink: JSON.st ... icData);dashboard-calendar.js:91[34:62]::FLOW_DESCR_END","/dashboard-calendar.js","83","23","83","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-calendar.js:140[27:39];Sink: JSON.st ... ayload);dashboard-calendar.js:172[38:60]::FLOW_DESCR_END","/dashboard-calendar.js","140","27","140","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dashboard-calendar.js:190[44:47];Sink: JSON.st ... ayload);dashboard-calendar.js:172[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-calendar.js:190[44:47];Sink: response;dashboard-calendar.js:192[22:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-calendar.js:190[44:47];Sink: ""WebSoc ... .result;dashboard-calendar.js:205[34:148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-calendar.js:190[44:47];Sink: response.error;dashboard-calendar.js:211[36:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-calendar.js:190[44:47];Sink: ""WebSoc ... .result;dashboard-calendar.js:220[34:146]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-calendar.js:190[44:47];Sink: response.msgType;dashboard-calendar.js:228[30:45]::FLOW_DESCR_END","/dashboard-calendar.js","190","44","190","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;dashboard-calendar.js:233[42:42];Sink: ""dashbo ... n "" + e;dashboard-calendar.js:235[22:60]::FLOW_DESCR_END","/dashboard-calendar.js","233","42","233","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;dashboard-calendar.js:274[42:42];Sink: ""dashbo ... : "" + e;dashboard-calendar.js:275[22:90]::FLOW_DESCR_END","/dashboard-calendar.js","274","42","274","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-calendar.js:285[23:35];Sink: JSON.st ... newMsg);dashboard-calendar.js:293[30:51]::FLOW_DESCR_END","/dashboard-calendar.js","285","23","285","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;dashboard-snap4d3.js:35[25:39];Sink: metricDataAsJson;dashboard-snap4d3.js:91[34:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;dashboard-snap4d3.js:35[25:39];Sink: JSON.st ... Metric);dashboard-snap4d3.js:217[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;dashboard-snap4d3.js:35[25:39];Sink: JSON.st ... mitter);dashboard-snap4d3.js:218[34:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;dashboard-snap4d3.js:35[25:39];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:429[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;dashboard-snap4d3.js:35[25:39];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:450[30:51]::FLOW_DESCR_END","/dashboard-snap4d3.js","35","25","35","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-snap4d3.js:78[23:35];Sink: metricDataAsJson;dashboard-snap4d3.js:91[34:49]::FLOW_DESCR_END","/dashboard-snap4d3.js","78","23","78","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dashboard-snap4d3.js:100[36:38];Sink: metricDataAsJson;dashboard-snap4d3.js:91[34:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dashboard-snap4d3.js:100[36:38];Sink: encodeU ... essage);snap4city-utility.js:70[25:272]::FLOW_DESCR_END","/dashboard-snap4d3.js","100","36","100","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-snap4d3.js:159[23:35];Sink: JSON.st ... mitter);dashboard-snap4d3.js:218[34:63]::FLOW_DESCR_END","/dashboard-snap4d3.js","159","23","159","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-snap4d3.js:187[23:35];Sink: JSON.st ... Metric);dashboard-snap4d3.js:217[34:62]::FLOW_DESCR_END","/dashboard-snap4d3.js","187","23","187","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dashboard-snap4d3.js:278[44:47];Sink: response.error;dashboard-snap4d3.js:303[32:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-snap4d3.js:278[44:47];Sink: JSON.st ...      });dashboard-snap4d3.js:345[34:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;dashboard-snap4d3.js:278[44:47];Sink: encodeU ... essage);snap4city-utility.js:70[25:272]::FLOW_DESCR_END","/dashboard-snap4d3.js","278","44","278","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-snap4d3.js:421[23:35];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:429[30:51]::FLOW_DESCR_END","/dashboard-snap4d3.js","421","23","421","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;dashboard-snap4d3.js:442[23:35];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:450[30:51]::FLOW_DESCR_END","/dashboard-snap4d3.js","442","23","442","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... shToken;snap4city-authentication-d3.js:113[32:60];Sink: ""Refres ... shToken;snap4city-authentication-d3.js:114[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... shToken;snap4city-authentication-d3.js:113[32:60];Sink: params;snap4city-authentication-d3.js:126[26:31]::FLOW_DESCR_END","/snap4city-authentication-d3.js","113","32","113","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;snap4city-authentication-d3.js:116[162:182];Sink: params;snap4city-authentication-d3.js:126[26:31]::FLOW_DESCR_END","/snap4city-authentication-d3.js","116","162","116","182"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;snap4city-authentication-d3.js:116[220:244];Sink: params;snap4city-authentication-d3.js:126[26:31]::FLOW_DESCR_END","/snap4city-authentication-d3.js","116","220","116","244"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:89[32:78];Sink: params;snap4city-utility.js:97[26:31]::FLOW_DESCR_END","/snap4city-utility.js","89","32","89","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:149[32:78];Sink: params;snap4city-utility.js:157[26:31]::FLOW_DESCR_END","/snap4city-utility.js","149","32","149","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... icData);dashboard-calendar.js:91[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... ayload);dashboard-calendar.js:172[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... newMsg);dashboard-calendar.js:293[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: metricDataAsJson;dashboard-snap4d3.js:91[34:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... Metric);dashboard-snap4d3.js:217[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... mitter);dashboard-snap4d3.js:218[34:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:429[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:178[20:83];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:450[30:51]::FLOW_DESCR_END","/snap4city-utility.js","178","20","178","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... icData);dashboard-calendar.js:91[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... ayload);dashboard-calendar.js:172[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... newMsg);dashboard-calendar.js:293[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: metricDataAsJson;dashboard-snap4d3.js:91[34:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... Metric);dashboard-snap4d3.js:217[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... mitter);dashboard-snap4d3.js:218[34:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:429[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:184[20:83];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:450[30:51]::FLOW_DESCR_END","/snap4city-utility.js","184","20","184","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... icData);dashboard-calendar.js:91[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... ayload);dashboard-calendar.js:172[38:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... newMsg);dashboard-calendar.js:293[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: metricDataAsJson;dashboard-snap4d3.js:91[34:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... Metric);dashboard-snap4d3.js:217[34:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... mitter);dashboard-snap4d3.js:218[34:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:429[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:192[20:83];Sink: JSON.st ... newMsg);dashboard-snap4d3.js:450[30:51]::FLOW_DESCR_END","/snap4city-utility.js","192","20","192","83"

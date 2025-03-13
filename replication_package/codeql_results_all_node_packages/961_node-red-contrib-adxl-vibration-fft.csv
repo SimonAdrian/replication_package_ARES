@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[3088:3088];Sink: ""[RAW M ... odySize;adxl-fft-client.js:16[3486:3531]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[3088:3088];Sink: ""[fft-d ... command;adxl-fft-client.js:16[4052:4100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[3088:3088];Sink: `[_pars ... ength}`;adxl-fft-client.js:16[6257:6307]::FLOW_DESCR_END","/dist/adxl-fft-client.js","16","3088","16","3088"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[4042:4042];Sink: ""[fft-d ... command;adxl-fft-client.js:16[4052:4100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[4042:4042];Sink: e.body;adxl-fft-client.js:16[4150:4155]::FLOW_DESCR_END","/dist/adxl-fft-client.js","16","4042","16","4042"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;adxl-fft-client.js:16[4455:4455];Sink: ""[Seria ... t.stack;adxl-fft-client.js:16[4465:4493]::FLOW_DESCR_END","/dist/adxl-fft-client.js","16","4455","16","4455"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: `res(text):[${i}]`;adxl-fft-client.js:16[1969:1986]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: ""[RAW M ... odySize;adxl-fft-client.js:16[3486:3531]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: ""[fft-d ... command;adxl-fft-client.js:16[4052:4100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: t;adxl-fft-client.js:16[5191:5191]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: e;adxl-fft-client.js:16[5240:5240]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: e;adxl-fft-client.js:16[5264:5264]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;adxl-fft-client.js:16[5040:5040];Sink: `[_pars ... ength}`;adxl-fft-client.js:16[6257:6307]::FLOW_DESCR_END","/dist/adxl-fft-client.js","16","5040","16","5040"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;adxl-fft.js:17[881:881];Sink: e.raw;adxl-fft-client.js:16[8782:8786]::FLOW_DESCR_END","/dist/adxl-fft.js","17","881","17","881"

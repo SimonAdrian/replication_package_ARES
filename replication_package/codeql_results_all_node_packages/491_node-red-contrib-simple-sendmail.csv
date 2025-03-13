@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple-sendmail.js:6[31:33];Sink: mailOptions;simple-sendmail.js:11[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple-sendmail.js:6[31:33];Sink: msg;simple-sendmail.js:18[23:25]::FLOW_DESCR_END","/simple-sendmail.js","6","31","6","33"

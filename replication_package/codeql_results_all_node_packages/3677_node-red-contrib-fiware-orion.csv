@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;orion.js:141[88:93];Sink: ""------ ... result);orion.js:142[18:76]::FLOW_DESCR_END","/application/orion.js","141","88","141","93"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;orion.js:302[18:37];Sink: ""--requ ... payload;orion.js:314[17:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: credentials.password;orion.js:302[18:37];Sink: payload;orion.js:334[15:21]::FLOW_DESCR_END","/application/orion.js","302","18","302","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;orion.js:318[29:33];Sink: ""--reso ... + token;orion.js:323[19:46]::FLOW_DESCR_END","/application/orion.js","318","29","318","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: orionUr ... ontext"";orion.js:141[42:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: ""subscr ... rionUrl;orion.js:150[19:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: ""URL:  "" + url;orion.js:509[15:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: orionUr ... ontext"";orion.js:596[48:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: orionUr ... ontext"";orion.js:599[46:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: orionUr ... ontext"";orion.js:626[48:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;orion.js:455[44:49];Sink: orionUr ... ontext"";orion.js:645[57:86]::FLOW_DESCR_END","/application/orion.js","455","44","455","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: subscription;orion.js:599[95:106];Sink: ""in uns ... tionId);orion.js:236[18:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: subscription;orion.js:599[95:106];Sink: ""Unsubs ... ptionId;orion.js:268[19:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: subscription;orion.js:599[95:106];Sink: payload;orion.js:278[15:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: subscription;orion.js:599[95:106];Sink: ""Unsubs ... fy(res);orion.js:586[19:106]::FLOW_DESCR_END","/application/orion.js","599","95","599","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:790[28:30];Sink: msg;orion.js:834[20:22]::FLOW_DESCR_END","/application/orion.js","790","28","790","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:882[28:30];Sink: msg;orion.js:900[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:882[28:30];Sink: ""msg: "" ... fy(msg);orion.js:907[18:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:882[28:30];Sink: ""attrib ... ributes;orion.js:922[18:45]::FLOW_DESCR_END","/application/orion.js","882","28","882","30"

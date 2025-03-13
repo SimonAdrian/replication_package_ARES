@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wakeword.js:115[39:41];Sink: err;wakeword.js:117[28:30]::FLOW_DESCR_END","/wakeword.js","115","39","115","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wakeword.js:238[35:37];Sink: [null,msg];wakeword.js:341[57:66]::FLOW_DESCR_END","/wakeword.js","238","35","238","37"

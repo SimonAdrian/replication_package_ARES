@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-content-moderator.js:19[27:30];Sink: data;node-content-moderator.js:86[26:29]::FLOW_DESCR_END","/node-content-moderator.js","19","27","19","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-content-moderator.js:83[19:21];Sink: err;node-content-moderator.js:84[36:38]::FLOW_DESCR_END","/node-content-moderator.js","83","19","83","21"

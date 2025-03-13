@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;80_slack_credentials.js:28[51:53];Sink: 'Bogus! ... ' + err;80_slack_credentials.js:29[32:71]::FLOW_DESCR_END","/slack/80_slack_credentials.js","28","51","28","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;81_slack_send.js:16[40:46];Sink: 'Sendin ...  + chan;81_slack_send.js:20[26:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;81_slack_send.js:16[40:46];Sink: message.payload;81_slack_send.js:26[47:61]::FLOW_DESCR_END","/slack/81_slack_send.js","16","40","16","46"

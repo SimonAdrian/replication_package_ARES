@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mysql2.js:47[33:35];Sink: msg;mysql2.js:23[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mysql2.js:47[33:35];Sink: server;mysql2.js:52[64:69]::FLOW_DESCR_END","/nodes/mysql2.js","47","33","47","35"

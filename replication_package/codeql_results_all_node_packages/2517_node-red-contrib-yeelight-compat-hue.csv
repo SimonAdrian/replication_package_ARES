@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;yeelight-compat-hue-config.js:125[20:30];Sink: 'Connec ...  + host;yeelight-compat-hue-config.js:164[22:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;yeelight-compat-hue-config.js:125[20:30];Sink: 'Discon ...  + host;yeelight-compat-hue-config.js:171[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;yeelight-compat-hue-config.js:125[20:30];Sink: 'Error at ' + host;yeelight-compat-hue-config.js:175[27:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;yeelight-compat-hue-config.js:125[20:30];Sink: 'Connec ...  + host;yeelight-compat-hue-config.js:183[22:53]::FLOW_DESCR_END","/dist/yeelight-compat-hue-config.js","125","20","125","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;yeelight-compat-hue-config.js:174[56:60];Sink: error;yeelight-compat-hue-config.js:175[47:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;yeelight-compat-hue-config.js:174[56:60];Sink: error.c ... nknown';yeelight-compat-hue-config.js:179[40:62]::FLOW_DESCR_END","/dist/yeelight-compat-hue-config.js","174","56","174","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;yeelight-compat-hue-out.js:297[40:42];Sink: 'Yeelig ... payload;yeelight-compat-hue-out.js:302[39:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;yeelight-compat-hue-out.js:297[40:42];Sink: 'Yeelig ... payload;yeelight-compat-hue-out.js:307[35:77]::FLOW_DESCR_END","/dist/yeelight-compat-hue-out.js","297","40","297","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;yeelight-compat-hue-state.js:295[40:42];Sink: msg;yeelight-compat-hue-state.js:300[31:33]::FLOW_DESCR_END","/dist/yeelight-compat-hue-state.js","295","40","295","42"

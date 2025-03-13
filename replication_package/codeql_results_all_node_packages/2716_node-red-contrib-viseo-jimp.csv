@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:31[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [data, null];node-jimp.js:37[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:52[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:65[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:78[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:110[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:124[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:137[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:142[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [data, null];node-jimp.js:152[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:155[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [null, data];node-jimp.js:163[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-jimp.js:13[27:30];Sink: [data, null];node-jimp.js:166[26:37]::FLOW_DESCR_END","/node-jimp.js","13","27","13","30"

@@ -1,0 +1,32 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket;server.js:46[69:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket;server.js:55[44:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket._id;server.js:60[45:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket;server.js:60[57:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket;server.js:61[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket_id;server.js:429[43:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket_id;server.js:495[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket_id;server.js:530[55:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:36[36:41];Sink: socket_id;server.js:532[45:53]::FLOW_DESCR_END","/lib/rpc-websockets/build-ts/lib/server.js","36","36","36","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;server.js:36[44:50];Sink: socket._id;server.js:60[45:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: request;server.js:36[44:50];Sink: request;server.js:61[45:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: request;server.js:36[44:50];Sink: socket_id;server.js:429[43:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: request;server.js:36[44:50];Sink: socket_id;server.js:495[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: request;server.js:36[44:50];Sink: socket_id;server.js:530[55:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: request;server.js:36[44:50];Sink: socket_id;server.js:532[45:53]::FLOW_DESCR_END","/lib/rpc-websockets/build-ts/lib/server.js","36","44","36","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:46[33:37];Sink: error;server.js:46[77:81]::FLOW_DESCR_END","/lib/rpc-websockets/build-ts/lib/server.js","46","33","46","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:64[31:35];Sink: error;server.js:64[60:64]::FLOW_DESCR_END","/lib/rpc-websockets/build-ts/lib/server.js","64","31","64","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;server.js:93[42:47];Sink: socket;server.js:102[43:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:93[42:47];Sink: socket;server.js:116[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:93[42:47];Sink: socket._id;server.js:120[40:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:93[42:47];Sink: socket;server.js:120[52:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;server.js:93[42:47];Sink: socket;server.js:122[32:37]::FLOW_DESCR_END","/lib/rpc-websockets/dist/lib/server.js","93","42","93","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;server.js:93[50:56];Sink: request;server.js:122[40:46]::FLOW_DESCR_END","/lib/rpc-websockets/dist/lib/server.js","93","50","93","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:101[36:40];Sink: error;server.js:102[51:55]::FLOW_DESCR_END","/lib/rpc-websockets/dist/lib/server.js","101","36","101","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:127[37:41];Sink: error;server.js:128[34:38]::FLOW_DESCR_END","/lib/rpc-websockets/dist/lib/server.js","127","37","127","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;in.js:252[48:51];Sink: data.topic;in.js:219[37:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;in.js:252[48:51];Sink: data;in.js:219[49:52]::FLOW_DESCR_END","/nodes/in.js","252","48","252","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;out.js:30[44:50];Sink: message;out.js:70[47:53]::FLOW_DESCR_END","/nodes/out.js","30","44","30","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.host;server.js:37[41:56];Sink: address;index.js:70[53:59]::FLOW_DESCR_END","/nodes/server.js","37","41","37","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... i_email;server.js:64[46:71];Sink: 'Logged ... i_email;server.js:64[28:71]::FLOW_DESCR_END","/nodes/server.js","64","46","64","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;server.js:237[42:52];Sink: address;index.js:70[53:59]::FLOW_DESCR_END","/nodes/server.js","237","42","237","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;server.js:237[62:72];Sink: address;index.js:70[53:59]::FLOW_DESCR_END","/nodes/server.js","237","62","237","72"

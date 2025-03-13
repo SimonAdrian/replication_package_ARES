@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:15[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:61[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:78[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:123[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:140[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:185[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics-ja.js:9[35:37];Sink: msg;textanalytics-ja.js:202[43:45]::FLOW_DESCR_END","/textanalytics-ja.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textanalytics-ja.js:42[53:57];Sink: error;textanalytics-ja.js:72[44:48]::FLOW_DESCR_END","/textanalytics-ja.js","42","53","42","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textanalytics-ja.js:42[60:67];Sink: ""respon ... y(body);textanalytics-ja.js:49[45:123]::FLOW_DESCR_END","/textanalytics-ja.js","42","60","42","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;textanalytics-ja.js:42[70:73];Sink: ""respon ... y(body);textanalytics-ja.js:49[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;textanalytics-ja.js:42[70:73];Sink: body;textanalytics-ja.js:66[48:51]::FLOW_DESCR_END","/textanalytics-ja.js","42","70","42","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textanalytics-ja.js:104[53:57];Sink: error;textanalytics-ja.js:134[44:48]::FLOW_DESCR_END","/textanalytics-ja.js","104","53","104","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textanalytics-ja.js:104[60:67];Sink: ""respon ... y(body);textanalytics-ja.js:111[45:123]::FLOW_DESCR_END","/textanalytics-ja.js","104","60","104","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;textanalytics-ja.js:104[70:73];Sink: ""respon ... y(body);textanalytics-ja.js:111[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;textanalytics-ja.js:104[70:73];Sink: body;textanalytics-ja.js:128[48:51]::FLOW_DESCR_END","/textanalytics-ja.js","104","70","104","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textanalytics-ja.js:166[53:57];Sink: error;textanalytics-ja.js:196[44:48]::FLOW_DESCR_END","/textanalytics-ja.js","166","53","166","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textanalytics-ja.js:166[60:67];Sink: ""respon ... y(body);textanalytics-ja.js:173[45:123]::FLOW_DESCR_END","/textanalytics-ja.js","166","60","166","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;textanalytics-ja.js:166[70:73];Sink: ""respon ... y(body);textanalytics-ja.js:173[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;textanalytics-ja.js:166[70:73];Sink: body;textanalytics-ja.js:190[48:51]::FLOW_DESCR_END","/textanalytics-ja.js","166","70","166","73"

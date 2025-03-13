@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forex.js:12[27:29];Sink: `Reques ... | ""?""}`;forex.js:37[16:66]::FLOW_DESCR_END","/src/forex.js","12","27","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stock-daily.js:12[27:29];Sink: `Bad ""o ... Size}""`;stock-daily.js:35[16:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stock-daily.js:12[27:29];Sink: `Reques ... ymbol}`;stock-daily.js:40[16:70]::FLOW_DESCR_END","/src/stock-daily.js","12","27","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stock-intraday.js:12[27:29];Sink: `Bad ""i ... lStr}""`;stock-intraday.js:43[16:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stock-intraday.js:12[27:29];Sink: `Bad ""o ... Size}""`;stock-intraday.js:49[16:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;stock-intraday.js:12[27:29];Sink: `Reques ... terval`;stock-intraday.js:54[16:90]::FLOW_DESCR_END","/src/stock-intraday.js","12","27","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stock-quote.js:12[27:29];Sink: `Reques ... ymbol}`;stock-quote.js:33[16:58]::FLOW_DESCR_END","/src/stock-quote.js","12","27","12","29"

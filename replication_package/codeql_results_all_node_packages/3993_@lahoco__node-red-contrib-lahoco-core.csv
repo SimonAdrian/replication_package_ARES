@@ -1,0 +1,68 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-blind.js:43[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-blind.js","43","36","43","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-heating.js:43[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-heating.js","43","36","43","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-light.js:42[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-light.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-scene.js:41[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-scene.js","41","36","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-sensor.js:41[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-sensor.js","41","36","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-switch.js:42[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-switch.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: msg[command];NodeWorker.js:129[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: `The va ... oolean`;NodeWorker.js:131[45:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: msg[command];NodeWorker.js:137[205:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: `The va ... .max}]`;NodeWorker.js:139[45:184]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: tab[0];NodeWorker.js:145[205:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: tab[1];NodeWorker.js:145[213:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: tab[2];NodeWorker.js:145[221:226]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: `The va ... size 3`;NodeWorker.js:147[45:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lahoco-watering.js:42[36:38];Sink: msg[command];NodeWorker.js:154[201:212]::FLOW_DESCR_END","/lahoco/lahoco-watering.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;NodeWorker.js:53[26:32];Sink: valuesTab;Devices.js:145[36:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;NodeWorker.js:53[26:32];Sink: message;LhcpDecoder.js:49[60:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;NodeWorker.js:53[26:32];Sink: message;LhcpDecoder.js:71[55:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;NodeWorker.js:53[26:32];Sink: message;LhcpDecoder.js:78[64:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;NodeWorker.js:53[26:32];Sink: convertedData;LhcpDecoder.js:134[52:64]::FLOW_DESCR_END","/lahoco/workers/nodes/NodeWorker.js","53","26","53","32"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;csvtojson_ex.js:83[35:37];Sink: msg;csvtojson_ex.js:116[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;csvtojson_ex.js:83[35:37];Sink: msg;csvtojson_ex.js:119[51:53]::FLOW_DESCR_END","/csvtojson_ex.js","83","35","83","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;csvtojson_ex.js:118[26:28];Sink: ""Parser ... "" + err;csvtojson_ex.js:119[28:49]::FLOW_DESCR_END","/csvtojson_ex.js","118","26","118","28"

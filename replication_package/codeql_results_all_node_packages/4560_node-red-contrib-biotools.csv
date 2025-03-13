@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fastaprocessing.js:14[35:37];Sink: msg;fastaprocessing.js:57[23:25]::FLOW_DESCR_END","/fastaprocessing.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fastawrite.js:7[35:37];Sink: msg;fastawrite.js:37[23:25]::FLOW_DESCR_END","/fastawrite.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;genbankprocessing.js:12[35:37];Sink: msg;genbankprocessing.js:53[23:25]::FLOW_DESCR_END","/genbankprocessing.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jasparprocessing.js:5[35:37];Sink: msg;jasparprocessing.js:60[23:25]::FLOW_DESCR_END","/jasparprocessing.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rawprocessing.js:5[35:37];Sink: msg;rawprocessing.js:48[23:25]::FLOW_DESCR_END","/rawprocessing.js","5","35","5","37"

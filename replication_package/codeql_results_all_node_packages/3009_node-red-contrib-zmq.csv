@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;reader.js:45[36:38];Sink: err;reader.js:46[24:26]::FLOW_DESCR_END","/reader/reader.js","45","36","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;writer.js:22[36:38];Sink: err;writer.js:23[24:26]::FLOW_DESCR_END","/writer/writer.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;writer.js:29[36:38];Sink: payload;writer.js:39[23:29]::FLOW_DESCR_END","/writer/writer.js","29","36","29","38"

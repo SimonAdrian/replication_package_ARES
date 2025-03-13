@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;queue.js:9[30:32];Sink: msg;queue.js:11[14:16]::FLOW_DESCR_END","/queueManager/queue.js","9","30","9","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;queueCheckpoint.js:9[45:47];Sink: msg;queueCheckpoint.js:12[30:32]::FLOW_DESCR_END","/queueManager/queueCheckpoint.js","9","45","9","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.stack.pop();queueManager.js:143[5:20];Sink: node;queueManager.js:10[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.stack.pop();queueManager.js:143[5:20];Sink: ""Retry  ... .retry);queueManager.js:150[14:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.stack.pop();queueManager.js:143[5:20];Sink: r;queueManager.js:160[43:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.stack.pop();queueManager.js:143[5:20];Sink: r;queueManager.js:161[43:43]::FLOW_DESCR_END","/queueManager/queueManager.js","143","5","143","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cl ... k.pop();queueManager.js:506[9:29];Sink: node;queueManager.js:10[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cl ... k.pop();queueManager.js:506[9:29];Sink: ""failed ... tring();queueManager.js:511[15:65]::FLOW_DESCR_END","/queueManager/queueManager.js","506","9","506","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nodes.pop();queueManager.js:601[12:22];Sink: node;queueManager.js:10[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: nodes.pop();queueManager.js:601[12:22];Sink: ""removi ...  nodes"";queueManager.js:504[11:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: nodes.pop();queueManager.js:601[12:22];Sink: ""failed ... tring();queueManager.js:511[15:65]::FLOW_DESCR_END","/queueManager/queueManager.js","601","12","601","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;queueManagerAdmin.js:10[30:32];Sink: msg;queueManagerAdmin.js:37[14:16]::FLOW_DESCR_END","/queueManager/queueManagerAdmin.js","10","30","10","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nodes.pop();queueManagerAdmin.js:42[13:23];Sink: ""Initia ... Manager;queueManagerAdmin.js:43[13:63]::FLOW_DESCR_END","/queueManager/queueManagerAdmin.js","42","13","42","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;queueRollback.js:9[43:45];Sink: msg;queueRollback.js:12[28:30]::FLOW_DESCR_END","/queueManager/queueRollback.js","9","43","9","45"

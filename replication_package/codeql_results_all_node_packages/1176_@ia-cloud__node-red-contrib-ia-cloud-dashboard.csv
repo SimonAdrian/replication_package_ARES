@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.data.Items;dynamoDB.js:128[19:35];Sink: ""object ... ectType;dynamodb.js:267[29:64]::FLOW_DESCR_END","/dynamodb-iacloud/dynamoDB.js","128","19","128","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.data.Items;getchartdata.js:168[19:35];Sink: ""object ... ectType;dynamodb.js:267[29:64]::FLOW_DESCR_END","/getchartdata-iacloud/getchartdata.js","168","19","168","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0].data;ui_lamps.js:186[53:64];Sink: valueList[idx][0].y;ui_lamps.js:188[53:71]::FLOW_DESCR_END","/ui-lamps/ui_lamps.js","186","53","186","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: valueList[idx];ui_lamps.js:188[53:66];Sink: valueList[idx][0].y;ui_lamps.js:188[53:71]::FLOW_DESCR_END","/ui-lamps/ui_lamps.js","188","53","188","66"

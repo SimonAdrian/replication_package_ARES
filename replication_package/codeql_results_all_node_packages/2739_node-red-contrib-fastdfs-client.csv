@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fastdfs-download.js:7[36:38];Sink: msg;fastdfs-download.js:20[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fastdfs-download.js:7[36:38];Sink: msg;fastdfs-download.js:23[27:29]::FLOW_DESCR_END","/src/fastdfs-download.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fastdfs-save.js:15[36:38];Sink: msg;fastdfs-save.js:34[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fastdfs-save.js:15[36:38];Sink: msg;fastdfs-save.js:37[27:29]::FLOW_DESCR_END","/src/fastdfs-save.js","15","36","15","38"

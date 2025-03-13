@@ -1,0 +1,64 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginA1.js:14[40:42];Sink: url;RMPluginA1.js:21[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginA1.js:14[40:42];Sink: msg;RMPluginA1.js:69[27:29]::FLOW_DESCR_END","/Nodes/RMPluginA1.js","14","40","14","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginA1.js:19[68:83];Sink: url;RMPluginA1.js:21[22:24]::FLOW_DESCR_END","/Nodes/RMPluginA1.js","19","68","19","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginA1.js:47[32:36];Sink: JSON.pa ... anation;RMPluginA1.js:53[29:59]::FLOW_DESCR_END","/Nodes/RMPluginA1.js","47","32","47","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginA1.js:73[29:31];Sink: ""Error: ... message;RMPluginA1.js:74[27:49]::FLOW_DESCR_END","/Nodes/RMPluginA1.js","73","29","73","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginCommand.js:24[40:42];Sink: msg;RMPluginCommand.js:26[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginCommand.js:24[40:42];Sink: ""code i ... viceMAC;RMPluginCommand.js:32[27:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginCommand.js:24[40:42];Sink: url;RMPluginCommand.js:39[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginCommand.js:24[40:42];Sink: msg;RMPluginCommand.js:81[27:29]::FLOW_DESCR_END","/Nodes/RMPluginCommand.js","24","40","24","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginCommand.js:37[68:83];Sink: url;RMPluginCommand.js:39[22:24]::FLOW_DESCR_END","/Nodes/RMPluginCommand.js","37","68","37","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginCommand.js:64[32:36];Sink: JSON.pa ... anation;RMPluginCommand.js:70[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginCommand.js:64[32:36];Sink: ""Final: ... awData);RMPluginCommand.js:71[27:55]::FLOW_DESCR_END","/Nodes/RMPluginCommand.js","64","32","64","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginCommand.js:85[29:31];Sink: ""Error: ... message;RMPluginCommand.js:86[27:49]::FLOW_DESCR_END","/Nodes/RMPluginCommand.js","85","29","85","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginExecuteCommand.js:19[40:42];Sink: url;RMPluginExecuteCommand.js:25[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginExecuteCommand.js:19[40:42];Sink: msg;RMPluginExecuteCommand.js:79[29:31]::FLOW_DESCR_END","/Nodes/RMPluginExecuteCommand.js","19","40","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginExecuteCommand.js:23[65:80];Sink: url;RMPluginExecuteCommand.js:25[22:24]::FLOW_DESCR_END","/Nodes/RMPluginExecuteCommand.js","23","65","23","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginExecuteCommand.js:49[32:36];Sink: rawData;RMPluginExecuteCommand.js:66[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginExecuteCommand.js:49[32:36];Sink: rawData;RMPluginExecuteCommand.js:72[37:43]::FLOW_DESCR_END","/Nodes/RMPluginExecuteCommand.js","49","32","49","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginExecuteCommand.js:83[29:31];Sink: ""Error: ... message;RMPluginExecuteCommand.js:84[27:49]::FLOW_DESCR_END","/Nodes/RMPluginExecuteCommand.js","83","29","83","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginExecuteMacro.js:19[39:41];Sink: url;RMPluginExecuteMacro.js:25[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginExecuteMacro.js:19[39:41];Sink: msg;RMPluginExecuteMacro.js:65[27:29]::FLOW_DESCR_END","/Nodes/RMPluginExecuteMacro.js","19","39","19","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginExecuteMacro.js:23[67:82];Sink: url;RMPluginExecuteMacro.js:25[24:26]::FLOW_DESCR_END","/Nodes/RMPluginExecuteMacro.js","23","67","23","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginExecuteMacro.js:50[32:36];Sink: JSON.pa ... anation;RMPluginExecuteMacro.js:56[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginExecuteMacro.js:50[32:36];Sink: ""Final: ... awData);RMPluginExecuteMacro.js:57[27:55]::FLOW_DESCR_END","/Nodes/RMPluginExecuteMacro.js","50","32","50","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginExecuteMacro.js:69[29:31];Sink: ""Error: ... message;RMPluginExecuteMacro.js:70[27:49]::FLOW_DESCR_END","/Nodes/RMPluginExecuteMacro.js","69","29","69","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginGetCodes.js:19[40:42];Sink: msg;RMPluginGetCodes.js:72[27:29]::FLOW_DESCR_END","/Nodes/RMPluginGetCodes.js","19","40","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginGetCodes.js:23[68:83];Sink: url;RMPluginGetCodes.js:25[22:24]::FLOW_DESCR_END","/Nodes/RMPluginGetCodes.js","23","68","23","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginGetCodes.js:50[32:36];Sink: JSON.pa ... anation;RMPluginGetCodes.js:56[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginGetCodes.js:50[32:36];Sink: ""Final: ... awData);RMPluginGetCodes.js:57[27:55]::FLOW_DESCR_END","/Nodes/RMPluginGetCodes.js","50","32","50","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginGetCodes.js:76[29:31];Sink: ""Error: ... message;RMPluginGetCodes.js:77[27:49]::FLOW_DESCR_END","/Nodes/RMPluginGetCodes.js","76","29","76","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginGetDevices.js:19[39:41];Sink: msg;RMPluginGetDevices.js:73[27:29]::FLOW_DESCR_END","/Nodes/RMPluginGetDevices.js","19","39","19","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginGetDevices.js:23[67:82];Sink: url;RMPluginGetDevices.js:25[24:26]::FLOW_DESCR_END","/Nodes/RMPluginGetDevices.js","23","67","23","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginGetDevices.js:50[32:36];Sink: JSON.pa ... anation;RMPluginGetDevices.js:56[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginGetDevices.js:50[32:36];Sink: ""Final: ... awData);RMPluginGetDevices.js:57[27:55]::FLOW_DESCR_END","/Nodes/RMPluginGetDevices.js","50","32","50","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginGetDevices.js:77[29:31];Sink: ""Error: ... message;RMPluginGetDevices.js:78[27:49]::FLOW_DESCR_END","/Nodes/RMPluginGetDevices.js","77","29","77","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginGetMacros.js:19[40:42];Sink: msg;RMPluginGetMacros.js:70[27:29]::FLOW_DESCR_END","/Nodes/RMPluginGetMacros.js","19","40","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginGetMacros.js:23[68:83];Sink: url;RMPluginGetMacros.js:25[22:24]::FLOW_DESCR_END","/Nodes/RMPluginGetMacros.js","23","68","23","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginGetMacros.js:50[32:36];Sink: JSON.pa ... anation;RMPluginGetMacros.js:56[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginGetMacros.js:50[32:36];Sink: ""Final: ... awData);RMPluginGetMacros.js:57[27:55]::FLOW_DESCR_END","/Nodes/RMPluginGetMacros.js","50","32","50","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginGetMacros.js:74[29:31];Sink: ""Error: ... message;RMPluginGetMacros.js:75[27:49]::FLOW_DESCR_END","/Nodes/RMPluginGetMacros.js","74","29","74","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginIFLearning.js:17[40:42];Sink: url;RMPluginIFLearning.js:27[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginIFLearning.js:17[40:42];Sink: msg;RMPluginIFLearning.js:67[27:29]::FLOW_DESCR_END","/Nodes/RMPluginIFLearning.js","17","40","17","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginIFLearning.js:25[68:83];Sink: url;RMPluginIFLearning.js:27[22:24]::FLOW_DESCR_END","/Nodes/RMPluginIFLearning.js","25","68","25","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginIFLearning.js:52[32:36];Sink: JSON.pa ... anation;RMPluginIFLearning.js:58[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginIFLearning.js:52[32:36];Sink: ""Final: ... awData);RMPluginIFLearning.js:59[27:55]::FLOW_DESCR_END","/Nodes/RMPluginIFLearning.js","52","32","52","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginIFLearning.js:71[29:31];Sink: ""Error: ... message;RMPluginIFLearning.js:72[27:49]::FLOW_DESCR_END","/Nodes/RMPluginIFLearning.js","71","29","71","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginMacro.js:23[40:42];Sink: msg;RMPluginMacro.js:25[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginMacro.js:23[40:42];Sink: ""macro id: ""+macroID;RMPluginMacro.js:28[27:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginMacro.js:23[40:42];Sink: url;RMPluginMacro.js:35[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginMacro.js:23[40:42];Sink: msg;RMPluginMacro.js:76[27:29]::FLOW_DESCR_END","/Nodes/RMPluginMacro.js","23","40","23","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginMacro.js:33[68:83];Sink: url;RMPluginMacro.js:35[22:24]::FLOW_DESCR_END","/Nodes/RMPluginMacro.js","33","68","33","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginMacro.js:60[32:36];Sink: JSON.pa ... anation;RMPluginMacro.js:66[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginMacro.js:60[32:36];Sink: ""Final: ... awData);RMPluginMacro.js:67[27:55]::FLOW_DESCR_END","/Nodes/RMPluginMacro.js","60","32","60","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginMacro.js:80[29:31];Sink: ""Error: ... message;RMPluginMacro.js:81[27:49]::FLOW_DESCR_END","/Nodes/RMPluginMacro.js","80","29","80","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginRMTemperature.js:14[40:42];Sink: url;RMPluginRMTemperature.js:21[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMPluginRMTemperature.js:14[40:42];Sink: msg;RMPluginRMTemperature.js:65[27:29]::FLOW_DESCR_END","/Nodes/RMPluginRMTemperature.js","14","40","14","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginRMTemperature.js:19[68:83];Sink: url;RMPluginRMTemperature.js:21[22:24]::FLOW_DESCR_END","/Nodes/RMPluginRMTemperature.js","19","68","19","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginRMTemperature.js:46[32:36];Sink: JSON.pa ... anation;RMPluginRMTemperature.js:52[29:59]::FLOW_DESCR_END","/Nodes/RMPluginRMTemperature.js","46","32","46","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginRMTemperature.js:69[29:31];Sink: ""Error: ... message;RMPluginRMTemperature.js:70[27:49]::FLOW_DESCR_END","/Nodes/RMPluginRMTemperature.js","69","29","69","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMPluginSP.js:23[40:42];Sink: msg;RMPluginSP.js:73[27:29]::FLOW_DESCR_END","/Nodes/RMPluginSP.js","23","40","23","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.port;RMPluginSP.js:31[65:80];Sink: url;RMPluginSP.js:32[22:24]::FLOW_DESCR_END","/Nodes/RMPluginSP.js","31","65","31","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;RMPluginSP.js:57[32:36];Sink: JSON.pa ... anation;RMPluginSP.js:63[29:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;RMPluginSP.js:57[32:36];Sink: ""Final: ... awData);RMPluginSP.js:64[27:55]::FLOW_DESCR_END","/Nodes/RMPluginSP.js","57","32","57","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;RMPluginSP.js:77[29:31];Sink: ""Error: ... message;RMPluginSP.js:78[27:49]::FLOW_DESCR_END","/Nodes/RMPluginSP.js","77","29","77","31"

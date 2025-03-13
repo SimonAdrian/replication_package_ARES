@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;comfoair.js:30[40:42];Sink: err;comfoair.js:41[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfoair.js:30[40:42];Sink: msg;comfoair.js:41[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfoair.js:30[40:42];Sink: msg;comfoair.js:44[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfoair.js:30[40:42];Sink: `${resp ... .name}`;comfoair.js:56[43:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;comfoair.js:30[40:42];Sink: msg;comfoair.js:65[34:36]::FLOW_DESCR_END","/comfoair.js","30","40","30","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.comfoair.port;comfoair.js:51[57:74];Sink: err;comfoair.js:41[36:38]::FLOW_DESCR_END","/comfoair.js","51","57","51","74"

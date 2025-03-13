@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Disaggregation.js:6[41:43];Sink: 'https: ... to='+to;Disaggregation.js:11[39:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Disaggregation.js:6[41:43];Sink: msg;Disaggregation.js:23[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Disaggregation.js:6[41:43];Sink: from;Disaggregation.js:25[37:40]::FLOW_DESCR_END","/Disaggregation.js","6","41","6","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i].endTime;Disaggregation.js:19[47:61];Sink: from;Disaggregation.js:25[37:40]::FLOW_DESCR_END","/Disaggregation.js","19","47","19","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i];Disaggregation.js:19[47:53];Sink: from;Disaggregation.js:25[37:40]::FLOW_DESCR_END","/Disaggregation.js","19","47","19","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[i];Disaggregation.js:22[27:33];Sink: 'https: ... to='+to;Disaggregation.js:11[39:135]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[i];Disaggregation.js:22[27:33];Sink: from;Disaggregation.js:25[37:40]::FLOW_DESCR_END","/Disaggregation.js","22","27","22","33"

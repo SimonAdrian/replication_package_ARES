@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;force-bulk.js:55[34:36];Sink: payload;force-bulk.js:48[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;force-bulk.js:55[34:36];Sink: msg;force-bulk.js:64[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;force-bulk.js:55[34:36];Sink: localname;force-bulk.js:83[79:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;force-bulk.js:55[34:36];Sink: msg;force-bulk.js:86[47:49]::FLOW_DESCR_END","/force-bulk.js","55","34","55","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;force-chatter.js:35[34:36];Sink: msg;force-chatter.js:44[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;force-chatter.js:35[34:36];Sink: msg;force-chatter.js:124[29:31]::FLOW_DESCR_END","/force-chatter.js","35","34","35","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... .force);force-signed-request.js:27[25:60];Sink: credentials;force-signed-request.js:37[46:56]::FLOW_DESCR_END","/force-signed-request.js","27","25","27","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;force-signed-request.js:28[34:36];Sink: msg;force-signed-request.js:34[19:21]::FLOW_DESCR_END","/force-signed-request.js","28","34","28","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;force.js:193[34:36];Sink: msg;force.js:196[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;force.js:193[34:36];Sink: msg;force.js:202[21:23]::FLOW_DESCR_END","/force.js","193","34","193","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;force.js:221[43:45];Sink: err.toString();force.js:196[24:37]::FLOW_DESCR_END","/force.js","221","43","221","45"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;solix-api.js:12[42:56];Sink: sessionKey;solix-api.js:13[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;solix-api.js:12[42:56];Sink: sessionKey;solix-api.js:29[64:73]::FLOW_DESCR_END","/node-red/solix-api.js","12","42","12","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: loginResponse;solix-api.js:35[38:50];Sink: loginResponse;solix-api.js:36[49:61]::FLOW_DESCR_END","/node-red/solix-api.js","35","38","35","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;solix-api.js:39[26:28];Sink: err;solix-api.js:40[45:47]::FLOW_DESCR_END","/node-red/solix-api.js","39","26","39","28"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;meo-esp.js:17[63:69];Sink: data;meo-esp.js:73[97:100]::FLOW_DESCR_END","/nodes/meo-esp.js","17","63","17","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;meo-esp.js:73[73:87];Sink: `wrong  ... }/out""`;meo-esp.js:73[20:94]::FLOW_DESCR_END","/nodes/meo-esp.js","73","73","73","87"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: new Error(errMsg);alarm_log.ts:88[37:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: new Err ... yload));alarm_log.ts:206[34:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: `Alarm  ... m.type);alarm_log.ts:215[37:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: `Alarm  ... ventId);alarm_log.ts:221[37:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: new Error(errMsg);alarm_log.ts:243[38:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: `Setpoi ... Value}`;alarm_log.ts:261[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_log.ts:76[27:29];Sink: err.message;tools.ts:99[25:35]::FLOW_DESCR_END","/nodes/alarm_log.ts","76","27","76","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alarm_log_specs.js:88[38:40];Sink: JSON.st ... ull, 2);alarm_log_specs.js:89[29:56]::FLOW_DESCR_END","/tests/alarm_log_specs.js","88","38","88","40"

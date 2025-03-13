@@ -1,0 +1,26 @@
+{
+  "name": "@okedge/node-red-okedge",
+  "version": "1.0.2",
+  "description": "okedge&node-red",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/sunpn/okedge-nodered.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodes",
+    "flow",
+    "okedge"
+  ],
+  "author": "okedge",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "qywx-notice": "qywx/qywx.js",
+      "dd-notice": "dingding/dingding.js"
+    }
+  }
+}

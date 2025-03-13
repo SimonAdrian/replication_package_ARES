@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message_in;get.js:20[44:53];Sink: message_in;get.js:82[35:44]::FLOW_DESCR_END","/nodes/get.js","20","44","20","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;out.js:20[43:49];Sink: message;out.js:52[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;out.js:20[43:49];Sink: 'Publis ... tring();out.js:130[50:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;out.js:20[43:49];Sink: channel ... command;out.js:131[66:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;out.js:20[43:49];Sink: payload.toString();out.js:131[89:106]::FLOW_DESCR_END","/nodes/out.js","20","43","20","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;server.js:23[38:42];Sink: 'Read E ... ceTopic;server.js:275[42:69]::FLOW_DESCR_END","/nodes/server.js","23","38","23","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:28[41:45];Sink: error;server.js:317[25:29]::FLOW_DESCR_END","/nodes/server.js","28","41","28","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:29[36:40];Sink: error;server.js:325[25:29]::FLOW_DESCR_END","/nodes/server.js","29","36","29","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.host;server.js:40[45:60];Sink: 'mqtt:/ ... ig.host;server.js:40[33:60]::FLOW_DESCR_END","/nodes/server.js","40","45","40","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:45[55:57];Sink: err;server.js:48[49:51]::FLOW_DESCR_END","/nodes/server.js","45","55","45","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.host;server.js:104[55:70];Sink: 'mqtt:/ ... ig.host;server.js:104[43:70]::FLOW_DESCR_END","/nodes/server.js","104","55","104","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:108[169:171];Sink: ""wirenb ... : ""+err;server.js:112[43:78]::FLOW_DESCR_END","/nodes/server.js","108","169","108","171"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;server.js:117[46:50];Sink: ""wirenb ... ""+error;server.js:118[35:72]::FLOW_DESCR_END","/nodes/server.js","117","46","117","50"

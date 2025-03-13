@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;python-function-ps.js:177[26:32];Sink: `messag ... ssage}`;python-function-ps.js:179[25:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;python-function-ps.js:177[26:32];Sink: message ... ls[key];python-function-ps.js:188[41:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;python-function-ps.js:177[26:32];Sink: key;python-function-ps.js:191[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;python-function-ps.js:177[26:32];Sink: message;python-function-ps.js:219[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;python-function-ps.js:177[26:32];Sink: message.payload;python-function-ps.js:249[29:43]::FLOW_DESCR_END","/lib/python-function-ps.js","177","26","177","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;python-function-ps.js:253[25:27];Sink: err;python-function-ps.js:255[20:22]::FLOW_DESCR_END","/lib/python-function-ps.js","253","25","253","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;python-function-ps.js:283[27:33];Sink: message;python-function-ps.js:328[29:35]::FLOW_DESCR_END","/lib/python-function-ps.js","283","27","283","33"

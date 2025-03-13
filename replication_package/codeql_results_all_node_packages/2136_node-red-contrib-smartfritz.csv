@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;smartfritz.js:18[31:55];Sink: 'Userna ... sername;smartfritz.js:18[16:55]::FLOW_DESCR_END","/smartfritz.js","18","31","18","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartfritz.js:72[31:33];Sink: 'Write  ... payload;smartfritz.js:104[20:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartfritz.js:72[31:33];Sink: msg;smartfritz.js:133[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smartfritz.js:72[31:33];Sink: 'Error  ... payload;smartfritz.js:149[24:25]::FLOW_DESCR_END","/smartfritz.js","72","31","72","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smartfritz.js:189[31:33];Sink: msg;smartfritz.js:280[31:33]::FLOW_DESCR_END","/smartfritz.js","189","31","189","33"

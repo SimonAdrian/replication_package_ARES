@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decoder.js:361[36:38];Sink: ""binary ... + index;decoder.js:315[17:81]::FLOW_DESCR_END","/dfrobot-decoder/decoder.js","361","36","361","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;extract_nodeInfo.js:20[35:37];Sink: msg;extract_nodeInfo.js:52[23:25]::FLOW_DESCR_END","/dfrobot-extractNodeInfo/extract_nodeInfo.js","20","35","20","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;lorawan_receive.js:44[47:53];Sink: message;lorawan_receive.js:55[72:78]::FLOW_DESCR_END","/dfrobot-gatewayLoRaWAN_Receive/lorawan_receive.js","44","47","44","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lorawan_send.js:37[35:37];Sink: ""msg.pa ... payload;lorawan_send.js:101[37:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lorawan_send.js:37[35:37];Sink: ""msg.pa ... payload;lorawan_send.js:104[37:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lorawan_send.js:37[35:37];Sink: ""msg.pa ... payload;lorawan_send.js:107[37:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lorawan_send.js:37[35:37];Sink: JSON.st ... n_data);lorawan_send.js:133[104:128]::FLOW_DESCR_END","/dfrobot-gatewayLoRaWAN_Send/lorawan_send.js","37","35","37","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_nodesList.js:13[35:37];Sink: msg;get_nodesList.js:86[31:33]::FLOW_DESCR_END","/dfrobot-getNodesList/get_nodesList.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;listenGatewayEvents.js:41[47:53];Sink: message;listenGatewayEvents.js:55[72:78]::FLOW_DESCR_END","/dfrobot-listenGatewayEvents/listenGatewayEvents.js","41","47","41","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;single_nodeInfo.js:53[47:53];Sink: message;single_nodeInfo.js:64[72:78]::FLOW_DESCR_END","/dfrobot-singleNodeInfo/single_nodeInfo.js","53","47","53","53"

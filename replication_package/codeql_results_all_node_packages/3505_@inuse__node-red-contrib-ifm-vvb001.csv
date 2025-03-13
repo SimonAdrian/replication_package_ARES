@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data.js:14[38:40];Sink: msg;data.js:50[16:18]::FLOW_DESCR_END","/vvb001/data.js","14","38","14","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;status-blob.js:13[32:34];Sink: msg;status-blob.js:30[19:21]::FLOW_DESCR_END","/vvb001/status-blob.js","13","32","13","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stream-blob.js:15[38:40];Sink: msg;stream-blob.js:53[24:26]::FLOW_DESCR_END","/vvb001/stream-blob.js","15","38","15","40"

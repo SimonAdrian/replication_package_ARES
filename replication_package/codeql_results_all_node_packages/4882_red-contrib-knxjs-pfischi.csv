@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;knx-device.js:67[32:34];Sink: msg.pay ... payload;knx-device.js:94[34:65]::FLOW_DESCR_END","/knx-device/knx-device.js","67","32","67","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;knxnetip.js:145[31:33];Sink: payload.dstgad;knxnetip.js:178[44:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;knxnetip.js:145[31:33];Sink: payload.value;knxnetip.js:178[60:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;knxnetip.js:145[31:33];Sink: payload.dpt;knxnetip.js:178[75:85]::FLOW_DESCR_END","/knxnetip/knxnetip.js","145","31","145","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;knxnetip.js:217[31:33];Sink: 'KNXIn. ... ' + msg;knxnetip.js:218[16:37]::FLOW_DESCR_END","/knxnetip/knxnetip.js","217","31","217","33"

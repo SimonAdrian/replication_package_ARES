@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Engion.js:15[41:43];Sink: msg;Engion.js:44[21:23]::FLOW_DESCR_END","/Engion.js","15","41","15","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0];Engion.js:21[40:46];Sink: data[0].zip;Engion.js:21[40:50]::FLOW_DESCR_END","/Engion.js","21","40","21","46"

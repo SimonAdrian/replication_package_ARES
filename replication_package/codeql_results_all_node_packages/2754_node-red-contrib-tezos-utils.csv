@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:30[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:39[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:47[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:54[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:62[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:69[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:80[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:89[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:97[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:104[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:112[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:119[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:128[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:136[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:147[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:155[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:163[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:171[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dexter-calculator.js:9[32:34];Sink: msg;dexter-calculator.js:179[16:18]::FLOW_DESCR_END","/dexter-calculator.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dexter.js:11[38:40];Sink: msg;dexter.js:158[12:14]::FLOW_DESCR_END","/dexter.js","11","38","11","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;harbinger.js:9[38:40];Sink: msg;harbinger.js:33[12:14]::FLOW_DESCR_END","/harbinger.js","9","38","9","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kolibri.js:11[38:40];Sink: msg;kolibri.js:125[12:14]::FLOW_DESCR_END","/kolibri.js","11","38","11","40"

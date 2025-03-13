@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow.js:42[36:38];Sink: msg;tensorflow.js:67[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:42[36:38];Sink: msg;tensorflow.js:70[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:42[36:38];Sink: msg;tensorflow.js:76[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:42[36:38];Sink: msg;tensorflow.js:80[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:42[36:38];Sink: msg;tensorflow.js:88[35:37]::FLOW_DESCR_END","/tensorflow.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow.js:112[36:38];Sink: msg;tensorflow.js:156[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:112[36:38];Sink: msg;tensorflow.js:159[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:112[36:38];Sink: msg;tensorflow.js:165[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:112[36:38];Sink: msg;tensorflow.js:169[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:112[36:38];Sink: msg;tensorflow.js:177[35:37]::FLOW_DESCR_END","/tensorflow.js","112","36","112","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow.js:212[36:38];Sink: msg;tensorflow.js:230[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:212[36:38];Sink: msg;tensorflow.js:233[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:212[36:38];Sink: msg;tensorflow.js:241[35:37]::FLOW_DESCR_END","/tensorflow.js","212","36","212","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow.js:274[36:38];Sink: msg;tensorflow.js:325[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:274[36:38];Sink: msg;tensorflow.js:328[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:274[36:38];Sink: msg;tensorflow.js:334[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:274[36:38];Sink: msg;tensorflow.js:338[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tensorflow.js:274[36:38];Sink: msg;tensorflow.js:346[35:37]::FLOW_DESCR_END","/tensorflow.js","274","36","274","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow_spec.js:26[42:44];Sink: 'msg.pa ... ayload);tensorflow_spec.js:27[33:78]::FLOW_DESCR_END","/test/tensorflow_spec.js","26","42","26","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow_spec.js:65[42:44];Sink: 'msg.pa ... ayload);tensorflow_spec.js:66[33:78]::FLOW_DESCR_END","/test/tensorflow_spec.js","65","42","65","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tensorflow_spec.js:93[42:44];Sink: 'msg.pa ... ayload);tensorflow_spec.js:94[33:78]::FLOW_DESCR_END","/test/tensorflow_spec.js","93","42","93","44"

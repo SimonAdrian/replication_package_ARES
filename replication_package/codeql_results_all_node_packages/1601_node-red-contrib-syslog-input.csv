@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;syslogd.js:30[15:25];Sink: `Now li ... .port}`;syslogd.js:84[13:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;syslogd.js:30[15:25];Sink: `Error  ... ${err}`;syslogd.js:91[16:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;syslogd.js:30[15:25];Sink: `Error  ... ${err}`;syslogd.js:97[16:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;syslogd.js:30[15:25];Sink: `Server ... .port}`;syslogd.js:108[15:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;syslogd.js:30[15:25];Sink: `Error  ... ${err}`;syslogd.js:111[29:103]::FLOW_DESCR_END","/src/syslogd.js","30","15","30","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;syslogd.js:58[18:20];Sink: `Invali ... (err)}`;syslogd.js:59[14:63]::FLOW_DESCR_END","/src/syslogd.js","58","18","58","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;syslogd.js:84[50:58];Sink: `Now li ... .port}`;syslogd.js:84[13:60]::FLOW_DESCR_END","/src/syslogd.js","84","50","84","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;syslogd.js:91[54:62];Sink: `Error  ... ${err}`;syslogd.js:91[16:73]::FLOW_DESCR_END","/src/syslogd.js","91","54","91","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;syslogd.js:97[71:79];Sink: `Error  ... ${err}`;syslogd.js:97[16:90]::FLOW_DESCR_END","/src/syslogd.js","97","71","97","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;syslogd.js:108[55:63];Sink: `Server ... .port}`;syslogd.js:108[15:65]::FLOW_DESCR_END","/src/syslogd.js","108","55","108","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;syslogd.js:111[84:92];Sink: `Error  ... ${err}`;syslogd.js:111[29:103]::FLOW_DESCR_END","/src/syslogd.js","111","84","111","92"

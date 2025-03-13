@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rx-combine.js:30[38:40];Sink: [null, msg];rx-combine.js:31[23:33]::FLOW_DESCR_END","/src/rx-combine.js","30","38","30","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rx-combine.js:38[36:38];Sink: msg.pay ... ervable;rx-combine.js:49[60:81]::FLOW_DESCR_END","/src/rx-combine.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rx-observer.js:27[36:38];Sink: msg;rx-observer.js:29[32:34]::FLOW_DESCR_END","/src/rx-observer.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rx-operator.js:33[38:40];Sink: [null, msg];rx-operator.js:34[23:33]::FLOW_DESCR_END","/src/rx-operator.js","33","38","33","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:50[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg;rx-operator.js:54[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:67[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg;rx-operator.js:71[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:87[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg;rx-operator.js:90[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:104[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:121[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:148[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:160[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg;rx-operator.js:163[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:177[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg;rx-operator.js:180[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:194[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg;rx-operator.js:197[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:211[66:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:214[67:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:229[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:244[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:266[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:278[63:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rx-operator.js:46[36:38];Sink: msg.pay ... ervable;rx-operator.js:297[63:84]::FLOW_DESCR_END","/src/rx-operator.js","46","36","46","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rx-subscriber.js:64[36:38];Sink: msg.pay ... ervable;rx-subscriber.js:68[53:74]::FLOW_DESCR_END","/src/rx-subscriber.js","64","36","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rxobserver_spec.js:34[49:51];Sink: msg.pay ... ervable;rxobserver_spec.js:36[47:68]::FLOW_DESCR_END","/test/rxobserver_spec.js","34","49","34","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rxof_spec.js:34[49:51];Sink: msg.pay ... ervable;rxof_spec.js:36[47:68]::FLOW_DESCR_END","/test/rxof_spec.js","34","49","34","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rxrange_spec.js:34[49:51];Sink: msg.pay ... ervable;rxrange_spec.js:36[47:68]::FLOW_DESCR_END","/test/rxrange_spec.js","34","49","34","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rxtimer_spec.js:35[49:51];Sink: msg.pay ... ervable;rxtimer_spec.js:37[47:68]::FLOW_DESCR_END","/test/rxtimer_spec.js","35","49","35","51"

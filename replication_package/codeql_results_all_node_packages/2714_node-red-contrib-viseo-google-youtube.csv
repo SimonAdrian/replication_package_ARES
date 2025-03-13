@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-youtube-playlist.js:15[27:30];Sink: [ undefined, data ];node-youtube-playlist.js:55[28:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-youtube-playlist.js:15[27:30];Sink: [\u00a0data, undefined ];node-youtube-playlist.js:59[19:37]::FLOW_DESCR_END","/node-youtube-playlist.js","15","27","15","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-youtube.js:15[27:30];Sink: [ undefined, data ];node-youtube.js:59[28:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-youtube.js:15[27:30];Sink: [ data, undefined ];node-youtube.js:63[19:37]::FLOW_DESCR_END","/node-youtube.js","15","27","15","30"

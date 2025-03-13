@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;consulta-cadastral.js:18[29:31];Sink: msg;consulta-cadastral.js:76[14:16]::FLOW_DESCR_END","/nodes/consulta-cadastral.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;consulta-receita.js:18[29:31];Sink: msg;consulta-receita.js:77[14:16]::FLOW_DESCR_END","/nodes/consulta-receita.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fraude-data.js:18[29:31];Sink: msg;fraude-data.js:77[14:16]::FLOW_DESCR_END","/nodes/fraude-data.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obito.js:18[29:31];Sink: msg;obito.js:85[14:16]::FLOW_DESCR_END","/nodes/obito.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;score.js:17[29:31];Sink: msg;score.js:83[14:16]::FLOW_DESCR_END","/nodes/score.js","17","29","17","31"

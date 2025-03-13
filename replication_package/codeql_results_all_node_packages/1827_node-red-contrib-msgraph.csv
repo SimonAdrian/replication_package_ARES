@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msgraph-login-response.js:23[29:31];Sink: msg;msgraph-login-response.js:33[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-login-response.js:23[29:31];Sink: msg;msgraph-login-response.js:37[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-login-response.js:23[29:31];Sink: msg;msgraph-login-response.js:40[68:70]::FLOW_DESCR_END","/msgraph-login-response.js","23","29","23","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msgraph-login.js:18[35:37];Sink: msg;msgraph-login.js:24[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-login.js:18[35:37];Sink: msg;msgraph-login.js:28[15:17]::FLOW_DESCR_END","/msgraph-login.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msgraph-logout.js:9[35:37];Sink: msg;msgraph-logout.js:28[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-logout.js:9[35:37];Sink: msg;msgraph-logout.js:32[55:57]::FLOW_DESCR_END","/msgraph-logout.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg;msgraph-query.js:25[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg;msgraph-query.js:45[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg.payload.error;msgraph-query.js:73[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg;msgraph-query.js:73[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg.payload.error;msgraph-query.js:82[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg;msgraph-query.js:82[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg.payload.error;msgraph-query.js:88[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: msg;msgraph-query.js:88[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: graphUrl;msgraph-query.js:102[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: graphUrl;msgraph-query.js:104[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: body;msgraph-query.js:104[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: graphUrl;msgraph-query.js:106[23:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msgraph-query.js:9[36:38];Sink: body;msgraph-query.js:106[33:36]::FLOW_DESCR_END","/msgraph-query.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... message;msgraph-query.js:65[63:95];Sink: msg.payload.error;msgraph-query.js:73[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... message;msgraph-query.js:65[63:95];Sink: msg.payload.error;msgraph-query.js:82[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... message;msgraph-query.js:65[63:95];Sink: msg.payload.error;msgraph-query.js:88[16:32]::FLOW_DESCR_END","/msgraph-query.js","65","63","65","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... a.error;msgraph-query.js:65[63:87];Sink: msg.payload.error;msgraph-query.js:73[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... a.error;msgraph-query.js:65[63:87];Sink: msg.payload.error;msgraph-query.js:82[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error.r ... a.error;msgraph-query.js:65[63:87];Sink: msg.payload.error;msgraph-query.js:88[16:32]::FLOW_DESCR_END","/msgraph-query.js","65","63","65","87"

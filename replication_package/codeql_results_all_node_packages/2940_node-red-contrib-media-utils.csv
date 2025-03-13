@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:38[32:34];Sink: msg;ffmpeg-conversion.js:53[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:38[32:34];Sink: msg;ffmpeg-conversion.js:60[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:38[32:34];Sink: contents;ffmpeg-conversion.js:71[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:38[32:34];Sink: url;ffmpeg-conversion.js:91[17:19]::FLOW_DESCR_END","/ffmpeg-conversion/ffmpeg-conversion.js","38","32","38","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ffmpeg-conversion.js:123[42:44];Sink: err;ffmpeg-conversion.js:124[25:27]::FLOW_DESCR_END","/ffmpeg-conversion/ffmpeg-conversion.js","123","42","123","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffmpeg-segment.js:41[32:34];Sink: msg;ffmpeg-segment.js:59[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-segment.js:41[32:34];Sink: msg;ffmpeg-segment.js:66[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-segment.js:41[32:34];Sink: contents;ffmpeg-segment.js:77[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-segment.js:41[32:34];Sink: url;ffmpeg-segment.js:97[17:19]::FLOW_DESCR_END","/ffmpeg-segment/ffmpeg-segment.js","41","32","41","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffmpeg-silence-detect.js:39[32:34];Sink: msg;ffmpeg-silence-detect.js:57[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-silence-detect.js:39[32:34];Sink: msg;ffmpeg-silence-detect.js:64[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-silence-detect.js:39[32:34];Sink: contents;ffmpeg-silence-detect.js:75[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-silence-detect.js:39[32:34];Sink: url;ffmpeg-silence-detect.js:95[17:19]::FLOW_DESCR_END","/ffmpeg-silence-detect/ffmpeg-silence-detect.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unzip.js:23[32:34];Sink: msg;unzip.js:29[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;unzip.js:23[32:34];Sink: msg;unzip.js:51[33:35]::FLOW_DESCR_END","/unzip/unzip.js","23","32","23","34"

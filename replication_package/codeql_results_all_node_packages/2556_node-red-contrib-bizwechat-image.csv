@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;bizwechat-image.js:10[30:33];Sink: data;bizwechat-image.js:18[21:24]::FLOW_DESCR_END","/bizwechat-image.js","10","30","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.errmsg;WeChat.js:31[51:61];Sink: err;bizwechat-image.js:21[21:23]::FLOW_DESCR_END","/lib/WeChat.js","31","51","31","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result.data.errmsg;WeChat.js:60[58:75];Sink: err;bizwechat-image.js:21[21:23]::FLOW_DESCR_END","/lib/WeChat.js","60","58","60","75"

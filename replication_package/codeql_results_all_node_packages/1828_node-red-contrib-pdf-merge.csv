@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: pdfPaths;pdf-merge.js:25[40:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: outputPathConfig;pdf-merge.js:25[50:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: outputFilename;pdf-merge.js:25[68:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: msg.pay ... payload;pdf-merge.js:28[88:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: `File d ... fPath}`;pdf-merge.js:45[36:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: outputPath;pdf-merge.js:72[34:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdf-merge.js:14[41:43];Sink: msg;pdf-merge.js:81[27:29]::FLOW_DESCR_END","/pdf-merge/pdf-merge.js","14","41","14","43"

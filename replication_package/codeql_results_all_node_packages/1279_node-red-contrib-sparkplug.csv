@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;sparkplug.js:105[46:53];Sink: config. ...  nodes"";sparkplug.js:106[22:115]::FLOW_DESCR_END","/sparkplug/sparkplug.js","105","46","105","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;sparkplug.js:140[47:51];Sink: config. ... + error;sparkplug.js:141[22:74]::FLOW_DESCR_END","/sparkplug/sparkplug.js","140","47","140","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sparkplug.js:178[35:37];Sink: config. ... fy(msg);sparkplug.js:184[22:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sparkplug.js:178[35:37];Sink: config. ... gType>"";sparkplug.js:187[28:143]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sparkplug.js:178[35:37];Sink: ""Settin ... eviceId;sparkplug.js:200[33:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sparkplug.js:178[35:37];Sink: config. ... eviceId;sparkplug.js:210[36:103]::FLOW_DESCR_END","/sparkplug/sparkplug.js","178","35","178","37"

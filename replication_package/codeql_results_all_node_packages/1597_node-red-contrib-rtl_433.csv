@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtl_433.js:67[48:51];Sink: 'out: ' + data;rtl_433.js:70[48:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rtl_433.js:67[48:51];Sink: 'rtl_43 ... + chirp;rtl_433.js:95[24:49]::FLOW_DESCR_END","/rtl_433/rtl_433.js","67","48","67","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtl_433.js:101[48:51];Sink: 'rtl_43 ...  + data;rtl_433.js:102[20:45]::FLOW_DESCR_END","/rtl_433/rtl_433.js","101","48","101","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;rtl_433.js:105[42:45];Sink: 'rtl_43 ...  signal;rtl_433.js:106[48:84]::FLOW_DESCR_END","/rtl_433/rtl_433.js","105","42","105","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;rtl_433.js:105[48:53];Sink: 'rtl_43 ...  signal;rtl_433.js:106[48:84]::FLOW_DESCR_END","/rtl_433/rtl_433.js","105","48","105","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rtl_433.js:115[42:44];Sink: 'error: ' + err;rtl_433.js:116[163:177]::FLOW_DESCR_END","/rtl_433/rtl_433.js","115","42","115","44"

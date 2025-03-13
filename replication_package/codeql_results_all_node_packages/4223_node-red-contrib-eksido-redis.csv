@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:142[36:38];Sink: msg;redis.js:151[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:142[36:38];Sink: msg;redis.js:157[37:39]::FLOW_DESCR_END","/redis.js","142","36","142","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:186[36:38];Sink: msg;redis.js:230[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:186[36:38];Sink: msg;redis.js:234[31:33]::FLOW_DESCR_END","/redis.js","186","36","186","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redis.js:295[36:38];Sink: msg;redis.js:310[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redis.js:295[36:38];Sink: msg;redis.js:314[31:33]::FLOW_DESCR_END","/redis.js","295","36","295","38"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duo-active-out.js:100[28:30];Sink: value;duo-active-out.js:110[27:31]::FLOW_DESCR_END","/duo-active-out.js","100","28","100","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duo-ibool-out.js:30[28:30];Sink: msg.payload;duo-ibool-out.js:32[16:26]::FLOW_DESCR_END","/duo-ibool-out.js","30","28","30","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duo-ibyte-out.js:30[29:31];Sink: ""Invali ... payload;duo-ibyte-out.js:33[13:43]::FLOW_DESCR_END","/duo-ibyte-out.js","30","29","30","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duo-iint-out.js:30[29:31];Sink: ""Invali ... payload;duo-iint-out.js:33[13:43]::FLOW_DESCR_END","/duo-iint-out.js","30","29","30","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duo-istring-out.js:32[28:30];Sink: """" + msg.payload;duo-istring-out.js:34[16:31]::FLOW_DESCR_END","/duo-istring-out.js","32","28","32","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;ice-adapter-config.js:112[38:38];Sink: d.toString();ice-adapter-config.js:113[13:24]::FLOW_DESCR_END","/ice-adapter-config.js","112","38","112","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ice-adapter-config.js:116[32:32];Sink: e.toString();ice-adapter-config.js:117[13:24]::FLOW_DESCR_END","/ice-adapter-config.js","116","32","116","32"

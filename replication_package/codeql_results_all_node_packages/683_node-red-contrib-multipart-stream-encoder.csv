@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.coo ... ].value;multipart_encoder.js:120[58:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.cookies[name];multipart_encoder.js:120[82:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.cookies[name];multipart_encoder.js:122[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.res;multipart_encoder.js:132[36:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.res;multipart_encoder.js:203[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.res;multipart_encoder.js:204[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: headersText;multipart_encoder.js:284[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;multipart_encoder.js:75[34:36];Sink: msg.payload;multipart_encoder.js:291[61:71]::FLOW_DESCR_END","/multipart_encoder.js","75","34","75","36"

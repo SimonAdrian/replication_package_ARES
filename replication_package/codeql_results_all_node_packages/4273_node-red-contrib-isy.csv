@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;isy.js:444[115:120];Sink: ""Unable ... message;isy.js:447[36:106]::FLOW_DESCR_END","/nodes/isy/isy.js","444","115","444","120"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;isy.js:501[34:36];Sink: ""Unable ... "" + err;isy.js:502[28:87]::FLOW_DESCR_END","/nodes/isy/isy.js","501","34","501","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;isy.js:516[114:119];Sink: ""Unable ... message;isy.js:519[37:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: result;isy.js:516[114:119];Sink: ""Unable ... message;isy.js:528[32:102]::FLOW_DESCR_END","/nodes/isy/isy.js","516","114","516","119"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;isy.js:530[34:36];Sink: ""Unable ... "" + err;isy.js:531[28:87]::FLOW_DESCR_END","/nodes/isy/isy.js","530","34","530","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;isy.js:545[128:133];Sink: ""Unable ... message;isy.js:547[31:104]::FLOW_DESCR_END","/nodes/isy/isy.js","545","128","545","133"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;isy.js:570[34:36];Sink: ""Unable ... "" + err;isy.js:571[28:90]::FLOW_DESCR_END","/nodes/isy/isy.js","570","34","570","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;isy.js:594[120:125];Sink: ""Unable ... message;isy.js:596[31:125]::FLOW_DESCR_END","/nodes/isy/isy.js","594","120","594","125"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;isy.js:626[34:36];Sink: ""Unable ... "" + err;isy.js:627[28:111]::FLOW_DESCR_END","/nodes/isy/isy.js","626","34","626","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;isy.js:650[128:133];Sink: ""Unable ... message;isy.js:652[31:132]::FLOW_DESCR_END","/nodes/isy/isy.js","650","128","650","133"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;isy.js:677[34:36];Sink: ""Unable ... "" + err;isy.js:678[28:118]::FLOW_DESCR_END","/nodes/isy/isy.js","677","34","677","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;isy.js:739[116:121];Sink: ""Unable ... message;isy.js:742[36:100]::FLOW_DESCR_END","/nodes/isy/isy.js","739","116","739","121"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;isy.js:766[34:36];Sink: ""Unable ... "" + err;isy.js:767[28:85]::FLOW_DESCR_END","/nodes/isy/isy.js","766","34","766","36"

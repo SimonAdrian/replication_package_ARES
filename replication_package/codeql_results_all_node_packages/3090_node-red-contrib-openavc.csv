@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;openavc-config.js:26[40:43];Sink: data.event;openavc-config.js:39[35:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;openavc-config.js:26[40:43];Sink: data.eventData;openavc-config.js:39[47:60]::FLOW_DESCR_END","/src/nodes/openavc-config/openavc-config.js","26","40","26","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-action.js:46[39:41];Sink: msg;run-action.js:57[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;run-action.js:46[39:41];Sink: msg;run-action.js:62[41:43]::FLOW_DESCR_END","/src/nodes/run-action/run-action.js","46","39","46","41"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this._idPool.pop();kleverSDKLoader.js:341[23:40];Sink: i;kleverSDKLoader.js:345[34:34]::FLOW_DESCR_END","/assets/kleverSDK/kleverSDKLoader.js","341","23","341","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;klever-balance.js:41[33:35];Sink: msg;klever-balance.js:51[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;klever-balance.js:41[33:35];Sink: msg;klever-balance.js:61[31:33]::FLOW_DESCR_END","/klever-balance.js","41","33","41","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;klever-transaction.js:57[33:35];Sink: msg;klever-transaction.js:62[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;klever-transaction.js:57[33:35];Sink: `the co ... ported`;klever-transaction.js:135[24:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;klever-transaction.js:57[33:35];Sink: msg;klever-transaction.js:135[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;klever-transaction.js:57[33:35];Sink: msg;klever-transaction.js:149[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;klever-transaction.js:57[33:35];Sink: msg;klever-transaction.js:161[29:31]::FLOW_DESCR_END","/klever-transaction.js","57","33","57","35"

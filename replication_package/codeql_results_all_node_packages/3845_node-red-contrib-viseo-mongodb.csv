@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... nString;mongodb-manager.js:73[37:69];Sink: this.url;mongodb-manager.js:119[29:36]::FLOW_DESCR_END","/lib/mongodb-manager.js","73","37","73","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;mongodb-manager.js:102[32:52];Sink: this.url;mongodb-manager.js:119[29:36]::FLOW_DESCR_END","/lib/mongodb-manager.js","102","32","102","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;mongodb-manager.js:102[77:101];Sink: this.url;mongodb-manager.js:119[29:36]::FLOW_DESCR_END","/lib/mongodb-manager.js","102","77","102","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... atabase;mongodb-manager.js:103[44:68];Sink: this.url;mongodb-manager.js:119[29:36]::FLOW_DESCR_END","/lib/mongodb-manager.js","103","44","103","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: client;mongodb-manager.js:119[53:58];Sink: client;mongodb-manager.js:205[25:30]::FLOW_DESCR_END","/lib/mongodb-manager.js","119","53","119","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host.host;mongodb-manager.js:193[23:31];Sink: this.url;mongodb-manager.js:119[29:36]::FLOW_DESCR_END","/lib/mongodb-manager.js","193","23","193","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host.port;mongodb-manager.js:193[41:49];Sink: this.url;mongodb-manager.js:119[29:36]::FLOW_DESCR_END","/lib/mongodb-manager.js","193","41","193","49"

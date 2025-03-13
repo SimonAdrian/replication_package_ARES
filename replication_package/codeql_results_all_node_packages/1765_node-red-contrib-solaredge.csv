@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;solaredge.js:50[41:45];Sink: chunk;solaredge.js:52[30:34]::FLOW_DESCR_END","/solaredge.js","50","41","50","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;solaredge.js:63[42:44];Sink: err;solaredge.js:64[28:30]::FLOW_DESCR_END","/solaredge.js","63","42","63","44"

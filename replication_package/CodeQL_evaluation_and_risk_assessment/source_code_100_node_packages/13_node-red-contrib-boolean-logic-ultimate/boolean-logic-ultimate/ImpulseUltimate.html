@@ -1,0 +1,119 @@
+<script type="text/javascript">
+	RED.nodes.registerType('ImpulseUltimate', {
+		category: 'boolean logic ultimate',
+		color: '#ff8080',
+		defaults: {
+			name: { value: "" },
+			commandText: { value: "// Open garage door\nsend:true\nwait:1000\nsend:false" },
+			payloadPropName: { value: "payload", required: false }
+		},
+		inputs: 1,
+		outputs: 1,
+		outputLabels: function (i) {
+
+		},
+		icon: "feed.svg",
+		label:
+			function () {
+				var label = "ImpulseUltimate"
+				if (this.name !== undefined && this.name.length > 0) {
+					label = this.name;
+				}
+				return label;
+			},
+		paletteLabel: function () {
+			return "Impulse";
+		},
+		oneditprepare: function () {
+			var node = this;
+			node.editor = RED.editor.createEditor({
+				id: 'node-input-editorcommandText',
+				mode: 'ace/mode/text',
+				value: node.commandText
+			});
+			if ($("#node-input-payloadPropName").val() === "") $("#node-input-payloadPropName").val("payload");
+			$("#node-input-payloadPropName").typedInput({ default: 'msg', types: ['msg'] });
+		},
+		oneditsave: function () {
+			var node = this;
+			node.commandText = node.editor.getValue();
+			node.editor.destroy();
+			delete node.editor;
+		},
+		oneditcancel: function () {
+			var node = this;
+			node.editor.destroy();
+			delete node.editor;
+		},
+	});
+
+
+</script>
+
+<script type="text/html" data-template-name="ImpulseUltimate">
+	<div class="form-row">
+		<b>Impulse Ultimate</b>&nbsp&nbsp&nbsp&nbsp<span style="color:red"><i class="fa fa-question-circle"></i>&nbsp<a target="_blank" href="https://github.com/Supergiovane/node-red-contrib-boolean-logic-ultimate"><u>Help online</u></a></span>
+        &nbsp&nbsp&nbsp<span style="color:red"><i class="fa fa-youtube-play"></i>&nbsp<a target="_blank" href="https://youtu.be/PdLEWtKsNv8"><u>Youtube Sample</u></a></span>
+		<br/>
+		<br/>
+	</div>
+	<div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+	<div class="form-row">
+        <label for="node-input-payloadPropName"><i class="fa fa-ellipsis-h"></i> Input</label>
+		<input type="text" id="node-input-payloadPropName">
+    </div>
+	<div class="form-row" >
+        <label style="width:300px;" for="node-input-commandText"><i class="fa fa-tasks"></i> Commands (one command per row)</label>
+        <div style="height: 250px; min-height:150px;" class="node-text-editor" id="node-input-editorcommandText"></div>
+	</div>
+	<div class="form-tips" style="margin-top:11px">
+		Avaiable commands are: send, wait (in milliseconds), restart (restarts the sequence), //, etc... For example<br/>
+		// Open garage
+		send:true<br/>
+		wait:200<br/>
+		send:false<br/>	
+		For a complete list of avaiable commands, see the gitHub Homepage.
+	</div>	
+
+
+</script>
+
+<script type="text/markdown" data-help-name="ImpulseUltimate">
+<p>The pourpose of this node is to send a sequence of pulsed commands to for example, open a garage door or to command an appliance requiring a set of timed commands.</p>
+
+**Configuration**
+
+|Property|Description|
+|--|--|
+| Input | It's the msg property to be evaluated. *By default, it is "payload", but you can also specify other properties, for example "payload.value"* |
+
+* Avaiable Commands
+
+Commands are to be wrote in the format: command:value. For example ***send:200***, ***wait:2000***. Each row represents a command.<br />
+<br /><b>send</b><br />
+sends a value. For example: ***send:true*** or ***send:100*** or ***send:Hello***<br />
+<br /><b>wait</b><br />
+wait for specified time (in milliseconds). For example ***wait:500*** waits for 500 milliseconds<br />
+<br /><b>restart</b><br />
+Restart the sequence from the beginning. Use ***restart*** alone, without **:** and extra value. For example ***restart*** <br />
+<br /><b>//</b><br />
+comment. For example: ***// This opens the garage***. The comment are ignored, so you can write what you want.<br />
+<br />
+
+Pass <code>msg.payload = true</code> to the node to start the sequence</br>
+Pass <code>msg.payload = false</code> to the node to stop the running sequence</br>
+<br/>
+
+- Output: the node outputs a message you specified in the command textbox<br/>
+
+<br/>
+<br/>
+
+[SEE THE README FOR FULL HELP AND SAMPLES](https://github.com/Supergiovane/node-red-contrib-boolean-logic-ultimate)
+
+[Find it useful?](https://www.paypal.me/techtoday)
+
+</script>

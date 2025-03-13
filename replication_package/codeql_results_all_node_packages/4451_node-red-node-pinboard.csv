@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:42[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:46[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:90[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:98[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pinboard.js:40[39:41];Sink: msg;pinboard.js:104[36:38]::FLOW_DESCR_END","/pinboard.js","40","39","40","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;pinboard.js:76[44:48];Sink: result.result_code;pinboard.js:98[40:57]::FLOW_DESCR_END","/pinboard.js","76","44","76","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pinboard.js:103[41:43];Sink: err;pinboard.js:104[32:34]::FLOW_DESCR_END","/pinboard.js","103","41","103","43"

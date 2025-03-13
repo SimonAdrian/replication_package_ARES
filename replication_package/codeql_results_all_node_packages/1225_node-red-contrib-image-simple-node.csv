@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:65[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:86[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg.localFilename;imageSimple.js:92[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:95[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:108[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:120[84:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:124[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg.localFilename;imageSimple.js:132[16:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:135[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:144[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:146[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:155[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg.localFilename;imageSimple.js:161[15:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:164[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:174[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:186[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:190[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg.localFilename;imageSimple.js:198[15:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:201[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:209[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imageSimple.js:44[30:32];Sink: msg;imageSimple.js:211[46:48]::FLOW_DESCR_END","/imageSimple.js","44","30","44","32"

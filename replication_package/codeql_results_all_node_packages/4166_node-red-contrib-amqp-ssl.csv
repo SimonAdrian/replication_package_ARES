@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;gulpfile.js:19[24:28];Sink: error.toString();gulpfile.js:22[15:30]::FLOW_DESCR_END","/gulpfile.js","19","24","19","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp.js:98[40:42];Sink: node.to ... g.topic;amqp.js:106[42:64]::FLOW_DESCR_END","/lib/amqp.js","98","40","98","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;amqp.js:118[21:26];Sink: urlType ... ocation;amqp.js:149[33:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;amqp.js:118[21:26];Sink: ""Connec ... ocation;amqp.js:154[30:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;amqp.js:118[21:26];Sink: ""AMQP s ... closed"";amqp.js:178[30:78]::FLOW_DESCR_END","/lib/amqp.js","118","21","118","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;amqp.js:119[21:26];Sink: urlType ... ocation;amqp.js:149[33:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;amqp.js:119[21:26];Sink: ""Connec ... ocation;amqp.js:154[30:80]::FLOW_DESCR_END","/lib/amqp.js","119","21","119","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;amqp.js:135[35:55];Sink: urlType ... ocation;amqp.js:149[33:67]::FLOW_DESCR_END","/lib/amqp.js","135","35","135","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;amqp.js:135[65:89];Sink: urlType ... ocation;amqp.js:149[33:67]::FLOW_DESCR_END","/lib/amqp.js","135","65","135","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;amqp.js:137[35:43];Sink: urlType ... ocation;amqp.js:149[33:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;amqp.js:137[35:43];Sink: ""Connec ... ocation;amqp.js:154[30:80]::FLOW_DESCR_END","/lib/amqp.js","137","35","137","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;amqp.js:137[53:61];Sink: urlType ... ocation;amqp.js:149[33:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;amqp.js:137[53:61];Sink: ""Connec ... ocation;amqp.js:154[30:80]::FLOW_DESCR_END","/lib/amqp.js","137","53","137","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;amqp.js:178[58:66];Sink: ""AMQP s ... closed"";amqp.js:178[30:78]::FLOW_DESCR_END","/lib/amqp.js","178","58","178","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp.ts:111[34:36];Sink: node.to ... g.topic;amqp.ts:118[34:56]::FLOW_DESCR_END","/src/nodejs/amqp.ts","111","34","111","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;amqp.ts:134[17:22];Sink: urlType ... ocation;amqp.ts:169[15:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;amqp.ts:134[17:22];Sink: ""Connec ... ocation;amqp.ts:175[20:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;amqp.ts:134[17:22];Sink: ""AMQP s ... closed"";amqp.ts:205[20:68]::FLOW_DESCR_END","/src/nodejs/amqp.ts","134","17","134","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;amqp.ts:135[17:22];Sink: urlType ... ocation;amqp.ts:169[15:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;amqp.ts:135[17:22];Sink: ""Connec ... ocation;amqp.ts:175[20:70]::FLOW_DESCR_END","/src/nodejs/amqp.ts","135","17","135","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;amqp.ts:153[25:45];Sink: urlType ... ocation;amqp.ts:169[15:49]::FLOW_DESCR_END","/src/nodejs/amqp.ts","153","25","153","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;amqp.ts:153[55:79];Sink: urlType ... ocation;amqp.ts:169[15:49]::FLOW_DESCR_END","/src/nodejs/amqp.ts","153","55","153","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;amqp.ts:155[27:35];Sink: urlType ... ocation;amqp.ts:169[15:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;amqp.ts:155[27:35];Sink: ""Connec ... ocation;amqp.ts:175[20:70]::FLOW_DESCR_END","/src/nodejs/amqp.ts","155","27","155","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;amqp.ts:155[45:53];Sink: urlType ... ocation;amqp.ts:169[15:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;amqp.ts:155[45:53];Sink: ""Connec ... ocation;amqp.ts:175[20:70]::FLOW_DESCR_END","/src/nodejs/amqp.ts","155","45","155","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;amqp.ts:205[48:56];Sink: ""AMQP s ... closed"";amqp.ts:205[20:68]::FLOW_DESCR_END","/src/nodejs/amqp.ts","205","48","205","56"

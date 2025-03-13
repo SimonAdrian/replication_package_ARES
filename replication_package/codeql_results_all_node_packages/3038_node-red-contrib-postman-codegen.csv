@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;postman-codegen.js:10[31:33];Sink: msg;postman-codegen.js:24[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postman-codegen.js:10[31:33];Sink: msg;postman-codegen.js:29[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postman-codegen.js:10[31:33];Sink: msg;postman-codegen.js:32[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postman-codegen.js:10[31:33];Sink: msg;postman-codegen.js:47[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;postman-codegen.js:10[31:33];Sink: msg;postman-codegen.js:81[19:21]::FLOW_DESCR_END","/postman-codegen.js","10","31","10","33"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ifttt-trigger.js:12[34:36];Sink: msg;ifttt-trigger.js:52[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ifttt-trigger.js:12[34:36];Sink: msg;ifttt-trigger.js:153[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ifttt-trigger.js:12[34:36];Sink: msg;ifttt-trigger.js:160[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ifttt-trigger.js:12[34:36];Sink: payload;ifttt-trigger.js:164[27:33]::FLOW_DESCR_END","/nodes/ifttt-trigger.js","12","34","12","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ifttt-trigger.js:157[37:39];Sink: payload;ifttt-trigger.js:164[27:33]::FLOW_DESCR_END","/nodes/ifttt-trigger.js","157","37","157","39"

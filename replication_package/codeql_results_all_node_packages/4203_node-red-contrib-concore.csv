@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: amqpConfig.password;concore-amqp.js:8[53:71];Sink: url;concore-amqp.js:13[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: amqpConfig.password;concore-amqp.js:8[53:71];Sink: url;concore-amqp.js:15[18:20]::FLOW_DESCR_END","/concore-amqp.js","8","53","8","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: amqpConfig.host;concore-amqp.js:8[81:95];Sink: url;concore-amqp.js:13[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: amqpConfig.host;concore-amqp.js:8[81:95];Sink: url;concore-amqp.js:15[18:20]::FLOW_DESCR_END","/concore-amqp.js","8","81","8","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: amqpConfig.port;concore-amqp.js:8[105:119];Sink: url;concore-amqp.js:13[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: amqpConfig.port;concore-amqp.js:8[105:119];Sink: url;concore-amqp.js:15[18:20]::FLOW_DESCR_END","/concore-amqp.js","8","105","8","119"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;concore-middleware.js:73[31:33];Sink: msg;concore-middleware.js:77[19:21]::FLOW_DESCR_END","/concore-middleware.js","73","31","73","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;molecule.js:7[35:37];Sink: msg;molecule.js:9[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;molecule.js:7[35:37];Sink: msg;molecule.js:38[31:33]::FLOW_DESCR_END","/molecule.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pushNotification.js:39[31:33];Sink: msg;pushNotification.js:41[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pushNotification.js:39[31:33];Sink: msg;pushNotification.js:80[19:21]::FLOW_DESCR_END","/pushNotification.js","39","31","39","33"

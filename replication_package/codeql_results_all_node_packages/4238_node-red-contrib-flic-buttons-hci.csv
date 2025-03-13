@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;client.js:55[31:35];Sink: error;client.js:57[21:25]::FLOW_DESCR_END","/lib/client.js","55","31","55","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: had_error;fliclib.js:125[19:27];Sink: hadError;fliclib.js:597[20:27]::FLOW_DESCR_END","/lib/fliclib.js","125","19","125","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fliclib.js:133[19:23];Sink: error;client.js:57[21:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fliclib.js:133[19:23];Sink: error;fliclib.js:650[20:24]::FLOW_DESCR_END","/lib/fliclib.js","133","19","133","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;fliclib.js:137[18:21];Sink: event.bdAddr;fliclib.js:626[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclib.js:137[18:21];Sink: event.m ... Buttons;fliclib.js:635[40:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;fliclib.js:137[18:21];Sink: event.m ... Buttons;fliclib.js:639[41:77]::FLOW_DESCR_END","/lib/fliclib.js","137","18","137","21"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ntainer;azureblobstorage.js:90[35:60];Sink: 'Blob ' ... tainer';azureblobstorage.js:69[21:36]::FLOW_DESCR_END","/azureblobstorage.js","90","35","90","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:98[36:38];Sink: 'Blob ' ... tainer';azureblobstorage.js:69[21:36]::FLOW_DESCR_END","/azureblobstorage.js","98","36","98","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.blob;azureblobstorage.js:105[34:54];Sink: 'Blob ' ... tainer';azureblobstorage.js:69[21:36]::FLOW_DESCR_END","/azureblobstorage.js","105","34","105","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.blob;azureblobstorage.js:154[30:50];Sink: 'Blob ' ... loaded';azureblobstorage.js:228[26:59]::FLOW_DESCR_END","/azureblobstorage.js","154","30","154","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:163[36:38];Sink: 'Blob ' ... loaded';azureblobstorage.js:228[26:59]::FLOW_DESCR_END","/azureblobstorage.js","163","36","163","38"

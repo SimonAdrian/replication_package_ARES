@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vattenfall-tariff.js:36[23:25];Sink: msg;vattenfall-tariff.js:46[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vattenfall-tariff.js:36[23:25];Sink: {\n      ...       };vattenfall-tariff.js:79[16:11]::FLOW_DESCR_END","/src/vattenfall-tariff/vattenfall-tariff.js","36","23","36","25"

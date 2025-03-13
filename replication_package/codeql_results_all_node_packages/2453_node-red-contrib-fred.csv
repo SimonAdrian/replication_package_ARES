@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;fred.js:135[36:39];Sink: msg;fred.js:260[32:34]::FLOW_DESCR_END","/fred.js","135","36","135","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fred.js:139[35:37];Sink: err.message;fred.js:140[27:37]::FLOW_DESCR_END","/fred.js","139","35","139","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fred.js:310[45:47];Sink: RED._("" ... ct(err);fred.js:312[22:68]::FLOW_DESCR_END","/fred.js","310","45","310","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fred.js:363[45:47];Sink: RED._("" ... ct(err);fred.js:365[22:68]::FLOW_DESCR_END","/fred.js","363","45","363","47"

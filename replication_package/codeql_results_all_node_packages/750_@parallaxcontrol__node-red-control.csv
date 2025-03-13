@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cm4-pro-serial.js:16[35:37];Sink: `Comman ... mmand}`;cm4-pro-serial.js:26[23:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cm4-pro-serial.js:16[35:37];Sink: msg;cm4-pro-serial.js:31[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cm4-pro-serial.js:16[35:37];Sink: msg;cm4-pro-serial.js:33[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cm4-pro-serial.js:16[35:37];Sink: msg;cm4-pro-serial.js:38[27:29]::FLOW_DESCR_END","/cm4-pro-serial/cm4-pro-serial.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;input-select.js:8[35:37];Sink: ""msg.pa ... d.Value;input-select.js:55[27:65]::FLOW_DESCR_END","/input-select/input-select.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;save-signal-state.js:6[35:37];Sink: dataType;save-signal-state.js:30[65:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-signal-state.js:6[35:37];Sink: dataType;save-signal-state.js:35[55:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-signal-state.js:6[35:37];Sink: _dictionary;save-signal-state.js:35[65:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-signal-state.js:6[35:37];Sink: dataType;save-signal-state.js:43[55:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-signal-state.js:6[35:37];Sink: _dictionary;save-signal-state.js:43[65:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-signal-state.js:6[35:37];Sink: ""Unsupp ... ataType;save-signal-state.js:84[31:66]::FLOW_DESCR_END","/save-signal-state/save-signal-state.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;system-management.js:10[35:37];Sink: msg;system-management.js:137[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;system-management.js:10[35:37];Sink: msg;system-management.js:139[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;system-management.js:10[35:37];Sink: msg;system-management.js:147[31:33]::FLOW_DESCR_END","/system-management/system-management.js","10","35","10","37"

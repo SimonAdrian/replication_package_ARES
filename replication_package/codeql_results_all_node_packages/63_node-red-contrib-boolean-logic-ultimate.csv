@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs\n     ... ing()));BooleanLogicUltimate.js:96[24:72];Sink: JSON.st ... States);BooleanLogicUltimate.js:234[13:43]::FLOW_DESCR_END","/boolean-logic-ultimate/BooleanLogicUltimate.js","96","24","97","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Comparator.js:43[32:34];Sink: msg;Comparator.js:93[23:25]::FLOW_DESCR_END","/boolean-logic-ultimate/Comparator.js","43","32","43","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;InterruptFlowUltimate.js:65[32:34];Sink: msg;InterruptFlowUltimate.js:157[19:21]::FLOW_DESCR_END","/boolean-logic-ultimate/InterruptFlowUltimate.js","65","32","65","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RailwaySwitchUltimate.js:40[32:34];Sink: [msg, n ... , null];RailwaySwitchUltimate.js:87[44:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RailwaySwitchUltimate.js:40[32:34];Sink: [null,  ... , null];RailwaySwitchUltimate.js:88[44:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RailwaySwitchUltimate.js:40[32:34];Sink: [null,  ... , null];RailwaySwitchUltimate.js:89[44:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RailwaySwitchUltimate.js:40[32:34];Sink: [null,  ... , null];RailwaySwitchUltimate.js:90[44:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RailwaySwitchUltimate.js:40[32:34];Sink: [null,  ... l, msg];RailwaySwitchUltimate.js:91[44:72]::FLOW_DESCR_END","/boolean-logic-ultimate/RailwaySwitchUltimate.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;StatusUltimate.js:28[30:32];Sink: msg;StatusUltimate.js:40[14:16]::FLOW_DESCR_END","/boolean-logic-ultimate/StatusUltimate.js","28","30","28","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SumUltimate.js:31[30:32];Sink: msg;SumUltimate.js:126[14:16]::FLOW_DESCR_END","/boolean-logic-ultimate/SumUltimate.js","31","30","31","32"

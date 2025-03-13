@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;toggle.js:12[35:37];Sink: msg;toggle.js:14[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toggle.js:12[35:37];Sink: msg;toggle.js:20[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toggle.js:12[35:37];Sink: msg;toggle.js:27[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toggle.js:12[35:37];Sink: msg;toggle.js:34[22:24]::FLOW_DESCR_END","/toggle.js","12","35","12","37"

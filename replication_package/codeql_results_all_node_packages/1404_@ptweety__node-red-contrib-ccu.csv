@@ -1,0 +1,38 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ccu-alexa.js:168[30:36];Sink: 'alexa  ... essage);ccu-alexa.js:169[28:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-alexa.js:168[30:36];Sink: 'unknow ... command;ccu-alexa.js:244[35:70]::FLOW_DESCR_END","/nodes/ccu-alexa.js","168","30","168","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;ccu-connection.js:442[25:35];Sink: 'ccu-'  ... g, '_');ccu-connection.js:611[40:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;ccu-connection.js:442[25:35];Sink: this.metadataFile;ccu-connection.js:690[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;ccu-connection.js:442[25:35];Sink: this.regadataFile;ccu-connection.js:702[34:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;ccu-connection.js:442[25:35];Sink: this.valuesFile;ccu-connection.js:723[34:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;ccu-connection.js:442[25:35];Sink: JSON.st ... ptions);ccu-connection.js:1488[64:92]::FLOW_DESCR_END","/nodes/ccu-connection.js","442","25","442","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ccu-connection.js:524[104:112];Sink: this.metadataFile;ccu-connection.js:690[34:50]::FLOW_DESCR_END","/nodes/ccu-connection.js","524","104","524","112"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ccu-connection.js:525[109:117];Sink: this.regadataFile;ccu-connection.js:702[34:50]::FLOW_DESCR_END","/nodes/ccu-connection.js","525","109","525","117"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ccu-connection.js:526[109:117];Sink: this.valuesFile;ccu-connection.js:723[34:48]::FLOW_DESCR_END","/nodes/ccu-connection.js","526","109","526","117"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ccu-connection.js:611[49:57];Sink: 'ccu-'  ... g, '_');ccu-connection.js:611[40:77]::FLOW_DESCR_END","/nodes/ccu-connection.js","611","49","611","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... c(file);ccu-connection.js:828[64:84];Sink: JSON.st ... , '  ');ccu-connection.js:814[53:105]::FLOW_DESCR_END","/nodes/ccu-connection.js","828","64","828","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ccu-connection.js:1469[60:68];Sink: JSON.st ... ptions);ccu-connection.js:1488[64:92]::FLOW_DESCR_END","/nodes/ccu-connection.js","1469","60","1469","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;ccu-connection.js:1471[42:50];Sink: JSON.st ... ptions);ccu-connection.js:1488[64:92]::FLOW_DESCR_END","/nodes/ccu-connection.js","1471","42","1471","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ccu-connection.js:1733[101:105];Sink: 'binrpc ... message;ccu-connection.js:1734[39:63]::FLOW_DESCR_END","/nodes/ccu-connection.js","1733","101","1733","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ccu-connection.js:1739[56:60];Sink: error;ccu-connection.js:1741[74:78]::FLOW_DESCR_END","/nodes/ccu-connection.js","1739","56","1739","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parameters;ccu-connection.js:1739[63:72];Sink: JSON.st ... meters);ccu-connection.js:1744[70:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parameters;ccu-connection.js:1739[63:72];Sink: JSON.st ... meters);ccu-connection.js:1752[107:132]::FLOW_DESCR_END","/nodes/ccu-connection.js","1739","63","1739","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: method;ccu-connection.js:1758[56:61];Sink: method;ccu-connection.js:1759[68:73]::FLOW_DESCR_END","/nodes/ccu-connection.js","1758","56","1758","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parameters;ccu-connection.js:1758[64:73];Sink: JSON.st ... meters);ccu-connection.js:1759[90:115]::FLOW_DESCR_END","/nodes/ccu-connection.js","1758","64","1758","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[addr].name;ccu-display.html:200[47:61];Sink: channels.length;ccu-display.html:208[54:68]::FLOW_DESCR_END","/nodes/ccu-display.html","200","47","200","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ccu-get-value.js:14[31:37];Sink: message;ccu-get-value.js:44[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-get-value.js:14[31:37];Sink: message;ccu-get-value.js:61[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-get-value.js:14[31:37];Sink: message;ccu-get-value.js:63[39:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-get-value.js:14[31:37];Sink: message;ccu-get-value.js:76[38:44]::FLOW_DESCR_END","/nodes/ccu-get-value.js","14","31","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ccu-mqtt.js:36[30:36];Sink: 'input  ... (0, 40);ccu-mqtt.js:152[24:84]::FLOW_DESCR_END","/nodes/ccu-mqtt.js","36","30","36","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ccu-rpc-event.js:50[62:68];Sink: message;ccu-rpc-event.js:52[27:33]::FLOW_DESCR_END","/nodes/ccu-rpc-event.js","50","62","50","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[addr].name;ccu-signal.html:259[47:61];Sink: channels.length;ccu-signal.html:267[54:68]::FLOW_DESCR_END","/nodes/ccu-signal.html","259","47","259","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: item;ccu-switch.html:653[60:63];Sink: item;ccu-switch.html:654[29:32]::FLOW_DESCR_END","/nodes/ccu-switch.html","653","60","653","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ccu-switch.js:548[26:32];Sink: object;ccu-switch.js:137[53:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-switch.js:548[26:32];Sink: message;ccu-switch.js:385[61:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-switch.js:548[26:32];Sink: message;ccu-switch.js:477[61:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;ccu-switch.js:548[26:32];Sink: nextMessage;ccu-switch.js:543[39:49]::FLOW_DESCR_END","/nodes/ccu-switch.js","548","26","548","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ccu-value.js:31[66:72];Sink: message;ccu-value.js:34[31:37]::FLOW_DESCR_END","/nodes/ccu-value.js","31","66","31","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[addr].name;editor.js:199[47:61];Sink: channels.length;editor.js:207[54:68]::FLOW_DESCR_END","/src/nodes-html/ccu-display/editor.js","199","47","199","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[addr].name;editor.js:258[47:61];Sink: channels.length;editor.js:266[54:68]::FLOW_DESCR_END","/src/nodes-html/ccu-signal/editor.js","258","47","258","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: item;editor.js:652[60:63];Sink: item;editor.js:653[29:32]::FLOW_DESCR_END","/src/nodes-html/ccu-switch/editor.js","652","60","652","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;ccu-connection.js:1466[29:32];Sink: JSON.st ... ptions);ccu-connection.js:1488[64:92]::FLOW_DESCR_END","/nodes/ccu-connection.js","1466","29","1466","32"

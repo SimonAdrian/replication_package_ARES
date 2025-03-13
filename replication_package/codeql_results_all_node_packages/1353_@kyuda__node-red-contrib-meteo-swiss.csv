@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meteo-swiss-forecast.js:27[38:40];Sink: msg;meteo-swiss-forecast.js:33[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteo-swiss-forecast.js:27[38:40];Sink: msg;meteo-swiss-forecast.js:35[33:35]::FLOW_DESCR_END","/src/nodes/meteo-swiss-forecast.js","27","38","27","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meteo-swiss-station.js:27[38:40];Sink: msg;meteo-swiss-station.js:33[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteo-swiss-station.js:27[38:40];Sink: msg;meteo-swiss-station.js:35[33:35]::FLOW_DESCR_END","/src/nodes/meteo-swiss-station.js","27","38","27","40"

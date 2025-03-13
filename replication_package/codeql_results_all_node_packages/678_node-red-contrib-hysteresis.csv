@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hysteresis.js:69[29:31];Sink: msg;hysteresis.js:87[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hysteresis.js:69[29:31];Sink: msg;hysteresis.js:96[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hysteresis.js:69[29:31];Sink: msg;hysteresis.js:108[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hysteresis.js:69[29:31];Sink: msg;hysteresis.js:109[55:57]::FLOW_DESCR_END","/hysteresis.js","69","29","69","31"

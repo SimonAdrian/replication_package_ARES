@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdav-list.js:12[23:25];Sink: {\n      ...       };webdav-list.js:33[21:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-list.js:12[23:25];Sink: msg;webdav-list.js:38[40:42]::FLOW_DESCR_END","/webdav-list.js","12","23","12","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdav-mkdir.js:24[23:25];Sink: {\n      ...       };webdav-mkdir.js:48[25:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-mkdir.js:24[23:25];Sink: msg;webdav-mkdir.js:55[40:42]::FLOW_DESCR_END","/webdav-mkdir.js","24","23","24","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdav-read.js:13[23:25];Sink: msg;webdav-read.js:25[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-read.js:13[23:25];Sink: {\n      ...       };webdav-read.js:40[21:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-read.js:13[23:25];Sink: msg;webdav-read.js:45[40:42]::FLOW_DESCR_END","/webdav-read.js","13","23","13","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webdav-write.js:33[23:25];Sink: ""creati ... rectory;webdav-write.js:22[18:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-write.js:33[23:25];Sink: ""Upload ... rectory;webdav-write.js:69[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-write.js:33[23:25];Sink: Object. ...      });webdav-write.js:72[25:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;webdav-write.js:33[23:25];Sink: msg;webdav-write.js:80[40:42]::FLOW_DESCR_END","/webdav-write.js","33","23","33","25"

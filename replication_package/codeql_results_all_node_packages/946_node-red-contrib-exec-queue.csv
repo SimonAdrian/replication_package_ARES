@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: `error  ... tderr}`;exec-node.js:355[28:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: msg;exec-node.js:355[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: `warnin ... tderr}`;exec-node.js:358[30:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: msg;exec-node.js:358[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: `warnin ... ing()}`;exec-node.js:408[26:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: msg;exec-node.js:408[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: `error  ... cution`;exec-node.js:417[28:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: msg;exec-node.js:417[95:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: msg;exec-node.js:478[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: value;exec-node.js:484[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exec-node.js:184[31:33];Sink: msg;exec-node.js:488[20:22]::FLOW_DESCR_END","/exec-node.js","184","31","184","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;exec-node.js:390[38:41];Sink: value;exec-node.js:484[35:39]::FLOW_DESCR_END","/exec-node.js","390","38","390","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;exec-node.js:406[38:41];Sink: `warnin ... ing()}`;exec-node.js:408[26:74]::FLOW_DESCR_END","/exec-node.js","406","38","406","41"

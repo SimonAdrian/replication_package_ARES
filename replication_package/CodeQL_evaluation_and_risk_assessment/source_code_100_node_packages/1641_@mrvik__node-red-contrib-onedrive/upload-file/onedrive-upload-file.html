@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    RED.nodes.registerType("onedrive-upload-file", {
+        category: "storage",
+        color: "#0078d4",
+        defaults: {
+            name: {
+                value: "",
+            },
+            Filename: {
+                value: "",
+            },
+            ParentPath: {
+                value: "",
+            },
+        },
+        icon: "file.png",
+        credentials: {
+            AccessToken: {
+                type: "text",
+            },
+        },
+        inputs: 1,
+        outputs: 1,
+        label(){
+            return this.name || "onedrive-upload-file"
+        },
+    })
+</script>
+<script type="text/html" data-template-name="onedrive-upload-file">
+    <div class="form-row">
+        <label for="node-input-name">Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-AccessToken">AccessToken</label>
+        <input type="text" id="node-input-AccessToken" placeholder="Access Token">
+    </div>
+    <div class="form-row">
+        <label for="node-input-Filename">Filename</label>
+        <input type="text" id="node-input-Filename" placeholder="Filename">
+    </div>
+    <div class="form-row">
+        <label for="node-input-ParentPath">ParentPath</label>
+        <input type="text" id="node-input-ParentPath" placeholder="ParentPath">
+    </div>
+</script>
+<script type="text/html" data-help-name="onedrive-upload-file">
+    <p>This node uploads a file reading from msg.payload a NodeJS read stream. Filename must be only a filename, not a complete path. to specify parent path use the ParentPath indicator. Folders must exist on OneDrive. Leave path empty to place file on root</p>
+</script>

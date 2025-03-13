@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bouygues-sms.js:11[25:27];Sink: msg.payload;bouygues-sms.js:14[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bouygues-sms.js:11[25:27];Sink: this.to || msg.to;bouygues-sms.js:14[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bouygues-sms.js:11[25:27];Sink: msg;bouygues-sms.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bouygues-sms.js:11[25:27];Sink: msg;bouygues-sms.js:18[23:25]::FLOW_DESCR_END","/bouygues-sms.js","11","25","11","27"

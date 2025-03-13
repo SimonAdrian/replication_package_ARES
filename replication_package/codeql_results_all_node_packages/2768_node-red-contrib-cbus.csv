@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-scope.js:66[30:32];Sink: JSON.stringify(json);iot-scope.js:97[39:58]::FLOW_DESCR_END","/iot-scope.js","66","30","66","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-scope.js:164[30:32];Sink: JSON.stringify(json);iot-scope.js:191[39:58]::FLOW_DESCR_END","/iot-scope.js","164","30","164","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-scope.js:258[30:32];Sink: JSON.stringify(json);iot-scope.js:282[39:58]::FLOW_DESCR_END","/iot-scope.js","258","30","258","32"

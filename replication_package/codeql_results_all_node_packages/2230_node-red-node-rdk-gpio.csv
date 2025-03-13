@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk_gpio.js:75[32:34];Sink: msg;rdk_gpio.js:91[79:81]::FLOW_DESCR_END","/rdk_gpio.js","75","32","75","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rdk_gpio.js:112[56:59];Sink: ""out: ""+data+"" :"";rdk_gpio.js:114[58:74]::FLOW_DESCR_END","/rdk_gpio.js","112","56","112","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rdk_gpio.js:117[56:59];Sink: ""err: ""+data+"" :"";rdk_gpio.js:118[58:74]::FLOW_DESCR_END","/rdk_gpio.js","117","56","117","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdk_gpio.js:132[50:52];Sink: RED._("" ... rr.path;rdk_gpio.js:133[61:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:132[50:52];Sink: err;rdk_gpio.js:133[111:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:132[50:52];Sink: RED._("" ... rr.path;rdk_gpio.js:134[66:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:132[50:52];Sink: err;rdk_gpio.js:134[121:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:132[50:52];Sink: err;rdk_gpio.js:135[87:89]::FLOW_DESCR_END","/rdk_gpio.js","132","50","132","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdk_gpio.js:138[56:58];Sink: err;rdk_gpio.js:140[84:86]::FLOW_DESCR_END","/rdk_gpio.js","138","56","138","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rdk_gpio.js:197[52:55];Sink: ""out: ""+d[i]+"" :"";rdk_gpio.js:206[58:74]::FLOW_DESCR_END","/rdk_gpio.js","197","52","197","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rdk_gpio.js:210[52:55];Sink: ""err: ""+data+"" :"";rdk_gpio.js:211[54:70]::FLOW_DESCR_END","/rdk_gpio.js","210","52","210","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdk_gpio.js:229[46:48];Sink: RED._("" ... rr.path;rdk_gpio.js:230[57:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:229[46:48];Sink: err;rdk_gpio.js:230[107:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:229[46:48];Sink: RED._("" ... rr.path;rdk_gpio.js:231[62:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:229[46:48];Sink: err;rdk_gpio.js:231[117:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;rdk_gpio.js:229[46:48];Sink: err;rdk_gpio.js:232[83:85]::FLOW_DESCR_END","/rdk_gpio.js","229","46","229","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdk_gpio.js:235[52:54];Sink: err;rdk_gpio.js:237[80:82]::FLOW_DESCR_END","/rdk_gpio.js","235","52","235","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rdk_gpio.js:295[52:55];Sink: ""err: ""+data+"" :"";rdk_gpio.js:296[54:70]::FLOW_DESCR_END","/rdk_gpio.js","295","52","295","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdk_gpio.js:310[46:48];Sink: RED._("" ... r.errno;rdk_gpio.js:313[35:81]::FLOW_DESCR_END","/rdk_gpio.js","310","46","310","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rdk_gpio.js:358[52:55];Sink: ""err: ""+data+"" :"";rdk_gpio.js:359[54:70]::FLOW_DESCR_END","/rdk_gpio.js","358","52","358","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rdk_gpio.js:376[46:48];Sink: RED._("" ... r.errno;rdk_gpio.js:379[35:81]::FLOW_DESCR_END","/rdk_gpio.js","376","46","376","48"

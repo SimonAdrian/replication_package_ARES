@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mandrill-send.js:25[36:38];Sink: payload;mandrill-send.js:36[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mandrill-send.js:25[36:38];Sink: msg;mandrill-send.js:38[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mandrill-send.js:25[36:38];Sink: msg;mandrill-send.js:42[31:33]::FLOW_DESCR_END","/mandrill-send.js","25","36","25","38"

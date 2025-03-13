@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;generic-ble.js:17[9326:9326];Sink: e;generic-ble.js:17[9348:9348]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;generic-ble.js:17[9326:9326];Sink: ""subscr ... message;generic-ble.js:17[9357:9388]::FLOW_DESCR_END","/dist/generic-ble.js","17","9326","17","9326"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;generic-ble.js:17[10229:10229];Sink: ""<""+e+"" ... ""+i+"")"";generic-ble.js:17[10263:10291]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;generic-ble.js:17[10229:10229];Sink: ""<""+e+"" ... ""+i+"")"";generic-ble.js:17[10401:10429]::FLOW_DESCR_END","/dist/generic-ble.js","17","10229","17","10229"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: i;generic-ble.js:17[10235:10235];Sink: ""<""+e+"" ... ""+i+"")"";generic-ble.js:17[10263:10291]::FLOW_DESCR_END","/dist/generic-ble.js","17","10235","17","10235"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;generic-ble.js:17[12302:12302];Sink: e.payload;generic-ble.js:17[12339:12347]::FLOW_DESCR_END","/dist/generic-ble.js","17","12302","17","12302"

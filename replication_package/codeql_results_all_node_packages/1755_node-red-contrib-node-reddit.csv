@@ -1,0 +1,63 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:121[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:140[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:151[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:162[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:173[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:185[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:195[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:203[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:206[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:219[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:230[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:240[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:256[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:263[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:266[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:279[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:289[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:297[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:300[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:312[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:322[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:332[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:342[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:93[29:31];Sink: msg;node-reddit.js:352[28:30]::FLOW_DESCR_END","/node-reddit.js","93","29","93","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:369[29:31];Sink: msg;node-reddit.js:388[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:369[29:31];Sink: msg;node-reddit.js:391[26:28]::FLOW_DESCR_END","/node-reddit.js","369","29","369","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:405[29:31];Sink: msg;node-reddit.js:422[26:28]::FLOW_DESCR_END","/node-reddit.js","405","29","405","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:441[20:22];Sink: msg;node-reddit.js:510[15:17]::FLOW_DESCR_END","/node-reddit.js","441","20","441","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:627[29:31];Sink: msg;node-reddit.js:638[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:627[29:31];Sink: msg;node-reddit.js:641[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:627[29:31];Sink: msg;node-reddit.js:649[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:627[29:31];Sink: msg;node-reddit.js:653[27:29]::FLOW_DESCR_END","/node-reddit.js","627","29","627","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:691[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:696[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:704[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:710[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:718[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:723[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:731[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:737[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:746[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:752[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:672[29:31];Sink: msg;node-reddit.js:758[27:29]::FLOW_DESCR_END","/node-reddit.js","672","29","672","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:787[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:792[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:800[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:805[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:813[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:818[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:828[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:833[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:841[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:846[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:856[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:861[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:869[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:874[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:882[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:887[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:897[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:902[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:910[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-reddit.js:776[29:31];Sink: msg;node-reddit.js:915[28:30]::FLOW_DESCR_END","/node-reddit.js","776","29","776","31"

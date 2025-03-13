@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;gapit-snmp.js:376[56:60];Sink: ""Sessio ... tring();gapit-snmp.js:377[30:65]::FLOW_DESCR_END","/gapit-snmp.js","376","56","376","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: ""OID '"" ... resent"";gapit-snmp.js:426[35:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: msg;gapit-snmp.js:435[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: msg;gapit-snmp.js:497[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: `Skippi ... time})`;gapit-snmp.js:601[35:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: `Skippi ... == ""n""`;gapit-snmp.js:604[35:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: msg;gapit-snmp.js:678[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gapit-snmp.js:764[36:38];Sink: msg;gapit-snmp.js:740[78:80]::FLOW_DESCR_END","/gapit-snmp.js","764","36","764","38"

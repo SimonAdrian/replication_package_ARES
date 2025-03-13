@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sequencer.js:28[35:37];Sink: _currentElement.data;sequencer.js:226[32:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequencer.js:28[35:37];Sink: _currentElement.data;sequencer.js:230[36:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequencer.js:28[35:37];Sink: _currentElement.data;sequencer.js:244[32:51]::FLOW_DESCR_END","/sequencer.js","28","35","28","37"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;log-ecs-logger.js:22[32:36];Sink: error;log-ecs-logger.js:23[49:53]::FLOW_DESCR_END","/log-ecs-logger.js","22","32","22","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-ecs.js:13[33:35];Sink: msg;log-ecs.js:33[39:41]::FLOW_DESCR_END","/log-ecs.js","13","33","13","35"

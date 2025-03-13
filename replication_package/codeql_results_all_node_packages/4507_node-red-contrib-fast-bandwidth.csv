@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fast-bandwidth.js:8[42:44];Sink: msg;fast-bandwidth.js:28[23:25]::FLOW_DESCR_END","/src/fast-bandwidth.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fast-bandwidth.spec.js:27[38:40];Sink: msg;fast-bandwidth.spec.js:29[29:31]::FLOW_DESCR_END","/test/fast-bandwidth.spec.js","27","38","27","40"

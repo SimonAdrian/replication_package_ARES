@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;iobox.js:185[43:48];Sink: result;iobox.js:191[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msgout;iobox.js:185[43:48];Sink: result;iobox.js:195[16:21]::FLOW_DESCR_END","/iobox.js","185","43","185","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: msg;iobox.js:213[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: msg;iobox.js:218[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: outs;iobox.js:241[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: msg;iobox.js:244[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: outs;iobox.js:253[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: msg;iobox.js:256[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: outs;iobox.js:265[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: msg;iobox.js:268[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: outs;iobox.js:277[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iobox.js:209[28:30];Sink: msg;iobox.js:280[27:29]::FLOW_DESCR_END","/iobox.js","209","28","209","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;iobox.js:217[88:96];Sink: errmsg;iobox.js:218[36:41]::FLOW_DESCR_END","/iobox.js","217","88","217","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;iobox.js:243[72:80];Sink: errmsg;iobox.js:244[20:25]::FLOW_DESCR_END","/iobox.js","243","72","243","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;iobox.js:255[72:80];Sink: errmsg;iobox.js:256[20:25]::FLOW_DESCR_END","/iobox.js","255","72","255","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;iobox.js:267[72:80];Sink: errmsg;iobox.js:268[20:25]::FLOW_DESCR_END","/iobox.js","267","72","267","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;iobox.js:279[72:80];Sink: errmsg;iobox.js:280[20:25]::FLOW_DESCR_END","/iobox.js","279","72","279","80"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: require ... ""utf8"");example.js:7[15:65];Sink: xmlData;example.js:17[13:19]::FLOW_DESCR_END","/examples/example.js","7","15","7","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xmlc14n.js:8[35:37];Sink: msg;xmlc14n.js:16[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xmlc14n.js:8[35:37];Sink: msg;xmlc14n.js:19[27:29]::FLOW_DESCR_END","/xmlc14n.js","8","35","8","37"

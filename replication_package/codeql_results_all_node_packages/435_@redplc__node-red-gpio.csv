@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-gpio-in.js:81[36:38];Sink: msg;redplc-gpio-in.js:83[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-gpio-in.js:81[36:38];Sink: msg;redplc-gpio-in.js:90[23:25]::FLOW_DESCR_END","/nodes/redplc-gpio-in.js","81","36","81","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;redplc-gpio-out.js:88[36:38];Sink: msg;redplc-gpio-out.js:90[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;redplc-gpio-out.js:88[36:38];Sink: msg;redplc-gpio-out.js:97[23:25]::FLOW_DESCR_END","/nodes/redplc-gpio-out.js","88","36","88","38"

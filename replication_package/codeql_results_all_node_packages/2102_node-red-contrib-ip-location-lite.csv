@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geo_ip_lite.js:42[35:37];Sink: msg;geo_ip_lite.js:125[23:25]::FLOW_DESCR_END","/geo_ip_lite.js","42","35","42","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;geo_ip_lite.js:62[63:66];Sink: data;geo_ip_lite.js:71[33:36]::FLOW_DESCR_END","/geo_ip_lite.js","62","63","62","66"

@@ -1,0 +1,53 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.length;app.js:35[25:44];Sink: `Number ... mApps}`;app.js:38[18:62]::FLOW_DESCR_END","/src/lib/qseow/app.js","35","25","35","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... rtFile);auth.js:77[28:69];Sink: `Combin ... dCert}`;auth.js:85[22:55]::FLOW_DESCR_END","/src/lib/qseow/auth.js","77","28","77","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... CaFile);auth.js:83[24:67];Sink: `Combin ... dCert}`;auth.js:85[22:55]::FLOW_DESCR_END","/src/lib/qseow/auth.js","83","24","83","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... rtFile);auth.js:187[24:65];Sink: `Combin ... dCert}`;auth.js:198[18:51]::FLOW_DESCR_END","/src/lib/qseow/auth.js","187","24","187","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... CaFile);auth.js:196[20:63];Sink: `Combin ... dCert}`;auth.js:198[18:51]::FLOW_DESCR_END","/src/lib/qseow/auth.js","196","20","196","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ta[key];servicestatus.js:32[26:47];Sink: `enumIt ... Item)}`;servicestatus.js:36[26:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ta[key];servicestatus.js:32[26:47];Sink: `enumSe ... Type)}`;servicestatus.js:53[14:66]::FLOW_DESCR_END","/src/lib/qseow/servicestatus.js","32","26","32","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: enumItem.values;servicestatus.js:43[17:31];Sink: `enumSe ... Type)}`;servicestatus.js:53[14:66]::FLOW_DESCR_END","/src/lib/qseow/servicestatus.js","43","17","43","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ta[key];servicestatus.js:60[26:47];Sink: `enumIt ... Item)}`;servicestatus.js:64[26:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ta[key];servicestatus.js:60[26:47];Sink: `enumSe ... tate)}`;servicestatus.js:76[14:68]::FLOW_DESCR_END","/src/lib/qseow/servicestatus.js","60","26","60","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: enumItem.values;servicestatus.js:66[17:31];Sink: `enumSe ... tate)}`;servicestatus.js:76[14:68]::FLOW_DESCR_END","/src/lib/qseow/servicestatus.js","66","17","66","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... .length;tag.js:255[27:51];Sink: `Found  ... erver.`;tag.js:255[18:97]::FLOW_DESCR_END","/src/lib/qseow/tag.js","255","27","255","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.tags;tag.js:255[27:44];Sink: `Found  ... erver.`;tag.js:255[18:97]::FLOW_DESCR_END","/src/lib/qseow/tag.js","255","27","255","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qscloud-app-nr.js:19[33:35];Sink: `Incomi ... oming}`;appconfig.js:26[18:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qscloud-app-nr.js:19[33:35];Sink: `appIdC ... ength}`;qscloud-app-nr.js:107[30:80]::FLOW_DESCR_END","/src/qscloud/qscloud-app-nr.js","19","33","19","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qscloud-reload-status-nr.js:16[33:35];Sink: `starti ... econds`;reloadstatus.js:128[23:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qscloud-reload-status-nr.js:16[33:35];Sink: `settin ... econds`;reloadstatus.js:188[23:81]::FLOW_DESCR_END","/src/qscloud/qscloud-reload-status-nr.js","16","33","16","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ppId}""`;app.js:20[18:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Filter ... ', ')}`;app.js:85[18:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `URL: $ ... g.url}`;app.js:141[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `URL: $ ... g.url}`;app.js:183[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `URL: $ ... g.url}`;app.js:225[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:275[24:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:297[28:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:354[24:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Starti ... erver.`;app.js:457[18:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:466[24:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... Name}""`;app.js:536[29:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:612[28:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ${ ... server`;app.js:778[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ${ ... server`;app.js:781[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `loadSc ... cript}`;app.js:815[26:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Got lo ... erver.`;app.js:828[26:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:831[28:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ${ ... server`;app.js:888[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ${ ... server`;app.js:891[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Done s ... erver.`;app.js:940[26:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... ${err}`;app.js:943[28:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Incomi ... oming}`;appconfig.js:50[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ID ... dates}`;qseow-app-nr.js:56[30:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... error}`;qseow-app-nr.js:165[34:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ID ... Exist}`;qseow-app-nr.js:189[30:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `Error  ... error}`;qseow-app-nr.js:239[34:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ID ... Exist}`;qseow-app-nr.js:263[30:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ID ... Exist}`;qseow-app-nr.js:407[30:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-app-nr.js:18[33:35];Sink: `App ID ... dates}`;qseow-app-nr.js:446[30:85]::FLOW_DESCR_END","/src/qseow/qseow-app-nr.js","18","33","18","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qseow-tag-nr.js:16[33:35];Sink: `URL: $ ... g.url}`;tag.js:39[14:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-tag-nr.js:16[33:35];Sink: `Incomi ... oming}`;tagconfig.js:49[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-tag-nr.js:16[33:35];Sink: `Tag na ... dates}`;qseow-tag-nr.js:32[26:85]::FLOW_DESCR_END","/src/qseow/qseow-tag-nr.js","16","33","16","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qseow-task-nr.js:19[33:35];Sink: `URL: $ ... g.url}`;task.js:27[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-task-nr.js:19[33:35];Sink: `URL: $ ... g.url}`;task.js:71[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-task-nr.js:19[33:35];Sink: `Incomi ... oming}`;taskconfig.js:51[18:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qseow-task-nr.js:19[33:35];Sink: `Task I ... dates}`;qseow-task-nr.js:56[30:74]::FLOW_DESCR_END","/src/qseow/qseow-task-nr.js","19","33","19","35"

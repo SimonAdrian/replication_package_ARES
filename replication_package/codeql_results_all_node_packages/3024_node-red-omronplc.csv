@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;omron-command.js:14[35:37];Sink: msg;omron-command.js:47[23:25]::FLOW_DESCR_END","/omron-command.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;omron-receive-all.js:12[35:37];Sink: msg;omron-receive-all.js:27[23:25]::FLOW_DESCR_END","/omron-receive-all.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;omron-receive.js:12[35:37];Sink: msg;omron-receive.js:32[23:25]::FLOW_DESCR_END","/omron-receive.js","12","35","12","37"

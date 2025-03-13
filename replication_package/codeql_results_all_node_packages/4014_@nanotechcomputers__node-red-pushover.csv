@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data?.request;pushover.js:10[29:41];Sink: `Pushov ... quest}`;pushover.js:13[26:106]::FLOW_DESCR_END","/lib/pushover.js","10","29","10","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pushover.js:27[36:38];Sink: image;pushover.js:37[34:38]::FLOW_DESCR_END","/pushover.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;pushover.js:27[47:50];Sink: this._done;messages.js:108[73:82]::FLOW_DESCR_END","/pushover.js","27","47","27","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;pushover.js:95[47:50];Sink: this._done;receipts.js:25[73:82]::FLOW_DESCR_END","/pushover.js","95","47","95","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;pushover.js:115[47:50];Sink: done;pushover.js:149[51:54]::FLOW_DESCR_END","/pushover.js","115","47","115","50"

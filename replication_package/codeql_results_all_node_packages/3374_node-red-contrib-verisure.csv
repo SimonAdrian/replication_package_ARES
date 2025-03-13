@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;test_alarm_spec.js:77[26:29];Sink: 'WARN' + call;test_alarm_spec.js:78[21:33]::FLOW_DESCR_END","/tests/test_alarm_spec.js","77","26","77","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: call;test_alarm_spec.js:80[27:30];Sink: 'ERROR:' + call;test_alarm_spec.js:81[21:35]::FLOW_DESCR_END","/tests/test_alarm_spec.js","80","27","80","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-verisure-node.js:24[32:34];Sink: msg;node-red-contrib-verisure-node.js:50[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-verisure-node.js:24[32:34];Sink: msg;node-red-contrib-verisure-node.js:57[21:23]::FLOW_DESCR_END","/verisurenode/node-red-contrib-verisure-node.js","24","32","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-verisure-sensor.js:25[32:34];Sink: msg;node-red-contrib-verisure-sensor.js:59[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-verisure-sensor.js:25[32:34];Sink: msg;node-red-contrib-verisure-sensor.js:68[21:23]::FLOW_DESCR_END","/verisurenode/node-red-contrib-verisure-sensor.js","25","32","25","34"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qrdecode.js:10[36:38];Sink: msg;qrdecode.js:20[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qrdecode.js:10[36:38];Sink: msg;qrdecode.js:28[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qrdecode.js:10[36:38];Sink: msg;qrdecode.js:33[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;qrdecode.js:10[36:38];Sink: msg;qrdecode.js:42[27:29]::FLOW_DESCR_END","/qrdecode.js","10","36","10","38"

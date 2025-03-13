@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;chartjs.js:30[35:40];Sink: topic;chartjs.js:34[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;chartjs.js:30[35:40];Sink: 'user d ... + topic;chartjs.js:37[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;chartjs.js:30[35:40];Sink: 'a sock ...  Date();chartjs.js:40[21:170]::FLOW_DESCR_END","/chartjs/chartjs.js","30","35","30","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:141[36:38];Sink: msg;chartjs.js:148[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","141","36","141","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:183[36:38];Sink: msg;chartjs.js:190[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","183","36","183","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:225[36:38];Sink: msg;chartjs.js:232[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","225","36","225","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:267[36:38];Sink: msg;chartjs.js:274[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","267","36","267","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:309[36:38];Sink: msg;chartjs.js:316[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","309","36","309","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:351[36:38];Sink: msg;chartjs.js:358[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","351","36","351","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:393[36:38];Sink: msg;chartjs.js:400[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","393","36","393","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs.js:435[36:38];Sink: msg;chartjs.js:442[23:25]::FLOW_DESCR_END","/chartjs/chartjs.js","435","36","435","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t;socket.io.js:6[28642:28642]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t.data;socket.io.js:6[28891:28896]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t.data;socket.io.js:6[28919:28924]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t;socket.io.js:6[29056:29056]::FLOW_DESCR_END","/chartjs/js/socket.io.js","6","26486","6","26486"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;socket.io.js:6[26525:26525];Sink: t;socket.io.js:6[31365:31365]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26525:26525];Sink: e;socket.io.js:6[31806:31806]::FLOW_DESCR_END","/chartjs/js/socket.io.js","6","26525","6","26525"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;bubble-chart.js:22[31:33];Sink: red;bubble-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/bubble-chart.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;doughnut-chart.js:22[31:33];Sink: red;doughnut-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/doughnut-chart.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;horizontal-bar-chart.js:22[31:33];Sink: red;horizontal-bar-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/horizontal-bar-chart.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;line-chart.js:22[31:33];Sink: red;line-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/line-chart.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;pie-chart.js:22[31:33];Sink: red;pie-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/pie-chart.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;polar-chart.js:22[31:33];Sink: red;polar-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/polar-chart.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;radar-chart.js:21[31:33];Sink: red;radar-chart.js:22[21:23]::FLOW_DESCR_END","/chartjs/templates/radar-chart.js","21","31","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;vertical-bar-chart.js:22[31:33];Sink: red;vertical-bar-chart.js:23[21:23]::FLOW_DESCR_END","/chartjs/templates/vertical-bar-chart.js","22","31","22","33"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actions-intent-switch.js:10[27:29];Sink: msg;actions-intent-switch.js:17[18:20]::FLOW_DESCR_END","/src/actions-intent-switch.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actions-intent.js:7[27:29];Sink: msg;actions-intent.js:14[22:24]::FLOW_DESCR_END","/src/actions-intent.js","7","27","7","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actions-permissions.js:7[27:29];Sink: msg;actions-permissions.js:27[18:20]::FLOW_DESCR_END","/src/actions-permissions.js","7","27","7","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actions-simpleResponse.js:7[27:29];Sink: msg;actions-simpleResponse.js:22[18:20]::FLOW_DESCR_END","/src/actions-simpleResponse.js","7","27","7","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;actions-suggestions.js:7[27:29];Sink: msg;actions-suggestions.js:16[18:20]::FLOW_DESCR_END","/src/actions-suggestions.js","7","27","7","29"

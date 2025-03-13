@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nats-publish.js:54[32:34];Sink: msg.payload;nats-publish.js:64[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nats-publish.js:54[32:34];Sink: channel;nats-publish.js:79[22:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nats-publish.js:54[32:34];Sink: message;nats-publish.js:79[31:37]::FLOW_DESCR_END","/nats-publish.js","54","32","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nats-subscribe-jetstream.js:86[33:35];Sink: ""connec ... "" + err;nats-subscribe-jetstream.js:86[50:73]::FLOW_DESCR_END","/nats-subscribe-jetstream.js","86","33","86","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nats-subscribe.js:86[33:35];Sink: ""connec ... "" + err;nats-subscribe.js:86[50:73]::FLOW_DESCR_END","/nats-subscribe.js","86","33","86","35"

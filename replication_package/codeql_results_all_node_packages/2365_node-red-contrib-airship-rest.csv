@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: [succes ... , null];airship-rest.js:56[20:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: [null,  ... rr_msg];airship-rest.js:71[20:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: url;airship-rest.js:152[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: httpMethod;airship-rest.js:152[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: payload;airship-rest.js:152[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: ingestMethod;airship-rest.js:152[60:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: AWSKey;airship-rest.js:152[74:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;airship-rest.js:160[28:30];Sink: [null,  ... , null];airship-rest.js:226[39:106]::FLOW_DESCR_END","/rest/airship-rest.js","160","28","160","30"

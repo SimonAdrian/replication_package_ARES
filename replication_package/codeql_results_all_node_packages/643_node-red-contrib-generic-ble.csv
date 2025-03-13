@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;generic-ble.js:17[10097:10097];Sink: e;generic-ble.js:17[10123:10123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;generic-ble.js:17[10097:10097];Sink: ""subscr ... message;generic-ble.js:17[10135:10166]::FLOW_DESCR_END","/dist/generic-ble.js","17","10097","17","10097"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;generic-ble.js:17[11169:11169];Sink: `<${thi ...  data)`;generic-ble.js:17[11928:11987]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;generic-ble.js:17[11169:11169];Sink: `<${thi ... tack})`;generic-ble.js:17[12265:12343]::FLOW_DESCR_END","/dist/generic-ble.js","17","11169","17","11169"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;generic-ble.js:17[13345:13345];Sink: e.payload;generic-ble.js:17[13575:13583]::FLOW_DESCR_END","/dist/generic-ble.js","17","13345","17","13345"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;bindings.js:17[8058:8058];Sink: `[${c}] ... fy(r)}`;bindings.js:17[8073:8189]::FLOW_DESCR_END","/dist/noble/lib/bluez/bindings.js","17","8058","17","8058"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a;bindings.js:17[8060:8060];Sink: Buffer. ... .value);bindings.js:17[8262:8287]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;bindings.js:17[8060:8060];Sink: `[${c}] ... fy(a)}`;bindings.js:17[8308:8389]::FLOW_DESCR_END","/dist/noble/lib/bluez/bindings.js","17","8060","17","8060"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;bindings.js:17[8062:8062];Sink: `[${c}] ... fy(r)}`;bindings.js:17[8073:8189]::FLOW_DESCR_END","/dist/noble/lib/bluez/bindings.js","17","8062","17","8062"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;bindings.js:17[9377:9377];Sink: `[${i}] ... fy(r)}`;bindings.js:17[9395:9511]::FLOW_DESCR_END","/dist/noble/lib/bluez/bindings.js","17","9377","17","9377"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a;bindings.js:17[9379:9379];Sink: a.RSSI.value;bindings.js:17[9730:9741]::FLOW_DESCR_END","/dist/noble/lib/bluez/bindings.js","17","9379","17","9379"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;bindings.js:17[9381:9381];Sink: `[${i}] ... fy(r)}`;bindings.js:17[9395:9511]::FLOW_DESCR_END","/dist/noble/lib/bluez/bindings.js","17","9381","17","9381"

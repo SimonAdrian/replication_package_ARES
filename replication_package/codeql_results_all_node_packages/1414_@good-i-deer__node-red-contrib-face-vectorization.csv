@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;face-vectorization.js:14[38:40];Sink: msg;face-vectorization.js:29[21:23]::FLOW_DESCR_END","/face-vectorization.js","14","38","14","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8"");face-vectorization.js:43[29:62];Sink: JSON.st ... llData);face-vectorization.js:46[40:62]::FLOW_DESCR_END","/face-vectorization.js","43","29","43","62"

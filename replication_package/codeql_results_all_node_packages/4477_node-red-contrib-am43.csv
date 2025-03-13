@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;am43.js:24[35:37];Sink: err;am43.js:26[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;am43.js:24[35:37];Sink: msg;am43.js:26[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;am43.js:24[35:37];Sink: 'Device ... s + ']';am43.js:95[18:80]::FLOW_DESCR_END","/am43.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;am43.js:24[46:50];Sink: error;am43.js:75[40:44]::FLOW_DESCR_END","/am43.js","24","46","24","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;am43.js:56[29:38];Sink: 'Device ... s + ']';am43.js:95[18:80]::FLOW_DESCR_END","/am43.js","56","29","56","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;am43.js:66[52:55];Sink: `state  ... data)}`;am43.js:67[40:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;am43.js:66[52:55];Sink: data;am43.js:75[34:37]::FLOW_DESCR_END","/am43.js","66","52","66","55"

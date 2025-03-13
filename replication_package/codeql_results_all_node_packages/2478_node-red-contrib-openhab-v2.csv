@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;openhab-v2-controller.js:239[17:27];Sink: `Connec ... ${url}`;openhab-v2-controller.js:130[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;openhab-v2-controller.js:239[17:27];Sink: errorMessage;openhab-v2-controller.js:192[84:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;openhab-v2-controller.js:239[17:27];Sink: errorMessage;openhab-v2-controller.js:196[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;openhab-v2-controller.js:239[17:27];Sink: `Connec ... ${url}`;openhab-v2-controller.js:214[20:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;openhab-v2-controller.js:239[17:27];Sink: `Discon ... ${url}`;openhab-v2-controller.js:226[22:48]::FLOW_DESCR_END","/nodes/openhab-v2-controller.js","239","17","239","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;openhab-v2-controller.js:241[17:27];Sink: `Connec ... ${url}`;openhab-v2-controller.js:130[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;openhab-v2-controller.js:241[17:27];Sink: errorMessage;openhab-v2-controller.js:192[84:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;openhab-v2-controller.js:241[17:27];Sink: errorMessage;openhab-v2-controller.js:196[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;openhab-v2-controller.js:241[17:27];Sink: `Connec ... ${url}`;openhab-v2-controller.js:214[20:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;openhab-v2-controller.js:241[17:27];Sink: `Discon ... ${url}`;openhab-v2-controller.js:226[22:48]::FLOW_DESCR_END","/nodes/openhab-v2-controller.js","241","17","241","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;openhab-v2-controller.js:244[38:46];Sink: `Connec ... ${url}`;openhab-v2-controller.js:130[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;openhab-v2-controller.js:244[38:46];Sink: errorMessage;openhab-v2-controller.js:192[84:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;openhab-v2-controller.js:244[38:46];Sink: errorMessage;openhab-v2-controller.js:196[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;openhab-v2-controller.js:244[38:46];Sink: `Connec ... ${url}`;openhab-v2-controller.js:214[20:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;openhab-v2-controller.js:244[38:46];Sink: `Discon ... ${url}`;openhab-v2-controller.js:226[22:48]::FLOW_DESCR_END","/nodes/openhab-v2-controller.js","244","38","244","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;openhab-v2-controller.js:244[51:59];Sink: `Connec ... ${url}`;openhab-v2-controller.js:130[20:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;openhab-v2-controller.js:244[51:59];Sink: errorMessage;openhab-v2-controller.js:192[84:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;openhab-v2-controller.js:244[51:59];Sink: errorMessage;openhab-v2-controller.js:196[19:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;openhab-v2-controller.js:244[51:59];Sink: `Connec ... ${url}`;openhab-v2-controller.js:214[20:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;openhab-v2-controller.js:244[51:59];Sink: `Discon ... ${url}`;openhab-v2-controller.js:226[22:48]::FLOW_DESCR_END","/nodes/openhab-v2-controller.js","244","51","244","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;openhab-v2-in.js:139[20:24];Sink: { ...cu ... state };openhab-v2-in.js:78[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;openhab-v2-in.js:139[20:24];Sink: { ...cu ... state };openhab-v2-in.js:83[48:81]::FLOW_DESCR_END","/nodes/openhab-v2-in.js","139","20","139","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;openhab-v2-trigger.js:301[21:25];Sink: state;openhab-v2-trigger.js:79[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;openhab-v2-trigger.js:301[21:25];Sink: trigger;openhab-v2-trigger.js:325[37:43]::FLOW_DESCR_END","/nodes/openhab-v2-trigger.js","301","21","301","25"

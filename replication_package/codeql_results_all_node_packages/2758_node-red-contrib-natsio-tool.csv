@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: st;natsio_pub.js:9[31:32];Sink: st;natsio_pub.js:10[19:20]::FLOW_DESCR_END","/natsio_pub.js","9","31","9","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;natsio_pub.js:13[31:33];Sink: subject;natsio_pub.js:18[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;natsio_pub.js:13[31:33];Sink: message;natsio_pub.js:18[41:47]::FLOW_DESCR_END","/natsio_pub.js","13","31","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: st;natsio_req.js:11[31:32];Sink: st;natsio_req.js:12[19:20]::FLOW_DESCR_END","/natsio_req.js","11","31","11","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;natsio_req.js:19[31:33];Sink: msg;natsio_req.js:28[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;natsio_req.js:19[31:33];Sink: msg;natsio_req.js:35[23:25]::FLOW_DESCR_END","/natsio_req.js","19","31","19","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;natsio_server.js:7[16:40];Sink: server;natsio_server.js:15[17:22]::FLOW_DESCR_END","/natsio_server.js","7","16","7","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;natsio_server.js:8[16:40];Sink: server;natsio_server.js:15[17:22]::FLOW_DESCR_END","/natsio_server.js","8","16","8","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;natsio_server.js:14[18:23];Sink: server;natsio_server.js:15[17:22]::FLOW_DESCR_END","/natsio_server.js","14","18","14","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;natsio_server.js:14[28:33];Sink: server;natsio_server.js:15[17:22]::FLOW_DESCR_END","/natsio_server.js","14","28","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;natsio_server.js:24[26:26];Sink: e;natsio_server.js:25[16:16]::FLOW_DESCR_END","/natsio_server.js","24","26","24","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;natsio_sub.js:12[23:25];Sink: msg;natsio_sub.js:13[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;natsio_sub.js:12[23:25];Sink: msg;natsio_sub.js:24[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;natsio_sub.js:12[23:25];Sink: msg;natsio_sub.js:25[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;natsio_sub.js:12[23:25];Sink: sub;natsio_sub.js:28[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;natsio_sub.js:12[23:25];Sink: msg;natsio_sub.js:48[21:23]::FLOW_DESCR_END","/natsio_sub.js","12","23","12","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;natsio_sub.js:31[14:20];Sink: message;natsio_sub.js:32[38:44]::FLOW_DESCR_END","/natsio_sub.js","31","14","31","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: subject;natsio_sub.js:31[32:38];Sink: subject;natsio_sub.js:32[59:65]::FLOW_DESCR_END","/natsio_sub.js","31","32","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: st;natsio_sub.js:52[31:32];Sink: st;natsio_sub.js:56[19:20]::FLOW_DESCR_END","/natsio_sub.js","52","31","52","32"

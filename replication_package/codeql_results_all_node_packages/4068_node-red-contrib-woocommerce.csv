@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:41[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:44[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: cmdData.endpoint;woocommerce.js:52[17:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: cmdData.params;woocommerce.js:52[35:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:57[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:68[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: cmdData.endpoint;woocommerce.js:75[18:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg.payload;woocommerce.js:75[36:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:80[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:89[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: cmdData.endpoint;woocommerce.js:96[17:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg.payload;woocommerce.js:96[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:101[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:112[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:124[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:135[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:147[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;woocommerce.js:22[32:34];Sink: msg;woocommerce.js:158[20:22]::FLOW_DESCR_END","/woocommerce.js","22","32","22","34"

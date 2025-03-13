@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scriptr.io.js:38[29:31];Sink: ""execut ... ad+ ""]"";scriptr.io.js:39[13:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scriptr.io.js:38[29:31];Sink: ""sendin ... y + ""]"";scriptr.io.js:44[14:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scriptr.io.js:38[29:31];Sink: payload;scriptr.io.js:92[18:24]::FLOW_DESCR_END","/scriptr.io.js","38","29","38","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scriptr.io.js:102[30:32];Sink: ""execut ... ad+ ""]"";scriptr.io.js:103[13:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scriptr.io.js:102[30:32];Sink: ""sendin ... ndpoint;scriptr.io.js:105[14:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;scriptr.io.js:102[30:32];Sink: JSON.st ... essage);scriptr.io.js:122[21:43]::FLOW_DESCR_END","/scriptr.io.js","102","30","102","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;scriptr.io.js:158[42:45];Sink: ""sendin ...  + data;scriptr.io.js:165[15:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;scriptr.io.js:158[42:45];Sink: data;scriptr.io.js:166[13:16]::FLOW_DESCR_END","/scriptr.io.js","158","42","158","45"

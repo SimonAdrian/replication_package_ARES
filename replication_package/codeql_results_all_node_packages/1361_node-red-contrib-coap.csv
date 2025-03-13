@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;coap-in.js:28[39:41];Sink: err;coap-in.js:30[26:28]::FLOW_DESCR_END","/coap/coap-in.js","28","39","28","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coap-in.js:172[36:38];Sink: payload;coap-in.js:190[35:41]::FLOW_DESCR_END","/coap/coap-in.js","172","36","172","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;coap-in.js:184[47:49];Sink: err;coap-in.js:186[30:32]::FLOW_DESCR_END","/coap/coap-in.js","184","47","184","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;coap-request.js:145[39:41];Sink: err;coap-request.js:147[26:28]::FLOW_DESCR_END","/coap/coap-request.js","145","39","145","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;coap-request.js:156[36:38];Sink: Object. ...      });coap-request.js:83[25:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;coap-request.js:156[36:38];Sink: payload;coap-request.js:151[27:33]::FLOW_DESCR_END","/coap/coap-request.js","156","36","156","38"

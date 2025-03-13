@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;shelly-mqtt-config.js:72[58:64];Sink: payload;shelly-mqtt-config.js:36[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;shelly-mqtt-config.js:72[58:64];Sink: payload.toString();shelly-mqtt-config.js:78[28:45]::FLOW_DESCR_END","/shelly-mqtt-config.js","72","58","72","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... iceName;shelly-mqtt-config.js:94[48:71];Sink: `shelli ... nd/pos`;shelly-mqtt-config.js:94[36:94]::FLOW_DESCR_END","/shelly-mqtt-config.js","94","48","94","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... iceName;shelly-mqtt-config.js:106[39:62];Sink: rollerTopic;shelly-mqtt-config.js:107[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device. ... iceName;shelly-mqtt-config.js:106[39:62];Sink: rollerTopic;shelly-mqtt-config.js:110[42:52]::FLOW_DESCR_END","/shelly-mqtt-config.js","106","39","106","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... iceName;shelly-mqtt-config.js:116[23:46];Sink: `shelli ... /0/set`;shelly-mqtt-config.js:116[11:60]::FLOW_DESCR_END","/shelly-mqtt-config.js","116","23","116","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... iceName;shelly-mqtt-config.js:124[23:46];Sink: `shelli ... ommand`;shelly-mqtt-config.js:124[11:87]::FLOW_DESCR_END","/shelly-mqtt-config.js","124","23","124","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... iceName;shelly-mqtt-config.js:160[46:67];Sink: `shelli ... ommand`;shelly-mqtt-config.js:160[34:77]::FLOW_DESCR_END","/shelly-mqtt-config.js","160","46","160","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... iceName;shelly-mqtt-config.js:161[46:67];Sink: `shelli ... ommand`;shelly-mqtt-config.js:161[34:77]::FLOW_DESCR_END","/shelly-mqtt-config.js","161","46","161","67"

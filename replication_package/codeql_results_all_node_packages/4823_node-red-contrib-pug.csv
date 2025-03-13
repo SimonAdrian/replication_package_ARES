@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pug-file.js:23[32:34];Sink: msg;pug-file.js:54[24:26]::FLOW_DESCR_END","/pug/pug-file.js","23","32","23","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pug-string.js:10[32:34];Sink: msg;pug-string.js:24[17:19]::FLOW_DESCR_END","/pug/pug-string.js","10","32","10","34"

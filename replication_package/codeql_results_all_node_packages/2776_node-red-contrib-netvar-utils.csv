@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nvl-header.js:6[27:29];Sink: msg;nvl-header.js:10[18:20]::FLOW_DESCR_END","/dist/nodes/nvl-header/nvl-header.js","6","27","6","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nvl-json.js:7[27:29];Sink: msg;nvl-json.js:11[18:20]::FLOW_DESCR_END","/dist/nodes/nvl-json/nvl-json.js","7","27","7","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nvl-reader.js:83[23:25];Sink: msg;nvl-reader.js:71[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nvl-reader.js:83[23:25];Sink: msg;nvl-reader.js:104[30:32]::FLOW_DESCR_END","/dist/nodes/nvl-reader/nvl-reader.js","83","23","83","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nvl-reader.js:112[23:25];Sink: msg;nvl-reader.js:134[18:20]::FLOW_DESCR_END","/dist/nodes/nvl-reader/nvl-reader.js","112","23","112","25"

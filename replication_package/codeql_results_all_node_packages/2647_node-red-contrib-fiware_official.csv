@@ -1,0 +1,37 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;http.js:11[31:35];Sink: `Except ... } ` + e;dataset.js:77[11:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;http.js:11[31:35];Sink: `Except ... : ` + e;entity.js:104[20:73]::FLOW_DESCR_END","/src/http.js","11","31","11","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;http.js:11[38:45];Sink: `Query  ... sCode}`;dataset.js:92[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;http.js:11[38:45];Sink: `Entity ... sCode}`;entity.js:121[13:88]::FLOW_DESCR_END","/src/http.js","11","38","11","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;http.js:11[48:51];Sink: `${endp ... eters}`;dataset.js:71[11:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;http.js:11[48:51];Sink: resource;entity.js:99[11:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;http.js:11[48:51];Sink: `Except ... : ` + e;entity.js:104[20:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;http.js:11[48:51];Sink: `Entity ...  found`;entity.js:116[22:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;http.js:11[48:51];Sink: `Entity ... sCode}`;entity.js:121[13:88]::FLOW_DESCR_END","/src/http.js","11","48","11","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;http.js:37[31:35];Sink: `Except ... : ${e}`;contextbroker.js:90[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;http.js:37[31:35];Sink: `Except ... : ` + e;subscription.js:183[20:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;http.js:37[31:35];Sink: `Except ... : ` + e;update.js:179[20:62]::FLOW_DESCR_END","/src/http.js","37","31","37","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;http.js:37[38:45];Sink: `Error  ... sCode}`;contextbroker.js:87[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;http.js:37[38:45];Sink: `Query  ...     )}`;subscription.js:207[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;http.js:37[38:45];Sink: payload;update.js:174[11:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;http.js:37[38:45];Sink: `Entity ... sCode}`;update.js:197[13:79]::FLOW_DESCR_END","/src/http.js","37","38","37","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;http.js:37[48:51];Sink: `Query  ...     )}`;subscription.js:207[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;http.js:37[48:51];Sink: response.body;update.js:200[25:37]::FLOW_DESCR_END","/src/http.js","37","48","37","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;contextbroker.js:71[43:55];Sink: payload;contextbroker.js:78[52:58]::FLOW_DESCR_END","/src/nodes/NGSI/contextbroker/contextbroker.js","71","43","71","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;contextbroker.js:72[43:55];Sink: payload;contextbroker.js:78[52:58]::FLOW_DESCR_END","/src/nodes/NGSI/contextbroker/contextbroker.js","72","43","72","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dataset.js:59[37:39];Sink: `${endp ... eters}`;dataset.js:71[11:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataset.js:59[37:39];Sink: msg;dataset.js:78[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dataset.js:59[37:39];Sink: msg;dataset.js:88[21:23]::FLOW_DESCR_END","/src/nodes/NGSI/dataset/dataset.js","59","37","59","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: msg;entity.js:79[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: resource;entity.js:99[11:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: `Except ... : ` + e;entity.js:104[20:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: msg;entity.js:104[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: msg;entity.js:112[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: `Entity ...  found`;entity.js:116[22:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: msg;entity.js:116[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: `Entity ... sCode}`;entity.js:121[13:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:74[37:39];Sink: msg;entity.js:122[13:15]::FLOW_DESCR_END","/src/nodes/NGSI/entity/entity.js","74","37","74","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;subscription.js:165[37:39];Sink: msg;subscription.js:183[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;subscription.js:165[37:39];Sink: msg;subscription.js:202[21:23]::FLOW_DESCR_END","/src/nodes/NGSI/subscription/subscription.js","165","37","165","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:157[37:39];Sink: payload;update.js:174[11:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:157[37:39];Sink: msg;update.js:204[17:19]::FLOW_DESCR_END","/src/nodes/NGSI/update/update.js","157","37","157","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;v2ToLD.js:21[31:33];Sink: msg;v2ToLD.js:45[17:19]::FLOW_DESCR_END","/src/nodes/NGSI/v2ToLD/v2ToLD.js","21","31","21","33"

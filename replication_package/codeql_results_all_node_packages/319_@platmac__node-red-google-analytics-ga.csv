@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GA.js:34[24:26];Sink: msg;GA.js:87[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GA.js:34[24:26];Sink: msg;GA.js:99[24:26]::FLOW_DESCR_END","/nodes/Google_Analytics/GA.js","34","24","34","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GA.js:105[24:26];Sink: msg;GA.js:155[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GA.js:105[24:26];Sink: msg;GA.js:167[24:26]::FLOW_DESCR_END","/nodes/Google_Analytics/GA.js","105","24","105","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GA.js:173[31:33];Sink: msg;GA.js:241[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GA.js:173[31:33];Sink: msg;GA.js:252[31:33]::FLOW_DESCR_END","/nodes/Google_Analytics/GA.js","173","31","173","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GA.js:257[39:41];Sink: msg;GA.js:328[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GA.js:257[39:41];Sink: msg;GA.js:338[31:33]::FLOW_DESCR_END","/nodes/Google_Analytics/GA.js","257","39","257","41"

@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: txq;lib.js:158[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: txs;lib.js:165[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: presentations;lib.js:308[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: presentations;lib.js:312[51:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: [msg,null,null,msg];lib.js:338[23:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: [msg,null,msg,null];lib.js:343[20:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartContract.js:13[35:37];Sink: errors;lib.js:353[21:26]::FLOW_DESCR_END","/SmartContract.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: txq;lib.js:158[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: txs;lib.js:165[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: presentations;lib.js:308[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: presentations;lib.js:312[51:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: [msg,null,null,msg];lib.js:338[23:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: [msg,null,msg,null];lib.js:343[20:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: txs.pop();lib.js:164[33:41];Sink: errors;lib.js:353[21:26]::FLOW_DESCR_END","/lib.js","164","33","164","41"

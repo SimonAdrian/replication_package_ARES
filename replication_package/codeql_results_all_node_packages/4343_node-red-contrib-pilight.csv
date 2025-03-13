@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;pilight-daemon.js:7[17:22];Sink: node.host;pilight-daemon.js:32[36:44]::FLOW_DESCR_END","/pilight-daemon.js","7","17","7","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;pilight-daemon.js:8[17:22];Sink: node.port;pilight-daemon.js:32[25:33]::FLOW_DESCR_END","/pilight-daemon.js","8","17","8","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;pilight-receive.js:8[44:47];Sink: 'socket ... .status;pilight-receive.js:18[22:57]::FLOW_DESCR_END","/pilight-receive.js","8","44","8","47"

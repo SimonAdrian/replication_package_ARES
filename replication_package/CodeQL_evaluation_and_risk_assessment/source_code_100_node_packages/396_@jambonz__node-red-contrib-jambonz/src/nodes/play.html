@@ -1,0 +1,119 @@
+<!-- Javascript -->
+<script type="text/javascript">
+var mustacheType = {
+  value: 'mustache',
+  label: 'mustache',
+  hasvalue: true,
+  icon: 'resources/@jambonz/node-red-contrib-jambonz/icons/mustache.svg'
+}
+
+RED.nodes.registerType('play',{
+      category: 'jambonz',
+      color: '#bbabaa',
+      defaults: {
+        name: {value: ''},
+        url: {required: true},
+        urlType: {value: 'str'},
+        early: {value: false},
+        loop: {value: 1, required: true,  validate: RED.validators.number()},
+        timeout: {value: ''},
+        timeoutType: {value: 'num'},
+        offset: {value: ''},
+        offsetType: {value: 'num'},
+        hook: {value: ''},
+        hookType: {value: 'str'}
+      },
+      inputs:1,
+      outputs:1,
+      icon: "font-awesome/fa-cubes",
+      label: function() { return this.name || 'play';},
+      oneditprepare: function() {
+        $('#node-input-url').typedInput({
+          default: $('#node-input-urlType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-urlType')
+        });
+        $('#node-input-timeout').typedInput({
+          types: ['num', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-timeoutType')
+        });
+        $('#node-input-offset').typedInput({
+          types: ['num', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-offsetType')
+        });
+        $('#node-input-hook').typedInput({
+          types: ['str', 'msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-hookType')
+        });
+      }
+});
+</script>
+
+<!-- HTML -->
+<script type="text/html" data-template-name="play">
+    <div class="form-row">
+      <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+      <label for="node-input-url">Url</label>
+      <input type="text" id="node-input-url" placeholder="url returning .mp3 or .wav file">
+      <input type="hidden" id="node-input-urlType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-early"><i class="icon-tag"></i>Early media</label>
+      <input type="checkbox" id="node-input-early">
+    </div>
+    <div class="form-row">
+      <label for="node-input-loop"><i class="icon-tag"></i>Loop</label>
+      <input type="number" step="1" id="node-input-loop" placeholder="number of times to repeat"> 
+    </div> 
+    <div class="form-row">
+      <label for="node-input-timeout">Timeout</label>
+      <input type="text" id="node-input-timeout" placeholder="timeout in secs">
+      <input type="hidden" id="node-input-timeoutType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-offset">Seek Offset</label>
+      <input type="text" id="node-input-offset" placeholder="samples to seek">
+      <input type="hidden" id="node-input-offsetType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-hook">Action hook</label>
+      <input type="text" id="node-input-hook" placeholder="url">
+      <input type="hidden" id="node-input-hookType">
+    </div> 
+  </script>
+
+<!-- Help Text -->
+<script type="text/html" data-help-name="play">
+    <p>Play recorded audio to a call</p>
+    <h3>Properties</h3>
+    <p><code>Url</code> - 
+      A single url to a wav or mp3 file</p>
+    <p><code>Early media</code> - 
+      If checked, play the url over an early media connection</p>
+    <p><code>Loop</code> - 
+      The Number of times to play the url</p>
+    <p><code>Timeout</code> - 
+      The number of seconds to play the url</p>
+    <p><code>Seek Offset</code> - 
+      How many samples to seek into the url</p>
+    <p><code>Action hook</code> - 
+      Webhook that is called when the play verb completes</p>
+
+  <h3>Outputs</h3>
+  <dl class="message-properties">
+    <dt>jambonz<span class="property-type">object</span></dt>
+    <dd> <code>msg.jambonz</code> will contain any previous actions provided to the input with the new <code>play</code> action appended  </dd>
+  </dl>
+  
+  <h3>Details</h3>
+  The play action plays an mp3 or wave file into a call.  If early media is checked, the audio will be played over an early media connection, 
+  if the call has not already been answered.
+  
+  <h3>References</h3>
+    <ul>
+        <li><a href="https://www.jambonz.org/docs/webhooks/play/">Jambonz play reference</a></li>
+    </ul>
+</script>

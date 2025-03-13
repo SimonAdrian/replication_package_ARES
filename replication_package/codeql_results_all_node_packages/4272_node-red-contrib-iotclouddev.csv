@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:48[19:33];Sink: ""[iot-d ... lientId;68-iotcloud-dev.js:54[12:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:48[19:33];Sink: clientId;68-iotcloud-dev.js:56[5:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:48[19:33];Sink: ""[iot-d ... lientId;68-iotcloud-dev.js:75[12:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:48[19:33];Sink: clientId;68-iotcloud-dev.js:77[5:12]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","48","19","48","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;68-iotcloud-dev.js:53[5:17];Sink: ""[iot-d ... lientId;68-iotcloud-dev.js:54[12:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;68-iotcloud-dev.js:53[5:17];Sink: clientId;68-iotcloud-dev.js:56[5:12]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","53","5","53","17"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:65[19:33];Sink: ""[iot-d ... lientId;68-iotcloud-dev.js:54[12:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:65[19:33];Sink: clientId;68-iotcloud-dev.js:56[5:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:65[19:33];Sink: ""[iot-d ... lientId;68-iotcloud-dev.js:75[12:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.deviceId;68-iotcloud-dev.js:65[19:33];Sink: clientId;68-iotcloud-dev.js:77[5:12]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","65","19","65","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;68-iotcloud-dev.js:74[5:17];Sink: ""[iot-d ... lientId;68-iotcloud-dev.js:75[12:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;68-iotcloud-dev.js:74[5:17];Sink: clientId;68-iotcloud-dev.js:77[5:12]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","74","5","74","17"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic1;68-iotcloud-dev.js:106[44:49];Sink: ""[Dev-I ... ndTopic;68-iotcloud-dev.js:112[13:56]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","106","44","106","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;68-iotcloud-dev.js:106[52:58];Sink: ""[Dev-I ... payload;68-iotcloud-dev.js:108[13:56]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","106","52","106","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;68-iotcloud-dev.js:146[28:30];Sink: ""[Dev-O ... payload;68-iotcloud-dev.js:147[12:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;68-iotcloud-dev.js:146[28:30];Sink: msg;68-iotcloud-dev.js:151[23:25]::FLOW_DESCR_END","/iotcloudDev/68-iotcloud-dev.js","146","28","146","30"

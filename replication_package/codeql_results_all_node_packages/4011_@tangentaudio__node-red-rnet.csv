@@ -1,0 +1,51 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rnet-control.js:86[36:38];Sink: ""unknow ... "" + cmd;rnet-control.js:73[39:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rnet-control.js:86[36:38];Sink: ""unknow ...  + dest;rnet-control.js:78[17:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rnet-control.js:86[36:38];Sink: ""input: ... payload;rnet-control.js:87[16:57]::FLOW_DESCR_END","/rnet-control.js","86","36","86","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.rnet.host;rnet-status.js:15[25:38];Sink: `Sendin ... .port}`;rnet-status.js:229[16:71]::FLOW_DESCR_END","/rnet-status.js","15","25","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet-status.js:229[48:56];Sink: `Sendin ... .port}`;rnet-status.js:229[16:71]::FLOW_DESCR_END","/rnet-status.js","229","48","229","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet-status.js:229[61:69];Sink: `Sendin ... .port}`;rnet-status.js:229[16:71]::FLOW_DESCR_END","/rnet-status.js","229","61","229","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rnet-zone-listener.js:13[28:30];Sink: [msg, n ... , null];rnet-zone-listener.js:30[9:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rnet-zone-listener.js:13[28:30];Sink: [null,  ... , null];rnet-zone-listener.js:32[9:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rnet-zone-listener.js:13[28:30];Sink: [null,  ... , null];rnet-zone-listener.js:44[9:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rnet-zone-listener.js:13[28:30];Sink: [null,  ... , null];rnet-zone-listener.js:55[9:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rnet-zone-listener.js:13[28:30];Sink: [null,  ... l, msg];rnet-zone-listener.js:73[9:31]::FLOW_DESCR_END","/rnet-zone-listener.js","13","28","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rnet-zone-setter.js:13[28:30];Sink: msg;rnet-zone-setter.js:28[11:13]::FLOW_DESCR_END","/rnet-zone-setter.js","13","28","13","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `RNet h ... =${id}`;rnet.js:25[38:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `Closed ... .port}`;rnet.js:28[49:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `Creati ... id}...`;rnet.js:47[39:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: node.host;rnet.js:50[38:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `on end ... .port}`;rnet.js:63[43:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `on tim ... .port}`;rnet.js:67[43:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `on clo ... .port}`;rnet.js:75[43:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `on err ... .port}`;rnet.js:82[43:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `on con ... .port}`;rnet.js:86[43:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;rnet.js:17[14:19];Sink: `on rea ... .port}`;rnet.js:90[43:86]::FLOW_DESCR_END","/rnet.js","17","14","17","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `RNet h ... =${id}`;rnet.js:25[38:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `Closed ... .port}`;rnet.js:28[49:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `Creati ... id}...`;rnet.js:47[39:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: node.port;rnet.js:50[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `on end ... .port}`;rnet.js:63[43:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `on tim ... .port}`;rnet.js:67[43:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `on clo ... .port}`;rnet.js:75[43:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `on err ... .port}`;rnet.js:82[43:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `on con ... .port}`;rnet.js:86[43:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;rnet.js:18[14:19];Sink: `on rea ... .port}`;rnet.js:90[43:86]::FLOW_DESCR_END","/rnet.js","18","14","18","19"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:25[60:68];Sink: `RNet h ... =${id}`;rnet.js:25[38:112]::FLOW_DESCR_END","/rnet.js","25","60","25","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:25[73:81];Sink: `RNet h ... =${id}`;rnet.js:25[38:112]::FLOW_DESCR_END","/rnet.js","25","73","25","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:28[66:74];Sink: `Closed ... .port}`;rnet.js:28[49:89]::FLOW_DESCR_END","/rnet.js","28","66","28","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:28[79:87];Sink: `Closed ... .port}`;rnet.js:28[49:89]::FLOW_DESCR_END","/rnet.js","28","79","28","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:47[74:82];Sink: `Creati ... id}...`;rnet.js:47[39:109]::FLOW_DESCR_END","/rnet.js","47","74","47","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:47[87:95];Sink: `Creati ... id}...`;rnet.js:47[39:109]::FLOW_DESCR_END","/rnet.js","47","87","47","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:63[61:69];Sink: `on end ... .port}`;rnet.js:63[43:84]::FLOW_DESCR_END","/rnet.js","63","61","63","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:63[74:82];Sink: `on end ... .port}`;rnet.js:63[43:84]::FLOW_DESCR_END","/rnet.js","63","74","63","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:67[65:73];Sink: `on tim ... .port}`;rnet.js:67[43:88]::FLOW_DESCR_END","/rnet.js","67","65","67","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:67[78:86];Sink: `on tim ... .port}`;rnet.js:67[43:88]::FLOW_DESCR_END","/rnet.js","67","78","67","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:75[63:71];Sink: `on clo ... .port}`;rnet.js:75[43:86]::FLOW_DESCR_END","/rnet.js","75","63","75","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:75[76:84];Sink: `on clo ... .port}`;rnet.js:75[43:86]::FLOW_DESCR_END","/rnet.js","75","76","75","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rnet.js:80[32:34];Sink: err;rnet.js:81[16:18]::FLOW_DESCR_END","/rnet.js","80","32","80","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:82[63:71];Sink: `on err ... .port}`;rnet.js:82[43:86]::FLOW_DESCR_END","/rnet.js","82","63","82","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:82[76:84];Sink: `on err ... .port}`;rnet.js:82[43:86]::FLOW_DESCR_END","/rnet.js","82","76","82","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:86[65:73];Sink: `on con ... .port}`;rnet.js:86[43:88]::FLOW_DESCR_END","/rnet.js","86","65","86","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:86[78:86];Sink: `on con ... .port}`;rnet.js:86[43:88]::FLOW_DESCR_END","/rnet.js","86","78","86","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;rnet.js:90[63:71];Sink: `on rea ... .port}`;rnet.js:90[43:86]::FLOW_DESCR_END","/rnet.js","90","63","90","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;rnet.js:90[76:84];Sink: `on rea ... .port}`;rnet.js:90[43:86]::FLOW_DESCR_END","/rnet.js","90","76","90","84"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bigssh.js:145[37:39];Sink: err;bigssh.js:146[35:37]::FLOW_DESCR_END","/bigssh/bigssh.js","145","37","145","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bigssh.js:160[31:33];Sink: err;bigssh.js:161[29:31]::FLOW_DESCR_END","/bigssh/bigssh.js","160","31","160","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bigssh.js:219[33:35];Sink: msg;bigssh.js:269[36:38]::FLOW_DESCR_END","/bigssh/bigssh.js","219","33","219","35"

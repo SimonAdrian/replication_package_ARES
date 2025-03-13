@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gravity-publish.js:81[33:35];Sink: msg.eventName;gravity-publish.js:94[38:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gravity-publish.js:81[33:35];Sink: JSON.st ... ayload);gravity-publish.js:94[53:79]::FLOW_DESCR_END","/gravity-publish.js","81","33","81","35"

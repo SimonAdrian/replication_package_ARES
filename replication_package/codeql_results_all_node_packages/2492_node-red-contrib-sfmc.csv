@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getAttributes.js:24[35:37];Sink: [msg, r ... efined];getAttributes.js:45[35:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getAttributes.js:24[35:37];Sink: [msg, u ... d, err];getAttributes.js:49[35:55]::FLOW_DESCR_END","/getAttributes.js","24","35","24","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getContacts.js:23[35:37];Sink: [msg, r ... efined];getContacts.js:37[35:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getContacts.js:23[35:37];Sink: [msg, u ... d, err];getContacts.js:41[35:55]::FLOW_DESCR_END","/getContacts.js","23","35","23","37"

@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');generate-docs.js:158[28:90];Sink: nodeSource;generate-docs.js:209[67:76]::FLOW_DESCR_END","/bin/generate-docs.js","158","28","158","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');generate-docs.js:161[26:85];Sink: nodeSource;generate-docs.js:209[67:76]::FLOW_DESCR_END","/bin/generate-docs.js","161","26","161","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');generate-docs.js:226[21:80];Sink: changelog;generate-docs.js:227[54:62]::FLOW_DESCR_END","/bin/generate-docs.js","226","21","226","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:83];Sink: lcd.warn(content);node-installer.js:24[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:83];Sink: content;node-installer.js:24[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:83];Sink: lcd.warn(json);node-installer.js:33[21:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:83];Sink: json;node-installer.js:33[30:33]::FLOW_DESCR_END","/lib/node-installer.js","12","15","12","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-facebook-receive.js:147[40:44];Sink: error;chatbot-facebook-receive.js:148[22:26]::FLOW_DESCR_END","/nodes/chatbot-facebook-receive.js","147","40","147","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-facebook-receive.js:150[42:48];Sink: warning;chatbot-facebook-receive.js:151[21:27]::FLOW_DESCR_END","/nodes/chatbot-facebook-receive.js","150","42","150","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-facebook-receive.js:215[43:49];Sink: message;chatbot-facebook-receive.js:227[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-facebook-receive.js:215[43:49];Sink: message;chatbot-facebook-receive.js:231[27:33]::FLOW_DESCR_END","/nodes/chatbot-facebook-receive.js","215","43","215","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-facebook-receive.js:278[28:30];Sink: msg;chatbot-facebook-receive.js:279[17:19]::FLOW_DESCR_END","/nodes/chatbot-facebook-receive.js","278","28","278","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-facebook-receive.js:288[32:38];Sink: message;chatbot-facebook-receive.js:303[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-facebook-receive.js:288[32:38];Sink: message;chatbot-facebook-receive.js:307[21:27]::FLOW_DESCR_END","/nodes/chatbot-facebook-receive.js","288","32","288","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-twilio-receive.js:143[40:44];Sink: error;chatbot-twilio-receive.js:144[22:26]::FLOW_DESCR_END","/nodes/chatbot-twilio-receive.js","143","40","143","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-twilio-receive.js:146[42:48];Sink: warning;chatbot-twilio-receive.js:147[21:27]::FLOW_DESCR_END","/nodes/chatbot-twilio-receive.js","146","42","146","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-twilio-receive.js:199[43:49];Sink: message;chatbot-twilio-receive.js:211[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-twilio-receive.js:199[43:49];Sink: message;chatbot-twilio-receive.js:215[27:33]::FLOW_DESCR_END","/nodes/chatbot-twilio-receive.js","199","43","199","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-twilio-receive.js:261[28:30];Sink: msg;chatbot-twilio-receive.js:262[17:19]::FLOW_DESCR_END","/nodes/chatbot-twilio-receive.js","261","28","261","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-twilio-receive.js:271[32:38];Sink: message;chatbot-twilio-receive.js:286[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-twilio-receive.js:271[32:38];Sink: message;chatbot-twilio-receive.js:290[21:27]::FLOW_DESCR_END","/nodes/chatbot-twilio-receive.js","271","32","271","38"

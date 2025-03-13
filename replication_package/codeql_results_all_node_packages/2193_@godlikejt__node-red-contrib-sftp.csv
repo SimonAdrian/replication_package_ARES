@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:86[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:145[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: getFtpFileName;index.js:154[64:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:156[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg.payload.data;index.js:162[58:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: putFtpFileName;index.js:162[76:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:165[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:172[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:178[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:184[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:78[36:38];Sink: msg;index.js:220[23:25]::FLOW_DESCR_END","/transports/sftp/index.js","78","36","78","38"

@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hurtigruten-ports.js:36[31:33];Sink: msg;hurtigruten-ports.js:84[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-ports.js:36[31:33];Sink: msg;hurtigruten-ports.js:95[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-ports.js:36[31:33];Sink: msg;hurtigruten-ports.js:102[35:37]::FLOW_DESCR_END","/hurtigruten-ports/hurtigruten-ports.js","36","31","36","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;hurtigruten-ports.js:98[31:35];Sink: errorResponse;hurtigruten-ports.js:102[20:32]::FLOW_DESCR_END","/hurtigruten-ports/hurtigruten-ports.js","98","31","98","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hurtigruten-portschedule.js:41[31:33];Sink: JSON.st ... sponse);hurtigruten-portschedule.js:49[21:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-portschedule.js:41[31:33];Sink: msg;hurtigruten-portschedule.js:49[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-portschedule.js:41[31:33];Sink: msg;hurtigruten-portschedule.js:80[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-portschedule.js:41[31:33];Sink: msg;hurtigruten-portschedule.js:92[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-portschedule.js:41[31:33];Sink: msg;hurtigruten-portschedule.js:99[35:37]::FLOW_DESCR_END","/hurtigruten-portschedule/hurtigruten-portschedule.js","41","31","41","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;hurtigruten-portschedule.js:64[33:37];Sink: html;hurtigruten-portschedule.js:250[22:25]::FLOW_DESCR_END","/hurtigruten-portschedule/hurtigruten-portschedule.js","64","33","64","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;hurtigruten-portschedule.js:95[31:35];Sink: JSON.st ... sponse);hurtigruten-portschedule.js:49[21:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;hurtigruten-portschedule.js:95[31:35];Sink: errorResponse;hurtigruten-portschedule.js:99[20:32]::FLOW_DESCR_END","/hurtigruten-portschedule/hurtigruten-portschedule.js","95","31","95","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:211[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:215[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:219[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:224[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:231[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:236[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:240[43:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: text;hurtigruten-portschedule.js:205[36:39];Sink: text;hurtigruten-portschedule.js:245[43:46]::FLOW_DESCR_END","/hurtigruten-portschedule/hurtigruten-portschedule.js","205","36","205","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hurtigruten-ships.js:130[31:33];Sink: msg;hurtigruten-ships.js:181[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-ships.js:130[31:33];Sink: msg;hurtigruten-ships.js:192[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hurtigruten-ships.js:130[31:33];Sink: msg;hurtigruten-ships.js:199[35:37]::FLOW_DESCR_END","/hurtigruten-ships/hurtigruten-ships.js","130","31","130","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;hurtigruten-ships.js:195[31:35];Sink: errorResponse;hurtigruten-ships.js:199[20:32]::FLOW_DESCR_END","/hurtigruten-ships/hurtigruten-ships.js","195","31","195","35"

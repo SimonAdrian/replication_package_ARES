@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;wavenet.js:408[20:24];Sink: value.error;wavenet.js:533[17:27]::FLOW_DESCR_END","/wavenet.js","408","20","408","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wavenet.js:513[30:32];Sink: msg;wavenet.js:542[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wavenet.js:513[30:32];Sink: msg;wavenet.js:550[18:20]::FLOW_DESCR_END","/wavenet.js","513","30","513","32"

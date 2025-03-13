@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;epi-gpio.js:62[56:59];Sink: ""out: ""+d[i]+"" :"";epi-gpio.js:71[62:78]::FLOW_DESCR_END","/epi-gpio.js","62","56","62","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;epi-gpio.js:75[56:59];Sink: ""err: ""+data+"" :"";epi-gpio.js:76[58:74]::FLOW_DESCR_END","/epi-gpio.js","75","56","75","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;epi-gpio.js:144[32:34];Sink: msg;epi-gpio.js:159[79:81]::FLOW_DESCR_END","/epi-gpio.js","144","32","144","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;epi-gpio.js:179[56:59];Sink: ""out: ""+data+"" :"";epi-gpio.js:180[58:74]::FLOW_DESCR_END","/epi-gpio.js","179","56","179","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;epi-gpio.js:183[56:59];Sink: ""err: ""+data+"" :"";epi-gpio.js:184[58:74]::FLOW_DESCR_END","/epi-gpio.js","183","56","183","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;epi-gpio.js:198[50:52];Sink: RED._("" ... r.errno;epi-gpio.js:201[39:85]::FLOW_DESCR_END","/epi-gpio.js","198","50","198","52"

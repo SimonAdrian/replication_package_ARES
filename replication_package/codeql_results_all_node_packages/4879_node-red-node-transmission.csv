@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ostname;transmission.js:32[67:91];Sink: ""Reauth ... ostname;transmission.js:32[23:91]::FLOW_DESCR_END","/transmission.js","32","67","32","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transmission.js:59[35:37];Sink: msg;transmission.js:77[27:29]::FLOW_DESCR_END","/transmission.js","59","35","59","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transmission.js:103[35:37];Sink: msg;transmission.js:121[27:29]::FLOW_DESCR_END","/transmission.js","103","35","103","37"

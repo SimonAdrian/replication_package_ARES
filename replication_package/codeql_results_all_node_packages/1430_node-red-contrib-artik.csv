@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;artik.js:74[31:33];Sink: state;artik.js:53[81:85]::FLOW_DESCR_END","/artik.js","74","31","74","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;artik.js:239[31:33];Sink: period;artik.js:215[89:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;artik.js:239[31:33];Sink: dutycycle;artik.js:217[93:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;artik.js:239[31:33];Sink: state;artik.js:221[89:93]::FLOW_DESCR_END","/artik.js","239","31","239","33"

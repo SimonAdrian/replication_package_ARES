@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;json-multi-schema-resolver.js:48[26:28];Sink: msg;json-multi-schema-resolver.js:66[14:16]::FLOW_DESCR_END","/json-multi-schema-resolver.js","48","26","48","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;json-multi-schema-transformer.js:63[26:28];Sink: 'Load J ... ' + url;json-cache.js:69[16:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-transformer.js:63[26:28];Sink: 'Load J ... ' + url;json-cache.js:82[13:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-transformer.js:63[26:28];Sink: url;json-cache.js:95[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-transformer.js:63[26:28];Sink: 'Build  ... formUrl;json-multi-schema-transformer.js:44[16:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-transformer.js:63[26:28];Sink: 'Schema ... hemaUrl;json-multi-schema-transformer.js:85[20:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-transformer.js:63[26:28];Sink: msg;json-multi-schema-transformer.js:90[14:16]::FLOW_DESCR_END","/json-multi-schema-transformer.js","63","26","63","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;json-multi-schema-validator.js:125[26:28];Sink: 'Compil ... hemaUrl;json-multi-schema-validator.js:99[17:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-validator.js:125[26:28];Sink: 'Unknow ... hemaUrl;json-multi-schema-validator.js:106[18:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-validator.js:125[26:28];Sink: 'Error  ...  ' + ex;json-multi-schema-validator.js:112[17:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-multi-schema-validator.js:125[26:28];Sink: msg;json-multi-schema-validator.js:147[14:16]::FLOW_DESCR_END","/json-multi-schema-validator.js","125","26","125","28"

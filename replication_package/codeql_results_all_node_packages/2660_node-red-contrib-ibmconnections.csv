@@ -1,0 +1,262 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:550[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: '_getTe ... lateURL;ICActivities.js:553[37:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:562[92:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: 'No TEM ... lateURL;ICActivities.js:617[49:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:619[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:627[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:647[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:659[80:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:668[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: '_creat ...  theURL;ICActivities.js:670[49:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:672[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: theMsg;ICActivities.js:679[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:721[22:24];Sink: msg;ICActivities.js:739[48:50]::FLOW_DESCR_END","/IBMConnections2/ICActivities.js","721","22","721","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'getAct ...  theURL;ICActivities.js:288[28:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:292[49:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:303[71:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:317[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'No ENT ...  theURL;ICActivities.js:320[44:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'No ENT ...  theURL;ICActivities.js:322[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:322[81:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:329[80:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'getEnt ...  theURL;ICActivities.js:344[29:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:348[50:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:370[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'getEnt ...  theURL;ICActivities.js:373[45:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'getEnt ...  theURL;ICActivities.js:376[44:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:376[93:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:384[81:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'getAct ...  theURL;ICActivities.js:802[33:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:806[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:817[81:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: 'getAct ...  theURL;ICActivities.js:841[49:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:845[43:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: theMsg;ICActivities.js:851[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: msg;ICActivities.js:914[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: msg;ICActivities.js:936[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:860[22:24];Sink: msg;ICActivities.js:961[65:67]::FLOW_DESCR_END","/IBMConnections2/ICActivities.js","860","22","860","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: 'getAct ...  theURL;ICActivities.js:288[28:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:292[49:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:303[71:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:317[46:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: 'No ENT ...  theURL;ICActivities.js:320[44:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: 'No ENT ...  theURL;ICActivities.js:322[43:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:322[81:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:329[80:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: 'update ...  theURL;ICActivities.js:405[28:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: 'update ... payload;ICActivities.js:406[28:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:410[49:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:421[75:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:429[42:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: 'update ...  theURL;ICActivities.js:431[44:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:433[78:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:440[80:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:468[29:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:470[28:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:470[101:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:486[37:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:488[36:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:488[114:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:510[33:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:512[32:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:512[110:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:519[25:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: ""Move E ... vity !"";ICActivities.js:521[24:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: theMsg;ICActivities.js:521[98:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1016[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1037[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1057[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1089[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1142[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1165[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICActivities.js:1000[22:24];Sink: msg;ICActivities.js:1241[65:67]::FLOW_DESCR_END","/IBMConnections2/ICActivities.js","1000","22","1000","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ocation;ICCommunities.js:325[33:57];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ocation;ICCommunities.js:325[33:57];Sink: errString;common.js:171[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ocation;ICCommunities.js:325[33:57];Sink: errString;common.js:188[27:35]::FLOW_DESCR_END","/IBMConnections2/ICCommunities.js","325","33","325","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: msg;ICCommunities.js:692[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: msg;ICCommunities.js:728[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: msg;ICCommunities.js:770[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: msg;ICCommunities.js:792[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: msg;ICCommunities.js:822[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: theMsg;common.js:178[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:633[23:25];Sink: theMsg;common.js:188[38:43]::FLOW_DESCR_END","/IBMConnections2/ICCommunities.js","633","23","633","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: 'User ' ... munity';ICCommunities.js:1469[59:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: 'Widget ... munity';ICCommunities.js:1535[59:134]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: 'The in ...  exist';ICCommunities.js:1602[71:193]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: 'Removi ... cified';ICCommunities.js:1609[67:157]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: 'No ins ... emoved';ICCommunities.js:1624[59:142]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: msg;ICCommunities.js:1651[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: errString;common.js:171[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: theMsg;common.js:178[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: errString;common.js:188[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICCommunities.js:853[23:25];Sink: theMsg;common.js:188[38:43]::FLOW_DESCR_END","/IBMConnections2/ICCommunities.js","853","23","853","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: theWidg ... ocation;ICCommunities.js:1523[124:145];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END","/IBMConnections2/ICCommunities.js","1523","124","1523","145"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:89[55:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:100[80:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:117[57:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:126[86:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: ""_postA ... postURL;ICEmbeddedExp.js:147[26:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: JSON.st ... ' ', 2);ICEmbeddedExp.js:148[26:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: '_postA ... postURL;ICEmbeddedExp.js:162[34:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:167[55:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:180[40:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: postURL;ICEmbeddedExp.js:184[42:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: theMsg;ICEmbeddedExp.js:187[95:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: msg;ICEmbeddedExp.js:228[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: msg;ICEmbeddedExp.js:248[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: msg;ICEmbeddedExp.js:279[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:199[36:38];Sink: msg;ICEmbeddedExp.js:312[65:67]::FLOW_DESCR_END","/IBMConnections2/ICEmbeddedExp.js","199","36","199","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: msg;ICEmbeddedExp.js:453[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: msg;ICEmbeddedExp.js:486[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: msg;ICEmbeddedExp.js:512[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: msg;ICEmbeddedExp.js:545[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: moduleN ... g : """");common.js:159[25:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: moduleN ... g : """");common.js:163[25:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: theMsg;common.js:178[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: theMsg;common.js:188[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICEmbeddedExp.js:346[36:38];Sink: warnString;common.js:220[18:27]::FLOW_DESCR_END","/IBMConnections2/ICEmbeddedExp.js","346","36","346","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: 'ICFile ...  + item;ICFiles.js:37[25:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: 'ICFile ... sks...';ICFiles.js:45[29:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: ""ICFile ... ngTasks;ICFiles.js:52[53:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: ""ICFile ... on...."";ICFiles.js:58[53:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: globalOutMsg;ICFiles.js:59[51:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: 'ICFile ... ngTasks;ICFiles.js:69[33:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: 'ICFile ... mation';ICFiles.js:71[33:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: globalOutMsg;ICFiles.js:72[31:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ...  + URL1;ICFiles.js:408[25:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ...  + URL1;ICFiles.js:416[33:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: ""_getFi ... + "" - "";ICFiles.js:418[37:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: theMsg;ICFiles.js:421[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: ""_getFi ...  + URL1;ICFiles.js:430[49:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: theMsg;ICFiles.js:433[75:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ...  + URL1;ICFiles.js:442[49:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ... i].name;ICFiles.js:487[65:145]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ... sg.name;ICFiles.js:505[57:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ... i].name;ICFiles.js:515[65:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: '_getFi ... ngTasks;ICFiles.js:527[57:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: theMsg;ICFiles.js:563[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: theMsg;ICFiles.js:571[94:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: msg;ICFiles.js:648[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: msg;ICFiles.js:735[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:580[22:24];Sink: msg;ICFiles.js:783[66:68]::FLOW_DESCR_END","/IBMConnections2/ICFiles.js","580","22","580","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:930[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:953[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: ""_postF ... postURL;ICFiles.js:995[25:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1006[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1033[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: ""folder ... +folder;ICFiles.js:1035[49:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: postURL;ICFiles.js:1042[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1050[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: postURL;ICFiles.js:1057[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1065[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: ""_moveF ...  folder;ICFiles.js:1073[25:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: itemId;ICFiles.js:1075[25:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: ""_moveF ... postURL;ICFiles.js:1078[25:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1096[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1104[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICFiles.js:845[36:38];Sink: msg;ICFiles.js:1105[31:33]::FLOW_DESCR_END","/IBMConnections2/ICFiles.js","845","36","845","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:293[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:301[27:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_likeF ...  theURL;ICForums.js:323[32:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:328[42:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:339[78:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:348[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_likeF ...  theURL;ICForums.js:350[53:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:352[86:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:357[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:364[84:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_accep ...  theURL;ICForums.js:381[33:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_accep ...  theURL;ICForums.js:413[49:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:418[60:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:429[97:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:434[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:440[103:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:449[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_getFo ...  theURL;ICForums.js:465[33:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_getFo ...  theURL;ICForums.js:492[53:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:501[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:509[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_getRe ...  theURL;ICForums.js:524[33:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_getRe ... iesFeed;ICForums.js:556[61:149]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: '_getRe ...  theURL;ICForums.js:569[53:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:572[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: theMsg;ICForums.js:580[94:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:617[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:634[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:655[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:677[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:698[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:723[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:748[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:773[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:789[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: ""ICForu ... ration"";ICForums.js:816[45:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: ""Invali ... TopicOp;ICForums.js:818[44:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:818[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:835[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:851[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: ""ICForu ... ration"";ICForums.js:882[45:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: ""Invali ... ReplyOp;ICForums.js:884[44:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:884[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:901[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:945[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: ""ICForu ... ration"";ICForums.js:967[37:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: ""Invali ...  target;ICForums.js:969[36:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICForums.js:589[22:24];Sink: msg;ICForums.js:969[76:78]::FLOW_DESCR_END","/IBMConnections2/ICForums.js","589","22","589","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ICLogin2.js:262[28:31];Sink: 'ICLogi ... shToken;ICLogin2.js:272[25:93]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","262","28","262","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ICLogin2.js:283[25:27];Sink: err;ICLogin2.js:326[53:55]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","283","25","283","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ICLogin2.js:283[38:41];Sink: data.error;ICLogin2.js:289[33:42]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","283","38","283","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credent ... shToken;ICLogin2.js:362[66:89];Sink: ""ICLogi ... shToken;ICLogin2.js:362[21:89]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","362","66","362","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utFile);ICLogin2.js:383[25:48];Sink: 'ICLogi ... shToken;ICLogin2.js:272[25:93]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","383","25","383","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ICLogin2.js:479[38:40];Sink: JSON.st ... ' ', 2);ICLogin2.js:483[29:55]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","479","38","479","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;ICLogin2.js:479[43:48];Sink: 'ICLogi ... llback';ICLogin2.js:507[29:114]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","479","43","479","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'Client ... oauthId;ICLogin2.js:76[25:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'Client ... hSecret;ICLogin2.js:77[25:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'Access ... ssToken;ICLogin2.js:78[25:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'Refres ... shToken;ICLogin2.js:79[25:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'Token  ... kenType;ICLogin2.js:80[25:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'Expire ... piresIn;ICLogin2.js:81[25:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: 'last r ... eshTime;ICLogin2.js:84[25:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: credentials;ICLogin2.js:1300[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: JSON.st ... ull, 2);ICLogin2.js:1313[47:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: credentials;ICLogin2.js:1321[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);ICLogin2.js:1251[27:59];Sink: credentials;ICLogin2.js:1350[67:77]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","1251","27","1251","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ICLogin2.js:1275[22:24];Sink: 'hostNa ... ostName;common.js:160[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ICLogin2.js:1275[22:24];Sink: JSON.st ... "" "", 2);common.js:161[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ICLogin2.js:1275[22:24];Sink: JSON.st ... "" "", 2);common.js:164[25:55]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","1275","22","1275","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: 'Access ... ssToken;ICLogin2.js:78[25:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: 'Refres ... shToken;ICLogin2.js:79[25:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: 'Token  ... kenType;ICLogin2.js:80[25:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: 'Expire ... piresIn;ICLogin2.js:81[25:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: JSON.st ... ull, 2);ICLogin2.js:1313[47:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: 'hostNa ... ostName;common.js:160[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: JSON.st ... "" "", 2);common.js:161[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ICLogin2.js:1275[35:38];Sink: JSON.st ... "" "", 2);common.js:164[25:55]::FLOW_DESCR_END","/IBMConnections2/ICLogin2.js","1275","35","1275","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: msg;ICProfiles.js:263[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: msg;ICProfiles.js:298[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: msg;ICProfiles.js:327[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: msg;ICProfiles.js:347[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: msg;ICProfiles.js:393[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: theMsg;common.js:178[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:232[22:24];Sink: theMsg;common.js:188[38:43]::FLOW_DESCR_END","/IBMConnections2/ICProfiles.js","232","22","232","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: msg;ICProfiles.js:699[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: msg;ICProfiles.js:716[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: moduleN ... g : """");common.js:159[25:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: moduleN ... g : """");common.js:163[25:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: theMsg;common.js:178[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: theMsg;common.js:188[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICProfiles.js:423[22:24];Sink: '__getN ...  + m[2];common.js:633[37:90]::FLOW_DESCR_END","/IBMConnections2/ICProfiles.js","423","22","423","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: ""_goSea ... eNumber;ICSearch.js:246[37:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;ICSearch.js:248[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;ICSearch.js:294[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;ICSearch.js:303[55:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;ICSearch.js:313[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;ICSearch.js:321[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: moduleN ...  logMsg;common.js:150[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;common.js:178[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: theMsg;common.js:188[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ICSearch.js:330[23:25];Sink: warnString;common.js:220[18:27]::FLOW_DESCR_END","/IBMConnections2/ICSearch.js","330","23","330","25"

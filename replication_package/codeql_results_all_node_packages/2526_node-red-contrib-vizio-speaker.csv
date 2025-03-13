@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speaker.js:22[28:30];Sink: msg;speaker.js:20[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speaker.js:22[28:30];Sink: `Sendin ...  ${ip}`;speaker.js:36[13:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speaker.js:22[28:30];Sink: `Unknow ... ${cmd}`;speaker.js:96[23:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speaker.js:22[28:30];Sink: `Starti ...  ${ip}`;speaker.js:109[13:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speaker.js:22[28:30];Sink: `Stoppi ...  ${ip}`;speaker.js:125[13:39]::FLOW_DESCR_END","/speaker.js","22","28","22","30"

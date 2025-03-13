@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ros-publish-node.js:14[23:25];Sink: msg.payload;ros-publish-node.js:15[27:37]::FLOW_DESCR_END","/ros-publish-node.js","14","23","14","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ros-server-node.js:40[33:37];Sink: 'Error  ... + error;ros-server-node.js:43[18:46]::FLOW_DESCR_END","/ros-server-node.js","40","33","40","37"

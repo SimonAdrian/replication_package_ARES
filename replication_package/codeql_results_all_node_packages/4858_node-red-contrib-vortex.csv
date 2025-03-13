@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;prismtech-vortex.js:20[21:26];Sink: ""[DEBUG ... rtexurl;prismtech-vortex.js:46[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;prismtech-vortex.js:20[21:26];Sink: this.vortexurl;prismtech-vortex.js:78[37:50]::FLOW_DESCR_END","/vortex/prismtech-vortex.js","20","21","20","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;prismtech-vortex.js:21[21:26];Sink: ""[DEBUG ... rtexurl;prismtech-vortex.js:46[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;prismtech-vortex.js:21[21:26];Sink: this.vortexurl;prismtech-vortex.js:78[37:50]::FLOW_DESCR_END","/vortex/prismtech-vortex.js","21","21","21","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;prismtech-vortex.js:40[51:59];Sink: ""[DEBUG ... rtexurl;prismtech-vortex.js:46[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;prismtech-vortex.js:40[51:59];Sink: this.vortexurl;prismtech-vortex.js:78[37:50]::FLOW_DESCR_END","/vortex/prismtech-vortex.js","40","51","40","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;prismtech-vortex.js:40[69:77];Sink: ""[DEBUG ... rtexurl;prismtech-vortex.js:46[22:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;prismtech-vortex.js:40[69:77];Sink: this.vortexurl;prismtech-vortex.js:78[37:50]::FLOW_DESCR_END","/vortex/prismtech-vortex.js","40","69","40","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;prismtech-vortex.js:257[42:44];Sink: msg.payload;prismtech-vortex.js:259[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;prismtech-vortex.js:257[42:44];Sink: msg.payload;prismtech-vortex.js:260[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;prismtech-vortex.js:257[42:44];Sink: msg.payload;prismtech-vortex.js:283[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;prismtech-vortex.js:257[42:44];Sink: msg.payload;prismtech-vortex.js:284[42:52]::FLOW_DESCR_END","/vortex/prismtech-vortex.js","257","42","257","44"

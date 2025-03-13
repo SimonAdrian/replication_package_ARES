@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ping-em.js:9[35:37];Sink: msg;ping-em.js:18[23:25]::FLOW_DESCR_END","/src/nodes/ping-em.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;restore-namespace.js:15[31:33];Sink: msg;restore-namespace.js:70[19:21]::FLOW_DESCR_END","/src/nodes/restore-namespace.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;restore-variable-mappings.js:12[31:33];Sink: msg;restore-variable-mappings.js:46[19:21]::FLOW_DESCR_END","/src/nodes/restore-variable-mappings.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;upload-hive-config.js:14[36:38];Sink: msg;upload-hive-config.js:53[22:24]::FLOW_DESCR_END","/src/nodes/upload-hive-config.js","14","36","14","38"

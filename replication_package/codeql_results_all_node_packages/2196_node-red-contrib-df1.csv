@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;df1.js:99[36:38];Sink: msg;df1.js:101[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;df1.js:99[36:38];Sink: msg;df1.js:475[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;df1.js:99[36:38];Sink: msg;df1.js:480[106:108]::FLOW_DESCR_END","/red/df1.js","99","36","99","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;df1.js:301[26:26];Sink: e && e.toString();df1.js:304[24:40]::FLOW_DESCR_END","/red/df1.js","301","26","301","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;df1.js:308[28:28];Sink: e && e.toString();df1.js:311[24:40]::FLOW_DESCR_END","/red/df1.js","308","28","308","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;df1.js:319[35:37];Sink: obj;df1.js:322[51:53]::FLOW_DESCR_END","/red/df1.js","319","35","319","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;df1.js:484[32:34];Sink: res.msg;df1.js:489[26:32]::FLOW_DESCR_END","/red/df1.js","484","32","484","34"

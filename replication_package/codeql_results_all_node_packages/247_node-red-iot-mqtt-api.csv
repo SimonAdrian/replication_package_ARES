@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;iot-mqtt-api.js:698[63:71];Sink: node.brokerurl;iot-mqtt-api.js:797[48:61]::FLOW_DESCR_END","/iot-mqtt-api.js","698","63","698","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceName;iot-mqtt-api.js:1081[44:55];Sink: topic;iot-mqtt-api.js:1151[41:45]::FLOW_DESCR_END","/iot-mqtt-api.js","1081","44","1081","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;iot-mqtt-api.js:1305[94:99];Sink: obj;iot-mqtt-api.js:245[53:55]::FLOW_DESCR_END","/iot-mqtt-api.js","1305","94","1305","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-mqtt-api.js:1316[40:42];Sink: obj;iot-mqtt-api.js:245[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot-mqtt-api.js:1316[40:42];Sink: msg;iot-mqtt-api.js:1405[26:28]::FLOW_DESCR_END","/iot-mqtt-api.js","1316","40","1316","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;iot-mqtt-api.js:1392[101:106];Sink: obj;iot-mqtt-api.js:245[53:55]::FLOW_DESCR_END","/iot-mqtt-api.js","1392","101","1392","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-mqtt-api.js:1472[40:42];Sink: obj;iot-mqtt-api.js:245[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iot-mqtt-api.js:1472[40:42];Sink: msg;iot-mqtt-api.js:394[41:43]::FLOW_DESCR_END","/iot-mqtt-api.js","1472","40","1472","42"

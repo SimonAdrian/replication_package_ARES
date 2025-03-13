@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;virtual-battery-proxima-energia_old.js:30[34:36];Sink: pvpcItem.interval;virtual-battery.js:17[30:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;virtual-battery-proxima-energia_old.js:30[34:36];Sink: pvpcItem;virtual-battery.js:17[48:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;virtual-battery-proxima-energia_old.js:30[34:36];Sink: pmhItem.interval;virtual-battery.js:21[31:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;virtual-battery-proxima-energia_old.js:30[34:36];Sink: pmhItem;virtual-battery.js:21[48:54]::FLOW_DESCR_END","/virtual-battery-proxima-energia_old.js","30","34","30","36"

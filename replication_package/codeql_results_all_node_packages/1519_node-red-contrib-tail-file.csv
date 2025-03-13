@@ -1,0 +1,34 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;tail-file.js:176[48:52];Sink: error.toString();tail-file.js:177[42:57]::FLOW_DESCR_END","/tail-file.js","176","48","176","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tail-file.js:214[33:35];Sink: err;tail-file.js:216[24:26]::FLOW_DESCR_END","/tail-file.js","214","33","214","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tail-file.js:214[38:40];Sink: msg;tail-file.js:216[29:31]::FLOW_DESCR_END","/tail-file.js","214","38","214","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `Create ... ame)}'`;tail-file.js:65[42:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `Create ... name}'`;tail-file.js:75[42:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: node.filename;tail-file.js:77[42:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `tail f ... ing()}`;tail-file.js:112[38:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `data f ... ing()}`;tail-file.js:131[54:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `${node ... ncated`;tail-file.js:149[42:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `cannot ... ectory`;tail-file.js:154[61:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `'${nod ... ectory`;tail-file.js:159[42:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `'${nod ... w file`;tail-file.js:164[42:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `'${nod ... found!`;tail-file.js:172[42:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `${node ... tarted`;tail-file.js:182[57:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `${node ...  error`;tail-file.js:186[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `initia ... ing()}`;tail-file.js:191[34:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `${node ... topped`;tail-file.js:202[57:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: `unwatc ... ing()}`;tail-file.js:205[38:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg;tail-file.js:216[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.payload;tail-file.js:260[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... ateFile;tail-file.js:264[110:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.payload.split;tail-file.js:287[100:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.payload.split;tail-file.js:291[123:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... ginning;tail-file.js:296[116:140]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... shAtEOF;tail-file.js:298[110:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... berLast;tail-file.js:300[114:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... mitSize;tail-file.js:304[108:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... mitSize;tail-file.js:308[126:146]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... ipBlank;tail-file.js:313[108:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.payload.useTrim;tail-file.js:315[104:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.payload.useTrim;tail-file.js:317[92:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... ipBlank;tail-file.js:317[234:254]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.pay ... ndError;tail-file.js:322[108:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tail-file.js:233[35:37];Sink: msg.payload.chokidar;tail-file.js:327[92:111]::FLOW_DESCR_END","/tail-file.js","233","35","233","37"

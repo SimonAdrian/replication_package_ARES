@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;analog.js:216[39:41];Sink: msg;analog.js:259[46:48]::FLOW_DESCR_END","/smithtek/analog.js","216","39","216","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;digital.js:216[39:41];Sink: msg;digital.js:259[46:48]::FLOW_DESCR_END","/smithtek/digital.js","216","39","216","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flipflop.js:12[37:39];Sink: msg;flipflop.js:17[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flipflop.js:12[37:39];Sink: msg;flipflop.js:25[21:23]::FLOW_DESCR_END","/smithtek/flipflop.js","12","37","12","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pulse.js:216[39:41];Sink: msg;pulse.js:259[46:48]::FLOW_DESCR_END","/smithtek/pulse.js","216","39","216","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;splitter.js:18[36:38];Sink: outputMessage;splitter.js:46[23:35]::FLOW_DESCR_END","/smithtek/splitter.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thermo.js:216[39:41];Sink: msg;thermo.js:259[46:48]::FLOW_DESCR_END","/smithtek/thermo.js","216","39","216","41"

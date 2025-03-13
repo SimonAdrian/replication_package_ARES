@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fingerprint.js:43[35:37];Sink: msg;fingerprint.js:17[22:24]::FLOW_DESCR_END","/fingerprint.js","43","35","43","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fingerprint.js:121[35:37];Sink: msg;fingerprint.js:17[22:24]::FLOW_DESCR_END","/fingerprint.js","121","35","121","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fingerprint.js:185[35:37];Sink: msg;fingerprint.js:17[22:24]::FLOW_DESCR_END","/fingerprint.js","185","35","185","37"

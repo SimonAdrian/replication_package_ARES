@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-iot-hub.js:89[48:50];Sink: 'Messag ... sg.data;azure-iot-hub.js:91[30:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-iot-hub.js:89[48:50];Sink: JSON.st ... essage);azure-iot-hub.js:95[30:57]::FLOW_DESCR_END","/azure-iot-hub.js","89","48","89","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azure-iot-hub.js:100[46:48];Sink: err.message;azure-iot-hub.js:101[32:42]::FLOW_DESCR_END","/azure-iot-hub.js","100","46","100","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-iot-hub.js:134[36:38];Sink: 'Sendin ... y(data);azure-iot-hub.js:35[18:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-iot-hub.js:134[36:38];Sink: 'Connec ... nString;azure-iot-hub.js:70[18:127]::FLOW_DESCR_END","/azure-iot-hub.js","134","36","134","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: messageJSON.deviceId;azure-iot-hub.js:151[82:101];Sink: 'Connec ... nString;azure-iot-hub.js:70[18:127]::FLOW_DESCR_END","/azure-iot-hub.js","151","82","151","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;azure-iot-hub.js:186[46:60];Sink: ""Device ... daryKey;azure-iot-hub.js:186[30:200]::FLOW_DESCR_END","/azure-iot-hub.js","186","46","186","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;azure-iot-hub.js:187[47:61];Sink: ""Device ... daryKey;azure-iot-hub.js:187[31:201]::FLOW_DESCR_END","/azure-iot-hub.js","187","47","187","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azure-iot-hub.js:221[64:66];Sink: err.message;azure-iot-hub.js:222[58:68]::FLOW_DESCR_END","/azure-iot-hub.js","221","64","221","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-iot-hub.js:280[36:38];Sink: msg;azure-iot-hub.js:291[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-iot-hub.js:280[36:38];Sink: msg;azure-iot-hub.js:295[31:33]::FLOW_DESCR_END","/azure-iot-hub.js","280","36","280","38"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gps1.js:8[33:35];Sink: msg;gps1.js:78[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gps1.js:8[33:35];Sink: msg;gps1.js:97[23:25]::FLOW_DESCR_END","/gps1.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;gps1.js:25[33:36];Sink: result;gps1.js:77[25:30]::FLOW_DESCR_END","/gps1.js","25","33","25","36"

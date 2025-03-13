@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sign-url.js:8[35:37];Sink: msg;sign-url.js:17[30:32]::FLOW_DESCR_END","/sign-url.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms-receive.js:10[35:37];Sink: `/resta ... rPage}`;sms-receive.js:14[45:180]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sms-receive.js:10[35:37];Sink: msg;sms-receive.js:30[30:32]::FLOW_DESCR_END","/sms-receive.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms-send.js:8[35:37];Sink: msg;sms-send.js:45[30:32]::FLOW_DESCR_END","/sms-send.js","8","35","8","37"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-shield-adda-11010.js:116[29:31];Sink: msg;waveshare-shield-adda-11010.js:160[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;waveshare-shield-adda-11010.js:116[29:31];Sink: 'analog ... payload;waveshare-shield-adda-11010.js:161[46:73]::FLOW_DESCR_END","/waveshare-shield-adda-11010.js","116","29","116","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waveshare-shield-adda-11010.js:249[29:31];Sink: msg;waveshare-shield-adda-11010.js:271[17:19]::FLOW_DESCR_END","/waveshare-shield-adda-11010.js","249","29","249","31"

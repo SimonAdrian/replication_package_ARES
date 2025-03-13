@@ -1,0 +1,489 @@
+<!--
+Apache-2.0
+
+Copyright (c) 2024  Vahdettin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+-->
+<script src="resources/node-red-contrib-caseta/caseta-ui.js"></script>
+<script type="text/javascript">
+    (function () {
+        const BASE = "query";
+        RED.nodes.registerType('caseta-query', {
+            category: 'Caseta',
+            defaults: {
+                bridge: {type: "caseta-bridge", required: true},
+                label: {value: "", required: false},
+                device: {value: "", required: false},
+                type_device: {value: "", required: false},
+                action: {value: "", required: false},
+                type_action: {value: "", required: false},
+                f_debug: {value: "", required: false},
+                f_pal_status: {value: "", required: false},
+                label_default: {value: "Query", required: false}
+
+            },
+            inputs: 1,
+            outputs: 0,
+            color: "#42aeed",
+            label: function () {
+                return this.label || this.label_default
+            },
+            icon: "font-awesome/fa-question",
+            align: 'right',
+            paletteLabel: "Query",
+            oneditprepare: function () {
+
+                //start
+                let bridge = RED.nodes.node($("#node-input-bridge").val()) || null;
+                let ui = new CASUI(BASE, bridge);
+                const F = ui.Fields;
+                ui.load(function (err, loaded) {
+                    if (loaded) {
+                        ui.draw(function (err, drawn) {
+                            if (drawn) {
+                                F.action.typedInput("disable");
+                                ui.finish();
+                                F.device.on('change', function (event, deviceType, deviceValue) {
+                                    ui.drawActions({
+                                        value: deviceValue,
+                                        type: deviceType
+                                    }, function (err, redrawn) {
+
+                                    })
+
+                                });
+
+                                F.device_help.on("click", function () {
+                                    ui.showSidebarHelpPanel("#caseta-help-device-" + ui.Device[F.device.typedInput("value")].type);
+                                });
+                            } else {
+                                $("#form-dependencies").hide();
+                            }
+                        })
+                    } else {
+                        $("#form-dependencies").hide();
+                    }
+                });
+
+
+            },
+            oneditsave: function () {
+
+                let bridge = RED.nodes.node($("#node-input-bridge").val()) || null;
+                let ui = new CASUI(BASE, bridge);
+                const F = ui.Fields;
+                F.device.off('change');
+                F.device_help.off('click');
+                this.device = F.device.typedInput("value");
+                this.action = F.action.typedInput("value");
+                this.label_default = ui.genPaletteLabel(F.device.typedInput("type"), this.device);
+
+            },
+            oneditcancel: function () {
+
+                let bridge = RED.nodes.node($("#node-input-bridge").val()) || null;
+                let ui = new CASUI(BASE, bridge);
+                const F = ui.Fields;
+                F.device.off('change');
+                F.device_help.off('click');
+            }
+
+        });
+    })();
+</script>
+
+<script type="text/html" data-template-name="caseta-query">
+    <link rel="stylesheet" href="resources/node-red-contrib-caseta/style.css"/>
+    <div class="form-row">
+        <label for="node-input-bridge"> Smart Hub</label>
+        <input type="text" id="node-input-bridge">
+    </div>
+    <div id="form-dependencies">
+        <div class="form-row  ">
+            <label for="node-input-device"><i class="fa fa-bullseye"></i> Device</label>
+            <div style="display: inline-block; position: relative; width: 70%; height: 20px;">
+                <div style="position: absolute; left: 0px; right: 40px;">
+                    <input type="text" id="node-input-device" style="width:100%">
+                </div>
+                <a id="device-help" class="red-ui-button " style="position: absolute; right: 0px; top: 0px;" href="#"><i
+                        class="fa fa-external-link"></i></a>
+            </div>
+        </div>
+
+        <div class="form-row ">
+            <label for="node-input-action"><i class="fa fa-cogs"></i> Action</label>
+            <input type="text" id="node-input-action">
+        </div>
+        <div class="form-row ">
+            <label for="node-input-label"><i class="fa fa-tag"></i> Label</label>
+            <input type="text" id="node-input-label" placeholder="optional">
+        </div>
+        <div id="node-section-advanced-query" class="caseta-form-section-collapsible">
+            <label for="node-section-advanced-title"><i class="fa fa-plus-square"></i> Advanced</label>
+            <span id="node-section-advanced-title"></span>
+        </div>
+
+        <div class="caseta-form-section-collapsible-content">
+
+            <div class="form-row caseta-form-row">
+                <input type="checkbox" id="node-input-f_pal_status"
+                       style="display:inline-block; width:15px; vertical-align:baseline;" autoComplete="off">
+                <span>Show bridge connection status on palette.</span>
+            </div>
+            <div class="form-row caseta-form-row">
+                <input type="checkbox" id="node-input-f_debug"
+                       style="display:inline-block; width:15px; vertical-align:baseline;" autoComplete="off">
+                <span>Send detailed information to the console.</span>
+            </div>
+        </div>
+        <div class="form-row" style="visibility: hidden;">
+            <input type="text" id="node-input-type_device">
+        </div>
+        <div class="form-row" style="visibility: hidden;">
+            <input type="text" id="node-input-type_action">
+        </div>
+    </div>
+</script><script type="text/html" data-help-name="caseta-query">
+    <link rel="stylesheet" href="resources/node-red-contrib-caseta/style.css"/>
+    <p>Get the current state of a device.</p>
+    <h4>Basic Configuration</h4>
+    <dl>
+        <dt>Smart Hub</dt>
+        <dd>Select the Smart Hub to use.</dd>
+
+        <dt>Device</dt>
+        <dd>Select the device to query.</dd>
+
+        <dt>Action</dt>
+        <dd>The specific query to send. Currently, the only option is "Get level".</dd>
+
+        <dt>Label</dt>
+        <dd>Set a label for display on the palette or the default will be used. Optional.</dd>
+
+
+    </dl>
+    <h4>Advanced Settings</h4>
+    <dl>
+        <dt>Show bridge status</dt>
+        <dd>Show status of the of bridge connection on the palette.</dd>
+        <dt>Send detailed information to the console.</dt>
+        <dd>For troubleshooting purposes.</dd>
+    </dl>
+    <h3 id="help-input">Input</h3>
+    <dl class="message-properties">
+        <dt class="optional">force_reconnect
+            <span class="property-type">boolean</span>
+        </dt>
+        <dd>For troubleshooting or recovery from network issues. Setting this property to true will force the connection to be reestablished before any commands are sent.
+        </dd>
+
+    </dl>
+    <h3>Product Mappings</h3>
+    <p>This section provides mappings of actions and events to their corresponding Lutron numeric identifiers.</p>
+    <p><em>Model numbers may not be accurate.</em></p>
+    <!-- BEGIN DEVICES REF -->
+        <h4 id="caseta-help-device-pico_paddle_light">Pico - Lighting Paddle</h4>
+           <p>Model: PJ2-P2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_paddle_shades">Pico - Shades Paddle</h4>
+           <p>Model: PJ2-P2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Open</li>
+                   <li>4 - Close</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_two_button_light">Pico - 2 Button Lighting</h4>
+           <p>Model: PJ2-2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_paddle_two_button_light">Pico - 2 Button Paddle</h4>
+           <p>Model: PJ2-P2B-G***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_four_button_light">Pico - 4 Button Lighting</h4>
+           <p>Model: PJ2-4B-***-L31P</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_light">Pico - 5 Button Lighting</h4>
+           <p>Model: PJ2-3BRL-G***-L01R</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_fan">Pico - 5 Button Fan</h4>
+           <p>Model: PJ2-3BRL-G***-F01</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - High</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Faster</li>
+                   <li>6 - Slower</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_audio">Pico - 5 Button Audio</h4>
+           <p>Model: PJ2-3BRL-G***-A02</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Toggle play</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Next</li>
+                   <li>5 - Increase</li>
+                   <li>6 - Decrease</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_shades">Pico - 5 Button Shades</h4>
+           <p>Model:  PJ2-3BRL-G***-S01</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Open</li>
+                   <li>3 - Favorite</li>
+                   <li>4 - Close</li>
+                   <li>5 - Raise</li>
+                   <li>6 - Lower</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-pico_five_button_wood_shades">Pico - 5 Button Wood Shades</h4>
+           <p>Model: PJ2-3BRL-G***-S10</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - Open</li>
+                   <li>3 - Favorite</li>
+                   <li>4 - Close</li>
+                   <li>5 - Tilt up</li>
+                   <li>6 - Tilt down</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-smartbridge">Smart Hub</h4>
+           <p>Notes: <em>The Smart Hub is the device that is used to initialize scenes.  A scene can be set only.  It cannot be &#x27;unset&#x27;.</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>3 - Set</li>
+               </ul></dd>
+               <dt>Event map</dt>
+               <dd><ul>
+                   <li>3 - Starting</li>
+                   <li>4 - Complete</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_diva">Dimmer - Diva</h4>
+           <p>Model: DVRF-6L-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_diva_elv">Dimmer - Diva ELV+</h4>
+           <p>Model: DVRF-5NE-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-switch_claro">Switch - Claro</h4>
+           <p>Model: DVRF-5NS-**</p>
+           <p>Notes: <em>This device can only be set to a level of 0 or 100 (off or on).</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-accessory_switch_claro_diva">Accessory Switch</h4>
+           <p>Model: DVRF-AS-**</p>
+           <p>Notes: <em>Use with Claro or Diva. This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+        <h4 id="caseta-help-device-dimmer_four_button">Dimmer - 4 Button</h4>
+           <p>Model: PD-6WCL-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_five_button">Dimmer - 5 Button</h4>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_five_button_elv">ELV Dimmer - 5 Button</h4>
+           <p>Model: PD-5NE-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-dimmer_four_button_plugin">Dimmer - 4 Button Plugin</h4>
+           <p>Model: PD-3PCL-**</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-fan_five_button">Fan - 5 Button Controller</h4>
+           <p>Model: PD-FSQN-***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>3 - Preset</li>
+                   <li>4 - Off</li>
+                   <li>5 - Faster</li>
+                   <li>6 - Slower</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-switch_two_button">Lighting - 2 Button Switch</h4>
+           <p>Model: PD-6ANS-***</p>
+           <p>Notes: <em>This device can only be set to a level of 0 or 100 (off or on).</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-fan_two_button">Fan - 2 Button Switch</h4>
+           <p>Model: PD-6ANS-***</p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>2 - On</li>
+                   <li>4 - Off</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-switch_outdoor_two_button">Power - Outdoor Switch</h4>
+           <p>Model: PD-15OUT-BL</p>
+           <p>Notes: <em>This device can only be set to a level of 0 or 100 (off or on).</em></p>
+           <dl class="message-properties">
+               <dt>Action map</dt>
+               <dd><ul>
+                   <li>1 - Set level</li>
+               </ul></dd>
+           </dl>
+        <h4 id="caseta-help-device-motion_sensor_occupancyvacancy">Motion Sensor - Occupancy/Vacancy</h4>
+           <p>Model: PD-OSENS</p>
+           <p>Notes: <em>This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+        <h4 id="caseta-help-device-motion_sensor_vacancy">Motion Sensor - Vacancy Only</h4>
+           <p>Model: PD-VSENS</p>
+           <p>Notes: <em>This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+        <h4 id="caseta-help-device-wireless_repeater">Wireless Repeater</h4>
+           <p>Model: PD-REP</p>
+           <p>Notes: <em>This device type cannot be controlled or monitored and will not show as available for configuration.</em></p>
+           <dl class="message-properties">
+           </dl>
+<!-- END DEVICES REF -->
+    <h4>Collection Information</h4>
+    <ul>
+        <li>Version: 3.2.0</li>
+    </ul>
+    <div style="height: 700px;"></div>
+    <span>This space intentionally left blank</span>
+</script>

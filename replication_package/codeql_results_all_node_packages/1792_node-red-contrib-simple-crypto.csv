@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: {payload};hmac-sha256-check.js:13[21:29];Sink: msgOut;hmac-sha256-check.js:18[14:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: {payload};hmac-sha256-check.js:13[21:29];Sink: p.ctx;crypto.js:19[41:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: {payload};hmac-sha256-check.js:13[21:29];Sink: p.ctx;crypto.js:21[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: {payload};hmac-sha256-check.js:13[21:29];Sink: p.seq;crypto.js:21[41:45]::FLOW_DESCR_END","/hmac-sha256-check.js","13","21","13","29"

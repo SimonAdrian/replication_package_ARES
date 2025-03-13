@@ -1,0 +1,33 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();caldav.js:24[30:40];Sink: y;caldav.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();caldav.js:24[30:40];Sink: y;caldav.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();caldav.js:24[30:40];Sink: op[1];caldav.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();caldav.js:24[30:40];Sink: ""caldav ... event));caldav.js:149[47:93]::FLOW_DESCR_END","/dist/extends/caldav.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();icloud.js:24[30:40];Sink: y;icloud.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();icloud.js:24[30:40];Sink: y;icloud.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();icloud.js:24[30:40];Sink: op[1];icloud.js:18[147:151]::FLOW_DESCR_END","/dist/extends/icloud.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;icloud.js:102[35:35];Sink: 'proble ... message;icloud.js:103[27:62]::FLOW_DESCR_END","/dist/extends/icloud.js","102","35","102","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: y;lib.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: y;lib.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: op[1];lib.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: err_2;lib.js:512[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: ""getCal ... (err_3);lib.js:527[31:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: data;lib.js:563[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();lib.js:24[30:40];Sink: data;lib.js:575[31:34]::FLOW_DESCR_END","/dist/extends/lib.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.rrule;lib.js:684[70:77];Sink: 'checkD ... ntStart;lib.js:810[27:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ev.rrule;lib.js:684[70:77];Sink: 'checkD ... ntStart;lib.js:818[27:131]::FLOW_DESCR_END","/dist/extends/lib.js","684","70","684","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();helper.js:24[30:40];Sink: y;helper.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();helper.js:24[30:40];Sink: y;helper.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();helper.js:24[30:40];Sink: op[1];helper.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();helper.js:24[30:40];Sink: err_1;helper.js:129[32:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();helper.js:24[30:40];Sink: datas;helper.js:133[50:54]::FLOW_DESCR_END","/dist/helper.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();ical-config.js:24[30:40];Sink: y;ical-config.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();ical-config.js:24[30:40];Sink: y;ical-config.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();ical-config.js:24[30:40];Sink: op[1];ical-config.js:18[147:151]::FLOW_DESCR_END","/dist/ical-config.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ical-events.js:26[40:42];Sink: 'Ical r ... fig.url;ical-events.js:90[24:66]::FLOW_DESCR_END","/dist/ical-events.js","26","40","26","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.uid;ical-events.js:100[53:58];Sink: uid;ical-events.js:114[45:47]::FLOW_DESCR_END","/dist/ical-events.js","100","53","100","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.uid;ical-events.js:100[66:71];Sink: uid;ical-events.js:114[45:47]::FLOW_DESCR_END","/dist/ical-events.js","100","66","100","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.uid;ical-events.js:119[53:58];Sink: uid;ical-events.js:133[45:47]::FLOW_DESCR_END","/dist/ical-events.js","119","53","119","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ev.uid;ical-events.js:119[66:71];Sink: uid;ical-events.js:133[45:47]::FLOW_DESCR_END","/dist/ical-events.js","119","66","119","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ical-sensor.js:15[40:42];Sink: 'Ical r ... fig.url;ical-sensor.js:63[24:66]::FLOW_DESCR_END","/dist/ical-sensor.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ical-upcoming.js:13[36:38];Sink: 'Ical r ... fig.url;ical-upcoming.js:65[24:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ical-upcoming.js:13[36:38];Sink: msg;ical-upcoming.js:104[33:35]::FLOW_DESCR_END","/dist/ical-upcoming.js","13","36","13","38"

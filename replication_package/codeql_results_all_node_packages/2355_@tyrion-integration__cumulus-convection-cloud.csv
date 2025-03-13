@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;00_cloud.js:149[52:54];Sink: 'Failed ... tring();00_cloud.js:151[28:77]::FLOW_DESCR_END","/nodes/00_cloud.js","149","52","149","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;00_cloud.js:149[57:63];Sink: JSON.st ... ranted);00_cloud.js:156[24:46]::FLOW_DESCR_END","/nodes/00_cloud.js","149","57","149","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');00_cloud.js:229[19:78];Sink: topic;store.js:330[42:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');00_cloud.js:229[19:78];Sink: topic;store.js:379[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');00_cloud.js:229[19:78];Sink: topic;00_cloud.js:135[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');00_cloud.js:229[19:78];Sink: opts.broker;00_cloud.js:246[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');00_cloud.js:229[19:78];Sink: 'Connec ... lientId;00_cloud.js:249[28:69]::FLOW_DESCR_END","/nodes/00_cloud.js","229","19","229","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;00_cloud.js:263[36:38];Sink: err;00_cloud.js:264[28:30]::FLOW_DESCR_END","/nodes/00_cloud.js","263","36","263","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fullTopic;00_cloud.js:275[38:46];Sink: topic;00_cloud.js:293[39:43]::FLOW_DESCR_END","/nodes/00_cloud.js","275","38","275","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;10_cloud-publish.js:46[27:29];Sink: msg;10_cloud-publish.js:113[28:30]::FLOW_DESCR_END","/nodes/10_cloud-publish.js","46","27","46","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;10_cloud-publish.js:55[26:31];Sink: status;10_cloud-publish.js:57[25:30]::FLOW_DESCR_END","/nodes/10_cloud-publish.js","55","26","55","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;11_cloud-subscribe.js:42[28:30];Sink: msg;11_cloud-subscribe.js:43[25:27]::FLOW_DESCR_END","/nodes/11_cloud-subscribe.js","42","28","42","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;11_cloud-subscribe.js:52[33:35];Sink: msg;11_cloud-subscribe.js:54[23:25]::FLOW_DESCR_END","/nodes/11_cloud-subscribe.js","52","33","52","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");20_cloud-file.js:82[15:74];Sink: node.fi ... ""/file"";20_cloud-file.js:66[15:43]::FLOW_DESCR_END","/nodes/20_cloud-file.js","82","15","82","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;21_cloud-file-publish.js:25[23:25];Sink: filename;21_cloud-file-publish.js:52[24:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21_cloud-file-publish.js:25[23:25];Sink: payload;21_cloud-file-publish.js:52[34:40]::FLOW_DESCR_END","/nodes/21_cloud-file-publish.js","25","23","25","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;90_cloud-cache.js:25[35:37];Sink: msg;90_cloud-cache.js:27[23:25]::FLOW_DESCR_END","/nodes/90_cloud-cache.js","25","35","25","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;91_cloud-status.js:25[35:37];Sink: msg;91_cloud-status.js:39[23:25]::FLOW_DESCR_END","/nodes/91_cloud-status.js","25","35","25","37"

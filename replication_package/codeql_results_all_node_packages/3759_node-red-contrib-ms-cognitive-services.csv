@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;text-to-speech.js:30[35:37];Sink: msg;text-to-speech.js:80[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;text-to-speech.js:30[35:37];Sink: msg;text-to-speech.js:104[20:22]::FLOW_DESCR_END","/nodes/text-to-speech.js","30","35","30","37"

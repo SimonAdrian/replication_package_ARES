@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;follow.js:33[33:35];Sink: `[${msg ... \u3057\u3066\u3044\u307e\u3059\u3002`;follow.js:39[29:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;follow.js:33[33:35];Sink: `${msg. ... \u30fc\u3057\u307e\u3057\u305f\u3002`;follow.js:41[29:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;follow.js:33[33:35];Sink: msg;follow.js:49[23:25]::FLOW_DESCR_END","/nodes/follow/follow.js","33","33","33","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;followevent.js:28[33:35];Sink: msg;followevent.js:51[35:37]::FLOW_DESCR_END","/nodes/followevent/followevent.js","28","33","28","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tweets;followevent.js:40[91:96];Sink: tweets;followevent.js:42[47:52]::FLOW_DESCR_END","/nodes/followevent/followevent.js","40","91","40","96"

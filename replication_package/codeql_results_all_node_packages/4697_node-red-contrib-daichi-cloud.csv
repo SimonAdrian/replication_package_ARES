@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;daichi-service.js:70[39:45];Sink: message;daichi-service.js:57[21:27]::FLOW_DESCR_END","/build/daichi-service.js","70","39","70","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;daichi-service.js:75[53:55];Sink: err;daichi-service.js:76[32:34]::FLOW_DESCR_END","/build/daichi-service.js","75","53","75","55"

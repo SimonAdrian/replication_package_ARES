@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.device.host;iotcpotow-onewire.js:18[37:52];Sink: `http:/ ... newire`;iotcpotow-onewire.js:18[27:62]::FLOW_DESCR_END","/iotcpotow-onewire.js","18","37","18","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.device.host;iotcpotow-output.js:12[29:44];Sink: `http:/ ... utputs`;iotcpotow-output.js:12[19:54]::FLOW_DESCR_END","/iotcpotow-output.js","12","29","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotcpotow-output.js:27[39:41];Sink: `http:/ ... yload}`;iotcpotow-output.js:30[27:100]::FLOW_DESCR_END","/iotcpotow-output.js","27","39","27","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.device.host;iotcpotow-output.js:30[37:52];Sink: `http:/ ... yload}`;iotcpotow-output.js:30[27:100]::FLOW_DESCR_END","/iotcpotow-output.js","30","37","30","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.device.host;iotcpotow-state.js:18[37:52];Sink: `http:/ ... utputs`;iotcpotow-state.js:18[27:62]::FLOW_DESCR_END","/iotcpotow-state.js","18","37","18","52"

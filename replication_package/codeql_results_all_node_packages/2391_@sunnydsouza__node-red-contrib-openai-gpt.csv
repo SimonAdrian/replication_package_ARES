@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openai-gpt.js:7[41:43];Sink: msg;openai-gpt.js:48[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openai-gpt.js:7[41:43];Sink: msg;openai-gpt.js:53[39:41]::FLOW_DESCR_END","/nodes/openai-gpt.js","7","41","7","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: globalC ... .apikey;openai-gpt.js:8[28:58];Sink: ""Apikey:""+apikey;openai-gpt.js:14[25:40]::FLOW_DESCR_END","/nodes/openai-gpt.js","8","28","8","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ntent'];openai-gpt.js:37[34:79];Sink: nodeResponse;openai-gpt.js:43[68:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ntent'];openai-gpt.js:37[34:79];Sink: nodeResponse;openai-gpt.js:45[70:81]::FLOW_DESCR_END","/nodes/openai-gpt.js","37","34","37","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ssage'];openai-gpt.js:37[34:68];Sink: nodeResponse;openai-gpt.js:43[68:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ssage'];openai-gpt.js:37[34:68];Sink: nodeResponse;openai-gpt.js:45[70:81]::FLOW_DESCR_END","/nodes/openai-gpt.js","37","34","37","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... ices[0];openai-gpt.js:37[34:57];Sink: nodeResponse;openai-gpt.js:43[68:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... ices[0];openai-gpt.js:37[34:57];Sink: nodeResponse;openai-gpt.js:45[70:81]::FLOW_DESCR_END","/nodes/openai-gpt.js","37","34","37","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... choices;openai-gpt.js:37[34:54];Sink: nodeResponse;openai-gpt.js:43[68:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: respons ... choices;openai-gpt.js:37[34:54];Sink: nodeResponse;openai-gpt.js:45[70:81]::FLOW_DESCR_END","/nodes/openai-gpt.js","37","34","37","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .apikey;openai-gpt.js:66[23:45];Sink: ""this o ... y(this);openai-gpt.js:64[21:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... .apikey;openai-gpt.js:66[23:45];Sink: ""ApiKey ... .apikey;openai-gpt.js:67[21:63]::FLOW_DESCR_END","/nodes/openai-gpt.js","66","23","66","45"

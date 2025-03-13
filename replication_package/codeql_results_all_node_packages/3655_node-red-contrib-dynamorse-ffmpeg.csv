@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;10-encoder.js:26[25:27];Sink: 'encode ... ' + err;10-encoder.js:26[43:65]::FLOW_DESCR_END","/nodes/10-encoder.js","26","25","26","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;11-AACencoder.js:26[25:27];Sink: 'AAC En ... ' + err;11-AACencoder.js:26[43:69]::FLOW_DESCR_END","/nodes/11-AACencoder.js","26","25","26","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;12-decoder.js:26[25:27];Sink: 'decode ... ' + err;12-decoder.js:26[43:65]::FLOW_DESCR_END","/nodes/12-decoder.js","26","25","26","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;20-converter.js:37[27:29];Sink: 'conver ... ' + err;20-converter.js:37[45:69]::FLOW_DESCR_END","/nodes/20-converter.js","37","27","37","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;22-packer.js:26[24:26];Sink: 'packer ... ' + err;22-packer.js:26[42:63]::FLOW_DESCR_END","/nodes/22-packer.js","26","24","26","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;70-multiviewer.js:149[25:27];Sink: 'Stampe ... ' + err;70-multiviewer.js:149[43:65]::FLOW_DESCR_END","/nodes/70-multiviewer.js","149","25","149","27"

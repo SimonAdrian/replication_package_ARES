@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;synaccess-data-in.js:48[36:38];Sink: msg;synaccess-data-in.js:50[18:20]::FLOW_DESCR_END","/synaccess-data-in.js","48","36","48","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;synaccess-receiver.js:98[36:38];Sink: msg;synaccess-receiver.js:100[18:20]::FLOW_DESCR_END","/synaccess-receiver.js","98","36","98","38"

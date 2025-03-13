@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `Last k ... stamp}`;mindconnect-ops.js:24[22:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `Posted ... stamp}`;mindconnect-ops.js:43[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:47[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `Posted ... stamp}`;mindconnect-ops.js:66[22:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:70[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:110[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `Upload ... stamp}`;mindconnect-ops.js:136[22:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:139[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `Posted ... stamp}`;mindconnect-ops.js:157[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:161[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `got as ... stamp}`;mindconnect-ops.js:177[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:193[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: `execut ... stamp}`;mindconnect-ops.js:211[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-ops.js:216[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: error;mindconnect-utils.js:177[16:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect-utils.js:181[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect.js:49[154:156]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mindconnect.js:40[27:29];Sink: msg;mindconnect.js:90[39:41]::FLOW_DESCR_END","/src/mindconnect.js","40","27","40","29"

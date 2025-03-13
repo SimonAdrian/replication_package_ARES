@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mail-parse.js:23[35:37];Sink: msg;mail-parse.js:39[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mail-parse.js:23[35:37];Sink: msg.payload;mail-parse.js:77[34:44]::FLOW_DESCR_END","/mail-parse.js","23","35","23","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mail;mail-parse.js:37[47:50];Sink: msg.payload;mail-parse.js:77[34:44]::FLOW_DESCR_END","/mail-parse.js","37","47","37","50"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: msg;counter.js:147[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: msg.status;counter.js:147[75:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: msg.status.source;counter.js:147[120:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: output;counter.js:158[75:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: output;counter.js:158[114:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: output;counter.js:158[154:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: msg;counter.js:164[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: msg;counter.js:168[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:138[35:37];Sink: ""\n""+ut ... th:10});counter.js:187[30:81]::FLOW_DESCR_END","/counter.js","138","35","138","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... html""));counter.js:285[13:71];Sink: cachedDebugView;counter.js:295[26:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... html""));counter.js:285[13:71];Sink: cachedDebugView;counter.js:300[22:36]::FLOW_DESCR_END","/counter.js","285","13","285","71"

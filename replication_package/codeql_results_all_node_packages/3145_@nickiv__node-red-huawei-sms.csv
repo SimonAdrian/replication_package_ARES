@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;huawei-sms-config.js:71[42:44];Sink: err.message;huawei-sms-config.js:72[25:35]::FLOW_DESCR_END","/huawei-sms-config.js","71","42","71","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;huawei-sms-config.js:74[44:46];Sink: res;huawei-sms-config.js:75[44:46]::FLOW_DESCR_END","/huawei-sms-config.js","74","44","74","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;huawei-sms-config.js:79[39:41];Sink: err.message;huawei-sms-config.js:80[21:31]::FLOW_DESCR_END","/huawei-sms-config.js","79","39","79","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;huawei-sms-send.js:11[35:37];Sink: msg;huawei-sms-send.js:27[18:20]::FLOW_DESCR_END","/huawei-sms-send.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: params;time_machina.js:73[33:38];Sink: 'handli ... s.state;time_machina.js:74[20:77]::FLOW_DESCR_END","/src/time_machina.js","73","33","73","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: params;time_machina.js:77[34:39];Sink: 'unhand ... s.state;time_machina.js:78[20:78]::FLOW_DESCR_END","/src/time_machina.js","77","34","77","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: params;time_machina.js:81[35:40];Sink: ['trans ... in(' ');time_machina.js:82[20:116]::FLOW_DESCR_END","/src/time_machina.js","81","35","81","40"

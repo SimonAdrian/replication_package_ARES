@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;40-spm-http-in.js:152[90:100];Sink: `Dynamo ... port}.`;40-spm-http-in.js:152[19:103]::FLOW_DESCR_END","/nodes/40-spm-http-in.js","152","90","152","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;40-spm-http-out.js:34[22:24];Sink: `Error  ... ${err}`;40-spm-http-out.js:35[17:90]::FLOW_DESCR_END","/nodes/40-spm-http-out.js","34","22","34","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;40-spm-http-out.js:124[98:108];Sink: `Dynamo ... port}.`;40-spm-http-out.js:124[27:111]::FLOW_DESCR_END","/nodes/40-spm-http-out.js","124","98","124","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cable[type];42-cable-in.js:90[48:58];Sink: `Callin ... ation.`;42-cable-in.js:93[31:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: cable[type];42-cable-in.js:90[48:58];Sink: wire.flowID;42-cable-in.js:113[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: cable[type];42-cable-in.js:90[48:58];Sink: wire;42-cable-in.js:113[44:47]::FLOW_DESCR_END","/nodes/42-cable-in.js","90","48","90","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;42-cable-in.js:171[90:100];Sink: `Dynamo ... port}.`;42-cable-in.js:171[19:103]::FLOW_DESCR_END","/nodes/42-cable-in.js","171","90","171","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;42-cable-in.js:180[27:27];Sink: `Attemp ... . ${e}`;42-cable-in.js:182[27:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;42-cable-in.js:180[27:27];Sink: `cable- ... : ${e}`;42-cable-in.js:257[21:54]::FLOW_DESCR_END","/nodes/42-cable-in.js","180","27","180","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;42-cable-in.js:201[30:30];Sink: `Receiv ... rying.`;ArachnidIn.js:158[21:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;42-cable-in.js:201[30:30];Sink: `BANG!  ...  ${x}.`;ArachnidIn.js:166[21:101]::FLOW_DESCR_END","/nodes/42-cable-in.js","201","30","201","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;42-cable-out.js:36[22:24];Sink: `Error  ... ${err}`;42-cable-out.js:37[17:90]::FLOW_DESCR_END","/nodes/42-cable-out.js","36","22","36","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;42-cable-out.js:160[98:108];Sink: `Dynamo ... port}.`;42-cable-out.js:160[27:111]::FLOW_DESCR_END","/nodes/42-cable-out.js","160","98","160","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;42-cable-out.js:168[31:31];Sink: `Attemp ... . ${e}`;42-cable-out.js:170[31:101]::FLOW_DESCR_END","/nodes/42-cable-out.js","168","31","168","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.hea ... ation'];ArachnidIn.js:140[24:46];Sink: `Being  ... tion}.`;ArachnidIn.js:141[20:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.hea ... ation'];ArachnidIn.js:140[24:46];Sink: `Receiv ... rying.`;ArachnidIn.js:149[23:100]::FLOW_DESCR_END","/util/ArachnidIn.js","140","24","140","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ArachnidIn.js:234[23:23];Sink: `Receiv ...  ${e}.`;ArachnidIn.js:235[21:91]::FLOW_DESCR_END","/util/ArachnidIn.js","234","23","234","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ArachnidIn.js:241[21:21];Sink: `Receiv ... : ${e}`;ArachnidIn.js:254[19:89]::FLOW_DESCR_END","/util/ArachnidIn.js","241","21","241","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;ArachnidOut.js:383[24:24];Sink: `When p ... ssage}`;ArachnidOut.js:390[25:133]::FLOW_DESCR_END","/util/ArachnidOut.js","383","24","383","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ArachnidOut.js:395[25:25];Sink: `Receiv ... : ${e}`;ArachnidOut.js:396[23:70]::FLOW_DESCR_END","/util/ArachnidOut.js","395","25","395","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ArachnidOut.js:403[23:23];Sink: `Receiv ... : ${e}`;ArachnidOut.js:404[21:75]::FLOW_DESCR_END","/util/ArachnidOut.js","403","23","403","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ArachnidOut.js:422[23:23];Sink: `Unexpe ... : ${e}`;ArachnidOut.js:423[21:69]::FLOW_DESCR_END","/util/ArachnidOut.js","422","23","422","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ArachnidOut.js:427[21:21];Sink: `Unexpe ... : ${e}`;ArachnidOut.js:428[19:72]::FLOW_DESCR_END","/util/ArachnidOut.js","427","21","427","21"

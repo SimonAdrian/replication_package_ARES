@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub.js:89[48:50];Sink: 'Messag ... sg.data;azureiothub.js:91[30:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub.js:89[48:50];Sink: JSON.st ... essage);azureiothub.js:95[30:57]::FLOW_DESCR_END","/azureiothub.js","89","48","89","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azureiothub.js:112[46:48];Sink: err.message;azureiothub.js:113[32:42]::FLOW_DESCR_END","/azureiothub.js","112","46","112","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub.js:146[36:38];Sink: 'Sendin ... y(data);azureiothub.js:35[18:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub.js:146[36:38];Sink: 'Connec ... nString;azureiothub.js:70[18:127]::FLOW_DESCR_END","/azureiothub.js","146","36","146","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ostname;azureiothub.js:163[49:73];Sink: 'Connec ... nString;azureiothub.js:70[18:127]::FLOW_DESCR_END","/azureiothub.js","163","49","163","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: messageJSON.deviceId;azureiothub.js:163[92:111];Sink: 'Connec ... nString;azureiothub.js:70[18:127]::FLOW_DESCR_END","/azureiothub.js","163","92","163","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;azureiothub.js:198[46:60];Sink: ""Device ... daryKey;azureiothub.js:198[30:200]::FLOW_DESCR_END","/azureiothub.js","198","46","198","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;azureiothub.js:199[47:61];Sink: ""Device ... daryKey;azureiothub.js:199[31:201]::FLOW_DESCR_END","/azureiothub.js","199","47","199","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azureiothub.js:233[60:62];Sink: err.message;azureiothub.js:234[54:64]::FLOW_DESCR_END","/azureiothub.js","233","60","233","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub.js:292[36:38];Sink: msg;azureiothub.js:303[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub.js:292[36:38];Sink: msg;azureiothub.js:307[31:33]::FLOW_DESCR_END","/azureiothub.js","292","36","292","38"

@@ -1,0 +1,39 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:31[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:31[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:31[32:34];Sink: ""Tello' ... tring();tello.js:32[15:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:31[32:34];Sink: msg.length;tello.js:35[5:14]::FLOW_DESCR_END","/tello.js","31","32","31","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;tello.js:31[37:40];Sink: info.address;tello.js:36[5:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info;tello.js:31[37:40];Sink: info.port;tello.js:37[5:13]::FLOW_DESCR_END","/tello.js","31","37","31","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:58[32:34];Sink: msg;tello.js:63[17:19]::FLOW_DESCR_END","/tello.js","58","32","58","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:71[32:34];Sink: msg;tello.js:75[17:19]::FLOW_DESCR_END","/tello.js","71","32","71","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:84[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:84[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:84[32:34];Sink: msg;tello.js:89[17:19]::FLOW_DESCR_END","/tello.js","84","32","84","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:98[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:98[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:98[32:34];Sink: msg;tello.js:103[17:19]::FLOW_DESCR_END","/tello.js","98","32","98","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:112[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:112[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:112[32:34];Sink: msg;tello.js:117[17:19]::FLOW_DESCR_END","/tello.js","112","32","112","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:126[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:126[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:126[32:34];Sink: msg;tello.js:131[17:19]::FLOW_DESCR_END","/tello.js","126","32","126","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:140[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:140[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:140[32:34];Sink: msg;tello.js:145[17:19]::FLOW_DESCR_END","/tello.js","140","32","140","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:154[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:154[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:154[32:34];Sink: msg;tello.js:159[17:19]::FLOW_DESCR_END","/tello.js","154","32","154","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:168[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:168[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:168[32:34];Sink: msg;tello.js:173[17:19]::FLOW_DESCR_END","/tello.js","168","32","168","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:182[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:182[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:182[32:34];Sink: msg;tello.js:187[17:19]::FLOW_DESCR_END","/tello.js","182","32","182","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:196[32:34];Sink: msg;tello.js:200[17:19]::FLOW_DESCR_END","/tello.js","196","32","196","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:209[32:34];Sink: message;tello.js:19[5:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:209[32:34];Sink: message.length;tello.js:21[5:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tello.js:209[32:34];Sink: msg;tello.js:214[17:19]::FLOW_DESCR_END","/tello.js","209","32","209","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:223[32:34];Sink: msg;tello.js:228[17:19]::FLOW_DESCR_END","/tello.js","223","32","223","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:237[32:34];Sink: msg;tello.js:242[17:19]::FLOW_DESCR_END","/tello.js","237","32","237","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tello.js:251[32:34];Sink: msg;tello.js:269[25:27]::FLOW_DESCR_END","/tello.js","251","32","251","34"

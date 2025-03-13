@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:6[30:32];Sink: msg;index.js:7[12:14]::FLOW_DESCR_END","/index.js","6","30","6","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mqtt_service.js:40[35:43];Sink: connectUrl;mqtt_service.js:41[16:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mqtt_service.js:40[35:43];Sink: connectUrl;mqtt_service.js:42[34:43]::FLOW_DESCR_END","/lib/mqtt_service.js","40","35","40","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mqtt_service.js:40[51:59];Sink: connectUrl;mqtt_service.js:41[16:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;mqtt_service.js:40[51:59];Sink: connectUrl;mqtt_service.js:42[34:43]::FLOW_DESCR_END","/lib/mqtt_service.js","40","51","40","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mqtt_service.js:50[42:42];Sink: e;mqtt_service.js:56[43:43]::FLOW_DESCR_END","/lib/mqtt_service.js","50","42","50","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mqtt_service.js:62[42:42];Sink: e;mqtt_service.js:63[22:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;mqtt_service.js:62[42:42];Sink: e;mqtt_service.js:68[40:40]::FLOW_DESCR_END","/lib/mqtt_service.js","62","42","62","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.topic;mqtt_service.js:75[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.payload;mqtt_service.js:75[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.qos;mqtt_service.js:75[51:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.retain;mqtt_service.js:75[57:64]::FLOW_DESCR_END","/lib/mqtt_service.js","71","41","71","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqtt_service.js:119[54:58];Sink: error;mqtt_service.js:121[22:26]::FLOW_DESCR_END","/lib/mqtt_service.js","119","54","119","58"

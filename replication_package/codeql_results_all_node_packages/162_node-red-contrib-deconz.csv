@@ -1,0 +1,34 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message_in;api.js:61[25:34];Sink: message_in;api.js:71[38:47]::FLOW_DESCR_END","/nodes/api.js","61","25","61","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message_in;get.js:70[25:34];Sink: message_in;get.js:80[38:47]::FLOW_DESCR_END","/nodes/get.js","70","25","70","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message_in;out.js:97[25:34];Sink: message_in;out.js:107[38:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message_in;out.js:97[25:34];Sink: message_in;out.js:369[17:26]::FLOW_DESCR_END","/nodes/out.js","97","25","97","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;server.js:164[34:40];Sink: ""Unknow ... Parsed);server.js:567[25:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;server.js:164[34:40];Sink: ""Unknow ... Parsed);server.js:578[19:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;server.js:164[34:40];Sink: dataParsed;server.js:684[40:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;server.js:164[34:40];Sink: dataParsed;server.js:719[36:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;server.js:164[34:40];Sink: ""Got we ... Parsed);server.js:734[11:38]::FLOW_DESCR_END","/nodes/server.js","164","34","164","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:165[32:34];Sink: `WebSoc ... ${err}`;server.js:171[22:46]::FLOW_DESCR_END","/nodes/server.js","165","32","165","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;server.js:174[32:35];Sink: `WebSoc ... eason}`;server.js:179[21:65]::FLOW_DESCR_END","/nodes/server.js","174","32","174","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;server.js:174[38:43];Sink: `WebSoc ... eason}`;server.js:179[21:65]::FLOW_DESCR_END","/nodes/server.js","174","38","174","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... ce_type;CommandParser.js:377[47:69];Sink: ""Error  ... tring();deconz.js:341[20:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device. ... ce_type;CommandParser.js:377[47:69];Sink: `Error  ... error}`;out.js:368[17:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device. ... ce_type;CommandParser.js:377[47:69];Sink: error;out.js:371[28:32]::FLOW_DESCR_END","/src/runtime/CommandParser.js","377","47","377","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... ce_path;CommandParser.js:406[45:67];Sink: `[decon ... value.`;CommandParser.js:406[23:100]::FLOW_DESCR_END","/src/runtime/CommandParser.js","406","45","406","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device. ... ce_path;CommandParser.js:424[32:54];Sink: `The co ... value.`;CommandParser.js:424[19:89]::FLOW_DESCR_END","/src/runtime/CommandParser.js","424","32","424","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;DeconzSocket.js:56[29:32];Sink: data;DeconzSocket.js:101[23:26]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","56","29","56","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;DeconzSocket.js:59[32:35];Sink: ""Unknow ... Parsed);server.js:567[25:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;DeconzSocket.js:59[32:35];Sink: ""Unknow ... Parsed);server.js:578[19:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;DeconzSocket.js:59[32:35];Sink: dataParsed;server.js:684[40:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;DeconzSocket.js:59[32:35];Sink: dataParsed;server.js:719[36:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;DeconzSocket.js:59[32:35];Sink: ""Got we ... Parsed);server.js:734[11:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;DeconzSocket.js:59[32:35];Sink: payload;DeconzSocket.js:143[28:34]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","59","32","59","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;DeconzSocket.js:60[30:32];Sink: `WebSoc ... ${err}`;server.js:171[22:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;DeconzSocket.js:60[30:32];Sink: err;DeconzSocket.js:156[24:26]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","60","30","60","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req;DeconzSocket.js:61[44:46];Sink: req;DeconzSocket.js:152[45:47]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","61","44","61","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;DeconzSocket.js:61[49:51];Sink: res;DeconzSocket.js:152[50:52]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","61","49","61","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;DeconzSocket.js:64[30:33];Sink: `WebSoc ... eason}`;server.js:179[21:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;DeconzSocket.js:64[30:33];Sink: code;DeconzSocket.js:120[24:27]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","64","30","64","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;DeconzSocket.js:64[36:41];Sink: `WebSoc ... eason}`;server.js:179[21:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reason;DeconzSocket.js:64[36:41];Sink: reason;DeconzSocket.js:120[30:35]::FLOW_DESCR_END","/src/runtime/DeconzSocket.js","64","36","64","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.data.state;OutputMsgFormatter.js:259[13:29];Sink: device;OutputMsgFormatter.js:307[26:31]::FLOW_DESCR_END","/src/runtime/OutputMsgFormatter.js","259","13","259","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.data.config;OutputMsgFormatter.js:267[13:30];Sink: device;OutputMsgFormatter.js:307[26:31]::FLOW_DESCR_END","/src/runtime/OutputMsgFormatter.js","267","13","267","30"

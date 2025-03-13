@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;facial-recognition.js:307[37:39];Sink: err;facial-recognition.js:463[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facial-recognition.js:307[37:39];Sink: msg;facial-recognition.js:463[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facial-recognition.js:307[37:39];Sink: user_se ... riptors;facial-recognition.js:619[58:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;facial-recognition.js:307[37:39];Sink: msg;facial-recognition.js:1008[14:16]::FLOW_DESCR_END","/facial-recognition.js","307","37","307","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loadbalance.js:241[36:38];Sink: ""routeA ... ayload);loadbalance.js:4[11:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:241[36:38];Sink: ""unknow ... ayload);loadbalance.js:10[15:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:241[36:38];Sink: ""Availa ... ta.path;loadbalance.js:79[16:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:241[36:38];Sink: ""Unavai ... ta.path;loadbalance.js:81[16:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:241[36:38];Sink: ""loadba ... :""+data;loadbalance.js:90[14:59]::FLOW_DESCR_END","/loadbalance.js","241","36","241","38"

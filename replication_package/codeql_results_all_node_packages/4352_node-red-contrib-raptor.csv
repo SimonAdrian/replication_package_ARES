@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;so-load.js:27[36:38];Sink: m;so-load.js:6[38:38]::FLOW_DESCR_END","/_refactoring/so-load.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;so-search.js:30[36:38];Sink: m;so-search.js:7[38:38]::FLOW_DESCR_END","/_refactoring/so-search.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pull.js:34[36:38];Sink: ""Cannot ... hFilter;pull.js:75[56:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pull.js:34[36:38];Sink: ""No dat ...   : """");pull.js:101[42:57]::FLOW_DESCR_END","/nodes/stream/pull.js","34","36","34","38"

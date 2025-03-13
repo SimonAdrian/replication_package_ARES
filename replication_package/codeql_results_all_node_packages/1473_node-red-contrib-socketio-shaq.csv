@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;socketio-client.js:49[47:49];Sink: err;socketio-client.js:62[22:24]::FLOW_DESCR_END","/socketio-client.js","49","47","49","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio-client.js:135[23:25];Sink: msg.eventName;socketio-client.js:139[40:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio-client.js:135[23:25];Sink: msg.payload;socketio-client.js:139[55:65]::FLOW_DESCR_END","/socketio-client.js","135","23","135","25"

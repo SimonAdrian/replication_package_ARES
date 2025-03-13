@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: NodeID3.read(file);youtube-ytdl.js:52[21:38];Sink: tagsOut;youtube-ytdl.js:53[19:25]::FLOW_DESCR_END","/youtube-ytdl.js","52","21","52","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: errorText;youtube-ytdl.js:24[16:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: file;youtube-ytdl.js:47[41:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: ""Downlo ...  output;youtube-ytdl.js:91[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: output;youtube-ytdl.js:95[43:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: ""Error  ...  output;youtube-ytdl.js:132[27:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: e;youtube-ytdl.js:132[62:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: newMsg;youtube-ytdl.js:137[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: ""Downlo ... + path_;youtube-ytdl.js:231[22:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube-ytdl.js:192[32:34];Sink: ""Downlo ... + path_;youtube-ytdl.js:234[22:59]::FLOW_DESCR_END","/youtube-ytdl.js","192","32","192","34"

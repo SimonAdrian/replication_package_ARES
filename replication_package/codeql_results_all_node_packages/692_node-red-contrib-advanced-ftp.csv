@@ -1,0 +1,63 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: ""Incorr ... SizeDim;advanced-ftp-logger.js:137[48:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:159[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:229[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: path;advanced-ftp-logger.js:293[38:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: ftppath;advanced-ftp-logger.js:293[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:300[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:332[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:413[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: local;advanced-ftp-logger.js:430[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: ftp;advanced-ftp-logger.js:430[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:438[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:462[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:485[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: ""No suc ... calpath;advanced-ftp-logger.js:519[56:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:529[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:555[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:570[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:664[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:673[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:681[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:691[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:702[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:712[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:730[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:748[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: msg;advanced-ftp-logger.js:756[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp-logger.js:44[40:42];Sink: options;advanced-ftp-logger.js:766[30:36]::FLOW_DESCR_END","/src/advanced-ftp-logger.js","44","40","44","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;advanced-ftp-logger.js:747[44:46];Sink: err;advanced-ftp-logger.js:748[48:50]::FLOW_DESCR_END","/src/advanced-ftp-logger.js","747","44","747","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;advanced-ftp-logger.js:754[44:46];Sink: err;advanced-ftp-logger.js:756[52:54]::FLOW_DESCR_END","/src/advanced-ftp-logger.js","754","44","754","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:174[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:183[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:216[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:223[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:230[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:237[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:244[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:251[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:258[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: ""Invali ... rCase();advanced-ftp.js:265[60:116]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:294[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: localFilename;advanced-ftp.js:306[72:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:317[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:349[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:368[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:382[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:400[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:410[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:439[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:449[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:465[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:478[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:488[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:501[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:511[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:522[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: filename;advanced-ftp.js:561[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: useCompression;advanced-ftp.js:561[52:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: localFilename;advanced-ftp.js:567[42:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: filename;advanced-ftp.js:567[57:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: useCompression;advanced-ftp.js:567[67:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: msg;advanced-ftp.js:602[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced-ftp.js:71[40:42];Sink: options;advanced-ftp.js:608[30:36]::FLOW_DESCR_END","/src/advanced-ftp.js","71","40","71","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;advanced-ftp.js:601[44:46];Sink: err;advanced-ftp.js:602[48:50]::FLOW_DESCR_END","/src/advanced-ftp.js","601","44","601","46"

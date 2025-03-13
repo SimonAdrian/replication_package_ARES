@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;google-action-dialogflow-http.js:171[21:26];Sink: `starti ... port}]`;google-action-dialogflow-http.js:175[25:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;google-action-dialogflow-http.js:171[21:26];Sink: `re-sta ... port}]`;google-action-dialogflow-http.js:180[25:82]::FLOW_DESCR_END","/google-action-dialogflow-http.js","171","21","171","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;google-action-dialogflow-http.js:175[68:76];Sink: `starti ... port}]`;google-action-dialogflow-http.js:175[25:79]::FLOW_DESCR_END","/google-action-dialogflow-http.js","175","68","175","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;google-action-dialogflow-http.js:180[71:79];Sink: `re-sta ... port}]`;google-action-dialogflow-http.js:180[25:82]::FLOW_DESCR_END","/google-action-dialogflow-http.js","180","71","180","79"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;device.js:67[34:34];Sink: e.message;device.js:68[24:32]::FLOW_DESCR_END","/build/nodes/device.js","67","34","67","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;device.js:117[33:37];Sink: object;device.js:29[34:39]::FLOW_DESCR_END","/build/nodes/device.js","117","33","117","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;device.js:126[33:39];Sink: object;device.js:29[34:39]::FLOW_DESCR_END","/build/nodes/device.js","126","33","126","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;device.js:130[32:38];Sink: object;device.js:32[32:37]::FLOW_DESCR_END","/build/nodes/device.js","130","32","130","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;device.ts:89[32:32];Sink: e.message;device.ts:90[20:28]::FLOW_DESCR_END","/src/nodes/device.ts","89","32","89","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;device.ts:146[29:33];Sink: object;device.ts:37[30:35]::FLOW_DESCR_END","/src/nodes/device.ts","146","29","146","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;device.ts:157[31:37];Sink: object;device.ts:37[30:35]::FLOW_DESCR_END","/src/nodes/device.ts","157","31","157","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;device.ts:162[30:36];Sink: object;device.ts:41[28:33]::FLOW_DESCR_END","/src/nodes/device.ts","162","30","162","36"

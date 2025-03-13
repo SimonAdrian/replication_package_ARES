@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timecheck.js:32[31:33];Sink: [null, msg];timecheck.js:40[20:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timecheck.js:32[31:33];Sink: [msg, null];timecheck.js:42[20:30]::FLOW_DESCR_END","/timecheck/timecheck.js","32","31","32","33"

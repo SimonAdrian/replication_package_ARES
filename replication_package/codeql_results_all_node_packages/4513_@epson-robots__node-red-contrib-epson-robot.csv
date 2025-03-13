@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;erc-state.js:150[36:48];Sink: `$Login ... sword}`;erc-state.js:150[26:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;erc-state.js:150[36:48];Sink: cmd + _ ... minator;erc-state.js:198[32:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;erc-state.js:150[36:48];Sink: cmd + _ ... minator;erc-state.js:201[30:51]::FLOW_DESCR_END","/erc-state.js","150","36","150","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;erc-state.js:215[25:27];Sink: err;status-monitor.js:302[21:23]::FLOW_DESCR_END","/erc-state.js","215","25","215","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;status-monitor.js:124[17:22];Sink: _this.host;erc-state.js:131[40:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;status-monitor.js:124[17:22];Sink: `Connec ... .port}`;status-monitor.js:215[18:57]::FLOW_DESCR_END","/status-monitor.js","124","17","124","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;status-monitor.js:125[17:22];Sink: _this.port;erc-state.js:131[28:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;status-monitor.js:125[17:22];Sink: `Connec ... .port}`;status-monitor.js:215[18:57]::FLOW_DESCR_END","/status-monitor.js","125","17","125","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;status-monitor.js:126[22:46];Sink: `$Login ... sword}`;erc-state.js:150[26:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... assword;status-monitor.js:126[22:46];Sink: cmd + _ ... minator;erc-state.js:198[32:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... assword;status-monitor.js:126[22:46];Sink: cmd + _ ... minator;erc-state.js:201[30:51]::FLOW_DESCR_END","/status-monitor.js","126","22","126","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;status-monitor.js:142[24:32];Sink: _this.host;erc-state.js:131[40:49]::FLOW_DESCR_END","/status-monitor.js","142","24","142","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;status-monitor.js:142[35:43];Sink: _this.port;erc-state.js:131[28:37]::FLOW_DESCR_END","/status-monitor.js","142","35","142","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;status-monitor.js:142[46:58];Sink: `$Login ... sword}`;erc-state.js:150[26:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.password;status-monitor.js:142[46:58];Sink: cmd + _ ... minator;erc-state.js:198[32:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.password;status-monitor.js:142[46:58];Sink: cmd + _ ... minator;erc-state.js:201[30:51]::FLOW_DESCR_END","/status-monitor.js","142","46","142","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: arg;status-monitor.js:193[23:25];Sink: arg;status-monitor.js:194[17:19]::FLOW_DESCR_END","/status-monitor.js","193","23","193","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;status-monitor.js:215[34:42];Sink: `Connec ... .port}`;status-monitor.js:215[18:57]::FLOW_DESCR_END","/status-monitor.js","215","34","215","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;status-monitor.js:215[47:55];Sink: `Connec ... .port}`;status-monitor.js:215[18:57]::FLOW_DESCR_END","/status-monitor.js","215","47","215","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;status-monitor.js:349[30:32];Sink: err;status-monitor.js:350[20:22]::FLOW_DESCR_END","/status-monitor.js","349","30","349","32"

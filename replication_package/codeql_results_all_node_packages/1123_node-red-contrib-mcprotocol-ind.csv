@@ -1,0 +1,49 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;connection_pool.js:206[34:34];Sink: `[mcpro ... : ${e}`;connection_pool.js:209[22:55]::FLOW_DESCR_END","/connection_pool.js","206","34","206","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cParam.host;mcprotocol.js:152[23:33];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/mcprotocol/mcprotocol.js","152","23","152","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cParam.host;mcprotocol.js:392[42:52];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/mcprotocol/mcprotocol.js","392","42","392","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cParam.port;mcprotocol.js:392[70:80];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/mcprotocol/mcprotocol.js","392","70","392","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: returnedBfr.length;mcprotocol.js:1371[119:136];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/mcprotocol/mcprotocol.js","1371","119","1371","136"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: item.bu ... .length;mcprotocol.js:1463[120:142];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/mcprotocol/mcprotocol.js","1463","120","1463","142"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:49[18:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: `[mcpro ... : ${e}`;connection_pool.js:209[22:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:216[23:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:226[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:232[20:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:239[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: cParam.port;mcprotocol.js:383[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;read.js:54[9:34];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/nodes/read.js","54","9","54","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:49[18:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: `[mcpro ... : ${e}`;connection_pool.js:209[22:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:216[23:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:226[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:232[20:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:239[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: cParam.host;mcprotocol.js:383[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;read.js:55[9:34];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/nodes/read.js","55","9","55","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;read.js:62[44:48];Sink: error;read.js:63[23:27]::FLOW_DESCR_END","/nodes/read.js","62","44","62","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read.js:217[33:35];Sink: msg;read.js:86[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read.js:217[33:35];Sink: msg;read.js:90[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read.js:217[33:35];Sink: msg;read.js:97[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read.js:217[33:35];Sink: node.msgMem;read.js:128[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read.js:217[33:35];Sink: node.msgMem;read.js:213[21:31]::FLOW_DESCR_END","/nodes/read.js","217","33","217","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:49[18:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: `[mcpro ... : ${e}`;connection_pool.js:209[22:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:216[23:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:226[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:232[20:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:239[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: cParam.port;mcprotocol.js:383[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.port;write.js:56[9:34];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/nodes/write.js","56","9","56","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:49[18:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: `[mcpro ... : ${e}`;connection_pool.js:209[22:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:216[23:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:226[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:232[20:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: `[mcpro ...  ${id}`;connection_pool.js:239[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: cParam.host;mcprotocol.js:383[64:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... ig.host;write.js:57[9:34];Sink: '[' + s ... at(txt);mcprotocol.js:1938[50:91]::FLOW_DESCR_END","/nodes/write.js","57","9","57","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;write.js:62[44:48];Sink: error;write.js:63[23:27]::FLOW_DESCR_END","/nodes/write.js","62","44","62","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;write.js:130[33:35];Sink: msg;write.js:84[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write.js:130[33:35];Sink: msg;write.js:88[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write.js:130[33:35];Sink: msg;write.js:95[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write.js:130[33:35];Sink: node.msgMem;write.js:127[21:31]::FLOW_DESCR_END","/nodes/write.js","130","33","130","35"

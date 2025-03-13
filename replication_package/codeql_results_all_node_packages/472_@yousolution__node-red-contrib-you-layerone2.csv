@@ -1,0 +1,172 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;command.js:21[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;command.js:27[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;reqengine.js:158[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;command.js:11[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/adonet/command.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nextLink.js:6[31:33];Sink: [null, msg];nextLink.js:10[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nextLink.js:6[31:33];Sink: [msg, null];nextLink.js:14[19:29]::FLOW_DESCR_END","/node/input/adonet/nextLink.js","6","31","6","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;query.js:21[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;query.js:27[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;reqengine.js:158[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;query.js:11[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/adonet/query.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;storedProcedure.js:20[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;storedProcedure.js:26[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;reqengine.js:158[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storedProcedure.js:11[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/adonet/storedProcedure.js","11","29","11","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:25[41:43];Sink: msg;auth.js:53[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:25[41:43];Sink: msg;auth.js:60[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:25[41:43];Sink: msg;auth.js:70[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:25[41:43];Sink: msg;auth.js:76[27:29]::FLOW_DESCR_END","/node/input/auth/auth.js","25","41","25","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;jsonBatch.js:33[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;jsonBatch.js:39[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonBatch.js:12[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/batch/jsonBatch.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;healthCheck.js:11[42:44];Sink: {...msg ... .data };healthCheck.js:16[27:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;healthCheck.js:11[42:44];Sink: msg;healthCheck.js:25[35:37]::FLOW_DESCR_END","/node/input/healthCheck/healthCheck.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;getPlugins.js:20[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;getPlugins.js:26[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getPlugins.js:12[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/plugins/getPlugins.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;listPlugins.js:21[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;listPlugins.js:27[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listPlugins.js:12[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/plugins/listPlugins.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;SQLQuery.js:37[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:13[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/SQLQuery.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;closeSap.js:26[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/closeSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;createSQLQuery.js:39[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/createSQLQuery.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;createSap.js:30[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:13[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/createSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;crossJoinSap.js:27[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/crossJoinSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;deleteSap.js:25[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/deleteSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;getSap.js:24[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/getSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;listSap.js:27[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/listSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manipulateEntitySap.js:31[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/manipulateEntitySap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nextLink.js:6[29:31];Sink: [null, msg];nextLink.js:10[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nextLink.js:6[29:31];Sink: [msg, null];nextLink.js:14[17:27]::FLOW_DESCR_END","/node/input/sapservicelayer/nextLink.js","6","29","6","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;patchSap.js:30[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/patchSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;serviceSap.js:26[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:7[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:13[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:18[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:27[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:32[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;manageErrorLayerOneSL.js:38[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: globalName;reqengine.js:264[53:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:14[29:31];Sink: msg;reqengine.js:270[40:42]::FLOW_DESCR_END","/node/input/sapservicelayer/serviceSap.js","14","29","14","31"

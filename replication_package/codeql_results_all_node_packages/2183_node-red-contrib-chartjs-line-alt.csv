@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socket;chartjs-line-alt.js:30[35:40];Sink: topic;chartjs-line-alt.js:34[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;chartjs-line-alt.js:30[35:40];Sink: 'user d ... + topic;chartjs-line-alt.js:37[25:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socket;chartjs-line-alt.js:30[35:40];Sink: 'a sock ...  Date();chartjs-line-alt.js:40[21:170]::FLOW_DESCR_END","/chartjs-line-alt/chartjs-line-alt.js","30","35","30","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chartjs-line-alt.js:142[36:38];Sink: msg;chartjs-line-alt.js:149[23:25]::FLOW_DESCR_END","/chartjs-line-alt/chartjs-line-alt.js","142","36","142","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t;socket.io.js:6[28642:28642]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t.data;socket.io.js:6[28891:28896]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t.data;socket.io.js:6[28919:28924]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26486:26486];Sink: t;socket.io.js:6[29056:29056]::FLOW_DESCR_END","/chartjs-line-alt/js/socket.io.js","6","26486","6","26486"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;socket.io.js:6[26525:26525];Sink: t;socket.io.js:6[31365:31365]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;socket.io.js:6[26525:26525];Sink: e;socket.io.js:6[31806:31806]::FLOW_DESCR_END","/chartjs-line-alt/js/socket.io.js","6","26525","6","26525"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: red;line-chart-alt.js:22[31:33];Sink: red;line-chart-alt.js:23[21:23]::FLOW_DESCR_END","/chartjs-line-alt/templates/line-chart-alt.js","22","31","22","33"

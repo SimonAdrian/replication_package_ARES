@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.options.host;MqttClient.js:23[45:61];Sink: 'mqtts: ... ns.host;MqttClient.js:23[32:61]::FLOW_DESCR_END","/MqttClient.js","23","45","23","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:158[27:50];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:158[27:50];Sink: `vsh/${ ... Config`;connection.js:158[20:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:158[27:50];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END","/connection.js","158","27","158","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:170[35:58];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:170[35:58];Sink: `$aws/t ... update`;connection.js:170[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:170[35:58];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END","/connection.js","170","35","170","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:211[31:54];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:211[31:54];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:211[31:54];Sink: `vsh/${ ... Report`;connection.js:211[24:69]::FLOW_DESCR_END","/connection.js","211","31","211","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:242[29:52];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:242[29:52];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:242[29:52];Sink: `vsh/${ ... {mode}`;connection.js:242[22:66]::FLOW_DESCR_END","/connection.js","242","29","242","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:275[37:60];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:275[37:60];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:275[37:60];Sink: `$aws/t ... update`;connection.js:275[22:76]::FLOW_DESCR_END","/connection.js","275","37","275","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:424[27:50];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:424[27:50];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:424[27:50];Sink: `vsh/${ ... }/pong`;connection.js:424[20:57]::FLOW_DESCR_END","/connection.js","424","27","424","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:466[39:62];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:466[39:62];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:466[39:62];Sink: `$aws/t ... ow/get`;connection.js:466[24:75]::FLOW_DESCR_END","/connection.js","466","39","466","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .server;connection.js:571[15:37];Sink: 'mqtts: ... ns.host;MqttClient.js:23[32:61]::FLOW_DESCR_END","/connection.js","571","15","571","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:687[24:47];Sink: topic;MqttClient.js:64[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:687[24:47];Sink: topic;connection.js:192[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:687[24:47];Sink: `$aws/t ... update`;connection.js:687[9:63]::FLOW_DESCR_END","/connection.js","687","24","687","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;virtual-device.js:97[32:34];Sink: `ignori ... name}'`;virtual-device.js:103[11:45]::FLOW_DESCR_END","/virtual-device.js","97","32","97","34"

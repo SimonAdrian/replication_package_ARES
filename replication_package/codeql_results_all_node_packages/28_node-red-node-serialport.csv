@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;25-serial.js:70[34:36];Sink: msg;25-serial.js:74[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;25-serial.js:70[34:36];Sink: msg;25-serial.js:79[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;25-serial.js:70[34:36];Sink: msg;25-serial.js:89[39:41]::FLOW_DESCR_END","/25-serial.js","70","34","70","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;25-serial.js:78[92:100];Sink: errmsg;25-serial.js:79[40:45]::FLOW_DESCR_END","/25-serial.js","78","92","78","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;25-serial.js:88[84:92];Sink: errmsg;25-serial.js:89[32:37]::FLOW_DESCR_END","/25-serial.js","88","84","88","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;25-serial.js:130[43:48];Sink: msgout;25-serial.js:131[27:32]::FLOW_DESCR_END","/25-serial.js","130","43","130","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;25-serial.js:158[38:40];Sink: msg;25-serial.js:162[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;25-serial.js:158[38:40];Sink: msg;25-serial.js:167[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;25-serial.js:158[38:40];Sink: msg;25-serial.js:181[43:45]::FLOW_DESCR_END","/25-serial.js","158","38","158","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;25-serial.js:166[96:104];Sink: errmsg;25-serial.js:167[44:49]::FLOW_DESCR_END","/25-serial.js","166","96","166","104"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;25-serial.js:180[88:96];Sink: errmsg;25-serial.js:181[36:41]::FLOW_DESCR_END","/25-serial.js","180","88","180","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;25-serial.js:194[48:53];Sink: msgout;25-serial.js:199[31:36]::FLOW_DESCR_END","/25-serial.js","194","48","194","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;25-serial.js:201[51:56];Sink: msgout;25-serial.js:205[31:36]::FLOW_DESCR_END","/25-serial.js","201","51","201","56"

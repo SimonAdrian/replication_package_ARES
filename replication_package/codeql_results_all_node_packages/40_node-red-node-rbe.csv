@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rbe.js:25[34:36];Sink: msg;rbe.js:42[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rbe.js:25[34:36];Sink: msg;rbe.js:48[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rbe.js:25[34:36];Sink: msg;rbe.js:66[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rbe.js:25[34:36];Sink: msg;rbe.js:72[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rbe.js:25[34:36];Sink: msg;rbe.js:78[43:45]::FLOW_DESCR_END","/rbe.js","25","34","25","36"

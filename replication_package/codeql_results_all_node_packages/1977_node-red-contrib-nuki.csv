@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;nuki.js:114[17:27];Sink: 'Got '  ... .length;nuki.js:142[21:58]::FLOW_DESCR_END","/nuki/nuki.js","114","17","114","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;nuki.js:143[33:41];Sink: 'Got '  ... .length;nuki.js:142[21:58]::FLOW_DESCR_END","/nuki/nuki.js","143","33","143","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: 'Could  ... ayload);nuki.js:414[19:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:425[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:430[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:436[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:443[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:455[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:461[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:466[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:470[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:473[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:259[31:33];Sink: msg;nuki.js:477[19:21]::FLOW_DESCR_END","/nuki/nuki.js","259","31","259","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:546[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:551[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:556[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:563[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:568[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:573[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:577[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:581[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nuki.js:498[31:33];Sink: msg;nuki.js:585[19:21]::FLOW_DESCR_END","/nuki/nuki.js","498","31","498","33"

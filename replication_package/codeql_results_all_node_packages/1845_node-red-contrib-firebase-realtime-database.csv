@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebaseGet.js:28[22:24];Sink: msg;firebaseGet.js:29[18:20]::FLOW_DESCR_END","/src/firebaseGet.js","28","22","28","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebaseOut.js:33[22:24];Sink: msg;firebaseOut.js:34[18:20]::FLOW_DESCR_END","/src/firebaseOut.js","33","22","33","24"

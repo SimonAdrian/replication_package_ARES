@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: topic.join('.');vrm-api.js:220[33:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: msg;vrm-api.js:223[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: url;vrm-api.js:237[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: msg.payload;vrm-api.js:237[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: topic.join('.');vrm-api.js:253[33:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: msg;vrm-api.js:256[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: url;vrm-api.js:270[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: topic.join('.');vrm-api.js:289[33:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vrm-api.js:18[32:34];Sink: msg;vrm-api.js:294[23:25]::FLOW_DESCR_END","/src/nodes/vrm-api.js","18","32","18","34"

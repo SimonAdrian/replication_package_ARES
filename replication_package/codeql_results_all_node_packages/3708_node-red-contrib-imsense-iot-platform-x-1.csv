@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;imsense-connection-manager.js:10[21:26];Sink: `mqtt:/ ... .host}`;immqttclient.js:15[38:72]::FLOW_DESCR_END","/nodes/imsense-connection-manager.js","10","21","10","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;imsense-connection-manager.js:18[94:102];Sink: `mqtt:/ ... .host}`;immqttclient.js:15[38:72]::FLOW_DESCR_END","/nodes/imsense-connection-manager.js","18","94","18","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;provision-imsense-entities.js:9[36:38];Sink: msg;provision-imsense-entities.js:17[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;provision-imsense-entities.js:9[36:38];Sink: msg;provision-imsense-entities.js:26[56:58]::FLOW_DESCR_END","/nodes/provision-imsense-entities.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-imsense-asset-data.js:9[36:38];Sink: msg;send-imsense-asset-data.js:17[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-imsense-asset-data.js:9[36:38];Sink: msg;send-imsense-asset-data.js:26[56:58]::FLOW_DESCR_END","/nodes/send-imsense-asset-data.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... on.host;immqttclient.js:15[48:70];Sink: `mqtt:/ ... .host}`;immqttclient.js:15[38:72]::FLOW_DESCR_END","/transport/immqttclient.js","15","48","15","70"

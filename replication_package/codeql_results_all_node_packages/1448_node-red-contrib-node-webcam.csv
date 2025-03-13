@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-webcam.js:39[35:37];Sink: ""webcam:""+filefqn;node-webcam.js:102[50:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-webcam.js:39[35:37];Sink: msg;node-webcam.js:140[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-webcam.js:39[35:37];Sink: msg;node-webcam.js:156[31:33]::FLOW_DESCR_END","/node-webcam.js","39","35","39","37"

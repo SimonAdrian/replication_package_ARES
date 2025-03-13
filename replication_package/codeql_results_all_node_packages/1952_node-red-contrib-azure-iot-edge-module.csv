@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azureiotedge.js:39[46:48];Sink: 'Module ... ' + err;azureiotedge.js:40[30:57]::FLOW_DESCR_END","/azureiotedge.js","39","46","39","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: delta;azureiotedge.js:90[52:56];Sink: JSON.st ... (delta);azureiotedge.js:93[26:46]::FLOW_DESCR_END","/azureiotedge.js","90","52","90","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiotedge.js:166[40:42];Sink: 'Sendin ... essage);azureiotedge.js:375[18:108]::FLOW_DESCR_END","/azureiotedge.js","166","40","166","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiotedge.js:243[40:42];Sink: rspns.status;azureiotedge.js:225[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiotedge.js:243[40:42];Sink: responseBody;azureiotedge.js:225[49:60]::FLOW_DESCR_END","/azureiotedge.js","243","40","243","42"

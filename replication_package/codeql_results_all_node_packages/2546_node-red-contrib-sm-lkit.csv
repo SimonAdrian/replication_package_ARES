@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:36[32:34];Sink: msg;lkit.js:61[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:36[32:34];Sink: msg;lkit.js:64[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:36[32:34];Sink: msg;lkit.js:69[25:27]::FLOW_DESCR_END","/lkit.js","36","32","36","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:87[32:34];Sink: msg;lkit.js:134[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:87[32:34];Sink: msg;lkit.js:137[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:87[32:34];Sink: msg;lkit.js:142[25:27]::FLOW_DESCR_END","/lkit.js","87","32","87","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:162[32:34];Sink: msg;lkit.js:189[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:162[32:34];Sink: msg;lkit.js:192[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:162[32:34];Sink: msg;lkit.js:197[25:27]::FLOW_DESCR_END","/lkit.js","162","32","162","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:215[32:34];Sink: msg;lkit.js:262[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:215[32:34];Sink: msg;lkit.js:265[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:215[32:34];Sink: msg;lkit.js:270[25:27]::FLOW_DESCR_END","/lkit.js","215","32","215","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:288[32:34];Sink: msg;lkit.js:336[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:288[32:34];Sink: msg;lkit.js:339[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:288[32:34];Sink: msg;lkit.js:344[25:27]::FLOW_DESCR_END","/lkit.js","288","32","288","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:419[34:36];Sink: msg;lkit.js:464[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:419[34:36];Sink: msg;lkit.js:466[27:29]::FLOW_DESCR_END","/lkit.js","419","34","419","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:484[32:34];Sink: msg;lkit.js:536[25:27]::FLOW_DESCR_END","/lkit.js","484","32","484","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:555[32:34];Sink: msg;lkit.js:627[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:555[32:34];Sink: msg;lkit.js:651[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:555[32:34];Sink: msg;lkit.js:653[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:555[32:34];Sink: msg;lkit.js:660[25:27]::FLOW_DESCR_END","/lkit.js","555","32","555","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lkit.js:713[36:38];Sink: msg;lkit.js:782[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:713[36:38];Sink: msg;lkit.js:785[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lkit.js:713[36:38];Sink: msg;lkit.js:790[33:35]::FLOW_DESCR_END","/lkit.js","713","36","713","38"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:83[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:88[115:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:109[127:129]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:124[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:132[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: source;ftp-download.js:148[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: destination;ftp-download.js:154[72:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:174[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ftp-download.js:62[27:29];Sink: msg;ftp-download.js:182[68:70]::FLOW_DESCR_END","/ftp-download.js","62","27","62","29"

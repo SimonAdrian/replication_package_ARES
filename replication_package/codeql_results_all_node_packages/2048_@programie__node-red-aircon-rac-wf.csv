@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;Client.js:28[25:37];Sink: `Sendin ... data)}`;Client.js:36[25:63]::FLOW_DESCR_END","/lib/Client.js","28","25","28","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;Client.js:38[43:51];Sink: `http:/ ... :51443`;Client.js:38[33:59]::FLOW_DESCR_END","/lib/Client.js","38","43","38","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;stat.js:8[39:49];Sink: `http:/ ... :51443`;Client.js:38[33:59]::FLOW_DESCR_END","/nodes/stat.js","8","39","8","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;stat.js:8[71:85];Sink: `Sendin ... data)}`;Client.js:36[25:63]::FLOW_DESCR_END","/nodes/stat.js","8","71","8","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stat.js:10[36:38];Sink: msg;stat.js:17[31:33]::FLOW_DESCR_END","/nodes/stat.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;stat.js:31[39:49];Sink: `http:/ ... :51443`;Client.js:38[33:59]::FLOW_DESCR_END","/nodes/stat.js","31","39","31","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;stat.js:31[71:85];Sink: `Sendin ... data)}`;Client.js:36[25:63]::FLOW_DESCR_END","/nodes/stat.js","31","71","31","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stat.js:33[36:38];Sink: msg;stat.js:46[39:41]::FLOW_DESCR_END","/nodes/stat.js","33","36","33","38"

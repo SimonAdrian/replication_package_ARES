@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objstore.js:56[36:38];Sink: filefqn;objstore.js:142[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:56[36:38];Sink: msg;objstore.js:150[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:56[36:38];Sink: msg;objstore.js:154[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:56[36:38];Sink: filefqn;objstore.js:159[71:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:56[36:38];Sink: msg;objstore.js:178[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:56[36:38];Sink: msg;objstore.js:182[76:78]::FLOW_DESCR_END","/objstore.js","56","36","56","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objstore.js:234[36:38];Sink: url;objstore.js:407[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:234[36:38];Sink: msg;objstore.js:419[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:234[36:38];Sink: filefqn;objstore.js:423[62:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:234[36:38];Sink: url;objstore.js:436[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:234[36:38];Sink: msg;objstore.js:448[25:27]::FLOW_DESCR_END","/objstore.js","234","36","234","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;objstore.js:490[36:38];Sink: objectname;objstore.js:524[65:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;objstore.js:490[36:38];Sink: objectname;objstore.js:528[66:75]::FLOW_DESCR_END","/objstore.js","490","36","490","38"

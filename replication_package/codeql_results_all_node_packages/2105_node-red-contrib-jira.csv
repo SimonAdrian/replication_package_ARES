@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jira.js:11[35:37];Sink: ""Updati ... y + ""'"";jira.js:14[22:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jira.js:11[35:37];Sink: msg;jira.js:26[31:33]::FLOW_DESCR_END","/jira/jira.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jira.js:235[35:37];Sink: ""Retrie ... y + ""'"";jira.js:237[22:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jira.js:235[35:37];Sink: msg;jira.js:259[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jira.js:235[35:37];Sink: issueKey;jira.js:275[24:31]::FLOW_DESCR_END","/jira/jira.js","235","35","235","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;jira.js:246[45:52];Sink: ""Error  ... sponse);jira.js:266[32:111]::FLOW_DESCR_END","/jira/jira.js","246","45","246","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jira.js:285[35:37];Sink: msg;jira.js:298[31:33]::FLOW_DESCR_END","/jira/jira.js","285","35","285","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jira.js:320[35:37];Sink: msg;jira.js:333[31:33]::FLOW_DESCR_END","/jira/jira.js","320","35","320","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jira.js:353[35:37];Sink: msg;jira.js:366[31:33]::FLOW_DESCR_END","/jira/jira.js","353","35","353","37"

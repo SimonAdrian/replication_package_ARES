@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: variable;attic.js:61[36:43];Sink: 'variab ... le.name;attic.js:62[16:51]::FLOW_DESCR_END","/pimatic/attic.js","61","36","61","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;attic.js:85[35:46];Sink: errorMessage;attic.js:92[20:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: errorMessage;attic.js:85[35:46];Sink: errorMessage;attic.js:97[63:74]::FLOW_DESCR_END","/pimatic/attic.js","85","35","85","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: variables;attic.js:146[53:61];Sink: 'variab ... .length;attic.js:147[20:76]::FLOW_DESCR_END","/pimatic/attic.js","146","53","146","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: callResult;attic.js:187[43:52];Sink: util.fo ... .error);attic.js:196[26:99]::FLOW_DESCR_END","/pimatic/attic.js","187","43","187","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: varEvent;attic.js:302[58:65];Sink: varEvent.value;attic.js:309[34:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: varEvent;attic.js:302[58:65];Sink: msg;attic.js:314[23:25]::FLOW_DESCR_END","/pimatic/attic.js","302","58","302","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: variableName;attic.js:337[54:65];Sink: 'variab ... bleName;attic.js:338[20:56]::FLOW_DESCR_END","/pimatic/attic.js","337","54","337","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;attic.js:342[52:63];Sink: errorMessage;attic.js:343[20:31]::FLOW_DESCR_END","/pimatic/attic.js","342","52","342","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: variableName;attic.js:422[54:65];Sink: 'variab ... bleName;attic.js:423[20:56]::FLOW_DESCR_END","/pimatic/attic.js","422","54","422","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;attic.js:427[52:63];Sink: errorMessage;attic.js:428[20:31]::FLOW_DESCR_END","/pimatic/attic.js","427","52","427","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;attic.js:495[52:63];Sink: errorMessage;attic.js:496[20:31]::FLOW_DESCR_END","/pimatic/attic.js","495","52","495","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;pimatic.js:103[35:46];Sink: errorMessage;pimatic.js:111[20:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: errorMessage;pimatic.js:103[35:46];Sink: errorMessage;pimatic.js:116[63:74]::FLOW_DESCR_END","/pimatic/pimatic.js","103","35","103","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: callResult;pimatic.js:220[43:52];Sink: util.fo ... .error);pimatic.js:234[24:97]::FLOW_DESCR_END","/pimatic/pimatic.js","220","43","220","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: varEvent;pimatic.js:383[58:65];Sink: varEvent.value;pimatic.js:391[36:49]::FLOW_DESCR_END","/pimatic/pimatic.js","383","58","383","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: variableName;pimatic.js:439[54:65];Sink: 'variab ... bleName;pimatic.js:440[20:56]::FLOW_DESCR_END","/pimatic/pimatic.js","439","54","439","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;pimatic.js:444[52:63];Sink: errorMessage;pimatic.js:445[20:31]::FLOW_DESCR_END","/pimatic/pimatic.js","444","52","444","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: variableName;pimatic.js:530[54:65];Sink: 'variab ... bleName;pimatic.js:531[20:56]::FLOW_DESCR_END","/pimatic/pimatic.js","530","54","530","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;pimatic.js:535[52:63];Sink: errorMessage;pimatic.js:536[20:31]::FLOW_DESCR_END","/pimatic/pimatic.js","535","52","535","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;pimatic.js:614[71:85];Sink: util.fo ...  error);pimatic.js:614[24:113]::FLOW_DESCR_END","/pimatic/pimatic.js","614","71","614","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;pimatic.js:630[52:63];Sink: errorMessage;pimatic.js:631[20:31]::FLOW_DESCR_END","/pimatic/pimatic.js","630","52","630","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: errorMessage;pimatic.js:714[52:63];Sink: errorMessage;pimatic.js:715[20:31]::FLOW_DESCR_END","/pimatic/pimatic.js","714","52","714","63"

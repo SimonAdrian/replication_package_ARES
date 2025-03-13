@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alphaess-monitoring.js:47[36:38];Sink: `Gettin ... on}...`;alphaess-open-api.js:75[18:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alphaess-monitoring.js:47[36:38];Sink: `Postin ... on}...`;alphaess-open-api.js:85[18:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alphaess-monitoring.js:47[36:38];Sink: JSON.st ... \t\t\t\n\t\t);alphaess-open-api.js:114[18:3]::FLOW_DESCR_END","/alphaess-monitoring.js","47","36","47","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.msg;alphaess-open-api.js:152[5:9];Sink: 'There  ... e + ')';alphaess-open-api.js:151[4:68]::FLOW_DESCR_END","/alphaess-open-api.js","152","5","152","9"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.code;alphaess-open-api.js:152[57:62];Sink: 'There  ... e + ')';alphaess-open-api.js:151[4:68]::FLOW_DESCR_END","/alphaess-open-api.js","152","57","152","62"

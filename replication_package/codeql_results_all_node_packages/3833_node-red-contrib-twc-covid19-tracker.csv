@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: covConf ... .apikey;twc-covid19-country.js:14[14:45];Sink: 'https: ... +apiKey;twc-covid19-country.js:19[44:137]::FLOW_DESCR_END","/twc-covid19-country.js","14","14","14","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;twc-covid19-country.js:16[32:34];Sink: msg;twc-covid19-country.js:22[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;twc-covid19-country.js:16[32:34];Sink: msg;twc-covid19-country.js:27[21:23]::FLOW_DESCR_END","/twc-covid19-country.js","16","32","16","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: covConf ... .apikey;twc-covid19-tracker.js:26[14:45];Sink: 'https: ... +apiKey;twc-covid19-tracker.js:53[44:214]::FLOW_DESCR_END","/twc-covid19-tracker.js","26","14","26","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;twc-covid19-tracker.js:32[32:34];Sink: 'https: ... +apiKey;twc-covid19-tracker.js:53[44:214]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;twc-covid19-tracker.js:32[32:34];Sink: msg;twc-covid19-tracker.js:56[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;twc-covid19-tracker.js:32[32:34];Sink: msg;twc-covid19-tracker.js:61[21:23]::FLOW_DESCR_END","/twc-covid19-tracker.js","32","32","32","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.twc ... ocation;twc-covid19-tracker.js:53[162:183];Sink: 'https: ... +apiKey;twc-covid19-tracker.js:53[44:214]::FLOW_DESCR_END","/twc-covid19-tracker.js","53","162","53","183"

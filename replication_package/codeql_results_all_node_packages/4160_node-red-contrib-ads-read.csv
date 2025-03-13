@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:117[50:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:118[43:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:119[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:122[43:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:126[50:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:126[106:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:126[160:169]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: ""Connec ... tTarget;ads-read.js:129[31:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:134[58:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:135[51:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:137[62:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:138[55:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:141[51:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:147[43:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: identifier;ads-read.js:153[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-read.js:37[36:38];Sink: msg;ads-read.js:176[31:33]::FLOW_DESCR_END","/ads-read.js","37","36","37","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ads-read.js:132[49:53];Sink: error;ads-read.js:133[32:36]::FLOW_DESCR_END","/ads-read.js","132","49","132","53"

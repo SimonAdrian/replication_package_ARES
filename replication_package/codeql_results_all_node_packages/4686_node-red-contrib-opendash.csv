@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;toJson.js:7[33:35];Sink: ""Es wur ... .length;toJson.js:27[13:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toJson.js:7[33:35];Sink: msg;toJson.js:31[13:15]::FLOW_DESCR_END","/toJson.js","7","33","7","35"

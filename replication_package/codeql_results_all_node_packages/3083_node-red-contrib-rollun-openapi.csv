@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;messages.js:10[32:34];Sink: msg;messages.js:27[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;messages.js:10[32:34];Sink: msg;messages.js:32[18:20]::FLOW_DESCR_END","/messages.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openapi-client.js:21[38:40];Sink: [msg];openapi-client.js:18[24:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openapi-client.js:21[38:40];Sink: [msg];openapi-client.js:75[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openapi-client.js:21[38:40];Sink: [null, msg];openapi-client.js:129[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openapi-client.js:21[38:40];Sink: [msg];openapi-client.js:167[26:30]::FLOW_DESCR_END","/openapi-client.js","21","38","21","40"

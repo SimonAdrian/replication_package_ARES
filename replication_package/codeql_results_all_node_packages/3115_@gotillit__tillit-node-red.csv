@@ -1,0 +1,44 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-api.js:24[30:40];Sink: y;node-api.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-api.js:24[30:40];Sink: y;node-api.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-api.js:24[30:40];Sink: op[1];node-api.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/node-api.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-broker.js:58[30:40];Sink: y;node-broker.js:52[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-broker.js:58[30:40];Sink: y;node-broker.js:52[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-broker.js:58[30:40];Sink: op[1];node-broker.js:52[147:151]::FLOW_DESCR_END","/dist/nodes/node-broker.js","58","30","58","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-broker.js:171[71:74];Sink: data;node-broker.js:173[47:50]::FLOW_DESCR_END","/dist/nodes/node-broker.js","171","71","171","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-broker.js:180[67:70];Sink: data;node-broker.js:182[47:50]::FLOW_DESCR_END","/dist/nodes/node-broker.js","180","67","180","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-event.js:24[30:40];Sink: y;node-event.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-event.js:24[30:40];Sink: y;node-event.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-event.js:24[30:40];Sink: op[1];node-event.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/node-event.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-event.js:53[42:44];Sink: 'Raisin ... ayload);node-event.js:92[37:95]::FLOW_DESCR_END","/dist/nodes/node-event.js","53","42","53","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-in.js:24[30:40];Sink: y;node-in.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-in.js:24[30:40];Sink: y;node-in.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-in.js:24[30:40];Sink: op[1];node-in.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-in.js:24[30:40];Sink: e_2;node-in.js:116[39:41]::FLOW_DESCR_END","/dist/nodes/node-in.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-out.js:24[30:40];Sink: y;node-out.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-out.js:24[30:40];Sink: y;node-out.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-out.js:24[30:40];Sink: op[1];node-out.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-out.js:24[30:40];Sink: e_3;node-out.js:133[65:67]::FLOW_DESCR_END","/dist/nodes/node-out.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-out.js:47[42:44];Sink: ""SEND>  ... ayload);node-out.js:90[39:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-out.js:47[42:44];Sink: topic;node-out.js:95[77:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-out.js:47[42:44];Sink: buffer;node-out.js:95[84:89]::FLOW_DESCR_END","/dist/nodes/node-out.js","47","42","47","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-progress.js:24[30:40];Sink: y;node-progress.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-progress.js:24[30:40];Sink: y;node-progress.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-progress.js:24[30:40];Sink: op[1];node-progress.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-progress.js:24[30:40];Sink: e_3;node-progress.js:140[65:67]::FLOW_DESCR_END","/dist/nodes/node-progress.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-progress.js:47[42:44];Sink: ""SEND>  ... ayload);node-progress.js:97[39:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-progress.js:47[42:44];Sink: buffer;node-progress.js:102[84:89]::FLOW_DESCR_END","/dist/nodes/node-progress.js","47","42","47","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-pv.js:24[30:40];Sink: y;node-pv.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-pv.js:24[30:40];Sink: y;node-pv.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-pv.js:24[30:40];Sink: op[1];node-pv.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-pv.js:24[30:40];Sink: e_3;node-pv.js:163[65:67]::FLOW_DESCR_END","/dist/nodes/node-pv.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-pv.js:49[42:44];Sink: ""SEND>  ... ayload);node-pv.js:120[39:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-pv.js:49[42:44];Sink: buffer;node-pv.js:125[84:89]::FLOW_DESCR_END","/dist/nodes/node-pv.js","49","42","49","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-routes.js:24[30:40];Sink: y;node-routes.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-routes.js:24[30:40];Sink: y;node-routes.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-routes.js:24[30:40];Sink: op[1];node-routes.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-routes.js:24[30:40];Sink: (_a = e ... a : 500;node-routes.js:79[32:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-routes.js:24[30:40];Sink: e_1.message;node-routes.js:79[106:116]::FLOW_DESCR_END","/dist/nodes/node-routes.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();edge-from-s3.js:43[30:40];Sink: y;edge-from-s3.js:37[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();edge-from-s3.js:43[30:40];Sink: y;edge-from-s3.js:37[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();edge-from-s3.js:43[30:40];Sink: op[1];edge-from-s3.js:37[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();edge-from-s3.js:43[30:40];Sink: e_1;edge-from-s3.js:106[35:37]::FLOW_DESCR_END","/dist/shared/edge-from-s3.js","43","30","43","40"

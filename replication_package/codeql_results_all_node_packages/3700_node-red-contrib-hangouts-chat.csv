@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hangouts-chat.js:39[22:24];Sink: roomId;hangouts-chat.js:102[44:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hangouts-chat.js:39[22:24];Sink: 'https: ... ssages';hangouts-chat.js:107[26:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hangouts-chat.js:39[22:24];Sink: JSON.st ...      });hangouts-chat.js:112[21:16]::FLOW_DESCR_END","/hangouts-chat.js","39","22","39","24"

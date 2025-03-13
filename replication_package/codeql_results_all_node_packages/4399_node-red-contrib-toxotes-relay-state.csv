@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;toxotes-relay-state.js:39[42:44];Sink: msg;toxotes-relay-state.js:118[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toxotes-relay-state.js:39[42:44];Sink: error;toxotes-relay-state.js:127[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toxotes-relay-state.js:39[42:44];Sink: msg;toxotes-relay-state.js:141[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toxotes-relay-state.js:39[42:44];Sink: msg;toxotes-relay-state.js:188[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;toxotes-relay-state.js:39[42:44];Sink: msg;toxotes-relay-state.js:204[41:43]::FLOW_DESCR_END","/toxotes-relay-state.js","39","42","39","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;toxotes-relay-state.js:39[51:54];Sink: done;toxotes-relay-state.js:188[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: done;toxotes-relay-state.js:39[51:54];Sink: done;toxotes-relay-state.js:204[46:49]::FLOW_DESCR_END","/toxotes-relay-state.js","39","51","39","54"

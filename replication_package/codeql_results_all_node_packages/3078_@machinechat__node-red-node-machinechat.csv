@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;machinechat-jedi-connector.js:191[26:26];Sink: `proble ... ssage}`;machinechat-jedi-connector.js:192[22:57]::FLOW_DESCR_END","/services/connector/machinechat-jedi-connector.js","191","26","191","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;machinechat-jedi-connector.js:217[32:34];Sink: data;machinechat-jedi-connector.js:197[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-jedi-connector.js:217[32:34];Sink: msg;machinechat-jedi-connector.js:201[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-jedi-connector.js:217[32:34];Sink: value;machinechat-jedi-connector.js:206[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;machinechat-jedi-connector.js:217[32:34];Sink: msg;machinechat-jedi-connector.js:210[18:20]::FLOW_DESCR_END","/services/connector/machinechat-jedi-connector.js","217","32","217","34"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtlpower.js:24[52:55];Sink: ""STDOUT ... .trim();rtlpower.js:26[57:90]::FLOW_DESCR_END","/rtlpower.js","24","52","24","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rtlpower.js:54[52:55];Sink: data.to ... .trim();rtlpower.js:55[67:88]::FLOW_DESCR_END","/rtlpower.js","54","52","54","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;rtlpower.js:62[46:49];Sink: ""ret: "" ... +signal;rtlpower.js:63[54:78]::FLOW_DESCR_END","/rtlpower.js","62","46","62","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;rtlpower.js:62[51:56];Sink: ""ret: "" ... +signal;rtlpower.js:63[54:78]::FLOW_DESCR_END","/rtlpower.js","62","51","62","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rtlpower.js:68[46:48];Sink: words;rtlpower.js:72[28:32]::FLOW_DESCR_END","/rtlpower.js","68","46","68","48"

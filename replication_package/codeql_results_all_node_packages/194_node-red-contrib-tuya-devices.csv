@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tuya_device.js:54[13:15];Sink: `Reciev ... (msg)}`;tuya_device.js:55[16:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tuya_device.js:54[13:15];Sink: msg;tuya_device.js:107[20:22]::FLOW_DESCR_END","/nodes/tuya_device.js","54","13","54","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tuya_manager.js:34[25:27];Sink: `on inp ... ` + err;tuya_manager.js:48[26:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tuya_manager.js:34[25:27];Sink: 'Comman ... g.topic;tuya_manager.js:73[18:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tuya_manager.js:34[25:27];Sink: msg;tuya_manager.js:75[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tuya_manager.js:34[25:27];Sink: err;tuya_manager.js:79[20:22]::FLOW_DESCR_END","/nodes/tuya_manager.js","34","25","34","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: localDevice.deviceId;tuya_project.html:82[24:43];Sink: `tuya_d ... ceId})`;tuya_project.html:83[74:166]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: localDevice.deviceId;tuya_project.html:82[24:43];Sink: `tuya_d ... e.id})`;tuya_project.html:88[76:180]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: localDevice.deviceId;tuya_project.html:82[24:43];Sink: `tuya_d ... e.id})`;tuya_project.html:89[61:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: localDevice.deviceId;tuya_project.html:82[24:43];Sink: `tuya_d ... e.id})`;tuya_project.html:94[75:178]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: localDevice.deviceId;tuya_project.html:82[24:43];Sink: `tuya_d ... e.id})`;tuya_project.html:95[60:148]::FLOW_DESCR_END","/nodes/tuya_project.html","82","24","82","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: localDevice.deviceId;tuya_project.html:83[115:134];Sink: `tuya_d ... ceId})`;tuya_project.html:83[74:166]::FLOW_DESCR_END","/nodes/tuya_project.html","83","115","83","134"

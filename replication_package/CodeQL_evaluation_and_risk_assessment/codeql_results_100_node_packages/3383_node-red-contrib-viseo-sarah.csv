@@ -1,0 +1,2 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-speak.js:12[27:30];Sink: data;node-speak.js:35[19:22]::FLOW_DESCR_END","/win-speak/node-speak.js","12","27","12","30"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-speak.js:31[30:33];Sink: 'stderr: ' + data;node-speak.js:32[21:37]::FLOW_DESCR_END","/win-speak/node-speak.js","31","30","31","33"

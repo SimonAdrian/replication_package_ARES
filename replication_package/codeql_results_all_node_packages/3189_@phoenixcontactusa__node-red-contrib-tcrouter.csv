@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control-output.js:8[39:41];Sink: msg;control-output.js:15[26:28]::FLOW_DESCR_END","/control-output.js","8","39","8","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control-vpn.js:8[39:41];Sink: msg;control-vpn.js:15[26:28]::FLOW_DESCR_END","/control-vpn.js","8","39","8","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-info.js:9[39:41];Sink: msg;get-info.js:19[31:33]::FLOW_DESCR_END","/get-info.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-io.js:9[39:41];Sink: msg;get-io.js:16[26:28]::FLOW_DESCR_END","/get-io.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;receive-sms-ack.js:9[39:41];Sink: msg;receive-sms-ack.js:19[26:28]::FLOW_DESCR_END","/receive-sms-ack.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;receive-sms-check.js:9[39:41];Sink: msg;receive-sms-check.js:19[26:28]::FLOW_DESCR_END","/receive-sms-check.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-email.js:8[39:41];Sink: msg;send-email.js:18[26:28]::FLOW_DESCR_END","/send-email.js","8","39","8","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-sms.js:9[39:41];Sink: msg;send-sms.js:19[26:28]::FLOW_DESCR_END","/send-sms.js","9","39","9","41"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;add-pocket.js:17[38:40];Sink: msg;add-pocket.js:51[19:21]::FLOW_DESCR_END","/add-pocket.js","17","38","17","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... als(id);auth.js:50[23:50];Sink: credentials;auth.js:65[36:46]::FLOW_DESCR_END","/auth.js","50","23","50","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-pocket.js:17[38:40];Sink: msg;get-pocket.js:42[19:21]::FLOW_DESCR_END","/get-pocket.js","17","38","17","40"

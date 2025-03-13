@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nanodmx.js:22[35:37];Sink: msg;nanodmx.js:30[23:25]::FLOW_DESCR_END","/nanodmx.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;nanodmx.js:42[21:26];Sink: ""[info] ... s + "")"";nanodmx_driver.js:17[14:145]::FLOW_DESCR_END","/nanodmx.js","42","21","42","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;nanodmx.js:51[41:49];Sink: ""[info] ... s + "")"";nanodmx_driver.js:17[14:145]::FLOW_DESCR_END","/nanodmx.js","51","41","51","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nanodmx_driver.js:32[32:34];Sink: err;nanodmx_driver.js:33[49:51]::FLOW_DESCR_END","/nanodmx_driver.js","32","32","32","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;nanodmx_driver.js:36[31:34];Sink: data;nanodmx_driver.js:37[49:52]::FLOW_DESCR_END","/nanodmx_driver.js","36","31","36","34"

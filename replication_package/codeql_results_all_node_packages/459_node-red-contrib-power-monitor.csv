@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;power-monitor.js:82[35:37];Sink: outobj;power-monitor.js:169[27:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;power-monitor.js:82[35:37];Sink: outobj;power-monitor.js:177[27:32]::FLOW_DESCR_END","/power-monitor/power-monitor.js","82","35","82","37"

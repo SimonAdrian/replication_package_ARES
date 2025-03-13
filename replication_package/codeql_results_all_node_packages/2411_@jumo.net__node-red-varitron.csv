@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;browseProcessValues.js:12[42:44];Sink: msg;browseProcessValues.js:16[27:29]::FLOW_DESCR_END","/src/browseProcessValues.js","12","42","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;readProcessValues.js:37[42:44];Sink: msg;readProcessValues.js:46[27:29]::FLOW_DESCR_END","/src/readProcessValues.js","37","42","37","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;writeProcessValues.js:81[42:44];Sink: msg;writeProcessValues.js:53[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;writeProcessValues.js:81[42:44];Sink: msg;writeProcessValues.js:75[27:29]::FLOW_DESCR_END","/src/writeProcessValues.js","81","42","81","44"

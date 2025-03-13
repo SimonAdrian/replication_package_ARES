@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: line;aprsLib.js:373[25:28];Sink: error;aprsTX.js:117[24:28]::FLOW_DESCR_END","/aprs/aprsLib.js","373","25","373","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ap ... ls.user;aprsTX.js:33[17:48];Sink: error;aprsTX.js:121[20:24]::FLOW_DESCR_END","/aprs/aprsTX.js","33","17","33","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aprsTX.js:44[23:25];Sink: msg;aprsTX.js:117[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aprsTX.js:44[23:25];Sink: error;aprsTX.js:121[20:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aprsTX.js:44[23:25];Sink: msg;aprsTX.js:121[27:29]::FLOW_DESCR_END","/aprs/aprsTX.js","44","23","44","25"

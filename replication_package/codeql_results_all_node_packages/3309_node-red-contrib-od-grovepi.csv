@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:197[31:33];Sink: value;GrovePiWrapper.js:72[48:52]::FLOW_DESCR_END","/grovepi.js","197","31","197","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:217[31:33];Sink: value;GrovePiWrapper.js:63[44:48]::FLOW_DESCR_END","/grovepi.js","217","31","217","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;grovepi.js:239[31:33];Sink: color;GrovePiWrapper.js:84[41:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:239[31:33];Sink: rgbColor[0];GrovePiWrapper.js:108[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:239[31:33];Sink: rgbColor[1];GrovePiWrapper.js:109[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;grovepi.js:239[31:33];Sink: rgbColor[2];GrovePiWrapper.js:110[33:43]::FLOW_DESCR_END","/grovepi.js","239","31","239","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;metadata.js:8[31:33];Sink: ""Es wur ... .length;metadata.js:21[11:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;metadata.js:8[31:33];Sink: msg;metadata.js:25[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;metadata.js:8[31:33];Sink: msg;metadata.js:34[17:19]::FLOW_DESCR_END","/metadata.js","8","31","8","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;rmq.js:40[28:30];Sink: err;rmq.js:53[24:26]::FLOW_DESCR_END","/rmq.js","40","28","40","30"

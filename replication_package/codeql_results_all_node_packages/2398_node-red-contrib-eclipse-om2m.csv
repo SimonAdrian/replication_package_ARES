@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-Application.js:12[29:31];Sink: msg;oM2M-Application.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Application.js:12[29:31];Sink: msg;oM2M-Application.js:39[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Application.js:12[29:31];Sink: msg;oM2M-Application.js:42[48:50]::FLOW_DESCR_END","/oM2M-Application.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-Data-Container.js:9[29:31];Sink: msg;oM2M-Data-Container.js:28[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Data-Container.js:9[29:31];Sink: msg;oM2M-Data-Container.js:30[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Data-Container.js:9[29:31];Sink: msg;oM2M-Data-Container.js:33[48:50]::FLOW_DESCR_END","/oM2M-Data-Container.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-Data-ContentInstance.js:7[35:37];Sink: msg;oM2M-Data-ContentInstance.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Data-ContentInstance.js:7[35:37];Sink: msg;oM2M-Data-ContentInstance.js:39[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Data-ContentInstance.js:7[35:37];Sink: msg;oM2M-Data-ContentInstance.js:42[48:50]::FLOW_DESCR_END","/oM2M-Data-ContentInstance.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-Descriptor-Container.js:6[29:31];Sink: msg;oM2M-Descriptor-Container.js:19[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Descriptor-Container.js:6[29:31];Sink: msg;oM2M-Descriptor-Container.js:21[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Descriptor-Container.js:6[29:31];Sink: msg;oM2M-Descriptor-Container.js:24[48:50]::FLOW_DESCR_END","/oM2M-Descriptor-Container.js","6","29","6","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-Descriptor-ContentInstance.js:8[35:37];Sink: msg;oM2M-Descriptor-ContentInstance.js:24[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Descriptor-ContentInstance.js:8[35:37];Sink: msg;oM2M-Descriptor-ContentInstance.js:26[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Descriptor-ContentInstance.js:8[35:37];Sink: msg;oM2M-Descriptor-ContentInstance.js:29[48:50]::FLOW_DESCR_END","/oM2M-Descriptor-ContentInstance.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-ONE-Application.js:13[29:31];Sink: msg;oM2M-ONE-Application.js:41[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Application.js:13[29:31];Sink: msg;oM2M-ONE-Application.js:43[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Application.js:13[29:31];Sink: msg;oM2M-ONE-Application.js:46[48:50]::FLOW_DESCR_END","/oM2M-ONE-Application.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-ONE-Data-Container.js:9[29:31];Sink: msg;oM2M-ONE-Data-Container.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Data-Container.js:9[29:31];Sink: msg;oM2M-ONE-Data-Container.js:37[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Data-Container.js:9[29:31];Sink: msg;oM2M-ONE-Data-Container.js:40[48:50]::FLOW_DESCR_END","/oM2M-ONE-Data-Container.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-ONE-Data-ContentInstance.js:7[35:37];Sink: msg;oM2M-ONE-Data-ContentInstance.js:65[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Data-ContentInstance.js:7[35:37];Sink: msg;oM2M-ONE-Data-ContentInstance.js:67[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Data-ContentInstance.js:7[35:37];Sink: msg;oM2M-ONE-Data-ContentInstance.js:70[48:50]::FLOW_DESCR_END","/oM2M-ONE-Data-ContentInstance.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-ONE-Descriptor-Container.js:6[29:31];Sink: msg;oM2M-ONE-Descriptor-Container.js:25[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Descriptor-Container.js:6[29:31];Sink: msg;oM2M-ONE-Descriptor-Container.js:27[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Descriptor-Container.js:6[29:31];Sink: msg;oM2M-ONE-Descriptor-Container.js:30[48:50]::FLOW_DESCR_END","/oM2M-ONE-Descriptor-Container.js","6","29","6","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-ONE-Descriptor-ContentInstance.js:9[35:37];Sink: msg;oM2M-ONE-Descriptor-ContentInstance.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Descriptor-ContentInstance.js:9[35:37];Sink: msg;oM2M-ONE-Descriptor-ContentInstance.js:37[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Descriptor-ContentInstance.js:9[35:37];Sink: msg;oM2M-ONE-Descriptor-ContentInstance.js:40[48:50]::FLOW_DESCR_END","/oM2M-ONE-Descriptor-ContentInstance.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-ONE-Subscription.js:12[29:31];Sink: msg;oM2M-ONE-Subscription.js:47[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Subscription.js:12[29:31];Sink: msg;oM2M-ONE-Subscription.js:49[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-ONE-Subscription.js:12[29:31];Sink: msg;oM2M-ONE-Subscription.js:52[48:50]::FLOW_DESCR_END","/oM2M-ONE-Subscription.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;oM2M-Subscription.js:12[29:31];Sink: msg;oM2M-Subscription.js:36[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Subscription.js:12[29:31];Sink: msg;oM2M-Subscription.js:38[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;oM2M-Subscription.js:12[29:31];Sink: msg;oM2M-Subscription.js:41[48:50]::FLOW_DESCR_END","/oM2M-Subscription.js","12","29","12","31"

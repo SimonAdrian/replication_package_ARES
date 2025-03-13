@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg.payload;chatter.js:18[24:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg.ParentId;chatter.js:21[30:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg.RelatedRecordId;chatter.js:28[37:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg.title;chatter.js:32[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg;action_helper.js:9[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg;action_helper.js:10[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatter.js:60[23:25];Sink: msg;action_helper.js:55[19:21]::FLOW_DESCR_END","/chatter.js","60","23","60","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dml.js:77[23:25];Sink: msg;action_helper.js:9[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dml.js:77[23:25];Sink: msg;action_helper.js:10[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dml.js:77[23:25];Sink: msg;action_helper.js:55[19:21]::FLOW_DESCR_END","/dml.js","77","23","77","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obm.js:7[23:25];Sink: msg;obm.js:10[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obm.js:7[23:25];Sink: [returnMsg, httpMsg];obm.js:54[23:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;obm.js:7[23:25];Sink: msg;obm.js:58[29:31]::FLOW_DESCR_END","/obm.js","7","23","7","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soql.js:39[23:25];Sink: msg;action_helper.js:9[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soql.js:39[23:25];Sink: msg;action_helper.js:10[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soql.js:39[23:25];Sink: msg;action_helper.js:55[19:21]::FLOW_DESCR_END","/soql.js","39","23","39","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sosl.js:37[23:25];Sink: msg;action_helper.js:9[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sosl.js:37[23:25];Sink: msg;action_helper.js:10[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sosl.js:37[23:25];Sink: msg;action_helper.js:55[19:21]::FLOW_DESCR_END","/sosl.js","37","23","37","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: err;action_helper.js:9[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: msg;action_helper.js:9[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: err;action_helper.js:10[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: msg;action_helper.js:10[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: err.message;streaming.js:32[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: err;streaming.js:32[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: err;streaming.js:35[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;streaming.js:87[25:27];Sink: err.message;streaming.js:35[26:36]::FLOW_DESCR_END","/streaming.js","87","25","87","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;streaming.js:144[23:25];Sink: msg;action_helper.js:9[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streaming.js:144[23:25];Sink: msg;action_helper.js:10[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streaming.js:144[23:25];Sink: msg;action_helper.js:55[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;streaming.js:144[23:25];Sink: node.su ... Message;streaming.js:85[14:37]::FLOW_DESCR_END","/streaming.js","144","23","144","25"

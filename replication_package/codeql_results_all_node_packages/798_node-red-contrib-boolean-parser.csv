@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;boolean-parser.js:139[35:37];Sink: msg;boolean-parser.js:153[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;boolean-parser.js:139[35:37];Sink: [[msg], [], []];boolean-parser.js:157[39:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;boolean-parser.js:139[35:37];Sink: [[], [msg], []];boolean-parser.js:160[39:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;boolean-parser.js:139[35:37];Sink: [[], [], [msg]];boolean-parser.js:163[39:53]::FLOW_DESCR_END","/boolean-parser.js","139","35","139","37"

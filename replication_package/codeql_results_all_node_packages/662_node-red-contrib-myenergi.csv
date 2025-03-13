@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getEddi.js:10[42:44];Sink: msg;getEddi.js:25[18:20]::FLOW_DESCR_END","/getEddi.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getEddiAll.js:10[42:44];Sink: msg;getEddiAll.js:17[18:20]::FLOW_DESCR_END","/getEddiAll.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getHarvi.js:10[42:44];Sink: msg;getHarvi.js:25[18:20]::FLOW_DESCR_END","/getHarvi.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getHarviAll.js:10[42:44];Sink: msg;getHarviAll.js:17[18:20]::FLOW_DESCR_END","/getHarviAll.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getZappi.js:10[42:44];Sink: msg;getZappi.js:25[18:20]::FLOW_DESCR_END","/getZappi.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getZappiAll.js:10[42:44];Sink: msg;getZappiAll.js:17[18:20]::FLOW_DESCR_END","/getZappiAll.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myenergi.js:10[42:44];Sink: msg;myenergi.js:18[22:24]::FLOW_DESCR_END","/myenergi.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setZappiBoostMode.js:9[33:35];Sink: msg;setZappiBoostMode.js:27[41:43]::FLOW_DESCR_END","/setZappiBoostMode.js","9","33","9","35"

@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:51[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:57[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:89[25:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:95[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:138[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:145[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:165[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:184[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:201[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:215[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [msg,null];date-converter.js:253[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:282[23:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;date-converter.js:38[32:34];Sink: [null,msg];date-converter.js:287[19:28]::FLOW_DESCR_END","/date-converter/date-converter.js","38","32","38","34"

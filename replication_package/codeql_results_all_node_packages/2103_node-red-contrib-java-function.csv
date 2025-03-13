@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;javafunction.js:102[49:52];Sink: ""close: ...  signal;javafunction.js:103[37:68]::FLOW_DESCR_END","/javafunction.js","102","49","102","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;javafunction.js:102[55:60];Sink: ""close: ...  signal;javafunction.js:103[37:68]::FLOW_DESCR_END","/javafunction.js","102","55","102","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;javafunction.js:105[49:52];Sink: ""error: "" + code;javafunction.js:106[36:51]::FLOW_DESCR_END","/javafunction.js","105","49","105","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;javafunction.js:113[36:38];Sink: JSON.st ...  + ""\n"";javafunction.js:116[35:60]::FLOW_DESCR_END","/javafunction.js","113","36","113","38"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;what3words.js:16[35:37];Sink: msg;what3words.js:25[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;what3words.js:16[35:37];Sink: msg;what3words.js:38[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;what3words.js:16[35:37];Sink: msg;what3words.js:51[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;what3words.js:16[35:37];Sink: msg;what3words.js:64[43:45]::FLOW_DESCR_END","/what3words.js","16","35","16","37"

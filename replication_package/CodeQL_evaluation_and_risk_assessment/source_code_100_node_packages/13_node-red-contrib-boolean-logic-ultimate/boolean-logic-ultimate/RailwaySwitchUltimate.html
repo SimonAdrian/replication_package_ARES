@@ -1,0 +1,125 @@
+<script type="text/javascript">
+	RED.nodes.registerType('RailwaySwitchUltimate', {
+		category: 'boolean logic ultimate',
+		color: '#ff8080',
+		defaults: {
+			name: { value: "Railway Switch" },
+			triggertopic: { value: "switcher" },
+			initializewith: { value: "1" },
+			payloadPropName: { value: "payload", required: false },
+			translatorConfig: { type: "translator-config", required: false }
+		},
+		inputs: 1,
+		outputs: 5,
+		outputLabels: function (i) {
+			return "PIN " + i;
+		},
+		icon: "font-awesome/fa-train",
+		label:
+			function () {
+				return (this.name || "Switch") + " (" + this.triggertopic + ")";
+			},
+		paletteLabel: function () {
+			return "RailwaySwitchUltimate";
+		},
+		oneditprepare: function () {
+			if ($("#node-input-payloadPropName").val() === "") $("#node-input-payloadPropName").val("payload");
+			$("#node-input-payloadPropName").typedInput({ default: 'msg', types: ['msg'] });
+		}
+	});
+</script>
+
+<script type="text/html" data-template-name="RailwaySwitchUltimate">
+	<div class="form-row">
+		<b>Railway Switch Ultimate</b>&nbsp&nbsp&nbsp&nbsp<span style="color:red"><i class="fa fa-question-circle"></i>&nbsp<a target="_blank" href="https://github.com/Supergiovane/node-red-contrib-boolean-logic-ultimate"><u>Help online</u></a></span>
+		&nbsp&nbsp&nbsp<span style="color:red"><i class="fa fa-youtube-play"></i>&nbsp<a target="_blank" href="https://youtu.be/iPVyiwDIUMg"><u>Youtube Sample</u></a></span>
+		<br/>
+		<br/>        
+	</div>
+	<div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+	</div>
+	
+	<div class="form-row">
+        <label for="node-input-triggertopic"><i class="icon-tag"></i> Switcher topic</label>
+		<input type="text" id="node-input-triggertopic" placeholder="Name">
+    </div>
+	<div class="form-row">
+        <label for="node-input-payloadPropName"><i class="fa fa-ellipsis-h"></i> With Input</label>
+		<input type="text" id="node-input-payloadPropName">
+    </div>
+	<div class="form-row">
+        <label style="width:160px" for="node-input-initializewith"><i class="fa fa-home"></i> At node-red start</label>
+        <select type="text" id="node-input-initializewith" placeholder="" style="width:250px">
+			<option value="0">PIN 0</option>
+			<option value="1">PIN 1</option>			
+			<option value="2">PIN 2</option>
+			<option value="3">PIN 3</option>
+			<option value="4">PIN 4</option>
+		</select>	
+	</div>
+	<div class="form-row">
+		<label for="node-input-translatorConfig">
+			<font color="green" size="4px"><i class="fa fa-sign-in" aria-hidden="true"></i></font> Translator
+		</label>
+		<input type="text" id="node-input-translatorConfig" />
+	</div>
+</script>
+
+<script type="text/markdown" data-help-name="RailwaySwitchUltimate">
+<p>The railway switcher, redirect the incoming messages to one ot the avaiable output pins, just like a railway jinction switch.</p>
+
+|Property|Description|
+|--|--|
+| Switcher topic | Whenever the node receives a payload from this **topic**, it redirects the input messages to a choosen output PIN. |
+| With Input | It's the msg property to be evaluated. *By default, it is "payload", but you can also specify other properties, for example "payload.value"* |
+| Translator | Translates the incoming <code>payload</code> value. This allows the compatibility with, for example, **HomeAssistant** nodes. |
+
+### Inputs
+
+The *Switcher topic* controls where the railway switch must be switched, between the output PINs.  
+Once an output PIN has been choosen, all messages passing through the node will be deviated to te choosen output PIN.
+
+: topic (string|number) : this is the topic of the switcher message.
+: payload (number|boolean) : this is the ouput PIN selector, base 0 (0 is the first output PIN). 
+
+### JSON switcher message
+
+Take the example where you choosen such properties:  
+**Switcher topic**: "switcher"  
+**With Input**: "payload"  
+this JSON input message redirects all input messages to the first PIN  
+
+```json
+{
+	topic:"switcher",
+	payload:0
+}
+```
+this JSON input message redirects all input messages to the second PIN  
+ 
+```json
+{
+	topic:"switcher",
+	payload:1
+}
+```
+
+this JSON input message redirects all input messages to the third PIN, and so on... 
+ 
+```json
+{
+	topic:"switcher",
+	payload:2
+}
+```
+
+
+<br/>
+
+[SEE THE README FOR FULL HELP AND SAMPLES](https://github.com/Supergiovane/node-red-contrib-boolean-logic-ultimate)
+
+[Find it useful?](https://www.paypal.me/techtoday)
+
+</script>

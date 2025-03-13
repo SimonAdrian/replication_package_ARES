@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: util.re ...  {}\n  );settings.js:48[22:3];Sink: sectionContent;settings.js:83[11:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: util.re ...  {}\n  );settings.js:48[22:3];Sink: sectionContent;settings.js:97[9:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: util.re ...  {}\n  );settings.js:48[22:3];Sink: content;util.js:118[26:32]::FLOW_DESCR_END","/localfilesystem/settings.js","48","22","52","3"

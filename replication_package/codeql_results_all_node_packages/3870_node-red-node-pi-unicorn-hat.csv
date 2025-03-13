@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unicorn.js:86[32:34];Sink: ""B""+s[1]+""\n"";unicorn.js:106[48:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;unicorn.js:86[32:34];Sink: ""R""+s[1]+""\n"";unicorn.js:110[48:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;unicorn.js:86[32:34];Sink: 'P'+msg.payload+'\n';unicorn.js:127[48:67]::FLOW_DESCR_END","/unicorn.js","86","32","86","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;unicorn.js:223[52:55];Sink: ""out: ""+data+"" :"";unicorn.js:224[54:70]::FLOW_DESCR_END","/unicorn.js","223","52","223","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;unicorn.js:227[52:55];Sink: ""err: ""+data+"" :"";unicorn.js:228[54:70]::FLOW_DESCR_END","/unicorn.js","227","52","227","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;unicorn.js:241[46:48];Sink: RED._("" ... r.errno;unicorn.js:244[35:81]::FLOW_DESCR_END","/unicorn.js","241","46","241","48"

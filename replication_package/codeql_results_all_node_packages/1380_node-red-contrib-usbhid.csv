@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;usbhid.js:55[31:33];Sink: data;usbhid.js:60[20:23]::FLOW_DESCR_END","/usbhid/usbhid.js","55","31","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;usbhid.js:86[31:33];Sink: msg;usbhid.js:90[17:19]::FLOW_DESCR_END","/usbhid/usbhid.js","86","31","86","33"

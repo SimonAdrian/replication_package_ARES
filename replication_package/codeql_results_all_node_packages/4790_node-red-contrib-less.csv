@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;less-file.js:23[32:34];Sink: msg;less-file.js:61[25:27]::FLOW_DESCR_END","/less/less-file.js","23","32","23","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;less-string.js:10[32:34];Sink: msg;less-string.js:28[21:23]::FLOW_DESCR_END","/less/less-string.js","10","32","10","34"

@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ConnectorConfig.js:56[31:33];Sink: obj;ConnectorConfig.js:61[49:51]::FLOW_DESCR_END","/ConnectorConfig.js","56","31","56","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;ConnectorConfig.js:56[36:40];Sink: rinfo;ConnectorConfig.js:61[54:58]::FLOW_DESCR_END","/ConnectorConfig.js","56","36","56","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ConnectorConfig.js:77[45:48];Sink: 'Logged ... + '***';ConnectorConfig.js:92[33:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:77[45:48];Sink: 'Login  ... urnCode;ConnectorConfig.js:96[33:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:77[45:48];Sink: 'Not Au ... urnCode;ConnectorConfig.js:132[31:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:77[45:48];Sink: 'Token  ... urnCode;ConnectorConfig.js:135[31:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:77[45:48];Sink: 'Not Au ... urnCode;ConnectorConfig.js:200[35:95]::FLOW_DESCR_END","/ConnectorConfig.js","77","45","77","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ConnectorConfig.js:119[41:44];Sink: 'Login  ... urnCode;ConnectorConfig.js:96[33:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:119[41:44];Sink: 'Not Au ... urnCode;ConnectorConfig.js:132[31:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:119[41:44];Sink: 'Token  ... urnCode;ConnectorConfig.js:135[31:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:119[41:44];Sink: 'Not Au ... urnCode;ConnectorConfig.js:200[35:95]::FLOW_DESCR_END","/ConnectorConfig.js","119","41","119","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;ConnectorConfig.js:178[45:48];Sink: 'Login  ... urnCode;ConnectorConfig.js:96[33:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:178[45:48];Sink: 'Not Au ... urnCode;ConnectorConfig.js:132[31:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:178[45:48];Sink: 'Token  ... urnCode;ConnectorConfig.js:135[31:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;ConnectorConfig.js:178[45:48];Sink: 'Not Au ... urnCode;ConnectorConfig.js:200[35:95]::FLOW_DESCR_END","/ConnectorConfig.js","178","45","178","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ControlBlind.js:64[36:38];Sink: data;ControlBlind.js:14[28:31]::FLOW_DESCR_END","/ControlBlind.js","64","36","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ControlBlind.js:134[38:40];Sink: obj;ControlBlind.js:141[27:29]::FLOW_DESCR_END","/ControlBlind.js","134","38","134","40"

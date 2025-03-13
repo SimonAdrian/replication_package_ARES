@@ -1,0 +1,81 @@
+<script type="text/javascript">
+    RED.nodes.registerType('unifi-web-socket',
+        {
+            category: 'UniFi',
+            defaults:
+                {
+                    name: {
+                        value: '',
+                        required: false
+                    },
+                    endpoint: {
+                        value: '',
+                        required: false
+                    },
+                    accessControllerNodeId: {
+                        value: '',
+                        type: 'unifi-access-controller',
+                        required: true
+                    },
+                    reconnectTimeout: {
+                        value: 30000,
+                        required: false,
+                        validate: function (value) {
+                            return RED.validators.number() || !value
+                        }
+                    }
+                },
+            inputs: 1,
+            outputs: 2,
+            outputLabels: function(index) {
+                if (index === 0) {
+                    return 'data'
+                }
+
+                if (index === 1) {
+                    return 'error'
+                }
+
+                return ''
+            },
+            icon: 'unifi.png',
+            color: '#159eda',
+            label: function () {
+                return this.name || "unifi-web-socket";
+            },
+            labelStyle: function () {
+                return this.name ? 'node_label_italic' : ''
+            },
+            oneditprepare: function () {
+                $("#node-input-reconnectTimeout").typedInput({
+                    type: "num",
+                    types: ["num"]
+                })
+            }
+        });
+</script>
+
+<script data-template-name="unifi-web-socket" type="text/html">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-endpoint"><i class="fa fa-tag"></i> Endpoint</label>
+        <input type="text" id="node-input-endpoint" placeholder="Endpoint url without host and port">
+    </div>
+    <div class="form-row">
+        <label for="node-input-accessControllerNodeId"><i class="fa fa-globe"></i> Controller</label>
+        <select id="node-input-accessControllerNodeId">
+            <option value="">Choose...</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-reconnectTimeout"><i class="fa fa-clock-o"></i> Reconnect Timeout</label>
+        <input type="number" id="node-input-reconnectTimeout" placeholder="Milliseconds">
+    </div>
+</script>
+
+<script data-help-name="unifi-web-socket" type="text/html">
+    <p>WebSocket Client for UniFi server</p>
+</script>

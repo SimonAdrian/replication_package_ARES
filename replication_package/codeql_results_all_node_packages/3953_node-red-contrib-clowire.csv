@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;app.js:41[36:36];Sink: e;app.js:42[25:25]::FLOW_DESCR_END","/app.js","41","36","41","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tcp.js:75[43:46];Sink: data;tcp.js:77[34:37]::FLOW_DESCR_END","/ha/tcp.js","75","43","75","46"

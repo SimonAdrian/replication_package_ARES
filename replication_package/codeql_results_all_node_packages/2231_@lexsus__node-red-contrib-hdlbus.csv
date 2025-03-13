@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlbus.js:160[27:29];Sink: msg.target;hdlbus.js:165[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlbus.js:160[27:29];Sink: msg.code;hdlbus.js:165[39:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlbus.js:160[27:29];Sink: msg.payload;hdlbus.js:165[49:59]::FLOW_DESCR_END","/hdlbus/hdlbus.js","160","27","160","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlbus.js:223[27:29];Sink: msg.payload.address;hdlbus.js:237[27:45]::FLOW_DESCR_END","/hdlbus/hdlbus.js","223","27","223","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlbus.js:254[27:29];Sink: msg;hdlbus.js:269[23:25]::FLOW_DESCR_END","/hdlbus/hdlbus.js","254","27","254","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlbus.js:310[27:29];Sink: msg.payload.address;hdlbus.js:325[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlbus.js:310[27:29];Sink: msg.payload;hdlbus.js:325[56:66]::FLOW_DESCR_END","/hdlbus/hdlbus.js","310","27","310","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdlbus.js:415[27:29];Sink: msg.payload.address;hdlbus.js:425[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdlbus.js:415[27:29];Sink: msg.payload;hdlbus.js:425[56:66]::FLOW_DESCR_END","/hdlbus/hdlbus.js","415","27","415","29"

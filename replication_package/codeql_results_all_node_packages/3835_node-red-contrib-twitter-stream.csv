@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: disconnectMessage;twitter.js:103[60:76];Sink: 'stream ... null });twitter.js:104[34:131]::FLOW_DESCR_END","/twitter/twitter.js","103","60","103","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: util.in ... null });twitter.js:115[58:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: tweet.u ... et.text;twitter.js:115[125:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: 'skip:  ... .id_str;twitter.js:125[38:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: 'skip:  ... .id_str;twitter.js:131[38:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: 'skip:  ... .id_str;twitter.js:137[38:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: 'skip:  ... .id_str;twitter.js:143[38:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: tweet;twitter.js:113[54:58];Sink: tweet.e ... oad_url;twitter.js:197[26:76]::FLOW_DESCR_END","/twitter/twitter.js","113","54","113","58"

@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;slackpost.js:117[37:41];Sink: 'Error: ' + error;slackpost.js:119[24:40]::FLOW_DESCR_END","/slackpost.js","117","37","117","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:167[36:38];Sink: JSON.stringify(msg);slackpost.js:168[40:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:167[36:38];Sink: ""Gettin ... ssage."";slackpost.js:181[44:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:167[36:38];Sink: ""Messag ... fy(msg);slackpost.js:191[28:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:167[36:38];Sink: msg.payload;slackpost.js:202[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:167[36:38];Sink: msg;slackpost.js:206[30:32]::FLOW_DESCR_END","/slackpost.js","167","36","167","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;slackpost.js:215[37:41];Sink: 'Error  ... (error);slackpost.js:217[24:73]::FLOW_DESCR_END","/slackpost.js","215","37","215","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;slackpost.js:236[25:34];Sink: JSON.stringify(data);slackpost.js:254[40:59]::FLOW_DESCR_END","/slackpost.js","236","25","236","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;slackpost.js:241[36:38];Sink: JSON.stringify(data);slackpost.js:254[40:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;slackpost.js:241[36:38];Sink: msg;slackpost.js:264[30:32]::FLOW_DESCR_END","/slackpost.js","241","36","241","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;slackpost.js:243[28:40];Sink: JSON.stringify(data);slackpost.js:254[40:59]::FLOW_DESCR_END","/slackpost.js","243","28","243","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.username;slackpost.js:243[45:56];Sink: JSON.stringify(data);slackpost.js:254[40:59]::FLOW_DESCR_END","/slackpost.js","243","45","243","56"

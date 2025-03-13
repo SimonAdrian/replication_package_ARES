@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cert_grabber.js:32[35:37];Sink: msg;cert_grabber.js:109[31:33]::FLOW_DESCR_END","/cert_grabber.js","32","35","32","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;cert_grabber.js:132[41:45];Sink: ""Cannot ... + error;cert_grabber.js:133[28:74]::FLOW_DESCR_END","/cert_grabber.js","132","41","132","45"

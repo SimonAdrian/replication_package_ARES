@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;storflyiotdatapipe.js:36[33:37];Sink: payload;storflyiotdatapipe.js:150[19:25]::FLOW_DESCR_END","/storflyiotdatapipe.js","36","33","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;storflyiotdatapipe.js:80[95:105];Sink: payload;storflyiotdatapipe.js:150[19:25]::FLOW_DESCR_END","/storflyiotdatapipe.js","80","95","80","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;storflyiotdatapipe.js:84[32:34];Sink: msg;storflyiotdatapipe.js:132[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storflyiotdatapipe.js:84[32:34];Sink: msg;storflyiotdatapipe.js:145[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storflyiotdatapipe.js:84[32:34];Sink: payload;storflyiotdatapipe.js:150[19:25]::FLOW_DESCR_END","/storflyiotdatapipe.js","84","32","84","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;storflyiotdatapipe.js:142[24:26];Sink: payload;storflyiotdatapipe.js:150[19:25]::FLOW_DESCR_END","/storflyiotdatapipe.js","142","24","142","26"

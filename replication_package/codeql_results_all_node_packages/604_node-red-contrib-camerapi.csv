@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;camerapi.js:61[29:31];Sink: cl;camerapi.js:350[41:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camerapi.js:61[29:31];Sink: ""Camera ... ccess!"";camerapi.js:387[21:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camerapi.js:61[29:31];Sink: ""Camera ... ccess!"";camerapi.js:391[19:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camerapi.js:61[29:31];Sink: msg;camerapi.js:396[15:17]::FLOW_DESCR_END","/camerapi.js","61","29","61","31"

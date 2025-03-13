@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;hdl.js:44[57:67];Sink: 'alread ... e + ']';hdl.js:44[15:121]::FLOW_DESCR_END","/hdl.js","44","57","44","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;hdl.js:44[77:87];Sink: 'alread ... e + ']';hdl.js:44[15:121]::FLOW_DESCR_END","/hdl.js","44","77","44","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;hdl.js:49[48:58];Sink: 'connec ... e + ']';hdl.js:49[13:112]::FLOW_DESCR_END","/hdl.js","49","48","49","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;hdl.js:49[68:78];Sink: 'connec ... e + ']';hdl.js:49[13:112]::FLOW_DESCR_END","/hdl.js","49","68","49","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;hdl.js:65[53:63];Sink: 'discon ... e + ']';hdl.js:65[13:117]::FLOW_DESCR_END","/hdl.js","65","53","65","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;hdl.js:65[73:83];Sink: 'discon ... e + ']';hdl.js:65[13:117]::FLOW_DESCR_END","/hdl.js","65","73","65","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hdl.js:84[31:33];Sink: 'hdlout ... ) + ']';hdl.js:85[13:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdl.js:84[31:33];Sink: 'hdlBus ... ) + ']';hdl.js:121[13:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdl.js:84[31:33];Sink: ""send:  ...  data});hdl.js:127[19:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdl.js:84[31:33];Sink: target;hdl.js:128[29:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdl.js:84[31:33];Sink: code;hdl.js:128[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hdl.js:84[31:33];Sink: data;hdl.js:128[43:46]::FLOW_DESCR_END","/hdl.js","84","31","84","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: command;hdl.js:170[36:42];Sink: 'hdl co ... r + ']';hdl.js:172[13:233]::FLOW_DESCR_END","/hdl.js","170","36","170","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: command;hdl.js:180[38:44];Sink: 'hdl br ... r + ']';hdl.js:182[13:235]::FLOW_DESCR_END","/hdl.js","180","38","180","44"

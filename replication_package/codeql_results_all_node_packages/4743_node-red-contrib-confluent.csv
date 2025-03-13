@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;confluent.js:64[53:55];Sink: err;confluent.js:66[43:45]::FLOW_DESCR_END","/confluent/confluent.js","64","53","64","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;confluent.js:185[39:41];Sink: topic;confluent.js:205[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;confluent.js:185[39:41];Sink: ""[confl ... "" + err;confluent.js:207[34:101]::FLOW_DESCR_END","/confluent/confluent.js","185","39","185","41"

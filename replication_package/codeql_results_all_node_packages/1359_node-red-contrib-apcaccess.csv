@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;apcconfig.js:11[21:26];Sink: node.host;apcconfig.js:20[31:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;apcconfig.js:11[21:26];Sink: 'Connec ... de.port;apcconfig.js:29[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;apcconfig.js:11[21:26];Sink: 'Discon ... de.port;apcconfig.js:48[26:69]::FLOW_DESCR_END","/apcconfig.js","11","21","11","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;apcconfig.js:12[21:26];Sink: node.port;apcconfig.js:20[42:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;apcconfig.js:12[21:26];Sink: 'Connec ... de.port;apcconfig.js:29[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;apcconfig.js:12[21:26];Sink: 'Discon ... de.port;apcconfig.js:48[26:69]::FLOW_DESCR_END","/apcconfig.js","12","21","12","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;apcconfig.js:29[36:44];Sink: 'Connec ... de.port;apcconfig.js:29[20:58]::FLOW_DESCR_END","/apcconfig.js","29","36","29","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;apcconfig.js:29[50:58];Sink: 'Connec ... de.port;apcconfig.js:29[20:58]::FLOW_DESCR_END","/apcconfig.js","29","50","29","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;apcconfig.js:48[47:55];Sink: 'Discon ... de.port;apcconfig.js:48[26:69]::FLOW_DESCR_END","/apcconfig.js","48","47","48","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;apcconfig.js:48[61:69];Sink: 'Discon ... de.port;apcconfig.js:48[26:69]::FLOW_DESCR_END","/apcconfig.js","48","61","48","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;apcrequest.js:18[43:48];Sink: status;apcrequest.js:19[23:28]::FLOW_DESCR_END","/apcrequest.js","18","43","18","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;apcrequest.js:22[35:37];Sink: msg;apcrequest.js:29[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apcrequest.js:22[35:37];Sink: msg;apcrequest.js:36[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;apcrequest.js:22[35:37];Sink: msg;apcrequest.js:43[31:33]::FLOW_DESCR_END","/apcrequest.js","22","35","22","37"

@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... server);read.js:23[29:62];Sink: username;read.js:27[51:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... server);read.js:23[29:62];Sink: password;read.js:27[61:68]::FLOW_DESCR_END","/dist/nodes/read.js","23","29","23","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.username;read.js:24[24:43];Sink: username;read.js:27[51:58]::FLOW_DESCR_END","/dist/nodes/read.js","24","24","24","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;read.js:25[24:43];Sink: password;read.js:27[61:68]::FLOW_DESCR_END","/dist/nodes/read.js","25","24","25","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read.js:28[37:39];Sink: msg;read.js:38[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read.js:28[37:39];Sink: msg;read.js:44[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;read.js:28[37:39];Sink: msg;read.js:51[35:37]::FLOW_DESCR_END","/dist/nodes/read.js","28","37","28","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... server);signals.js:26[29:62];Sink: userName;signals.js:52[60:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... server);signals.js:26[29:62];Sink: password;signals.js:52[70:77]::FLOW_DESCR_END","/dist/nodes/signals.js","26","29","26","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.username;signals.js:27[26:45];Sink: userName;signals.js:52[60:67]::FLOW_DESCR_END","/dist/nodes/signals.js","27","26","27","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;signals.js:28[26:45];Sink: password;signals.js:52[70:77]::FLOW_DESCR_END","/dist/nodes/signals.js","28","26","28","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.server.host;signals.js:36[17:32];Sink: uri;signals.js:52[41:43]::FLOW_DESCR_END","/dist/nodes/signals.js","36","17","36","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);signals.js:66[27:65];Sink: username;signals.js:84[57:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ams.id);signals.js:66[27:65];Sink: password;signals.js:84[67:74]::FLOW_DESCR_END","/dist/nodes/signals.js","66","27","66","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.username;signals.js:72[26:45];Sink: username;signals.js:84[57:64]::FLOW_DESCR_END","/dist/nodes/signals.js","72","26","72","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;signals.js:73[26:45];Sink: password;signals.js:84[67:74]::FLOW_DESCR_END","/dist/nodes/signals.js","73","26","73","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server.host;signals.js:75[22:32];Sink: host;signals.js:84[37:40]::FLOW_DESCR_END","/dist/nodes/signals.js","75","22","75","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... server);write.js:23[29:62];Sink: username;write.js:27[50:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... server);write.js:23[29:62];Sink: password;write.js:27[60:67]::FLOW_DESCR_END","/dist/nodes/write.js","23","29","23","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.username;write.js:24[26:45];Sink: username;write.js:27[50:57]::FLOW_DESCR_END","/dist/nodes/write.js","24","26","24","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credentials.password;write.js:25[26:45];Sink: password;write.js:27[60:67]::FLOW_DESCR_END","/dist/nodes/write.js","25","26","25","45"

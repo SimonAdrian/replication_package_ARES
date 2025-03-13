@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;hot-shots-statsd-client.js:6[21:26];Sink: ""Connec ... is.port;hot-shots-statsd-client.js:9[18:76]::FLOW_DESCR_END","/nodes/hot-shots-statsd-client.js","6","21","6","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;hot-shots-statsd-client.js:7[21:26];Sink: ""Connec ... is.port;hot-shots-statsd-client.js:9[18:76]::FLOW_DESCR_END","/nodes/hot-shots-statsd-client.js","7","21","7","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;hot-shots-statsd-client.js:9[50:58];Sink: ""Connec ... is.port;hot-shots-statsd-client.js:9[18:76]::FLOW_DESCR_END","/nodes/hot-shots-statsd-client.js","9","50","9","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;hot-shots-statsd-client.js:9[68:76];Sink: ""Connec ... is.port;hot-shots-statsd-client.js:9[18:76]::FLOW_DESCR_END","/nodes/hot-shots-statsd-client.js","9","68","9","76"

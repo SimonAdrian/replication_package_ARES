@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signl4.js:10[29:31];Sink: body;signl4.js:273[14:17]::FLOW_DESCR_END","/signl4.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signl4.js:179[29:31];Sink: body;signl4.js:273[14:17]::FLOW_DESCR_END","/signl4.js","179","29","179","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;signl4.js:265[22:24];Sink: 'SIGNL4 ... message;signl4.js:267[15:51]::FLOW_DESCR_END","/signl4.js","265","22","265","24"

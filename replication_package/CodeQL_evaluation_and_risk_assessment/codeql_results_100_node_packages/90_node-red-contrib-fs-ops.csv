@@ -1,0 +1,38 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:85[48:50]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:91[41:43]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:98[41:43]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:100[35:37]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:121[51:53]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:124[43:45]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:131[43:45]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:136[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:59[35:37];Sink: msg;fs-ops.js:140[27:29]::FLOW_DESCR_END","/fs-ops.js","59","35","59","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:197[52:54]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:203[45:47]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:212[41:43]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:214[35:37]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:222[45:47]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:224[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:231[55:57]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:248[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:170[35:37];Sink: msg;fs-ops.js:255[39:41]::FLOW_DESCR_END","/fs-ops.js","170","35","170","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:277[35:37];Sink: msg;fs-ops.js:299[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:277[35:37];Sink: msg;fs-ops.js:313[27:29]::FLOW_DESCR_END","/fs-ops.js","277","35","277","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:334[35:37];Sink: msg;fs-ops.js:348[97:99]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:334[35:37];Sink: [null, msg];fs-ops.js:352[27:37]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:334[35:37];Sink: [msg, null];fs-ops.js:356[23:33]::FLOW_DESCR_END","/fs-ops.js","334","35","334","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:376[35:37];Sink: msg;fs-ops.js:398[30:32]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:376[35:37];Sink: msg;fs-ops.js:404[23:25]::FLOW_DESCR_END","/fs-ops.js","376","35","376","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:423[35:37];Sink: msg;fs-ops.js:445[30:32]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:423[35:37];Sink: msg;fs-ops.js:451[23:25]::FLOW_DESCR_END","/fs-ops.js","423","35","423","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:470[35:37];Sink: msg;fs-ops.js:491[43:45]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:470[35:37];Sink: msg;fs-ops.js:503[39:41]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:470[35:37];Sink: msg;fs-ops.js:511[23:25]::FLOW_DESCR_END","/fs-ops.js","470","35","470","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:540[35:37];Sink: msg;fs-ops.js:562[31:33]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:540[35:37];Sink: msg;fs-ops.js:568[23:25]::FLOW_DESCR_END","/fs-ops.js","540","35","540","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:589[35:37];Sink: msg;fs-ops.js:608[31:33]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:589[35:37];Sink: msg;fs-ops.js:614[23:25]::FLOW_DESCR_END","/fs-ops.js","589","35","589","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:635[35:37];Sink: msg;fs-ops.js:649[35:37]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:635[35:37];Sink: msg;fs-ops.js:659[23:25]::FLOW_DESCR_END","/fs-ops.js","635","35","635","37"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fs-ops.js:679[35:37];Sink: msg;fs-ops.js:697[31:33]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;fs-ops.js:679[35:37];Sink: msg;fs-ops.js:703[23:25]::FLOW_DESCR_END","/fs-ops.js","679","35","679","37"

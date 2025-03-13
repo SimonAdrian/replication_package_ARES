@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;S3.js:66[29:31];Sink: msg;S3.js:71[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S3.js:66[29:31];Sink: [msg,null];S3.js:79[15:24]::FLOW_DESCR_END","/S3.js","66","29","66","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Swift.js:62[35:37];Sink: [{...ms ... },null];Swift.js:110[16:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Swift.js:62[35:37];Sink: [{...ms ... },null];Swift.js:114[16:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Swift.js:62[35:37];Sink: [null,  ... : req}];Swift.js:116[16:45]::FLOW_DESCR_END","/Swift.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Swift0.js:57[35:37];Sink: [{...ms ... },null];Swift0.js:81[15:43]::FLOW_DESCR_END","/Swift0.js","57","35","57","37"

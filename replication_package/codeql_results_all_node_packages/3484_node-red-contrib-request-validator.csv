@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RequestValidator.js:19[36:38];Sink: reject( ... od}` });RequestValidator.js:26[31:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RequestValidator.js:19[36:38];Sink: reject( ... iety });RequestValidator.js:37[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RequestValidator.js:19[36:38];Sink: reject( ... iety });RequestValidator.js:50[35:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RequestValidator.js:19[36:38];Sink: next(msg);RequestValidator.js:56[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RequestValidator.js:19[36:38];Sink: reject( ... }, 500);RequestValidator.js:63[27:60]::FLOW_DESCR_END","/RequestValidator.js","19","36","19","38"

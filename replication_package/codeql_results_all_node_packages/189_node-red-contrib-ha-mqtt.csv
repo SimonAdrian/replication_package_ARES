@@ -1,0 +1,279 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;alarm_control_panel.js:28[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;climate.js:55[45:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;climate.js:59[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;climate.js:63[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;climate.js:67[42:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;climate.js:71[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;cover.js:37[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;cover.js:41[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;cover.js:45[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;fan.js:39[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;fan.js:43[63:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;fan.js:47[62:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;fan.js:51[63:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;humidifier.js:35[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;humidifier.js:39[67:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;humidifier.js:43[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;light.js:34[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;light.js:38[62:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;light.js:42[58:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;lock.js:27[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;number.js:27[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;select.js:27[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: obj.state;siren.js:28[51:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;switch.js:27[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;text.js:27[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;vacuum.js:28[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;vacuum.js:32[55:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;water_heater.js:40[53:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mpayload;HomeAssistant.js:124[69:76];Sink: payload;water_heater.js:44[46:52]::FLOW_DESCR_END","/HomeAssistant.js","124","69","124","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alarm_control_panel.js:13[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_control_panel.js:13[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_control_panel.js:13[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_control_panel.js:13[40:42];Sink: payload;alarm_control_panel.js:17[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alarm_control_panel.js:13[40:42];Sink: attributes;alarm_control_panel.js:20[59:68]::FLOW_DESCR_END","/alarm_control_panel/alarm_control_panel.js","13","40","13","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;alarm_control_panel.js:26[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;alarm_control_panel.js:26[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;alarm_control_panel.js:26[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;alarm_control_panel.js:26[52:58];Sink: payload;alarm_control_panel.js:28[51:57]::FLOW_DESCR_END","/alarm_control_panel/alarm_control_panel.js","26","52","26","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binary_sensor.js:13[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binary_sensor.js:13[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binary_sensor.js:13[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binary_sensor.js:13[40:42];Sink: payload;binary_sensor.js:17[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binary_sensor.js:13[40:42];Sink: attributes;binary_sensor.js:20[59:68]::FLOW_DESCR_END","/binary_sensor/binary_sensor.js","13","40","13","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;button.js:13[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;button.js:13[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;button.js:13[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;button.js:13[40:42];Sink: attributes;button.js:17[49:58]::FLOW_DESCR_END","/button/button.js","13","40","13","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;camera.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camera.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camera.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camera.js:12[40:42];Sink: payload;camera.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;camera.js:12[40:42];Sink: attributes;camera.js:19[59:68]::FLOW_DESCR_END","/camera/camera.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: payload;climate.js:26[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: attributes;climate.js:29[37:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: mode;climate.js:32[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: temperature;climate.js:35[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: current_humidity;climate.js:38[48:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: target_humidity;climate.js:41[53:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: swing_mode;climate.js:44[48:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;climate.js:22[34:36];Sink: fan_mode;climate.js:47[46:53]::FLOW_DESCR_END","/climate/climate.js","22","34","22","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;climate.js:53[48:54];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:53[48:54];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:53[48:54];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:53[48:54];Sink: payload;climate.js:55[45:51]::FLOW_DESCR_END","/climate/climate.js","53","48","53","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;climate.js:57[41:47];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:57[41:47];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:57[41:47];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:57[41:47];Sink: payload;climate.js:59[38:44]::FLOW_DESCR_END","/climate/climate.js","57","41","57","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;climate.js:61[47:53];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:61[47:53];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:61[47:53];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:61[47:53];Sink: payload;climate.js:63[44:50]::FLOW_DESCR_END","/climate/climate.js","61","47","61","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;climate.js:65[45:51];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:65[45:51];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:65[45:51];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:65[45:51];Sink: payload;climate.js:67[42:48]::FLOW_DESCR_END","/climate/climate.js","65","45","65","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;climate.js:69[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:69[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:69[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;climate.js:69[52:58];Sink: payload;climate.js:71[49:55]::FLOW_DESCR_END","/climate/climate.js","69","52","69","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: payload;cover.js:17[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: attributes;cover.js:20[59:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: position;cover.js:23[52:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cover.js:13[40:42];Sink: tilt;cover.js:26[55:58]::FLOW_DESCR_END","/cover/cover.js","13","40","13","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;cover.js:32[42:48];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:32[42:48];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:32[42:48];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:32[42:48];Sink: payload;cover.js:37[41:47]::FLOW_DESCR_END","/cover/cover.js","32","42","32","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;cover.js:39[47:53];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:39[47:53];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:39[47:53];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:39[47:53];Sink: payload;cover.js:41[44:50]::FLOW_DESCR_END","/cover/cover.js","39","47","39","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;cover.js:43[47:53];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:43[47:53];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:43[47:53];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;cover.js:43[47:53];Sink: payload;cover.js:45[47:53]::FLOW_DESCR_END","/cover/cover.js","43","47","43","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device_tracker.js:13[34:36];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_tracker.js:13[34:36];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_tracker.js:13[34:36];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_tracker.js:13[34:36];Sink: payload;device_tracker.js:17[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_tracker.js:13[34:36];Sink: attributes;device_tracker.js:39[47:56]::FLOW_DESCR_END","/device_tracker/device_tracker.js","13","34","13","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event.js:13[34:36];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:13[34:36];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:13[34:36];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:13[34:36];Sink: payload;event.js:20[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:13[34:36];Sink: attributes;event.js:23[47:56]::FLOW_DESCR_END","/event/event.js","13","34","13","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: payload;fan.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: attributes;fan.js:19[59:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: preset_mode;fan.js:22[71:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: percentage;fan.js:25[70:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fan.js:12[40:42];Sink: oscillation;fan.js:28[71:81]::FLOW_DESCR_END","/fan/fan.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;fan.js:37[42:48];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:37[42:48];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:37[42:48];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:37[42:48];Sink: payload;fan.js:39[51:57]::FLOW_DESCR_END","/fan/fan.js","37","42","37","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;fan.js:41[54:60];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:41[54:60];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:41[54:60];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:41[54:60];Sink: payload;fan.js:43[63:69]::FLOW_DESCR_END","/fan/fan.js","41","54","41","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;fan.js:45[53:59];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:45[53:59];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:45[53:59];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:45[53:59];Sink: payload;fan.js:47[62:68]::FLOW_DESCR_END","/fan/fan.js","45","53","45","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;fan.js:49[54:60];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:49[54:60];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:49[54:60];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;fan.js:49[54:60];Sink: payload;fan.js:51[63:69]::FLOW_DESCR_END","/fan/fan.js","49","54","49","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: payload;humidifier.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: attributes;humidifier.js:19[59:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: mode;humidifier.js:22[64:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;humidifier.js:12[40:42];Sink: target_humidity;humidifier.js:25[75:89]::FLOW_DESCR_END","/humidifier/humidifier.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;humidifier.js:33[42:48];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:33[42:48];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:33[42:48];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:33[42:48];Sink: payload;humidifier.js:35[51:57]::FLOW_DESCR_END","/humidifier/humidifier.js","33","42","33","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;humidifier.js:37[58:64];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:37[58:64];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:37[58:64];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:37[58:64];Sink: payload;humidifier.js:39[67:73]::FLOW_DESCR_END","/humidifier/humidifier.js","37","58","37","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;humidifier.js:41[47:53];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:41[47:53];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:41[47:53];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;humidifier.js:41[47:53];Sink: payload;humidifier.js:43[56:62]::FLOW_DESCR_END","/humidifier/humidifier.js","41","47","41","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;image.js:12[34:36];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;image.js:12[34:36];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;image.js:12[34:36];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;image.js:12[34:36];Sink: payload;image.js:16[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;image.js:12[34:36];Sink: attributes;image.js:19[47:56]::FLOW_DESCR_END","/image/image.js","12","34","12","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lawn_mower.js:15[34:36];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lawn_mower.js:15[34:36];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lawn_mower.js:15[34:36];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lawn_mower.js:15[34:36];Sink: payload;lawn_mower.js:19[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lawn_mower.js:15[34:36];Sink: attributes;lawn_mower.js:22[47:56]::FLOW_DESCR_END","/lawn_mower/lawn_mower.js","15","34","15","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: payload;light.js:17[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: attributes;light.js:20[59:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: effect;light.js:23[66:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;light.js:13[40:42];Sink: brightness;light.js:26[70:79]::FLOW_DESCR_END","/light/light.js","13","40","13","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;light.js:32[42:48];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:32[42:48];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:32[42:48];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:32[42:48];Sink: payload;light.js:34[51:57]::FLOW_DESCR_END","/light/light.js","32","42","32","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;light.js:36[53:59];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:36[53:59];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:36[53:59];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:36[53:59];Sink: payload;light.js:38[62:68]::FLOW_DESCR_END","/light/light.js","36","53","36","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;light.js:40[49:55];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:40[49:55];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:40[49:55];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;light.js:40[49:55];Sink: payload;light.js:42[58:64]::FLOW_DESCR_END","/light/light.js","40","49","40","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lock.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lock.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lock.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lock.js:12[40:42];Sink: payload;lock.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lock.js:12[40:42];Sink: attributes;lock.js:19[59:68]::FLOW_DESCR_END","/lock/lock.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;lock.js:25[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;lock.js:25[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;lock.js:25[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;lock.js:25[52:58];Sink: payload;lock.js:27[51:57]::FLOW_DESCR_END","/lock/lock.js","25","52","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;number.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;number.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;number.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;number.js:12[40:42];Sink: payload;number.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;number.js:12[40:42];Sink: attributes;number.js:19[59:68]::FLOW_DESCR_END","/number/number.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;number.js:25[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;number.js:25[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;number.js:25[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;number.js:25[52:58];Sink: payload;number.js:27[51:57]::FLOW_DESCR_END","/number/number.js","25","52","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;select.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;select.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;select.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;select.js:12[40:42];Sink: payload;select.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;select.js:12[40:42];Sink: attributes;select.js:19[59:68]::FLOW_DESCR_END","/select/select.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;select.js:25[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;select.js:25[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;select.js:25[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;select.js:25[52:58];Sink: payload;select.js:27[51:57]::FLOW_DESCR_END","/select/select.js","25","52","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensor.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor.js:12[40:42];Sink: payload;sensor.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensor.js:12[40:42];Sink: attributes;sensor.js:19[59:68]::FLOW_DESCR_END","/sensor/sensor.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;siren.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;siren.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;siren.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;siren.js:12[40:42];Sink: payload;siren.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;siren.js:12[40:42];Sink: attributes;siren.js:19[59:68]::FLOW_DESCR_END","/siren/siren.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;siren.js:25[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;siren.js:25[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;siren.js:25[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;siren.js:25[52:58];Sink: obj.state;siren.js:28[51:59]::FLOW_DESCR_END","/siren/siren.js","25","52","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switch.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch.js:12[40:42];Sink: payload;switch.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switch.js:12[40:42];Sink: attributes;switch.js:19[59:68]::FLOW_DESCR_END","/switch/switch.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;switch.js:25[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;switch.js:25[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;switch.js:25[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;switch.js:25[52:58];Sink: payload;switch.js:27[51:57]::FLOW_DESCR_END","/switch/switch.js","25","52","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;text.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;text.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;text.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;text.js:12[40:42];Sink: payload;text.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;text.js:12[40:42];Sink: attributes;text.js:19[59:68]::FLOW_DESCR_END","/text/text.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;text.js:25[52:58];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;text.js:25[52:58];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;text.js:25[52:58];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;text.js:25[52:58];Sink: payload;text.js:27[51:57]::FLOW_DESCR_END","/text/text.js","25","52","25","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:12[34:36];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:12[34:36];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:12[34:36];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:12[34:36];Sink: payload;update.js:16[47:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:12[34:36];Sink: attributes;update.js:19[47:56]::FLOW_DESCR_END","/update/update.js","12","34","12","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vacuum.js:12[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vacuum.js:12[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vacuum.js:12[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vacuum.js:12[40:42];Sink: payload;vacuum.js:16[59:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vacuum.js:12[40:42];Sink: attributes;vacuum.js:19[59:68]::FLOW_DESCR_END","/vacuum/vacuum.js","12","40","12","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;vacuum.js:26[42:48];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;vacuum.js:26[42:48];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;vacuum.js:26[42:48];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;vacuum.js:26[42:48];Sink: payload;vacuum.js:28[51:57]::FLOW_DESCR_END","/vacuum/vacuum.js","26","42","26","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;vacuum.js:30[48:54];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;vacuum.js:30[48:54];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;vacuum.js:30[48:54];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;vacuum.js:30[48:54];Sink: payload;vacuum.js:32[55:61]::FLOW_DESCR_END","/vacuum/vacuum.js","30","48","30","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: payload;water_heater.js:23[63:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: attributes;water_heater.js:26[49:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: mode;water_heater.js:29[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;water_heater.js:19[40:42];Sink: temperature;water_heater.js:32[61:71]::FLOW_DESCR_END","/water_heater/water_heater.js","19","40","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;water_heater.js:38[54:60];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;water_heater.js:38[54:60];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;water_heater.js:38[54:60];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;water_heater.js:38[54:60];Sink: payload;water_heater.js:40[53:59]::FLOW_DESCR_END","/water_heater/water_heater.js","38","54","38","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;water_heater.js:42[47:53];Sink: payload;HomeAssistant.js:137[49:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;water_heater.js:42[47:53];Sink: payload;HomeAssistant.js:140[48:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;water_heater.js:42[47:53];Sink: payload;HomeAssistant.js:150[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;water_heater.js:42[47:53];Sink: payload;water_heater.js:44[46:52]::FLOW_DESCR_END","/water_heater/water_heater.js","42","47","42","53"

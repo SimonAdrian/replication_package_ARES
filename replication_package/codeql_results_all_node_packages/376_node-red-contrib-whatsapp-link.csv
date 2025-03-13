@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;admin.js:18[41:43];Sink: msg;admin.js:42[31:33]::FLOW_DESCR_END","/admin.js","18","41","18","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;admin.js:86[45:47];Sink: msg;admin.js:87[27:29]::FLOW_DESCR_END","/admin.js","86","45","86","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgs;chats-in.js:68[57:60];Sink: msg;chats-in.js:78[43:45]::FLOW_DESCR_END","/chats-in.js","68","57","68","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgs;chats-in.js:83[47:50];Sink: msgs;chats-in.js:85[39:42]::FLOW_DESCR_END","/chats-in.js","83","47","83","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chats-out.js:107[27:33];Sink: numb;chats-out.js:46[51:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chats-out.js:107[27:33];Sink: numb;chats-out.js:48[47:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chats-out.js:107[27:33];Sink: inputMessage;chats-out.js:48[53:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chats-out.js:107[27:33];Sink: numb;chats-out.js:61[64:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chats-out.js:107[27:33];Sink: inputMessage;chats-out.js:61[70:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chats-out.js:107[27:33];Sink: message.toNumber;chats-out.js:117[60:75]::FLOW_DESCR_END","/chats-out.js","107","27","107","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;group-out.js:108[27:33];Sink: numb;group-out.js:48[51:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;group-out.js:108[27:33];Sink: numb;group-out.js:50[47:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;group-out.js:108[27:33];Sink: inputMessage;group-out.js:50[53:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;group-out.js:108[27:33];Sink: numb;group-out.js:63[64:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;group-out.js:108[27:33];Sink: inputMessage;group-out.js:63[70:81]::FLOW_DESCR_END","/group-out.js","108","27","108","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update;whatsappLink.js:152[58:63];Sink: `ErrorC ... error}`;whatsappLink.js:184[44:126]::FLOW_DESCR_END","/whatsappLink.js","152","58","152","63"

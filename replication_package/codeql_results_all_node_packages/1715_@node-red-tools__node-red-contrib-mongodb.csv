@@ -1,0 +1,87 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();collection.js:24[30:40];Sink: y;collection.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();collection.js:24[30:40];Sink: y;collection.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();collection.js:24[30:40];Sink: op[1];collection.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/collection.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();count-documents.js:24[30:40];Sink: y;count-documents.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();count-documents.js:24[30:40];Sink: y;count-documents.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();count-documents.js:24[30:40];Sink: op[1];count-documents.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/count-documents.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();create-index.js:24[30:40];Sink: y;create-index.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();create-index.js:24[30:40];Sink: y;create-index.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();create-index.js:24[30:40];Sink: op[1];create-index.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/create-index.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();create-indexes.js:24[30:40];Sink: y;create-indexes.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();create-indexes.js:24[30:40];Sink: y;create-indexes.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();create-indexes.js:24[30:40];Sink: op[1];create-indexes.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/create-indexes.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();delete-many.js:24[30:40];Sink: y;delete-many.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();delete-many.js:24[30:40];Sink: y;delete-many.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();delete-many.js:24[30:40];Sink: op[1];delete-many.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/delete-many.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();delete-one.js:24[30:40];Sink: y;delete-one.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();delete-one.js:24[30:40];Sink: y;delete-one.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();delete-one.js:24[30:40];Sink: op[1];delete-one.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/delete-one.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();distinct.js:24[30:40];Sink: y;distinct.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();distinct.js:24[30:40];Sink: y;distinct.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();distinct.js:24[30:40];Sink: op[1];distinct.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/distinct.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();drop-index.js:24[30:40];Sink: y;drop-index.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();drop-index.js:24[30:40];Sink: y;drop-index.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();drop-index.js:24[30:40];Sink: op[1];drop-index.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/drop-index.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();drop-indexes.js:24[30:40];Sink: y;drop-indexes.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();drop-indexes.js:24[30:40];Sink: y;drop-indexes.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();drop-indexes.js:24[30:40];Sink: op[1];drop-indexes.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/drop-indexes.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();find-one-and-delete.js:24[30:40];Sink: y;find-one-and-delete.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one-and-delete.js:24[30:40];Sink: y;find-one-and-delete.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one-and-delete.js:24[30:40];Sink: op[1];find-one-and-delete.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/find-one-and-delete.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();find-one-and-replace.js:24[30:40];Sink: y;find-one-and-replace.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one-and-replace.js:24[30:40];Sink: y;find-one-and-replace.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one-and-replace.js:24[30:40];Sink: op[1];find-one-and-replace.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/find-one-and-replace.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();find-one-and-update.js:24[30:40];Sink: y;find-one-and-update.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one-and-update.js:24[30:40];Sink: y;find-one-and-update.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one-and-update.js:24[30:40];Sink: op[1];find-one-and-update.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/find-one-and-update.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();find-one.js:24[30:40];Sink: y;find-one.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one.js:24[30:40];Sink: y;find-one.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-one.js:24[30:40];Sink: op[1];find-one.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/find-one.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();find.js:24[30:40];Sink: y;find.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find.js:24[30:40];Sink: y;find.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find.js:24[30:40];Sink: op[1];find.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/find.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();insert-many.js:24[30:40];Sink: y;insert-many.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();insert-many.js:24[30:40];Sink: y;insert-many.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();insert-many.js:24[30:40];Sink: op[1];insert-many.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/insert-many.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();insert-one.js:24[30:40];Sink: y;insert-one.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();insert-one.js:24[30:40];Sink: y;insert-one.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();insert-one.js:24[30:40];Sink: op[1];insert-one.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/insert-one.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();map-reduce.js:24[30:40];Sink: y;map-reduce.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();map-reduce.js:24[30:40];Sink: y;map-reduce.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();map-reduce.js:24[30:40];Sink: op[1];map-reduce.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/map-reduce.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();replace-one.js:24[30:40];Sink: y;replace-one.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();replace-one.js:24[30:40];Sink: y;replace-one.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();replace-one.js:24[30:40];Sink: op[1];replace-one.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/replace-one.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();update-many.js:24[30:40];Sink: y;update-many.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();update-many.js:24[30:40];Sink: y;update-many.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();update-many.js:24[30:40];Sink: op[1];update-many.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/update-many.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();update-one.js:24[30:40];Sink: y;update-one.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();update-one.js:24[30:40];Sink: y;update-one.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();update-one.js:24[30:40];Sink: op[1];update-one.js:18[147:151]::FLOW_DESCR_END","/lib/core/collection/methods/update-one.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();connection.js:24[30:40];Sink: y;connection.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();connection.js:24[30:40];Sink: y;connection.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();connection.js:24[30:40];Sink: op[1];connection.js:18[147:151]::FLOW_DESCR_END","/lib/core/connection.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();index.js:24[30:40];Sink: y;index.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();index.js:24[30:40];Sink: y;index.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();index.js:24[30:40];Sink: op[1];index.js:18[147:151]::FLOW_DESCR_END","/lib/core/index.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: settings.host;settings.js:19[30:42];Sink: uri;connection.js:57[80:82]::FLOW_DESCR_END","/lib/core/settings.js","19","30","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: settings.username;settings.js:22[19:35];Sink: uri;connection.js:57[80:82]::FLOW_DESCR_END","/lib/core/settings.js","22","19","22","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: settings.password;settings.js:22[45:61];Sink: uri;connection.js:57[80:82]::FLOW_DESCR_END","/lib/core/settings.js","22","45","22","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: settings.port;settings.js:25[35:47];Sink: uri;connection.js:57[80:82]::FLOW_DESCR_END","/lib/core/settings.js","25","35","25","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();mongodb-collection.js:24[30:40];Sink: y;mongodb-collection.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-collection.js:24[30:40];Sink: y;mongodb-collection.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-collection.js:24[30:40];Sink: op[1];mongodb-collection.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-collection.js:24[30:40];Sink: err;mongodb-collection.js:66[49:51]::FLOW_DESCR_END","/lib/mongodb-collection.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb-collection.js:51[36:38];Sink: [undefined, msg];mongodb-collection.js:63[42:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb-collection.js:51[36:38];Sink: msg;mongodb-collection.js:66[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb-collection.js:51[36:38];Sink: [msg, undefined];mongodb-collection.js:71[38:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongodb-collection.js:51[36:38];Sink: msg;mongodb-collection.js:74[38:40]::FLOW_DESCR_END","/lib/mongodb-collection.js","51","36","51","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();mongodb-objectid.js:24[30:40];Sink: y;mongodb-objectid.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-objectid.js:24[30:40];Sink: y;mongodb-objectid.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-objectid.js:24[30:40];Sink: op[1];mongodb-objectid.js:18[147:151]::FLOW_DESCR_END","/lib/mongodb-objectid.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb-objectid.js:47[36:38];Sink: msg;mongodb-objectid.js:50[22:24]::FLOW_DESCR_END","/lib/mongodb-objectid.js","47","36","47","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();mongodb-ping.js:24[30:40];Sink: y;mongodb-ping.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-ping.js:24[30:40];Sink: y;mongodb-ping.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-ping.js:24[30:40];Sink: op[1];mongodb-ping.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();mongodb-ping.js:24[30:40];Sink: value;mongodb-ping.js:47[36:40]::FLOW_DESCR_END","/lib/mongodb-ping.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb-ping.js:62[36:38];Sink: msg;mongodb-ping.js:87[30:32]::FLOW_DESCR_END","/lib/mongodb-ping.js","62","36","62","38"

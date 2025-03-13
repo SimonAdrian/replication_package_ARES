@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;connector.js:117[39:44];Sink: `Packet ... cket)}`;connector.js:118[18:57]::FLOW_DESCR_END","/nodes/connector.js","117","39","117","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;connector.js:121[42:47];Sink: `Packet ... cket)}`;connector.js:122[18:61]::FLOW_DESCR_END","/nodes/connector.js","121","42","121","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;connector.js:133[34:38];Sink: `Fatal  ... code})`;connector.js:135[20:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;connector.js:133[34:38];Sink: `${erro ... code})`;connector.js:138[20:50]::FLOW_DESCR_END","/nodes/connector.js","133","34","133","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;connector.js:235[30:34];Sink: `${desc ... nfo""]}`;connector.js:257[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;connector.js:235[30:34];Sink: `${desc ... ail""]}`;connector.js:259[20:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;connector.js:235[30:34];Sink: `${desc ... eBody}`;connector.js:261[20:51]::FLOW_DESCR_END","/nodes/connector.js","235","30","235","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;connector.js:242[28:32];Sink: `${desc ... nfo""]}`;connector.js:257[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;connector.js:242[28:32];Sink: `${desc ... ail""]}`;connector.js:259[20:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;connector.js:242[28:32];Sink: `${desc ... eBody}`;connector.js:261[20:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;connector.js:242[28:32];Sink: `${desc ... ponse}`;connector.js:264[18:54]::FLOW_DESCR_END","/nodes/connector.js","242","28","242","32"

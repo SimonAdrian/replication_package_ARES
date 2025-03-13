@@ -1,0 +1,30 @@
+{
+    "name": "@fetchbot/node-red-contrib-ikea-home-smart",
+    "version": "0.3.4",
+    "description": "Node-RED node to utilize IKEA smart home devices.",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "node-tradfri-client": "^3.2.0"
+    },
+    "keywords": [
+        "node-red",
+        "ikea",
+        "tradfri",
+        "home",
+        "smart",
+        "coap"
+    ],
+    "node-red": {
+        "nodes": {
+            "ikea": "node-ikea.js"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fetchbot/node-red-contrib-ikea-home-smart.git"
+    },
+    "author": {
+        "name": "fetchbot"
+    },
+    "license": "GPL-3.0"
+}

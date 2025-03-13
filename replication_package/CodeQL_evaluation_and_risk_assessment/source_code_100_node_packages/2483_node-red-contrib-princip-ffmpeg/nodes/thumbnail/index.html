@@ -1,0 +1,53 @@
+<script type="text/javascript">
+    RED.nodes.registerType('princip-ffmpeg-thumbnail',{
+      category: 'Princip',
+      color: '#d49e8a',
+      defaults: {
+          name: {value: undefined, required: false},
+          useParamsFromPayload: {value: false},
+          params: {value: undefined, required: false, type: "princip-ffmpeg-thumbnail-params-setup"}
+      },
+      inputs: 1,
+      outputs: 1,
+      align: 'left',
+      icon: "light.png",
+      paletteLabel: 'Thumbnail',
+      label: function() {
+          return this.name || "Thumbnail";
+      },
+      oneditprepare: function() {
+        var elem = document.getElementById('node-input-useParamsFromPayload');
+        var elemParams = document.getElementById('node-input-params');
+
+        elemParams.disabled = elem.checked;
+
+        elem.click = function(e) {
+          elemParams.disabled = elem.checked;
+        };
+      }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="princip-ffmpeg-thumbnail">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-useParamsFromPayload"><i class="fa fa-check"></i>Params from payload</label>
+        <input type="checkbox" id="node-input-useParamsFromPayload">
+    </div>
+
+    <div class="form-row">
+        <label for="node-input-params"><i class="fa fa-cogs"></i> Params</label>
+        <input type="text" id="node-input-params" placeholder="Params">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="princip-ffmpeg-thumbnail">
+   <p>Some useful help text to introduce the node.</p>
+   <p>Outputs an object called <code>msg</code> containing <code>msg.topic</code> and
+   <code>msg.payload</code>.</p>
+   <p><code>msg.payload</code> is a <i>String</i>.</p>
+</script>

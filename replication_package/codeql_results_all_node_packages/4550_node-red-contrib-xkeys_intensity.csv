@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_intensity.js:20[27:31];Sink: error;xkeys_intensity.js:21[30:34]::FLOW_DESCR_END","/xkeys_intensity.js","20","27","20","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_intensity.js:23[23:27];Sink: error;xkeys_intensity.js:24[35:39]::FLOW_DESCR_END","/xkeys_intensity.js","23","23","23","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xkeys_intensity.js:28[61:63];Sink: `Subscr ... ${err}`;xkeys_intensity.js:34[15:43]::FLOW_DESCR_END","/xkeys_intensity.js","28","61","28","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;xkeys_intensity.js:28[66:72];Sink: `Subscr ... nted)}`;xkeys_intensity.js:30[15:66]::FLOW_DESCR_END","/xkeys_intensity.js","28","66","28","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;xkeys_intensity.js:41[32:38];Sink: `Hello  ... arted `;xkeys_intensity.js:48[15:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;xkeys_intensity.js:41[32:38];Sink: `comman ... ssage}`;xkeys_intensity.js:82[15:42]::FLOW_DESCR_END","/xkeys_intensity.js","41","32","41","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xkeys_intensity.js:101[29:31];Sink: `Can't  ... ng ...`;xkeys_intensity.js:125[16:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xkeys_intensity.js:101[29:31];Sink: `array  ... ng ...`;xkeys_intensity.js:135[16:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xkeys_intensity.js:101[29:31];Sink: `comman ... sage)}`;xkeys_intensity.js:241[17:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xkeys_intensity.js:101[29:31];Sink: JSON.st ... essage);xkeys_intensity.js:242[37:67]::FLOW_DESCR_END","/xkeys_intensity.js","101","29","101","31"

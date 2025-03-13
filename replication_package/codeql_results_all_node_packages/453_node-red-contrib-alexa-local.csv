@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:36[41:45];Sink: error;index.js:52[28:32]::FLOW_DESCR_END","/index.js","36","41","36","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: httpSer ... ().port;index.js:64[30:54];Sink: errorMsg;index.js:115[27:34]::FLOW_DESCR_END","/index.js","64","30","64","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:77[39:41];Sink: msg;index.js:445[23:25]::FLOW_DESCR_END","/index.js","77","39","77","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;index.js:273[45:49];Sink: ""Receiv ... tring();index.js:274[35:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;index.js:273[45:49];Sink: msg;index.js:445[23:25]::FLOW_DESCR_END","/index.js","273","45","273","49"

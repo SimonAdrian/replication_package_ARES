@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_lcd.js:27[27:31];Sink: error;xkeys_lcd.js:28[30:34]::FLOW_DESCR_END","/xkeys_lcd.js","27","27","27","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xkeys_lcd.js:30[23:27];Sink: error;xkeys_lcd.js:31[35:39]::FLOW_DESCR_END","/xkeys_lcd.js","30","23","30","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xkeys_lcd.js:35[61:63];Sink: `Subscr ... ${err}`;xkeys_lcd.js:41[15:43]::FLOW_DESCR_END","/xkeys_lcd.js","35","61","35","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: granted;xkeys_lcd.js:35[66:72];Sink: `Subscr ... nted)}`;xkeys_lcd.js:37[15:66]::FLOW_DESCR_END","/xkeys_lcd.js","35","66","35","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;xkeys_lcd.js:48[32:38];Sink: `Hello  ... arted `;xkeys_lcd.js:55[15:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;xkeys_lcd.js:48[32:38];Sink: `comman ... ssage}`;xkeys_lcd.js:90[15:42]::FLOW_DESCR_END","/xkeys_lcd.js","48","32","48","38"

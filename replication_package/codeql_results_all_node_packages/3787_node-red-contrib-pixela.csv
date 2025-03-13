@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pixela.js:14[32:34];Sink: msg;pixela.js:21[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pixela.js:14[32:34];Sink: msg;pixela.js:23[27:29]::FLOW_DESCR_END","/pixela/pixela.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;pixela.js:34[23:47];Sink: JSON.stringify(opts);pixela.js:56[20:39]::FLOW_DESCR_END","/pixela/pixela.js","34","23","34","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;pixela.js:35[20:41];Sink: JSON.stringify(opts);pixela.js:56[20:39]::FLOW_DESCR_END","/pixela/pixela.js","35","20","35","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;pixela.js:40[54:66];Sink: JSON.stringify(opts);pixela.js:56[20:39]::FLOW_DESCR_END","/pixela/pixela.js","40","54","40","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pixela.js:58[33:35];Sink: err;pixela.js:60[24:26]::FLOW_DESCR_END","/pixela/pixela.js","58","33","58","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;pixela.js:58[38:40];Sink: res.statusCode;pixela.js:61[24:37]::FLOW_DESCR_END","/pixela/pixela.js","58","38","58","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;pixela.js:58[43:46];Sink: body;pixela.js:62[24:27]::FLOW_DESCR_END","/pixela/pixela.js","58","43","58","46"

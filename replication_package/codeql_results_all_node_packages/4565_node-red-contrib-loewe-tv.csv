@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loewe.js:48[28:30];Sink: sddpMsg;loewe.js:56[16:22]::FLOW_DESCR_END","/lib/loewe.js","48","28","48","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: 'wakeUp: ' + mac;loewe.js:527[14:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: soapRequest;loewe.js:610[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: body;loewe.js:627[18:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: body;loewe.js:645[14:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: body;loewe.js:647[15:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: action;loewe.js:655[57:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: action;loewe.js:685[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: objName;loewe.js:715[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: soapRequest;loewe.js:727[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: action;loewe.js:732[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: actionData;loewe.js:737[17:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: 'Featur ... ivated';loewe.js:1216[18:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loewe.js:188[35:37];Sink: 'activa ... ageData;loewe.js:1220[18:59]::FLOW_DESCR_END","/lib/loewe.js","188","35","188","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.da ... s.Power;loewe.js:418[29:57];Sink: 'TV Sta ... s.Power;loewe.js:418[13:57]::FLOW_DESCR_END","/lib/loewe.js","418","29","418","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.da ... tStatus;loewe.js:418[29:51];Sink: 'TV Sta ... s.Power;loewe.js:418[13:57]::FLOW_DESCR_END","/lib/loewe.js","418","29","418","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.da ... s-LAN'];loewe.js:522[13:51];Sink: 'wakeUp: ' + mac;loewe.js:527[14:29]::FLOW_DESCR_END","/lib/loewe.js","522","13","522","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data.DeviceData;loewe.js:522[13:32];Sink: 'wakeUp: ' + mac;loewe.js:527[14:29]::FLOW_DESCR_END","/lib/loewe.js","522","13","522","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.da ... s.Power;loewe.js:542[26:54];Sink: 'Status ... s.Power;loewe.js:542[13:54]::FLOW_DESCR_END","/lib/loewe.js","542","26","542","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.da ... tStatus;loewe.js:542[26:48];Sink: 'Status ... s.Power;loewe.js:542[13:54]::FLOW_DESCR_END","/lib/loewe.js","542","26","542","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;loewe.js:618[21:25];Sink: soapResponse;loewe.js:612[15:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;loewe.js:618[21:25];Sink: responseData;loewe.js:630[18:29]::FLOW_DESCR_END","/lib/loewe.js","618","21","618","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;loewe.js:639[29:29];Sink: '' + e. ... chbar!';loewe.js:640[14:54]::FLOW_DESCR_END","/lib/loewe.js","639","29","639","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.da ... ator.Id;loewe.js:1083[44:64];Sink: '' + ac ... ator.Id;loewe.js:1083[20:64]::FLOW_DESCR_END","/lib/loewe.js","1083","44","1083","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.data.Iterator;loewe.js:1083[44:61];Sink: '' + ac ... ator.Id;loewe.js:1083[20:64]::FLOW_DESCR_END","/lib/loewe.js","1083","44","1083","61"

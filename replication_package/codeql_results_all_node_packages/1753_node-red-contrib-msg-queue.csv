@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ready-queue.js:98[28:30];Sink: msg.job;ready-queue.js:99[14:20]::FLOW_DESCR_END","/queue/ready-queue.js","98","28","98","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ready-queue.js:328[31:33];Sink: msg;ready-queue.js:338[17:19]::FLOW_DESCR_END","/queue/ready-queue.js","328","31","328","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: job;retry-queue.js:105[28:30];Sink: msg;retry-queue.js:108[14:16]::FLOW_DESCR_END","/queue/retry-queue.js","105","28","105","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: job;retry-queue.js:135[27:29];Sink: msg;retry-queue.js:176[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: job;retry-queue.js:135[27:29];Sink: 'reSend ... ueue_id;retry-queue.js:177[16:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: job;retry-queue.js:135[27:29];Sink: 'timeou ... ueue_id;retry-queue.js:179[17:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: job;retry-queue.js:135[27:29];Sink: 'resend ... ueue_id;retry-queue.js:182[18:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: job;retry-queue.js:135[27:29];Sink: 'deleti ... ueue_id;retry-queue.js:186[18:55]::FLOW_DESCR_END","/queue/retry-queue.js","135","27","135","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retry-queue.js:304[31:33];Sink: msg;retry-queue.js:176[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retry-queue.js:304[31:33];Sink: 'reSend ... ueue_id;retry-queue.js:177[16:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retry-queue.js:304[31:33];Sink: 'timeou ... ueue_id;retry-queue.js:179[17:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retry-queue.js:304[31:33];Sink: 'resend ... ueue_id;retry-queue.js:182[18:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retry-queue.js:304[31:33];Sink: 'deleti ... ueue_id;retry-queue.js:186[18:55]::FLOW_DESCR_END","/queue/retry-queue.js","304","31","304","33"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;melsec.js:85[36:38];Sink: msg;melsec.js:87[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melsec.js:85[36:38];Sink: msg;melsec.js:410[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melsec.js:85[36:38];Sink: msg;melsec.js:415[109:111]::FLOW_DESCR_END","/red/melsec.js","85","36","85","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;melsec.js:243[26:26];Sink: e && e.toString();melsec.js:245[24:40]::FLOW_DESCR_END","/red/melsec.js","243","26","243","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;melsec.js:252[35:37];Sink: obj;melsec.js:255[51:53]::FLOW_DESCR_END","/red/melsec.js","252","35","252","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;melsec.js:419[32:34];Sink: res.msg;melsec.js:424[26:32]::FLOW_DESCR_END","/red/melsec.js","419","32","419","34"

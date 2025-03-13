@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kbus-out.js:23[34:36];Sink: msg;kbus-out.js:51[37:39]::FLOW_DESCR_END","/wago/kbus-out.js","23","34","23","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;kbus-out.js:23[45:48];Sink: done;kbus-out.js:51[42:45]::FLOW_DESCR_END","/wago/kbus-out.js","23","45","23","48"

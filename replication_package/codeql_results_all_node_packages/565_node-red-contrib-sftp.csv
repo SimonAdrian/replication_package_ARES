@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.method;sftp.js:73[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.remoteFilePath;sftp.js:85[23:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.useCompression;sftp.js:85[44:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.encoding;sftp.js:85[65:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.localFilePath;sftp.js:87[23:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.remoteFilePath;sftp.js:87[43:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.useCompression;sftp.js:87[64:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: this.encoding;sftp.js:87[85:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: msg;sftp.js:115[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sftp.js:43[25:27];Sink: msg;sftp.js:133[15:17]::FLOW_DESCR_END","/sftp.js","43","25","43","27"

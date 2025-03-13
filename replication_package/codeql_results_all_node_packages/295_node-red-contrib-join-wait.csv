@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: `join-w ... xpire}`;join-wait.js:19[28:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: [msg, null];join-wait.js:102[85:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: [msg, null];join-wait.js:113[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: [msg, null];join-wait.js:122[78:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: [msg, null];join-wait.js:132[90:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: `join-w ... xpire}`;join-wait.js:140[28:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: msg;join-wait.js:144[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: [msg, null];join-wait.js:177[107:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: key;join-wait.js:265[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: key;join-wait.js:265[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;join-wait.js:91[36:38];Sink: msg;join-wait.js:426[79:81]::FLOW_DESCR_END","/join-wait.js","91","36","91","38"

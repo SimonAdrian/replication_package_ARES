@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rollun-tables-crud.js:16[32:34];Sink: [msg, null];rollun-tables-crud.js:21[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-crud.js:16[32:34];Sink: [msg, null];rollun-tables-crud.js:48[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-crud.js:16[32:34];Sink: [null, msg];rollun-tables-crud.js:54[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-crud.js:16[32:34];Sink: [msg, null];rollun-tables-crud.js:59[21:31]::FLOW_DESCR_END","/rollun-tables-crud.js","16","32","16","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rollun-tables-get-item.js:7[32:34];Sink: msg;rollun-tables-get-item.js:11[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-get-item.js:7[32:34];Sink: [msg, null];rollun-tables-get-item.js:23[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-get-item.js:7[32:34];Sink: [null, msg];rollun-tables-get-item.js:26[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-get-item.js:7[32:34];Sink: [msg, null];rollun-tables-get-item.js:31[21:31]::FLOW_DESCR_END","/rollun-tables-get-item.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rollun-tables-get-items.js:8[38:40];Sink: msg;rollun-tables-get-items.js:12[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-get-items.js:8[38:40];Sink: [null, msg];rollun-tables-get-items.js:24[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rollun-tables-get-items.js:8[38:40];Sink: [msg, null];rollun-tables-get-items.js:27[19:29]::FLOW_DESCR_END","/rollun-tables-get-items.js","8","38","8","40"

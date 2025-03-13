@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-beckhoff-devicemanager.js:15[41:43];Sink: msg;ads-beckhoff-devicemanager.js:22[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-beckhoff-devicemanager.js:15[41:43];Sink: msg;ads-beckhoff-devicemanager.js:34[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-beckhoff-devicemanager.js:15[41:43];Sink: msg;ads-beckhoff-devicemanager.js:54[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-beckhoff-devicemanager.js:15[41:43];Sink: msg;ads-beckhoff-devicemanager.js:63[53:55]::FLOW_DESCR_END","/src/ads-beckhoff-devicemanager.js","15","41","15","43"

@@ -1,0 +1,19 @@
+{
+    "name": "radwag-mass",
+    "version": "1.0.6",
+    "description": "Radwag mass receiver",
+    "main": "1",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "keywords": [
+        "node-red"
+    ],
+    "license": "ISC",
+    "node-red": {
+        "nodes": {
+            "radwag-mass": "radwag-mass.js"
+        }
+    }
+}

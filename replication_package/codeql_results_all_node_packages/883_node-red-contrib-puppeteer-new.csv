@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;close.js:11[38:40];Sink: msg;close.js:17[19:21]::FLOW_DESCR_END","/puppeteer/browser/close.js","11","38","11","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;launch.js:10[38:40];Sink: msg;launch.js:29[19:21]::FLOW_DESCR_END","/puppeteer/browser/launch.js","10","38","10","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;newPage.js:7[38:40];Sink: msg;newPage.js:13[19:21]::FLOW_DESCR_END","/puppeteer/browser/newPage.js","7","38","7","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;click.js:7[38:40];Sink: msg;click.js:15[19:21]::FLOW_DESCR_END","/puppeteer/page/click.js","7","38","7","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;close.js:6[38:40];Sink: msg;close.js:12[19:21]::FLOW_DESCR_END","/puppeteer/page/close.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;content.js:7[32:34];Sink: msg;content.js:11[21:23]::FLOW_DESCR_END","/puppeteer/page/content.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;focus.js:6[38:40];Sink: msg;focus.js:14[19:21]::FLOW_DESCR_END","/puppeteer/page/focus.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:6[38:40];Sink: msg;get.js:16[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:6[38:40];Sink: msg;get.js:20[19:21]::FLOW_DESCR_END","/puppeteer/page/get.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;goto.js:6[38:40];Sink: msg;goto.js:12[19:21]::FLOW_DESCR_END","/puppeteer/page/goto.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;press.js:6[38:40];Sink: msg;press.js:11[19:21]::FLOW_DESCR_END","/puppeteer/page/keyboard/press.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;type.js:6[38:40];Sink: msg;type.js:15[19:21]::FLOW_DESCR_END","/puppeteer/page/keyboard/type.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;querySelector.js:9[32:34];Sink: node.selector;querySelector.js:11[67:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;querySelector.js:9[32:34];Sink: node.selector;querySelector.js:12[71:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;querySelector.js:9[32:34];Sink: msg;querySelector.js:23[19:21]::FLOW_DESCR_END","/puppeteer/page/querySelector.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;screenshot.js:6[38:40];Sink: msg;screenshot.js:12[19:21]::FLOW_DESCR_END","/puppeteer/page/screenshot.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set.js:6[38:40];Sink: msg;set.js:16[19:21]::FLOW_DESCR_END","/puppeteer/page/set.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;upload.js:6[38:40];Sink: msg;upload.js:15[19:21]::FLOW_DESCR_END","/puppeteer/page/upload.js","6","38","6","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;waitFor.js:6[38:40];Sink: msg;waitFor.js:12[19:21]::FLOW_DESCR_END","/puppeteer/page/waitFor.js","6","38","6","40"

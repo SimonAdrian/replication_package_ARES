@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-data-out.js:11[36:38];Sink: JSON.st ... ayload);iot-data-out.js:16[40:66]::FLOW_DESCR_END","/nodes/iot-data-out/iot-data-out.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iot-explorer-connect.js:19[36:38];Sink: msg;iot-explorer-connect.js:39[37:39]::FLOW_DESCR_END","/nodes/iot-explorer-connect/iot-explorer-connect.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;iot-explorer-server.js:49[35:39];Sink: topic;iot-explorer-server.js:50[35:39]::FLOW_DESCR_END","/nodes/iot-explorer-server/iot-explorer-server.js","49","35","49","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;iot-explorer-server.js:49[42:48];Sink: message;iot-explorer-server.js:50[42:48]::FLOW_DESCR_END","/nodes/iot-explorer-server/iot-explorer-server.js","49","42","49","48"

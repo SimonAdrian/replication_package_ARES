@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.deviceId;FanyiBot.js:19[23:42];Sink: ""smarth ...  ""/set"";utils.js:54[11:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.config.deviceId;FanyiBot.js:19[23:42];Sink: ""smarth ...  ""/set"";utils.js:79[9:16]::FLOW_DESCR_END","/FanyiBot.js","19","23","19","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;FanyiBot.js:50[34:46];Sink: ""smarth ...  ""/set"";utils.js:54[11:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.deviceId;FanyiBot.js:50[34:46];Sink: ""smarth ...  ""/set"";utils.js:79[9:16]::FLOW_DESCR_END","/FanyiBot.js","50","34","50","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;Homeassistant.js:44[23:27];Sink: `\u94fe\u63a5\u6210\u529f\uff0ch ... rsion}`;FanyiBot.js:134[20:50]::FLOW_DESCR_END","/Homeassistant.js","44","23","44","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Homeassistant.js:69[24:24];Sink: `hass\u914d\u7f6e ... ${err}`;FanyiBot.js:142[22:53]::FLOW_DESCR_END","/Homeassistant.js","69","24","69","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Homeassistant.js:75[22:22];Sink: `hass\u914d\u7f6e ... ${err}`;FanyiBot.js:142[22:53]::FLOW_DESCR_END","/Homeassistant.js","75","22","75","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.deviceId;SmartHomeFans.js:168[23:42];Sink: 'smarth ...  '/set';SmartHomeFans.js:237[13:90]::FLOW_DESCR_END","/SmartHomeFans.js","168","23","168","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.deviceId;SmartHomeFans.js:188[34:46];Sink: 'smarth ...  '/set';SmartHomeFans.js:237[13:90]::FLOW_DESCR_END","/SmartHomeFans.js","188","34","188","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;SmartHomeFans.js:237[32:64];Sink: 'smarth ...  '/set';SmartHomeFans.js:237[13:90]::FLOW_DESCR_END","/SmartHomeFans.js","237","32","237","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SmartHomeFans.js:252[34:36];Sink: `${key} \u6ca1\u6709\u627e\u5230`;SmartHomeFans.js:270[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartHomeFans.js:252[34:36];Sink: 'smarth ...  '/set';SmartHomeFans.js:279[15:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SmartHomeFans.js:252[34:36];Sink: JSON.st ... ntent});SmartHomeFans.js:280[15:44]::FLOW_DESCR_END","/SmartHomeFans.js","252","34","252","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;SmartHomeFans.js:279[34:66];Sink: 'smarth ...  '/set';SmartHomeFans.js:279[15:92]::FLOW_DESCR_END","/SmartHomeFans.js","279","34","279","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;SmartHomeFans.js:338[38:70];Sink: 'smarth ...  '/set';SmartHomeFans.js:338[19:96]::FLOW_DESCR_END","/SmartHomeFans.js","338","38","338","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;SmartHomeFans.js:349[38:70];Sink: 'smarth ...  '/set';SmartHomeFans.js:349[19:97]::FLOW_DESCR_END","/SmartHomeFans.js","349","38","349","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;SmartHomeFans.js:363[38:70];Sink: 'smarth ...  '/set';SmartHomeFans.js:363[19:96]::FLOW_DESCR_END","/SmartHomeFans.js","363","38","363","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;SmartHomeFans.js:422[32:64];Sink: 'smarth ...  '/set';SmartHomeFans.js:422[13:92]::FLOW_DESCR_END","/SmartHomeFans.js","422","32","422","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;utils.js:55[13:45];Sink: ""smarth ...  ""/set"";utils.js:54[11:18]::FLOW_DESCR_END","/utils.js","55","13","55","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ac ... sername;utils.js:80[11:43];Sink: ""smarth ...  ""/set"";utils.js:79[9:16]::FLOW_DESCR_END","/utils.js","80","11","80","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;SmartHomeFans.js:230[23:30];Sink: 'smarth ...  '/set';SmartHomeFans.js:237[13:90]::FLOW_DESCR_END","/SmartHomeFans.js","230","23","230","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;SmartHomeFans.js:254[33:40];Sink: 'smarth ...  '/set';SmartHomeFans.js:279[15:92]::FLOW_DESCR_END","/SmartHomeFans.js","254","33","254","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;utils.js:24[29:36];Sink: ""smarth ...  ""/set"";utils.js:54[11:18]::FLOW_DESCR_END","/utils.js","24","29","24","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceId;utils.js:72[19:26];Sink: ""smarth ...  ""/set"";utils.js:79[9:16]::FLOW_DESCR_END","/utils.js","72","19","72","26"

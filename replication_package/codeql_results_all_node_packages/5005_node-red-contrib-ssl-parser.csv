@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ssl-parser.js:8[30:32];Sink: msg;ssl-parser.js:46[15:17]::FLOW_DESCR_END","/ssl-parser.js","8","30","8","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ssl-parser.js:54[21:23];Sink: err;ssl-parser.js:64[17:19]::FLOW_DESCR_END","/ssl-parser.js","54","21","54","23"

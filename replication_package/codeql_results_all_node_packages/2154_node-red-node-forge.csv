@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forge-commands.js:40[26:28];Sink: [null, msgErr];forge-commands.js:118[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forge-commands.js:40[26:28];Sink: [msg, null];forge-commands.js:126[15:25]::FLOW_DESCR_END","/forge-commands.js","40","26","40","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forge-da.js:42[26:28];Sink: [null, msgErr];forge-da.js:127[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forge-da.js:42[26:28];Sink: [msg, null];forge-da.js:135[15:25]::FLOW_DESCR_END","/forge-da.js","42","26","42","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forge-dm.js:36[26:28];Sink: [null, msgErr];forge-dm.js:114[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forge-dm.js:36[26:28];Sink: [msg, null];forge-dm.js:122[15:25]::FLOW_DESCR_END","/forge-dm.js","36","26","36","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forge-get-token.js:34[26:28];Sink: [msg, null];forge-get-token.js:76[14:24]::FLOW_DESCR_END","/forge-get-token.js","34","26","34","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forge-model-derivative.js:35[32:34];Sink: [null, msgErr];forge-model-derivative.js:105[31:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forge-model-derivative.js:35[32:34];Sink: [msg, null];forge-model-derivative.js:113[27:37]::FLOW_DESCR_END","/forge-model-derivative.js","35","32","35","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forge-oss.js:40[26:28];Sink: [null, msgErr];forge-oss.js:118[16:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forge-oss.js:40[26:28];Sink: [msg, null];forge-oss.js:126[15:25]::FLOW_DESCR_END","/forge-oss.js","40","26","40","28"

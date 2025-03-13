@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;webiq-api-connect.js:11[26:40];Sink: loginPayload;webiq-api-connect.js:32[21:32]::FLOW_DESCR_END","/webiq-api-connect.js","11","26","11","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;webiq-api-connect.js:12[26:40];Sink: loginPayload;webiq-api-connect.js:32[21:32]::FLOW_DESCR_END","/webiq-api-connect.js","12","26","12","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;webiq-api-connect.js:35[39:41];Sink: err;webiq-api-connect.js:37[47:49]::FLOW_DESCR_END","/webiq-api-connect.js","35","39","35","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;webiq-api-connect.js:60[35:37];Sink: JSON.st ... ayload);webiq-api-connect.js:63[29:55]::FLOW_DESCR_END","/webiq-api-connect.js","60","35","60","37"

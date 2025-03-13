@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:5[35:37];Sink: msg;node.js:33[48:50]::FLOW_DESCR_END","/node.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sendgrid-transactional.js:5[31:33];Sink: msg;sendgrid-transactional.js:17[40:42]::FLOW_DESCR_END","/sendgrid-transactional.js","5","31","5","33"

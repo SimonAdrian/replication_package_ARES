@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... server);ducoboxHTTP.js:111[13:46];Sink: URL;ducoboxHTTP.js:58[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... server);ducoboxHTTP.js:111[13:46];Sink: URL;ducoboxHTTP.js:91[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... server);ducoboxHTTP.js:111[13:46];Sink: URL;ducoboxHTTP.js:94[11:13]::FLOW_DESCR_END","/ducoboxHTTP.js","111","13","111","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... server);ducoboxHTTP.js:180[13:46];Sink: URLboxinfoIP;ducoboxHTTP.js:18[12:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... server);ducoboxHTTP.js:180[13:46];Sink: URL;ducoboxHTTP.js:36[10:12]::FLOW_DESCR_END","/ducoboxHTTP.js","180","13","180","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ducoboxHTTP.js:184[35:37];Sink: msg;ducoboxHTTP.js:192[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ducoboxHTTP.js:184[35:37];Sink: msg;ducoboxHTTP.js:206[15:17]::FLOW_DESCR_END","/ducoboxHTTP.js","184","35","184","37"

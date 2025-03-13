@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fitbit.js:99[38:41];Sink: 'https: ... '.json';fitbit.js:208[32:98]::FLOW_DESCR_END","/fitbit.js","99","38","99","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:107[47:49];Sink: msg;fitbit.js:114[61:63]::FLOW_DESCR_END","/fitbit.js","107","47","107","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fitbit.js:112[46:49];Sink: 'https: ... '.json';fitbit.js:208[32:98]::FLOW_DESCR_END","/fitbit.js","112","46","112","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:157[47:49];Sink: msg;fitbit.js:165[61:63]::FLOW_DESCR_END","/fitbit.js","157","47","157","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:199[47:49];Sink: msg;fitbit.js:213[61:63]::FLOW_DESCR_END","/fitbit.js","199","47","199","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fitbit.js:288[39:41];Sink: url;fitbit.js:299[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fitbit.js:288[39:41];Sink: msg;fitbit.js:304[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fitbit.js:288[39:41];Sink: msg;fitbit.js:323[31:33]::FLOW_DESCR_END","/fitbit.js","288","39","288","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ams.id);fitbit.js:360[27:65];Sink: credentials;fitbit.js:385[64:74]::FLOW_DESCR_END","/fitbit.js","360","27","360","65"

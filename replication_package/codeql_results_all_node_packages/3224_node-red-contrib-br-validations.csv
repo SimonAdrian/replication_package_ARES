@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;validations.js:30[23:29];Sink: message;validations.js:32[75:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;validations.js:30[23:29];Sink: message;validations.js:34[95:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;validations.js:30[23:29];Sink: [message, null];validations.js:36[19:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;validations.js:30[23:29];Sink: [null, message];validations.js:38[19:33]::FLOW_DESCR_END","/br/validations.js","30","23","30","29"

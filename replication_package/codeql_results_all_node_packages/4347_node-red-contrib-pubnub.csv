@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pubnub-node-red.js:122[36:38];Sink: 'Failur ... blish!';pubnub-node-red.js:127[24:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pubnub-node-red.js:122[36:38];Sink: 'Succes ... , '\t');pubnub-node-red.js:129[24:108]::FLOW_DESCR_END","/nodes/pubnub-node-red.js","122","36","122","38"

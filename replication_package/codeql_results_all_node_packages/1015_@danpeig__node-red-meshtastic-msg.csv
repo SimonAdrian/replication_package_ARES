@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;experiments_meshtasticjs.js:67[60:66];Sink: message;experiments_meshtasticjs.js:69[14:20]::FLOW_DESCR_END","/experiments_meshtasticjs.js","67","60","67","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;meshtastic-msg.js:49[70:73];Sink: data;meshtastic-msg.js:52[21:24]::FLOW_DESCR_END","/meshtastic-msg.js","49","70","49","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;meshtastic-msg.js:124[72:75];Sink: data;meshtastic-msg.js:126[23:26]::FLOW_DESCR_END","/meshtastic-msg.js","124","72","124","75"

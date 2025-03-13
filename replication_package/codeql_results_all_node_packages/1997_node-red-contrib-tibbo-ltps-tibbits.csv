@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tibbit-03.js:14[36:38];Sink: msg;tibbit-03.js:20[23:25]::FLOW_DESCR_END","/nodes/tibbit-03.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tibbit-06.js:14[36:38];Sink: msg;tibbit-06.js:20[23:25]::FLOW_DESCR_END","/nodes/tibbit-06.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tibbit-07.js:14[36:38];Sink: msg;tibbit-07.js:20[23:25]::FLOW_DESCR_END","/nodes/tibbit-07.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tibbit-14.js:11[36:38];Sink: msg.payload;tibbit-14.js:17[83:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tibbit-14.js:11[36:38];Sink: msg.topic;tibbit-14.js:17[95:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tibbit-14.js:11[36:38];Sink: msg;tibbit-14.js:18[23:25]::FLOW_DESCR_END","/nodes/tibbit-14.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tibbit-28.js:10[36:38];Sink: msg;tibbit-28.js:14[19:21]::FLOW_DESCR_END","/nodes/tibbit-28.js","10","36","10","38"

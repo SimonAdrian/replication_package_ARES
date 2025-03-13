@@ -1,0 +1,62 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;g4nrht.js:8[29:31];Sink: psnList;g4nrht.js:503[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht.js:8[29:31];Sink: psnList;g4nrht.js:508[28:34]::FLOW_DESCR_END","/g4nrht/g4nrht.js","8","29","8","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.data[0];g4nrht.js:492[12:30];Sink: psnList;g4nrht.js:503[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.data[0];g4nrht.js:492[12:30];Sink: psnList;g4nrht.js:508[28:34]::FLOW_DESCR_END","/g4nrht/g4nrht.js","492","12","492","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.data[1];g4nrht.js:493[12:30];Sink: psnList;g4nrht.js:503[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.data[1];g4nrht.js:493[12:30];Sink: psnList;g4nrht.js:508[28:34]::FLOW_DESCR_END","/g4nrht/g4nrht.js","493","12","493","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.data[2];g4nrht.js:494[12:30];Sink: psnList;g4nrht.js:503[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.data[2];g4nrht.js:494[12:30];Sink: psnList;g4nrht.js:508[28:34]::FLOW_DESCR_END","/g4nrht/g4nrht.js","494","12","494","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.data[3];g4nrht.js:495[12:30];Sink: psnList;g4nrht.js:503[29:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.data[3];g4nrht.js:495[12:30];Sink: psnList;g4nrht.js:508[28:34]::FLOW_DESCR_END","/g4nrht/g4nrht.js","495","12","495","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: psnArray;g4nrht_dashboard.js:159[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:311[50:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: sensor_enabled;g4nrht_dashboard.js:561[47:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: maint_io1_swich;g4nrht_dashboard.js:564[54:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: maint_io2_swich;g4nrht_dashboard.js:567[54:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: avg_val_evt;g4nrht_dashboard.js:570[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: kelvin_celsius;g4nrht_dashboard.js:573[55:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: tempera ... d_blink;g4nrht_dashboard.js:576[48:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: humidity_led_blink;g4nrht_dashboard.js:579[52:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: io_led_blink_alarm;g4nrht_dashboard.js:582[43:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: io_temp_alm;g4nrht_dashboard.js:585[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: io_rh_alm;g4nrht_dashboard.js:588[51:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: io_io_alm;g4nrht_dashboard.js:591[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: io_fltr;g4nrht_dashboard.js:594[43:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: sys_cnf;g4nrht_dashboard.js:596[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: alm_cnf;g4nrht_dashboard.js:597[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: io_fltr1;g4nrht_dashboard.js:598[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.pay ... nt || 0;g4nrht_dashboard.js:605[48:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.pay ... nt || 0;g4nrht_dashboard.js:609[47:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:695[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:698[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:701[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:704[52:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:707[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:710[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:713[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:716[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:719[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:722[50:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:725[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:728[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:731[41:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:734[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:737[46:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:740[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:743[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:746[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:749[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:752[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:755[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:758[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:761[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:764[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:767[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:770[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:773[57:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:776[54:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: msg.payload;g4nrht_dashboard.js:792[55:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: psnSelected;g4nrht_dashboard.js:803[44:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: psnSelected;g4nrht_dashboard.js:804[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: psnSelected;g4nrht_dashboard.js:807[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;g4nrht_dashboard.js:6[30:32];Sink: psnSelected;g4nrht_dashboard.js:808[44:54]::FLOW_DESCR_END","/g4nrht_dashboard/g4nrht_dashboard.js","6","30","6","32"

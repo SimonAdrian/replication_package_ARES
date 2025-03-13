@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sitxNode.js:42[23:25];Sink: msg.payload;sitxNode.js:52[26:36]::FLOW_DESCR_END","/sitx/sitxNode.js","42","23","42","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;sitxNode.js:98[31:35];Sink: `nrSock ... ent)})`;sitxNode.js:99[16:56]::FLOW_DESCR_END","/sitx/sitxNode.js","98","31","98","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;sitxNode.js:108[32:36];Sink: `nrSock ... ent)})`;sitxNode.js:109[16:57]::FLOW_DESCR_END","/sitx/sitxNode.js","108","32","108","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sitxNode.js:129[32:34];Sink: `localE ... err)})`;sitxNode.js:130[16:58]::FLOW_DESCR_END","/sitx/sitxNode.js","129","32","129","34"

@@ -1,0 +1,35 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:97[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:99[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:104[85:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:114[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:116[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:122[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:133[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:135[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:141[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:152[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:154[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:160[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:170[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:173[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:181[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:196[39:41];Sink: msg;duckdb_node.js:200[51:53]::FLOW_DESCR_END","/src/duckdb_node.js","196","39","196","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duckdb_node.js:332[35:37];Sink: msg;duckdb_node.js:375[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:332[35:37];Sink: msg;duckdb_node.js:377[41:43]::FLOW_DESCR_END","/src/duckdb_node.js","332","35","332","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:419[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:421[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:425[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:436[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:438[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:443[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:454[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:456[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:461[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:467[39:41];Sink: msg;duckdb_node.js:471[51:53]::FLOW_DESCR_END","/src/duckdb_node.js","467","39","467","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:505[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:507[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:511[88:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:522[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:524[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:529[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;duckdb_node.js:535[39:41];Sink: msg;duckdb_node.js:539[51:53]::FLOW_DESCR_END","/src/duckdb_node.js","535","39","535","41"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: limits;authenticate.js:24[38:43];Sink: limits;authenticate.js:26[21:26]::FLOW_DESCR_END","/nodes/authenticate.js","24","38","24","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;authenticate.js:32[29:31];Sink: msg;authenticate.js:61[17:19]::FLOW_DESCR_END","/nodes/authenticate.js","32","29","32","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;count.js:40[29:31];Sink: [msg, []];count.js:80[23:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;count.js:40[29:31];Sink: msg;count.js:94[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;count.js:40[29:31];Sink: [msg, []];count.js:101[19:27]::FLOW_DESCR_END","/nodes/count.js","40","29","40","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:29[29:31];Sink: msg;create.js:65[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:29[29:31];Sink: msg;create.js:77[21:23]::FLOW_DESCR_END","/nodes/create.js","29","29","29","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:60[29:31];Sink: msg;delete.js:121[19:21]::FLOW_DESCR_END","/nodes/delete.js","60","29","60","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:48[29:31];Sink: msg;get.js:147[19:21]::FLOW_DESCR_END","/nodes/get.js","48","29","48","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list.js:41[29:31];Sink: msg;list.js:105[19:21]::FLOW_DESCR_END","/nodes/list.js","41","29","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:26[29:31];Sink: msg;update.js:87[19:21]::FLOW_DESCR_END","/nodes/update.js","26","29","26","31"

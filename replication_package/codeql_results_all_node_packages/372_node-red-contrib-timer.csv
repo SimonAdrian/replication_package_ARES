@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timer-node.js:90[40:42];Sink: [stateMsg, clockMsg];timer-node.js:82[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timer-node.js:90[40:42];Sink: [null, msg];timer-node.js:103[22:32]::FLOW_DESCR_END","/src/timer-node.js","90","40","90","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timer-node.js:111[36:38];Sink: [null, msg];timer-node.js:30[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timer-node.js:111[36:38];Sink: msg;timer-node.js:38[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timer-node.js:111[36:38];Sink: [stateMsg, clockMsg];timer-node.js:55[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timer-node.js:111[36:38];Sink: [stateMsg, clockMsg];timer-node.js:82[18:37]::FLOW_DESCR_END","/src/timer-node.js","111","36","111","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timer-node.js:134[35:37];Sink: [stateMsg, clockMsg];timer-node.js:82[18:37]::FLOW_DESCR_END","/src/timer-node.js","134","35","134","37"

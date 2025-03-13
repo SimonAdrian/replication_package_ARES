@@ -1,0 +1,102 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();click-on.js:24[30:40];Sink: y;click-on.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();click-on.js:24[30:40];Sink: y;click-on.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();click-on.js:24[30:40];Sink: op[1];click-on.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/click-on.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();close-web.js:24[30:40];Sink: y;close-web.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();close-web.js:24[30:40];Sink: y;close-web.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();close-web.js:24[30:40];Sink: op[1];close-web.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/close-web.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;close-web.js:45[32:38];Sink: msg;close-web.js:71[38:40]::FLOW_DESCR_END","/dist/nodes/close-web.js","45","32","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();find-element.js:24[30:40];Sink: y;find-element.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-element.js:24[30:40];Sink: y;find-element.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();find-element.js:24[30:40];Sink: op[1];find-element.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/find-element.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();get-attribute.js:24[30:40];Sink: y;get-attribute.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-attribute.js:24[30:40];Sink: y;get-attribute.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-attribute.js:24[30:40];Sink: op[1];get-attribute.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-attribute.js:24[30:40];Sink: msg.error.message;get-attribute.js:89[47:63]::FLOW_DESCR_END","/dist/nodes/get-attribute.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();get-text.js:24[30:40];Sink: y;get-text.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-text.js:24[30:40];Sink: y;get-text.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-text.js:24[30:40];Sink: op[1];get-text.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-text.js:24[30:40];Sink: msg.error.message;get-text.js:88[47:63]::FLOW_DESCR_END","/dist/nodes/get-text.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();get-title.js:24[30:40];Sink: y;get-title.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-title.js:24[30:40];Sink: y;get-title.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-title.js:24[30:40];Sink: op[1];get-title.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/get-title.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get-title.js:46[32:38];Sink: [msg, null];get-title.js:75[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get-title.js:46[32:38];Sink: [null, msg];get-title.js:101[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get-title.js:46[32:38];Sink: [msg, null];get-title.js:116[38:48]::FLOW_DESCR_END","/dist/nodes/get-title.js","46","32","46","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();get-value.js:24[30:40];Sink: y;get-value.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-value.js:24[30:40];Sink: y;get-value.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-value.js:24[30:40];Sink: op[1];get-value.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();get-value.js:24[30:40];Sink: msg.error.message;get-value.js:88[47:63]::FLOW_DESCR_END","/dist/nodes/get-value.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();navigate.js:24[30:40];Sink: y;navigate.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();navigate.js:24[30:40];Sink: y;navigate.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();navigate.js:24[30:40];Sink: op[1];navigate.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/navigate.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;navigate.js:45[32:38];Sink: [msg, null];navigate.js:94[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;navigate.js:45[32:38];Sink: error.message;navigate.js:106[47:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;navigate.js:45[32:38];Sink: [null, msg];navigate.js:109[42:52]::FLOW_DESCR_END","/dist/nodes/navigate.js","45","32","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node-constructor.js:24[30:40];Sink: y;node-constructor.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-constructor.js:24[30:40];Sink: y;node-constructor.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-constructor.js:24[30:40];Sink: op[1];node-constructor.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-constructor.js:24[30:40];Sink: e_2.toString();node-constructor.js:114[68:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node-constructor.js:24[30:40];Sink: e_1.toString();node-constructor.js:130[36:49]::FLOW_DESCR_END","/dist/nodes/node-constructor.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];click-on.js:64[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];click-on.js:77[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];click-on.js:122[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];click-on.js:135[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];find-element.js:51[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];get-attribute.js:68[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];get-attribute.js:76[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: msg.error.message;get-attribute.js:89[47:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];get-attribute.js:91[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];get-text.js:67[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];get-text.js:75[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: msg.error.message;get-text.js:88[47:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];get-text.js:90[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];get-value.js:67[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];get-value.js:75[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: msg.error.message;get-value.js:88[47:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];get-value.js:90[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];node-constructor.js:93[50:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: error;node.js:112[42:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];run-script.js:65[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];run-script.js:79[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];send-keys.js:75[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];send-keys.js:88[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];set-attribute.js:66[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];set-attribute.js:80[49:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [msg, null];set-value.js:64[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:49[36:42];Sink: [null, msg];set-value.js:78[49:59]::FLOW_DESCR_END","/dist/nodes/node-constructor.js","49","36","49","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();node.js:34[30:40];Sink: y;node.js:28[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node.js:34[30:40];Sink: y;node.js:28[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node.js:34[30:40];Sink: op[1];node.js:28[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();node.js:34[30:40];Sink: error;node.js:112[42:46]::FLOW_DESCR_END","/dist/nodes/node.js","34","30","34","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();open-web.js:24[30:40];Sink: y;open-web.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();open-web.js:24[30:40];Sink: y;open-web.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();open-web.js:24[30:40];Sink: op[1];open-web.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/open-web.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;open-web.js:62[32:38];Sink: msg;open-web.js:103[26:28]::FLOW_DESCR_END","/dist/nodes/open-web.js","62","32","62","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();run-script.js:24[30:40];Sink: y;run-script.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();run-script.js:24[30:40];Sink: y;run-script.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();run-script.js:24[30:40];Sink: op[1];run-script.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();run-script.js:24[30:40];Sink: msg.error.message;run-script.js:77[47:63]::FLOW_DESCR_END","/dist/nodes/run-script.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();screenshot.js:43[30:40];Sink: y;screenshot.js:37[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();screenshot.js:43[30:40];Sink: y;screenshot.js:37[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();screenshot.js:43[30:40];Sink: op[1];screenshot.js:37[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();screenshot.js:43[30:40];Sink: sc;screenshot.js:91[79:80]::FLOW_DESCR_END","/dist/nodes/screenshot.js","43","30","43","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;screenshot.js:65[32:38];Sink: filePath_1;screenshot.js:91[67:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;screenshot.js:65[32:38];Sink: [msg, null];screenshot.js:97[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;screenshot.js:65[32:38];Sink: [null, msg];screenshot.js:112[42:52]::FLOW_DESCR_END","/dist/nodes/screenshot.js","65","32","65","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();send-keys.js:24[30:40];Sink: y;send-keys.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();send-keys.js:24[30:40];Sink: y;send-keys.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();send-keys.js:24[30:40];Sink: op[1];send-keys.js:18[147:151]::FLOW_DESCR_END","/dist/nodes/send-keys.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();set-attribute.js:24[30:40];Sink: y;set-attribute.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-attribute.js:24[30:40];Sink: y;set-attribute.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-attribute.js:24[30:40];Sink: op[1];set-attribute.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-attribute.js:24[30:40];Sink: msg.error.message;set-attribute.js:78[47:63]::FLOW_DESCR_END","/dist/nodes/set-attribute.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();set-value.js:24[30:40];Sink: y;set-value.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-value.js:24[30:40];Sink: y;set-value.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-value.js:24[30:40];Sink: op[1];set-value.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-value.js:24[30:40];Sink: msg.error.message;set-value.js:76[47:63]::FLOW_DESCR_END","/dist/nodes/set-value.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();utils.js:24[30:40];Sink: y;utils.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();utils.js:24[30:40];Sink: y;utils.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();utils.js:24[30:40];Sink: op[1];utils.js:18[147:151]::FLOW_DESCR_END","/dist/utils.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();wd2-manager.js:43[30:40];Sink: y;wd2-manager.js:37[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();wd2-manager.js:43[30:40];Sink: y;wd2-manager.js:37[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();wd2-manager.js:43[30:40];Sink: op[1];wd2-manager.js:37[147:151]::FLOW_DESCR_END","/dist/wd2-manager.js","43","30","43","40"

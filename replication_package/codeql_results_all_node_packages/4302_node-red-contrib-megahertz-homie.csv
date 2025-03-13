@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;mqtt-connect.js:20[21:26];Sink: node.brokerurl;mqtt-connect.js:68[48:61]::FLOW_DESCR_END","/node/mqtt-connect.js","20","21","20","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mqtt-connect.js:27[42:50];Sink: node.brokerurl;mqtt-connect.js:68[48:61]::FLOW_DESCR_END","/node/mqtt-connect.js","27","42","27","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-connect.js:300[38:40];Sink: msg;mqtt-connect.js:316[49:51]::FLOW_DESCR_END","/node/mqtt-connect.js","300","38","300","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;mqtt-connect.js:300[47:50];Sink: done;mqtt-connect.js:316[54:57]::FLOW_DESCR_END","/node/mqtt-connect.js","300","47","300","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-connect.js:472[38:40];Sink: msg;mqtt-connect.js:496[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-connect.js:472[38:40];Sink: msg;mqtt-connect.js:504[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-connect.js:472[38:40];Sink: msg;mqtt-connect.js:508[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-connect.js:472[38:40];Sink: msg;mqtt-connect.js:512[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-connect.js:472[38:40];Sink: msg;mqtt-connect.js:516[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-connect.js:472[38:40];Sink: message;mqtt-connect.js:548[31:37]::FLOW_DESCR_END","/node/mqtt-connect.js","472","38","472","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;mqtt-connect.js:472[47:50];Sink: done;mqtt-connect.js:491[72:75]::FLOW_DESCR_END","/node/mqtt-connect.js","472","47","472","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-command-msg.js:9[35:37];Sink: msg;set-command-msg.js:26[23:25]::FLOW_DESCR_END","/node/set-command-msg.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-command-msg.js:35[35:37];Sink: msg;set-command-msg.js:39[23:25]::FLOW_DESCR_END","/node/set-command-msg.js","35","35","35","37"

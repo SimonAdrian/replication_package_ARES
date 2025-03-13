@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batcher.js:73[31:33];Sink: topic;batcher.js:37[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:73[31:33];Sink: topic;batcher.js:79[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:73[31:33];Sink: topic;batcher.js:86[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:73[31:33];Sink: topic;batcher.js:90[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:73[31:33];Sink: node.newestTopic;batcher.js:98[30:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:73[31:33];Sink: topic;batcher.js:112[30:34]::FLOW_DESCR_END","/batcher.js","73","31","73","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batcher.js:176[31:33];Sink: topic;batcher.js:143[43:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:176[31:33];Sink: topic;batcher.js:182[43:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:176[31:33];Sink: topic;batcher.js:188[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:176[31:33];Sink: topic;batcher.js:191[49:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:176[31:33];Sink: node.newestTopic;batcher.js:198[32:47]::FLOW_DESCR_END","/batcher.js","176","31","176","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batcher.js:277[31:33];Sink: topic;batcher.js:243[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:277[31:33];Sink: topic;batcher.js:283[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:277[31:33];Sink: topic;batcher.js:299[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:277[31:33];Sink: topic;batcher.js:302[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:277[31:33];Sink: node.newestTopic;batcher.js:318[30:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batcher.js:277[31:33];Sink: msg;batcher.js:331[21:23]::FLOW_DESCR_END","/batcher.js","277","31","277","33"

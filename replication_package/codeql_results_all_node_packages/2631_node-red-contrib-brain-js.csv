@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;neuralnet.js:53[22:24];Sink: msg.runData;neuralnet.js:67[37:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neuralnet.js:53[22:24];Sink: msg;neuralnet.js:75[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neuralnet.js:53[22:24];Sink: msg;neuralnet.js:94[19:21]::FLOW_DESCR_END","/src/neuralnet.js","53","22","53","24"

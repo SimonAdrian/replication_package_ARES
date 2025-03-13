@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;interpolate.js:14[30:32];Sink: v;interpolate.js:11[41:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interpolate.js:14[30:32];Sink: msg.payload.x;interpolate.js:17[26:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interpolate.js:14[30:32];Sink: msg.payload.y;interpolate.js:18[26:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interpolate.js:14[30:32];Sink: msg;interpolate.js:31[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interpolate.js:14[30:32];Sink: msg;interpolate.js:39[14:16]::FLOW_DESCR_END","/interpolate.js","14","30","14","32"

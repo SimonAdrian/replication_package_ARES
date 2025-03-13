@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;strava.js:44[21:23];Sink: error;strava.js:192[36:40]::FLOW_DESCR_END","/strava.js","44","21","44","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;strava.js:44[26:31];Sink: error;strava.js:192[36:40]::FLOW_DESCR_END","/strava.js","44","26","44","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;strava.js:44[34:37];Sink: data;strava.js:55[29:32]::FLOW_DESCR_END","/strava.js","44","34","44","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;strava.js:83[21:23];Sink: error;strava.js:197[48:52]::FLOW_DESCR_END","/strava.js","83","21","83","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;strava.js:83[26:31];Sink: error;strava.js:197[48:52]::FLOW_DESCR_END","/strava.js","83","26","83","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;strava.js:83[34:37];Sink: data;strava.js:94[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;strava.js:83[34:37];Sink: error;strava.js:197[48:52]::FLOW_DESCR_END","/strava.js","83","34","83","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;strava.js:188[35:37];Sink: msg;strava.js:192[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strava.js:188[35:37];Sink: msg;strava.js:197[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;strava.js:188[35:37];Sink: msg;strava.js:200[47:49]::FLOW_DESCR_END","/strava.js","188","35","188","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);strava.js:229[27:59];Sink: credentials;strava.js:254[42:52]::FLOW_DESCR_END","/strava.js","229","27","229","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);strava.js:262[27:59];Sink: credentials;strava.js:315[46:56]::FLOW_DESCR_END","/strava.js","262","27","262","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;strava.js:290[34:37];Sink: data;strava.js:299[29:32]::FLOW_DESCR_END","/strava.js","290","34","290","37"

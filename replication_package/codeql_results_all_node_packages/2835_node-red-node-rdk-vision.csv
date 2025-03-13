@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk_vision.js:77[39:41];Sink: msg.payload + '\n';rdk_vision.js:80[48:65]::FLOW_DESCR_END","/rdk_vision.js","77","39","77","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk_vision.js:141[35:37];Sink: msg.payload + '\n';rdk_vision.js:143[40:57]::FLOW_DESCR_END","/rdk_vision.js","141","35","141","37"

@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... version;diagnostics.js:82[30:50];Sink: await ( ... Data)();routes.js:202[18:62]::FLOW_DESCR_END","/dist/helpers/diagnostics.js","82","30","82","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _a.entity_id;Websocket.js:235[139:150];Sink: `Not pr ... vent)}`;Websocket.js:251[23:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _a.entity_id;Websocket.js:235[139:150];Sink: `${cons ... ityId}`;Websocket.js:260[106:152]::FLOW_DESCR_END","/dist/homeAssistant/Websocket.js","235","139","235","150"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: __class ... "").host;Websocket.js:311[185:241];Sink: `No pon ... onnect`;heartbeat.js:15[19:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: __class ... "").host;Websocket.js:311[185:241];Sink: `Ping s ... {host}`;heartbeat.js:18[15:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: __class ... "").host;Websocket.js:311[185:241];Sink: `Pong r ... {host}`;heartbeat.js:22[19:46]::FLOW_DESCR_END","/dist/homeAssistant/Websocket.js","311","185","311","241"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _b.type;Websocket.js:540[220:226];Sink: (_b = e ... _b.type;Websocket.js:540[125:226]::FLOW_DESCR_END","/dist/homeAssistant/Websocket.js","540","220","540","226"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;createSocket.js:34[28:31];Sink: message;createSocket.js:38[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;createSocket.js:34[28:31];Sink: message;createSocket.js:62[65:71]::FLOW_DESCR_END","/dist/homeAssistant/createSocket.js","34","28","34","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:51[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:54[68:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:63[57:60]::FLOW_DESCR_END","/dist/nodes/api/ApiController.js","22","20","22","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:51[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:54[68:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:63[57:60]::FLOW_DESCR_END","/dist/nodes/api/ApiController.js","32","38","32","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:51[67:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:54[68:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:63[57:60]::FLOW_DESCR_END","/dist/nodes/api/ApiController.js","33","23","33","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: __class ... ).pop();CallServiceController.js:81[26:94];Sink: item;CallServiceController.js:83[139:142]::FLOW_DESCR_END","/dist/nodes/call-service/CallServiceController.js","81","26","81","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.host;ConnectionLog.js:48[15:35];Sink: value;ConnectionLog.js:6[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.host;ConnectionLog.js:48[15:35];Sink: value;ConnectionLog.js:6[96:100]::FLOW_DESCR_END","/dist/nodes/config-server/ConnectionLog.js","48","15","48","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entity.entity_id;EditorContext.js:65[116:131];Sink: `states ... _id}""]`;EditorContext.js:65[105:135]::FLOW_DESCR_END","/dist/nodes/config-server/EditorContext.js","65","116","65","131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: (b ? th ... ).pop();handlebars.min-v4.7.8.js:6144[29:76];Sink: this;handlebars.min-v4.7.8.js:6110[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: (b ? th ... ).pop();handlebars.min-v4.7.8.js:6144[29:76];Sink: c;handlebars.min-v4.7.8.js:6110[42:42]::FLOW_DESCR_END","/resources/handlebars.min-v4.7.8.js","6144","29","6144","76"

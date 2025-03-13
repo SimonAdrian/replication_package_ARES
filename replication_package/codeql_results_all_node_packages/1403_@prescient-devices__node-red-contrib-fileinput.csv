@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: inMsg;fileinput.js:127[32:36];Sink: outMsg;fileinput.js:180[17:22]::FLOW_DESCR_END","/fileinput.js","127","32","127","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;fileinput_spec.js:173[43:46];Sink: data.to ... .trim();fileinput_spec.js:174[30:51]::FLOW_DESCR_END","/test/fileinput_spec.js","173","43","173","46"

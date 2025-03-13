@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;kafka.js:112[46:52];Sink: message;kafka.js:114[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;kafka.js:112[46:52];Sink: message;kafka.js:115[30:36]::FLOW_DESCR_END","/kafka.js","112","46","112","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafka.js:122[44:46];Sink: err;kafka.js:123[30:32]::FLOW_DESCR_END","/kafka.js","122","44","122","46"

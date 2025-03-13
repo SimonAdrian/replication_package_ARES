@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cansend.js:46[37:39];Sink: ""canid: ... ame.dlc;cansend.js:86[14:71]::FLOW_DESCR_END","/canutils/cansend.js","46","37","46","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;cansend.js:63[15:31];Sink: ""canid: ... ame.dlc;cansend.js:86[14:71]::FLOW_DESCR_END","/canutils/cansend.js","63","15","63","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;cansend.js:68[15:31];Sink: ""canid: ... ame.dlc;cansend.js:86[14:71]::FLOW_DESCR_END","/canutils/cansend.js","68","15","68","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame.data.length;cansend.js:73[15:31];Sink: ""canid: ... ame.dlc;cansend.js:86[14:71]::FLOW_DESCR_END","/canutils/cansend.js","73","15","73","31"

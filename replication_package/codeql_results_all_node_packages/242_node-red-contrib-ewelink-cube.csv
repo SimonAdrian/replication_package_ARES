@@ -1,0 +1,90 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: entry[0];capabilitiesTransform.js:792[155:162]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: entry[1];capabilitiesTransform.js:792[164:171]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: key;capabilitiesTransform.js:814[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: key;capabilitiesTransform.js:831[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:831[98:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: key;capabilitiesTransform.js:885[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: key;capabilitiesTransform.js:902[264:266]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:902[268:272]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:910[369:373]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: baseClo ... ,stack);capabilitiesTransform.js:1022[309:362]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:1279[776:781]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:1586[103:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: array;capabilitiesTransform.js:2057[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: array;capabilitiesTransform.js:2057[233:237]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: array;capabilitiesTransform.js:2057[262:266]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2081[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2082[11:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2082[212:217]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2095[26:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2095[165:170]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2095[195:200]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:2170[64:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:2170[214:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: object;capabilitiesTransform.js:2176[211:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:2363[72:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: func;capabilitiesTransform.js:2463[76:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:5611[153:157]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];capabilitiesTransform.js:768[112:125];Sink: value;capabilitiesTransform.js:5611[197:201]::FLOW_DESCR_END","/resources/js/capabilitiesTransform.js","768","112","768","125"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r[u];element.js:1[271473:271476];Sink: e;element.js:1[262531:262531]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r[u];element.js:1[271473:271476];Sink: h;element.js:1[271495:271495]::FLOW_DESCR_END","/resources/js/element.js","1","271473","1","271476"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _cookie ... ieName);stateTransform.js:2678[59:98];Sink: xsrfValue;stateTransform.js:2680[37:45]::FLOW_DESCR_END","/resources/js/stateTransform.js","2678","59","2678","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: entry[0];stateTransform.js:6601[155:162]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: entry[1];stateTransform.js:6601[164:171]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: key;stateTransform.js:6623[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: key;stateTransform.js:6640[94:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:6640[98:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: key;stateTransform.js:6694[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: key;stateTransform.js:6711[264:266]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:6711[268:272]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:6719[369:373]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: baseClo ... ,stack);stateTransform.js:6831[309:362]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7088[776:781]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:7395[103:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: array;stateTransform.js:7866[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: array;stateTransform.js:7866[233:237]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: array;stateTransform.js:7866[262:266]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7890[23:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7891[11:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7891[212:217]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7904[26:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7904[165:170]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7904[195:200]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:7979[64:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:7979[214:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: object;stateTransform.js:7985[211:216]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:8172[72:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: func;stateTransform.js:8272[76:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:11420[153:157]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[index][1];stateTransform.js:6577[112:125];Sink: value;stateTransform.js:11420[197:201]::FLOW_DESCR_END","/resources/js/stateTransform.js","6577","112","6577","125"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.ihostList;api-server.html:371[33:50];Sink: ip;api-server.html:302[38:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.ihostList;api-server.html:371[33:50];Sink: ihostList;api-server.html:372[57:65]::FLOW_DESCR_END","/src/api-server.html","371","33","371","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: 'before ... ateMap);event-state.js:236[30:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: playload;event-state.js:241[59:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: 'trvSta ... iceId));event-state.js:242[34:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: deviceStateMap;event-state.js:247[78:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: deviceStateMap;event-state.js:259[78:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: 'after  ... ull, 2);event-state.js:269[38:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: deviceStateMap;event-state.js:270[63:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: jsonData;event-state.js:80[56:63];Sink: 'after  ... iceId));event-state.js:271[38:122]::FLOW_DESCR_END","/src/event-state.js","80","56","80","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: 'before ... ateMap);event-state.js:236[30:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: playload;event-state.js:241[59:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: 'trvSta ... iceId));event-state.js:242[34:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: deviceStateMap;event-state.js:247[78:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: deviceStateMap;event-state.js:259[78:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: 'after  ... ull, 2);event-state.js:269[38:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: deviceStateMap;event-state.js:270[63:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg.data;event-state.js:92[51:63];Sink: 'after  ... iceId));event-state.js:271[38:122]::FLOW_DESCR_END","/src/event-state.js","92","51","92","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jsonData;event-state.js:302[48:55];Sink: 'jsonda ... onData);event-state.js:304[26:62]::FLOW_DESCR_END","/src/event-state.js","302","48","302","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: jsonData;event-state.js:332[45:52];Sink: 'jsonda ... onData);event-state.js:334[26:62]::FLOW_DESCR_END","/src/event-state.js","332","45","332","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-devices.js:8[33:35];Sink: msg;get-devices.js:52[35:37]::FLOW_DESCR_END","/src/get-devices.js","8","33","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ce_list;register-device.js:64[40:64];Sink: dev;register-device.js:67[45:47]::FLOW_DESCR_END","/src/register-device.js","64","40","64","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;register-device.js:64[40:52];Sink: dev;register-device.js:67[45:47]::FLOW_DESCR_END","/src/register-device.js","64","40","64","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.dat ... ce_list;device.js:11[56:80];Sink: originState;stateTransform.js:350[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.dat ... ce_list;device.js:11[56:80];Sink: originState;stateTransform.js:357[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.dat ... ce_list;device.js:11[56:80];Sink: originToggleObj;stateTransform.js:363[53:67]::FLOW_DESCR_END","/src/utils/device.js","11","56","11","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res.data.data;device.js:11[56:68];Sink: originState;stateTransform.js:350[48:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.data;device.js:11[56:68];Sink: originState;stateTransform.js:357[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: res.data.data;device.js:11[56:68];Sink: originToggleObj;stateTransform.js:363[53:67]::FLOW_DESCR_END","/src/utils/device.js","11","56","11","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... lepath);fs.js:73[29:53];Sink: content;fs.js:63[36:42]::FLOW_DESCR_END","/src/utils/fs.js","73","29","73","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dev;register-device.js:66[32:34];Sink: dev;register-device.js:67[45:47]::FLOW_DESCR_END","/src/register-device.js","66","32","66","34"

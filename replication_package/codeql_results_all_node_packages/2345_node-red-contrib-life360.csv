@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.circles;index.js:76[27:38];Sink: `${LIFE ... cleId}`;index.js:86[22:57]::FLOW_DESCR_END","/index.js","76","27","76","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: member.location;server.js:105[47:61];Sink: ""Settin ... ationId;server.js:107[41:55]::FLOW_DESCR_END","/nodes/server.js","105","47","105","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: member.location;server.js:106[49:63];Sink: ""Settin ... ationId;server.js:107[41:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: member.location;server.js:106[49:63];Sink: ""Prev p ... tionId];server.js:110[41:69]::FLOW_DESCR_END","/nodes/server.js","106","49","106","63"

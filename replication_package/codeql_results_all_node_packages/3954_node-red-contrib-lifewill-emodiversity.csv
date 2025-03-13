@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;emotion_analyze.js:16[35:37];Sink: msg;emotion_analyze.js:21[26:28]::FLOW_DESCR_END","/emotion_analyze.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;emotion_map.js:18[35:37];Sink: msg;emotion_map.js:30[26:28]::FLOW_DESCR_END","/emotion_map.js","18","35","18","37"

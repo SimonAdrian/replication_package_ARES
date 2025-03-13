@@ -1,0 +1,67 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createDocuments.js:38[31:33];Sink: theMsg;common.js:60[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createDocuments.js:38[31:33];Sink: msg;createDocuments.js:106[21:23]::FLOW_DESCR_END","/createDocuments/createDocuments.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: errString;common.js:36[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: errString;common.js:60[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: theMsg;common.js:60[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteDocuments.js:38[31:33];Sink: msg;deleteDocuments.js:277[21:23]::FLOW_DESCR_END","/deleteDocuments/deleteDocuments.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: moduleN ...  logMsg;common.js:15[21:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: errString;common.js:36[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: errString;common.js:60[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: theMsg;common.js:60[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:37[31:33];Sink: msg;documentMgr.js:240[19:21]::FLOW_DESCR_END","/documentMgr/documentMgr.js","37","31","37","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... ptions);documentMgr.js:189[34:58];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... ptions);documentMgr.js:189[34:58];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... ptions);documentMgr.js:189[34:58];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END","/documentMgr/documentMgr.js","189","34","189","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:198[34:59];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:198[34:59];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:198[34:59];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END","/documentMgr/documentMgr.js","198","34","198","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:205[34:59];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:205[34:59];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:205[34:59];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END","/documentMgr/documentMgr.js","205","34","205","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:221[34:59];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:221[34:59];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:221[34:59];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END","/documentMgr/documentMgr.js","221","34","221","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:226[34:59];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:226[34:59];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:226[34:59];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END","/documentMgr/documentMgr.js","226","34","226","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;explainQuery.js:38[31:33];Sink: theMsg;common.js:60[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;explainQuery.js:38[31:33];Sink: msg;explainQuery.js:84[21:23]::FLOW_DESCR_END","/explainQuery/explainQuery.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: errString;common.js:36[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: errString;common.js:60[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: theMsg;common.js:60[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getDocuments.js:38[31:33];Sink: msg;getDocuments.js:244[21:23]::FLOW_DESCR_END","/getDocuments/getDocuments.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: ""D10_re ... umentOp;documentMgr.js:75[27:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: ""D10_re ... umentOp;documentMgr.js:77[26:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: 'D10_re ...  + unid;documentMgr.js:251[25:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: 'D10_re ...  + unid;documentMgr.js:254[24:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: 'D10_re ...  + unid;documentMgr.js:312[23:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: 'D10_re ...  + unid;documentMgr.js:315[22:126]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: 'D10_re ...  + unid;documentMgr.js:324[23:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: msg;documentMgr.js:330[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: ""D10_ge ... "" "", 2);documentMgr.js:372[21:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;documentMgr.js:33[31:33];Sink: ""D10_ge ...  logMsg;documentMgr.js:380[23:50]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","33","31","33","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ap ... tials();documentMgr.js:34[19:51];Sink: JSON.st ... ' ', 2);documentMgr.js:236[23:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.ap ... tials();documentMgr.js:34[19:51];Sink: JSON.st ... ' ', 2);documentMgr.js:339[21:56]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","34","19","34","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... ptions);documentMgr.js:269[34:58];Sink: ""D10_ge ... "" "", 2);documentMgr.js:372[21:104]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","269","34","269","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:279[34:59];Sink: ""D10_ge ... "" "", 2);documentMgr.js:372[21:104]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","279","34","279","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:286[34:59];Sink: ""D10_ge ... "" "", 2);documentMgr.js:372[21:104]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","286","34","286","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:302[34:59];Sink: ""D10_ge ... "" "", 2);documentMgr.js:372[21:104]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","302","34","302","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: useDocu ... tions2);documentMgr.js:307[34:59];Sink: ""D10_ge ... "" "", 2);documentMgr.js:372[21:104]::FLOW_DESCR_END","/old_documentMgr/documentMgr.js","307","34","307","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getDocuments.js:35[31:33];Sink: msg;getDocuments.js:276[19:21]::FLOW_DESCR_END","/old_getDocuments/getDocuments.js","35","31","35","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: 'hostNa ... ostName;common.js:25[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: JSON.st ... "" "", 2);common.js:26[25:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: JSON.st ... "" "", 2);common.js:29[25:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: errString;common.js:36[17:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: JSON.st ... ' ', 2);common.js:37[29:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: errString;common.js:60[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: theMsg;common.js:60[30:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replaceDocuments.js:38[31:33];Sink: msg;replaceDocuments.js:302[21:23]::FLOW_DESCR_END","/replaceDocuments/replaceDocuments.js","38","31","38","33"

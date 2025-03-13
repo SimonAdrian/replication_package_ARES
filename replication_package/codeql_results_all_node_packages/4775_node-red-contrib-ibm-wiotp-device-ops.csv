@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service ... als.org;device_manager.js:35[16:43];Sink: JSON.st ... ds.org);device_manager.js:59[18:48]::FLOW_DESCR_END","/nodes/device_manager.js","35","16","35","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device_manager.js:110[35:37];Sink: msg;device_manager.js:124[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_manager.js:110[35:37];Sink: msg;device_manager.js:134[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_manager.js:110[35:37];Sink: ""Unsupp ... Delete"";device_manager.js:171[30:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_manager.js:110[35:37];Sink: ""Device ... ceType"";device_manager.js:194[24:160]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_manager.js:110[35:37];Sink: ""Device ... viceId"";device_manager.js:200[24:156]::FLOW_DESCR_END","/nodes/device_manager.js","110","35","110","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service ... als.org;device_type_manager.js:35[16:43];Sink: JSON.st ... ds.org);device_type_manager.js:60[18:48]::FLOW_DESCR_END","/nodes/device_type_manager.js","35","16","35","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device_type_manager.js:109[35:37];Sink: msg;device_type_manager.js:123[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_type_manager.js:109[35:37];Sink: msg;device_type_manager.js:133[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_type_manager.js:109[35:37];Sink: ""Device ... ceType"";device_type_manager.js:188[24:162]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device_type_manager.js:109[35:37];Sink: ""Device ... ceType"";device_type_manager.js:194[24:160]::FLOW_DESCR_END","/nodes/device_type_manager.js","109","35","109","37"

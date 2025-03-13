@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;socketio.js:9[17:22];Sink: ""Create ...  bindOn;socketio.js:26[14:39]::FLOW_DESCR_END","/socketio.js","9","17","9","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;socketio.js:25[22:30];Sink: ""Create ...  bindOn;socketio.js:26[14:39]::FLOW_DESCR_END","/socketio.js","25","22","25","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socketio.js:69[32:34];Sink: msg.payload;socketio.js:89[36:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:69[32:34];Sink: msg.payload;socketio.js:101[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:69[32:34];Sink: msg.payload;socketio.js:106[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socketio.js:69[32:34];Sink: msg.payload;socketio.js:111[36:46]::FLOW_DESCR_END","/socketio.js","69","32","69","34"

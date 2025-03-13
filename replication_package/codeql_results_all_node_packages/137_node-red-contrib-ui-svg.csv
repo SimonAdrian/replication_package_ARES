@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: pendingQueue.pop();jschannel.js:514[33:50];Sink: ""[""+chanId+""] "" + m;jschannel.js:227[33:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingQueue.pop();jschannel.js:514[33:50];Sink: verb +  ... fy(msg);jschannel.js:478[23:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: pendingQueue.pop();jschannel.js:514[33:50];Sink: JSON.stringify(msg);jschannel.js:490[44:62]::FLOW_DESCR_END","/lib/jschannel.js","514","33","514","50"

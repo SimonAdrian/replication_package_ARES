@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: b;docstrap.lib.js:1[717:717]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[9632:9632]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: c;docstrap.lib.js:1[23529:23529]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: a;docstrap.lib.js:1[29902:29902]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[2056:2059]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: b;docstrap.lib.js:1[9634:9634];Sink: _(a);docstrap.lib.js:2[6633:6636]::FLOW_DESCR_END","/docs/gen/scripts/docstrap.lib.js","1","9634","1","9634"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: a;helper-debug.js:1[2148:2148]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: a.status;helper-debug.js:1[2168:2175]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: a.status.source;helper-debug.js:1[2195:2209]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: t;helper-debug.js:1[2711:2711]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: t;helper-debug.js:1[2729:2729]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: t;helper-debug.js:1[2748:2748]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: a;helper-debug.js:1[2820:2820]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: a;helper-debug.js:1[2867:2867]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a;helper-debug.js:1[2131:2131];Sink: ""\n""+p. ... th:10});helper-debug.js:1[3472:3508]::FLOW_DESCR_END","/helper/helper-debug.js","1","2131","1","2131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e.readF ... html""));helper-debug.js:1[4895:4948];Sink: i;helper-debug.js:1[4886:4886]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e.readF ... html""));helper-debug.js:1[4895:4948];Sink: i;helper-debug.js:1[5211:5211]::FLOW_DESCR_END","/helper/helper-debug.js","1","4895","1","4948"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;http-ntlm-req.js:21[30:32];Sink: msg;http-ntlm-req.js:11[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;http-ntlm-req.js:21[30:32];Sink: msg;http-ntlm-req.js:35[15:17]::FLOW_DESCR_END","/http-ntlm-req.js","21","30","21","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;http-ntlm-req.js:22[34:36];Sink: text;http-ntlm-req.js:11[15:18]::FLOW_DESCR_END","/http-ntlm-req.js","22","34","22","36"

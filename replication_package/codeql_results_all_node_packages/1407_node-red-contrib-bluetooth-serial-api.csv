@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[29:31];Sink: address;bluetooth-serial.js:37[22:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[29:31];Sink: Buffer. ... utf-8"");bluetooth-serial.js:57[7:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bluetooth-serial.js:9[29:31];Sink: msg;bluetooth-serial.js:72[16:18]::FLOW_DESCR_END","/bluetooth-serial.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: buffer;bluetooth-serial.js:69[20:25];Sink: Buffer. ... utf-8"");bluetooth-serial.js:57[7:38]::FLOW_DESCR_END","/bluetooth-serial.js","69","20","69","25"

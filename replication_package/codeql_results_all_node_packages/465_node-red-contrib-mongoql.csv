@@ -1,0 +1,69 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;countDoc.js:8[36:38];Sink: msg;countDoc.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countDoc.js:8[36:38];Sink: url;countDoc.js:30[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countDoc.js:8[36:38];Sink: msg;countDoc.js:39[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countDoc.js:8[36:38];Sink: msg;countDoc.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countDoc.js:8[36:38];Sink: msg;countDoc.js:52[31:33]::FLOW_DESCR_END","/countDoc.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteById.js:9[36:38];Sink: msg;deleteById.js:24[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteById.js:9[36:38];Sink: url;deleteById.js:33[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteById.js:9[36:38];Sink: msg;deleteById.js:45[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteById.js:9[36:38];Sink: msg;deleteById.js:52[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteById.js:9[36:38];Sink: msg;deleteById.js:58[31:33]::FLOW_DESCR_END","/deleteById.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteMany.js:8[36:38];Sink: msg;deleteMany.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteMany.js:8[36:38];Sink: url;deleteMany.js:30[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteMany.js:8[36:38];Sink: msg;deleteMany.js:42[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteMany.js:8[36:38];Sink: msg;deleteMany.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteMany.js:8[36:38];Sink: msg;deleteMany.js:55[31:33]::FLOW_DESCR_END","/deleteMany.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropDb.js:8[36:38];Sink: msg;dropDb.js:19[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDb.js:8[36:38];Sink: url;dropDb.js:24[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDb.js:8[36:38];Sink: msg;dropDb.js:29[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDb.js:8[36:38];Sink: msg;dropDb.js:40[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDb.js:8[36:38];Sink: msg;dropDb.js:47[39:41]::FLOW_DESCR_END","/dropDb.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropDbCol.js:8[36:38];Sink: msg;dropDbCol.js:21[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDbCol.js:8[36:38];Sink: url;dropDbCol.js:27[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDbCol.js:8[36:38];Sink: msg;dropDbCol.js:32[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDbCol.js:8[36:38];Sink: msg;dropDbCol.js:43[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropDbCol.js:8[36:38];Sink: msg;dropDbCol.js:50[39:41]::FLOW_DESCR_END","/dropDbCol.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;find.js:8[36:38];Sink: msg;find.js:41[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find.js:8[36:38];Sink: url;find.js:51[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find.js:8[36:38];Sink: msg;find.js:60[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find.js:8[36:38];Sink: msg;find.js:67[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find.js:8[36:38];Sink: msg;find.js:73[31:33]::FLOW_DESCR_END","/find.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;findById.js:9[36:38];Sink: msg;findById.js:24[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;findById.js:9[36:38];Sink: url;findById.js:33[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;findById.js:9[36:38];Sink: msg;findById.js:42[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;findById.js:9[36:38];Sink: msg;findById.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;findById.js:9[36:38];Sink: msg;findById.js:55[31:33]::FLOW_DESCR_END","/findById.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insertDoc.js:8[36:38];Sink: msg;insertDoc.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertDoc.js:8[36:38];Sink: url;insertDoc.js:30[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertDoc.js:8[36:38];Sink: msg;insertDoc.js:40[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertDoc.js:8[36:38];Sink: msg;insertDoc.js:47[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertDoc.js:8[36:38];Sink: msg;insertDoc.js:53[31:33]::FLOW_DESCR_END","/insertDoc.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insertMany.js:8[36:38];Sink: msg;insertMany.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertMany.js:8[36:38];Sink: url;insertMany.js:30[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertMany.js:8[36:38];Sink: msg;insertMany.js:40[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertMany.js:8[36:38];Sink: msg;insertMany.js:47[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertMany.js:8[36:38];Sink: msg;insertMany.js:53[31:33]::FLOW_DESCR_END","/insertMany.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insertOne.js:8[36:38];Sink: msg;insertOne.js:23[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertOne.js:8[36:38];Sink: url;insertOne.js:30[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertOne.js:8[36:38];Sink: msg;insertOne.js:40[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertOne.js:8[36:38];Sink: msg;insertOne.js:47[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insertOne.js:8[36:38];Sink: msg;insertOne.js:53[31:33]::FLOW_DESCR_END","/insertOne.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listDb.js:8[36:38];Sink: msg;listDb.js:17[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listDb.js:8[36:38];Sink: msg;listDb.js:31[31:33]::FLOW_DESCR_END","/listDb.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listDbCol.js:8[36:38];Sink: msg;listDbCol.js:19[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listDbCol.js:8[36:38];Sink: msg;listDbCol.js:31[35:37]::FLOW_DESCR_END","/listDbCol.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateById.js:9[36:38];Sink: msg;updateById.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateById.js:9[36:38];Sink: url;updateById.js:35[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateById.js:9[36:38];Sink: msg;updateById.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateById.js:9[36:38];Sink: msg;updateById.js:55[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateById.js:9[36:38];Sink: msg;updateById.js:61[31:33]::FLOW_DESCR_END","/updateById.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateMany.js:9[36:38];Sink: msg;updateMany.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateMany.js:9[36:38];Sink: url;updateMany.js:34[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateMany.js:9[36:38];Sink: msg;updateMany.js:47[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateMany.js:9[36:38];Sink: msg;updateMany.js:54[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateMany.js:9[36:38];Sink: msg;updateMany.js:60[31:33]::FLOW_DESCR_END","/updateMany.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updateUnset.js:9[36:38];Sink: msg;updateUnset.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateUnset.js:9[36:38];Sink: url;updateUnset.js:34[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateUnset.js:9[36:38];Sink: msg;updateUnset.js:47[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateUnset.js:9[36:38];Sink: msg;updateUnset.js:54[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updateUnset.js:9[36:38];Sink: msg;updateUnset.js:60[31:33]::FLOW_DESCR_END","/updateUnset.js","9","36","9","38"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-request.js:63[34:36];Sink: msg;dxl-request.js:83[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-request.js:63[34:36];Sink: msg;dxl-request.js:92[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-request.js:63[34:36];Sink: msg;dxl-request.js:96[57:59]::FLOW_DESCR_END","/nodes/dxl-request.js","63","34","63","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dxl-response.js:43[34:36];Sink: msg;dxl-response.js:44[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-response.js:43[34:36];Sink: msg;dxl-response.js:49[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-response.js:43[34:36];Sink: msg.error;dxl-response.js:50[52:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dxl-response.js:43[34:36];Sink: msg.dxlError;dxl-response.js:53[70:81]::FLOW_DESCR_END","/nodes/dxl-response.js","43","34","43","36"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;my-gateway.js:10[21:26];Sink: ""Server ...  + port;tcp_proxy.js:182[26:58]::FLOW_DESCR_END","/gateway/my-gateway.js","10","21","10","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;my-gateway.js:12[52:60];Sink: ""Server ...  + port;tcp_proxy.js:182[26:58]::FLOW_DESCR_END","/gateway/my-gateway.js","12","52","12","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;my-set-msg.js:8[36:38];Sink: [msg];my-set-msg.js:11[27:31]::FLOW_DESCR_END","/gateway/my-set-msg.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.childs;tcp_proxy.js:55[22:32];Sink: ""req on ... .length;tcp_proxy.js:57[26:75]::FLOW_DESCR_END","/lib/tcp_proxy.js","55","22","55","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sensor.onValueUpdate;tcp_proxy.js:57[49:68];Sink: ""req on ... .length;tcp_proxy.js:57[26:75]::FLOW_DESCR_END","/lib/tcp_proxy.js","57","49","57","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.childs;tcp_proxy.js:66[22:32];Sink: ""set on ... .length;tcp_proxy.js:68[26:75]::FLOW_DESCR_END","/lib/tcp_proxy.js","66","22","66","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sensor.onValueUpdate;tcp_proxy.js:68[49:68];Sink: ""set on ... .length;tcp_proxy.js:68[26:75]::FLOW_DESCR_END","/lib/tcp_proxy.js","68","49","68","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: CMD.subTypes;types.js:168[16:27];Sink: parseAd ... .trim();tcp_proxy.js:37[25:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: CMD.subTypes;types.js:168[16:27];Sink: parseAd ... .trim();tcp_proxy.js:273[24:106]::FLOW_DESCR_END","/lib/types.js","168","16","168","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: CMD.name;types.js:169[19:26];Sink: parseAd ... .trim();tcp_proxy.js:37[25:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: CMD.name;types.js:169[19:26];Sink: parseAd ... .trim();tcp_proxy.js:273[24:106]::FLOW_DESCR_END","/lib/types.js","169","19","169","26"

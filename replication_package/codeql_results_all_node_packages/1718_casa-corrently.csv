@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DiscovergyMeter.js:9[39:41];Sink: msg;DiscovergyMeter.js:29[19:21]::FLOW_DESCR_END","/DiscovergyMeter.js","9","39","9","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DiscovergyMetersList.js:8[39:41];Sink: msg;DiscovergyMetersList.js:34[19:21]::FLOW_DESCR_END","/DiscovergyMetersList.js","8","39","8","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: meters[i].location;corrently.js:16[89:106];Sink: ""https: ... ion.zip;corrently.js:16[45:110]::FLOW_DESCR_END","/lib/corrently.js","16","89","16","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: meterinfo.location;stats.js:102[83:100];Sink: ""https: ... ion.zip;stats.js:102[43:104]::FLOW_DESCR_END","/lib/stats.js","102","83","102","100"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rpi-unicorn.js:72[44:47];Sink: ""Unicor ... message;rpi-unicorn.js:21[49:69]::FLOW_DESCR_END","/rpi-unicorn.js","72","44","72","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rpi-unicorn.js:84[44:47];Sink: ""Unicor ... message;rpi-unicorn.js:21[49:69]::FLOW_DESCR_END","/rpi-unicorn.js","84","44","84","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;rpi-unicorn.js:91[38:41];Sink: ""Unicor ... message;rpi-unicorn.js:21[49:69]::FLOW_DESCR_END","/rpi-unicorn.js","91","38","91","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpi-unicorn.js:162[35:37];Sink: msg+""\n"";rpi-unicorn.js:148[41:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpi-unicorn.js:162[35:37];Sink: msg.top ... tring();rpi-unicorn.js:164[26:65]::FLOW_DESCR_END","/rpi-unicorn.js","162","35","162","37"

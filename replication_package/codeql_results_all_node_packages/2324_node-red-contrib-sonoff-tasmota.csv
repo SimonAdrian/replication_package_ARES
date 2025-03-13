@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;sonoff.js:37[58:62];Sink: topic;sonoff.js:39[47:51]::FLOW_DESCR_END","/sonoff.js","37","58","37","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;sonoff.js:37[65:71];Sink: stringPayload;sonoff.js:39[54:66]::FLOW_DESCR_END","/sonoff.js","37","65","37","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;sonoff.js:47[62:66];Sink: topic;sonoff.js:49[47:51]::FLOW_DESCR_END","/sonoff.js","47","62","47","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;sonoff.js:47[69:75];Sink: stringPayload;sonoff.js:49[54:66]::FLOW_DESCR_END","/sonoff.js","47","69","47","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;sonoff.js:66[61:65];Sink: topic;sonoff.js:68[47:51]::FLOW_DESCR_END","/sonoff.js","66","61","66","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;sonoff.js:66[68:74];Sink: stringPayload;sonoff.js:68[54:66]::FLOW_DESCR_END","/sonoff.js","66","68","66","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sonoff.js:81[30:32];Sink: JSON.stringify(msg);sonoff.js:82[36:54]::FLOW_DESCR_END","/sonoff.js","81","30","81","32"

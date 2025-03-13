@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: delete_queue.pop();delete.js:74[27:44];Sink: msg;delete.js:102[31:33]::FLOW_DESCR_END","/discovery-insert/delete.js","74","27","74","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:123[36:38];Sink: msg;delete.js:102[31:33]::FLOW_DESCR_END","/discovery-insert/delete.js","123","36","123","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: insert_queue.pop();insert.js:110[27:44];Sink: msg;insert.js:140[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: insert_queue.pop();insert.js:110[27:44];Sink: msg;insert.js:144[31:33]::FLOW_DESCR_END","/discovery-insert/insert.js","110","27","110","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insert.js:165[36:38];Sink: msg;insert.js:140[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insert.js:165[36:38];Sink: msg;insert.js:144[31:33]::FLOW_DESCR_END","/discovery-insert/insert.js","165","36","165","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: update_queue.pop();update.js:115[27:44];Sink: msg;update.js:149[31:33]::FLOW_DESCR_END","/discovery-insert/update.js","115","27","115","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:170[36:38];Sink: msg;update.js:149[31:33]::FLOW_DESCR_END","/discovery-insert/update.js","170","36","170","38"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zeromq.js:96[35:37];Sink: m;zeromq.js:106[32:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zeromq.js:96[35:37];Sink: msg;zeromq.js:109[58:60]::FLOW_DESCR_END","/zeromq.js","96","35","96","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zeromq.js:152[35:37];Sink: m;zeromq.js:162[32:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zeromq.js:152[35:37];Sink: msg;zeromq.js:165[58:60]::FLOW_DESCR_END","/zeromq.js","152","35","152","37"

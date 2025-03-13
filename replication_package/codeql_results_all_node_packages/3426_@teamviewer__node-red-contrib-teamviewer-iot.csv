@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connectorId;tv_iot_client.js:49[41:51];Sink: 'CONNEC ... .connId;tv_iot_client.js:52[14:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connectorId;tv_iot_client.js:49[41:51];Sink: 'Connec ... .connId;tv_iot_client.js:61[15:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connectorId;tv_iot_client.js:49[41:51];Sink: node.connId;tv_iot_client.js:62[35:45]::FLOW_DESCR_END","/nodes/tv_iot_client.js","49","41","49","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connectorId;tv_iot_client.js:59[23:33];Sink: 'CONNEC ... .connId;tv_iot_client.js:52[14:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connectorId;tv_iot_client.js:59[23:33];Sink: 'Connec ... .connId;tv_iot_client.js:61[15:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: connectorId;tv_iot_client.js:59[23:33];Sink: node.connId;tv_iot_client.js:62[35:45]::FLOW_DESCR_END","/nodes/tv_iot_client.js","59","23","59","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tv_iot_client.js:133[45:47];Sink: 'Error: ' + err;tv_iot_client.js:135[14:28]::FLOW_DESCR_END","/nodes/tv_iot_client.js","133","45","133","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tv_iot_client.js:142[31:33];Sink: 'Error: ' + err;tv_iot_client.js:144[14:28]::FLOW_DESCR_END","/nodes/tv_iot_client.js","142","31","142","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tv_iot_client.js:148[33:35];Sink: 'Offline: ' + err;tv_iot_client.js:150[14:30]::FLOW_DESCR_END","/nodes/tv_iot_client.js","148","33","148","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tv_iot_client.js:154[31:33];Sink: 'Close: ' + err;tv_iot_client.js:156[14:28]::FLOW_DESCR_END","/nodes/tv_iot_client.js","154","31","154","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tv_iot_client.js:160[49:51];Sink: 'proble ... ' + err;tv_iot_client.js:162[14:46]::FLOW_DESCR_END","/nodes/tv_iot_client.js","160","49","160","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: metricListNew;tv_iot_out.js:18[41:53];Sink: metric.matchingId;tv_iot_out.js:21[44:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: metricListNew;tv_iot_out.js:18[41:53];Sink: metric. ... ion||'';tv_iot_out.js:22[46:71]::FLOW_DESCR_END","/nodes/tv_iot_out.js","18","41","18","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sensorList;tv_iot_sensor.js:26[41:50];Sink: sensor.id;tv_iot_sensor.js:33[46:54]::FLOW_DESCR_END","/nodes/tv_iot_sensor.js","26","41","26","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sensor_list;tv_iot_sensor.js:55[30:40];Sink: node.ex ... ensorId;tv_iot_sensor.js:78[42:66]::FLOW_DESCR_END","/nodes/tv_iot_sensor.js","55","30","55","40"

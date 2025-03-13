@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search.js:44[27:29];Sink: msg;search.js:28[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search.js:44[27:29];Sink: msg;search.js:34[19:21]::FLOW_DESCR_END","/lib/search.js","44","27","44","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;search.js:85[46:50];Sink: `errorTag ${error}`;search.js:33[20:38]::FLOW_DESCR_END","/lib/search.js","85","46","85","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;search.js:91[36:38];Sink: `errorTag ${error}`;search.js:33[20:38]::FLOW_DESCR_END","/lib/search.js","91","36","91","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;config.js:8[13:16];Sink: field;index.js:5[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;config.js:8[13:16];Sink: field;index.js:8[40:44]::FLOW_DESCR_END","/lib/config.js","8","13","8","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;config.js:9[13:16];Sink: field;index.js:5[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: port;config.js:9[13:16];Sink: field;index.js:8[40:44]::FLOW_DESCR_END","/lib/config.js","9","13","9","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;config.js:11[13:20];Sink: field;index.js:5[38:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: password;config.js:11[13:20];Sink: field;index.js:8[40:44]::FLOW_DESCR_END","/lib/config.js","11","13","11","20"

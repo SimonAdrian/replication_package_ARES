@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tpCommon.js:61[48:50];Sink: ""python ... "" + err;tpCommon.js:62[30:50]::FLOW_DESCR_END","/tpCommon.js","61","48","61","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpCommon.js:66[54:57];Sink: ""err: "" + data;tpCommon.js:67[30:43]::FLOW_DESCR_END","/tpCommon.js","66","54","66","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpCommon.js:182[50:53];Sink: msg;tpCommon.js:149[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;tpCommon.js:182[50:53];Sink: msg;tpCommon.js:159[18:20]::FLOW_DESCR_END","/tpCommon.js","182","50","182","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tpInitialize.js:52[42:44];Sink: ""python ... "" + err;tpInitialize.js:53[24:44]::FLOW_DESCR_END","/tpInitialize.js","52","42","52","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpInitialize.js:57[48:51];Sink: ""err: "" + data;tpInitialize.js:58[24:37]::FLOW_DESCR_END","/tpInitialize.js","57","48","57","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;tpInitialize.js:62[48:51];Sink: ""data: "" + d[i];tpInitialize.js:71[30:44]::FLOW_DESCR_END","/tpInitialize.js","62","48","62","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: slotInfo.host;tpInitialize.js:109[20:32];Sink: ""err: T ...  + comm;tpInitialize.js:129[24:106]::FLOW_DESCR_END","/tpInitialize.js","109","20","109","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: slotInfo.host;tpInitialize.js:179[20:32];Sink: ""err: T ... 'name'];tpInitialize.js:318[44:170]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: slotInfo.host;tpInitialize.js:179[20:32];Sink: ""err: T ...  + comm;tpInitialize.js:360[36:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: slotInfo.host;tpInitialize.js:179[20:32];Sink: ""err: T ...  + comm;tpInitialize.js:367[36:136]::FLOW_DESCR_END","/tpInitialize.js","179","20","179","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');tpInitialize.js:562[29:62];Sink: JSON.st ... opJson);tpInitialize.js:626[36:57]::FLOW_DESCR_END","/tpInitialize.js","562","29","562","62"

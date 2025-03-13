@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lorawan-red.js:74[63:65];Sink: err.message;lorawan-red.js:81[19:29]::FLOW_DESCR_END","/lib/lorawan-red.js","74","63","74","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lorawan-red.js:172[63:65];Sink: err.message;lorawan-red.js:179[19:29]::FLOW_DESCR_END","/lib/lorawan-red.js","172","63","172","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;lorawan.js:141[53:56];Sink: 'DATA: ' + data;lorawan.js:142[16:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;lorawan.js:141[53:56];Sink: 'Answer ... ascii');lorawan.js:148[17:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;lorawan.js:141[53:56];Sink: ""Receiv ... ascii');lorawan.js:152[17:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;lorawan.js:141[53:56];Sink: data;lorawan.js:154[36:39]::FLOW_DESCR_END","/lib/lorawan.js","141","53","141","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: me.call ... k.pop();lorawan.js:145[16:37];Sink: 'Answer ... ascii');lorawan.js:148[17:68]::FLOW_DESCR_END","/lib/lorawan.js","145","16","145","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lorawan.js:156[28:30];Sink: err;lorawan.js:157[36:38]::FLOW_DESCR_END","/lib/lorawan.js","156","28","156","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;test.js:14[28:30];Sink: err.message;test.js:15[25:35]::FLOW_DESCR_END","/lib/test.js","14","28","14","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;test.js:28[18:21];Sink: 'Answer ... ascii');test.js:34[15:66]::FLOW_DESCR_END","/lib/test.js","28","18","28","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: callbackStack.pop();test.js:31[14:32];Sink: 'Answer ... ascii');test.js:34[15:66]::FLOW_DESCR_END","/lib/test.js","31","14","31","32"

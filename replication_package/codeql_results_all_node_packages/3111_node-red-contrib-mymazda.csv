@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: { ...ms ...  info };mymazda-car.js:25[18:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: `Comman ... ${cmd}`;mymazda-car.js:74[24:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: `Comman ... ${cmd}`;mymazda-car.js:77[24:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: `Comman ... ${cmd}`;mymazda-car.js:80[24:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: { ...pa ... tatus };mymazda-car.js:90[19:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: { ...pa ... tatus };mymazda-car.js:99[19:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mymazda-car.js:16[29:31];Sink: { ...pa ... tatus };mymazda-car.js:108[19:66]::FLOW_DESCR_END","/red/mymazda-car.js","16","29","16","31"

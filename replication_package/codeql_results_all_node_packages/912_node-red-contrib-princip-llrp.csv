@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;LLRPMain.js:47[13:23];Sink: port;LLRPMain.js:102[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;LLRPMain.js:47[13:23];Sink: 'connec ...  + port;LLRPMain.js:107[33:68]::FLOW_DESCR_END","/lib/llrp/LLRPMain.js","47","13","47","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;LLRPMain.js:192[32:34];Sink: ""connec ... : ""+err;LLRPMain.js:199[32:55]::FLOW_DESCR_END","/lib/llrp/LLRPMain.js","192","32","192","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;LLRPMain.js:442[46:52];Sink: buffer;LLRPMain.js:370[17:22]::FLOW_DESCR_END","/lib/llrp/LLRPMain.js","442","46","442","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;test.js:35[30:34];Sink: 'error: ... (error);test.js:36[14:46]::FLOW_DESCR_END","/lib/test.js","35","30","35","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: tag;test.js:39[34:36];Sink: 'TAG: ' + tag;test.js:41[14:26]::FLOW_DESCR_END","/lib/test.js","39","34","39","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;llrp-in.js:71[31:33];Sink: buffer;LLRPMain.js:370[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;llrp-in.js:71[31:33];Sink: msg.payload;llrp-in.js:74[42:52]::FLOW_DESCR_END","/nodes/llrp-in/llrp-in.js","71","31","71","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.port;index.js:63[17:27];Sink: port;LLRPMain.js:102[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device.port;index.js:63[17:27];Sink: 'connec ...  + port;LLRPMain.js:107[33:68]::FLOW_DESCR_END","/utils/index.js","63","17","63","27"

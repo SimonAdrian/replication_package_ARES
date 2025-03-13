@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lynx-get-meta.js:19[32:34];Sink: msg;lynx-get-meta.js:45[16:18]::FLOW_DESCR_END","/lib/lynx-get-meta.js","19","32","19","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lynx-get-status.js:17[32:34];Sink: msg;lynx-get-status.js:50[14:16]::FLOW_DESCR_END","/lib/lynx-get-status.js","17","32","17","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lynx-out.js:20[32:34];Sink: msg;lynx-out.js:23[28:30]::FLOW_DESCR_END","/lib/lynx-out.js","20","32","20","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;lynx-out.js:20[43:46];Sink: done;lynx-out.js:23[33:36]::FLOW_DESCR_END","/lib/lynx-out.js","20","43","20","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lynx-server.js:124[43:45];Sink: err;lynx-server.js:125[25:27]::FLOW_DESCR_END","/lib/lynx-server.js","124","43","124","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lynx-test.js:7[32:34];Sink: msg;lynx-test.js:9[17:19]::FLOW_DESCR_END","/lib/lynx-test.js","7","32","7","34"

@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address;cul-max-controller.js:177[31:37];Sink: `addToS ... evice}`;cul-max-controller.js:153[16:90]::FLOW_DESCR_END","/cul-max-controller.js","177","31","177","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: `Enough ... eTime}`;cul-max-controller.js:114[15:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: `availa ... eeded}`;cul-max-controller.js:137[15:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: `Adding ... ress}'`;cul-max-controller.js:291[15:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: `Receiv ... a.dst}`;cul-max-controller.js:344[19:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: data.src;cul-max-controller.js:349[32:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: dst;cul-max-controller.js:416[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: `TimeIn ...  time.`;cul-max-controller.js:427[16:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-controller.js:517[30:32];Sink: `we rec ... redit}`;cul-max-controller.js:526[14:114]::FLOW_DESCR_END","/cul-max-controller.js","517","30","517","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.body.deviceId;cul-max-controller.js:668[18:34];Sink: `remove ... iceId}`;cul-max-controller.js:671[16:83]::FLOW_DESCR_END","/cul-max-controller.js","668","18","668","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: culMaxPayload;cul-max-device.js:148[80:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: `%%%% $ ... yload}`;cul-max-device.js:247[16:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: culMaxPayload;cul-max-device.js:248[81:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: `Unknow ... yload}`;cul-max-device.js:255[15:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: `messag ... ength}`;cul-max-device.js:386[17:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: `messag ... [idx]}`;cul-max-device.js:388[18:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: `Going  ... yload}`;cul-max-device.js:390[18:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cul-max-device.js:399[30:32];Sink: culMaxPayload;cul-max-device.js:391[83:95]::FLOW_DESCR_END","/cul-max-device.js","399","30","399","32"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e.nodes ... .apiKey;stripe.js:1[710:752];Sink: e;stripe.js:1[2086:2086]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e.nodes ... .apiKey;stripe.js:1[710:752];Sink: e;stripe.js:1[2104:2104]::FLOW_DESCR_END","/dist/stripe.js","1","710","1","752"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e.nodes ... igNode);stripe.js:1[710:745];Sink: e;stripe.js:1[2086:2086]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e.nodes ... igNode);stripe.js:1[710:745];Sink: e;stripe.js:1[2104:2104]::FLOW_DESCR_END","/dist/stripe.js","1","710","1","745"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: s;stripe.js:1[785:785];Sink: e;stripe.js:1[2086:2086]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;stripe.js:1[785:785];Sink: e;stripe.js:1[2104:2104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;stripe.js:1[785:785];Sink: s;stripe.js:1[2687:2687]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: s;stripe.js:1[785:785];Sink: s;stripe.js:1[2784:2784]::FLOW_DESCR_END","/dist/stripe.js","1","785","1","785"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: a.ops.pop();stripe.js:1[1467:1477];Sink: n;stripe.js:1[1260:1260]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a.ops.pop();stripe.js:1[1467:1477];Sink: n;stripe.js:1[1286:1286]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: a.ops.pop();stripe.js:1[1467:1477];Sink: i[1];stripe.js:1[1288:1291]::FLOW_DESCR_END","/dist/stripe.js","1","1467","1","1477"

@@ -1,0 +1,67 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-connection-status.js:40[29:31];Sink: {\r\n     ...       };ads-client-connection-status.js:51[12:7]::FLOW_DESCR_END","/src/ads-client-connection-status.js","40","29","40","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-convert-from-raw.js:14[29:31];Sink: msg;ads-client-convert-from-raw.js:19[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-from-raw.js:14[29:31];Sink: msg;ads-client-convert-from-raw.js:27[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-from-raw.js:14[29:31];Sink: msg;ads-client-convert-from-raw.js:39[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-from-raw.js:14[29:31];Sink: {\r\n     ...       };ads-client-convert-from-raw.js:56[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-from-raw.js:14[29:31];Sink: msg;ads-client-convert-from-raw.js:68[44:46]::FLOW_DESCR_END","/src/ads-client-convert-from-raw.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-convert-to-raw.js:15[29:31];Sink: msg;ads-client-convert-to-raw.js:20[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-to-raw.js:15[29:31];Sink: msg;ads-client-convert-to-raw.js:28[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-to-raw.js:15[29:31];Sink: msg;ads-client-convert-to-raw.js:40[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-to-raw.js:15[29:31];Sink: {\r\n     ...       };ads-client-convert-to-raw.js:58[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-convert-to-raw.js:15[29:31];Sink: msg;ads-client-convert-to-raw.js:70[44:46]::FLOW_DESCR_END","/src/ads-client-convert-to-raw.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-get-symbol-info.js:14[29:31];Sink: msg;ads-client-get-symbol-info.js:19[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-get-symbol-info.js:14[29:31];Sink: msg;ads-client-get-symbol-info.js:27[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-get-symbol-info.js:14[29:31];Sink: msg;ads-client-get-symbol-info.js:39[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-get-symbol-info.js:14[29:31];Sink: {\r\n     ...       };ads-client-get-symbol-info.js:53[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-get-symbol-info.js:14[29:31];Sink: msg;ads-client-get-symbol-info.js:66[45:47]::FLOW_DESCR_END","/src/ads-client-get-symbol-info.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-invoke-rpc-method.js:14[29:31];Sink: msg;ads-client-invoke-rpc-method.js:19[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-invoke-rpc-method.js:14[29:31];Sink: msg;ads-client-invoke-rpc-method.js:27[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-invoke-rpc-method.js:14[29:31];Sink: msg;ads-client-invoke-rpc-method.js:39[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-invoke-rpc-method.js:14[29:31];Sink: {\r\n     ...       };ads-client-invoke-rpc-method.js:59[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-invoke-rpc-method.js:14[29:31];Sink: msg;ads-client-invoke-rpc-method.js:73[45:47]::FLOW_DESCR_END","/src/ads-client-invoke-rpc-method.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:22[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:33[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:45[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:57[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:69[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:81[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:87[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:93[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:105[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: {\r\n     ...       };ads-client-read-raw.js:117[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-raw.js:17[29:31];Sink: msg;ads-client-read-raw.js:129[44:46]::FLOW_DESCR_END","/src/ads-client-read-raw.js","17","29","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-read-runtime-state.js:14[29:31];Sink: msg;ads-client-read-runtime-state.js:19[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-runtime-state.js:14[29:31];Sink: msg;ads-client-read-runtime-state.js:27[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-runtime-state.js:14[29:31];Sink: msg;ads-client-read-runtime-state.js:39[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-runtime-state.js:14[29:31];Sink: {\r\n     ...       };ads-client-read-runtime-state.js:53[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-runtime-state.js:14[29:31];Sink: msg;ads-client-read-runtime-state.js:67[45:47]::FLOW_DESCR_END","/src/ads-client-read-runtime-state.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-read-symbol.js:14[29:31];Sink: msg;ads-client-read-symbol.js:19[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-symbol.js:14[29:31];Sink: msg;ads-client-read-symbol.js:27[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-symbol.js:14[29:31];Sink: msg;ads-client-read-symbol.js:39[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-symbol.js:14[29:31];Sink: {\r\n     ...       };ads-client-read-symbol.js:53[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-symbol.js:14[29:31];Sink: msg;ads-client-read-symbol.js:68[45:47]::FLOW_DESCR_END","/src/ads-client-read-symbol.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-read-system-manager-state.js:13[29:31];Sink: msg;ads-client-read-system-manager-state.js:18[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-system-manager-state.js:13[29:31];Sink: msg;ads-client-read-system-manager-state.js:30[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-system-manager-state.js:13[29:31];Sink: {\r\n     ...       };ads-client-read-system-manager-state.js:42[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-read-system-manager-state.js:13[29:31];Sink: msg;ads-client-read-system-manager-state.js:56[45:47]::FLOW_DESCR_END","/src/ads-client-read-system-manager-state.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: sub;ads-client-subscribe.js:68[43:45];Sink: `Warnin ... arget}`;ads-client-subscribe.js:45[23:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sub;ads-client-subscribe.js:68[43:45];Sink: `Error: ... al} ms`;ads-client-subscribe.js:159[22:152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: sub;ads-client-subscribe.js:68[43:45];Sink: `Error: ... ssage}`;ads-client-subscribe.js:186[20:118]::FLOW_DESCR_END","/src/ads-client-subscribe.js","68","43","68","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-subscribe.js:199[29:31];Sink: `Error: ... al} ms`;ads-client-subscribe.js:159[22:152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-subscribe.js:199[29:31];Sink: msg;ads-client-subscribe.js:203[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-subscribe.js:199[29:31];Sink: msg;ads-client-subscribe.js:222[82:84]::FLOW_DESCR_END","/src/ads-client-subscribe.js","199","29","199","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:23[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:34[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:46[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:58[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:70[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:76[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:84[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:96[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: {\r\n     ...       };ads-client-write-raw.js:108[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-raw.js:18[29:31];Sink: msg;ads-client-write-raw.js:120[44:46]::FLOW_DESCR_END","/src/ads-client-write-raw.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ads-client-write-symbol.js:15[29:31];Sink: msg;ads-client-write-symbol.js:20[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-symbol.js:15[29:31];Sink: msg;ads-client-write-symbol.js:28[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-symbol.js:15[29:31];Sink: msg;ads-client-write-symbol.js:40[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-symbol.js:15[29:31];Sink: {\r\n     ...       };ads-client-write-symbol.js:58[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ads-client-write-symbol.js:15[29:31];Sink: msg;ads-client-write-symbol.js:73[45:47]::FLOW_DESCR_END","/src/ads-client-write-symbol.js","15","29","15","31"

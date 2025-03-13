@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insteonDeviceCommand.js:49[26:28];Sink: `Unknow ... mmand}`;insteonDeviceCommand.js:33[24:52]::FLOW_DESCR_END","/dist/device/insteonDeviceCommand/insteonDeviceCommand.js","49","26","49","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;insteonDeviceRequest.js:53[26:28];Sink: `Unknow ... mmand}`;insteonDeviceRequest.js:36[24:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;insteonDeviceRequest.js:53[26:28];Sink: msg;insteonDeviceRequest.js:38[19:21]::FLOW_DESCR_END","/dist/device/insteonDeviceRequest/insteonDeviceRequest.js","53","26","53","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: p;insteonDeviceSubscribe.js:107[44:44];Sink: 'Non su ...  + text;insteonDeviceSubscribe.js:4[22:56]::FLOW_DESCR_END","/dist/device/insteonDeviceSubscribe/insteonDeviceSubscribe.js","107","44","107","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;insteonModemConfig.js:41[27:31];Sink: `Error: ... ssage}`;insteonModemConfig.js:57[18:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;insteonModemConfig.js:41[27:31];Sink: error;insteonModemConfig.js:59[24:28]::FLOW_DESCR_END","/dist/modem/insteonModemConfig/insteonModemConfig.js","41","27","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;insteonModemConfig.js:42[28:33];Sink: packet;insteonModemConfig.js:63[25:30]::FLOW_DESCR_END","/dist/modem/insteonModemConfig/insteonModemConfig.js","42","28","42","33"

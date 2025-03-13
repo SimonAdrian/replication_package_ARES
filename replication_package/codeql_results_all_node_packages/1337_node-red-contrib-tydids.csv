@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;receiver.js:62[40:42];Sink: ack;receiver.js:80[30:32]::FLOW_DESCR_END","/receiver.js","62","40","62","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sender.js:51[41:43];Sink: msg;sender.js:43[27:29]::FLOW_DESCR_END","/sender.js","51","41","51","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tydids.js:27[38:40];Sink: msg;tydids.js:29[33:35]::FLOW_DESCR_END","/test/tydids.js","27","38","27","40"

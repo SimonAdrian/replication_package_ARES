@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;modbusServer.js:8[19:29];Sink: `Modbus ... port}.`;modbusServer.js:154[27:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;modbusServer.js:8[19:29];Sink: `Modbus ... port}.`;modbusServer.js:156[26:100]::FLOW_DESCR_END","/src/nodes/modbusServer.js","8","19","8","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;modbusServer.js:9[19:29];Sink: `Modbus ... port}.`;modbusServer.js:154[27:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;modbusServer.js:9[19:29];Sink: `Modbus ... port}.`;modbusServer.js:156[26:100]::FLOW_DESCR_END","/src/nodes/modbusServer.js","9","19","9","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbusServer.js:147[52:54];Sink: err;modbusServer.js:148[28:30]::FLOW_DESCR_END","/src/nodes/modbusServer.js","147","52","147","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;modbusServer.js:150[46:48];Sink: err;modbusServer.js:151[28:30]::FLOW_DESCR_END","/src/nodes/modbusServer.js","150","46","150","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.host;modbusServer.js:154[61:77];Sink: `Modbus ... port}.`;modbusServer.js:154[27:101]::FLOW_DESCR_END","/src/nodes/modbusServer.js","154","61","154","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.port;modbusServer.js:154[82:98];Sink: `Modbus ... port}.`;modbusServer.js:154[27:101]::FLOW_DESCR_END","/src/nodes/modbusServer.js","154","82","154","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.host;modbusServer.js:156[60:76];Sink: `Modbus ... port}.`;modbusServer.js:156[26:100]::FLOW_DESCR_END","/src/nodes/modbusServer.js","156","60","156","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.options.port;modbusServer.js:156[81:97];Sink: `Modbus ... port}.`;modbusServer.js:156[26:100]::FLOW_DESCR_END","/src/nodes/modbusServer.js","156","81","156","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbus-out.spec.js:150[37:39];Sink: msg;modbus-out.spec.js:158[33:35]::FLOW_DESCR_END","/test/modbus-out.spec.js","150","37","150","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;modbus-out.spec.js:203[37:39];Sink: msg;modbus-out.spec.js:211[33:35]::FLOW_DESCR_END","/test/modbus-out.spec.js","203","37","203","39"

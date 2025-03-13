@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_accel_raw.js:48[39:41];Sink: msg;get_accel_raw.js:60[31:33]::FLOW_DESCR_END","/kitraGTI/get_accel_raw.js","48","39","48","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_gyro_raw.js:48[39:41];Sink: msg;get_gyro_raw.js:60[31:33]::FLOW_DESCR_END","/kitraGTI/get_gyro_raw.js","48","39","48","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set_accel.js:50[39:41];Sink: msg;set_accel.js:62[31:33]::FLOW_DESCR_END","/kitraGTI/set_accel.js","50","39","50","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set_gyro.js:50[39:41];Sink: msg;set_gyro.js:55[31:33]::FLOW_DESCR_END","/kitraGTI/set_gyro.js","50","39","50","41"

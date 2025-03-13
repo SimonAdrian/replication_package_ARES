@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;FetchItGO.js:11[21:26];Sink: node.brokerurl;FetchItGO.js:144[44:57]::FLOW_DESCR_END","/FetchItGO.js","11","21","11","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;FetchItGO.js:70[65:73];Sink: node.brokerurl;FetchItGO.js:144[44:57]::FLOW_DESCR_END","/FetchItGO.js","70","65","70","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;FetchItGO.js:348[38:40];Sink: msg;FetchItGO.js:363[49:51]::FLOW_DESCR_END","/FetchItGO.js","348","38","348","40"

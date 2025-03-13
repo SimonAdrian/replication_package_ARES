@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... square);foursquare.js:61[31:68];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END","/foursquare.js","61","31","61","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:67[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:82[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:85[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:89[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:126[137:139]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;foursquare.js:64[35:37];Sink: msg;foursquare.js:162[83:85]::FLOW_DESCR_END","/foursquare.js","64","35","64","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.location;foursquare.js:117[36:47];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END","/foursquare.js","117","36","117","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.location;foursquare.js:117[61:72];Sink: apiUrl;foursquare.js:119[21:26]::FLOW_DESCR_END","/foursquare.js","117","61","117","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;foursquare.js:119[37:39];Sink: err.toString();foursquare.js:121[28:41]::FLOW_DESCR_END","/foursquare.js","119","37","119","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... nodeid);foursquare.js:200[27:58];Sink: credentials;foursquare.js:210[41:51]::FLOW_DESCR_END","/foursquare.js","200","27","200","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... square);swarm.js:31[27:64];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END","/swarm.js","31","27","31","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: msg;swarm.js:49[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: msg;swarm.js:110[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:43[39:41];Sink: msg;swarm.js:116[132:134]::FLOW_DESCR_END","/swarm.js","43","39","43","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... square);swarm.js:75[31:68];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END","/swarm.js","75","31","75","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:80[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:85[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:110[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swarm.js:77[35:37];Sink: msg;swarm.js:116[132:134]::FLOW_DESCR_END","/swarm.js","77","35","77","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;swarm.js:108[37:39];Sink: err.toString();swarm.js:110[28:41]::FLOW_DESCR_END","/swarm.js","108","37","108","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;swarm.js:108[56:59];Sink: apiUrl;swarm.js:108[21:26]::FLOW_DESCR_END","/swarm.js","108","56","108","59"

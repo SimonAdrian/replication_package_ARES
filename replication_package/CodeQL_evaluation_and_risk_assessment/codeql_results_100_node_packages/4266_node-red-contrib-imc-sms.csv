@@ -1,0 +1,6 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sms.js:32[32:34];Sink: body;sms.js:76[29:32]::FLOW_DESCR_END","/node/sms.js","32","32","32","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sms.js:47[31:31];Sink: ""TOKEN  ... s_token;sms.js:54[23:51]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: d;sms.js:47[31:31];Sink: e+ ""\n""+token;sms.js:84[29:41]::FLOW_DESCR_END","/node/sms.js","47","31","47","31"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;sms.js:68[39:39];Sink: d;sms.js:70[40:40]::FLOW_DESCR_END","/node/sms.js","68","39","68","39"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sms.js:79[44:44];Sink: e;sms.js:80[29:29]::FLOW_DESCR_END","/node/sms.js","79","44","79","44"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sms.js:93[32:32];Sink: e;sms.js:94[19:19]::FLOW_DESCR_END","/node/sms.js","93","32","93","32"

@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ble-communication.js:24[23:25];Sink: msg;ble-communication.js:29[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ble-communication.js:24[23:25];Sink: peripheral;communicationService.js:24[29:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ble-communication.js:24[23:25];Sink: peripheral;peripherals.js:45[52:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ble-communication.js:24[23:25];Sink: value;peripherals.js:91[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ble-communication.js:24[23:25];Sink: value;peripherals.js:94[26:30]::FLOW_DESCR_END","/ble-communication.js","24","23","24","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ble-discover-services.js:37[23:25];Sink: msg.peripheral;ble-discover-services.js:43[42:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ble-discover-services.js:37[23:25];Sink: peripheral;peripherals.js:45[52:61]::FLOW_DESCR_END","/ble-discover-services.js","37","23","37","25"

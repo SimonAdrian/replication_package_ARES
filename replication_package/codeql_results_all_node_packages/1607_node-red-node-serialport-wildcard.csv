@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;25-serial.js:38[38:40];Sink: msg;25-serial.js:44[43:45]::FLOW_DESCR_END","/25-serial.js","38","38","38","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;25-serial.js:43[88:96];Sink: errmsg;25-serial.js:44[36:41]::FLOW_DESCR_END","/25-serial.js","43","88","43","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;25-serial.js:82[43:48];Sink: msgout;25-serial.js:83[27:32]::FLOW_DESCR_END","/25-serial.js","82","43","82","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;25-serial.js:118[38:40];Sink: msg;25-serial.js:124[43:45]::FLOW_DESCR_END","/25-serial.js","118","38","118","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;25-serial.js:123[88:96];Sink: errmsg;25-serial.js:124[36:41]::FLOW_DESCR_END","/25-serial.js","123","88","123","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;25-serial.js:130[43:48];Sink: msgout;25-serial.js:135[27:32]::FLOW_DESCR_END","/25-serial.js","130","43","130","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;25-serial.js:137[46:51];Sink: msgout;25-serial.js:141[27:32]::FLOW_DESCR_END","/25-serial.js","137","46","137","51"

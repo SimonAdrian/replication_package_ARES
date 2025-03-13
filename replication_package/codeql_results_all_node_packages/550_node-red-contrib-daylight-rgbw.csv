@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;animate-rgbw.js:143[36:38];Sink: ""Receiv ... g.topic;animate-rgbw.js:147[26:54]::FLOW_DESCR_END","/animate-rgbw.js","143","36","143","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;daylight-rgbw.js:57[36:38];Sink: ""Receiv ... g.topic;daylight-rgbw.js:59[22:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daylight-rgbw.js:57[36:38];Sink: ""Receiv ... ateTime;daylight-rgbw.js:64[26:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daylight-rgbw.js:57[36:38];Sink: this.itemState;daylight-rgbw.js:81[48:61]::FLOW_DESCR_END","/daylight-rgbw.js","57","36","57","38"

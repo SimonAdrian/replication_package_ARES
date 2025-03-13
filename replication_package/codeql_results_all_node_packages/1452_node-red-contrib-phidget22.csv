@@ -1,0 +1,143 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();common.js:24[30:40];Sink: y;common.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();common.js:24[30:40];Sink: y;common.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();common.js:24[30:40];Sink: op[1];common.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();common.js:24[30:40];Sink: """".conc ... ) + err;common.js:64[20:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();common.js:24[30:40];Sink: 'closed ... + err_2;common.js:156[36:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();common.js:24[30:40];Sink: 'close  ... + err_2;common.js:161[36:59]::FLOW_DESCR_END","/dist/common.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-accelerometer.js:26[36:38];Sink: 'Unsupp ... g.topic;phidget22-accelerometer.js:37[32:72]::FLOW_DESCR_END","/dist/phidget22-accelerometer.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-bldcmotor.js:37[36:38];Sink: 'Unsupp ... g.topic;phidget22-bldcmotor.js:76[32:72]::FLOW_DESCR_END","/dist/phidget22-bldcmotor.js","37","36","37","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-capacitivetouch.js:30[36:38];Sink: 'Unsupp ... g.topic;phidget22-capacitivetouch.js:45[32:72]::FLOW_DESCR_END","/dist/phidget22-capacitivetouch.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;phidget22-connect.js:34[99:109];Sink: ""Attemp ... t, "")"");phidget22-connect.js:34[27:115]::FLOW_DESCR_END","/dist/phidget22-connect.js","34","99","34","109"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;phidget22-connect.js:40[87:97];Sink: ""Connec ... t, "")"");phidget22-connect.js:40[31:103]::FLOW_DESCR_END","/dist/phidget22-connect.js","40","87","40","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-currentinput.js:27[36:38];Sink: 'Unsupp ... g.topic;phidget22-currentinput.js:42[32:72]::FLOW_DESCR_END","/dist/phidget22-currentinput.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();phidget22-dcmotor.js:24[30:40];Sink: y;phidget22-dcmotor.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-dcmotor.js:24[30:40];Sink: y;phidget22-dcmotor.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-dcmotor.js:24[30:40];Sink: op[1];phidget22-dcmotor.js:18[147:151]::FLOW_DESCR_END","/dist/phidget22-dcmotor.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:127[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:139[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:145[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:151[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:157[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:169[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:180[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:186[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:198[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:204[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:210[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:222[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:228[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:234[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:246[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:252[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:264[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:270[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:282[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:294[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:306[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:318[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:324[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: msg;phidget22-dcmotor.js:330[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dcmotor.js:79[36:38];Sink: 'Unsupp ... g.topic;phidget22-dcmotor.js:334[40:80]::FLOW_DESCR_END","/dist/phidget22-dcmotor.js","79","36","79","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();phidget22-dictionary.js:24[30:40];Sink: y;phidget22-dictionary.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-dictionary.js:24[30:40];Sink: y;phidget22-dictionary.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-dictionary.js:24[30:40];Sink: op[1];phidget22-dictionary.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-dictionary.js:24[30:40];Sink: msg.payload.value;phidget22-dictionary.js:119[95:111]::FLOW_DESCR_END","/dist/phidget22-dictionary.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: msg.payload.key;phidget22-dictionary.js:93[99:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: msg.payload.def;phidget22-dictionary.js:93[116:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: msg;phidget22-dictionary.js:97[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: msg;phidget22-dictionary.js:115[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: msg.payload.key;phidget22-dictionary.js:119[78:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: msg.payload.value;phidget22-dictionary.js:119[95:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-dictionary.js:71[36:38];Sink: 'Unsupp ... g.topic;phidget22-dictionary.js:131[40:80]::FLOW_DESCR_END","/dist/phidget22-dictionary.js","71","36","71","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-digitalinput.js:32[36:38];Sink: 'Unsupp ... g.topic;phidget22-digitalinput.js:43[32:72]::FLOW_DESCR_END","/dist/phidget22-digitalinput.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-digitaloutput.js:22[36:38];Sink: 'Unsupp ... g.topic;phidget22-digitaloutput.js:48[32:72]::FLOW_DESCR_END","/dist/phidget22-digitaloutput.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-distancesensor.js:34[36:38];Sink: 'Unsupp ... g.topic;phidget22-distancesensor.js:49[32:72]::FLOW_DESCR_END","/dist/phidget22-distancesensor.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-encoder.js:34[36:38];Sink: 'Unsupp ... g.topic;phidget22-encoder.js:57[32:72]::FLOW_DESCR_END","/dist/phidget22-encoder.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-frequencycounter.js:39[36:38];Sink: 'Unsupp ... g.topic;phidget22-frequencycounter.js:70[32:72]::FLOW_DESCR_END","/dist/phidget22-frequencycounter.js","39","36","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-gyroscope.js:28[36:38];Sink: 'Unsupp ... g.topic;phidget22-gyroscope.js:39[32:72]::FLOW_DESCR_END","/dist/phidget22-gyroscope.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-hub.js:20[36:38];Sink: 'Unsupp ... g.topic;phidget22-hub.js:27[32:72]::FLOW_DESCR_END","/dist/phidget22-hub.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-humiditysensor.js:26[36:38];Sink: 'Unsupp ... g.topic;phidget22-humiditysensor.js:37[32:72]::FLOW_DESCR_END","/dist/phidget22-humiditysensor.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-ir.js:38[36:38];Sink: 'Unsupp ... g.topic;phidget22-ir.js:56[32:72]::FLOW_DESCR_END","/dist/phidget22-ir.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();phidget22-lcd.js:24[30:40];Sink: y;phidget22-lcd.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-lcd.js:24[30:40];Sink: y;phidget22-lcd.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();phidget22-lcd.js:24[30:40];Sink: op[1];phidget22-lcd.js:18[147:151]::FLOW_DESCR_END","/dist/phidget22-lcd.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:105[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:117[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:123[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:138[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:150[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:162[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:168[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:183[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:195[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:234[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:246[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:258[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:276[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:288[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: msg;phidget22-lcd.js:300[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-lcd.js:58[36:38];Sink: 'Unsupp ... g.topic;phidget22-lcd.js:322[40:80]::FLOW_DESCR_END","/dist/phidget22-lcd.js","58","36","58","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-lightsensor.js:29[36:38];Sink: 'Unsupp ... g.topic;phidget22-lightsensor.js:40[32:72]::FLOW_DESCR_END","/dist/phidget22-lightsensor.js","29","36","29","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-magnetometer.js:34[36:38];Sink: 'Unsupp ... g.topic;phidget22-magnetometer.js:60[32:72]::FLOW_DESCR_END","/dist/phidget22-magnetometer.js","34","36","34","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:44[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:54[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:60[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:66[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:76[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:82[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:88[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:98[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:104[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:110[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:120[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:126[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:132[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:142[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:148[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:162[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:168[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:174[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:184[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:194[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:204[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:214[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:224[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:230[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:236[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:246[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:260[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:270[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:276[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:282[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:292[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:302[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: msg;phidget22-motorpositioncontroller.js:308[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-motorpositioncontroller.js:39[36:38];Sink: 'Unsupp ... g.topic;phidget22-motorpositioncontroller.js:312[32:72]::FLOW_DESCR_END","/dist/phidget22-motorpositioncontroller.js","39","36","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-phsensor.js:27[36:38];Sink: 'Unsupp ... g.topic;phidget22-phsensor.js:42[32:72]::FLOW_DESCR_END","/dist/phidget22-phsensor.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-powerguard.js:22[36:38];Sink: 'Unsupp ... g.topic;phidget22-powerguard.js:45[32:72]::FLOW_DESCR_END","/dist/phidget22-powerguard.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-pressuresensor.js:26[36:38];Sink: 'Unsupp ... g.topic;phidget22-pressuresensor.js:37[32:72]::FLOW_DESCR_END","/dist/phidget22-pressuresensor.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-rcservo.js:44[36:38];Sink: 'Unsupp ... g.topic;phidget22-rcservo.js:103[32:72]::FLOW_DESCR_END","/dist/phidget22-rcservo.js","44","36","44","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-resistanceinput.js:30[36:38];Sink: 'Unsupp ... g.topic;phidget22-resistanceinput.js:45[32:72]::FLOW_DESCR_END","/dist/phidget22-resistanceinput.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-rfid.js:31[36:38];Sink: (_a = m ... gString;phidget22-rfid.js:38[82:149]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-rfid.js:31[36:38];Sink: (_b = m ... rotocol;phidget22-rfid.js:38[152:218]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-rfid.js:31[36:38];Sink: (_c = m ... lockTag;phidget22-rfid.js:38[221:286]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-rfid.js:31[36:38];Sink: 'Unsupp ... g.topic;phidget22-rfid.js:42[32:72]::FLOW_DESCR_END","/dist/phidget22-rfid.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-soundsensor.js:30[36:38];Sink: 'Unsupp ... g.topic;phidget22-soundsensor.js:45[32:72]::FLOW_DESCR_END","/dist/phidget22-soundsensor.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-spatial.js:42[36:38];Sink: 'Unsupp ... g.topic;phidget22-spatial.js:80[32:72]::FLOW_DESCR_END","/dist/phidget22-spatial.js","42","36","42","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-stepper.js:38[36:38];Sink: 'Unsupp ... g.topic;phidget22-stepper.js:89[32:72]::FLOW_DESCR_END","/dist/phidget22-stepper.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:47[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:53[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:59[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:69[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:79[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:85[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:91[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:97[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:107[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:113[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: msg;phidget22-temperaturesensor.js:119[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;phidget22-temperaturesensor.js:32[36:38];Sink: 'Unsupp ... g.topic;phidget22-temperaturesensor.js:127[32:72]::FLOW_DESCR_END","/dist/phidget22-temperaturesensor.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-voltageinput.js:37[36:38];Sink: 'Unsupp ... g.topic;phidget22-voltageinput.js:64[32:72]::FLOW_DESCR_END","/dist/phidget22-voltageinput.js","37","36","37","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-voltageoutput.js:21[36:38];Sink: 'Unsupp ... g.topic;phidget22-voltageoutput.js:44[32:72]::FLOW_DESCR_END","/dist/phidget22-voltageoutput.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;phidget22-voltageratioinput.js:39[36:38];Sink: 'Unsupp ... g.topic;phidget22-voltageratioinput.js:69[32:72]::FLOW_DESCR_END","/dist/phidget22-voltageratioinput.js","39","36","39","38"

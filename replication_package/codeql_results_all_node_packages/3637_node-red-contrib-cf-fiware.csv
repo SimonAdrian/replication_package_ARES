@@ -1,0 +1,45 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;add_role.js:20[32:34];Sink: msg;add_role.js:38[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;add_role.js:20[32:34];Sink: msg;add_role.js:42[25:27]::FLOW_DESCR_END","/fiware/add_role.js","20","32","20","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete_role.js:20[32:34];Sink: msg;delete_role.js:38[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete_role.js:20[32:34];Sink: msg;delete_role.js:43[25:27]::FLOW_DESCR_END","/fiware/delete_role.js","20","32","20","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;add_role.js:30[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;delete_role.js:30[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;get_apps.js:31[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;get_members.js:32[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;get_orgs.js:32[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;get_roles.js:30[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_client.js:34[31:35];Sink: err;patch_user_enabled.js:35[43:45]::FLOW_DESCR_END","/fiware/fiware_client.js","34","31","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:60[31:35];Sink: err;get_apps.js:36[48:50]::FLOW_DESCR_END","/fiware/fiware_client.js","60","31","60","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:80[31:35];Sink: err;get_orgs.js:37[48:50]::FLOW_DESCR_END","/fiware/fiware_client.js","80","31","80","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:101[31:35];Sink: err;get_members.js:37[49:51]::FLOW_DESCR_END","/fiware/fiware_client.js","101","31","101","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:122[31:35];Sink: err;get_roles.js:35[48:50]::FLOW_DESCR_END","/fiware/fiware_client.js","122","31","122","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:142[31:35];Sink: err;add_role.js:35[45:47]::FLOW_DESCR_END","/fiware/fiware_client.js","142","31","142","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_client.js:182[31:35];Sink: err;delete_role.js:35[48:50]::FLOW_DESCR_END","/fiware/fiware_client.js","182","31","182","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fiware_client.js:214[50:53];Sink: msg.payload;patch_user_enabled.js:24[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_client.js:214[50:53];Sink: msg.pay ... [index];patch_user_enabled.js:41[25:48]::FLOW_DESCR_END","/fiware/fiware_client.js","214","50","214","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_oauth_client.js:36[31:35];Sink: error;fiware_oauth_client.js:38[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:36[31:35];Sink: err;get_entities.js:35[43:45]::FLOW_DESCR_END","/fiware/fiware_oauth_client.js","36","31","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: body;fiware_oauth_client.js:42[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: body;fiware_oauth_client.js:45[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:36[48:51];Sink: err;get_entities.js:35[43:45]::FLOW_DESCR_END","/fiware/fiware_oauth_client.js","36","48","36","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fiware_oauth_client.js:107[31:35];Sink: url;fiware_oauth_client.js:92[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:107[31:35];Sink: error;fiware_oauth_client.js:111[30:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;fiware_oauth_client.js:107[31:35];Sink: err;get_entities.js:55[48:50]::FLOW_DESCR_END","/fiware/fiware_oauth_client.js","107","31","107","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;fiware_oauth_client.js:107[38:45];Sink: response.statusCode;fiware_oauth_client.js:109[34:52]::FLOW_DESCR_END","/fiware/fiware_oauth_client.js","107","38","107","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;fiware_oauth_client.js:107[48:51];Sink: url;fiware_oauth_client.js:92[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:107[48:51];Sink: body;fiware_oauth_client.js:118[29:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;fiware_oauth_client.js:107[48:51];Sink: err;get_entities.js:55[48:50]::FLOW_DESCR_END","/fiware/fiware_oauth_client.js","107","48","107","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_apps.js:21[31:33];Sink: msg;get_apps.js:39[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get_apps.js:21[31:33];Sink: msg;get_apps.js:44[25:27]::FLOW_DESCR_END","/fiware/get_apps.js","21","31","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_entities.js:22[32:34];Sink: url;fiware_oauth_client.js:92[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get_entities.js:22[32:34];Sink: msg;get_entities.js:58[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get_entities.js:22[32:34];Sink: msg;get_entities.js:63[25:27]::FLOW_DESCR_END","/fiware/get_entities.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_members.js:22[32:34];Sink: msg;get_members.js:40[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get_members.js:22[32:34];Sink: msg;get_members.js:45[25:27]::FLOW_DESCR_END","/fiware/get_members.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_orgs.js:22[31:33];Sink: msg;get_orgs.js:40[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get_orgs.js:22[31:33];Sink: msg;get_orgs.js:45[25:27]::FLOW_DESCR_END","/fiware/get_orgs.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_roles.js:20[31:33];Sink: msg;get_roles.js:38[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get_roles.js:20[31:33];Sink: msg;get_roles.js:43[25:27]::FLOW_DESCR_END","/fiware/get_roles.js","20","31","20","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;patch_user_enabled.js:22[32:34];Sink: msg.payload;patch_user_enabled.js:24[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patch_user_enabled.js:22[32:34];Sink: msg.pay ... [index];patch_user_enabled.js:41[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patch_user_enabled.js:22[32:34];Sink: msg;patch_user_enabled.js:48[23:25]::FLOW_DESCR_END","/fiware/patch_user_enabled.js","22","32","22","34"

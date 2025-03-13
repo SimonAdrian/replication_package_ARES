@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;web-watch.js:51[36:38];Sink: ""URL ("" ... fig.url;web-watch.js:47[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;web-watch.js:51[36:38];Sink: ""URL ("" ... fig.url;web-watch.js:76[22:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;web-watch.js:51[36:38];Sink: config.url;web-watch.js:131[21:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;web-watch.js:51[36:38];Sink: msg;web-watch.js:146[35:37]::FLOW_DESCR_END","/web-watch/web-watch.js","51","36","51","38"

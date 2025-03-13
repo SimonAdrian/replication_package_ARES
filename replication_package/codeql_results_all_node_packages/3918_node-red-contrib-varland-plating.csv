@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... pePath);groov-preserver.js:87[31:66];Sink: value;groov-client.js:517[90:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... pePath);groov-preserver.js:87[31:66];Sink: value;groov-client.js:533[90:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... pePath);groov-preserver.js:87[31:66];Sink: value;groov-client.js:549[91:95]::FLOW_DESCR_END","/lib/groov-preserver.js","87","31","87","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-by-regexp.js:17[31:33];Sink: msg;get-by-regexp.js:35[17:19]::FLOW_DESCR_END","/nodes/get-by-regexp.js","17","31","17","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-variable.js:16[31:33];Sink: msg;get-variable.js:34[17:19]::FLOW_DESCR_END","/nodes/get-variable.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-to-historian.js:14[31:33];Sink: msg;log-to-historian.js:33[17:19]::FLOW_DESCR_END","/nodes/log-to-historian.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;preserve-recipe-data.js:13[31:33];Sink: msg;preserve-recipe-data.js:25[17:19]::FLOW_DESCR_END","/nodes/preserve-recipe-data.js","13","31","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;process-historic-logs.js:13[31:33];Sink: msg;process-historic-logs.js:24[17:19]::FLOW_DESCR_END","/nodes/process-historic-logs.js","13","31","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-variable.js:17[31:33];Sink: msg;set-variable.js:39[17:19]::FLOW_DESCR_END","/nodes/set-variable.js","17","31","17","33"

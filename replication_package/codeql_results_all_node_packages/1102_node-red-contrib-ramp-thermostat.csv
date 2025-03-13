@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ramp-thermostat.js:48[31:33];Sink: msg.pay ...  found"";ramp-thermostat.js:104[27:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ramp-thermostat.js:48[31:33];Sink: msg.pay ...  found"";ramp-thermostat.js:135[25:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ramp-thermostat.js:48[31:33];Sink: ""invali ... rrent'"";ramp-thermostat.js:172[23:90]::FLOW_DESCR_END","/ramp-thermostat/ramp-thermostat.js","48","31","48","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ONPath);ramp-thermostat.js:481[34:65];Sink: pck_nam ...  date."";ramp-thermostat.js:161[27:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ONPath);ramp-thermostat.js:481[34:65];Sink: ""ramp-t ... version;ramp-thermostat.js:165[23:57]::FLOW_DESCR_END","/ramp-thermostat/ramp-thermostat.js","481","34","481","65"

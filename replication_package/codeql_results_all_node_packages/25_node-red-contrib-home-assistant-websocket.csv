@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;index.js:110[61:65];Sink: event;index.js:112[117:121]::FLOW_DESCR_END","/dist/common/services/IssueService/index.js","110","61","110","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... version;diagnostics.js:82[30:50];Sink: await ( ... Data)();routes.js:226[18:62]::FLOW_DESCR_END","/dist/helpers/diagnostics.js","82","30","82","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _a.entity_id;Websocket.js:254[139:150];Sink: `Not pr ... vent)}`;Websocket.js:270[23:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _a.entity_id;Websocket.js:254[139:150];Sink: `${cons ... ityId}`;Websocket.js:279[106:152]::FLOW_DESCR_END","/dist/homeAssistant/Websocket.js","254","139","254","150"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: __class ... "").host;Websocket.js:330[185:241];Sink: `No pon ... onnect`;heartbeat.js:15[19:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: __class ... "").host;Websocket.js:330[185:241];Sink: `Ping s ... {host}`;heartbeat.js:18[15:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: __class ... "").host;Websocket.js:330[185:241];Sink: `Pong r ... {host}`;heartbeat.js:22[19:46]::FLOW_DESCR_END","/dist/homeAssistant/Websocket.js","330","185","330","241"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _b.type;Websocket.js:602[220:226];Sink: (_b = e ... _b.type;Websocket.js:602[125:226]::FLOW_DESCR_END","/dist/homeAssistant/Websocket.js","602","220","602","226"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;createSocket.js:35[28:31];Sink: message;createSocket.js:39[44:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;createSocket.js:35[28:31];Sink: message;createSocket.js:63[65:71]::FLOW_DESCR_END","/dist/homeAssistant/createSocket.js","35","28","35","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: __class ... ).pop();ActionController.js:116[26:89];Sink: item;ActionController.js:118[129:132]::FLOW_DESCR_END","/dist/nodes/action/ActionController.js","116","26","116","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:52[71:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:55[72:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:58[71:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:22[20:43];Sink: data;ApiController.js:70[57:60]::FLOW_DESCR_END","/dist/nodes/api/ApiController.js","22","20","22","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:52[71:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:55[72:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:58[71:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:32[38:61];Sink: data;ApiController.js:70[57:60]::FLOW_DESCR_END","/dist/nodes/api/ApiController.js","32","38","32","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:52[71:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:55[72:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:58[71:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: parsedM ... a.value;ApiController.js:33[23:46];Sink: data;ApiController.js:70[57:60]::FLOW_DESCR_END","/dist/nodes/api/ApiController.js","33","23","33","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.host;ConnectionLog.js:51[15:35];Sink: value;ConnectionLog.js:6[45:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ls.host;ConnectionLog.js:51[15:35];Sink: value;ConnectionLog.js:6[96:100]::FLOW_DESCR_END","/dist/nodes/config-server/ConnectionLog.js","51","15","51","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entity.entity_id;EditorContext.js:65[116:131];Sink: `states ... _id}""]`;EditorContext.js:65[105:135]::FLOW_DESCR_END","/dist/nodes/config-server/EditorContext.js","65","116","65","131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: (b ? th ... ).pop();handlebars.min-v4.7.8.js:6144[29:76];Sink: this;handlebars.min-v4.7.8.js:6110[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: (b ? th ... ).pop();handlebars.min-v4.7.8.js:6144[29:76];Sink: c;handlebars.min-v4.7.8.js:6110[42:42]::FLOW_DESCR_END","/resources/handlebars.min-v4.7.8.js","6144","29","6144","76"

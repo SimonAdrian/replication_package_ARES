@@ -1,0 +1,173 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:14[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:80[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:97[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:111[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:125[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:139[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;computervision.js:9[35:37];Sink: msg;computervision.js:162[43:45]::FLOW_DESCR_END","/cognitive-services/computervision.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;computervision.js:51[53:57];Sink: error;computervision.js:156[44:48]::FLOW_DESCR_END","/cognitive-services/computervision.js","51","53","51","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;computervision.js:51[60:67];Sink: ""respon ... y(body);computervision.js:58[45:123]::FLOW_DESCR_END","/cognitive-services/computervision.js","51","60","51","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;computervision.js:51[70:73];Sink: ""respon ... y(body);computervision.js:58[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;computervision.js:51[70:73];Sink: body;computervision.js:150[48:51]::FLOW_DESCR_END","/cognitive-services/computervision.js","51","70","51","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;emotion.js:9[35:37];Sink: msg;emotion.js:14[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;emotion.js:9[35:37];Sink: msg;emotion.js:78[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;emotion.js:9[35:37];Sink: msg;emotion.js:95[43:45]::FLOW_DESCR_END","/cognitive-services/emotion.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;emotion.js:51[53:57];Sink: error;emotion.js:89[44:48]::FLOW_DESCR_END","/cognitive-services/emotion.js","51","53","51","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;emotion.js:51[60:67];Sink: ""respon ... y(body);emotion.js:58[45:123]::FLOW_DESCR_END","/cognitive-services/emotion.js","51","60","51","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;emotion.js:51[70:73];Sink: ""respon ... y(body);emotion.js:58[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;emotion.js:51[70:73];Sink: body;emotion.js:83[48:51]::FLOW_DESCR_END","/cognitive-services/emotion.js","51","70","51","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;face.js:9[35:37];Sink: msg;face.js:14[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;face.js:9[35:37];Sink: msg;face.js:70[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;face.js:9[35:37];Sink: msg;face.js:87[43:45]::FLOW_DESCR_END","/cognitive-services/face.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;face.js:51[53:57];Sink: error;face.js:81[44:48]::FLOW_DESCR_END","/cognitive-services/face.js","51","53","51","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;face.js:51[60:67];Sink: ""respon ... y(body);face.js:58[45:123]::FLOW_DESCR_END","/cognitive-services/face.js","51","60","51","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;face.js:51[70:73];Sink: ""respon ... y(body);face.js:58[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;face.js:51[70:73];Sink: body;face.js:75[48:51]::FLOW_DESCR_END","/cognitive-services/face.js","51","70","51","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;imagesearch.js:63[35:37];Sink: msg;imagesearch.js:69[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imagesearch.js:63[35:37];Sink: msg;imagesearch.js:116[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imagesearch.js:63[35:37];Sink: msg;imagesearch.js:134[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imagesearch.js:63[35:37];Sink: msg;imagesearch.js:162[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;imagesearch.js:63[35:37];Sink: msg;imagesearch.js:179[43:45]::FLOW_DESCR_END","/cognitive-services/imagesearch.js","63","35","63","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;imagesearch.js:86[48:52];Sink: error;imagesearch.js:128[44:48]::FLOW_DESCR_END","/cognitive-services/imagesearch.js","86","48","86","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;imagesearch.js:86[65:68];Sink: body;imagesearch.js:122[48:51]::FLOW_DESCR_END","/cognitive-services/imagesearch.js","86","65","86","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;imagesearch.js:150[48:52];Sink: error;imagesearch.js:173[44:48]::FLOW_DESCR_END","/cognitive-services/imagesearch.js","150","48","150","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;imagesearch.js:150[65:68];Sink: body;imagesearch.js:167[48:51]::FLOW_DESCR_END","/cognitive-services/imagesearch.js","150","65","150","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:15[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:57[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:74[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:127[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:144[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:194[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:211[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:239[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;linguisticanalysis.js:9[35:37];Sink: msg;linguisticanalysis.js:256[43:45]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;linguisticanalysis.js:38[53:57];Sink: error;linguisticanalysis.js:68[44:48]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","38","53","38","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;linguisticanalysis.js:38[60:67];Sink: ""respon ... y(body);linguisticanalysis.js:45[45:123]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","38","60","38","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;linguisticanalysis.js:38[70:73];Sink: ""respon ... y(body);linguisticanalysis.js:45[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;linguisticanalysis.js:38[70:73];Sink: body;linguisticanalysis.js:62[48:51]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","38","70","38","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;linguisticanalysis.js:96[53:57];Sink: error;linguisticanalysis.js:138[44:48]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","96","53","96","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;linguisticanalysis.js:96[60:67];Sink: ""respon ... y(body);linguisticanalysis.js:103[45:123]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","96","60","96","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;linguisticanalysis.js:96[70:73];Sink: ""respon ... y(body);linguisticanalysis.js:103[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;linguisticanalysis.js:96[70:73];Sink: body;linguisticanalysis.js:132[48:51]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","96","70","96","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;linguisticanalysis.js:166[53:57];Sink: error;linguisticanalysis.js:205[44:48]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","166","53","166","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;linguisticanalysis.js:166[60:67];Sink: ""respon ... y(body);linguisticanalysis.js:173[45:123]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","166","60","166","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;linguisticanalysis.js:166[70:73];Sink: ""respon ... y(body);linguisticanalysis.js:173[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;linguisticanalysis.js:166[70:73];Sink: body;linguisticanalysis.js:199[48:51]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","166","70","166","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;linguisticanalysis.js:227[48:52];Sink: error;linguisticanalysis.js:250[44:48]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","227","48","227","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;linguisticanalysis.js:227[55:62];Sink: ""respon ... y(body);linguisticanalysis.js:234[45:123]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","227","55","227","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;linguisticanalysis.js:227[65:68];Sink: ""respon ... y(body);linguisticanalysis.js:234[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;linguisticanalysis.js:227[65:68];Sink: body;linguisticanalysis.js:244[48:51]::FLOW_DESCR_END","/cognitive-services/linguisticanalysis.js","227","65","227","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;newssearch.js:67[35:37];Sink: msg;newssearch.js:73[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newssearch.js:67[35:37];Sink: msg;newssearch.js:120[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newssearch.js:67[35:37];Sink: msg;newssearch.js:138[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newssearch.js:67[35:37];Sink: msg;newssearch.js:166[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newssearch.js:67[35:37];Sink: msg;newssearch.js:183[43:45]::FLOW_DESCR_END","/cognitive-services/newssearch.js","67","35","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;newssearch.js:90[48:52];Sink: error;newssearch.js:132[44:48]::FLOW_DESCR_END","/cognitive-services/newssearch.js","90","48","90","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;newssearch.js:90[65:68];Sink: body;newssearch.js:126[48:51]::FLOW_DESCR_END","/cognitive-services/newssearch.js","90","65","90","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;newssearch.js:154[48:52];Sink: error;newssearch.js:177[44:48]::FLOW_DESCR_END","/cognitive-services/newssearch.js","154","48","154","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;newssearch.js:154[65:68];Sink: body;newssearch.js:171[48:51]::FLOW_DESCR_END","/cognitive-services/newssearch.js","154","65","154","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;speechToText.js:24[40:44];Sink: ""Error  ... + error;speechToText.js:26[17:54]::FLOW_DESCR_END","/cognitive-services/speechToText.js","24","40","24","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:9[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:26[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:50[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:64[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:95[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:101[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:107[96:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:113[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:122[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:130[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:138[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:143[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg;speechToText.js:154[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speechToText.js:47[29:31];Sink: msg.payload;speechToText.js:173[34:44]::FLOW_DESCR_END","/cognitive-services/speechToText.js","47","29","47","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;speechToText.js:88[56:60];Sink: ""Error  ... + error;speechToText.js:95[19:56]::FLOW_DESCR_END","/cognitive-services/speechToText.js","88","56","88","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;speechToText.js:88[63:70];Sink: ""Error  ... sponse);speechToText.js:107[19:93]::FLOW_DESCR_END","/cognitive-services/speechToText.js","88","63","88","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;speechToText.js:88[73:76];Sink: ""Error  ... - "" + r;speechToText.js:122[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;speechToText.js:88[73:76];Sink: ""Error  ... - "" + r;speechToText.js:128[18:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;speechToText.js:88[73:76];Sink: ""Text r ... payload;speechToText.js:137[17:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;speechToText.js:88[73:76];Sink: ""Error  ... - "" + e;speechToText.js:141[17:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;speechToText.js:88[73:76];Sink: msg.payload;speechToText.js:173[34:44]::FLOW_DESCR_END","/cognitive-services/speechToText.js","88","73","88","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;speechToText.js:153[44:46];Sink: ""Error  ... "" + err;speechToText.js:154[18:51]::FLOW_DESCR_END","/cognitive-services/speechToText.js","153","44","153","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;spellcheck.js:9[35:37];Sink: msg;spellcheck.js:14[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spellcheck.js:9[35:37];Sink: msg;spellcheck.js:67[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;spellcheck.js:9[35:37];Sink: msg;spellcheck.js:84[39:41]::FLOW_DESCR_END","/cognitive-services/spellcheck.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;spellcheck.js:32[49:53];Sink: error;spellcheck.js:78[40:44]::FLOW_DESCR_END","/cognitive-services/spellcheck.js","32","49","32","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;spellcheck.js:32[56:63];Sink: ""respon ... y(body);spellcheck.js:39[41:119]::FLOW_DESCR_END","/cognitive-services/spellcheck.js","32","56","32","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;spellcheck.js:32[66:69];Sink: ""respon ... y(body);spellcheck.js:39[41:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;spellcheck.js:32[66:69];Sink: body;spellcheck.js:72[44:47]::FLOW_DESCR_END","/cognitive-services/spellcheck.js","32","66","32","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textToSpeech.js:24[40:44];Sink: ""Error  ... + error;textToSpeech.js:26[17:54]::FLOW_DESCR_END","/cognitive-services/textToSpeech.js","24","40","24","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:9[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:26[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:49[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:75[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:81[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:87[95:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:93[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:102[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:108[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textToSpeech.js:46[29:31];Sink: msg;textToSpeech.js:114[17:19]::FLOW_DESCR_END","/cognitive-services/textToSpeech.js","46","29","46","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textToSpeech.js:73[46:50];Sink: ""Error  ... + error;textToSpeech.js:75[18:55]::FLOW_DESCR_END","/cognitive-services/textToSpeech.js","73","46","73","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textToSpeech.js:73[53:60];Sink: ""Error  ... sponse);textToSpeech.js:87[18:92]::FLOW_DESCR_END","/cognitive-services/textToSpeech.js","73","53","73","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:15[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:60[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:77[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:122[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:139[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:184[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textanalytics.js:9[35:37];Sink: msg;textanalytics.js:201[43:45]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textanalytics.js:41[53:57];Sink: error;textanalytics.js:71[44:48]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","41","53","41","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textanalytics.js:41[60:67];Sink: ""respon ... y(body);textanalytics.js:48[45:123]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","41","60","41","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;textanalytics.js:41[70:73];Sink: ""respon ... y(body);textanalytics.js:48[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;textanalytics.js:41[70:73];Sink: body;textanalytics.js:65[48:51]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","41","70","41","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textanalytics.js:103[53:57];Sink: error;textanalytics.js:133[44:48]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","103","53","103","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textanalytics.js:103[60:67];Sink: ""respon ... y(body);textanalytics.js:110[45:123]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","103","60","103","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;textanalytics.js:103[70:73];Sink: ""respon ... y(body);textanalytics.js:110[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;textanalytics.js:103[70:73];Sink: body;textanalytics.js:127[48:51]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","103","70","103","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textanalytics.js:165[53:57];Sink: error;textanalytics.js:195[44:48]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","165","53","165","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textanalytics.js:165[60:67];Sink: ""respon ... y(body);textanalytics.js:172[45:123]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","165","60","165","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;textanalytics.js:165[70:73];Sink: ""respon ... y(body);textanalytics.js:172[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;textanalytics.js:165[70:73];Sink: body;textanalytics.js:189[48:51]::FLOW_DESCR_END","/cognitive-services/textanalytics.js","165","70","165","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translator.js:11[35:37];Sink: msg;translator.js:18[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:11[35:37];Sink: msg;translator.js:68[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:11[35:37];Sink: msg;translator.js:71[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:11[35:37];Sink: msg;translator.js:76[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translator.js:11[35:37];Sink: msg;translator.js:95[43:45]::FLOW_DESCR_END","/cognitive-services/translator.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;translator.js:38[53:57];Sink: error;translator.js:89[44:48]::FLOW_DESCR_END","/cognitive-services/translator.js","38","53","38","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;translator.js:38[60:67];Sink: ""respon ... y(body);translator.js:45[45:123]::FLOW_DESCR_END","/cognitive-services/translator.js","38","60","38","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;translator.js:38[70:73];Sink: ""respon ... y(body);translator.js:45[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;translator.js:38[70:73];Sink: body;translator.js:83[48:51]::FLOW_DESCR_END","/cognitive-services/translator.js","38","70","38","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error2;translator.js:57[65:70];Sink: error2;translator.js:76[56:61]::FLOW_DESCR_END","/cognitive-services/translator.js","57","65","57","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response2;translator.js:57[73:81];Sink: ""respon ... (body2);translator.js:59[57:137]::FLOW_DESCR_END","/cognitive-services/translator.js","57","73","57","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body2;translator.js:57[84:88];Sink: ""respon ... (body2);translator.js:59[57:137]::FLOW_DESCR_END","/cognitive-services/translator.js","57","84","57","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;videosearch.js:9[35:37];Sink: msg;videosearch.js:15[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;videosearch.js:9[35:37];Sink: msg;videosearch.js:49[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;videosearch.js:9[35:37];Sink: msg;videosearch.js:66[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;videosearch.js:9[35:37];Sink: msg;videosearch.js:94[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;videosearch.js:9[35:37];Sink: msg;videosearch.js:111[43:45]::FLOW_DESCR_END","/cognitive-services/videosearch.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;videosearch.js:32[48:52];Sink: error;videosearch.js:60[44:48]::FLOW_DESCR_END","/cognitive-services/videosearch.js","32","48","32","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;videosearch.js:32[65:68];Sink: body;videosearch.js:54[48:51]::FLOW_DESCR_END","/cognitive-services/videosearch.js","32","65","32","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;videosearch.js:82[48:52];Sink: error;videosearch.js:105[44:48]::FLOW_DESCR_END","/cognitive-services/videosearch.js","82","48","82","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;videosearch.js:82[65:68];Sink: body;videosearch.js:99[48:51]::FLOW_DESCR_END","/cognitive-services/videosearch.js","82","65","82","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weblm.js:9[35:37];Sink: msg;weblm.js:15[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weblm.js:9[35:37];Sink: msg;weblm.js:55[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weblm.js:9[35:37];Sink: msg;weblm.js:72[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weblm.js:9[35:37];Sink: msg;weblm.js:100[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;weblm.js:9[35:37];Sink: msg;weblm.js:117[43:45]::FLOW_DESCR_END","/cognitive-services/weblm.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;weblm.js:36[53:57];Sink: error;weblm.js:66[44:48]::FLOW_DESCR_END","/cognitive-services/weblm.js","36","53","36","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;weblm.js:36[60:67];Sink: ""respon ... y(body);weblm.js:43[45:123]::FLOW_DESCR_END","/cognitive-services/weblm.js","36","60","36","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;weblm.js:36[70:73];Sink: ""respon ... y(body);weblm.js:43[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;weblm.js:36[70:73];Sink: body;weblm.js:60[48:51]::FLOW_DESCR_END","/cognitive-services/weblm.js","36","70","36","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;weblm.js:88[48:52];Sink: error;weblm.js:111[44:48]::FLOW_DESCR_END","/cognitive-services/weblm.js","88","48","88","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;weblm.js:88[55:62];Sink: ""respon ... y(body);weblm.js:95[45:123]::FLOW_DESCR_END","/cognitive-services/weblm.js","88","55","88","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;weblm.js:88[65:68];Sink: ""respon ... y(body);weblm.js:95[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;weblm.js:88[65:68];Sink: body;weblm.js:105[48:51]::FLOW_DESCR_END","/cognitive-services/weblm.js","88","65","88","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;websearch.js:67[35:37];Sink: msg;websearch.js:73[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;websearch.js:67[35:37];Sink: msg;websearch.js:120[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;websearch.js:67[35:37];Sink: msg;websearch.js:138[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;websearch.js:67[35:37];Sink: msg;websearch.js:166[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;websearch.js:67[35:37];Sink: msg;websearch.js:183[43:45]::FLOW_DESCR_END","/cognitive-services/websearch.js","67","35","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;websearch.js:90[48:52];Sink: error;websearch.js:132[44:48]::FLOW_DESCR_END","/cognitive-services/websearch.js","90","48","90","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;websearch.js:90[65:68];Sink: body;websearch.js:126[48:51]::FLOW_DESCR_END","/cognitive-services/websearch.js","90","65","90","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;websearch.js:154[48:52];Sink: error;websearch.js:177[44:48]::FLOW_DESCR_END","/cognitive-services/websearch.js","154","48","154","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;websearch.js:154[65:68];Sink: body;websearch.js:171[48:51]::FLOW_DESCR_END","/cognitive-services/websearch.js","154","65","154","68"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CPU.js:13[35:37];Sink: msg;CPU.js:25[41:43]::FLOW_DESCR_END","/CPU/CPU.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;CPU.js:35[35:37];Sink: msg;CPU.js:48[37:39]::FLOW_DESCR_END","/CPU/CPU.js","35","35","35","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GPIO.js:51[35:37];Sink: msg;GPIO.js:69[23:25]::FLOW_DESCR_END","/GPIO/GPIO.js","51","35","51","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GPIO.js:79[35:37];Sink: msg;GPIO.js:88[62:64]::FLOW_DESCR_END","/GPIO/GPIO.js","79","35","79","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;app.js:122[35:37];Sink: msg;app.js:124[23:25]::FLOW_DESCR_END","/app/app.js","122","35","122","37"

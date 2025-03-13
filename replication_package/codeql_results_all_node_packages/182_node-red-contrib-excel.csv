@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;excel.js:9[35:37];Sink: file;excel.js:25[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;excel.js:9[35:37];Sink: msg;excel.js:29[27:29]::FLOW_DESCR_END","/excel/excel.js","9","35","9","37"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;53-svfc.js:31[31:33];Sink: filepath;53-svfc.js:129[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;53-svfc.js:31[31:33];Sink: msg;53-svfc.js:134[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;53-svfc.js:31[31:33];Sink: msg;53-svfc.js:160[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;53-svfc.js:31[31:33];Sink: form;poster.js:45[19:22]::FLOW_DESCR_END","/53-svfc.js","31","31","31","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;53-svfc.js:66[40:44];Sink: error;53-svfc.js:70[18:22]::FLOW_DESCR_END","/53-svfc.js","66","40","66","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;53-svfc.js:152[45:49];Sink: error;53-svfc.js:162[24:28]::FLOW_DESCR_END","/53-svfc.js","152","45","152","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;poster.js:48[43:46];Sink: data;poster.js:49[23:26]::FLOW_DESCR_END","/lib/poster.js","48","43","48","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;poster.js:66[38:41];Sink: data;poster.js:67[25:28]::FLOW_DESCR_END","/lib/poster.js","66","38","66","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;poster.js:81[30:32];Sink: err;53-svfc.js:166[27:29]::FLOW_DESCR_END","/lib/poster.js","81","30","81","32"

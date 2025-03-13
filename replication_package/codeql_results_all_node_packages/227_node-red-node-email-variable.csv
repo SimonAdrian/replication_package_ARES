@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:210[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:214[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:224[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:228[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:236[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:247[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable-email.js:80[35:37];Sink: msg;variable-email.js:255[16:18]::FLOW_DESCR_END","/variable-email.js","80","35","80","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;variable-email.js:382[52:55];Sink: util.fo ... , data);variable-email.js:393[30:75]::FLOW_DESCR_END","/variable-email.js","382","52","382","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;variable-email.js:397[45:47];Sink: ""error: ... fy(err);variable-email.js:399[26:56]::FLOW_DESCR_END","/variable-email.js","397","45","397","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;variable-email.js:411[53:59];Sink: util.fo ... awData);variable-email.js:416[30:79]::FLOW_DESCR_END","/variable-email.js","411","53","411","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;variable-email.js:422[69:75];Sink: util.fo ... awData);variable-email.js:441[30:78]::FLOW_DESCR_END","/variable-email.js","422","69","422","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;variable-email.js:447[53:55];Sink: ""Invali ... "" + cmd;variable-email.js:448[26:48]::FLOW_DESCR_END","/variable-email.js","447","53","447","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;variable-email.js:451[46:48];Sink: ""We wer ... "" + cmd;variable-email.js:452[26:49]::FLOW_DESCR_END","/variable-email.js","451","46","451","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;variable-email.js:483[39:41];Sink: err;variable-email.js:485[30:32]::FLOW_DESCR_END","/variable-email.js","483","39","483","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;variable-email.js:660[35:37];Sink: msg;variable-email.js:613[79:81]::FLOW_DESCR_END","/variable-email.js","660","35","660","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;variable-email.js:742[30:32];Sink: ""Error: ... message;variable-email.js:743[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;variable-email.js:742[30:32];Sink: err;variable-email.js:743[49:51]::FLOW_DESCR_END","/variable-email.js","742","30","742","32"

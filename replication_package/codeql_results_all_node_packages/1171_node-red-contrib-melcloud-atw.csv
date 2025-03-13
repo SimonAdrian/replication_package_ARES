@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;melcloud-atw.js:39[28:40];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-atw.js","39","28","39","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;melcloud-atw.js:91[42:44];Sink: msg.error;melcloud-connect-atw.js:139[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;melcloud-atw.js:91[42:44];Sink: msg.error;melcloud-connect-atw.js:232[32:40]::FLOW_DESCR_END","/melcloud-atw.js","91","42","91","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;melcloud-atw.js:162[38:40];Sink: msg.error;melcloud-connect-atw.js:227[44:52]::FLOW_DESCR_END","/melcloud-atw.js","162","38","162","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.email;melcloud-connect-atw.js:39[22:43];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","39","22","39","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;melcloud-connect-atw.js:40[25:49];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","40","25","40","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.email;melcloud-connect-atw.js:44[42:51];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","44","42","44","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;melcloud-connect-atw.js:44[53:65];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","44","53","44","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;melcloud-connect-atw.js:151[39:41];Sink: ""set te ...  "" + t1;melcloud-connect-atw.js:91[45:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect-atw.js:151[39:41];Sink: ""set te ...  "" + t2;melcloud-connect-atw.js:97[45:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect-atw.js:151[39:41];Sink: ""set te ...  "" + tt;melcloud-connect-atw.js:104[45:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;melcloud-connect-atw.js:151[39:41];Sink: ""force  ... "" + hwm;melcloud-connect-atw.js:110[45:75]::FLOW_DESCR_END","/melcloud-connect-atw.js","151","39","151","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... s.email;melcloud-connect-atw.js:211[22:43];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","211","22","211","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;melcloud-connect-atw.js:212[25:49];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","212","25","212","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.email;melcloud-connect-atw.js:217[42:51];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","217","42","217","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;melcloud-connect-atw.js:217[53:65];Sink: JSON.st ... stData);melcloud-atw.js:96[27:50]::FLOW_DESCR_END","/melcloud-connect-atw.js","217","53","217","65"

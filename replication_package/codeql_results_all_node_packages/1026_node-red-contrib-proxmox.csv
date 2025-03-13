@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;proxmox-api.js:16[29:31];Sink: msg;proxmox-api.js:78[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;proxmox-api.js:16[29:31];Sink: msg;proxmox-api.js:84[43:45]::FLOW_DESCR_END","/proxmox/proxmox-api.js","16","29","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;proxmox-api.js:75[38:45];Sink: JSON.st ... sponse);proxmox-api.js:84[17:40]::FLOW_DESCR_END","/proxmox/proxmox-api.js","75","38","75","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;proxmox-server.js:7[15:20];Sink: ""Succes ... lf.port;proxmox-server.js:57[30:118]::FLOW_DESCR_END","/proxmox/proxmox-server.js","7","15","7","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;proxmox-server.js:8[15:20];Sink: ""Succes ... lf.port;proxmox-server.js:57[30:118]::FLOW_DESCR_END","/proxmox/proxmox-server.js","8","15","8","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;proxmox-server.js:11[29:53];Sink: ""Succes ... lf.port;proxmox-server.js:57[30:118]::FLOW_DESCR_END","/proxmox/proxmox-server.js","11","29","11","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.username;proxmox-server.js:57[70:82];Sink: ""Succes ... lf.port;proxmox-server.js:57[30:118]::FLOW_DESCR_END","/proxmox/proxmox-server.js","57","70","57","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.host;proxmox-server.js:57[92:100];Sink: ""Succes ... lf.port;proxmox-server.js:57[30:118]::FLOW_DESCR_END","/proxmox/proxmox-server.js","57","92","57","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.port;proxmox-server.js:57[110:118];Sink: ""Succes ... lf.port;proxmox-server.js:57[30:118]::FLOW_DESCR_END","/proxmox/proxmox-server.js","57","110","57","118"

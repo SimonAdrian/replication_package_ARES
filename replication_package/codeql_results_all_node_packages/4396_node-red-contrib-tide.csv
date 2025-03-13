@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tide.js:41[35:37];Sink: msg;tide.js:65[35:37]::FLOW_DESCR_END","/tide.js","41","35","41","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tide.js:104[35:37];Sink: ""method: "" + method;tide.js:200[21:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tide.js:104[35:37];Sink: ""data: "" + data;tide.js:201[21:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tide.js:104[35:37];Sink: ""key: "" + key;tide.js:202[21:33]::FLOW_DESCR_END","/tide.js","104","35","104","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tide.js:221[39:41];Sink: err;tide.js:75[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;tide.js:221[39:41];Sink: err;tide.js:135[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;tide.js:221[39:41];Sink: err;tide.js:179[28:30]::FLOW_DESCR_END","/tide.js","221","39","221","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;tide.js:221[54:57];Sink: resp.body.message;tide.js:70[35:51]::FLOW_DESCR_END","/tide.js","221","54","221","57"

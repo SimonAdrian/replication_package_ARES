@@ -1,0 +1,30 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alert-action.js:18[29:31];Sink: msg;alert-action.js:38[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alert-action.js:18[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/alert-action.js","18","29","18","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;browser-action.js:9[29:31];Sink: msg;browser-action.js:48[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;browser-action.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/browser-action.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-session.js:9[29:31];Sink: msg;delete-session.js:18[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete-session.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/delete-session.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dropdown-action.js:9[29:31];Sink: msg;dropdown-action.js:36[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dropdown-action.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/dropdown-action.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;element-action.js:42[29:31];Sink: msg;element-action.js:88[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;element-action.js:42[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/element-action.js","42","29","42","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;element-check.js:9[29:31];Sink: msg;element-check.js:34[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;element-check.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/element-check.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;execute-script.js:9[29:31];Sink: msg;execute-script.js:29[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-script.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/execute-script.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;explicit-wait.js:9[29:31];Sink: msg;explicit-wait.js:41[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;explicit-wait.js:9[29:31];Sink: e;wdio-common.js:104[15:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;explicit-wait.js:9[29:31];Sink: e;wdio-common.js:106[14:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;explicit-wait.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/explicit-wait.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frame-action.js:9[29:31];Sink: msg;frame-action.js:26[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;frame-action.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/frame-action.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-title.js:9[29:31];Sink: msg;get-title.js:14[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-title.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/get-title.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;implicit-wait-config.js:12[29:31];Sink: msg;implicit-wait-config.js:31[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;implicit-wait-config.js:12[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/implicit-wait-config.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;navigate-to.js:9[29:31];Sink: msg;navigate-to.js:15[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;navigate-to.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/navigate-to.js","9","29","9","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;new-session.js:10[29:31];Sink: msg;new-session.js:25[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;new-session.js:10[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END","/src/new-session.js","10","29","10","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;window-action.js:9[29:31];Sink: msg;wdio-common.js:106[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;window-action.js:9[29:31];Sink: msg;window-action.js:29[19:21]::FLOW_DESCR_END","/src/window-action.js","9","29","9","31"

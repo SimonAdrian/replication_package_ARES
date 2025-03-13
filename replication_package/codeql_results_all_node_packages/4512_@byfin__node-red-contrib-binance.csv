@@ -1,0 +1,49 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;binance.html:3[47702:47702];Sink: t;binance.html:3[48105:48105]::FLOW_DESCR_END","/binance.html","3","47702","3","47702"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;binance.html:3[48460:48460];Sink: t;binance.html:3[48854:48854]::FLOW_DESCR_END","/binance.html","3","48460","3","48460"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;binance.html:3[49594:49594];Sink: t;binance.html:3[49718:49718]::FLOW_DESCR_END","/binance.html","3","49594","3","49594"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;binance.html:3[51107:51107];Sink: t;binance.html:3[51202:51202]::FLOW_DESCR_END","/binance.html","3","51107","3","51107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;binance.html:3[51540:51540];Sink: t;binance.html:3[51705:51705]::FLOW_DESCR_END","/binance.html","3","51540","3","51540"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:118[32:34];Sink: msg;binance.js:137[19:21]::FLOW_DESCR_END","/binance.js","118","32","118","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:148[32:34];Sink: msg;binance.js:152[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:148[32:34];Sink: msg;binance.js:158[19:21]::FLOW_DESCR_END","/binance.js","148","32","148","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:170[32:34];Sink: msg;binance.js:173[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:170[32:34];Sink: msg;binance.js:183[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:170[32:34];Sink: msg;binance.js:189[19:21]::FLOW_DESCR_END","/binance.js","170","32","170","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:201[32:34];Sink: msg;binance.js:209[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:201[32:34];Sink: msg;binance.js:215[19:21]::FLOW_DESCR_END","/binance.js","201","32","201","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:231[32:34];Sink: msg;binance.js:235[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:231[32:34];Sink: msg;binance.js:241[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:231[32:34];Sink: msg;binance.js:262[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:231[32:34];Sink: msg;binance.js:268[19:21]::FLOW_DESCR_END","/binance.js","231","32","231","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:280[32:34];Sink: msg;binance.js:282[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:280[32:34];Sink: msg;binance.js:291[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:280[32:34];Sink: msg;binance.js:297[21:23]::FLOW_DESCR_END","/binance.js","280","32","280","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:310[32:34];Sink: msg;binance.js:312[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:310[32:34];Sink: msg;binance.js:324[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:310[32:34];Sink: msg;binance.js:330[21:23]::FLOW_DESCR_END","/binance.js","310","32","310","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:343[32:34];Sink: msg;binance.js:345[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:343[32:34];Sink: msg;binance.js:351[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:343[32:34];Sink: msg;binance.js:365[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:343[32:34];Sink: msg;binance.js:371[21:23]::FLOW_DESCR_END","/binance.js","343","32","343","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:384[32:34];Sink: msg;binance.js:386[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:384[32:34];Sink: msg;binance.js:393[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:384[32:34];Sink: msg;binance.js:405[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:384[32:34];Sink: msg;binance.js:411[19:21]::FLOW_DESCR_END","/binance.js","384","32","384","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:35[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:41[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:47[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:53[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:59[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:65[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:428[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:452[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:426[32:34];Sink: msg;binance.js:458[21:23]::FLOW_DESCR_END","/binance.js","426","32","426","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:35[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:41[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:47[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:53[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:59[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:65[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:477[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:501[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;binance.js:475[32:34];Sink: msg;binance.js:507[21:23]::FLOW_DESCR_END","/binance.js","475","32","475","34"

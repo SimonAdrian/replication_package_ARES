@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;feedparse.js:32[42:44];Sink: err;feedparse.js:32[60:62]::FLOW_DESCR_END","/feedparse.js","32","42","32","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;feedparse.js:34[45:47];Sink: RED._("" ... tusCode;feedparse.js:35[60:126]::FLOW_DESCR_END","/feedparse.js","34","45","34","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;feedparse.js:39[49:53];Sink: error;feedparse.js:39[69:73]::FLOW_DESCR_END","/feedparse.js","39","49","39","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: stream.read();feedparse.js:43[38:50];Sink: feed_url;feedparse.js:25[35:42]::FLOW_DESCR_END","/feedparse.js","43","38","43","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;feedparse.js:61[35:37];Sink: feed_url;feedparse.js:25[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;feedparse.js:61[35:37];Sink: msg;feedparse.js:51[39:41]::FLOW_DESCR_END","/feedparse.js","61","35","61","37"

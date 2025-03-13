@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.organic;agent.js:137[24:39];Sink: url;agent.js:13[40:42]::FLOW_DESCR_END","/agent.js","137","24","137","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.items;agent.js:159[23:41];Sink: url;agent.js:13[40:42]::FLOW_DESCR_END","/agent.js","159","23","159","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... message;agent.js:193[60:86];Sink: `fn fin ... ssage}`;agent.js:193[23:88]::FLOW_DESCR_END","/agent.js","193","60","193","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:17[32:34];Sink: query;node.js:20[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:17[32:34];Sink: msg;node.js:23[21:23]::FLOW_DESCR_END","/node.js","17","32","17","34"

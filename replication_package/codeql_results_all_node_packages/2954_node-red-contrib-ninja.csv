@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ninja-receive.js:97[27:29];Sink: obj.ACK;ninja-receive.js:101[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ninja-receive.js:97[27:29];Sink: obj.DEVICE;ninja-receive.js:103[36:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ninja-receive.js:97[27:29];Sink: error;ninja-receive.js:108[28:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ninja-receive.js:97[27:29];Sink: msg;ninja-receive.js:108[35:37]::FLOW_DESCR_END","/ninja/ninja-receive.js","97","27","97","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ninja-send.js:70[27:29];Sink: msg;ninja-send.js:77[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ninja-send.js:70[27:29];Sink: msg;ninja-send.js:80[35:37]::FLOW_DESCR_END","/ninja/ninja-send.js","70","27","70","29"

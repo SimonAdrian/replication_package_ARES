@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rez.data.type;jung-receive-status.js:166[89:101];Sink: ""regist ... e + "")"";jung-receive-status.js:166[25:107]::FLOW_DESCR_END","/jung-receive-status.js","166","89","166","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rez.data.type;jung-receive-status.js:167[88:100];Sink: ""regist ... e + "")"";jung-receive-status.js:167[24:106]::FLOW_DESCR_END","/jung-receive-status.js","167","88","167","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jung-send-command.js:24[32:34];Sink: msg;jung-send-command.js:28[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jung-send-command.js:24[32:34];Sink: ""jung-s ... "" + cmd;jung-send-command.js:57[19:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jung-send-command.js:24[32:34];Sink: ""jung-s ... payload;jung-send-command.js:101[29:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jung-send-command.js:24[32:34];Sink: msg;jung-send-command.js:121[27:29]::FLOW_DESCR_END","/jung-send-command.js","24","32","24","34"

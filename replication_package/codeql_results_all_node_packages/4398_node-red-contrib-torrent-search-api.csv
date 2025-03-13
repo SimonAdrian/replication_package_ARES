@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: err.body;execute-node.js:5[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: err.message;execute-node.js:7[20:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: msg;execute-node.js:42[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: msg;execute-node.js:47[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: msg;execute-node.js:56[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: msg;execute-node.js:64[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: msg;execute-node.js:69[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;execute-node.js:16[35:37];Sink: msg;execute-node.js:75[31:33]::FLOW_DESCR_END","/execute-node.js","16","35","16","37"

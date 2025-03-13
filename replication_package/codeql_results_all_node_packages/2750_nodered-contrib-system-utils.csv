@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keystore.delete.js:10[31:33];Sink: [msg,null];keystore.delete.js:18[21:30]::FLOW_DESCR_END","/nodes/keystore.delete.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keystore.get.js:10[31:33];Sink: [msg,null];keystore.get.js:18[21:30]::FLOW_DESCR_END","/nodes/keystore.get.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keystore.set.js:10[31:33];Sink: [msg,null];keystore.set.js:20[21:30]::FLOW_DESCR_END","/nodes/keystore.set.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;utils.config.load.js:11[31:33];Sink: msg;utils.config.load.js:24[26:28]::FLOW_DESCR_END","/nodes/utils.config.load.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");utils.config.load.js:16[33:67];Sink: object.config;utils.config.load.js:20[66:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... ""utf8"");utils.config.load.js:16[33:67];Sink: object.config;utils.config.load.js:21[68:80]::FLOW_DESCR_END","/nodes/utils.config.load.js","16","33","16","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;utils.config.store.js:11[31:33];Sink: JSON.st ... object);utils.config.store.js:23[38:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.config.store.js:11[31:33];Sink: msg;utils.config.store.js:25[26:28]::FLOW_DESCR_END","/nodes/utils.config.store.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: ""loopin ... .length;utils.iterate.js:24[27:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: [msg,null];utils.iterate.js:26[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: [null,msg];utils.iterate.js:33[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: array;utils.iterate.js:41[68:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: array;utils.iterate.js:42[72:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: array[idx];utils.iterate.js:49[68:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils.iterate.js:11[31:33];Sink: array[idx];utils.iterate.js:50[72:81]::FLOW_DESCR_END","/nodes/utils.iterate.js","11","31","11","33"

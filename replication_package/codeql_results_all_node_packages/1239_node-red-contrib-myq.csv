@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;myq.js:12[36:38];Sink: `Execut ... Name}""`;myq.js:38[44:156]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myq.js:12[36:38];Sink: msg;myq.js:55[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;myq.js:12[36:38];Sink: msg;myq.js:68[43:45]::FLOW_DESCR_END","/myq.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;myq.js:16[61:73];Sink: `Using  ... rname}`;myq.js:16[28:75]::FLOW_DESCR_END","/myq.js","16","61","16","73"

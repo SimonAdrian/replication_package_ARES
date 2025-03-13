@@ -1,0 +1,130 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceInfo;dumper.html:52[48:57];Sink: deviceInfo;dumper.html:53[39:48]::FLOW_DESCR_END","/leapjs/examples/dumper.html","52","48","52","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceInfo;dumper.html:55[47:56];Sink: deviceInfo;dumper.html:56[38:47]::FLOW_DESCR_END","/leapjs/examples/dumper.html","55","47","55","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceInfo;dumper.html:58[49:58];Sink: deviceInfo;dumper.html:59[40:49]::FLOW_DESCR_END","/leapjs/examples/dumper.html","58","49","58","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceInfo;dumper.html:61[47:56];Sink: deviceInfo;dumper.html:62[38:47]::FLOW_DESCR_END","/leapjs/examples/dumper.html","61","47","61","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceInfo;dumper.html:64[50:59];Sink: deviceInfo;dumper.html:65[41:50]::FLOW_DESCR_END","/leapjs/examples/dumper.html","64","50","64","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceInfo;dumper.html:67[50:59];Sink: deviceInfo;dumper.html:68[41:50]::FLOW_DESCR_END","/leapjs/examples/dumper.html","67","50","67","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: color;three.js:218[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: array;three.js:5266[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: color;three.js:10984[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: color;three.js:11007[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: color;three.js:11033[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: skyColor;three.js:11143[26:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: color;three.js:11173[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: color;three.js:11201[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: url;three.js:11856[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: normals ... ex ++ ];three.js:12177[7:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: normals ... ex ++ ];three.js:12178[7:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: normals ... Index ];three.js:12179[7:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: normals ... ex ++ ];three.js:12283[7:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: normals ... ex ++ ];three.js:12284[7:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: normals ... Index ];three.js:12285[7:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: 'THREE. ... eometry;three.js:12921[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: 'THREE. ... aterial;three.js:12927[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: 'THREE. ... aterial;three.js:12941[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[0];three.js:13319[10:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[1];three.js:13319[19:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[2];three.js:13319[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[3];three.js:13319[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[4];three.js:13320[10:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[5];three.js:13320[19:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[6];three.js:13320[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[7];three.js:13320[37:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[8];three.js:13321[10:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[9];three.js:13321[19:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[10];three.js:13321[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[11];three.js:13321[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[12];three.js:13322[10:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[13];three.js:13322[19:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[14];three.js:13322[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: mat[15];three.js:13322[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: position[ 0 ];three.js:13385[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: position[ 2 ];three.js:13385[68:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: position[ 0 ];three.js:13391[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: position[ 2 ];three.js:13391[68:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: texture ... at[ 0 ];three.js:13987[26:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: texture ... at[ 1 ];three.js:13987[51:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: texture ... et[ 0 ];three.js:13996[26:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: texture ... et[ 1 ];three.js:13996[51:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: matJSON ... le[ 0 ];three.js:14106[44:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: matJSON ... le[ 1 ];three.js:14106[81:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: url;three.js:27912[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: url;three.js:28021[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: radius;three.js:35054[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;three.js:11789[49:53];Sink: detail;three.js:35054[66:71]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","11789","49","11789","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: color;three.js:218[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: array;three.js:5266[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: color;three.js:10984[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: color;three.js:11033[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: skyColor;three.js:11143[26:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: color;three.js:11173[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: color;three.js:11201[26:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: 'THREE. ... eometry;three.js:12921[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: 'THREE. ... aterial;three.js:12927[22:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ch ... child ];three.js:12978[36:57];Sink: 'THREE. ... aterial;three.js:12941[22:78]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","12978","36","12978","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ge ... geoID ];three.js:13820[14:37];Sink: radius;three.js:35054[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ge ... geoID ];three.js:13820[14:37];Sink: detail;three.js:35054[66:71]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13820","14","13820","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: geoJSON.radius;three.js:13854[47:60];Sink: radius;three.js:35054[58:63]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13854","47","13854","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: geoJSON.subdivisions;three.js:13854[63:82];Sink: detail;three.js:35054[66:71]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13854","63","13854","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: url;three.js:11856[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: texture ... at[ 0 ];three.js:13987[26:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: texture ... at[ 1 ];three.js:13987[51:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: texture ... et[ 0 ];three.js:13996[26:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: texture ... et[ 1 ];three.js:13996[51:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: url;three.js:27912[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.te ... ureID ];three.js:13930[18:43];Sink: url;three.js:28021[26:28]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13930","18","13930","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textureJSON.url;three.js:13945[32:46];Sink: url;three.js:11856[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: textureJSON.url;three.js:13945[32:46];Sink: url;three.js:28021[26:28]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13945","32","13945","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textureJSON.url;three.js:13964[28:42];Sink: url;three.js:11856[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: textureJSON.url;three.js:13964[28:42];Sink: url;three.js:27912[24:26]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13964","28","13964","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textureJSON.repeat;three.js:13987[26:43];Sink: texture ... at[ 0 ];three.js:13987[26:48]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13987","26","13987","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textureJSON.repeat;three.js:13987[51:68];Sink: texture ... at[ 1 ];three.js:13987[51:73]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13987","51","13987","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textureJSON.offset;three.js:13996[26:43];Sink: texture ... et[ 0 ];three.js:13996[26:48]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13996","26","13996","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: textureJSON.offset;three.js:13996[51:68];Sink: texture ... et[ 1 ];three.js:13996[51:73]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","13996","51","13996","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ma ... matID ];three.js:14027[14:36];Sink: matJSON ... le[ 0 ];three.js:14106[44:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.ma ... matID ];three.js:14027[14:36];Sink: matJSON ... le[ 1 ];three.js:14106[81:115]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","14027","14","14027","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: matJSON.parameters;three.js:14106[44:61];Sink: matJSON ... le[ 0 ];three.js:14106[44:78]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","14106","44","14106","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: matJSON.parameters;three.js:14106[81:98];Sink: matJSON ... le[ 1 ];three.js:14106[81:115]::FLOW_DESCR_END","/leapjs/examples/lib/three.js","14106","81","14106","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;node.js:4[33:37];Sink: ""Frame: ... mestamp;node.js:5[15:60]::FLOW_DESCR_END","/leapjs/examples/node.js","4","33","4","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;plugins.html:32[31:35];Sink: string;plugins.html:37[26:31]::FLOW_DESCR_END","/leapjs/examples/plugins.html","32","31","32","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ws;protocol_versions.js:17[33:34];Sink: ""connec ... Req.url;protocol_versions.js:19[17:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: ws;protocol_versions.js:17[33:34];Sink: ""FAILED ... Req.url;protocol_versions.js:32[19:130]::FLOW_DESCR_END","/leapjs/integration_test/protocol_versions.js","17","33","17","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ws;protocol_versions.js:44[33:34];Sink: ""connec ... Req.url;protocol_versions.js:45[17:61]::FLOW_DESCR_END","/leapjs/integration_test/protocol_versions.js","44","33","44","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ws;protocol_versions.js:83[34:35];Sink: ""connec ... Req.url;protocol_versions.js:85[17:61]::FLOW_DESCR_END","/leapjs/integration_test/protocol_versions.js","83","34","83","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;leap-0.6.4.js:757[40:44];Sink: frame;leap-0.6.4.js:686[28:32]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","757","40","757","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;leap-0.6.4.js:761[41:45];Sink: frame;leap-0.6.4.js:701[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;leap-0.6.4.js:761[41:45];Sink: frame;leap-0.6.4.js:705[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;leap-0.6.4.js:761[41:45];Sink: frame;leap-0.6.4.js:708[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;leap-0.6.4.js:761[41:45];Sink: frame.hands[i];leap-0.6.4.js:720[23:36]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","761","41","761","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: protocol;leap-0.6.4.js:815[43:50];Sink: protocol;leap-0.6.4.js:825[33:40]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","815","43","815","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frameData;leap-0.6.4.js:817[48:56];Sink: frameData;leap-0.6.4.js:818[45:53]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","817","48","817","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;leap-0.6.4.js:821[47:51];Sink: frame;leap-0.6.4.js:822[44:48]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","821","47","821","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frameData;leap-0.6.4.js:821[54:62];Sink: frameData;leap-0.6.4.js:822[51:59]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","821","54","821","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;leap-0.6.4.js:863[46:48];Sink: info;leap-0.6.4.js:881[75:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;leap-0.6.4.js:863[46:48];Sink: info;leap-0.6.4.js:888[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;leap-0.6.4.js:863[46:48];Sink: info;leap-0.6.4.js:890[45:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;leap-0.6.4.js:863[46:48];Sink: info;leap-0.6.4.js:901[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;leap-0.6.4.js:863[46:48];Sink: info;leap-0.6.4.js:903[45:48]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","863","46","863","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;leap-0.6.4.js:3621[35:39];Sink: frame;leap-0.6.4.js:3622[25:29]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","3621","35","3621","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;leap-0.6.4.js:3624[34:38];Sink: frame;leap-0.6.4.js:3625[24:28]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","3624","34","3624","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;leap-0.6.4.js:3627[30:34];Sink: frame;leap-0.6.4.js:3628[25:29]::FLOW_DESCR_END","/leapjs/leap-0.6.4.js","3627","30","3627","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;controller.js:296[40:44];Sink: frame;controller.js:225[28:32]::FLOW_DESCR_END","/leapjs/lib/controller.js","296","40","296","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;controller.js:300[41:45];Sink: frame;controller.js:240[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;controller.js:300[41:45];Sink: frame;controller.js:244[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;controller.js:300[41:45];Sink: frame;controller.js:247[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: frame;controller.js:300[41:45];Sink: frame.hands[i];controller.js:259[23:36]::FLOW_DESCR_END","/leapjs/lib/controller.js","300","41","300","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: protocol;controller.js:354[43:50];Sink: protocol;controller.js:364[33:40]::FLOW_DESCR_END","/leapjs/lib/controller.js","354","43","354","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frameData;controller.js:356[48:56];Sink: frameData;controller.js:357[45:53]::FLOW_DESCR_END","/leapjs/lib/controller.js","356","48","356","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;controller.js:360[47:51];Sink: frame;controller.js:361[44:48]::FLOW_DESCR_END","/leapjs/lib/controller.js","360","47","360","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frameData;controller.js:360[54:62];Sink: frameData;controller.js:361[51:59]::FLOW_DESCR_END","/leapjs/lib/controller.js","360","54","360","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;controller.js:402[46:48];Sink: info;controller.js:420[75:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;controller.js:402[46:48];Sink: info;controller.js:427[42:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;controller.js:402[46:48];Sink: info;controller.js:429[45:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;controller.js:402[46:48];Sink: info;controller.js:440[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: evt;controller.js:402[46:48];Sink: info;controller.js:442[45:48]::FLOW_DESCR_END","/leapjs/lib/controller.js","402","46","402","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.pointables;frame.js:155[30:44];Sink: data;finger.js:31[24:27]::FLOW_DESCR_END","/leapjs/lib/frame.js","155","30","155","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.po ... bleIdx];frame.js:158[25:53];Sink: data;finger.js:31[24:27]::FLOW_DESCR_END","/leapjs/lib/frame.js","158","25","158","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.pointables;frame.js:158[25:39];Sink: data;finger.js:31[24:27]::FLOW_DESCR_END","/leapjs/lib/frame.js","158","25","158","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;region.js:42[35:39];Sink: frame;region.js:43[25:29]::FLOW_DESCR_END","/leapjs/lib/ui/region.js","42","35","42","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;region.js:45[34:38];Sink: frame;region.js:46[24:28]::FLOW_DESCR_END","/leapjs/lib/ui/region.js","45","34","45","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: frame;region.js:48[30:34];Sink: frame;region.js:49[25:29]::FLOW_DESCR_END","/leapjs/lib/ui/region.js","48","30","48","34"

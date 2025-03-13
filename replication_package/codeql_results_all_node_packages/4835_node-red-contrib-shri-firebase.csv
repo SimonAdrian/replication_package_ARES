@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase_push.js:21[32:34];Sink: msg;firebase_push.js:25[19:21]::FLOW_DESCR_END","/shri-firebase/firebase_push.js","21","32","21","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;firebase_update.js:21[32:34];Sink: msg;firebase_update.js:25[19:21]::FLOW_DESCR_END","/shri-firebase/firebase_update.js","21","32","21","34"

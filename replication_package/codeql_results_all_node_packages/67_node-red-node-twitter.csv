@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:597[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:601[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:605[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: params;27-twitter.js:640[107:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:647[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:649[82:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:654[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;27-twitter.js:566[39:41];Sink: msg;27-twitter.js:658[44:46]::FLOW_DESCR_END","/27-twitter.js","566","39","566","41"

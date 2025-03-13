@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;eliza.js:12[35:37];Sink: msg;eliza.js:23[23:25]::FLOW_DESCR_END","/eliza/eliza.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.el ... ords[k];elizabot.js:262[11:31];Sink: rsp;eliza.js:32[14:16]::FLOW_DESCR_END","/eliza/elizabot.js","262","11","262","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rule[2];elizabot.js:263[14:20];Sink: rsp;eliza.js:32[14:16]::FLOW_DESCR_END","/eliza/elizabot.js","263","14","263","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.el ... ms[i+1];elizabot.js:330[45:73];Sink: rsp;eliza.js:32[14:16]::FLOW_DESCR_END","/eliza/elizabot.js","330","45","330","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.el ... ength)];elizabot.js:371[9:75];Sink: rsp;eliza.js:32[14:16]::FLOW_DESCR_END","/eliza/elizabot.js","371","9","371","75"

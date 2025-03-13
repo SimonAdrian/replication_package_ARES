@@ -1,0 +1,43 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;aloes-network.js:453[45:49];Sink: error;aloes-network.js:454[32:36]::FLOW_DESCR_END","/aloes-network/aloes-network.js","453","45","453","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;aloes-rx.js:96[46:51];Sink: msg;aloes-rx.js:120[17:19]::FLOW_DESCR_END","/aloes-rx/aloes-rx.js","96","46","96","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aloes-tx.js:55[32:34];Sink: `publis ... topic}`;aloes-tx.js:75[22:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aloes-tx.js:55[32:34];Sink: msg;aloes-tx.js:76[36:38]::FLOW_DESCR_END","/aloes-tx/aloes-tx.js","55","32","55","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;aloes-tx.js:55[43:46];Sink: done;aloes-tx.js:76[41:44]::FLOW_DESCR_END","/aloes-tx/aloes-tx.js","55","43","55","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-sensor.js:78[38:40];Sink: msg;create-sensor.js:116[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-sensor.js:78[38:40];Sink: msg;create-sensor.js:125[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-sensor.js:78[38:40];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END","/create-sensor/create-sensor.js","78","38","78","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;extract-sensor-resources.js:15[32:34];Sink: msg;extract-sensor-resources.js:33[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;extract-sensor-resources.js:15[32:34];Sink: msg;extract-sensor-resources.js:43[29:31]::FLOW_DESCR_END","/extract-sensor-resources/extract-sensor-resources.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter-sensor.js:43[32:34];Sink: msg;filter-sensor.js:59[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter-sensor.js:43[32:34];Sink: msg;filter-sensor.js:69[29:31]::FLOW_DESCR_END","/filter-sensor/filter-sensor.js","43","32","43","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-aloes-devices.js:140[38:40];Sink: msg;get-aloes-devices.js:194[29:31]::FLOW_DESCR_END","/get-aloes-devices/get-aloes-devices.js","140","38","140","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: devicesTree.auth;get-aloes-devices.js:180[45:60];Sink: `parseS ... eName}`;get-aloes-devices.js:42[18:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: devicesTree.auth;get-aloes-devices.js:180[45:60];Sink: resourcesUrl;get-aloes-devices.js:50[64:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: devicesTree.auth;get-aloes-devices.js:180[45:60];Sink: `parseD ... eName}`;get-aloes-devices.js:97[18:46]::FLOW_DESCR_END","/get-aloes-devices/get-aloes-devices.js","180","45","180","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-instance.js:116[38:40];Sink: msg;get-instance.js:170[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-instance.js:116[38:40];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END","/get-instance/get-instance.js","116","38","116","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-aloes-topic.js:53[32:34];Sink: msg;set-aloes-topic.js:86[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-aloes-topic.js:53[32:34];Sink: msg;set-aloes-topic.js:96[29:31]::FLOW_DESCR_END","/set-aloes-topic/set-aloes-topic.js","53","32","53","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-instance.js:82[38:40];Sink: `${type ...  valid`;set-instance.js:121[24:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-instance.js:82[38:40];Sink: msg;set-instance.js:132[29:31]::FLOW_DESCR_END","/set-instance/set-instance.js","82","38","82","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-internal-topic.js:55[32:34];Sink: msg;set-internal-topic.js:104[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-internal-topic.js:55[32:34];Sink: msg;set-internal-topic.js:114[29:31]::FLOW_DESCR_END","/set-internal-topic/set-internal-topic.js","55","32","55","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value;storage.js:12[49:53];Sink: value;storage.js:35[28:32]::FLOW_DESCR_END","/storage.js","12","49","12","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;to-boolean.js:22[32:34];Sink: msg;to-boolean.js:78[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;to-boolean.js:22[32:34];Sink: msg;to-boolean.js:87[29:31]::FLOW_DESCR_END","/to-boolean/to-boolean.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;to-buffer.js:23[32:34];Sink: msg;to-buffer.js:76[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;to-buffer.js:23[32:34];Sink: msg;to-buffer.js:85[29:31]::FLOW_DESCR_END","/to-buffer/to-buffer.js","23","32","23","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;to-number.js:22[32:34];Sink: msg;to-number.js:89[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;to-number.js:22[32:34];Sink: msg;to-number.js:98[29:31]::FLOW_DESCR_END","/to-number/to-number.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;to-string.js:22[32:34];Sink: msg;to-string.js:69[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;to-string.js:22[32:34];Sink: msg;to-string.js:78[29:31]::FLOW_DESCR_END","/to-string/to-string.js","22","32","22","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-instance.js:107[38:40];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-instance.js:107[38:40];Sink: `${type ...  valid`;update-instance.js:177[24:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update-instance.js:107[38:40];Sink: msg;update-instance.js:190[29:31]::FLOW_DESCR_END","/update-instance/update-instance.js","107","38","107","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceName;create-sensor.js:13[13:22];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END","/create-sensor/create-sensor.js","13","13","13","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceName;get-instance.js:19[7:16];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END","/get-instance/get-instance.js","19","7","19","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host = 'localhost';helpers.js:67[25:42];Sink: node.brokerUrl;aloes-network.js:354[38:51]::FLOW_DESCR_END","/helpers.js","67","25","67","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port = null;helpers.js:67[45:55];Sink: node.brokerUrl;aloes-network.js:354[38:51]::FLOW_DESCR_END","/helpers.js","67","45","67","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceName;set-instance.js:18[23:32];Sink: value;storage.js:35[28:32]::FLOW_DESCR_END","/set-instance/set-instance.js","18","23","18","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceName;storage.js:91[23:32];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END","/storage.js","91","23","91","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceName;update-instance.js:20[7:16];Sink: key;storage.js:12[23:25]::FLOW_DESCR_END","/update-instance/update-instance.js","20","7","20","16"

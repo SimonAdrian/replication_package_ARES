@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;google-iot-core.js:63[21:26];Sink: node.brokerurl;google-iot-core.js:190[44:57]::FLOW_DESCR_END","/google-iot-core.js","63","21","63","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;google-iot-core.js:108[71:79];Sink: node.brokerurl;google-iot-core.js:190[44:57]::FLOW_DESCR_END","/google-iot-core.js","108","71","108","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;google-iot-core.js:251[51:55];Sink: error;google-iot-core.js:258[32:36]::FLOW_DESCR_END","/google-iot-core.js","251","51","251","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-iot-core.js:412[40:42];Sink: msg;google-iot-core.js:427[49:51]::FLOW_DESCR_END","/google-iot-core.js","412","40","412","42"

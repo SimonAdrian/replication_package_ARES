@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filesystem.js:107[27:29];Sink: msg;filesystem.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:107[27:29];Sink: msg;filesystem.js:52[111:113]::FLOW_DESCR_END","/filesystem.js","107","27","107","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filesystem.js:176[27:29];Sink: msg;filesystem.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:176[27:29];Sink: msg;filesystem.js:52[111:113]::FLOW_DESCR_END","/filesystem.js","176","27","176","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filesystem.js:230[27:29];Sink: msg;filesystem.js:30[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:230[27:29];Sink: msg;filesystem.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:230[27:29];Sink: msg;filesystem.js:52[111:113]::FLOW_DESCR_END","/filesystem.js","230","27","230","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filesystem.js:307[27:29];Sink: msg;filesystem.js:30[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:307[27:29];Sink: msg;filesystem.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:307[27:29];Sink: msg;filesystem.js:52[111:113]::FLOW_DESCR_END","/filesystem.js","307","27","307","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filesystem.js:364[27:29];Sink: msg;filesystem.js:30[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:364[27:29];Sink: msg;filesystem.js:46[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:364[27:29];Sink: msg;filesystem.js:52[111:113]::FLOW_DESCR_END","/filesystem.js","364","27","364","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filesystem.js:417[27:29];Sink: [msg, undefined];filesystem.js:426[40:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filesystem.js:417[27:29];Sink: [undefined, msg];filesystem.js:427[42:57]::FLOW_DESCR_END","/filesystem.js","417","27","417","29"

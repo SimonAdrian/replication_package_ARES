@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;swiss-forecast.js:14[33:35];Sink: msg;swiss-forecast.js:32[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;swiss-forecast.js:14[33:35];Sink: msg;swiss-forecast.js:36[30:32]::FLOW_DESCR_END","/swiss-forecast.js","14","33","14","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;swiss-forecast.js:35[35:37];Sink: err;swiss-forecast.js:36[26:28]::FLOW_DESCR_END","/swiss-forecast.js","35","35","35","37"

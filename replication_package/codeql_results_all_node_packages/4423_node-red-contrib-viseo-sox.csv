@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-sox-command.js:17[27:30];Sink: msg;node-sox-command.js:71[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-sox-command.js:17[27:30];Sink: msg;node-sox-command.js:81[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-sox-command.js:17[27:30];Sink: msg;node-sox-command.js:96[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-sox-command.js:17[27:30];Sink: msg;node-sox-command.js:106[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-sox-command.js:17[27:30];Sink: msg;node-sox-command.js:131[23:25]::FLOW_DESCR_END","/node-sox-command.js","17","27","17","30"

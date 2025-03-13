@@ -1,0 +1,32 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dvla-api.js:138[39:41];Sink: msg;dvla-api.js:156[35:37]::FLOW_DESCR_END","/dvla-api.js","138","39","138","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bootstrap-table.js:10[89040:89040];Sink: t;bootstrap-table.js:10[1910:1910]::FLOW_DESCR_END","/public/bootstrap-table.js","10","89040","10","89040"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.data[t];bootstrap-table.js:10[116832:116843];Sink: t;bootstrap-table.js:10[1910:1910]::FLOW_DESCR_END","/public/bootstrap-table.js","10","116832","10","116843"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;jquery-dt.js:92[377:377];Sink: c;jquery-dt.js:91[317:317]::FLOW_DESCR_END","/public/jquery-dt.js","92","377","92","377"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;jquery-dt.js:92[436:436];Sink: c;jquery-dt.js:91[317:317]::FLOW_DESCR_END","/public/jquery-dt.js","92","436","92","436"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: B.data.action;jquery-dt.js:173[385:397];Sink: c;jquery-dt.js:91[317:317]::FLOW_DESCR_END","/public/jquery-dt.js","173","385","173","397"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: obj;jquery.js:140[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: selector;jquery.js:153[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: expr;jquery.js:1614[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: selector;jquery.js:2377[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: qualifier;jquery.js:3052[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: jQuery( elem );jquery.js:3304[25:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:153[31:37];Sink: jQuery( elem );jquery.js:4174[24:37]::FLOW_DESCR_END","/public/jquery.js","153","31","153","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.in ... difiers;bootstrap.bundle.js:2893[27:49];Sink: functionToCheck;bootstrap.bundle.js:1494[51:65]::FLOW_DESCR_END","/vendor/bootstrap/js/bootstrap.bundle.js","2893","27","2893","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... [index];Chart.bundle.js:18369[16:54];Sink: rawValue;Chart.bundle.js:18234[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.bundle.js","18369","16","18369","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... x].data;Chart.bundle.js:18369[16:47];Sink: rawValue;Chart.bundle.js:18234[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.bundle.js","18369","16","18369","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... tIndex];Chart.bundle.js:18369[16:42];Sink: rawValue;Chart.bundle.js:18234[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.bundle.js","18369","16","18369","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.bundle.js:18369[16:28];Sink: rawValue;Chart.bundle.js:18234[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.bundle.js","18369","16","18369","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... [index];Chart.js:13906[16:54];Sink: rawValue;Chart.js:13771[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.js","13906","16","13906","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... x].data;Chart.js:13906[16:47];Sink: rawValue;Chart.js:13771[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.js","13906","16","13906","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... tIndex];Chart.js:13906[16:42];Sink: rawValue;Chart.js:13771[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.js","13906","16","13906","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.datasets;Chart.js:13906[16:28];Sink: rawValue;Chart.js:13771[58:65]::FLOW_DESCR_END","/vendor/chart.js/Chart.js","13906","16","13906","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jquery.dataTables.js:6563[38:38];Sink: msg;jquery.dataTables.js:6469[17:19]::FLOW_DESCR_END","/vendor/datatables/jquery.dataTables.js","6563","38","6563","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;jquery.dataTables.js:6567[41:41];Sink: msg;jquery.dataTables.js:6469[17:19]::FLOW_DESCR_END","/vendor/datatables/jquery.dataTables.js","6567","41","6567","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e.data.action;jquery.dataTables.js:14480[32:44];Sink: msg;jquery.dataTables.js:6469[17:19]::FLOW_DESCR_END","/vendor/datatables/jquery.dataTables.js","14480","32","14480","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: selector;jquery.js:94[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: expr;jquery.js:1531[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: selector;jquery.js:2232[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: qualifier;jquery.js:2871[27:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: qualifier;jquery.js:2883[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: jQuery( elem );jquery.js:3131[25:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: context;jquery.js:94[31:37];Sink: jQuery( elem );jquery.js:3988[24:37]::FLOW_DESCR_END","/vendor/jquery/jquery.js","94","31","94","37"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:149[23:25];Sink: JSON.stringify(fd1);index.js:154[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:149[23:25];Sink: JSON.stringify(fd2);index.js:158[20:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:149[23:25];Sink: JSON.stringify(msg);index.js:161[17:35]::FLOW_DESCR_END","/index.js","149","23","149","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:170[24:26];Sink: msg;index.js:171[18:20]::FLOW_DESCR_END","/index.js","170","24","170","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:174[22:24];Sink: msg;index.js:175[17:19]::FLOW_DESCR_END","/index.js","174","22","174","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: line;index.js:187[17:20];Sink: msg;index.js:49[56:58]::FLOW_DESCR_END","/index.js","187","17","187","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;test-node.js:13[26:28];Sink: msg;test-node.js:17[15:17]::FLOW_DESCR_END","/test-node.js","13","26","13","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;test.js:16[26:28];Sink: 'Caught ... ' + msg;test.js:16[46:67]::FLOW_DESCR_END","/test.js","16","26","16","28"

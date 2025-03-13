@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wsrr-graph-query.js:36[35:37];Sink: msg;wsrr-graph-query.js:44[15:17]::FLOW_DESCR_END","/wsrr-graph-query.js","36","35","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wsrr-sla-check.js:37[35:37];Sink: msg;wsrr-sla-check.js:64[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wsrr-sla-check.js:37[35:37];Sink: msg;wsrr-sla-check.js:67[40:42]::FLOW_DESCR_END","/wsrr-sla-check.js","37","35","37","37"

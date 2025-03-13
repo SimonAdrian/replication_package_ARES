@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;a3rt.js:37[31:33];Sink: msg;a3rt.js:61[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;a3rt.js:37[31:33];Sink: obj;a3rt.js:75[47:49]::FLOW_DESCR_END","/a3rt.js","37","31","37","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;a3rt.js:58[45:52];Sink: ""Failed ... message;a3rt.js:64[24:103]::FLOW_DESCR_END","/a3rt.js","58","45","58","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;a3rt.js:58[55:58];Sink: ""Failed ... message;a3rt.js:64[24:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;a3rt.js:58[55:58];Sink: obj;a3rt.js:75[47:49]::FLOW_DESCR_END","/a3rt.js","58","55","58","58"

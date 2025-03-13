@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-discord-receive.js:128[40:44];Sink: error;chatbot-discord-receive.js:129[22:26]::FLOW_DESCR_END","/nodes/chatbot-discord-receive.js","128","40","128","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-discord-receive.js:131[42:48];Sink: warning;chatbot-discord-receive.js:132[21:27]::FLOW_DESCR_END","/nodes/chatbot-discord-receive.js","131","42","131","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-discord-receive.js:182[43:49];Sink: message;chatbot-discord-receive.js:194[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-discord-receive.js:182[43:49];Sink: message;chatbot-discord-receive.js:198[27:33]::FLOW_DESCR_END","/nodes/chatbot-discord-receive.js","182","43","182","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-discord-receive.js:244[28:30];Sink: msg;chatbot-discord-receive.js:245[17:19]::FLOW_DESCR_END","/nodes/chatbot-discord-receive.js","244","28","244","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-discord-receive.js:254[32:38];Sink: message;chatbot-discord-receive.js:269[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-discord-receive.js:254[32:38];Sink: message;chatbot-discord-receive.js:273[21:27]::FLOW_DESCR_END","/nodes/chatbot-discord-receive.js","254","32","254","38"

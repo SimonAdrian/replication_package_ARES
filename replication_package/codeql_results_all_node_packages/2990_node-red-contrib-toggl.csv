@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-timer.js:6[27:29];Sink: msg;get-timer.js:14[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-timer.js:6[27:29];Sink: msg;get-timer.js:23[30:32]::FLOW_DESCR_END","/nodes/get-timer.js","6","27","6","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;start-timer.js:19[27:29];Sink: msg;start-timer.js:80[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;start-timer.js:19[27:29];Sink: msg;start-timer.js:91[30:32]::FLOW_DESCR_END","/nodes/start-timer.js","19","27","19","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stop-timer.js:9[27:29];Sink: msg;stop-timer.js:35[30:32]::FLOW_DESCR_END","/nodes/stop-timer.js","9","27","9","29"

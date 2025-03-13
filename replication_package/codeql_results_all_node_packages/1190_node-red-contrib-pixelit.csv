@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alertScreen.js:8[36:38];Sink: msg;alertScreen.js:10[23:25]::FLOW_DESCR_END","/pixelit/alertScreen.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitmap.js:8[36:38];Sink: msg;bitmap.js:17[23:25]::FLOW_DESCR_END","/pixelit/bitmap.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bitmapAnimation.js:8[36:38];Sink: msg;bitmapAnimation.js:14[23:25]::FLOW_DESCR_END","/pixelit/bitmapAnimation.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clock.js:8[36:38];Sink: msg;clock.js:19[23:25]::FLOW_DESCR_END","/pixelit/clock.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;core.js:14[33:35];Sink: msg.screenName;core.js:33[33:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core.js:14[33:35];Sink: msg;core.js:33[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core.js:14[33:35];Sink: msg.payload;core.js:108[51:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core.js:14[33:35];Sink: nextScr ... eenName;core.js:170[48:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core.js:14[33:35];Sink: myjson;core.js:368[76:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;core.js:14[33:35];Sink: myjson;core.js:395[76:81]::FLOW_DESCR_END","/pixelit/core.js","14","33","14","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: webResu ... 65Array;core.js:441[34:54];Sink: nextScr ... eenName;core.js:170[48:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: webResu ... 65Array;core.js:441[34:54];Sink: myjson;core.js:395[76:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: webResu ... 65Array;core.js:441[34:54];Sink: webBmp;core.js:442[58:63]::FLOW_DESCR_END","/pixelit/core.js","441","34","441","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gpioControl.js:8[36:38];Sink: msg;gpioControl.js:15[23:25]::FLOW_DESCR_END","/pixelit/gpioControl.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrixConfig.js:7[36:38];Sink: msg;matrixConfig.js:23[23:25]::FLOW_DESCR_END","/pixelit/matrixConfig.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;matrixControl.js:7[36:38];Sink: msg;matrixControl.js:9[23:25]::FLOW_DESCR_END","/pixelit/matrixControl.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;playlistUpdate.js:7[36:38];Sink: msg;playlistUpdate.js:9[23:25]::FLOW_DESCR_END","/pixelit/playlistUpdate.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;screenDatatUpdate.js:7[36:38];Sink: msg;screenDatatUpdate.js:9[23:25]::FLOW_DESCR_END","/pixelit/screenDatatUpdate.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;screenInit.js:8[36:38];Sink: msg;screenInit.js:11[23:25]::FLOW_DESCR_END","/pixelit/screenInit.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sound.js:8[36:38];Sink: msg;sound.js:14[23:25]::FLOW_DESCR_END","/pixelit/sound.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switchAnimation.js:8[36:38];Sink: msg;switchAnimation.js:19[23:25]::FLOW_DESCR_END","/pixelit/switchAnimation.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;text.js:8[36:38];Sink: msg;text.js:23[23:25]::FLOW_DESCR_END","/pixelit/text.js","8","36","8","38"

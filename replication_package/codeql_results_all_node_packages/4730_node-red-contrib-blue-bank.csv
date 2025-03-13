@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blue-bank.js:10[35:37];Sink: msg;blue-bank.js:49[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blue-bank.js:10[35:37];Sink: msg;blue-bank.js:56[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blue-bank.js:10[35:37];Sink: msg;blue-bank.js:60[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blue-bank.js:10[35:37];Sink: msg;blue-bank.js:65[35:37]::FLOW_DESCR_END","/nodes/blue-bank.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;blue-bank.js:54[47:51];Sink: error;blue-bank.js:56[32:36]::FLOW_DESCR_END","/nodes/blue-bank.js","54","47","54","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;blue-bank.js:54[64:67];Sink: body.errorMessage;blue-bank.js:60[36:52]::FLOW_DESCR_END","/nodes/blue-bank.js","54","64","54","67"

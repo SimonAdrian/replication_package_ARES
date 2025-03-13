@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;data-collection.js:17[35:37];Sink: JSON.st ... m_data);data-collection.js:68[28:51]::FLOW_DESCR_END","/data-collection.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... leName);data-collection.js:48[18:42];Sink: JSON.st ... m_data);data-collection.js:68[28:51]::FLOW_DESCR_END","/data-collection.js","48","18","48","42"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tx0Publish.js:16[35:37];Sink: ""messag ... payload;tx0Publish.js:22[27:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tx0Publish.js:16[35:37];Sink: msg;tx0Publish.js:43[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tx0Publish.js:16[35:37];Sink: msg;tx0Publish.js:47[29:31]::FLOW_DESCR_END","/tx0Publish.js","16","35","16","37"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.host;HAPHostNode.js:86[98:106];Sink: `Publis ... sories`;HAPHostNode.js:86[27:146]::FLOW_DESCR_END","/build/lib/HAPHostNode.js","86","98","86","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode.js:155[30:47];Sink: `Identi ... yName}`;AccessoryUtils.js:82[23:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode.js:155[30:47];Sink: `Identi ... yName}`;AccessoryUtils.js:85[23:91]::FLOW_DESCR_END","/build/lib/HAPServiceNode.js","155","30","155","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode2.js:155[30:47];Sink: `Identi ... yName}`;AccessoryUtils.js:82[23:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode2.js:155[30:47];Sink: `Identi ... yName}`;AccessoryUtils.js:85[23:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode2.js:155[30:47];Sink: allCharacteristics;ServiceUtils2.js:85[41:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode2.js:155[30:47];Sink: allCharacteristics;ServiceUtils2.js:96[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode2.js:155[30:47];Sink: allCharacteristics;ServiceUtils2.js:115[27:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: self.hostNode.host;HAPServiceNode2.js:155[30:47];Sink: allCharacteristics;ServiceUtils2.js:123[31:48]::FLOW_DESCR_END","/build/lib/HAPServiceNode2.js","155","30","155","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:169[40:43];Sink: imageBuffer;index.js:191[36:46]::FLOW_DESCR_END","/build/lib/cameraSource/index.js","169","40","169","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;index.js:420[37:40];Sink: 'ERROR: ...  + code;index.js:425[35:74]::FLOW_DESCR_END","/build/lib/cameraSource/index.js","420","37","420","40"

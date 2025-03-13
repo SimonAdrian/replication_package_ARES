@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openfaas-functions.ts:16[27:29];Sink: Object. ... ions });openfaas-functions.ts:28[31:72]::FLOW_DESCR_END","/src/openfaas-functions.ts","16","27","16","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openfaas-invoke.ts:40[26:28];Sink: msg;openfaas-invoke.ts:50[29:31]::FLOW_DESCR_END","/src/openfaas-invoke.ts","40","26","40","28"

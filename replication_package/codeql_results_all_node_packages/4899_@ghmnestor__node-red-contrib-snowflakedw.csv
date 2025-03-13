@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;snowflake.js:86[53:62];Sink: value;snowflake.js:38[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.username;snowflake.js:86[53:62];Sink: value;snowflake.js:40[38:42]::FLOW_DESCR_END","/snowflake.js","86","53","86","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;snowflake.js:96[77:86];Sink: value;snowflake.js:38[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.password;snowflake.js:96[77:86];Sink: value;snowflake.js:40[38:42]::FLOW_DESCR_END","/snowflake.js","96","77","96","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snowflake.js:233[29:31];Sink: msg;snowflake.js:265[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snowflake.js:233[29:31];Sink: msg;snowflake.js:299[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snowflake.js:233[29:31];Sink: msg2;snowflake.js:344[25:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snowflake.js:233[29:31];Sink: msg;snowflake.js:379[16:18]::FLOW_DESCR_END","/snowflake.js","233","29","233","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;snowflake.js:298[31:33];Sink: err.message;snowflake.js:299[24:34]::FLOW_DESCR_END","/snowflake.js","298","31","298","33"

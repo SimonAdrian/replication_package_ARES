@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;ServiceDeskClient.js:25[38:50];Sink: `loaded ... sCode}`;ServiceDeskClient.js:49[9:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;ServiceDeskClient.js:25[38:50];Sink: `first( ... ray))}`;ServiceDeskClient.js:163[9:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;ServiceDeskClient.js:25[38:50];Sink: `update ... em.ID}`;ServiceDeskClient.js:174[11:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;ServiceDeskClient.js:25[38:50];Sink: JSON.st ... Array));ServiceDeskClient.js:208[9:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;ServiceDeskClient.js:25[38:50];Sink: ""ERROR: ""+e;problem-export.js:34[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;ServiceDeskClient.js:25[38:50];Sink: ""ERROR: ""+e;problem-upsert.js:32[15:25]::FLOW_DESCR_END","/ServiceDeskClient.js","25","38","25","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;problem-export.js:18[36:38];Sink: msg;problem-export.js:31[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;problem-export.js:18[36:38];Sink: msg;problem-export.js:37[16:18]::FLOW_DESCR_END","/problem-export.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;problem-upsert.js:18[36:38];Sink: `loaded ... sCode}`;ServiceDeskClient.js:49[9:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;problem-upsert.js:18[36:38];Sink: `first( ... ray))}`;ServiceDeskClient.js:163[9:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;problem-upsert.js:18[36:38];Sink: `update ... em.ID}`;ServiceDeskClient.js:174[11:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;problem-upsert.js:18[36:38];Sink: JSON.st ... Array));ServiceDeskClient.js:208[9:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;problem-upsert.js:18[36:38];Sink: msg;problem-upsert.js:29[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;problem-upsert.js:18[36:38];Sink: msg;problem-upsert.js:35[16:18]::FLOW_DESCR_END","/problem-upsert.js","18","36","18","38"

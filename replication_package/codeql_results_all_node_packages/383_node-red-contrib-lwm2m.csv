@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lwm2m-common.js:16[40653:40653];Sink: ""Proces ...  sec.)"";lwm2m-common.js:16[40732:40863]::FLOW_DESCR_END","/dist/lwm2m-common.js","16","40653","16","40653"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lwm2m.js:16[2288:2288];Sink: e;lwm2m.js:16[2336:2336]::FLOW_DESCR_END","/dist/lwm2m.js","16","2288","16","2288"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lwm2m.js:16[2373:2373];Sink: e;lwm2m.js:16[2415:2415]::FLOW_DESCR_END","/dist/lwm2m.js","16","2373","16","2373"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lwm2m.js:16[7889:7889];Sink: ""[LwM2M ... gify(e);lwm2m.js:16[7900:7943]::FLOW_DESCR_END","/dist/lwm2m.js","16","7889","16","7889"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lwm2m.js:16[8460:8460];Sink: ""[LwM2M ... gth+"")"";lwm2m.js:16[8777:8850]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;lwm2m.js:16[8460:8460];Sink: ""[LwM2M ... gify(e);lwm2m.js:16[8861:8917]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;lwm2m.js:16[8460:8460];Sink: e.topic;lwm2m.js:16[9090:9096]::FLOW_DESCR_END","/dist/lwm2m.js","16","8460","16","8460"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;lwm2m.js:16[10037:10037];Sink: e.topic;lwm2m.js:16[10237:10243]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;lwm2m.js:16[10037:10037];Sink: e.payload;lwm2m.js:16[10245:10253]::FLOW_DESCR_END","/dist/lwm2m.js","16","10037","16","10037"

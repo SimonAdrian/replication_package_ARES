@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notify.js:15[33:35];Sink: mes;notify.js:20[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notify.js:15[33:35];Sink: msg;notify.js:43[22:24]::FLOW_DESCR_END","/nodes/_new/notify/notify.js","15","33","15","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;push.js:26[33:35];Sink: msg;push.js:42[22:24]::FLOW_DESCR_END","/nodes/_new/push/push.js","26","33","26","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reply.js:80[33:35];Sink: msg.payload;reply.js:57[45:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reply.js:80[33:35];Sink: msg;reply.js:85[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reply.js:80[33:35];Sink: msg;reply.js:101[30:32]::FLOW_DESCR_END","/nodes/_new/reply/reply.js","80","33","80","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bloadcast.js:23[33:35];Sink: msg;bloadcast.js:37[22:24]::FLOW_DESCR_END","/nodes/bloadcast/bloadcast.js","23","33","23","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;limit.js:18[33:35];Sink: msg;limit.js:32[22:24]::FLOW_DESCR_END","/nodes/limit/limit.js","18","33","18","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notify.js:18[33:35];Sink: `/api/n ... (mes)}`;notify.js:21[46:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;notify.js:18[33:35];Sink: msg;notify.js:23[22:24]::FLOW_DESCR_END","/nodes/notify/notify.js","18","33","18","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;push.js:22[33:35];Sink: msg;push.js:31[22:24]::FLOW_DESCR_END","/nodes/push/push.js","22","33","22","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reply.js:75[33:35];Sink: msg;reply.js:81[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;reply.js:75[33:35];Sink: msg;reply.js:97[30:32]::FLOW_DESCR_END","/nodes/reply/reply.js","75","33","75","35"

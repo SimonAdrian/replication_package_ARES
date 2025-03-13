@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;counter.js:16[35:37];Sink: msg;counter.js:33[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:16[35:37];Sink: msg;counter.js:45[72:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:16[35:37];Sink: msg;counter.js:53[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:16[35:37];Sink: msg;counter.js:63[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:16[35:37];Sink: msg;counter.js:104[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;counter.js:16[35:37];Sink: [obj, msg];counter.js:119[27:36]::FLOW_DESCR_END","/counter.js","16","35","16","37"

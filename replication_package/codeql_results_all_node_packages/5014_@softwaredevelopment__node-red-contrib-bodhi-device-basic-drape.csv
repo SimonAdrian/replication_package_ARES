@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.id;local.device.service.js:102[43:52];Sink: JSON.st ... ceData);bodhi-device.js:109[77:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.id;local.device.service.js:102[43:52];Sink: `Value  ... value}`;bodhi-device.js:110[28:72]::FLOW_DESCR_END","/build/src/local.device.service.js","102","43","102","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;local.device.node.js:46[27:29];Sink: infoObjectToSend;bodhi-device.js:44[66:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;local.device.node.js:46[27:29];Sink: JSON.st ... ntData);events.manager.js:25[47:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;local.device.node.js:46[27:29];Sink: `Updati ... data)}`;local.device.service.js:31[28:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;local.device.node.js:46[27:29];Sink: `Input  ... (msg)}`;local.device.node.js:47[26:87]::FLOW_DESCR_END","/build/src/nodes/local.device.node.js","46","27","46","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: eventData;local.device.node.js:53[83:91];Sink: JSON.st ... ceData);bodhi-device.js:109[77:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;local.device.node.js:53[83:91];Sink: `Value  ... value}`;bodhi-device.js:110[28:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;local.device.node.js:53[83:91];Sink: `Bodhi  ... Data)}`;local.device.service.js:90[28:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;local.device.node.js:53[83:91];Sink: `Unhand ... load)}`;local.device.service.js:117[35:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;local.device.node.js:53[83:91];Sink: `Valida ... load)}`;local.device.node.js:56[26:210]::FLOW_DESCR_END","/build/src/nodes/local.device.node.js","53","83","53","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evetPayload.id;local.device.node.js:56[132:145];Sink: `Valida ... load)}`;local.device.node.js:56[26:210]::FLOW_DESCR_END","/build/src/nodes/local.device.node.js","56","132","56","145"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;remote.device.node.js:44[27:29];Sink: infoObjectToSend;bodhi-device.js:44[66:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;remote.device.node.js:44[27:29];Sink: JSON.st ... ntData);events.manager.js:25[47:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;remote.device.node.js:44[27:29];Sink: `Input  ... (msg)}`;remote.device.node.js:45[26:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;remote.device.node.js:44[27:29];Sink: `Updati ... data)}`;remote.device.service.js:31[28:127]::FLOW_DESCR_END","/build/src/nodes/remote.device.node.js","44","27","44","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: eventData;remote.device.node.js:51[69:77];Sink: JSON.st ... ceData);bodhi-device.js:109[77:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;remote.device.node.js:51[69:77];Sink: `Value  ... value}`;bodhi-device.js:110[28:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;remote.device.node.js:51[69:77];Sink: `Valida ... load)}`;remote.device.node.js:54[26:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;remote.device.node.js:51[69:77];Sink: `Bodhi  ... Data)}`;remote.device.service.js:64[28:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: eventData;remote.device.node.js:51[69:77];Sink: `Unhand ... load)}`;remote.device.service.js:91[35:119]::FLOW_DESCR_END","/build/src/nodes/remote.device.node.js","51","69","51","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evetPayload.id;remote.device.node.js:54[132:145];Sink: `Valida ... load)}`;remote.device.node.js:54[26:210]::FLOW_DESCR_END","/build/src/nodes/remote.device.node.js","54","132","54","145"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.id;remote.device.service.js:76[43:52];Sink: JSON.st ... ceData);bodhi-device.js:109[77:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.id;remote.device.service.js:76[43:52];Sink: `Value  ... value}`;bodhi-device.js:110[28:72]::FLOW_DESCR_END","/build/src/remote.device.service.js","76","43","76","52"

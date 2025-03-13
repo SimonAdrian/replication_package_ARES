@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: JSON.stringify(msg);valvula-fertilizante.js:22[55:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `Estado ... tual)}`;valvula-fertilizante.js:23[36:152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: configActual;valvula-fertilizante.js:29[70:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: inyectarActivo;valvula-fertilizante.js:36[69:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `Actual ... erior}`;valvula-fertilizante.js:49[40:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `matriz ... itros}`;valvula-fertilizante.js:50[40:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `matriz ... illar}`;valvula-fertilizante.js:58[40:146]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `0.1 Pr ... sBase}`;valvula-fertilizante.js:78[36:254]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `1.0 in ... itros}`;valvula-fertilizante.js:88[36:413]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `2.0 in ... itros}`;valvula-fertilizante.js:90[40:417]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `3.0 in ... itros}`;valvula-fertilizante.js:92[44:421]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `4.0 in ... itros}`;valvula-fertilizante.js:95[48:425]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: `matriz ... sBase}`;valvula-fertilizante.js:106[48:294]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;valvula-fertilizante.js:20[36:38];Sink: estado;valvula-fertilizante.js:118[53:58]::FLOW_DESCR_END","/valvula-fertilizante.js","20","36","20","38"

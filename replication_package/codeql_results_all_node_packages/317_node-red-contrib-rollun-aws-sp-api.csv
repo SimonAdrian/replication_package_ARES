@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-sp-api.js:88[38:40];Sink: [null, msg];aws-sp-api.js:130[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-sp-api.js:88[38:40];Sink: [msg];aws-sp-api.js:134[19:23]::FLOW_DESCR_END","/aws-sp-api.js","88","38","88","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');read-all-models.js:4[30:59];Sink: version;aws-sp-api.js:40[35:41]::FLOW_DESCR_END","/read-all-models.js","4","30","4","59"

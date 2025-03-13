@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;util.js:27[31:35];Sink: err;util.js:48[24:26]::FLOW_DESCR_END","/cloudone/util.js","27","31","27","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;util.js:27[38:45];Sink: response;util.js:31[38:45]::FLOW_DESCR_END","/cloudone/util.js","27","38","27","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;util.js:27[48:51];Sink: body;util.js:31[48:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;util.js:27[48:51];Sink: err;util.js:48[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;util.js:27[48:51];Sink: body;util.js:55[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;util.js:27[48:51];Sink: [body];util.js:56[19:24]::FLOW_DESCR_END","/cloudone/util.js","27","48","27","51"

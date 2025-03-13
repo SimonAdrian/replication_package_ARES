@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;21-httprequest-update.js:102[34:36];Sink: msg;21-httprequest-update.js:117[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-httprequest-update.js:102[34:36];Sink: msg;21-httprequest-update.js:395[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-httprequest-update.js:102[34:36];Sink: msg;21-httprequest-update.js:401[71:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-httprequest-update.js:102[34:36];Sink: msg;21-httprequest-update.js:533[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-httprequest-update.js:102[34:36];Sink: msg;21-httprequest-update.js:536[36:38]::FLOW_DESCR_END","/21-httprequest-update.js","102","34","102","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: httpSer ... ().port;node-red-contrib-http-custom-port.js:194[77:101];Sink: 'NodeRE ... ().port;node-red-contrib-http-custom-port.js:194[17:101]::FLOW_DESCR_END","/node-red-contrib-http-custom-port.js","194","77","194","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-contrib-http-custom-port.js:196[36:38];Sink: ""Error  ... "" + err;node-red-contrib-http-custom-port.js:198[17:50]::FLOW_DESCR_END","/node-red-contrib-http-custom-port.js","196","36","196","38"

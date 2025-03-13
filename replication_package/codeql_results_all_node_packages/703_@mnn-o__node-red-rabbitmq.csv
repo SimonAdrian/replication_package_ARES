@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Amqp.js:229[35:35];Sink: `AMQP C ... r ${e}`;Amqp.js:232[29:56]::FLOW_DESCR_END","/build/src/Amqp.js","229","35","229","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;amqp-in-manual-ack.js:100[51:51];Sink: `Connec ... r ${e}`;amqp-in-manual-ack.js:102[39:61]::FLOW_DESCR_END","/build/src/nodes/amqp-in-manual-ack.js","100","51","100","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;amqp-in-manual-ack.js:105[48:48];Sink: `Channel error ${e}`;amqp-in-manual-ack.js:107[39:58]::FLOW_DESCR_END","/build/src/nodes/amqp-in-manual-ack.js","105","48","105","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;amqp-in.js:74[51:51];Sink: `Connec ... r ${e}`;amqp-in.js:76[39:61]::FLOW_DESCR_END","/build/src/nodes/amqp-in.js","74","51","74","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;amqp-in.js:88[48:48];Sink: `Channel error ${e}`;amqp-in.js:90[39:58]::FLOW_DESCR_END","/build/src/nodes/amqp-in.js","88","48","88","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;amqp-out.js:24[38:40];Sink: Buffer.from(msg);Amqp.js:132[52:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:24[38:40];Sink: options;Amqp.js:132[70:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:24[38:40];Sink: payload;amqp-out.js:57[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:24[38:40];Sink: properties;amqp-out.js:57[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:24[38:40];Sink: JSON.st ... ayload);amqp-out.js:60[30:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;amqp-out.js:24[38:40];Sink: properties;amqp-out.js:60[55:64]::FLOW_DESCR_END","/build/src/nodes/amqp-out.js","24","38","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;amqp-out.js:125[51:51];Sink: `Connec ... r ${e}`;amqp-out.js:127[39:61]::FLOW_DESCR_END","/build/src/nodes/amqp-out.js","125","51","125","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;amqp-out.js:134[48:48];Sink: `Channel error ${e}`;amqp-out.js:136[39:58]::FLOW_DESCR_END","/build/src/nodes/amqp-out.js","134","48","134","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;Amqp.js:282[21:24];Sink: brokerUrl;Amqp.js:44[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","282","21","282","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;Amqp.js:282[27:30];Sink: brokerUrl;Amqp.js:44[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","282","27","282","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: username;Amqp.js:283[21:28];Sink: brokerUrl;Amqp.js:44[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","283","21","283","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;Amqp.js:283[31:38];Sink: brokerUrl;Amqp.js:44[51:59]::FLOW_DESCR_END","/build/src/Amqp.js","283","31","283","38"

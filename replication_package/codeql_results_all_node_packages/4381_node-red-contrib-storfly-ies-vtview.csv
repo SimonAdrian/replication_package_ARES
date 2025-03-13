@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;componentDisplay.js:5[32:34];Sink: msg;componentDisplay.js:19[17:19]::FLOW_DESCR_END","/src/nodes/componentDisplay.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;componentDisplayGroup.js:5[32:34];Sink: msg;componentDisplayGroup.js:15[17:19]::FLOW_DESCR_END","/src/nodes/componentDisplayGroup.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;componentDisplayMode.js:5[32:34];Sink: msg;componentDisplayMode.js:19[17:19]::FLOW_DESCR_END","/src/nodes/componentDisplayMode.js","5","32","5","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;componentDisplayRegion.js:5[32:34];Sink: msg;componentDisplayRegion.js:15[17:19]::FLOW_DESCR_END","/src/nodes/componentDisplayRegion.js","5","32","5","34"

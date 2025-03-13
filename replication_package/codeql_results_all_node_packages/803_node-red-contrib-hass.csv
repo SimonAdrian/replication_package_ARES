@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-hass.js:46[34:36];Sink: msg;node-red-contrib-hass.js:52[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-hass.js:46[34:36];Sink: msg;node-red-contrib-hass.js:61[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-hass.js:46[34:36];Sink: msg;node-red-contrib-hass.js:66[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-hass.js:46[34:36];Sink: ""hass-p ... tusCode;node-red-contrib-hass.js:112[35:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-hass.js:46[34:36];Sink: msg;node-red-contrib-hass.js:129[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-hass.js:46[34:36];Sink: payload;node-red-contrib-hass.js:140[27:33]::FLOW_DESCR_END","/node-red-contrib-hass.js","46","34","46","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.endpoint.host;node-red-contrib-hass.js:59[23:40];Sink: ""hass-p ... tusCode;node-red-contrib-hass.js:112[35:93]::FLOW_DESCR_END","/node-red-contrib-hass.js","59","23","59","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.endpoint.port;node-red-contrib-hass.js:59[50:67];Sink: ""hass-p ... tusCode;node-red-contrib-hass.js:112[35:93]::FLOW_DESCR_END","/node-red-contrib-hass.js","59","50","59","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-contrib-hass.js:135[37:39];Sink: ""hass-p ... tring();node-red-contrib-hass.js:136[28:63]::FLOW_DESCR_END","/node-red-contrib-hass.js","135","37","135","39"

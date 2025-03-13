@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;zway-socket.js:41[50:58];Sink: address;zway-socket.js:52[25:31]::FLOW_DESCR_END","/lib/zway-socket.js","41","50","41","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zway-socket.js:61[32:35];Sink: data;zway-socket.js:104[27:30]::FLOW_DESCR_END","/lib/zway-socket.js","61","32","61","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zway-socket.js:64[35:38];Sink: payload;zway-socket.js:144[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zway-socket.js:64[35:38];Sink: dataParsed;server.js:181[42:51]::FLOW_DESCR_END","/lib/zway-socket.js","64","35","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;zway-socket.js:65[33:35];Sink: err;zway-socket.js:157[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;zway-socket.js:65[33:35];Sink: `WebSoc ... ${err}`;server.js:161[23:47]::FLOW_DESCR_END","/lib/zway-socket.js","65","33","65","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req;zway-socket.js:66[48:50];Sink: req;zway-socket.js:153[49:51]::FLOW_DESCR_END","/lib/zway-socket.js","66","48","66","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;zway-socket.js:66[53:55];Sink: res;zway-socket.js:153[54:56]::FLOW_DESCR_END","/lib/zway-socket.js","66","53","66","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;zway-socket.js:67[34:37];Sink: code;zway-socket.js:122[32:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;zway-socket.js:67[34:37];Sink: `WebSoc ... eason}`;server.js:168[27:71]::FLOW_DESCR_END","/lib/zway-socket.js","67","34","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;zway-socket.js:67[40:45];Sink: reason;zway-socket.js:122[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reason;zway-socket.js:67[40:45];Sink: `WebSoc ... eason}`;server.js:168[27:71]::FLOW_DESCR_END","/lib/zway-socket.js","67","40","67","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get.js:43[44:50];Sink: message;get.js:68[39:45]::FLOW_DESCR_END","/nodes/get.js","43","44","43","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;out.js:35[44:50];Sink: message;out.js:44[55:61]::FLOW_DESCR_END","/nodes/out.js","35","44","35","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;out.js:192[25:29];Sink: error;out.js:194[31:35]::FLOW_DESCR_END","/nodes/out.js","192","25","192","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;out.js:192[42:45];Sink: 'zway-o ... ription;out.js:215[35:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;out.js:192[42:45];Sink: response.error;out.js:216[35:48]::FLOW_DESCR_END","/nodes/out.js","192","42","192","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;server.js:31[38:41];Sink: `WebSoc ... eason}`;server.js:168[27:71]::FLOW_DESCR_END","/nodes/server.js","31","38","31","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;server.js:31[44:49];Sink: `WebSoc ... eason}`;server.js:168[27:71]::FLOW_DESCR_END","/nodes/server.js","31","44","31","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;server.js:34[40:46];Sink: dataParsed;server.js:181[42:51]::FLOW_DESCR_END","/nodes/server.js","34","40","34","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:35[38:40];Sink: `WebSoc ... ${err}`;server.js:161[23:47]::FLOW_DESCR_END","/nodes/server.js","35","38","35","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;server.js:53[55:63];Sink: url;server.js:55[29:31]::FLOW_DESCR_END","/nodes/server.js","53","55","53","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;server.js:55[59:62];Sink: device.id;server.js:81[58:66]::FLOW_DESCR_END","/nodes/server.js","55","59","55","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dataPar ... [index];server.js:76[42:71];Sink: device.id;server.js:81[58:66]::FLOW_DESCR_END","/nodes/server.js","76","42","76","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: dataPar ... devices;server.js:76[42:64];Sink: device.id;server.js:81[58:66]::FLOW_DESCR_END","/nodes/server.js","76","42","76","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port = 8083;zway-socket.js:8[21:31];Sink: address;zway-socket.js:52[25:31]::FLOW_DESCR_END","/lib/zway-socket.js","8","21","8","31"

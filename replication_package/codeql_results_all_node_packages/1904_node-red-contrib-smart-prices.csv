@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nordpool-nr.js:9[41:43];Sink: msg;nordpool-nr.js:13[23:25]::FLOW_DESCR_END","/lib/nordpool-nr.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smart-prices-nr.js:10[35:37];Sink: [msg, msg2];smart-prices-nr.js:34[23:33]::FLOW_DESCR_END","/lib/smart-prices-nr.js","10","35","10","37"

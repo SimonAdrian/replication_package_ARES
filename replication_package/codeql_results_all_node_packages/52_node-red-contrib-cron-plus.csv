@@ -1,0 +1,33 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;cronplus.html:584[35:35];Sink: selectedLocation.lng;cronplus.html:574[89:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;cronplus.html:584[35:35];Sink: e;cronplus.html:585[51:51]::FLOW_DESCR_END","/cronplus.html","584","35","584","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: latlng;cronplus.html:645[55:60];Sink: latlng;cronplus.html:646[68:73]::FLOW_DESCR_END","/cronplus.html","645","55","645","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;cronplus.html:645[68:71];Sink: data;cronplus.html:646[76:79]::FLOW_DESCR_END","/cronplus.html","645","68","645","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;cronplus.html:1612[45:45];Sink: e.relatedTarget;cronplus.html:1613[105:119]::FLOW_DESCR_END","/cronplus.html","1612","45","1612","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;cronplus.html:1621[61:61];Sink: e;cronplus.html:1622[100:100]::FLOW_DESCR_END","/cronplus.html","1621","61","1621","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: err;cronplus.js:1040[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: msg;cronplus.js:1040[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: `Invali ... ayload`;cronplus.js:1055[36:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: msg;cronplus.js:1055[139:141]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: msg;cronplus.js:1482[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: error;cronplus.js:1502[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: msg;cronplus.js:1502[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: `create ... (opt)}`;cronplus.js:1532[28:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: error;cronplus.js:1540[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: `runnin ... tamp)}`;cronplus.js:1583[28:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: `ended  ... opic}'`;cronplus.js:1604[32:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: `starte ... opic}'`;cronplus.js:1609[32:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cronplus.js:1036[42:44];Sink: `stoppe ... opic}'`;cronplus.js:1616[32:78]::FLOW_DESCR_END","/cronplus.js","1036","42","1036","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: error;cronplus.js:1502[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: `create ... (opt)}`;cronplus.js:1532[28:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: error;cronplus.js:1540[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: `runnin ... tamp)}`;cronplus.js:1583[28:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: `ended  ... opic}'`;cronplus.js:1604[32:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: `starte ... opic}'`;cronplus.js:1609[32:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... lePath);cronplus.js:1745[42:66];Sink: `stoppe ... opic}'`;cronplus.js:1616[32:78]::FLOW_DESCR_END","/cronplus.js","1745","42","1745","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: error;cronplus.js:1502[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: `create ... (opt)}`;cronplus.js:1532[28:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: error;cronplus.js:1540[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: `runnin ... tamp)}`;cronplus.js:1583[28:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: `ended  ... opic}'`;cronplus.js:1604[32:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: `starte ... opic}'`;cronplus.js:1609[32:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: r;cronplus.js:1877[61:61];Sink: `stoppe ... opic}'`;cronplus.js:1616[32:78]::FLOW_DESCR_END","/cronplus.js","1877","61","1877","61"

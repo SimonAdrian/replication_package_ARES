@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ble-uart.js:21[35:37];Sink: new Buffer(output);ble-uart.js:27[44:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ble-uart.js:21[35:37];Sink: new Buf ... ayload);ble-uart.js:32[40:62]::FLOW_DESCR_END","/ble-uart.js","21","35","21","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ble-uart.js:56[38:44];Sink: message;ble-uart.js:57[23:29]::FLOW_DESCR_END","/ble-uart.js","56","38","56","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;ble-uart.js:60[39:48];Sink: 'Discov ... ipheral;ble-uart.js:61[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: peripheral;ble-uart.js:60[39:48];Sink: 'Connec ... calName;ble-uart.js:79[26:77]::FLOW_DESCR_END","/ble-uart.js","60","39","60","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ble-uart.js:73[41:43];Sink: 'Error  ... ' + err;ble-uart.js:75[32:57]::FLOW_DESCR_END","/ble-uart.js","73","41","73","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ble-uart.js:115[74:77];Sink: data;ble-uart.js:116[50:53]::FLOW_DESCR_END","/ble-uart.js","115","74","115","77"

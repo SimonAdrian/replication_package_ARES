@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;isense-in.js:10[15:25];Sink: 'ws://' ... events';isense-in.js:27[24:79]::FLOW_DESCR_END","/red/isense-in.js","10","15","10","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;isense-in.js:27[34:42];Sink: 'ws://' ... events';isense-in.js:27[24:79]::FLOW_DESCR_END","/red/isense-in.js","27","34","27","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;isense-in.js:27[52:60];Sink: 'ws://' ... events';isense-in.js:27[24:79]::FLOW_DESCR_END","/red/isense-in.js","27","52","27","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;isense-in.js:29[45:49];Sink: error.toString();isense-in.js:30[24:39]::FLOW_DESCR_END","/red/isense-in.js","29","45","29","49"

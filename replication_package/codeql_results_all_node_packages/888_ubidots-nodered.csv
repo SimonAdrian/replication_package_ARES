@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ubidots_in.js:137[23:25];Sink: msg;ubidots_in.js:138[52:54]::FLOW_DESCR_END","/ubidots/ubidots_in.js","137","23","137","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ubidots_in.js:151[23:25];Sink: msg;ubidots_in.js:153[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ubidots_in.js:151[23:25];Sink: msg;ubidots_in.js:156[25:27]::FLOW_DESCR_END","/ubidots/ubidots_in.js","151","23","151","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ubidots_out.js:51[34:36];Sink: msg;ubidots_out.js:52[63:65]::FLOW_DESCR_END","/ubidots/ubidots_out.js","51","34","51","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ubidots_out.js:60[32:34];Sink: '/v1.6/ ... e_label;ubidots_out.js:82[13:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ubidots_out.js:60[32:34];Sink: values;ubidots_out.js:83[13:18]::FLOW_DESCR_END","/ubidots/ubidots_out.js","60","32","60","34"

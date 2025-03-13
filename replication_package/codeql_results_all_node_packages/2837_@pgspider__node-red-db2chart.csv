@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;db2chart.js:10[36:38];Sink: msg;db2chart.js:29[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;db2chart.js:10[36:38];Sink: inmsg.payload[w];db2chart.js:59[48:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;db2chart.js:10[36:38];Sink: inmsg.payload;db2chart.js:85[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;db2chart.js:10[36:38];Sink: inmsg.payload;db2chart.js:112[40:52]::FLOW_DESCR_END","/db2chart.js","10","36","10","38"

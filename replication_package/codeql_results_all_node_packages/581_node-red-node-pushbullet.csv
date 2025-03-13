@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;57-pushbullet.js:102[43:45];Sink: ""unknow ... coming);57-pushbullet.js:235[24:102]::FLOW_DESCR_END","/57-pushbullet.js","102","43","102","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;57-pushbullet.js:122[41:43];Sink: err;57-pushbullet.js:123[51:53]::FLOW_DESCR_END","/57-pushbullet.js","122","41","122","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;57-pushbullet.js:276[35:37];Sink: msg;57-pushbullet.js:301[61:63]::FLOW_DESCR_END","/57-pushbullet.js","276","35","276","37"

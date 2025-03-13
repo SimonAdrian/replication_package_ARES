@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek-comap.js:89[32:34];Sink: msg;smithtek-comap.js:101[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:89[32:34];Sink: msg;smithtek-comap.js:111[19:21]::FLOW_DESCR_END","/smithtek-comap.js","89","32","89","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:137[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:143[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:173[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:178[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:191[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:196[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:209[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:214[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:227[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:232[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:245[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:250[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:259[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smithtek-comap.js:132[32:34];Sink: msg;smithtek-comap.js:264[23:25]::FLOW_DESCR_END","/smithtek-comap.js","132","32","132","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;smithtek-comap.js:278[21:30];Sink: postData;smithtek-comap.js:332[19:26]::FLOW_DESCR_END","/smithtek-comap.js","278","21","278","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.password;smithtek-comap.js:279[21:30];Sink: postData;smithtek-comap.js:332[19:26]::FLOW_DESCR_END","/smithtek-comap.js","279","21","279","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;smithtek-comap.js:287[35:47];Sink: postData;smithtek-comap.js:332[19:26]::FLOW_DESCR_END","/smithtek-comap.js","287","35","287","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;smithtek-comap.js:288[35:47];Sink: postData;smithtek-comap.js:332[19:26]::FLOW_DESCR_END","/smithtek-comap.js","288","35","288","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;smithtek-comap.js:319[36:40];Sink: error;smithtek-comap.js:321[25:29]::FLOW_DESCR_END","/smithtek-comap.js","319","36","319","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;smithtek-comap.js:333[35:37];Sink: err;smithtek-comap.js:334[23:25]::FLOW_DESCR_END","/smithtek-comap.js","333","35","333","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;smithtek-comap.js:388[40:44];Sink: error;smithtek-comap.js:389[29:33]::FLOW_DESCR_END","/smithtek-comap.js","388","40","388","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;smithtek-comap.js:393[44:46];Sink: err;smithtek-comap.js:394[27:29]::FLOW_DESCR_END","/smithtek-comap.js","393","44","393","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;smithtek-comap.js:456[40:44];Sink: error;smithtek-comap.js:457[29:33]::FLOW_DESCR_END","/smithtek-comap.js","456","40","456","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;smithtek-comap.js:463[44:46];Sink: err;smithtek-comap.js:464[27:29]::FLOW_DESCR_END","/smithtek-comap.js","463","44","463","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;smithtek-comap.js:518[40:44];Sink: error;smithtek-comap.js:519[29:33]::FLOW_DESCR_END","/smithtek-comap.js","518","40","518","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;smithtek-comap.js:544[44:46];Sink: err;smithtek-comap.js:545[27:29]::FLOW_DESCR_END","/smithtek-comap.js","544","44","544","46"

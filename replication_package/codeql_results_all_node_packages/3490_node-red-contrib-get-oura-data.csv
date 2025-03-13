@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-oura.js:10[35:37];Sink: msg;node-oura.js:82[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-oura.js:10[35:37];Sink: msg;node-oura.js:111[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-oura.js:10[35:37];Sink: msg;node-oura.js:117[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-oura.js:10[35:37];Sink: msg;node-oura.js:169[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-oura.js:10[35:37];Sink: msg;node-oura.js:181[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-oura.js:10[35:37];Sink: msg;node-oura.js:187[31:33]::FLOW_DESCR_END","/node-oura.js","10","35","10","37"

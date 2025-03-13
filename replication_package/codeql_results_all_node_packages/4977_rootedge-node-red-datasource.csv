@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:88[30:32];Sink: msg;index.js:89[12:14]::FLOW_DESCR_END","/index.js","88","30","88","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;index.js:94[46:52];Sink: message;index.js:95[14:20]::FLOW_DESCR_END","/index.js","94","46","94","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;index.js:99[52:58];Sink: message;index.js:100[12:18]::FLOW_DESCR_END","/index.js","99","52","99","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mqtt_service.js:41[35:43];Sink: msg;mqtt_service.js:31[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mqtt_service.js:41[35:43];Sink: connectUrl;mqtt_service.js:42[16:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;mqtt_service.js:41[35:43];Sink: connectUrl;mqtt_service.js:43[34:43]::FLOW_DESCR_END","/lib/mqtt_service.js","41","35","41","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mqtt_service.js:41[51:59];Sink: msg;mqtt_service.js:31[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;mqtt_service.js:41[51:59];Sink: connectUrl;mqtt_service.js:42[16:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;mqtt_service.js:41[51:59];Sink: connectUrl;mqtt_service.js:43[34:43]::FLOW_DESCR_END","/lib/mqtt_service.js","41","51","41","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mqtt_service.js:51[42:42];Sink: e;mqtt_service.js:56[43:43]::FLOW_DESCR_END","/lib/mqtt_service.js","51","42","51","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mqtt_service.js:62[42:42];Sink: msg;mqtt_service.js:31[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;mqtt_service.js:62[42:42];Sink: e;mqtt_service.js:63[22:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;mqtt_service.js:62[42:42];Sink: e;mqtt_service.js:68[40:40]::FLOW_DESCR_END","/lib/mqtt_service.js","62","42","62","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.topic;mqtt_service.js:75[33:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.payload;mqtt_service.js:75[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.qos;mqtt_service.js:75[51:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: packet;mqtt_service.js:71[41:46];Sink: p.retain;mqtt_service.js:75[57:64]::FLOW_DESCR_END","/lib/mqtt_service.js","71","41","71","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mqtt_service.js:125[54:58];Sink: msg;mqtt_service.js:31[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;mqtt_service.js:125[54:58];Sink: error;mqtt_service.js:127[22:26]::FLOW_DESCR_END","/lib/mqtt_service.js","125","54","125","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;sendProxy.js:14[34:38];Sink: body;sendProxy.js:19[31:34]::FLOW_DESCR_END","/lib/sendProxy.js","14","34","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sendProxy.js:24[22:22];Sink: e;sendProxy.js:25[44:44]::FLOW_DESCR_END","/lib/sendProxy.js","24","22","24","22"

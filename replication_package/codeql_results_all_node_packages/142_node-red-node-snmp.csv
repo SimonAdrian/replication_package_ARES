@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snmp.js:238[36:38];Sink: msg;snmp.js:244[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:238[36:38];Sink: oids.split("","");snmp.js:246[26:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:238[36:38];Sink: msg;snmp.js:248[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:238[36:38];Sink: msg;snmp.js:253[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:238[36:38];Sink: msg;snmp.js:263[35:37]::FLOW_DESCR_END","/snmp.js","238","36","238","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;snmp.js:243[44:46];Sink: err;snmp.js:244[32:34]::FLOW_DESCR_END","/snmp.js","243","44","243","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snmp.js:286[36:38];Sink: msg;snmp.js:295[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:286[36:38];Sink: varbinds;snmp.js:297[26:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:286[36:38];Sink: msg;snmp.js:299[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:286[36:38];Sink: msg;snmp.js:304[76:78]::FLOW_DESCR_END","/snmp.js","286","36","286","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;snmp.js:294[44:46];Sink: err;snmp.js:295[32:34]::FLOW_DESCR_END","/snmp.js","294","44","294","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snmp.js:337[36:38];Sink: msg;snmp.js:344[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:337[36:38];Sink: msg;snmp.js:348[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:337[36:38];Sink: msg;snmp.js:367[35:37]::FLOW_DESCR_END","/snmp.js","337","36","337","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;snmp.js:343[44:46];Sink: err;snmp.js:344[32:34]::FLOW_DESCR_END","/snmp.js","343","44","343","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snmp.js:392[36:38];Sink: msg;snmp.js:399[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:392[36:38];Sink: msg;snmp.js:409[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:392[36:38];Sink: msg;snmp.js:413[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:392[36:38];Sink: msg;snmp.js:416[35:37]::FLOW_DESCR_END","/snmp.js","392","36","392","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;snmp.js:408[44:46];Sink: err;snmp.js:409[32:34]::FLOW_DESCR_END","/snmp.js","408","44","408","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;snmp.js:440[36:38];Sink: msg;snmp.js:447[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:440[36:38];Sink: msg;snmp.js:457[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:440[36:38];Sink: msg;snmp.js:461[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;snmp.js:440[36:38];Sink: msg;snmp.js:464[35:37]::FLOW_DESCR_END","/snmp.js","440","36","440","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;snmp.js:456[44:46];Sink: err;snmp.js:457[32:34]::FLOW_DESCR_END","/snmp.js","456","44","456","46"

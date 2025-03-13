@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;del.js:11[25:27];Sink: [[newMs ... , null];del.js:24[23:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;del.js:11[25:27];Sink: [null,  ... , null];del.js:29[23:44]::FLOW_DESCR_END","/worterbuch-delete/del.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:11[25:27];Sink: key;get.js:21[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:11[25:27];Sink: [[newMs ... , null];get.js:24[23:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get.js:11[25:27];Sink: [null,  ... , null];get.js:29[23:44]::FLOW_DESCR_END","/worterbuch-get/get.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ls.js:11[25:27];Sink: [[newMs ... , null];ls.js:23[23:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ls.js:11[25:27];Sink: [null,  ... , null];ls.js:28[23:44]::FLOW_DESCR_END","/worterbuch-ls/ls.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pdel.js:11[25:27];Sink: [msgs, null, null];pdel.js:29[23:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pdel.js:11[25:27];Sink: [null,  ... , null];pdel.js:34[23:44]::FLOW_DESCR_END","/worterbuch-pdelete/pdel.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pget.js:11[25:27];Sink: [msgs, null, null];pget.js:29[23:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pget.js:11[25:27];Sink: [null,  ... , null];pget.js:34[23:44]::FLOW_DESCR_END","/worterbuch-pget/pget.js","11","25","11","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pub.js:10[25:27];Sink: key;pub.js:28[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pub.js:10[25:27];Sink: val;pub.js:28[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pub.js:10[25:27];Sink: [[newMsg], null];pub.js:32[23:38]::FLOW_DESCR_END","/worterbuch-publish/pub.js","10","25","10","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set.js:11[25:27];Sink: key;set.js:29[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set.js:11[25:27];Sink: val;set.js:29[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set.js:11[25:27];Sink: [[newMsg], null];set.js:33[23:38]::FLOW_DESCR_END","/worterbuch-set/set.js","11","25","11","27"

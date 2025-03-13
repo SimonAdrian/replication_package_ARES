@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rive.js:14[31:33];Sink: [null,msg];rive.js:34[19:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rive.js:14[31:33];Sink: [msg,null];rive.js:42[19:28]::FLOW_DESCR_END","/rive/rive.js","14","31","14","33"

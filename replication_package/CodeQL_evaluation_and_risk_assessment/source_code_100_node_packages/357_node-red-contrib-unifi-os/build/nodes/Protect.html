@@ -1,0 +1,179 @@
+<script type="text/javascript">
+    RED.nodes.registerType('unifi-protect', {
+        category: 'UniFi',
+        defaults: {
+            name: {
+                value: '',
+                required: false,
+            },
+            accessControllerNodeId: {
+                value: '',
+                type: 'unifi-access-controller',
+                required: true,
+            },
+            cameraIds: {
+                value: '',
+                required: false,
+            },
+            eventIds: {
+                value: '',
+                required: false,
+            },
+            debug: {
+                value: false,
+                required: true,
+            },
+            outputs: { value: 1 },
+        },
+        inputs: 1,
+        outputs: 1,
+        outputLabels: ['Events', 'Debug'],
+        icon: 'unifi.png',
+        color: '#159eda',
+        label: function () {
+            return this.name || 'Unifi Protect'
+        },
+        labelStyle: function () {
+            return this.name ? 'node_label_italic' : ''
+        },
+        oneditsave: function () {
+             if ($('#node-input-debug').prop('checked')) {
+                this.outputs = 2
+            } else {
+                this.outputs = 1
+            }
+        },
+        oneditprepare: function () {
+            const self = this
+
+            setTimeout(() => {
+                // List Cameras (will fill it later)
+                $('#node-input-cameraIds').typedInput({
+                    type: 'cameras',
+                    types: [
+                        {
+                            value: 'cameras',
+                            multiple: true,
+                            options: [],
+                        },
+                    ],
+                })
+
+                // List Events
+                const Events = [
+                    { value: 'AudioDetection', label: 'Audio Detection' },
+                    { value: 'Animal', label: 'Animal Detected [Multiple]' },
+                    { value: 'DoorBell', label: 'Door Bell Ring' },
+                    { value: 'LicensePlate', label: 'License Plate [Multiple]' },
+                    { value: 'MotionDetection', label: 'Motion Detection ' },
+                    { value: 'MotionEvent', label: 'Motion Event [Multiple]' },
+                    { value: 'Package', label: 'Package Detected' },
+                    { value: 'Person', label: 'Person Detected [Multiple]' },
+                    { value: 'Vehicle', label: 'Vehicle Detected [Multiple]' },
+                    { value: 'LineCross', label: 'Line Crossing Trigger' },
+                ]
+                $('#node-input-eventIds').typedInput({
+                    type: 'events',
+                    types: [
+                        {
+                            value: 'events',
+                            multiple: true,
+                            options: Events,
+                        },
+                    ],
+                })
+
+                // Chexk if we have already select a controller
+                if (self.accessControllerNodeId) {
+                    getCameras(self)
+                }
+                $('#node-input-accessControllerNodeId').change(() => {
+                    getCameras(self)
+                })
+            }, 5)
+        },
+    })
+
+    function getCameras(self) {
+        const CID = $('#node-input-accessControllerNodeId').val()
+
+        $.getJSON(`nrchkb/unifi/bootsrap/${CID}`, (data) => {
+            if (data.cameras) {
+                const cameras = []
+                data.cameras.forEach((Camera) => {
+                    cameras.push({
+                        value: `${Camera.id}`,
+                        label: `${Camera.name} (${Camera.type})`,
+                    })
+                })
+
+                $('#node-input-cameraIds').typedInput('types', [
+                    { value: 'cameras', multiple: true, options: cameras },
+                ])
+
+                if (self.cameraIds) {
+                    $('#node-input-cameraIds').typedInput(
+                        'value',
+                        self.cameraIds
+                    )
+                }
+                $('#node-warning').fadeOut('fast')
+            } else {
+                $('#node-input-cameraIds').typedInput('types', [
+                    { value: 'cameras', multiple: true, options: [] },
+                ])
+                $('#node-warning').fadeIn('fast')
+            }
+        }).fail(function () {
+            $('#node-input-cameraIds').typedInput('types', [
+                { value: 'cameras', multiple: true, options: [] },
+            ])
+            $('#node-warning').fadeIn('fast')
+        })
+    }
+</script>
+
+<!-- prettier-ignore -->
+<script data-template-name="unifi-protect" type="text/html">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name" />
+    </div>
+    <div class="form-row">
+        <label for="node-input-accessControllerNodeId"><i class="fa fa-globe"></i> Controller</label>
+        <select id="node-input-accessControllerNodeId">
+            <option value="">Choose...</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-cameraIds"><i class="fa fa-video-camera"></i> Camera</label>
+        <input type="text" id="node-input-cameraIds">
+    </div>
+    <div class="form-row">
+        <label for="node-input-eventIds"><i class="fa fa-list"></i> Events</label>
+        <input type="text" id="node-input-eventIds">
+    </div>
+    <div class="form-row">
+        <label for="node-input-debug"><i class="fa fa-bug"></i>  Debug</label>
+        <input type="checkbox" id="node-input-debug">
+    </div>
+   
+
+    <div class="form-tips">
+        <span style="font-weight:bold;">Note:</span> Enbaling <code>Debug</code> will output raw/unfiltered Protect events, whether or not cameras and / or events are selected.
+    </div>
+    <br />
+    <div class="form-tips">
+        <span style="font-weight:bold;">[Multiple]:</span> These events consist of 2 events, the 1st being when the event started, the 2nd when it has ended, the payloads will advise also via a <code>expectEndEvent</code> property
+    </div>
+    <br />
+    <div class="form-tips" id="node-warning">
+        <span style="color:orange; font-weight:bold;">Warning:</span> The selected console does not appear to have a protect Instance running, or it's config has just been created and needs deploying before cameras can be fetched.
+    </div>
+    
+</script>
+
+<!-- prettier-ignore -->
+<script data-help-name="unifi-protect" type="text/html">
+    <p>A Unifi Protect Camera.</p>
+</script>

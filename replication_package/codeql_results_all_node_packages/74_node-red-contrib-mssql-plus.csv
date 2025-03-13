@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... sername;mssql.js:288[39:63];Sink: `Discon ... .user}`;mssql.js:329[54:199]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;mssql.js:288[39:63];Sink: `Connec ... .user}`;mssql.js:367[30:174]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... sername;mssql.js:288[39:63];Sink: `Error  ... .user}`;mssql.js:447[26:177]::FLOW_DESCR_END","/src/mssql.js","288","39","288","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... ns.port;mssql.js:329[146:169];Sink: `Discon ... .user}`;mssql.js:329[54:199]::FLOW_DESCR_END","/src/mssql.js","329","146","329","169"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mssql.js:345[31:33];Sink: err;mssql.js:346[24:26]::FLOW_DESCR_END","/src/mssql.js","345","31","345","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... ns.port;mssql.js:367[121:144];Sink: `Connec ... .user}`;mssql.js:367[30:174]::FLOW_DESCR_END","/src/mssql.js","367","121","367","144"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.co ... ns.port;mssql.js:447[124:147];Sink: `Error  ... .user}`;mssql.js:447[26:177]::FLOW_DESCR_END","/src/mssql.js","447","124","447","147"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql.js:615[36:38];Sink: msg.error;mssql.js:608[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:615[36:38];Sink: msg;mssql.js:608[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:615[36:38];Sink: msg;mssql.js:611[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:615[36:38];Sink: msg;mssql.js:827[35:37]::FLOW_DESCR_END","/src/mssql.js","615","36","615","38"

@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.dbname;ibmdb.js:31[60:70];Sink: 'connec ... .dbname;ibmdb.js:31[41:70]::FLOW_DESCR_END","/ibmdb.js","31","60","31","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ibmdb.js:43[46:48];Sink: err;ibmdb.js:46[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;ibmdb.js:43[46:48];Sink: ""connec ... "" + err;ibmdb.js:47[33:57]::FLOW_DESCR_END","/ibmdb.js","43","46","43","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ibmdb.js:119[27:29];Sink: msg;ibmdb.js:96[40:42]::FLOW_DESCR_END","/ibmdb.js","119","27","119","29"

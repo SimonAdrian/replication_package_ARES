@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;living.js:13[30:32];Sink: msg;living.js:15[15:17]::FLOW_DESCR_END","/living.js","13","30","13","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;living.js:34[34:36];Sink: msg;living.js:48[35:37]::FLOW_DESCR_END","/living.js","34","34","34","36"

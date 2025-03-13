@@ -1,0 +1,282 @@
+<script type="text/javascript">
+  let resourceName = [];
+  let resourceData = [];
+
+  $.getJSON('resources', (data, status) => {
+    for (resource in data) {
+      resourceData = data;
+      resourceName.push(resource);
+    }
+  });
+
+  RED.nodes.registerType('marketingMailchimp', {
+    category: 'Mailchimp',
+    color: '#007c89',
+    labelStyle: 'white-text',
+    defaults: {
+      name: { value: '' },
+      server: { value: '' },
+      token: { value: '' },
+      resourceName: { value: '' },
+      resource: { value: '' },
+      queryParams: { value: '' },
+      bodyPost: { value: '' },
+      export_id: { value: '' },
+      app_id: { value: '' },
+      workflow_id: { value: '' },
+      workflow_email_id: { value: '' },
+      subscriber_hash: { value: '' },
+      batch_id: { value: '' },
+      batch_webhook_id: { value: '' },
+      folder_id: { value: '' },
+      campaign_id: { value: '' },
+      feedback_id: { value: '' },
+      connected_site_id: { value: '' },
+      conversation_id: { value: '' },
+      message_id: { value: '' },
+      journey_id: { value: '' },
+      step_id: { value: '' },
+      store_id: { value: '' },
+      cart_id: { value: '' },
+      line_id: { value: '' },
+      customer_id: { value: '' },
+      order_id: { value: '' },
+      product_id: { value: '' },
+      image_id: { value: '' },
+      variant_id: { value: '' },
+      promo_rule_id: { value: '' },
+      promo_code_id: { value: '' },
+      outreach_id: { value: '' },
+      file_id: { value: '' },
+      page_id: { value: '' },
+      list_id: { value: '' },
+      report_id: { value: '' },
+      month: { value: '' },
+      interest_category_id: { value: '' },
+      interest_id: { value: '' },
+      note_id: { value: '' },
+      merge_id: { value: '' },
+      segment_id: { value: '' },
+      webhook_id: { value: '' },
+      link_id: { value: '' },
+      template_id: { value: '' },
+      domain_name: { value: '' },
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: 'font-awesome/fa-send',
+    label: function () {
+      return this.name || 'Mailchimp marketing';
+    },
+
+    oneditprepare: function () {
+      resourceName.forEach((resource) => {
+        $('#node-input-resourceName').append($('<option></option>').attr('value', resource).text(resource));
+      });
+
+      // set the previous value
+      if (this.resourceName) {
+        $('#node-input-resourceName').val(this.resourceName);
+      }
+
+      $('#node-input-resourceName').change((event) => {
+        const resource = $('#node-input-resourceName').val();
+
+        $('#node-input-resource').empty();
+        $('#node-input-parameters').empty();
+
+        if (resourceData[resource]) {
+          resourceData[resource].forEach((action) => {
+            $('#node-input-resource').append($('<option></option>').attr('value', action.name).text(action.name));
+          });
+
+          // trick check if change with click or not
+          if (!event.originalEvent) {
+            $('#node-input-resource').val(this.resource);
+          }
+
+          // console.log(this.workflow_id)
+          setParameters(resourceData[resource], event, this);
+        }
+      });
+
+      $('#node-input-resource').change((event) => {
+        const resourceName = $('#node-input-resourceName').val();
+
+        $('#node-input-parameters').empty();
+
+        if (resourceData[resourceName]) {
+          setParameters(resourceData[resourceName], event, this);
+
+          // trick check if change with click or not
+          if (!event.originalEvent) {
+            $('#node-input-resource').val(this.resource);
+          }
+        }
+      });
+
+      function setParameters(resourceData, event, context) {
+        const resource = $('#node-input-resource').val();
+
+        $('#node-input-queryParams').empty();
+        $('#node-input-bodyPost').empty();
+
+        resourceData.forEach((action) => {
+          if (action.name == resource) {
+            if (action.queryParams) {
+              $('#node-input-parameters').append(
+                $(`<div class="form-row"></div>`).append([
+                  $(`<label for="node-input-type" style="min-width: 150px;"><i class="fa fa-gears"></i> QueryParams </label><br>`),
+                  $(`<input type="text" id="node-input-queryParams">`).attr('value', ''),
+                ])
+              );
+            }
+
+            if (action.bodyParams) {
+              $('#node-input-parameters').append(
+                $(`<div class="form-row"></div>`).append([
+                  $(`<label for="node-input-type" style="min-width: 150px;"><i class="fa fa-gears"></i> BodyPost </label><br>`),
+                  $(`<input type="text" id="node-input-bodyPost">`).attr('value', ''),
+                ])
+              );
+            }
+
+            action.pathParams.forEach((param, index) => {
+              $('#node-input-parameters').append(
+                $(`<div class="form-row"></div>`).append([
+                  $(`<label for="node-input-type" style="min-width: 150px;"><i class="fa fa-gears"></i> ${param.name} </label><br>`),
+                  $(`<input type="text" id="node-input-${param.name}">`).attr('value', ''),
+                ])
+              );
+
+              // trick check if change with click or not
+              if (!event.originalEvent) {
+                $(`#node-input-${param.name}`).val(context[param.name]);
+              }
+
+              $(`#node-input-${param.name}`).typedInput({
+                default: 'str',
+                types: ['msg', 'str'],
+                typeField: `#node-input-${param.name}-type`,
+                value: param.name,
+              });
+            });
+
+            $('#node-input-queryParams').typedInput({
+              type: 'msg',
+              types: ['msg'],
+              typeField: '#node-input-queryParams-type',
+              value: 'queryParams',
+            });
+
+            $('#node-input-bodyPost').typedInput({
+              type: 'msg',
+              types: ['msg'],
+              typeField: '#node-input-bodyPost-type',
+              value: 'bodyPost',
+            });
+          }
+        });
+      }
+    },
+  });
+</script>
+
+<script type="text/html" data-template-name="marketingMailchimp">
+  <div class="form-row">
+    <label for="node-input-name"><i class="fa fa-tag"></i> Name </label>
+    <input type="text" id="node-input-name" placeholder="Name" />
+  </div>
+
+  <div class="form-row">
+    <label for="node-input-token"><i class="fa fa-wrench"></i> Token </label>
+    <input type="password" id="node-input-token" placeholder="Token" />
+  </div>
+
+  <div class="form-row">
+    <label for="node-input-server"><i class="fa fa-wrench"></i> Server </label>
+    <input type="text" id="node-input-server" placeholder="Server" />
+  </div>
+
+  <hr align="middle" />
+
+  <div class="form-row">
+    <label style="width:100%;"> Operations on Mailchimp resources </label>
+  </div>
+
+  <div class="form-row">
+    <label for="node-input-resourceName"><i class="fa fa-gears"></i> Resource </label>
+    <select name="node-input-resourceName" id="node-input-resourceName">
+      <option></option>
+    </select>
+  </div>
+
+  <div class="form-row">
+    <label for="node-input-resource"><i class="fa fa-gears"></i> Action </label>
+    <select name="node-input-resource" id="node-input-resource"></select>
+  </div>
+
+  <div id="node-input-parameters"></div>
+</script>
+
+<style>
+  .white-text {
+    fill: white;
+  }
+</style>
+
+<!-- Documentation -->
+<script type="text/html" data-help-name="marketingMailchimp">
+  <p>Marketing APIs</p>
+
+  <h3>Inputs</h3>
+  <dl class="message-properties">
+    <dt>
+      Name
+      <span class="property-type">string</span>
+    </dt>
+    <dd>the node's name</dd>
+    <dt>
+      Token
+      <span class="property-type">string</span>
+    </dt>
+    <dd>OAuth2 token</dd>
+    <dt>
+      Server
+      <span class="property-type">string</span>
+    </dt>
+    <dd>the id of target server</dd>
+    <dt>
+      Resource
+      <span class="property-type">object</span>
+    </dt>
+    <dd>Marketing APIs recouce to work with</dd>
+    <dt>
+      Action
+      <span class="property-type">object</span>
+    </dt>
+    <dd>Action to perform on the Resource</dd>
+  </dl>
+
+  <h3>Outputs</h3>
+  <ol class="node-ports">
+    <li>
+      Standard output
+      <dl class="message-properties">
+        <dt>payload <span class="property-type">string</span></dt>
+        <dd>the standard output of the action.</dd>
+      </dl>
+    </li>
+  </ol>
+
+  <h3>Details</h3>
+  <p>this node is used to perform Marketing APIs</p>
+
+  <h3>References</h3>
+  <ul>
+    <li>
+      <a href="https://github.com/yousolution-cloud/node-red-contrib-you-mailchimp">@yousolution-cloud/node-red-contrib-you-mailchimp</a> - the nodes github
+      repository
+    </li>
+  </ul>
+</script>

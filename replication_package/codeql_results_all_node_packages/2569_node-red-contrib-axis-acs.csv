@@ -1,0 +1,38 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: url;acs.js:4[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: url;acs.js:51[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:119[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:124[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:150[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:154[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:167[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:176[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:223[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:227[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:240[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:248[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:252[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:265[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:273[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:277[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:290[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:299[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:325[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:329[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:342[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:352[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:375[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:378[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:391[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:416[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:420[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:434[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:444[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:454[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:482[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:488[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: ""Invali ...  action;acs.js:494[17:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;acs.js:100[35:37];Sink: msg;acs.js:494[45:47]::FLOW_DESCR_END","/acs.js","100","35","100","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;acs.js:102[15:22];Sink: url;acs.js:4[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;acs.js:102[15:22];Sink: url;acs.js:51[37:39]::FLOW_DESCR_END","/acs.js","102","15","102","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server.port;acs.js:102[27:37];Sink: url;acs.js:4[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: server.port;acs.js:102[27:37];Sink: url;acs.js:51[37:39]::FLOW_DESCR_END","/acs.js","102","27","102","37"

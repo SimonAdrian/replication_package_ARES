@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-solidity-compiler-from-bpmn.js:22[35:37];Sink: msg;node-solidity-compiler-from-bpmn.js:33[23:25]::FLOW_DESCR_END","/node-solidity-compiler-from-bpmn.js","22","35","22","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-solidity-compiler.js:22[33:35];Sink: msg;node-solidity-compiler.js:71[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-solidity-compiler.js:22[33:35];Sink: msg;node-solidity-compiler.js:74[21:23]::FLOW_DESCR_END","/node-solidity-compiler.js","22","33","22","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-solidity-interaction.js:35[39:41];Sink: msg;node-solidity-interaction.js:95[31:33]::FLOW_DESCR_END","/node-solidity-interaction.js","35","39","35","41"

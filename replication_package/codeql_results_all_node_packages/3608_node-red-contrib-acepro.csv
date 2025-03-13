@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acepro-ioid.js:69[35:37];Sink: msg;acepro-ioid.js:73[32:34]::FLOW_DESCR_END","/acepro-ioid.js","69","35","69","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;acepro-multiioid.js:317[35:37];Sink: msg;acepro-multiioid.js:319[47:49]::FLOW_DESCR_END","/acepro-multiioid.js","317","35","317","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;acepro-net.js:127[20:30];Sink: port;acepro-net.js:707[46:49]::FLOW_DESCR_END","/acepro-net.js","127","20","127","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;acepro-net.js:632[26:28];Sink: `ACEPRO ... stack}`;acepro-net.js:635[24:67]::FLOW_DESCR_END","/acepro-net.js","632","26","632","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: address.port;acepro-net.js:651[82:93];Sink: 'ACEPRO ... ss.port;acepro-net.js:651[25:93]::FLOW_DESCR_END","/acepro-net.js","651","82","651","93"

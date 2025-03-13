@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simple-soap.js:14[36:38];Sink: msg;simple-soap.js:82[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;simple-soap.js:14[36:38];Sink: msg;simple-soap.js:111[50:52]::FLOW_DESCR_END","/simple-soap.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;simple-soap.js:79[40:42];Sink: err;simple-soap.js:82[32:34]::FLOW_DESCR_END","/simple-soap.js","79","40","79","42"

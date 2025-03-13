@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;wiotp.js:43[48:50];Sink: ""[wiot: ... tring();wiotp.js:44[39:87]::FLOW_DESCR_END","/application/wiotp.js","43","48","43","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;wiotp.js:260[25:34];Sink: deviceId;wiotp.js:347[57:64]::FLOW_DESCR_END","/application/wiotp.js","260","25","260","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.type;wiotp.js:280[68:88];Sink: ""Connec ... ials.id;wiotp.js:280[22:112]::FLOW_DESCR_END","/application/wiotp.js","280","68","280","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.credentials.id;wiotp.js:280[94:112];Sink: ""Connec ... ials.id;wiotp.js:280[22:112]::FLOW_DESCR_END","/application/wiotp.js","280","94","280","112"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: deviceType;wiotp.js:347[46:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: deviceId;wiotp.js:347[57:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: event;wiotp.js:347[66:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: format;wiotp.js:347[72:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: data;wiotp.js:347[79:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: event;wiotp.js:349[41:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: format;wiotp.js:349[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: data;wiotp.js:349[54:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiotp.js:286[34:36];Sink: msg;wiotp.js:352[68:70]::FLOW_DESCR_END","/application/wiotp.js","286","34","286","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.type;wiotp.js:345[75:95];Sink: deviceType;wiotp.js:347[46:55]::FLOW_DESCR_END","/application/wiotp.js","345","75","345","95"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;wiotp.js:346[36:48];Sink: deviceId;wiotp.js:347[57:64]::FLOW_DESCR_END","/application/wiotp.js","346","36","346","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;wiotp.js:346[53:64];Sink: deviceId;wiotp.js:347[57:64]::FLOW_DESCR_END","/application/wiotp.js","346","53","346","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.credentials.id;wiotp.js:346[69:87];Sink: deviceId;wiotp.js:347[57:64]::FLOW_DESCR_END","/application/wiotp.js","346","69","346","87"

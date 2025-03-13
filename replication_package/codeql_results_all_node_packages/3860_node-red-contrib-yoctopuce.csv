@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;yhelpers.js:17[36:38];Sink: msg;yhelpers.js:75[23:25]::FLOW_DESCR_END","/yoctopuce-nodes/yhelpers.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ynodes.js:347[46:48];Sink: 'unknow ... payload;ynodes.js:354[35:68]::FLOW_DESCR_END","/yoctopuce-nodes/ynodes.js","347","46","347","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ynodes.js:388[46:48];Sink: 'unknow ... payload;ynodes.js:394[35:68]::FLOW_DESCR_END","/yoctopuce-nodes/ynodes.js","388","46","388","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ynodes.js:444[46:48];Sink: 'unknow ... payload;ynodes.js:458[35:68]::FLOW_DESCR_END","/yoctopuce-nodes/ynodes.js","444","46","444","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ynodes.js:491[46:48];Sink: 'unknow ... payload;ynodes.js:526[43:77]::FLOW_DESCR_END","/yoctopuce-nodes/ynodes.js","491","46","491","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;yoctohub.js:17[21:31];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;yoctohub.js:17[21:31];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","17","21","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.user;yoctohub.js:19[29:49];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... ls.user;yoctohub.js:19[29:49];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","19","29","19","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;yoctohub.js:20[29:53];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... assword;yoctohub.js:20[29:53];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","20","29","20","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;yoctohub.js:26[27:39];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.username;yoctohub.js:26[27:39];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","26","27","26","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.password;yoctohub.js:26[49:61];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.password;yoctohub.js:26[49:61];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","26","49","26","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;yoctohub.js:26[93:101];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;yoctohub.js:26[93:101];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","26","93","26","101"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;yoctohub.js:28[49:57];Sink: ""Regist ... .huburl;yoctohub.js:74[26:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;yoctohub.js:28[49:57];Sink: 'Cannot ... msg.msg;yoctohub.js:78[32:82]::FLOW_DESCR_END","/yoctopuce-nodes/yoctohub.js","28","49","28","57"

@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;mios.js:7[13:23];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","7","13","7","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mios.js:8[28:38];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","8","28","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;mios.js:35[34:34];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","35","34","35","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mios.js:49[32:32];Sink: err;mios.js:60[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;mios.js:49[32:32];Sink: err;mios.js:103[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;mios.js:49[32:32];Sink: err;mios.js:115[22:24]::FLOW_DESCR_END","/mios.js","49","32","49","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mios.js:59[30:38];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","59","30","59","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mios.js:59[44:52];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","59","44","59","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mios.js:102[40:48];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","102","40","102","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mios.js:102[54:62];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","102","54","102","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;mios.js:110[35:43];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","110","35","110","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;mios.js:110[49:57];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","110","49","110","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;mios.js:167[27:35];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","167","27","167","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;mios.js:167[41:49];Sink: url;mios.js:33[18:20]::FLOW_DESCR_END","/mios.js","167","41","167","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mios.js:264[28:30];Sink: target;mios.js:266[34:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mios.js:264[28:30];Sink: msg.payload;mios.js:266[41:51]::FLOW_DESCR_END","/mios.js","264","28","264","30"

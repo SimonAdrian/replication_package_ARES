@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loadbalance.js:376[31:33];Sink: ""unknow ... ayload);loadbalance.js:62[15:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:376[31:33];Sink: (data.s ... ta.path;loadbalance.js:123[15:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:376[31:33];Sink: ""loadba ... y(data);loadbalance.js:132[14:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loadbalance.js:376[31:33];Sink: [msg];loadbalance.js:196[13:17]::FLOW_DESCR_END","/loadbalance/loadbalance.js","376","31","376","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;testPerstistence.js:72[38:40];Sink: ""*****  ... fy(msg);testPerstistence.js:73[18:57]::FLOW_DESCR_END","/test/testPerstistence.js","72","38","72","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;testPerstistence.js:76[37:39];Sink: ""*****  ... payload;testPerstistence.js:77[18:48]::FLOW_DESCR_END","/test/testPerstistence.js","76","37","76","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;testPerstistence.js:80[37:39];Sink: ""*****  ... payload;testPerstistence.js:81[18:48]::FLOW_DESCR_END","/test/testPerstistence.js","80","37","80","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;testPerstistence.js:84[37:39];Sink: ""*****  ... payload;testPerstistence.js:85[18:48]::FLOW_DESCR_END","/test/testPerstistence.js","84","37","84","39"

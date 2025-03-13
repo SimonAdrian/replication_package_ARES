@@ -1,0 +1,65 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;http-gateway.js:71[31:33];Sink: ""http.g ... "" + res;http-gateway.js:73[34:56]::FLOW_DESCR_END","/core/gateways/http-gateway.js","71","31","71","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;rs485-gateway.js:55[30:33];Sink: slaveId;rs485-gateway.js:66[46:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:55[30:33];Sink: result[3];rs485-gateway.js:80[71:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:55[30:33];Sink: dataType;rs485-gateway.js:109[76:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:55[30:33];Sink: message;rs485-gateway.js:109[86:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:55[30:33];Sink: deviceAddress;rs485-gateway.js:136[76:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;rs485-gateway.js:55[30:33];Sink: value;rs485-gateway.js:136[91:95]::FLOW_DESCR_END","/core/gateways/rs485-gateway.js","55","30","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;udp-share-support.js:19[34:36];Sink: err;udp-gateway.js:26[67:69]::FLOW_DESCR_END","/core/udp-share-support.js","19","34","19","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: dataType;udp-gateway.js:109[79:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: message;udp-gateway.js:109[89:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: deviceAddress;udp-gateway.js:138[83:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;udp-share-support.js:24[36:42];Sink: value;udp-gateway.js:138[98:102]::FLOW_DESCR_END","/core/udp-share-support.js","24","36","24","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:82[42:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:98[44:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:109[48:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;udp-share-support.js:24[45:50];Sink: remote.address;udp-gateway.js:138[52:65]::FLOW_DESCR_END","/core/udp-share-support.js","24","45","24","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;receive.js:90[89:107];Sink: `Receiv ... elID}'`;receive.js:90[26:110]::FLOW_DESCR_END","/lib/zigbee/extension/receive.js","90","89","90","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: yaml.read(file);settings.js:281[20:34];Sink: file;yaml.js:32[26:29]::FLOW_DESCR_END","/lib/zigbee/util/settings.js","281","20","281","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: setting ... al.port;zigbee-controller.js:47[30:55];Sink: data;event-bus.js:16[27:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: setting ... al.port;zigbee-controller.js:47[30:55];Sink: `Cannot ...  found`;zigbee-controller.js:49[27:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: setting ... al.port;zigbee-controller.js:47[30:55];Sink: new Err ... lable`);zigbee-controller.js:50[42:100]::FLOW_DESCR_END","/lib/zigbee/zigbee-controller.js","47","30","47","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.endpoint.ID;zigbee-controller.js:293[72:87];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END","/lib/zigbee/zigbee-controller.js","293","72","293","87"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.device.modelID;zigbee-controller.js:308[64:82];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END","/lib/zigbee/zigbee-controller.js","308","64","308","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:62[45:48];Sink: data;zigbee.js:62[91:94]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","62","45","62","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:63[46:49];Sink: data;zigbee.js:63[93:96]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","63","46","63","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:64[43:46];Sink: data;zigbee.js:64[87:90]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","64","43","64","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:65[42:45];Sink: data;zigbee.js:65[85:88]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","65","42","65","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: `Receiv ... ` : ``);zigbee-controller.js:292[17:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: `Device ... s.html`;zigbee-controller.js:308[25:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: `Device ... etwork`;zigbee-controller.js:330[30:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;zigbee.js:66[38:41];Sink: data;zigbee.js:66[77:80]::FLOW_DESCR_END","/lib/zigbee/zigbee.js","66","38","66","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-ajax.js:54[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-ajax/connect-ajax.js","54","40","54","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-ajax.js:147[52:54];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-ajax/connect-ajax.js","147","52","147","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-ajax-add.js:8[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-ajax-add/connect-ajax-add.js","8","40","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-ajax-delete.js:8[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-ajax-delete/connect-ajax-delete.js","8","40","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-ajax-protection.js:9[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-ajax-protection/connect-ajax-protection.js","9","40","9","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-digital-input.js:108[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-digital-input/connect-digital-input.js","108","40","108","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-digital-input.js:136[48:50];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-digital-input/connect-digital-input.js","136","48","136","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-dimmer.js:50[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-dimmer/connect-dimmer.js","50","44","50","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-dmx.js:32[52:54];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-dmx/connect-dmx.js","32","52","32","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-dmx.js:153[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-dmx/connect-dmx.js","153","48","153","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-modbus-rs485.js:9[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-modbus-rs485/connect-modbus-rs485.js","9","40","9","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-relay.js:27[45:47];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-relay/connect-relay.js","27","45","27","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-relay.js:59[49:51];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-relay/connect-relay.js","59","49","59","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-rs485-in.js:31[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-rs485-in/connect-rs485-in.js","31","44","31","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-rs485-in.js:62[48:50];Sink: err;node-utils.js:35[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-rs485-in/connect-rs485-in.js","62","48","62","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-rs485-in.js:78[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-rs485-in/connect-rs485-in.js","78","48","78","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-rs485-out.js:76[44:46];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-rs485-out/connect-rs485-out.js","76","44","76","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-rs485-out.js:102[48:50];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-rs485-out/connect-rs485-out.js","102","48","102","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-zigbee.js:11[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-zigbee/connect-zigbee.js","11","40","11","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;connect-zigbee.js:26[35:37];Sink: zigbeeMessage;connect-zigbee.js:36[51:63]::FLOW_DESCR_END","/nodes/control-nodes/connect-zigbee/connect-zigbee.js","26","35","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-zigbee-add.js:8[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-zigbee-add/connect-zigbee-add.js","8","40","8","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connect-zigbee-delete.js:15[40:42];Sink: err;node-utils.js:26[20:22]::FLOW_DESCR_END","/nodes/control-nodes/connect-zigbee-delete/connect-zigbee-delete.js","15","40","15","42"

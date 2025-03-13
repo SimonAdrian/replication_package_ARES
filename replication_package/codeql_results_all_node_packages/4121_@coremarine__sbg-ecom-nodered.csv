@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;parser.js:126[23:25];Sink: `invali ... mware}`;parser.js:70[25:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;parser.js:126[23:25];Sink: msg;parser.js:142[14:16]::FLOW_DESCR_END","/src/parser.js","126","23","126","25"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rdk_camera.js:226[39:41];Sink: msg.payload+'\n';rdk_camera.js:229[48:63]::FLOW_DESCR_END","/rdk_camera.js","226","39","226","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;rdk_camera.js:288[47:51];Sink: error;rdk_camera.js:289[34:38]::FLOW_DESCR_END","/rdk_camera.js","288","47","288","51"

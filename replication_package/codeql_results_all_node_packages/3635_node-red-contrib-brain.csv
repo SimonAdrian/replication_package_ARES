@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;brain.js:15[31:33];Sink: msg.runData;brain.js:22[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;brain.js:15[31:33];Sink: msg;brain.js:28[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;brain.js:15[31:33];Sink: msg;brain.js:50[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;brain.js:15[31:33];Sink: data[i];brain.js:58[26:32]::FLOW_DESCR_END","/brain/brain.js","15","31","15","33"

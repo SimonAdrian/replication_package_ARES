@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dml.js:11[31:33];Sink: msg;dml.js:68[19:21]::FLOW_DESCR_END","/dml.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obm.js:9[31:33];Sink: msg;obm.js:37[23:25]::FLOW_DESCR_END","/obm.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soql.js:12[31:33];Sink: msg;soql.js:29[19:21]::FLOW_DESCR_END","/soql.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sosl.js:12[31:33];Sink: msg;sosl.js:30[19:21]::FLOW_DESCR_END","/sosl.js","12","31","12","33"

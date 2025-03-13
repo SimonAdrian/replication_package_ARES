@@ -1,0 +1,48 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DigitalOutput.js:43[45:47];Sink: ""onoff  ... (onoff);DigitalOutput.js:57[33:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigitalOutput.js:43[45:47];Sink: ""Path = ... ns.path;DigitalOutput.js:62[33:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigitalOutput.js:43[45:47];Sink: ""onoff  ... at.text;DigitalOutput.js:74[41:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigitalOutput.js:43[45:47];Sink: msg;DigitalOutput.js:87[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigitalOutput.js:43[45:47];Sink: msg;DigitalOutput.js:91[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;DigitalOutput.js:43[45:47];Sink: msg;DigitalOutput.js:94[35:37]::FLOW_DESCR_END","/DigitalOutput.js","43","45","43","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;DigitalOutput.js:85[38:38];Sink: ""Failed ... message;DigitalOutput.js:86[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;DigitalOutput.js:85[38:38];Sink: e;DigitalOutput.js:87[36:36]::FLOW_DESCR_END","/DigitalOutput.js","85","38","85","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Electrolyser.js:14[45:47];Sink: ""Invali ... command;Electrolyser.js:73[41:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Electrolyser.js:14[45:47];Sink: msg;Electrolyser.js:98[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Electrolyser.js:14[45:47];Sink: msg;Electrolyser.js:102[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Electrolyser.js:14[45:47];Sink: msg;Electrolyser.js:105[35:37]::FLOW_DESCR_END","/Electrolyser.js","14","45","14","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Electrolyser.js:96[38:38];Sink: ""Failed ... message;Electrolyser.js:97[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;Electrolyser.js:96[38:38];Sink: e;Electrolyser.js:98[36:36]::FLOW_DESCR_END","/Electrolyser.js","96","38","96","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Electrolyser.js:120[45:47];Sink: msg;Electrolyser.js:153[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Electrolyser.js:120[45:47];Sink: msg;Electrolyser.js:156[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Electrolyser.js:120[45:47];Sink: msg;Electrolyser.js:159[35:37]::FLOW_DESCR_END","/Electrolyser.js","120","45","120","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Electrolyser.js:151[38:38];Sink: ""Failed ... message;Electrolyser.js:152[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;Electrolyser.js:151[38:38];Sink: e;Electrolyser.js:153[36:36]::FLOW_DESCR_END","/Electrolyser.js","151","38","151","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;Firefly.js:70[26:30];Sink: ""WebSoc ... + error;Firefly.js:71[17:43]::FLOW_DESCR_END","/Firefly.js","70","26","70","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PANFuelCell.js:44[45:47];Sink: msg;PANFuelCell.js:77[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:44[45:47];Sink: msg;PANFuelCell.js:102[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:44[45:47];Sink: msg;PANFuelCell.js:105[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:44[45:47];Sink: msg;PANFuelCell.js:108[35:37]::FLOW_DESCR_END","/PANFuelCell.js","44","45","44","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;PANFuelCell.js:75[40:40];Sink: ""Failed ... message;PANFuelCell.js:76[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;PANFuelCell.js:75[40:40];Sink: e;PANFuelCell.js:77[36:36]::FLOW_DESCR_END","/PANFuelCell.js","75","40","75","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;PANFuelCell.js:100[40:40];Sink: ""Failed ... message;PANFuelCell.js:101[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;PANFuelCell.js:100[40:40];Sink: e;PANFuelCell.js:102[36:36]::FLOW_DESCR_END","/PANFuelCell.js","100","40","100","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PANFuelCell.js:124[45:47];Sink: msg;PANFuelCell.js:154[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:124[45:47];Sink: msg;PANFuelCell.js:158[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:124[45:47];Sink: msg;PANFuelCell.js:161[35:37]::FLOW_DESCR_END","/PANFuelCell.js","124","45","124","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;PANFuelCell.js:152[38:38];Sink: ""Failed ... message;PANFuelCell.js:153[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;PANFuelCell.js:152[38:38];Sink: e;PANFuelCell.js:154[36:36]::FLOW_DESCR_END","/PANFuelCell.js","152","38","152","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PANFuelCell.js:179[45:47];Sink: msg;PANFuelCell.js:211[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:179[45:47];Sink: msg;PANFuelCell.js:215[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:179[45:47];Sink: msg;PANFuelCell.js:218[35:37]::FLOW_DESCR_END","/PANFuelCell.js","179","45","179","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;PANFuelCell.js:209[38:38];Sink: ""Failed ... message;PANFuelCell.js:210[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;PANFuelCell.js:209[38:38];Sink: e;PANFuelCell.js:211[36:36]::FLOW_DESCR_END","/PANFuelCell.js","209","38","209","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;PANFuelCell.js:235[45:47];Sink: msg;PANFuelCell.js:262[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:235[45:47];Sink: msg;PANFuelCell.js:266[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;PANFuelCell.js:235[45:47];Sink: msg;PANFuelCell.js:269[35:37]::FLOW_DESCR_END","/PANFuelCell.js","235","45","235","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;PANFuelCell.js:260[38:38];Sink: ""Failed ... message;PANFuelCell.js:261[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;PANFuelCell.js:260[38:38];Sink: e;PANFuelCell.js:262[36:36]::FLOW_DESCR_END","/PANFuelCell.js","260","38","260","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Relay.js:47[37:39];Sink: msg;Relay.js:86[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Relay.js:47[37:39];Sink: msg;Relay.js:90[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Relay.js:47[37:39];Sink: msg;Relay.js:94[35:37]::FLOW_DESCR_END","/Relay.js","47","37","47","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Relay.js:84[38:38];Sink: ""Failed ... message;Relay.js:85[37:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;Relay.js:84[38:38];Sink: e;Relay.js:86[36:36]::FLOW_DESCR_END","/Relay.js","84","38","84","38"

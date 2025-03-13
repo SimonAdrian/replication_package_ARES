@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: topic;moving-average.js:63[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: topic;moving-average.js:69[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: data;moving-average.js:69[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: topic;moving-average.js:74[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: data;moving-average.js:74[40:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: topic;moving-average.js:79[33:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;moving-average.js:61[35:37];Sink: msg;moving-average.js:103[23:25]::FLOW_DESCR_END","/moving-average.js","61","35","61","37"

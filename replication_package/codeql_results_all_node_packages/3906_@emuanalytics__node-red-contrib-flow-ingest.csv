@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;flow-ingest.js:55[17:22];Sink: node.brokerurl;flow-ingest.js:264[38:51]::FLOW_DESCR_END","/flow-ingest.js","55","17","55","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;flow-ingest.js:183[47:55];Sink: node.brokerurl;flow-ingest.js:264[38:51]::FLOW_DESCR_END","/flow-ingest.js","183","47","183","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flow-ingest.js:460[34:36];Sink: msg;flow-ingest.js:484[37:39]::FLOW_DESCR_END","/flow-ingest.js","460","34","460","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;flow-ingest.js:460[45:48];Sink: done;flow-ingest.js:484[42:45]::FLOW_DESCR_END","/flow-ingest.js","460","45","460","48"

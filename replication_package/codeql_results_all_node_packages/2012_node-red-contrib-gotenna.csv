@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;gotenna.js:83[49:52];Sink: ""[goTen ... message;gotenna.js:45[39:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;gotenna.js:83[49:52];Sink: ""[goTen ...  + data;gotenna.js:79[34:74]::FLOW_DESCR_END","/gotenna.js","83","49","83","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;gotenna.js:92[49:52];Sink: ""[goTen ... \n"")[0];gotenna.js:93[30:89]::FLOW_DESCR_END","/gotenna.js","92","49","92","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gotenna.js:220[40:42];Sink: ""Sendin ... fy(cmd);gotenna.js:240[28:69]::FLOW_DESCR_END","/gotenna.js","220","40","220","42"

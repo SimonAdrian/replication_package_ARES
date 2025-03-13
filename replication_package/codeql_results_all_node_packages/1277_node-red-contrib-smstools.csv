@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: f;index.js:39[45:45];Sink: ""Failed ... : "" + f;index.js:44[32:62]::FLOW_DESCR_END","/smstools/index.js","39","45","39","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:64[36:38];Sink: content;index.js:119[40:46]::FLOW_DESCR_END","/smstools/index.js","64","36","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');smstools.js:55[28:60];Sink: res;index.js:42[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');smstools.js:55[28:60];Sink: ""Failed ... _reason;index.js:111[40:86]::FLOW_DESCR_END","/smstools/smstools.js","55","28","55","60"

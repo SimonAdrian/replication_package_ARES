@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;tcp-client.js:17[21:31];Sink: `Closin ... .port}`;tcp-client.js:183[57:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;tcp-client.js:17[21:31];Sink: node.host;tcp-client.js:228[60:68]::FLOW_DESCR_END","/tcp-client.js","17","21","17","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-client.js:158[46:48];Sink: err;tcp-client.js:159[30:32]::FLOW_DESCR_END","/tcp-client.js","158","46","158","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;tcp-client.js:168[73:81];Sink: `Closin ... .port}`;tcp-client.js:168[57:83]::FLOW_DESCR_END","/tcp-client.js","168","73","168","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;tcp-client.js:183[82:90];Sink: `Closin ... .port}`;tcp-client.js:183[57:105]::FLOW_DESCR_END","/tcp-client.js","183","82","183","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;tcp-client.js:183[95:103];Sink: `Closin ... .port}`;tcp-client.js:183[57:105]::FLOW_DESCR_END","/tcp-client.js","183","95","183","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-client.js:212[58:60];Sink: err;tcp-client.js:213[78:80]::FLOW_DESCR_END","/tcp-client.js","212","58","212","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;tcp-client.js:218[91:99];Sink: `Starti ... .port}`;tcp-client.js:218[61:101]::FLOW_DESCR_END","/tcp-client.js","218","91","218","99"

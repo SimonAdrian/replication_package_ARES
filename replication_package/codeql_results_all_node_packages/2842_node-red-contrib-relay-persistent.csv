@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');relay-persistent.js:43[46:96];Sink: JSON.st ... teData);relay-persistent.js:37[58:82]::FLOW_DESCR_END","/relay-persistent.js","43","46","43","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;relay-persistent.js:55[35:37];Sink: msg;relay-persistent.js:74[27:29]::FLOW_DESCR_END","/relay-persistent.js","55","35","55","37"

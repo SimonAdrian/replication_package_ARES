@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;load-image.js:16[27:29];Sink: msg;load-image.js:36[23:25]::FLOW_DESCR_END","/dist/load-image.js","16","27","16","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;path-crop-image.js:18[27:29];Sink: msg;path-crop-image.js:86[27:29]::FLOW_DESCR_END","/dist/path-crop-image.js","18","27","18","29"

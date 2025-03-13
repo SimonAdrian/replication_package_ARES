@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-blob-storage-download.js:16[33:35];Sink: msg;azure-blob-storage-download.js:26[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-blob-storage-download.js:16[33:35];Sink: msg;azure-blob-storage-download.js:31[39:41]::FLOW_DESCR_END","/azure-blob-storage-download.js","16","33","16","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-blob-storage-upload.js:16[33:35];Sink: msg;azure-blob-storage-upload.js:27[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-blob-storage-upload.js:16[33:35];Sink: msg;azure-blob-storage-upload.js:32[39:41]::FLOW_DESCR_END","/azure-blob-storage-upload.js","16","33","16","35"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fiware-device-in.js:55[49:51];Sink: err;fiware-device-in.js:56[65:67]::FLOW_DESCR_END","/lib/fiware-device-in.js","55","49","55","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;fiware-device-out.js:36[49:51];Sink: err;fiware-device-out.js:37[65:67]::FLOW_DESCR_END","/lib/fiware-device-out.js","36","49","36","51"

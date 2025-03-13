@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: instance.host;Instances.js:95[17:29];Sink: ""instan ... : ""+err;Instances.js:102[16:91]::FLOW_DESCR_END","/lib/Instances.js","95","17","95","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: instance.port;Instances.js:95[31:43];Sink: ""instan ... : ""+err;Instances.js:102[16:91]::FLOW_DESCR_END","/lib/Instances.js","95","31","95","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: instance.host;Instances.js:102[40:52];Sink: ""instan ... : ""+err;Instances.js:102[16:91]::FLOW_DESCR_END","/lib/Instances.js","102","40","102","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: instance.port;Instances.js:102[64:76];Sink: ""instan ... : ""+err;Instances.js:102[16:91]::FLOW_DESCR_END","/lib/Instances.js","102","64","102","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;publish.js:82[21:23];Sink: msg;publish.js:24[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;publish.js:82[21:23];Sink: msg;publish.js:73[16:18]::FLOW_DESCR_END","/lib/publish.js","82","21","82","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pubsubhub.js:188[24:26];Sink: data;pubsubhub.js:115[17:20]::FLOW_DESCR_END","/lib/pubsubhub.js","188","24","188","26"

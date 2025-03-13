@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .apikey;youtube.js:32[62:84];Sink: ""Reauth ... .apikey;youtube.js:32[23:84]::FLOW_DESCR_END","/youtube.js","32","62","32","84"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;youtube.js:56[35:37];Sink: JSON.st ... nData );youtube.js:89[23:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube.js:56[35:37];Sink: msg;youtube.js:107[27:29]::FLOW_DESCR_END","/youtube.js","56","35","56","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;youtube.js:130[35:37];Sink: JSON.st ... nData );youtube.js:163[23:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube.js:130[35:37];Sink: msg;youtube.js:181[27:29]::FLOW_DESCR_END","/youtube.js","130","35","130","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;youtube.js:205[35:37];Sink: JSON.st ... nData );youtube.js:246[23:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;youtube.js:205[35:37];Sink: msg;youtube.js:265[27:29]::FLOW_DESCR_END","/youtube.js","205","35","205","37"

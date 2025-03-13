@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fz35.js:18[31:35];Sink: error;fz35.js:19[32:36]::FLOW_DESCR_END","/lib/fz35.js","18","31","18","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;fz35.js:42[31:31];Sink: e && e.message;fz35.js:45[38:51]::FLOW_DESCR_END","/lib/fz35.js","42","31","42","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;fz35.js:54[32:32];Sink: e && e.message;fz35.js:55[39:52]::FLOW_DESCR_END","/lib/fz35.js","54","32","54","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;hm310.js:36[39:39];Sink: e;hm310.js:37[39:39]::FLOW_DESCR_END","/lib/hm310.js","36","39","36","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;hm310.js:40[39:39];Sink: e;hm310.js:41[40:40]::FLOW_DESCR_END","/lib/hm310.js","40","39","40","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ut803.js:62[37:41];Sink: error;ut803.js:63[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;ut803.js:62[37:41];Sink: error;ut803.js:64[32:36]::FLOW_DESCR_END","/lib/ut803.js","62","37","62","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;ut803.js:70[37:42];Sink: reason;ut803.js:71[32:37]::FLOW_DESCR_END","/lib/ut803.js","70","37","70","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;lab-fz35.js:10[31:37];Sink: key.toU ... ixed(2);lab-fz35.js:38[54:105]::FLOW_DESCR_END","/nodes/lab-fz35.js","10","31","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message ... ).pop();lab-fz35.js:11[29:58];Sink: key.toU ... ixed(2);lab-fz35.js:38[54:105]::FLOW_DESCR_END","/nodes/lab-fz35.js","11","29","11","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: protection;lab-fz35.js:46[51:60];Sink: this.protection;lab-fz35.js:56[50:64]::FLOW_DESCR_END","/nodes/lab-fz35.js","46","51","46","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: message.payload;lab-hm310p.js:19[68:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: message.payload;lab-hm310p.js:23[71:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: message.payload;lab-hm310p.js:27[71:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: message.payload;lab-hm310p.js:31[69:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: message.payload;lab-hm310p.js:36[67:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: message.payload;lab-hm310p.js:41[67:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lab-hm310p.js:12[31:37];Sink: 'unknow ... e.topic;lab-hm310p.js:45[35:66]::FLOW_DESCR_END","/nodes/lab-hm310p.js","12","31","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lab-hm310p.js:63[47:51];Sink: error;lab-hm310p.js:64[28:32]::FLOW_DESCR_END","/nodes/lab-hm310p.js","63","47","63","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;lab-ut803.js:10[46:49];Sink: Object. ... , data);lab-ut803.js:11[27:148]::FLOW_DESCR_END","/nodes/lab-ut803.js","10","46","10","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lab-ut803.js:15[47:51];Sink: error.message;lab-ut803.js:16[28:40]::FLOW_DESCR_END","/nodes/lab-ut803.js","15","47","15","51"

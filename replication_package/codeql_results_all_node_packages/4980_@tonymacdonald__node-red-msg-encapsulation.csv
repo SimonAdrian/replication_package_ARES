@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unwrap.js:6[35:37];Sink: innerMsg;unwrap.js:12[22:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;unwrap.js:6[35:37];Sink: msg;unwrap.js:23[37:39]::FLOW_DESCR_END","/unwrap.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wrap.js:6[35:37];Sink: newMsg;wrap.js:10[18:23]::FLOW_DESCR_END","/wrap.js","6","35","6","37"

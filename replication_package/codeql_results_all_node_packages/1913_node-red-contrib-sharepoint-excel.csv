@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-sharepoint-excel.js:12[32:34];Sink: encodeU ... iceUri);node-red-contrib-sharepoint-excel.js:49[14:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-sharepoint-excel.js:12[32:34];Sink: msg;node-red-contrib-sharepoint-excel.js:82[23:25]::FLOW_DESCR_END","/node-red-contrib-sharepoint-excel.js","12","32","12","34"

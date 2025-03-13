@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingspeak.js:7[31:33];Sink: ""https: ... payload;thingspeak.js:9[9:108]::FLOW_DESCR_END","/thingspeak/thingspeak.js","7","31","7","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;thingspeak.js:17[30:30];Sink: ""Error  ... : "" + e;thingspeak.js:18[22:56]::FLOW_DESCR_END","/thingspeak/thingspeak.js","17","30","17","30"

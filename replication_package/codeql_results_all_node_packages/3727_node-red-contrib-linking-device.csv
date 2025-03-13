@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;linking-device.js:207[30:39];Sink: 'Advert ... s + ')';linking-device.js:211[24:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: peripheral;linking-device.js:207[30:39];Sink: 'Addres ... calName;linking-device.js:247[28:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: peripheral;linking-device.js:207[30:39];Sink: TAG + ' ... s + ')';linking-device.js:263[28:97]::FLOW_DESCR_END","/src/linking-device.js","207","30","207","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: status;linking-device.js:445[34:39];Sink: status;linking-device.js:447[29:34]::FLOW_DESCR_END","/src/linking-device.js","445","34","445","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: advertisement;linking-device.js:451[29:41];Sink: 'Unsupp ... y(data);linking-device.js:178[30:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: advertisement;linking-device.js:451[29:41];Sink: 'Unsupp ... y(data);linking-device.js:485[36:85]::FLOW_DESCR_END","/src/linking-device.js","451","29","451","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device;linking-device.js:635[48:53];Sink: 'Servic ... rvices);linking-device.js:1456[34:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: device;linking-device.js:635[48:53];Sink: device.services;linking-device.js:1457[42:56]::FLOW_DESCR_END","/src/linking-device.js","635","48","635","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'failed ... + error;linking-device.js:1008[35:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: errmsg;linking-device.js:1045[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'starti ... tfixMsg;linking-device.js:1077[37:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'sensor ... tfixMsg;linking-device.js:1082[41:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'failed ... ultText;linking-device.js:1088[34:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'failed ... tfixMsg;linking-device.js:1092[30:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'failed ... tfixMsg;linking-device.js:1100[26:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'stopSe ... service;linking-device.js:1116[32:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'stoppi ... tfixMsg;linking-device.js:1121[45:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'sensor ... tfixMsg;linking-device.js:1126[45:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: 'failed ... tfixMsg;linking-device.js:1128[34:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: service;linking-device.js:1233[33:39];Sink: errmsg;linking-device.js:1138[27:32]::FLOW_DESCR_END","/src/linking-device.js","1233","33","1233","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;linking-device.js:1233[42:45];Sink: 'Unsupp ... y(data);linking-device.js:178[30:79]::FLOW_DESCR_END","/src/linking-device.js","1233","42","1233","45"

@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;A1Node.js:21[36:38];Sink: msg;A1Node.js:39[27:29]::FLOW_DESCR_END","/nodes/A1Node.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;Device.js:112[48:56];Sink: this.host.port;Device.js:112[48:61]::FLOW_DESCR_END","/nodes/Device.js","112","48","112","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;Device.js:112[64:72];Sink: this.host.address;Device.js:112[64:80]::FLOW_DESCR_END","/nodes/Device.js","112","64","112","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;DiscoverNode.js:6[36:38];Sink: msg;DiscoverNode.js:45[27:29]::FLOW_DESCR_END","/nodes/DiscoverNode.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;MP1Node.js:22[36:38];Sink: msg;MP1Node.js:35[27:29]::FLOW_DESCR_END","/nodes/MP1Node.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;RMNode.js:22[36:38];Sink: msg;RMNode.js:37[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMNode.js:22[36:38];Sink: msg;RMNode.js:42[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMNode.js:22[36:38];Sink: msg;RMNode.js:105[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;RMNode.js:22[36:38];Sink: msg;RMNode.js:117[39:41]::FLOW_DESCR_END","/nodes/RMNode.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:35[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:40[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:45[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;S1CNode.js:22[36:38];Sink: msg;S1CNode.js:65[35:37]::FLOW_DESCR_END","/nodes/S1CNode.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SP2Node.js:22[36:38];Sink: msg;SP2Node.js:35[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SP2Node.js:22[36:38];Sink: msg;SP2Node.js:40[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SP2Node.js:22[36:38];Sink: msg;SP2Node.js:60[35:37]::FLOW_DESCR_END","/nodes/SP2Node.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SetupNode.js:6[36:38];Sink: msg;SetupNode.js:10[23:25]::FLOW_DESCR_END","/nodes/SetupNode.js","6","36","6","38"

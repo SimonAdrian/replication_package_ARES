@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;52-omoject.js:16[31:33];Sink: filename;52-omoject.js:32[19:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;52-omoject.js:16[31:33];Sink: msg.payload;52-omoject.js:32[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;52-omoject.js:16[31:33];Sink: msg;52-omoject.js:35[22:24]::FLOW_DESCR_END","/52-omoject.js","16","31","16","33"

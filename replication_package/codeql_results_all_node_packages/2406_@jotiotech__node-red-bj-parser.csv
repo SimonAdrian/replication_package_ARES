@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;BJ_parser.js:14[20:26];Sink: message;BJ_parser.js:36[14:20]::FLOW_DESCR_END","/BJ_parser.js","14","20","14","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: struct. ...  index];exeFun.js:269[26:67];Sink: (s || ' ... s ' + n;mbus.js:320[15:56]::FLOW_DESCR_END","/src/exeFun.js","269","26","269","67"

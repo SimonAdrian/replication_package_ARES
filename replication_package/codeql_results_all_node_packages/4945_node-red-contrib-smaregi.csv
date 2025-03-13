@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smaregi-stock.js:37[30:32];Sink: msg;smaregi-stock.js:94[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smaregi-stock.js:37[30:32];Sink: msg;smaregi-stock.js:102[16:18]::FLOW_DESCR_END","/smaregi-stock.js","37","30","37","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;smaregi-transactions.js:38[30:32];Sink: msg;smaregi-transactions.js:143[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;smaregi-transactions.js:38[30:32];Sink: msg;smaregi-transactions.js:151[16:18]::FLOW_DESCR_END","/smaregi-transactions.js","38","30","38","32"

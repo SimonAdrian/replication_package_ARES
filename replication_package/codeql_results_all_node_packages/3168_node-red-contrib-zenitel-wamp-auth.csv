@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;zenitel-wamp-auth.js:24[25:39];Sink: this.password;zenitel-wamp-auth.js:28[78:90]::FLOW_DESCR_END","/zenitel-wamp-auth.js","24","25","24","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zenitel-wamp-auth.js:58[40:42];Sink: payload;zenitel-wamp-auth.js:64[76:82]::FLOW_DESCR_END","/zenitel-wamp-auth.js","58","40","58","42"

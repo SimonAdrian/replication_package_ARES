@@ -1,0 +1,30 @@
+{
+  "main": "./script/nodeRed/server/main.js",
+  "name": "@definy/node-red",
+  "version": "1.2.0",
+  "description": "definy RPC client for Node RED",
+  "author": "narumincho",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narumincho/definy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/narumincho/definy/discussions"
+  },
+  "node-red": {
+    "nodes": {
+      "create-definy-rpc-node": "./script/nodeRed/server/main.js"
+    }
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "dependencies": {
+    "@deno/shim-deno": "~0.11.0",
+    "undici": "^5.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonata.js:33[29:31];Sink: msg;jsonata.js:95[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonata.js:33[29:31];Sink: msg;jsonata.js:113[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;jsonata.js:33[29:31];Sink: msg;jsonata.js:117[14:16]::FLOW_DESCR_END","/jsonata.js","33","29","33","31"

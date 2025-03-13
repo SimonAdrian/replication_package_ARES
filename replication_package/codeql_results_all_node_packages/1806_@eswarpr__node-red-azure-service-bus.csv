@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-bus.js:216[33:35];Sink: msg;service-bus.js:246[39:41]::FLOW_DESCR_END","/service-bus.js","216","33","216","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-bus.js:295[33:35];Sink: msg;service-bus.js:325[39:41]::FLOW_DESCR_END","/service-bus.js","295","33","295","35"

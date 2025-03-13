@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: y;godaddy.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: y;godaddy.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: op[1];godaddy.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: e_1;godaddy.js:127[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: ""["" + n ... rrentIp;godaddy.js:173[36:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: currentIp;godaddy.js:179[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();godaddy.js:24[30:40];Sink: ""["" + n ... + err_1;godaddy.js:192[40:70]::FLOW_DESCR_END","/dist/godaddy.js","24","30","24","40"

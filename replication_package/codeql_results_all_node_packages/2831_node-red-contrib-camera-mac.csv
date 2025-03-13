@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;camera-mac.js:10[36:38];Sink: msg;camera-mac.js:33[31:33]::FLOW_DESCR_END","/camera-mac.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:11[36:38];Sink: msg;node.js:34[31:33]::FLOW_DESCR_END","/node.js","11","36","11","38"

@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-outlook-calendar.js:40[40:44];Sink: error;get-outlook-calendar.js:41[21:25]::FLOW_DESCR_END","/get-outlook-calendar.js","40","40","40","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;get-outlook-calendar.js:40[47:54];Sink: response;get-outlook-calendar.js:42[21:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;get-outlook-calendar.js:40[47:54];Sink: 'status ... tusCode;get-outlook-calendar.js:54[23:54]::FLOW_DESCR_END","/get-outlook-calendar.js","40","47","40","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;get-outlook-calendar.js:40[57:60];Sink: body;get-outlook-calendar.js:43[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;get-outlook-calendar.js:40[57:60];Sink: body;get-outlook-calendar.js:47[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;get-outlook-calendar.js:40[57:60];Sink: 'Error: ' + body;get-outlook-calendar.js:55[23:38]::FLOW_DESCR_END","/get-outlook-calendar.js","40","57","40","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;microsoft-api-connection.js:40[45:52];Sink: 'status ... tusCode;microsoft-api-connection.js:53[21:52]::FLOW_DESCR_END","/microsoft-api-connection.js","40","45","40","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;microsoft-api-connection.js:40[55:58];Sink: body;microsoft-api-connection.js:47[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;microsoft-api-connection.js:40[55:58];Sink: 'Error: ' + body;microsoft-api-connection.js:54[21:36]::FLOW_DESCR_END","/microsoft-api-connection.js","40","55","40","58"

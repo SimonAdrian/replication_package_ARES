@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aggregate.js:53[31:33];Sink: msg;aggregate.js:67[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aggregate.js:53[31:33];Sink: ingestionId;ingestionMap.js:34[39:49]::FLOW_DESCR_END","/src/aggregate.js","53","31","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: resp.data.message;http-client.js:44[60:76];Sink: warningMessage;http-client.js:46[35:48]::FLOW_DESCR_END","/src/lib/clients/http-client.js","44","60","44","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mqtt-client.js:75[33:35];Sink: ""Got an ... fy(err);mqtt-client.js:76[28:86]::FLOW_DESCR_END","/src/lib/clients/mqtt-client.js","75","33","75","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;parse.js:58[27:29];Sink: msg;parse.js:148[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;parse.js:58[27:29];Sink: msg;parse.js:161[39:41]::FLOW_DESCR_END","/src/parse.js","58","27","58","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send.js:91[35:37];Sink: msg;send.js:112[47:49]::FLOW_DESCR_END","/src/send.js","91","35","91","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: newMsg;subscribe.js:77[51:56];Sink: newMsg;subscribe.js:78[47:52]::FLOW_DESCR_END","/src/subscribe.js","77","51","77","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;subscribe.js:107[54:56];Sink: msg;subscribe.js:108[35:37]::FLOW_DESCR_END","/src/subscribe.js","107","54","107","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8"");backwardsCompatibility.js:36[34:72];Sink: JSON.st ... ull, 4);backwardsCompatibility.js:23[45:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8"");backwardsCompatibility.js:36[34:72];Sink: JSON.st ... (flows);backwardsCompatibility.js:25[45:65]::FLOW_DESCR_END","/src/utils/backwardsCompatibility.js","36","34","36","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8"");getProjectConfigNodeCredentials.js:9[34:72];Sink: `\n${no ... es)}\n`;project.js:229[27:105]::FLOW_DESCR_END","/src/utils/getProjectConfigNodeCredentials.js","9","34","9","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8"");versionConversion.js:156[34:72];Sink: JSON.st ... ull, 4);versionConversion.js:164[45:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8"");versionConversion.js:156[34:72];Sink: JSON.st ... wflows);versionConversion.js:166[45:68]::FLOW_DESCR_END","/src/utils/versionConversion.js","156","34","156","72"

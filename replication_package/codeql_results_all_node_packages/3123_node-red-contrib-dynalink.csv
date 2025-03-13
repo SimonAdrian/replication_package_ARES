@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dynalink.js:53[35:37];Sink: msg;dynalink.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynalink.js:53[35:37];Sink: msg;dynalink.js:58[27:29]::FLOW_DESCR_END","/dynalink.js","53","35","53","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dynalink.js:73[35:37];Sink: msg;dynalink.js:35[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynalink.js:73[35:37];Sink: node.event;dynalink.js:80[33:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynalink.js:73[35:37];Sink: msg;dynalink.js:80[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynalink.js:73[35:37];Sink: msg;dynalink.js:83[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynalink.js:73[35:37];Sink: node.event;dynalink.js:84[33:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dynalink.js:73[35:37];Sink: msg;dynalink.js:84[44:46]::FLOW_DESCR_END","/dynalink.js","73","35","73","37"

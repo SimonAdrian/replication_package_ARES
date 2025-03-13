@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nodeId;alarm-manager.js:308[31:36];Sink: `New al ... tered.`;alarm-manager.js:311[15:54]::FLOW_DESCR_END","/alarm-manager/alarm-manager.js","308","31","308","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nodeId;alarm-manager.js:316[33:38];Sink: `Alarm  ... istry.`;alarm-manager.js:319[15:67]::FLOW_DESCR_END","/alarm-manager/alarm-manager.js","316","33","316","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;condition-monitor.js:84[30:32];Sink: msg;condition-monitor.js:128[51:53]::FLOW_DESCR_END","/alarm-manager/condition-monitor.js","84","30","84","32"

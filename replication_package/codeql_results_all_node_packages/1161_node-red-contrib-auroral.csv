@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;auroralAgent.js:47[62:64];Sink: 'Server ... message;auroralAgent.js:48[24:55]::FLOW_DESCR_END","/src/nodes/auroralAgent.js","47","62","47","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;auroralDevice.js:55[45:47];Sink: obj;auroralDevice.js:58[30:32]::FLOW_DESCR_END","/src/nodes/auroralDevice.js","55","45","55","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;auroralDevice.js:61[42:44];Sink: obj;auroralDevice.js:64[41:43]::FLOW_DESCR_END","/src/nodes/auroralDevice.js","61","42","61","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auroralDevice.js:78[41:43];Sink: {...msg ... sg.pid};auroralDevice.js:112[68:127]::FLOW_DESCR_END","/src/nodes/auroralDevice.js","78","41","78","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auroralResponse.js:7[35:37];Sink: 'Reciev ... alReqId;auroralResponse.js:16[26:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auroralResponse.js:7[35:37];Sink: JSON.st ... ayload);auroralResponse.js:39[31:57]::FLOW_DESCR_END","/src/nodes/auroralResponse.js","7","35","7","37"

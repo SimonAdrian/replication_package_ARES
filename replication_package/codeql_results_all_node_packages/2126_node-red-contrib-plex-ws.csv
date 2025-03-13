@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;plex_socket.js:63[32:35];Sink: data;plex_socket.js:102[27:30]::FLOW_DESCR_END","/lib/plex_socket.js","63","32","63","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;plex_socket.js:66[35:38];Sink: payload;plex_socket.js:145[34:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;plex_socket.js:66[35:38];Sink: notif;plex_socket.js:153[35:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;plex_socket.js:66[35:38];Sink: playingNotif.state;plex_socket.js:167[38:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;plex_socket.js:66[35:38];Sink: playingNotif;plex_socket.js:167[58:69]::FLOW_DESCR_END","/lib/plex_socket.js","66","35","66","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;plex_socket.js:67[33:35];Sink: err;plex_socket.js:183[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;plex_socket.js:67[33:35];Sink: `plex error: ${err}`;server.js:84[23:42]::FLOW_DESCR_END","/lib/plex_socket.js","67","33","67","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req;plex_socket.js:68[48:50];Sink: req;plex_socket.js:179[49:51]::FLOW_DESCR_END","/lib/plex_socket.js","68","48","68","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;plex_socket.js:68[53:55];Sink: res;plex_socket.js:179[54:56]::FLOW_DESCR_END","/lib/plex_socket.js","68","53","68","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;plex_socket.js:69[34:37];Sink: code;plex_socket.js:120[32:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;plex_socket.js:69[34:37];Sink: `plex d ... eason}`;server.js:75[27:66]::FLOW_DESCR_END","/lib/plex_socket.js","69","34","69","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;plex_socket.js:69[40:45];Sink: reason;plex_socket.js:120[38:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: reason;plex_socket.js:69[40:45];Sink: `plex d ... eason}`;server.js:75[27:66]::FLOW_DESCR_END","/lib/plex_socket.js","69","40","69","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;server.js:52[38:41];Sink: `plex d ... eason}`;server.js:75[27:66]::FLOW_DESCR_END","/nodes/server.js","52","38","52","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;server.js:52[44:49];Sink: `plex d ... eason}`;server.js:75[27:66]::FLOW_DESCR_END","/nodes/server.js","52","44","52","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;server.js:54[38:40];Sink: `plex error: ${err}`;server.js:84[23:42]::FLOW_DESCR_END","/nodes/server.js","54","38","54","40"

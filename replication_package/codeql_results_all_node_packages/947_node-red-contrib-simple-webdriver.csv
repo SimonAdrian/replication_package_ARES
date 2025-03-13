@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;close-browser.js:8[29:35];Sink: msg;close-browser.js:30[22:24]::FLOW_DESCR_END","/dist/nodes/close-browser.js","8","29","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get-cookie.js:8[29:35];Sink: [msg, null];get-cookie.js:39[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get-cookie.js:8[29:35];Sink: error.message;get-cookie.js:54[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get-cookie.js:8[29:35];Sink: [null, msg];get-cookie.js:57[26:36]::FLOW_DESCR_END","/dist/nodes/get-cookie.js","8","29","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;get-title.js:8[29:35];Sink: [msg, null];get-title.js:33[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;get-title.js:8[29:35];Sink: [null, msg];get-title.js:52[26:36]::FLOW_DESCR_END","/dist/nodes/get-title.js","8","29","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;navigate.js:8[29:35];Sink: [msg, null];navigate.js:39[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;navigate.js:8[29:35];Sink: error.message;navigate.js:52[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;navigate.js:8[29:35];Sink: [null, msg];navigate.js:59[26:36]::FLOW_DESCR_END","/dist/nodes/navigate.js","8","29","8","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: [msg, null];find-element.js:12[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: msg.error.message;get-attribute.js:46[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: msg.error.message;get-text.js:41[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: msg.error.message;get-value.js:41[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: error;node-constructor.js:54[34:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: [null, msg];node-constructor.js:107[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: filePath;screenshot.js:43[49:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: [msg, null];screenshot.js:45[29:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: [null, msg];screenshot.js:63[33:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: filePath;screenshot.js:112[37:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: `${filePath}-${i}`;screenshot.js:115[41:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: [msg, null];switch-frame.js:30[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: msg.error.message;switch-frame.js:41[27:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;node-constructor.js:65[33:39];Sink: [null, msg];switch-frame.js:47[29:39]::FLOW_DESCR_END","/dist/nodes/node-constructor.js","65","33","65","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;open-browser.js:36[29:35];Sink: msg;open-browser.js:73[22:24]::FLOW_DESCR_END","/dist/nodes/open-browser.js","36","29","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;set-cookie.js:8[29:35];Sink: [msg, null];set-cookie.js:50[22:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;set-cookie.js:8[29:35];Sink: [null, msg];set-cookie.js:63[26:36]::FLOW_DESCR_END","/dist/nodes/set-cookie.js","8","29","8","35"

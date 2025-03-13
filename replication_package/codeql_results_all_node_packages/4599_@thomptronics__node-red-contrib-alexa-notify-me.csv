@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-notify-me.js:34[30:32];Sink: msg;alexa-notify-me.js:97[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-notify-me.js:34[30:32];Sink: msg;alexa-notify-me.js:101[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-notify-me.js:34[30:32];Sink: msg;alexa-notify-me.js:127[19:21]::FLOW_DESCR_END","/alexa-notify-me.js","34","30","34","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;alexa-notify-me.js:94[30:32];Sink: err;alexa-notify-me.js:101[24:26]::FLOW_DESCR_END","/alexa-notify-me.js","94","30","94","32"

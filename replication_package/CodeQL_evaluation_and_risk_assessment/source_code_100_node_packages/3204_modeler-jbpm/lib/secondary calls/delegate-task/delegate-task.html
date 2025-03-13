@@ -1,0 +1,94 @@
+<script type="text/javascript">
+    RED.nodes.registerType('delegate-task', {
+        category: 'jBPM',
+        color: '#e7e7ae',
+        defaults: {
+            name: {
+                value: ""
+            },
+            url: {
+                value: ""
+            },
+            container_name: {
+                value: ""
+            },   
+            task_id:{
+                value:""
+            },    
+            DelegateUser_id: {
+                value: ""
+            },    
+            user_id: {
+                value: ""
+            },
+            password: {
+                value: ""
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: 'white-globe.png',
+        label: function () {
+            return this.name || 'delegate-task'
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="delegate-task">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-url"><i class="fa fa-globe"></i> URL</label>
+        <input type="url" id="node-input-url" placeholder="/url">
+    </div>
+    <div class="form-row">
+        <label for="node-input-container_name"><i class="icon-tag"></i> Container</label>
+        <input type="text" id="node-input-container_name" placeholder="Container">
+    </div>
+    <div class="form-row">
+        <label for="node-input-task_id"><i class="icon-tag"></i> Task Id</label>
+        <input type="text" id="node-input-task_id" placeholder="Task Id">
+    </div>
+    <div class="form-row">
+        <label for="node-input-DelegateUser_id"><i class="fa fa-user"></i> Asign to</label>
+        <input type="text" id="node-input-DelegateUser_id" placeholder="Asign to user">
+    </div>
+    <div class="form-row">
+        <label for="node-input-user_id"><i class="fa fa-user"></i> UserID</label>
+        <input type="text" id="node-input-user_id" placeholder="UserID">
+    </div>
+    <div class="form-row">
+        <label for="node-input-password"><i class="fa fa-key"></i> Password</label>
+        <input type="password" id="node-input-password" placeholder="Password">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="delegate-task">
+    <p>A simple node for jBPM to delegate a task.</p>
+    <h3>Input</h3>
+    <dl class="message-properties">
+    <dt>url
+        <span class="property-type">String</span>
+    </dt>
+    <dd> The base url of the kie-server </dd>
+    <dt>container
+        <span class="property-type">String</span>
+    </dt>
+    <dd>The container Id of jBPM project</dd>
+    <dt>task_id
+        <span class="property-type">String</span>
+    </dt>
+    <dd>The Task Instance Id.</dd>
+    <dt>Asign To
+        <span class="property-type">String</span>
+    </dt>
+    <dd>'DelegateUser_id' is the user to who the task is asigned.</dd>
+    <dt>UserId and Password
+        <span class="property-type">String</span>
+    </dt>
+    <dd>The Users Credentials </dd>
+    </dl>
+    
+</script>

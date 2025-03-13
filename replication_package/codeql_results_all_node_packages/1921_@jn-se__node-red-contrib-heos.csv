@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;heos-command.js:31[35:37];Sink: commandGroup;heos-command.js:90[32:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;heos-command.js:31[35:37];Sink: command;heos-command.js:90[46:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;heos-command.js:31[35:37];Sink: attributes;heos-command.js:90[55:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;heos-command.js:31[35:37];Sink: commandGroup;heos-command.js:134[36:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;heos-command.js:31[35:37];Sink: command;heos-command.js:134[50:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;heos-command.js:31[35:37];Sink: attributes;heos-command.js:134[59:68]::FLOW_DESCR_END","/heos/heos-command.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-command.js:66[79:85];Sink: message;heos-command.js:73[34:40]::FLOW_DESCR_END","/heos/heos-command.js","66","79","66","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-command.js:111[83:89];Sink: message;heos-command.js:118[38:44]::FLOW_DESCR_END","/heos/heos-command.js","111","83","111","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-listener.js:42[93:99];Sink: message;heos-listener.js:44[35:41]::FLOW_DESCR_END","/heos/heos-listener.js","42","93","42","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-listener.js:76[97:103];Sink: message;heos-listener.js:78[39:45]::FLOW_DESCR_END","/heos/heos-listener.js","76","97","76","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;heos-listener.js:101[35:37];Sink: msg;heos-listener.js:108[18:20]::FLOW_DESCR_END","/heos/heos-listener.js","101","35","101","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-player-state.js:60[84:90];Sink: message;heos-player-state.js:67[34:40]::FLOW_DESCR_END","/heos/heos-player-state.js","60","84","60","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-player-state.js:104[88:94];Sink: message;heos-player-state.js:111[38:44]::FLOW_DESCR_END","/heos/heos-player-state.js","104","88","104","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-player-volume.js:60[80:86];Sink: message;heos-player-volume.js:67[34:40]::FLOW_DESCR_END","/heos/heos-player-volume.js","60","80","60","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;heos-player-volume.js:104[84:90];Sink: message;heos-player-volume.js:111[38:44]::FLOW_DESCR_END","/heos/heos-player-volume.js","104","84","104","90"

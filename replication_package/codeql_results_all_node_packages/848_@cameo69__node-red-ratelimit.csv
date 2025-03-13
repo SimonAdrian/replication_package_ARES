@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ratelimit.js:189[40:42];Sink: [null, msg];ratelimit.js:278[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ratelimit.js:189[40:42];Sink: msg;ratelimit.js:295[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ratelimit.js:189[40:42];Sink: [msg, null];ratelimit.js:297[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ratelimit.js:189[40:42];Sink: msg;ratelimit.js:351[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ratelimit.js:189[40:42];Sink: [msg, null];ratelimit.js:353[30:40]::FLOW_DESCR_END","/ratelimit.js","189","40","189","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.buffer.pop();ratelimit.js:327[54:70];Sink: [null, msg];ratelimit.js:278[26:36]::FLOW_DESCR_END","/ratelimit.js","327","54","327","70"

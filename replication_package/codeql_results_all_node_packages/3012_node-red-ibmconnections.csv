@@ -1,0 +1,127 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Activities.js:42[32:39];Sink: ""GET TE ... e + "")"";Activities.js:120[41:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Activities.js:42[32:39];Sink: respons ... se.body;Activities.js:123[40:82]::FLOW_DESCR_END","/IBMConnections/Activities.js","42","32","42","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:46[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: '_getTe ... lateURL;Activities.js:49[37:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:58[92:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: 'No TEM ... lateURL;Activities.js:113[49:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:115[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:123[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:146[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:158[80:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:167[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:171[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: theMsg;Activities.js:179[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:223[22:24];Sink: msg;Activities.js:255[48:50]::FLOW_DESCR_END","/IBMConnections/Activities.js","223","22","223","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Activities.js:323[32:39];Sink: ""getUse ... e + "")"";Activities.js:348[41:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Activities.js:323[32:39];Sink: respons ... se.body;Activities.js:352[40:82]::FLOW_DESCR_END","/IBMConnections/Activities.js","323","32","323","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Activities.js:370[32:39];Sink: ""GET AC ... e + "")"";Activities.js:417[41:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Activities.js:370[32:39];Sink: respons ... se.body;Activities.js:420[40:82]::FLOW_DESCR_END","/IBMConnections/Activities.js","370","32","370","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Activities.js:438[32:39];Sink: ""GET AC ... e + "")"";Activities.js:470[41:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Activities.js:438[32:39];Sink: respons ... se.bidy;Activities.js:473[40:82]::FLOW_DESCR_END","/IBMConnections/Activities.js","438","32","438","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:327[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:338[82:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theURL;Activities.js:349[41:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:352[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:374[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: 'getAct ...  theURL;Activities.js:377[37:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:386[81:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: 'No ENT ...  theURL;Activities.js:410[49:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:414[43:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:420[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:442[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: 'getAct ...  theURL;Activities.js:445[37:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:454[76:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: 'No ENT ...  theURL;Activities.js:463[49:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:467[43:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: theMsg;Activities.js:473[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:483[22:24];Sink: msg;Activities.js:559[56:58]::FLOW_DESCR_END","/IBMConnections/Activities.js","483","22","483","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: theMsg;Activities.js:606[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: 'update ...  theURL;Activities.js:609[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: 'update ... payload;Activities.js:610[37:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: theMsg;Activities.js:619[78:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: theMsg;Activities.js:628[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: theMsg;Activities.js:632[67:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: theMsg;Activities.js:640[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: msg;Activities.js:680[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: msg;Activities.js:700[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: msg;Activities.js:752[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: msg;Activities.js:774[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Activities.js:650[22:24];Sink: msg;Activities.js:849[69:71]::FLOW_DESCR_END","/IBMConnections/Activities.js","650","22","650","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Communities.js:56[33:40];Sink: ""GET CO ... e + "")"";Communities.js:89[41:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Communities.js:56[33:40];Sink: respons ... se.body;Communities.js:92[40:82]::FLOW_DESCR_END","/IBMConnections/Communities.js","56","33","56","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Communities.js:101[22:24];Sink: theMsg;Communities.js:60[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:101[22:24];Sink: 'getCom ...  theURL;Communities.js:62[37:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:101[22:24];Sink: theMsg;Communities.js:71[81:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:101[22:24];Sink: 'No ENT ...  theURL;Communities.js:82[49:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:101[22:24];Sink: theMsg;Communities.js:86[43:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:101[22:24];Sink: theMsg;Communities.js:92[85:90]::FLOW_DESCR_END","/IBMConnections/Communities.js","101","22","101","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.email;Communities.js:143[50:58];Sink: 'getCom ...  theURL;Communities.js:62[37:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.email;Communities.js:143[50:58];Sink: 'No ENT ...  theURL;Communities.js:82[49:84]::FLOW_DESCR_END","/IBMConnections/Communities.js","143","50","143","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.email;Communities.js:145[50:58];Sink: 'getCom ...  theURL;Communities.js:62[37:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.email;Communities.js:145[50:58];Sink: 'No ENT ...  theURL;Communities.js:82[49:84]::FLOW_DESCR_END","/IBMConnections/Communities.js","145","50","145","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Communities.js:175[32:39];Sink: ""GET CO ... e + "")"";Communities.js:187[41:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Communities.js:175[32:39];Sink: respons ... se.body;Communities.js:190[40:82]::FLOW_DESCR_END","/IBMConnections/Communities.js","175","32","175","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Communities.js:199[22:24];Sink: theMsg;Communities.js:179[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:199[22:24];Sink: 'getCom ...  theURL;Communities.js:181[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:199[22:24];Sink: theMsg;Communities.js:184[39:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Communities.js:199[22:24];Sink: theMsg;Communities.js:190[85:90]::FLOW_DESCR_END","/IBMConnections/Communities.js","199","22","199","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: ""Postin ... + myURL;EmbeddedExp.js:21[25:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: JSON.st ... myData);EmbeddedExp.js:22[25:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: theMsg;EmbeddedExp.js:41[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: theMsg;EmbeddedExp.js:51[39:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: theMsg;EmbeddedExp.js:56[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: msg;EmbeddedExp.js:130[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: ""error  ... ailAddr;EmbeddedExp.js:159[57:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: msg;EmbeddedExp.js:161[74:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: msg;EmbeddedExp.js:172[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: msg;EmbeddedExp.js:191[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;EmbeddedExp.js:70[14:16];Sink: msg;EmbeddedExp.js:200[105:107]::FLOW_DESCR_END","/IBMConnections/EmbeddedExp.js","70","14","70","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;EmbeddedExp.js:157[53:60];Sink: ""GET OK ... e + "")"";EmbeddedExp.js:164[61:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;EmbeddedExp.js:157[53:60];Sink: ""GET PR ... e + "")"";EmbeddedExp.js:197[61:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;EmbeddedExp.js:157[53:60];Sink: respons ... se.body;EmbeddedExp.js:200[60:102]::FLOW_DESCR_END","/IBMConnections/EmbeddedExp.js","157","53","157","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Profiles.js:18[35:37];Sink: ""error  ... + myURL;Profiles.js:133[37:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:18[35:37];Sink: msg;Profiles.js:135[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:18[35:37];Sink: msg;Profiles.js:143[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:18[35:37];Sink: msg;Profiles.js:148[94:96]::FLOW_DESCR_END","/IBMConnections/Profiles.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Profiles.js:217[32:39];Sink: ""GET OK ... e + "")"";Profiles.js:224[41:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Profiles.js:217[32:39];Sink: ""GET PR ... e + "")"";Profiles.js:246[41:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Profiles.js:217[32:39];Sink: respons ... Message;Profiles.js:249[40:91]::FLOW_DESCR_END","/IBMConnections/Profiles.js","217","32","217","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Profiles.js:267[32:39];Sink: ""GET OK ... e + "")"";Profiles.js:274[41:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Profiles.js:267[32:39];Sink: ""GET PR ... e + "")"";Profiles.js:309[41:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Profiles.js:267[32:39];Sink: respons ... se.body;Profiles.js:312[40:82]::FLOW_DESCR_END","/IBMConnections/Profiles.js","267","32","267","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Profiles.js:329[32:39];Sink: ""GET OK ... e + "")"";Profiles.js:336[41:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Profiles.js:329[32:39];Sink: ""GET PR ... e + "")"";Profiles.js:363[41:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Profiles.js:329[32:39];Sink: respons ... se.body;Profiles.js:366[40:82]::FLOW_DESCR_END","/IBMConnections/Profiles.js","329","32","329","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Profiles.js:390[32:39];Sink: ""GET PR ... e + "")"";Profiles.js:419[41:95]::FLOW_DESCR_END","/IBMConnections/Profiles.js","390","32","390","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:221[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:233[73:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:242[75:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:249[94:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: ""error  ... + error;Profiles.js:269[37:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:271[54:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:283[76:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:301[51:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:305[75:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:312[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: ""error  ... + error;Profiles.js:331[37:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:333[55:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:345[76:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:356[47:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:358[75:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:366[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: theMsg;Profiles.js:424[31:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Profiles.js:442[22:24];Sink: myURL;Profiles.js:531[41:45]::FLOW_DESCR_END","/IBMConnections/Profiles.js","442","22","442","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;Search.js:156[34:41];Sink: ""Simple ... e + "")"";Search.js:167[41:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Search.js:156[34:41];Sink: ""Simple ... e + "")"";Search.js:243[41:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;Search.js:156[34:41];Sink: respons ... se.body;Search.js:250[40:82]::FLOW_DESCR_END","/IBMConnections/Search.js","156","34","156","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theMsg;Search.js:32[58:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: ""error  ... eNumber;Search.js:158[37:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theMsg;Search.js:164[52:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theURL  ... eNumber;Search.js:168[41:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: myData. ... Results;Search.js:208[57:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theMsg;Search.js:218[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theMsg;Search.js:227[55:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theMsg;Search.js:233[79:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: theMsg;Search.js:250[85:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: msg;Search.js:313[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;Search.js:259[23:25];Sink: 'bad co ... Results;Search.js:322[45:88]::FLOW_DESCR_END","/IBMConnections/Search.js","259","23","259","25"

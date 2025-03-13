@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xiaomi-ble.js:52[30:34];Sink: 'Subscr ... + error;xiaomi-ble.js:53[30:56]::FLOW_DESCR_END","/xiaomi-ble.js","52","30","52","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;xiaomi-ble.js:78[48:52];Sink: 'Subscr ... + error;xiaomi-ble.js:79[51:77]::FLOW_DESCR_END","/xiaomi-ble.js","78","48","78","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-ble.js:171[35:37];Sink: msg;xiaomi-ble.js:137[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-ble.js:171[35:37];Sink: 'Device ... s + ']';xiaomi-ble.js:216[18:80]::FLOW_DESCR_END","/xiaomi-ble.js","171","35","171","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;xiaomi-ble.js:198[29:38];Sink: 'Device ... s + ']';xiaomi-ble.js:216[18:80]::FLOW_DESCR_END","/xiaomi-ble.js","198","29","198","38"

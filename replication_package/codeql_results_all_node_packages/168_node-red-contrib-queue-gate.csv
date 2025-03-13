@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;q-gate.js:50[62:66];Sink: 'Invali ... + state;q-gate.js:73[32:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: state;q-gate.js:50[62:66];Sink: [state,queue];q-gate.js:75[43:55]::FLOW_DESCR_END","/q-gate.js","50","62","50","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: [queue];q-gate.js:93[39:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: [queue];q-gate.js:120[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: queue.shift();q-gate.js:130[43:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: [queue];q-gate.js:151[39:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: msg;q-gate.js:178[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: [state,queue];q-gate.js:200[47:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;q-gate.js:82[35:37];Sink: msg;q-gate.js:202[91:93]::FLOW_DESCR_END","/q-gate.js","82","35","82","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;q-gate.js:83[66:70];Sink: 'Invali ... + state;q-gate.js:196[40:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: state;q-gate.js:83[66:70];Sink: [state,queue];q-gate.js:200[47:59]::FLOW_DESCR_END","/q-gate.js","83","66","83","70"

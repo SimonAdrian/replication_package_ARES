@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OpenMeter.js:7[41:43];Sink: meterId;OpenMeter.js:26[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;OpenMeter.js:7[41:43];Sink: ""https: ... meterId;OpenMeter.js:27[47:120]::FLOW_DESCR_END","/OpenMeter.js","7","41","7","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: availMe ... dom())];OpenMeter.js:24[25:83];Sink: meterId;OpenMeter.js:26[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: availMe ... dom())];OpenMeter.js:24[25:83];Sink: ""https: ... meterId;OpenMeter.js:27[47:120]::FLOW_DESCR_END","/OpenMeter.js","24","25","24","83"

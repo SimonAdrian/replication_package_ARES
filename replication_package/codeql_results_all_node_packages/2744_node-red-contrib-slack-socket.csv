@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;slack-listen.js:54[58:62];Sink: error;slack-listen.js:55[20:24]::FLOW_DESCR_END","/nodes/slack-listen.js","54","58","54","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;slack-listen.js:60[36:40];Sink: error;slack-listen.js:61[20:24]::FLOW_DESCR_END","/nodes/slack-listen.js","60","36","60","40"

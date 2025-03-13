@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:66[40:42];Sink: msg;thingsdata-s3.js:70[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:66[40:42];Sink: msg;thingsdata-s3.js:91[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:66[40:42];Sink: msg;thingsdata-s3.js:100[39:41]::FLOW_DESCR_END","/thingsdata-s3.js","66","40","66","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:141[36:38];Sink: msg;thingsdata-s3.js:146[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:141[36:38];Sink: msg;thingsdata-s3.js:158[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","141","36","141","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:181[36:38];Sink: msg;thingsdata-s3.js:193[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:181[36:38];Sink: msg;thingsdata-s3.js:205[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","181","36","181","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:231[36:38];Sink: msg;thingsdata-s3.js:235[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:231[36:38];Sink: msg;thingsdata-s3.js:242[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:231[36:38];Sink: msg;thingsdata-s3.js:254[93:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:231[36:38];Sink: msg;thingsdata-s3.js:266[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","231","36","231","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:318[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:323[78:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:342[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:351[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:357[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:382[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:306[44:46];Sink: msg;thingsdata-s3.js:388[43:45]::FLOW_DESCR_END","/thingsdata-s3.js","306","44","306","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;thingsdata-s3.js:415[36:38];Sink: msg;thingsdata-s3.js:429[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:415[36:38];Sink: msg;thingsdata-s3.js:434[98:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;thingsdata-s3.js:415[36:38];Sink: msg;thingsdata-s3.js:442[27:29]::FLOW_DESCR_END","/thingsdata-s3.js","415","36","415","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n;writer.html:46[47:47];Sink: JSON.stringify(n);writer.html:47[41:57]::FLOW_DESCR_END","/writer.html","46","47","46","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n;writer.html:49[50:50];Sink: JSON.stringify(n);writer.html:50[38:54]::FLOW_DESCR_END","/writer.html","49","50","49","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n;writer.html:52[44:44];Sink: JSON.stringify(n);writer.html:53[36:52]::FLOW_DESCR_END","/writer.html","52","44","52","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;writer.js:190[44:46];Sink: [topic, ... alTime];writer.js:281[102:174]::FLOW_DESCR_END","/writer.js","190","44","190","46"

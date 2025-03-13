@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;complement.js:5[35:37];Sink: msg;complement.js:66[23:25]::FLOW_DESCR_END","/complement.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;isdegenerate.js:6[35:37];Sink: msg;isdegenerate.js:23[23:25]::FLOW_DESCR_END","/isdegenerate.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;reverse.js:5[35:37];Sink: msg;reverse.js:7[23:25]::FLOW_DESCR_END","/reverse.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;seqtype.js:8[35:37];Sink: msg;seqtype.js:59[14:16]::FLOW_DESCR_END","/seqtype.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;subsequence.js:5[35:37];Sink: msg;subsequence.js:7[23:25]::FLOW_DESCR_END","/subsequence.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transcription.js:5[35:37];Sink: msg;transcription.js:16[23:25]::FLOW_DESCR_END","/transcription.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translation.js:5[35:37];Sink: msg;translation.js:38[23:25]::FLOW_DESCR_END","/translation.js","5","35","5","37"

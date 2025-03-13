@@ -1,0 +1,51 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mergedC ... ocation;control-panel.js:4[114:134];Sink: url;control-panel.js:5[36:38]::FLOW_DESCR_END","/src/nodes/control-panel/control-panel.js","4","114","4","134"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload.location;control-panel.js:21[62:77];Sink: error;control-panel.js:88[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload.location;control-panel.js:21[62:77];Sink: e;control-panel.js:91[20:20]::FLOW_DESCR_END","/src/nodes/control-panel/control-panel.js","21","62","21","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mergedC ... ocation;control-panel.js:21[82:102];Sink: error;control-panel.js:88[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: mergedC ... ocation;control-panel.js:21[82:102];Sink: e;control-panel.js:91[20:20]::FLOW_DESCR_END","/src/nodes/control-panel/control-panel.js","21","82","21","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: url;control-panel.js:5[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: `${util ... g._id}`;control-panel.js:14[36:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: body;control-panel.js:29[99:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: body;control-panel.js:42[105:108]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: {\n      ...       };control-panel.js:80[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: error;control-panel.js:88[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: msg;control-panel.js:88[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: e;control-panel.js:91[20:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;control-panel.js:61[29:31];Sink: msg;control-panel.js:91[23:25]::FLOW_DESCR_END","/src/nodes/control-panel/control-panel.js","61","29","61","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event.js:67[29:31];Sink: `${util ... alRef}`;event.js:16[82:161]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:67[29:31];Sink: {\n      ...       };event.js:84[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:67[29:31];Sink: error;event.js:92[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:67[29:31];Sink: msg;event.js:92[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:67[29:31];Sink: e;event.js:95[20:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event.js:67[29:31];Sink: msg;event.js:95[23:25]::FLOW_DESCR_END","/src/nodes/event/event.js","67","29","67","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;generic-request.js:46[31:33];Sink: msg;generic-request.js:59[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generic-request.js:46[31:33];Sink: msg;generic-request.js:211[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generic-request.js:46[31:33];Sink: msg;generic-request.js:215[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generic-request.js:46[31:33];Sink: msg;generic-request.js:264[109:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;generic-request.js:46[31:33];Sink: msg;generic-request.js:264[212:214]::FLOW_DESCR_END","/src/nodes/generic-request/generic-request.js","46","31","46","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;log-entry.js:21[29:31];Sink: {\n      ...       };log-entry.js:26[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-entry.js:21[29:31];Sink: msg;log-entry.js:34[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;log-entry.js:21[29:31];Sink: msg;log-entry.js:37[23:25]::FLOW_DESCR_END","/src/nodes/log-entry/log-entry.js","21","29","21","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;playable.js:77[29:31];Sink: `${util ... alRef}`;playable.js:16[82:164]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playable.js:77[29:31];Sink: {\n      ...       };playable.js:94[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playable.js:77[29:31];Sink: error;playable.js:102[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playable.js:77[29:31];Sink: msg;playable.js:102[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playable.js:77[29:31];Sink: e;playable.js:105[20:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playable.js:77[29:31];Sink: msg;playable.js:105[23:25]::FLOW_DESCR_END","/src/nodes/playable/playable.js","77","29","77","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;schedule.js:44[29:29];Sink: e;schedule.js:45[52:52]::FLOW_DESCR_END","/src/nodes/schedule/schedule.js","44","29","44","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: url;schedule.js:67[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: {\n      ...       };schedule.js:177[21:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: {\n      ...       };schedule.js:187[21:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: error;schedule.js:199[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: msg;schedule.js:199[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: e;schedule.js:202[20:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;schedule.js:166[29:31];Sink: msg;schedule.js:202[23:25]::FLOW_DESCR_END","/src/nodes/schedule/schedule.js","166","29","166","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data[0];variable.js:20[73:88];Sink: url;variable.js:35[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];variable.js:20[73:88];Sink: `${util ... e._id}`;variable.js:92[37:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response.data[0];variable.js:20[73:88];Sink: payload2;variable.js:92[101:108]::FLOW_DESCR_END","/src/nodes/variable/variable.js","20","73","20","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;variable.js:125[29:31];Sink: `${util ... alRef}`;variable.js:19[5:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable.js:125[29:31];Sink: {\n      ...       };variable.js:144[19:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable.js:125[29:31];Sink: error;variable.js:152[22:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable.js:125[29:31];Sink: msg;variable.js:152[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable.js:125[29:31];Sink: e;variable.js:155[20:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;variable.js:125[29:31];Sink: msg;variable.js:155[23:25]::FLOW_DESCR_END","/src/nodes/variable/variable.js","125","29","125","31"

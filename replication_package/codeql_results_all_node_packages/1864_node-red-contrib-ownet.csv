@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.host;ownet.js:21[25:40];Sink: server;ow.js:63[30:35]::FLOW_DESCR_END","/ownet.js","21","25","21","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.port;ownet.js:22[25:40];Sink: port;ow.js:63[24:27]::FLOW_DESCR_END","/ownet.js","22","25","22","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ownet.js:32[36:38];Sink: msg;ownet.js:38[27:29]::FLOW_DESCR_END","/ownet.js","32","36","32","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;ownet.js:33[47:55];Sink: server;ow.js:63[30:35]::FLOW_DESCR_END","/ownet.js","33","47","33","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;ownet.js:33[58:66];Sink: port;ow.js:63[24:27]::FLOW_DESCR_END","/ownet.js","33","58","33","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.host;ownet.js:49[25:40];Sink: server;ow.js:63[30:35]::FLOW_DESCR_END","/ownet.js","49","25","49","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.config.port;ownet.js:50[25:40];Sink: port;ow.js:63[24:27]::FLOW_DESCR_END","/ownet.js","50","25","50","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ownet.js:59[36:38];Sink: path + value;ow.js:73[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ownet.js:59[36:38];Sink: value;ownet.js:62[54:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ownet.js:59[36:38];Sink: msg;ownet.js:69[27:29]::FLOW_DESCR_END","/ownet.js","59","36","59","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;ownet.js:60[47:55];Sink: server;ow.js:63[30:35]::FLOW_DESCR_END","/ownet.js","60","47","60","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;ownet.js:60[58:66];Sink: port;ow.js:63[24:27]::FLOW_DESCR_END","/ownet.js","60","58","60","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.params.host;ownet.js:82[41:55];Sink: server;ow.js:63[30:35]::FLOW_DESCR_END","/ownet.js","82","41","82","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.params.port;ownet.js:82[58:72];Sink: port;ow.js:63[24:27]::FLOW_DESCR_END","/ownet.js","82","58","82","72"

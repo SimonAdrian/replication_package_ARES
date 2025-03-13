@@ -1,0 +1,42 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bucket-create.js:48[41:43];Sink: msg;bucket-create.js:152[22:24]::FLOW_DESCR_END","/nodes/bucket-create.js","48","41","48","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bucket-export.js:163[34:36];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-export.js:163[34:36];Sink: ""sendin ... iption);bucket-export.js:63[22:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-export.js:163[34:36];Sink: JSON.st ... iption);bucket-export.js:64[22:49]::FLOW_DESCR_END","/nodes/bucket-export.js","163","34","163","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: limit > ... : limit;bucket-read.js:52[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: config. ... g.items;bucket-read.js:123[41:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: config. ... egation;bucket-read.js:124[39:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: config. ... on_type;bucket-read.js:125[44:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: config. ... sg.sort;bucket-read.js:126[40:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: msg.tim ... imezone;bucket-read.js:127[39:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: array;bucket-read.js:133[40:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: config. ... g.limit;bucket-read.js:181[45:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bucket-read.js:114[34:36];Sink: msg;bucket-read.js:199[22:24]::FLOW_DESCR_END","/nodes/bucket-read.js","114","34","114","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bucket-write.js:17[35:37];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END","/nodes/bucket-write.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-callback.js:83[40:42];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device-callback.js:83[40:42];Sink: msg;device-callback.js:127[26:28]::FLOW_DESCR_END","/nodes/device-callback.js","83","40","83","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-create.js:16[41:43];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device-create.js:16[41:43];Sink: msg;device-create.js:120[22:24]::FLOW_DESCR_END","/nodes/device-create.js","16","41","16","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server. ... sername;device-create.js:70[55:76];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END","/nodes/device-create.js","70","55","70","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-read.js:18[35:37];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device-read.js:18[35:37];Sink: msg;device-read.js:33[22:24]::FLOW_DESCR_END","/nodes/device-read.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-write.js:17[34:36];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device-write.js:17[34:36];Sink: msg;device-write.js:37[22:24]::FLOW_DESCR_END","/nodes/device-write.js","17","34","17","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;endpoint-call.js:17[34:36];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;endpoint-call.js:17[34:36];Sink: msg;endpoint-call.js:41[24:26]::FLOW_DESCR_END","/nodes/endpoint-call.js","17","34","17","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;property-read.js:18[34:36];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;property-read.js:18[34:36];Sink: msg;property-read.js:36[24:26]::FLOW_DESCR_END","/nodes/property-read.js","18","34","18","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;property-write.js:18[40:42];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;property-write.js:18[40:42];Sink: msg;property-write.js:88[22:24]::FLOW_DESCR_END","/nodes/property-write.js","18","40","18","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;storage-read.js:17[41:43];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;storage-read.js:17[41:43];Sink: msg;storage-read.js:85[22:24]::FLOW_DESCR_END","/nodes/storage-read.js","17","41","17","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;storage-write.js:17[41:43];Sink: template;utils.js:95[42:49]::FLOW_DESCR_END","/nodes/storage-write.js","17","41","17","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;thinger-server.js:45[34:55];Sink: `openin ... ${url}`;thinger-server.js:83[24:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... s.token;thinger-server.js:45[34:55];Sink: ""openin ... "" + url;thinger-server.js:266[22:50]::FLOW_DESCR_END","/nodes/thinger-server.js","45","34","45","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;thinger-server.js:82[62:72];Sink: `openin ... ${url}`;thinger-server.js:83[24:53]::FLOW_DESCR_END","/nodes/thinger-server.js","82","62","82","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;thinger-server.js:82[86:100];Sink: `openin ... ${url}`;thinger-server.js:83[24:53]::FLOW_DESCR_END","/nodes/thinger-server.js","82","86","82","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;thinger-server.js:86[38:38];Sink: e && e. ...  error"";thinger-server.js:87[30:75]::FLOW_DESCR_END","/nodes/thinger-server.js","86","38","86","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;thinger-server.js:264[62:72];Sink: ""openin ... "" + url;thinger-server.js:266[22:50]::FLOW_DESCR_END","/nodes/thinger-server.js","264","62","264","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;thinger-server.js:264[86:100];Sink: ""openin ... "" + url;thinger-server.js:266[22:50]::FLOW_DESCR_END","/nodes/thinger-server.js","264","86","264","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;thinger-server.js:270[38:38];Sink: e;thinger-server.js:272[31:31]::FLOW_DESCR_END","/nodes/thinger-server.js","270","38","270","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;server.js:47[23:29];Sink: request;server.js:53[40:46]::FLOW_DESCR_END","/test/api/server.js","47","23","47","29"

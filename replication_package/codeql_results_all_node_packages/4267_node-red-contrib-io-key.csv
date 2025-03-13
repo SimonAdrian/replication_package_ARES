@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;index.js:340[27:30];Sink: `[info] ...  }s...`;index.js:343[9:14]::FLOW_DESCR_END","/src/utils/RealTimeApi/Websocket/index.js","340","27","340","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reason;index.js:340[33:38];Sink: `[info] ...  }s...`;index.js:343[9:14]::FLOW_DESCR_END","/src/utils/RealTimeApi/Websocket/index.js","340","33","340","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;index.js:351[32:34];Sink: err;index.js:353[19:21]::FLOW_DESCR_END","/src/utils/RealTimeApi/Websocket/index.js","351","32","351","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;index.js:376[30:33];Sink: data;index.js:403[17:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;index.js:376[30:33];Sink: data.to ... utf-8');index.js:404[17:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;index.js:376[30:33];Sink: msgID.trim();index.js:432[19:30]::FLOW_DESCR_END","/src/utils/RealTimeApi/Websocket/index.js","376","30","376","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: next;index.js:116[19:22];Sink: url;index.js:107[14:16]::FLOW_DESCR_END","/src/utils/Devices/index.js","116","19","116","22"

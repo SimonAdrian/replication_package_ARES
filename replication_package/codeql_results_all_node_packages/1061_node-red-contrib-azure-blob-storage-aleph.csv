@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:41[33:35];Sink: msg;azureblobstorage.js:53[22:24]::FLOW_DESCR_END","/azureblobstorage.js","41","33","41","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureblobstorage.js:95[33:35];Sink: msg;azureblobstorage.js:125[22:24]::FLOW_DESCR_END","/azureblobstorage.js","95","33","95","35"

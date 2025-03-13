@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;textbelt.js:14[36:38];Sink: 'Textbe ... (value);textbelt.js:28[27:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;textbelt.js:14[36:38];Sink: 'Textbe ... ' + msg;textbelt.js:31[27:81]::FLOW_DESCR_END","/textbelt.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;textbelt.js:39[26:30];Sink: 'Textbe ... or.code;textbelt.js:72[43:73]::FLOW_DESCR_END","/textbelt.js","39","26","39","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;textbelt.js:39[33:40];Sink: 'Textbe ... sponse);textbelt.js:46[47:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;textbelt.js:39[33:40];Sink: 'Textbe ... message;textbelt.js:48[47:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;textbelt.js:39[33:40];Sink: 'Textbe ... message;textbelt.js:53[43:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: response;textbelt.js:39[33:40];Sink: 'Textbe ... sponse);textbelt.js:57[43:90]::FLOW_DESCR_END","/textbelt.js","39","33","39","40"

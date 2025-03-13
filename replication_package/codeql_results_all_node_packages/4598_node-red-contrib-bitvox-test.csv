@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;bitvox-server.js:12[17:22];Sink: oidcRea ... /token"";bitvox-server.js:33[50:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;bitvox-server.js:12[17:22];Sink: mqttUri;bitvox-server.js:52[54:60]::FLOW_DESCR_END","/nodes/bitvox-server.js","12","17","12","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bitvoxS ... ce.host;bitvox-server.js:22[41:65];Sink: oidcRea ... /token"";bitvox-server.js:33[50:96]::FLOW_DESCR_END","/nodes/bitvox-server.js","22","41","22","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: bitvoxS ... ce.host;bitvox-server.js:23[34:58];Sink: mqttUri;bitvox-server.js:52[54:60]::FLOW_DESCR_END","/nodes/bitvox-server.js","23","34","23","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: accessT ... d_token;bitvox-server.js:40[17:49];Sink: ""[bitvo ... dentity;bitvox-server.js:47[19:103]::FLOW_DESCR_END","/nodes/bitvox-server.js","40","17","40","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bitvox-server.js:63[66:68];Sink: err;bitvox-server.js:64[72:74]::FLOW_DESCR_END","/nodes/bitvox-server.js","63","66","63","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;bitvox-server.js:67[61:63];Sink: err;bitvox-server.js:68[62:64]::FLOW_DESCR_END","/nodes/bitvox-server.js","67","61","67","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notification-out.js:10[34:36];Sink: JSON.st ... cation);notification-out.js:23[11:42]::FLOW_DESCR_END","/nodes/notification-out.js","10","34","10","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpc-request-out.js:16[34:36];Sink: msg;rpc-request-out.js:68[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpc-request-out.js:16[34:36];Sink: data.requestId;rpc-request-out.js:73[15:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpc-request-out.js:16[34:36];Sink: msg;rpc-request-out.js:83[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpc-request-out.js:16[34:36];Sink: mqttRpcRequestTopic;rpc-request-out.js:88[11:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpc-request-out.js:16[34:36];Sink: JSON.st ... equest);rpc-request-out.js:89[11:40]::FLOW_DESCR_END","/nodes/rpc-request-out.js","16","34","16","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rpc-response-out.js:13[34:36];Sink: msg.rpc ... seTopic;rpc-response-out.js:17[11:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rpc-response-out.js:13[34:36];Sink: JSON.st ... sponse);rpc-response-out.js:18[11:41]::FLOW_DESCR_END","/nodes/rpc-response-out.js","13","34","13","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;status-out.js:10[34:36];Sink: JSON.st ... status);status-out.js:23[11:36]::FLOW_DESCR_END","/nodes/status-out.js","10","34","10","36"

@@ -1,0 +1,190 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-enriched-events-search-results.js:12[35:37];Sink: [msg, m ... , null];retrieve-enriched-events-search-results.js:46[35:66]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Enriched Events Search API/retrieve-enriched-events-search-results.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;retrieve-enriched-events-search-results.js:34[32:35];Sink: [msg, m ... , null];retrieve-enriched-events-search-results.js:46[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;retrieve-enriched-events-search-results.js:34[32:35];Sink: [null, null, body];retrieve-enriched-events-search-results.js:48[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;retrieve-enriched-events-search-results.js:34[32:35];Sink: body;retrieve-enriched-events-search-results.js:49[39:42]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Enriched Events Search API/retrieve-enriched-events-search-results.js","34","32","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;retrieve-enriched-events-search-results.js:58[29:33];Sink: [null, null, error];retrieve-enriched-events-search-results.js:59[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;retrieve-enriched-events-search-results.js:58[29:33];Sink: error;retrieve-enriched-events-search-results.js:60[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Enriched Events Search API/retrieve-enriched-events-search-results.js","58","29","58","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;start-enriched-events-search.js:12[35:37];Sink: [msg, null];start-enriched-events-search.js:48[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;start-enriched-events-search.js:12[35:37];Sink: data;start-enriched-events-search.js:69[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Enriched Events Search API/start-enriched-events-search.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start-enriched-events-search.js:36[32:35];Sink: [null, body];start-enriched-events-search.js:50[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;start-enriched-events-search.js:36[32:35];Sink: body;start-enriched-events-search.js:51[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;start-enriched-events-search.js:36[32:35];Sink: data;start-enriched-events-search.js:69[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Enriched Events Search API/start-enriched-events-search.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;start-enriched-events-search.js:60[29:33];Sink: [null, error];start-enriched-events-search.js:61[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;start-enriched-events-search.js:60[29:33];Sink: error;start-enriched-events-search.js:62[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Enriched Events Search API/start-enriched-events-search.js","60","29","60","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;close-session.js:12[35:37];Sink: [msg, null];close-session.js:51[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;close-session.js:12[35:37];Sink: data;close-session.js:72[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/close-session.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;close-session.js:42[32:35];Sink: [null, body];close-session.js:53[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;close-session.js:42[32:35];Sink: body;close-session.js:54[39:42]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/close-session.js","42","32","42","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;close-session.js:63[29:33];Sink: [null, error];close-session.js:64[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;close-session.js:63[29:33];Sink: error;close-session.js:65[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/close-session.js","63","29","63","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-command-status.js:12[35:37];Sink: [msg, null];get-command-status.js:66[39:49]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/get-command-status.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-command-status.js:54[36:39];Sink: [null, body];get-command-status.js:68[39:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-command-status.js:54[36:39];Sink: [null, body];get-command-status.js:69[43:54]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/get-command-status.js","54","36","54","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-command-status.js:78[33:37];Sink: [null, error];get-command-status.js:79[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-command-status.js:78[33:37];Sink: [null, error];get-command-status.js:80[35:47]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/get-command-status.js","78","33","78","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-session-status.js:12[35:37];Sink: [msg, null];get-session-status.js:60[39:49]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/get-session-status.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-session-status.js:48[36:39];Sink: [null, body];get-session-status.js:62[39:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-session-status.js:48[36:39];Sink: body;get-session-status.js:63[43:46]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/get-session-status.js","48","36","48","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-session-status.js:72[33:37];Sink: [null, error];get-session-status.js:73[31:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-session-status.js:72[33:37];Sink: error;get-session-status.js:74[35:39]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/get-session-status.js","72","33","72","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-command.js:12[35:37];Sink: [msg, null];send-command.js:49[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-command.js:12[35:37];Sink: data;send-command.js:70[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/send-command.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;send-command.js:36[32:35];Sink: [null, body];send-command.js:51[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;send-command.js:36[32:35];Sink: body;send-command.js:52[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;send-command.js:36[32:35];Sink: data;send-command.js:70[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/send-command.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;send-command.js:61[29:33];Sink: [null, error];send-command.js:62[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;send-command.js:61[29:33];Sink: error;send-command.js:63[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/send-command.js","61","29","61","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;start-session.js:12[35:37];Sink: [msg, null];start-session.js:59[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;start-session.js:12[35:37];Sink: data;start-session.js:80[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/start-session.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start-session.js:46[32:35];Sink: [null, body];start-session.js:61[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;start-session.js:46[32:35];Sink: body;start-session.js:62[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;start-session.js:46[32:35];Sink: data;start-session.js:80[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/start-session.js","46","32","46","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;start-session.js:71[29:33];Sink: [null, error];start-session.js:72[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;start-session.js:71[29:33];Sink: error;start-session.js:73[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Live Response/start-session.js","71","29","71","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get_policies.js:12[35:37];Sink: [msg, null];get_policies.js:41[35:45]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/REST API/get_policies.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get_policies.js:29[32:35];Sink: [null, body];get_policies.js:43[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get_policies.js:29[32:35];Sink: body;get_policies.js:44[39:42]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/REST API/get_policies.js","29","32","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get_policies.js:53[29:33];Sink: [null, error];get_policies.js:54[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get_policies.js:53[29:33];Sink: error;get_policies.js:55[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/REST API/get_policies.js","53","29","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;configure-reputation-override.js:12[35:37];Sink: [msg, null];configure-reputation-override.js:48[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;configure-reputation-override.js:12[35:37];Sink: data;configure-reputation-override.js:69[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/configure-reputation-override.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;configure-reputation-override.js:36[32:35];Sink: [null, body];configure-reputation-override.js:50[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;configure-reputation-override.js:36[32:35];Sink: body;configure-reputation-override.js:51[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;configure-reputation-override.js:36[32:35];Sink: data;configure-reputation-override.js:69[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/configure-reputation-override.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;configure-reputation-override.js:60[29:33];Sink: [null, error];configure-reputation-override.js:61[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;configure-reputation-override.js:60[29:33];Sink: error;configure-reputation-override.js:62[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/configure-reputation-override.js","60","29","60","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-reputation-override.js:12[35:37];Sink: [msg, null];get-reputation-override.js:46[35:45]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/get-reputation-override.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-reputation-override.js:34[32:35];Sink: [null, body];get-reputation-override.js:48[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-reputation-override.js:34[32:35];Sink: body;get-reputation-override.js:49[39:42]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/get-reputation-override.js","34","32","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-reputation-override.js:58[29:33];Sink: [null, error];get-reputation-override.js:59[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-reputation-override.js:58[29:33];Sink: error;get-reputation-override.js:60[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/get-reputation-override.js","58","29","58","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search-reputation-override.js:12[35:37];Sink: [msg, null];search-reputation-override.js:48[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search-reputation-override.js:12[35:37];Sink: data;search-reputation-override.js:69[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/search-reputation-override.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;search-reputation-override.js:36[32:35];Sink: [null, body];search-reputation-override.js:50[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;search-reputation-override.js:36[32:35];Sink: body;search-reputation-override.js:51[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;search-reputation-override.js:36[32:35];Sink: data;search-reputation-override.js:69[23:26]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/search-reputation-override.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;search-reputation-override.js:60[29:33];Sink: [null, error];search-reputation-override.js:61[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;search-reputation-override.js:60[29:33];Sink: error;search-reputation-override.js:62[31:35]::FLOW_DESCR_END","/APIs/Endpoint Standard APIs/Reputation Override API/search-reputation-override.js","60","29","60","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-new-private-feed.js:12[35:37];Sink: [msg, null];create-new-private-feed.js:43[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-new-private-feed.js:12[35:37];Sink: data;create-new-private-feed.js:64[23:26]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/create-new-private-feed.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;create-new-private-feed.js:31[32:35];Sink: [null, body];create-new-private-feed.js:45[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;create-new-private-feed.js:31[32:35];Sink: body;create-new-private-feed.js:46[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;create-new-private-feed.js:31[32:35];Sink: data;create-new-private-feed.js:64[23:26]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/create-new-private-feed.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;create-new-private-feed.js:55[29:33];Sink: [null, error];create-new-private-feed.js:56[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;create-new-private-feed.js:55[29:33];Sink: error;create-new-private-feed.js:57[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/create-new-private-feed.js","55","29","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-feed.js:12[35:37];Sink: [msg, null];delete-feed.js:40[35:45]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/delete-feed.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;delete-feed.js:31[32:35];Sink: [null, body];delete-feed.js:42[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;delete-feed.js:31[32:35];Sink: body;delete-feed.js:43[39:42]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/delete-feed.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;delete-feed.js:52[29:33];Sink: [null, error];delete-feed.js:53[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;delete-feed.js:52[29:33];Sink: error;delete-feed.js:54[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/delete-feed.js","52","29","52","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-all-feeds.js:12[35:37];Sink: [msg, m ... , null];get-all-feeds.js:41[35:66]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-all-feeds.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-all-feeds.js:29[32:35];Sink: [msg, m ... , null];get-all-feeds.js:41[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-all-feeds.js:29[32:35];Sink: [null, null, body];get-all-feeds.js:43[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-all-feeds.js:29[32:35];Sink: body;get-all-feeds.js:44[39:42]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-all-feeds.js","29","32","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-all-feeds.js:53[29:33];Sink: [null, null, error];get-all-feeds.js:54[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-all-feeds.js:53[29:33];Sink: error;get-all-feeds.js:55[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-all-feeds.js","53","29","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-reports.js:12[35:37];Sink: [msg, m ... , null];get-reports.js:43[35:66]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-reports.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-reports.js:31[32:35];Sink: [msg, m ... , null];get-reports.js:43[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-reports.js:31[32:35];Sink: [null, null, body];get-reports.js:45[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-reports.js:31[32:35];Sink: body;get-reports.js:46[39:42]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-reports.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-reports.js:55[29:33];Sink: [null, null, error];get-reports.js:56[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-reports.js:55[29:33];Sink: error;get-reports.js:57[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-reports.js","55","29","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-specific-feed.js:12[35:37];Sink: [msg, null];get-specific-feed.js:56[35:45]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-specific-feed.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-specific-feed.js:44[32:35];Sink: [null, body];get-specific-feed.js:58[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-specific-feed.js:44[32:35];Sink: body;get-specific-feed.js:59[39:42]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-specific-feed.js","44","32","44","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-specific-feed.js:68[29:33];Sink: [null, error];get-specific-feed.js:69[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-specific-feed.js:68[29:33];Sink: error;get-specific-feed.js:70[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/get-specific-feed.js","68","29","68","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;replace-reports.js:12[35:37];Sink: [msg, null];replace-reports.js:43[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;replace-reports.js:12[35:37];Sink: data;replace-reports.js:64[23:26]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/replace-reports.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;replace-reports.js:31[32:35];Sink: [null, body];replace-reports.js:45[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;replace-reports.js:31[32:35];Sink: body;replace-reports.js:46[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;replace-reports.js:31[32:35];Sink: data;replace-reports.js:64[23:26]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/replace-reports.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;replace-reports.js:55[29:33];Sink: [null, error];replace-reports.js:56[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;replace-reports.js:55[29:33];Sink: error;replace-reports.js:57[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Feed Manager API/replace-reports.js","55","29","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;download-file.js:12[35:37];Sink: [msg, null];download-file.js:46[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;download-file.js:12[35:37];Sink: data;download-file.js:67[23:26]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/download-file.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;download-file.js:34[32:35];Sink: [null, body];download-file.js:48[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;download-file.js:34[32:35];Sink: body;download-file.js:49[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;download-file.js:34[32:35];Sink: data;download-file.js:67[23:26]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/download-file.js","34","32","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;download-file.js:58[29:33];Sink: [null, error];download-file.js:59[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;download-file.js:58[29:33];Sink: error;download-file.js:60[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/download-file.js","58","29","58","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;request-signature.js:12[35:37];Sink: [msg, null];request-signature.js:41[35:45]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/request-signature.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;request-signature.js:29[32:35];Sink: [null, body];request-signature.js:43[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;request-signature.js:29[32:35];Sink: body;request-signature.js:44[39:42]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/request-signature.js","29","32","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;request-signature.js:53[29:33];Sink: [null, error];request-signature.js:54[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;request-signature.js:53[29:33];Sink: error;request-signature.js:55[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/request-signature.js","53","29","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-metadata.js:12[35:37];Sink: [msg, null];retrieve-metadata.js:41[35:45]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/retrieve-metadata.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;retrieve-metadata.js:29[32:35];Sink: [null, body];retrieve-metadata.js:43[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;retrieve-metadata.js:29[32:35];Sink: body;retrieve-metadata.js:44[39:42]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/retrieve-metadata.js","29","32","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;retrieve-metadata.js:53[29:33];Sink: [null, error];retrieve-metadata.js:54[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;retrieve-metadata.js:53[29:33];Sink: error;retrieve-metadata.js:55[31:35]::FLOW_DESCR_END","/APIs/Enterprise EDR APIs/Universal Binary Store/retrieve-metadata.js","53","29","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alert-search.js:12[35:37];Sink: [msg, m ... , null];alert-search.js:53[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alert-search.js:12[35:37];Sink: data;alert-search.js:74[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/alert-search.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;alert-search.js:36[32:35];Sink: [msg, m ... , null];alert-search.js:53[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;alert-search.js:36[32:35];Sink: [null, null, body];alert-search.js:55[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;alert-search.js:36[32:35];Sink: body;alert-search.js:56[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;alert-search.js:36[32:35];Sink: data;alert-search.js:74[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/alert-search.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;alert-search.js:65[29:33];Sink: [null, null, error];alert-search.js:66[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;alert-search.js:65[29:33];Sink: error;alert-search.js:67[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/alert-search.js","65","29","65","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-note.js:12[35:37];Sink: [msg, null];create-note.js:43[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create-note.js:12[35:37];Sink: data;create-note.js:64[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/create-note.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;create-note.js:31[32:35];Sink: [null, body];create-note.js:45[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;create-note.js:31[32:35];Sink: body;create-note.js:46[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;create-note.js:31[32:35];Sink: data;create-note.js:64[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/create-note.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;create-note.js:55[29:33];Sink: [null, error];create-note.js:56[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;create-note.js:55[29:33];Sink: error;create-note.js:57[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/create-note.js","55","29","55","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete-note.js:12[35:37];Sink: [msg, null];delete-note.js:40[35:45]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/delete-note.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;delete-note.js:31[32:35];Sink: [null, body];delete-note.js:42[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;delete-note.js:31[32:35];Sink: [null, body];delete-note.js:43[39:50]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/delete-note.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;delete-note.js:52[29:33];Sink: [null, error];delete-note.js:53[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;delete-note.js:52[29:33];Sink: [null, error];delete-note.js:54[31:43]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/delete-note.js","52","29","52","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-alert-by-id.js:12[35:37];Sink: [msg, null];get-alert-by-id.js:41[35:45]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/get-alert-by-id.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-alert-by-id.js:29[32:35];Sink: [null, body];get-alert-by-id.js:43[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-alert-by-id.js:29[32:35];Sink: [null, body];get-alert-by-id.js:44[39:50]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/get-alert-by-id.js","29","32","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-alert-by-id.js:53[29:33];Sink: [null, error];get-alert-by-id.js:54[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-alert-by-id.js:53[29:33];Sink: [null, error];get-alert-by-id.js:55[31:43]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/get-alert-by-id.js","53","29","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-notes.js:12[35:37];Sink: msg;get-notes.js:38[35:37]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/get-notes.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: d;get-notes.js:27[32:32];Sink: body;get-notes.js:40[35:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: d;get-notes.js:27[32:32];Sink: body;get-notes.js:41[39:42]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/get-notes.js","27","32","27","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-notes.js:50[29:33];Sink: error;get-notes.js:51[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-notes.js:50[29:33];Sink: error;get-notes.js:52[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Alerts API/get-notes.js","50","29","50","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-actions.js:12[35:37];Sink: [msg, null];device-actions.js:46[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device-actions.js:12[35:37];Sink: data;device-actions.js:67[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Devices API/device-actions.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;device-actions.js:36[32:35];Sink: [null, body];device-actions.js:48[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;device-actions.js:36[32:35];Sink: body;device-actions.js:53[39:42]::FLOW_DESCR_END","/APIs/Platform APIs/Devices API/device-actions.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;device-actions.js:58[29:33];Sink: [null, error];device-actions.js:59[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;device-actions.js:58[29:33];Sink: error;device-actions.js:60[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Devices API/device-actions.js","58","29","58","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search-devices.js:12[35:37];Sink: [msg, m ... , null];search-devices.js:45[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;search-devices.js:12[35:37];Sink: data;search-devices.js:66[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Devices API/search-devices.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;search-devices.js:33[32:35];Sink: [msg, m ... , null];search-devices.js:45[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;search-devices.js:33[32:35];Sink: [null, null, body];search-devices.js:47[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;search-devices.js:33[32:35];Sink: body;search-devices.js:48[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;search-devices.js:33[32:35];Sink: data;search-devices.js:66[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Devices API/search-devices.js","33","32","33","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;search-devices.js:57[29:33];Sink: [null, null, error];search-devices.js:58[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;search-devices.js:57[29:33];Sink: error;search-devices.js:59[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Devices API/search-devices.js","57","29","57","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-events-for-process.js:12[35:37];Sink: [msg, m ... , null];get-events-for-process.js:48[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-events-for-process.js:12[35:37];Sink: data;get-events-for-process.js:69[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Events/get-events-for-process.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-events-for-process.js:36[32:35];Sink: [msg, m ... , null];get-events-for-process.js:48[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-events-for-process.js:36[32:35];Sink: [null, null, body];get-events-for-process.js:50[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-events-for-process.js:36[32:35];Sink: body;get-events-for-process.js:51[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-events-for-process.js:36[32:35];Sink: data;get-events-for-process.js:69[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Events/get-events-for-process.js","36","32","36","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-events-for-process.js:60[29:33];Sink: [null, null, error];get-events-for-process.js:61[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-events-for-process.js:60[29:33];Sink: error;get-events-for-process.js:62[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Events/get-events-for-process.js","60","29","60","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-time-limits.js:12[35:37];Sink: [msg, null];get-time-limits.js:41[35:45]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/get-time-limits.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;get-time-limits.js:29[32:35];Sink: [null, body];get-time-limits.js:43[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;get-time-limits.js:29[32:35];Sink: [null, body];get-time-limits.js:44[39:50]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/get-time-limits.js","29","32","29","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;get-time-limits.js:53[29:33];Sink: [null, error];get-time-limits.js:54[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;get-time-limits.js:53[29:33];Sink: [null, error];get-time-limits.js:55[31:43]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/get-time-limits.js","53","29","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve-process-search-results.js:12[35:37];Sink: [msg, m ... , null];retrieve-process-search-results.js:46[35:66]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/retrieve-process-search-results.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;retrieve-process-search-results.js:34[32:35];Sink: [msg, m ... , null];retrieve-process-search-results.js:46[35:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;retrieve-process-search-results.js:34[32:35];Sink: [null, null, body];retrieve-process-search-results.js:48[35:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;retrieve-process-search-results.js:34[32:35];Sink: body;retrieve-process-search-results.js:49[39:42]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/retrieve-process-search-results.js","34","32","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;retrieve-process-search-results.js:58[29:33];Sink: [null, null, error];retrieve-process-search-results.js:59[27:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;retrieve-process-search-results.js:58[29:33];Sink: error;retrieve-process-search-results.js:60[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/retrieve-process-search-results.js","58","29","58","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;start-process-search.js:12[35:37];Sink: [msg, null];start-process-search.js:44[35:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;start-process-search.js:12[35:37];Sink: data;start-process-search.js:65[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/start-process-search.js","12","35","12","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;start-process-search.js:31[32:35];Sink: [null, body];start-process-search.js:46[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;start-process-search.js:31[32:35];Sink: body;start-process-search.js:47[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;start-process-search.js:31[32:35];Sink: data;start-process-search.js:65[23:26]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/start-process-search.js","31","32","31","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;start-process-search.js:56[29:33];Sink: [null, error];start-process-search.js:57[27:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;start-process-search.js:56[29:33];Sink: error;start-process-search.js:58[31:35]::FLOW_DESCR_END","/APIs/Platform APIs/Process Search API/Calls for Processes/start-process-search.js","56","29","56","33"

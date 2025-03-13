@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-tcp-ping.js:11[32:34];Sink: msg;node-red-tcp-ping.js:55[19:21]::FLOW_DESCR_END","/node-red-tcp-ping.js","11","32","11","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-tcp-ping.js:32[31:33];Sink: err;node-red-tcp-ping.js:38[32:34]::FLOW_DESCR_END","/node-red-tcp-ping.js","32","31","32","33"

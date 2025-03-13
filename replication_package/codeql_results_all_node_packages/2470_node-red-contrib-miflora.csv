@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;miflora.js:20[36:38];Sink: msg;miflora.js:64[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;miflora.js:20[36:38];Sink: msg;miflora.js:74[51:53]::FLOW_DESCR_END","/nodes/miflora.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;miflora.js:38[44:53];Sink: peripheral.address;miflora.js:41[33:50]::FLOW_DESCR_END","/nodes/miflora.js","38","44","38","53"

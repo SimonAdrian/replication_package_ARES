@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();discord.botUser.js:24[30:40];Sink: y;discord.botUser.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.botUser.js:24[30:40];Sink: y;discord.botUser.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.botUser.js:24[30:40];Sink: op[1];discord.botUser.js:18[147:151]::FLOW_DESCR_END","/dist/discord.botUser.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord.botUser.js:65[36:38];Sink: msg;discord.botUser.js:69[31:33]::FLOW_DESCR_END","/dist/discord.botUser.js","65","36","65","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;discord.inject.js:31[48:51];Sink: done;discord.inject.js:32[81:84]::FLOW_DESCR_END","/dist/discord.inject.js","31","48","31","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();discord.memberRole.js:24[30:40];Sink: y;discord.memberRole.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.memberRole.js:24[30:40];Sink: y;discord.memberRole.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.memberRole.js:24[30:40];Sink: op[1];discord.memberRole.js:18[147:151]::FLOW_DESCR_END","/dist/discord.memberRole.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord.memberRole.js:53[36:38];Sink: msg;discord.memberRole.js:88[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discord.memberRole.js:53[36:38];Sink: msg;discord.memberRole.js:93[35:37]::FLOW_DESCR_END","/dist/discord.memberRole.js","53","36","53","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();discord.send.js:24[30:40];Sink: y;discord.send.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.send.js:24[30:40];Sink: y;discord.send.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.send.js:24[30:40];Sink: op[1];discord.send.js:18[147:151]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();discord.send.js:24[30:40];Sink: msg.payload;discord.send.js:66[59:69]::FLOW_DESCR_END","/dist/discord.send.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord.send.js:50[36:38];Sink: msg.payload;discord.send.js:66[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discord.send.js:50[36:38];Sink: msg;discord.send.js:70[35:37]::FLOW_DESCR_END","/dist/discord.send.js","50","36","50","38"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;oscServer.js:29[44:52];Sink: `OSC li ... .port}`;oscServer.js:29[19:54]::FLOW_DESCR_END","/util/oscServer.js","29","44","29","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: oscMessage;oscServer.js:32[31:40];Sink: `OSC me ... value}`;oscServer.js:35[19:61]::FLOW_DESCR_END","/util/oscServer.js","32","31","32","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;oscServer.js:44[29:31];Sink: err;oscServer.js:45[39:41]::FLOW_DESCR_END","/util/oscServer.js","44","29","44","31"

@@ -1,0 +1,193 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');generate-docs.js:159[28:90];Sink: nodeSource;generate-docs.js:210[67:76]::FLOW_DESCR_END","/bin/generate-docs.js","159","28","159","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');generate-docs.js:162[26:85];Sink: nodeSource;generate-docs.js:210[67:76]::FLOW_DESCR_END","/bin/generate-docs.js","162","26","162","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');generate-docs.js:227[21:80];Sink: changelog;generate-docs.js:228[54:62]::FLOW_DESCR_END","/bin/generate-docs.js","227","21","227","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:76];Sink: lcd.warn(content);node-installer.js:24[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:76];Sink: content;node-installer.js:24[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:76];Sink: lcd.warn(json);node-installer.js:33[21:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');node-installer.js:12[15:76];Sink: json;node-installer.js:33[30:33]::FLOW_DESCR_END","/lib/node-installer.js","12","15","12","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;redis.store.js:18[34:36];Sink: err;redis.store.js:19[19:21]::FLOW_DESCR_END","/lib/redis.store.js","18","34","18","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;redis.store.js:29[36:38];Sink: err;redis.store.js:29[55:57]::FLOW_DESCR_END","/lib/redis.store.js","29","36","29","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;sender-factory.js:133[40:44];Sink: error;sender-factory.js:134[22:26]::FLOW_DESCR_END","/lib/sender-factory.js","133","40","133","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;sender-factory.js:136[42:48];Sink: warning;sender-factory.js:137[21:27]::FLOW_DESCR_END","/lib/sender-factory.js","136","42","136","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;sender-factory.js:192[43:49];Sink: message;sender-factory.js:204[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;sender-factory.js:192[43:49];Sink: message;sender-factory.js:208[27:33]::FLOW_DESCR_END","/lib/sender-factory.js","192","43","192","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sender-factory.js:257[28:30];Sink: msg;sender-factory.js:258[17:19]::FLOW_DESCR_END","/lib/sender-factory.js","257","28","257","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;sender-factory.js:267[37:43];Sink: message;sender-factory.js:270[69:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;sender-factory.js:267[37:43];Sink: message;sender-factory.js:287[30:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;sender-factory.js:267[37:43];Sink: message;sender-factory.js:290[16:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;sender-factory.js:267[37:43];Sink: node.pa ... error };sender-factory.js:296[16:119]::FLOW_DESCR_END","/lib/sender-factory.js","267","37","267","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-alexa-card.js:25[31:33];Sink: error;chatbot-alexa-card.js:28[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-alexa-card.js:25[31:33];Sink: msg;chatbot-alexa-card.js:28[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-alexa-card.js:25[31:33];Sink: msg;chatbot-alexa-card.js:81[16:18]::FLOW_DESCR_END","/nodes/chatbot-alexa-card.js","25","31","25","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-alexa-directive.js:21[31:33];Sink: error;chatbot-alexa-directive.js:24[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-alexa-directive.js:21[31:33];Sink: msg;chatbot-alexa-directive.js:24[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-alexa-directive.js:21[31:33];Sink: msg;chatbot-alexa-directive.js:59[16:18]::FLOW_DESCR_END","/nodes/chatbot-alexa-directive.js","21","31","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-alexa-receive.js:135[40:44];Sink: error;chatbot-alexa-receive.js:136[22:26]::FLOW_DESCR_END","/nodes/chatbot-alexa-receive.js","135","40","135","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-alexa-receive.js:138[42:48];Sink: warning;chatbot-alexa-receive.js:139[21:27]::FLOW_DESCR_END","/nodes/chatbot-alexa-receive.js","138","42","138","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-alexa-receive.js:187[43:49];Sink: message;chatbot-alexa-receive.js:199[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-alexa-receive.js:187[43:49];Sink: message;chatbot-alexa-receive.js:203[27:33]::FLOW_DESCR_END","/nodes/chatbot-alexa-receive.js","187","43","187","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-alexa-receive.js:249[28:30];Sink: msg;chatbot-alexa-receive.js:250[17:19]::FLOW_DESCR_END","/nodes/chatbot-alexa-receive.js","249","28","249","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-alexa-receive.js:259[32:38];Sink: message;chatbot-alexa-receive.js:274[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-alexa-receive.js:259[32:38];Sink: message;chatbot-alexa-receive.js:278[21:27]::FLOW_DESCR_END","/nodes/chatbot-alexa-receive.js","259","32","259","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-alexa-speech.js:35[31:33];Sink: error;chatbot-alexa-speech.js:38[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-alexa-speech.js:35[31:33];Sink: msg;chatbot-alexa-speech.js:38[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-alexa-speech.js:35[31:33];Sink: msg;chatbot-alexa-speech.js:77[16:18]::FLOW_DESCR_END","/nodes/chatbot-alexa-speech.js","35","31","35","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-analytics.js:15[31:33];Sink: msg;chatbot-analytics.js:42[23:25]::FLOW_DESCR_END","/nodes/chatbot-analytics.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-animation.js:28[31:33];Sink: {\r\n     ...       };chatbot-animation.js:82[27:17]::FLOW_DESCR_END","/nodes/chatbot-animation.js","28","31","28","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-ask.js:18[31:33];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-ask.js:18[31:33];Sink: msg;chatbot-ask.js:41[21:23]::FLOW_DESCR_END","/nodes/chatbot-ask.js","18","31","18","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-audio.js:28[31:33];Sink: {\r\n     ...       };chatbot-audio.js:83[27:17]::FLOW_DESCR_END","/nodes/chatbot-audio.js","28","31","28","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-authorized.js:12[31:33];Sink: [msg, null];chatbot-authorized.js:18[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-authorized.js:12[31:33];Sink: [null, msg];chatbot-authorized.js:20[23:33]::FLOW_DESCR_END","/nodes/chatbot-authorized.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-broadcast.js:38[31:33];Sink: msg;chatbot-broadcast.js:64[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-broadcast.js:38[31:33];Sink: msg;chatbot-broadcast.js:81[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-broadcast.js:38[31:33];Sink: msg;chatbot-broadcast.js:98[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-broadcast.js:38[31:33];Sink: msg;chatbot-broadcast.js:109[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-broadcast.js:38[31:33];Sink: msg;chatbot-broadcast.js:119[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-broadcast.js:38[31:33];Sink: msg;chatbot-broadcast.js:129[27:29]::FLOW_DESCR_END","/nodes/chatbot-broadcast.js","38","31","38","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-command.js:12[31:33];Sink: commands[idx];chatbot-command.js:34[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-command.js:12[31:33];Sink: msg;chatbot-command.js:38[21:23]::FLOW_DESCR_END","/nodes/chatbot-command.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: msg;chatbot-context.js:21[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: variables;chatbot-context.js:41[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: fieldName;chatbot-context.js:43[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: msg;chatbot-context.js:46[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: fieldName;chatbot-context.js:55[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: fieldName;chatbot-context.js:58[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: fieldName;chatbot-context.js:61[41:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: fieldName;chatbot-context.js:65[43:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-context.js:18[31:33];Sink: msg;chatbot-context.js:75[14:16]::FLOW_DESCR_END","/nodes/chatbot-context.js","18","31","18","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-conversation.js:26[37:39];Sink: msg;chatbot-conversation.js:29[69:71]::FLOW_DESCR_END","/nodes/chatbot-conversation.js","26","37","26","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-debug.js:15[31:33];Sink: options.color(obj);lcd.js:109[19:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-debug.js:15[31:33];Sink: prettyj ... y(obj));lcd.js:112[19:54]::FLOW_DESCR_END","/nodes/chatbot-debug.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-dialog.js:17[31:33];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-dialog.js:17[31:33];Sink: msg;chatbot-dialog.js:39[17:19]::FLOW_DESCR_END","/nodes/chatbot-dialog.js","17","31","17","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-dialogflow.js:49[32:34];Sink: [null, msg];chatbot-dialogflow.js:70[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-dialogflow.js:49[32:34];Sink: [null, msg];chatbot-dialogflow.js:134[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-dialogflow.js:49[32:34];Sink: variable;chatbot-dialogflow.js:138[64:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-dialogflow.js:49[32:34];Sink: [msg, null];chatbot-dialogflow.js:152[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-dialogflow.js:49[32:34];Sink: msg;chatbot-dialogflow.js:156[31:33]::FLOW_DESCR_END","/nodes/chatbot-dialogflow.js","49","32","49","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-document.js:31[31:33];Sink: { ...ms ... yload };utils.js:482[12:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-document.js:31[31:33];Sink: msg;chatbot-document.js:34[69:71]::FLOW_DESCR_END","/nodes/chatbot-document.js","31","31","31","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-generic-template.js:29[37:39];Sink: error;chatbot-generic-template.js:32[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-generic-template.js:29[37:39];Sink: msg;chatbot-generic-template.js:32[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-generic-template.js:29[37:39];Sink: {\r\n     ...       };chatbot-generic-template.js:70[12:7]::FLOW_DESCR_END","/nodes/chatbot-generic-template.js","29","37","29","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-image.js:29[31:33];Sink: { ...ms ... yload };utils.js:482[12:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-image.js:29[31:33];Sink: error;chatbot-image.js:32[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-image.js:29[31:33];Sink: msg;chatbot-image.js:32[69:71]::FLOW_DESCR_END","/nodes/chatbot-image.js","29","31","29","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-inline-buttons.js:28[31:33];Sink: { ...ms ... yload };utils.js:482[12:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-inline-buttons.js:28[31:33];Sink: msg;chatbot-inline-buttons.js:31[69:71]::FLOW_DESCR_END","/nodes/chatbot-inline-buttons.js","28","31","28","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-inline-query.js:21[31:33];Sink: msg;chatbot-inline-query.js:40[17:19]::FLOW_DESCR_END","/nodes/chatbot-inline-query.js","21","31","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-invoice-shipping.js:16[31:33];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-invoice-shipping.js:16[31:33];Sink: msg;chatbot-invoice-shipping.js:37[21:23]::FLOW_DESCR_END","/nodes/chatbot-invoice-shipping.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-invoice.js:31[22:24];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-invoice.js:31[22:24];Sink: msg;chatbot-invoice.js:94[21:23]::FLOW_DESCR_END","/nodes/chatbot-invoice.js","31","22","31","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-language.js:15[37:39];Sink: msg;chatbot-language.js:18[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-language.js:15[37:39];Sink: msg;chatbot-language.js:28[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-language.js:15[37:39];Sink: msg;chatbot-language.js:40[17:19]::FLOW_DESCR_END","/nodes/chatbot-language.js","15","37","15","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-list-template.js:29[37:39];Sink: error;chatbot-list-template.js:32[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-list-template.js:29[37:39];Sink: msg;chatbot-list-template.js:32[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-list-template.js:29[37:39];Sink: {\r\n     ...       };chatbot-list-template.js:79[17:7]::FLOW_DESCR_END","/nodes/chatbot-list-template.js","29","37","29","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-listen-lexicon.js:16[31:33];Sink: msg;chatbot-listen-lexicon.js:35[17:19]::FLOW_DESCR_END","/nodes/chatbot-listen-lexicon.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-listen.js:23[31:33];Sink: white(str);npl-matcher.js:536[38:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-listen.js:23[31:33];Sink: output;chatbot-listen.js:96[19:24]::FLOW_DESCR_END","/nodes/chatbot-listen.js","23","31","23","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-location.js:16[31:33];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-location.js:16[31:33];Sink: [msg, null];chatbot-location.js:46[17:27]::FLOW_DESCR_END","/nodes/chatbot-location.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-log.js:14[31:33];Sink: lcd.war ...  logs');chat-log.js:74[25:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-log.js:14[31:33];Sink: 'Un-han ... n logs';chat-log.js:74[34:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-log.js:14[31:33];Sink: msg;chatbot-log.js:29[21:23]::FLOW_DESCR_END","/nodes/chatbot-log.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-message.js:31[37:39];Sink: { ...ms ... yload };utils.js:482[12:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-message.js:31[37:39];Sink: error;chatbot-message.js:34[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-message.js:31[37:39];Sink: msg;chatbot-message.js:34[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-message.js:31[37:39];Sink: msg;chatbot-message.js:76[16:18]::FLOW_DESCR_END","/nodes/chatbot-message.js","31","37","31","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-messenger-menu.js:16[31:33];Sink: msg;chatbot-messenger-menu.js:34[17:19]::FLOW_DESCR_END","/nodes/chatbot-messenger-menu.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-msteams-receive.js:145[40:44];Sink: error;chatbot-msteams-receive.js:146[22:26]::FLOW_DESCR_END","/nodes/chatbot-msteams-receive.js","145","40","145","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-msteams-receive.js:148[42:48];Sink: warning;chatbot-msteams-receive.js:149[21:27]::FLOW_DESCR_END","/nodes/chatbot-msteams-receive.js","148","42","148","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-msteams-receive.js:206[43:49];Sink: message;chatbot-msteams-receive.js:218[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-msteams-receive.js:206[43:49];Sink: message;chatbot-msteams-receive.js:222[27:33]::FLOW_DESCR_END","/nodes/chatbot-msteams-receive.js","206","43","206","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-msteams-receive.js:268[28:30];Sink: msg;chatbot-msteams-receive.js:269[17:19]::FLOW_DESCR_END","/nodes/chatbot-msteams-receive.js","268","28","268","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-msteams-receive.js:278[32:38];Sink: message;chatbot-msteams-receive.js:293[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-msteams-receive.js:278[32:38];Sink: message;chatbot-msteams-receive.js:297[21:27]::FLOW_DESCR_END","/nodes/chatbot-msteams-receive.js","278","32","278","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-nlp-entity.js:16[31:33];Sink: msg;chatbot-nlp-entity.js:19[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-entity.js:16[31:33];Sink: msg;chatbot-nlp-entity.js:46[17:19]::FLOW_DESCR_END","/nodes/chatbot-nlp-entity.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-nlp-intent.js:16[31:33];Sink: msg;chatbot-nlp-intent.js:20[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-intent.js:16[31:33];Sink: msg;chatbot-nlp-intent.js:45[17:19]::FLOW_DESCR_END","/nodes/chatbot-nlp-intent.js","16","31","16","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-nlp-load.js:15[31:33];Sink: msg;chatbot-nlp-load.js:19[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-load.js:15[31:33];Sink: 'nlp_'  ... fault');chatbot-nlp-load.js:34[20:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-load.js:15[31:33];Sink: { ...ms ... nager };chatbot-nlp-load.js:36[14:41]::FLOW_DESCR_END","/nodes/chatbot-nlp-load.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-nlp-save.js:14[31:33];Sink: msg;chatbot-nlp-save.js:17[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-save.js:14[31:33];Sink: filename;chatbot-nlp-save.js:24[22:29]::FLOW_DESCR_END","/nodes/chatbot-nlp-save.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-nlp-train.js:18[37:39];Sink: msg;chatbot-nlp-train.js:21[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-train.js:18[37:39];Sink: lcd.whi ... n(name);chatbot-nlp-train.js:46[21:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-train.js:18[37:39];Sink: '  Inte ... erance);chatbot-nlp-train.js:56[29:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-train.js:18[37:39];Sink: '  Enti ... ',')})`;chatbot-nlp-train.js:72[19:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-train.js:18[37:39];Sink: 'nlp_'  ... fault');chatbot-nlp-train.js:85[18:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp-train.js:18[37:39];Sink: {...msg ... nager };chatbot-nlp-train.js:87[12:38]::FLOW_DESCR_END","/nodes/chatbot-nlp-train.js","18","37","18","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-nlp.js:22[37:39];Sink: msg;chatbot-nlp.js:25[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp.js:22[37:39];Sink: {\r\n     ...       };chatbot-nlp.js:32[14:9]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp.js:22[37:39];Sink: 'nlp_'  ... fault');chatbot-nlp.js:65[34:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp.js:22[37:39];Sink: lcd.whi ... n(name);chatbot-nlp.js:93[21:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp.js:22[37:39];Sink: '  Inpu ... age})`);chatbot-nlp.js:95[21:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-nlp.js:22[37:39];Sink: {\r\n     ...       };chatbot-nlp.js:125[12:7]::FLOW_DESCR_END","/nodes/chatbot-nlp.js","22","37","22","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-params.js:17[31:33];Sink: msg;chatbot-params.js:20[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-params.js:17[31:33];Sink: { \r\n    ...       };chatbot-params.js:33[16:11]::FLOW_DESCR_END","/nodes/chatbot-params.js","17","31","17","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-parse.js:27[31:33];Sink: parsedValue;chatbot-parse.js:120[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-parse.js:27[31:33];Sink: [msg, null];chatbot-parse.js:123[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-parse.js:27[31:33];Sink: [null, msg];chatbot-parse.js:125[19:29]::FLOW_DESCR_END","/nodes/chatbot-parse.js","27","31","27","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-pop-message.js:10[31:33];Sink: msg;chatbot-pop-message.js:13[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-pop-message.js:10[31:33];Sink: { \r\n    ...       };chatbot-pop-message.js:15[12:7]::FLOW_DESCR_END","/nodes/chatbot-pop-message.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-qrcode.js:14[31:33];Sink: msg;chatbot-qrcode.js:32[21:23]::FLOW_DESCR_END","/nodes/chatbot-qrcode.js","14","31","14","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-quick-replies.js:23[31:33];Sink: error;chatbot-quick-replies.js:26[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-quick-replies.js:23[31:33];Sink: msg;chatbot-quick-replies.js:26[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-quick-replies.js:23[31:33];Sink: {\r\n     ...       };chatbot-quick-replies.js:49[16:11]::FLOW_DESCR_END","/nodes/chatbot-quick-replies.js","23","31","23","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-recast.js:21[32:34];Sink: [null, msg];chatbot-recast.js:37[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-recast.js:21[32:34];Sink: variable;chatbot-recast.js:71[64:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-recast.js:21[32:34];Sink: [null, msg];chatbot-recast.js:77[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-recast.js:21[32:34];Sink: [msg, null];chatbot-recast.js:90[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-recast.js:21[32:34];Sink: msg;chatbot-recast.js:94[27:29]::FLOW_DESCR_END","/nodes/chatbot-recast.js","21","32","21","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json');chatbot-redbot.js:11[21:67];Sink: lcd.whi ... tbot)');chatbot-redbot.js:15[15:80]::FLOW_DESCR_END","/nodes/chatbot-redbot.js","11","21","11","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;chatbot-redis.js:31[34:36];Sink: err;chatbot-redis.js:32[18:20]::FLOW_DESCR_END","/nodes/chatbot-redis.js","31","34","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-redis.js:39[32:34];Sink: msg;chatbot-redis.js:40[17:19]::FLOW_DESCR_END","/nodes/chatbot-redis.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-request.js:17[31:33];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-request.js:17[31:33];Sink: msg;chatbot-request.js:42[21:23]::FLOW_DESCR_END","/nodes/chatbot-request.js","17","31","17","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-rivescript.js:69[22:24];Sink: [null, msg];chatbot-rivescript.js:82[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-rivescript.js:69[22:24];Sink: [msg, null];chatbot-rivescript.js:127[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-rivescript.js:69[22:24];Sink: [null, msg];chatbot-rivescript.js:134[27:37]::FLOW_DESCR_END","/nodes/chatbot-rivescript.js","69","22","69","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-routee-receive.js:151[40:44];Sink: error;chatbot-routee-receive.js:152[22:26]::FLOW_DESCR_END","/nodes/chatbot-routee-receive.js","151","40","151","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-routee-receive.js:154[42:48];Sink: warning;chatbot-routee-receive.js:155[21:27]::FLOW_DESCR_END","/nodes/chatbot-routee-receive.js","154","42","154","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-routee-receive.js:207[43:49];Sink: message;chatbot-routee-receive.js:219[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-routee-receive.js:207[43:49];Sink: message;chatbot-routee-receive.js:223[27:33]::FLOW_DESCR_END","/nodes/chatbot-routee-receive.js","207","43","207","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-routee-receive.js:269[28:30];Sink: msg;chatbot-routee-receive.js:270[17:19]::FLOW_DESCR_END","/nodes/chatbot-routee-receive.js","269","28","269","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-routee-receive.js:279[32:38];Sink: message;chatbot-routee-receive.js:294[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-routee-receive.js:279[32:38];Sink: message;chatbot-routee-receive.js:298[21:27]::FLOW_DESCR_END","/nodes/chatbot-routee-receive.js","279","32","279","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-rules.js:436[31:33];Sink: result;chatbot-rules.js:445[23:28]::FLOW_DESCR_END","/nodes/chatbot-rules.js","436","31","436","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-serdoo-transform.js:13[37:39];Sink: msg;chatbot-serdoo-transform.js:16[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-serdoo-transform.js:13[37:39];Sink: msg;chatbot-serdoo-transform.js:26[17:19]::FLOW_DESCR_END","/nodes/chatbot-serdoo-transform.js","13","37","13","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-serdoo-transform.js:38[37:39];Sink: msg;chatbot-serdoo-transform.js:41[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-serdoo-transform.js:38[37:39];Sink: msg;chatbot-serdoo-transform.js:50[17:19]::FLOW_DESCR_END","/nodes/chatbot-serdoo-transform.js","38","37","38","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-slack-blocks.js:24[31:33];Sink: error;chatbot-slack-blocks.js:27[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-slack-blocks.js:24[31:33];Sink: msg;chatbot-slack-blocks.js:27[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-slack-blocks.js:24[31:33];Sink: {\r\n     ...       };chatbot-slack-blocks.js:54[16:11]::FLOW_DESCR_END","/nodes/chatbot-slack-blocks.js","24","31","24","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-sticker.js:28[31:33];Sink: {\r\n     ...       };chatbot-sticker.js:85[27:17]::FLOW_DESCR_END","/nodes/chatbot-sticker.js","28","31","28","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-topic.js:13[31:33];Sink: output;chatbot-topic.js:37[17:22]::FLOW_DESCR_END","/nodes/chatbot-topic.js","13","31","13","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-transport.js:12[31:33];Sink: output;chatbot-transport.js:25[17:22]::FLOW_DESCR_END","/nodes/chatbot-transport.js","12","31","12","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-universal-receive.js:156[40:44];Sink: error;chatbot-universal-receive.js:157[22:26]::FLOW_DESCR_END","/nodes/chatbot-universal-receive.js","156","40","156","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-universal-receive.js:159[42:48];Sink: warning;chatbot-universal-receive.js:160[21:27]::FLOW_DESCR_END","/nodes/chatbot-universal-receive.js","159","42","159","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-universal-receive.js:212[43:49];Sink: message;chatbot-universal-receive.js:224[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-universal-receive.js:212[43:49];Sink: message;chatbot-universal-receive.js:228[27:33]::FLOW_DESCR_END","/nodes/chatbot-universal-receive.js","212","43","212","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-universal-receive.js:280[28:30];Sink: msg;chatbot-universal-receive.js:281[17:19]::FLOW_DESCR_END","/nodes/chatbot-universal-receive.js","280","28","280","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-universal-receive.js:290[32:38];Sink: message;chatbot-universal-receive.js:305[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-universal-receive.js:290[32:38];Sink: message;chatbot-universal-receive.js:309[21:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-universal-receive.js:290[32:38];Sink: cloned;chatbot-universal-receive.js:316[21:26]::FLOW_DESCR_END","/nodes/chatbot-universal-receive.js","290","32","290","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;chatbot-viber-receive.js:143[40:44];Sink: error;chatbot-viber-receive.js:144[22:26]::FLOW_DESCR_END","/nodes/chatbot-viber-receive.js","143","40","143","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warning;chatbot-viber-receive.js:146[42:48];Sink: warning;chatbot-viber-receive.js:147[21:27]::FLOW_DESCR_END","/nodes/chatbot-viber-receive.js","146","42","146","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-viber-receive.js:199[43:49];Sink: message;chatbot-viber-receive.js:211[74:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-viber-receive.js:199[43:49];Sink: message;chatbot-viber-receive.js:215[27:33]::FLOW_DESCR_END","/nodes/chatbot-viber-receive.js","199","43","199","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-viber-receive.js:261[28:30];Sink: msg;chatbot-viber-receive.js:262[17:19]::FLOW_DESCR_END","/nodes/chatbot-viber-receive.js","261","28","261","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;chatbot-viber-receive.js:271[32:38];Sink: message;chatbot-viber-receive.js:286[31:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;chatbot-viber-receive.js:271[32:38];Sink: message;chatbot-viber-receive.js:290[21:27]::FLOW_DESCR_END","/nodes/chatbot-viber-receive.js","271","32","271","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-video.js:28[31:33];Sink: {\r\n     ...       };chatbot-video.js:83[27:17]::FLOW_DESCR_END","/nodes/chatbot-video.js","28","31","28","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-voice.js:22[31:33];Sink: error;chatbot-voice.js:25[62:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-voice.js:22[31:33];Sink: msg;chatbot-voice.js:25[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-voice.js:22[31:33];Sink: {\r\n     ...       };chatbot-voice.js:58[20:15]::FLOW_DESCR_END","/nodes/chatbot-voice.js","22","31","22","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;chatbot-waiting.js:14[31:33];Sink: `This n ... (msg)}`;utils.js:410[18:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;chatbot-waiting.js:14[31:33];Sink: msg;chatbot-waiting.js:37[17:19]::FLOW_DESCR_END","/nodes/chatbot-waiting.js","14","31","14","33"

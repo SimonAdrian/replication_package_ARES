@@ -1,0 +1,28 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;action-audit.js:41[32:34];Sink: [null, msg, null];action-audit.js:15[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;action-audit.js:41[32:34];Sink: [null, null, msg];action-audit.js:33[14:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;action-audit.js:41[32:34];Sink: [null, null, msg];action-audit.js:48[14:30]::FLOW_DESCR_END","/action-audit/action-audit.js","41","32","41","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;checkpoint.js:50[32:34];Sink: value;checkpoint.js:34[43:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;checkpoint.js:50[32:34];Sink: [msg];checkpoint.js:57[12:16]::FLOW_DESCR_END","/checkpoint/checkpoint.js","50","32","50","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;compensate.js:298[32:34];Sink: msg;compensate.js:250[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;compensate.js:298[32:34];Sink: msg;compensate.js:271[53:55]::FLOW_DESCR_END","/compensate/compensate.js","298","32","298","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: allActions.pop();debounce.js:27[15:30];Sink: [allAct ... , null];debounce.js:27[14:37]::FLOW_DESCR_END","/debounce/debounce.js","27","15","27","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: [allAct ... , null];debounce.js:23[14:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: [allAct ... , null];debounce.js:27[14:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: [allAct ... , null];debounce.js:33[14:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: msg;debounce.js:44[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: msg;debounce.js:58[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: [msg, null];debounce.js:61[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: [msg, null];debounce.js:76[14:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;debounce.js:39[32:34];Sink: [null, msg];debounce.js:90[14:24]::FLOW_DESCR_END","/debounce/debounce.js","39","32","39","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device-registry.js:60[32:34];Sink: device.Id;device-registry.js:12[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;device-registry.js:60[32:34];Sink: device.Id;device-registry.js:27[28:36]::FLOW_DESCR_END","/device-registry/device-registry.js","60","32","60","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;flow-control.js:50[36:39];Sink: body;flow-control.js:56[69:72]::FLOW_DESCR_END","/flow-control/flow-control.js","50","36","50","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;kalman.js:10[32:34];Sink: msg;kalman.js:16[17:19]::FLOW_DESCR_END","/kalman-noise-filter/kalman.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;readings-watcher.js:29[32:34];Sink: ""Expect ... payload;readings-watcher.js:40[19:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;readings-watcher.js:29[32:34];Sink: [msg, null];readings-watcher.js:53[14:24]::FLOW_DESCR_END","/readings-watcher/readings-watcher.js","29","32","29","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;threshold-check.js:179[32:34];Sink: [msg, null];threshold-check.js:274[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;threshold-check.js:179[32:34];Sink: msg;threshold-check.js:279[25:27]::FLOW_DESCR_END","/threshold-check/threshold-check.js","179","32","179","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timing.js:41[23:25];Sink: [msg, null, null];timing.js:56[19:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timing.js:41[23:25];Sink: [null, null, msg];timing.js:69[21:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timing.js:41[23:25];Sink: [null, msg, null];timing.js:79[21:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timing.js:41[23:25];Sink: [msg, null, null];timing.js:89[21:37]::FLOW_DESCR_END","/timing-check/timing.js","41","23","41","25"

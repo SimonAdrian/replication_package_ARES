@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;16relind.js:36[35:37];Sink: msg;16relind.js:74[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16relind.js:36[35:37];Sink: msg;16relind.js:124[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16relind.js:36[35:37];Sink: msg;16relind.js:126[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16relind.js:36[35:37];Sink: msg;16relind.js:130[32:34]::FLOW_DESCR_END","/16relind.js","36","35","36","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;16relind.js:151[35:37];Sink: msg;16relind.js:189[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16relind.js:151[35:37];Sink: msg;16relind.js:240[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16relind.js:151[35:37];Sink: msg;16relind.js:242[32:34]::FLOW_DESCR_END","/16relind.js","151","35","151","37"

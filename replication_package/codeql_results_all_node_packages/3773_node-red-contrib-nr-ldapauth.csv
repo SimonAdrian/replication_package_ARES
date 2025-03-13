@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nr-ldapauth.js:75[36:38];Sink: errstr;nr-ldapauth.js:127[35:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr-ldapauth.js:75[36:38];Sink: msg;nr-ldapauth.js:128[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr-ldapauth.js:75[36:38];Sink: msg;nr-ldapauth.js:136[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr-ldapauth.js:75[36:38];Sink: errstr;nr-ldapauth.js:157[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr-ldapauth.js:75[36:38];Sink: msg;nr-ldapauth.js:157[36:38]::FLOW_DESCR_END","/nr-ldapauth/nr-ldapauth.js","75","36","75","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;nr-ldapauth.js:104[52:54];Sink: errstr;nr-ldapauth.js:108[35:40]::FLOW_DESCR_END","/nr-ldapauth/nr-ldapauth.js","104","52","104","54"

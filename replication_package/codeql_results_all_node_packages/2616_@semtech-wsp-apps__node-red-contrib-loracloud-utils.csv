@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttn-v2-in.js:62[36:38];Sink: msg;ttn-v2-in.js:54[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttn-v2-in.js:62[36:38];Sink: [msg, msg_mgs];ttn-v2-in.js:161[23:36]::FLOW_DESCR_END","/connectors/TTN/ttn-v2-in.js","62","36","62","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttn-v3-in.js:62[35:37];Sink: msg;ttn-v3-in.js:54[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttn-v3-in.js:62[35:37];Sink: [msg_up ... sg_mgs];ttn-v3-in.js:155[23:43]::FLOW_DESCR_END","/connectors/TTN/ttn-v3-in.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;downlink-generator.js:55[36:38];Sink: text;downlink-generator.js:47[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;downlink-generator.js:55[36:38];Sink: msg;downlink-generator.js:47[30:32]::FLOW_DESCR_END","/connectors/downlink-generator.js","55","36","55","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mgs-parser.js:63[36:38];Sink: msg;mgs-parser.js:55[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mgs-parser.js:63[36:38];Sink: [msg, m ... , null];mgs-parser.js:129[23:69]::FLOW_DESCR_END","/connectors/mgs-parser.js","63","36","63","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;utils-app-decrypt.js:65[35:37];Sink: msg;utils-app-decrypt.js:57[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;utils-app-decrypt.js:65[35:37];Sink: msg;utils-app-decrypt.js:108[23:25]::FLOW_DESCR_END","/utils-app-decrypt/utils-app-decrypt.js","65","35","65","37"

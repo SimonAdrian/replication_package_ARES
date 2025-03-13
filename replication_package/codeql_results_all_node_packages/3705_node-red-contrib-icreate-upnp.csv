@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;find-robot.js:15[27:29];Sink: [msg, { ...      }];find-robot.js:32[27:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;find-robot.js:15[27:29];Sink: extend( ...      });util.js:50[9:10]::FLOW_DESCR_END","/nodes/find-robot.js","15","27","15","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: headers;peer-upnp.js:77[42:48];Sink: udn;peer-upnp.js:104[49:51]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","77","42","77","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;peer-upnp.js:102[67:69];Sink: err;peer-upnp.js:104[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;peer-upnp.js:102[67:69];Sink: err;peer-upnp.js:105[50:52]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","102","67","102","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;peer-upnp.js:389[38:40];Sink: err;peer-upnp.js:390[48:50]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","389","38","389","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;peer-upnp.js:578[30:34];Sink: error;peer-upnp.js:579[31:35]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","578","30","578","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;peer-upnp.js:606[34:38];Sink: error;peer-upnp.js:607[35:39]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","606","34","606","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;peer-upnp.js:632[34:38];Sink: error;peer-upnp.js:633[35:39]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","632","34","632","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req;peer-upnp.js:640[75:77];Sink: req;peer-upnp.js:664[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req;peer-upnp.js:640[75:77];Sink: inputs;peer-upnp.js:759[96:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: req;peer-upnp.js:640[75:77];Sink: data;peer-upnp.js:807[43:46]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","640","75","640","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rsp;peer-upnp.js:640[80:82];Sink: rsp;peer-upnp.js:664[45:47]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","640","80","640","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;peer-upnp.js:1050[30:34];Sink: error;peer-upnp.js:1051[46:50]::FLOW_DESCR_END","/nodes/lib/peer-upnp.js","1050","30","1050","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;upnp.js:159[25:27];Sink: err;upnp.js:160[51:53]::FLOW_DESCR_END","/nodes/lib/upnp.js","159","25","159","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;upnp.js:179[29:31];Sink: err;upnp.js:180[46:48]::FLOW_DESCR_END","/nodes/lib/upnp.js","179","29","179","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;move-robot.js:22[27:29];Sink: extend( ...      });util.js:50[9:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;move-robot.js:22[27:29];Sink: [\n      ...      }];move-robot.js:27[35:30]::FLOW_DESCR_END","/nodes/move-robot.js","22","27","22","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;robot-status.js:24[27:29];Sink: extend( ...      });util.js:50[9:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;robot-status.js:24[27:29];Sink: [\n      ...      }];robot-status.js:28[35:30]::FLOW_DESCR_END","/nodes/robot-status.js","24","27","24","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;turn-robot.js:22[27:29];Sink: extend( ...      });util.js:50[9:10]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;turn-robot.js:22[27:29];Sink: [\n      ...      }];turn-robot.js:27[35:30]::FLOW_DESCR_END","/nodes/turn-robot.js","22","27","22","29"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sensors.js:53[34:36];Sink: err.message;sensors.js:54[29:39]::FLOW_DESCR_END","/sensors.js","53","34","53","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;sensors.js:272[27:30];Sink: bString;sensors.js:219[14:20]::FLOW_DESCR_END","/sensors.js","272","27","272","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;sensors.js:523[16:26];Sink: host +  ... atabase;sensors.js:526[12:45]::FLOW_DESCR_END","/sensors.js","523","16","523","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensors.js:576[29:31];Sink: msg.topic;sensors.js:600[30:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensors.js:576[29:31];Sink: msg.topic;sensors.js:607[18:26]::FLOW_DESCR_END","/sensors.js","576","29","576","31"

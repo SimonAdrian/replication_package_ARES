@@ -1,0 +1,201 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;address-geometry-search-near-gps-position.js:23[36:38];Sink: msg;address-geometry-search-near-gps-position.js:56[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;address-geometry-search-near-gps-position.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/address-geometry-search-near-gps-position.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;address-poi-search-by-text-exp.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/address-poi-search-by-text-exp.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;address-poi-search-by-text-near-gps-position.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/address-poi-search-by-text-near-gps-position.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;address-poi-search-by-text.js:23[36:38];Sink: msg;address-poi-search-by-text.js:60[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;address-poi-search-by-text.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/address-poi-search-by-text.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;address-search-near-gps-position.js:23[36:38];Sink: msg;address-search-near-gps-position.js:51[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;address-search-near-gps-position.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/address-search-near-gps-position.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bus-routes-search-near-gps-position.js:23[36:38];Sink: msg;bus-routes-search-near-gps-position.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bus-routes-search-near-gps-position.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/bus-routes-search-near-gps-position.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bus-routes-search-within-gps-area.js:23[36:38];Sink: msg;bus-routes-search-within-gps-area.js:60[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bus-routes-search-within-gps-area.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/bus-routes-search-within-gps-area.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bus-routes-search-within-stored-wkt-area.js:23[36:38];Sink: msg;bus-routes-search-within-stored-wkt-area.js:57[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bus-routes-search-within-stored-wkt-area.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/bus-routes-search-within-stored-wkt-area.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bus-routes-search-within-wkt-area.js:23[36:38];Sink: msg;bus-routes-search-within-wkt-area.js:57[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bus-routes-search-within-wkt-area.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/bus-routes-search-within-wkt-area.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bus-routes-search.js:23[36:38];Sink: msg;bus-routes-search.js:58[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bus-routes-search.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/bus-routes-search.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;check-exist-job.js:23[36:38];Sink: msg;check-exist-job.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;check-exist-job.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/check-exist-job.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;check-exist-trigger.js:23[36:38];Sink: msg;check-exist-trigger.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;check-exist-trigger.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/check-exist-trigger.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-search-exp.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/event-search-exp.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-search-near-gps-position.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/event-search-near-gps-position.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-search-within-gps-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/event-search-within-gps-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-search-within-wkt-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/event-search-within-wkt-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;event-search.js:23[36:38];Sink: msg;event-search.js:57[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;event-search.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/event-search.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;full-text-search-exp.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/full-text-search-exp.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;full-text-search-near-gps-position.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/full-text-search-near-gps-position.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;full-text-search-within-gps-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/full-text-search-within-gps-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;full-text-search-within-wkt-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/full-text-search-within-wkt-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;full-text-search.js:23[36:38];Sink: msg;full-text-search.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;full-text-search.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/full-text-search.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geometry-search-near-gps-position.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/geometry-search-near-gps-position.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-currently-executing-jobs.js:23[36:38];Sink: msg;get-currently-executing-jobs.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-currently-executing-jobs.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-currently-executing-jobs.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-job-detail.js:23[36:38];Sink: msg;get-job-detail.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-job-detail.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-job-detail.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-job-fire-times.js:23[36:38];Sink: msg;get-job-fire-times.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-job-fire-times.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-job-fire-times.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-job-group-names.js:23[36:38];Sink: msg;get-job-group-names.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-job-group-names.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-job-group-names.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-paused-trigger-groups.js:24[36:38];Sink: msg;get-paused-trigger-groups.js:45[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-paused-trigger-groups.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-paused-trigger-groups.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-system-status.js:23[36:38];Sink: msg;get-system-status.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-system-status.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-system-status.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-trigger-group-names.js:23[36:38];Sink: msg;get-trigger-group-names.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-trigger-group-names.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-trigger-group-names.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-triggers-of-job.js:23[36:38];Sink: msg;get-triggers-of-job.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-triggers-of-job.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-triggers-of-job.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-typical-time-trends.js:22[36:38];Sink: msg;get-typical-time-trends.js:83[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-typical-time-trends.js:22[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/get-typical-time-trends.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-add-entity.js:30[36:38];Sink: encodeU ... otapp"");group-add-entity.js:50[18:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-add-entity.js:30[36:38];Sink: msg;group-add-entity.js:70[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-add-entity.js:30[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/group-add-entity.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-add-user.js:23[36:38];Sink: encodeU ... otapp"");group-add-user.js:42[18:155]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-add-user.js:23[36:38];Sink: msg;group-add-user.js:61[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-add-user.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/group-add-user.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.username;group-add-user.js:27[52:71];Sink: encodeU ... otapp"");group-add-user.js:42[18:155]::FLOW_DESCR_END","/group-add-user.js","27","52","27","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;group-add-user.js:27[75:89];Sink: encodeU ... otapp"");group-add-user.js:42[18:155]::FLOW_DESCR_END","/group-add-user.js","27","75","27","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-delete-user.js:23[36:38];Sink: encodeU ... otapp"");group-delete-user.js:42[18:155]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-delete-user.js:23[36:38];Sink: msg;group-delete-user.js:61[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-delete-user.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/group-delete-user.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.username;group-delete-user.js:27[52:71];Sink: encodeU ... otapp"");group-delete-user.js:42[18:155]::FLOW_DESCR_END","/group-delete-user.js","27","52","27","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;group-delete-user.js:27[75:89];Sink: encodeU ... otapp"");group-delete-user.js:42[18:155]::FLOW_DESCR_END","/group-delete-user.js","27","75","27","89"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-insert-entity.js:30[36:38];Sink: encodeU ... otapp"");group-insert-entity.js:50[18:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-insert-entity.js:30[36:38];Sink: msg;group-insert-entity.js:70[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-insert-entity.js:30[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/group-insert-entity.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-list-entity.js:30[36:38];Sink: msg;group-list-entity.js:61[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-list-entity.js:30[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/group-list-entity.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;group-remove-entity.js:30[36:38];Sink: msg;group-remove-entity.js:79[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;group-remove-entity.js:30[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/group-remove-entity.js","30","36","30","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;httpclient.js:20[30:34];Sink: 'resour ... ourceId;datagate_create.js:113[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;httpclient.js:20[30:34];Sink: res;datagate_create.js:115[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;httpclient.js:20[30:34];Sink: res;datagate_io.js:170[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;httpclient.js:20[30:34];Sink: res;datagate_io.js:226[22:24]::FLOW_DESCR_END","/httpclient.js","20","30","20","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;httpclient.js:28[29:31];Sink: 'resour ... ourceId;datagate_create.js:113[21:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;httpclient.js:28[29:31];Sink: res;datagate_create.js:115[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;httpclient.js:28[29:31];Sink: res;datagate_io.js:170[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;httpclient.js:28[29:31];Sink: res;datagate_io.js:226[22:24]::FLOW_DESCR_END","/httpclient.js","28","29","28","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotapp-restart.js:26[36:38];Sink: msg;iotapp-restart.js:52[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotapp-restart.js:26[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/iotapp-restart.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotapp-upgrade.js:26[36:38];Sink: msg;iotapp-upgrade.js:52[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotapp-upgrade.js:26[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/iotapp-upgrade.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotdirectory-delete-device.js:22[36:38];Sink: msg;iotdirectory-delete-device.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;iotdirectory-delete-device.js:22[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/iotdirectory-delete-device.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotdirectory-insert-device-admin.js:61[36:38];Sink: msg;iotdirectory-insert-device-admin.js:63[23:25]::FLOW_DESCR_END","/iotdirectory-insert-device-admin.js","61","36","61","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;is-in-standby-mode.js:23[36:38];Sink: msg;is-in-standby-mode.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;is-in-standby-mode.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/is-in-standby-mode.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;is-shutdown.js:23[36:38];Sink: msg;is-shutdown.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;is-shutdown.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/is-shutdown.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;is-started.js:23[36:38];Sink: msg;is-started.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;is-started.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/is-started.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location;qunit.js:625[15:29];Sink: config. ... ronment;qunit.js:512[16:45]::FLOW_DESCR_END","/lib/js/jquery-simulate-ext-master/jquery-simulate-ext-master/tests/qunit.js","625","15","625","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: window.location;qunit.js:625[15:29];Sink: config. ... ronment;qunit.js:512[16:45]::FLOW_DESCR_END","/lib/js/jquery-simulate-ext-master/tests/qunit.js","625","15","625","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:253[37:37];Sink: i;leaflet.draw.js:259[49:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:253[37:37];Sink: o;leaflet.draw.js:259[52:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:253[37:37];Sink: t;leaflet.js:663[72:72]::FLOW_DESCR_END","/lib/js/leaflet.draw.js","253","37","253","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:265[35:35];Sink: i;leaflet.draw.js:269[43:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:265[35:35];Sink: o;leaflet.draw.js:269[46:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:265[35:35];Sink: t;leaflet.draw.js:269[49:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:265[35:35];Sink: t;leaflet.js:663[72:72]::FLOW_DESCR_END","/lib/js/leaflet.draw.js","265","35","265","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:279[33:33];Sink: e;leaflet.draw.js:281[249:249]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:279[33:33];Sink: i;leaflet.draw.js:281[252:252]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:279[33:33];Sink: e;leaflet.draw.js:281[282:282]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:279[33:33];Sink: i;leaflet.draw.js:281[285:285]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:279[33:33];Sink: t;leaflet.draw.js:281[288:288]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: t;leaflet.draw.js:279[33:33];Sink: t;leaflet.js:663[72:72]::FLOW_DESCR_END","/lib/js/leaflet.draw.js","279","33","279","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:926[38:38];Sink: t;leaflet.draw.js:927[80:80]::FLOW_DESCR_END","/lib/js/leaflet.draw.js","926","38","926","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: callback;require.js:1411[45:52];Sink: it;require.js:44[29:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callback;require.js:1411[45:52];Sink: obj;require.js:82[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: callback;require.js:1411[45:52];Sink: this.exports;require.js:938[46:57]::FLOW_DESCR_END","/lib/js/require.js","1411","45","1411","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mapping.js:23[36:38];Sink: msg;mapping.js:47[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mapping.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/mapping.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;notificator-history-events.js:23[36:38];Sink: msg;notificator-history-events.js:55[35:37]::FLOW_DESCR_END","/notificator-history-events.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-advance-process.js:23[36:38];Sink: msg;om-advance-process.js:50[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-advance-process.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-advance-process.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-create-new-process.js:23[36:38];Sink: msg;om-create-new-process.js:43[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-create-new-process.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-create-new-process.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-delete-process.js:23[36:38];Sink: msg;om-delete-process.js:45[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-delete-process.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-delete-process.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-details-process.js:23[36:38];Sink: msg;om-details-process.js:45[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-details-process.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-details-process.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-get-components.js:23[36:38];Sink: msg;om-get-components.js:41[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-get-components.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-get-components.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-get-plants.js:23[36:38];Sink: msg;om-get-plants.js:41[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-get-plants.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-get-plants.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-get-processes.js:23[36:38];Sink: msg;om-get-processes.js:42[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-get-processes.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-get-processes.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-get-status.js:23[36:38];Sink: msg;om-get-status.js:42[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-get-status.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-get-status.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;om-get-teams.js:23[36:38];Sink: msg;om-get-teams.js:41[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;om-get-teams.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/om-get-teams.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ownership.js:26[36:38];Sink: msg;ownership.js:52[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ownership.js:26[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/ownership.js","26","36","26","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pause-all.js:23[36:38];Sink: msg;pause-all.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pause-all.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/pause-all.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pause-job.js:23[36:38];Sink: msg;pause-job.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pause-job.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/pause-job.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pause-jobs.js:23[36:38];Sink: msg;pause-jobs.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pause-jobs.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/pause-jobs.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pause-trigger.js:23[36:38];Sink: msg;pause-trigger.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pause-trigger.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/pause-trigger.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pause-triggers.js:23[36:38];Sink: msg;pause-triggers.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pause-triggers.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/pause-triggers.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plumber-data-analytic.js:28[36:38];Sink: msg;plumber-data-analytic.js:63[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plumber-data-analytic.js:28[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/plumber-data-analytic.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;portia-crawler.js:31[36:38];Sink: msg;portia-crawler.js:78[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;portia-crawler.js:31[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/portia-crawler.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;python-data-analytic.js:28[36:38];Sink: msg;python-data-analytic.js:63[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;python-data-analytic.js:28[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/python-data-analytic.js","28","36","28","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;resume-all.js:23[36:38];Sink: msg;resume-all.js:44[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resume-all.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/resume-all.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;resume-job.js:23[36:38];Sink: msg;resume-job.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resume-job.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/resume-job.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;resume-jobs.js:23[36:38];Sink: msg;resume-jobs.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resume-jobs.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/resume-jobs.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;resume-trigger.js:23[36:38];Sink: msg;resume-trigger.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resume-trigger.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/resume-trigger.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;resume-triggers.js:23[36:38];Sink: msg;resume-triggers.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;resume-triggers.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/resume-triggers.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;save-typical-time-trends.js:68[36:38];Sink: x[i];save-typical-time-trends.js:45[37:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-typical-time-trends.js:68[36:38];Sink: msg.pay ... nthWeek;save-typical-time-trends.js:83[25:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-typical-time-trends.js:68[36:38];Sink: msg;save-typical-time-trends.js:166[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-typical-time-trends.js:68[36:38];Sink: JSON.st ... ToSend);save-typical-time-trends.js:180[38:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;save-typical-time-trends.js:68[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/save-typical-time-trends.js","68","36","68","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.pay ... iceName;save-typical-time-trends.js:73[56:77];Sink: JSON.st ... ToSend);save-typical-time-trends.js:180[38:63]::FLOW_DESCR_END","/save-typical-time-trends.js","73","56","73","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceName;save-typical-time-trends.js:73[81:97];Sink: JSON.st ... ToSend);save-typical-time-trends.js:180[38:63]::FLOW_DESCR_END","/save-typical-time-trends.js","73","81","73","97"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-info-dev.js:23[36:38];Sink: msg;service-info-dev.js:61[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;service-info-dev.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-info-dev.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-info-mapped.js:23[36:38];Sink: msg;service-info-mapped.js:74[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;service-info-mapped.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-info-mapped.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-by-municipality.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-by-municipality.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-by-queryid.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-by-queryid.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-near-gps-position.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-near-gps-position.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-near-service.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-near-service.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-within-gps-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-within-gps-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-within-stored-wkt-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-within-stored-wkt-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search-within-wkt-area.js:24[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search-within-wkt-area.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;service-search.js:23[36:38];Sink: msg;service-search.js:73[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;service-search.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/service-search.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-mapping.js:23[36:38];Sink: msg;set-mapping.js:45[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;set-mapping.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END","/set-mapping.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... shToken;snap4city-authentication-dev.js:113[32:60];Sink: ""Refres ... shToken;snap4city-authentication-dev.js:114[25:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... shToken;snap4city-authentication-dev.js:113[32:60];Sink: params;snap4city-authentication-dev.js:126[26:31]::FLOW_DESCR_END","/snap4city-authentication-dev.js","113","32","113","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ls.user;snap4city-authentication-dev.js:116[162:182];Sink: params;snap4city-authentication-dev.js:126[26:31]::FLOW_DESCR_END","/snap4city-authentication-dev.js","116","162","116","182"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... assword;snap4city-authentication-dev.js:116[220:244];Sink: params;snap4city-authentication-dev.js:126[26:31]::FLOW_DESCR_END","/snap4city-authentication-dev.js","116","220","116","244"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:91[32:78];Sink: params;snap4city-utility.js:99[26:31]::FLOW_DESCR_END","/snap4city-utility.js","91","32","91","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:169[24:70];Sink: params;snap4city-utility.js:183[18:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... utf-8');snap4city-utility.js:169[24:70];Sink: ""FAILED ... nseText;snap4city-utility.js:185[18:71]::FLOW_DESCR_END","/snap4city-utility.js","169","24","169","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tpl-routes.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tpl-routes.js:23[36:38];Sink: msg;tpl-routes.js:57[35:37]::FLOW_DESCR_END","/tpl-routes.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tpl-stops.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tpl-stops.js:23[36:38];Sink: msg;tpl-stops.js:55[35:37]::FLOW_DESCR_END","/tpl-stops.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trigger-job.js:23[36:38];Sink: encodeU ... essage);snap4city-utility.js:72[25:272]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trigger-job.js:23[36:38];Sink: msg;trigger-job.js:48[35:37]::FLOW_DESCR_END","/trigger-job.js","23","36","23","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatif-get-my-scenarios.js:21[36:38];Sink: msg;whatif-get-my-scenarios.js:54[39:41]::FLOW_DESCR_END","/whatif-get-my-scenarios.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whatif-save-a-scenario.js:24[36:38];Sink: ""Messag ... eValue);whatif-save-a-scenario.js:52[30:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatif-save-a-scenario.js:24[36:38];Sink: msg;whatif-save-a-scenario.js:68[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whatif-save-a-scenario.js:24[36:38];Sink: JSON.st ...      });whatif-save-a-scenario.js:80[34:22]::FLOW_DESCR_END","/whatif-save-a-scenario.js","24","36","24","38"

@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;countula.js:8[32:34];Sink: msg.count;countula.js:11[32:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countula.js:8[32:34];Sink: count;countula.js:27[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;countula.js:8[32:34];Sink: [ msg , newMsg ];countula.js:29[13:28]::FLOW_DESCR_END","/countula.js","8","32","8","34"

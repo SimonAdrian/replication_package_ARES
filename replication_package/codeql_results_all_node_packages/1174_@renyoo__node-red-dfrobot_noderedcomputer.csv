@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;adc.js:14[35:37];Sink: msg;adc.js:41[43:45]::FLOW_DESCR_END","/1_Peripheral_Nodes/adc.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;gpio_Interrupt.js:93[47:53];Sink: message;gpio_Interrupt.js:102[72:78]::FLOW_DESCR_END","/1_Peripheral_Nodes/gpio_Interrupt.js","93","47","93","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;iic.js:74[47:53];Sink: message;iic.js:83[72:78]::FLOW_DESCR_END","/1_Peripheral_Nodes/iic.js","74","47","74","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;serialCommunication.js:77[47:53];Sink: message;serialCommunication.js:86[72:78]::FLOW_DESCR_END","/1_Peripheral_Nodes/serialCommunication.js","77","47","77","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;device_monitor.js:30[47:53];Sink: message;device_monitor.js:36[72:78]::FLOW_DESCR_END","/2_Common_Nodes/device_monitor.js","30","47","30","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;device_shell.js:18[35:37];Sink: msg;device_shell.js:45[31:33]::FLOW_DESCR_END","/2_Common_Nodes/device_shell.js","18","35","18","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flow_switch.js:25[35:37];Sink: msg;flow_switch.js:41[23:25]::FLOW_DESCR_END","/2_Common_Nodes/flow_switch.js","25","35","25","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;Special_event.js:93[47:53];Sink: message;Special_event.js:98[72:78]::FLOW_DESCR_END","/3_Burn_Nodes/Special_event.js","93","47","93","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;ch58x_burn.js:36[47:53];Sink: message;ch58x_burn.js:45[72:78]::FLOW_DESCR_END","/3_Burn_Nodes/ch58x_burn.js","36","47","36","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;esp32_burn.js:31[47:53];Sink: message;esp32_burn.js:42[72:78]::FLOW_DESCR_END","/3_Burn_Nodes/esp32_burn.js","31","47","31","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;esp32_burn.js:65[35:37];Sink: JSON.st ... ayload);esp32_burn.js:84[25:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;esp32_burn.js:65[35:37];Sink: msg;esp32_burn.js:110[43:45]::FLOW_DESCR_END","/3_Burn_Nodes/esp32_burn.js","65","35","65","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... message;esp32_burn.js:109[47:67];Sink: JSON.st ... ayload);esp32_burn.js:84[25:51]::FLOW_DESCR_END","/3_Burn_Nodes/esp32_burn.js","109","47","109","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;gateway_burn.js:34[47:53];Sink: message;gateway_burn.js:47[72:78]::FLOW_DESCR_END","/3_Burn_Nodes/gateway_burn.js","34","47","34","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;canvas.js:5[35:37];Sink: msg;canvas.js:7[23:25]::FLOW_DESCR_END","/4_lcdWidget_Nodes/canvas.js","5","35","5","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updated_attribute.js:20[35:37];Sink: msg;updated_attribute.js:41[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updated_attribute.js:20[35:37];Sink: msg;updated_attribute.js:45[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updated_attribute.js:20[35:37];Sink: msg;updated_attribute.js:50[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updated_attribute.js:20[35:37];Sink: msg;updated_attribute.js:55[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updated_attribute.js:20[35:37];Sink: msg;updated_attribute.js:59[27:29]::FLOW_DESCR_END","/4_lcdWidget_Nodes/updated_attribute.js","20","35","20","37"

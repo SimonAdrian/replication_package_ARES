@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather-data.js:40[37:39];Sink: msg;weather-data.js:61[19:21]::FLOW_DESCR_END","/weather-data/weather-data.js","40","37","40","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;weather-info.js:34[37:39];Sink: msg;weather-info.js:44[19:21]::FLOW_DESCR_END","/weather-info/weather-info.js","34","37","34","39"

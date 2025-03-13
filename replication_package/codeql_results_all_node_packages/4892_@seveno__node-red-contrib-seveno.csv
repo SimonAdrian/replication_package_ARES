@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;seveno-busjournal-node.js:28[20:22];Sink: msg;seveno-busjournal-node.js:93[13:15]::FLOW_DESCR_END","/seveno/seveno-busjournal-node.js","28","20","28","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;seveno-node.js:28[20:22];Sink: msg;seveno-node.js:96[13:15]::FLOW_DESCR_END","/seveno/seveno-node.js","28","20","28","22"

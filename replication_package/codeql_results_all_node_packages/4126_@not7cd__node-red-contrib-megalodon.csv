@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get.js:7[32:34];Sink: msg;get.js:17[21:23]::FLOW_DESCR_END","/src/get.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lookup-account.js:7[32:34];Sink: msg;lookup-account.js:17[21:23]::FLOW_DESCR_END","/src/lookup-account.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;post-status.js:7[32:34];Sink: msg;post-status.js:17[21:23]::FLOW_DESCR_END","/src/post-status.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: notification;streaming.js:33[35:46];Sink: notification;streaming.js:34[23:34]::FLOW_DESCR_END","/src/streaming.js","33","35","33","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: id;streaming.js:38[29:30];Sink: id;streaming.js:39[23:24]::FLOW_DESCR_END","/src/streaming.js","38","29","38","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;streaming.js:43[28:30];Sink: err;streaming.js:44[22:24]::FLOW_DESCR_END","/src/streaming.js","43","28","43","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;streaming.js:56[35:37];Sink: err;streaming.js:57[22:24]::FLOW_DESCR_END","/src/streaming.js","56","35","56","37"

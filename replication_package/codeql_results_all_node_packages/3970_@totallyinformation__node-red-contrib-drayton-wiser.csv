@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json');gulpfile.js:51[32:62];Sink: `Curren ... lease}`;gulpfile.js:56[13:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... .json');gulpfile.js:51[32:62];Sink: `Changi ... lease}`;gulpfile.js:112[21:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... .json');gulpfile.js:51[32:62];Sink: `Creati ... le.js.`;gulpfile.js:122[17:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... .json');gulpfile.js:51[32:62];Sink: `Reques ... ng tag`;gulpfile.js:144[21:105]::FLOW_DESCR_END","/gulpfile.js","51","32","51","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: uri;wiser-class.js:389[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: ret.result;wiser-class.js:1039[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: ret.result;wiser-class.js:1054[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:76[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:85[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:91[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:100[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:106[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:112[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:120[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:127[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:133[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:143[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:153[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:172[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wiser.js:66[26:28];Sink: msg;wiser.js:178[23:25]::FLOW_DESCR_END","/nodes/wiser.js","66","26","66","28"

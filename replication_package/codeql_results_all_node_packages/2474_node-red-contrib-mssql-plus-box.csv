@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mssql.js:116[36:38];Sink: m;mssql.js:107[31:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:116[36:38];Sink: query;mssql.js:131[31:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:116[36:38];Sink: msg;mssql.js:145[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mssql.js:116[36:38];Sink: msg;mssql.js:155[27:29]::FLOW_DESCR_END","/src/mssql.js","116","36","116","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mssql.js:137[36:40];Sink: error;mssql.js:138[32:36]::FLOW_DESCR_END","/src/mssql.js","137","36","137","40"

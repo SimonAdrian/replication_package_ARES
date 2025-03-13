@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-ht.js:20[39:41];Sink: ""Receiv ... ad.data;xiaomi-ht.js:23[26:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-ht.js:20[39:41];Sink: [msg];xiaomi-ht.js:40[35:39]::FLOW_DESCR_END","/node-red-contrib-xiaomi-ht/xiaomi-ht.js","20","39","20","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-magnet.js:20[39:41];Sink: [msg];xiaomi-magnet.js:48[35:39]::FLOW_DESCR_END","/node-red-contrib-xiaomi-magnet/xiaomi-magnet.js","20","39","20","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-motion.js:20[39:41];Sink: [msg];xiaomi-motion.js:48[35:39]::FLOW_DESCR_END","/node-red-contrib-xiaomi-motion/xiaomi-motion.js","20","39","20","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-socket.js:22[39:41];Sink: [[],[msg]];xiaomi-socket.js:48[31:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-socket.js:22[39:41];Sink: [[],[msg]];xiaomi-socket.js:58[31:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xiaomi-socket.js:22[39:41];Sink: [msg];xiaomi-socket.js:75[35:39]::FLOW_DESCR_END","/node-red-contrib-xiaomi-socket/xiaomi-socket.js","22","39","22","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xiaomi-switch.js:18[39:41];Sink: [msg];xiaomi-switch.js:37[35:39]::FLOW_DESCR_END","/node-red-contrib-xiaomi-switch/xiaomi-switch.js","18","39","18","41"

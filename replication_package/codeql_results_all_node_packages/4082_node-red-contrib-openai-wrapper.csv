@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openai-api.js:27[42:44];Sink: {\n      ...       };openai-api.js:99[27:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;openai-api.js:27[42:44];Sink: msg;openai-api.js:117[39:41]::FLOW_DESCR_END","/openai-api.js","27","42","27","44"

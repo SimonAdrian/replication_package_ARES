@@ -1,0 +1,39 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar.js:64[39:41];Sink: msg;calendar.js:72[40:42]::FLOW_DESCR_END","/calendar.js","64","39","64","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar.js:164[39:41];Sink: msg;calendar.js:169[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:164[39:41];Sink: msg;calendar.js:175[90:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:164[39:41];Sink: msg;calendar.js:180[69:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:164[39:41];Sink: msg;calendar.js:543[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:164[39:41];Sink: msg;calendar.js:548[19:21]::FLOW_DESCR_END","/calendar.js","164","39","164","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calendar.js:584[39:41];Sink: msg;calendar.js:589[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:584[39:41];Sink: msg;calendar.js:612[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calendar.js:584[39:41];Sink: msg;calendar.js:615[55:57]::FLOW_DESCR_END","/calendar.js","584","39","584","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;directions.js:27[35:37];Sink: response;directions.js:59[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;directions.js:27[35:37];Sink: msg;directions.js:294[29:31]::FLOW_DESCR_END","/directions.js","27","35","27","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;directions.js:211[29:31];Sink: err;directions.js:294[24:26]::FLOW_DESCR_END","/directions.js","211","29","211","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:73[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:87[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:127[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:153[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geocoding.js:35[35:37];Sink: msg;geocoding.js:178[27:29]::FLOW_DESCR_END","/geocoding.js","35","35","35","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;geocoding.js:119[25:27];Sink: err;geocoding.js:121[35:37]::FLOW_DESCR_END","/geocoding.js","119","25","119","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: delay;google.js:61[59:63];Sink: delay;google.js:63[45:49]::FLOW_DESCR_END","/google.js","61","59","61","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: delay;google.js:135[59:63];Sink: delay;google.js:137[45:49]::FLOW_DESCR_END","/google.js","135","59","135","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:213[27:59];Sink: credentials;google.js:251[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... ode_id);google.js:213[27:59];Sink: credentials;google.js:267[51:61]::FLOW_DESCR_END","/google.js","213","27","213","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:234[21:23];Sink: ""reques ... "" + err;google.js:236[29:50]::FLOW_DESCR_END","/google.js","234","21","234","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:234[34:37];Sink: ""oauth  ... a.error;google.js:240[29:56]::FLOW_DESCR_END","/google.js","234","34","234","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;google.js:256[25:27];Sink: 'fetchi ... ' + err;google.js:258[33:72]::FLOW_DESCR_END","/google.js","256","25","256","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google.js:256[38:41];Sink: 'fetchi ... message;google.js:262[33:50]::FLOW_DESCR_END","/google.js","256","38","256","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error.message;google.js:263[33:50];Sink: 'fetchi ... message;google.js:262[33:50]::FLOW_DESCR_END","/google.js","263","33","263","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;places.js:47[35:37];Sink: msg;places.js:556[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;places.js:47[35:37];Sink: msg;places.js:566[27:29]::FLOW_DESCR_END","/places.js","47","35","47","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;places.js:243[25:27];Sink: err;places.js:245[35:37]::FLOW_DESCR_END","/places.js","243","25","243","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:53[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:59[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:67[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:73[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:79[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:87[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:93[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: response;plus.js:99[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;plus.js:28[35:37];Sink: msg;plus.js:754[29:31]::FLOW_DESCR_END","/plus.js","28","35","28","37"

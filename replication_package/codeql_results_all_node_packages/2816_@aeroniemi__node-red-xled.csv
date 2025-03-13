@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();general-nodes.js:24[30:40];Sink: y;general-nodes.js:18[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();general-nodes.js:24[30:40];Sink: y;general-nodes.js:18[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();general-nodes.js:24[30:40];Sink: op[1];general-nodes.js:18[147:151]::FLOW_DESCR_END","/lib/general-nodes.js","24","30","24","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;general-nodes.js:99[32:34];Sink: msg;general-nodes.js:80[17:19]::FLOW_DESCR_END","/lib/general-nodes.js","99","32","99","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();set-brightness.js:28[30:40];Sink: y;set-brightness.js:22[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-brightness.js:28[30:40];Sink: y;set-brightness.js:22[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-brightness.js:28[30:40];Sink: op[1];set-brightness.js:22[147:151]::FLOW_DESCR_END","/nodes/set-brightness/set-brightness.js","28","30","28","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();set-colour-hsv.js:28[30:40];Sink: y;set-colour-hsv.js:22[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-colour-hsv.js:28[30:40];Sink: y;set-colour-hsv.js:22[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-colour-hsv.js:28[30:40];Sink: op[1];set-colour-hsv.js:22[147:151]::FLOW_DESCR_END","/nodes/set-colour-hsv/set-colour-hsv.js","28","30","28","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();set-colour-rgb.js:28[30:40];Sink: y;set-colour-rgb.js:22[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-colour-rgb.js:28[30:40];Sink: y;set-colour-rgb.js:22[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();set-colour-rgb.js:28[30:40];Sink: op[1];set-colour-rgb.js:22[147:151]::FLOW_DESCR_END","/nodes/set-colour-rgb/set-colour-rgb.js","28","30","28","40"

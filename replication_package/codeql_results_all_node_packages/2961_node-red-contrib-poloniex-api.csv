@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;portfolio.js:11[31:33];Sink: [null, msg];portfolio.js:19[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;portfolio.js:11[31:33];Sink: [msg, null];portfolio.js:30[21:31]::FLOW_DESCR_END","/portfolio.js","11","31","11","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ticker.js:11[31:33];Sink: [null, msg];ticker.js:19[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ticker.js:11[31:33];Sink: [msg, null];ticker.js:24[21:31]::FLOW_DESCR_END","/ticker.js","11","31","11","33"

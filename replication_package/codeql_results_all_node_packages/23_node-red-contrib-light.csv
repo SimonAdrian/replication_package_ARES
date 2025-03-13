@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;changeLight.js:29[35:37];Sink: 'light  ... ull, 2);changeLight.js:30[22:67]::FLOW_DESCR_END","/light/changeLight.js","29","35","29","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;updates.js:40[35:37];Sink: JSON.st ... ull, 2);updates.js:46[22:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updates.js:40[35:37];Sink: msg;updates.js:54[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;updates.js:40[35:37];Sink: msg;updates.js:130[67:69]::FLOW_DESCR_END","/light/updates.js","40","35","40","37"

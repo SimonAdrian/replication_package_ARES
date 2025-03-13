@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;GENERIC_OUT.js:142[35:37];Sink: msg.top ... .device;GENERIC_OUT.js:172[41:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;GENERIC_OUT.js:142[35:37];Sink: msg.top ... .device;GENERIC_OUT.js:266[29:51]::FLOW_DESCR_END","/plcs/GENERIC_OUT.js","142","35","142","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;LEGACY_OUT.js:19[35:37];Sink: msg.topic.device;LEGACY_OUT.js:29[33:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LEGACY_OUT.js:19[35:37];Sink: msg;LEGACY_OUT.js:52[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;LEGACY_OUT.js:19[35:37];Sink: msg.topic.device;LEGACY_OUT.js:55[21:36]::FLOW_DESCR_END","/plcs/LEGACY_OUT.js","19","35","19","37"

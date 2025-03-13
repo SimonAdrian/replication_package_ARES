@@ -1,0 +1,220 @@
+[{
+	"id": "86e9d47.db2f328",
+	"type": "tab",
+	"label": "dialogflow",
+	"disabled": false,
+	"info": ""
+}, {
+	"id": "d99f71c9.30faf",
+	"type": "webhook in",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"url": "/dialogflow",
+	"method": "post",
+	"x": 120,
+	"y": 140,
+	"wires": [
+		["8a314589.38af78"]
+	]
+}, {
+	"id": "29dd79f1.301de6",
+	"type": "webhook out",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"x": 920,
+	"y": 140,
+	"wires": []
+}, {
+	"id": "678d6b30.36a904",
+	"type": "dialogflow",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"serviceAccountCredentials": "payload",
+	"serviceAccountCredentialsType": "msg",
+	"project": "my-project-id",
+	"projectType": "str",
+	"welcomeEvent": "Welcome",
+	"welcomeEventType": "str",
+	"welcomeEventParams": "",
+	"welcomeEventParamsType": "json",
+	"passDtmf": false,
+	"inputTimeout": "20",
+	"inputTimeoutType": "",
+	"noInputEvent": "NO_INPUT",
+	"noInputEventType": "",
+	"eventHook": "/dialogflow-event",
+	"eventHookType": "str",
+	"actionHook": "/dialogflow-action",
+	"actionHookType": "str",
+	"evtAll": true,
+	"evtIntent": false,
+	"evtTranscript": false,
+	"evtInterimTranscript": false,
+	"evtDtmf": false,
+	"evtEndUtterance": false,
+	"evtStartPlay": false,
+	"evtEndPlay": false,
+	"evtNoInput": false,
+	"x": 670,
+	"y": 140,
+	"wires": [
+		["29dd79f1.301de6"]
+	]
+}, {
+	"id": "8a314589.38af78",
+	"type": "file in",
+	"z": "86e9d47.db2f328",
+	"name": "read service account key",
+	"filename": "/tmp/my-json-key.json",
+	"format": "utf8",
+	"chunk": false,
+	"sendError": false,
+	"encoding": "none",
+	"x": 400,
+	"y": 140,
+	"wires": [
+		["678d6b30.36a904"]
+	]
+}, {
+	"id": "4ae40d4f.65c614",
+	"type": "webhook in",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"url": "/dialogflow-event",
+	"method": "post",
+	"x": 120,
+	"y": 220,
+	"wires": [
+		["5b7a7852.0f6388", "12b866e2.bf6089"]
+	]
+}, {
+	"id": "392b23f4.c2eb6c",
+	"type": "webhook out",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"x": 920,
+	"y": 380,
+	"wires": []
+}, {
+	"id": "5b7a7852.0f6388",
+	"type": "debug",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"active": true,
+	"tosidebar": true,
+	"console": false,
+	"tostatus": false,
+	"complete": "call",
+	"targetType": "msg",
+	"x": 280,
+	"y": 300,
+	"wires": []
+}, {
+	"id": "12b866e2.bf6089",
+	"type": "function",
+	"z": "86e9d47.db2f328",
+	"name": "check for call transfer",
+	"func": "if (msg.call.event === 'intent') {\n    const qo = msg.call.data.query_result;\n    const transfer = qo.fulfillment_messages.find((fm) => fm.platform === 'TELEPHONY' && fm.telephony_transfer_call);\n    if (transfer) {\n        msg.transferTo = transfer.telephony_transfer_call.phone_number;\n    }\n}\nreturn msg;",
+	"outputs": 1,
+	"noerr": 0,
+	"x": 500,
+	"y": 260,
+	"wires": [
+		["104040b3.f4b57f"]
+	]
+}, {
+	"id": "104040b3.f4b57f",
+	"type": "switch",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"property": "transferTo",
+	"propertyType": "msg",
+	"rules": [{
+		"t": "istype",
+		"v": "string",
+		"vt": "string"
+	}, {
+		"t": "else"
+	}],
+	"checkall": "true",
+	"repair": false,
+	"outputs": 2,
+	"x": 700,
+	"y": 300,
+	"wires": [
+		["8b9fd313.4448a"],
+		["392b23f4.c2eb6c"]
+	]
+}, {
+	"id": "8b9fd313.4448a",
+	"type": "dial",
+	"z": "86e9d47.db2f328",
+	"name": "transfer to agent",
+	"targets": [{
+		"type": "phone",
+		"varType": "msg",
+		"dest": "transferTo"
+	}],
+	"headers": [],
+	"actionhook": "",
+	"actionhookType": "str",
+	"answeronbridge": false,
+	"callerid": "",
+	"calleridType": "str",
+	"confirmhook": "",
+	"confirmhookType": "str",
+	"dialmusic": "",
+	"dialmusicType": "str",
+	"dtmfcapture": "",
+	"dtmfcaptureType": "str",
+	"dtmfhook": "",
+	"dtmfhookType": "str",
+	"timelimit": "",
+	"timeout": "",
+	"listenurl": "",
+	"listenurlType": "str",
+	"transcribeurl": "",
+	"transcribeurlType": "str",
+	"interim": false,
+	"transcribelang": "en-US",
+	"x": 960,
+	"y": 280,
+	"wires": [
+		["392b23f4.c2eb6c"]
+	]
+}, {
+	"id": "6be3f1e1.0c7b2",
+	"type": "webhook in",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"url": "/dialogflow-action",
+	"method": "post",
+	"x": 170,
+	"y": 400,
+	"wires": [
+		["392b23f4.c2eb6c", "83dc42c7.bc43e"]
+	]
+}, {
+	"id": "83dc42c7.bc43e",
+	"type": "debug",
+	"z": "86e9d47.db2f328",
+	"name": "",
+	"active": true,
+	"tosidebar": true,
+	"console": false,
+	"tostatus": false,
+	"complete": "call",
+	"targetType": "msg",
+	"x": 420,
+	"y": 440,
+	"wires": []
+}, {
+	"id": "830f36d6.ded458",
+	"type": "comment",
+	"z": "86e9d47.db2f328",
+	"name": "dialogflow with call transfer",
+	"info": "# dialogflow example\n\nThis flow provides an example of connecting an incoming call\nto Google dialogflow, with call transfer support.\n\nIn order to authenticate to dialogflow, a Google service key\nmust be provided.  In this example, the file containing\nthe (JSON) key is read from disk into the `msg.payload` variable.\n\nThe `dialogflow` verb is then used to connect to a specified\ndialogflow project id.\n\nAn event hook is provided to receive dialogflow events, \nand if an event is received indicating that a call transfer\nhas been requested then a new jambonz application \ncontaining a `dial` verb is returned.\n\nTo use this example flow you will need to update the file path \nto your own json key file, and change the name of the \ndialogflow project.",
+	"x": 140,
+	"y": 40,
+	"wires": []
+}]

@@ -1,0 +1,46 @@
+<script type="text/javascript">
+RED.nodes.registerType('web-config', {
+  category: 'config',
+  label () {
+    return this.name || '默认配置'
+  },
+  defaults: {
+    name: {
+      value: ''
+    },
+    port: {
+      value: '',
+      required: true
+    },
+    path: {
+      value: '',
+      required: true
+    },
+    pwd: {
+      value: ''
+    }
+  }
+})
+</script>
+  <script type="text/x-red" data-template-name="web-config">
+    <div class="form-row">
+      <label for="node-config-input-name"><i class="icon-tag"></i>名称</label>
+      <input type="text" id="node-config-input-name" placeholder="默认配置">
+    </div>
+    <div class="form-row">
+      <label for="node-config-input-port"><i></i>暴露端口</label>
+      <input type="text" id="node-config-input-port" placeholder="本服务端口">
+    </div>
+    <div class="form-row">
+      <label for="node-config-input-path"><i></i>暴露路径</label>
+      <input type="text" id="node-config-input-path" placeholder="文件路径">
+    </div>
+    <div class="form-row">
+      <label for="node-config-input-pwd"><i></i>访问密码</label>
+      <input type="text" id="node-config-input-pwd" placeholder="访问密码">
+    </div>
+    
+  </script>
+  <script type="text/x-red" data-help-name="web-config">
+
+  </script>

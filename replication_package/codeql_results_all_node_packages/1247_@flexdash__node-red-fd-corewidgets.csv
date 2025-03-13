@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0].length;time-plot.js:73[72:85];Sink: `Data p ... ength}`;time-plot.js:73[24:87]::FLOW_DESCR_END","/custom/time-plot.js","73","72","73","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');update-package-json.js:2[22:60];Sink: json;update-package-json.js:6[34:37]::FLOW_DESCR_END","/scripts/update-package-json.js","2","22","2","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0].length;time-plot-raw.js:158[72:85];Sink: `Data p ... ength}`;time-plot-raw.js:158[24:87]::FLOW_DESCR_END","/time-plot-raw.js","158","72","158","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;time-plot-raw.js:195[22:24];Sink: `msg.pa ... i][j]}`;time-plot-raw.js:142[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-plot-raw.js:195[22:24];Sink: `Data p ... ength}`;time-plot-raw.js:158[24:87]::FLOW_DESCR_END","/time-plot-raw.js","195","22","195","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0].length;time-plot.js:356[72:85];Sink: `Data p ... ength}`;time-plot.js:356[24:87]::FLOW_DESCR_END","/time-plot.js","356","72","356","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;time-plot.js:393[22:24];Sink: `msg.pa ... i][j]}`;time-plot.js:340[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-plot.js:393[22:24];Sink: `Data p ... ength}`;time-plot.js:356[24:87]::FLOW_DESCR_END","/time-plot.js","393","22","393","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0].length;wind-plot.js:180[72:85];Sink: `Data p ... ength}`;wind-plot.js:180[24:87]::FLOW_DESCR_END","/wind-plot.js","180","72","180","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wind-plot.js:217[22:24];Sink: `msg.pa ... i][j]}`;wind-plot.js:164[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wind-plot.js:217[22:24];Sink: `Data p ... ength}`;wind-plot.js:180[24:87]::FLOW_DESCR_END","/wind-plot.js","217","22","217","24"

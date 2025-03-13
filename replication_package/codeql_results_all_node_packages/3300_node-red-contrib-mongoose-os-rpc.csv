@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongoose-os-rpc.js:15[39:41];Sink: err;mongoose-os-rpc.js:17[22:24]::FLOW_DESCR_END","/mongoose-os-rpc.js","15","39","15","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongoose-os-rpc.js:28[35:37];Sink: cfg.func;mongoose-os-rpc.js:49[27:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mongoose-os-rpc.js:28[35:37];Sink: args;mongoose-os-rpc.js:49[37:40]::FLOW_DESCR_END","/mongoose-os-rpc.js","28","35","28","37"

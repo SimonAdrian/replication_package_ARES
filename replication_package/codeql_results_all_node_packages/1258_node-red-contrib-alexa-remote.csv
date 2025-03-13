@@ -1,0 +1,26 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: msg;alexa-command.js:65[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: msg.pay ... lOrName;alexa-command.js:70[42:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: msg.pay ... de.text;alexa-command.js:71[42:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: (msg.pa ... OrName);alexa-command.js:84[39:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: (msg.pa ... ommand);alexa-command.js:84[88:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: value;alexa-command.js:84[127:131]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: msg;alexa-command.js:97[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-command.js:24[34:36];Sink: msg;alexa-command.js:113[39:41]::FLOW_DESCR_END","/alexa-command.js","24","34","24","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg;alexa-music.js:65[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg.pay ... lOrName;alexa-music.js:70[42:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg.pay ... de.text;alexa-music.js:71[42:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg.pay ... .volume;alexa-music.js:76[46:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: (msg.pa ... OrName);alexa-music.js:78[43:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: (msg.pa ... volume);alexa-music.js:78[102:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg;alexa-music.js:90[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg;alexa-music.js:110[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-music.js:24[34:36];Sink: msg;alexa-music.js:126[39:41]::FLOW_DESCR_END","/alexa-music.js","24","34","24","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg;alexa-speak.js:65[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg.pay ... lOrName;alexa-speak.js:70[42:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg.pay ... de.text;alexa-speak.js:71[42:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg.pay ... .volume;alexa-speak.js:76[46:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: (msg.pa ... OrName);alexa-speak.js:78[43:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: (msg.pa ... volume);alexa-speak.js:78[102:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg;alexa-speak.js:90[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg;alexa-speak.js:110[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-speak.js:24[34:36];Sink: msg;alexa-speak.js:126[39:41]::FLOW_DESCR_END","/alexa-speak.js","24","34","24","36"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;issurMelacha.js:160[35:37];Sink: [msg, null];issurMelacha.js:155[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;issurMelacha.js:160[35:37];Sink: [null, msg];issurMelacha.js:157[15:25]::FLOW_DESCR_END","/issurMelacha.js","160","35","160","37"

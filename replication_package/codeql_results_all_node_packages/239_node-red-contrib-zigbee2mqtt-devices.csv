@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devices-eurotronic.js:31[36:38];Sink: msg;devices-eurotronic.js:51[27:29]::FLOW_DESCR_END","/dist/nodes/devices-eurotronic.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devices-tasmota.js:13[36:38];Sink: msg;devices-tasmota.js:21[27:29]::FLOW_DESCR_END","/dist/nodes/devices-tasmota.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;override-nodes.js:25[27:29];Sink: msg;override-nodes.js:27[23:25]::FLOW_DESCR_END","/dist/nodes/override/override-nodes.js","25","27","25","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;override-nodes.js:38[27:29];Sink: msg;override-nodes.js:40[23:25]::FLOW_DESCR_END","/dist/nodes/override/override-nodes.js","38","27","38","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;override-nodes.js:51[27:29];Sink: msg;override-nodes.js:53[23:25]::FLOW_DESCR_END","/dist/nodes/override/override-nodes.js","51","27","51","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;override-nodes.js:64[27:29];Sink: msg;override-nodes.js:72[23:25]::FLOW_DESCR_END","/dist/nodes/override/override-nodes.js","64","27","64","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;override-nodes.js:83[27:29];Sink: msg;override-nodes.js:111[23:25]::FLOW_DESCR_END","/dist/nodes/override/override-nodes.js","83","27","83","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;scenes.js:51[26:28];Sink: index;scenes.js:121[42:46]::FLOW_DESCR_END","/dist/nodes/scenes.js","51","26","51","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;devices-shelly-25.js:84[36:38];Sink: utils.o ... 1, msg);devices-shelly-25.js:106[23:80]::FLOW_DESCR_END","/dist/non-z2m-nodes/devices-shelly-25.js","84","36","84","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ota.js:196[36:38];Sink: updateableDevices;ota.js:71[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ota.js:196[36:38];Sink: currentDevice;ota.js:120[46:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ota.js:196[36:38];Sink: updateableDevices;ota.js:134[54:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ota.js:196[36:38];Sink: device;ota.js:170[88:93]::FLOW_DESCR_END","/dist/ota.js","196","36","196","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;zigbee2mqtt-config.js:106[76:82];Sink: message;zigbee2mqtt-config.js:107[28:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;zigbee2mqtt-config.js:106[76:82];Sink: message.message;zigbee2mqtt-config.js:109[31:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;zigbee2mqtt-config.js:106[76:82];Sink: message.message;zigbee2mqtt-config.js:112[32:46]::FLOW_DESCR_END","/dist/zigbee2mqtt-config.js","106","76","106","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zigbee2mqtt.js:87[36:38];Sink: msg;zigbee2mqtt.js:115[23:25]::FLOW_DESCR_END","/dist/zigbee2mqtt.js","87","36","87","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zigbee2mqtt.js:134[36:38];Sink: obj;utils.js:72[70:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zigbee2mqtt.js:134[36:38];Sink: message.topic;zigbee2mqtt.js:191[44:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;zigbee2mqtt.js:134[36:38];Sink: message.payload;zigbee2mqtt.js:191[59:73]::FLOW_DESCR_END","/dist/zigbee2mqtt.js","134","36","134","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;zigbee2mqtt.js:249[36:38];Sink: output;utils.js:24[15:20]::FLOW_DESCR_END","/dist/zigbee2mqtt.js","249","36","249","38"

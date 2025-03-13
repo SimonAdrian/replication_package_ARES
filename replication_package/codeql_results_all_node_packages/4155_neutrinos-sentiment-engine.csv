@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;neutrinos-sentiment.js:15[32:34];Sink: msg;neutrinos-sentiment.js:29[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neutrinos-sentiment.js:15[32:34];Sink: msg;neutrinos-sentiment.js:59[73:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neutrinos-sentiment.js:15[32:34];Sink: msg;neutrinos-sentiment.js:68[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neutrinos-sentiment.js:15[32:34];Sink: msg;neutrinos-sentiment.js:71[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;neutrinos-sentiment.js:15[32:34];Sink: msg;neutrinos-sentiment.js:87[21:23]::FLOW_DESCR_END","/neutrinos-sentiment.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;neutrinos-sentiment.js:55[31:35];Sink: error;neutrinos-sentiment.js:68[24:28]::FLOW_DESCR_END","/neutrinos-sentiment.js","55","31","55","35"

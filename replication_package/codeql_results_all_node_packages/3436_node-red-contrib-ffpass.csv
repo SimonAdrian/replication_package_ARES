@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffpass.js:20[42:44];Sink: msg;ffpass.js:41[18:20]::FLOW_DESCR_END","/ffpass/ffpass.js","20","42","20","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffpass.js:51[42:44];Sink: msg;ffpass.js:78[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffpass.js:51[42:44];Sink: `Comman ... ock""].`;ffpass.js:80[27:121]::FLOW_DESCR_END","/ffpass/ffpass.js","51","42","51","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffpass.js:91[42:44];Sink: msg;ffpass.js:113[23:25]::FLOW_DESCR_END","/ffpass/ffpass.js","91","42","91","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffpass.js:123[42:44];Sink: msg;ffpass.js:145[23:25]::FLOW_DESCR_END","/ffpass/ffpass.js","123","42","123","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffpass.js:155[42:44];Sink: msg;ffpass.js:177[23:25]::FLOW_DESCR_END","/ffpass/ffpass.js","155","42","155","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffpass.js:187[42:44];Sink: msg;ffpass.js:209[23:25]::FLOW_DESCR_END","/ffpass/ffpass.js","187","42","187","44"

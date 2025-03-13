@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;UDPserver.js:31[28:30];Sink: err.stack;UDPserver.js:32[48:56]::FLOW_DESCR_END","/dist/_utilites/UDPserver.js","31","28","31","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;UDPserver.js:34[31:33];Sink: msg.toString();UDPserver.js:40[54:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UDPserver.js:34[31:33];Sink: msg.toString();UDPserver.js:43[56:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UDPserver.js:34[31:33];Sink: msg.toString();UDPserver.js:46[55:68]::FLOW_DESCR_END","/dist/_utilites/UDPserver.js","34","31","34","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;UDPserverClass.js:36[41:43];Sink: err.stack;UDPserverClass.js:37[49:57]::FLOW_DESCR_END","/dist/_utilites/UDPserverClass.js","36","41","36","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;UDPserverClass.js:40[44:46];Sink: msg.toString();UDPserverClass.js:49[59:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UDPserverClass.js:40[44:46];Sink: msg.toString();UDPserverClass.js:52[61:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UDPserverClass.js:40[44:46];Sink: msg.toString();UDPserverClass.js:55[60:73]::FLOW_DESCR_END","/dist/_utilites/UDPserverClass.js","40","44","40","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;getSavedRemoteControllers.js:53[33:35];Sink: err.stack;getSavedRemoteControllers.js:54[92:100]::FLOW_DESCR_END","/dist/_utilites/getSavedRemoteControllers.js","53","33","53","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;httpRequest.js:42[29:31];Sink: err.stack;httpRequest.js:43[36:44]::FLOW_DESCR_END","/dist/_utilites/httpRequest.js","42","29","42","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;AC_node.ts:47[33:35];Sink: msg;logger.ts:4[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;AC_node.ts:47[33:35];Sink: msg;logger.ts:5[16:18]::FLOW_DESCR_END","/src/AC node/AC_node.ts","47","33","47","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;UDPserverClass.ts:29[37:39];Sink: err.stack;UDPserverClass.ts:30[45:53]::FLOW_DESCR_END","/src/_utilites/UDPserverClass.ts","29","37","29","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;UDPserverClass.ts:34[46:48];Sink: msg.toString();UDPserverClass.ts:43[55:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UDPserverClass.ts:34[46:48];Sink: msg.toString();UDPserverClass.ts:46[57:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;UDPserverClass.ts:34[46:48];Sink: msg.toString();UDPserverClass.ts:49[56:69]::FLOW_DESCR_END","/src/_utilites/UDPserverClass.ts","34","46","34","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;getSavedRemoteControllers.ts:24[33:35];Sink: err.stack;getSavedRemoteControllers.ts:25[92:100]::FLOW_DESCR_END","/src/_utilites/getSavedRemoteControllers.ts","24","33","24","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;httpRequest.ts:17[33:35];Sink: err.stack;httpRequest.ts:18[40:48]::FLOW_DESCR_END","/src/_utilites/httpRequest.ts","17","33","17","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.ts:49[33:35];Sink: msg;logger.ts:4[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.ts:49[33:35];Sink: msg;logger.ts:5[16:18]::FLOW_DESCR_END","/src/node/node.ts","49","33","49","35"

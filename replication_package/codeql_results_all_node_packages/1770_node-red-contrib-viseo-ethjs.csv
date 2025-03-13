@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-ethjs-account.js:14[27:30];Sink: data;node-ethjs-account.js:41[15:18]::FLOW_DESCR_END","/node-ethjs-account.js","14","27","14","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-ethjs-transaction.js:26[31:34];Sink: data;node-ethjs-transaction.js:56[31:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ethjs-transaction.js:26[31:34];Sink: data;node-ethjs-transaction.js:87[23:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;node-ethjs-transaction.js:26[31:34];Sink: data;node-ethjs-transaction.js:101[27:30]::FLOW_DESCR_END","/node-ethjs-transaction.js","26","31","26","34"

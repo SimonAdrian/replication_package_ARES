@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lftp.js:299[33:35];Sink: ""invali ... eration;lftp.js:332[24:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lftp.js:299[33:35];Sink: msg;lftp.js:332[65:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lftp.js:299[33:35];Sink: msg;lftp.js:336[29:31]::FLOW_DESCR_END","/lftp.js","299","33","299","35"

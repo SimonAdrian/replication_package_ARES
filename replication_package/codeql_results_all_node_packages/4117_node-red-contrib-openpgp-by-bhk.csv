@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openpgp.js:9[41:43];Sink: msg;openpgp.js:18[23:25]::FLOW_DESCR_END","/openpgp/openpgp.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openpgp.js:26[41:43];Sink: msg;openpgp.js:52[23:25]::FLOW_DESCR_END","/openpgp/openpgp.js","26","41","26","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openpgp.js:59[41:43];Sink: msg;openpgp.js:72[23:25]::FLOW_DESCR_END","/openpgp/openpgp.js","59","41","59","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openpgp.js:79[41:43];Sink: msg;openpgp.js:98[23:25]::FLOW_DESCR_END","/openpgp/openpgp.js","79","41","79","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;openpgp.js:105[41:43];Sink: msg;openpgp.js:130[23:25]::FLOW_DESCR_END","/openpgp/openpgp.js","105","41","105","43"

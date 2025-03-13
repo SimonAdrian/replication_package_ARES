@@ -1,0 +1,85 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;downloader.js:22[36:38];Sink: msg;downloader.js:50[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;downloader.js:22[36:38];Sink: msg;downloader.js:56[30:32]::FLOW_DESCR_END","/src/downloader.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filter.js:89[36:38];Sink: output;filter.js:78[59:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:89[36:38];Sink: output;filter.js:81[61:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:89[36:38];Sink: msg;filter.js:134[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:89[36:38];Sink: msg;filter.js:156[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;filter.js:89[36:38];Sink: msg;filter.js:170[30:32]::FLOW_DESCR_END","/src/filter.js","89","36","89","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: node.saveLocation;formComponent.js:87[56:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: node.saveLocation;formComponent.js:90[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: node.saveLocation;formComponent.js:351[45:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: location;formComponent.js:351[64:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: node.saveLocation;formComponent.js:354[47:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: location;formComponent.js:354[66:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;formComponent.js:62[35:37];Sink: msg;formComponent.js:360[18:20]::FLOW_DESCR_END","/src/formComponent.js","62","35","62","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;formSetup.js:38[36:38];Sink: msg;formSetup.js:115[18:20]::FLOW_DESCR_END","/src/formSetup.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.location;formUpdater.js:12[25:39];Sink: firstProperty;sme-main-core.js:176[78:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.location;formUpdater.js:12[25:39];Sink: firstProperty;sme-main-core.js:178[82:94]::FLOW_DESCR_END","/src/formUpdater.js","12","25","12","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;formUpdater.js:19[36:38];Sink: msg;formUpdater.js:43[18:20]::FLOW_DESCR_END","/src/formUpdater.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.location;formUpdater.js:24[86:98];Sink: firstProperty;sme-main-core.js:176[78:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.location;formUpdater.js:24[86:98];Sink: firstProperty;sme-main-core.js:178[82:94]::FLOW_DESCR_END","/src/formUpdater.js","24","86","24","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message.js:77[35:37];Sink: msg;message.js:244[18:20]::FLOW_DESCR_END","/src/message.js","77","35","77","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: r;sender.js:181[60:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: r;sender.js:204[60:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: requestIdToSave;sender.js:397[85:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: requestIdToSave;sender.js:400[87:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: msg;sender.js:410[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: smeMsg;sender.js:423[64:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: msg;sender.js:480[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sender.js:64[36:38];Sink: msg;sender.js:487[38:40]::FLOW_DESCR_END","/src/sender.js","64","36","64","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.d ... ssageId;sender.js:436[63:96];Sink: entityToSave;sender.js:466[96:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.d ... ssageId;sender.js:436[63:96];Sink: entityToSave;sender.js:469[98:109]::FLOW_DESCR_END","/src/sender.js","436","63","436","96"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.d ... Message;sender.js:436[63:85];Sink: entityToSave;sender.js:466[96:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.d ... Message;sender.js:436[63:85];Sink: entityToSave;sender.js:469[98:109]::FLOW_DESCR_END","/src/sender.js","436","63","436","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.d ... pChatId;sender.js:439[63:103];Sink: entityToSave;sender.js:466[96:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.d ... pChatId;sender.js:439[63:103];Sink: entityToSave;sender.js:469[98:109]::FLOW_DESCR_END","/src/sender.js","439","63","439","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.d ... oupChat;sender.js:439[63:90];Sink: entityToSave;sender.js:466[96:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.d ... oupChat;sender.js:439[63:90];Sink: entityToSave;sender.js:469[98:109]::FLOW_DESCR_END","/src/sender.js","439","63","439","90"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.d ... annelId;sender.js:442[63:99];Sink: entityToSave;sender.js:466[96:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.d ... annelId;sender.js:442[63:99];Sink: entityToSave;sender.js:469[98:109]::FLOW_DESCR_END","/src/sender.js","442","63","442","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.d ... Channel;sender.js:442[63:88];Sink: entityToSave;sender.js:466[96:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.d ... Channel;sender.js:442[63:88];Sink: entityToSave;sender.js:469[98:109]::FLOW_DESCR_END","/src/sender.js","442","63","442","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... .server;sme-main-connector.js:31[43:65];Sink: `${getT ... L}... `;sme-main-core.js:288[25:78]::FLOW_DESCR_END","/src/sme-main-connector.js","31","43","31","65"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sme-main-core.js:331[44:46];Sink: msg;sme-main-core.js:339[48:50]::FLOW_DESCR_END","/src/sme-main-core.js","331","44","331","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-main-core.js:342[42:44];Sink: `${getT ... ${err}`;sme-main-core.js:343[31:68]::FLOW_DESCR_END","/src/sme-main-core.js","342","42","342","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;sme-main-core.js:449[48:50];Sink: error;sme-main-connector.js:135[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sme-main-core.js:449[48:50];Sink: error;sme-main-connector.js:157[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sme-main-core.js:449[48:50];Sink: error;sme-main-connector.js:183[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sme-main-core.js:449[48:50];Sink: error;sme-main-connector.js:184[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;sme-main-core.js:449[48:50];Sink: error;sme-main-core.js:452[87:91]::FLOW_DESCR_END","/src/sme-main-core.js","449","48","449","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: buffer;sme-main-core.js:525[41:46];Sink: jsonData;sme-main-core.js:534[118:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: buffer;sme-main-core.js:525[41:46];Sink: totalBuffer;sme-main-core.js:538[111:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: buffer;sme-main-core.js:525[41:46];Sink: totalBuffer;sme-main-core.js:545[99:109]::FLOW_DESCR_END","/src/sme-main-core.js","525","41","525","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sme-main-core.js:556[38:38];Sink: error;sme-main-connector.js:135[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;sme-main-core.js:556[38:38];Sink: error;sme-main-connector.js:157[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;sme-main-core.js:556[38:38];Sink: error;sme-main-connector.js:183[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;sme-main-core.js:556[38:38];Sink: error;sme-main-connector.js:184[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;sme-main-core.js:556[38:38];Sink: e;sme-main-core.js:557[82:82]::FLOW_DESCR_END","/src/sme-main-core.js","556","38","556","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tunnel.js:48[42:44];Sink: `TCP error: ${err}`;tunnel.js:49[29:47]::FLOW_DESCR_END","/src/tunnel.js","48","42","48","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;tunnel.js:86[28:36];Sink: clientAddr;tunnel.js:58[52:61]::FLOW_DESCR_END","/src/tunnel.js","86","28","86","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;tunnel.js:87[28:36];Sink: clientPort;tunnel.js:58[40:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;tunnel.js:87[28:36];Sink: ""Local  ... entPort;tunnel.js:99[18:44]::FLOW_DESCR_END","/src/tunnel.js","87","28","87","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tunnel.js:130[32:34];Sink: log;tunnel.js:76[22:24]::FLOW_DESCR_END","/src/tunnel.js","130","32","130","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;tunnel.js:206[21:31];Sink: clientAddr;tunnel.js:58[52:61]::FLOW_DESCR_END","/src/tunnel.js","206","21","206","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: ""Comman ... Command;tunnel.js:220[22:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Openin ... oOpen}`;tunnel.js:271[38:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Opened ... .port}`;tunnel.js:284[50:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Could  ... oOpen}`;tunnel.js:295[50:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Stoppe ... .name}`;tunnel.js:315[38:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Deleti ... nelId}`;tunnel.js:320[38:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Delete ... elete}`;tunnel.js:334[50:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Could  ... elete}`;tunnel.js:342[50:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tunnel.js:217[36:38];Sink: `Invali ... mmand}`;tunnel.js:355[34:73]::FLOW_DESCR_END","/src/tunnel.js","217","36","217","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.data.tunnelId;tunnel.js:243[57:75];Sink: `Create ... .name}`;tunnel.js:244[50:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.data.tunnelId;tunnel.js:243[57:75];Sink: `Stoppe ... .name}`;tunnel.js:315[38:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.data.tunnelId;tunnel.js:243[57:75];Sink: `Deleti ... nelId}`;tunnel.js:320[38:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.data.tunnelId;tunnel.js:243[57:75];Sink: `Delete ... elete}`;tunnel.js:334[50:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.data.tunnelId;tunnel.js:243[57:75];Sink: `Could  ... elete}`;tunnel.js:342[50:93]::FLOW_DESCR_END","/src/tunnel.js","243","57","243","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.data.port;tunnel.js:284[104:118];Sink: `Opened ... .port}`;tunnel.js:284[50:120]::FLOW_DESCR_END","/src/tunnel.js","284","104","284","118"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.data.host;tunnel.js:289[56:70];Sink: ""Server ... hServer;tunnel.js:103[18:38]::FLOW_DESCR_END","/src/tunnel.js","289","56","289","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.data.username;tunnel.js:290[58:76];Sink: ""Userna ... sername;tunnel.js:100[18:43]::FLOW_DESCR_END","/src/tunnel.js","290","58","290","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.data.port;tunnel.js:291[57:71];Sink: log;tunnel.js:76[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: value.data.port;tunnel.js:291[57:71];Sink: ""Remote ... verPort;tunnel.js:98[18:45]::FLOW_DESCR_END","/src/tunnel.js","291","57","291","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: value.data.tunnelUrl;tunnel.js:292[56:75];Sink: ""Tunnel ... nnelUrl;tunnel.js:101[18:41]::FLOW_DESCR_END","/src/tunnel.js","292","56","292","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;uploader.js:20[36:38];Sink: msg;uploader.js:42[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;uploader.js:20[36:38];Sink: msg;uploader.js:48[30:32]::FLOW_DESCR_END","/src/uploader.js","20","36","20","38"

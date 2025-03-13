@@ -1,0 +1,57 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;AwoxRequest.js:233[33:35];Sink: err;AwoxRequest.js:234[24:26]::FLOW_DESCR_END","/awox/AwoxRequest.js","233","33","233","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;AwoxRequest.js:303[33:35];Sink: err;AwoxRequest.js:304[22:24]::FLOW_DESCR_END","/awox/AwoxRequest.js","303","33","303","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: msg;AwoxRequest.js:136[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: msg;AwoxRequest.js:144[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: value;AwoxRequest.js:242[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: msg;AwoxRequest.js:304[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: msg;color.js:33[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;color.js:16[35:37];Sink: msg;color.js:42[31:33]::FLOW_DESCR_END","/awox/color.js","16","35","16","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;AwoxRequest.js:108[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;AwoxRequest.js:119[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;AwoxRequest.js:123[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;AwoxRequest.js:304[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;mute.js:33[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mute.js:14[35:37];Sink: msg;mute.js:46[31:33]::FLOW_DESCR_END","/awox/mute.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;playaudio.js:14[35:37];Sink: msg;AwoxRequest.js:51[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playaudio.js:14[35:37];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playaudio.js:14[35:37];Sink: value;AwoxRequest.js:242[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playaudio.js:14[35:37];Sink: msg;playaudio.js:19[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playaudio.js:14[35:37];Sink: node.bulb_uri;playaudio.js:19[36:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;playaudio.js:14[35:37];Sink: msg;playaudio.js:23[31:33]::FLOW_DESCR_END","/awox/playaudio.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;say.js:13[35:37];Sink: msg;AwoxRequest.js:43[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;say.js:13[35:37];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;say.js:13[35:37];Sink: value;AwoxRequest.js:242[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;say.js:13[35:37];Sink: msg;say.js:23[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;say.js:13[35:37];Sink: msg;say.js:30[31:33]::FLOW_DESCR_END","/awox/say.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;switchonoff.js:14[35:37];Sink: msg;AwoxRequest.js:91[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switchonoff.js:14[35:37];Sink: msg;AwoxRequest.js:100[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switchonoff.js:14[35:37];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switchonoff.js:14[35:37];Sink: msg;AwoxRequest.js:304[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switchonoff.js:14[35:37];Sink: msg;switchonoff.js:31[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;switchonoff.js:14[35:37];Sink: msg;switchonoff.js:44[31:33]::FLOW_DESCR_END","/awox/switchonoff.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;AwoxRequest.js:27[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;AwoxRequest.js:35[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: value;AwoxRequest.js:242[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;AwoxRequest.js:304[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;volume.js:30[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;volume.js:41[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;volume.js:14[29:31];Sink: msg;volume.js:55[16:18]::FLOW_DESCR_END","/awox/volume.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;AwoxRequest.js:59[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;AwoxRequest.js:67[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: value;AwoxRequest.js:242[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;AwoxRequest.js:304[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;whitebrightness.js:30[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;whitebrightness.js:41[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitebrightness.js:14[29:31];Sink: msg;whitebrightness.js:55[16:18]::FLOW_DESCR_END","/awox/whitebrightness.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;AwoxRequest.js:75[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;AwoxRequest.js:83[13:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;AwoxRequest.js:234[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: value;AwoxRequest.js:242[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;AwoxRequest.js:304[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;whitetemperature.js:30[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;whitetemperature.js:41[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;whitetemperature.js:14[29:31];Sink: msg;whitetemperature.js:55[16:18]::FLOW_DESCR_END","/awox/whitetemperature.js","14","29","14","31"

@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dml.js:10[31:33];Sink: msg;dml.js:91[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dml.js:10[31:33];Sink: msg;dml.js:95[25:27]::FLOW_DESCR_END","/dml.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;obm.js:9[31:33];Sink: msg;obm.js:37[23:25]::FLOW_DESCR_END","/obm.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soql.js:10[31:33];Sink: msg;soql.js:55[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soql.js:10[31:33];Sink: msg;soql.js:59[25:27]::FLOW_DESCR_END","/soql.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sosl.js:10[31:33];Sink: msg;sosl.js:56[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sosl.js:10[31:33];Sink: msg;sosl.js:60[25:27]::FLOW_DESCR_END","/sosl.js","10","31","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;streaming.js:43[35:37];Sink: err;streaming.js:45[18:20]::FLOW_DESCR_END","/streaming.js","43","35","43","37"

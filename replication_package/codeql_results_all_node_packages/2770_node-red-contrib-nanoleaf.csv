@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;advanced.js:11[27:29];Sink: msg.payload || {};advanced.js:19[55:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced.js:11[27:29];Sink: msg.payload || {};advanced.js:22[56:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;advanced.js:11[27:29];Sink: msg;advanced.js:31[27:29]::FLOW_DESCR_END","/nodes/advanced.js","11","27","11","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;brightness.js:12[27:29];Sink: `Unknow ... load)}`;brightness.js:24[28:96]::FLOW_DESCR_END","/nodes/brightness.js","12","27","12","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;color.js:38[36:38];Sink: `Unable ... load)}`;color.js:48[28:92]::FLOW_DESCR_END","/nodes/color.js","38","36","38","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;effect.js:10[27:29];Sink: `Unknow ... load)}`;effect.js:18[28:96]::FLOW_DESCR_END","/nodes/effect.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;effects.js:25[36:38];Sink: msg;effects.js:36[31:33]::FLOW_DESCR_END","/nodes/effects.js","25","36","25","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;information.js:10[27:29];Sink: msg;information.js:15[31:33]::FLOW_DESCR_END","/nodes/information.js","10","27","10","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;new-access-token.js:9[36:38];Sink: msg;new-access-token.js:16[31:33]::FLOW_DESCR_END","/nodes/new-access-token.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;new-access-token.js:10[34:44];Sink: `http:/ ... query}`;new-access-token.js:10[24:76]::FLOW_DESCR_END","/nodes/new-access-token.js","10","34","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;new-access-token.js:10[49:59];Sink: `http:/ ... query}`;new-access-token.js:10[24:76]::FLOW_DESCR_END","/nodes/new-access-token.js","10","49","10","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;power-status.js:22[27:29];Sink: msg;power-status.js:29[31:33]::FLOW_DESCR_END","/nodes/power-status.js","22","27","22","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;power.js:10[27:29];Sink: `Unreco ... load)}`;power.js:23[28:101]::FLOW_DESCR_END","/nodes/power.js","10","27","10","29"

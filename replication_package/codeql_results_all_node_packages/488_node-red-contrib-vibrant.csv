@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vibrant.js:81[36:38];Sink: msg;vibrant.js:29[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.js:81[36:38];Sink: msg;vibrant.js:38[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.js:81[36:38];Sink: msg;vibrant.js:57[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.js:81[36:38];Sink: msg;vibrant.js:65[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.js:81[36:38];Sink: msg;vibrant.js:73[47:49]::FLOW_DESCR_END","/dist/vibrant.js","81","36","81","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;vibrant.ts:57[41:43];Sink: msg;vibrant.ts:19[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.ts:57[41:43];Sink: msg;vibrant.ts:24[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.ts:57[41:43];Sink: msg;vibrant.ts:39[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.ts:57[41:43];Sink: msg;vibrant.ts:44[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;vibrant.ts:57[41:43];Sink: msg;vibrant.ts:49[44:46]::FLOW_DESCR_END","/src/vibrant.ts","57","41","57","43"

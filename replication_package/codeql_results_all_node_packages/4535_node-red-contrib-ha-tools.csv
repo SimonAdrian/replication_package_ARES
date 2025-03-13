@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mtopic;bemfa.js:15[51:56];Sink: mtopic;bemfa.js:20[33:38]::FLOW_DESCR_END","/bemfa/bemfa.js","15","51","15","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: mpayload;bemfa.js:15[59:66];Sink: payload;bemfa.js:20[41:47]::FLOW_DESCR_END","/bemfa/bemfa.js","15","59","15","66"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;keyboard.js:18[35:38];Sink: `stdout: ${data}`;keyboard.js:19[29:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;keyboard.js:18[35:38];Sink: data;keyboard.js:31[33:36]::FLOW_DESCR_END","/keyboard/keyboard.js","18","35","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;qiaodao_jd.js:23[39:42];Sink: data.toString();qiaodao_jd.js:24[33:47]::FLOW_DESCR_END","/qiaodao_jd/qiaodao_jd.js","23","39","23","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;qiaodao_jd.js:28[39:42];Sink: data.toString();qiaodao_jd.js:29[39:53]::FLOW_DESCR_END","/qiaodao_jd/qiaodao_jd.js","28","39","28","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;qiaodao_jd.js:32[33:36];Sink: code;qiaodao_jd.js:33[39:42]::FLOW_DESCR_END","/qiaodao_jd/qiaodao_jd.js","32","33","32","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;yoosee.js:8[36:38];Sink: ""SET_PA ... \n\r\n"";yoosee.js:26[30:38]::FLOW_DESCR_END","/yoosee/yoosee.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;yoosee.js:24[41:44];Sink: 'Received: ' + data;yoosee.js:25[29:47]::FLOW_DESCR_END","/yoosee/yoosee.js","24","41","24","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;xiaodu.js:15[19:22];Sink: accessToken;xiaodu.js:18[21:31]::FLOW_DESCR_END","/xiaodu/xiaodu.js","15","19","15","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: accessToken;xiaodu.js:17[17:27];Sink: accessToken;xiaodu.js:18[21:31]::FLOW_DESCR_END","/xiaodu/xiaodu.js","17","17","17","27"

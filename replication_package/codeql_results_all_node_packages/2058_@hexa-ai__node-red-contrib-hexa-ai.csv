@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entry;warp10.js:64[30:34];Sink: bufferScript;warp10.js:101[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: entry;warp10.js:64[30:34];Sink: bufferScript;warp10.js:102[55:66]::FLOW_DESCR_END","/variables/history/warp10.js","64","30","64","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error.r ... message;warp10.js:105[27:53];Sink: ""Could  ... essage);warp10.js:106[22:107]::FLOW_DESCR_END","/variables/history/warp10.js","105","27","105","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;write-variable.js:28[32:34];Sink: 'hexa-a ... _value';write-variable.js:53[67:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-variable.js:28[32:34];Sink: 'hexa-a ... ggered';write-variable.js:96[67:122]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-variable.js:28[32:34];Sink: 'hexa-a ...  + name;write-variable.js:121[33:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;write-variable.js:28[32:34];Sink: 'variab ...  + name;write-variable.js:124[16:41]::FLOW_DESCR_END","/variables/write-variable.js","28","32","28","34"

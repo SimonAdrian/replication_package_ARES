@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;speech-to-text.js:7[33:35];Sink: msg;speech-to-text.js:23[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;speech-to-text.js:7[33:35];Sink: audioData;config-generator.js:8[26:34]::FLOW_DESCR_END","/speech-to-text/speech-to-text.js","7","33","7","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;text-to-speech.js:7[33:35];Sink: msg;text-to-speech.js:23[39:41]::FLOW_DESCR_END","/text-to-speech/text-to-speech.js","7","33","7","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... lePath);translation-driver.js:77[15:52];Sink: audioData;config-generator.js:8[26:34]::FLOW_DESCR_END","/translation/translation-driver.js","77","15","77","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translation.js:7[33:35];Sink: msg;translation.js:23[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;translation.js:7[33:35];Sink: audioData;config-generator.js:8[26:34]::FLOW_DESCR_END","/translation/translation.js","7","33","7","35"

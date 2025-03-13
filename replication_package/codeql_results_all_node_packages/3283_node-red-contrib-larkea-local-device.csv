@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;larkea_oauth.js:77[45:48];Sink: body;larkea_oauth.js:84[49:52]::FLOW_DESCR_END","/nodes/larkea_oauth.js","77","45","77","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;larkea_oauth.js:111[49:52];Sink: body;larkea_oauth.js:128[55:58]::FLOW_DESCR_END","/nodes/larkea_oauth.js","111","49","111","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;larkea_public.js:63[35:37];Sink: msg;larkea_public.js:67[51:53]::FLOW_DESCR_END","/nodes/larkea_public.js","63","35","63","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: done;larkea_public.js:63[44:47];Sink: done;larkea_public.js:67[56:59]::FLOW_DESCR_END","/nodes/larkea_public.js","63","44","63","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;larkea_public.js:130[34:36];Sink: err;larkea_public.js:134[53:55]::FLOW_DESCR_END","/nodes/larkea_public.js","130","34","130","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;larkea_public.js:153[34:36];Sink: err;larkea_public.js:157[54:56]::FLOW_DESCR_END","/nodes/larkea_public.js","153","34","153","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;larkea_public.js:176[34:36];Sink: err;larkea_public.js:180[56:58]::FLOW_DESCR_END","/nodes/larkea_public.js","176","34","176","36"

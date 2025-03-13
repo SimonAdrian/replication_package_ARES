@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... eviceid;node-red-artik-cloud.js:55[16:40];Sink: registerMessage;node-red-artik-cloud.js:114[15:29]::FLOW_DESCR_END","/node-red-artik-cloud.js","55","16","55","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... s.token;node-red-artik-cloud.js:56[13:34];Sink: registerMessage;node-red-artik-cloud.js:114[15:29]::FLOW_DESCR_END","/node-red-artik-cloud.js","56","13","56","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-red-artik-cloud.js:66[33:36];Sink: msgObj.data;node-red-artik-cloud.js:106[23:33]::FLOW_DESCR_END","/node-red-artik-cloud.js","66","33","66","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-red-artik-cloud.js:81[32:35];Sink: msgObj.data;node-red-artik-cloud.js:138[23:33]::FLOW_DESCR_END","/node-red-artik-cloud.js","81","32","81","35"

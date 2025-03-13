@@ -1,0 +1,4 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dingding.js:6[36:38];Sink: contents;dingding.js:45[27:34]::FLOW_DESCR_END","/dingding/dingding.js","6","36","6","38"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;dingding.js:35[45:48];Sink: data;dingding.js:37[48:51]::FLOW_DESCR_END","/dingding/dingding.js","35","45","35","48"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;qywx.js:6[36:38];Sink: contents;qywx.js:35[27:34]::FLOW_DESCR_END","/qywx/qywx.js","6","36","6","38"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;qywx.js:25[45:48];Sink: data;qywx.js:27[48:51]::FLOW_DESCR_END","/qywx/qywx.js","25","45","25","48"

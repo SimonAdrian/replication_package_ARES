@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;request-ucg2.js:33[35:37];Sink: msg;request-ucg2.js:56[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;request-ucg2.js:33[35:37];Sink: msg;request-ucg2.js:136[85:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;request-ucg2.js:33[35:37];Sink: msg;request-ucg2.js:145[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;request-ucg2.js:33[35:37];Sink: msg;request-ucg2.js:148[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;request-ucg2.js:33[35:37];Sink: msg;request-ucg2.js:179[31:33]::FLOW_DESCR_END","/request-ucg2.js","33","35","33","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;request-ucg2.js:132[36:40];Sink: error;request-ucg2.js:145[36:40]::FLOW_DESCR_END","/request-ucg2.js","132","36","132","40"

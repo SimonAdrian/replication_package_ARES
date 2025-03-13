@@ -1,0 +1,163 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: msg;11-create-job-graphql.js:9[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: query;11-create-job-graphql.js:728[25:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: [msg, null];11-create-job-graphql.js:747[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: [null, msg];11-create-job-graphql.js:757[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: query;gql.js:174[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: cacheKey;mustache.js:521[45:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: cacheKey;mustache.js:525[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: tokens;mustache.js:525[45:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: origina ... ken[5]);mustache.js:605[40:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;11-create-job-graphql.js:732[38:40];Sink: `[${log ... ssage}`;flow.js:204[33:61]::FLOW_DESCR_END","/aiware/11-create-job-graphql.js","732","38","732","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: msg;15-tdo.js:7[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: tdoQuery;15-tdo.js:78[34:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: msg;15-tdo.js:268[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: [msg, null];15-tdo.js:308[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: [null, msg];15-tdo.js:329[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15-tdo.js:288[35:37];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/aiware/15-tdo.js","288","35","288","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: msg;16-sdo.js:258[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: [msg, null];16-sdo.js:296[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: [null, msg];16-sdo.js:318[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;16-sdo.js:279[35:37];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/aiware/16-sdo.js","279","35","279","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.sc ... records;17-correlation.js:52[28:68];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.sc ... records;17-correlation.js:52[28:68];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END","/aiware/17-correlation.js","52","28","52","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.sc ... Objects;17-correlation.js:52[28:60];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.sc ... Objects;17-correlation.js:52[28:60];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END","/aiware/17-correlation.js","52","28","52","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... .series;17-correlation.js:96[12:56];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... .series;17-correlation.js:96[12:56];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END","/aiware/17-correlation.js","96","12","96","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... sondata;17-correlation.js:96[12:49];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... sondata;17-correlation.js:96[12:49];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END","/aiware/17-correlation.js","96","12","96","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... ords[0];17-correlation.js:96[12:40];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ords[0];17-correlation.js:96[12:40];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END","/aiware/17-correlation.js","96","12","96","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... records;17-correlation.js:96[12:37];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... records;17-correlation.js:96[12:37];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END","/aiware/17-correlation.js","96","12","96","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: tdoDataQuery;17-correlation.js:88[34:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: so;17-correlation.js:337[22:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: po;17-correlation.js:353[27:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: msg;17-correlation.js:433[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: [msg, null];17-correlation.js:475[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: [null, msg];17-correlation.js:497[18:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;17-correlation.js:453[36:38];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/aiware/17-correlation.js","453","36","453","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: msg;19-analysis.js:40[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: msg;19-analysis.js:489[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: msg;19-analysis.js:494[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: msg;19-analysis.js:601[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: [ msg, null ];19-analysis.js:682[24:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: [ null, msg ];19-analysis.js:700[24:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;19-analysis.js:664[39:41];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END","/aiware/19-analysis.js","664","39","664","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: msg;20-create-job-rest.js:8[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: [msg, null];20-create-job-rest.js:826[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: [null, msg];20-create-job-rest.js:836[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: query;gql.js:174[56:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: query;gql.js:265[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: cacheKey;mustache.js:521[45:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: cacheKey;mustache.js:525[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: tokens;mustache.js:525[45:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: origina ... ken[5]);mustache.js:605[40:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-create-job-rest.js:813[38:40];Sink: `[${log ... ssage}`;flow.js:204[33:61]::FLOW_DESCR_END","/aiware/20-create-job-rest.js","813","38","813","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: [msg, null];21-export-request.js:17[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: [null, msg];21-export-request.js:27[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: msg;21-export-request.js:152[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-export-request.js:9[37:39];Sink: `[${log ... ssage}`;flow.js:204[33:61]::FLOW_DESCR_END","/aiware/21-export-request.js","9","37","9","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;7-vtn-std-validate.js:211[37:39];Sink: [null, msg];7-vtn-std-validate.js:150[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;7-vtn-std-validate.js:211[37:39];Sink: msg;7-vtn-std-validate.js:153[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;7-vtn-std-validate.js:211[37:39];Sink: [null, msg];7-vtn-std-validate.js:157[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;7-vtn-std-validate.js:211[37:39];Sink: instance;validator.js:197[45:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;7-vtn-std-validate.js:211[37:39];Sink: instance;validator.js:209[44:51]::FLOW_DESCR_END","/aiware/7-vtn-std-validate.js","211","37","211","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;9-in-out.js:111[23:25];Sink: msg;9-in-out.js:112[19:21]::FLOW_DESCR_END","/aiware/9-in-out.js","111","23","111","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: msg;9-in-out.js:227[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: msg;9-in-out.js:241[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: query;flow.js:74[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: FlowExecutionId;flow.js:92[54:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;9-in-out.js:143[32:34];Sink: query;flow.js:144[28:32]::FLOW_DESCR_END","/aiware/9-in-out.js","143","32","143","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... gory.id;cognition.js:187[27:48];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... gory.id;cognition.js:187[27:48];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... gory.id;cognition.js:187[27:48];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... gory.id;cognition.js:187[27:48];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/lib/cognition.js","187","27","187","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... ry.name;cognition.js:188[29:52];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ry.name;cognition.js:188[29:52];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ry.name;cognition.js:188[29:52];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ry.name;cognition.js:188[29:52];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/lib/cognition.js","188","29","188","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... pe.name;cognition.js:189[29:57];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... pe.name;cognition.js:189[29:57];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... pe.name;cognition.js:189[29:57];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... pe.name;cognition.js:189[29:57];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/lib/cognition.js","189","29","189","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.en ... ry.type;cognition.js:189[29:52];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ry.type;cognition.js:189[29:52];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ry.type;cognition.js:189[29:52];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.en ... ry.type;cognition.js:189[29:52];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END","/lib/cognition.js","189","29","189","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: quads.pop();d3.js:6399[14:24];Sink: node.data;d3.js:6430[40:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: quads.pop();d3.js:6399[14:24];Sink: node.data;d3.js:6431[40:48]::FLOW_DESCR_END","/lib/modules/d3.js","6399","14","6399","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-fetch.js:215[30:32];Sink: message;node-fetch.js:142[20:26]::FLOW_DESCR_END","/lib/modules/node-fetch.js","215","30","215","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-fetch.js:392[30:32];Sink: message;node-fetch.js:142[20:26]::FLOW_DESCR_END","/lib/modules/node-fetch.js","392","30","392","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-fetch.js:1454[29:31];Sink: message;node-fetch.js:142[20:26]::FLOW_DESCR_END","/lib/modules/node-fetch.js","1454","29","1454","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: query;1-graphql.js:8[21:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: msg.variables;1-graphql.js:8[28:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: msg.file;1-graphql.js:8[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: msg;10-config.js:6[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: query;12-search.js:111[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: query;12-search.js:118[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: query;5-structured-data.js:38[58:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: query;5-structured-data.js:55[58:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: data[i];d3.js:1010[45:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: data;d3.js:1010[57:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: _;d3.js:12374[52:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: object;mustache.js:15[32:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: this.view;mustache.js:478[26:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: cacheKey;mustache.js:521[45:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: cacheKey;mustache.js:525[35:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: tokens;mustache.js:525[45:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: context.view;mustache.js:605[26:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: origina ... ken[5]);mustache.js:605[40:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: body;node-fetch.js:195[103:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: obj;node-fetch.js:508[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: body;node-fetch.js:576[44:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: inputBody;node-fetch.js:1198[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: msg;nr.js:12[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: msg;nr.js:15[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nr.js:10[60:62];Sink: [null, msg];nr.js:21[19:29]::FLOW_DESCR_END","/lib/nr.js","10","60","10","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: password;6-me.js:6[9:16];Sink: loginQuery;6-me.js:17[40:49]::FLOW_DESCR_END","/aiware/6-me.js","6","9","6","16"

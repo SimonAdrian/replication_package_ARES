@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: collection;node-red-contrib-orchestrate.js:35[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: msg.key;node-red-contrib-orchestrate.js:35[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: msg.data;node-red-contrib-orchestrate.js:35[47:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: msg.match;node-red-contrib-orchestrate.js:35[57:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: collection;node-red-contrib-orchestrate.js:46[26:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: msg.key;node-red-contrib-orchestrate.js:46[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: msg.data;node-red-contrib-orchestrate.js:46[47:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: collection;node-red-contrib-orchestrate.js:58[25:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:27[33:35];Sink: msg.data;node-red-contrib-orchestrate.js:58[37:44]::FLOW_DESCR_END","/orchestrate/node-red-contrib-orchestrate.js","27","33","27","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:89[33:35];Sink: collection;node-red-contrib-orchestrate.js:95[24:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-orchestrate.js:89[33:35];Sink: msg.key;node-red-contrib-orchestrate.js:95[36:42]::FLOW_DESCR_END","/orchestrate/node-red-contrib-orchestrate.js","89","33","89","35"

@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create.js:8[42:44];Sink: msg;create.js:25[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;create.js:8[42:44];Sink: msg;create.js:27[35:37]::FLOW_DESCR_END","/corebos/create.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delete.js:8[42:44];Sink: msg;delete.js:28[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delete.js:8[42:44];Sink: msg;delete.js:30[35:37]::FLOW_DESCR_END","/corebos/delete.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;describe.js:8[42:44];Sink: msg;describe.js:35[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;describe.js:8[42:44];Sink: msg;describe.js:37[31:33]::FLOW_DESCR_END","/corebos/describe.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;invoke.js:8[42:44];Sink: msg;invoke.js:28[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;invoke.js:8[42:44];Sink: msg;invoke.js:30[35:37]::FLOW_DESCR_END","/corebos/invoke.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listtypes.js:8[42:44];Sink: msg;listtypes.js:30[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listtypes.js:8[42:44];Sink: msg;listtypes.js:32[31:33]::FLOW_DESCR_END","/corebos/listtypes.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;login.js:19[42:44];Sink: msg;login.js:48[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login.js:19[42:44];Sink: msg;login.js:50[27:29]::FLOW_DESCR_END","/corebos/login.js","19","42","19","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logout.js:8[42:44];Sink: msg;logout.js:21[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;logout.js:8[42:44];Sink: msg;logout.js:23[35:37]::FLOW_DESCR_END","/corebos/logout.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;retrieve.js:8[42:44];Sink: msg;retrieve.js:23[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;retrieve.js:8[42:44];Sink: msg;retrieve.js:25[35:37]::FLOW_DESCR_END","/corebos/retrieve.js","8","42","8","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update.js:8[42:44];Sink: msg;update.js:24[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;update.js:8[42:44];Sink: msg;update.js:26[35:37]::FLOW_DESCR_END","/corebos/update.js","8","42","8","44"

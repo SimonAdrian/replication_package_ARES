@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beam-base-node.js:51[19:21];Sink: node.pr ... g, err);beam-base-node.js:31[29:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beam-base-node.js:51[19:21];Sink: msg;beam-base-node.js:33[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beam-base-node.js:51[19:21];Sink: node.variables;beam-base-node.js:70[82:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beam-base-node.js:51[19:21];Sink: [[msg], null];beam-base-node.js:87[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beam-base-node.js:51[19:21];Sink: [null, [msg]];beam-base-node.js:90[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beam-base-node.js:51[19:21];Sink: payload;beam-client.js:54[21:27]::FLOW_DESCR_END","/libs/beam-base-node.js","51","19","51","21"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;beam-client.js:49[27:29];Sink: err.status;beam-config.js:46[22:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;beam-client.js:49[27:29];Sink: `Refres ... atus})`;beam-config.js:46[39:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;beam-client.js:49[27:29];Sink: err;beam-base-node.js:31[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;beam-client.js:49[27:29];Sink: node.pr ... g, err);beam-base-node.js:31[29:62]::FLOW_DESCR_END","/libs/beam-client.js","49","27","49","29"

@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;externaltask-error.js:9[36:38];Sink: `handle ... nceId}`;externaltask-error.js:25[31:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;externaltask-error.js:9[36:38];Sink: error;externaltask-error.js:25[63:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;externaltask-error.js:9[36:38];Sink: msg;externaltask-error.js:27[23:25]::FLOW_DESCR_END","/externaltask-error.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;externaltask-output.js:9[36:38];Sink: msg;externaltask-output.js:13[97:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;externaltask-output.js:9[36:38];Sink: `handle ... nceId}`;externaltask-output.js:16[31:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;externaltask-output.js:9[36:38];Sink: msg;externaltask-output.js:16[63:65]::FLOW_DESCR_END","/externaltask-output.js","9","36","9","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;message-event-trigger.js:6[36:38];Sink: msg;message-event-trigger.js:25[31:33]::FLOW_DESCR_END","/message-event-trigger.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;process-start.js:6[36:38];Sink: msg;process-start.js:29[31:33]::FLOW_DESCR_END","/process-start.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;processdefinition-query.js:6[36:38];Sink: msg;processdefinition-query.js:42[27:29]::FLOW_DESCR_END","/processdefinition-query.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;processinstance-query.js:6[36:38];Sink: msg;processinstance-query.js:22[31:33]::FLOW_DESCR_END","/processinstance-query.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signal-event-trigger.js:6[36:38];Sink: msg;signal-event-trigger.js:25[31:33]::FLOW_DESCR_END","/signal-event-trigger.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;usertask-input.js:6[36:38];Sink: msg;usertask-input.js:34[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;usertask-input.js:6[36:38];Sink: msg;usertask-input.js:40[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;usertask-input.js:6[36:38];Sink: msg;usertask-input.js:47[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;usertask-input.js:6[36:38];Sink: msg;usertask-input.js:56[39:41]::FLOW_DESCR_END","/usertask-input.js","6","36","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;usertask-output.js:6[36:38];Sink: msg;usertask-output.js:24[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;usertask-output.js:6[36:38];Sink: `No Use ... load)}`;usertask-output.js:30[28:89]::FLOW_DESCR_END","/usertask-output.js","6","36","6","38"

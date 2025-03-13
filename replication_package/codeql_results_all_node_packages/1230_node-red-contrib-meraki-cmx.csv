@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... lidator;merakiCMX.js:86[41:75];Sink: 'cmxSer ... lidator;merakiCMX.js:86[17:75]::FLOW_DESCR_END","/cmx/merakiCMX.js","86","41","86","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... lidator;merakiCMX.js:95[41:75];Sink: ""sendin ... lidator;merakiCMX.js:95[19:75]::FLOW_DESCR_END","/cmx/merakiCMX.js","95","41","95","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... lidator;merakiCMX.js:100[22:56];Sink: data.payload;merakiCMX.js:107[16:27]::FLOW_DESCR_END","/cmx/merakiCMX.js","100","22","100","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.se ... lidator;merakiCMX.js:129[28:62];Sink: data.payload;merakiCMX.js:107[16:27]::FLOW_DESCR_END","/cmx/merakiCMX.js","129","28","129","62"

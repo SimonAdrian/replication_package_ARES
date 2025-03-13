@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;newman.js:31[31:33];Sink: newmanOptions;newman.js:44[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newman.js:31[31:33];Sink: [msg, null];newman.js:88[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newman.js:31[31:33];Sink: [null, msg];newman.js:100[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;newman.js:31[31:33];Sink: msg;newman.js:106[78:80]::FLOW_DESCR_END","/newman/newman.js","31","31","31","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: args;newman.js:50[42:45];Sink: `Newman ... ${txt}`;newman.js:53[20:51]::FLOW_DESCR_END","/newman/newman.js","50","42","50","45"

@@ -1,0 +1,56 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: url;77-openhab2.js:155[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: errorMessage;77-openhab2.js:190[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: errorMessage;77-openhab2.js:191[45:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: errorMessage2;77-openhab2.js:202[23:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: errorMessage2;77-openhab2.js:203[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: ""Opened ...  sseUrl;77-openhab2.js:224[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: 'Error  ... r, 150);77-openhab2.js:272[11:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: errorMsg;77-openhab2.js:385[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: url;77-openhab2.js:406[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: ""Reques ...     url;77-openhab2.js:413[13:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: ""Reques ... "" + url;77-openhab2.js:419[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: ""Opened ...  sseUrl;77-openhab2.js:1032[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;77-openhab2.js:48[31:45];Sink: 'Error  ... r, 150);77-openhab2.js:1070[11:37]::FLOW_DESCR_END","/77-openhab2.js","48","31","48","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: url;77-openhab2.js:155[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: errorMessage;77-openhab2.js:190[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: errorMessage;77-openhab2.js:191[45:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: errorMessage2;77-openhab2.js:202[23:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: errorMessage2;77-openhab2.js:203[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: ""Opened ...  sseUrl;77-openhab2.js:224[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: 'Error  ... r, 150);77-openhab2.js:272[11:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: errorMsg;77-openhab2.js:385[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: url;77-openhab2.js:406[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: ""Reques ...     url;77-openhab2.js:413[13:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: ""Reques ... "" + url;77-openhab2.js:419[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: ""Opened ...  sseUrl;77-openhab2.js:1032[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.password;77-openhab2.js:49[37:51];Sink: 'Error  ... r, 150);77-openhab2.js:1070[11:37]::FLOW_DESCR_END","/77-openhab2.js","49","37","49","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: url;77-openhab2.js:155[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: errorMessage;77-openhab2.js:190[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: errorMessage;77-openhab2.js:191[45:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: errorMessage2;77-openhab2.js:202[23:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: errorMessage2;77-openhab2.js:203[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: ""Opened ...  sseUrl;77-openhab2.js:224[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: 'Error  ... r, 150);77-openhab2.js:272[11:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: errorMsg;77-openhab2.js:385[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: url;77-openhab2.js:406[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: ""Reques ...     url;77-openhab2.js:413[13:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: ""Reques ... "" + url;77-openhab2.js:419[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: ""Opened ...  sseUrl;77-openhab2.js:1032[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;77-openhab2.js:52[10:20];Sink: 'Error  ... r, 150);77-openhab2.js:1070[11:37]::FLOW_DESCR_END","/77-openhab2.js","52","10","52","20"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: url;77-openhab2.js:155[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: errorMessage;77-openhab2.js:190[23:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: errorMessage;77-openhab2.js:191[45:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: errorMessage2;77-openhab2.js:202[23:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: errorMessage2;77-openhab2.js:203[45:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: ""Opened ...  sseUrl;77-openhab2.js:224[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: 'Error  ... r, 150);77-openhab2.js:272[11:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: errorMsg;77-openhab2.js:385[43:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: url;77-openhab2.js:406[12:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: ""Reques ...     url;77-openhab2.js:413[13:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: ""Reques ... "" + url;77-openhab2.js:419[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: ""Opened ...  sseUrl;77-openhab2.js:1032[18:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;77-openhab2.js:55[18:28];Sink: 'Error  ... r, 150);77-openhab2.js:1070[11:37]::FLOW_DESCR_END","/77-openhab2.js","55","18","55","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response.data.length;77-openhab2.js:161[17:36];Sink: ""Connec ... vents."";77-openhab2.js:160[15:33]::FLOW_DESCR_END","/77-openhab2.js","161","17","161","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-openhab2.js:796[32:34];Sink: msg;77-openhab2.js:843[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;77-openhab2.js:796[32:34];Sink: msg;77-openhab2.js:863[21:23]::FLOW_DESCR_END","/77-openhab2.js","796","32","796","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;77-openhab2.js:918[32:34];Sink: msg;77-openhab2.js:976[23:25]::FLOW_DESCR_END","/77-openhab2.js","918","32","918","34"

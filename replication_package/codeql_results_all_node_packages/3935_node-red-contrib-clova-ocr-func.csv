@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clova-ocr-func.js:5[32:34];Sink: child.inferText;clova-ocr-func.js:11[23:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;clova-ocr-func.js:5[32:34];Sink: msg;clova-ocr-func.js:34[17:19]::FLOW_DESCR_END","/clova-ocr-func.js","5","32","5","34"

@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyip.js:14[32:34];Sink: msg;easyip.js:18[19:21]::FLOW_DESCR_END","/easyip.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyip.js:32[32:34];Sink: msg;easyip.js:34[17:19]::FLOW_DESCR_END","/easyip.js","32","32","32","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;easyip.js:52[44:47];Sink: info.address;easyip.js:53[35:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: info;easyip.js:52[44:47];Sink: info.port;easyip.js:53[49:57]::FLOW_DESCR_END","/easyip.js","52","44","52","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;easyip.js:56[40:42];Sink: err;easyip.js:57[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;easyip.js:56[40:42];Sink: err;easyip.js:58[33:35]::FLOW_DESCR_END","/easyip.js","56","40","56","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: operand;easyip.js:83[51:57];Sink: operand;easyip.js:84[49:55]::FLOW_DESCR_END","/easyip.js","83","51","83","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyip.js:116[34:36];Sink: msg.operand;easyip.js:124[44:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:116[34:36];Sink: msg.index;easyip.js:124[57:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:116[34:36];Sink: msg.payload;easyip.js:124[68:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:116[34:36];Sink: msg.operand;easyip.js:128[43:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:116[34:36];Sink: msg.index;easyip.js:128[56:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:116[34:36];Sink: msg.payload;easyip.js:128[67:77]::FLOW_DESCR_END","/easyip.js","116","34","116","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyip.js:160[34:36];Sink: msg;easyip.js:161[52:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:160[34:36];Sink: msg;easyip.js:172[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:160[34:36];Sink: msg;easyip.js:181[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:160[34:36];Sink: msg.addr;easyip.js:192[45:52]::FLOW_DESCR_END","/easyip.js","160","34","160","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;easyip.js:214[34:36];Sink: msg;easyip.js:215[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:214[34:36];Sink: msg;easyip.js:226[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:214[34:36];Sink: msg;easyip.js:235[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;easyip.js:214[34:36];Sink: msg.addr;easyip.js:246[45:52]::FLOW_DESCR_END","/easyip.js","214","34","214","36"

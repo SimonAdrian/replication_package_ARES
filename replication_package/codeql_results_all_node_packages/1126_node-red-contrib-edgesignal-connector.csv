@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;app-connector.js:56[32:36];Sink: error;app-connector.js:57[38:42]::FLOW_DESCR_END","/nodes/app-connector.js","56","32","56","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;app-connector.js:60[32:36];Sink: error;app-connector.js:61[38:42]::FLOW_DESCR_END","/nodes/app-connector.js","60","32","60","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;app-connector.js:65[34:38];Sink: `Applic ... ing()}`;app-connector.js:67[11:83]::FLOW_DESCR_END","/nodes/app-connector.js","65","34","65","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;app-connector.js:65[41:47];Sink: `Applic ... ing()}`;app-connector.js:67[11:83]::FLOW_DESCR_END","/nodes/app-connector.js","65","41","65","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;app-connector.js:76[37:39];Sink: err;app-connector.js:78[56:58]::FLOW_DESCR_END","/nodes/app-connector.js","76","37","76","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;app-connector.js:171[32:34];Sink: JSON.st ... essage);app-connector.js:106[34:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;app-connector.js:171[32:34];Sink: `Publis ... ssage}`;app-connector.js:115[23:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;app-connector.js:171[32:34];Sink: msg.payload;app-connector.js:172[59:69]::FLOW_DESCR_END","/nodes/app-connector.js","171","32","171","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;app-in.js:7[32:34];Sink: msg;app-in.js:26[14:16]::FLOW_DESCR_END","/nodes/app-in.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;app-in.js:14[45:55];Sink: `mqtt:/ ... .port}`;app-in.js:14[35:72]::FLOW_DESCR_END","/nodes/app-in.js","14","45","14","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;app-in.js:14[60:70];Sink: `mqtt:/ ... .port}`;app-in.js:14[35:72]::FLOW_DESCR_END","/nodes/app-in.js","14","60","14","70"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;app-out.js:7[32:34];Sink: msg;app-out.js:26[14:16]::FLOW_DESCR_END","/nodes/app-out.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;app-out.js:14[45:55];Sink: `mqtt:/ ... .port}`;app-out.js:14[35:72]::FLOW_DESCR_END","/nodes/app-out.js","14","45","14","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;app-out.js:14[60:70];Sink: `mqtt:/ ... .port}`;app-out.js:14[35:72]::FLOW_DESCR_END","/nodes/app-out.js","14","60","14","70"

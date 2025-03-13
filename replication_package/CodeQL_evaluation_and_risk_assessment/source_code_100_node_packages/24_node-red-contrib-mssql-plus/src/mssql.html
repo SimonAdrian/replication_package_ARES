@@ -1,0 +1,787 @@
+<style>
+    .mssql-plus-form-row>label {
+        width: 125px !important;
+    }
+    .mssql-plus-form-row>select {
+        width: 70% !important;
+    }
+    div.form-row.mssql-plus-form-row > input[type="checkbox"]{
+        width: unset;
+        margin-top: -2px;
+    }
+
+    div.form-row.mssql-plus-form-row > .form-tips {
+        width: calc(100% - 35px);
+    }
+
+    .mssql-plus-row-item {
+        margin: 2px 4px 2px 2px;
+    }
+
+    .mssql-plus-row {
+        flex-wrap: wrap;
+    }
+    .mssql-plus-hide-row {
+        display: none !important;
+    }
+
+    /* div.form-row.mssql-plus-form-row > input[type="text"]{
+        width: calc(100% - 135px);
+    }
+
+    div.form-row.mssql-plus-form-row > input[type="password"]{
+        width: calc(100% - 135px);
+    }
+
+    div.form-row.mssql-plus-form-row > select{
+        width: calc(100% - 135px);
+    }
+*/
+    div.form-row.mssql-plus-form-row > .form-tips {
+        width: calc(100% - 35px);
+    }
+
+    .mssql-plus-row-item {
+        /* margin: 2px 4px 2px 2px; */
+        margin: 0px 4px 0px 2px;
+    }
+
+    .mssql-plus-row {
+        flex-wrap: wrap;
+    }
+
+    ol .mssql-plus-row > .mssql-plus-row-item  input[type="checkbox"] {
+        width: 15px;
+        margin-left: 4px;
+        margin-top: -1px;
+        margin-right: 20px;
+    }
+    ol .mssql-plus-row > .mssql-plus-row-item  label {
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+
+
+</style>
+
+
+<script type="text/html" data-template-name="MSSQL-CN">
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-name" ><i class="fa fa-tag"></i> <span data-i18n="mssql.connection.label.name"></span></label>
+          <input type="text" id="node-config-input-name" data-i18n="[placeholder]mssql.connection.label.name_ph">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-server"><i class="fa fa-server"></i> <span data-i18n="mssql.connection.label.server"></span></label>
+          <input type="text" id="node-config-input-server" data-i18n="[placeholder]mssql.connection.label.server_ph">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-port"><i class="fa fa-random"></i> <span data-i18n="mssql.connection.label.port"></span></label>
+          <input type="text" id="node-config-input-port" data-i18n="[placeholder]mssql.connection.label.port">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-username"><i class="fa fa-user"></i> <span data-i18n="mssql.connection.label.username"></span></label>
+          <input type="text" id="node-config-input-username">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-password"><i class="fa fa-lock"></i> <span data-i18n="mssql.connection.label.password"></label>
+          <input type="password" id="node-config-input-password">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-domain"><i class="fa fa-user"></i> <span data-i18n="mssql.connection.label.domain"></label>
+          <input type="text" id="node-config-input-domain">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-database"><i class="fa fa-database"></i> <span data-i18n="mssql.connection.label.database"></label>
+          <input type="text" id="node-config-input-database">
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-tdsVersion"><i class="fa fa-list"></i> <span data-i18n="mssql.connection.label.tds.title"></label>
+          <select id="node-config-input-tdsVersion">
+              <option value="7_4" data-i18n="mssql.connection.label.tds.v7_4"></option>
+              <option value="7_3_B" data-i18n="mssql.connection.label.tds.v7_3_b"></option>
+              <option value="7_3_A" data-i18n="mssql.connection.label.tds.v7_3_a"></option>
+              <option value="7_2" data-i18n="mssql.connection.label.tds.v7_2"></option>
+              <option value="7_1" data-i18n="mssql.connection.label.tds.v7_1"></option>
+          </select>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-encyption"><i class="fa fa-lock"></i> <span data-i18n="mssql.connection.label.encryption"></label>
+          <input type="checkbox" id="node-config-input-encyption">
+          <div class="form-tips" data-i18n="mssql.connection.label.encryption_tip"></div>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-trustServerCertificate"><i class="fa fa-lock"></i> Trust Certificate?</label>
+          <input type="checkbox" id="node-config-input-trustServerCertificate">
+          <div class="form-tips">If unchecked, SQL Server will try to validate the server SSL certificate and will terminate the connection if validation fails</div>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-useUTC"><i class="fa fa-clock-o"></i> <span data-i18n="mssql.connection.label.utc"></label>
+          <input type="checkbox" id="node-config-input-useUTC">
+          <div class="form-tips" data-i18n="mssql.connection.label.utc_tip"></div>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-connectTimeout"><i class="fa fa-clock-o"></i> <span data-i18n="mssql.connection.label.connect_timeout"></label>
+          <input type="text" id="node-config-input-connectTimeout">
+          <div class="form-tips" data-i18n="mssql.connection.label.connect_timeout_tip"></div>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-requestTimeout"><i class="fa fa-clock-o"></i> <span data-i18n="mssql.connection.label.request_timeout"></label>
+          <input type="text" id="node-config-input-requestTimeout">
+          <div class="form-tips" data-i18n="mssql.connection.label.request_timeout_tip"></div>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-cancelTimeout"><i class="fa fa-clock-o"></i> <span data-i18n="mssql.connection.label.cancel_timeout"></label>
+          <input type="text" id="node-config-input-cancelTimeout">
+          <div class="form-tips"data-i18n="mssql.connection.label.cancel_timeout_tip"></div>
+      </div>
+      <div class="form-row mssql-plus-form-row">
+          <label for="node-config-input-pool"><i class="icon-bookmark"></i> <span data-i18n="mssql.connection.label.max_pool_size"></label>
+          <input type="text" id="node-config-input-pool" data-i18n="[placeholder]mssql.connection.label.max_pool_size">
+      </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-config-input-parseJSON"><i class="fa fa-file-o"></i> <span data-i18n="mssql.connection.label.parse_json"></label>
+        <input type="checkbox" id="node-config-input-parseJSON">
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-config-input-enableArithAbort" data-i18n="[title]mssql.connection.label.arith_abort_tooltip"><i class="fa fa-times"></i> <span data-i18n="mssql.connection.label.arith_abort"></label>
+        <input type="checkbox" id="node-config-input-enableArithAbort" checked  data-i18n="[title]mssql.connection.label.arith_abort_tooltip">
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-config-input-readOnlyIntent"><i class="fa fa-square-o"></i> <span data-i18n="mssql.connection.label.read_only_intent"></label>
+        <input type="checkbox" id="node-config-input-readOnlyIntent">
+    </div>
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('MSSQL-CN', {
+        category: 'config',
+        color: '#C0DEED',
+        defaults: {
+            tdsVersion: {
+                value: '7_4'
+            },
+            name: {
+                value: ''
+            },
+            server: {
+                value: '',
+                required: true
+            },
+            port: {
+                value: '1433'
+            },
+            encyption: {
+                value: true
+            },
+            trustServerCertificate: {
+                value: true
+            },
+            database: {
+                value: '',
+                required: false // database can be left blank but user should use full name in queries or a USE DB statment
+            },
+            useUTC: {
+                value: true
+            },
+            connectTimeout: {
+                value: '15000'
+            },
+            requestTimeout: {
+                value: '15000'
+            },
+            cancelTimeout: {
+                value: '5000'
+            },
+            pool: {
+                value: '5'
+            },
+            parseJSON: {
+                value: false
+            },
+            enableArithAbort: {
+                value: true
+            },
+            readOnlyIntent: {
+                value: false
+            }
+        },
+        inputs: 0,
+        outputs: 0,
+        credentials: {
+            username: {
+                type: 'text'
+            },
+            password: {
+                type: 'password'
+            },
+            domain: {
+                type: 'text'
+            }
+        },
+        label: function () {
+            if (this.name) {
+                return this.name;
+            }
+            let n = 'MSSQL-CN';
+            if (this.server) {
+                n = this.server;
+                if (this.database) {
+                    n += '.' + this.database;
+                }
+            }
+            return n;
+        },
+        oneditresize: function (size) {
+            $('div.form-row.mssql-plus-form-row > .form-tips').css('maxWidth', 'unset');
+        }
+    });
+</script>
+
+
+<script type="text/html" data-template-name="MSSQL">
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-mssqlCN"><i class="fa fa-globe"></i> <span data-i18n="mssql.node.label.connection"></label>
+        <input type="text" id="node-input-mssqlCN">
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="mssql.node.label.name"></span></label>
+        <input type="text" id="node-input-name" data-i18n="[placeholder]mssql.node.label.name">
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-data"><i class="fa fa-list-ul"></i> <span data-i18n="mssql.node.label.query_mode"></span></label>
+        <input type="hidden" id="node-input-modeOptType">
+        <input type="text" id="node-input-modeOpt" style="width: 70%" data-i18n="[placeholder]mssql.node.label.query_mode">
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-queryOpt"><i class="fa fa-comments"></i> <span data-i18n="mssql.node.label.query"></label>
+        <input type="hidden" id="node-input-queryOptType">
+        <input type="text" id="node-input-queryOpt" style="width: 70%" placeholder="payload">
+        <div style="float: right;position: relative;margin-top: 14px;">
+            <button id="node-query-expand" class="editor-button editor-button-small" title="Expand query editor"><i class="fa fa-expand"></i></button>
+        </div>
+    </div>
+    <div class="form-row mssql-plus-form-row node-text-editor-row" style="min-height: 60px; margin-top: -6px;">
+        <div style="height: 60px;"  class="node-text-editor" id="node-sql-query-editor" ></div>
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label><i class="fa fa-list-alt"></i> <span data-i18n="mssql.node.label.parameters"></label>
+        <input type="hidden" id="node-input-paramsOptType">
+        <input type="text" id="node-input-paramsOpt" style="width: 70%" placeholder="queryParams">
+    </div>
+    <div class="form-row mssql-plus-form-row node-input-params-container-row" style="margin-top: -6px;">
+        <ol id="node-input-params-container"></ol>
+    </div>
+    <div class="form-row mssql-plus-form-row bulk-data-input-row">
+        <label for="node-input-rows"><i class="fa fa-table"></i> Rows (bulk data)</label>
+        <input type="hidden" id="node-input-rowsType">
+        <input type="text" id="node-input-rows" placeholder="rows" style="width: 70%" dir="">
+    </div>
+
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-parseMustache"><i class="fa fa-tag"></i> <span data-i18n="mssql.node.label.parse_mustache"></label>
+        <input type="checkbox" id="node-input-parseMustache">
+    </div>
+
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-outField"><i class="fa fa-sign-out"></i> <span data-i18n="mssql.node.label.output_property"></label>
+        <input type="text" id="node-input-outField" placeholder="payload" style="width: 70%" dir="">
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-returnType"><i class="fa fa-sign-out"></i> <span data-i18n="mssql.node.label.output_type"></label>
+        <select id="node-input-returnType" style="width: 70%">
+            <option value="0" data-i18n="mssql.node.label.output_type_original"></option>
+            <option value="1" data-i18n="mssql.node.label.output_type_driver"></option>
+        </select>
+    </div>
+    <div class="form-row mssql-plus-form-row">
+        <label for="node-input-throwErrors"><i class="fa fa-exclamation"></i> <span data-i18n="mssql.node.label.error_handling"></label>
+        <select id="node-input-throwErrors" style="width: 70%">
+            <option value="0" data-i18n="mssql.node.label.error_handling_send_in_msg"></option>
+            <option value="1" data-i18n="mssql.node.label.error_handling_throw"></option>
+        </select>
+    </div>
+    <div class="mssql-plus-shameless-beta-request" style="display: none;">
+        <div style="
+            background-color: lightcyan; /* Changing background color */
+            font-weight: bold; /* Making font bold */
+            border-radius: 20px; /* Making border radius */
+            width: auto; /* Making auto-sizable width */
+            max-width: 500px;
+            height: auto; /* Making auto-sizable height */
+            padding: 5px 30px 5px 30px; /* Making space around letters */
+            font-size: 18px; /* Changing font size */
+        ">
+                <h2>Bulk Insert mode</h2>
+                <h3>Shameless request for beta testers...</h3>
+                <div style="font-weight: 500;">
+                    Bulk Insert mode is implemented in version 0.7.0 beta but before I make the new features mainstream, I need testers and feedback.
+                    <br><br>
+                    If you are able to help out, you can find installation instructions and provide feedback here:
+                    <a href="https://bit.ly/3gCd8IA" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;color: blue;">
+                        https://discourse.nodered.org/t/updated-node-red-contrib-mssql-plus-0-7-0-beta-2-bulk-insert-support/37331</a>
+                </div>
+            </div>
+    </div>
+</script>
+
+<script type="text/javascript">
+/* eslint-disable spaced-comment */
+/* eslint-disable space-before-function-paren */
+(function() {
+    let paramsHeight = 145;
+    function resizeParameters() {
+        let paramsWidth = $('#node-input-params-container').width();
+        const queryMode = $('#node-input-modeOpt').typedInput('type');
+        const bulkMode = queryMode === 'bulk';
+        const showItemOptsRow = ['bulk', 'msg', 'flow', 'env'].indexOf(queryMode) >= 0;
+        if (showItemOptsRow) {
+            $('#node-input-params-container .node-input-item-property-options').show();
+        } else {
+            $('#node-input-params-container .node-input-item-property-options').hide();
+        }
+        paramsWidth -= (28 + 5 + 72 + 6 + 6 + 6 + 6 + 5 + 28);//remove outer padding, margins & input/output width
+        let p1 = Math.max(((paramsWidth / 3) - 20), 80);
+        let p2 = Math.max(p1 - 20, 80);
+        const p3 = Math.max(paramsWidth - (p1 + p2), 80);
+
+        if (bulkMode) {
+            p1 += (p3 / 2);
+            p2 += (p3 / 2);
+        } else {
+            $('#node-input-params-container .node-input-item-property-value').typedInput('width', Math.round(p3));
+        }
+        $('#node-input-params-container .node-input-item-property-name').typedInput('width', Math.round(p1));
+        $('#node-input-params-container .node-input-item-property-type').typedInput('width', Math.round(p2));
+    }
+    RED.nodes.registerType('MSSQL', {
+        category: 'storage',
+        color: '#C0DEED',
+        defaults: {
+            mssqlCN: {
+                type: 'MSSQL-CN'
+            },
+            name: {
+                value: ''
+            },
+            outField: {
+                value: 'payload'
+            },
+            returnType: {
+                value: 0 //0=original (for compatibility), 1=driver output
+            },
+            throwErrors: {
+                value: 1 //0=original (for compatibility), 1=throw errors for catch node
+            },
+            query: {
+                value: ''
+            },
+            modeOpt: {
+                value: 'queryMode'
+            },
+            modeOptType: {
+                value: 'query' //query=original (for compatibility), execute=new mode
+            },
+            queryOpt: {
+                value: 'payload' //compatibility
+            },
+            queryOptType: {
+                value: 'editor' //compatibility
+            },
+            paramsOpt: {
+                value: 'queryParams'
+            },
+            paramsOptType: {
+                value: 'none'
+            },
+            rows: {
+                value: 'rows'
+            },
+            rowsType: {
+                value: 'msg'
+            },
+            parseMustache: {
+                value: true
+            },
+            params: {
+                value: []
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: 'db.png',
+        label: function () {
+            return this.name || 'MSSQL-PLUS';
+        },
+        labelStyle: function () {
+            return this.name ? 'node_label_italic' : '';
+        },
+        oneditprepare: function () {
+            if (this.parseMustache === undefined) {
+                this.parseMustache = true;
+                $('#node-input-parseMustache').prop('checked', true);
+            }
+            const node = this;
+            //ensure node.query is a string otherwise editor wont initialise
+            if (typeof node.query !== 'string') node.query = '';
+            //create the query editor
+            this.editor = RED.editor.createEditor({
+                id: 'node-sql-query-editor',
+                mode: 'ace/mode/sql',
+                value: node.query // $("#node-input-query").val()
+            });
+            //create typedInput widgets
+            const modeField = $('#node-input-modeOpt').typedInput({
+                types: [
+                    { value: 'query', label: this._('mssql.common.query'), hasValue: false },
+                    { value: 'execute', label: this._('mssql.common.execute_procedure'), hasValue: false },
+                    //FUTURE: { value:"prepared", label: "Prepared Statement",  hasValue:false },
+                    { value: 'bulk', label: 'Bulk Insert', hasValue: false },
+                    'msg', 'flow', 'global', 'env'
+                ],
+                typeField: $('#node-input-modeOptType'),
+                default: 'query'
+            });
+            const queryField = $('#node-input-queryOpt').typedInput({
+                types: [
+                    { value: 'editor', label: this._('mssql.common.editor'), hasValue: false },
+                    'msg', 'flow', 'global', 'env'
+                ],
+                typeField: $('#node-input-queryOptType'),
+                default: 'editor'
+            });
+            const paramsField = $('#node-input-paramsOpt').typedInput({
+                types: [
+                    { value: 'none', label: 'None', hasValue: false },
+                    { value: 'editor', label: this._('mssql.common.editor'), hasValue: false },
+                    'msg', 'flow', 'global'/*, 'env'*/
+                ],
+                typeField: $('#node-input-paramsOptType'),
+                default: 'none'
+            });
+            // eslint-disable-next-line no-unused-vars
+            const rowsField = $('#node-input-rows').typedInput({
+                types: ['msg', 'flow', 'global', 'json', 'jsonata'],
+                typeField: $('#node-input-rowsType'),
+                default: 'msg'
+            });
+            // eslint-disable-next-line no-unused-vars
+            const outField = $('#node-input-outField').typedInput({
+                types: [
+                    { value: 'str', label: 'msg.' }
+                ],
+                default: 'str'
+            });
+            //show/hide rows field depending on query type
+            modeField.on('change', function() {
+                const queryMode = $(this).typedInput('type');
+                if (queryMode === 'bulk') {
+                    $('#mssql-plus-params-label').text('Columns');
+                    $('#dialog-form > div.form-row.mssql-plus-form-row.bulk-data-input-row').show();
+                    $('#node-input-params-container .node-input-item-property-value').typedInput('hide');
+                    $('#node-input-params-container .node-input-item-property-options').show();
+                } else if (queryMode === 'query' || queryMode === 'execute') {
+                    $('#mssql-plus-params-label').text('Parameters');
+                    $('#dialog-form > div.form-row.mssql-plus-form-row.bulk-data-input-row').hide();
+                    $('#node-input-params-container .node-input-item-property-value').typedInput('show');
+                    $('#node-input-params-container .node-input-item-property-options').hide();
+                } else {
+                    $('#mssql-plus-params-label').text('Params/Cols');
+                    $('#dialog-form > div.form-row.mssql-plus-form-row.bulk-data-input-row').show();
+                    $('#node-input-params-container .node-input-item-property-value').typedInput('show');
+                    $('#node-input-params-container .node-input-item-property-options').show();
+                }
+                RED.tray.resize();
+            });
+
+            //show/hide editor depending on query source
+            queryField.on('change', function() {
+                const type = $(this).typedInput('type');
+                if (type === 'editor') {
+                    $('.form-row.node-text-editor-row').removeClass('mssql-plus-hide-row');
+                } else {
+                    $('.form-row.node-text-editor-row').addClass('mssql-plus-hide-row');
+                }
+                RED.tray.resize();
+                if (type === 'editor') {
+                    $('#node-query-expand').show();
+                } else {
+                    $('#node-query-expand').hide();
+                }
+            });
+            //show/hide parameter list depending on queryMode
+            paramsField.on('change', function() {
+                const type = $(this).typedInput('type');
+                if (type === 'editor') {
+                    $('.form-row.node-input-params-container-row').removeClass('mssql-plus-hide-row');
+                } else {
+                    $('.form-row.node-input-params-container-row').addClass('mssql-plus-hide-row');
+                }
+                RED.tray.resize();
+            });
+
+            $('#node-query-expand').click(function(e) {
+                e.preventDefault();
+                const value = node.editor.getValue();
+                RED.editor.editJavaScript({
+                    title: 'Edit SQL Query',
+                    value: value,
+                    width: 'Infinity',
+                    cursor: node.editor.getCursorPosition(),
+                    mode: 'ace/mode/sql',
+                    complete: function(v, cursor) {
+                        node.editor.setValue(v, -1);
+                        node.editor.gotoLine(cursor.row + 1, cursor.column, false);
+                        setTimeout(function() {
+                            node.editor.focus();
+                        }, 300);
+                    }
+                });
+            });
+
+            // *** compatibility defaults ***
+            //if node.query is empty, the user would probably have been sending the
+            //      query in via msg.payload - so, lets set the typedInput to msg.payload;
+            //NOTE: as queryOpt and queryOptType are new properties, first time here they will be == "undefined"
+            //      if they have any other value, the user must have been in and operated the Done
+            //      button (thus accepting the .queryOpt setting - i.e. leave as is!)
+            if (!node.query && typeof node.queryOpt === 'undefined' && typeof node.queryOptType === 'undefined') {
+                queryField.typedInput('type', 'msg');
+                queryField.typedInput('value', 'payload');
+            }
+            if ((!node.params || !node.params.length) && typeof node.paramsOpt === 'undefined' && typeof node.paramsOptType === 'undefined') {
+                paramsField.typedInput('type', 'msg');
+                paramsField.typedInput('value', 'queryParams');
+            }
+
+            $('#node-input-returnType')[0].selectedIndex = this.returnType ? this.returnType : 0;
+            $('#node-input-throwErrors')[0].selectedIndex = this.throwErrors ? this.throwErrors : 0;
+
+            //Parameters Editor...
+            $('#node-input-params-container').css('min-height', '120px').css('min-width', '520px').editableList({
+                addItem: function (container, i, opt) {
+                    const queryMode = modeField.typedInput('type');
+                    let rule = opt; let isNew = false;
+                    if (!Object.prototype.hasOwnProperty.call(rule, 'type') && !Object.prototype.hasOwnProperty.call(rule, 'name')) {
+                        rule = { type: 'int', name: 'param' + (i + 1), value: 0, valueType: 'num', output: false };
+                        isNew = true;
+                    }
+                    if (!rule.options || typeof rule.options !== 'object') {
+                        rule.options = { nullable: true, primary: false, identity: false, readOnly: false };
+                    }
+                    container.css({
+                        overflow: 'hidden',
+                        whiteSpace: 'nowrap'
+                    });
+                    const fragment = document.createDocumentFragment();
+                    const row1 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row' }).appendTo(fragment);
+                    const row2 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row' }).appendTo(fragment);
+
+                    const row1Div1 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row-item' }).appendTo(row1);
+                    const inoutField = $('<input/>', { class: 'node-input-item-property-inout', type: 'text', width: '72px' })
+                        .appendTo(row1Div1)
+                        .typedInput({ types: [{ label: 'Input', value: 'input', hasValue: false }, { label: 'Output', value: 'output', hasValue: false }] });
+
+                    const row1Div2 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row-item' }).appendTo(row1);
+                    const nameField = $('<input/>', { class: 'node-input-item-property-name', type: 'text', width: '112px' })
+                        .appendTo(row1Div2)
+                        .typedInput({ types: [{ label: 'Name', value: 'str' }] });
+
+                    const row1Div3 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row-item' }).appendTo(row1);
+                    const typeField = $('<input/>', { class: 'node-input-item-property-type', type: 'text', width: '120px' })
+                        .appendTo(row1Div3)
+                        .typedInput({ types: [{ label: 'Type', value: 'str' }] });
+
+                    const row1Div4 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row-item' }).appendTo(row1);
+                    const valueField = $('<input/>', { class: 'node-input-item-property-value', type: 'text', width: '140px' })
+                        .appendTo(row1Div4)
+                        .typedInput(
+                            {
+                                types: [
+                                    'msg', 'flow', 'global', 'str', 'num', 'bool', 'json', 'bin', 'jsonata', 'env',
+                                    {
+                                        icon: 'fa fa-clock-o',
+                                        value: 'jsEpoch',
+                                        label: 'Epoch (JS)',
+                                        hasValue: false
+                                    }, {
+                                        icon: 'fa fa-clock-o',
+                                        value: 'unixEpoch',
+                                        label: 'Epoch (Unix)',
+                                        hasValue: false
+                                    }, {
+                                        icon: 'fa fa-clock-o',
+                                        value: 'datetime',
+                                        label: 'Datetime (now)',
+                                        hasValue: false
+                                    }, {
+                                        icon: 'fa fa-asterisk',
+                                        value: 'uuidv4',
+                                        label: 'uuid (v4)',
+                                        hasValue: false
+                                    }],
+                                default: 'num'
+                            }
+                        );
+                    valueField.typedInput(queryMode === 'bulk' ? 'hide' : 'show');
+
+                    const row2Div1 = $('<div/>', { style: 'display:flex;', class: 'mssql-plus-row-item' }).appendTo(row2);
+                    const optionsField = $('<fieldset/>', { class: 'node-input-item-property-options', type: 'text', width: '100px' })
+                        .data('role', 'controlgroup').data('type', 'horizontal')
+                        .appendTo(row2Div1);
+
+                    optionsField.append($('<label>nullable <input type="checkbox" class="node-input-item-property-nullable" /> </label>'));
+                    optionsField.append($('<label>primary <input type="checkbox" class="node-input-item-property-primary" /> </label>'));
+                    optionsField.append($('<label>identity <input type="checkbox" class="node-input-item-property-identity" /> </label>'));
+                    optionsField.append($('<label>readOnly <input type="checkbox" class="node-input-item-property-readOnly" /> </label>'));
+
+                    const nullableOptionField = optionsField.find('.node-input-item-property-nullable');
+                    const primaryOptionField = optionsField.find('.node-input-item-property-primary');
+                    const identityOptionField = optionsField.find('.node-input-item-property-identity');
+                    const readOnlyOptionField = optionsField.find('.node-input-item-property-readOnly');
+
+                    inoutField.on('change', function (o) {
+                        const t = $(this).typedInput('type');
+                        if (t === 'output') {
+                            valueField.typedInput('hide');
+                        } else {
+                            valueField.typedInput('show');
+                        }
+                    });
+
+                    const typeInput = row1Div3.find('input[type!=hidden]');
+                    const sqlTypes = [
+                        'VarChar',
+                        'VarChar(?)',
+                        'NVarChar',
+                        'NVarChar(?)',
+                        'Text',
+                        'Int',
+                        'BigInt',
+                        'TinyInt',
+                        'SmallInt',
+                        'Bit',
+                        'Float',
+                        'Numeric',
+                        'Numeric(?,?)',
+                        'Decimal',
+                        'Decimal(?,?)',
+                        'Real',
+                        'Date',
+                        'DateTime',
+                        'DateTime2',
+                        'DateTime2(?)',
+                        'DateTimeOffset',
+                        'DateTimeOffset(?)',
+                        'SmallDateTime',
+                        'Time',
+                        'Time(?)',
+                        'UniqueIdentifier',
+                        'SmallMoney',
+                        'Money',
+                        'Binary',
+                        'VarBinary',
+                        'VarBinary(?)',
+                        'Image',
+                        'Xml',
+                        'Char',
+                        'Char(?)',
+                        'NChar',
+                        'NChar(?)',
+                        'NText',
+                        'TVP',
+                        'TVP(?)',
+                        'UDT',
+                        'Geography',
+                        'Geometry',
+                        'Variant'
+                    ];
+                    $(typeInput).autocomplete({
+                        source: sqlTypes
+                    });
+
+                    nameField.typedInput('type', 'str');
+                    nameField.typedInput('value', rule.name || ('param' + (i + 1)));
+
+                    typeField.typedInput('type', 'str');
+                    typeField.typedInput('value', rule.type || '');
+
+                    valueField.typedInput('type', rule.valueType || 'num');
+                    valueField.typedInput('value', rule.value || 0);
+
+                    inoutField.typedInput('type', (rule.output === 'true' || rule.output === true) ? 'output' : 'input');
+
+                    nullableOptionField.prop('checked', rule.options.nullable);
+                    primaryOptionField.prop('checked', rule.options.primary);
+                    identityOptionField.prop('checked', rule.options.identity);
+                    readOnlyOptionField.prop('checked', rule.options.readOnly);
+
+                    container[0].appendChild(fragment);
+
+                    if (isNew) resizeParameters();//cause newly added row to size correctly.
+                },
+                removable: true,
+                sortable: true
+            });
+
+            for (let i = 0; i < this.params.length; i++) {
+                const item = this.params[i];
+                $('#node-input-params-container').editableList('addItem', item);
+            }
+
+            //try to maintain user set height for parameters window
+            const paramsContainer = $('#dialog-form > div.form-row.node-input-params-container-row > .red-ui-editableList > .red-ui-editableList-container');
+            paramsContainer.css('resize', 'vertical');
+            paramsContainer.css('min-height', 120);
+            paramsHeight = Math.max(120, paramsHeight);
+            paramsContainer.css('height', paramsHeight);
+            resizeParameters();
+        },
+        oneditsave: function () {
+            const node = this;
+            node.params = [];
+            const paramsContainer = $('#dialog-form > div.form-row.node-input-params-container-row > .red-ui-editableList > .red-ui-editableList-container');
+            paramsHeight = Math.max(120, paramsContainer.height());
+            const items = $('#node-input-params-container').editableList('items');
+            items.each(function (i) {
+                const rule = $(this);
+                const r = {};
+                r.output = rule.find('.node-input-item-property-inout').typedInput('type') === 'output';
+                r.name = rule.find('.node-input-item-property-name').val() || 'param' + (i + 1);
+                r.type = rule.find('.node-input-item-property-type').val() || '';
+                if (r.output) {
+                    //exclude value
+                } else {
+                    r.valueType = rule.find('.node-input-item-property-value').typedInput('type') || 'num';
+                    r.value = rule.find('.node-input-item-property-value').typedInput('value') || 0;
+                }
+                r.options = {
+                    nullable: rule.find('.node-input-item-property-nullable').prop('checked'),
+                    primary: rule.find('.node-input-item-property-primary').prop('checked'),
+                    identity: rule.find('.node-input-item-property-identity').prop('checked'),
+                    readOnly: rule.find('.node-input-item-property-readOnly').prop('checked')
+                };
+                node.params.push(r);
+            });
+
+            node.query = this.editor.getValue();
+            this.editor.destroy();
+        },
+        oneditresize: function (size) {
+            const rows = $('#dialog-form>div:not(.node-text-editor-row)');
+            let height = $('#dialog-form').height();
+            let row;
+            for (let i = 0; i < rows.size(); i++) {
+                row = $(rows[i]);
+                if (row && row.is(':hidden')) continue;
+                height -= row.outerHeight(true);
+            }
+            const editorRow = $('#dialog-form>div.node-text-editor-row');
+            height -= (parseInt(editorRow.css('marginTop')) + parseInt(editorRow.css('marginBottom')));
+            const h = Math.max(height, 60);
+            $('.node-text-editor').css('height', h + 'px');
+            this.editor.resize();
+            resizeParameters();
+        }
+    });
+})();
+</script>

@@ -1,0 +1,23 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:21[41:43];Sink: data;joplin.js:28[86:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:21[41:43];Sink: msg;joplin.js:31[27:29]::FLOW_DESCR_END","/joplin.js","21","41","21","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:56[41:43];Sink: msg;joplin.js:70[27:29]::FLOW_DESCR_END","/joplin.js","56","41","56","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:96[41:43];Sink: `http:/ ... /${id}`;joplin.js:109[50:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:96[41:43];Sink: data;joplin.js:109[101:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:96[41:43];Sink: msg;joplin.js:112[27:29]::FLOW_DESCR_END","/joplin.js","96","41","96","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:138[41:43];Sink: params;joplin.js:150[28:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:138[41:43];Sink: msg;joplin.js:153[27:29]::FLOW_DESCR_END","/joplin.js","138","41","138","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:177[41:43];Sink: `http:/ ... }/file`;joplin.js:182[50:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:177[41:43];Sink: msg;joplin.js:184[27:29]::FLOW_DESCR_END","/joplin.js","177","41","177","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:210[41:43];Sink: `http:/ ... /${id}`;joplin.js:218[26:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:210[41:43];Sink: `http:/ ... /${id}`;joplin.js:219[50:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:210[41:43];Sink: msg;joplin.js:221[27:29]::FLOW_DESCR_END","/joplin.js","210","41","210","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;joplin.js:249[41:43];Sink: `http:/ ... {type}`;joplin.js:258[50:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;joplin.js:249[41:43];Sink: msg;joplin.js:260[27:29]::FLOW_DESCR_END","/joplin.js","249","41","249","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: server.port;joplin.js:288[71:81];Sink: `http:/ ... olders`;joplin.js:288[42:91]::FLOW_DESCR_END","/joplin.js","288","71","288","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;joplin.js:18[26:29];Sink: `http:/ ... /notes`;joplin.js:28[51:84]::FLOW_DESCR_END","/joplin.js","18","26","18","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;joplin.js:93[26:29];Sink: `http:/ ... /${id}`;joplin.js:109[50:99]::FLOW_DESCR_END","/joplin.js","93","26","93","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;joplin.js:135[26:29];Sink: `http:/ ... search`;joplin.js:151[50:84]::FLOW_DESCR_END","/joplin.js","135","26","135","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;joplin.js:174[26:29];Sink: `http:/ ... }/file`;joplin.js:182[50:98]::FLOW_DESCR_END","/joplin.js","174","26","174","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;joplin.js:207[26:29];Sink: `http:/ ... /${id}`;joplin.js:218[26:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: port;joplin.js:207[26:29];Sink: `http:/ ... /${id}`;joplin.js:219[50:91]::FLOW_DESCR_END","/joplin.js","207","26","207","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;joplin.js:246[26:29];Sink: `http:/ ... {type}`;joplin.js:258[50:105]::FLOW_DESCR_END","/joplin.js","246","26","246","29"

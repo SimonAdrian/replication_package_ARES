@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;google-iot-core-custom-auth.js:63[21:26];Sink: node.brokerurl;google-iot-core-custom-auth.js:192[44:57]::FLOW_DESCR_END","/google-iot-core-custom-auth.js","63","21","63","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;google-iot-core-custom-auth.js:110[71:79];Sink: node.brokerurl;google-iot-core-custom-auth.js:192[44:57]::FLOW_DESCR_END","/google-iot-core-custom-auth.js","110","71","110","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;google-iot-core-custom-auth.js:253[51:55];Sink: error;google-iot-core-custom-auth.js:260[32:36]::FLOW_DESCR_END","/google-iot-core-custom-auth.js","253","51","253","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;google-iot-core-custom-auth.js:415[40:42];Sink: msg;google-iot-core-custom-auth.js:430[49:51]::FLOW_DESCR_END","/google-iot-core-custom-auth.js","415","40","415","42"

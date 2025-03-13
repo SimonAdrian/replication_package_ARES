@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;detect_on_fork.js:59[46:49];Sink: data.toString();detect_on_fork.js:60[31:45]::FLOW_DESCR_END","/app/helpers/detect_on_fork.js","59","46","59","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;inference_node.js:110[39:42];Sink: data;inference_node.js:146[22:25]::FLOW_DESCR_END","/app/nodes/inference_node.js","110","39","110","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;input_node.js:178[41:43];Sink: prefix + msg;input_node.js:46[40:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;input_node.js:178[41:43];Sink: prefix + msg;input_node.js:50[39:50]::FLOW_DESCR_END","/app/nodes/input_node.js","178","41","178","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;input_node.js:185[40:43];Sink: prefix + msg;input_node.js:46[40:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: code;input_node.js:185[40:43];Sink: prefix + msg;input_node.js:50[39:50]::FLOW_DESCR_END","/app/nodes/input_node.js","185","40","185","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;input_node.js:185[46:51];Sink: prefix + msg;input_node.js:46[40:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: signal;input_node.js:185[46:51];Sink: prefix + msg;input_node.js:50[39:50]::FLOW_DESCR_END","/app/nodes/input_node.js","185","46","185","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;input_node.js:190[47:50];Sink: data.toString();input_node.js:191[40:54]::FLOW_DESCR_END","/app/nodes/input_node.js","190","47","190","50"

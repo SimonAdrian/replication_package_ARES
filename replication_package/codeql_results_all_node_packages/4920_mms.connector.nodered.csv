@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;mms.connector.nodered.js:37[20:30];Sink: conenct ... + vhost;mms.connector.nodered.js:132[26:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.port;mms.connector.nodered.js:37[20:30];Sink: errorMessage;mms.connector.nodered.js:197[24:35]::FLOW_DESCR_END","/mms.connector.nodered.js","37","20","37","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.username;mms.connector.nodered.js:39[24:38];Sink: conenct ... + vhost;mms.connector.nodered.js:132[26:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.username;mms.connector.nodered.js:39[24:38];Sink: errorMessage;mms.connector.nodered.js:197[24:35]::FLOW_DESCR_END","/mms.connector.nodered.js","39","24","39","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.password;mms.connector.nodered.js:40[24:38];Sink: conenct ... + vhost;mms.connector.nodered.js:132[26:121]::FLOW_DESCR_END","/mms.connector.nodered.js","40","24","40","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... json'));mms.connector.nodered.js:99[51:116];Sink: conenct ... + vhost;mms.connector.nodered.js:132[26:121]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... json'));mms.connector.nodered.js:99[51:116];Sink: errorMessage;mms.connector.nodered.js:197[24:35]::FLOW_DESCR_END","/mms.connector.nodered.js","99","51","99","116"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: connectError;mms.connector.nodered.js:132[150:161];Sink: connectError.message;mms.connector.nodered.js:136[32:51]::FLOW_DESCR_END","/mms.connector.nodered.js","132","150","132","161"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mms.connector.nodered.js:202[35:37];Sink: Buffer. ... overy));mms.connector.nodered.js:482[80:117]::FLOW_DESCR_END","/mms.connector.nodered.js","202","35","202","37"

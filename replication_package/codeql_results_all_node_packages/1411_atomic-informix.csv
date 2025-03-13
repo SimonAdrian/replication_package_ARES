@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;informix-connection.js:53[75:94];Sink: 'Discon ... ig.port;informix-connection.js:53[13:94]::FLOW_DESCR_END","/informix-connection.js","53","75","53","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;informix-connection.js:58[73:92];Sink: 'Reconn ... ig.port;informix-connection.js:58[13:92]::FLOW_DESCR_END","/informix-connection.js","58","73","58","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;informix-connection.js:61[32:34];Sink: 'Failed ... ' + err;informix-connection.js:63[14:59]::FLOW_DESCR_END","/informix-connection.js","61","32","61","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;informix-connection.js:68[79:98];Sink: 'Connec ... ig.port;informix-connection.js:68[13:98]::FLOW_DESCR_END","/informix-connection.js","68","79","68","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;informix-connection.js:72[28:30];Sink: err;informix-connection.js:73[15:17]::FLOW_DESCR_END","/informix-connection.js","72","28","72","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.connConfig.port;informix-connection.js:76[79:98];Sink: 'Connec ... ig.port;informix-connection.js:76[12:98]::FLOW_DESCR_END","/informix-connection.js","76","79","76","98"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;informix-execute.js:37[21:23];Sink: msg;informix-execute.js:69[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;informix-execute.js:37[21:23];Sink: msg;informix-execute.js:89[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;informix-execute.js:37[21:23];Sink: msg;informix-execute.js:93[17:19]::FLOW_DESCR_END","/informix-execute.js","37","21","37","23"

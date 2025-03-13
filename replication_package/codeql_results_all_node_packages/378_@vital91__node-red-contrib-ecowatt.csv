@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ecowatt.js:13[34:36];Sink: msg;ecowatt.js:33[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecowatt.js:13[34:36];Sink: msg;ecowatt.js:39[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecowatt.js:13[34:36];Sink: msg;ecowatt.js:60[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ecowatt.js:13[34:36];Sink: msg;ecowatt.js:65[39:41]::FLOW_DESCR_END","/ecowatt.js","13","34","13","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ecowatt.js:68[50:50];Sink: ""[get-e ... message;ecowatt.js:69[37:72]::FLOW_DESCR_END","/ecowatt.js","68","50","68","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ecowatt.js:75[39:39];Sink: ""[get-e ... message;ecowatt.js:76[27:62]::FLOW_DESCR_END","/ecowatt.js","75","39","75","39"

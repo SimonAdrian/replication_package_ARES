@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blackloud.js:19[35:37];Sink: msg;blackloud.js:43[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:19[35:37];Sink: msg;blackloud.js:74[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:19[35:37];Sink: msg;blackloud.js:83[27:29]::FLOW_DESCR_END","/nodes/blackloud.js","19","35","19","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blackloud.js:98[35:37];Sink: msg;blackloud.js:100[23:25]::FLOW_DESCR_END","/nodes/blackloud.js","98","35","98","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blackloud.js:121[35:37];Sink: msg;blackloud.js:192[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:121[35:37];Sink: msg;blackloud.js:198[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:121[35:37];Sink: msg;blackloud.js:205[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:121[35:37];Sink: msg;blackloud.js:208[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:121[35:37];Sink: payload;blackloud.js:212[27:33]::FLOW_DESCR_END","/nodes/blackloud.js","121","35","121","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;blackloud.js:204[38:40];Sink: err;blackloud.js:205[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;blackloud.js:204[38:40];Sink: payload;blackloud.js:212[27:33]::FLOW_DESCR_END","/nodes/blackloud.js","204","38","204","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blackloud.js:236[35:37];Sink: msg;blackloud.js:311[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:236[35:37];Sink: msg;blackloud.js:317[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:236[35:37];Sink: msg;blackloud.js:325[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:236[35:37];Sink: msg;blackloud.js:328[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;blackloud.js:236[35:37];Sink: payload;blackloud.js:333[27:33]::FLOW_DESCR_END","/nodes/blackloud.js","236","35","236","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;blackloud.js:324[38:40];Sink: err;blackloud.js:325[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;blackloud.js:324[38:40];Sink: payload;blackloud.js:333[27:33]::FLOW_DESCR_END","/nodes/blackloud.js","324","38","324","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blackloud.js:347[35:37];Sink: msg;blackloud.js:353[23:25]::FLOW_DESCR_END","/nodes/blackloud.js","347","35","347","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;blackloud.js:365[35:37];Sink: msg;blackloud.js:372[23:25]::FLOW_DESCR_END","/nodes/blackloud.js","365","35","365","37"

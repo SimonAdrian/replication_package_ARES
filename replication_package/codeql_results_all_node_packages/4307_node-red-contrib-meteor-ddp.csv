@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meteor-ddp.js:43[29:31];Sink: [msg];meteor-ddp.js:68[17:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteor-ddp.js:43[29:31];Sink: [null,msg];meteor-ddp.js:79[16:25]::FLOW_DESCR_END","/meteor-ddp.js","43","29","43","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meteor-ddp.js:90[29:31];Sink: [msg,null,null];meteor-ddp.js:118[32:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteor-ddp.js:90[29:31];Sink: [null,msg,null];meteor-ddp.js:130[16:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteor-ddp.js:90[29:31];Sink: [null,null,msg];meteor-ddp.js:140[16:30]::FLOW_DESCR_END","/meteor-ddp.js","90","29","90","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meteor-ddp.js:156[29:31];Sink: msg.topic;meteor-ddp.js:167[19:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteor-ddp.js:156[29:31];Sink: [msg.payload];meteor-ddp.js:167[30:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteor-ddp.js:156[29:31];Sink: [msg];meteor-ddp.js:174[15:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;meteor-ddp.js:156[29:31];Sink: [null,msg];meteor-ddp.js:178[15:24]::FLOW_DESCR_END","/meteor-ddp.js","156","29","156","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;meteor-ddp.js:187[29:31];Sink: msg;meteor-ddp.js:199[14:16]::FLOW_DESCR_END","/meteor-ddp.js","187","29","187","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;meteor-ddp.js:244[31:35];Sink: 'Meteor ... + error;meteor-ddp.js:249[24:62]::FLOW_DESCR_END","/meteor-ddp.js","244","31","244","35"

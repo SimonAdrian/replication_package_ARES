@@ -1,0 +1,24 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;c8y-check-roles.js:11[39:41];Sink: [msg, n ... tUser}];c8y-check-roles.js:23[38:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;c8y-check-roles.js:11[39:41];Sink: [null,  ... tUser}];c8y-check-roles.js:25[38:72]::FLOW_DESCR_END","/nodes/c8y/c8y-check-roles/c8y-check-roles.js","11","39","11","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;call-endpoint.js:13[35:37];Sink: msg;call-endpoint.js:30[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call-endpoint.js:13[35:37];Sink: msg;call-endpoint.js:33[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;call-endpoint.js:13[35:37];Sink: msg;call-endpoint.js:37[27:29]::FLOW_DESCR_END","/nodes/c8y/call-endpoint/call-endpoint.js","13","35","13","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;realtime-alarms.js:16[37:51];Sink: `Subscr ... seUrl}`;realtime-alarms.js:17[18:84]::FLOW_DESCR_END","/nodes/c8y/realtime-alarms/realtime-alarms.js","16","37","16","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;realtime-device.js:16[40:54];Sink: `Subscr ... seUrl}`;realtime-device.js:17[18:84]::FLOW_DESCR_END","/nodes/c8y/realtime-device/realtime-device.js","16","40","16","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;realtime-events.js:16[37:51];Sink: `Subscr ... seUrl}`;realtime-events.js:17[18:84]::FLOW_DESCR_END","/nodes/c8y/realtime-events/realtime-events.js","16","37","16","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;realtime-measurements.js:16[43:57];Sink: `Subscr ... seUrl}`;realtime-measurements.js:17[18:84]::FLOW_DESCR_END","/nodes/c8y/realtime-measurements/realtime-measurements.js","16","43","16","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.deviceId;realtime-operations.js:16[41:55];Sink: `Subscr ... seUrl}`;realtime-operations.js:17[18:84]::FLOW_DESCR_END","/nodes/c8y/realtime-operations/realtime-operations.js","16","41","16","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:67[35:37];Sink: command;index.js:45[13:19]::FLOW_DESCR_END","/nodes/ledout/index.js","67","35","67","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: lat;index.js:45[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: lon;index.js:46[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: data;index.js:16[33:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: rawlat;index.js:29[24:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: rawlat[0].lenght;index.js:29[41:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: rawlon;index.js:29[66:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: payload;mqtt.js:93[26:32];Sink: rawlon[0].lenght;index.js:29[83:98]::FLOW_DESCR_END","/nodes/mqtt.js","93","26","93","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:94[36:38];Sink: command;index.js:76[31:37]::FLOW_DESCR_END","/nodes/odcout/index.js","94","36","94","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.old.js:100[35:37];Sink: command;index.old.js:81[27:33]::FLOW_DESCR_END","/nodes/odcout/index.old.js","100","35","100","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:58[36:38];Sink: command;index.js:40[31:37]::FLOW_DESCR_END","/nodes/pwmout/index.js","58","36","58","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... G_PATH);sqlite.js:11[35:62];Sink: MAX_RECORDS;sqlite.js:20[30:40]::FLOW_DESCR_END","/nodes/sqlite.js","11","35","11","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json"");add-node-out.js:82[36:68];Sink: JSON.st ... ull, 4);add-node-out.js:86[40:75]::FLOW_DESCR_END","/scripts/add-node-out.js","82","36","82","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... .json"");add-node.js:87[36:68];Sink: JSON.st ... ull, 4);add-node.js:91[40:75]::FLOW_DESCR_END","/scripts/add-node.js","87","36","87","68"

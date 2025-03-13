@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;add-records.js:11[42:44];Sink: { ...ms ...  data };add-records.js:18[27:51]::FLOW_DESCR_END","/node-red-grist/add-records.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;document-export.js:11[42:44];Sink: { ...ms ... uffer };document-export.js:33[27:53]::FLOW_DESCR_END","/node-red-grist/document-export.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-records.js:12[42:44];Sink: `filter ... lter)}`;get-records.js:17[22:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;get-records.js:12[42:44];Sink: { ...ms ...  data };get-records.js:20[27:51]::FLOW_DESCR_END","/node-red-grist/get-records.js","12","42","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-records.js:11[42:44];Sink: { ...ms ...  data };update-records.js:18[27:51]::FLOW_DESCR_END","/node-red-grist/update-records.js","11","42","11","44"

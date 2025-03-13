@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-tls.js:191[45:47];Sink: err;tcp-tls.js:192[30:32]::FLOW_DESCR_END","/tcp-tls.js","191","45","191","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-tls.js:288[44:46];Sink: err;tcp-tls.js:289[30:32]::FLOW_DESCR_END","/tcp-tls.js","288","44","288","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tcp-tls.js:391[39:41];Sink: msg.payload;tcp-tls.js:394[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:391[39:41];Sink: Buffer. ... ase64');tcp-tls.js:396[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:391[39:41];Sink: Buffer. ... ayload);tcp-tls.js:398[38:66]::FLOW_DESCR_END","/tcp-tls.js","391","39","391","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tcp-tls.js:419[38:40];Sink: msg.payload;tcp-tls.js:425[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:419[38:40];Sink: Buffer. ... ase64');tcp-tls.js:427[42:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:419[38:40];Sink: Buffer. ... ayload);tcp-tls.js:429[42:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:419[38:40];Sink: msg.payload;tcp-tls.js:436[53:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:419[38:40];Sink: Buffer. ... ase64');tcp-tls.js:438[53:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:419[38:40];Sink: Buffer. ... ayload);tcp-tls.js:440[53:81]::FLOW_DESCR_END","/tcp-tls.js","419","38","419","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tcp-tls.js:479[39:41];Sink: buffer;tcp-tls.js:493[58:63]::FLOW_DESCR_END","/tcp-tls.js","479","39","479","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tcp-tls.js:558[35:37];Sink: `${RED. ... ${msg}`;tcp-tls.js:775[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:558[35:37];Sink: `TcpTLS ... {port}`;tcp-tls.js:794[42:91]::FLOW_DESCR_END","/tcp-tls.js","558","35","558","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.host;tcp-tls.js:564[39:46];Sink: `${RED. ... ${msg}`;tcp-tls.js:775[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.host;tcp-tls.js:564[39:46];Sink: `TcpTLS ... {port}`;tcp-tls.js:794[42:91]::FLOW_DESCR_END","/tcp-tls.js","564","39","564","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;tcp-tls.js:565[24:32];Sink: `${RED. ... ${msg}`;tcp-tls.js:775[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.port;tcp-tls.js:565[24:32];Sink: `TcpTLS ... {port}`;tcp-tls.js:794[42:91]::FLOW_DESCR_END","/tcp-tls.js","565","24","565","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.port;tcp-tls.js:565[37:44];Sink: `${RED. ... ${msg}`;tcp-tls.js:775[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.port;tcp-tls.js:565[37:44];Sink: `TcpTLS ... {port}`;tcp-tls.js:794[42:91]::FLOW_DESCR_END","/tcp-tls.js","565","37","565","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tcp-tls.js:773[68:70];Sink: `${RED. ... ${msg}`;tcp-tls.js:775[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tcp-tls.js:773[68:70];Sink: msg;tcp-tls.js:775[92:94]::FLOW_DESCR_END","/tcp-tls.js","773","68","773","70"

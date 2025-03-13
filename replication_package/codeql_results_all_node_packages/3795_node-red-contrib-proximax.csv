@@ -1,0 +1,31 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:29[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:31[68:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:33[64:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:44[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:46[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:48[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:58[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;account.js:14[36:38];Sink: msg;account.js:62[35:37]::FLOW_DESCR_END","/nodes/account/account.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;accountInfo.js:11[36:38];Sink: msg;accountInfo.js:25[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:11[36:38];Sink: msg;accountInfo.js:31[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:11[36:38];Sink: msg;accountInfo.js:33[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;accountInfo.js:11[36:38];Sink: msg;accountInfo.js:36[35:37]::FLOW_DESCR_END","/nodes/account/accountInfo.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;accountInfo.js:26[28:32];Sink: error;accountInfo.js:28[40:44]::FLOW_DESCR_END","/nodes/account/accountInfo.js","26","28","26","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;announceTransaction.js:12[36:38];Sink: msg;announceTransaction.js:33[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;announceTransaction.js:12[36:38];Sink: msg;announceTransaction.js:36[43:45]::FLOW_DESCR_END","/nodes/account/announceTransaction.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;announceTransaction.js:35[24:28];Sink: error;announceTransaction.js:36[36:40]::FLOW_DESCR_END","/nodes/account/announceTransaction.js","35","24","35","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signTransaction.js:14[36:38];Sink: msg;signTransaction.js:30[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:14[36:38];Sink: msg;signTransaction.js:32[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:14[36:38];Sink: msg;signTransaction.js:35[77:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:14[36:38];Sink: msg;signTransaction.js:38[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:14[36:38];Sink: msg;signTransaction.js:40[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signTransaction.js:14[36:38];Sink: msg;signTransaction.js:43[35:37]::FLOW_DESCR_END","/nodes/account/signTransaction.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;signTransaction.js:31[32:36];Sink: error;signTransaction.js:32[44:48]::FLOW_DESCR_END","/nodes/account/signTransaction.js","31","32","31","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mosaicDefinitionTransaction.js:16[36:38];Sink: msg;mosaicDefinitionTransaction.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicDefinitionTransaction.js:16[36:38];Sink: msg;mosaicDefinitionTransaction.js:39[58:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mosaicDefinitionTransaction.js:16[36:38];Sink: msg;mosaicDefinitionTransaction.js:41[55:57]::FLOW_DESCR_END","/nodes/transactions/mosaicDefinitionTransaction.js","16","36","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;namespaceTransaction.js:12[36:38];Sink: msg;namespaceTransaction.js:27[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;namespaceTransaction.js:12[36:38];Sink: msg;namespaceTransaction.js:29[58:60]::FLOW_DESCR_END","/nodes/transactions/namespaceTransaction.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;subNamespaceTransaction.js:12[36:38];Sink: msg;subNamespaceTransaction.js:27[31:33]::FLOW_DESCR_END","/nodes/transactions/subNamespaceTransaction.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transferTransaction.js:15[36:38];Sink: msg;transferTransaction.js:44[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transferTransaction.js:15[36:38];Sink: msg;transferTransaction.js:46[56:58]::FLOW_DESCR_END","/nodes/transactions/transferTransaction.js","15","36","15","38"

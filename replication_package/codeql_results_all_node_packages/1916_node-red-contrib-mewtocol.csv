@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rcc.js:6[35:37];Sink: [msg,null];mewtocol-rcc.js:27[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rcc.js:6[35:37];Sink: [msg,err];mewtocol-rcc.js:34[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rcc.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rcs.js:6[35:37];Sink: [msg,null];mewtocol-rcs.js:26[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rcs.js:6[35:37];Sink: [msg,err];mewtocol-rcs.js:33[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rcs.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rd.js:6[35:37];Sink: [msg,null];mewtocol-rd.js:27[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rd.js:6[35:37];Sink: [msg,err];mewtocol-rd.js:34[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rd.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rk.js:6[35:37];Sink: [msg,null];mewtocol-rk.js:26[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rk.js:6[35:37];Sink: [msg,err];mewtocol-rk.js:33[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rk.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rr.js:6[35:37];Sink: [msg,null];mewtocol-rr.js:26[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rr.js:6[35:37];Sink: [msg,err];mewtocol-rr.js:33[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rr.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rs.js:6[35:37];Sink: [msg,null];mewtocol-rs.js:26[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rs.js:6[35:37];Sink: [msg,err];mewtocol-rs.js:33[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rs.js","6","35","6","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mewtocol-rt.js:6[35:37];Sink: [msg,null];mewtocol-rt.js:24[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mewtocol-rt.js:6[35:37];Sink: [msg,err];mewtocol-rt.js:31[31:39]::FLOW_DESCR_END","/mewtocol/mewtocol-rt.js","6","35","6","37"

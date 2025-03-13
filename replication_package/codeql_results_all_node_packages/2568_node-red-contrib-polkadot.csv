@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;balance.js:6[42:44];Sink: msg;balance.js:31[31:33]::FLOW_DESCR_END","/polkadot/balance.js","6","42","6","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;info.js:6[42:44];Sink: msg;info.js:28[31:33]::FLOW_DESCR_END","/polkadot/info.js","6","42","6","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;state.js:6[42:44];Sink: msg;state.js:37[31:33]::FLOW_DESCR_END","/polkadot/state.js","6","42","6","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;transfer.js:6[42:44];Sink: `Transf ... mount}`;transfer.js:22[30:98]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;transfer.js:6[42:44];Sink: msg;transfer.js:38[31:33]::FLOW_DESCR_END","/polkadot/transfer.js","6","42","6","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tx.js:6[42:44];Sink: `Tx ${m ... roxy}]`;tx.js:20[30:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tx.js:6[42:44];Sink: msg;tx.js:36[31:33]::FLOW_DESCR_END","/polkadot/tx.js","6","42","6","44"

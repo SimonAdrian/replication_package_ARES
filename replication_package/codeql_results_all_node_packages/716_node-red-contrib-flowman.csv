@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flows.js:18[36:38];Sink: ""deleted flow "" + id;flows.js:40[38:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:18[36:38];Sink: ""failed ... pect(e);flows.js:54[40:92]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:18[36:38];Sink: ""delete ... ibited"";flows.js:97[27:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:18[36:38];Sink: msg;flows.js:99[27:29]::FLOW_DESCR_END","/flows.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flows.js:115[36:38];Sink: msg;flows.js:203[27:29]::FLOW_DESCR_END","/flows.js","115","36","115","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: msg;flows.js:614[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: msg;flows.js:616[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: filename2;flows.js:706[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: filename2;flows.js:711[62:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: msg;flows.js:714[91:93]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: filename;flows.js:724[42:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: filename;flows.js:731[54:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: msg;flows.js:736[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: msg;flows.js:741[83:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flows.js:598[36:38];Sink: msg;flows.js:758[23:25]::FLOW_DESCR_END","/flows.js","598","36","598","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flows.js:922[36:38];Sink: msg;flows.js:951[23:25]::FLOW_DESCR_END","/flows.js","922","36","922","38"

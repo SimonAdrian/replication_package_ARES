@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:44[32:34];Sink: msg;ffmpeg-conversion.js:59[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:44[32:34];Sink: msg;ffmpeg-conversion.js:66[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:44[32:34];Sink: contents;ffmpeg-conversion.js:77[28:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ffmpeg-conversion.js:44[32:34];Sink: url;ffmpeg-conversion.js:97[17:19]::FLOW_DESCR_END","/nodes/ffmpeg-conversion.js","44","32","44","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;ffmpeg-conversion.js:136[42:44];Sink: err;ffmpeg-conversion.js:137[25:27]::FLOW_DESCR_END","/nodes/ffmpeg-conversion.js","136","42","136","44"

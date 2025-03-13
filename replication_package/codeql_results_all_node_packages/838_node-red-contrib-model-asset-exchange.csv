@@ -1,0 +1,35 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:22[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:48[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:55[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, data);node.js:98[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, error);node.js:109[41:59]::FLOW_DESCR_END","/audio-classifier/node.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:22[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:47[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:53[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: await s ... , data);node.js:95[31:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, error);node.js:106[41:59]::FLOW_DESCR_END","/human-pose-estimator/node.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:21[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:46[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:52[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: setData(msg, data);node.js:91[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: setData(msg, error);node.js:102[41:59]::FLOW_DESCR_END","/image-caption-generator/node.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:22[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:48[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: msg;node.js:56[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: await s ... , data);node.js:100[31:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:15[36:38];Sink: setData(msg, error);node.js:111[41:59]::FLOW_DESCR_END","/image-segmenter/node.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:21[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:44[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:53[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: setData(msg, data);node.js:94[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: setData(msg, error);node.js:104[41:59]::FLOW_DESCR_END","/inception-resnet-v2/node.js","14","36","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:17[36:38];Sink: msg;node.js:24[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:17[36:38];Sink: msg;node.js:55[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:17[36:38];Sink: msg;node.js:69[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:17[36:38];Sink: await s ... , data);node.js:116[31:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:17[36:38];Sink: setData(msg, error);node.js:123[41:59]::FLOW_DESCR_END","/object-detector/node.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:21[76:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:47[135:137]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: msg;node.js:55[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: setData(msg, data);node.js:96[31:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:14[36:38];Sink: setData(msg, error);node.js:107[41:59]::FLOW_DESCR_END","/scene-classifier/node.js","14","36","14","38"

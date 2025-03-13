@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azureeventhub.js:49[32:34];Sink: err.message;azureeventhub.js:50[25:35]::FLOW_DESCR_END","/azureeventhub.js","49","32","49","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: ehEvent;azureeventhub.js:53[33:39];Sink: ehEvent.body;azureeventhub.js:55[25:36]::FLOW_DESCR_END","/azureeventhub.js","53","33","53","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... nString;azureeventhub.js:69[77:109];Sink: 'Connec ... nString;azureeventhub.js:69[18:109]::FLOW_DESCR_END","/azureeventhub.js","69","77","69","109"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureeventhub.js:100[36:38];Sink: 'Sendin ... entBody;azureeventhub.js:25[28:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureeventhub.js:100[36:38];Sink: eventBody;azureeventhub.js:26[32:40]::FLOW_DESCR_END","/azureeventhub.js","100","36","100","38"

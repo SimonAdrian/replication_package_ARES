@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.host;dingzInput.js:125[13:23];Sink: ""http:/ ... action"";helpers.js:177[16:48]::FLOW_DESCR_END","/src/dingzInput.js","125","13","125","23"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dingzOutput.js:15[31:33];Sink: ""http:/ ... action"";helpers.js:177[16:48]::FLOW_DESCR_END","/src/dingzOutput.js","15","31","15","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.device.host;dingzOutput.js:26[15:30];Sink: ""http:/ ... action"";helpers.js:177[16:48]::FLOW_DESCR_END","/src/dingzOutput.js","26","15","26","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rinfo;deviceListHelper.js:23[32:36];Sink: `Discov ... ${mac}`;deviceListHelper.js:73[21:59]::FLOW_DESCR_END","/utils/deviceListHelper.js","23","32","23","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;deviceListHelper.js:78[24:26];Sink: `server ... stack}`;deviceListHelper.js:79[19:47]::FLOW_DESCR_END","/utils/deviceListHelper.js","78","24","78","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");helpers.js:104[25:53];Sink: JSON.stringify(list);helpers.js:116[30:49]::FLOW_DESCR_END","/utils/helpers.js","104","25","104","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;helpers.js:298[24:24];Sink: `Got er ... ssage}`;helpers.js:299[27:51]::FLOW_DESCR_END","/utils/helpers.js","298","24","298","24"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: options.host;requests.js:87[17:28];Sink: ""\nDEVI ...    ""\n"";requests.js:80[15:20]::FLOW_DESCR_END","/utils/requests.js","87","17","87","28"

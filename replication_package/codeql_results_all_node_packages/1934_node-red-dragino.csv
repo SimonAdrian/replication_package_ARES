@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data2[key];decoder.js:36[30:39];Sink: [config ... yload1];dragino-decoder.js:13[40:65]::FLOW_DESCR_END","/decoder.js","36","30","36","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dragino-decoder.js:11[35:37];Sink: [config ... yload1];dragino-decoder.js:13[40:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dragino-decoder.js:11[35:37];Sink: msg;dragino-decoder.js:15[23:25]::FLOW_DESCR_END","/dragino-decoder.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dragino-echarts.js:10[35:37];Sink: msg;dragino-echarts.js:157[23:25]::FLOW_DESCR_END","/dragino-echarts.js","10","35","10","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dragino-sqlite.js:7[35:37];Sink: msg;dragino-sqlite.js:32[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dragino-sqlite.js:7[35:37];Sink: msg;dragino-sqlite.js:40[27:29]::FLOW_DESCR_END","/dragino-sqlite.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[1][0][0];dragino-sqlite.js:14[26:38];Sink: deveui;dragino-sqlite.js:15[38:43]::FLOW_DESCR_END","/dragino-sqlite.js","14","26","14","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[1][0];dragino-sqlite.js:14[26:35];Sink: deveui;dragino-sqlite.js:15[38:43]::FLOW_DESCR_END","/dragino-sqlite.js","14","26","14","35"

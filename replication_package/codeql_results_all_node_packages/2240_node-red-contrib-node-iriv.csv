@@ -1,0 +1,45 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-iriv.js:52[32:34];Sink: msg;node-iriv.js:66[78:80]::FLOW_DESCR_END","/node-iriv.js","52","32","52","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:86[56:59];Sink: ""out: "" ...  + "" :"";node-iriv.js:87[58:78]::FLOW_DESCR_END","/node-iriv.js","86","56","86","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:90[56:59];Sink: ""err: "" ...  + "" :"";node-iriv.js:91[58:78]::FLOW_DESCR_END","/node-iriv.js","90","56","90","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:105[50:52];Sink: RED._("" ... rr.path;node-iriv.js:106[61:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:105[50:52];Sink: err;node-iriv.js:106[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:105[50:52];Sink: RED._("" ... rr.path;node-iriv.js:107[66:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:105[50:52];Sink: err;node-iriv.js:107[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:105[50:52];Sink: err;node-iriv.js:108[90:92]::FLOW_DESCR_END","/node-iriv.js","105","50","105","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:111[56:58];Sink: err;node-iriv.js:113[87:89]::FLOW_DESCR_END","/node-iriv.js","111","56","111","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-iriv.js:161[32:34];Sink: msg;node-iriv.js:175[78:80]::FLOW_DESCR_END","/node-iriv.js","161","32","161","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:195[56:59];Sink: ""out: "" ...  + "" :"";node-iriv.js:196[58:78]::FLOW_DESCR_END","/node-iriv.js","195","56","195","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:199[56:59];Sink: ""err: "" ...  + "" :"";node-iriv.js:200[58:78]::FLOW_DESCR_END","/node-iriv.js","199","56","199","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:214[50:52];Sink: RED._("" ... rr.path;node-iriv.js:215[61:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:214[50:52];Sink: err;node-iriv.js:215[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:214[50:52];Sink: RED._("" ... rr.path;node-iriv.js:216[66:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:214[50:52];Sink: err;node-iriv.js:216[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:214[50:52];Sink: err;node-iriv.js:217[90:92]::FLOW_DESCR_END","/node-iriv.js","214","50","214","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:220[56:58];Sink: err;node-iriv.js:222[87:89]::FLOW_DESCR_END","/node-iriv.js","220","56","220","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-iriv.js:270[32:34];Sink: msg;node-iriv.js:284[78:80]::FLOW_DESCR_END","/node-iriv.js","270","32","270","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:304[56:59];Sink: ""out: "" ...  + "" :"";node-iriv.js:305[58:78]::FLOW_DESCR_END","/node-iriv.js","304","56","304","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:308[56:59];Sink: ""err: "" ...  + "" :"";node-iriv.js:309[58:78]::FLOW_DESCR_END","/node-iriv.js","308","56","308","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:323[50:52];Sink: RED._("" ... rr.path;node-iriv.js:324[61:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:323[50:52];Sink: err;node-iriv.js:324[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:323[50:52];Sink: RED._("" ... rr.path;node-iriv.js:325[66:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:323[50:52];Sink: err;node-iriv.js:325[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:323[50:52];Sink: err;node-iriv.js:326[90:92]::FLOW_DESCR_END","/node-iriv.js","323","50","323","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:329[56:58];Sink: err;node-iriv.js:331[87:89]::FLOW_DESCR_END","/node-iriv.js","329","56","329","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:385[52:55];Sink: ""out: "" ...  + "" :"";node-iriv.js:394[58:78]::FLOW_DESCR_END","/node-iriv.js","385","52","385","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:398[52:55];Sink: ""err: "" ...  + "" :"";node-iriv.js:399[54:74]::FLOW_DESCR_END","/node-iriv.js","398","52","398","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:417[46:48];Sink: RED._("" ... rr.path;node-iriv.js:418[57:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:417[46:48];Sink: err;node-iriv.js:418[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:417[46:48];Sink: RED._("" ... rr.path;node-iriv.js:419[62:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:417[46:48];Sink: err;node-iriv.js:419[118:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:417[46:48];Sink: err;node-iriv.js:420[86:88]::FLOW_DESCR_END","/node-iriv.js","417","46","417","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:423[52:54];Sink: err;node-iriv.js:425[83:85]::FLOW_DESCR_END","/node-iriv.js","423","52","423","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:488[52:55];Sink: ""out: "" ...  + "" :"";node-iriv.js:497[58:78]::FLOW_DESCR_END","/node-iriv.js","488","52","488","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-iriv.js:501[52:55];Sink: ""err: "" ...  + "" :"";node-iriv.js:502[54:74]::FLOW_DESCR_END","/node-iriv.js","501","52","501","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:520[46:48];Sink: RED._("" ... rr.path;node-iriv.js:521[57:105]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:520[46:48];Sink: err;node-iriv.js:521[108:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:520[46:48];Sink: RED._("" ... rr.path;node-iriv.js:522[62:115]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:520[46:48];Sink: err;node-iriv.js:522[118:120]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;node-iriv.js:520[46:48];Sink: err;node-iriv.js:523[86:88]::FLOW_DESCR_END","/node-iriv.js","520","46","520","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-iriv.js:526[52:54];Sink: err;node-iriv.js:528[83:85]::FLOW_DESCR_END","/node-iriv.js","526","52","526","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-iriv.js:675[42:44];Sink: msg;node-iriv.js:689[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-iriv.js:675[42:44];Sink: msg;node-iriv.js:731[22:24]::FLOW_DESCR_END","/node-iriv.js","675","42","675","44"

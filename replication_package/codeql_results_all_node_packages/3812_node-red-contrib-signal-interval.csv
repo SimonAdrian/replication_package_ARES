@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;signal-interval.js:10[30:32];Sink: msg;signal-interval.js:33[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signal-interval.js:10[30:32];Sink: newTimestamp;signal-interval.js:39[29:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;signal-interval.js:10[30:32];Sink: newStatus;signal-interval.js:40[26:34]::FLOW_DESCR_END","/signal-interval.js","10","30","10","32"

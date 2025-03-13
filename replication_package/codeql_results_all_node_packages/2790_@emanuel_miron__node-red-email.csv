@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;email.js:79[35:37];Sink: msg;email.js:133[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;email.js:79[35:37];Sink: msg;email.js:143[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;email.js:79[35:37];Sink: {\n      ...       };email.js:146[39:29]::FLOW_DESCR_END","/email.js","79","35","79","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;email.js:279[52:55];Sink: util.fo ... , data);email.js:290[30:75]::FLOW_DESCR_END","/email.js","279","52","279","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;email.js:294[45:47];Sink: ""error: ... fy(err);email.js:296[26:56]::FLOW_DESCR_END","/email.js","294","45","294","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;email.js:304[53:59];Sink: util.fo ... awData);email.js:309[30:79]::FLOW_DESCR_END","/email.js","304","53","304","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rawData;email.js:315[69:75];Sink: util.fo ... awData);email.js:334[30:78]::FLOW_DESCR_END","/email.js","315","69","315","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;email.js:340[53:55];Sink: ""Invali ... "" + cmd;email.js:341[26:48]::FLOW_DESCR_END","/email.js","340","53","340","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: cmd;email.js:344[46:48];Sink: ""We wer ... "" + cmd;email.js:345[26:49]::FLOW_DESCR_END","/email.js","344","46","344","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;email.js:521[39:41];Sink: err;email.js:523[30:32]::FLOW_DESCR_END","/email.js","521","39","521","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;email.js:531[35:37];Sink: msg;email.js:486[79:81]::FLOW_DESCR_END","/email.js","531","35","531","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;email.js:613[30:32];Sink: ""Error: ... message;email.js:614[24:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;email.js:613[30:32];Sink: err;email.js:614[49:51]::FLOW_DESCR_END","/email.js","613","30","613","32"

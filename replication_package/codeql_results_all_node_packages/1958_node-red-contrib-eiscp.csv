@@ -1,0 +1,16 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;eiscp-controller.js:33[73:83];Sink: 'alread ... l + ']';eiscp-controller.js:33[30:136]::FLOW_DESCR_END","/eiscp-controller.js","33","73","33","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;eiscp-controller.js:33[93:103];Sink: 'alread ... l + ']';eiscp-controller.js:33[30:136]::FLOW_DESCR_END","/eiscp-controller.js","33","93","33","103"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;eiscp-controller.js:38[62:72];Sink: 'config ... l + ']';eiscp-controller.js:38[26:125]::FLOW_DESCR_END","/eiscp-controller.js","38","62","38","72"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;eiscp-controller.js:38[82:92];Sink: 'config ... l + ']';eiscp-controller.js:38[26:125]::FLOW_DESCR_END","/eiscp-controller.js","38","82","38","92"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;eiscp-controller.js:40[56:58];Sink: 'Error: ... tring();eiscp-controller.js:41[32:57]::FLOW_DESCR_END","/eiscp-controller.js","40","56","40","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;eiscp-controller.js:49[64:74];Sink: 'EISCP: ... l + ']';eiscp-controller.js:49[26:127]::FLOW_DESCR_END","/eiscp-controller.js","49","64","49","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;eiscp-controller.js:49[84:94];Sink: 'EISCP: ... l + ']';eiscp-controller.js:49[26:127]::FLOW_DESCR_END","/eiscp-controller.js","49","84","49","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;eiscp-controller.js:58[64:74];Sink: 'discon ... l + ']';eiscp-controller.js:58[22:127]::FLOW_DESCR_END","/eiscp-controller.js","58","64","58","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;eiscp-controller.js:58[84:94];Sink: 'discon ... l + ']';eiscp-controller.js:58[22:127]::FLOW_DESCR_END","/eiscp-controller.js","58","84","58","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;eiscp-in.js:47[38:41];Sink: 'eiscp  ... ) + ']';eiscp-in.js:48[22:69]::FLOW_DESCR_END","/eiscp-in.js","47","38","47","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;eiscp-out.js:20[36:38];Sink: 'eiscpo ... ) + ']';eiscp-out.js:21[22:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;eiscp-out.js:20[36:38];Sink: payload;eiscp-out.js:44[23:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;eiscp-out.js:20[36:38];Sink: 'send d ... a + ']';eiscp-out.js:72[22:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;eiscp-out.js:20[36:38];Sink: data.toString();eiscp-out.js:82[44:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;eiscp-out.js:20[36:38];Sink: ""send:  ... y(data);eiscp-out.js:100[30:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;eiscp-out.js:20[36:38];Sink: data.toString();eiscp-out.js:107[48:62]::FLOW_DESCR_END","/eiscp-out.js","20","36","20","38"

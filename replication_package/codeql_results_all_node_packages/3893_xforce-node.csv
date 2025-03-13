@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;restful.service.js:64[42:44];Sink: err;restful.service.js:66[43:45]::FLOW_DESCR_END","/restful/restful.service.js","64","42","64","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ls.user;xforce-node-red.js:73[24:44];Sink: username;xforce-node-red.js:82[65:72]::FLOW_DESCR_END","/xforce_node_red/xforce-node-red.js","73","24","73","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xforce-node-red.js:78[35:37];Sink: msg.payload;xforce-node-red.js:88[51:61]::FLOW_DESCR_END","/xforce_node_red/xforce-node-red.js","78","35","78","37"

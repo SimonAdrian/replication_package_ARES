@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;alexa-home-controller.js:147[39:47];Sink: ""Reques ... req.url;alexa-hub.js:63[9:17]::FLOW_DESCR_END","/alexa/alexa-home-controller.js","147","39","147","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;alexa-home-controller.js:257[39:47];Sink: ""Reques ... req.url;alexa-hub.js:63[9:17]::FLOW_DESCR_END","/alexa/alexa-home-controller.js","257","39","257","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request ... sername;alexa-home-controller.js:393[9:31];Sink: node.na ... Address;alexa-home-controller.js:389[7:40]::FLOW_DESCR_END","/alexa/alexa-home-controller.js","393","9","393","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.lights.length;alexa-home-controller.js:395[9:26];Sink: node.na ... Address;alexa-home-controller.js:389[7:40]::FLOW_DESCR_END","/alexa/alexa-home-controller.js","395","9","395","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request ... sername;alexa-home-controller.js:487[9:31];Sink: node.na ... Address;alexa-home-controller.js:483[7:40]::FLOW_DESCR_END","/alexa/alexa-home-controller.js","487","9","487","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.lights.length;alexa-home-controller.js:489[9:26];Sink: node.na ... Address;alexa-home-controller.js:483[7:40]::FLOW_DESCR_END","/alexa/alexa-home-controller.js","489","9","489","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;alexa-home.js:27[31:33];Sink: node.na ... load.xy;alexa-home.js:89[21:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-home.js:27[31:33];Sink: node.na ... oad.bri;alexa-home.js:95[21:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;alexa-home.js:27[31:33];Sink: msg;alexa-home.js:141[15:17]::FLOW_DESCR_END","/alexa/alexa-home.js","27","31","27","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;alexa-hub.js:41[30:34];Sink: error;alexa-hub.js:42[27:31]::FLOW_DESCR_END","/alexa/alexa-hub.js","41","30","41","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;alexa-hub.js:66[11:19];Sink: ""Reques ... req.url;alexa-hub.js:63[9:17]::FLOW_DESCR_END","/alexa/alexa-hub.js","66","11","66","19"

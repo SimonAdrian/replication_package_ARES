@@ -1,0 +1,41 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;myhttp2.js:22[43:45];Sink: err;myhttp2.js:23[27:29]::FLOW_DESCR_END","/http2Testing/myhttp2.js","22","43","22","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;myhttp2.js:94[29:33];Sink: error;myhttp2.js:95[27:31]::FLOW_DESCR_END","/http2Testing/myhttp2.js","94","29","94","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;knxUltimate-config.js:65[17:27];Sink: ""knxUlt ... de.host;knxUltimate-config.js:561[15:138]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;knxUltimate-config.js:65[17:27];Sink: ""knxUlt ... de.name;knxUltimate-config.js:636[95:156]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;knxUltimate-config.js:65[17:27];Sink: ""KNXUlt ... message;knxUltimate-config.js:720[93:178]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;knxUltimate-config.js:65[17:27];Sink: ""KNXUlt ... de.name;knxUltimate-config.js:726[32:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: config.host;knxUltimate-config.js:65[17:27];Sink: ""KNXUlt ... de.name;knxUltimate-config.js:727[22:119]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","65","17","65","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;knxUltimate-config.js:99[67:75];Sink: ""knxUlt ... de.host;knxUltimate-config.js:561[15:138]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;knxUltimate-config.js:99[67:75];Sink: ""knxUlt ... de.name;knxUltimate-config.js:636[95:156]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;knxUltimate-config.js:99[67:75];Sink: ""KNXUlt ... message;knxUltimate-config.js:720[93:178]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;knxUltimate-config.js:99[67:75];Sink: ""KNXUlt ... de.name;knxUltimate-config.js:726[32:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.host;knxUltimate-config.js:99[67:75];Sink: ""KNXUlt ... de.name;knxUltimate-config.js:727[22:119]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","99","67","99","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");knxUltimate-config.js:230[38:67];Sink: JSON.st ... sedGAs);knxUltimate-config.js:220[35:65]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","230","38","230","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;knxUltimate-config.js:561[130:138];Sink: ""knxUlt ... de.host;knxUltimate-config.js:561[15:138]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","561","130","561","138"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;knxUltimate-config.js:649[59:61];Sink: ""knxUlt ... essage);knxUltimate-config.js:651[95:198]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;knxUltimate-config.js:649[59:61];Sink: ""knxUlt ...  node!"";knxUltimate-config.js:657[15:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;knxUltimate-config.js:649[59:61];Sink: ""knxUlt ... essage);knxUltimate-config.js:664[93:181]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","649","59","649","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;knxUltimate-config.js:671[66:69];Sink: info;knxUltimate-config.js:675[139:142]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","671","66","671","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;knxUltimate-config.js:707[64:67];Sink: ""knxUlt ... r || """";knxUltimate-config.js:709[93:147]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","707","64","707","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _datagram;knxUltimate-config.js:737[30:38];Sink: ""KNXUlt ... + _dest;knxUltimate-config.js:761[90:190]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _datagram;knxUltimate-config.js:737[30:38];Sink: ""knxUlt ... message;knxUltimate-config.js:1467[13:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _datagram;knxUltimate-config.js:737[30:38];Sink: ""knxUlt ... message;knxUltimate-config.js:1492[13:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _datagram;knxUltimate-config.js:737[30:38];Sink: ""knxUlt ... d || """";knxUltimate-config.js:1518[17:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _datagram;knxUltimate-config.js:737[30:38];Sink: ""knxUlt ... d || """";knxUltimate-config.js:1538[15:29]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","737","30","737","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... tf8"" });knxUltimate-config.js:1618[22:69];Sink: ""KNXUlt ... ment.ga;knxUltimate-config.js:418[101:210]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... tf8"" });knxUltimate-config.js:1618[22:69];Sink: ""KNXUlt ... \t"")[1];knxUltimate-config.js:1681[21:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... tf8"" });knxUltimate-config.js:1618[22:69];Sink: ""KNXUlt ... \t"")[1];knxUltimate-config.js:1694[21:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... tf8"" });knxUltimate-config.js:1618[22:69];Sink: ""KNXUlt ... \t"")[5];knxUltimate-config.js:1705[21:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... tf8"" });knxUltimate-config.js:1618[22:69];Sink: ""KNXUlt ...    sDPT;knxUltimate-config.js:1809[19:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... tf8"" });knxUltimate-config.js:1618[22:69];Sink: ""KNXUlt ... "" + sGA;knxUltimate-config.js:1816[28:126]::FLOW_DESCR_END","/nodes/knxUltimate-config.js","1618","22","1618","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;knxUltimate.js:258[23:25];Sink: `knxUlt ... (msg)}`;knxUltimate.js:330[97:327]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;knxUltimate.js:258[23:25];Sink: `knxUlt ... (msg)}`;knxUltimate.js:352[99:331]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;knxUltimate.js:258[23:25];Sink: `knxUlt ... (msg)}`;knxUltimate.js:375[103:337]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;knxUltimate.js:258[23:25];Sink: `knxUlt ... (msg)}`;knxUltimate.js:496[97:317]::FLOW_DESCR_END","/nodes/knxUltimate.js","258","23","258","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... ""utf8"");knxUltimateAutoResponder.js:80[38:67];Sink: JSON.st ... sedGAs);knxUltimateAutoResponder.js:70[35:65]::FLOW_DESCR_END","/nodes/knxUltimateAutoResponder.js","80","38","80","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.co ... e.pop();hueEngine.js:118[20:42];Sink: `/resou ... ghtID}`;hueEngine.js:124[48:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... e.pop();hueEngine.js:118[20:42];Sink: jRet._state;hueEngine.js:124[84:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... e.pop();hueEngine.js:118[20:42];Sink: `/resou ... ghtID}`;hueEngine.js:133[37:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... e.pop();hueEngine.js:118[20:42];Sink: jRet._state;hueEngine.js:133[81:91]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... e.pop();hueEngine.js:118[20:42];Sink: `/resou ... eneID}`;hueEngine.js:142[37:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.co ... e.pop();hueEngine.js:118[20:42];Sink: jRet._state;hueEngine.js:142[67:77]::FLOW_DESCR_END","/nodes/utils/hueEngine.js","118","20","118","42"

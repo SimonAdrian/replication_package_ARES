@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;staircase-timer.js:181[35:37];Sink: ""receiv ... fy(msg);staircase-timer.js:182[22:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;staircase-timer.js:181[35:37];Sink: ""don't  ... e + ""'"";staircase-timer.js:198[36:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;staircase-timer.js:181[35:37];Sink: msg;staircase-timer.js:198[122:124]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;staircase-timer.js:181[35:37];Sink: msg;staircase-timer.js:207[83:85]::FLOW_DESCR_END","/staircase-timer.js","181","35","181","37"

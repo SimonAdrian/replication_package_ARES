@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:17[35:37];Sink: msg;auth.js:56[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:17[35:37];Sink: msg;auth.js:61[31:33]::FLOW_DESCR_END","/auth.js","17","35","17","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:79[35:37];Sink: url;auth.js:125[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:79[35:37];Sink: msg;auth.js:130[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:79[35:37];Sink: msg;auth.js:135[33:35]::FLOW_DESCR_END","/auth.js","79","35","79","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:155[35:37];Sink: url;auth.js:208[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:155[35:37];Sink: body;auth.js:208[39:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:155[35:37];Sink: msg;auth.js:212[33:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;auth.js:155[35:37];Sink: msg;auth.js:217[33:35]::FLOW_DESCR_END","/auth.js","155","35","155","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;auth.js:234[35:37];Sink: msg;auth.js:263[27:29]::FLOW_DESCR_END","/auth.js","234","35","234","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dsocket.js:167[34:36];Sink: `Device ... nnect}`;dsocket.js:168[27:114]::FLOW_DESCR_END","/dsocket.js","167","34","167","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dsocket.js:189[27:29];Sink: msg;dsocket.js:42[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsocket.js:189[27:29];Sink: msg;dsocket.js:182[28:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsocket.js:189[27:29];Sink: command;dsocket.js:286[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dsocket.js:189[27:29];Sink: `Unknow ... mmand}`;dsocket.js:288[27:78]::FLOW_DESCR_END","/dsocket.js","189","27","189","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;msocket.js:171[37:39];Sink: `Device ... nnect}`;msocket.js:172[27:120]::FLOW_DESCR_END","/msocket.js","171","37","171","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: msg;msocket.js:232[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: msg;msocket.js:239[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: node.error;msocket.js:269[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: msg;msocket.js:271[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: node.error;msocket.js:290[39:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: msg;msocket.js:292[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;msocket.js:191[27:29];Sink: command;msocket.js:360[32:38]::FLOW_DESCR_END","/msocket.js","191","27","191","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;socket.js:151[27:29];Sink: msg;socket.js:47[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socket.js:151[27:29];Sink: msg;socket.js:147[24:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socket.js:151[27:29];Sink: command;socket.js:209[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;socket.js:151[27:29];Sink: `Unknow ... mmand}`;socket.js:211[26:77]::FLOW_DESCR_END","/socket.js","151","27","151","29"

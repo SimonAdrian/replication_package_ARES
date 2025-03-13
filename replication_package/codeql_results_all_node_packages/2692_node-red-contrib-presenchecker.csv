@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;presencechecker.js:71[30:32];Sink: msg;presencechecker.js:107[22:24]::FLOW_DESCR_END","/presencechecker.js","71","30","71","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;presencechecker.js:119[38:42];Sink: 'proble ... message;presencechecker.js:120[19:70]::FLOW_DESCR_END","/presencechecker.js","119","38","119","42"

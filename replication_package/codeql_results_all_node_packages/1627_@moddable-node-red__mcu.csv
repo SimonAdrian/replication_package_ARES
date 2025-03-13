@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: new Dig ... }\n\t\t\t});digital.js:53[9:5];Sink: io;digital.js:76[26:27]::FLOW_DESCR_END","/digital/digital.js","53","9","71","5"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mcu_sensor.js:27[21:23];Sink: msg;mcu_sensor.js:40[9:11]::FLOW_DESCR_END","/sensor/mcu_sensor.js","27","21","27","23"

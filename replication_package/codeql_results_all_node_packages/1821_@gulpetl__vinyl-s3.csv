@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;s3_dest.js:12[42:44];Sink: 's3.des ... treams';s3_dest.js:46[17:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s3_dest.js:12[42:44];Sink: {...msg ... e:file};s3_dest.js:73[13:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s3_dest.js:12[42:44];Sink: {...msg ... gid:''};s3_dest.js:78[13:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s3_dest.js:12[42:44];Sink: msg;s3_dest.js:86[9:11]::FLOW_DESCR_END","/s3_dest.js","12","42","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;s3_src.js:13[41:43];Sink: msg;s3_src.js:42[9:11]::FLOW_DESCR_END","/s3_src.js","13","41","13","43"

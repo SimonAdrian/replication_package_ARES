@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;lescan.js:79[33:35];Sink: 'Failed ... message;lescan.js:82[28:71]::FLOW_DESCR_END","/nodes/lescan.js","79","33","79","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;lescan.js:85[39:42];Sink: address ... device);lescan.js:58[24:61]::FLOW_DESCR_END","/nodes/lescan.js","85","39","85","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: lines.pop();lescan.js:93[34:44];Sink: address ... device);lescan.js:58[24:61]::FLOW_DESCR_END","/nodes/lescan.js","93","34","93","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;lescan.js:100[39:42];Sink: data.toString();lescan.js:101[28:42]::FLOW_DESCR_END","/nodes/lescan.js","100","39","100","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;lescan.js:106[34:37];Sink: `child  ... ignal}`;lescan.js:111[28:84]::FLOW_DESCR_END","/nodes/lescan.js","106","34","106","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: signal;lescan.js:106[40:45];Sink: `child  ... ignal}`;lescan.js:111[28:84]::FLOW_DESCR_END","/nodes/lescan.js","106","40","106","45"

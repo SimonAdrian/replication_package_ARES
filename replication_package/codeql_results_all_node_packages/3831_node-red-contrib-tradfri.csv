@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tradfri-out.js:24[32:34];Sink: msg;tradfri-out.js:28[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:24[32:34];Sink: msg;tradfri-out.js:32[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:24[32:34];Sink: msg;tradfri-out.js:41[21:23]::FLOW_DESCR_END","/tradfri-out.js","24","32","24","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:128[92:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:128[178:180]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:131[131:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:131[217:219]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:135[130:132]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:135[215:217]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:149[134:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:149[220:222]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:151[136:138]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tradfri-out.js:80[32:34];Sink: msg;tradfri-out.js:151[221:223]::FLOW_DESCR_END","/tradfri-out.js","80","32","80","34"

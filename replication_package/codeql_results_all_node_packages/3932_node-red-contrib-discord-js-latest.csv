@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: info;client.js:68[38:41];Sink: `Rate l ... out '}`;client.js:69[22:133]::FLOW_DESCR_END","/client.js","68","38","68","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord-client.js:7[40:42];Sink: msg;discord-client.js:15[23:25]::FLOW_DESCR_END","/discord-client.js","7","40","7","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;discord-send-message.js:7[40:42];Sink: msg.payload;discord-send-message.js:20[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;discord-send-message.js:7[40:42];Sink: msg;discord-send-message.js:22[29:31]::FLOW_DESCR_END","/discord-send-message.js","7","40","7","42"

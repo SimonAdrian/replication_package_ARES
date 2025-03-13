@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cosmos-create-user-permission.js:15[36:38];Sink: msg;cosmos-create-user-permission.js:30[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmos-create-user-permission.js:15[36:38];Sink: msg;cosmos-create-user-permission.js:38[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmos-create-user-permission.js:15[36:38];Sink: msg;cosmos-create-user-permission.js:44[31:33]::FLOW_DESCR_END","/nodes/cosmos-create-user-permission.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cosmos-get-resource-token.js:15[36:38];Sink: msg;cosmos-get-resource-token.js:32[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmos-get-resource-token.js:15[36:38];Sink: msg;cosmos-get-resource-token.js:39[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmos-get-resource-token.js:15[36:38];Sink: msg;cosmos-get-resource-token.js:43[39:41]::FLOW_DESCR_END","/nodes/cosmos-get-resource-token.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cosmos-sql-read.js:14[36:38];Sink: msg;cosmos-sql-read.js:32[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cosmos-sql-read.js:14[36:38];Sink: `Someth ... topic}`;cosmos-sql-read.js:35[36:195]::FLOW_DESCR_END","/nodes/cosmos-sql-read.js","14","36","14","38"

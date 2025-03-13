@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shopify-customers.js:33[34:36];Sink: msg;shopify-customers.js:47[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shopify-customers.js:33[34:36];Sink: msg;shopify-customers.js:55[23:25]::FLOW_DESCR_END","/shopify-customers.js","33","34","33","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shopify-inventory.js:34[34:36];Sink: msg;shopify-inventory.js:90[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shopify-inventory.js:34[34:36];Sink: msg;shopify-inventory.js:98[23:25]::FLOW_DESCR_END","/shopify-inventory.js","34","34","34","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shopify-orders.js:33[34:36];Sink: msg;shopify-orders.js:47[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shopify-orders.js:33[34:36];Sink: msg;shopify-orders.js:55[23:25]::FLOW_DESCR_END","/shopify-orders.js","33","34","33","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;shopify-products.js:33[34:36];Sink: msg;shopify-products.js:47[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;shopify-products.js:33[34:36];Sink: msg;shopify-products.js:55[23:25]::FLOW_DESCR_END","/shopify-products.js","33","34","33","36"

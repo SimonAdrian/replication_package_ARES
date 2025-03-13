@@ -1,0 +1,22 @@
+{
+  "name": "thethingbox-node-sensortag",
+  "version": "0.0.19",
+  "author": {
+	"name" : "thethingbox-team",
+	"email" : "thethingbox@gmail.com"
+  },
+  "homepage": "thethingbox.io",
+  "description": "Sensortag node for thethingbox, compatible with node-red",
+  "dependencies": ["thethingbox-sensortag"],
+  "keywords": [
+    "thethingbox node",
+	"thethingbox",
+    "node-red",
+	"sensortag"
+  ],
+  "node-red": {
+    "nodes": {
+      "sensortag": "sensorTagNode.js"
+    }
+  }
+}

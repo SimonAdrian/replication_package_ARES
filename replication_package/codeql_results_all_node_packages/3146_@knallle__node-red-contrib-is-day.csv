@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;is-day.js:7[35:37];Sink: [msg,null];is-day.js:17[27:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;is-day.js:7[35:37];Sink: [null,msg];is-day.js:19[27:36]::FLOW_DESCR_END","/is-day/is-day.js","7","35","7","37"

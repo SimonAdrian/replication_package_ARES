@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;nest.js:84[47:51];Sink: '[nest] ' + error;nest.js:85[41:57]::FLOW_DESCR_END","/nest/nest.js","84","47","84","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nest.js:172[35:37];Sink: nesturl;nest.js:194[26:32]::FLOW_DESCR_END","/nest/nest.js","172","35","172","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credent ... sstoken;nest.js:185[96:118];Sink: nesturl;nest.js:194[26:32]::FLOW_DESCR_END","/nest/nest.js","185","96","185","118"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nest.js:237[35:37];Sink: nesturl;nest.js:267[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nest.js:237[35:37];Sink: util.in ... stform);nest.js:268[26:47]::FLOW_DESCR_END","/nest/nest.js","237","35","237","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: credent ... sstoken;nest.js:264[105:127];Sink: nesturl;nest.js:267[26:32]::FLOW_DESCR_END","/nest/nest.js","264","105","264","127"

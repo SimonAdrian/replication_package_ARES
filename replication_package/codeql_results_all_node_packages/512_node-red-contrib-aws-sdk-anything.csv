@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-sdk-anything.js:28[36:38];Sink: msg;aws-sdk-anything.js:33[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-sdk-anything.js:28[36:38];Sink: msg;aws-sdk-anything.js:37[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-sdk-anything.js:28[36:38];Sink: msg;aws-sdk-anything.js:43[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aws-sdk-anything.js:28[36:38];Sink: msg;aws-sdk-anything.js:53[27:29]::FLOW_DESCR_END","/aws-sdk-anything.js","28","36","28","38"

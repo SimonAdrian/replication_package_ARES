@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;rsh.js:263[26:26];Sink: ""Error  ... e.stack;rsh.js:264[16:49]::FLOW_DESCR_END","/rsh.js","263","26","263","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: req.query.username;rsh.js:301[40:57];Sink: JSON.st ... config);rsh.js:302[46:67]::FLOW_DESCR_END","/rsh.js","301","40","301","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;rsh.js:329[25:25];Sink: ""Error  ... essage);rsh.js:330[16:62]::FLOW_DESCR_END","/rsh.js","329","25","329","25"

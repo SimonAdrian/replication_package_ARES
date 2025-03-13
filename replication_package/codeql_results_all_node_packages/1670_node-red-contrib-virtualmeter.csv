@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loadprediction.js:15[41:43];Sink: [msg,{p ... batch}];loadprediction.js:224[27:47]::FLOW_DESCR_END","/loadprediction.js","15","41","15","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pvprediction.js:15[41:43];Sink: [msg,{p ... batch}];pvprediction.js:199[21:41]::FLOW_DESCR_END","/pvprediction.js","15","41","15","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;simplegsi.js:9[41:43];Sink: msg;simplegsi.js:41[21:23]::FLOW_DESCR_END","/simplegsi.js","9","41","9","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;summeter.js:7[35:37];Sink: msg.meterId;summeter.js:13[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;summeter.js:7[35:37];Sink: instance;summeter.js:13[46:53]::FLOW_DESCR_END","/summeter.js","7","35","7","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sumprediction.js:12[41:43];Sink: msg;sumprediction.js:47[21:23]::FLOW_DESCR_END","/sumprediction.js","12","41","12","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;virtualmeter.js:9[35:37];Sink: energy_new;virtualmeter.js:65[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;virtualmeter.js:9[35:37];Sink: power;virtualmeter.js:109[40:44]::FLOW_DESCR_END","/virtualmeter.js","9","35","9","37"

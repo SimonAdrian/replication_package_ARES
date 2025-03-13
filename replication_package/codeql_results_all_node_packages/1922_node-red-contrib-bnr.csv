@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;bnr.js:89[36:38];Sink: msg;bnr.js:91[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bnr.js:89[36:38];Sink: msg;bnr.js:468[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;bnr.js:89[36:38];Sink: msg;bnr.js:473[106:108]::FLOW_DESCR_END","/bnr.js","89","36","89","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bnr.js:296[26:26];Sink: e && e.toString();bnr.js:298[24:40]::FLOW_DESCR_END","/bnr.js","296","26","296","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;bnr.js:302[28:28];Sink: e && e.toString();bnr.js:304[24:40]::FLOW_DESCR_END","/bnr.js","302","28","302","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: obj;bnr.js:312[35:37];Sink: obj;bnr.js:314[47:49]::FLOW_DESCR_END","/bnr.js","312","35","312","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: res;bnr.js:477[32:34];Sink: res.msg;bnr.js:482[26:32]::FLOW_DESCR_END","/bnr.js","477","32","477","34"

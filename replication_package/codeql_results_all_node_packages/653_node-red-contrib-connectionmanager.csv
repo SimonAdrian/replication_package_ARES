@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;admin-connections.js:8[36:38];Sink: out;admin-connections.js:45[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;admin-connections.js:8[36:38];Sink: msg;admin-connections.js:51[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;admin-connections.js:8[36:38];Sink: out;admin-connections.js:52[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;admin-connections.js:8[36:38];Sink: msg;admin-connections.js:83[14:16]::FLOW_DESCR_END","/connectionManager/admin-connections.js","8","36","8","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cm-statement.js:218[33:35];Sink: [msg];cm-statement.js:29[14:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cm-statement.js:218[33:35];Sink: [msg];cm-statement.js:49[13:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cm-statement.js:218[33:35];Sink: [null,msg];cm-statement.js:221[18:27]::FLOW_DESCR_END","/connectionManager/cm-statement.js","218","33","218","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.cm.stack.pop();connection-manager.js:194[8:25];Sink: action+ ... on: ""+e;connection-manager.js:206[16:66]::FLOW_DESCR_END","/connectionManager/connection-manager.js","194","8","194","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;connection-manager.js:720[14:16];Sink: ""getCon ... r ""+err;connection-manager.js:722[35:104]::FLOW_DESCR_END","/connectionManager/connection-manager.js","720","14","720","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;release-connections.js:9[36:38];Sink: [msg];release-connections.js:13[36:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;release-connections.js:9[36:38];Sink: JSON.st ... sults});release-connections.js:17[33:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;release-connections.js:9[36:38];Sink: [null,msg];release-connections.js:18[32:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;release-connections.js:9[36:38];Sink: [msg];release-connections.js:25[24:28]::FLOW_DESCR_END","/connectionManager/release-connections.js","9","36","9","38"

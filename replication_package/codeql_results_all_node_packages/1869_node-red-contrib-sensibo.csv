@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensibo.js:15[32:34];Sink: msg;sensibo.js:52[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:15[32:34];Sink: msg;sensibo.js:58[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:15[32:34];Sink: msg;sensibo.js:80[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:15[32:34];Sink: msg;sensibo.js:90[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:15[32:34];Sink: msg;sensibo.js:96[31:33]::FLOW_DESCR_END","/sensibo.js","15","32","15","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sensibo.js:144[32:34];Sink: 'Compil ... mdData);sensibo.js:178[19:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:144[32:34];Sink: msg;sensibo.js:207[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:144[32:34];Sink: msg;sensibo.js:224[29:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sensibo.js:144[32:34];Sink: msg;sensibo.js:227[16:18]::FLOW_DESCR_END","/sensibo.js","144","32","144","34"

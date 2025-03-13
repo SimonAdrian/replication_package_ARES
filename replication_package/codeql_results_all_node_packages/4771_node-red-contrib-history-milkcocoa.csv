@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-history-milkcocoa.js:8[35:37];Sink: msg;node-red-contrib-history-milkcocoa.js:43[27:29]::FLOW_DESCR_END","/node-red-contrib-history-milkcocoa.js","8","35","8","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-contrib-history-milkcocoa.js:48[42:44];Sink: err;node-red-contrib-history-milkcocoa.js:49[28:30]::FLOW_DESCR_END","/node-red-contrib-history-milkcocoa.js","48","42","48","44"

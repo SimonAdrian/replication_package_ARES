@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;clear-dir.js:15[33:35];Sink: msg;clear-dir.js:38[22:24]::FLOW_DESCR_END","/nodes/clear-dir.js","15","33","15","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;download-origin-file.js:14[33:35];Sink: msg;download-origin-file.js:46[22:24]::FLOW_DESCR_END","/nodes/download-origin-file.js","14","33","14","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ng-switch.js:16[33:35];Sink: [msg, null];ng-switch.js:24[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ng-switch.js:16[33:35];Sink: [null, msg];ng-switch.js:27[26:36]::FLOW_DESCR_END","/nodes/ng-switch.js","16","33","16","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;parallel-wait.js:12[33:35];Sink: msg;parallel-wait.js:18[22:24]::FLOW_DESCR_END","/nodes/parallel-wait.js","12","33","12","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;prepare-templ.js:11[33:35];Sink: msg;prepare-templ.js:36[22:24]::FLOW_DESCR_END","/nodes/prepare-templ.js","11","33","11","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;set-subject.js:11[33:35];Sink: msg;set-subject.js:17[18:20]::FLOW_DESCR_END","/nodes/set-subject.js","11","33","11","35"

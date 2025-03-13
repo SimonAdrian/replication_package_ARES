@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pip.js:29[32:34];Sink: msg;pip.js:88[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pip.js:29[32:34];Sink: msg;pip.js:110[21:23]::FLOW_DESCR_END","/node/pip.js","29","32","29","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;pip.js:93[36:40];Sink: err;pip.js:106[24:26]::FLOW_DESCR_END","/node/pip.js","93","36","93","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: exitCode;pip.js:97[30:37];Sink: err;pip.js:106[24:26]::FLOW_DESCR_END","/node/pip.js","97","30","97","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;venv.js:40[32:34];Sink: code;venv.js:58[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;venv.js:40[32:34];Sink: msg;venv.js:97[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;venv.js:40[32:34];Sink: msg;venv.js:130[16:18]::FLOW_DESCR_END","/node/venv.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;venv.js:102[39:43];Sink: rollingStderrData;venv.js:108[22:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;venv.js:102[39:43];Sink: err;venv.js:123[24:26]::FLOW_DESCR_END","/node/venv.js","102","39","102","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;venv.js:113[33:36];Sink: err;venv.js:123[24:26]::FLOW_DESCR_END","/node/venv.js","113","33","113","36"

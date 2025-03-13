@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pulsar-producer.js:60[27:29];Sink: 'Messag ... fy(msg);pulsar-producer.js:62[22:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pulsar-producer.js:60[27:29];Sink: 'Sendin ...  buffer;pulsar-producer.js:74[32:59]::FLOW_DESCR_END","/dist/producer/pulsar-producer.js","60","27","60","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pulsar-reader.js:71[27:29];Sink: 'Invali ... payload;pulsar-reader.js:78[31:101]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pulsar-reader.js:71[27:29];Sink: 'Invali ... fy(msg);pulsar-reader.js:82[28:66]::FLOW_DESCR_END","/dist/reader/pulsar-reader.js","71","27","71","29"

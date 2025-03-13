@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;graphql-out.js:44[32:34];Sink: `the re ... array.`;graphql-out.js:60[13:170]::FLOW_DESCR_END","/src/graphql-out/graphql-out.js","44","32","44","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: v.pop();2.93d8fa61.chunk.js:1[47885:47891];Sink: f;2.93d8fa61.chunk.js:1[48369:48369]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: v.pop();2.93d8fa61.chunk.js:1[47885:47891];Sink: p;2.93d8fa61.chunk.js:1[48371:48371]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: v.pop();2.93d8fa61.chunk.js:1[47885:47891];Sink: g;2.93d8fa61.chunk.js:1[48373:48373]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: v.pop();2.93d8fa61.chunk.js:1[47885:47891];Sink: m;2.93d8fa61.chunk.js:1[48375:48375]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: v.pop();2.93d8fa61.chunk.js:1[47885:47891];Sink: v;2.93d8fa61.chunk.js:1[48377:48377]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","47885","1","47891"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.pop();2.93d8fa61.chunk.js:1[115413:115419];Sink: t;2.93d8fa61.chunk.js:1[115565:115565]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","115413","1","115419"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: i.pop();2.93d8fa61.chunk.js:1[115761:115767];Sink: e;2.93d8fa61.chunk.js:1[115356:115356]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: i.pop();2.93d8fa61.chunk.js:1[115761:115767];Sink: e;2.93d8fa61.chunk.js:1[115563:115563]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: i.pop();2.93d8fa61.chunk.js:1[115761:115767];Sink: t;2.93d8fa61.chunk.js:1[115565:115565]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","115761","1","115767"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r.pop();2.93d8fa61.chunk.js:1[420008:420014];Sink: ""invali ...  in ""+e;2.93d8fa61.chunk.js:1[421437:421469]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","420008","1","420014"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t.data;2.93d8fa61.chunk.js:1[546676:546681];Sink: e;2.93d8fa61.chunk.js:1[546839:546839]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","546676","1","546681"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: B.pop();2.93d8fa61.chunk.js:1[626559:626565];Sink: e.context;2.93d8fa61.chunk.js:1[627733:627741]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: B.pop();2.93d8fa61.chunk.js:1[626559:626565];Sink: e.context;2.93d8fa61.chunk.js:1[627817:627825]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","626559","1","626565"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.eventPool.pop();2.93d8fa61.chunk.js:1[636531:636550];Sink: r;2.93d8fa61.chunk.js:1[636569:636569]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","636531","1","636550"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;2.93d8fa61.chunk.js:1[827546:827546];Sink: e;2.93d8fa61.chunk.js:1[828580:828580]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","827546","1","827546"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;2.93d8fa61.chunk.js:1[829175:829175];Sink: e;2.93d8fa61.chunk.js:1[829551:829551]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","829175","1","829175"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;2.93d8fa61.chunk.js:1[831565:831565];Sink: e;2.93d8fa61.chunk.js:1[831716:831716]::FLOW_DESCR_END","/src/graphql-schema/editor/static/js/2.93d8fa61.chunk.js","1","831565","1","831565"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;graphql-subscriptionserver.js:61[42:48];Sink: request;graphql-subscriptionserver.js:72[15:21]::FLOW_DESCR_END","/src/graphql-subscriptionserver/graphql-subscriptionserver.js","61","42","61","48"

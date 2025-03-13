@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);keeper.js:71[25:57];Sink: Object. ...  creds);keeper.js:86[43:79]::FLOW_DESCR_END","/keeper.js","71","25","71","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;keeper.js:113[34:36];Sink: docid;keeper.js:125[46:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;keeper.js:113[34:36];Sink: msg.payload;keeper.js:128[47:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;keeper.js:113[34:36];Sink: msg;keeper.js:145[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;keeper.js:113[34:36];Sink: msg;keeper.js:152[21:23]::FLOW_DESCR_END","/keeper.js","113","34","113","36"

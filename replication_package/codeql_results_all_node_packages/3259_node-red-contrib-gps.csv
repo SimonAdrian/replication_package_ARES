@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;gpsoo.js:10[30:33];Sink: [data, null];gpsoo.js:33[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;gpsoo.js:10[30:33];Sink: [null, data];gpsoo.js:40[21:32]::FLOW_DESCR_END","/gpsoo.js","10","30","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;gpsoo.js:53[30:33];Sink: [data, null];gpsoo.js:71[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;gpsoo.js:53[30:33];Sink: [null, data];gpsoo.js:78[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;gpsoo.js:53[30:33];Sink: `${base ... token}`;GpsApi.js:104[13:109]::FLOW_DESCR_END","/gpsoo.js","53","30","53","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;GpsApi.js:49[47:54];Sink: err;gpsoo.js:36[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg;GpsApi.js:49[47:54];Sink: err;gpsoo.js:74[21:23]::FLOW_DESCR_END","/lib/GpsApi.js","49","47","49","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.access_token;GpsApi.js:59[17:33];Sink: `${base ... token}`;GpsApi.js:74[13:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.access_token;GpsApi.js:59[17:33];Sink: `${base ... token}`;GpsApi.js:104[13:109]::FLOW_DESCR_END","/lib/GpsApi.js","59","17","59","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;GpsApi.js:86[47:54];Sink: err;gpsoo.js:36[21:23]::FLOW_DESCR_END","/lib/GpsApi.js","86","47","86","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;GpsApi.js:116[47:54];Sink: err;gpsoo.js:74[21:23]::FLOW_DESCR_END","/lib/GpsApi.js","116","47","116","54"

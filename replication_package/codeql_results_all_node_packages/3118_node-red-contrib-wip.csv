@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;workInProgress.js:50[35:37];Sink: msg;workInProgress.js:87[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;workInProgress.js:50[35:37];Sink: ""Invali ... ayload);workInProgress.js:89[32:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;workInProgress.js:50[35:37];Sink: ""Invali ... ayload);workInProgress.js:92[28:76]::FLOW_DESCR_END","/workInProgress.js","50","35","50","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;workInProgressDisplay.js:29[35:37];Sink: ""Invali ... ayload);workInProgressDisplay.js:36[32:80]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;workInProgressDisplay.js:29[35:37];Sink: msg;workInProgressDisplay.js:49[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;workInProgressDisplay.js:29[35:37];Sink: ""Invali ... ayload);workInProgressDisplay.js:51[28:76]::FLOW_DESCR_END","/workInProgressDisplay.js","29","35","29","37"

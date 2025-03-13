@@ -1,0 +1,21 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;action.js:14[35:37];Sink: msg;action.js:82[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;action.js:14[35:37];Sink: ""Can't  ... hing.id;common.js:34[24:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;action.js:14[35:37];Sink: ""Node w ...  thing"";common.js:36[24:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;action.js:14[35:37];Sink: ""Node w ... g type"";common.js:38[24:76]::FLOW_DESCR_END","/core/action.js","14","35","14","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: thingid;event.js:150[51:57];Sink: 'Event: Id '+thingid;event.js:145[24:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingid;event.js:150[51:57];Sink: 'Event  ... lue+'s';event.js:160[44:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingid;event.js:150[51:57];Sink: 'Event  ... lue+'s';event.js:164[40:94]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: thingid;event.js:150[51:57];Sink: 'Event  ... thingid;event.js:173[36:67]::FLOW_DESCR_END","/core/event.js","150","51","150","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: msg;gate.js:119[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: [msg,null];gate.js:121[31:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: msg;gate.js:126[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: [null,msg];gate.js:128[31:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: ""Can't  ... hing.id;common.js:34[24:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: ""Node w ...  thing"";common.js:36[24:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;gate.js:115[35:37];Sink: ""Node w ... g type"";common.js:38[24:76]::FLOW_DESCR_END","/core/gate.js","115","35","115","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: payload;group.js:32[74:80];Sink: payload;group.js:42[31:37]::FLOW_DESCR_END","/core/group.js","32","74","32","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: itemid;thing.js:317[38:43];Sink: ""Item [ ... fined."";thing.js:333[32:61]::FLOW_DESCR_END","/core/thing.js","317","38","317","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;value.js:15[35:37];Sink: ""Can't  ... hing.id;value.js:21[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;value.js:15[35:37];Sink: ""Node w ...  thing"";value.js:24[36:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;value.js:15[35:37];Sink: ""Node w ... g type"";value.js:27[36:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;value.js:15[35:37];Sink: msg;value.js:129[23:25]::FLOW_DESCR_END","/core/value.js","15","35","15","37"

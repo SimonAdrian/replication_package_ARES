@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avro.js:87[30:32];Sink: msg;avro.js:102[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avro.js:87[30:32];Sink: msg;avro.js:106[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avro.js:87[30:32];Sink: config. ... fy(val);avro.js:108[18:110]::FLOW_DESCR_END","/avro-nodes/avro.js","87","30","87","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avro_to_object.js:19[30:32];Sink: msg;avro_to_object.js:22[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avro_to_object.js:19[30:32];Sink: ""Payloa ... payload;avro_to_object.js:24[17:53]::FLOW_DESCR_END","/avro-nodes/avro_to_object.js","19","30","19","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;object_to_avro.js:19[30:32];Sink: msg;object_to_avro.js:23[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;object_to_avro.js:19[30:32];Sink: ""Object ... payload;object_to_avro.js:25[18:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;object_to_avro.js:19[30:32];Sink: ""Payloa ... payload;object_to_avro.js:28[17:57]::FLOW_DESCR_END","/avro-nodes/object_to_avro.js","19","30","19","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafka_consumer.js:92[39:41];Sink: err;kafka_consumer.js:93[16:18]::FLOW_DESCR_END","/kafka-nodes/kafka_consumer.js","92","39","92","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;kafka_consumer.js:100[50:52];Sink: err;kafka_consumer.js:101[16:18]::FLOW_DESCR_END","/kafka-nodes/kafka_consumer.js","100","50","100","52"

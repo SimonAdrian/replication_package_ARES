@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ge ... eviceId;daemon.js:193[19:44];Sink: JSON.st ...      });daemon.js:191[25:8]::FLOW_DESCR_END","/dnr/daemon.js","193","19","193","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ge ... iceName;daemon.js:268[22:49];Sink: JSON.st ... \n    });daemon.js:266[23:6]::FLOW_DESCR_END","/dnr/daemon.js","268","22","268","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: 'adding ...  n.type;daemon.js:237[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: 'removi ...  n.type;daemon.js:251[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: msg;daemon.js:300[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:436[29:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:444[31:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:453[33:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:459[33:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:474[29:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:482[31:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:491[33:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;daemon.js:292[31:33];Sink: JSON.st ...      });daemon.js:497[33:16]::FLOW_DESCR_END","/dnr/daemon.js","292","31","292","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.data.activeFlow;daemon.js:313[28:46];Sink: 'adding ...  n.type;daemon.js:237[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.activeFlow;daemon.js:313[28:46];Sink: 'removi ...  n.type;daemon.js:251[20:74]::FLOW_DESCR_END","/dnr/daemon.js","313","28","313","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.data.globalFlow;daemon.js:315[28:46];Sink: 'adding ...  n.type;daemon.js:237[20:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.globalFlow;daemon.js:315[28:46];Sink: 'removi ...  n.type;daemon.js:251[20:74]::FLOW_DESCR_END","/dnr/daemon.js","315","28","315","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.data.module;daemon.js:431[35:49];Sink: JSON.st ...      });daemon.js:436[29:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.module;daemon.js:431[35:49];Sink: JSON.st ...      });daemon.js:444[31:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.module;daemon.js:431[35:49];Sink: JSON.st ...      });daemon.js:453[33:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.module;daemon.js:431[35:49];Sink: JSON.st ...      });daemon.js:459[33:16]::FLOW_DESCR_END","/dnr/daemon.js","431","35","431","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:438[23:48];Sink: JSON.st ...      });daemon.js:436[29:12]::FLOW_DESCR_END","/dnr/daemon.js","438","23","438","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:446[25:50];Sink: JSON.st ...      });daemon.js:444[31:14]::FLOW_DESCR_END","/dnr/daemon.js","446","25","446","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:455[27:52];Sink: JSON.st ...      });daemon.js:453[33:16]::FLOW_DESCR_END","/dnr/daemon.js","455","27","455","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:461[27:52];Sink: JSON.st ...      });daemon.js:459[33:16]::FLOW_DESCR_END","/dnr/daemon.js","461","27","461","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.data.module;daemon.js:469[35:49];Sink: JSON.st ...      });daemon.js:474[29:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.module;daemon.js:469[35:49];Sink: JSON.st ...      });daemon.js:482[31:14]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.module;daemon.js:469[35:49];Sink: JSON.st ...      });daemon.js:491[33:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.data.module;daemon.js:469[35:49];Sink: JSON.st ...      });daemon.js:497[33:16]::FLOW_DESCR_END","/dnr/daemon.js","469","35","469","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:476[23:48];Sink: JSON.st ...      });daemon.js:474[29:12]::FLOW_DESCR_END","/dnr/daemon.js","476","23","476","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:484[25:50];Sink: JSON.st ...      });daemon.js:482[31:14]::FLOW_DESCR_END","/dnr/daemon.js","484","25","484","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:493[27:52];Sink: JSON.st ...      });daemon.js:491[33:16]::FLOW_DESCR_END","/dnr/daemon.js","493","27","493","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ge ... eviceId;daemon.js:499[27:52];Sink: JSON.st ...      });daemon.js:497[33:16]::FLOW_DESCR_END","/dnr/daemon.js","499","27","499","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;daemon.js:510[29:29];Sink: 'connec ... : ' + r;daemon.js:514[16:65]::FLOW_DESCR_END","/dnr/daemon.js","510","29","510","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: r;daemon.js:510[31:31];Sink: 'connec ... : ' + r;daemon.js:514[16:65]::FLOW_DESCR_END","/dnr/daemon.js","510","31","510","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;daemon.js:519[29:29];Sink: 'connec ... : ' + e;daemon.js:523[16:39]::FLOW_DESCR_END","/dnr/daemon.js","519","29","519","29"

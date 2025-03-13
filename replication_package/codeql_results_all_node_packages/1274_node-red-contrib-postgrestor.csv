@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;postgrestor.js:29[44:49];Sink: value;postgrestor.js:11[42:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;postgrestor.js:29[44:49];Sink: value;postgrestor.js:14[44:48]::FLOW_DESCR_END","/postgrestor.js","29","44","29","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;postgrestor.js:31[44:49];Sink: value;postgrestor.js:11[42:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;postgrestor.js:31[44:49];Sink: value;postgrestor.js:14[44:48]::FLOW_DESCR_END","/postgrestor.js","31","44","31","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.password;postgrestor.js:45[52:64];Sink: value;postgrestor.js:11[42:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.password;postgrestor.js:45[52:64];Sink: value;postgrestor.js:14[44:48]::FLOW_DESCR_END","/postgrestor.js","45","52","45","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;postgrestor.js:56[23:25];Sink: msg;postgrestor.js:78[21:23]::FLOW_DESCR_END","/postgrestor.js","56","23","56","25"

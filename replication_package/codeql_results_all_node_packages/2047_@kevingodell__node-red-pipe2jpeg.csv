@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;pipe2jpeg.js:125[34:38];Sink: error;pipe2jpeg.js:128[20:24]::FLOW_DESCR_END","/pipe2jpeg.js","125","34","125","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pipe2jpeg.js:368[13:15];Sink: payload;pipe2jpeg.js:385[32:38]::FLOW_DESCR_END","/pipe2jpeg.js","368","13","368","15"

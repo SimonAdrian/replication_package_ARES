@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;calllist.js:25[35:37];Sink: msg;calllist.js:59[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;calllist.js:25[35:37];Sink: msg;calllist.js:61[94:96]::FLOW_DESCR_END","/calllist.js","25","35","25","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;callmonitor.js:45[31:31];Sink: e;callmonitor.js:46[15:15]::FLOW_DESCR_END","/callmonitor.js","45","31","45","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: `The pr ... : ${e}`;contact.js:66[23:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: msg;contact.js:113[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: msg;contact.js:116[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: msg;contact.js:121[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: msg;contact.js:125[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: msg;contact.js:129[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;contact.js:99[31:33];Sink: msg;contact.js:132[41:43]::FLOW_DESCR_END","/contact.js","99","31","99","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fritz.js:15[29:31];Sink: msg;fritz.js:20[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:15[29:31];Sink: msg;fritz.js:27[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:15[29:31];Sink: msg;fritz.js:33[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fritz.js:15[29:31];Sink: msg;fritz.js:35[56:58]::FLOW_DESCR_END","/fritz.js","15","29","15","31"

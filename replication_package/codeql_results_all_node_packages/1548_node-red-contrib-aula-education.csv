@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: respons ... threads;aula-client.js:229[27:51];Sink: this.op ... page=0';aula-client.js:244[31:127]::FLOW_DESCR_END","/aula-client.js","229","27","229","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aula.js:37[38:40];Sink: msg;aula.js:55[14:16]::FLOW_DESCR_END","/aula.js","37","38","37","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;aula-client.js:229[16:22];Sink: this.op ... page=0';aula-client.js:244[31:127]::FLOW_DESCR_END","/aula-client.js","229","16","229","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: notification;aula-client.js:378[16:27];Sink: 'unhand ... entType;aula-client.js:407[22:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: notification;aula-client.js:378[16:27];Sink: notification;aula-client.js:408[21:32]::FLOW_DESCR_END","/aula-client.js","378","16","378","27"

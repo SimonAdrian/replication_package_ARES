@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-apigw.js:54[35:37];Sink: msg;nebula-apigw.js:29[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-apigw.js:54[35:37];Sink: msg;nebula-apigw.js:32[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-apigw.js:54[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END","/nebula-apigw.js","54","35","54","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-auth.js:97[35:37];Sink: msg;nebula-auth.js:41[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-auth.js:97[35:37];Sink: msg;nebula-auth.js:45[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-auth.js:97[35:37];Sink: msg;nebula-auth.js:53[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-auth.js:97[35:37];Sink: msg;nebula-auth.js:57[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-auth.js:97[35:37];Sink: msg;nebula-auth.js:66[46:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-auth.js:97[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END","/nebula-auth.js","97","35","97","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-function.js:209[39:41];Sink: msg;nebula-function.js:246[46:48]::FLOW_DESCR_END","/nebula-function.js","209","39","209","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-object-storage.js:173[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:173[35:37];Sink: msg;nebula-object-storage.js:135[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:173[35:37];Sink: msg;nebula-object-storage.js:138[59:61]::FLOW_DESCR_END","/nebula-object-storage.js","173","35","173","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: RED._("" ... ') ..."";nebula-object-storage.js:239[19:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: payload;nebula-object-storage.js:251[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:253[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:261[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:268[51:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:271[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:292[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:295[63:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:300[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:307[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-object-storage.js:324[35:37];Sink: msg;nebula-object-storage.js:310[55:57]::FLOW_DESCR_END","/nebula-object-storage.js","324","35","324","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-push.js:31[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-push.js:31[35:37];Sink: msg;nebula-push.js:67[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-push.js:31[35:37];Sink: msg;nebula-push.js:70[67:69]::FLOW_DESCR_END","/nebula-push.js","31","35","31","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-push.js:106[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-push.js:106[35:37];Sink: msg;nebula-push.js:84[66:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-push.js:106[35:37];Sink: msg;nebula-push.js:87[59:61]::FLOW_DESCR_END","/nebula-push.js","106","35","106","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nebula-user.js:50[35:37];Sink: msg;nebula-common.js:150[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-user.js:50[35:37];Sink: msg;nebula-user.js:26[56:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-user.js:50[35:37];Sink: msg;nebula-user.js:29[59:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-user.js:50[35:37];Sink: msg;nebula-user.js:36[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nebula-user.js:50[35:37];Sink: msg;nebula-user.js:39[59:61]::FLOW_DESCR_END","/nebula-user.js","50","35","50","37"

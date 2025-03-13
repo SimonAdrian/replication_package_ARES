@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-rshake-udp-parser.js:59[28:30];Sink: key;node-red-rshake-udp-parser.js:16[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-rshake-udp-parser.js:59[28:30];Sink: key;node-red-rshake-udp-parser.js:19[11:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-rshake-udp-parser.js:59[28:30];Sink: msg;node-red-rshake-udp-parser.js:61[16:18]::FLOW_DESCR_END","/node-red-rshake-udp-parser.js","59","28","59","30"

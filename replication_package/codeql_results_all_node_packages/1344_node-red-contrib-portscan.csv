@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;portscan-config.js:248[49:52];Sink: details;portscan-config.js:343[41:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;portscan-config.js:248[49:52];Sink: msg + "": "" + details;portscan-config.js:347[41:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;portscan-config.js:248[49:52];Sink: msg + "" ... tring();portscan-config.js:350[41:71]::FLOW_DESCR_END","/portscan-config.js","248","49","248","52"

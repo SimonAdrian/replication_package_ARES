@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-create-comment.js:9[31:33];Sink: msg;wunderlist-create-comment.js:23[14:16]::FLOW_DESCR_END","/wunderlist-create-comment.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-create-list.js:9[31:33];Sink: msg;wunderlist-create-list.js:20[14:16]::FLOW_DESCR_END","/wunderlist-create-list.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-create-subtask.js:9[31:33];Sink: msg;wunderlist-create-subtask.js:23[14:16]::FLOW_DESCR_END","/wunderlist-create-subtask.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-create-task.js:9[31:33];Sink: msg;wunderlist-create-task.js:31[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunderlist-create-task.js:9[31:33];Sink: msg;wunderlist-create-task.js:43[20:22]::FLOW_DESCR_END","/wunderlist-create-task.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-get-comments.js:9[31:33];Sink: msg;wunderlist-get-comments.js:22[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wunderlist-get-comments.js:9[31:33];Sink: msg;wunderlist-get-comments.js:39[16:18]::FLOW_DESCR_END","/wunderlist-get-comments.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-get-lists.js:9[31:33];Sink: msg;wunderlist-get-lists.js:18[16:18]::FLOW_DESCR_END","/wunderlist-get-lists.js","9","31","9","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wunderlist-get-tasks.js:9[31:33];Sink: msg;wunderlist-get-tasks.js:18[16:18]::FLOW_DESCR_END","/wunderlist-get-tasks.js","9","31","9","33"

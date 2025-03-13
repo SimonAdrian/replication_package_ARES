@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;program-cntl.js:5[38:40];Sink: msg;program-cntl.js:36[22:24]::FLOW_DESCR_END","/src/nodes/program-cntl.js","5","38","5","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rain-delay.js:8[34:36];Sink: [msg, null];rain-delay.js:21[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rain-delay.js:8[34:36];Sink: [msg, null];rain-delay.js:26[26:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rain-delay.js:8[34:36];Sink: [msg, stateMsg];rain-delay.js:36[25:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rain-delay.js:8[34:36];Sink: [msg, stateMsg];rain-delay.js:42[25:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rain-delay.js:8[34:36];Sink: [msg, null];rain-delay.js:55[26:36]::FLOW_DESCR_END","/src/nodes/rain-delay.js","8","34","8","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-now.js:5[34:36];Sink: msg;run-now.js:25[22:24]::FLOW_DESCR_END","/src/nodes/run-now.js","5","34","5","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;run-once.js:5[34:36];Sink: msg;run-once.js:32[20:22]::FLOW_DESCR_END","/src/nodes/run-once.js","5","34","5","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;station-cntl.js:5[38:40];Sink: msg;station-cntl.js:40[22:24]::FLOW_DESCR_END","/src/nodes/station-cntl.js","5","38","5","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;stop-all.js:5[38:40];Sink: msg;stop-all.js:16[24:26]::FLOW_DESCR_END","/src/nodes/stop-all.js","5","38","5","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;water-level.js:5[34:36];Sink: msg;water-level.js:22[20:22]::FLOW_DESCR_END","/src/nodes/water-level.js","5","34","5","36"

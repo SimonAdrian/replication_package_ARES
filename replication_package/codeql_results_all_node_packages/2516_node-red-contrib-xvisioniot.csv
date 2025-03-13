@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;xvisioniot.js:84[31:35];Sink: _errDesc;xvisioniot.js:14[26:33]::FLOW_DESCR_END","/xvisioniot.js","84","31","84","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;xvisioniot.js:142[35:37];Sink: _errDesc;xvisioniot.js:14[26:33]::FLOW_DESCR_END","/xvisioniot.js","142","35","142","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xvisioniot.js:206[36:38];Sink: _msg;xvisioniot.js:14[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xvisioniot.js:206[36:38];Sink: msg;xvisioniot.js:130[32:34]::FLOW_DESCR_END","/xvisioniot.js","206","36","206","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;xvisioniot.js:228[36:38];Sink: _msg;xvisioniot.js:14[36:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;xvisioniot.js:228[36:38];Sink: msg;xvisioniot.js:130[32:34]::FLOW_DESCR_END","/xvisioniot.js","228","36","228","38"

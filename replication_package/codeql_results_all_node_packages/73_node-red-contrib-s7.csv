@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:10[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:542[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:548[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:556[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:567[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:578[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:589[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:600[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;s7.js:8[32:34];Sink: msg;s7.js:608[105:107]::FLOW_DESCR_END","/red/s7.js","8","32","8","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;s7.js:345[36:36];Sink: e && e.toString();s7.js:347[24:40]::FLOW_DESCR_END","/red/s7.js","345","36","345","36"

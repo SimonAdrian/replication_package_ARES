@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    RED.nodes.registerType("onedrive-download-file", {
+        category: "storage",
+        color: "#0078d4",
+        defaults: {
+            name: {
+                value: "",
+            },
+            Filename: {
+                value: "",
+            },
+            ItemID: {
+                value: "",
+            },
+        },
+        icon: "file.png",
+        credentials: {
+            AccessToken: {
+                type: "text",
+            },
+        },
+        inputs: 1,
+        outputs: 1,
+        label(){
+            return this.name || "onedrive-download-file"
+        },
+    })
+</script>
+<script type="text/html" data-template-name="onedrive-download-file">
+    <div class="form-row">
+        <label for="node-input-name">Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-AccessToken">AccessToken</label>
+        <input type="text" id="node-input-AccessToken" placeholder="Access Token">
+    </div>
+    <div class="form-row">
+        <label for="node-input-Filename">Filename</label>
+        <input type="text" id="node-input-Filename" placeholder="Filename">
+    </div>
+    <div class="form-row">
+        <label for="node-input-ItemID">ItemID</label>
+        <input type="text" id="node-input-ItemID" placeholder="ItemID">
+    </div>
+</script>
+<script type="text/html" data-help-name="onedrive-download-file">
+    <p>This node downloads an item from OneDrive to the specified Filename or msg.filename (a complete path). msg.itemID or ItemID must be specified.</p>
+</script>

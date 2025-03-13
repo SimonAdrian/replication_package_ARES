@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;100-heatmiser.js:18[40:43];Sink: ""Succes ... y(data);100-heatmiser.js:20[31:91]::FLOW_DESCR_END","/100-heatmiser.js","18","40","18","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;100-heatmiser.js:24[38:41];Sink: ""Error  ... y(data);100-heatmiser.js:26[31:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;100-heatmiser.js:24[38:41];Sink: data;100-heatmiser.js:28[28:31]::FLOW_DESCR_END","/100-heatmiser.js","24","38","24","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;100-heatmiser.js:89[40:43];Sink: ""Succes ... y(data);100-heatmiser.js:91[30:90]::FLOW_DESCR_END","/100-heatmiser.js","89","40","89","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;100-heatmiser.js:101[38:41];Sink: ""Error  ... y(data);100-heatmiser.js:103[30:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;100-heatmiser.js:101[38:41];Sink: data;100-heatmiser.js:105[27:30]::FLOW_DESCR_END","/100-heatmiser.js","101","38","101","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;100-heatmiser.js:233[35:41];Sink: message.payload;100-heatmiser.js:210[52:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;100-heatmiser.js:233[35:41];Sink: ""Inject ... fy(dcb);100-heatmiser.js:226[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;100-heatmiser.js:233[35:41];Sink: dcb;100-heatmiser.js:228[36:38]::FLOW_DESCR_END","/100-heatmiser.js","233","35","233","41"

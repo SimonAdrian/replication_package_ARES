@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.host;DynMQTT.js:84[21:31];Sink: protoco ... is.host;DynMQTT.js:120[40:60]::FLOW_DESCR_END","/DynMQTT.js","84","21","84","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;DynMQTT.js:120[52:60];Sink: protoco ... is.host;DynMQTT.js:120[40:60]::FLOW_DESCR_END","/DynMQTT.js","120","52","120","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;DynMQTT.js:128[38:40];Sink: `MQTT:  ... ${err}`;DynMQTT.js:130[27:53]::FLOW_DESCR_END","/DynMQTT.js","128","38","128","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;DynMQTT.js:156[40:44];Sink: `MQTT:  ... topic}`;DynMQTT.js:161[31:74]::FLOW_DESCR_END","/DynMQTT.js","156","40","156","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-auto.js:15[36:38];Sink: protoco ... is.host;DynMQTT.js:120[40:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-auto.js:15[36:38];Sink: `MQTT:  ...  status;DynMQTT.js:168[23:86]::FLOW_DESCR_END","/mqtt-auto.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mqtt-auto.js:42[42:44];Sink: msg.topic;mqtt-auto.js:44[48:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-auto.js:42[42:44];Sink: msg.payload;mqtt-auto.js:44[59:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mqtt-auto.js:42[42:44];Sink: msg;mqtt-auto.js:49[22:24]::FLOW_DESCR_END","/mqtt-auto.js","42","42","42","44"

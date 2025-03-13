@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;break-sentence.js:6[33:35];Sink: msg;break-sentence.js:24[39:41]::FLOW_DESCR_END","/break-sentence/break-sentence.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;detect.js:6[33:35];Sink: msg;detect.js:22[39:41]::FLOW_DESCR_END","/detect/detect.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dictionary-lookup.js:6[33:35];Sink: msg;dictionary-lookup.js:24[39:41]::FLOW_DESCR_END","/dictionary-lookup/dictionary-lookup.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;translator.js:6[33:35];Sink: msg;translator.js:39[39:41]::FLOW_DESCR_END","/translator/translator.js","6","33","6","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e?.resp ... message;translator-base.js:56[29:61];Sink: e.message;break-sentence.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;translator-base.js:56[29:61];Sink: e.message;detect.js:22[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;translator-base.js:56[29:61];Sink: e.message;dictionary-lookup.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... message;translator-base.js:56[29:61];Sink: e.message;translator.js:39[28:36]::FLOW_DESCR_END","/utilties/translator-base.js","56","29","56","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e?.resp ... ?.error;translator-base.js:56[29:52];Sink: e.message;break-sentence.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;translator-base.js:56[29:52];Sink: e.message;detect.js:22[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;translator-base.js:56[29:52];Sink: e.message;dictionary-lookup.js:24[28:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e?.resp ... ?.error;translator-base.js:56[29:52];Sink: e.message;translator.js:39[28:36]::FLOW_DESCR_END","/utilties/translator-base.js","56","29","56","52"

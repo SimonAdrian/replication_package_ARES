@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-cloudsearch.js:34[30:32];Sink: msg;aws-cloudsearch.js:41[16:18]::FLOW_DESCR_END","/aws-cloudsearch.js","34","30","34","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aws-cloudsearch.js:121[30:32];Sink: msg;aws-cloudsearch.js:128[16:18]::FLOW_DESCR_END","/aws-cloudsearch.js","121","30","121","32"

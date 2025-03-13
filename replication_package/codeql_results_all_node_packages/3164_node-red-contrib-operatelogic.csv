@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... teFile);OperateLogic.js:36[55:80];Sink: savedState.mode;OperateLogic.js:37[45:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... teFile);OperateLogic.js:36[55:80];Sink: savedState.output;OperateLogic.js:38[47:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... teFile);OperateLogic.js:36[55:80];Sink: savedSt ... teState;OperateLogic.js:39[53:75]::FLOW_DESCR_END","/OperateLogic.js","36","55","36","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;OperateLogic.js:85[35:37];Sink: msg.mode;OperateLogic.js:88[37:44]::FLOW_DESCR_END","/OperateLogic.js","85","35","85","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... teFile);OperateLogic.js:266[41:66];Sink: content;OperateLogic.js:282[53:59]::FLOW_DESCR_END","/OperateLogic.js","266","41","266","66"

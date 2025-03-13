@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;Iotcam2img.js:13[36:38];Sink: cmd + "" ... g + ""]"";Iotcam2img.js:74[28:49]::FLOW_DESCR_END","/Iotcam2img.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ngsMnid;Iotcam2img.js:47[30:61];Sink: cmd + "" ... g + ""]"";Iotcam2img.js:74[28:49]::FLOW_DESCR_END","/Iotcam2img.js","47","30","47","61"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... ingsPat;Iotcam2img.js:48[29:59];Sink: cmd + "" ... g + ""]"";Iotcam2img.js:74[28:49]::FLOW_DESCR_END","/Iotcam2img.js","48","29","48","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;Iotcam2img.js:149[45:48];Sink: code;Iotcam2img.js:158[36:39]::FLOW_DESCR_END","/Iotcam2img.js","149","45","149","48"

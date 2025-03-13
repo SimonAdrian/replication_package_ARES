@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decryptor.js:37[31:33];Sink: msg.payload.from;decryptor.js:70[21:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;decryptor.js:37[31:33];Sink: box;decryptor.js:86[30:32]::FLOW_DESCR_END","/decryptor/decryptor.js","37","31","37","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;decryptor.js:94[37:40];Sink: myMsg.error;decryptor.js:110[16:26]::FLOW_DESCR_END","/decryptor/decryptor.js","94","37","94","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;decryptor.js:106[28:30];Sink: myMsg.error;decryptor.js:110[16:26]::FLOW_DESCR_END","/decryptor/decryptor.js","106","28","106","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;get-credits.js:48[31:33];Sink: myMsg;get-credits.js:40[14:18]::FLOW_DESCR_END","/get-credits/get-credits.js","48","31","48","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-file.js:89[31:33];Sink: str;send-file.js:114[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;send-file.js:89[31:33];Sink: myMsg.error;send-file.js:197[16:26]::FLOW_DESCR_END","/send-file/send-file.js","89","31","89","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... e.file);send-file.js:147[32:57];Sink: Buffer. ... egData);send-file.js:154[37:57]::FLOW_DESCR_END","/send-file/send-file.js","147","32","147","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;send-file.js:179[31:34];Sink: myMsg.error;send-file.js:197[16:26]::FLOW_DESCR_END","/send-file/send-file.js","179","31","179","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;send-file.js:193[25:27];Sink: myMsg.error;send-file.js:197[16:26]::FLOW_DESCR_END","/send-file/send-file.js","193","25","193","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;send-message.js:47[31:33];Sink: myMsg;send-message.js:76[15:19]::FLOW_DESCR_END","/send-message/send-message.js","47","31","47","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;send-message.js:67[31:34];Sink: myMsg.error;send-message.js:83[16:26]::FLOW_DESCR_END","/send-message/send-message.js","67","31","67","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;send-message.js:79[25:27];Sink: myMsg.error;send-message.js:83[16:26]::FLOW_DESCR_END","/send-message/send-message.js","79","25","79","27"

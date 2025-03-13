@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ikologik-batch-field-type.js:17[36:38];Sink: [msg, null];ikologik-batch-field-type.js:34[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ikologik-batch-field-type.js:17[36:38];Sink: [null, msg];ikologik-batch-field-type.js:37[15:25]::FLOW_DESCR_END","/ikologik-api/ikologik-batch-field-type.js","17","36","17","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ikologik-batch-trace.js:19[36:38];Sink: [msg, null];ikologik-batch-trace.js:42[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ikologik-batch-trace.js:19[36:38];Sink: [null, msg];ikologik-batch-trace.js:45[15:25]::FLOW_DESCR_END","/ikologik-api/ikologik-batch-trace.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ikologik-batch-type.js:19[36:38];Sink: [msg, null];ikologik-batch-type.js:36[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ikologik-batch-type.js:19[36:38];Sink: [null, msg];ikologik-batch-type.js:39[15:25]::FLOW_DESCR_END","/ikologik-api/ikologik-batch-type.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ikologik-batch.js:21[36:38];Sink: ""Getting: ""+batchId;ikologik-batch.js:33[18:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ikologik-batch.js:21[36:38];Sink: [msg, null];ikologik-batch.js:50[15:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ikologik-batch.js:21[36:38];Sink: [null, msg];ikologik-batch.js:53[15:25]::FLOW_DESCR_END","/ikologik-api/ikologik-batch.js","21","36","21","38"

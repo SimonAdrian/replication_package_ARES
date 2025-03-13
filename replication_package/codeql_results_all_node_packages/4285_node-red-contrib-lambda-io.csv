@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lambda-io.js:51[35:37];Sink: 'aws:la ... questId;lambda-io.js:59[33:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lambda-io.js:51[35:37];Sink: res;lambda-io.js:59[80:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lambda-io.js:51[35:37];Sink: msg;lambda-io.js:61[53:55]::FLOW_DESCR_END","/lambda-io.js","51","35","51","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lambda-io.js:72[35:37];Sink: msg.payload;lambda-io.js:78[50:60]::FLOW_DESCR_END","/lambda-io.js","72","35","72","37"

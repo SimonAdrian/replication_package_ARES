@@ -1,0 +1,94 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: ""Device ... ceeded"";15virtual-device-start.js:46[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: ""Device ... eated."";15virtual-device-start.js:56[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: propEvt;deviceManager.js:101[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: propEvt;deviceManager.js:102[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: propEvt;deviceManager.js:103[79:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: 'proper ... eviceId;deviceManager.js:104[19:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: propEvt;deviceManager.js:104[103:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: createEvt;deviceManager.js:140[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: createEvt;deviceManager.js:141[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: 'device ... eviceId;deviceManager.js:142[17:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;15virtual-device-start.js:29[19:28];Sink: createEvt;deviceManager.js:142[78:86]::FLOW_DESCR_END","/nodes/15virtual-device-start.js","29","19","29","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: ""Mismat ... ceeded"";15virtual-device-start.js:40[19:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: ""Device ... ceeded"";15virtual-device-start.js:46[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: ""Device ... eated."";15virtual-device-start.js:56[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: msg;15virtual-device-start.js:59[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: propEvt;deviceManager.js:101[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: propEvt;deviceManager.js:102[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: propEvt;deviceManager.js:103[79:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: 'proper ... eviceId;deviceManager.js:104[19:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: propEvt;deviceManager.js:104[103:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: createEvt;deviceManager.js:140[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: createEvt;deviceManager.js:141[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: 'device ... eviceId;deviceManager.js:142[17:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;15virtual-device-start.js:35[29:31];Sink: createEvt;deviceManager.js:142[78:86]::FLOW_DESCR_END","/nodes/15virtual-device-start.js","35","29","35","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: ""Device ... ceeded"";15virtual-device-start.js:46[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: ""Device ... eated."";15virtual-device-start.js:56[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: propEvt;deviceManager.js:101[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: propEvt;deviceManager.js:102[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: propEvt;deviceManager.js:103[79:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: 'proper ... eviceId;deviceManager.js:104[19:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: propEvt;deviceManager.js:104[103:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: createEvt;deviceManager.js:140[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: createEvt;deviceManager.js:141[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: 'device ... eviceId;deviceManager.js:142[17:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;15virtual-device-start.js:36[59:78];Sink: createEvt;deviceManager.js:142[78:86]::FLOW_DESCR_END","/nodes/15virtual-device-start.js","36","59","36","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: ""Device ... ceeded"";15virtual-device-start.js:46[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: ""Device ... eated."";15virtual-device-start.js:56[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: propEvt;deviceManager.js:101[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: propEvt;deviceManager.js:102[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: propEvt;deviceManager.js:103[79:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: 'proper ... eviceId;deviceManager.js:104[19:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: propEvt;deviceManager.js:104[103:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: createEvt;deviceManager.js:140[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: createEvt;deviceManager.js:141[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: 'device ... eviceId;deviceManager.js:142[17:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;15virtual-device-start.js:36[99:110];Sink: createEvt;deviceManager.js:142[78:86]::FLOW_DESCR_END","/nodes/15virtual-device-start.js","36","99","36","110"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: ""Device ... ceeded"";15virtual-device-start.js:46[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: ""Device ... eated."";15virtual-device-start.js:56[16:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: propEvt;deviceManager.js:101[37:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: propEvt;deviceManager.js:102[56:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: propEvt;deviceManager.js:103[79:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: 'proper ... eviceId;deviceManager.js:104[19:100]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: propEvt;deviceManager.js:104[103:109]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: createEvt;deviceManager.js:140[34:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: createEvt;deviceManager.js:141[54:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: 'device ... eviceId;deviceManager.js:142[17:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;15virtual-device-start.js:36[114:126];Sink: createEvt;deviceManager.js:142[78:86]::FLOW_DESCR_END","/nodes/15virtual-device-start.js","36","114","36","126"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;15virtual-device-start.js:67[27:41];Sink: ""Device ... leted."";15virtual-device-start.js:67[15:55]::FLOW_DESCR_END","/nodes/15virtual-device-start.js","67","27","67","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;18virtual-device-stop.js:28[21:30];Sink: ""Device ... exist."";18virtual-device-stop.js:42[19:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.deviceId;18virtual-device-stop.js:28[21:30];Sink: ""Device ... leted."";18virtual-device-stop.js:48[19:52]::FLOW_DESCR_END","/nodes/18virtual-device-stop.js","28","21","28","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;18virtual-device-stop.js:31[31:33];Sink: ""Mismat ... ceeded"";18virtual-device-stop.js:33[19:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;18virtual-device-stop.js:31[31:33];Sink: ""Device ... exist."";18virtual-device-stop.js:42[19:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;18virtual-device-stop.js:31[31:33];Sink: ""Device ... leted."";18virtual-device-stop.js:48[19:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;18virtual-device-stop.js:31[31:33];Sink: msg;18virtual-device-stop.js:49[19:21]::FLOW_DESCR_END","/nodes/18virtual-device-stop.js","31","31","31","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.deviceId;18virtual-device-stop.js:37[62:81];Sink: ""Device ... exist."";18virtual-device-stop.js:42[19:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.payload.deviceId;18virtual-device-stop.js:37[62:81];Sink: ""Device ... leted."";18virtual-device-stop.js:48[19:52]::FLOW_DESCR_END","/nodes/18virtual-device-stop.js","37","62","37","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;18virtual-device-stop.js:37[102:113];Sink: ""Device ... exist."";18virtual-device-stop.js:42[19:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg.deviceId;18virtual-device-stop.js:37[102:113];Sink: ""Device ... leted."";18virtual-device-stop.js:48[19:52]::FLOW_DESCR_END","/nodes/18virtual-device-stop.js","37","102","37","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;18virtual-device-stop.js:37[117:129];Sink: ""Device ... exist."";18virtual-device-stop.js:42[19:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.deviceId;18virtual-device-stop.js:37[117:129];Sink: ""Device ... leted."";18virtual-device-stop.js:48[19:52]::FLOW_DESCR_END","/nodes/18virtual-device-stop.js","37","117","37","129"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;30virtual-device-function.js:62[19:28];Sink: ""Device ... is off"";30virtual-device-function.js:194[16:47]::FLOW_DESCR_END","/nodes/30virtual-device-function.js","62","19","62","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;30virtual-device-function.js:188[30:32];Sink: ""Device ... is off"";30virtual-device-function.js:194[16:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30virtual-device-function.js:188[30:32];Sink: msg;30virtual-device-function.js:205[102:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30virtual-device-function.js:188[30:32];Sink: msg;30virtual-device-function.js:255[31:33]::FLOW_DESCR_END","/nodes/30virtual-device-function.js","188","30","188","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.deviceId;30virtual-device-function.js:189[60:79];Sink: ""Device ... is off"";30virtual-device-function.js:194[16:47]::FLOW_DESCR_END","/nodes/30virtual-device-function.js","189","60","189","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;30virtual-device-function.js:189[100:111];Sink: ""Device ... is off"";30virtual-device-function.js:194[16:47]::FLOW_DESCR_END","/nodes/30virtual-device-function.js","189","100","189","111"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;30virtual-device-function.js:189[115:127];Sink: ""Device ... is off"";30virtual-device-function.js:194[16:47]::FLOW_DESCR_END","/nodes/30virtual-device-function.js","189","115","189","127"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;40virtual-device-gen-event.js:65[19:28];Sink: ""Device ... is off"";40virtual-device-gen-event.js:75[15:46]::FLOW_DESCR_END","/nodes/40virtual-device-gen-event.js","65","19","65","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;40virtual-device-gen-event.js:69[29:31];Sink: ""Cannot ... andType;40virtual-device-gen-event.js:56[11:67]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;40virtual-device-gen-event.js:69[29:31];Sink: msg;40virtual-device-gen-event.js:60[10:12]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;40virtual-device-gen-event.js:69[29:31];Sink: ""Device ... is off"";40virtual-device-gen-event.js:75[15:46]::FLOW_DESCR_END","/nodes/40virtual-device-gen-event.js","69","29","69","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.deviceId;40virtual-device-gen-event.js:70[59:78];Sink: ""Device ... is off"";40virtual-device-gen-event.js:75[15:46]::FLOW_DESCR_END","/nodes/40virtual-device-gen-event.js","70","59","70","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;40virtual-device-gen-event.js:70[99:110];Sink: ""Device ... is off"";40virtual-device-gen-event.js:75[15:46]::FLOW_DESCR_END","/nodes/40virtual-device-gen-event.js","70","99","70","110"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;40virtual-device-gen-event.js:70[114:126];Sink: ""Device ... is off"";40virtual-device-gen-event.js:75[15:46]::FLOW_DESCR_END","/nodes/40virtual-device-gen-event.js","70","114","70","126"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.deviceId;50virtual-device-set-properties.js:32[19:28];Sink: ""Device ... is off"";50virtual-device-set-properties.js:46[15:46]::FLOW_DESCR_END","/nodes/50virtual-device-set-properties.js","32","19","32","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;50virtual-device-set-properties.js:40[29:31];Sink: ""Device ... is off"";50virtual-device-set-properties.js:46[15:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;50virtual-device-set-properties.js:40[29:31];Sink: msg;50virtual-device-set-properties.js:100[15:17]::FLOW_DESCR_END","/nodes/50virtual-device-set-properties.js","40","29","40","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.payload.deviceId;50virtual-device-set-properties.js:41[59:78];Sink: ""Device ... is off"";50virtual-device-set-properties.js:46[15:46]::FLOW_DESCR_END","/nodes/50virtual-device-set-properties.js","41","59","41","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg.deviceId;50virtual-device-set-properties.js:41[99:110];Sink: ""Device ... is off"";50virtual-device-set-properties.js:46[15:46]::FLOW_DESCR_END","/nodes/50virtual-device-set-properties.js","41","99","41","110"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.deviceId;50virtual-device-set-properties.js:41[114:126];Sink: ""Device ... is off"";50virtual-device-set-properties.js:46[15:46]::FLOW_DESCR_END","/nodes/50virtual-device-set-properties.js","41","114","41","126"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;60virtual-device-monitor.js:124[28:30];Sink: msg;60virtual-device-monitor.js:134[14:16]::FLOW_DESCR_END","/nodes/60virtual-device-monitor.js","124","28","124","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;deviceManager.js:68[62:76];Sink: 'device ... eviceId;deviceManager.js:68[18:76]::FLOW_DESCR_END","/nodes/lib/deviceManager.js","68","62","68","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;deviceManager.js:104[86:100];Sink: 'proper ... eviceId;deviceManager.js:104[19:100]::FLOW_DESCR_END","/nodes/lib/deviceManager.js","104","86","104","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: device.deviceId;deviceManager.js:142[61:75];Sink: 'device ... eviceId;deviceManager.js:142[17:75]::FLOW_DESCR_END","/nodes/lib/deviceManager.js","142","61","142","75"

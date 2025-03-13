@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mackerel.js:21[36:38];Sink: msg;mackerel.js:37[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mackerel.js:21[36:38];Sink: msg;mackerel.js:75[85:87]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mackerel.js:21[36:38];Sink: msg;mackerel.js:84[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mackerel.js:21[36:38];Sink: msg;mackerel.js:87[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;mackerel.js:21[36:38];Sink: msg;mackerel.js:111[31:33]::FLOW_DESCR_END","/mackerel.js","21","36","21","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;mackerel.js:71[37:41];Sink: error;mackerel.js:84[36:40]::FLOW_DESCR_END","/mackerel.js","71","37","71","41"

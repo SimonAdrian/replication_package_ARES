@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();overkiz-execute.js:39[30:40];Sink: y;overkiz-execute.js:33[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();overkiz-execute.js:39[30:40];Sink: y;overkiz-execute.js:33[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();overkiz-execute.js:39[30:40];Sink: op[1];overkiz-execute.js:33[147:151]::FLOW_DESCR_END","/dist/nodes/overkiz-execute.js","39","30","39","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();overkiz-gateway.js:39[30:40];Sink: y;overkiz-gateway.js:33[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();overkiz-gateway.js:39[30:40];Sink: y;overkiz-gateway.js:33[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();overkiz-gateway.js:39[30:40];Sink: op[1];overkiz-gateway.js:33[147:151]::FLOW_DESCR_END","/dist/nodes/overkiz-gateway.js","39","30","39","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: _.ops.pop();overkiz-state.js:39[30:40];Sink: y;overkiz-state.js:33[111:111]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();overkiz-state.js:39[30:40];Sink: y;overkiz-state.js:33[144:144]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: _.ops.pop();overkiz-state.js:39[30:40];Sink: op[1];overkiz-state.js:33[147:151]::FLOW_DESCR_END","/dist/nodes/overkiz-state.js","39","30","39","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;overkiz-state.js:65[41:43];Sink: msg;overkiz-state.js:87[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;overkiz-state.js:65[41:43];Sink: msg;overkiz-state.js:98[42:44]::FLOW_DESCR_END","/dist/nodes/overkiz-state.js","65","41","65","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;overkiz-state.ts:28[40:42];Sink: msg;overkiz-state.ts:46[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;overkiz-state.ts:28[40:42];Sink: msg;overkiz-state.ts:55[18:20]::FLOW_DESCR_END","/src/nodes/overkiz-state.ts","28","40","28","42"

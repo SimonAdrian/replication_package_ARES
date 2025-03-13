@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;interval-switch.js:108[35:37];Sink: ""receiv ... fy(msg);interval-switch.js:109[22:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interval-switch.js:108[35:37];Sink: ""don't  ... e + ""'"";interval-switch.js:124[36:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interval-switch.js:108[35:37];Sink: msg;interval-switch.js:124[126:128]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;interval-switch.js:108[35:37];Sink: msg;interval-switch.js:133[83:85]::FLOW_DESCR_END","/interval-switch.js","108","35","108","37"

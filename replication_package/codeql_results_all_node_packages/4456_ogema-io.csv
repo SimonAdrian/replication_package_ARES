@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;ogema.js:37[21:26];Sink: node.brokerurl;ogema.js:177[44:57]::FLOW_DESCR_END","/ogema/ogema.js","37","21","37","26"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;ogema.js:103[65:73];Sink: node.brokerurl;ogema.js:177[44:57]::FLOW_DESCR_END","/ogema/ogema.js","103","65","103","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ogema.js:492[38:40];Sink: msg;ogema.js:516[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ogema.js:492[38:40];Sink: msg;ogema.js:523[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ogema.js:492[38:40];Sink: msg;ogema.js:551[32:34]::FLOW_DESCR_END","/ogema/ogema.js","492","38","492","40"

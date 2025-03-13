@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;victron-nodes.js:65[77:79];Sink: msg.value;victron-nodes.js:82[34:42]::FLOW_DESCR_END","/src/nodes/victron-nodes.js","65","77","65","79"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;victron-nodes.js:153[34:36];Sink: writepath;victron-nodes.js:140[45:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;victron-nodes.js:153[34:36];Sink: value;victron-nodes.js:140[56:60]::FLOW_DESCR_END","/src/nodes/victron-nodes.js","153","34","153","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;dbus-listener.js:114[40:42];Sink: `Error  ... ${err}`;dbus-listener.js:115[23:56]::FLOW_DESCR_END","/src/services/dbus-listener.js","114","40","114","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;dbus-listener.js:182[19:21];Sink: `initSe ... ${err}`;dbus-listener.js:142[15:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;dbus-listener.js:182[19:21];Sink: `Unexpe ... ${msg}`;dbus-listener.js:265[15:42]::FLOW_DESCR_END","/src/services/dbus-listener.js","182","19","182","21"

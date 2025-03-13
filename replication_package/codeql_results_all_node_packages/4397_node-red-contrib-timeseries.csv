@@ -1,0 +1,69 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iotftransform.js:24[29:31];Sink: msg;iotftransform.js:29[14:16]::FLOW_DESCR_END","/iotf-transform/iotftransform.js","24","29","24","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries-simple.js:43[74:99];Sink: rowTypeQueryUrl;timeseries-simple.js:51[14:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries-simple.js:43[74:99];Sink: queryUrl;timeseries-simple.js:127[16:23]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","43","74","43","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries-simple.js:51[42:46];Sink: error;timeseries-simple.js:69[21:25]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","51","42","51","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries-simple.js:51[61:64];Sink: ""Row Ty ... RowType;timeseries-simple.js:60[21:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;timeseries-simple.js:51[61:64];Sink: queryUrl;timeseries-simple.js:127[16:23]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","51","61","51","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data[0].name;timeseries-simple.js:59[28:39];Sink: ""Row Ty ... RowType;timeseries-simple.js:60[21:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data[0].name;timeseries-simple.js:59[28:39];Sink: queryUrl;timeseries-simple.js:127[16:23]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","59","28","59","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timeseries-simple.js:73[34:36];Sink: queryUrl;timeseries-simple.js:127[16:23]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","73","34","73","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries-simple.js:127[37:41];Sink: error;timeseries-simple.js:142[23:27]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","127","37","127","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries-simple.js:176[36:40];Sink: error;timeseries-simple.js:181[25:29]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","176","36","176","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;timeseries-simple.js:176[44:51];Sink: ""("" + r ...  + body;timeseries-simple.js:185[25:63]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","176","44","176","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries-simple.js:176[55:58];Sink: ""("" + r ...  + body;timeseries-simple.js:185[25:63]::FLOW_DESCR_END","/timeseries/timeseries-simple.js","176","55","176","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:50[21:46];Sink: payload;timeseries.js:131[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:50[21:46];Sink: virtual ... tionUrl;timeseries.js:148[22:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:50[21:46];Sink: virtual ... tionUrl;timeseries.js:150[21:43]::FLOW_DESCR_END","/timeseries/timeseries.js","50","21","50","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;timeseries.js:54[45:53];Sink: payload;timeseries.js:131[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:54[45:53];Sink: virtual ... tionUrl;timeseries.js:148[22:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:54[45:53];Sink: virtual ... tionUrl;timeseries.js:150[21:43]::FLOW_DESCR_END","/timeseries/timeseries.js","54","45","54","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;timeseries.js:54[61:69];Sink: payload;timeseries.js:131[27:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:54[61:69];Sink: virtual ... tionUrl;timeseries.js:148[22:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:54[61:69];Sink: virtual ... tionUrl;timeseries.js:150[21:43]::FLOW_DESCR_END","/timeseries/timeseries.js","54","61","54","69"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timeseries.js:62[34:36];Sink: msg;timeseries.js:119[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:62[34:36];Sink: msg;timeseries.js:127[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:62[34:36];Sink: payload;timeseries.js:131[27:33]::FLOW_DESCR_END","/timeseries/timeseries.js","62","34","62","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;timeseries.js:123[37:39];Sink: err.toString();timeseries.js:126[27:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;timeseries.js:123[37:39];Sink: payload;timeseries.js:131[27:33]::FLOW_DESCR_END","/timeseries/timeseries.js","123","37","123","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries.js:150[56:60];Sink: error;timeseries.js:160[32:36]::FLOW_DESCR_END","/timeseries/timeseries.js","150","56","150","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries.js:150[73:76];Sink: payload;timeseries.js:20[26:32]::FLOW_DESCR_END","/timeseries/timeseries.js","150","73","150","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: createC ... ternUrl;timeseries.js:228[22:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: createC ... ternUrl;timeseries.js:229[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: createCalenderUrl;timeseries.js:249[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: createCalenderUrl;timeseries.js:250[25:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: aggrega ... tionUrl;timeseries.js:346[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: aggrega ... tionUrl;timeseries.js:348[29:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: aggrega ... tionUrl;timeseries.js:384[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.ti ... ig.port;timeseries.js:181[21:46];Sink: aggrega ... tionUrl;timeseries.js:386[29:50]::FLOW_DESCR_END","/timeseries/timeseries.js","181","21","181","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: createC ... ternUrl;timeseries.js:228[22:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: createC ... ternUrl;timeseries.js:229[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: createCalenderUrl;timeseries.js:249[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: createCalenderUrl;timeseries.js:250[25:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: aggrega ... tionUrl;timeseries.js:346[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: aggrega ... tionUrl;timeseries.js:348[29:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: aggrega ... tionUrl;timeseries.js:384[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.host;timeseries.js:192[49:57];Sink: aggrega ... tionUrl;timeseries.js:386[29:50]::FLOW_DESCR_END","/timeseries/timeseries.js","192","49","192","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: createC ... ternUrl;timeseries.js:228[22:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: createC ... ternUrl;timeseries.js:229[21:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: createCalenderUrl;timeseries.js:249[26:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: createCalenderUrl;timeseries.js:250[25:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: aggrega ... tionUrl;timeseries.js:346[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: aggrega ... tionUrl;timeseries.js:348[29:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: aggrega ... tionUrl;timeseries.js:384[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.port;timeseries.js:192[65:73];Sink: aggrega ... tionUrl;timeseries.js:386[29:50]::FLOW_DESCR_END","/timeseries/timeseries.js","192","65","192","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries.js:229[63:67];Sink: error;timeseries.js:240[41:45]::FLOW_DESCR_END","/timeseries/timeseries.js","229","63","229","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries.js:229[80:83];Sink: payload;timeseries.js:20[26:32]::FLOW_DESCR_END","/timeseries/timeseries.js","229","80","229","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries.js:250[54:58];Sink: error;timeseries.js:262[45:49]::FLOW_DESCR_END","/timeseries/timeseries.js","250","54","250","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries.js:250[71:74];Sink: payload;timeseries.js:20[26:32]::FLOW_DESCR_END","/timeseries/timeseries.js","250","71","250","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;timeseries.js:267[39:41];Sink: aggrega ... tionUrl;timeseries.js:346[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:267[39:41];Sink: aggrega ... tionUrl;timeseries.js:348[29:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:267[39:41];Sink: msg;timeseries.js:354[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:267[39:41];Sink: aggrega ... tionUrl;timeseries.js:384[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:267[39:41];Sink: aggrega ... tionUrl;timeseries.js:386[29:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;timeseries.js:267[39:41];Sink: msg;timeseries.js:393[39:41]::FLOW_DESCR_END","/timeseries/timeseries.js","267","39","267","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries.js:348[63:67];Sink: error;timeseries.js:358[49:53]::FLOW_DESCR_END","/timeseries/timeseries.js","348","63","348","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries.js:348[80:83];Sink: payload;timeseries.js:20[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;timeseries.js:348[80:83];Sink: ""The ag ...  + body;timeseries.js:350[38:81]::FLOW_DESCR_END","/timeseries/timeseries.js","348","80","348","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;timeseries.js:386[63:67];Sink: error;timeseries.js:397[49:53]::FLOW_DESCR_END","/timeseries/timeseries.js","386","63","386","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;timeseries.js:386[80:83];Sink: payload;timeseries.js:20[26:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;timeseries.js:386[80:83];Sink: ""The ag ...  + body;timeseries.js:388[38:81]::FLOW_DESCR_END","/timeseries/timeseries.js","386","80","386","83"

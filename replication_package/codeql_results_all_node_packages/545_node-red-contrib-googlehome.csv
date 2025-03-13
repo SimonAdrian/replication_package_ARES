@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.username;googlehome.js:35[21:30];Sink: topic;googlehome.js:136[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.username;googlehome.js:35[21:30];Sink: topic;googlehome.js:146[29:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.username;googlehome.js:35[21:30];Sink: ""Proble ... evices"";googlehome.js:269[23:69]::FLOW_DESCR_END","/googlehome.js","35","21","35","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.username;googlehome.js:62[16:28];Sink: ""Proble ... evices"";googlehome.js:269[23:69]::FLOW_DESCR_END","/googlehome.js","62","16","62","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;googlehome.js:72[53:59];Sink: msg;googlehome.js:79[42:44]::FLOW_DESCR_END","/googlehome.js","72","53","72","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;googlehome.js:95[41:43];Sink: err;googlehome.js:98[20:22]::FLOW_DESCR_END","/googlehome.js","95","41","95","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;googlehome.js:135[33:45];Sink: topic;googlehome.js:136[27:31]::FLOW_DESCR_END","/googlehome.js","135","33","135","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.username;googlehome.js:143[31:43];Sink: topic;googlehome.js:146[29:33]::FLOW_DESCR_END","/googlehome.js","143","31","143","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;googlehome.js:209[31:33];Sink: msg;googlehome.js:223[55:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;googlehome.js:209[31:33];Sink: msg;googlehome.js:226[75:77]::FLOW_DESCR_END","/googlehome.js","209","31","209","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;googlehome.js:263[27:30];Sink: devices ... ams.id];googlehome.js:300[16:37]::FLOW_DESCR_END","/googlehome.js","263","27","263","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conf.username;googlehome.js:287[22:34];Sink: ""Proble ... evices"";googlehome.js:269[23:69]::FLOW_DESCR_END","/googlehome.js","287","22","287","34"

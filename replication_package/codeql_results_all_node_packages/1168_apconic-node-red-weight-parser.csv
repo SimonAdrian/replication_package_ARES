@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;paino.js:36[29:32];Sink: data;paino.js:41[39:42]::FLOW_DESCR_END","/paino.js","36","29","36","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;paino.js:55[30:34];Sink: error;paino.js:58[18:22]::FLOW_DESCR_END","/paino.js","55","30","55","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;paino.js:68[32:34];Sink: { ...ms ... t: wt };paino.js:71[17:38]::FLOW_DESCR_END","/paino.js","68","32","68","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: port;paino.js:18[17:20];Sink: `Error  ... {port}`;paino.js:58[25:59]::FLOW_DESCR_END","/paino.js","18","17","18","20"

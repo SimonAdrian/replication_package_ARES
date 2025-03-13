@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-discord-status.js:34[36:38];Sink: msg;node-discord-status.js:73[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-discord-status.js:34[36:38];Sink: msg;node-discord-status.js:98[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-discord-status.js:34[36:38];Sink: msg;node-discord-status.js:111[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-discord-status.js:34[36:38];Sink: msg;node-discord-status.js:120[35:37]::FLOW_DESCR_END","/source/node-discord-status.js","34","36","34","38"

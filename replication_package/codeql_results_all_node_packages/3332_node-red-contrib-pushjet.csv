@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pushjet.js:59[30:32];Sink: msg;pushjet.js:100[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pushjet.js:59[30:32];Sink: msg;pushjet.js:107[21:23]::FLOW_DESCR_END","/pushjet.js","59","30","59","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pushjet.js:103[31:33];Sink: ""Connec ... r + ""]"";pushjet.js:105[22:54]::FLOW_DESCR_END","/pushjet.js","103","31","103","33"

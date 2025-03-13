@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: level;test.js:316[53:57];Sink: level;test.js:317[51:55]::FLOW_DESCR_END","/node-sensortag/test.js","316","53","316","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: left;test.js:411[50:53];Sink: 'left: ' + left;test.js:412[23:37]::FLOW_DESCR_END","/node-sensortag/test.js","411","50","411","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: right;test.js:411[56:60];Sink: 'right: ' + right;test.js:413[23:39]::FLOW_DESCR_END","/node-sensortag/test.js","411","56","411","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: reedRelay;test.js:411[63:71];Sink: 'reed r ... edRelay;test.js:415[25:50]::FLOW_DESCR_END","/node-sensortag/test.js","411","63","411","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: level;test_battery_service.js:84[53:57];Sink: level;test_battery_service.js:85[48:52]::FLOW_DESCR_END","/node-sensortag/test_battery_service.js","84","53","84","57"

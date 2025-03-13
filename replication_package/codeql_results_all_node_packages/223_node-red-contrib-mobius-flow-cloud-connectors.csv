@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-iot-central.js:45[27:29];Sink: `Device ... exists`;azure-iot-central.js:117[27:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-iot-central.js:45[27:29];Sink: `Device ...  exist`;azure-iot-central.js:137[27:61]::FLOW_DESCR_END","/dist/nodes/azure/azure-iot-central.js","45","27","45","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azure-iot-hub.js:44[27:29];Sink: `Device ... exists`;azure-iot-hub.js:111[27:61]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azure-iot-hub.js:44[27:29];Sink: `Device ...  exist`;azure-iot-hub.js:126[27:61]::FLOW_DESCR_END","/dist/nodes/azure/azure-iot-hub.js","44","27","44","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ibm-iotf-client.js:105[46:50];Sink: `Error  ... ${err}`;ibm-iotf-client.js:162[25:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;ibm-iotf-client.js:105[46:50];Sink: `Failed ... ssage}`;ibm-iotf.js:45[24:71]::FLOW_DESCR_END","/dist/nodes/ibm/ibm-iotf-client.js","105","46","105","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ibm-iotf.js:77[27:29];Sink: `iot-2/ ... t/json`;ibm-iotf-client.js:148[37:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ibm-iotf.js:77[27:29];Sink: payload;ibm-iotf-client.js:148[106:112]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ibm-iotf.js:77[27:29];Sink: msg.payload.profile;ibm-iotf.js:84[41:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ibm-iotf.js:77[27:29];Sink: msg.top ... g, '_');ibm-iotf.js:84[62:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ibm-iotf.js:77[27:29];Sink: JSON.st ... ayload);ibm-iotf.js:84[107:133]::FLOW_DESCR_END","/dist/nodes/ibm/ibm-iotf.js","77","27","77","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ioffice.js:61[27:29];Sink: deviceID;ioffice.js:69[38:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioffice.js:61[27:29];Sink: deviceID;ioffice.js:75[47:54]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ioffice.js:61[27:29];Sink: deviceID;ioffice.js:81[34:41]::FLOW_DESCR_END","/dist/nodes/ioffice/ioffice.js","61","27","61","29"

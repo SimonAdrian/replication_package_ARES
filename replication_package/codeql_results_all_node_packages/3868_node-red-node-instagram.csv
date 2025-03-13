@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:35[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:156[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:167[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:208[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;instagram.js:57[35:37];Sink: msg;instagram.js:219[31:33]::FLOW_DESCR_END","/instagram.js","57","35","57","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);instagram.js:383[27:59];Sink: credentials;instagram.js:408[42:52]::FLOW_DESCR_END","/instagram.js","383","27","383","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... ode_id);instagram.js:416[27:59];Sink: credentials;instagram.js:470[46:56]::FLOW_DESCR_END","/instagram.js","416","27","416","59"

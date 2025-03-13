@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ncd-mcp23008.js:6[34:38];Sink: error;ncd-mcp23008.js:7[37:41]::FLOW_DESCR_END","/ncd-mcp23008.js","6","34","6","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ncd-mcp23008.js:132[21:23];Sink: value;index.js:68[47:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ncd-mcp23008.js:132[21:23];Sink: msg.payload;ncd-mcp23008.js:136[33:43]::FLOW_DESCR_END","/ncd-mcp23008.js","132","21","132","23"

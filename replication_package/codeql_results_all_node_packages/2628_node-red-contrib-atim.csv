@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;atim-find-product.js:11[35:39];Sink: input;atim-find-product.js:84[17:21]::FLOW_DESCR_END","/nodes/atim-find-product/atim-find-product.js","11","35","11","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;atim-find-product.js:27[28:32];Sink: error;atim-find-product.js:40[18:22]::FLOW_DESCR_END","/nodes/atim-find-product/atim-find-product.js","27","28","27","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;atim-gateway-details.js:10[35:39];Sink: input;atim-gateway-details.js:89[17:21]::FLOW_DESCR_END","/nodes/atim-gateway-details/atim-gateway-details.js","10","35","10","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;atim-gateway-details.js:26[28:32];Sink: error;atim-gateway-details.js:39[18:22]::FLOW_DESCR_END","/nodes/atim-gateway-details/atim-gateway-details.js","26","28","26","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;atim-list-downlinks.js:11[35:39];Sink: input;atim-list-downlinks.js:80[17:21]::FLOW_DESCR_END","/nodes/atim-list-downlinks/atim-list-downlinks.js","11","35","11","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;atim-list-downlinks.js:27[28:32];Sink: error;atim-list-downlinks.js:40[18:22]::FLOW_DESCR_END","/nodes/atim-list-downlinks/atim-list-downlinks.js","27","28","27","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: input;atim-parser.js:15[35:39];Sink: input;atim-parser.js:88[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: input;atim-parser.js:15[35:39];Sink: header;atim-parser.js:114[35:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: input;atim-parser.js:15[35:39];Sink: val_raw;atim-parser.js:167[51:57]::FLOW_DESCR_END","/nodes/atim-parser/atim-parser.js","15","35","15","39"

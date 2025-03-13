@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:98[23:25];Sink: msg.unitTest;orion.js:109[71:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:98[23:25];Sink: msg.unitTest;orion.js:172[71:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:98[23:25];Sink: msg.unitTest;orion.js:210[71:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:98[23:25];Sink: groupId;orion.js:230[51:57]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:98[23:25];Sink: msg.unitTest;orion.js:271[69:80]::FLOW_DESCR_END","/orion.js","98","23","98","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:560[23:25];Sink: msg;orion.js:568[19:21]::FLOW_DESCR_END","/orion.js","560","23","560","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:585[23:25];Sink: msg;orion.js:593[19:21]::FLOW_DESCR_END","/orion.js","585","23","585","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:610[23:25];Sink: msg;orion.js:620[19:21]::FLOW_DESCR_END","/orion.js","610","23","610","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:637[23:25];Sink: msg;orion.js:646[19:21]::FLOW_DESCR_END","/orion.js","637","23","637","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;orion.js:668[23:25];Sink: msg;orion.js:679[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:668[23:25];Sink: msg;orion.js:688[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:668[23:25];Sink: msg;orion.js:700[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:668[23:25];Sink: msg;orion.js:708[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;orion.js:668[23:25];Sink: msg;orion.js:716[25:27]::FLOW_DESCR_END","/orion.js","668","23","668","25"

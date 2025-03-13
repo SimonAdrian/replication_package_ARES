@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: scale;XiaomiScale.js:15[34:38];Sink: scale;XiaomiScale.js:16[19:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: scale;XiaomiScale.js:15[34:38];Sink: msg;XiaomiScale.js:24[17:19]::FLOW_DESCR_END","/XiaomiScale.js","15","34","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: state;yunmai.js:16[34:38];Sink: state;yunmai.js:17[28:32]::FLOW_DESCR_END","/yunmai.js","16","34","16","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;yunmai.js:78[33:37];Sink: error;yunmai.js:78[67:71]::FLOW_DESCR_END","/yunmai.js","78","33","78","37"

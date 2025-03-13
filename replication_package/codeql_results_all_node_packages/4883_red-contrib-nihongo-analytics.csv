@@ -1,0 +1,19 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:15[54:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:60[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:77[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:122[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:139[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:184[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node.js:9[35:37];Sink: msg;node.js:201[43:45]::FLOW_DESCR_END","/cognitive-services/node.js","9","35","9","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node.js:41[53:57];Sink: error;node.js:71[44:48]::FLOW_DESCR_END","/cognitive-services/node.js","41","53","41","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;node.js:41[60:67];Sink: ""respon ... y(body);node.js:48[45:123]::FLOW_DESCR_END","/cognitive-services/node.js","41","60","41","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node.js:41[70:73];Sink: ""respon ... y(body);node.js:48[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;node.js:41[70:73];Sink: body;node.js:65[48:51]::FLOW_DESCR_END","/cognitive-services/node.js","41","70","41","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node.js:103[53:57];Sink: error;node.js:133[44:48]::FLOW_DESCR_END","/cognitive-services/node.js","103","53","103","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;node.js:103[60:67];Sink: ""respon ... y(body);node.js:110[45:123]::FLOW_DESCR_END","/cognitive-services/node.js","103","60","103","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node.js:103[70:73];Sink: ""respon ... y(body);node.js:110[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;node.js:103[70:73];Sink: body;node.js:127[48:51]::FLOW_DESCR_END","/cognitive-services/node.js","103","70","103","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;node.js:165[53:57];Sink: error;node.js:195[44:48]::FLOW_DESCR_END","/cognitive-services/node.js","165","53","165","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;node.js:165[60:67];Sink: ""respon ... y(body);node.js:172[45:123]::FLOW_DESCR_END","/cognitive-services/node.js","165","60","165","67"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: body;node.js:165[70:73];Sink: ""respon ... y(body);node.js:172[45:123]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: body;node.js:165[70:73];Sink: body;node.js:189[48:51]::FLOW_DESCR_END","/cognitive-services/node.js","165","70","165","73"

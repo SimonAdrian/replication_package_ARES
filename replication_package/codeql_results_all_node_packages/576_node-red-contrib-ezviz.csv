@@ -1,0 +1,46 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ezviz-ys7.js:10[30:33];Sink: [data, null];ezviz-ys7.js:22[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:10[30:33];Sink: [null, data];ezviz-ys7.js:28[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:10[30:33];Sink: `https: ... ize=20`;Ezviz.js:56[43:167]::FLOW_DESCR_END","/ezviz-ys7.js","10","30","10","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ezviz-ys7.js:41[30:33];Sink: [data, null];ezviz-ys7.js:52[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:41[30:33];Sink: [null, data];ezviz-ys7.js:58[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:41[30:33];Sink: `https: ... nelNo}`;Ezviz.js:97[43:170]::FLOW_DESCR_END","/ezviz-ys7.js","41","30","41","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ezviz-ys7.js:70[30:33];Sink: [data, null];ezviz-ys7.js:81[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:70[30:33];Sink: [null, data];ezviz-ys7.js:87[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:70[30:33];Sink: `https: ... index}`;Ezviz.js:119[43:196]::FLOW_DESCR_END","/ezviz-ys7.js","70","30","70","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ezviz-ys7.js:100[30:33];Sink: [data, null];ezviz-ys7.js:111[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:100[30:33];Sink: [null, data];ezviz-ys7.js:117[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:100[30:33];Sink: url;Ezviz.js:148[43:45]::FLOW_DESCR_END","/ezviz-ys7.js","100","30","100","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ezviz-ys7.js:130[30:33];Sink: [data, null];ezviz-ys7.js:141[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:130[30:33];Sink: [null, data];ezviz-ys7.js:147[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:130[30:33];Sink: `https: ... yload}`;Ezviz.js:171[43:152]::FLOW_DESCR_END","/ezviz-ys7.js","130","30","130","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ezviz-ys7.js:160[30:33];Sink: [data, null];ezviz-ys7.js:171[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:160[30:33];Sink: [null, data];ezviz-ys7.js:177[21:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;ezviz-ys7.js:160[30:33];Sink: url;Ezviz.js:197[43:45]::FLOW_DESCR_END","/ezviz-ys7.js","160","30","160","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:36[47:54];Sink: err;ezviz-ys7.js:25[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg;Ezviz.js:36[47:54];Sink: err;ezviz-ys7.js:55[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg;Ezviz.js:36[47:54];Sink: err;ezviz-ys7.js:84[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg;Ezviz.js:36[47:54];Sink: err;ezviz-ys7.js:114[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg;Ezviz.js:36[47:54];Sink: err;ezviz-ys7.js:144[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.msg;Ezviz.js:36[47:54];Sink: err;ezviz-ys7.js:174[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","36","47","36","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.da ... ssToken;Ezviz.js:46[17:37];Sink: `https: ... ize=20`;Ezviz.js:56[43:167]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... ssToken;Ezviz.js:46[17:37];Sink: `https: ... nelNo}`;Ezviz.js:97[43:170]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... ssToken;Ezviz.js:46[17:37];Sink: `https: ... index}`;Ezviz.js:119[43:196]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... ssToken;Ezviz.js:46[17:37];Sink: url;Ezviz.js:148[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... ssToken;Ezviz.js:46[17:37];Sink: `https: ... yload}`;Ezviz.js:171[43:152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.da ... ssToken;Ezviz.js:46[17:37];Sink: url;Ezviz.js:197[43:45]::FLOW_DESCR_END","/lib/Ezviz.js","46","17","46","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.data;Ezviz.js:46[17:25];Sink: `https: ... ize=20`;Ezviz.js:56[43:167]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.data;Ezviz.js:46[17:25];Sink: `https: ... nelNo}`;Ezviz.js:97[43:170]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.data;Ezviz.js:46[17:25];Sink: `https: ... index}`;Ezviz.js:119[43:196]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.data;Ezviz.js:46[17:25];Sink: url;Ezviz.js:148[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.data;Ezviz.js:46[17:25];Sink: `https: ... yload}`;Ezviz.js:171[43:152]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data.data;Ezviz.js:46[17:25];Sink: url;Ezviz.js:197[43:45]::FLOW_DESCR_END","/lib/Ezviz.js","46","17","46","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:63[47:54];Sink: err;ezviz-ys7.js:25[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","63","47","63","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:104[47:54];Sink: err;ezviz-ys7.js:55[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","104","47","104","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.data;Ezviz.js:107[17:25];Sink: `https: ... nelNo}`;Ezviz.js:97[43:170]::FLOW_DESCR_END","/lib/Ezviz.js","107","17","107","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:126[47:54];Sink: err;ezviz-ys7.js:84[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","126","47","126","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.data;Ezviz.js:129[17:25];Sink: `https: ... index}`;Ezviz.js:119[43:196]::FLOW_DESCR_END","/lib/Ezviz.js","129","17","129","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:155[47:54];Sink: err;ezviz-ys7.js:114[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","155","47","155","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:178[47:54];Sink: err;ezviz-ys7.js:144[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","178","47","178","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.data;Ezviz.js:181[17:25];Sink: `https: ... yload}`;Ezviz.js:171[43:152]::FLOW_DESCR_END","/lib/Ezviz.js","181","17","181","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.msg;Ezviz.js:204[47:54];Sink: err;ezviz-ys7.js:174[21:23]::FLOW_DESCR_END","/lib/Ezviz.js","204","47","204","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.data;Ezviz.js:207[17:25];Sink: url;Ezviz.js:197[43:45]::FLOW_DESCR_END","/lib/Ezviz.js","207","17","207","25"

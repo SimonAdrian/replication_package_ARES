@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fabric-composer.js:300[32:34];Sink: data;fabric-composer.js:91[24:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-composer.js:300[32:34];Sink: data;fabric-composer.js:103[38:41]::FLOW_DESCR_END","/nodes/fabric-composer.js","300","32","300","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fabric-composer.js:332[32:34];Sink: id;fabric-composer.js:174[40:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-composer.js:332[32:34];Sink: id;fabric-composer.js:188[46:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;fabric-composer.js:332[32:34];Sink: msg;fabric-composer.js:352[23:25]::FLOW_DESCR_END","/nodes/fabric-composer.js","332","32","332","34"

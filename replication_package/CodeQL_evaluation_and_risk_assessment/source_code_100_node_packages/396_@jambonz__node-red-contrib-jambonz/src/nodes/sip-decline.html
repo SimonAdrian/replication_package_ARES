@@ -1,0 +1,93 @@
+<!-- Javascript -->
+<script type="text/javascript">
+  var mustacheType = {
+  value: 'mustache',
+  label: 'mustache',
+  hasvalue: true,
+  icon: 'resources/@jambonz/node-red-contrib-jambonz/icons/mustache.svg'
+  }
+  RED.nodes.registerType('sip:decline',{
+      category: 'jambonz',
+      color: '#bbabaa',
+      defaults: {
+        name: {value: ''},
+        status: {},
+        statusType: {value: 'num'},
+        reason: {value: ''},
+        reasonType: {value: 'str'},
+        headers: {value: ''},
+        headersType: {value: 'json'},
+      },
+      inputs:1,
+      outputs:1,
+      icon: "font-awesome/fa-cubes",
+      label: function() { return this.name || 'sip:decline';},
+      oneditprepare: function() {
+        $('#node-input-status').typedInput({
+          default: $('#node-input-statusType').val(),
+          types: ['num','msg', 'flow', 'global', 'jsonata', 'env', mustacheType], 
+          typeField: $('#node-input-statusType')
+        });
+        $('#node-input-reason').typedInput({
+          default: $('#node-input-reasonType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-reasonType')
+        });
+        $('#node-input-headers').typedInput({
+          default: $('#node-input-headersType').val(),
+          types: ['json','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-headersType')
+        });
+      }
+  });
+</script>
+
+<!-- HTML -->
+<script type="text/html" data-template-name="sip:decline">
+    <div class="form-row">
+      <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+      <label for="node-input-status">Status</label>
+      <input type="text" id="node-input-status" placeholder="SIP status code">
+      <input type="hidden" id="node-input-statusType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-reason">Reason</label>
+      <input type="text" id="node-input-reason" placeholder="sip reason">
+      <input type="hidden" id="node-input-reasonType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-headers">Headers</label>
+      <input type="text" id="node-input-headers" placeholder="SIP headers">
+      <input type="hidden" id="node-input-headersType">
+    </div>
+</script>
+
+<!-- Help Text -->
+<script type="text/html" data-help-name="sip:decline">
+    <p>Reject an incoming call with a status code and, optionally, reason</p>
+    <h3>Inputs</h3>
+    <dl class="message-properties">
+      <dt>SIP status code<span class="property-type">number</span></dt>
+      <dd>A valid SIP status code in the range 4XX - 6XX</dd>
+      <dt>Reason<span class="property-type">string</span></dt>
+      <dd>A brief description</dd>
+      <dt>Headers<span class="property-type">object</span></dt>
+      <dd>Additional SIP headers to include in the response</dd>
+  </dl>
+  
+  <h3>Outputs</h3>
+  <dl class="message-properties">
+    <dt>jambonz<span class="property-type">object</span></dt>
+    <dd> <code>msg.jambonz</code> will contain any previous actions provided to the input with the new <code>sip:decline</code> action appended  </dd>
+  </dl>
+  
+  <h3>Details</h3>
+  The sip:decline verb rejects an incoming call.
+  <h3>References</h3>
+    <ul>
+        <li><a href="https://www.jambonz.org/docs/webhooks/sip-decline/">Jambonz sip:decline reference</a></li>
+    </ul>
+</script>

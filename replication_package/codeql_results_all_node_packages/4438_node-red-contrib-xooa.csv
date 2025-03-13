@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;index.js:79[29:33];Sink: error;index.js:81[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: error;index.js:79[29:33];Sink: error;index.js:83[23:27]::FLOW_DESCR_END","/subscribe/index.js","79","29","79","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: event;index.js:86[29:33];Sink: event;index.js:88[25:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: event;index.js:86[29:33];Sink: event;index.js:90[23:27]::FLOW_DESCR_END","/subscribe/index.js","86","29","86","33"

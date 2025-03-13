@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: socketName;can-config.js:23[48:57];Sink: 'Failed ... message;can-config.js:26[27:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: socketName;can-config.js:23[48:57];Sink: 'Connec ... ketName;can-config.js:34[22:58]::FLOW_DESCR_END","/can/can-config.js","23","48","23","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;can-config.js:23[60:64];Sink: 'Failed ... message;can-config.js:26[27:86]::FLOW_DESCR_END","/can/can-config.js","23","60","23","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;can-read.js:31[35:37];Sink: msg;can-read.js:55[23:25]::FLOW_DESCR_END","/can/can-read.js","31","35","31","37"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;powermate-device.js:146[38:40];Sink: err;powermate-device.js:147[24:26]::FLOW_DESCR_END","/src/powermate-device.js","146","38","146","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;powermate-device.js:317[55:58];Sink: data;powermate-device.js:318[32:35]::FLOW_DESCR_END","/src/powermate-device.js","317","55","317","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;powermate-device.js:320[53:56];Sink: data;powermate-device.js:321[30:33]::FLOW_DESCR_END","/src/powermate-device.js","320","53","320","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;powermate-device.js:323[56:59];Sink: data;powermate-device.js:324[33:36]::FLOW_DESCR_END","/src/powermate-device.js","323","56","323","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;powermate-in.js:15[48:51];Sink: data;powermate-in.js:16[30:33]::FLOW_DESCR_END","/src/powermate-in.js","15","48","15","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;powermate-led.js:17[48:51];Sink: data;powermate-led.js:18[30:33]::FLOW_DESCR_END","/src/powermate-led.js","17","48","17","51"

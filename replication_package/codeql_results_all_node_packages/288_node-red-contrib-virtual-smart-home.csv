@@ -1,0 +1,34 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.options.host;MqttClient.js:24[43:59];Sink: `mqtts: ... .host}`;MqttClient.js:24[32:61]::FLOW_DESCR_END","/MqttClient.js","24","43","24","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: conAck;MqttClient.js:26[32:37];Sink: conAck;MqttClient.js:28[28:33]::FLOW_DESCR_END","/MqttClient.js","26","32","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;MqttClient.js:45[30:34];Sink: error;MqttClient.js:47[26:30]::FLOW_DESCR_END","/MqttClient.js","45","30","45","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: topic;MqttClient.js:50[32:36];Sink: topic;MqttClient.js:53[28:32]::FLOW_DESCR_END","/MqttClient.js","50","32","50","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;MqttClient.js:50[39:45];Sink: parsedMsg;MqttClient.js:53[35:43]::FLOW_DESCR_END","/MqttClient.js","50","39","50","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;MqttClient.js:85[47:49];Sink: err;MqttClient.js:87[51:53]::FLOW_DESCR_END","/MqttClient.js","85","47","85","49"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: result;MqttClient.js:85[52:57];Sink: result;MqttClient.js:91[35:40]::FLOW_DESCR_END","/MqttClient.js","85","52","85","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:244[27:50];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:244[27:50];Sink: `vsh/${ ... Config`;connection.js:244[20:66]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:244[27:50];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END","/connection.js","244","27","244","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:259[35:58];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:259[35:58];Sink: `$aws/t ... update`;connection.js:259[20:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:259[35:58];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END","/connection.js","259","35","259","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:280[24:47];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:280[24:47];Sink: `$aws/t ... update`;connection.js:280[9:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:280[24:47];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END","/connection.js","280","24","280","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:315[31:54];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:315[31:54];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:315[31:54];Sink: `vsh/${ ... Report`;connection.js:315[24:69]::FLOW_DESCR_END","/connection.js","315","31","315","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:347[29:52];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:347[29:52];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:347[29:52];Sink: `vsh/${ ... {mode}`;connection.js:347[22:66]::FLOW_DESCR_END","/connection.js","347","29","347","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:382[37:60];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:382[37:60];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:382[37:60];Sink: `$aws/t ... update`;connection.js:382[22:76]::FLOW_DESCR_END","/connection.js","382","37","382","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:547[27:50];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:547[27:50];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:547[27:50];Sink: `vsh/${ ... }/pong`;connection.js:547[20:57]::FLOW_DESCR_END","/connection.js","547","27","547","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:562[35:58];Sink: topic;MqttClient.js:68[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:562[35:58];Sink: topic;connection.js:296[44:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:562[35:58];Sink: `$aws/t ... ow/get`;connection.js:562[20:71]::FLOW_DESCR_END","/connection.js","562","35","562","58"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... thingId;connection.js:666[13:36];Sink: `${\n    ...      }`;connection.js:663[11:12]::FLOW_DESCR_END","/connection.js","666","13","666","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;virtual-device.js:119[32:34];Sink: `ignori ... name}'`;virtual-device.js:137[11:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;virtual-device.js:119[32:34];Sink: `ignori ... opic}'`;virtual-device.js:151[11:46]::FLOW_DESCR_END","/virtual-device.js","119","32","119","34"

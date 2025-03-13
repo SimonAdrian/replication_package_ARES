@@ -1,0 +1,49 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: keyParam.deviceId;101-SmartThings.js:146[47:63];Sink: ST_API_ ... status`;101-SmartThings.js:146[21:72]::FLOW_DESCR_END","/101-SmartThings.js","146","47","146","63"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: keyParam.deviceId;101-SmartThings.js:151[48:64];Sink: ST_API_ ... mmands`;101-SmartThings.js:151[22:75]::FLOW_DESCR_END","/101-SmartThings.js","151","48","151","64"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.confirmationUrl;101-SmartThings.js:277[32:51];Sink: url;SmartThingsAPI.js:17[22:24]::FLOW_DESCR_END","/101-SmartThings.js","277","32","277","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: install ... eviceId;101-SmartThings.js:346[19:55];Sink: JSON.st ... onBody);101-SmartThings.js:355[89:120]::FLOW_DESCR_END","/101-SmartThings.js","346","19","346","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: install ... eviceId;101-SmartThings.js:389[23:59];Sink: JSON.st ... onBody);101-SmartThings.js:398[92:123]::FLOW_DESCR_END","/101-SmartThings.js","389","23","389","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... s(n.id);101-SmartThings.js:512[10:39];Sink: `SmartT ...  / ')}`;SmartThingsProfile.js:117[29:82]::FLOW_DESCR_END","/101-SmartThings.js","512","10","512","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... his.id);101-SmartThings.js:521[54:86];Sink: `SmartT ...  / ')}`;SmartThingsProfile.js:117[29:82]::FLOW_DESCR_END","/101-SmartThings.js","521","54","521","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... s(n.id);101-SmartThings.js:536[10:39];Sink: `SmartT ...  / ')}`;SmartThingsProfile.js:117[29:82]::FLOW_DESCR_END","/101-SmartThings.js","536","10","536","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... his.id);101-SmartThings.js:545[54:86];Sink: `SmartT ...  / ')}`;SmartThingsProfile.js:117[29:82]::FLOW_DESCR_END","/101-SmartThings.js","545","54","545","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;101-SmartThings.js:582[30:32];Sink: resultMsg;101-SmartThings.js:637[16:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;101-SmartThings.js:582[30:32];Sink: onward;101-SmartThings.js:686[18:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;101-SmartThings.js:582[30:32];Sink: onward;101-SmartThings.js:750[21:26]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;101-SmartThings.js:582[30:32];Sink: onward;101-SmartThings.js:759[17:22]::FLOW_DESCR_END","/101-SmartThings.js","582","30","582","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: NODE.deviceId;101-SmartThings.js:596[23:35];Sink: ST_API_ ... status`;101-SmartThings.js:146[21:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: NODE.deviceId;101-SmartThings.js:596[23:35];Sink: ST_API_ ... mmands`;101-SmartThings.js:151[22:75]::FLOW_DESCR_END","/101-SmartThings.js","596","23","596","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: RED.nod ... eviceId;101-SmartThings.js:596[40:91];Sink: ST_API_ ... status`;101-SmartThings.js:146[21:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: RED.nod ... eviceId;101-SmartThings.js:596[40:91];Sink: ST_API_ ... mmands`;101-SmartThings.js:151[22:75]::FLOW_DESCR_END","/101-SmartThings.js","596","40","596","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceC ... eviceId;101-SmartThings.js:600[23:43];Sink: ST_API_ ... status`;101-SmartThings.js:146[21:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: deviceC ... eviceId;101-SmartThings.js:600[23:43];Sink: ST_API_ ... mmands`;101-SmartThings.js:151[22:75]::FLOW_DESCR_END","/101-SmartThings.js","600","23","600","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;102-Bixby.js:277[34:36];Sink: statusCode;102-Bixby.js:284[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-Bixby.js:277[34:36];Sink: len;102-Bixby.js:297[60:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-Bixby.js:277[34:36];Sink: statusCode;102-Bixby.js:303[41:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;102-Bixby.js:277[34:36];Sink: msg.results;102-Bixby.js:303[58:68]::FLOW_DESCR_END","/102-Bixby.js","277","34","277","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: nodeMsg;201-Basicauth.js:118[36:42];Sink: nodeMsg;201-Basicauth.js:60[10:16]::FLOW_DESCR_END","/201-Basicauth.js","118","36","118","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;301-AWS.js:92[29:31];Sink: msg;301-AWS.js:97[47:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;301-AWS.js:92[29:31];Sink: msg;301-AWS.js:104[16:18]::FLOW_DESCR_END","/301-AWS.js","92","29","92","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:107[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:111[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:128[50:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:132[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:146[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:153[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:159[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:180[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:185[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;302-DB.js:87[29:31];Sink: msg;302-DB.js:190[18:20]::FLOW_DESCR_END","/302-DB.js","87","29","87","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;302-DB.js:173[37:39];Sink: err;302-DB.js:178[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;302-DB.js:173[37:39];Sink: ""failed ... tring();302-DB.js:180[19:45]::FLOW_DESCR_END","/302-DB.js","173","37","173","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;302-DB.js:182[36:38];Sink: err;302-DB.js:183[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;302-DB.js:182[36:38];Sink: ""failed ... tring();302-DB.js:185[19:45]::FLOW_DESCR_END","/302-DB.js","182","36","182","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;303-SlackNotification.js:45[34:36];Sink: `Slack  ... ${msg}`;303-SlackNotification.js:61[32:77]::FLOW_DESCR_END","/303-SlackNotification.js","45","34","45","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;401-DataExtractor.js:14[32:34];Sink: msg;401-DataExtractor.js:22[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;401-DataExtractor.js:14[32:34];Sink: msg;401-DataExtractor.js:37[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;401-DataExtractor.js:14[32:34];Sink: msg;401-DataExtractor.js:40[38:40]::FLOW_DESCR_END","/401-DataExtractor.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;401-DataExtractor.js:88[32:34];Sink: msg;401-DataExtractor.js:96[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;401-DataExtractor.js:88[32:34];Sink: msg;401-DataExtractor.js:130[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;401-DataExtractor.js:88[32:34];Sink: msg;401-DataExtractor.js:132[38:40]::FLOW_DESCR_END","/401-DataExtractor.js","88","32","88","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: locatio ... t.items;SmartThingsProfile.js:56[17:37];Sink: ST_API_ ... /rooms`;SmartThingsAPI.js:25[22:67]::FLOW_DESCR_END","/lib/SmartThingsProfile.js","56","17","56","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: devicesResult.items;SmartThingsProfile.js:76[20:38];Sink: ST_API_ ...  || 1}`;SmartThingsAPI.js:33[22:76]::FLOW_DESCR_END","/lib/SmartThingsProfile.js","76","20","76","38"

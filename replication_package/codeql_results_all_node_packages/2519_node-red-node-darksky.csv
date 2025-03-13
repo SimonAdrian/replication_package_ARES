@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;darksky.js:122[37:37];Sink: err;darksky.js:150[40:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: e;darksky.js:122[37:37];Sink: err;darksky.js:233[40:42]::FLOW_DESCR_END","/darksky.js","122","37","122","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;darksky.js:143[35:37];Sink: msg;darksky.js:146[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;darksky.js:143[35:37];Sink: msg;darksky.js:150[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;darksky.js:143[35:37];Sink: msg;darksky.js:155[43:45]::FLOW_DESCR_END","/darksky.js","143","35","143","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;darksky.js:178[36:38];Sink: msg;darksky.js:229[36:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;darksky.js:178[36:38];Sink: msg;darksky.js:233[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;darksky.js:178[36:38];Sink: msg;darksky.js:235[39:41]::FLOW_DESCR_END","/darksky.js","178","36","178","38"

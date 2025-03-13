@@ -1,0 +1,22 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ undefined, data ];google-spreadsheet.js:51[30:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ undefined, data ];google-spreadsheet.js:149[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:155[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:175[23:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ undefined, data ];google-spreadsheet.js:184[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:192[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:207[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:225[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:234[38:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:248[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ undefined, data ];google-spreadsheet.js:257[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:264[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:273[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:291[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:300[38:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:314[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0undefined, data ];google-spreadsheet.js:326[30:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:350[30:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ undefined, data ];google-spreadsheet.js:356[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ data, undefined ];google-spreadsheet.js:363[34:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [\u00a0data, undefined ];google-spreadsheet.js:390[30:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-spreadsheet.js:20[27:30];Sink: [ undefined, data ];google-spreadsheet.js:421[19:37]::FLOW_DESCR_END","/google-spreadsheet.js","20","27","20","30"

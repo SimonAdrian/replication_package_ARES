@@ -1,0 +1,17 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: ""mode: "" + mode;loraconfig.js:80[14:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: ""Update ...  + mode;loraconfig.js:99[20:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:121[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:135[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:151[32:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: ""rf_mode "" + rf_mode;loraconfig.js:209[18:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: ""rf_bw "" + rf_bw;loraconfig.js:210[18:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: ""mode "" + mode;loraconfig.js:213[18:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:512[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:518[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:526[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:549[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;loraconfig.js:90[32:34];Sink: msg;loraconfig.js:559[25:27]::FLOW_DESCR_END","/Node/loraconfig.js","90","32","90","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;loraconfig.js:133[39:47];Sink: errmsg;loraconfig.js:135[30:35]::FLOW_DESCR_END","/Node/loraconfig.js","133","39","133","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;loraconfig.js:150[54:62];Sink: errmsg;loraconfig.js:151[24:29]::FLOW_DESCR_END","/Node/loraconfig.js","150","54","150","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;loraconfig.js:567[36:41];Sink: msgout;loraconfig.js:568[17:22]::FLOW_DESCR_END","/Node/loraconfig.js","567","36","567","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msgout;loraconfig.js:570[38:43];Sink: msgout;loraconfig.js:574[19:24]::FLOW_DESCR_END","/Node/loraconfig.js","570","38","570","43"

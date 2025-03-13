@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;frpcClient.js:154[42:44];Sink: err;frpcClient.js:155[34:36]::FLOW_DESCR_END","/lib/frpc/frpcClient.js","154","42","154","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;frpcClient.js:157[33:36];Sink: code;frpcClient.js:158[25:28]::FLOW_DESCR_END","/lib/frpc/frpcClient.js","157","33","157","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;index.js:196[42:44];Sink: err;index.js:197[34:36]::FLOW_DESCR_END","/lib/frpc/index.js","196","42","196","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;index.js:209[39:41];Sink: info.msg;index.js:146[33:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;index.js:209[39:41];Sink: data;index.js:123[35:38]::FLOW_DESCR_END","/lib/frpc/index.js","209","39","209","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;frpc.js:32[46:48];Sink: err;frpc.js:33[29:31]::FLOW_DESCR_END","/lib/service/frpc.js","32","46","32","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;frpc.js:35[37:40];Sink: code;frpc.js:36[29:32]::FLOW_DESCR_END","/lib/service/frpc.js","35","37","35","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;frpc.js:39[43:45];Sink: msg.toString();frpc.js:40[29:42]::FLOW_DESCR_END","/lib/service/frpc.js","39","43","39","45"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... stFile);hourglass.js:21[35:62];Sink: JSON.st ...      });hourglass.js:68[43:14]::FLOW_DESCR_END","/hourglass.js","21","35","21","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hourglass.js:109[35:37];Sink: err;hourglass.js:111[57:59]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hourglass.js:109[35:37];Sink: msg;hourglass.js:111[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hourglass.js:109[35:37];Sink: msg;hourglass.js:199[34:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hourglass.js:109[35:37];Sink: msg;hourglass.js:203[62:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;hourglass.js:109[35:37];Sink: msg;hourglass.js:231[22:24]::FLOW_DESCR_END","/hourglass.js","109","35","109","37"

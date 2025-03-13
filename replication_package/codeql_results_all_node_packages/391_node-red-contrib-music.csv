@@ -1,0 +1,27 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beat.js:29[36:38];Sink: msg;beat.js:43[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beat.js:29[36:38];Sink: msg;beat.js:48[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beat.js:29[36:38];Sink: msg;beat.js:54[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;beat.js:29[36:38];Sink: msg;beat.js:67[31:33]::FLOW_DESCR_END","/beat.js","29","36","29","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beat.js:249[53:55];Sink: JSON.stringify(jmsg);beat.js:255[29:48]::FLOW_DESCR_END","/beat.js","249","53","249","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;beat.js:319[54:56];Sink: 'unreco ... ' + msg;beat.js:368[31:79]::FLOW_DESCR_END","/beat.js","319","54","319","56"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;divider.js:27[36:38];Sink: msg;divider.js:74[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;divider.js:27[36:38];Sink: msg;divider.js:80[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;divider.js:27[36:38];Sink: msg;divider.js:84[27:29]::FLOW_DESCR_END","/divider.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;looper.js:12[36:38];Sink: 'no syn ...  action;looper.js:140[23:53]::FLOW_DESCR_END","/looper.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sequencer.js:12[36:38];Sink: [playmsg, null];sequencer.js:93[35:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequencer.js:12[36:38];Sink: [msg, null];sequencer.js:103[31:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequencer.js:12[36:38];Sink: [msg, null];sequencer.js:122[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sequencer.js:12[36:38];Sink: [msg, null];sequencer.js:157[35:45]::FLOW_DESCR_END","/sequencer.js","12","36","12","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;setting.js:15[36:38];Sink: msg;setting.js:36[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setting.js:15[36:38];Sink: msg;setting.js:42[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setting.js:15[36:38];Sink: msg;setting.js:48[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;setting.js:15[36:38];Sink: msg;setting.js:53[31:33]::FLOW_DESCR_END","/setting.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;soundfx.js:22[36:38];Sink: msg;soundfx.js:62[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soundfx.js:22[36:38];Sink: msg;soundfx.js:76[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soundfx.js:22[36:38];Sink: msg;soundfx.js:93[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soundfx.js:22[36:38];Sink: 'No suc ... + param;soundfx.js:98[27:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;soundfx.js:22[36:38];Sink: msg;soundfx.js:106[23:25]::FLOW_DESCR_END","/soundfx.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;supercollider.js:43[36:38];Sink: 'SuperC ... nthtype;supercollider.js:135[27:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;supercollider.js:43[36:38];Sink: ' probl ... DefName;supercollider.js:221[43:85]::FLOW_DESCR_END","/supercollider.js","43","36","43","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;supercollider.js:381[42:44];Sink: 'SuperC ... ' + err;supercollider.js:383[31:70]::FLOW_DESCR_END","/supercollider.js","381","42","381","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;synth.js:86[36:38];Sink: 'No suc ... control;synth.js:194[27:65]::FLOW_DESCR_END","/synth.js","86","36","86","38"

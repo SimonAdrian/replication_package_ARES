@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;datasource.js:24[36:38];Sink: JSON.st ... wData );datasource.js:84[47:71]::FLOW_DESCR_END","/datasource.js","24","36","24","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: code;datasources.js:124[30:33];Sink: ""WS Con ... ) + "")"";datasources.js:127[20:92]::FLOW_DESCR_END","/datasources.js","124","30","124","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;datasources.js:124[37:43];Sink: ""WS Con ... ) + "")"";datasources.js:127[20:92]::FLOW_DESCR_END","/datasources.js","124","37","124","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;datasources.js:131[30:32];Sink: err;datasources.js:132[31:33]::FLOW_DESCR_END","/datasources.js","131","30","131","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... on"" ) );users.js:33[18:82];Sink: oldCfgData;users.js:43[60:69]::FLOW_DESCR_END","/users.js","33","18","33","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ...  id ) );users.js:98[24:67];Sink: JSON.st ...  '\t' );users.js:114[51:96]::FLOW_DESCR_END","/users.js","98","24","98","67"

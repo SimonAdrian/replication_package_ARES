@@ -1,0 +1,482 @@
+<!-- Javascript -->
+<script type="text/javascript">
+  var mustacheType = {
+    value: 'mustache',
+    label: 'mustache',
+    hasvalue: true,
+    icon: 'resources/@jambonz/node-red-contrib-jambonz/icons/mustache.svg'
+  }
+  RED.nodes.registerType('lcc',{
+      category: 'jambonz',
+      color: '#aebfb9',
+      defaults: {
+        name: {value: ''},
+        server: {value: '', required: true, type: 'jambonz_auth'},
+        callSid: {required: true},
+        callSidType: {value: 'msg'},
+        action: {value: 'hangup', required: true},
+        text: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'whisper' || v.length > 0;
+        }},
+        vendor: {value: 'default'},
+        lang: {value: 'default'},
+        voice: {value: 'default'},
+        callHook: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'redirect' || v.length > 0;
+        }},
+        callHookType: {value: 'str'},
+        childCallHook: {value: ''},
+        childCallHookType: {value: 'str'},
+        waitHook: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'hold_conf' || v.length > 0;
+        }},
+        waitHookType: {value: 'str'},
+        sipRequestMethod: {value: 'INFO'},
+        sipRequestHeaders: {value: '{}'},
+        sipRequestHeadersType: {value: 'json'},
+        sipRequestContentType: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'sip_request' || v.length > 0;
+        }},
+        sipRequestContentTypeType: {value: 'str'},
+        sipRequestBody: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'sip_request' || v.length > 0;
+        }},
+        sipRequestBodyType: {value: 'str'},
+        siprecServerURL: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'start_call_recording' || v.length > 0;
+        }},
+        siprecServerURLType: {value: 'str'},
+        siprecHeaders: {value: []},
+        recordingID: {value: ''},
+        recordingIDType: {value: 'str'},
+        dtmfDigit: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'send_dtmf' || v.length > 0;
+        }},
+        dtmfDigitType: {value: 'str'},
+        dtmfDuration: {value: '', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'send_dtmf' || v.length > 0;
+        }},
+        dtmfDurationType: {value: 'str'},
+        tag: {value: '{}', validate: function(v) {
+          const action = $('#node-input-action').val();
+          return action !== 'tag' || v.length > 0;
+        }},
+        tagType: {value: 'json'},
+      },
+      inputs:1,
+      outputs:1,
+      icon: "font-awesome/fa-cubes",
+      paletteLabel: "Live Call Control",
+      label: function() { 
+        return this.name || (this.action ? `LCC - ${this.action}` : 'LCC');
+      },
+      oneditprepare: function() {
+        var node = this;
+        var actionElem = $('#node-input-action');
+        var vendorElem = $('#node-input-vendor');
+        var langElem = $('#node-input-lang');
+        var voiceElem = $('#node-input-voice');
+        var sayDiv = $('#say-options');
+        var redirectDiv = $('#redirect-options');
+        var waitHookDiv = $('#wait-options');
+        var recordDiv = $('#record-options');
+        var sipRequestDiv = $('#sip-request-options');
+        var dtmfDiv = $('#dtmf-options');
+        var tagDiv = $('#tag-options');
+
+        $('#node-input-callSid').typedInput({
+          default: $('#node-input-callSidType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-callSidType')
+        });
+        $('#node-input-callHook').typedInput({
+          default: $('#node-input-callHookType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-callHookType')
+        });
+        $('#node-input-childCallHook').typedInput({
+          default: $('#node-input-childCallHookType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-childCallHookType')
+        });
+        $('#node-input-waitHook').typedInput({
+          default: $('#node-input-waitHookType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-waitHookType')
+        });
+        $('#node-input-sipRequestContentType').typedInput({
+          default: $('#node-input-sipRequestContentTypeType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-sipRequestContentTypeType')
+        });
+        $('#node-input-sipRequestBody').typedInput({
+          default: $('#node-input-sipRequestBodyType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-sipRequestBodyType')
+        });
+        $('#node-input-sipRequestHeaders').typedInput({
+          default: $('#node-input-sipRequestHeadersType').val(),
+          types: ['msg', 'flow', 'global', 'json', 'jsonata'],
+          typeField: $('#node-input-sipRequestHeadersType')
+        });
+        $('#node-input-siprecServerURL').typedInput({
+          default: $('#node-input-siprecServerURLType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-siprecServerURLType')
+        });
+        $('#node-input-recordingID').typedInput({
+          default: $('#node-input-recordingIDType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-recordingIDType')
+        });
+        $('#node-input-dtmfDigit').typedInput({
+          default: $('#node-input-dtmfDigitType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-dtmfDigitType')
+        });
+        $('#node-input-dtmfDuration').typedInput({
+          default: $('#node-input-dtmfDurationType').val(),
+          types: ['str','msg', 'flow', 'global', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-dtmfDurationType')
+        });
+        $('#node-input-tag').typedInput({
+          default: $('#node-input-tagType').val(),
+          types: ['msg', 'flow', 'global', 'json', 'jsonata', 'env', mustacheType],
+          typeField: $('#node-input-tagType')
+        });
+
+        var onActionChanged = function () {
+          var selectedAction = actionElem.find(':selected').val();
+          if ('whisper' === selectedAction) sayDiv.show();
+          else sayDiv.hide();
+          if ('redirect' === selectedAction) redirectDiv.show();
+          else redirectDiv.hide();
+          if ('hold_conf' === selectedAction) waitHookDiv.show();
+          else waitHookDiv.hide();
+          if ('start_call_recording' === selectedAction) recordDiv.show();
+          else recordDiv.hide();
+          if ('sip_request' === selectedAction) sipRequestDiv.show();
+          else sipRequestDiv.hide();
+          if ('send_dtmf' === selectedAction) dtmfDiv.show();
+          else dtmfDiv.hide();
+          if ('tag' === selectedAction) tagDiv.show();
+          else tagDiv.hide();
+        }
+
+        var onVendorChanged = function() {
+          node.vendor = vendorElem.find(':selected').val();
+          console.log(`say vendor changed to ${node.vendor}`);
+          setLanguage(node.vendor);
+        }
+
+        var onLangChanged = function() {
+          node.lang = langElem.find(':selected').val();
+          console.log(`language changed to ${node.lang}`);
+          setVoice(node.vendor, node.lang)
+        }
+      
+        var onVoiceChanged = function() {
+          node.voice = voiceElem.find(':selected').val();
+          console.log(`voice changed to ${node.voice}`);
+        }
+
+        var setLanguage = function(v) {
+          langElem.find('option').remove();
+          voiceElem.find('option').remove();
+
+          switch (v) {
+            case 'default': 
+              langElem.append('<option value="default" selected>--application default--</option>');
+              voiceElem.append('<option value="default" selected>--application default--</option>');
+              node.lang = 'default';
+              node.voice = 'default';
+              break;
+
+            case 'google':
+              langElem.append(googleLanguageOptions);
+              break;
+
+            case 'aws':
+              langElem.append(awsLanguageOptions);
+              break;
+          }
+          langElem.val(node.lang);
+        }
+
+        var setVoice = function(vendor, lang) {
+          console.log(`say set voice for language ${lang} vendor ${vendor}`);
+          voiceElem.find('option').remove();
+
+          switch (vendor) {
+            case 'default':
+              voiceElem.append('<option value="default" selected>--application default--</option>');
+              break;
+
+            case 'google':
+            case 'aws':
+              var obj = 'google' === vendor ? mapGoogle[lang] : mapAws[lang];
+              if (obj) {
+                var options = '';
+                for (var i = 0; i < obj.voices.length; i++) {
+                  if (i) options += `<option value="${obj.voices[i].value}">${obj.voices[i].name}</option>`;
+                  else options += `<option value="${obj.voices[i].value}">${obj.voices[i].name}</option>`;
+                }
+                voiceElem.append(options);
+              }
+              break;
+          }
+          voiceElem.val(node.voice);
+        }
+
+        actionElem.change(onActionChanged);
+        vendorElem.change(onVendorChanged);
+        langElem.change(onLangChanged);
+        voiceElem.change(onVoiceChanged);
+
+        $('#node-input-siprecHeaders-container').css('min-height','120px').css('min-width','450px').editableList({
+          addItem: function(container, i, opt) {
+            var header = opt;
+            if (!header.hasOwnProperty('h')) {
+                header = {h: '', v: ''};
+            }
+            container.css({
+              overflow: 'hidden',
+              whiteSpace: 'nowrap'
+            });
+            let fragment = document.createDocumentFragment();
+            var row1 = $('<div/>',{style:"display:flex;"}).appendTo(fragment);
+            $('<input/>', {
+              class:"node-input-header-property-name", 
+              type:"text", 
+              placeholder: 'SIP Header'
+            })
+              .appendTo(row1);
+            $('<input/>', {
+              class:"node-input-value-property-name", 
+              type:"text", 
+              placeholder: 'value'
+            })
+              .appendTo(row1);
+            row1.find('.node-input-header-property-name').val(header.h);
+            row1.find('.node-input-value-property-name').val(header.v);
+            container[0].appendChild(fragment);
+          },
+          removable: true
+        });
+        if (!this.siprecHeaders) {
+          var header = {
+            h: '',
+            v: '',
+          };
+          this.siprecHeaders = [header];
+        }
+        for (var i=0; i < this.siprecHeaders.length; i++) {
+            var header = this.siprecHeaders[i];
+            $("#node-input-siprecHeaders-container").editableList('addItem', header);
+        }
+      },
+      oneditsave: function () {
+        var node = this;
+        var headers = [];
+        $("#node-input-siprecHeaders-container").editableList('items').each(function(i) {
+          var header = $(this);
+          var h = header.find(".node-input-header-property-name").val();
+          var v = header.find(".node-input-value-property-name").val();
+          var obj = {};
+          obj[h] = v;
+          headers.push({h, v});
+        });
+        node.siprecHeaders = headers;
+      }
+  });
+</script>
+
+<!-- HTML -->
+<script type="text/html" data-template-name="lcc">
+  <div class="form-row">
+      <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+      <input type="text" id="node-input-name" placeholder="Name">
+  </div>
+  <div class="form-row">
+    <label for="node-input-server">Server</label>
+    <input type="text" id="node-input-server">
+  </div>
+  <div class="form-row">
+    <label for="node-input-callSid">CallSid</label>
+    <input type="text" id="node-input-callSid">
+    <input type="hidden" id="node-input-callSidType">
+  </div>
+  <div class="form-row">
+    <label for="node-input-action">Action</label>
+    <select id="node-input-action">
+      <option value="hangup">hangup call</option>
+      <option value="mute">mute caller</option>
+      <option value="unmute">unmute caller</option>
+      <option value="mute_conf">mute conference participants</option>
+      <option value="unmute_conf">unmute conference participants</option>
+      <option value="hold_conf">hold conference participant</option>
+      <option value="unhold_conf">unhold conference participant</option>
+      <option value="pause">pause listen audio feed</option>
+      <option value="resume">resume listen audio feed</option>
+      <option value="redirect">redirect call</option>
+      <option value="whisper">whisper</option>
+      <option value="pause_transcribe">pause transcribe</option>
+      <option value="resume_transcribe">resume transcribe</option>
+      <option value="sip_request">sip request</option>
+      <option value="start_call_recording">start call recording</option>
+      <option value="stop_call_recording">stop call recording</option>
+      <option value="pause_call_recording">pause call recording</option>
+      <option value="resume_call_recording">resume call recording</option>
+      <option value="send_dtmf">send RFC 2833 DTMF</option>
+      <option value="tag">tag call</option>
+    </select>
+  </div>
+  <div id="say-options">
+    <div class="form-row">
+      <label for="node-input-text">Text</label>
+      <textarea id="node-input-text" rows="4" placeholder="Text or SSML to whisper" style="width:70%"></textarea>
+    </div>
+    <fieldset>
+      <legend>Speech synthesis options</legend>
+      <div class="form-row">
+        <label for="node-input-vendor">Vendor</label>
+        <select id="node-input-vendor">
+          <option value="default" selected>--application default--</option>
+          <option value="google">google</option>
+          <option value="aws">aws/polly</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="node-input-lang">Language</label>
+        <select id="node-input-lang">
+          <option value="default" selected>--application default--</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="node-input-voice">Voice</label>
+        <select id="node-input-voice">
+          <option value="default" selected>--application default--</option>
+        </select>
+      </div>
+    </fieldset>
+  </div>
+  <div id="redirect-options">
+    <div class="form-row">
+      <label for="node-input-callHook">Call hook</label>
+      <input type="text" id="node-input-callHook" placeholder="/path">
+      <input type="hidden" id="node-input-callHookType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-childCallHook">Child call hook</label>
+      <input type="text" id="node-input-childCallHook" placeholder="/path">
+      <input type="hidden" id="node-input-childCallHookType">
+    </div>    
+  </div>
+  <div id="wait-options">
+    <div class="form-row">
+      <label for="node-input-waitHook">Wait hook</label>
+      <input type="text" id="node-input-waitHook" placeholder="/path">
+      <input type="hidden" id="node-input-waitHookType">
+    </div>
+  </div>
+  <div id="record-options">
+    <div class="form-row">
+      <label for="node-input-siprecServerURL">SIPREC URI</label>
+      <input type="text" id="node-input-siprecServerURL" placeholder="sip:srs@recording.example.com">
+      <input type="hidden" id="node-input-siprecServerURLType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-recordingID">Recording ID</label>
+      <input type="text" id="node-input-recordingID" placeholder="545362a9-4cb3-4a55-85b8-b33ca83a6517">
+      <input type="hidden" id="node-input-recordingIDType">
+    </div>  
+    <fieldset>
+      <div class="form-row" style="margin-bottom:0;">
+        <label style="width:100%"><i class="fa fa-list"></i> <span>Add custom SIPREC headers</span></label>
+      </div>
+      <div class="form-row node-input-siprecHeaders-container-row">
+          <ol id="node-input-siprecHeaders-container"></ol>
+      </div>
+    </fieldset>
+  </div>
+  <div id="sip-request-options">
+    <div class="form-row">
+      <label for="node-input-sipRequestMethod">Method</label>
+      <select id="node-input-sipRequestMethod">
+        <option value="INFO" selected>INFO</option>
+        <option value="MESSAGE">MESSAGE</option>
+        <option value="NOTIFY">NOTIFY</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="node-input-sipRequestContentType">Content type</label>
+      <input type="text" id="node-input-sipRequestContentType" placeholder="SIP content type">
+      <input type="hidden" id="node-input-sipRequestContentTypeType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-sipRequestBody">Body</label>
+      <input type="text" id="node-input-sipRequestBody" placeholder="SIP body">
+      <input type="hidden" id="node-input-sipRequestBodyType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-sipRequestHeaders">Headers</label>
+      <input type="text" id="node-input-sipRequestHeaders" placeholder="SIP headers">
+      <input type="hidden" id="node-input-sipRequestHeadersType">
+    </div>
+  </div>
+  <div id="dtmf-options">
+    <div class="form-row">
+      <label for="node-input-dtmfDigit">DTMF digit</label>
+      <input type="text" id="node-input-dtmfDigit">
+      <input type="hidden" id="node-input-dtmfDigitType">
+    </div>
+    <div class="form-row">
+      <label for="node-input-dtmfDuration">DTMF duration</label>
+      <input type="text" id="node-input-dtmfDuration" placeholder="250">
+      <input type="hidden" id="node-input-dtmfDurationType">
+    </div>  
+  </div>
+  <div id="tag-options">
+    <div class="form-row">
+      <label for="node-input-tag">Data</label>
+      <input type="text" id="node-input-tag" placeholder="data object">
+      <input type="hidden" id="node-input-tagType">
+    </div>
+  </div>
+</script>
+
+<!-- Help Text -->
+<script type="text/html" data-help-name="lcc">
+    <p>Perform Live Call Control</p>
+    <h3>Properties</h3>
+      <p><code>Server</code> - 
+        jambonz server to connect to</p>
+      <p><code>CallSid</code> - 
+        Call identifier</p>
+      <p><code>Action</code> - 
+        Action to perform on the call</p>
+      <p><code>Text</code> - 
+        Text to speak, only if action is 'whisper'</p>
+      <p><code>Vendor</code> - 
+        TTS vendor to use for whisper</p>
+      <p><code>Language</code> - 
+        TTS language to use for whisper</p>
+      <p><code>Voice</code> - 
+        TTS voice to use for whisper</p>
+  
+  <h3>Details</h3>
+  The lcc command is used to perform live call control on a call in progress.
+  The call can be terminated, the caller can be muted or unmuted, or the live 
+  audio feed that is being sent via a <a href="https://www.jambonz.org/docs/webhooks/listen/">listen</a> verb can be paused or resumed.
+  <br/><br/>
+  A common use case is to use dtmf captures in a <a href="https://www.jambonz.org/docs/webhooks/dial/">dial</a> verb to call a webhook 
+  that then uses lcc to modify the state of the call.
+</script>

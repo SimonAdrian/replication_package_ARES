@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: item;fibaroAPINode.js:60[42:45];Sink: `node n ... odeId}`;fibaroAPINode.js:126[31:62]::FLOW_DESCR_END","/fibaroAPINode.js","60","42","60","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fibaroAPINode.js:132[39:43];Sink: error;fibaroAPINode.js:135[24:28]::FLOW_DESCR_END","/fibaroAPINode.js","132","39","132","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: warn;fibaroAPINode.js:150[37:40];Sink: warn.text;fibaroAPINode.js:151[23:31]::FLOW_DESCR_END","/fibaroAPINode.js","150","37","150","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;fibaroAPINode.js:154[38:42];Sink: error;fibaroAPINode.js:159[24:28]::FLOW_DESCR_END","/fibaroAPINode.js","154","38","154","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fibaroAPINode.js:168[39:41];Sink: msg;fibaroAPINode.js:234[27:29]::FLOW_DESCR_END","/fibaroAPINode.js","168","39","168","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;fibaroAPINode.js:239[37:39];Sink: [null, msg];fibaroAPINode.js:245[23:33]::FLOW_DESCR_END","/fibaroAPINode.js","239","37","239","39"

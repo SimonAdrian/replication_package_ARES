@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;json-stream-array.js:45[35:37];Sink: msg.filename;json-stream-array.js:18[33:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-stream-array.js:45[35:37];Sink: [msg, null];json-stream-array.js:29[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;json-stream-array.js:45[35:37];Sink: [null, msg];json-stream-array.js:34[19:29]::FLOW_DESCR_END","/json-stream-array.js","45","35","45","37"

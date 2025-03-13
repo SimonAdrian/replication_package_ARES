@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... nstring;azureiothub.js:65[42:74];Sink: 'Connec ... nString;azureiothub.js:86[22:137]::FLOW_DESCR_END","/azureiothub/azureiothub.js","65","42","65","74"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub.js:105[52:54];Sink: 'Messag ... sg.data;azureiothub.js:107[34:125]::FLOW_DESCR_END","/azureiothub/azureiothub.js","105","52","105","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;azureiothub.js:115[50:52];Sink: err.message;azureiothub.js:116[36:46]::FLOW_DESCR_END","/azureiothub/azureiothub.js","115","50","115","52"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;azureiothub.js:143[36:38];Sink: 'Sendin ... tring();azureiothub.js:46[22:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;azureiothub.js:143[36:38];Sink: 'Sendin ... tring();azureiothub.js:47[25:92]::FLOW_DESCR_END","/azureiothub/azureiothub.js","143","36","143","38"

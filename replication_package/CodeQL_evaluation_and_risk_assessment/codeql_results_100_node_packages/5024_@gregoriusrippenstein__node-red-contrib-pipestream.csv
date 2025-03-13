@@ -1,0 +1,12 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entry;archivestream.js:25[46:50];Sink: destPath;archivestream.js:34[47:54]::FLOW_DESCR_END","/nodes/archivestream.js","25","46","25","50"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: header;archivestream.js:56[58:63];Sink: destPath;archivestream.js:61[44:51]::FLOW_DESCR_END","/nodes/archivestream.js","56","58","56","63"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;archivestream.js:86[32:34];Sink: msg;archivestream.js:107[20:22]::FLOW_DESCR_END","/nodes/archivestream.js","86","32","86","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;csvstream.js:30[31:33];Sink: msg;csvstream.js:37[16:18]::FLOW_DESCR_END","/nodes/csvstream.js","30","31","30","33"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decompstream.js:57[32:34];Sink: msg;decompstream.js:66[14:16]::FLOW_DESCR_END","/nodes/decompstream.js","57","32","57","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;filestream.js:63[31:33];Sink: msg;filestream.js:76[22:24]::FLOW_DESCR_END","/nodes/filestream.js","63","31","63","33"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;httprequeststream.js:231[31:33];Sink: msg;httprequeststream.js:245[22:24]::FLOW_DESCR_END","/nodes/httprequeststream.js","231","31","231","33"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;iconvstream.js:22[32:34];Sink: msg;iconvstream.js:28[14:16]::FLOW_DESCR_END","/nodes/iconvstream.js","22","32","22","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;jsonlstream.js:69[32:34];Sink: msg;jsonlstream.js:75[14:16]::FLOW_DESCR_END","/nodes/jsonlstream.js","69","32","69","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;linestream.js:62[32:34];Sink: msg;linestream.js:69[14:16]::FLOW_DESCR_END","/nodes/linestream.js","62","32","62","34"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pipestart.js:13[31:33];Sink: msg;pipestart.js:18[18:20]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;pipestart.js:13[31:33];Sink: { ...ms ... : err };pipestart.js:22[42:63]::FLOW_DESCR_END","/nodes/pipestart.js","13","31","13","33"

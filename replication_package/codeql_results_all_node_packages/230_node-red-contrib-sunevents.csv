@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sun-events-node.js:41[29:31];Sink: Object. ... }, msg);sun-events-node.js:43[30:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sun-events-node.js:41[29:31];Sink: `calcul ... ${lng}`;sun-events-node.js:53[13:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sun-events-node.js:41[29:31];Sink: [null, payload ];sun-events-node.js:58[9:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sun-events-node.js:41[29:31];Sink: `Refres ... ISO()}`;sun-events.js:45[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sun-events-node.js:41[29:31];Sink: `Initia ... ISO()}`;sun-events.js:73[15:100]::FLOW_DESCR_END","/lib/sun-events-node.js","41","29","41","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... atitude;sun-events-node.js:45[83:107];Sink: `calcul ... ${lng}`;sun-events-node.js:53[13:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... atitude;sun-events-node.js:45[83:107];Sink: `Refres ... ISO()}`;sun-events.js:45[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... atitude;sun-events-node.js:45[83:107];Sink: `Initia ... ISO()}`;sun-events.js:73[15:100]::FLOW_DESCR_END","/lib/sun-events-node.js","45","83","45","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.cr ... ngitude;sun-events-node.js:46[84:109];Sink: `calcul ... ${lng}`;sun-events-node.js:53[13:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ngitude;sun-events-node.js:46[84:109];Sink: `Refres ... ISO()}`;sun-events.js:45[15:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.cr ... ngitude;sun-events-node.js:46[84:109];Sink: `Initia ... ISO()}`;sun-events.js:73[15:100]::FLOW_DESCR_END","/lib/sun-events-node.js","46","84","46","109"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;sunevents.js:34[32:32];Sink: e;sunevents.js:35[46:46]::FLOW_DESCR_END","/run/sunevents.js","34","32","34","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sunevents.js:38[29:31];Sink: msg;sunevents.js:39[14:16]::FLOW_DESCR_END","/run/sunevents.js","38","29","38","31"

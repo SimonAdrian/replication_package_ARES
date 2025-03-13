@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service;mdns.js:26[42:48];Sink: ""here : ... ce.name;mdns.js:27[50:73]::FLOW_DESCR_END","/mdns.js","26","42","26","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: service;mdns.js:32[44:50];Sink: ""away : ... ce.name;mdns.js:33[50:73]::FLOW_DESCR_END","/mdns.js","32","44","32","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: exception;mdns.js:38[38:46];Sink: exception.toString();mdns.js:39[24:43]::FLOW_DESCR_END","/mdns.js","38","38","38","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;mdns.js:86[35:35];Sink: e;mdns.js:87[24:24]::FLOW_DESCR_END","/mdns.js","86","35","86","35"

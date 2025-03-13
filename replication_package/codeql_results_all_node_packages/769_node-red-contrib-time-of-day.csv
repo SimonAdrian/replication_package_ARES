@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;time-of-day.js:38[32:34];Sink: [msg, null];time-of-day.js:58[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;time-of-day.js:38[32:34];Sink: [null, msg];time-of-day.js:61[19:29]::FLOW_DESCR_END","/time-of-day/time-of-day.js","38","32","38","34"

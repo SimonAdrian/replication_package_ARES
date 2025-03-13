@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: outTopic;relaynode.js:41[38:45];Sink: ""With t ... utTopic;relaynode.js:51[25:54]::FLOW_DESCR_END","/relaynode.js","41","38","41","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;relaynode.js:41[48:50];Sink: ""Messag ... "" + msg;relaynode.js:50[25:50]::FLOW_DESCR_END","/relaynode.js","41","48","41","50"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;relaynode.js:81[36:40];Sink: ""Can't  ... + error;relaynode.js:82[22:44]::FLOW_DESCR_END","/relaynode.js","81","36","81","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;relaynode.js:93[35:37];Sink: msg.payload;relaynode.js:103[25:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;relaynode.js:93[35:37];Sink: msg_toPublish;relaynode.js:106[41:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;relaynode.js:93[35:37];Sink: msg_toPublish2;relaynode.js:109[40:53]::FLOW_DESCR_END","/relaynode.js","93","35","93","37"

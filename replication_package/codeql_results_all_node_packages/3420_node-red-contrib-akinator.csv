@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;akinator.js:12[36:38];Sink: msg;akinator.js:31[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;akinator.js:12[36:38];Sink: msg;akinator.js:34[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;akinator.js:12[36:38];Sink: msg;akinator.js:41[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;akinator.js:12[36:38];Sink: msg;akinator.js:45[27:29]::FLOW_DESCR_END","/src/akinator.js","12","36","12","38"

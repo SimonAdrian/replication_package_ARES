@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;exosite-http-data.js:119[34:38];Sink: 'Failed ... evedCIK;exosite-http-data.js:127[19:55]::FLOW_DESCR_END","/exosite/exosite-http-data.js","119","34","119","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;exosite-http-data.js:137[29:31];Sink: 'Failed ... tring();exosite-http-data.js:140[17:56]::FLOW_DESCR_END","/exosite/exosite-http-data.js","137","29","137","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exosite-http-data.js:160[29:31];Sink: msg;exosite-http-data.js:203[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exosite-http-data.js:160[29:31];Sink: payload;exosite-http-data.js:206[15:21]::FLOW_DESCR_END","/exosite/exosite-http-data.js","160","29","160","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;exosite-http-data.js:200[29:31];Sink: payload;exosite-http-data.js:206[15:21]::FLOW_DESCR_END","/exosite/exosite-http-data.js","200","29","200","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;exosite-http-data.js:231[29:31];Sink: msg;exosite-http-data.js:259[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;exosite-http-data.js:231[29:31];Sink: msg;exosite-http-data.js:266[16:18]::FLOW_DESCR_END","/exosite/exosite-http-data.js","231","29","231","31"

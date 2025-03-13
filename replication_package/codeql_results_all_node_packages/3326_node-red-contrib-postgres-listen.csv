@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;pglisten.js:47[43:45];Sink: err;pglisten.js:51[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;pglisten.js:47[43:45];Sink: err;pglisten.js:52[40:42]::FLOW_DESCR_END","/pglisten.js","47","43","47","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pglisten.js:56[66:68];Sink: JSON.stringify(msg);pglisten.js:59[42:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;pglisten.js:56[66:68];Sink: msg;pglisten.js:60[43:45]::FLOW_DESCR_END","/pglisten.js","56","66","56","68"

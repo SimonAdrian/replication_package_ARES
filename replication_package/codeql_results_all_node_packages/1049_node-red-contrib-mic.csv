@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-red-contrib-mic.js:32[39:41];Sink: ""Error  ... "" + err;node-red-contrib-mic.js:33[13:37]::FLOW_DESCR_END","/node-red-contrib-mic.js","32","39","32","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;node-red-contrib-mic.js:88[29:31];Sink: node.msg;node-red-contrib-mic.js:28[15:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-mic.js:88[29:31];Sink: node.msg;node-red-contrib-mic.js:42[15:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-mic.js:88[29:31];Sink: node.msg;node-red-contrib-mic.js:55[15:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;node-red-contrib-mic.js:88[29:31];Sink: ""Event  ... payload;node-red-contrib-mic.js:89[13:41]::FLOW_DESCR_END","/node-red-contrib-mic.js","88","29","88","31"

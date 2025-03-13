@@ -1,0 +1,42 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.error;1-delovod-utils.js:131[39:48];Sink: err.stack;delovod-api-request-v2.js:36[23:31]::FLOW_DESCR_END","/1-delovod-utils.js","131","39","131","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-api-request-v2.js:7[32:34];Sink: [msg, null];delovod-api-request-v2.js:10[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-api-request-v2.js:7[32:34];Sink: [null, msg];delovod-api-request-v2.js:33[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-api-request-v2.js:7[32:34];Sink: [msg, null];delovod-api-request-v2.js:43[21:31]::FLOW_DESCR_END","/delovod-api-request-v2.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-api-request.js:7[32:34];Sink: msg;delovod-api-request.js:11[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-api-request.js:7[32:34];Sink: msg;delovod-api-request.js:21[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-api-request.js:7[32:34];Sink: msg;delovod-api-request.js:30[21:23]::FLOW_DESCR_END","/delovod-api-request.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [msg, null];delovod-catalog-good.js:19[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [msg, null];delovod-catalog-good.js:47[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [msg, null];delovod-catalog-good.js:69[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [null, msg];delovod-catalog-good.js:81[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [null, msg];delovod-catalog-good.js:96[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [null, msg];delovod-catalog-good.js:110[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [msg, null];delovod-catalog-good.js:113[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-catalog-good.js:14[32:34];Sink: [msg, null];delovod-catalog-good.js:121[21:31]::FLOW_DESCR_END","/delovod-catalog-good.js","14","32","14","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-create-item.js:12[38:40];Sink: [msg, null];delovod-create-item.js:21[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-create-item.js:12[38:40];Sink: [null, msg];delovod-create-item.js:63[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-create-item.js:12[38:40];Sink: [msg, null];delovod-create-item.js:70[19:29]::FLOW_DESCR_END","/delovod-create-item.js","12","38","12","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-del-doc.js:9[32:34];Sink: msg;delovod-del-doc.js:14[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-del-doc.js:9[32:34];Sink: [null, msg];delovod-del-doc.js:29[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-del-doc.js:9[32:34];Sink: [msg, null];delovod-del-doc.js:33[21:31]::FLOW_DESCR_END","/delovod-del-doc.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-get-item.js:9[32:34];Sink: msg;delovod-get-item.js:13[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-item.js:9[32:34];Sink: [null, msg];delovod-get-item.js:54[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-item.js:9[32:34];Sink: [msg, null];delovod-get-item.js:59[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-item.js:9[32:34];Sink: [msg, null];delovod-get-item.js:68[28:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-item.js:9[32:34];Sink: [null, msg];delovod-get-item.js:77[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-item.js:9[32:34];Sink: [msg, null];delovod-get-item.js:81[21:31]::FLOW_DESCR_END","/delovod-get-item.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-get-items.js:7[32:34];Sink: msg;delovod-get-items.js:13[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-items.js:7[32:34];Sink: [msg, null];delovod-get-items.js:76[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-items.js:7[32:34];Sink: [null, msg];delovod-get-items.js:79[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-get-items.js:7[32:34];Sink: [msg, null];delovod-get-items.js:90[21:31]::FLOW_DESCR_END","/delovod-get-items.js","7","32","7","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.config.host;delovod-get-items.js:53[19:34];Sink: url;delovod-get-items.js:68[15:17]::FLOW_DESCR_END","/delovod-get-items.js","53","19","53","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-post-document.js:10[32:34];Sink: [msg, null];delovod-post-document.js:15[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-post-document.js:10[32:34];Sink: [null, msg];delovod-post-document.js:29[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-post-document.js:10[32:34];Sink: [msg, null];delovod-post-document.js:33[21:31]::FLOW_DESCR_END","/delovod-post-document.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-register.js:9[32:34];Sink: msg;delovod-register.js:13[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-register.js:9[32:34];Sink: [null, msg];delovod-register.js:43[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-register.js:9[32:34];Sink: [msg, null];delovod-register.js:47[21:31]::FLOW_DESCR_END","/delovod-register.js","9","32","9","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-tablepart-tpGoods.js:10[32:34];Sink: msg;delovod-tablepart-tpGoods.js:35[17:19]::FLOW_DESCR_END","/delovod-tablepart-tpGoods.js","10","32","10","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;delovod-tablepart.js:9[32:34];Sink: [msg, null];delovod-tablepart.js:12[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-tablepart.js:9[32:34];Sink: [null, msg];delovod-tablepart.js:34[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;delovod-tablepart.js:9[32:34];Sink: [msg, null];delovod-tablepart.js:37[19:29]::FLOW_DESCR_END","/delovod-tablepart.js","9","32","9","34"

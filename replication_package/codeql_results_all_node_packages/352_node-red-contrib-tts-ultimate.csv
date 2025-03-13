@@ -1,0 +1,12 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ownfileultimate.js:15[36:38];Sink: msg;ownfileultimate.js:19[27:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ownfileultimate.js:15[36:38];Sink: msg;ownfileultimate.js:23[31:33]::FLOW_DESCR_END","/ttsultimate/ownfileultimate.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ttsultimate-config.js:198[42:46];Sink: 'ttsult ... message;ttsultimate-config.js:199[39:156]::FLOW_DESCR_END","/ttsultimate/ttsultimate-config.js","198","42","198","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;ttsultimate-config.js:645[58:62];Sink: ""ttsult ... + error;ttsultimate-config.js:646[43:150]::FLOW_DESCR_END","/ttsultimate/ttsultimate-config.js","645","58","645","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;ttsultimate-config.js:674[51:51];Sink: ""ttsult ... "" "" + e;ttsultimate-config.js:675[31:138]::FLOW_DESCR_END","/ttsultimate/ttsultimate-config.js","674","51","674","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: addPlayer.host;ttsultimate.js:861[118:131];Sink: ""ttsult ... t || """";ttsultimate.js:861[30:137]::FLOW_DESCR_END","/ttsultimate/ttsultimate.js","861","118","861","131"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;ttsultimate.js:899[32:34];Sink: _Uri;ttsultimate.js:230[75:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttsultimate.js:899[32:34];Sink: ""Salvel ... ePlayed;ttsultimate.js:686[31:64]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttsultimate.js:899[32:34];Sink: node.sFileToBePlayed;ttsultimate.js:687[36:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttsultimate.js:899[32:34];Sink: ""ttsult ... ePlayed;ttsultimate.js:746[31:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;ttsultimate.js:899[32:34];Sink: ""ttsult ... message;ttsultimate.js:807[31:112]::FLOW_DESCR_END","/ttsultimate/ttsultimate.js","899","32","899","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;ttsultimate.js:1163[32:36];Sink: data;ttsultimate.js:687[58:61]::FLOW_DESCR_END","/ttsultimate/ttsultimate.js","1163","32","1163","36"

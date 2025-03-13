@@ -1,0 +1,138 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: msg;SQLQuery.js:35[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQLQuery.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/SQLQuery.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;authenticateSap.js:30[29:31];Sink: company;authenticateSap.js:34[83:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:30[29:31];Sink: user;authenticateSap.js:40[82:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:30[29:31];Sink: msg;authenticateSap.js:68[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;authenticateSap.js:30[29:31];Sink: msg;authenticateSap.js:74[17:19]::FLOW_DESCR_END","/nodes/authenticateSap.js","30","29","30","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: msg;closeSap.js:24[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;closeSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/closeSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;createSQLQuery.js:59[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSQLQuery.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/createSQLQuery.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: msg;createSap.js:28[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;createSap.js:12[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/createSap.js","12","29","12","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;crossJoinSap.js:26[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;crossJoinSap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/crossJoinSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: msg;deleteSap.js:24[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;deleteSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/deleteSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;getSap.js:23[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/getSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;listSap.js:26[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;listSap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/listSap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;manipulateEntitySap.js:30[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;manipulateEntitySap.js:14[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/manipulateEntitySap.js","14","29","14","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;nextLink.js:6[29:31];Sink: [null, msg];nextLink.js:10[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;nextLink.js:6[29:31];Sink: [msg, null];nextLink.js:14[17:27]::FLOW_DESCR_END","/nodes/nextLink.js","6","29","6","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: msg;patchSap.js:29[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;patchSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/patchSap.js","13","29","13","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: msg;serviceSap.js:29[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:115[24:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:118[42:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: msg;support.js:128[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: msg;support.js:139[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... }.host`;support.js:326[36:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[37:76]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... }.port`;support.js:327[111:150]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[40:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... ostfix`;support.js:328[117:159]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... ersion`;support.js:329[39:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;serviceSap.js:13[29:31];Sink: `SAP_B1 ... eaders`;support.js:334[39:81]::FLOW_DESCR_END","/nodes/serviceSap.js","13","29","13","31"

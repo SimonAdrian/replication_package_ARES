@@ -1,0 +1,51 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rocketchat-create.js:11[35:37];Sink: {\n\t\t\t\t\t ... \n\t\t\t\t\t};rocketchat-create.js:24[16:6]::FLOW_DESCR_END","/rocketchat-create.js","11","35","11","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... tlight`;rocketchat.js:5[38:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... create`;rocketchat.js:18[7:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... essage`;rocketchat.js:31[7:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... ns.get`;rocketchat.js:43[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... getOne`;rocketchat.js:52[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... istory`;rocketchat.js:79[40:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... s.read`;rocketchat.js:97[7:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... create`;rocketchat.js:110[7:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... create`;rocketchat.js:123[7:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-create.js:12[12:15];Sink: `${host ... s.info`;rocketchat.js:135[38:64]::FLOW_DESCR_END","/rocketchat-create.js","12","12","12","15"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... tlight`;rocketchat.js:5[38:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... create`;rocketchat.js:18[7:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... essage`;rocketchat.js:31[7:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... ns.get`;rocketchat.js:43[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... getOne`;rocketchat.js:52[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... istory`;rocketchat.js:79[40:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... s.read`;rocketchat.js:97[7:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... create`;rocketchat.js:110[7:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... create`;rocketchat.js:123[7:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host: configHost;rocketchat-in.js:20[13:28];Sink: `${host ... s.info`;rocketchat.js:135[38:64]::FLOW_DESCR_END","/rocketchat-in.js","20","13","20","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... tlight`;rocketchat.js:5[38:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... create`;rocketchat.js:18[7:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... essage`;rocketchat.js:31[7:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... ns.get`;rocketchat.js:43[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... getOne`;rocketchat.js:52[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... istory`;rocketchat.js:79[40:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... s.read`;rocketchat.js:97[7:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... create`;rocketchat.js:110[7:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... create`;rocketchat.js:123[7:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-out.js:27[15:18];Sink: `${host ... s.info`;rocketchat.js:135[38:64]::FLOW_DESCR_END","/rocketchat-out.js","27","15","27","18"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... tlight`;rocketchat.js:5[38:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... create`;rocketchat.js:18[7:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... essage`;rocketchat.js:31[7:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... ns.get`;rocketchat.js:43[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... getOne`;rocketchat.js:52[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... istory`;rocketchat.js:79[40:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... s.read`;rocketchat.js:97[7:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... create`;rocketchat.js:110[7:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... create`;rocketchat.js:123[7:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat-server.js:29[13:16];Sink: `${host ... s.info`;rocketchat.js:135[38:64]::FLOW_DESCR_END","/rocketchat-server.js","29","13","29","16"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... tlight`;rocketchat.js:5[38:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... create`;rocketchat.js:18[7:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... essage`;rocketchat.js:31[7:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... ns.get`;rocketchat.js:43[38:71]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... getOne`;rocketchat.js:52[38:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... istory`;rocketchat.js:79[40:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... s.read`;rocketchat.js:97[7:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... create`;rocketchat.js:110[7:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... create`;rocketchat.js:123[7:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: host;rocketchat.js:3[21:24];Sink: `${host ... s.info`;rocketchat.js:135[38:64]::FLOW_DESCR_END","/rocketchat.js","3","21","3","24"

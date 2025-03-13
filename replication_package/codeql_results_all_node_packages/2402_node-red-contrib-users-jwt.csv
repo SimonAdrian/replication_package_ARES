@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;users_isloggedin.js:40[32:34];Sink: [null, msg];users_isloggedin.js:48[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;users_isloggedin.js:40[32:34];Sink: [msg, null];users_isloggedin.js:60[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;users_isloggedin.js:40[32:34];Sink: [null, msg];users_isloggedin.js:65[21:31]::FLOW_DESCR_END","/nodes/users_isloggedin.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: user.username;users.js:78[40:52];Sink: 'Authen ... sername;users.js:78[13:52]::FLOW_DESCR_END","/users.js","78","40","78","52"

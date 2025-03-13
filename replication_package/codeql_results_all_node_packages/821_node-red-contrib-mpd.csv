@@ -1,0 +1,14 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.host;mpd.js:31[17:22];Sink: 'Error: ... ' + err;mpd.js:71[18:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mpd.js:31[17:22];Sink: 'Connec ... de.port;mpd.js:74[18:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.host;mpd.js:31[17:22];Sink: 'Discon ... de.port;mpd.js:81[20:78]::FLOW_DESCR_END","/mpd/mpd.js","31","17","31","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: n.port;mpd.js:32[17:22];Sink: 'Error: ... ' + err;mpd.js:71[18:130]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;mpd.js:32[17:22];Sink: 'Connec ... de.port;mpd.js:74[18:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: n.port;mpd.js:32[17:22];Sink: 'Discon ... de.port;mpd.js:81[20:78]::FLOW_DESCR_END","/mpd/mpd.js","32","17","32","22"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mpd.js:70[39:41];Sink: 'Error: ... ' + err;mpd.js:71[18:130]::FLOW_DESCR_END","/mpd/mpd.js","70","39","70","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;mpd.js:71[68:76];Sink: 'Error: ... ' + err;mpd.js:71[18:130]::FLOW_DESCR_END","/mpd/mpd.js","71","68","71","76"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;mpd.js:71[86:94];Sink: 'Error: ... ' + err;mpd.js:71[18:130]::FLOW_DESCR_END","/mpd/mpd.js","71","86","71","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;mpd.js:74[47:55];Sink: 'Connec ... de.port;mpd.js:74[18:73]::FLOW_DESCR_END","/mpd/mpd.js","74","47","74","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;mpd.js:74[65:73];Sink: 'Connec ... de.port;mpd.js:74[18:73]::FLOW_DESCR_END","/mpd/mpd.js","74","65","74","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.host;mpd.js:81[52:60];Sink: 'Discon ... de.port;mpd.js:81[20:78]::FLOW_DESCR_END","/mpd/mpd.js","81","52","81","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;mpd.js:81[70:78];Sink: 'Discon ... de.port;mpd.js:81[20:78]::FLOW_DESCR_END","/mpd/mpd.js","81","70","81","78"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: m;mpd.js:108[31:31];Sink: message;mpd.js:129[23:29]::FLOW_DESCR_END","/mpd/mpd.js","108","31","108","31"

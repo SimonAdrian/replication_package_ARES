@@ -1,0 +1,8 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;address.js:18[36:38];Sink: [null, msg];address.js:28[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;address.js:18[36:38];Sink: [msg, null];address.js:68[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;address.js:18[36:38];Sink: [null, msg];address.js:77[23:33]::FLOW_DESCR_END","/address.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;login.js:22[36:38];Sink: [msg, null];login.js:53[27:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;login.js:22[36:38];Sink: [null, msg];login.js:61[27:37]::FLOW_DESCR_END","/login.js","22","36","22","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;monitor.js:18[36:38];Sink: [null, msg];monitor.js:28[19:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monitor.js:18[36:38];Sink: [msg, null];monitor.js:69[23:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;monitor.js:18[36:38];Sink: [null, msg];monitor.js:78[23:33]::FLOW_DESCR_END","/monitor.js","18","36","18","38"

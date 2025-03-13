@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;book.js:7[29:31];Sink: msg;book.js:18[14:16]::FLOW_DESCR_END","/book.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cell.js:7[29:31];Sink: RED._("" ... address;cell.js:13[23:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cell.js:7[29:31];Sink: msg;cell.js:21[14:16]::FLOW_DESCR_END","/cell.js","7","29","7","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sheet-to-json.js:15[29:31];Sink: msg;sheet-to-json.js:27[14:16]::FLOW_DESCR_END","/sheet-to-json.js","15","29","15","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sheet.js:7[29:31];Sink: msg;sheet.js:12[14:16]::FLOW_DESCR_END","/sheet.js","7","29","7","31"

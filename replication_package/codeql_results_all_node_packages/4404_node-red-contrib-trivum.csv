@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""tc zon ... ad.zone;trivum-control.js:22[19:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""tc cmd ... command;trivum-control.js:23[19:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""tc val ... d.value;trivum-control.js:24[19:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""Zone s ... ad.zone;trivum-control.js:28[23:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""Comman ... command;trivum-control.js:42[28:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""Value  ... d.value;trivum-control.js:47[28:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;trivum-control.js:15[33:35];Sink: ""Send: ""+tosend;trivum-control.js:101[28:42]::FLOW_DESCR_END","/trivum/trivum-control.js","15","33","15","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;trivum-event.js:34[40:46];Sink: ""tact s ... message;trivum-event.js:41[28:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;trivum-event.js:34[40:46];Sink: ""tact s ... message;trivum-event.js:43[28:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;trivum-event.js:34[40:46];Sink: ""tact i ... message;trivum-event.js:50[25:77]::FLOW_DESCR_END","/trivum/trivum-event.js","34","40","34","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote;trivum-event.js:34[49:54];Sink: ""tact i ... message;trivum-event.js:50[25:77]::FLOW_DESCR_END","/trivum/trivum-event.js","34","49","34","54"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;trivum-event.js:56[49:57];Sink: ""trivum ... de.port;trivum-event.js:56[22:57]::FLOW_DESCR_END","/trivum/trivum-event.js","56","49","56","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;trivum-status.js:19[34:36];Sink: msg;trivum-status.js:38[38:40]::FLOW_DESCR_END","/trivum/trivum-status.js","19","34","19","36"

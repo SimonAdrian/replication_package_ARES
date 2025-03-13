@@ -1,0 +1,25 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;batch-operations.js:93[38:40];Sink: msg;batch-operations.js:94[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batch-operations.js:93[38:40];Sink: msg;batch-operations.js:97[42:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;batch-operations.js:93[38:40];Sink: msg;batch-operations.js:101[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/batch-operations/batch-operations.js","93","38","93","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;decode.js:38[38:40];Sink: msg;decode.js:53[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/decode/decode.js","38","38","38","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;encode.js:38[38:40];Sink: msg;encode.js:53[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/encode/encode.js","38","38","38","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entities.js:260[38:40];Sink: msg;entities.js:67[19:21]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entities.js:260[38:40];Sink: msg;entities.js:74[17:19]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entities.js:260[38:40];Sink: msg;entities.js:261[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entities.js:260[38:40];Sink: msg;entities.js:264[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entities.js:260[38:40];Sink: msg.payload.error;entities.js:266[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entities.js:260[38:40];Sink: msg;entities.js:268[19:21]::FLOW_DESCR_END","/src/nodes/NGSI-LD/entities/entities.js","260","38","260","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entity.js:195[38:40];Sink: config[e];lib.js:114[21:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:195[38:40];Sink: msg;entity.js:199[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:195[38:40];Sink: msg.payload.error;entity.js:201[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity.js:195[38:40];Sink: msg;entity.js:204[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/entity/entity.js","195","38","195","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entity-attribute.js:171[38:40];Sink: config[e];lib.js:114[21:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity-attribute.js:171[38:40];Sink: msg;entity-attribute.js:172[44:46]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity-attribute.js:171[38:40];Sink: msg;entity-attribute.js:175[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity-attribute.js:171[38:40];Sink: msg.payload.error;entity-attribute.js:177[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity-attribute.js:171[38:40];Sink: msg;entity-attribute.js:180[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/entity-attribute/entity-attribute.js","171","38","171","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;entity-attributes.js:145[38:40];Sink: msg;entity-attributes.js:149[38:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity-attributes.js:145[38:40];Sink: msg.payload.error;entity-attributes.js:151[20:36]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;entity-attributes.js:145[38:40];Sink: msg;entity-attributes.js:154[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/entity-attributes/entity-attributes.js","145","38","145","40"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;version.js:64[38:40];Sink: msg;version.js:71[37:39]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;version.js:64[38:40];Sink: msg;version.js:77[17:19]::FLOW_DESCR_END","/src/nodes/NGSI-LD/version/version.js","64","38","64","40"

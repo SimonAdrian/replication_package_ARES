@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;send-message-to-skill.js:14[27:30];Sink: msg;send-message-to-skill.js:6[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;send-message-to-skill.js:14[27:30];Sink: [data, undefined];send-message-to-skill.js:22[31:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;send-message-to-skill.js:14[27:30];Sink: [undefined, data];send-message-to-skill.js:26[31:47]::FLOW_DESCR_END","/send-message-to-skill.js","14","27","14","30"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;2jcie-bu-ble.js:34[32:35];Sink: `${data.address}`;2jcie-bu-ble.js:36[11:27]::FLOW_DESCR_END","/nodes/ble/src/2jcie-bu-ble.js","34","32","34","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;2jcie-bu-ble.js:48[31:33];Sink: msg;2jcie-bu-ble.js:56[17:19]::FLOW_DESCR_END","/nodes/ble/src/2jcie-bu-ble.js","48","31","48","33"

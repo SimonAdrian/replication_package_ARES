@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cost-usage.js:33[42:44];Sink: msg;cost-usage.js:49[67:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cost-usage.js:33[42:44];Sink: msg;cost-usage.js:100[27:29]::FLOW_DESCR_END","/cost-usage.js","33","42","33","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;forecast-usage.js:33[42:44];Sink: msg;forecast-usage.js:65[75:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;forecast-usage.js:33[42:44];Sink: msg;forecast-usage.js:74[31:33]::FLOW_DESCR_END","/forecast-usage.js","33","42","33","44"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;iotCloudTry.js:62[40:44];Sink: error;iotCloudTry.js:65[32:36]::FLOW_DESCR_END","/iotCloudTry.js","62","40","62","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: response;iotCloudTry.js:62[47:54];Sink: ""Please ...  errMsg;iotCloudTry.js:81[44:108]::FLOW_DESCR_END","/iotCloudTry.js","62","47","62","54"

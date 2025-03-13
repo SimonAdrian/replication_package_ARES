@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: peripheral;node-red-contrib-ble-heart-rate.js:26[32:41];Sink: ""DISCOV ... ipheral;node-red-contrib-ble-heart-rate.js:29[21:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: peripheral;node-red-contrib-ble-heart-rate.js:26[32:41];Sink: ""CONNEC ... ipheral;node-red-contrib-ble-heart-rate.js:36[25:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: peripheral;node-red-contrib-ble-heart-rate.js:26[32:41];Sink: ""DISCON ... ipheral;node-red-contrib-ble-heart-rate.js:62[25:53]::FLOW_DESCR_END","/node-red-contrib-ble-heart-rate.js","26","32","26","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-red-contrib-ble-heart-rate.js:41[56:59];Sink: 'Flag:  ...  + rri2;node-red-contrib-ble-heart-rate.js:45[31:107]::FLOW_DESCR_END","/node-red-contrib-ble-heart-rate.js","41","56","41","59"

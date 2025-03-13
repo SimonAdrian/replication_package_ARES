@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;balance.js:41[48:51];Sink: data;balance.js:42[32:35]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;balance.js:41[48:51];Sink: err;balance.js:136[18:20]::FLOW_DESCR_END","/balance.js","41","48","41","51"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;balance.js:118[35:37];Sink: msg;balance.js:136[23:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;balance.js:118[35:37];Sink: msg;balance.js:143[16:18]::FLOW_DESCR_END","/balance.js","118","35","118","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... sername;balance.js:120[19:43];Sink: username;balance.js:125[26:33]::FLOW_DESCR_END","/balance.js","120","19","120","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.cr ... assword;balance.js:121[19:43];Sink: password;balance.js:125[36:43]::FLOW_DESCR_END","/balance.js","121","19","121","43"

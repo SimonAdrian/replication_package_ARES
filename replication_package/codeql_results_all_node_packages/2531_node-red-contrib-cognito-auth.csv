@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;cognito-auth.js:52[35:37];Sink: msg;cognito-auth.js:85[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;cognito-auth.js:52[35:37];Sink: msg;cognito-auth.js:100[27:29]::FLOW_DESCR_END","/cognito-auth.js","52","35","52","37"

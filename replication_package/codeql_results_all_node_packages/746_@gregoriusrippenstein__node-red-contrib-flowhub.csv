@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;flowhub-pull.js:87[32:34];Sink: ""https: ... .trim();flowhub-pull.js:12[13:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;flowhub-pull.js:87[32:34];Sink: [\n      ...       ];flowhub-pull.js:53[27:17]::FLOW_DESCR_END","/nodes/flowhub-pull.js","87","32","87","34"

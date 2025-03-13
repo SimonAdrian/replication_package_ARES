@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sqlbuilder.js:19[23:25];Sink: msg;sqlbuilder.js:35[43:45]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlbuilder.js:19[23:25];Sink: msg;sqlbuilder.js:46[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlbuilder.js:19[23:25];Sink: msg;sqlbuilder.js:55[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;sqlbuilder.js:19[23:25];Sink: msg;sqlbuilder.js:62[14:16]::FLOW_DESCR_END","/sqlbuilder.js","19","23","19","25"

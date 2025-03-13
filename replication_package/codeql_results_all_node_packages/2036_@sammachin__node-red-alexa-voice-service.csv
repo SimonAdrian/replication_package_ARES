@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;audio.js:39[39:39];Sink: e;audio.js:39[54:54]::FLOW_DESCR_END","/libs/audio.js","39","39","39","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;avs.js:21[31:33];Sink: data.length;audio.js:9[17:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avs.js:21[31:33];Sink: msg;avs.js:176[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avs.js:21[31:33];Sink: msg;avs.js:181[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;avs.js:21[31:33];Sink: payload;avs.js:184[23:29]::FLOW_DESCR_END","/nodes/avs.js","21","31","21","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;avs.js:34[29:31];Sink: err;avs.js:34[48:50]::FLOW_DESCR_END","/nodes/avs.js","34","29","34","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;avs.js:122[33:35];Sink: err;avs.js:122[52:54]::FLOW_DESCR_END","/nodes/avs.js","122","33","122","35"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;avs.js:123[39:41];Sink: err;avs.js:123[58:60]::FLOW_DESCR_END","/nodes/avs.js","123","39","123","41"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;avs.js:143[39:41];Sink: err;avs.js:144[28:30]::FLOW_DESCR_END","/nodes/avs.js","143","39","143","41"

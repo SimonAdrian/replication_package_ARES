@@ -1,0 +1,47 @@
+{
+  "name": "node-red-contrib-ecovacs-deebot",
+  "version": "0.4.13",
+  "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+  "main": "nodes/ecovacs-deebot.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "author": "Sascha Hölzel",
+  "keywords": [
+    "node-red",
+    "ecovacs",
+    "deebot",
+    "ozmo",
+    "yeedi",
+    "vacuum",
+    "robot",
+    "airbot",
+    "air purifier",
+    "smart home",
+    "home automation"
+  ],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrbungle64/node-red-contrib-ecovacs-deebot"
+  },
+  "node-red": {
+    "version": ">=1.3.0",
+    "nodes": {
+      "ecovacs-account": "nodes/ecovacs-account.js",
+      "ecovacs-deebot": "nodes/ecovacs-deebot.js",
+      "ecovacs-deebot-command": "nodes/deebot-command.js"
+    }
+  },
+  "dependencies": {
+    "ecovacs-deebot": "0.9.6-beta.5",
+    "node-machine-id": "1.1.12"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "@types/node-red": "^1.3.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

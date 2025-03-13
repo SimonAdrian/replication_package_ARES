@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;template2xlsx.js:9[41:43];Sink: `Templa ... ePath}`;template2xlsx.js:17[32:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;template2xlsx.js:9[41:43];Sink: outputPath;template2xlsx.js:110[47:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;template2xlsx.js:9[41:43];Sink: msg;template2xlsx.js:113[27:29]::FLOW_DESCR_END","/template2xlsx.js","9","41","9","43"

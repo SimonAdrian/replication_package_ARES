@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;getProduction_FusionSolar.js:16[29:31];Sink: msg;getProduction_FusionSolar.js:26[15:17]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getProduction_FusionSolar.js:16[29:31];Sink: msg;getProduction_FusionSolar.js:48[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;getProduction_FusionSolar.js:16[29:31];Sink: msg;getProduction_FusionSolar.js:114[17:19]::FLOW_DESCR_END","/getProduction_FusionSolar.js","16","29","16","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;getProduction_FusionSolar.js:39[44:46];Sink: err;getProduction_FusionSolar.js:41[25:27]::FLOW_DESCR_END","/getProduction_FusionSolar.js","39","44","39","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;getProduction_FusionSolar.js:61[45:47];Sink: err;getProduction_FusionSolar.js:63[26:28]::FLOW_DESCR_END","/getProduction_FusionSolar.js","61","45","61","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;getProduction_FusionSolar.js:85[42:44];Sink: err;getProduction_FusionSolar.js:87[27:29]::FLOW_DESCR_END","/getProduction_FusionSolar.js","85","42","85","44"

@@ -1,0 +1,11 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-csr.js:27[36:38];Sink: msg;create-csr.js:126[22:24]::FLOW_DESCR_END","/lib/create-csr.js","27","36","27","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;generate-key-pair.js:19[36:38];Sink: msg;generate-key-pair.js:143[22:24]::FLOW_DESCR_END","/lib/generate-key-pair.js","19","36","19","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hash.js:15[36:38];Sink: msg;hash.js:63[22:24]::FLOW_DESCR_END","/lib/hash.js","15","36","15","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;list-objects.js:11[36:38];Sink: msg;list-objects.js:87[22:24]::FLOW_DESCR_END","/lib/list-objects.js","11","36","11","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;pkcs-info.js:10[36:38];Sink: msg;pkcs-info.js:73[22:24]::FLOW_DESCR_END","/lib/pkcs-info.js","10","36","10","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;sign.js:18[36:38];Sink: msg;sign.js:82[26:28]::FLOW_DESCR_END","/lib/sign.js","18","36","18","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;store-cert.js:20[36:38];Sink: msg;store-cert.js:96[22:24]::FLOW_DESCR_END","/lib/store-cert.js","20","36","20","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: this.certificate;store-cert.js:44[100:115];Sink: `Proper ... exist.`;resolve-value.js:12[29:68]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.certificate;store-cert.js:44[100:115];Sink: value;resolve-value.js:18[37:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: this.certificate;store-cert.js:44[100:115];Sink: value;resolve-value.js:20[35:39]::FLOW_DESCR_END","/lib/store-cert.js","44","100","44","115"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;verify.js:19[36:38];Sink: msg;verify.js:88[22:24]::FLOW_DESCR_END","/lib/verify.js","19","36","19","38"

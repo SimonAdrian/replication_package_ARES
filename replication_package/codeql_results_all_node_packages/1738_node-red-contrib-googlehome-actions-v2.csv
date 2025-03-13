@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;googlehome-ask.js:14[26:28];Sink: msg;googlehome-ask.js:16[22:24]::FLOW_DESCR_END","/googlehome/googlehome-ask.js","14","26","14","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;googlehome-controller.js:36[26:28];Sink: msg;googlehome-controller.js:38[25:27]::FLOW_DESCR_END","/googlehome/googlehome-controller.js","36","26","36","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;googlehome-intent.js:20[26:28];Sink: msg;googlehome-intent.js:22[22:24]::FLOW_DESCR_END","/googlehome/googlehome-intent.js","20","26","20","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;googlehome-message.js:32[26:28];Sink: msg;googlehome-message.js:34[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;googlehome-message.js:32[26:28];Sink: msg;googlehome-message.js:90[23:25]::FLOW_DESCR_END","/googlehome/googlehome-message.js","32","26","32","28"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;googlehome-send.js:30[26:28];Sink: msg;googlehome-send.js:32[22:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;googlehome-send.js:30[26:28];Sink: msg;googlehome-send.js:93[23:25]::FLOW_DESCR_END","/googlehome/googlehome-send.js","30","26","30","28"

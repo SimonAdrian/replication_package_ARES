@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;net-ping.js:18[35:39];Sink: error;net-ping.js:18[56:60]::FLOW_DESCR_END","/net-ping/net-ping.js","18","35","18","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;net-ping.js:20[35:37];Sink: msg;net-ping.js:33[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;net-ping.js:20[35:37];Sink: msg;net-ping.js:36[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;net-ping.js:20[35:37];Sink: msg;net-ping.js:40[31:33]::FLOW_DESCR_END","/net-ping/net-ping.js","20","35","20","37"

@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;osem.js:26[35:37];Sink: v;osem.js:16[53:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;osem.js:26[35:37];Sink: msg;osem.js:68[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;osem.js:26[35:37];Sink: msg.payload;osem.js:84[66:76]::FLOW_DESCR_END","/osem.js","26","35","26","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: chunk;osem.js:55[33:37];Sink: v;osem.js:16[53:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: chunk;osem.js:55[33:37];Sink: msg.payload;osem.js:84[66:76]::FLOW_DESCR_END","/osem.js","55","33","55","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;osem.js:73[30:34];Sink: `error  ... ssage}`;osem.js:74[26:66]::FLOW_DESCR_END","/osem.js","73","30","73","34"

@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-server.js:166[46:48];Sink: err;tcp-server.js:167[30:32]::FLOW_DESCR_END","/tcp-server.js","166","46","166","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;tcp-server.js:282[50:52];Sink: err;tcp-server.js:283[45:47]::FLOW_DESCR_END","/tcp-server.js","282","50","282","52"

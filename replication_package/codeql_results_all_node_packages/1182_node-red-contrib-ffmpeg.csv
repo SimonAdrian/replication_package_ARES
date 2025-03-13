@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: request;ffmpeg-stream.js:71[33:39];Sink: request;ffmpeg-stream.js:79[69:75]::FLOW_DESCR_END","/ffmpeg-stream.js","71","33","71","39"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ffmpeg-stream.js:146[22:25];Sink: data;ffmpeg-stream.js:161[41:44]::FLOW_DESCR_END","/ffmpeg-stream.js","146","22","146","25"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;ffmpeg-stream.js:227[35:38];Sink: `${data}`;ffmpeg-stream.js:228[19:27]::FLOW_DESCR_END","/ffmpeg-stream.js","227","35","227","38"

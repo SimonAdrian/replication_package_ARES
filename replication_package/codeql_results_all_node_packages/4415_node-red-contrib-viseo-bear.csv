@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;node-bear-query.js:17[27:30];Sink: data;node-bear-query.js:44[23:26]::FLOW_DESCR_END","/node-bear-query.js","17","27","17","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;node-bear-query.js:40[19:21];Sink: err;node-bear-query.js:41[38:40]::FLOW_DESCR_END","/node-bear-query.js","40","19","40","21"

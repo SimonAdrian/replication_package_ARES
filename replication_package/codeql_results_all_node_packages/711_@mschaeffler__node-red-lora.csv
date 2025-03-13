@@ -1,0 +1,20 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lorawan-packet-checkFC.js:9[34:36];Sink: data;lorawan-packet-checkFC.js:45[34:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lorawan-packet-checkFC.js:9[34:36];Sink: [msg,du ... unter}];lorawan-packet-checkFC.js:47[19:77]::FLOW_DESCR_END","/lorawan-packet-checkFC.js","9","34","9","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lorawan-packet-decoder.js:15[34:36];Sink: [msg,nu ... artMsg];lorawan-packet-decoder.js:117[31:62]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lorawan-packet-decoder.js:15[34:36];Sink: [null,msg,null,null];lorawan-packet-decoder.js:128[27:46]::FLOW_DESCR_END","/lorawan-packet-decoder.js","15","34","15","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lorawan-packet-encoder.js:27[34:36];Sink: msg.framecounter;lorawan-packet-encoder.js:34[45:60]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;lorawan-packet-encoder.js:27[34:36];Sink: ""unknow ... address;lorawan-packet-encoder.js:110[32:78]::FLOW_DESCR_END","/lorawan-packet-encoder.js","27","34","27","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lorawan-queue-message.js:11[34:36];Sink: queue;lorawan-queue-message.js:20[40:44]::FLOW_DESCR_END","/lorawan-queue-message.js","11","34","11","36"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: error;lorawan-server.js:33[38:42];Sink: error;lorawan-server.js:34[39:43]::FLOW_DESCR_END","/lorawan-server.js","33","38","33","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;lorawan-server.js:37[39:45];Sink: Buffer. ... [2],1]);lorawan-server.js:66[38:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lorawan-server.js:37[39:45];Sink: Buffer. ... [2],4]);lorawan-server.js:76[38:77]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lorawan-server.js:37[39:45];Sink: ""messag ... k.error;lorawan-server.js:84[41:99]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: message;lorawan-server.js:37[39:45];Sink: message[3];lorawan-server.js:93[56:65]::FLOW_DESCR_END","/lorawan-server.js","37","39","37","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote;lorawan-server.js:37[48:53];Sink: remote.port;lorawan-server.js:66[80:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;lorawan-server.js:37[48:53];Sink: remote.address;lorawan-server.js:66[93:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;lorawan-server.js:37[48:53];Sink: remote.port;lorawan-server.js:76[80:90]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;lorawan-server.js:37[48:53];Sink: remote.address;lorawan-server.js:76[93:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;lorawan-server.js:37[48:53];Sink: node.gateway.port;lorawan-server.js:113[138:154]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: remote;lorawan-server.js:37[48:53];Sink: node.gateway.ip;lorawan-server.js:113[157:171]::FLOW_DESCR_END","/lorawan-server.js","37","48","37","53"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: remote.port;lorawan-server.js:73[35:45];Sink: node.gateway.port;lorawan-server.js:113[138:154]::FLOW_DESCR_END","/lorawan-server.js","73","35","73","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;lorawan-server.js:103[34:36];Sink: Buffer. ... oad))]);lorawan-server.js:113[30:135]::FLOW_DESCR_END","/lorawan-server.js","103","34","103","36"

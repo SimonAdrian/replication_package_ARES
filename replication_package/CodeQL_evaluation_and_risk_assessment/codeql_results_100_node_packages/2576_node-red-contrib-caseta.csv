@@ -1,0 +1,24 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.LI ... Devices;caseta-bridge.html:188[54:75];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-bridge.html","188","54","188","75"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: impDevices[i];caseta-bridge.html:195[84:96];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-bridge.html","195","84","195","96"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.LI ... Devices;caseta-bridge.html:216[54:75];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-bridge.html","216","54","216","75"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: impDevices[i];caseta-bridge.html:221[86:98];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-bridge.html","221","86","221","98"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.LIPIdList.Zones;caseta-bridge.html:260[54:73];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-bridge.html","260","54","260","73"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: impDevices[i];caseta-bridge.html:263[78:90];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-bridge.html","263","78","263","90"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;caseta-bridge.js:85[42:45];Sink: msg;caseta-bridge.js:75[65:67]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:85[42:45];Sink: pa[1];caseta-bridge.js:95[49:53]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:85[42:45];Sink: pa[2];caseta-bridge.js:95[56:60]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:85[42:45];Sink: pa[3];caseta-bridge.js:95[63:67]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:85[42:45];Sink: pa[0];caseta-bridge.js:95[70:74]::FLOW_DESCR_END","/caseta-bridge.js","85","42","85","45"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;caseta-bridge.js:173[70:73];Sink: msg;caseta-bridge.js:75[65:67]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:173[70:73];Sink: pa[1];caseta-bridge.js:182[77:81]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:173[70:73];Sink: pa[2];caseta-bridge.js:182[84:88]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:173[70:73];Sink: pa[3];caseta-bridge.js:182[91:95]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: data;caseta-bridge.js:173[70:73];Sink: pa[0];caseta-bridge.js:182[98:102]::FLOW_DESCR_END","/caseta-bridge.js","173","70","173","73"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceType;caseta-control.html:70[77:86];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-control.html","70","77","70","86"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceValue;caseta-control.html:70[89:99];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-control.html","70","89","70","99"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;caseta-control.js:46[40:42];Sink: msg;caseta-control.js:174[60:62]::FLOW_DESCR_END","/caseta-control.js","46","40","46","42"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceType;caseta-query.html:55[72:81];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-query.html","55","72","55","81"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceValue;caseta-query.html:55[84:94];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-query.html","55","84","55","94"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceType;caseta-react.html:62[77:86];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-react.html","62","77","62","86"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: deviceValue;caseta-react.html:62[89:99];Sink: msg + "" ... fy(obj);caseta-ui.js:914[25:57]::FLOW_DESCR_END","/caseta-react.html","62","89","62","99"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: theNode;caseta-ui.js:827[53:59];Sink: ""nodeCh ... e.valid;caseta-ui.js:828[28:137]::FLOW_DESCR_END","/resources/caseta-ui.js","827","53","827","59"

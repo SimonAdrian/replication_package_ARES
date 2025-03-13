@@ -1,0 +1,6 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;telnyx.js:28[32:34];Sink: msg.payload;telnyx.js:49[42:52]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;telnyx.js:28[32:34];Sink: msg;telnyx.js:62[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;telnyx.js:28[32:34];Sink: msg;telnyx.js:67[12:14]::FLOW_DESCR_END","/telnyx/telnyx.js","28","32","28","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;telnyx.js:79[32:34];Sink: msg;telnyx.js:109[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;telnyx.js:79[32:34];Sink: msg;telnyx.js:123[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;telnyx.js:79[32:34];Sink: msg;telnyx.js:130[12:14]::FLOW_DESCR_END","/telnyx/telnyx.js","79","32","79","34"

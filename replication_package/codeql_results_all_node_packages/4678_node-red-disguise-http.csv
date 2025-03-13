@@ -1,0 +1,9 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;disguise-http.js:7[36:38];Sink: msg;disguise-http.js:13[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;disguise-http.js:7[36:38];Sink: msg;disguise-http.js:17[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;disguise-http.js:7[36:38];Sink: msg;disguise-http.js:20[44:46]::FLOW_DESCR_END","/disguise-http.js","7","36","7","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;disguise-http.js:31[36:38];Sink: msg;disguise-http.js:37[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;disguise-http.js:31[36:38];Sink: msg;disguise-http.js:41[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;disguise-http.js:31[36:38];Sink: msg;disguise-http.js:44[44:46]::FLOW_DESCR_END","/disguise-http.js","31","36","31","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;disguise-http.js:55[36:38];Sink: msg;disguise-http.js:61[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;disguise-http.js:55[36:38];Sink: msg;disguise-http.js:65[49:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;disguise-http.js:55[36:38];Sink: msg;disguise-http.js:68[44:46]::FLOW_DESCR_END","/disguise-http.js","55","36","55","38"

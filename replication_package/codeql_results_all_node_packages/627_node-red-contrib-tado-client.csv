@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;tado.js:83[27:29];Sink: apiCall;tado.js:92[38:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tado.js:83[27:29];Sink: msg;tado.js:97[30:32]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tado.js:83[27:29];Sink: msg;tado.js:99[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tado.js:83[27:29];Sink: msg;tado.js:116[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;tado.js:83[27:29];Sink: `invali ... Call}""`;tado.js:244[36:65]::FLOW_DESCR_END","/tado.js","83","27","83","29"

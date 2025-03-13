@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;25-backprop.js:10[30:32];Sink: msg;25-backprop.js:20[14:16]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;25-backprop.js:10[30:32];Sink: msg;25-backprop.js:49[16:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;25-backprop.js:10[30:32];Sink: msg;25-backprop.js:54[14:16]::FLOW_DESCR_END","/nodes/25-backprop.js","10","30","10","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;30-trainer.js:69[30:32];Sink: { ...ms ...       };30-trainer.js:95[16:11]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-trainer.js:69[30:32];Sink: {...msg ... kprop""};30-trainer.js:105[16:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-trainer.js:69[30:32];Sink: msg;30-trainer.js:118[61:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-trainer.js:69[30:32];Sink: { ...ms ...       };30-trainer.js:136[31:13]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-trainer.js:69[30:32];Sink: { ...ms ...       };30-trainer.js:187[29:11]::FLOW_DESCR_END","/nodes/30-trainer.js","69","30","69","32"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;common.js:131[35:37];Sink: { ...ms ... de.id };common.js:135[18:51]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:131[35:37];Sink: msg;common.js:142[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:131[35:37];Sink: msg;common.js:153[16:18]::FLOW_DESCR_END","/nodes/lib/common.js","131","35","131","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;common.js:244[35:37];Sink: msg;common.js:253[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:244[35:37];Sink: msg;common.js:272[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:244[35:37];Sink: msg;common.js:311[18:20]::FLOW_DESCR_END","/nodes/lib/common.js","244","35","244","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;common.js:405[35:37];Sink: 'reset- ... resetid;common.js:440[48:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:405[35:37];Sink: msg;common.js:441[48:50]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:405[35:37];Sink: msg;common.js:445[18:20]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;common.js:405[35:37];Sink: msg;common.js:506[18:20]::FLOW_DESCR_END","/nodes/lib/common.js","405","35","405","37"

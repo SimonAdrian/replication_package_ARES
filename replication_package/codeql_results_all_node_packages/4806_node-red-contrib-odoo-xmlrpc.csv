@@ -1,0 +1,18 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;create-node.js:13[36:38];Sink: msg;create-node.js:30[31:33]::FLOW_DESCR_END","/create-node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;create-node.js:15[40:42];Sink: err.body;create-node.js:3[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;create-node.js:15[40:42];Sink: err.message;create-node.js:5[20:30]::FLOW_DESCR_END","/create-node.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;read-node.js:13[36:38];Sink: msg;read-node.js:27[31:33]::FLOW_DESCR_END","/read-node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;read-node.js:15[40:42];Sink: err.body;read-node.js:3[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;read-node.js:15[40:42];Sink: err.message;read-node.js:5[20:30]::FLOW_DESCR_END","/read-node.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search-node.js:13[36:38];Sink: msg;search-node.js:30[31:33]::FLOW_DESCR_END","/search-node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;search-node.js:15[40:42];Sink: err.body;search-node.js:3[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;search-node.js:15[40:42];Sink: err.message;search-node.js:5[20:30]::FLOW_DESCR_END","/search-node.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;search-read-node.js:13[36:38];Sink: msg;search-read-node.js:30[31:33]::FLOW_DESCR_END","/search-read-node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;search-read-node.js:15[40:42];Sink: err.body;search-read-node.js:3[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;search-read-node.js:15[40:42];Sink: err.message;search-read-node.js:5[20:30]::FLOW_DESCR_END","/search-read-node.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;unlink-node.js:13[36:38];Sink: msg;unlink-node.js:27[31:33]::FLOW_DESCR_END","/unlink-node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;unlink-node.js:15[40:42];Sink: err.body;unlink-node.js:3[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;unlink-node.js:15[40:42];Sink: err.message;unlink-node.js:5[20:30]::FLOW_DESCR_END","/unlink-node.js","15","40","15","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;update-node.js:13[36:38];Sink: msg;update-node.js:30[31:33]::FLOW_DESCR_END","/update-node.js","13","36","13","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;update-node.js:15[40:42];Sink: err.body;update-node.js:3[18:25]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: err;update-node.js:15[40:42];Sink: err.message;update-node.js:5[20:30]::FLOW_DESCR_END","/update-node.js","15","40","15","42"

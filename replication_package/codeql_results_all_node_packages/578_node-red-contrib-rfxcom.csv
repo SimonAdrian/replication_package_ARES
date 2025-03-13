@@ -1,0 +1,36 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: rfxtrxPort.port;rfxcom.js:66[30:44];Sink: ""connec ...  + port;rfxcom.js:70[34:56]::FLOW_DESCR_END","/rfxcom.js","66","30","66","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:75[58:60];Sink: ""connec ... "" + msg;rfxcom.js:77[38:61]::FLOW_DESCR_END","/rfxcom.js","75","58","75","60"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: message;rfxcom.js:92[53:59];Sink: ""RFXCOM ... e + "")"";rfxcom.js:94[39:86]::FLOW_DESCR_END","/rfxcom.js","92","53","92","59"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: responseCode;rfxcom.js:92[70:81];Sink: ""RFXCOM ... e + "")"";rfxcom.js:94[39:86]::FLOW_DESCR_END","/rfxcom.js","92","70","92","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: list;rfxcom.js:97[59:62];Sink: message;rfxcom.js:105[39:45]::FLOW_DESCR_END","/rfxcom.js","97","59","97","62"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: entry.deviceId;rfxcom.js:103[87:100];Sink: message;rfxcom.js:105[39:45]::FLOW_DESCR_END","/rfxcom.js","103","87","103","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:108[55:57];Sink: ""discon ... "" + msg;rfxcom.js:109[34:55]::FLOW_DESCR_END","/rfxcom.js","108","55","108","57"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;rfxcom.js:322[43:45];Sink: ""rfx-li ... ing(16);rfxcom.js:354[35:115]::FLOW_DESCR_END","/rfxcom.js","322","43","322","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;rfxcom.js:360[43:45];Sink: ""rfx-li ... ing(16);rfxcom.js:386[35:115]::FLOW_DESCR_END","/rfxcom.js","360","43","360","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: evt;rfxcom.js:499[43:45];Sink: ""rfx-li ... ing(16);rfxcom.js:520[35:115]::FLOW_DESCR_END","/rfxcom.js","499","43","499","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:739[40:42];Sink: ""rfx-PT ... d + ""'"";rfxcom.js:759[35:119]::FLOW_DESCR_END","/rfxcom.js","739","40","739","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:846[40:42];Sink: ""rfx-ra ... d + ""'"";rfxcom.js:866[35:118]::FLOW_DESCR_END","/rfxcom.js","846","40","846","42"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rfxtrxPort.port;rfxcom.js:1466[88:107];Sink: (node.n ...  exist"";rfxcom.js:1466[35:127]::FLOW_DESCR_END","/rfxcom.js","1466","88","1466","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:1644[44:46];Sink: ""Don't  ... d + ""'"";rfxcom.js:1587[31:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:1644[44:46];Sink: ""Don't  ... d + ""'"";rfxcom.js:1632[27:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:1644[44:46];Sink: ""Input  ... device"";rfxcom.js:1735[47:143]::FLOW_DESCR_END","/rfxcom.js","1644","44","1644","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rfxtrxPort.port;rfxcom.js:1743[89:108];Sink: (node.n ...  exist"";rfxcom.js:1743[35:128]::FLOW_DESCR_END","/rfxcom.js","1743","89","1743","108"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:1885[44:46];Sink: ""Don't  ... d + ""'"";rfxcom.js:1839[31:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:1885[44:46];Sink: ""Don't  ... d + ""'"";rfxcom.js:1874[27:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:1885[44:46];Sink: ""Input  ... device"";rfxcom.js:1943[39:135]::FLOW_DESCR_END","/rfxcom.js","1885","44","1885","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:2083[44:46];Sink: (node.n ... command;rfxcom.js:2058[43:119]::FLOW_DESCR_END","/rfxcom.js","2083","44","2083","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rfxtrxPort.port;rfxcom.js:2111[91:110];Sink: (node.n ...  exist"";rfxcom.js:2111[35:130]::FLOW_DESCR_END","/rfxcom.js","2111","91","2111","110"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:2172[44:46];Sink: ""Unsupp ... command;rfxcom.js:2145[31:73]::FLOW_DESCR_END","/rfxcom.js","2172","44","2172","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rfxtrxPort.port;rfxcom.js:2200[86:105];Sink: (node.n ...  exist"";rfxcom.js:2200[35:125]::FLOW_DESCR_END","/rfxcom.js","2200","86","2200","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:2524[44:46];Sink: ""Unsupp ... d + ""'"";rfxcom.js:2367[35:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2524[44:46];Sink: ""MCZ: m ... ommand);rfxcom.js:2369[35:119]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2524[44:46];Sink: ""DIGIMA ... ommand);rfxcom.js:2407[31:110]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2524[44:46];Sink: ""Unsupp ... d + ""'"";rfxcom.js:2500[43:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2524[44:46];Sink: ""Don't  ... ommand);rfxcom.js:2502[43:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2524[44:46];Sink: ""Input  ... device"";rfxcom.js:2508[35:131]::FLOW_DESCR_END","/rfxcom.js","2524","44","2524","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rfxtrxPort.port;rfxcom.js:2548[87:106];Sink: (node.n ...  exist"";rfxcom.js:2548[35:126]::FLOW_DESCR_END","/rfxcom.js","2548","87","2548","106"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;rfxcom.js:2800[44:46];Sink: (node.n ... d + ""'"";rfxcom.js:2704[31:106]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2800[44:46];Sink: (node.n ... d + ""'"";rfxcom.js:2723[31:103]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2800[44:46];Sink: (node.n ... d + ""'"";rfxcom.js:2772[31:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;rfxcom.js:2800[44:46];Sink: (node.n ... device"";rfxcom.js:2839[47:143]::FLOW_DESCR_END","/rfxcom.js","2800","44","2800","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rfxtrxPort.port;rfxcom.js:2847[89:108];Sink: (node.n ...  exist"";rfxcom.js:2847[35:128]::FLOW_DESCR_END","/rfxcom.js","2847","89","2847","108"

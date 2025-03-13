@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-simple-weekly-scheduler",
+  "version": "0.0.14",
+  "description": "A simple weekely event scheduler",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "time-planner": "time-planner.js",
+      "time-filter": "time-filter.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyrrellsystems/node-red-contrib-simple-weekly-scheduler"
+  },
+  "bugs" : {
+    "url": "https://github.com/tyrrellsystems/node-red-contrib-simple-weekly-scheduler/issues"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": {
+    "name": "Benjamin Hardill",
+    "email": "hardillb@gmail.com",
+    "url": "http://www.hardill.me.uk/wordpress/"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "request": "^2.75.0"
+  }
+}

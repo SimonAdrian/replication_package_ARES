@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;hc-001ac.js:77[34:37];Sink: data;hc-001ac.js:78[21:24]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;hc-001ac.js:77[34:37];Sink: reslen;hc-001ac.js:78[27:32]::FLOW_DESCR_END","/src/hc-001ac.js","77","34","77","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;hc-001ac.js:107[35:37];Sink: err.message;hc-001ac.js:110[54:64]::FLOW_DESCR_END","/src/hc-001ac.js","107","35","107","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;hc-001ac.js:116[35:37];Sink: msg;hc-001ac.js:133[22:24]::FLOW_DESCR_END","/src/hc-001ac.js","116","35","116","37"

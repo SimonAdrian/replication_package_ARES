@@ -1,0 +1,79 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-archive-document.js:11[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-archive-document.js:11[42:44];Sink: msg;starke-dms-archive-document.js:46[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-archive-document.js:11[42:44];Sink: message;starke-dms-archive-document.js:50[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-archive-document.js:11[42:44];Sink: msg;starke-dms-archive-document.js:50[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-archive-document.js:11[42:44];Sink: msg;starke-dms-archive-document.js:55[65:67]::FLOW_DESCR_END","/starke-dms-archive-document.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-download-document.js:12[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-download-document.js:12[42:44];Sink: msg;starke-dms-download-document.js:64[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-download-document.js:12[42:44];Sink: message;starke-dms-download-document.js:68[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-download-document.js:12[42:44];Sink: msg;starke-dms-download-document.js:68[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-download-document.js:12[42:44];Sink: msg;starke-dms-download-document.js:73[65:67]::FLOW_DESCR_END","/starke-dms-download-document.js","12","42","12","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: msg;starke-dms-generic.js:48[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: message;starke-dms-generic.js:52[36:42]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: msg;starke-dms-generic.js:52[45:47]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: message;starke-dms-generic.js:62[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: msg;starke-dms-generic.js:62[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-generic.js:9[42:44];Sink: msg;starke-dms-generic.js:67[65:67]::FLOW_DESCR_END","/starke-dms-generic.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-get-metadata.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-get-metadata.js:9[42:44];Sink: msg;starke-dms-get-metadata.js:22[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-get-metadata.js:9[42:44];Sink: message;starke-dms-get-metadata.js:26[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-get-metadata.js:9[42:44];Sink: msg;starke-dms-get-metadata.js:26[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-get-metadata.js:9[42:44];Sink: msg;starke-dms-get-metadata.js:31[65:67]::FLOW_DESCR_END","/starke-dms-get-metadata.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: msg;starke-dms-login.js:166[39:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: msg;starke-dms-login.js:171[53:55]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: msg;starke-dms-login.js:175[105:107]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: msg;starke-dms-login.js:181[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: msg;starke-dms-login.js:186[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-login.js:9[42:44];Sink: msg;starke-dms-login.js:191[65:67]::FLOW_DESCR_END","/starke-dms-login.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-logout.js:9[42:44];Sink: msg;starke-dms-logout.js:22[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-logout.js:9[42:44];Sink: message;starke-dms-logout.js:26[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-logout.js:9[42:44];Sink: msg;starke-dms-logout.js:26[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-logout.js:9[42:44];Sink: msg;starke-dms-logout.js:31[65:67]::FLOW_DESCR_END","/starke-dms-logout.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-search.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-search.js:9[42:44];Sink: msg;starke-dms-search.js:40[81:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-search.js:9[42:44];Sink: msg;starke-dms-search.js:47[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-search.js:9[42:44];Sink: message;starke-dms-search.js:51[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-search.js:9[42:44];Sink: msg;starke-dms-search.js:51[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-search.js:9[42:44];Sink: msg;starke-dms-search.js:56[65:67]::FLOW_DESCR_END","/starke-dms-search.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-set-client.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-client.js:9[42:44];Sink: msg;starke-dms-set-client.js:28[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-client.js:9[42:44];Sink: message;starke-dms-set-client.js:32[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-client.js:9[42:44];Sink: msg;starke-dms-set-client.js:32[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-client.js:9[42:44];Sink: msg;starke-dms-set-client.js:37[65:67]::FLOW_DESCR_END","/starke-dms-set-client.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-set-doctype.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-doctype.js:9[42:44];Sink: msg;starke-dms-set-doctype.js:29[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-doctype.js:9[42:44];Sink: message;starke-dms-set-doctype.js:33[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-doctype.js:9[42:44];Sink: msg;starke-dms-set-doctype.js:33[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-doctype.js:9[42:44];Sink: msg;starke-dms-set-doctype.js:38[65:67]::FLOW_DESCR_END","/starke-dms-set-doctype.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-set-indexes.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-indexes.js:9[42:44];Sink: msg;starke-dms-set-indexes.js:28[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-indexes.js:9[42:44];Sink: message;starke-dms-set-indexes.js:32[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-indexes.js:9[42:44];Sink: msg;starke-dms-set-indexes.js:32[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-indexes.js:9[42:44];Sink: msg;starke-dms-set-indexes.js:37[65:67]::FLOW_DESCR_END","/starke-dms-set-indexes.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-set-metadata.js:10[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-metadata.js:10[42:44];Sink: msg;starke-dms-set-metadata.js:29[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-metadata.js:10[42:44];Sink: message;starke-dms-set-metadata.js:33[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-metadata.js:10[42:44];Sink: msg;starke-dms-set-metadata.js:33[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-metadata.js:10[42:44];Sink: msg;starke-dms-set-metadata.js:38[65:67]::FLOW_DESCR_END","/starke-dms-set-metadata.js","10","42","10","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-set-protection.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-protection.js:9[42:44];Sink: msg;starke-dms-set-protection.js:69[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-protection.js:9[42:44];Sink: message;starke-dms-set-protection.js:73[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-protection.js:9[42:44];Sink: msg;starke-dms-set-protection.js:73[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-protection.js:9[42:44];Sink: msg;starke-dms-set-protection.js:78[65:67]::FLOW_DESCR_END","/starke-dms-set-protection.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-set-year.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-year.js:9[42:44];Sink: msg;starke-dms-set-year.js:28[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-year.js:9[42:44];Sink: message;starke-dms-set-year.js:32[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-year.js:9[42:44];Sink: msg;starke-dms-set-year.js:32[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-set-year.js:9[42:44];Sink: msg;starke-dms-set-year.js:37[65:67]::FLOW_DESCR_END","/starke-dms-set-year.js","9","42","9","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-versionize-document.js:11[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-versionize-document.js:11[42:44];Sink: msg;starke-dms-versionize-document.js:36[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-versionize-document.js:11[42:44];Sink: message;starke-dms-versionize-document.js:40[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-versionize-document.js:11[42:44];Sink: msg;starke-dms-versionize-document.js:40[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-versionize-document.js:11[42:44];Sink: msg;starke-dms-versionize-document.js:45[65:67]::FLOW_DESCR_END","/starke-dms-versionize-document.js","11","42","11","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;starke-dms-write-log.js:9[42:44];Sink: inMsg;helpers.js:188[27:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-write-log.js:9[42:44];Sink: msg;starke-dms-write-log.js:30[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-write-log.js:9[42:44];Sink: message;starke-dms-write-log.js:34[32:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-write-log.js:9[42:44];Sink: msg;starke-dms-write-log.js:34[41:43]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;starke-dms-write-log.js:9[42:44];Sink: msg;starke-dms-write-log.js:39[65:67]::FLOW_DESCR_END","/starke-dms-write-log.js","9","42","9","44"

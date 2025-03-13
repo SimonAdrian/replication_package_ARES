@@ -1,0 +1,4 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;94-exif.js:79[35:37];Sink: msg;94-exif.js:105[35:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;94-exif.js:79[35:37];Sink: msg;94-exif.js:108[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;94-exif.js:79[35:37];Sink: msg;94-exif.js:113[100:102]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;94-exif.js:79[35:37];Sink: msg;94-exif.js:118[117:119]::FLOW_DESCR_END","/94-exif.js","79","35","79","37"

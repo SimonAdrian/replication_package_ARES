@@ -1,0 +1,7 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;localstorage.js:40[31:33];Sink: msg;localstorage.js:46[17:19]::FLOW_DESCR_END","/src/localstorage.js","40","31","40","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;localstorage.js:57[31:33];Sink: msg;localstorage.js:63[17:19]::FLOW_DESCR_END","/src/localstorage.js","57","31","57","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;localstorage.js:74[31:33];Sink: msg;localstorage.js:80[17:19]::FLOW_DESCR_END","/src/localstorage.js","74","31","74","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;localstorage.js:91[31:33];Sink: msg;localstorage.js:93[17:19]::FLOW_DESCR_END","/src/localstorage.js","91","31","91","33"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;localstorage.js:104[31:33];Sink: [msg, null];localstorage.js:107[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;localstorage.js:104[31:33];Sink: [null, msg];localstorage.js:109[21:31]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;localstorage.js:104[31:33];Sink: [null, msg];localstorage.js:113[19:29]::FLOW_DESCR_END","/src/localstorage.js","104","31","104","33"

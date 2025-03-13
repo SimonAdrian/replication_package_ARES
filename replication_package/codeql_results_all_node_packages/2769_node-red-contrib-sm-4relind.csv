@@ -1,0 +1,10 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;4relind.js:40[32:34];Sink: msg;4relind.js:94[20:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:40[32:34];Sink: msg;4relind.js:171[31:33]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:40[32:34];Sink: msg;4relind.js:173[25:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:40[32:34];Sink: msg;4relind.js:177[27:29]::FLOW_DESCR_END","/4relind.js","40","32","40","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;4relind.js:198[32:34];Sink: msg;4relind.js:252[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:198[32:34];Sink: msg;4relind.js:305[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:198[32:34];Sink: msg;4relind.js:307[27:29]::FLOW_DESCR_END","/4relind.js","198","32","198","34"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;4relind.js:328[32:34];Sink: msg;4relind.js:383[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:328[32:34];Sink: msg;4relind.js:450[21:23]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;4relind.js:328[32:34];Sink: msg;4relind.js:452[27:29]::FLOW_DESCR_END","/4relind.js","328","32","328","34"

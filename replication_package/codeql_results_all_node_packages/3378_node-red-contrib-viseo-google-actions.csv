@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;google-actions.js:19[27:30];Sink: data;google-actions.js:33[38:41]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;google-actions.js:19[27:30];Sink: data;google-actions.js:36[30:33]::FLOW_DESCR_END","/google-actions.js","19","27","19","30"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data;order-update.js:19[27:30];Sink: data;order-update.js:86[15:18]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;order-update.js:19[27:30];Sink: data;order-update.js:90[26:29]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: data;order-update.js:19[27:30];Sink: data;order-update.js:99[24:27]::FLOW_DESCR_END","/order-update.js","19","27","19","30"

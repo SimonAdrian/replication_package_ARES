@@ -1,0 +1,2 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: configs;msg-ozlogger.js:73[35:41];Sink: stringify(toLog);msg-ozlogger.js:127[25:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: configs;msg-ozlogger.js:73[35:41];Sink: stringi ...      });msg-ozlogger.js:150[25:18]::FLOW_DESCR_END","/msg-ozlogger.js","73","35","73","41"

@@ -1,0 +1,5 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;aisbreaker.js:13[31:33];Sink: { ...ms ... : err };aisbreaker.js:24[42:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aisbreaker.js:13[31:33];Sink: { \n     ...       };aisbreaker.js:56[20:15]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aisbreaker.js:13[31:33];Sink: { ...ms ... : err };aisbreaker.js:67[44:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aisbreaker.js:13[31:33];Sink: { ...ms ... : err };aisbreaker.js:71[42:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;aisbreaker.js:13[31:33];Sink: { ...ms ... : err };aisbreaker.js:76[38:59]::FLOW_DESCR_END","/nodes/aisbreaker.js","13","31","13","33"

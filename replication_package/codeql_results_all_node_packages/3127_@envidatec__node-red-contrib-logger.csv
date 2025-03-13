@@ -1,0 +1,15 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: config.port;Rest-Server.js:20[21:31];Sink: ""Server ... de.port;Rest-Server.js:52[34:73]::FLOW_DESCR_END","/Rest-Server.js","20","21","20","31"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.port;Rest-Server.js:52[65:73];Sink: ""Server ... de.port;Rest-Server.js:52[34:73]::FLOW_DESCR_END","/Rest-Server.js","52","65","52","73"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;Rest-Server.js:54[36:38];Sink: err;Rest-Server.js:55[36:38]::FLOW_DESCR_END","/Rest-Server.js","54","36","54","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: JSON.st ... ayload);SQL-Lite.js:15[22:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: msg.payload;SQL-Lite.js:61[30:40]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: payload;SQL-Lite.js:84[22:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: action  ... ayload);SQL-Lite.js:90[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: action  ... ayload);SQL-Lite.js:95[22:53]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: action + payload;SQL-Lite.js:107[22:37]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: trends;SQL-Lite.js:115[22:27]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: trendlist;SQL-Lite.js:135[22:30]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: ""aggreg ... egation;SQL-Lite.js:176[24:49]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: object;db-access.js:52[17:22]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;SQL-Lite.js:14[42:44];Sink: object;db-access.js:65[17:22]::FLOW_DESCR_END","/SQL-Lite.js","14","42","14","44"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;logger.js:18[36:38];Sink: ""Payloa ... payload;logger.js:31[32:59]::FLOW_DESCR_END","/logger.js","18","36","18","38"

@@ -1,0 +1,13 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;geofence.html:148[46:46];Sink: e;geofence.html:149[37:37]::FLOW_DESCR_END","/geofence.html","148","46","148","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;geofence.html:158[45:45];Sink: e;geofence.html:159[38:38]::FLOW_DESCR_END","/geofence.html","158","45","158","45"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;geofence.html:167[46:46];Sink: e;geofence.html:168[37:37]::FLOW_DESCR_END","/geofence.html","167","46","167","46"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;geofence.js:34[35:37];Sink: msg;geofence.js:116[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geofence.js:34[35:37];Sink: msg;geofence.js:124[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geofence.js:34[35:37];Sink: msg;geofence.js:163[26:28]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;geofence.js:34[35:37];Sink: msg;geofence.js:174[64:66]::FLOW_DESCR_END","/geofence.js","34","35","34","37"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');build.js:76[16:48];Sink: newSrc;build.js:104[29:34]::FLOW_DESCR_END","/static/Leaflet.draw/build/build.js","76","16","76","48"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: fs.read ... 'utf8');build.js:90[13:55];Sink: newSrc;build.js:104[29:34]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: fs.read ... 'utf8');build.js:90[13:55];Sink: newCompressed;build.js:123[27:39]::FLOW_DESCR_END","/static/Leaflet.draw/build/build.js","90","13","90","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;leaflet.draw-src.js:1795[27:27];Sink: e;leaflet.draw-src.js:1796[62:62]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw-src.js","1795","27","1795","27"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: t;leaflet.draw.js:8[28166:28166];Sink: t;leaflet.draw.js:8[28230:28230]::FLOW_DESCR_END","/static/Leaflet.draw/dist/leaflet.draw.js","8","28166","8","28166"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: e;Edit.SimpleShape.js:167[27:27];Sink: e;Edit.SimpleShape.js:168[62:62]::FLOW_DESCR_END","/static/Leaflet.draw/src/edit/handler/Edit.SimpleShape.js","167","27","167","27"

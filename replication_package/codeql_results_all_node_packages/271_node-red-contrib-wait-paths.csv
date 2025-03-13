@@ -1,0 +1,3 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;wait-paths.js:49[35:37];Sink: msg;wait-paths.js:53[112:114]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wait-paths.js:49[35:37];Sink: msg;wait-paths.js:75[79:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;wait-paths.js:49[35:37];Sink: msg;wait-paths.js:138[93:95]::FLOW_DESCR_END","/wait-paths.js","49","35","49","37"

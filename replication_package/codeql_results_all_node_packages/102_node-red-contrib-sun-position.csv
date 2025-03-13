@@ -1,0 +1,164 @@
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;20-time-inject.js:1193[27:29];Sink: text;20-time-inject.js:1195[81:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-time-inject.js:1193[27:29];Sink: msg;20-time-inject.js:1195[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-time-inject.js:1193[27:29];Sink: '------ ... nity });20-time-inject.js:1199[28:136]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;20-time-inject.js:1193[27:29];Sink: node.prepOutMsg(msg);20-time-inject.js:1206[22:41]::FLOW_DESCR_END","/nodes/20-time-inject.js","1193","27","1193","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ti ... ta.days;21-within-time-switch.js:205[41:71];Sink: 'invali ... meDays);21-within-time-switch.js:251[24:112]::FLOW_DESCR_END","/nodes/21-within-time-switch.js","205","41","205","71"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ti ... .months;21-within-time-switch.js:210[43:75];Sink: 'invali ... Months);21-within-time-switch.js:256[24:120]::FLOW_DESCR_END","/nodes/21-within-time-switch.js","210","43","210","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;21-within-time-switch.js:540[36:38];Sink: 'compar ... e + '""';21-within-time-switch.js:118[20:65]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-within-time-switch.js:540[36:38];Sink: 'Error  ... stamp!';21-within-time-switch.js:123[20:117]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-within-time-switch.js:540[36:38];Sink: msg;21-within-time-switch.js:542[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-within-time-switch.js:540[36:38];Sink: [msg, null];21-within-time-switch.js:570[38:48]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-within-time-switch.js:540[36:38];Sink: [msg, null];21-within-time-switch.js:585[34:44]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;21-within-time-switch.js:540[36:38];Sink: [null, msg];21-within-time-switch.js:602[26:36]::FLOW_DESCR_END","/nodes/21-within-time-switch.js","540","36","540","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;22-delay-until.js:159[27:29];Sink: msg;22-delay-until.js:161[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;22-delay-until.js:159[27:29];Sink: 'compar ... e + '""';22-delay-until.js:254[24:69]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;22-delay-until.js:159[27:29];Sink: 'Error  ... stamp!';22-delay-until.js:259[24:121]::FLOW_DESCR_END","/nodes/22-delay-until.js","159","27","159","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;30-sun-position.js:102[36:38];Sink: msg;30-sun-position.js:104[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-sun-position.js:102[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:508[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-sun-position.js:102[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:511[20:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;30-sun-position.js:102[36:38];Sink: `Error  ... stamp!`;dateTimeHelper.js:520[16:97]::FLOW_DESCR_END","/nodes/30-sun-position.js","102","36","102","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;31-moon-position.js:91[36:38];Sink: msg;31-moon-position.js:93[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-moon-position.js:91[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:508[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-moon-position.js:91[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:511[20:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;31-moon-position.js:91[36:38];Sink: `Error  ... stamp!`;dateTimeHelper.js:520[16:97]::FLOW_DESCR_END","/nodes/31-moon-position.js","91","36","91","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;60-time-comp.js:201[27:29];Sink: msg;60-time-comp.js:203[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;60-time-comp.js:201[27:29];Sink: resObj;60-time-comp.js:380[22:27]::FLOW_DESCR_END","/nodes/60-time-comp.js","201","27","201","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;61-time-span.js:421[27:29];Sink: msg;61-time-span.js:423[87:89]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;61-time-span.js:421[27:29];Sink: resObj;61-time-span.js:547[22:27]::FLOW_DESCR_END","/nodes/61-time-span.js","421","27","421","29"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.blindPos.value;80-blind-control.html:1859[64:82];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","1859","64","1859","82"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.blindPos.type;80-blind-control.html:1859[85:102];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","1859","85","1859","102"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.slatPos.value;80-blind-control.html:1888[63:80];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","1888","63","1888","80"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.slatPos.type;80-blind-control.html:1888[83:99];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","1888","83","1888","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.value;80-blind-control.html:3200[69:83];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3200","69","3200","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.type;80-blind-control.html:3200[86:99];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3200","86","3200","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.offset;80-blind-control.html:3201[70:85];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3201","70","3201","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.offsetType;80-blind-control.html:3201[88:107];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3201","88","3201","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMin.value;80-blind-control.html:3262[69:86];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3262","69","3262","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMin.type;80-blind-control.html:3262[89:105];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3262","89","3262","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMin.offset;80-blind-control.html:3263[70:88];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3263","70","3263","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ti ... setType;80-blind-control.html:3263[91:113];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3263","91","3263","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMax.value;80-blind-control.html:3271[69:86];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3271","69","3271","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMax.type;80-blind-control.html:3271[89:105];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3271","89","3271","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMax.offset;80-blind-control.html:3272[70:88];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3272","70","3272","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ti ... setType;80-blind-control.html:3272[91:113];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3272","91","3272","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.level.value;80-blind-control.html:3280[62:77];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3280","62","3280","77"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.level.type;80-blind-control.html:3280[80:94];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3280","80","3280","94"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.slat.value;80-blind-control.html:3286[61:75];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/80-blind-control.html","3286","61","3286","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.slat.type;80-blind-control.html:3286[78:91];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/80-blind-control.html","3286","78","3286","91"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: util.inspect(err);80-blind-control.js:289[22:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: 'autoTr ... rrent)';80-blind-control.js:782[32:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `Overwr ... dRule}`;80-blind-control.js:1359[36:134]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ...  match`;timeControlHelper.js:561[28:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... d days`;timeControlHelper.js:576[20:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ...  month`;timeControlHelper.js:581[20:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... n days`;timeControlHelper.js:585[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... d days`;timeControlHelper.js:589[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... n week`;timeControlHelper.js:593[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... d week`;timeControlHelper.js:597[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... n year`;timeControlHelper.js:606[28:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:642[26:43];Sink: `compar ... r year`;timeControlHelper.js:612[28:102]::FLOW_DESCR_END","/nodes/80-blind-control.js","642","26","642","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: util.inspect(err);80-blind-control.js:289[22:38]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: 'autoTr ... rrent)';80-blind-control.js:782[32:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `Overwr ... dRule}`;80-blind-control.js:1359[36:134]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ...  match`;timeControlHelper.js:561[28:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... d days`;timeControlHelper.js:576[20:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ...  month`;timeControlHelper.js:581[20:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... n days`;timeControlHelper.js:585[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... d days`;timeControlHelper.js:589[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... n week`;timeControlHelper.js:593[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... d week`;timeControlHelper.js:597[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... n year`;timeControlHelper.js:606[28:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:667[30:47];Sink: `compar ... r year`;timeControlHelper.js:612[28:102]::FLOW_DESCR_END","/nodes/80-blind-control.js","667","30","667","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rules.data[i];80-blind-control.js:788[38:55];Sink: 'autoTr ... ule.pos;80-blind-control.js:764[28:64]::FLOW_DESCR_END","/nodes/80-blind-control.js","788","38","788","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ru ... imited];80-blind-control.js:796[40:83];Sink: 'autoTr ... ule.pos;80-blind-control.js:764[28:64]::FLOW_DESCR_END","/nodes/80-blind-control.js","796","40","796","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ru ... imited];80-blind-control.js:854[32:75];Sink: 'autoTr ... ule.pos;80-blind-control.js:764[28:64]::FLOW_DESCR_END","/nodes/80-blind-control.js","854","32","854","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ru ... stFrom];80-blind-control.js:857[32:68];Sink: 'autoTr ... ule.pos;80-blind-control.js:764[28:64]::FLOW_DESCR_END","/nodes/80-blind-control.js","857","32","857","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:386[70:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:398[70:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:980[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1007[56:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: msg;80-blind-control.js:1173[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: `------ ... sg.ts}`;80-blind-control.js:1177[28:127]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1190[57:73]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1262[69:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1266[68:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1287[65:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1288[69:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1350[70:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1351[67:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1458[54:70]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: 'error  ... r + '""';80-blind-control.js:1493[44:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1507[59:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;80-blind-control.js:1508[62:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:508[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:511[20:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: `Error  ... stamp!`;dateTimeHelper.js:520[16:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: rkey;dateTimeHelper.js:2347[82:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;timeControlHelper.js:325[62:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;timeControlHelper.js:351[66:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;80-blind-control.js:1171[36:38];Sink: node.contextStore;timeControlHelper.js:367[62:78]::FLOW_DESCR_END","/nodes/80-blind-control.js","1171","36","1171","38"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.value;81-clock-timer.html:2298[69:83];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2298","69","2298","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.type;81-clock-timer.html:2298[86:99];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2298","86","2298","99"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.offset;81-clock-timer.html:2299[70:85];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2299","70","2299","85"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.time.offsetType;81-clock-timer.html:2299[88:107];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2299","88","2299","107"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMin.value;81-clock-timer.html:2360[69:86];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2360","69","2360","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMin.type;81-clock-timer.html:2360[89:105];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2360","89","2360","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMin.offset;81-clock-timer.html:2361[70:88];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2361","70","2361","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ti ... setType;81-clock-timer.html:2361[91:113];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2361","91","2361","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMax.value;81-clock-timer.html:2369[69:86];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2369","69","2369","86"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMax.type;81-clock-timer.html:2369[89:105];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2369","89","2369","105"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.timeMax.offset;81-clock-timer.html:2370[70:88];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2370","70","2370","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.ti ... setType;81-clock-timer.html:2370[91:113];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2370","91","2370","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload.value;81-clock-timer.html:2378[64:81];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2378","64","2378","81"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload.type;81-clock-timer.html:2378[84:100];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2378","84","2378","100"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.payload.offset;81-clock-timer.html:2379[70:88];Sink: value;htmlglobal.js:1052[49:53]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2379","70","2379","88"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: data.pa ... setType;81-clock-timer.html:2379[91:113];Sink: type;htmlglobal.js:1052[56:59]::FLOW_DESCR_END","/nodes/81-clock-timer.html","2379","91","2379","113"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: 'autoTr ... rrent)';81-clock-timer.js:257[32:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `Overwr ... dRule}`;81-clock-timer.js:555[36:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ...  match`;timeControlHelper.js:561[28:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... d days`;timeControlHelper.js:576[20:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ...  month`;timeControlHelper.js:581[20:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... n days`;timeControlHelper.js:585[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... d days`;timeControlHelper.js:589[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... n week`;timeControlHelper.js:593[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... d week`;timeControlHelper.js:597[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... n year`;timeControlHelper.js:606[28:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:212[26:43];Sink: `compar ... r year`;timeControlHelper.js:612[28:102]::FLOW_DESCR_END","/nodes/81-clock-timer.js","212","26","212","43"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: 'autoTr ... rrent)';81-clock-timer.js:257[32:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `Overwr ... dRule}`;81-clock-timer.js:555[36:133]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ...  match`;timeControlHelper.js:561[28:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... d days`;timeControlHelper.js:576[20:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ...  month`;timeControlHelper.js:581[20:79]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... n days`;timeControlHelper.js:585[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... d days`;timeControlHelper.js:589[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... n week`;timeControlHelper.js:593[20:83]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... d week`;timeControlHelper.js:597[20:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... n year`;timeControlHelper.js:606[28:104]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:229[30:47];Sink: `compar ... r year`;timeControlHelper.js:612[28:102]::FLOW_DESCR_END","/nodes/81-clock-timer.js","229","30","229","47"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.rules.data[i];81-clock-timer.js:263[38:55];Sink: 'autoTr ... ule.pos;81-clock-timer.js:248[28:64]::FLOW_DESCR_END","/nodes/81-clock-timer.js","263","38","263","55"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ru ... imited];81-clock-timer.js:271[40:83];Sink: 'autoTr ... ule.pos;81-clock-timer.js:248[28:64]::FLOW_DESCR_END","/nodes/81-clock-timer.js","271","40","271","83"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ru ... imited];81-clock-timer.js:336[32:75];Sink: 'autoTr ... ule.pos;81-clock-timer.js:248[28:64]::FLOW_DESCR_END","/nodes/81-clock-timer.js","336","32","336","75"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: node.ru ... stFrom];81-clock-timer.js:339[32:68];Sink: 'autoTr ... ule.pos;81-clock-timer.js:248[28:64]::FLOW_DESCR_END","/nodes/81-clock-timer.js","339","32","339","68"
+"Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `resetO ... eData}`;81-clock-timer.js:132[28:113]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `overwr ... eData}`;81-clock-timer.js:136[28:96]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `overwr ... eData}`;81-clock-timer.js:139[24:63]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:157[70:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:169[70:86]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:411[58:74]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:423[56:72]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: msg;81-clock-timer.js:443[86:88]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `------ ... sg.ts}`;81-clock-timer.js:447[28:125]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:486[69:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:490[68:84]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:507[65:81]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:508[69:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: 'error  ... r + '""';81-clock-timer.js:620[44:95]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:637[59:75]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;81-clock-timer.js:638[62:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:508[20:58]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `compar ... alue}""`;dateTimeHelper.js:511[20:56]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: `Error  ... stamp!`;dateTimeHelper.js:520[16:97]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: rkey;dateTimeHelper.js:2347[82:85]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;timeControlHelper.js:325[62:78]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;timeControlHelper.js:351[66:82]::FLOW_DESCR_END
+FLOW_DESCR_START::Source: msg;81-clock-timer.js:441[36:38];Sink: node.contextStore;timeControlHelper.js:367[62:78]::FLOW_DESCR_END","/nodes/81-clock-timer.js","441","36","441","38"

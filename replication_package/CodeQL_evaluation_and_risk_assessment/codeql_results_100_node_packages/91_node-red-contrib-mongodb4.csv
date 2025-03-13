@@ -1,0 +1,4 @@
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: msg;mongodb4.js:147[33:35];Sink: { ...ms ... yload };mongodb4.js:218[38:65]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;mongodb4.js:147[33:35];Sink: msg;mongodb4.js:225[34:36]::FLOW_DESCR_END
+TP, FLOW_DESCR_START::Source: msg;mongodb4.js:147[33:35];Sink: msg;mongodb4.js:238[26:28]::FLOW_DESCR_END","/src/mongodb4.js","147","33","147","35"
+TP, "Taint analysis NodeRED",,"warning","FLOW_DESCR_START::Source: err;mongodb4.js:232[52:54];Sink: err;mongodb4.js:233[36:38]::FLOW_DESCR_END","/src/mongodb4.js","232","52","232","54"
